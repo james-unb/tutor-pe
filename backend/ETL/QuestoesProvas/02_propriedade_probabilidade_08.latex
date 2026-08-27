@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em um circuito elétrico, pelo menos dois dos três componentes (A, B e
+  C) devem estar ativos para que o circuito funcione. A probabilidade de
+  A e B estarem ativos é \(0.38\), A e C ativos é \(0.38\) e B e C
+  ativos é \(0.32\). Sabendo que a probabilidade de todos os componentes
+  funcionarem conjuntamente é de \(0.28\), qual é a probabilidade do
+  circuito não funcionar?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.200\)
+  \item
+    \(0.363\)
+  \item
+    \(0.010\)
+  \item
+    \(0.760\)
+  \item
+    \(0.480\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Componente A ativo\\
+  B: Componente B ativo\\
+  C: Componente C ativo\\
+  Então, a probabilidade do circuito não funcionar é dada por\\
+  P(Não funcionar)
+  \(= 1 - P(A \cap B) - P(A \cap C) - P(B \cap C) + 2 \times P( A \cap B \cap C)\)\\
+  P(Não funcionar) \(= 1-0.38-0.38-0.32+2 \times 0.28 = 0.48\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um circuito elétrico, pelo menos dois dos três componentes (A, B e
+  C) devem estar ativos para que o circuito funcione. A probabilidade de
+  A e B estarem ativos é \(0.28\), A e C ativos é \(0.23\) e B e C
+  ativos é \(0.27\). Sabendo que a probabilidade de todos os componentes
+  funcionarem conjuntamente é de \(0.2\), qual é a probabilidade do
+  circuito não funcionar?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.520\)
+  \item
+    \(0.420\)
+  \item
+    \(0.620\)
+  \item
+    \(0.820\)
+  \item
+    \(0.220\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Componente A ativo\\
+  B: Componente B ativo\\
+  C: Componente C ativo\\
+  Então, a probabilidade do circuito não funcionar é dada por\\
+  P(Não funcionar)
+  \(= 1 - P(A \cap B) - P(A \cap C) - P(B \cap C) + 2 \times P( A \cap B \cap C)\)\\
+  P(Não funcionar) \(= 1-0.28-0.23-0.27+2 \times 0.2 = 0.62\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um circuito elétrico, pelo menos dois dos três componentes (A, B e
+  C) devem estar ativos para que o circuito funcione. A probabilidade de
+  A e B estarem ativos é \(0.38\), A e C ativos é \(0.29\) e B e C
+  ativos é \(0.29\). Sabendo que a probabilidade de todos os componentes
+  funcionarem conjuntamente é de \(0.24\), qual é a probabilidade do
+  circuito não funcionar?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.400\)
+  \item
+    \(0.040\)
+  \item
+    \(0.280\)
+  \item
+    \(0.520\)
+  \item
+    \(0.760\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Componente A ativo\\
+  B: Componente B ativo\\
+  C: Componente C ativo\\
+  Então, a probabilidade do circuito não funcionar é dada por\\
+  P(Não funcionar)
+  \(= 1 - P(A \cap B) - P(A \cap C) - P(B \cap C) + 2 \times P( A \cap B \cap C)\)\\
+  P(Não funcionar) \(= 1-0.38-0.29-0.29+2 \times 0.24 = 0.52\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um circuito elétrico, pelo menos dois dos três componentes (A, B e
+  C) devem estar ativos para que o circuito funcione. A probabilidade de
+  A e B estarem ativos é \(0.15\), A e C ativos é \(0.13\) e B e C
+  ativos é \(0.15\). Sabendo que a probabilidade de todos os componentes
+  funcionarem conjuntamente é de \(0.11\), qual é a probabilidade do
+  circuito não funcionar?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.570\)
+  \item
+    \(0.790\)
+  \item
+    \(0.680\)
+  \item
+    \(0.900\)
+  \item
+    \(0.735\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Componente A ativo\\
+  B: Componente B ativo\\
+  C: Componente C ativo\\
+  Então, a probabilidade do circuito não funcionar é dada por\\
+  P(Não funcionar)
+  \(= 1 - P(A \cap B) - P(A \cap C) - P(B \cap C) + 2 \times P( A \cap B \cap C)\)\\
+  P(Não funcionar) \(= 1-0.15-0.13-0.15+2 \times 0.11 = 0.79\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um circuito elétrico, pelo menos dois dos três componentes (A, B e
+  C) devem estar ativos para que o circuito funcione. A probabilidade de
+  A e B estarem ativos é \(0.31\), A e C ativos é \(0.22\) e B e C
+  ativos é \(0.29\). Sabendo que a probabilidade de todos os componentes
+  funcionarem conjuntamente é de \(0.2\), qual é a probabilidade do
+  circuito não funcionar?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.380\)
+  \item
+    \(0.580\)
+  \item
+    \(0.780\)
+  \item
+    \(0.480\)
+  \item
+    \(0.180\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Componente A ativo\\
+  B: Componente B ativo\\
+  C: Componente C ativo\\
+  Então, a probabilidade do circuito não funcionar é dada por\\
+  P(Não funcionar)
+  \(= 1 - P(A \cap B) - P(A \cap C) - P(B \cap C) + 2 \times P( A \cap B \cap C)\)\\
+  P(Não funcionar) \(= 1-0.31-0.22-0.29+2 \times 0.2 = 0.58\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um circuito elétrico, pelo menos dois dos três componentes (A, B e
+  C) devem estar ativos para que o circuito funcione. A probabilidade de
+  A e B estarem ativos é \(0.39\), A e C ativos é \(0.33\) e B e C
+  ativos é \(0.33\). Sabendo que a probabilidade de todos os componentes
+  funcionarem conjuntamente é de \(0.29\), qual é a probabilidade do
+  circuito não funcionar?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.530\)
+  \item
+    \(0.820\)
+  \item
+    \(0.010\)
+  \item
+    \(0.240\)
+  \item
+    \(0.400\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Componente A ativo\\
+  B: Componente B ativo\\
+  C: Componente C ativo\\
+  Então, a probabilidade do circuito não funcionar é dada por\\
+  P(Não funcionar)
+  \(= 1 - P(A \cap B) - P(A \cap C) - P(B \cap C) + 2 \times P( A \cap B \cap C)\)\\
+  P(Não funcionar) \(= 1-0.39-0.33-0.33+2 \times 0.29 = 0.53\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um circuito elétrico, pelo menos dois dos três componentes (A, B e
+  C) devem estar ativos para que o circuito funcione. A probabilidade de
+  A e B estarem ativos é \(0.23\), A e C ativos é \(0.31\) e B e C
+  ativos é \(0.34\). Sabendo que a probabilidade de todos os componentes
+  funcionarem conjuntamente é de \(0.23\), qual é a probabilidade do
+  circuito não funcionar?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.350\)
+  \item
+    \(0.120\)
+  \item
+    \(0.580\)
+  \item
+    \(0.810\)
+  \item
+    \(0.465\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Componente A ativo\\
+  B: Componente B ativo\\
+  C: Componente C ativo\\
+  Então, a probabilidade do circuito não funcionar é dada por\\
+  P(Não funcionar)
+  \(= 1 - P(A \cap B) - P(A \cap C) - P(B \cap C) + 2 \times P( A \cap B \cap C)\)\\
+  P(Não funcionar) \(= 1-0.23-0.31-0.34+2 \times 0.23 = 0.58\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um circuito elétrico, pelo menos dois dos três componentes (A, B e
+  C) devem estar ativos para que o circuito funcione. A probabilidade de
+  A e B estarem ativos é \(0.25\), A e C ativos é \(0.21\) e B e C
+  ativos é \(0.39\). Sabendo que a probabilidade de todos os componentes
+  funcionarem conjuntamente é de \(0.17\), qual é a probabilidade do
+  circuito não funcionar?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.405\)
+  \item
+    \(0.660\)
+  \item
+    \(0.320\)
+  \item
+    \(0.490\)
+  \item
+    \(0.150\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Componente A ativo\\
+  B: Componente B ativo\\
+  C: Componente C ativo\\
+  Então, a probabilidade do circuito não funcionar é dada por\\
+  P(Não funcionar)
+  \(= 1 - P(A \cap B) - P(A \cap C) - P(B \cap C) + 2 \times P( A \cap B \cap C)\)\\
+  P(Não funcionar) \(= 1-0.25-0.21-0.39+2 \times 0.17 = 0.49\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um circuito elétrico, pelo menos dois dos três componentes (A, B e
+  C) devem estar ativos para que o circuito funcione. A probabilidade de
+  A e B estarem ativos é \(0.2\), A e C ativos é \(0.3\) e B e C ativos
+  é \(0.35\). Sabendo que a probabilidade de todos os componentes
+  funcionarem conjuntamente é de \(0.19\), qual é a probabilidade do
+  circuito não funcionar?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.150\)
+  \item
+    \(0.435\)
+  \item
+    \(0.340\)
+  \item
+    \(0.720\)
+  \item
+    \(0.530\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Componente A ativo\\
+  B: Componente B ativo\\
+  C: Componente C ativo\\
+  Então, a probabilidade do circuito não funcionar é dada por\\
+  P(Não funcionar)
+  \(= 1 - P(A \cap B) - P(A \cap C) - P(B \cap C) + 2 \times P( A \cap B \cap C)\)\\
+  P(Não funcionar) \(= 1-0.2-0.3-0.35+2 \times 0.19 = 0.53\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um circuito elétrico, pelo menos dois dos três componentes (A, B e
+  C) devem estar ativos para que o circuito funcione. A probabilidade de
+  A e B estarem ativos é \(0.39\), A e C ativos é \(0.33\) e B e C
+  ativos é \(0.24\). Sabendo que a probabilidade de todos os componentes
+  funcionarem conjuntamente é de \(0.22\), qual é a probabilidade do
+  circuito não funcionar?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.480\)
+  \item
+    \(0.260\)
+  \item
+    \(0.370\)
+  \item
+    \(0.700\)
+  \item
+    \(0.040\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Componente A ativo\\
+  B: Componente B ativo\\
+  C: Componente C ativo\\
+  Então, a probabilidade do circuito não funcionar é dada por\\
+  P(Não funcionar)
+  \(= 1 - P(A \cap B) - P(A \cap C) - P(B \cap C) + 2 \times P( A \cap B \cap C)\)\\
+  P(Não funcionar) \(= 1-0.39-0.33-0.24+2 \times 0.22 = 0.48\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

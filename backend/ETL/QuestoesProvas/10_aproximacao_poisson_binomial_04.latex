@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o DF possui 2.562.963 habitantes (dados do CENSO 2010),
+  e que a probabilidade de um habitante da cidade acionar o SAMU em uma
+  hora qualquer do dia é de \(0.000002\). Supondo que os acionamentos ao
+  SAMU ocorram de forma independente, qual é a probabilidade de
+  observarmos exatamente \(7\) chamados ao SAMU em determinada hora no
+  DF (utilize a aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.125\)
+  \item
+    \(0.110\)
+  \item
+    \(0.875\)
+  \item
+    \(0.117\)
+  \item
+    \(0.890\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de chamados ao SAMU tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(2562963,0.000002).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 5.126).\] Portanto, a probabilidade
+  de observarmos exatamente \(X=7\), é
+  \[P(X=7)= \exp{(-\lambda)} \times \lambda^{7}/7! = 0.110.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o DF possui 2.562.963 habitantes (dados do CENSO 2010),
+  e que a probabilidade de um habitante da cidade acionar o SAMU em uma
+  hora qualquer do dia é de \(0.000001\). Supondo que os acionamentos ao
+  SAMU ocorram de forma independente, qual é a probabilidade de
+  observarmos exatamente \(2\) chamados ao SAMU em determinada hora no
+  DF (utilize a aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.231\)
+  \item
+    \(0.769\)
+  \item
+    \(0.253\)
+  \item
+    \(0.747\)
+  \item
+    \(0.242\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de chamados ao SAMU tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(2562963,0.000001).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 2.563).\] Portanto, a probabilidade
+  de observarmos exatamente \(X=2\), é
+  \[P(X=2)= \exp{(-\lambda)} \times \lambda^{2}/2! = 0.253.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o DF possui 2.562.963 habitantes (dados do CENSO 2010),
+  e que a probabilidade de um habitante da cidade acionar o SAMU em uma
+  hora qualquer do dia é de \(0.000001\). Supondo que os acionamentos ao
+  SAMU ocorram de forma independente, qual é a probabilidade de
+  observarmos exatamente \(2\) chamados ao SAMU em determinada hora no
+  DF (utilize a aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.253\)
+  \item
+    \(0.242\)
+  \item
+    \(0.231\)
+  \item
+    \(0.769\)
+  \item
+    \(0.747\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de chamados ao SAMU tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(2562963,0.000001).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 2.563).\] Portanto, a probabilidade
+  de observarmos exatamente \(X=2\), é
+  \[P(X=2)= \exp{(-\lambda)} \times \lambda^{2}/2! = 0.253.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o DF possui 2.562.963 habitantes (dados do CENSO 2010),
+  e que a probabilidade de um habitante da cidade acionar o SAMU em uma
+  hora qualquer do dia é de \(0.000001\). Supondo que os acionamentos ao
+  SAMU ocorram de forma independente, qual é a probabilidade de
+  observarmos exatamente \(5\) chamados ao SAMU em determinada hora no
+  DF (utilize a aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.080\)
+  \item
+    \(0.929\)
+  \item
+    \(0.075\)
+  \item
+    \(0.920\)
+  \item
+    \(0.071\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de chamados ao SAMU tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(2562963,0.000001).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 2.563).\] Portanto, a probabilidade
+  de observarmos exatamente \(X=5\), é
+  \[P(X=5)= \exp{(-\lambda)} \times \lambda^{5}/5! = 0.071.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o DF possui 2.562.963 habitantes (dados do CENSO 2010),
+  e que a probabilidade de um habitante da cidade acionar o SAMU em uma
+  hora qualquer do dia é de \(0.000002\). Supondo que os acionamentos ao
+  SAMU ocorram de forma independente, qual é a probabilidade de
+  observarmos exatamente \(7\) chamados ao SAMU em determinada hora no
+  DF (utilize a aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.875\)
+  \item
+    \(0.890\)
+  \item
+    \(0.125\)
+  \item
+    \(0.110\)
+  \item
+    \(0.117\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de chamados ao SAMU tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(2562963,0.000002).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 5.126).\] Portanto, a probabilidade
+  de observarmos exatamente \(X=7\), é
+  \[P(X=7)= \exp{(-\lambda)} \times \lambda^{7}/7! = 0.110.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o DF possui 2.562.963 habitantes (dados do CENSO 2010),
+  e que a probabilidade de um habitante da cidade acionar o SAMU em uma
+  hora qualquer do dia é de \(0.000002\). Supondo que os acionamentos ao
+  SAMU ocorram de forma independente, qual é a probabilidade de
+  observarmos exatamente \(7\) chamados ao SAMU em determinada hora no
+  DF (utilize a aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.117\)
+  \item
+    \(0.110\)
+  \item
+    \(0.890\)
+  \item
+    \(0.875\)
+  \item
+    \(0.125\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de chamados ao SAMU tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(2562963,0.000002).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 5.126).\] Portanto, a probabilidade
+  de observarmos exatamente \(X=7\), é
+  \[P(X=7)= \exp{(-\lambda)} \times \lambda^{7}/7! = 0.110.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o DF possui 2.562.963 habitantes (dados do CENSO 2010),
+  e que a probabilidade de um habitante da cidade acionar o SAMU em uma
+  hora qualquer do dia é de \(0.000001\). Supondo que os acionamentos ao
+  SAMU ocorram de forma independente, qual é a probabilidade de
+  observarmos exatamente \(2\) chamados ao SAMU em determinada hora no
+  DF (utilize a aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.253\)
+  \item
+    \(0.747\)
+  \item
+    \(0.769\)
+  \item
+    \(0.242\)
+  \item
+    \(0.231\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de chamados ao SAMU tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(2562963,0.000001).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 2.563).\] Portanto, a probabilidade
+  de observarmos exatamente \(X=2\), é
+  \[P(X=2)= \exp{(-\lambda)} \times \lambda^{2}/2! = 0.253.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o DF possui 2.562.963 habitantes (dados do CENSO 2010),
+  e que a probabilidade de um habitante da cidade acionar o SAMU em uma
+  hora qualquer do dia é de \(0.000001\). Supondo que os acionamentos ao
+  SAMU ocorram de forma independente, qual é a probabilidade de
+  observarmos exatamente \(5\) chamados ao SAMU em determinada hora no
+  DF (utilize a aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.071\)
+  \item
+    \(0.929\)
+  \item
+    \(0.080\)
+  \item
+    \(0.920\)
+  \item
+    \(0.075\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de chamados ao SAMU tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(2562963,0.000001).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 2.563).\] Portanto, a probabilidade
+  de observarmos exatamente \(X=5\), é
+  \[P(X=5)= \exp{(-\lambda)} \times \lambda^{5}/5! = 0.071.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o DF possui 2.562.963 habitantes (dados do CENSO 2010),
+  e que a probabilidade de um habitante da cidade acionar o SAMU em uma
+  hora qualquer do dia é de \(0.000002\). Supondo que os acionamentos ao
+  SAMU ocorram de forma independente, qual é a probabilidade de
+  observarmos exatamente \(8\) chamados ao SAMU em determinada hora no
+  DF (utilize a aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.921\)
+  \item
+    \(0.070\)
+  \item
+    \(0.079\)
+  \item
+    \(0.930\)
+  \item
+    \(0.075\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de chamados ao SAMU tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(2562963,0.000002).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 5.126).\] Portanto, a probabilidade
+  de observarmos exatamente \(X=8\), é
+  \[P(X=8)= \exp{(-\lambda)} \times \lambda^{8}/8! = 0.070.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o DF possui 2.562.963 habitantes (dados do CENSO 2010),
+  e que a probabilidade de um habitante da cidade acionar o SAMU em uma
+  hora qualquer do dia é de \(0.000001\). Supondo que os acionamentos ao
+  SAMU ocorram de forma independente, qual é a probabilidade de
+  observarmos exatamente \(5\) chamados ao SAMU em determinada hora no
+  DF (utilize a aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.071\)
+  \item
+    \(0.080\)
+  \item
+    \(0.929\)
+  \item
+    \(0.920\)
+  \item
+    \(0.075\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de chamados ao SAMU tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(2562963,0.000001).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 2.563).\] Portanto, a probabilidade
+  de observarmos exatamente \(X=5\), é
+  \[P(X=5)= \exp{(-\lambda)} \times \lambda^{5}/5! = 0.071.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

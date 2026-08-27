@@ -1,0 +1,427 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um comerciante vender ao menos um guarda-chuva em
+  um certo dia (Evento \(A\)) é de \(0.69\). Dados históricos indicam
+  que chove na cidade (Evento \(B\)) em \(71\%\) dos dias. Sabe-se ainda
+  que a probabilidade de o comerciante vender ao menos um guarda-chuva e
+  chover no mesmo dia é de \(0.4\). Por fim, a probabilidade de chover e
+  haver alagamento (Evento \(C\)) é de \(0.21\). Considerando que o
+  comércio não funciona (não há vendas) quando há alagamento, marque a
+  alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Os eventos \(A\) e \(C\) são complementares.
+  \item
+    \(P(C) \geq P(B).\)
+  \item
+    Os eventos \(A\) e \(C\) são disjuntos (mutuamente exclusivos).
+  \item
+    \(P(C) \geq P(A).\)
+  \item
+    Os eventos \(B\) e \(C\) são independentes.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. \(P(A) + P(C) \neq 1\). Portanto, \(A\) e \(C\) não são
+    complementares.
+  \item
+    Falso. \(C\) está contido em \(B\), portanto \(P(C) < P(B).\)
+  \item
+    Verdadeiro. Como \(P(A \cap C)=0\), os eventos \(A\) e \(C\) são
+    disjuntos.
+  \item
+    Falso. \(P(C) = P(B \cap C) < P(A).\)
+  \item
+    Falso. \(P(B \cap C) \neq P(B) \times P(C)\). Portanto, \(A\) e
+    \(C\) são dependentes.
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um comerciante vender ao menos um guarda-chuva em
+  um certo dia (Evento \(A\)) é de \(0.62\). Dados históricos indicam
+  que chove na cidade (Evento \(B\)) em \(84\%\) dos dias. Sabe-se ainda
+  que a probabilidade de o comerciante vender ao menos um guarda-chuva e
+  chover no mesmo dia é de \(0.46\). Por fim, a probabilidade de chover
+  e haver alagamento (Evento \(C\)) é de \(0.15\). Considerando que o
+  comércio não funciona (não há vendas) quando há alagamento, marque a
+  alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(P(C) \geq P(A).\)
+  \item
+    Os eventos \(B\) e \(C\) são independentes.
+  \item
+    Os eventos \(A\) e \(C\) são disjuntos (mutuamente exclusivos).
+  \item
+    \(P(C) \geq P(B).\)
+  \item
+    Os eventos \(A\) e \(B\) são complementares.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. \(P(C) = P(B \cap C) < P(A).\)
+  \item
+    Falso. \(P(B \cap C) \neq P(B) \times P(C)\). Portanto, \(A\) e
+    \(C\) são dependentes.
+  \item
+    Verdadeiro. Como \(P(A \cap C)=0\), os eventos \(A\) e \(C\) são
+    disjuntos.
+  \item
+    Falso. \(C\) está contido em \(B\), portanto \(P(C) < P(B).\)
+  \item
+    Falso. \(P(A) + P(B) \neq 1\). Portanto, \(A\) e \(C\) não são
+    complementares.
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um comerciante vender ao menos um guarda-chuva em
+  um certo dia (Evento \(A\)) é de \(0.68\). Dados históricos indicam
+  que chove na cidade (Evento \(B\)) em \(78\%\) dos dias. Sabe-se ainda
+  que a probabilidade de o comerciante vender ao menos um guarda-chuva e
+  chover no mesmo dia é de \(0.46\). Por fim, a probabilidade de chover
+  e haver alagamento (Evento \(C\)) é de \(0.14\). Considerando que o
+  comércio não funciona (não há vendas) quando há alagamento, marque a
+  alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Os eventos \(A\) e \(C\) são disjuntos (mutuamente exclusivos).
+  \item
+    \(P(C) \geq P(B).\)
+  \item
+    \(P(C) \geq P(A).\)
+  \item
+    Os eventos \(A\) e \(B\) são complementares.
+  \item
+    Os eventos \(B\) e \(C\) são independentes.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro. Como \(P(A \cap C)=0\), os eventos \(A\) e \(C\) são
+    disjuntos.
+  \item
+    Falso. \(C\) está contido em \(B\), portanto \(P(C) < P(B).\)
+  \item
+    Falso. \(P(C) = P(B \cap C) < P(A).\)
+  \item
+    Falso. \(P(A) + P(B) \neq 1\). Portanto, \(A\) e \(C\) não são
+    complementares.
+  \item
+    Falso. \(P(B \cap C) \neq P(B) \times P(C)\). Portanto, \(A\) e
+    \(C\) são dependentes.
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um comerciante vender ao menos um guarda-chuva em
+  um certo dia (Evento \(A\)) é de \(0.67\). Dados históricos indicam
+  que chove na cidade (Evento \(B\)) em \(73\%\) dos dias. Sabe-se ainda
+  que a probabilidade de o comerciante vender ao menos um guarda-chuva e
+  chover no mesmo dia é de \(0.4\). Por fim, a probabilidade de chover e
+  haver alagamento (Evento \(C\)) é de \(0.16\). Considerando que o
+  comércio não funciona (não há vendas) quando há alagamento, marque a
+  alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Os eventos \(A\) e \(C\) são complementares.
+  \item
+    Os eventos \(B\) e \(C\) são independentes.
+  \item
+    \(P(B \cap C) = P(C).\)
+  \item
+    \(P(C) \geq P(A).\)
+  \item
+    \(P(C) \geq P(B).\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. \(P(A) + P(C) \neq 1\). Portanto, \(A\) e \(C\) não são
+    complementares.
+  \item
+    Falso. \(P(B \cap C) \neq P(B) \times P(C)\). Portanto, \(A\) e
+    \(C\) são dependentes.
+  \item
+    Verdadeiro. Como \(C\) está contido em \(B\), a igualdade é válida.
+  \item
+    Falso. \(P(C) = P(B \cap C) < P(A).\)
+  \item
+    Falso. \(C\) está contido em \(B\), portanto \(P(C) < P(B).\)
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um comerciante vender ao menos um guarda-chuva em
+  um certo dia (Evento \(A\)) é de \(0.69\). Dados históricos indicam
+  que chove na cidade (Evento \(B\)) em \(77\%\) dos dias. Sabe-se ainda
+  que a probabilidade de o comerciante vender ao menos um guarda-chuva e
+  chover no mesmo dia é de \(0.46\). Por fim, a probabilidade de chover
+  e haver alagamento (Evento \(C\)) é de \(0.2\). Considerando que o
+  comércio não funciona (não há vendas) quando há alagamento, marque a
+  alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(P(C) \geq P(A).\)
+  \item
+    \(P(B \cap C) = P(C).\)
+  \item
+    Os eventos \(A\) e \(B\) são complementares.
+  \item
+    \(P(C) \geq P(B).\)
+  \item
+    Os eventos \(B\) e \(C\) são independentes.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. \(P(C) = P(B \cap C) < P(A).\)
+  \item
+    Verdadeiro. Como \(C\) está contido em \(B\), a igualdade é válida.
+  \item
+    Falso. \(P(A) + P(B) \neq 1\). Portanto, \(A\) e \(C\) não são
+    complementares.
+  \item
+    Falso. \(C\) está contido em \(B\), portanto \(P(C) < P(B).\)
+  \item
+    Falso. \(P(B \cap C) \neq P(B) \times P(C)\). Portanto, \(A\) e
+    \(C\) são dependentes.
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um comerciante vender ao menos um guarda-chuva em
+  um certo dia (Evento \(A\)) é de \(0.67\). Dados históricos indicam
+  que chove na cidade (Evento \(B\)) em \(81\%\) dos dias. Sabe-se ainda
+  que a probabilidade de o comerciante vender ao menos um guarda-chuva e
+  chover no mesmo dia é de \(0.48\). Por fim, a probabilidade de chover
+  e haver alagamento (Evento \(C\)) é de \(0.13\). Considerando que o
+  comércio não funciona (não há vendas) quando há alagamento, marque a
+  alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(P(C) \geq P(A).\)
+  \item
+    \(P(C) \geq P(B).\)
+  \item
+    Os eventos \(A\) e \(C\) são complementares.
+  \item
+    Os eventos \(A\) e \(B\) são complementares.
+  \item
+    Os eventos \(A\) e \(C\) são disjuntos (mutuamente exclusivos).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. \(P(C) = P(B \cap C) < P(A).\)
+  \item
+    Falso. \(C\) está contido em \(B\), portanto \(P(C) < P(B).\)
+  \item
+    Falso. \(P(A) + P(C) \neq 1\). Portanto, \(A\) e \(C\) não são
+    complementares.
+  \item
+    Falso. \(P(A) + P(B) \neq 1\). Portanto, \(A\) e \(C\) não são
+    complementares.
+  \item
+    Verdadeiro. Como \(P(A \cap C)=0\), os eventos \(A\) e \(C\) são
+    disjuntos.
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um comerciante vender ao menos um guarda-chuva em
+  um certo dia (Evento \(A\)) é de \(0.65\). Dados históricos indicam
+  que chove na cidade (Evento \(B\)) em \(84\%\) dos dias. Sabe-se ainda
+  que a probabilidade de o comerciante vender ao menos um guarda-chuva e
+  chover no mesmo dia é de \(0.49\). Por fim, a probabilidade de chover
+  e haver alagamento (Evento \(C\)) é de \(0.22\). Considerando que o
+  comércio não funciona (não há vendas) quando há alagamento, marque a
+  alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Os eventos \(B\) e \(C\) são independentes.
+  \item
+    \(P(B \cap C) = P(C).\)
+  \item
+    \(P(C) \geq P(B).\)
+  \item
+    Os eventos \(A\) e \(C\) são complementares.
+  \item
+    Os eventos \(A\) e \(B\) são complementares.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. \(P(B \cap C) \neq P(B) \times P(C)\). Portanto, \(A\) e
+    \(C\) são dependentes.
+  \item
+    Verdadeiro. Como \(C\) está contido em \(B\), a igualdade é válida.
+  \item
+    Falso. \(C\) está contido em \(B\), portanto \(P(C) < P(B).\)
+  \item
+    Falso. \(P(A) + P(C) \neq 1\). Portanto, \(A\) e \(C\) não são
+    complementares.
+  \item
+    Falso. \(P(A) + P(B) \neq 1\). Portanto, \(A\) e \(C\) não são
+    complementares.
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um comerciante vender ao menos um guarda-chuva em
+  um certo dia (Evento \(A\)) é de \(0.67\). Dados históricos indicam
+  que chove na cidade (Evento \(B\)) em \(82\%\) dos dias. Sabe-se ainda
+  que a probabilidade de o comerciante vender ao menos um guarda-chuva e
+  chover no mesmo dia é de \(0.49\). Por fim, a probabilidade de chover
+  e haver alagamento (Evento \(C\)) é de \(0.13\). Considerando que o
+  comércio não funciona (não há vendas) quando há alagamento, marque a
+  alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Os eventos \(A\) e \(B\) são complementares.
+  \item
+    \(P(C) \geq P(A).\)
+  \item
+    \(P(B \cap C) = P(C).\)
+  \item
+    Os eventos \(A\) e \(C\) são complementares.
+  \item
+    \(P(C) \geq P(B).\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. \(P(A) + P(B) \neq 1\). Portanto, \(A\) e \(C\) não são
+    complementares.
+  \item
+    Falso. \(P(C) = P(B \cap C) < P(A).\)
+  \item
+    Verdadeiro. Como \(C\) está contido em \(B\), a igualdade é válida.
+  \item
+    Falso. \(P(A) + P(C) \neq 1\). Portanto, \(A\) e \(C\) não são
+    complementares.
+  \item
+    Falso. \(C\) está contido em \(B\), portanto \(P(C) < P(B).\)
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um comerciante vender ao menos um guarda-chuva em
+  um certo dia (Evento \(A\)) é de \(0.6\). Dados históricos indicam que
+  chove na cidade (Evento \(B\)) em \(81\%\) dos dias. Sabe-se ainda que
+  a probabilidade de o comerciante vender ao menos um guarda-chuva e
+  chover no mesmo dia é de \(0.41\). Por fim, a probabilidade de chover
+  e haver alagamento (Evento \(C\)) é de \(0.32\). Considerando que o
+  comércio não funciona (não há vendas) quando há alagamento, marque a
+  alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(P(C) \geq P(B).\)
+  \item
+    Os eventos \(A\) e \(B\) são complementares.
+  \item
+    \(P(B \cap C) = P(C).\)
+  \item
+    Os eventos \(A\) e \(C\) são complementares.
+  \item
+    \(P(C) \geq P(A).\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. \(C\) está contido em \(B\), portanto \(P(C) < P(B).\)
+  \item
+    Falso. \(P(A) + P(B) \neq 1\). Portanto, \(A\) e \(C\) não são
+    complementares.
+  \item
+    Verdadeiro. Como \(C\) está contido em \(B\), a igualdade é válida.
+  \item
+    Falso. \(P(A) + P(C) \neq 1\). Portanto, \(A\) e \(C\) não são
+    complementares.
+  \item
+    Falso. \(P(C) = P(B \cap C) < P(A).\)
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um comerciante vender ao menos um guarda-chuva em
+  um certo dia (Evento \(A\)) é de \(0.62\). Dados históricos indicam
+  que chove na cidade (Evento \(B\)) em \(81\%\) dos dias. Sabe-se ainda
+  que a probabilidade de o comerciante vender ao menos um guarda-chuva e
+  chover no mesmo dia é de \(0.43\). Por fim, a probabilidade de chover
+  e haver alagamento (Evento \(C\)) é de \(0.3\). Considerando que o
+  comércio não funciona (não há vendas) quando há alagamento, marque a
+  alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(P(C) \geq P(A).\)
+  \item
+    Os eventos \(A\) e \(C\) são complementares.
+  \item
+    \(P(C) \geq P(B).\)
+  \item
+    Os eventos \(B\) e \(C\) são independentes.
+  \item
+    \(P(B \cap C) = P(C).\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. \(P(C) = P(B \cap C) < P(A).\)
+  \item
+    Falso. \(P(A) + P(C) \neq 1\). Portanto, \(A\) e \(C\) não são
+    complementares.
+  \item
+    Falso. \(C\) está contido em \(B\), portanto \(P(C) < P(B).\)
+  \item
+    Falso. \(P(B \cap C) \neq P(B) \times P(C)\). Portanto, \(A\) e
+    \(C\) são dependentes.
+  \item
+    Verdadeiro. Como \(C\) está contido em \(B\), a igualdade é válida.
+  \end{enumerate}
+\end{enumerate}

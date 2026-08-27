@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisas indicam que, geralmente, pelo menos 57\% dos pacientes com
+  AIDS morrem dentro de 15 anos. Nos últimos anos, novas formas de
+  tratamento apareceram e considera-se que esta taxa foi reduzida. Em um
+  estudo recente com \(80\) pacientes contaminados com o vírus, 38
+  morreram dentro de 15 anos. Com base nas informações, e tomando o
+  resultado das pesquisas como hipótese nula, assinale a alternativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0342\)
+  \item
+    \(0.4786\)
+  \item
+    \(0.0427\)
+  \item
+    \(0.8520\)
+  \item
+    \(0.9573\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.57 \ \ versus \ \ H_a : p < 0.57.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.72\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.72) = 0.0427.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisas indicam que, geralmente, pelo menos 64\% dos pacientes com
+  AIDS morrem dentro de 15 anos. Nos últimos anos, novas formas de
+  tratamento apareceram e considera-se que esta taxa foi reduzida. Em um
+  estudo recente com \(79\) pacientes contaminados com o vírus, 34
+  morreram dentro de 15 anos. Com base nas informações, e tomando o
+  resultado das pesquisas como hipótese nula, assinale a alternativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0001\)
+  \item
+    \(0.5000\)
+  \item
+    \(0.8900\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.9999\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.64 \ \ versus \ \ H_a : p < 0.64.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -3.88\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-3.88) = 1e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisas indicam que, geralmente, pelo menos 56\% dos pacientes com
+  AIDS morrem dentro de 15 anos. Nos últimos anos, novas formas de
+  tratamento apareceram e considera-se que esta taxa foi reduzida. Em um
+  estudo recente com \(91\) pacientes contaminados com o vírus, 40
+  morreram dentro de 15 anos. Com base nas informações, e tomando o
+  resultado das pesquisas como hipótese nula, assinale a alternativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8807\)
+  \item
+    \(0.0104\)
+  \item
+    \(0.4948\)
+  \item
+    \(0.9896\)
+  \item
+    \(0.0084\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.56 \ \ versus \ \ H_a : p < 0.56.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -2.31\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-2.31) = 0.0104.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisas indicam que, geralmente, pelo menos 61\% dos pacientes com
+  AIDS morrem dentro de 15 anos. Nos últimos anos, novas formas de
+  tratamento apareceram e considera-se que esta taxa foi reduzida. Em um
+  estudo recente com \(90\) pacientes contaminados com o vírus, 39
+  morreram dentro de 15 anos. Com base nas informações, e tomando o
+  resultado das pesquisas como hipótese nula, assinale a alternativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8897\)
+  \item
+    \(0.4999\)
+  \item
+    \(0.0002\)
+  \item
+    \(0.9997\)
+  \item
+    \(0.0003\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.61 \ \ versus \ \ H_a : p < 0.61.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -3.44\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-3.44) = 3e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisas indicam que, geralmente, pelo menos 55\% dos pacientes com
+  AIDS morrem dentro de 15 anos. Nos últimos anos, novas formas de
+  tratamento apareceram e considera-se que esta taxa foi reduzida. Em um
+  estudo recente com \(79\) pacientes contaminados com o vírus, 36
+  morreram dentro de 15 anos. Com base nas informações, e tomando o
+  resultado das pesquisas como hipótese nula, assinale a alternativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4768\)
+  \item
+    \(0.0372\)
+  \item
+    \(0.0465\)
+  \item
+    \(0.9535\)
+  \item
+    \(0.8486\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.55 \ \ versus \ \ H_a : p < 0.55.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.68\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.68) = 0.0465.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisas indicam que, geralmente, pelo menos 59\% dos pacientes com
+  AIDS morrem dentro de 15 anos. Nos últimos anos, novas formas de
+  tratamento apareceram e considera-se que esta taxa foi reduzida. Em um
+  estudo recente com \(87\) pacientes contaminados com o vírus, 37
+  morreram dentro de 15 anos. Com base nas informações, e tomando o
+  resultado das pesquisas como hipótese nula, assinale a alternativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8892\)
+  \item
+    \(0.4995\)
+  \item
+    \(0.9991\)
+  \item
+    \(0.0009\)
+  \item
+    \(0.0007\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.59 \ \ versus \ \ H_a : p < 0.59.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -3.12\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-3.12) = 9e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisas indicam que, geralmente, pelo menos 63\% dos pacientes com
+  AIDS morrem dentro de 15 anos. Nos últimos anos, novas formas de
+  tratamento apareceram e considera-se que esta taxa foi reduzida. Em um
+  estudo recente com \(98\) pacientes contaminados com o vírus, 46
+  morreram dentro de 15 anos. Com base nas informações, e tomando o
+  resultado das pesquisas como hipótese nula, assinale a alternativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8896\)
+  \item
+    \(0.4997\)
+  \item
+    \(0.9995\)
+  \item
+    \(0.0004\)
+  \item
+    \(0.0005\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.63 \ \ versus \ \ H_a : p < 0.63.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -3.29\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-3.29) = 5e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisas indicam que, geralmente, pelo menos 57\% dos pacientes com
+  AIDS morrem dentro de 15 anos. Nos últimos anos, novas formas de
+  tratamento apareceram e considera-se que esta taxa foi reduzida. Em um
+  estudo recente com \(92\) pacientes contaminados com o vírus, 42
+  morreram dentro de 15 anos. Com base nas informações, e tomando o
+  resultado das pesquisas como hipótese nula, assinale a alternativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0111\)
+  \item
+    \(0.0139\)
+  \item
+    \(0.9861\)
+  \item
+    \(0.4930\)
+  \item
+    \(0.8776\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.57 \ \ versus \ \ H_a : p < 0.57.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -2.2\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-2.2) = 0.0139.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisas indicam que, geralmente, pelo menos 59\% dos pacientes com
+  AIDS morrem dentro de 15 anos. Nos últimos anos, novas formas de
+  tratamento apareceram e considera-se que esta taxa foi reduzida. Em um
+  estudo recente com \(95\) pacientes contaminados com o vírus, 43
+  morreram dentro de 15 anos. Com base nas informações, e tomando o
+  resultado das pesquisas como hipótese nula, assinale a alternativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0026\)
+  \item
+    \(0.8871\)
+  \item
+    \(0.4984\)
+  \item
+    \(0.9967\)
+  \item
+    \(0.0033\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.59 \ \ versus \ \ H_a : p < 0.59.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -2.72\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-2.72) = 0.0033.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisas indicam que, geralmente, pelo menos 55\% dos pacientes com
+  AIDS morrem dentro de 15 anos. Nos últimos anos, novas formas de
+  tratamento apareceram e considera-se que esta taxa foi reduzida. Em um
+  estudo recente com \(91\) pacientes contaminados com o vírus, 42
+  morreram dentro de 15 anos. Com base nas informações, e tomando o
+  resultado das pesquisas como hipótese nula, assinale a alternativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9554\)
+  \item
+    \(0.0446\)
+  \item
+    \(0.4777\)
+  \item
+    \(0.8503\)
+  \item
+    \(0.0357\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.55 \ \ versus \ \ H_a : p < 0.55.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.7\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.7) = 0.0446.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

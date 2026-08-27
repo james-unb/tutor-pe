@@ -1,0 +1,412 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que você esteja formando uma equipe de 7 executivos, de
+  diferentes departamentos de sua empresa. Sua empresa tem um total 24
+  de executivos, e 8 deles são do departamento financeiro. Se os membros
+  da equipe forem selecionados ao acaso, sem reposição, qual é
+  probabilidade de que a equipe conterá 2 executivos do departamento
+  financeiro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.343\)
+  \item
+    \(0.647\)
+  \item
+    \(0.095\)
+  \item
+    \(0.353\)
+  \item
+    \(0.360\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)24\(,\)8\(,\)7\()\). Portanto,
+  \[P(X = 2)=\frac{ { 8 \choose 2 }  { 24-8 \choose 7-2 } }{  { 24 \choose 7 }  }= 0.353.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que você esteja formando uma equipe de 5 executivos, de
+  diferentes departamentos de sua empresa. Sua empresa tem um total 16
+  de executivos, e 6 deles são do departamento financeiro. Se os membros
+  da equipe forem selecionados ao acaso, sem reposição, qual é
+  probabilidade de que a equipe conterá 4 executivos do departamento
+  financeiro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.300\)
+  \item
+    \(0.045\)
+  \item
+    \(0.966\)
+  \item
+    \(0.034\)
+  \item
+    \(0.027\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)16\(,\)6\(,\)5\()\). Portanto,
+  \[P(X = 4)=\frac{ { 6 \choose 4 }  { 16-6 \choose 5-4 } }{  { 16 \choose 5 }  }= 0.034.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que você esteja formando uma equipe de 9 executivos, de
+  diferentes departamentos de sua empresa. Sua empresa tem um total 18
+  de executivos, e 5 deles são do departamento financeiro. Se os membros
+  da equipe forem selecionados ao acaso, sem reposição, qual é
+  probabilidade de que a equipe conterá 3 executivos do departamento
+  financeiro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.353\)
+  \item
+    \(0.647\)
+  \item
+    \(0.380\)
+  \item
+    \(0.093\)
+  \item
+    \(0.325\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)18\(,\)5\(,\)9\()\). Portanto,
+  \[P(X = 3)=\frac{ { 5 \choose 3 }  { 18-5 \choose 9-3 } }{  { 18 \choose 9 }  }= 0.353.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que você esteja formando uma equipe de 9 executivos, de
+  diferentes departamentos de sua empresa. Sua empresa tem um total 29
+  de executivos, e 10 deles são do departamento financeiro. Se os
+  membros da equipe forem selecionados ao acaso, sem reposição, qual é
+  probabilidade de que a equipe conterá 2 executivos do departamento
+  financeiro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.077\)
+  \item
+    \(0.774\)
+  \item
+    \(0.226\)
+  \item
+    \(0.244\)
+  \item
+    \(0.207\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)29\(,\)10\(,\)9\()\). Portanto,
+  \[P(X = 2)=\frac{ { 10 \choose 2 }  { 29-10 \choose 9-2 } }{  { 29 \choose 9 }  }= 0.226.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que você esteja formando uma equipe de 7 executivos, de
+  diferentes departamentos de sua empresa. Sua empresa tem um total 25
+  de executivos, e 7 deles são do departamento financeiro. Se os membros
+  da equipe forem selecionados ao acaso, sem reposição, qual é
+  probabilidade de que a equipe conterá 2 executivos do departamento
+  financeiro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.626\)
+  \item
+    \(0.374\)
+  \item
+    \(0.080\)
+  \item
+    \(0.371\)
+  \item
+    \(0.375\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)25\(,\)7\(,\)7\()\). Portanto,
+  \[P(X = 2)=\frac{ { 7 \choose 2 }  { 25-7 \choose 7-2 } }{  { 25 \choose 7 }  }= 0.374.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que você esteja formando uma equipe de 6 executivos, de
+  diferentes departamentos de sua empresa. Sua empresa tem um total 20
+  de executivos, e 10 deles são do departamento financeiro. Se os
+  membros da equipe forem selecionados ao acaso, sem reposição, qual é
+  probabilidade de que a equipe conterá 4 executivos do departamento
+  financeiro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.244\)
+  \item
+    \(0.279\)
+  \item
+    \(0.333\)
+  \item
+    \(0.213\)
+  \item
+    \(0.756\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)20\(,\)10\(,\)6\()\). Portanto,
+  \[P(X = 4)=\frac{ { 10 \choose 4 }  { 20-10 \choose 6-4 } }{  { 20 \choose 6 }  }= 0.244.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que você esteja formando uma equipe de 5 executivos, de
+  diferentes departamentos de sua empresa. Sua empresa tem um total 18
+  de executivos, e 5 deles são do departamento financeiro. Se os membros
+  da equipe forem selecionados ao acaso, sem reposição, qual é
+  probabilidade de que a equipe conterá 2 executivos do departamento
+  financeiro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.666\)
+  \item
+    \(0.313\)
+  \item
+    \(0.356\)
+  \item
+    \(0.334\)
+  \item
+    \(0.111\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)18\(,\)5\(,\)5\()\). Portanto,
+  \[P(X = 2)=\frac{ { 5 \choose 2 }  { 18-5 \choose 5-2 } }{  { 18 \choose 5 }  }= 0.334.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que você esteja formando uma equipe de 8 executivos, de
+  diferentes departamentos de sua empresa. Sua empresa tem um total 23
+  de executivos, e 6 deles são do departamento financeiro. Se os membros
+  da equipe forem selecionados ao acaso, sem reposição, qual é
+  probabilidade de que a equipe conterá 4 executivos do departamento
+  financeiro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.085\)
+  \item
+    \(0.130\)
+  \item
+    \(0.073\)
+  \item
+    \(0.062\)
+  \item
+    \(0.927\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)23\(,\)6\(,\)8\()\). Portanto,
+  \[P(X = 4)=\frac{ { 6 \choose 4 }  { 23-6 \choose 8-4 } }{  { 23 \choose 8 }  }= 0.073.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que você esteja formando uma equipe de 9 executivos, de
+  diferentes departamentos de sua empresa. Sua empresa tem um total 25
+  de executivos, e 6 deles são do departamento financeiro. Se os membros
+  da equipe forem selecionados ao acaso, sem reposição, qual é
+  probabilidade de que a equipe conterá 2 executivos do departamento
+  financeiro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.630\)
+  \item
+    \(0.370\)
+  \item
+    \(0.365\)
+  \item
+    \(0.053\)
+  \item
+    \(0.372\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)25\(,\)6\(,\)9\()\). Portanto,
+  \[P(X = 2)=\frac{ { 6 \choose 2 }  { 25-6 \choose 9-2 } }{  { 25 \choose 9 }  }= 0.37.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que você esteja formando uma equipe de 8 executivos, de
+  diferentes departamentos de sua empresa. Sua empresa tem um total 26
+  de executivos, e 6 deles são do departamento financeiro. Se os membros
+  da equipe forem selecionados ao acaso, sem reposição, qual é
+  probabilidade de que a equipe conterá 2 executivos do departamento
+  financeiro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.058\)
+  \item
+    \(0.376\)
+  \item
+    \(0.367\)
+  \item
+    \(0.372\)
+  \item
+    \(0.628\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)26\(,\)6\(,\)8\()\). Portanto,
+  \[P(X = 2)=\frac{ { 6 \choose 2 }  { 26-6 \choose 8-2 } }{  { 26 \choose 8 }  }= 0.372.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

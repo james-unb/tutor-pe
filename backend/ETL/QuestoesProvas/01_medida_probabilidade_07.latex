@@ -1,0 +1,427 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um aluno de Engenharia, selecionado ao acaso,
+  receber uma proposta de emprego antes de concluir o curso (Evento
+  \(A\)) é de 0.83. Por outro lado, a probabilidade de um aluno neste
+  grupo seguir carreira na iniciativa privada (Evento \(B\)) é de 0.39.
+  Nesse contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.3237, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Disjuntos.
+  \item
+    Independentes.
+  \item
+    Mutuamente exclusivos.
+  \item
+    Complementares.
+  \item
+    Dependentes.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado, temos que \(P(A \cap B) = 0.3237 = P(A) \times P(B) = 
+  0.83 \times 0.39\). Portanto, os eventos \(A\) e \(B\) são
+  independentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um aluno de Engenharia, selecionado ao acaso,
+  receber uma proposta de emprego antes de concluir o curso (Evento
+  \(A\)) é de 0.86. Por outro lado, a probabilidade de um aluno neste
+  grupo seguir carreira na iniciativa privada (Evento \(B\)) é de 0.4.
+  Nesse contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.344, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Mutuamente exclusivos.
+  \item
+    Dependentes.
+  \item
+    Independentes.
+  \item
+    Disjuntos.
+  \item
+    Complementares.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado, temos que \(P(A \cap B) = 0.344 = P(A) \times P(B) = 
+  0.86 \times 0.4\). Portanto, os eventos \(A\) e \(B\) são
+  independentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um aluno de Engenharia, selecionado ao acaso,
+  receber uma proposta de emprego antes de concluir o curso (Evento
+  \(A\)) é de 0.75. Por outro lado, a probabilidade de um aluno neste
+  grupo seguir carreira na iniciativa privada (Evento \(B\)) é de 0.33.
+  Nesse contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.1732, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Disjuntos.
+  \item
+    Mutuamente exclusivos.
+  \item
+    Dependentes.
+  \item
+    Complementares.
+  \item
+    Independentes.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado, temos que
+  \(P(A \cap B) = 0.1732 \neq P(A) \times P(B) = 
+  0.75 \times 0.33 = 0.2475\). Portanto, os eventos \(A\) e \(B\) são
+  dependentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um aluno de Engenharia, selecionado ao acaso,
+  receber uma proposta de emprego antes de concluir o curso (Evento
+  \(A\)) é de 0.73. Por outro lado, a probabilidade de um aluno neste
+  grupo seguir carreira na iniciativa privada (Evento \(B\)) é de 0.36.
+  Nesse contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.2628, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Disjuntos.
+  \item
+    Complementares.
+  \item
+    Independentes.
+  \item
+    Dependentes.
+  \item
+    Mutuamente exclusivos.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado, temos que \(P(A \cap B) = 0.2628 = P(A) \times P(B) = 
+  0.73 \times 0.36\). Portanto, os eventos \(A\) e \(B\) são
+  independentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um aluno de Engenharia, selecionado ao acaso,
+  receber uma proposta de emprego antes de concluir o curso (Evento
+  \(A\)) é de 0.88. Por outro lado, a probabilidade de um aluno neste
+  grupo seguir carreira na iniciativa privada (Evento \(B\)) é de 0.33.
+  Nesse contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.2904, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Independentes.
+  \item
+    Mutuamente exclusivos.
+  \item
+    Dependentes.
+  \item
+    Complementares.
+  \item
+    Disjuntos.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado, temos que \(P(A \cap B) = 0.2904 = P(A) \times P(B) = 
+  0.88 \times 0.33\). Portanto, os eventos \(A\) e \(B\) são
+  independentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um aluno de Engenharia, selecionado ao acaso,
+  receber uma proposta de emprego antes de concluir o curso (Evento
+  \(A\)) é de 0.84. Por outro lado, a probabilidade de um aluno neste
+  grupo seguir carreira na iniciativa privada (Evento \(B\)) é de 0.31.
+  Nesse contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.1823, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Complementares.
+  \item
+    Mutuamente exclusivos.
+  \item
+    Independentes.
+  \item
+    Disjuntos.
+  \item
+    Dependentes.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado, temos que
+  \(P(A \cap B) = 0.1823 \neq P(A) \times P(B) = 
+  0.84 \times 0.31 = 0.2604\). Portanto, os eventos \(A\) e \(B\) são
+  dependentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um aluno de Engenharia, selecionado ao acaso,
+  receber uma proposta de emprego antes de concluir o curso (Evento
+  \(A\)) é de 0.9. Por outro lado, a probabilidade de um aluno neste
+  grupo seguir carreira na iniciativa privada (Evento \(B\)) é de 0.3.
+  Nesse contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.27, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Mutuamente exclusivos.
+  \item
+    Independentes.
+  \item
+    Complementares.
+  \item
+    Dependentes.
+  \item
+    Disjuntos.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado, temos que \(P(A \cap B) = 0.27 = P(A) \times P(B) = 
+  0.9 \times 0.3\). Portanto, os eventos \(A\) e \(B\) são
+  independentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um aluno de Engenharia, selecionado ao acaso,
+  receber uma proposta de emprego antes de concluir o curso (Evento
+  \(A\)) é de 0.9. Por outro lado, a probabilidade de um aluno neste
+  grupo seguir carreira na iniciativa privada (Evento \(B\)) é de 0.39.
+  Nesse contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.2457, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Mutuamente exclusivos.
+  \item
+    Dependentes.
+  \item
+    Independentes.
+  \item
+    Complementares.
+  \item
+    Disjuntos.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado, temos que
+  \(P(A \cap B) = 0.2457 \neq P(A) \times P(B) = 
+  0.9 \times 0.39 = 0.351\). Portanto, os eventos \(A\) e \(B\) são
+  dependentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um aluno de Engenharia, selecionado ao acaso,
+  receber uma proposta de emprego antes de concluir o curso (Evento
+  \(A\)) é de 0.74. Por outro lado, a probabilidade de um aluno neste
+  grupo seguir carreira na iniciativa privada (Evento \(B\)) é de 0.4.
+  Nesse contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.2072, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Complementares.
+  \item
+    Independentes.
+  \item
+    Dependentes.
+  \item
+    Mutuamente exclusivos.
+  \item
+    Disjuntos.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado, temos que
+  \(P(A \cap B) = 0.2072 \neq P(A) \times P(B) = 
+  0.74 \times 0.4 = 0.296\). Portanto, os eventos \(A\) e \(B\) são
+  dependentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um aluno de Engenharia, selecionado ao acaso,
+  receber uma proposta de emprego antes de concluir o curso (Evento
+  \(A\)) é de 0.73. Por outro lado, a probabilidade de um aluno neste
+  grupo seguir carreira na iniciativa privada (Evento \(B\)) é de 0.3.
+  Nesse contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.1533, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Complementares.
+  \item
+    Disjuntos.
+  \item
+    Dependentes.
+  \item
+    Mutuamente exclusivos.
+  \item
+    Independentes.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado, temos que
+  \(P(A \cap B) = 0.1533 \neq P(A) \times P(B) = 
+  0.73 \times 0.3 = 0.219\). Portanto, os eventos \(A\) e \(B\) são
+  dependentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

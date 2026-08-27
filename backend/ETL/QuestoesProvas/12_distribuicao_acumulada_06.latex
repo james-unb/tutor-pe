@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de vida de uma pessoa com uma certa doença segue uma variável
+  aleatória \(X\) com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          1-e^{-(\frac{x}{70})^{3}},  &  x \geq 0.
+        \end{array}
+      \right.
+  \end{aligned}\] Qual é a probabilidade de uma dessas pessoas viver
+  mais do que 65 anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.551\)
+  \item
+    \(0.404\)
+  \item
+    \(0.432\)
+  \item
+    \(0.449\)
+  \item
+    \(0.568\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P( X \geq 65)= 1-F(65)= 0.449.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de vida de uma pessoa com uma certa doença segue uma variável
+  aleatória \(X\) com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          1-e^{-(\frac{x}{70})^{3}},  &  x \geq 0.
+        \end{array}
+      \right.
+  \end{aligned}\] Qual é a probabilidade de uma dessas pessoas viver
+  mais do que 65 anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.432\)
+  \item
+    \(0.404\)
+  \item
+    \(0.568\)
+  \item
+    \(0.551\)
+  \item
+    \(0.449\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P( X \geq 65)= 1-F(65)= 0.449.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de vida de uma pessoa com uma certa doença segue uma variável
+  aleatória \(X\) com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          1-e^{-(\frac{x}{70})^{3}},  &  x \geq 0.
+        \end{array}
+      \right.
+  \end{aligned}\] Qual é a probabilidade de uma dessas pessoas viver
+  mais do que 55 anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.384\)
+  \item
+    \(0.599\)
+  \item
+    \(0.401\)
+  \item
+    \(0.616\)
+  \item
+    \(0.554\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P( X \geq 55)= 1-F(55)= 0.616.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de vida de uma pessoa com uma certa doença segue uma variável
+  aleatória \(X\) com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          1-e^{-(\frac{x}{70})^{3}},  &  x \geq 0.
+        \end{array}
+      \right.
+  \end{aligned}\] Qual é a probabilidade de uma dessas pessoas viver
+  mais do que 65 anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.551\)
+  \item
+    \(0.432\)
+  \item
+    \(0.449\)
+  \item
+    \(0.568\)
+  \item
+    \(0.404\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P( X \geq 65)= 1-F(65)= 0.449.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de vida de uma pessoa com uma certa doença segue uma variável
+  aleatória \(X\) com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          1-e^{-(\frac{x}{70})^{3}},  &  x \geq 0.
+        \end{array}
+      \right.
+  \end{aligned}\] Qual é a probabilidade de uma dessas pessoas viver
+  mais do que 65 anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.432\)
+  \item
+    \(0.568\)
+  \item
+    \(0.404\)
+  \item
+    \(0.551\)
+  \item
+    \(0.449\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P( X \geq 65)= 1-F(65)= 0.449.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de vida de uma pessoa com uma certa doença segue uma variável
+  aleatória \(X\) com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          1-e^{-(\frac{x}{70})^{3}},  &  x \geq 0.
+        \end{array}
+      \right.
+  \end{aligned}\] Qual é a probabilidade de uma dessas pessoas viver
+  mais do que 65 anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.432\)
+  \item
+    \(0.551\)
+  \item
+    \(0.449\)
+  \item
+    \(0.568\)
+  \item
+    \(0.404\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P( X \geq 65)= 1-F(65)= 0.449.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de vida de uma pessoa com uma certa doença segue uma variável
+  aleatória \(X\) com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          1-e^{-(\frac{x}{70})^{3}},  &  x \geq 0.
+        \end{array}
+      \right.
+  \end{aligned}\] Qual é a probabilidade de uma dessas pessoas viver
+  mais do que 55 anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.616\)
+  \item
+    \(0.599\)
+  \item
+    \(0.384\)
+  \item
+    \(0.401\)
+  \item
+    \(0.554\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P( X \geq 55)= 1-F(55)= 0.616.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de vida de uma pessoa com uma certa doença segue uma variável
+  aleatória \(X\) com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          1-e^{-(\frac{x}{70})^{3}},  &  x \geq 0.
+        \end{array}
+      \right.
+  \end{aligned}\] Qual é a probabilidade de uma dessas pessoas viver
+  mais do que 60 anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.480\)
+  \item
+    \(0.467\)
+  \item
+    \(0.484\)
+  \item
+    \(0.516\)
+  \item
+    \(0.533\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P( X \geq 60)= 1-F(60)= 0.533.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de vida de uma pessoa com uma certa doença segue uma variável
+  aleatória \(X\) com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          1-e^{-(\frac{x}{70})^{3}},  &  x \geq 0.
+        \end{array}
+      \right.
+  \end{aligned}\] Qual é a probabilidade de uma dessas pessoas viver
+  mais do que 65 anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.551\)
+  \item
+    \(0.404\)
+  \item
+    \(0.449\)
+  \item
+    \(0.568\)
+  \item
+    \(0.432\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P( X \geq 65)= 1-F(65)= 0.449.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de vida de uma pessoa com uma certa doença segue uma variável
+  aleatória \(X\) com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          1-e^{-(\frac{x}{70})^{3}},  &  x \geq 0.
+        \end{array}
+      \right.
+  \end{aligned}\] Qual é a probabilidade de uma dessas pessoas viver
+  mais do que 55 anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.401\)
+  \item
+    \(0.554\)
+  \item
+    \(0.599\)
+  \item
+    \(0.616\)
+  \item
+    \(0.384\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P( X \geq 55)= 1-F(55)= 0.616.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

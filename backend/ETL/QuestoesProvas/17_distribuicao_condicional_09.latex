@@ -1,0 +1,692 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Duas linhas de produção fabricam um certo tipo de peça. \(X\) e \(Y\)
+  denotam, respectivamente, o número de peças produzido pelas linhas X e
+  Y em um dado dia. Com base na tabela a seguir da distribuição conjunta
+  de X e Y, determine \(\mathbb{P}(X \geq Y | Y \leq 8)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(8\) & 0.17 & 0.092 & 0.062 \\
+  \(9\) & 0.012 & 0.028 & 0.036 \\
+  \(10\) & 0.426 & 0.131 & 0.043 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.392\)
+  \item
+    \(0.515\)
+  \item
+    \(0.000\)
+  \item
+    \(1.000\)
+  \item
+    \(0.608\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) & \(\mathbb{P}(X=x)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(8\) & 0.17 & 0.092 & 0.062 & 0.324 & & & & \\
+  \(9\) & 0.012 & 0.028 & 0.036 & 0.076 & & & & \\
+  \(10\) & 0.426 & 0.131 & 0.043 & 0.6 & & & & \\
+  \(\mathbb{P}(Y=y)\) & 0.608 & 0.251 & 0.141 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq Y |Y \leq 8) = 
+  \frac{\mathbb{P}(X \geq Y, Y \leq 8))}{P(Y \leq 8)}=
+  \frac{\sum_{y = 8}^8 \sum_{x = y}^{10} p(x,y)}{\sum_{y = 8}^8 \mathbb{P}(Y=y)} =
+  \frac{0.608}{0.608} = 1.000.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Duas linhas de produção fabricam um certo tipo de peça. \(X\) e \(Y\)
+  denotam, respectivamente, o número de peças produzido pelas linhas X e
+  Y em um dado dia. Com base na tabela a seguir da distribuição conjunta
+  de X e Y, determine \(\mathbb{P}(X \geq Y | Y \leq 8)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.125 & 0.154 & 0.004 \\
+  \(8\) & 0.167 & 0.046 & 0.353 \\
+  \(9\) & 0.033 & 0.039 & 0.079 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.058\)
+  \item
+    \(0.615\)
+  \item
+    \(0.385\)
+  \item
+    \(0.200\)
+  \item
+    \(0.800\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) & \(\mathbb{P}(X=x)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.125 & 0.154 & 0.004 & 0.283 & & & & \\
+  \(8\) & 0.167 & 0.046 & 0.353 & 0.566 & & & & \\
+  \(9\) & 0.033 & 0.039 & 0.079 & 0.151 & & & & \\
+  \(\mathbb{P}(Y=y)\) & 0.325 & 0.239 & 0.436 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq Y |Y \leq 8) = 
+  \frac{\mathbb{P}(X \geq Y, Y \leq 8))}{P(Y \leq 8)}=
+  \frac{\sum_{y = 8}^8 \sum_{x = y}^{9} p(x,y)}{\sum_{y = 8}^8 \mathbb{P}(Y=y)} =
+  \frac{0.2}{0.325} = 0.615.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Duas linhas de produção fabricam um certo tipo de peça. \(X\) e \(Y\)
+  denotam, respectivamente, o número de peças produzido pelas linhas X e
+  Y em um dado dia. Com base na tabela a seguir da distribuição conjunta
+  de X e Y, determine \(\mathbb{P}(X \geq Y | Y \leq 9)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.13 & 0.145 & 0.057 \\
+  \(8\) & 0.13 & 0.099 & 0.037 \\
+  \(10\) & 0.236 & 0.163 & 0.003 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.471\)
+  \item
+    \(0.586\)
+  \item
+    \(0.414\)
+  \item
+    \(0.529\)
+  \item
+    \(0.622\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) & \(\mathbb{P}(X=x)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.13 & 0.145 & 0.057 & 0.332 & & & & \\
+  \(8\) & 0.13 & 0.099 & 0.037 & 0.266 & & & & \\
+  \(10\) & 0.236 & 0.163 & 0.003 & 0.402 & & & & \\
+  \(\mathbb{P}(Y=y)\) & 0.496 & 0.407 & 0.097 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq Y |Y \leq 9) = 
+  \frac{\mathbb{P}(X \geq Y, Y \leq 9))}{P(Y \leq 9)}=
+  \frac{\sum_{y = 8}^9 \sum_{x = y}^{10} p(x,y)}{\sum_{y = 8}^9 \mathbb{P}(Y=y)} =
+  \frac{0.529}{0.903} = 0.586.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Duas linhas de produção fabricam um certo tipo de peça. \(X\) e \(Y\)
+  denotam, respectivamente, o número de peças produzido pelas linhas X e
+  Y em um dado dia. Com base na tabela a seguir da distribuição conjunta
+  de X e Y, determine \(\mathbb{P}(X \geq Y | Y \leq 9)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.037 & 0.192 & 0.055 \\
+  \(8\) & 0.449 & 0.013 & 0.014 \\
+  \(10\) & 0.115 & 0.116 & 0.009 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.680\)
+  \item
+    \(0.844\)
+  \item
+    \(0.262\)
+  \item
+    \(0.320\)
+  \item
+    \(0.738\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) & \(\mathbb{P}(X=x)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.037 & 0.192 & 0.055 & 0.284 & & & & \\
+  \(8\) & 0.449 & 0.013 & 0.014 & 0.476 & & & & \\
+  \(10\) & 0.115 & 0.116 & 0.009 & 0.24 & & & & \\
+  \(\mathbb{P}(Y=y)\) & 0.601 & 0.321 & 0.078 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq Y |Y \leq 9) = 
+  \frac{\mathbb{P}(X \geq Y, Y \leq 9))}{P(Y \leq 9)}=
+  \frac{\sum_{y = 8}^9 \sum_{x = y}^{10} p(x,y)}{\sum_{y = 8}^9 \mathbb{P}(Y=y)} =
+  \frac{0.68}{0.922} = 0.738.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Duas linhas de produção fabricam um certo tipo de peça. \(X\) e \(Y\)
+  denotam, respectivamente, o número de peças produzido pelas linhas X e
+  Y em um dado dia. Com base na tabela a seguir da distribuição conjunta
+  de X e Y, determine \(\mathbb{P}(X \geq Y | Y \leq 8)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.15 & 0.219 & 0.306 \\
+  \(8\) & 0.001 & 0.033 & 0.013 \\
+  \(9\) & 0.018 & 0.015 & 0.245 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.112\)
+  \item
+    \(0.019\)
+  \item
+    \(0.981\)
+  \item
+    \(0.888\)
+  \item
+    \(0.018\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) & \(\mathbb{P}(X=x)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.15 & 0.219 & 0.306 & 0.675 & & & & \\
+  \(8\) & 0.001 & 0.033 & 0.013 & 0.047 & & & & \\
+  \(9\) & 0.018 & 0.015 & 0.245 & 0.278 & & & & \\
+  \(\mathbb{P}(Y=y)\) & 0.169 & 0.267 & 0.564 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq Y |Y \leq 8) = 
+  \frac{\mathbb{P}(X \geq Y, Y \leq 8))}{P(Y \leq 8)}=
+  \frac{\sum_{y = 8}^8 \sum_{x = y}^{9} p(x,y)}{\sum_{y = 8}^8 \mathbb{P}(Y=y)} =
+  \frac{0.019}{0.169} = 0.112.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Duas linhas de produção fabricam um certo tipo de peça. \(X\) e \(Y\)
+  denotam, respectivamente, o número de peças produzido pelas linhas X e
+  Y em um dado dia. Com base na tabela a seguir da distribuição conjunta
+  de X e Y, determine \(\mathbb{P}(X \geq Y | Y \leq 8)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.01 & 0.059 & 0.106 \\
+  \(8\) & 0.275 & 0.024 & 0.162 \\
+  \(10\) & 0.222 & 0.14 & 0.002 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.503\)
+  \item
+    \(0.497\)
+  \item
+    \(0.980\)
+  \item
+    \(0.020\)
+  \item
+    \(0.288\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) & \(\mathbb{P}(X=x)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.01 & 0.059 & 0.106 & 0.175 & & & & \\
+  \(8\) & 0.275 & 0.024 & 0.162 & 0.461 & & & & \\
+  \(10\) & 0.222 & 0.14 & 0.002 & 0.364 & & & & \\
+  \(\mathbb{P}(Y=y)\) & 0.507 & 0.223 & 0.27 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq Y |Y \leq 8) = 
+  \frac{\mathbb{P}(X \geq Y, Y \leq 8))}{P(Y \leq 8)}=
+  \frac{\sum_{y = 8}^8 \sum_{x = y}^{10} p(x,y)}{\sum_{y = 8}^8 \mathbb{P}(Y=y)} =
+  \frac{0.497}{0.507} = 0.980.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Duas linhas de produção fabricam um certo tipo de peça. \(X\) e \(Y\)
+  denotam, respectivamente, o número de peças produzido pelas linhas X e
+  Y em um dado dia. Com base na tabela a seguir da distribuição conjunta
+  de X e Y, determine \(\mathbb{P}(X \geq Y | Y \leq 9)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.021 & 0.009 & 0.107 \\
+  \(8\) & 0.287 & 0.029 & 0.117 \\
+  \(10\) & 0.034 & 0.124 & 0.272 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.708\)
+  \item
+    \(0.883\)
+  \item
+    \(0.117\)
+  \item
+    \(0.555\)
+  \item
+    \(0.445\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) & \(\mathbb{P}(X=x)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.021 & 0.009 & 0.107 & 0.137 & & & & \\
+  \(8\) & 0.287 & 0.029 & 0.117 & 0.433 & & & & \\
+  \(10\) & 0.034 & 0.124 & 0.272 & 0.43 & & & & \\
+  \(\mathbb{P}(Y=y)\) & 0.342 & 0.162 & 0.496 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq Y |Y \leq 9) = 
+  \frac{\mathbb{P}(X \geq Y, Y \leq 9))}{P(Y \leq 9)}=
+  \frac{\sum_{y = 8}^9 \sum_{x = y}^{10} p(x,y)}{\sum_{y = 8}^9 \mathbb{P}(Y=y)} =
+  \frac{0.445}{0.504} = 0.883.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Duas linhas de produção fabricam um certo tipo de peça. \(X\) e \(Y\)
+  denotam, respectivamente, o número de peças produzido pelas linhas X e
+  Y em um dado dia. Com base na tabela a seguir da distribuição conjunta
+  de X e Y, determine \(\mathbb{P}(X \geq Y | Y \leq 9)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.082 & 0.153 & 0.076 \\
+  \(8\) & 0.025 & 0.144 & 0.218 \\
+  \(9\) & 0.154 & 0.135 & 0.013 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.314\)
+  \item
+    \(0.686\)
+  \item
+    \(0.547\)
+  \item
+    \(0.315\)
+  \item
+    \(0.453\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) & \(\mathbb{P}(X=x)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.082 & 0.153 & 0.076 & 0.311 & & & & \\
+  \(8\) & 0.025 & 0.144 & 0.218 & 0.387 & & & & \\
+  \(9\) & 0.154 & 0.135 & 0.013 & 0.302 & & & & \\
+  \(\mathbb{P}(Y=y)\) & 0.261 & 0.432 & 0.307 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq Y |Y \leq 9) = 
+  \frac{\mathbb{P}(X \geq Y, Y \leq 9))}{P(Y \leq 9)}=
+  \frac{\sum_{y = 8}^9 \sum_{x = y}^{9} p(x,y)}{\sum_{y = 8}^9 \mathbb{P}(Y=y)} =
+  \frac{0.314}{0.693} = 0.453.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Duas linhas de produção fabricam um certo tipo de peça. \(X\) e \(Y\)
+  denotam, respectivamente, o número de peças produzido pelas linhas X e
+  Y em um dado dia. Com base na tabela a seguir da distribuição conjunta
+  de X e Y, determine \(\mathbb{P}(X \geq Y | Y \leq 8)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.185 & 0.006 & 0.025 \\
+  \(8\) & 0.073 & 0.012 & 0.091 \\
+  \(9\) & 0.209 & 0.341 & 0.058 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.604\)
+  \item
+    \(0.282\)
+  \item
+    \(0.640\)
+  \item
+    \(0.718\)
+  \item
+    \(0.396\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) & \(\mathbb{P}(X=x)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.185 & 0.006 & 0.025 & 0.216 & & & & \\
+  \(8\) & 0.073 & 0.012 & 0.091 & 0.176 & & & & \\
+  \(9\) & 0.209 & 0.341 & 0.058 & 0.608 & & & & \\
+  \(\mathbb{P}(Y=y)\) & 0.467 & 0.359 & 0.174 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq Y |Y \leq 8) = 
+  \frac{\mathbb{P}(X \geq Y, Y \leq 8))}{P(Y \leq 8)}=
+  \frac{\sum_{y = 8}^8 \sum_{x = y}^{9} p(x,y)}{\sum_{y = 8}^8 \mathbb{P}(Y=y)} =
+  \frac{0.282}{0.467} = 0.604.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Duas linhas de produção fabricam um certo tipo de peça. \(X\) e \(Y\)
+  denotam, respectivamente, o número de peças produzido pelas linhas X e
+  Y em um dado dia. Com base na tabela a seguir da distribuição conjunta
+  de X e Y, determine \(\mathbb{P}(X \geq Y | Y \leq 8)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.02 & 0.169 & 0.069 \\
+  \(8\) & 0.09 & 0.257 & 0.031 \\
+  \(10\) & 0.023 & 0.228 & 0.113 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.113\)
+  \item
+    \(0.150\)
+  \item
+    \(0.850\)
+  \item
+    \(0.887\)
+  \item
+    \(0.393\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(8\) & \(9\) & \(10\) & \(\mathbb{P}(X=x)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(7\) & 0.02 & 0.169 & 0.069 & 0.258 & & & & \\
+  \(8\) & 0.09 & 0.257 & 0.031 & 0.378 & & & & \\
+  \(10\) & 0.023 & 0.228 & 0.113 & 0.364 & & & & \\
+  \(\mathbb{P}(Y=y)\) & 0.133 & 0.654 & 0.213 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq Y |Y \leq 8) = 
+  \frac{\mathbb{P}(X \geq Y, Y \leq 8))}{P(Y \leq 8)}=
+  \frac{\sum_{y = 8}^8 \sum_{x = y}^{10} p(x,y)}{\sum_{y = 8}^8 \mathbb{P}(Y=y)} =
+  \frac{0.113}{0.133} = 0.850.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de construção civil comprou \(75000\) tijolos para
+  construção de um prédio. O fornecedor afirma que a proporção de
+  defeitos no seu produto é de 4 por lote de \(100\) mil unidades.
+  Utilizando a aproximação de poisson da distribuição binomial, calcule
+  a probabilidade de observarmos exatamente \(5\) tijolos defeituosos
+  nessa compra?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.550\)
+  \item
+    \(0.325\)
+  \item
+    \(0.101\)
+  \item
+    \(0.450\)
+  \item
+    \(0.899\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de defeitos tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(75000,4/100000).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 3).\] Portanto, a probabilidade de
+  observarmos exatamente \(5\), é
+  \[P(5)= \exp{(-\lambda)} \times \lambda^{5}/5! = 0.101\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de construção civil comprou \(150000\) tijolos para
+  construção de um prédio. O fornecedor afirma que a proporção de
+  defeitos no seu produto é de 4 por lote de \(100\) mil unidades.
+  Utilizando a aproximação de poisson da distribuição binomial, calcule
+  a probabilidade de observarmos exatamente \(5\) tijolos defeituosos
+  nessa compra?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.839\)
+  \item
+    \(0.770\)
+  \item
+    \(0.161\)
+  \item
+    \(0.195\)
+  \item
+    \(0.230\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de defeitos tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(150000,4/100000).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 6).\] Portanto, a probabilidade de
+  observarmos exatamente \(5\), é
+  \[P(5)= \exp{(-\lambda)} \times \lambda^{5}/5! = 0.161\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de construção civil comprou \(200000\) tijolos para
+  construção de um prédio. O fornecedor afirma que a proporção de
+  defeitos no seu produto é de 2 por lote de \(100\) mil unidades.
+  Utilizando a aproximação de poisson da distribuição binomial, calcule
+  a probabilidade de observarmos exatamente \(3\) tijolos defeituosos
+  nessa compra?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.533\)
+  \item
+    \(0.130\)
+  \item
+    \(0.805\)
+  \item
+    \(0.195\)
+  \item
+    \(0.870\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de defeitos tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(2e+05,2/100000).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 4).\] Portanto, a probabilidade de
+  observarmos exatamente \(3\), é
+  \[P(3)= \exp{(-\lambda)} \times \lambda^{3}/3! = 0.195\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de construção civil comprou \(50000\) tijolos para
+  construção de um prédio. O fornecedor afirma que a proporção de
+  defeitos no seu produto é de 8 por lote de \(100\) mil unidades.
+  Utilizando a aproximação de poisson da distribuição binomial, calcule
+  a probabilidade de observarmos exatamente \(3\) tijolos defeituosos
+  nessa compra?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.195\)
+  \item
+    \(0.810\)
+  \item
+    \(0.503\)
+  \item
+    \(0.190\)
+  \item
+    \(0.805\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de defeitos tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(50000,8/100000).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 4).\] Portanto, a probabilidade de
+  observarmos exatamente \(3\), é
+  \[P(3)= \exp{(-\lambda)} \times \lambda^{3}/3! = 0.195\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de construção civil comprou \(100000\) tijolos para
+  construção de um prédio. O fornecedor afirma que a proporção de
+  defeitos no seu produto é de 2 por lote de \(100\) mil unidades.
+  Utilizando a aproximação de poisson da distribuição binomial, calcule
+  a probabilidade de observarmos exatamente \(1\) tijolos defeituosos
+  nessa compra?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.505\)
+  \item
+    \(0.740\)
+  \item
+    \(0.260\)
+  \item
+    \(0.271\)
+  \item
+    \(0.729\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de defeitos tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(1e+05,2/100000).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 2).\] Portanto, a probabilidade de
+  observarmos exatamente \(1\), é
+  \[P(1)= \exp{(-\lambda)} \times \lambda^{1}/1! = 0.271\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de construção civil comprou \(200000\) tijolos para
+  construção de um prédio. O fornecedor afirma que a proporção de
+  defeitos no seu produto é de 2 por lote de \(100\) mil unidades.
+  Utilizando a aproximação de poisson da distribuição binomial, calcule
+  a probabilidade de observarmos exatamente \(5\) tijolos defeituosos
+  nessa compra?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.100\)
+  \item
+    \(0.156\)
+  \item
+    \(0.844\)
+  \item
+    \(0.128\)
+  \item
+    \(0.900\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de defeitos tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(2e+05,2/100000).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 4).\] Portanto, a probabilidade de
+  observarmos exatamente \(5\), é
+  \[P(5)= \exp{(-\lambda)} \times \lambda^{5}/5! = 0.156\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de construção civil comprou \(50000\) tijolos para
+  construção de um prédio. O fornecedor afirma que a proporção de
+  defeitos no seu produto é de 8 por lote de \(100\) mil unidades.
+  Utilizando a aproximação de poisson da distribuição binomial, calcule
+  a probabilidade de observarmos exatamente \(3\) tijolos defeituosos
+  nessa compra?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.195\)
+  \item
+    \(0.805\)
+  \item
+    \(0.950\)
+  \item
+    \(0.050\)
+  \item
+    \(0.123\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de defeitos tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(50000,8/100000).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 4).\] Portanto, a probabilidade de
+  observarmos exatamente \(3\), é
+  \[P(3)= \exp{(-\lambda)} \times \lambda^{3}/3! = 0.195\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de construção civil comprou \(300000\) tijolos para
+  construção de um prédio. O fornecedor afirma que a proporção de
+  defeitos no seu produto é de 2 por lote de \(100\) mil unidades.
+  Utilizando a aproximação de poisson da distribuição binomial, calcule
+  a probabilidade de observarmos exatamente \(8\) tijolos defeituosos
+  nessa compra?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.103\)
+  \item
+    \(0.740\)
+  \item
+    \(0.182\)
+  \item
+    \(0.260\)
+  \item
+    \(0.897\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de defeitos tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(3e+05,2/100000).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 6).\] Portanto, a probabilidade de
+  observarmos exatamente \(8\), é
+  \[P(8)= \exp{(-\lambda)} \times \lambda^{8}/8! = 0.103\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de construção civil comprou \(37500\) tijolos para
+  construção de um prédio. O fornecedor afirma que a proporção de
+  defeitos no seu produto é de 8 por lote de \(100\) mil unidades.
+  Utilizando a aproximação de poisson da distribuição binomial, calcule
+  a probabilidade de observarmos exatamente \(2\) tijolos defeituosos
+  nessa compra?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.880\)
+  \item
+    \(0.172\)
+  \item
+    \(0.776\)
+  \item
+    \(0.120\)
+  \item
+    \(0.224\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de defeitos tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(37500,8/100000).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 3).\] Portanto, a probabilidade de
+  observarmos exatamente \(2\), é
+  \[P(2)= \exp{(-\lambda)} \times \lambda^{2}/2! = 0.224\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de construção civil comprou \(50000\) tijolos para
+  construção de um prédio. O fornecedor afirma que a proporção de
+  defeitos no seu produto é de 8 por lote de \(100\) mil unidades.
+  Utilizando a aproximação de poisson da distribuição binomial, calcule
+  a probabilidade de observarmos exatamente \(3\) tijolos defeituosos
+  nessa compra?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.805\)
+  \item
+    \(0.050\)
+  \item
+    \(0.195\)
+  \item
+    \(0.950\)
+  \item
+    \(0.573\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de defeitos tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(50000,8/100000).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 4).\] Portanto, a probabilidade de
+  observarmos exatamente \(3\), é
+  \[P(3)= \exp{(-\lambda)} \times \lambda^{3}/3! = 0.195\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

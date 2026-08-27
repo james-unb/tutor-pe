@@ -1,0 +1,170 @@
+@use '../styles/variables' as *;
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    backdrop-filter: blur(4px);
+}
+
+.modal {
+    background-color: $bg-surface;
+    border-radius: $radius-lg;
+    border: 1px solid $border-color;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: $shadow-lg;
+    animation: slideIn 0.2s ease-out;
+
+    @media (max-width: 768px) {
+        margin: $spacing-md;
+        max-width: calc(100% - $spacing-md * 2);
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $spacing-lg;
+    border-bottom: 1px solid $border-color;
+
+    h2 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: $text-primary;
+        margin: 0;
+    }
+
+    .closeButton {
+        background: none;
+        border: none;
+        color: $text-secondary;
+        cursor: pointer;
+        padding: $spacing-xs;
+        border-radius: $radius-md;
+        transition: $transition-base;
+
+        &:hover {
+            background-color: $overlay-medium;
+            color: $text-primary;
+        }
+    }
+}
+
+.content {
+    padding: $spacing-lg;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+
+    .field {
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-xs;
+    }
+
+    label {
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: $text-secondary;
+    }
+
+    input,
+    select {
+        width: 100%;
+        padding: $spacing-md;
+        background-color: $bg-primary;
+        border: 1px solid $border-color;
+        border-radius: $radius-md;
+        color: $text-primary;
+        font-size: 1rem;
+        outline: none;
+        transition: $transition-base;
+
+        &:focus {
+            border-color: $color-primary;
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+        }
+    }
+
+    select {
+        cursor: pointer;
+
+        option {
+            background-color: $bg-surface;
+        }
+    }
+}
+
+.footer {
+    padding: $spacing-lg;
+    border-top: 1px solid $border-color;
+    display: flex;
+    justify-content: flex-end;
+    gap: $spacing-md;
+
+    @media (max-width: 768px) {
+        flex-direction: column-reverse;
+
+        button {
+            width: 100%;
+        }
+    }
+
+    button {
+        padding: $spacing-sm $spacing-lg;
+        border-radius: $radius-md;
+        font-weight: 500;
+        cursor: pointer;
+        transition: $transition-base;
+        font-size: 0.95rem;
+    }
+
+    .cancelButton {
+        background: transparent;
+        border: 1px solid $border-color;
+        color: $text-secondary;
+
+        &:hover {
+            background-color: $overlay-medium;
+            color: $text-primary;
+        }
+    }
+
+    .createButton {
+        background-color: $color-primary;
+        border: none;
+        color: white;
+
+        &:hover {
+            background-color: $color-primary-hover;
+        }
+
+        &:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+    }
+}

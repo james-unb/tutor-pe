@@ -1,0 +1,422 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Dentre 3 números positivos e 7 negativos, dois números são escolhidos
+  ao acaso (sem reposição) e multiplicados. Qual a probabilidade de que
+  o produto seja positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.894\)
+  \item
+    \(0.344\)
+  \item
+    \(0.300\)
+  \item
+    \(0.139\)
+  \item
+    \(0.533\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  No total, existem \(\binom{10}{2}\) modos distintos de escolhermos os
+  dois números. Para que o produto seja positivo devemos ter dois
+  números positivos, que podem ser escolhidos de \(\binom{3}{2}\)
+  maneiras distintas, ou dois números negativos, que podem ser
+  escolhidos de \(\binom{7}{2}\) maneiras distintas. Segue que a
+  probabilidade desejada é
+  \[\dfrac{\binom{3}{2}+\binom{7}{2}}{\binom{10}{2}} = 0.533.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Dentre 6 números positivos e 5 negativos, dois números são escolhidos
+  ao acaso (sem reposição) e multiplicados. Qual a probabilidade de que
+  o produto seja positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.545\)
+  \item
+    \(0.455\)
+  \item
+    \(0.320\)
+  \item
+    \(0.778\)
+  \item
+    \(0.469\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  No total, existem \(\binom{11}{2}\) modos distintos de escolhermos os
+  dois números. Para que o produto seja positivo devemos ter dois
+  números positivos, que podem ser escolhidos de \(\binom{6}{2}\)
+  maneiras distintas, ou dois números negativos, que podem ser
+  escolhidos de \(\binom{5}{2}\) maneiras distintas. Segue que a
+  probabilidade desejada é
+  \[\dfrac{\binom{6}{2}+\binom{5}{2}}{\binom{11}{2}} = 0.455.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Dentre 3 números positivos e 7 negativos, dois números são escolhidos
+  ao acaso (sem reposição) e multiplicados. Qual a probabilidade de que
+  o produto seja positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.883\)
+  \item
+    \(0.300\)
+  \item
+    \(0.635\)
+  \item
+    \(0.237\)
+  \item
+    \(0.533\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  No total, existem \(\binom{10}{2}\) modos distintos de escolhermos os
+  dois números. Para que o produto seja positivo devemos ter dois
+  números positivos, que podem ser escolhidos de \(\binom{3}{2}\)
+  maneiras distintas, ou dois números negativos, que podem ser
+  escolhidos de \(\binom{7}{2}\) maneiras distintas. Segue que a
+  probabilidade desejada é
+  \[\dfrac{\binom{3}{2}+\binom{7}{2}}{\binom{10}{2}} = 0.533.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Dentre 5 números positivos e 8 negativos, dois números são escolhidos
+  ao acaso (sem reposição) e multiplicados. Qual a probabilidade de que
+  o produto seja positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.769\)
+  \item
+    \(0.385\)
+  \item
+    \(0.016\)
+  \item
+    \(0.559\)
+  \item
+    \(0.487\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  No total, existem \(\binom{13}{2}\) modos distintos de escolhermos os
+  dois números. Para que o produto seja positivo devemos ter dois
+  números positivos, que podem ser escolhidos de \(\binom{5}{2}\)
+  maneiras distintas, ou dois números negativos, que podem ser
+  escolhidos de \(\binom{8}{2}\) maneiras distintas. Segue que a
+  probabilidade desejada é
+  \[\dfrac{\binom{5}{2}+\binom{8}{2}}{\binom{13}{2}} = 0.487.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Dentre 4 números positivos e 8 negativos, dois números são escolhidos
+  ao acaso (sem reposição) e multiplicados. Qual a probabilidade de que
+  o produto seja positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.515\)
+  \item
+    \(0.745\)
+  \item
+    \(0.418\)
+  \item
+    \(0.333\)
+  \item
+    \(0.106\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  No total, existem \(\binom{12}{2}\) modos distintos de escolhermos os
+  dois números. Para que o produto seja positivo devemos ter dois
+  números positivos, que podem ser escolhidos de \(\binom{4}{2}\)
+  maneiras distintas, ou dois números negativos, que podem ser
+  escolhidos de \(\binom{8}{2}\) maneiras distintas. Segue que a
+  probabilidade desejada é
+  \[\dfrac{\binom{4}{2}+\binom{8}{2}}{\binom{12}{2}} = 0.515.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Dentre 4 números positivos e 4 negativos, dois números são escolhidos
+  ao acaso (sem reposição) e multiplicados. Qual a probabilidade de que
+  o produto seja positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.520\)
+  \item
+    \(0.500\)
+  \item
+    \(0.945\)
+  \item
+    \(0.429\)
+  \item
+    \(0.141\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  No total, existem \(\binom{8}{2}\) modos distintos de escolhermos os
+  dois números. Para que o produto seja positivo devemos ter dois
+  números positivos, que podem ser escolhidos de \(\binom{4}{2}\)
+  maneiras distintas, ou dois números negativos, que podem ser
+  escolhidos de \(\binom{4}{2}\) maneiras distintas. Segue que a
+  probabilidade desejada é
+  \[\dfrac{\binom{4}{2}+\binom{4}{2}}{\binom{8}{2}} = 0.429.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Dentre 6 números positivos e 8 negativos, dois números são escolhidos
+  ao acaso (sem reposição) e multiplicados. Qual a probabilidade de que
+  o produto seja positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.137\)
+  \item
+    \(0.620\)
+  \item
+    \(0.429\)
+  \item
+    \(0.691\)
+  \item
+    \(0.473\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  No total, existem \(\binom{14}{2}\) modos distintos de escolhermos os
+  dois números. Para que o produto seja positivo devemos ter dois
+  números positivos, que podem ser escolhidos de \(\binom{6}{2}\)
+  maneiras distintas, ou dois números negativos, que podem ser
+  escolhidos de \(\binom{8}{2}\) maneiras distintas. Segue que a
+  probabilidade desejada é
+  \[\dfrac{\binom{6}{2}+\binom{8}{2}}{\binom{14}{2}} = 0.473.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Dentre 4 números positivos e 4 negativos, dois números são escolhidos
+  ao acaso (sem reposição) e multiplicados. Qual a probabilidade de que
+  o produto seja positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.622\)
+  \item
+    \(0.740\)
+  \item
+    \(0.429\)
+  \item
+    \(0.037\)
+  \item
+    \(0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  No total, existem \(\binom{8}{2}\) modos distintos de escolhermos os
+  dois números. Para que o produto seja positivo devemos ter dois
+  números positivos, que podem ser escolhidos de \(\binom{4}{2}\)
+  maneiras distintas, ou dois números negativos, que podem ser
+  escolhidos de \(\binom{4}{2}\) maneiras distintas. Segue que a
+  probabilidade desejada é
+  \[\dfrac{\binom{4}{2}+\binom{4}{2}}{\binom{8}{2}} = 0.429.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Dentre 5 números positivos e 4 negativos, dois números são escolhidos
+  ao acaso (sem reposição) e multiplicados. Qual a probabilidade de que
+  o produto seja positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.444\)
+  \item
+    \(0.556\)
+  \item
+    \(0.828\)
+  \item
+    \(0.379\)
+  \item
+    \(0.149\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  No total, existem \(\binom{9}{2}\) modos distintos de escolhermos os
+  dois números. Para que o produto seja positivo devemos ter dois
+  números positivos, que podem ser escolhidos de \(\binom{5}{2}\)
+  maneiras distintas, ou dois números negativos, que podem ser
+  escolhidos de \(\binom{4}{2}\) maneiras distintas. Segue que a
+  probabilidade desejada é
+  \[\dfrac{\binom{5}{2}+\binom{4}{2}}{\binom{9}{2}} = 0.444.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Dentre 6 números positivos e 4 negativos, dois números são escolhidos
+  ao acaso (sem reposição) e multiplicados. Qual a probabilidade de que
+  o produto seja positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.600\)
+  \item
+    \(0.086\)
+  \item
+    \(0.590\)
+  \item
+    \(0.769\)
+  \item
+    \(0.467\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  No total, existem \(\binom{10}{2}\) modos distintos de escolhermos os
+  dois números. Para que o produto seja positivo devemos ter dois
+  números positivos, que podem ser escolhidos de \(\binom{6}{2}\)
+  maneiras distintas, ou dois números negativos, que podem ser
+  escolhidos de \(\binom{4}{2}\) maneiras distintas. Segue que a
+  probabilidade desejada é
+  \[\dfrac{\binom{6}{2}+\binom{4}{2}}{\binom{10}{2}} = 0.467.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

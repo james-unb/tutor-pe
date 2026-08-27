@@ -1,0 +1,547 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsfonts,amssymb,amsbsy}
+\usepackage{amsthm} %Permite teorema sem numeração, no meu caso Demonstração
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+
+%------------------------------------------------------------------------------
+
+\setlength{\topmargin}{-1.0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{6.5in}
+\setlength{\baselineskip}{12mm}
+
+%------------------------------------------------------------------------------
+
+\renewcommand{\P}{\mathcal{P}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+        \begin{minipage}[c]{7in}
+                  {Universidade de Brasília} \\
+                  {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf $\text{4}^{\text{\underline{a}}}$ Lista de PE}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item Seja $X$ uma variável aleatória com densidade 
+\begin{equation*}
+f(x) = 
+\left\{\begin{array}{lcc}
+C(1-x^2), & \text{se} & x\in (-1,1),\\ \vspace{0.1cm}
+0, & \text{se} & x \notin (-1,1).
+\end{array} \right.
+\end{equation*} %Ross - Capítulo 5 - Questão 5.1 - Pág. 224
+\begin{itemize}
+\item[a)] Qual o valor de $C$?
+\item[b)] Qual a função distribuição de $X$?
+\item[c)] Calcule $\mathcal{E}(X)$ e $\mathcal{E}|X|$.
+\end{itemize} 
+
+\item Seja $X$ uma variável aleatória com densidade 
+\begin{equation*}
+f(x) = 
+\left\{\begin{array}{lcc}
+Cxe^{-x/2}, & \text{se} & x>0,\\ \vspace{0.1cm}
+0, & \text{se} & x \leqslant 0.
+\end{array} \right.
+\end{equation*} %Ross - Capítulo 5 - Questão 5.6 - Pág. 224
+\begin{itemize}
+\item[a)] Qual o valor de $C$?
+\item[b)] Qual a função distribuição de $X$?
+\item[c)] Calcule $\mathcal{E}(X)$.
+\end{itemize} 
+
+\item Seja X uma variável aleatória contínua com função densidade de probabilidades dada por:
+\[
+f(x) = \begin{cases}
+\frac{1}{6}x+k, \quad &\text{se } \ 0\leqslant x \leqslant 3;\\
+0,\quad & \text{c.c.}
+\end{cases}
+\]
+	
+\begin{itemize}
+\item[a)] Determine o valor de k.
+\item[b)] Calcule $\P(1<X<2)$.
+\item[c)] Determine o valor de $a$ de forma que $\P(X < a) =\frac{1}{2}$. 
+\end{itemize}
+	
+\item Suponha que o tempo de corrosão, em anos, de uma certa peça metálica pode ser representada por uma variável aleatória $X$ com a seguinte função densidade de probabilidades:
+\[
+f(x) = \begin{cases}
+kx,\quad &\text{se } \ 0\leqslant x\leqslant1;\\
+k,\quad  &\text{se } \ 1<x\leqslant 2;\\
+-kx+3k,\quad &\text{se } \ 2<x\leqslant 3;\\
+0,\quad &\text{c.c.}
+\end{cases}
+\]
+\begin{itemize}
+\item[a)] Qual o tempo máximo que uma peça pode ficar sem se corroer? 
+\item[b)] Calcule o valor de k.
+\item[c)] Calcule $\P(0,5<X<1,5)$.
+\item[d)] Determine a função distribuição acumulada da variável aleatória $X$.
+\end{itemize}
+		
+\item Para o item anterior, uma peça é considerada como tendo boa resistência à corrosão se dura mais que $2$ anos. Ao selecionarmos, com reposição, $3$ peças; qual a probabilidade de termos:
+\begin{itemize}
+\item[a)] todas peças com boa resistência à corrosão?		%( 1/64 ) 
+\item[b)] todas peças com baixa resistência à corrosão?		%( 27/64 )
+\item[c)] apenas uma peça com boa resistência à corrosão?
+\end{itemize}
+
+\item Seja $X$ uma variável aleatória qualquer. Para qual valor de $k$, $\mathcal{E}[(X - k)^2]$ é mínimo?
+
+\item Seja $X$ uma variável aleatória com densidade 
+\begin{equation*}
+f(x) = 
+\left\{\begin{array}{lcc}
+a+bx^2, & \text{se} & x\in(0,1),\\ \vspace{0.1cm}
+0, & \text{se} & x \notin (0,1).
+\end{array} \right.
+\end{equation*} 
+Se $\mathcal{E}(X)=\frac{3}{5}$ encontre $a$ e $b$. %Ross - Capítulo 5 - Questão 5.7 - Pág. 224
+
+\item A demanda diária de arroz em um supermercado, em centenas de quilos, é denotada por uma variável aleatória $X$ com a seguinte função densidade de probabilidades:
+\[
+f(x) = \begin{cases}
+\frac{2x}{3}, \quad &\text{se } \ 0\leqslant x\leqslant 1;\\
+-\frac{x}{3}+1, \quad &\text{se } \ 1< x\leqslant 3;\\
+0, \quad &\text{c.c.}
+\end{cases}
+\]
+	
+\begin{itemize}
+\item[a)] Qual a probabilidade de se vender, num dia escolhido ao acaso, mais de 150 kg de arroz? 
+\item[b)] Qual a quantidade esperada de arroz a ser vendida por esse supermercado num período de um mês (considerando um mês de 30 dias e trabalhando 7 dias por semana)?
+\item[c)] Calcule $\text{Var}(X)$.
+\item[d)] Qual a quantidade de arroz que deve ser deixada à disposição na prateleira para que não falte arroz em $95\%$ dos dias?
+\end{itemize}
+
+\item Se $X$ é uma variável aleatória contínua positiva com distribuição $F_X$ e densidade $f_X$, encontre a densidade de $Y = \log(2X+3)$. %Inventada
+
+\item Numa parada específica, os ônibus chegam a cada 15 minutos começando as 7 AM. Isto é, eles chegam às 7, 7:15, 7:30, 7:45, e assim por diante. Se um passageiro chega na parada em um momento em que é distribuído uniformemente entre 7 e 7:30, encontre a probabilidade de que ele espere %Ross - Capítulo 5 - Ex. 3c - Pág. 196 / Prova Sub 1 - 1/2012.
+
+\begin{itemize}
+\item[a)] menos de 5 minutos por um ônibus;
+\item[b)] mais de 10 minutos por um ônibus.
+\end{itemize}
+
+\item Seja $X$ uniformemente distribuída no intevalo $(a, b)$, onde $a<b$. Se $\mathcal{E}(X) = 1$ e $\text{Var}(X) = 1/12$, determine:
+
+\begin{itemize}
+\item[a)] $\P(X<3/4)$;
+\item[b)] $\P(0,8<X<1,2)$;
+\item[c)] $\P[(X<0,6)\cup(X>1,3)|X>1]$;
+\item[d)] O valor de $k$ tal que $\P(X>k) = 2\P(X<k)$;
+\item[e)] $\mathcal{E}[g(X)]$, onde
+		\[
+		g(x) =\begin{cases}
+		 x, \quad &\text{se } \ x<0,8;\\
+		       1, \quad &\text{se } \ 0,8\leqslant x\leqslant 1;\\
+		       -(x+1),\quad &\text{se } \ x>1.
+		\end{cases}
+		\]
+\end{itemize}
+
+\item O comprimento do lado de um quadrado aleatório é uma variável aleatória uniforme no intervalo $[0,5]$. Calcule a  área esperada do quadrado.
+
+\item Se $X$ tem distribuição normal com parâmetros $\mu=10$ e $\sigma^2=36$, calcule %Ross - Capítulo 5 - Questão 5.15 - Pág. 225 / Inventada.
+\begin{itemize}
+\item[a)] $\mathcal{P}(X < 20)$; 
+\item[b)] $\mathcal{P}(X > 16)$;
+\item[c)] $\mathcal{P}(X>5)$;
+\item[d)] $\mathcal{P}(4<X<16)$;
+\item[e)] $\mathcal{P}(|X| < 8)$. 
+\end{itemize}
+
+\item Um perito em processos de paternidade afirma que o tempo de gestação humana (em dias) tem distribuição aproximadamente normal com parâmetros $\mu = 270$ e $\sigma^2 = 100$. O réu na ação é capaz de provar que estava fora do país durante um período que começou 290 dias antes do nascimento da criança e terminou 240 dias antes do nascimento. Se o réu era, de fato, o pai da criança, qual é a probabilidade de que a mãe tenha tido a gestação muito longa ou muito curta seguindo a indicação do perito? %Ross - Capítulo 5 - Ex. 4d - Pág. 203
+
+\item Suponha que $X \sim \mathcal{N}(\mu, \sigma^2)$. Determine o valor de $k$ (como função de $\mu$ e $\sigma^2)$ tal que $\P(X\leqslant k) = 2\P(X>k)$.
+		
+\item Suponha que uma turma de Probabilidade e Estatística tenha $30$ alunos, dos quais $10$ são mulheres e $20$ são homens. Suponha também que a altura (em metros) das mulheres segue uma distribuição Normal com média 1,6 e variância 0,09; e a altura dos homens segue uma distribuição Normal com média 1,8 e variância 0,16. Um indivíduo é selecionado aleatoriamente nessa turma:
+
+\begin{itemize}
+\item[a)] Qual a probabilidade desse indivíduo medir mais que 1,7m dado que é homem?
+\item[b)] Qual a probabilidade desse indivíduo ser mulher, dado que mede menos que 1,8m?
+\item[c)] Qual a probabilidade desse indivíduo medir de 1,5m a 1,7m?
+\item[d)] Qual a probabilidade desse indivíduo ser homem e medir mais que $2$ metros?
+\item[e)] Qual a probabilidade desse indivíduo ser mulher ou medir menos que 1,8m?
+\item[f)] Ao se formar um grupo de $5$ pessoas dessa turma, qual a probabilidade de exatamente $3$ indivíduos desse grupo medirem menos que 1,6m? 
+\end{itemize}
+
+\item O tamanho ideal de uma classe de primeiro ano em uma faculdade particular é de 150 alunos. A faculdade, sabendo por experiência que, em média, apenas 30\% dos alunos aceitos realmente permanecem na faculdade, utiliza uma política de aprovação das aplicações de 450 alunos. Calcule a probabilidade de que mais de 150 alunos do primeiro ano permaneçam na faculdade. Use a aproximação normal à binomial para o cálculo da probabilidade e compare os resultados.%Ross - Capítulo 5 - Ex. 4g - Pág. 205
+
+\item Seja $X$ uma variável aleatória que denota o número de caras em $40$ lançamentos de uma moeda não viciada. Calcule $\P(19<X\leqslant21)$:
+
+\begin{itemize}
+\item[a)] pelo método exato;
+\item[b)] pelo método aproximado (Teorema Limite Central).
+\end{itemize}
+
+\item Uma variável aleatória $X$ tem distribuição de Weibull com parâmetros $\alpha$, $\beta$ e $v$ se tem densidade dada por 
+$$ 
+f(x) = 
+\left\{\begin{array}{lcc}
+0, & \text{se} & x\leqslant v,\\ \vspace{0.1cm}
+\dfrac{\beta}{\alpha}\left(\dfrac{x-v}{\alpha}\right)^{\beta-1}\exp\left\{ -\left(\dfrac{x-v}{\alpha}\right)^{\beta}\right\}, & \text{se} & x > v.
+\end{array} \right.
+$$
+\begin{itemize}
+\item[a)] Encontre a distribuição de $X$.
+\item[b)] Qual a esperança de $X$ quando $\beta=1$ e $v=0$?
+\end{itemize}
+
+\item O número de anos em que um determinado rádio funciona é exponencialmente distribuído com parâmetro $\lambda = 1/8$. Se Jonas compra um rádio usado, qual é a probabilidade de que ele estará trabalhando após 8 anos adicionais? %Ross - Capítulo 5 - Questão 5.33 - Pág. 226
+
+\item Suponha que o tempo de duração, $X$, de uma consulta médica tenha distribuição exponencial com média de 10 minutos. Calcule a probabilidade dos seguintes eventos:
+\begin{itemize}
+\item[a)] uma consulta demora 20 minutos no máximo;
+\item[b)] uma consulta demora mais de 20 minutos;
+\item[c)] uma consulta demora mais que o tempo médio.
+\end{itemize}
+
+\item Se $X \sim \text{Exp}(\lambda)$, mostre que para quaisquer que sejam $x\geqslant0$ e  $t\geqslant0$, \[P(X>x+t|X>t) = P(X>x).\]
+Obs: Essa propriedade é conhecida como ``perda de memória''. A distribuição Exponencial é a única distribuição contínua (unidimensional) que possui a propriedade de perda de memória.
+
+\item Suponha que o número de milhas que um carro pode percorrer antes de sua bateria acabar é exponencialmente distribuído com média de 10.000 milhas. Se uma pessoa já percorreu 5.000 milhas com seu carro e deseja fazer uma viagem de 10.000 milhas, qual a probabilidade de que esta pessoa consiga completar sua viagem sem precisar trocar a bateria? %Ross - Capítulo 5 - Ex. 5d - Pág. 211 / Prova Sub. 2 - 1/2012.
+
+{\bf Dica:} Use a propriedade de perda de memória da distribuição exponencial.
+
+\item Considere uma variável aleatória $X \sim \mathcal{N}(\mu,\sigma^2)$. 
+\begin{itemize}
+\item[a)] Calcule $\P(X \leqslant \mu + 2\sigma)$.
+\item[b)] Calcule $\P (|X- \mu| \leqslant\sigma)$.
+\item[c)] Encontre $a$ tal que $\P(X >a)=0,90$.
+\item[d)] Demonstre que aproximadamente 95\% da distribuição de $X$ pertence ao intervalo $(\mu-1,96\sigma,\mu+1,96\sigma)$.
+\item[e)] Para que valor de $\beta$ aproximadamente 99\% da distribuição de $X$ estaria no intervalo $(\mu-\beta\sigma,\mu+\beta\sigma)$?
+\end{itemize}
+
+\item Um banco faz operações via Internet e, após um estudo sobre o serviço prestado, concluiu que o tempo de conexão (em minutos) de cada cliente segue uma distribuição Exponencial com parâmetro $\lambda$, onde $\lambda= 2$ se o cliente for pessoa física e $\lambda= 1$ se o cliente for pessoa jurídica. A porcentagem de pessoas físicas que utilizam esse serviço é estimada na ordem de $30\%$. Com base nisso, calcule:
+		
+\begin{itemize}
+\item[a)] a probabilidade de uma pessoa física ficar mais de $1$ minuto conectada;
+\item[b)] a probabilidade de uma pessoa jurídica ficar menos de $5$ minutos conectada;
+\item[c)] a probabilidade de um cliente ficar mais de $2$ minutos conectado;
+\item[d)] a probabilidade de uma pessoa física ficar mais de $4$ minutos conectada dado que ela já está conectada a $3$ minutos;
+\item[e)] se um cliente fica mais de $2$ minutos conectado, qual a probabilidade dele ser uma pessoa jurídica?
+\end{itemize}
+
+\item Suponha que uma lanterna é girada em torno do seu centro, o qual está localizado à distância de uma unidade do eixo x (veja a figura abaixo). Consideremos o ponto $X$ no qual o feixe intersecta o eixo x quando a lanterna para de girar. (Se o feixe não está apontando na direção do eixo x, repetir a experiência.)
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.4]{q14.pdf}
+%\caption{}
+%\label{}
+\end{figure}
+
+\begin{itemize}
+\item[a)] Deduza, a partir do experimento, que a função densidade da variável $X$ é dada por $f(x)=\dfrac{1}{\pi(1+x^2)}$, para todo $x$ real.
+\item[b)] Mostre que $f(x)$ é, de fato, uma densidade.
+\item[c)] A distribuição acima é conhecida como distribuição de Cauchy e é famosa por não possuir esperança finita. Sabendo que uma variável aleatória possui esperança $\mathcal{E}(X)$ se, e somente se $\mathcal{E}|X|$ existir, prove que $X$ não possui esperança finita.
+\end{itemize}
+
+\item Seja $X$ uma v.a. contínua com densidade $f_X(x)$. Encontre a densidade de $Y=|X|$. %Ross, Cap. 5, Ex.7c, Pág. 220.
+
+\vspace{0.2cm}
+\item Seja $X$ uma v.a. contínua não negativa com densidade $f_X(x)$. Encontre a densidade de $Y = X^n$. %Ross, Cap. 5, Ex.7d, Pág. 221.
+
+\vspace{0.2cm}
+\item Seja $X$ uniformemente distribuída no intervalo $(-1,1)$. Encontre %Ross, Cap. 5, Exercício 5.37, Pág. 227.
+\begin{itemize}
+\item[a)] $\P(|X|>1/2)$;
+\item[b)] densidade de $Y=|X|$.
+\end{itemize}
+
+\vspace{0.2cm}
+\item Se $Y$ é uniformemente distribuída no intervalo $(0, 5)$, qual a probabilidade de que as raízes da equação $4x^2 + 4xY + Y + 2=0$ sejam ambas reais? %Ross, Cap. 5, Exercício 5.38, Pág. 227.
+
+\vspace{0.2cm}
+\item Seja $X$ exponencial de parâmetro $\lambda = 1$. Encontre a densidade de $Y=\log X$. %Ross, Cap. 5, Exercício 5.40, Pág. 227.
+
+\vspace{0.2cm}
+\item Seja $X$ uniformemente distribuída no intervalo $(0, 1)$. Encontre a densidade de $Y = e^X$. %Ross, Cap. 5, Exercício 5.39, Pág. 227.
+
+\vspace{0.2cm}
+\item Seja $Z$ uma variável aleatória normal padrão. Mostre que, para $x > 0$, %Ross, Cap. 5, Exercício Teórico 5.9, Pág. 228.
+\begin{itemize}
+\item[a)] $\mathcal{P}(Z > x)=\mathcal{P}(Z <-x)$;
+\item[b)] $\mathcal{P}(|Z|>x)=2\mathcal{P}(Z>x)$;
+\item[c)] $\mathcal{P}(|Z| < x)=2\mathcal{P}(Z < x)-1$.
+\end{itemize}
+
+\item Seja $X$ uma v.a. com distribuição de Weibull, como na {\bf Questão 19}. Mostre que $Y=\left(\dfrac{X-v}{\alpha}\right)^{\beta}$ tem distribuição exponencial de parâmetro $\lambda=1$. %Ross, Cap. 5, Exercício Teórico 5.25, Pág. 228.
+
+\vspace{0.2cm}
+\item Sejam $X\sim \text{Exp}(2)$ e $Y \sim \mathcal{N}(4,9)$. Encontre os quantis $q(0,25)$, $q(0,5)$ e $q(0,75)$ para ambas as distribuições. %Inventada
+
+\vspace{0.3cm}
+\item Suponha que a função de distribuição de uma variável aleatória $X$ é dada por %Inventada
+\begin{equation*}
+F(x) = 
+\left\{\begin{array}{ccr}
+0, & \text{se} & x<0,\\ \vspace{0.1cm}
+\frac{x}{3}, & \text{se} & 0\leqslant x<1,\\ \vspace{0.1cm}
+\frac{1}{2}, & \text{se} & 1\leqslant x<2,\\ \vspace{0.1cm}
+\frac{x+6}{12}, & \text{se} & 2\leqslant x<3, \\ \vspace{0.1cm}
+\frac{5}{6}, & \text{se} & 3\leqslant x<4,\\ 
+1, & \text{se} & x\geqslant 4.
+\end{array} \right.
+\end{equation*} 
+
+\begin{itemize}
+\item[a)] Construa o gráfico de $F(x)$.
+\item[b)] Encontre $\mathcal{P}(X=\text{1,5})$.
+\item[c)] Encontre $\mathcal{P}(X=2)$.
+\item[d)] Encontre $\mathcal{P}\left(\text{2,2}<X<\text{3,7}\right)$.
+\end{itemize}
+\end{enumerate}
+
+\newpage
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+       \begin{minipage}[c]{7in}
+                 {Universidade de Brasília} \\
+                 {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf Respostas}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item
+\begin{itemize}
+\item[a)] 3/4
+\item[b)] A função distribuição é 
+\begin{equation*}
+F(x) = 
+\left\{\begin{array}{lcc}
+\vspace*{0.2cm} 0, & \text{se} & x \leqslant -1,\\
+\vspace*{0.2cm} \dfrac{3}{4}\left(x-\dfrac{x^3}{3}+\dfrac{2}{3}\right), & \text{se} & -1<x<1,\\
+1, & \text{se} & x \geqslant 1.\\
+\end{array} \right.
+\end{equation*}
+\item[c)] $\mathcal{E}(X)=0$ \ \ e \ \ $\mathcal{E}|X|=2/8.$
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] 1/4.
+\item[b)] A função distribuição é 
+\begin{equation*}
+F(x) = 
+\left\{\begin{array}{lcc}
+\vspace*{0.2cm} 0, & \text{se} & x \leqslant 0,\\
+1 - \dfrac{1}{2}xe^{-x/2}-e^{-x/2}, & \text{se} & x > 0.\\
+\end{array} \right.
+\end{equation*}
+\item[c)] 4
+\end{itemize}
+
+\item 
+\begin{itemize}
+\item[a)] $1/12$.
+\item[b)] $1/3$.
+\item[c)] $a=2$. 
+\end{itemize}
+
+\item 
+\begin{itemize}
+\item[a)] $3$ anos.
+\item[b)] $1/2$.
+\item[c)] $7/16$.
+\item[d)] \begin{equation*}
+F(x) = 
+\left\{\begin{array}{lcc}
+\vspace*{0.2cm} \dfrac{x^2}{4}, & \text{se} & 0 \leqslant x \leqslant 1,\\
+\vspace*{0.2cm} \dfrac{1}{4}+\dfrac{(2x-1)}{4}, & \text{se} & 1<x\leqslant 2,\\
+\vspace*{0.2cm} \dfrac{-x^2+6x-5}{4}, & \text{se} & 1<x\leqslant 2,\\
+1, & \text{se} & x > 3.\\
+\end{array} \right.
+\end{equation*}
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] $1/64$.
+\item[b)] $27/64$.
+\item[c)] $27/64$.	  
+\end{itemize}
+
+\item $k = \mathcal{E}(X)$
+ 
+\item $a=3/5$ \ \ e \ \ $b=6/5$.
+
+\item 
+\begin{itemize}
+\item[a)] $3/8$.
+\item[b)] $4$ toneladas.
+\item[c)] $7/18 $.
+\item[d)] $245$ kg. 
+\end{itemize}
+
+\item $\dfrac{1}{2}e^xf_X\left(\frac{e^x-3}{2}\right).$
+
+\item 
+\begin{itemize}
+\item[a)] 1/3.
+\item[b)] 1/3.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] $0,25$.
+\item[b)] $0,4$.
+\item[c)] $0,4$.
+\item[d)] $5/6$.
+\item[e)] $-0,73$.
+\end{itemize}
+
+\item 25/3.
+
+\item 
+\begin{itemize}
+\item[a)] 0,95254. 
+\item[b)]0,15866.
+\item[c)]0,79673
+\item[d)]0,68268
+\item[e)]0,36935
+\end{itemize}
+
+\item 0,0241
+
+\item $k = 0,43\sigma + \mu$.
+	
+\item
+\begin{itemize}
+\item[a)] $0,5987$.
+\item[b)] $0,4281$.
+\item[c)] $0,2026$.
+\item[d)] $0,2057$.
+\item[e)] $0,6667$.
+\item[f)] $0,2034$. 
+\end{itemize}
+
+\item Aproximadamente 0,06178
+
+\item
+\begin{itemize}
+\item[a)] $0,2448$.
+\item[b)] $0,2510$.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] A função distribuição é 
+$$F(x) = 
+\left\{\begin{array}{lcc}
+0, & \text{se} & x\leqslant v,\\ \vspace{0.1cm}
+1-\exp\left\{ -\left(\dfrac{x-v}{\alpha}\right)^{\beta}\right\}, & \text{se} & x > v.
+\end{array} \right.
+$$
+\item[b)] $\alpha$.
+\end{itemize}
+
+\item $e^{-1}.$
+
+\item
+\begin{itemize}
+\item[a)] $1-e^{-2}.$
+\item[b)] $e^{-2}.$
+\item[c)] $e^{-1}.$
+\end{itemize}
+
+\item Aplique a definição de condicional e utilize a distribuição.
+
+\item 0,607. 
+
+\item
+\begin{itemize}
+\item[a)] 0,9773.
+\item[b)] 0,6827.
+\item[c)] $a=-(\mu+1,28\sigma).$
+\item[d)] Demonstração.
+\item[e)] $\beta = 2,58$.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] $0,1353$.
+\item[b)] $0,9933$.
+\item[c)] $0,1002$.
+\item[d)] $0,1353$.
+\item[e)] $0,9452$.
+\end{itemize}
+
+
+\item
+\begin{itemize}
+\item[a)] $f(x)=\dfrac{1}{\pi(1+x^2)}, \ \ -\infty<x<\infty$
+\item[b)] 1
+\item[c)] $+\infty.$
+\end{itemize}
+
+\item $f_Y(y)=f_X(y)+f_X(-y), \ \ y\geqslant 0.$
+
+\item $f_Y(y)=\frac{1}{n}y^{1/n-1}f_X\left(y^{1/n}\right), \ \ y\geqslant 0.$
+
+\item
+\begin{itemize}
+\item[a)] 1/2.
+\item[b)] $Y\sim \mathcal{U}(0,1)$. 
+\end{itemize}
+ 
+\item 3/5
+
+\item $f_Y(y)=e^ye^{-e^y}, \ \ y\in \mathbb{R}$.
+
+\item $f_Y(y)=\frac{1}{y}, \ \ 1<y<e$.
+
+\item Demonstração.
+
+\item Demonstração.
+
+\item 0,1438; 0,3466 e 0,6932.\\
+1,9600; 4,0000 e 6,0400.
+
+\item
+\begin{itemize}
+\item[a)] Construa o gráfico.
+\item[b)] 0.
+\item[c)] 1/6. 
+\item[d)] 3/20.
+\end{itemize} 
+\end{enumerate}
+  
+\end{document}

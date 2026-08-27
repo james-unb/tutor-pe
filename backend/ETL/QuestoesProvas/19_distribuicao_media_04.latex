@@ -1,0 +1,412 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina foi projetada para encher caixas de leite com 990
+  mililitros e desvio padrão de 91 mililitros. Qual é a probabilidade da
+  média amostral de um conjunto de 52 caixas de leite escolhidas
+  aleatoriamente superar o limite de 1 litro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.448\)
+  \item
+    \(0.456\)
+  \item
+    \(0.476\)
+  \item
+    \(0.707\)
+  \item
+    \(0.215\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o volume de leite em uma caixa enchida por essa máquina,
+  então \(E(X) = \mu = 990\), enquanto que o desvio padrão teórico é
+  \(\sigma/\sqrt{n} = 91/\sqrt{52} = 12.619\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>1000) = P\left(Z > \frac{1000 - 990}{12.619}\right) = P(Z > 0.79) = 0.215.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina foi projetada para encher caixas de leite com 988
+  mililitros e desvio padrão de 95 mililitros. Qual é a probabilidade da
+  média amostral de um conjunto de 45 caixas de leite escolhidas
+  aleatoriamente superar o limite de 1 litro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.392\)
+  \item
+    \(0.823\)
+  \item
+    \(0.448\)
+  \item
+    \(0.476\)
+  \item
+    \(0.198\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o volume de leite em uma caixa enchida por essa máquina,
+  então \(E(X) = \mu = 988\), enquanto que o desvio padrão teórico é
+  \(\sigma/\sqrt{n} = 95/\sqrt{45} = 14.162\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>1000) = P\left(Z > \frac{1000 - 988}{14.162}\right) = P(Z > 0.85) = 0.198.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina foi projetada para encher caixas de leite com 984
+  mililitros e desvio padrão de 91 mililitros. Qual é a probabilidade da
+  média amostral de um conjunto de 46 caixas de leite escolhidas
+  aleatoriamente superar o limite de 1 litro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.464\)
+  \item
+    \(0.117\)
+  \item
+    \(0.815\)
+  \item
+    \(0.482\)
+  \item
+    \(0.429\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o volume de leite em uma caixa enchida por essa máquina,
+  então \(E(X) = \mu = 984\), enquanto que o desvio padrão teórico é
+  \(\sigma/\sqrt{n} = 91/\sqrt{46} = 13.417\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>1000) = P\left(Z > \frac{1000 - 984}{13.417}\right) = P(Z > 1.19) = 0.117.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina foi projetada para encher caixas de leite com 983
+  mililitros e desvio padrão de 92 mililitros. Qual é a probabilidade da
+  média amostral de um conjunto de 53 caixas de leite escolhidas
+  aleatoriamente superar o limite de 1 litro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.456\)
+  \item
+    \(0.089\)
+  \item
+    \(0.429\)
+  \item
+    \(0.554\)
+  \item
+    \(0.249\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o volume de leite em uma caixa enchida por essa máquina,
+  então \(E(X) = \mu = 983\), enquanto que o desvio padrão teórico é
+  \(\sigma/\sqrt{n} = 92/\sqrt{53} = 12.637\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>1000) = P\left(Z > \frac{1000 - 983}{12.637}\right) = P(Z > 1.35) = 0.089.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina foi projetada para encher caixas de leite com 982
+  mililitros e desvio padrão de 92 mililitros. Qual é a probabilidade da
+  média amostral de um conjunto de 50 caixas de leite escolhidas
+  aleatoriamente superar o limite de 1 litro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.184\)
+  \item
+    \(0.456\)
+  \item
+    \(0.787\)
+  \item
+    \(0.421\)
+  \item
+    \(0.084\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o volume de leite em uma caixa enchida por essa máquina,
+  então \(E(X) = \mu = 982\), enquanto que o desvio padrão teórico é
+  \(\sigma/\sqrt{n} = 92/\sqrt{50} = 13.011\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>1000) = P\left(Z > \frac{1000 - 982}{13.011}\right) = P(Z > 1.38) = 0.084.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina foi projetada para encher caixas de leite com 990
+  mililitros e desvio padrão de 92 mililitros. Qual é a probabilidade da
+  média amostral de um conjunto de 46 caixas de leite escolhidas
+  aleatoriamente superar o limite de 1 litro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.442\)
+  \item
+    \(0.480\)
+  \item
+    \(0.456\)
+  \item
+    \(0.230\)
+  \item
+    \(0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o volume de leite em uma caixa enchida por essa máquina,
+  então \(E(X) = \mu = 990\), enquanto que o desvio padrão teórico é
+  \(\sigma/\sqrt{n} = 92/\sqrt{46} = 13.565\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>1000) = P\left(Z > \frac{1000 - 990}{13.565}\right) = P(Z > 0.74) = 0.230.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina foi projetada para encher caixas de leite com 983
+  mililitros e desvio padrão de 92 mililitros. Qual é a probabilidade da
+  média amostral de um conjunto de 48 caixas de leite escolhidas
+  aleatoriamente superar o limite de 1 litro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.692\)
+  \item
+    \(0.460\)
+  \item
+    \(0.100\)
+  \item
+    \(0.429\)
+  \item
+    \(0.450\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o volume de leite em uma caixa enchida por essa máquina,
+  então \(E(X) = \mu = 983\), enquanto que o desvio padrão teórico é
+  \(\sigma/\sqrt{n} = 92/\sqrt{48} = 13.279\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>1000) = P\left(Z > \frac{1000 - 983}{13.279}\right) = P(Z > 1.28) = 0.100.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina foi projetada para encher caixas de leite com 989
+  mililitros e desvio padrão de 94 mililitros. Qual é a probabilidade da
+  média amostral de um conjunto de 46 caixas de leite escolhidas
+  aleatoriamente superar o limite de 1 litro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.215\)
+  \item
+    \(0.599\)
+  \item
+    \(0.751\)
+  \item
+    \(0.452\)
+  \item
+    \(0.476\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o volume de leite em uma caixa enchida por essa máquina,
+  então \(E(X) = \mu = 989\), enquanto que o desvio padrão teórico é
+  \(\sigma/\sqrt{n} = 94/\sqrt{46} = 13.86\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>1000) = P\left(Z > \frac{1000 - 989}{13.86}\right) = P(Z > 0.79) = 0.215.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina foi projetada para encher caixas de leite com 981
+  mililitros e desvio padrão de 93 mililitros. Qual é a probabilidade da
+  média amostral de um conjunto de 53 caixas de leite escolhidas
+  aleatoriamente superar o limite de 1 litro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.663\)
+  \item
+    \(0.507\)
+  \item
+    \(0.068\)
+  \item
+    \(0.452\)
+  \item
+    \(0.421\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o volume de leite em uma caixa enchida por essa máquina,
+  então \(E(X) = \mu = 981\), enquanto que o desvio padrão teórico é
+  \(\sigma/\sqrt{n} = 93/\sqrt{53} = 12.775\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>1000) = P\left(Z > \frac{1000 - 981}{12.775}\right) = P(Z > 1.49) = 0.068.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina foi projetada para encher caixas de leite com 981
+  mililitros e desvio padrão de 92 mililitros. Qual é a probabilidade da
+  média amostral de um conjunto de 46 caixas de leite escolhidas
+  aleatoriamente superar o limite de 1 litro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.882\)
+  \item
+    \(0.460\)
+  \item
+    \(0.081\)
+  \item
+    \(0.417\)
+  \item
+    \(0.722\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o volume de leite em uma caixa enchida por essa máquina,
+  então \(E(X) = \mu = 981\), enquanto que o desvio padrão teórico é
+  \(\sigma/\sqrt{n} = 92/\sqrt{46} = 13.565\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>1000) = P\left(Z > \frac{1000 - 981}{13.565}\right) = P(Z > 1.4) = 0.081.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

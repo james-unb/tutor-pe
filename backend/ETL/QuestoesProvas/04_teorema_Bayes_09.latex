@@ -1,0 +1,502 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de diagnosticar corretamente determinada doença rara é
+  62\%. Quando diagnosticada corretamente, a probabilidade de cura é
+  78\%. Caso contrário, a probabilidade de cura é 20\%. Se o paciente
+  com a doença é curado, qual é a probabilidade de que tenha sido
+  diagnosticado corretamente?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.136\)
+  \item
+    \(0.190\)
+  \item
+    \(0.357\)
+  \item
+    \(0.500\)
+  \item
+    \(0.864\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``Doença diagnosticada corretamente''}\\
+  \text{N} &=& \text{ ``Doença não diagnosticada corretamente''} \\
+  \text{C} &=& \text{ ``Paciente da doença é curado''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(D|C) &= \dfrac{P(C|D) \times P(D)}{P(C)} = \dfrac{P(C|D) \times P(D)}{P(C|D)P(D)+P(C|N)P(N)} \\
+  & = \dfrac{0.78 \times 0.62}{0.78 \times 0.62+0.2 \times 0.38} \\
+  & = \dfrac{0.484}{0.5596} = 0.864.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de diagnosticar corretamente determinada doença rara é
+  91\%. Quando diagnosticada corretamente, a probabilidade de cura é
+  61\%. Caso contrário, a probabilidade de cura é 39\%. Se o paciente
+  com a doença é curado, qual é a probabilidade de que tenha sido
+  diagnosticado corretamente?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.952\)
+  \item
+    \(0.086\)
+  \item
+    \(0.941\)
+  \item
+    \(0.059\)
+  \item
+    \(0.661\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``Doença diagnosticada corretamente''}\\
+  \text{N} &=& \text{ ``Doença não diagnosticada corretamente''} \\
+  \text{C} &=& \text{ ``Paciente da doença é curado''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(D|C) &= \dfrac{P(C|D) \times P(D)}{P(C)} = \dfrac{P(C|D) \times P(D)}{P(C|D)P(D)+P(C|N)P(N)} \\
+  & = \dfrac{0.61 \times 0.91}{0.61 \times 0.91+0.39 \times 0.09} \\
+  & = \dfrac{0.555}{0.5902} = 0.941.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de diagnosticar corretamente determinada doença rara é
+  60\%. Quando diagnosticada corretamente, a probabilidade de cura é
+  35\%. Caso contrário, a probabilidade de cura é 15\%. Se o paciente
+  com a doença é curado, qual é a probabilidade de que tenha sido
+  diagnosticado corretamente?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.890\)
+  \item
+    \(0.778\)
+  \item
+    \(0.356\)
+  \item
+    \(0.556\)
+  \item
+    \(0.222\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``Doença diagnosticada corretamente''}\\
+  \text{N} &=& \text{ ``Doença não diagnosticada corretamente''} \\
+  \text{C} &=& \text{ ``Paciente da doença é curado''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(D|C) &= \dfrac{P(C|D) \times P(D)}{P(C)} = \dfrac{P(C|D) \times P(D)}{P(C|D)P(D)+P(C|N)P(N)} \\
+  & = \dfrac{0.35 \times 0.6}{0.35 \times 0.6+0.15 \times 0.4} \\
+  & = \dfrac{0.21}{0.27} = 0.778.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de diagnosticar corretamente determinada doença rara é
+  50\%. Quando diagnosticada corretamente, a probabilidade de cura é
+  48\%. Caso contrário, a probabilidade de cura é 32\%. Se o paciente
+  com a doença é curado, qual é a probabilidade de que tenha sido
+  diagnosticado corretamente?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.400\)
+  \item
+    \(0.800\)
+  \item
+    \(0.600\)
+  \item
+    \(0.867\)
+  \item
+    \(0.433\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``Doença diagnosticada corretamente''}\\
+  \text{N} &=& \text{ ``Doença não diagnosticada corretamente''} \\
+  \text{C} &=& \text{ ``Paciente da doença é curado''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(D|C) &= \dfrac{P(C|D) \times P(D)}{P(C)} = \dfrac{P(C|D) \times P(D)}{P(C|D)P(D)+P(C|N)P(N)} \\
+  & = \dfrac{0.48 \times 0.5}{0.48 \times 0.5+0.32 \times 0.5} \\
+  & = \dfrac{0.24}{0.4} = 0.6.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de diagnosticar corretamente determinada doença rara é
+  82\%. Quando diagnosticada corretamente, a probabilidade de cura é
+  91\%. Caso contrário, a probabilidade de cura é 2\%. Se o paciente com
+  a doença é curado, qual é a probabilidade de que tenha sido
+  diagnosticado corretamente?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.005\)
+  \item
+    \(0.065\)
+  \item
+    \(0.995\)
+  \item
+    \(0.360\)
+  \item
+    \(0.027\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``Doença diagnosticada corretamente''}\\
+  \text{N} &=& \text{ ``Doença não diagnosticada corretamente''} \\
+  \text{C} &=& \text{ ``Paciente da doença é curado''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(D|C) &= \dfrac{P(C|D) \times P(D)}{P(C)} = \dfrac{P(C|D) \times P(D)}{P(C|D)P(D)+P(C|N)P(N)} \\
+  & = \dfrac{0.91 \times 0.82}{0.91 \times 0.82+0.02 \times 0.18} \\
+  & = \dfrac{0.746}{0.7498} = 0.995.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de diagnosticar corretamente determinada doença rara é
+  69\%. Quando diagnosticada corretamente, a probabilidade de cura é
+  63\%. Caso contrário, a probabilidade de cura é 30\%. Se o paciente
+  com a doença é curado, qual é a probabilidade de que tenha sido
+  diagnosticado corretamente?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.176\)
+  \item
+    \(0.783\)
+  \item
+    \(0.569\)
+  \item
+    \(0.243\)
+  \item
+    \(0.824\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``Doença diagnosticada corretamente''}\\
+  \text{N} &=& \text{ ``Doença não diagnosticada corretamente''} \\
+  \text{C} &=& \text{ ``Paciente da doença é curado''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(D|C) &= \dfrac{P(C|D) \times P(D)}{P(C)} = \dfrac{P(C|D) \times P(D)}{P(C|D)P(D)+P(C|N)P(N)} \\
+  & = \dfrac{0.63 \times 0.69}{0.63 \times 0.69+0.3 \times 0.31} \\
+  & = \dfrac{0.435}{0.5277} = 0.824.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de diagnosticar corretamente determinada doença rara é
+  63\%. Quando diagnosticada corretamente, a probabilidade de cura é
+  33\%. Caso contrário, a probabilidade de cura é 14\%. Se o paciente
+  com a doença é curado, qual é a probabilidade de que tenha sido
+  diagnosticado corretamente?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.905\)
+  \item
+    \(0.199\)
+  \item
+    \(0.801\)
+  \item
+    \(0.539\)
+  \item
+    \(0.335\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``Doença diagnosticada corretamente''}\\
+  \text{N} &=& \text{ ``Doença não diagnosticada corretamente''} \\
+  \text{C} &=& \text{ ``Paciente da doença é curado''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(D|C) &= \dfrac{P(C|D) \times P(D)}{P(C)} = \dfrac{P(C|D) \times P(D)}{P(C|D)P(D)+P(C|N)P(N)} \\
+  & = \dfrac{0.33 \times 0.63}{0.33 \times 0.63+0.14 \times 0.37} \\
+  & = \dfrac{0.208}{0.2597} = 0.801.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de diagnosticar corretamente determinada doença rara é
+  53\%. Quando diagnosticada corretamente, a probabilidade de cura é
+  47\%. Caso contrário, a probabilidade de cura é 43\%. Se o paciente
+  com a doença é curado, qual é a probabilidade de que tenha sido
+  diagnosticado corretamente?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.552\)
+  \item
+    \(0.953\)
+  \item
+    \(0.454\)
+  \item
+    \(0.448\)
+  \item
+    \(0.966\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``Doença diagnosticada corretamente''}\\
+  \text{N} &=& \text{ ``Doença não diagnosticada corretamente''} \\
+  \text{C} &=& \text{ ``Paciente da doença é curado''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(D|C) &= \dfrac{P(C|D) \times P(D)}{P(C)} = \dfrac{P(C|D) \times P(D)}{P(C|D)P(D)+P(C|N)P(N)} \\
+  & = \dfrac{0.47 \times 0.53}{0.47 \times 0.53+0.43 \times 0.47} \\
+  & = \dfrac{0.249}{0.4512} = 0.552.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de diagnosticar corretamente determinada doença rara é
+  75\%. Quando diagnosticada corretamente, a probabilidade de cura é
+  52\%. Caso contrário, a probabilidade de cura é 41\%. Se o paciente
+  com a doença é curado, qual é a probabilidade de que tenha sido
+  diagnosticado corretamente?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.208\)
+  \item
+    \(0.236\)
+  \item
+    \(0.946\)
+  \item
+    \(0.792\)
+  \item
+    \(0.832\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``Doença diagnosticada corretamente''}\\
+  \text{N} &=& \text{ ``Doença não diagnosticada corretamente''} \\
+  \text{C} &=& \text{ ``Paciente da doença é curado''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(D|C) &= \dfrac{P(C|D) \times P(D)}{P(C)} = \dfrac{P(C|D) \times P(D)}{P(C|D)P(D)+P(C|N)P(N)} \\
+  & = \dfrac{0.52 \times 0.75}{0.52 \times 0.75+0.41 \times 0.25} \\
+  & = \dfrac{0.39}{0.4925} = 0.792.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de diagnosticar corretamente determinada doença rara é
+  56\%. Quando diagnosticada corretamente, a probabilidade de cura é
+  72\%. Caso contrário, a probabilidade de cura é 16\%. Se o paciente
+  com a doença é curado, qual é a probabilidade de que tenha sido
+  diagnosticado corretamente?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.851\)
+  \item
+    \(0.338\)
+  \item
+    \(0.149\)
+  \item
+    \(0.234\)
+  \item
+    \(0.532\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``Doença diagnosticada corretamente''}\\
+  \text{N} &=& \text{ ``Doença não diagnosticada corretamente''} \\
+  \text{C} &=& \text{ ``Paciente da doença é curado''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(D|C) &= \dfrac{P(C|D) \times P(D)}{P(C)} = \dfrac{P(C|D) \times P(D)}{P(C|D)P(D)+P(C|N)P(N)} \\
+  & = \dfrac{0.72 \times 0.56}{0.72 \times 0.56+0.16 \times 0.44} \\
+  & = \dfrac{0.403}{0.4736} = 0.851.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

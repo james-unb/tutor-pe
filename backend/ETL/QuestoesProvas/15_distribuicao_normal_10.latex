@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma loja hortifruti sabe que a duração de bananas (tempo até a fruta
+  começar a apodrecer), em dias, tem distribuição Normal com média 8 e
+  desvio padrão de 2. Se a loja retorna ao fornecedor as bananas que
+  começam a apodrecer antes do tempo mínimo pré-estabelecido, qual deve
+  ser esse tempo para que a porcentagem de bananas devolvidas seja de
+  aproximadamente 12.71\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8.47\)
+  \item
+    \(20.28\)
+  \item
+    \(5.72\)
+  \item
+    \(10.28\)
+  \item
+    \(6.90\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.1271,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -1.14 \Rightarrow \alpha = -1.14 \times 2 + 8 = 5.72.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma loja hortifruti sabe que a duração de bananas (tempo até a fruta
+  começar a apodrecer), em dias, tem distribuição Normal com média 8 e
+  desvio padrão de 2. Se a loja retorna ao fornecedor as bananas que
+  começam a apodrecer antes do tempo mínimo pré-estabelecido, qual deve
+  ser esse tempo para que a porcentagem de bananas devolvidas seja de
+  aproximadamente 20.61\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.84\)
+  \item
+    \(19.64\)
+  \item
+    \(8.29\)
+  \item
+    \(9.64\)
+  \item
+    \(6.36\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.2061,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -0.82 \Rightarrow \alpha = -0.82 \times 2 + 8 = 6.36.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma loja hortifruti sabe que a duração de bananas (tempo até a fruta
+  começar a apodrecer), em dias, tem distribuição Normal com média 6 e
+  desvio padrão de 2. Se a loja retorna ao fornecedor as bananas que
+  começam a apodrecer antes do tempo mínimo pré-estabelecido, qual deve
+  ser esse tempo para que a porcentagem de bananas devolvidas seja de
+  aproximadamente 15.62\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.80\)
+  \item
+    \(3.98\)
+  \item
+    \(8.02\)
+  \item
+    \(4.88\)
+  \item
+    \(18.02\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.1562,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -1.01 \Rightarrow \alpha = -1.01 \times 2 + 6 = 3.98.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma loja hortifruti sabe que a duração de bananas (tempo até a fruta
+  começar a apodrecer), em dias, tem distribuição Normal com média 7 e
+  desvio padrão de 2. Se a loja retorna ao fornecedor as bananas que
+  começam a apodrecer antes do tempo mínimo pré-estabelecido, qual deve
+  ser esse tempo para que a porcentagem de bananas devolvidas seja de
+  aproximadamente 17.88\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5.86\)
+  \item
+    \(5.16\)
+  \item
+    \(18.84\)
+  \item
+    \(8.84\)
+  \item
+    \(7.56\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.1788,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -0.92 \Rightarrow \alpha = -0.92 \times 2 + 7 = 5.16.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma loja hortifruti sabe que a duração de bananas (tempo até a fruta
+  começar a apodrecer), em dias, tem distribuição Normal com média 7 e
+  desvio padrão de 1. Se a loja retorna ao fornecedor as bananas que
+  começam a apodrecer antes do tempo mínimo pré-estabelecido, qual deve
+  ser esse tempo para que a porcentagem de bananas devolvidas seja de
+  aproximadamente 13.57\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.64\)
+  \item
+    \(5.90\)
+  \item
+    \(13.10\)
+  \item
+    \(6.45\)
+  \item
+    \(8.10\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.1357,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -1.1 \Rightarrow \alpha = -1.1 \times 1 + 7 = 5.9.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma loja hortifruti sabe que a duração de bananas (tempo até a fruta
+  começar a apodrecer), em dias, tem distribuição Normal com média 7 e
+  desvio padrão de 1. Se a loja retorna ao fornecedor as bananas que
+  começam a apodrecer antes do tempo mínimo pré-estabelecido, qual deve
+  ser esse tempo para que a porcentagem de bananas devolvidas seja de
+  aproximadamente 18.94\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(7.88\)
+  \item
+    \(6.42\)
+  \item
+    \(12.88\)
+  \item
+    \(6.12\)
+  \item
+    \(6.54\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.1894,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -0.88 \Rightarrow \alpha = -0.88 \times 1 + 7 = 6.12.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma loja hortifruti sabe que a duração de bananas (tempo até a fruta
+  começar a apodrecer), em dias, tem distribuição Normal com média 7 e
+  desvio padrão de 1. Se a loja retorna ao fornecedor as bananas que
+  começam a apodrecer antes do tempo mínimo pré-estabelecido, qual deve
+  ser esse tempo para que a porcentagem de bananas devolvidas seja de
+  aproximadamente 14.69\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8.05\)
+  \item
+    \(6.62\)
+  \item
+    \(6.44\)
+  \item
+    \(5.95\)
+  \item
+    \(13.05\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.1469,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -1.05 \Rightarrow \alpha = -1.05 \times 1 + 7 = 5.95.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma loja hortifruti sabe que a duração de bananas (tempo até a fruta
+  começar a apodrecer), em dias, tem distribuição Normal com média 5 e
+  desvio padrão de 1. Se a loja retorna ao fornecedor as bananas que
+  começam a apodrecer antes do tempo mínimo pré-estabelecido, qual deve
+  ser esse tempo para que a porcentagem de bananas devolvidas seja de
+  aproximadamente 18.14\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.43\)
+  \item
+    \(4.09\)
+  \item
+    \(5.91\)
+  \item
+    \(10.91\)
+  \item
+    \(4.97\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.1814,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -0.91 \Rightarrow \alpha = -0.91 \times 1 + 5 = 4.09.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma loja hortifruti sabe que a duração de bananas (tempo até a fruta
+  começar a apodrecer), em dias, tem distribuição Normal com média 6 e
+  desvio padrão de 2. Se a loja retorna ao fornecedor as bananas que
+  começam a apodrecer antes do tempo mínimo pré-estabelecido, qual deve
+  ser esse tempo para que a porcentagem de bananas devolvidas seja de
+  aproximadamente 16.35\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(17.96\)
+  \item
+    \(4.87\)
+  \item
+    \(6.79\)
+  \item
+    \(4.04\)
+  \item
+    \(7.96\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.1635,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -0.98 \Rightarrow \alpha = -0.98 \times 2 + 6 = 4.04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma loja hortifruti sabe que a duração de bananas (tempo até a fruta
+  começar a apodrecer), em dias, tem distribuição Normal com média 6 e
+  desvio padrão de 1. Se a loja retorna ao fornecedor as bananas que
+  começam a apodrecer antes do tempo mínimo pré-estabelecido, qual deve
+  ser esse tempo para que a porcentagem de bananas devolvidas seja de
+  aproximadamente 19.77\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5.73\)
+  \item
+    \(5.42\)
+  \item
+    \(6.85\)
+  \item
+    \(5.15\)
+  \item
+    \(11.85\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.1977,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -0.85 \Rightarrow \alpha = -0.85 \times 1 + 6 = 5.15.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, na hora do almoço, a probabilidade de uma pessoa ficar
+  menos de uma hora aguardando na fila do Restaurante Universitário é de
+  \(0.42\). Se um cliente vai ao restaurante em \(91\) dias, qual a
+  variância do número de dias em que o cliente é atendido em menos de
+  uma hora (considere que o tempo de espera em um dia seja independente
+  dos demais)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(16.05\)
+  \item
+    \(22.17\)
+  \item
+    \(19.11\)
+  \item
+    \(4.71\)
+  \item
+    \(0.42\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o tempo de espera na fila é independente entre os dias, a
+  variável aleatória \(X\) relativa ao número de dias em que é atendido
+  em menos de uma hora possui distribuição binomial de parâmetros
+  \(n=91\) e \(p=0.42\). Desse modo, a variância é dada por
+  \[n\times p\times(1-p)=22.17.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, na hora do almoço, a probabilidade de uma pessoa ficar
+  menos de uma hora aguardando na fila do Restaurante Universitário é de
+  \(0.45\). Se um cliente vai ao restaurante em \(95\) dias, qual a
+  variância do número de dias em que o cliente é atendido em menos de
+  uma hora (considere que o tempo de espera em um dia seja independente
+  dos demais)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(21.38\)
+  \item
+    \(4.85\)
+  \item
+    \(19.24\)
+  \item
+    \(0.45\)
+  \item
+    \(23.51\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o tempo de espera na fila é independente entre os dias, a
+  variável aleatória \(X\) relativa ao número de dias em que é atendido
+  em menos de uma hora possui distribuição binomial de parâmetros
+  \(n=95\) e \(p=0.45\). Desse modo, a variância é dada por
+  \[n\times p\times(1-p)=23.51.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, na hora do almoço, a probabilidade de uma pessoa ficar
+  menos de uma hora aguardando na fila do Restaurante Universitário é de
+  \(0.57\). Se um cliente vai ao restaurante em \(100\) dias, qual a
+  variância do número de dias em que o cliente é atendido em menos de
+  uma hora (considere que o tempo de espera em um dia seja independente
+  dos demais)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(32.49\)
+  \item
+    \(28.50\)
+  \item
+    \(4.95\)
+  \item
+    \(24.51\)
+  \item
+    \(0.57\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o tempo de espera na fila é independente entre os dias, a
+  variável aleatória \(X\) relativa ao número de dias em que é atendido
+  em menos de uma hora possui distribuição binomial de parâmetros
+  \(n=100\) e \(p=0.57\). Desse modo, a variância é dada por
+  \[n\times p\times(1-p)=24.51.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, na hora do almoço, a probabilidade de uma pessoa ficar
+  menos de uma hora aguardando na fila do Restaurante Universitário é de
+  \(0.52\). Se um cliente vai ao restaurante em \(96\) dias, qual a
+  variância do número de dias em que o cliente é atendido em menos de
+  uma hora (considere que o tempo de espera em um dia seja independente
+  dos demais)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(25.96\)
+  \item
+    \(24.96\)
+  \item
+    \(0.52\)
+  \item
+    \(23.96\)
+  \item
+    \(4.90\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o tempo de espera na fila é independente entre os dias, a
+  variável aleatória \(X\) relativa ao número de dias em que é atendido
+  em menos de uma hora possui distribuição binomial de parâmetros
+  \(n=96\) e \(p=0.52\). Desse modo, a variância é dada por
+  \[n\times p\times(1-p)=23.96.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, na hora do almoço, a probabilidade de uma pessoa ficar
+  menos de uma hora aguardando na fila do Restaurante Universitário é de
+  \(0.45\). Se um cliente vai ao restaurante em \(96\) dias, qual a
+  variância do número de dias em que o cliente é atendido em menos de
+  uma hora (considere que o tempo de espera em um dia seja independente
+  dos demais)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.45\)
+  \item
+    \(21.60\)
+  \item
+    \(23.76\)
+  \item
+    \(4.87\)
+  \item
+    \(19.44\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o tempo de espera na fila é independente entre os dias, a
+  variável aleatória \(X\) relativa ao número de dias em que é atendido
+  em menos de uma hora possui distribuição binomial de parâmetros
+  \(n=96\) e \(p=0.45\). Desse modo, a variância é dada por
+  \[n\times p\times(1-p)=23.76.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, na hora do almoço, a probabilidade de uma pessoa ficar
+  menos de uma hora aguardando na fila do Restaurante Universitário é de
+  \(0.46\). Se um cliente vai ao restaurante em \(90\) dias, qual a
+  variância do número de dias em que o cliente é atendido em menos de
+  uma hora (considere que o tempo de espera em um dia seja independente
+  dos demais)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(19.04\)
+  \item
+    \(20.70\)
+  \item
+    \(4.73\)
+  \item
+    \(0.46\)
+  \item
+    \(22.36\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o tempo de espera na fila é independente entre os dias, a
+  variável aleatória \(X\) relativa ao número de dias em que é atendido
+  em menos de uma hora possui distribuição binomial de parâmetros
+  \(n=90\) e \(p=0.46\). Desse modo, a variância é dada por
+  \[n\times p\times(1-p)=22.36.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, na hora do almoço, a probabilidade de uma pessoa ficar
+  menos de uma hora aguardando na fila do Restaurante Universitário é de
+  \(0.47\). Se um cliente vai ao restaurante em \(100\) dias, qual a
+  variância do número de dias em que o cliente é atendido em menos de
+  uma hora (considere que o tempo de espera em um dia seja independente
+  dos demais)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.47\)
+  \item
+    \(23.50\)
+  \item
+    \(24.91\)
+  \item
+    \(22.09\)
+  \item
+    \(4.99\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o tempo de espera na fila é independente entre os dias, a
+  variável aleatória \(X\) relativa ao número de dias em que é atendido
+  em menos de uma hora possui distribuição binomial de parâmetros
+  \(n=100\) e \(p=0.47\). Desse modo, a variância é dada por
+  \[n\times p\times(1-p)=24.91.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, na hora do almoço, a probabilidade de uma pessoa ficar
+  menos de uma hora aguardando na fila do Restaurante Universitário é de
+  \(0.49\). Se um cliente vai ao restaurante em \(94\) dias, qual a
+  variância do número de dias em que o cliente é atendido em menos de
+  uma hora (considere que o tempo de espera em um dia seja independente
+  dos demais)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(23.03\)
+  \item
+    \(22.57\)
+  \item
+    \(23.49\)
+  \item
+    \(0.49\)
+  \item
+    \(4.85\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o tempo de espera na fila é independente entre os dias, a
+  variável aleatória \(X\) relativa ao número de dias em que é atendido
+  em menos de uma hora possui distribuição binomial de parâmetros
+  \(n=94\) e \(p=0.49\). Desse modo, a variância é dada por
+  \[n\times p\times(1-p)=23.49.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, na hora do almoço, a probabilidade de uma pessoa ficar
+  menos de uma hora aguardando na fila do Restaurante Universitário é de
+  \(0.42\). Se um cliente vai ao restaurante em \(90\) dias, qual a
+  variância do número de dias em que o cliente é atendido em menos de
+  uma hora (considere que o tempo de espera em um dia seja independente
+  dos demais)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.68\)
+  \item
+    \(0.42\)
+  \item
+    \(15.88\)
+  \item
+    \(21.92\)
+  \item
+    \(18.90\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o tempo de espera na fila é independente entre os dias, a
+  variável aleatória \(X\) relativa ao número de dias em que é atendido
+  em menos de uma hora possui distribuição binomial de parâmetros
+  \(n=90\) e \(p=0.42\). Desse modo, a variância é dada por
+  \[n\times p\times(1-p)=21.92.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, na hora do almoço, a probabilidade de uma pessoa ficar
+  menos de uma hora aguardando na fila do Restaurante Universitário é de
+  \(0.48\). Se um cliente vai ao restaurante em \(95\) dias, qual a
+  variância do número de dias em que o cliente é atendido em menos de
+  uma hora (considere que o tempo de espera em um dia seja independente
+  dos demais)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.87\)
+  \item
+    \(22.80\)
+  \item
+    \(23.71\)
+  \item
+    \(0.48\)
+  \item
+    \(21.89\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o tempo de espera na fila é independente entre os dias, a
+  variável aleatória \(X\) relativa ao número de dias em que é atendido
+  em menos de uma hora possui distribuição binomial de parâmetros
+  \(n=95\) e \(p=0.48\). Desse modo, a variância é dada por
+  \[n\times p\times(1-p)=23.71.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

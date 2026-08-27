@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia aérea vende \(30\) bilhetes para cada um de seus vôos,
+  os quais são realizados por um avião que comporta apenas \(28\)
+  passageiros (prática conhecida como \emph{Overbooking}). Estudos
+  anteriores mostram que, em média, \(89\%\) dos compradores de fato se
+  apresentam para o vôo. Nesse contexo, a probabilidade de que em um
+  dado vôo não haja assentos suficientes para todos os passageiros é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.142\)
+  \item
+    \(0.030\)
+  \item
+    \(0.659\)
+  \item
+    \(0.201\)
+  \item
+    \(0.856\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de passageiros que irão comparecer a um dado vôo,
+  então \(X \sim \text{Binomial}(30, 0.89)\). Portanto, a probabilidade
+  desejada é dada por
+  \[P(X > 28) =  P(X = 29) + P(X = 30) = 0.112 + 0.03 = 
+  0.142.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia aérea vende \(38\) bilhetes para cada um de seus vôos,
+  os quais são realizados por um avião que comporta apenas \(36\)
+  passageiros (prática conhecida como \emph{Overbooking}). Estudos
+  anteriores mostram que, em média, \(88\%\) dos compradores de fato se
+  apresentam para o vôo. Nesse contexo, a probabilidade de que em um
+  dado vôo não haja assentos suficientes para todos os passageiros é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.102\)
+  \item
+    \(0.200\)
+  \item
+    \(0.849\)
+  \item
+    \(0.008\)
+  \item
+    \(0.048\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de passageiros que irão comparecer a um dado vôo,
+  então \(X \sim \text{Binomial}(38, 0.88)\). Portanto, a probabilidade
+  desejada é dada por
+  \[P(X > 36) =  P(X = 37) + P(X = 38) = 0.04 + 0.008 = 
+  0.048.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia aérea vende \(38\) bilhetes para cada um de seus vôos,
+  os quais são realizados por um avião que comporta apenas \(36\)
+  passageiros (prática conhecida como \emph{Overbooking}). Estudos
+  anteriores mostram que, em média, \(88\%\) dos compradores de fato se
+  apresentam para o vôo. Nesse contexo, a probabilidade de que em um
+  dado vôo não haja assentos suficientes para todos os passageiros é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.048\)
+  \item
+    \(0.102\)
+  \item
+    \(0.008\)
+  \item
+    \(0.163\)
+  \item
+    \(0.488\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de passageiros que irão comparecer a um dado vôo,
+  então \(X \sim \text{Binomial}(38, 0.88)\). Portanto, a probabilidade
+  desejada é dada por
+  \[P(X > 36) =  P(X = 37) + P(X = 38) = 0.04 + 0.008 = 
+  0.048.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia aérea vende \(32\) bilhetes para cada um de seus vôos,
+  os quais são realizados por um avião que comporta apenas \(30\)
+  passageiros (prática conhecida como \emph{Overbooking}). Estudos
+  anteriores mostram que, em média, \(85\%\) dos compradores de fato se
+  apresentam para o vôo. Nesse contexo, a probabilidade de que em um
+  dado vôo não haja assentos suficientes para todos os passageiros é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.085\)
+  \item
+    \(0.260\)
+  \item
+    \(0.037\)
+  \item
+    \(0.356\)
+  \item
+    \(0.006\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de passageiros que irão comparecer a um dado vôo,
+  então \(X \sim \text{Binomial}(32, 0.85)\). Portanto, a probabilidade
+  desejada é dada por
+  \[P(X > 30) =  P(X = 31) + P(X = 32) = 0.031 + 0.006 = 
+  0.037.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia aérea vende \(39\) bilhetes para cada um de seus vôos,
+  os quais são realizados por um avião que comporta apenas \(37\)
+  passageiros (prática conhecida como \emph{Overbooking}). Estudos
+  anteriores mostram que, em média, \(86\%\) dos compradores de fato se
+  apresentam para o vôo. Nesse contexo, a probabilidade de que em um
+  dado vôo não haja assentos suficientes para todos os passageiros é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.956\)
+  \item
+    \(0.021\)
+  \item
+    \(0.914\)
+  \item
+    \(0.055\)
+  \item
+    \(0.003\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de passageiros que irão comparecer a um dado vôo,
+  então \(X \sim \text{Binomial}(39, 0.86)\). Portanto, a probabilidade
+  desejada é dada por
+  \[P(X > 37) =  P(X = 38) + P(X = 39) = 0.018 + 0.003 = 
+  0.021.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia aérea vende \(36\) bilhetes para cada um de seus vôos,
+  os quais são realizados por um avião que comporta apenas \(34\)
+  passageiros (prática conhecida como \emph{Overbooking}). Estudos
+  anteriores mostram que, em média, \(90\%\) dos compradores de fato se
+  apresentam para o vôo. Nesse contexo, a probabilidade de que em um
+  dado vôo não haja assentos suficientes para todos os passageiros é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.175\)
+  \item
+    \(0.023\)
+  \item
+    \(0.817\)
+  \item
+    \(0.255\)
+  \item
+    \(0.113\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de passageiros que irão comparecer a um dado vôo,
+  então \(X \sim \text{Binomial}(36, 0.9)\). Portanto, a probabilidade
+  desejada é dada por
+  \[P(X > 34) =  P(X = 35) + P(X = 36) = 0.09 + 0.023 = 
+  0.113.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia aérea vende \(30\) bilhetes para cada um de seus vôos,
+  os quais são realizados por um avião que comporta apenas \(28\)
+  passageiros (prática conhecida como \emph{Overbooking}). Estudos
+  anteriores mostram que, em média, \(87\%\) dos compradores de fato se
+  apresentam para o vôo. Nesse contexo, a probabilidade de que em um
+  dado vôo não haja assentos suficientes para todos os passageiros é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.686\)
+  \item
+    \(0.476\)
+  \item
+    \(0.084\)
+  \item
+    \(0.015\)
+  \item
+    \(0.149\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de passageiros que irão comparecer a um dado vôo,
+  então \(X \sim \text{Binomial}(30, 0.87)\). Portanto, a probabilidade
+  desejada é dada por
+  \[P(X > 28) =  P(X = 29) + P(X = 30) = 0.069 + 0.015 = 
+  0.084.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia aérea vende \(37\) bilhetes para cada um de seus vôos,
+  os quais são realizados por um avião que comporta apenas \(35\)
+  passageiros (prática conhecida como \emph{Overbooking}). Estudos
+  anteriores mostram que, em média, \(87\%\) dos compradores de fato se
+  apresentam para o vôo. Nesse contexo, a probabilidade de que em um
+  dado vôo não haja assentos suficientes para todos os passageiros é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.974\)
+  \item
+    \(0.086\)
+  \item
+    \(0.723\)
+  \item
+    \(0.038\)
+  \item
+    \(0.006\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de passageiros que irão comparecer a um dado vôo,
+  então \(X \sim \text{Binomial}(37, 0.87)\). Portanto, a probabilidade
+  desejada é dada por
+  \[P(X > 35) =  P(X = 36) + P(X = 37) = 0.032 + 0.006 = 
+  0.038.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia aérea vende \(40\) bilhetes para cada um de seus vôos,
+  os quais são realizados por um avião que comporta apenas \(38\)
+  passageiros (prática conhecida como \emph{Overbooking}). Estudos
+  anteriores mostram que, em média, \(86\%\) dos compradores de fato se
+  apresentam para o vôo. Nesse contexo, a probabilidade de que em um
+  dado vôo não haja assentos suficientes para todos os passageiros é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.018\)
+  \item
+    \(0.182\)
+  \item
+    \(0.050\)
+  \item
+    \(0.002\)
+  \item
+    \(0.821\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de passageiros que irão comparecer a um dado vôo,
+  então \(X \sim \text{Binomial}(40, 0.86)\). Portanto, a probabilidade
+  desejada é dada por
+  \[P(X > 38) =  P(X = 39) + P(X = 40) = 0.016 + 0.002 = 
+  0.018.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia aérea vende \(32\) bilhetes para cada um de seus vôos,
+  os quais são realizados por um avião que comporta apenas \(30\)
+  passageiros (prática conhecida como \emph{Overbooking}). Estudos
+  anteriores mostram que, em média, \(88\%\) dos compradores de fato se
+  apresentam para o vôo. Nesse contexo, a probabilidade de que em um
+  dado vôo não haja assentos suficientes para todos os passageiros é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.017\)
+  \item
+    \(0.154\)
+  \item
+    \(0.262\)
+  \item
+    \(0.090\)
+  \item
+    \(0.805\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de passageiros que irão comparecer a um dado vôo,
+  então \(X \sim \text{Binomial}(32, 0.88)\). Portanto, a probabilidade
+  desejada é dada por
+  \[P(X > 30) =  P(X = 31) + P(X = 32) = 0.073 + 0.017 = 
+  0.090.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

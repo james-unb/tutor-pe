@@ -1,0 +1,502 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de baterias
+  automobilísticas é exponencialmente distribuído com média de \(4\)
+  anos. Uma montadora precisa que as baterias que usa em seus veículos
+  durem pelo menos \(3\) anos para que seu lucro não seja prejudicado.
+  Se a montadora utilizou baterias da referida marca, qual a
+  probabilidade de que uma dada bateria não gere prejuízo se já
+  sobreviveu \(2\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.221\)
+  \item
+    \(0.462\)
+  \item
+    \(0.779\)
+  \item
+    \(0.607\)
+  \item
+    \(0.664\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das baterias, então, como \(E(X) = 4\), sabemos que
+  \(X\sim\text{Exp}(1/4).\) Como a função de distribuição acumulada da
+  variável aleatória \(X\) é \(F(x) = 1-e^{-0.250x}\), segue, pela
+  propriedade de \emph{perda de memória da Exponencial}, que a
+  probabilidade desejada é dada por \[\begin{aligned}
+  P(X>2+1 | X>2) &=& P(X>1)\\
+  &=& 1-F(1)\\
+  &=& 1-(1-e^{-0.250\times1})\\
+  &=& 0.779
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de baterias
+  automobilísticas é exponencialmente distribuído com média de \(4\)
+  anos. Uma montadora precisa que as baterias que usa em seus veículos
+  durem pelo menos \(3\) anos para que seu lucro não seja prejudicado.
+  Se a montadora utilizou baterias da referida marca, qual a
+  probabilidade de que uma dada bateria não gere prejuízo se já
+  sobreviveu \(2\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.607\)
+  \item
+    \(0.335\)
+  \item
+    \(0.221\)
+  \item
+    \(0.839\)
+  \item
+    \(0.779\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das baterias, então, como \(E(X) = 4\), sabemos que
+  \(X\sim\text{Exp}(1/4).\) Como a função de distribuição acumulada da
+  variável aleatória \(X\) é \(F(x) = 1-e^{-0.250x}\), segue, pela
+  propriedade de \emph{perda de memória da Exponencial}, que a
+  probabilidade desejada é dada por \[\begin{aligned}
+  P(X>2+1 | X>2) &=& P(X>1)\\
+  &=& 1-F(1)\\
+  &=& 1-(1-e^{-0.250\times1})\\
+  &=& 0.779
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de baterias
+  automobilísticas é exponencialmente distribuído com média de \(3\)
+  anos. Uma montadora precisa que as baterias que usa em seus veículos
+  durem pelo menos \(3\) anos para que seu lucro não seja prejudicado.
+  Se a montadora utilizou baterias da referida marca, qual a
+  probabilidade de que uma dada bateria não gere prejuízo se já
+  sobreviveu \(2\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.054\)
+  \item
+    \(0.283\)
+  \item
+    \(0.717\)
+  \item
+    \(0.513\)
+  \item
+    \(0.610\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das baterias, então, como \(E(X) = 3\), sabemos que
+  \(X\sim\text{Exp}(1/3).\) Como a função de distribuição acumulada da
+  variável aleatória \(X\) é \(F(x) = 1-e^{-0.333x}\), segue, pela
+  propriedade de \emph{perda de memória da Exponencial}, que a
+  probabilidade desejada é dada por \[\begin{aligned}
+  P(X>2+1 | X>2) &=& P(X>1)\\
+  &=& 1-F(1)\\
+  &=& 1-(1-e^{-0.333\times1})\\
+  &=& 0.717
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de baterias
+  automobilísticas é exponencialmente distribuído com média de \(4\)
+  anos. Uma montadora precisa que as baterias que usa em seus veículos
+  durem pelo menos \(5\) anos para que seu lucro não seja prejudicado.
+  Se a montadora utilizou baterias da referida marca, qual a
+  probabilidade de que uma dada bateria não gere prejuízo se já
+  sobreviveu \(3\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.472\)
+  \item
+    \(0.607\)
+  \item
+    \(0.880\)
+  \item
+    \(0.393\)
+  \item
+    \(0.416\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das baterias, então, como \(E(X) = 4\), sabemos que
+  \(X\sim\text{Exp}(1/4).\) Como a função de distribuição acumulada da
+  variável aleatória \(X\) é \(F(x) = 1-e^{-0.250x}\), segue, pela
+  propriedade de \emph{perda de memória da Exponencial}, que a
+  probabilidade desejada é dada por \[\begin{aligned}
+  P(X>3+2 | X>3) &=& P(X>2)\\
+  &=& 1-F(2)\\
+  &=& 1-(1-e^{-0.250\times2})\\
+  &=& 0.607
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de baterias
+  automobilísticas é exponencialmente distribuído com média de \(4\)
+  anos. Uma montadora precisa que as baterias que usa em seus veículos
+  durem pelo menos \(3\) anos para que seu lucro não seja prejudicado.
+  Se a montadora utilizou baterias da referida marca, qual a
+  probabilidade de que uma dada bateria não gere prejuízo se já
+  sobreviveu \(2\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.607\)
+  \item
+    \(0.221\)
+  \item
+    \(0.668\)
+  \item
+    \(0.437\)
+  \item
+    \(0.779\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das baterias, então, como \(E(X) = 4\), sabemos que
+  \(X\sim\text{Exp}(1/4).\) Como a função de distribuição acumulada da
+  variável aleatória \(X\) é \(F(x) = 1-e^{-0.250x}\), segue, pela
+  propriedade de \emph{perda de memória da Exponencial}, que a
+  probabilidade desejada é dada por \[\begin{aligned}
+  P(X>2+1 | X>2) &=& P(X>1)\\
+  &=& 1-F(1)\\
+  &=& 1-(1-e^{-0.250\times1})\\
+  &=& 0.779
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de baterias
+  automobilísticas é exponencialmente distribuído com média de \(3\)
+  anos. Uma montadora precisa que as baterias que usa em seus veículos
+  durem pelo menos \(3\) anos para que seu lucro não seja prejudicado.
+  Se a montadora utilizou baterias da referida marca, qual a
+  probabilidade de que uma dada bateria não gere prejuízo se já
+  sobreviveu \(1\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.664\)
+  \item
+    \(0.074\)
+  \item
+    \(0.717\)
+  \item
+    \(0.487\)
+  \item
+    \(0.513\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das baterias, então, como \(E(X) = 3\), sabemos que
+  \(X\sim\text{Exp}(1/3).\) Como a função de distribuição acumulada da
+  variável aleatória \(X\) é \(F(x) = 1-e^{-0.333x}\), segue, pela
+  propriedade de \emph{perda de memória da Exponencial}, que a
+  probabilidade desejada é dada por \[\begin{aligned}
+  P(X>1+2 | X>1) &=& P(X>2)\\
+  &=& 1-F(2)\\
+  &=& 1-(1-e^{-0.333\times2})\\
+  &=& 0.513
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de baterias
+  automobilísticas é exponencialmente distribuído com média de \(4\)
+  anos. Uma montadora precisa que as baterias que usa em seus veículos
+  durem pelo menos \(4\) anos para que seu lucro não seja prejudicado.
+  Se a montadora utilizou baterias da referida marca, qual a
+  probabilidade de que uma dada bateria não gere prejuízo se já
+  sobreviveu \(3\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.472\)
+  \item
+    \(0.779\)
+  \item
+    \(0.161\)
+  \item
+    \(0.221\)
+  \item
+    \(0.836\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das baterias, então, como \(E(X) = 4\), sabemos que
+  \(X\sim\text{Exp}(1/4).\) Como a função de distribuição acumulada da
+  variável aleatória \(X\) é \(F(x) = 1-e^{-0.250x}\), segue, pela
+  propriedade de \emph{perda de memória da Exponencial}, que a
+  probabilidade desejada é dada por \[\begin{aligned}
+  P(X>3+1 | X>3) &=& P(X>1)\\
+  &=& 1-F(1)\\
+  &=& 1-(1-e^{-0.250\times1})\\
+  &=& 0.779
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de baterias
+  automobilísticas é exponencialmente distribuído com média de \(4\)
+  anos. Uma montadora precisa que as baterias que usa em seus veículos
+  durem pelo menos \(5\) anos para que seu lucro não seja prejudicado.
+  Se a montadora utilizou baterias da referida marca, qual a
+  probabilidade de que uma dada bateria não gere prejuízo se já
+  sobreviveu \(3\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.393\)
+  \item
+    \(0.333\)
+  \item
+    \(0.472\)
+  \item
+    \(0.607\)
+  \item
+    \(0.976\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das baterias, então, como \(E(X) = 4\), sabemos que
+  \(X\sim\text{Exp}(1/4).\) Como a função de distribuição acumulada da
+  variável aleatória \(X\) é \(F(x) = 1-e^{-0.250x}\), segue, pela
+  propriedade de \emph{perda de memória da Exponencial}, que a
+  probabilidade desejada é dada por \[\begin{aligned}
+  P(X>3+2 | X>3) &=& P(X>2)\\
+  &=& 1-F(2)\\
+  &=& 1-(1-e^{-0.250\times2})\\
+  &=& 0.607
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de baterias
+  automobilísticas é exponencialmente distribuído com média de \(3\)
+  anos. Uma montadora precisa que as baterias que usa em seus veículos
+  durem pelo menos \(3\) anos para que seu lucro não seja prejudicado.
+  Se a montadora utilizou baterias da referida marca, qual a
+  probabilidade de que uma dada bateria não gere prejuízo se já
+  sobreviveu \(2\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.909\)
+  \item
+    \(0.513\)
+  \item
+    \(0.283\)
+  \item
+    \(0.717\)
+  \item
+    \(0.136\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das baterias, então, como \(E(X) = 3\), sabemos que
+  \(X\sim\text{Exp}(1/3).\) Como a função de distribuição acumulada da
+  variável aleatória \(X\) é \(F(x) = 1-e^{-0.333x}\), segue, pela
+  propriedade de \emph{perda de memória da Exponencial}, que a
+  probabilidade desejada é dada por \[\begin{aligned}
+  P(X>2+1 | X>2) &=& P(X>1)\\
+  &=& 1-F(1)\\
+  &=& 1-(1-e^{-0.333\times1})\\
+  &=& 0.717
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de baterias
+  automobilísticas é exponencialmente distribuído com média de \(4\)
+  anos. Uma montadora precisa que as baterias que usa em seus veículos
+  durem pelo menos \(4\) anos para que seu lucro não seja prejudicado.
+  Se a montadora utilizou baterias da referida marca, qual a
+  probabilidade de que uma dada bateria não gere prejuízo se já
+  sobreviveu \(3\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.779\)
+  \item
+    \(0.221\)
+  \item
+    \(0.132\)
+  \item
+    \(0.745\)
+  \item
+    \(0.472\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das baterias, então, como \(E(X) = 4\), sabemos que
+  \(X\sim\text{Exp}(1/4).\) Como a função de distribuição acumulada da
+  variável aleatória \(X\) é \(F(x) = 1-e^{-0.250x}\), segue, pela
+  propriedade de \emph{perda de memória da Exponencial}, que a
+  probabilidade desejada é dada por \[\begin{aligned}
+  P(X>3+1 | X>3) &=& P(X>1)\\
+  &=& 1-F(1)\\
+  &=& 1-(1-e^{-0.250\times1})\\
+  &=& 0.779
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A carga axial de uma lata de alumínio é o peso máximo que os lados
+  podem suportar antes de cederem. Um fabricante de refrigerantes está
+  testando latas com alumínio mais fino. Uma amostra de \(81\) destas
+  latas forneceu uma carga axial média igual a \(51.99\) libras. Sabe-se
+  que as latas utilizadas atualmente tem uma carga média de \(53\)
+  libras e um desvio-padrão de \(26.54\) libras. Supondo que o
+  fabricante deseja testar se a carga axial média das latas mais finas é
+  \(53\) contra a hipótese de que carga axial média das latas mais finas
+  seja inferior à \(53\), assinale a alternativa correspondente ao
+  p-valor para o teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3669\)
+  \item
+    \(0.6331\)
+  \item
+    \(0.5634\)
+  \item
+    \(0.1745\)
+  \item
+    \(0.3165\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 53 \ \ versus \ \ H_a : \mu < 53.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-53}{\sigma/\sqrt{n}} = -0.34\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.34) = 0.3669.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A carga axial de uma lata de alumínio é o peso máximo que os lados
+  podem suportar antes de cederem. Um fabricante de refrigerantes está
+  testando latas com alumínio mais fino. Uma amostra de \(99\) destas
+  latas forneceu uma carga axial média igual a \(43.97\) libras. Sabe-se
+  que as latas utilizadas atualmente tem uma carga média de \(46\)
+  libras e um desvio-padrão de \(23.41\) libras. Supondo que o
+  fabricante deseja testar se a carga axial média das latas mais finas é
+  \(46\) contra a hipótese de que carga axial média das latas mais finas
+  seja inferior à \(46\), assinale a alternativa correspondente ao
+  p-valor para o teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8051\)
+  \item
+    \(0.1949\)
+  \item
+    \(0.7165\)
+  \item
+    \(0.4026\)
+  \item
+    \(0.1421\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 46 \ \ versus \ \ H_a : \mu < 46.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-46}{\sigma/\sqrt{n}} = -0.86\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.86) = 0.1949.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A carga axial de uma lata de alumínio é o peso máximo que os lados
+  podem suportar antes de cederem. Um fabricante de refrigerantes está
+  testando latas com alumínio mais fino. Uma amostra de \(115\) destas
+  latas forneceu uma carga axial média igual a \(52.11\) libras. Sabe-se
+  que as latas utilizadas atualmente tem uma carga média de \(52\)
+  libras e um desvio-padrão de \(29.19\) libras. Supondo que o
+  fabricante deseja testar se a carga axial média das latas mais finas é
+  \(52\) contra a hipótese de que carga axial média das latas mais finas
+  seja inferior à \(52\), assinale a alternativa correspondente ao
+  p-valor para o teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4308\)
+  \item
+    \(0.4840\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.2420\)
+  \item
+    \(0.0592\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 52 \ \ versus \ \ H_a : \mu < 52.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-52}{\sigma/\sqrt{n}} = 0.04\] e o p-valor
+  \[\alpha^{*} = P(Z\leq0.04) = 0.516.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A carga axial de uma lata de alumínio é o peso máximo que os lados
+  podem suportar antes de cederem. Um fabricante de refrigerantes está
+  testando latas com alumínio mais fino. Uma amostra de \(75\) destas
+  latas forneceu uma carga axial média igual a \(48.7\) libras. Sabe-se
+  que as latas utilizadas atualmente tem uma carga média de \(48\)
+  libras e um desvio-padrão de \(25.77\) libras. Supondo que o
+  fabricante deseja testar se a carga axial média das latas mais finas é
+  \(48\) contra a hipótese de que carga axial média das latas mais finas
+  seja inferior à \(48\), assinale a alternativa correspondente ao
+  p-valor para o teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0708\)
+  \item
+    \(0.5948\)
+  \item
+    \(0.3606\)
+  \item
+    \(0.2026\)
+  \item
+    \(0.4052\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 48 \ \ versus \ \ H_a : \mu < 48.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-48}{\sigma/\sqrt{n}} = 0.24\] e o p-valor
+  \[\alpha^{*} = P(Z\leq0.24) = 0.5948.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A carga axial de uma lata de alumínio é o peso máximo que os lados
+  podem suportar antes de cederem. Um fabricante de refrigerantes está
+  testando latas com alumínio mais fino. Uma amostra de \(101\) destas
+  latas forneceu uma carga axial média igual a \(49.55\) libras. Sabe-se
+  que as latas utilizadas atualmente tem uma carga média de \(52\)
+  libras e um desvio-padrão de \(27.36\) libras. Supondo que o
+  fabricante deseja testar se a carga axial média das latas mais finas é
+  \(52\) contra a hipótese de que carga axial média das latas mais finas
+  seja inferior à \(52\), assinale a alternativa correspondente ao
+  p-valor para o teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4080\)
+  \item
+    \(0.8159\)
+  \item
+    \(0.7262\)
+  \item
+    \(0.1841\)
+  \item
+    \(0.1117\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 52 \ \ versus \ \ H_a : \mu < 52.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-52}{\sigma/\sqrt{n}} = -0.9\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.9) = 0.1841.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A carga axial de uma lata de alumínio é o peso máximo que os lados
+  podem suportar antes de cederem. Um fabricante de refrigerantes está
+  testando latas com alumínio mais fino. Uma amostra de \(80\) destas
+  latas forneceu uma carga axial média igual a \(51.57\) libras. Sabe-se
+  que as latas utilizadas atualmente tem uma carga média de \(51\)
+  libras e um desvio-padrão de \(26.38\) libras. Supondo que o
+  fabricante deseja testar se a carga axial média das latas mais finas é
+  \(51\) contra a hipótese de que carga axial média das latas mais finas
+  seja inferior à \(51\), assinale a alternativa correspondente ao
+  p-valor para o teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4247\)
+  \item
+    \(0.2123\)
+  \item
+    \(0.1096\)
+  \item
+    \(0.3779\)
+  \item
+    \(0.5753\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 51 \ \ versus \ \ H_a : \mu < 51.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-51}{\sigma/\sqrt{n}} = 0.19\] e o p-valor
+  \[\alpha^{*} = P(Z\leq0.19) = 0.5753.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A carga axial de uma lata de alumínio é o peso máximo que os lados
+  podem suportar antes de cederem. Um fabricante de refrigerantes está
+  testando latas com alumínio mais fino. Uma amostra de \(86\) destas
+  latas forneceu uma carga axial média igual a \(48.49\) libras. Sabe-se
+  que as latas utilizadas atualmente tem uma carga média de \(48\)
+  libras e um desvio-padrão de \(21.68\) libras. Supondo que o
+  fabricante deseja testar se a carga axial média das latas mais finas é
+  \(48\) contra a hipótese de que carga axial média das latas mais finas
+  seja inferior à \(48\), assinale a alternativa correspondente ao
+  p-valor para o teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4168\)
+  \item
+    \(0.2084\)
+  \item
+    \(0.0862\)
+  \item
+    \(0.3710\)
+  \item
+    \(0.5832\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 48 \ \ versus \ \ H_a : \mu < 48.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-48}{\sigma/\sqrt{n}} = 0.21\] e o p-valor
+  \[\alpha^{*} = P(Z\leq0.21) = 0.5832.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A carga axial de uma lata de alumínio é o peso máximo que os lados
+  podem suportar antes de cederem. Um fabricante de refrigerantes está
+  testando latas com alumínio mais fino. Uma amostra de \(91\) destas
+  latas forneceu uma carga axial média igual a \(47.08\) libras. Sabe-se
+  que as latas utilizadas atualmente tem uma carga média de \(45\)
+  libras e um desvio-padrão de \(27.9\) libras. Supondo que o fabricante
+  deseja testar se a carga axial média das latas mais finas é \(45\)
+  contra a hipótese de que carga axial média das latas mais finas seja
+  inferior à \(45\), assinale a alternativa correspondente ao p-valor
+  para o teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1385\)
+  \item
+    \(0.2126\)
+  \item
+    \(0.7611\)
+  \item
+    \(0.1194\)
+  \item
+    \(0.2389\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 45 \ \ versus \ \ H_a : \mu < 45.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-45}{\sigma/\sqrt{n}} = 0.71\] e o p-valor
+  \[\alpha^{*} = P(Z\leq0.71) = 0.7611.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A carga axial de uma lata de alumínio é o peso máximo que os lados
+  podem suportar antes de cederem. Um fabricante de refrigerantes está
+  testando latas com alumínio mais fino. Uma amostra de \(112\) destas
+  latas forneceu uma carga axial média igual a \(55.47\) libras. Sabe-se
+  que as latas utilizadas atualmente tem uma carga média de \(53\)
+  libras e um desvio-padrão de \(21.04\) libras. Supondo que o
+  fabricante deseja testar se a carga axial média das latas mais finas é
+  \(53\) contra a hipótese de que carga axial média das latas mais finas
+  seja inferior à \(53\), assinale a alternativa correspondente ao
+  p-valor para o teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8925\)
+  \item
+    \(0.0537\)
+  \item
+    \(0.0957\)
+  \item
+    \(0.1075\)
+  \item
+    \(0.1063\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 53 \ \ versus \ \ H_a : \mu < 53.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-53}{\sigma/\sqrt{n}} = 1.24\] e o p-valor
+  \[\alpha^{*} = P(Z\leq1.24) = 0.8925.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A carga axial de uma lata de alumínio é o peso máximo que os lados
+  podem suportar antes de cederem. Um fabricante de refrigerantes está
+  testando latas com alumínio mais fino. Uma amostra de \(80\) destas
+  latas forneceu uma carga axial média igual a \(52.67\) libras. Sabe-se
+  que as latas utilizadas atualmente tem uma carga média de \(54\)
+  libras e um desvio-padrão de \(22.45\) libras. Supondo que o
+  fabricante deseja testar se a carga axial média das latas mais finas é
+  \(54\) contra a hipótese de que carga axial média das latas mais finas
+  seja inferior à \(54\), assinale a alternativa correspondente ao
+  p-valor para o teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6247\)
+  \item
+    \(0.7019\)
+  \item
+    \(0.3510\)
+  \item
+    \(0.0492\)
+  \item
+    \(0.2981\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 54 \ \ versus \ \ H_a : \mu < 54.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-54}{\sigma/\sqrt{n}} = -0.53\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.53) = 0.2981.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

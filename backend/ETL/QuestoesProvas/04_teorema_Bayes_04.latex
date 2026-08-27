@@ -1,0 +1,520 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  No campeonato mundial de \emph{bridge} de 1965, dois jogadores foram
+  acusados de trapacear por meio de sinais que indicavam o tamanho das
+  sequências de cartas de copas que cada um possuía. Suponha que a
+  probabilidade de que a dupla tenha trapaceado seja 45\(\%\), e que,
+  trapaceando, a probabilidade de que ganhassem uma partida fosse
+  90\(\%\), ao passo que sem trapacear essa probabilidade fosse
+  55\(\%\). Se sabemos que a dupla venceu uma partida, então qual a
+  probabilidade de que eles tenham trapaceado nesta partida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.708\)
+  \item
+    \(0.405\)
+  \item
+    \(0.572\)
+  \item
+    \(0.428\)
+  \item
+    \(0.303\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  T &=& \text{ ``Trapaceiam.''}\\
+  G &=& \text{ ``Ganham a partida.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(T)=0.45\), \(P(G|T)=0.9\),
+  \(P(G|T^C)=0.55\). Logo, pelo Teorema de Bayes tem-se que
+  \[\begin{aligned}
+  P(T|G)& =\frac{P(G|T)P(T)}{P(T)}=\frac{P(G|T)P(T)}{P(G|T)P(T)+P(G|T^C)P(T^C)} \\
+  & = \frac{0.900 \times 0.450}{0.900 \times 0.450 + 0.550 \times 0.550} \\
+  & =0.572.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  No campeonato mundial de \emph{bridge} de 1965, dois jogadores foram
+  acusados de trapacear por meio de sinais que indicavam o tamanho das
+  sequências de cartas de copas que cada um possuía. Suponha que a
+  probabilidade de que a dupla tenha trapaceado seja 45\(\%\), e que,
+  trapaceando, a probabilidade de que ganhassem uma partida fosse
+  95\(\%\), ao passo que sem trapacear essa probabilidade fosse
+  55\(\%\). Se sabemos que a dupla venceu uma partida, então qual a
+  probabilidade de que eles tenham trapaceado nesta partida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.428\)
+  \item
+    \(0.303\)
+  \item
+    \(0.414\)
+  \item
+    \(0.586\)
+  \item
+    \(0.730\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  T &=& \text{ ``Trapaceiam.''}\\
+  G &=& \text{ ``Ganham a partida.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(T)=0.45\), \(P(G|T)=0.95\),
+  \(P(G|T^C)=0.55\). Logo, pelo Teorema de Bayes tem-se que
+  \[\begin{aligned}
+  P(T|G)& =\frac{P(G|T)P(T)}{P(T)}=\frac{P(G|T)P(T)}{P(G|T)P(T)+P(G|T^C)P(T^C)} \\
+  & = \frac{0.950 \times 0.450}{0.950 \times 0.450 + 0.550 \times 0.550} \\
+  & =0.586.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  No campeonato mundial de \emph{bridge} de 1965, dois jogadores foram
+  acusados de trapacear por meio de sinais que indicavam o tamanho das
+  sequências de cartas de copas que cada um possuía. Suponha que a
+  probabilidade de que a dupla tenha trapaceado seja 50\(\%\), e que,
+  trapaceando, a probabilidade de que ganhassem uma partida fosse
+  95\(\%\), ao passo que sem trapacear essa probabilidade fosse
+  50\(\%\). Se sabemos que a dupla venceu uma partida, então qual a
+  probabilidade de que eles tenham trapaceado nesta partida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.345\)
+  \item
+    \(0.725\)
+  \item
+    \(0.655\)
+  \item
+    \(0.250\)
+  \item
+    \(0.475\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  T &=& \text{ ``Trapaceiam.''}\\
+  G &=& \text{ ``Ganham a partida.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(T)=0.5\), \(P(G|T)=0.95\), \(P(G|T^C)=0.5\).
+  Logo, pelo Teorema de Bayes tem-se que \[\begin{aligned}
+  P(T|G)& =\frac{P(G|T)P(T)}{P(T)}=\frac{P(G|T)P(T)}{P(G|T)P(T)+P(G|T^C)P(T^C)} \\
+  & = \frac{0.950 \times 0.500}{0.950 \times 0.500 + 0.500 \times 0.500} \\
+  & =0.655.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  No campeonato mundial de \emph{bridge} de 1965, dois jogadores foram
+  acusados de trapacear por meio de sinais que indicavam o tamanho das
+  sequências de cartas de copas que cada um possuía. Suponha que a
+  probabilidade de que a dupla tenha trapaceado seja 45\(\%\), e que,
+  trapaceando, a probabilidade de que ganhassem uma partida fosse
+  95\(\%\), ao passo que sem trapacear essa probabilidade fosse
+  45\(\%\). Se sabemos que a dupla venceu uma partida, então qual a
+  probabilidade de que eles tenham trapaceado nesta partida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.248\)
+  \item
+    \(0.367\)
+  \item
+    \(0.675\)
+  \item
+    \(0.633\)
+  \item
+    \(0.428\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  T &=& \text{ ``Trapaceiam.''}\\
+  G &=& \text{ ``Ganham a partida.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(T)=0.45\), \(P(G|T)=0.95\),
+  \(P(G|T^C)=0.45\). Logo, pelo Teorema de Bayes tem-se que
+  \[\begin{aligned}
+  P(T|G)& =\frac{P(G|T)P(T)}{P(T)}=\frac{P(G|T)P(T)}{P(G|T)P(T)+P(G|T^C)P(T^C)} \\
+  & = \frac{0.950 \times 0.450}{0.950 \times 0.450 + 0.450 \times 0.550} \\
+  & =0.633.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  No campeonato mundial de \emph{bridge} de 1965, dois jogadores foram
+  acusados de trapacear por meio de sinais que indicavam o tamanho das
+  sequências de cartas de copas que cada um possuía. Suponha que a
+  probabilidade de que a dupla tenha trapaceado seja 55\(\%\), e que,
+  trapaceando, a probabilidade de que ganhassem uma partida fosse
+  85\(\%\), ao passo que sem trapacear essa probabilidade fosse
+  55\(\%\). Se sabemos que a dupla venceu uma partida, então qual a
+  probabilidade de que eles tenham trapaceado nesta partida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.715\)
+  \item
+    \(0.346\)
+  \item
+    \(0.468\)
+  \item
+    \(0.654\)
+  \item
+    \(0.248\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  T &=& \text{ ``Trapaceiam.''}\\
+  G &=& \text{ ``Ganham a partida.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(T)=0.55\), \(P(G|T)=0.85\),
+  \(P(G|T^C)=0.55\). Logo, pelo Teorema de Bayes tem-se que
+  \[\begin{aligned}
+  P(T|G)& =\frac{P(G|T)P(T)}{P(T)}=\frac{P(G|T)P(T)}{P(G|T)P(T)+P(G|T^C)P(T^C)} \\
+  & = \frac{0.850 \times 0.550}{0.850 \times 0.550 + 0.550 \times 0.450} \\
+  & =0.654.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  No campeonato mundial de \emph{bridge} de 1965, dois jogadores foram
+  acusados de trapacear por meio de sinais que indicavam o tamanho das
+  sequências de cartas de copas que cada um possuía. Suponha que a
+  probabilidade de que a dupla tenha trapaceado seja 50\(\%\), e que,
+  trapaceando, a probabilidade de que ganhassem uma partida fosse
+  95\(\%\), ao passo que sem trapacear essa probabilidade fosse
+  55\(\%\). Se sabemos que a dupla venceu uma partida, então qual a
+  probabilidade de que eles tenham trapaceado nesta partida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.750\)
+  \item
+    \(0.275\)
+  \item
+    \(0.475\)
+  \item
+    \(0.633\)
+  \item
+    \(0.367\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  T &=& \text{ ``Trapaceiam.''}\\
+  G &=& \text{ ``Ganham a partida.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(T)=0.5\), \(P(G|T)=0.95\),
+  \(P(G|T^C)=0.55\). Logo, pelo Teorema de Bayes tem-se que
+  \[\begin{aligned}
+  P(T|G)& =\frac{P(G|T)P(T)}{P(T)}=\frac{P(G|T)P(T)}{P(G|T)P(T)+P(G|T^C)P(T^C)} \\
+  & = \frac{0.950 \times 0.500}{0.950 \times 0.500 + 0.550 \times 0.500} \\
+  & =0.633.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  No campeonato mundial de \emph{bridge} de 1965, dois jogadores foram
+  acusados de trapacear por meio de sinais que indicavam o tamanho das
+  sequências de cartas de copas que cada um possuía. Suponha que a
+  probabilidade de que a dupla tenha trapaceado seja 45\(\%\), e que,
+  trapaceando, a probabilidade de que ganhassem uma partida fosse
+  90\(\%\), ao passo que sem trapacear essa probabilidade fosse
+  50\(\%\). Se sabemos que a dupla venceu uma partida, então qual a
+  probabilidade de que eles tenham trapaceado nesta partida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.680\)
+  \item
+    \(0.596\)
+  \item
+    \(0.404\)
+  \item
+    \(0.405\)
+  \item
+    \(0.275\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  T &=& \text{ ``Trapaceiam.''}\\
+  G &=& \text{ ``Ganham a partida.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(T)=0.45\), \(P(G|T)=0.9\), \(P(G|T^C)=0.5\).
+  Logo, pelo Teorema de Bayes tem-se que \[\begin{aligned}
+  P(T|G)& =\frac{P(G|T)P(T)}{P(T)}=\frac{P(G|T)P(T)}{P(G|T)P(T)+P(G|T^C)P(T^C)} \\
+  & = \frac{0.900 \times 0.450}{0.900 \times 0.450 + 0.500 \times 0.550} \\
+  & =0.596.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  No campeonato mundial de \emph{bridge} de 1965, dois jogadores foram
+  acusados de trapacear por meio de sinais que indicavam o tamanho das
+  sequências de cartas de copas que cada um possuía. Suponha que a
+  probabilidade de que a dupla tenha trapaceado seja 45\(\%\), e que,
+  trapaceando, a probabilidade de que ganhassem uma partida fosse
+  85\(\%\), ao passo que sem trapacear essa probabilidade fosse
+  45\(\%\). Se sabemos que a dupla venceu uma partida, então qual a
+  probabilidade de que eles tenham trapaceado nesta partida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.393\)
+  \item
+    \(0.607\)
+  \item
+    \(0.383\)
+  \item
+    \(0.248\)
+  \item
+    \(0.630\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  T &=& \text{ ``Trapaceiam.''}\\
+  G &=& \text{ ``Ganham a partida.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(T)=0.45\), \(P(G|T)=0.85\),
+  \(P(G|T^C)=0.45\). Logo, pelo Teorema de Bayes tem-se que
+  \[\begin{aligned}
+  P(T|G)& =\frac{P(G|T)P(T)}{P(T)}=\frac{P(G|T)P(T)}{P(G|T)P(T)+P(G|T^C)P(T^C)} \\
+  & = \frac{0.850 \times 0.450}{0.850 \times 0.450 + 0.450 \times 0.550} \\
+  & =0.607.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  No campeonato mundial de \emph{bridge} de 1965, dois jogadores foram
+  acusados de trapacear por meio de sinais que indicavam o tamanho das
+  sequências de cartas de copas que cada um possuía. Suponha que a
+  probabilidade de que a dupla tenha trapaceado seja 50\(\%\), e que,
+  trapaceando, a probabilidade de que ganhassem uma partida fosse
+  85\(\%\), ao passo que sem trapacear essa probabilidade fosse
+  45\(\%\). Se sabemos que a dupla venceu uma partida, então qual a
+  probabilidade de que eles tenham trapaceado nesta partida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.225\)
+  \item
+    \(0.654\)
+  \item
+    \(0.346\)
+  \item
+    \(0.650\)
+  \item
+    \(0.425\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  T &=& \text{ ``Trapaceiam.''}\\
+  G &=& \text{ ``Ganham a partida.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(T)=0.5\), \(P(G|T)=0.85\),
+  \(P(G|T^C)=0.45\). Logo, pelo Teorema de Bayes tem-se que
+  \[\begin{aligned}
+  P(T|G)& =\frac{P(G|T)P(T)}{P(T)}=\frac{P(G|T)P(T)}{P(G|T)P(T)+P(G|T^C)P(T^C)} \\
+  & = \frac{0.850 \times 0.500}{0.850 \times 0.500 + 0.450 \times 0.500} \\
+  & =0.654.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  No campeonato mundial de \emph{bridge} de 1965, dois jogadores foram
+  acusados de trapacear por meio de sinais que indicavam o tamanho das
+  sequências de cartas de copas que cada um possuía. Suponha que a
+  probabilidade de que a dupla tenha trapaceado seja 45\(\%\), e que,
+  trapaceando, a probabilidade de que ganhassem uma partida fosse
+  95\(\%\), ao passo que sem trapacear essa probabilidade fosse
+  55\(\%\). Se sabemos que a dupla venceu uma partida, então qual a
+  probabilidade de que eles tenham trapaceado nesta partida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.730\)
+  \item
+    \(0.303\)
+  \item
+    \(0.586\)
+  \item
+    \(0.414\)
+  \item
+    \(0.428\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  T &=& \text{ ``Trapaceiam.''}\\
+  G &=& \text{ ``Ganham a partida.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(T)=0.45\), \(P(G|T)=0.95\),
+  \(P(G|T^C)=0.55\). Logo, pelo Teorema de Bayes tem-se que
+  \[\begin{aligned}
+  P(T|G)& =\frac{P(G|T)P(T)}{P(T)}=\frac{P(G|T)P(T)}{P(G|T)P(T)+P(G|T^C)P(T^C)} \\
+  & = \frac{0.950 \times 0.450}{0.950 \times 0.450 + 0.550 \times 0.550} \\
+  & =0.586.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

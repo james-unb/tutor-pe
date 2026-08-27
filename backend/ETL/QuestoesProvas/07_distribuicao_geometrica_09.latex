@@ -1,0 +1,422 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um surfista profissional receba uma
+  nota superior a 9.5 em uma onda seja 0.79, e que cada onda surfada
+  seja independente. Considere que o surfista continue na bateria de
+  ondas até que tire uma nota inferior a 9.5. Qual é a probabilidade de
+  que na sua 6ª ou na sua 2ª onda ele tire sua primeira nota inferior a
+  9.5?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.131\)
+  \item
+    \(0.102\)
+  \item
+    \(0.182\)
+  \item
+    \(0.231\)
+  \item
+    \(0.051\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.21)\) o número de ondas surfadas com notas
+  superiores a 9.5 até que uma onda receba nota inferior ("sucesso").
+  Então, somando-se ambas as probabilidades, tem-se:
+  \[P(X=6) + P(X=2)= 0.21\times(0.79)^{5} + 0.21\times(0.79)^{1} =0.231.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um surfista profissional receba uma
+  nota superior a 9.5 em uma onda seja 0.79, e que cada onda surfada
+  seja independente. Considere que o surfista continue na bateria de
+  ondas até que tire uma nota inferior a 9.5. Qual é a probabilidade de
+  que na sua 5ª ou na sua 3ª onda ele tire sua primeira nota inferior a
+  9.5?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.168\)
+  \item
+    \(0.065\)
+  \item
+    \(0.129\)
+  \item
+    \(0.104\)
+  \item
+    \(0.213\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.21)\) o número de ondas surfadas com notas
+  superiores a 9.5 até que uma onda receba nota inferior ("sucesso").
+  Então, somando-se ambas as probabilidades, tem-se:
+  \[P(X=5) + P(X=3)= 0.21\times(0.79)^{4} + 0.21\times(0.79)^{2} =0.213.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um surfista profissional receba uma
+  nota superior a 9.5 em uma onda seja 0.72, e que cada onda surfada
+  seja independente. Considere que o surfista continue na bateria de
+  ondas até que tire uma nota inferior a 9.5. Qual é a probabilidade de
+  que na sua 5ª ou na sua 3ª onda ele tire sua primeira nota inferior a
+  9.5?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.105\)
+  \item
+    \(0.108\)
+  \item
+    \(0.159\)
+  \item
+    \(0.054\)
+  \item
+    \(0.220\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.28)\) o número de ondas surfadas com notas
+  superiores a 9.5 até que uma onda receba nota inferior ("sucesso").
+  Então, somando-se ambas as probabilidades, tem-se:
+  \[P(X=5) + P(X=3)= 0.28\times(0.72)^{4} + 0.28\times(0.72)^{2} =0.22.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um surfista profissional receba uma
+  nota superior a 9.5 em uma onda seja 0.75, e que cada onda surfada
+  seja independente. Considere que o surfista continue na bateria de
+  ondas até que tire uma nota inferior a 9.5. Qual é a probabilidade de
+  que na sua 4ª ou na sua 2ª onda ele tire sua primeira nota inferior a
+  9.5?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.220\)
+  \item
+    \(0.158\)
+  \item
+    \(0.141\)
+  \item
+    \(0.079\)
+  \item
+    \(0.293\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.25)\) o número de ondas surfadas com notas
+  superiores a 9.5 até que uma onda receba nota inferior ("sucesso").
+  Então, somando-se ambas as probabilidades, tem-se:
+  \[P(X=4) + P(X=2)= 0.25\times(0.75)^{3} + 0.25\times(0.75)^{1} =0.293.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um surfista profissional receba uma
+  nota superior a 9.5 em uma onda seja 0.77, e que cada onda surfada
+  seja independente. Considere que o surfista continue na bateria de
+  ondas até que tire uma nota inferior a 9.5. Qual é a probabilidade de
+  que na sua 5ª ou na sua 3ª onda ele tire sua primeira nota inferior a
+  9.5?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.167\)
+  \item
+    \(0.125\)
+  \item
+    \(0.062\)
+  \item
+    \(0.217\)
+  \item
+    \(0.105\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.23)\) o número de ondas surfadas com notas
+  superiores a 9.5 até que uma onda receba nota inferior ("sucesso").
+  Então, somando-se ambas as probabilidades, tem-se:
+  \[P(X=5) + P(X=3)= 0.23\times(0.77)^{4} + 0.23\times(0.77)^{2} =0.217.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um surfista profissional receba uma
+  nota superior a 9.5 em uma onda seja 0.72, e que cada onda surfada
+  seja independente. Considere que o surfista continue na bateria de
+  ondas até que tire uma nota inferior a 9.5. Qual é a probabilidade de
+  que na sua 4ª ou na sua 2ª onda ele tire sua primeira nota inferior a
+  9.5?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.145\)
+  \item
+    \(0.306\)
+  \item
+    \(0.075\)
+  \item
+    \(0.150\)
+  \item
+    \(0.220\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.28)\) o número de ondas surfadas com notas
+  superiores a 9.5 até que uma onda receba nota inferior ("sucesso").
+  Então, somando-se ambas as probabilidades, tem-se:
+  \[P(X=4) + P(X=2)= 0.28\times(0.72)^{3} + 0.28\times(0.72)^{1} =0.306.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um surfista profissional receba uma
+  nota superior a 9.5 em uma onda seja 0.76, e que cada onda surfada
+  seja independente. Considere que o surfista continue na bateria de
+  ondas até que tire uma nota inferior a 9.5. Qual é a probabilidade de
+  que na sua 5ª ou na sua 3ª onda ele tire sua primeira nota inferior a
+  9.5?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.061\)
+  \item
+    \(0.166\)
+  \item
+    \(0.219\)
+  \item
+    \(0.122\)
+  \item
+    \(0.105\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.24)\) o número de ondas surfadas com notas
+  superiores a 9.5 até que uma onda receba nota inferior ("sucesso").
+  Então, somando-se ambas as probabilidades, tem-se:
+  \[P(X=5) + P(X=3)= 0.24\times(0.76)^{4} + 0.24\times(0.76)^{2} =0.219.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um surfista profissional receba uma
+  nota superior a 9.5 em uma onda seja 0.78, e que cada onda surfada
+  seja independente. Considere que o surfista continue na bateria de
+  ondas até que tire uma nota inferior a 9.5. Qual é a probabilidade de
+  que na sua 4ª ou na sua 3ª onda ele tire sua primeira nota inferior a
+  9.5?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.163\)
+  \item
+    \(0.104\)
+  \item
+    \(0.238\)
+  \item
+    \(0.186\)
+  \item
+    \(0.081\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.22)\) o número de ondas surfadas com notas
+  superiores a 9.5 até que uma onda receba nota inferior ("sucesso").
+  Então, somando-se ambas as probabilidades, tem-se:
+  \[P(X=4) + P(X=3)= 0.22\times(0.78)^{3} + 0.22\times(0.78)^{2} =0.238.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um surfista profissional receba uma
+  nota superior a 9.5 em uma onda seja 0.76, e que cada onda surfada
+  seja independente. Considere que o surfista continue na bateria de
+  ondas até que tire uma nota inferior a 9.5. Qual é a probabilidade de
+  que na sua 4ª ou na sua 2ª onda ele tire sua primeira nota inferior a
+  9.5?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.219\)
+  \item
+    \(0.288\)
+  \item
+    \(0.080\)
+  \item
+    \(0.139\)
+  \item
+    \(0.160\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.24)\) o número de ondas surfadas com notas
+  superiores a 9.5 até que uma onda receba nota inferior ("sucesso").
+  Então, somando-se ambas as probabilidades, tem-se:
+  \[P(X=4) + P(X=2)= 0.24\times(0.76)^{3} + 0.24\times(0.76)^{1} =0.288.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um surfista profissional receba uma
+  nota superior a 9.5 em uma onda seja 0.76, e que cada onda surfada
+  seja independente. Considere que o surfista continue na bateria de
+  ondas até que tire uma nota inferior a 9.5. Qual é a probabilidade de
+  que na sua 5ª ou na sua 3ª onda ele tire sua primeira nota inferior a
+  9.5?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.061\)
+  \item
+    \(0.166\)
+  \item
+    \(0.219\)
+  \item
+    \(0.122\)
+  \item
+    \(0.105\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.24)\) o número de ondas surfadas com notas
+  superiores a 9.5 até que uma onda receba nota inferior ("sucesso").
+  Então, somando-se ambas as probabilidades, tem-se:
+  \[P(X=5) + P(X=3)= 0.24\times(0.76)^{4} + 0.24\times(0.76)^{2} =0.219.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

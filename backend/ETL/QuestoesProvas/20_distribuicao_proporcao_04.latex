@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunas de uma faculdade seja de \(0.33\).
+  Se uma amostra de \(33\) alunos for selecionada de forma aleatória,
+  qual a probabilidade de que a proporção de alunas na amostra difira da
+  proporção na população por menos que \(0.112\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7187\)
+  \item
+    \(0.5948\)
+  \item
+    \(0.8293\)
+  \item
+    \(0.1897\)
+  \item
+    \(0.6950\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é, pelo
+  T.L.C., aproximadamente Normal com parâmetros \(\mu = 0.33\) e
+  \(\sigma = \sqrt{\frac{0.33\times0.67}{33}}\). Portanto, temos que
+
+  \[\begin{aligned}
+  P\left(\lvert{\hat{p}-p}\rvert<0.112\right) & = P\left(-0.112<\hat{p}-p<0.112\right) \\
+  & = P\left(\frac{-0.112}{0.0819}<\frac{\hat{p}-p}{\sigma}<\frac{0.112}{0.0819}\right) \\
+  & = P\left(-1.37<Z<1.37\right) \\
+  & = 0.8293.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunas de uma faculdade seja de \(0.7\). Se
+  uma amostra de \(35\) alunos for selecionada de forma aleatória, qual
+  a probabilidade de que a proporção de alunas na amostra difira da
+  proporção na população por menos que \(0.16\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7764\)
+  \item
+    \(0.1312\)
+  \item
+    \(0.6368\)
+  \item
+    \(0.9615\)
+  \item
+    \(0.2737\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é, pelo
+  T.L.C., aproximadamente Normal com parâmetros \(\mu = 0.7\) e
+  \(\sigma = \sqrt{\frac{0.7\times0.3}{35}}\). Portanto, temos que
+
+  \[\begin{aligned}
+  P\left(\lvert{\hat{p}-p}\rvert<0.16\right) & = P\left(-0.16<\hat{p}-p<0.16\right) \\
+  & = P\left(\frac{-0.16}{0.0775}<\frac{\hat{p}-p}{\sigma}<\frac{0.16}{0.0775}\right) \\
+  & = P\left(-2.07<Z<2.07\right) \\
+  & = 0.9615.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunas de uma faculdade seja de \(0.55\).
+  Se uma amostra de \(43\) alunos for selecionada de forma aleatória,
+  qual a probabilidade de que a proporção de alunas na amostra difira da
+  proporção na população por menos que \(0.16\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9651\)
+  \item
+    \(0.2510\)
+  \item
+    \(0.6255\)
+  \item
+    \(0.4491\)
+  \item
+    \(0.7422\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é, pelo
+  T.L.C., aproximadamente Normal com parâmetros \(\mu = 0.55\) e
+  \(\sigma = \sqrt{\frac{0.55\times0.45}{43}}\). Portanto, temos que
+
+  \[\begin{aligned}
+  P\left(\lvert{\hat{p}-p}\rvert<0.16\right) & = P\left(-0.16<\hat{p}-p<0.16\right) \\
+  & = P\left(\frac{-0.16}{0.0759}<\frac{\hat{p}-p}{\sigma}<\frac{0.16}{0.0759}\right) \\
+  & = P\left(-2.11<Z<2.11\right) \\
+  & = 0.9651.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunas de uma faculdade seja de \(0.37\).
+  Se uma amostra de \(50\) alunos for selecionada de forma aleatória,
+  qual a probabilidade de que a proporção de alunas na amostra difira da
+  proporção na população por menos que \(0.154\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2510\)
+  \item
+    \(0.6255\)
+  \item
+    \(0.7454\)
+  \item
+    \(0.4287\)
+  \item
+    \(0.9762\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é, pelo
+  T.L.C., aproximadamente Normal com parâmetros \(\mu = 0.37\) e
+  \(\sigma = \sqrt{\frac{0.37\times0.63}{50}}\). Portanto, temos que
+
+  \[\begin{aligned}
+  P\left(\lvert{\hat{p}-p}\rvert<0.154\right) & = P\left(-0.154<\hat{p}-p<0.154\right) \\
+  & = P\left(\frac{-0.154}{0.0683}<\frac{\hat{p}-p}{\sigma}<\frac{0.154}{0.0683}\right) \\
+  & = P\left(-2.26<Z<2.26\right) \\
+  & = 0.9762.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunas de uma faculdade seja de \(0.57\).
+  Se uma amostra de \(34\) alunos for selecionada de forma aleatória,
+  qual a probabilidade de que a proporção de alunas na amostra difira da
+  proporção na população por menos que \(0.16\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7422\)
+  \item
+    \(0.9399\)
+  \item
+    \(0.2510\)
+  \item
+    \(0.4048\)
+  \item
+    \(0.6255\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é, pelo
+  T.L.C., aproximadamente Normal com parâmetros \(\mu = 0.57\) e
+  \(\sigma = \sqrt{\frac{0.57\times0.43}{34}}\). Portanto, temos que
+
+  \[\begin{aligned}
+  P\left(\lvert{\hat{p}-p}\rvert<0.16\right) & = P\left(-0.16<\hat{p}-p<0.16\right) \\
+  & = P\left(\frac{-0.16}{0.0849}<\frac{\hat{p}-p}{\sigma}<\frac{0.16}{0.0849}\right) \\
+  & = P\left(-1.88<Z<1.88\right) \\
+  & = 0.9399.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunas de uma faculdade seja de \(0.66\).
+  Se uma amostra de \(44\) alunos for selecionada de forma aleatória,
+  qual a probabilidade de que a proporção de alunas na amostra difira da
+  proporção na população por menos que \(0.154\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2586\)
+  \item
+    \(0.6293\)
+  \item
+    \(0.7549\)
+  \item
+    \(0.4717\)
+  \item
+    \(0.9692\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é, pelo
+  T.L.C., aproximadamente Normal com parâmetros \(\mu = 0.66\) e
+  \(\sigma = \sqrt{\frac{0.66\times0.34}{44}}\). Portanto, temos que
+
+  \[\begin{aligned}
+  P\left(\lvert{\hat{p}-p}\rvert<0.154\right) & = P\left(-0.154<\hat{p}-p<0.154\right) \\
+  & = P\left(\frac{-0.154}{0.0714}<\frac{\hat{p}-p}{\sigma}<\frac{0.154}{0.0714}\right) \\
+  & = P\left(-2.16<Z<2.16\right) \\
+  & = 0.9692.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunas de uma faculdade seja de \(0.56\).
+  Se uma amostra de \(45\) alunos for selecionada de forma aleatória,
+  qual a probabilidade de que a proporção de alunas na amostra difira da
+  proporção na população por menos que \(0.154\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6355\)
+  \item
+    \(0.7357\)
+  \item
+    \(0.6217\)
+  \item
+    \(0.9625\)
+  \item
+    \(0.2434\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é, pelo
+  T.L.C., aproximadamente Normal com parâmetros \(\mu = 0.56\) e
+  \(\sigma = \sqrt{\frac{0.56\times0.44}{45}}\). Portanto, temos que
+
+  \[\begin{aligned}
+  P\left(\lvert{\hat{p}-p}\rvert<0.154\right) & = P\left(-0.154<\hat{p}-p<0.154\right) \\
+  & = P\left(\frac{-0.154}{0.074}<\frac{\hat{p}-p}{\sigma}<\frac{0.154}{0.074}\right) \\
+  & = P\left(-2.08<Z<2.08\right) \\
+  & = 0.9625.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunas de uma faculdade seja de \(0.36\).
+  Se uma amostra de \(31\) alunos for selecionada de forma aleatória,
+  qual a probabilidade de que a proporção de alunas na amostra difira da
+  proporção na população por menos que \(0.108\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6808\)
+  \item
+    \(0.1741\)
+  \item
+    \(0.7887\)
+  \item
+    \(0.5871\)
+  \item
+    \(0.9526\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é, pelo
+  T.L.C., aproximadamente Normal com parâmetros \(\mu = 0.36\) e
+  \(\sigma = \sqrt{\frac{0.36\times0.64}{31}}\). Portanto, temos que
+
+  \[\begin{aligned}
+  P\left(\lvert{\hat{p}-p}\rvert<0.108\right) & = P\left(-0.108<\hat{p}-p<0.108\right) \\
+  & = P\left(\frac{-0.108}{0.0862}<\frac{\hat{p}-p}{\sigma}<\frac{0.108}{0.0862}\right) \\
+  & = P\left(-1.25<Z<1.25\right) \\
+  & = 0.7887.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunas de uma faculdade seja de \(0.36\).
+  Se uma amostra de \(41\) alunos for selecionada de forma aleatória,
+  qual a probabilidade de que a proporção de alunas na amostra difira da
+  proporção na população por menos que \(0.14\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7291\)
+  \item
+    \(0.6141\)
+  \item
+    \(0.3499\)
+  \item
+    \(0.9385\)
+  \item
+    \(0.2282\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é, pelo
+  T.L.C., aproximadamente Normal com parâmetros \(\mu = 0.36\) e
+  \(\sigma = \sqrt{\frac{0.36\times0.64}{41}}\). Portanto, temos que
+
+  \[\begin{aligned}
+  P\left(\lvert{\hat{p}-p}\rvert<0.14\right) & = P\left(-0.14<\hat{p}-p<0.14\right) \\
+  & = P\left(\frac{-0.14}{0.075}<\frac{\hat{p}-p}{\sigma}<\frac{0.14}{0.075}\right) \\
+  & = P\left(-1.87<Z<1.87\right) \\
+  & = 0.9385.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunas de uma faculdade seja de \(0.64\).
+  Se uma amostra de \(48\) alunos for selecionada de forma aleatória,
+  qual a probabilidade de que a proporção de alunas na amostra difira da
+  proporção na população por menos que \(0.168\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0612\)
+  \item
+    \(0.6368\)
+  \item
+    \(0.2737\)
+  \item
+    \(0.7673\)
+  \item
+    \(0.9845\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é, pelo
+  T.L.C., aproximadamente Normal com parâmetros \(\mu = 0.64\) e
+  \(\sigma = \sqrt{\frac{0.64\times0.36}{48}}\). Portanto, temos que
+
+  \[\begin{aligned}
+  P\left(\lvert{\hat{p}-p}\rvert<0.168\right) & = P\left(-0.168<\hat{p}-p<0.168\right) \\
+  & = P\left(\frac{-0.168}{0.0693}<\frac{\hat{p}-p}{\sigma}<\frac{0.168}{0.0693}\right) \\
+  & = P\left(-2.42<Z<2.42\right) \\
+  & = 0.9845.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,454 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Antes da aplicação do Sistema de Avaliação da Educação Profissional e
+  Tecnológica (SAEP) no curso de Mecânica Automotiva do SENAI, deseja-se
+  estimar o desempenho médio dos alunos. Sabe-se de resultados
+  anteriores que o desempenho dos alunos possui distribuição Normal com
+  desvio padrão populacional igual a \(0.83\) pontos. Qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(95\%\), a média
+  amostral não difira da média populacional por mais de \(0.04\) pontos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1655\)
+  \item
+    \(1821\)
+  \item
+    \(1159\)
+  \item
+    \(414\)
+  \item
+    \(1034\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 0.83}{0.04} \right)^2=1654.0489.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=1655\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Antes da aplicação do Sistema de Avaliação da Educação Profissional e
+  Tecnológica (SAEP) no curso de Mecânica Automotiva do SENAI, deseja-se
+  estimar o desempenho médio dos alunos. Sabe-se de resultados
+  anteriores que o desempenho dos alunos possui distribuição Normal com
+  desvio padrão populacional igual a \(0.64\) pontos. Qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(80\%\), a média
+  amostral não difira da média populacional por mais de \(0.01\) pontos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8389\)
+  \item
+    \(6711\)
+  \item
+    \(1678\)
+  \item
+    \(2891\)
+  \item
+    \(4194\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 0.64}{0.01} \right)^2=6710.8864.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=6711\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Antes da aplicação do Sistema de Avaliação da Educação Profissional e
+  Tecnológica (SAEP) no curso de Mecânica Automotiva do SENAI, deseja-se
+  estimar o desempenho médio dos alunos. Sabe-se de resultados
+  anteriores que o desempenho dos alunos possui distribuição Normal com
+  desvio padrão populacional igual a \(0.4\) pontos. Qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(90\%\), a média
+  amostral não difira da média populacional por mais de \(0.36\) pontos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5\)
+  \item
+    \(2\)
+  \item
+    \(4\)
+  \item
+    \(1\)
+  \item
+    \(3\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 0.4}{0.36} \right)^2=3.3205.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=4\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Antes da aplicação do Sistema de Avaliação da Educação Profissional e
+  Tecnológica (SAEP) no curso de Mecânica Automotiva do SENAI, deseja-se
+  estimar o desempenho médio dos alunos. Sabe-se de resultados
+  anteriores que o desempenho dos alunos possui distribuição Normal com
+  desvio padrão populacional igual a \(0.6\) pontos. Qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(97.5\%\), a
+  média amostral não difira da média populacional por mais de \(0.04\)
+  pontos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1298\)
+  \item
+    \(706\)
+  \item
+    \(865\)
+  \item
+    \(283\)
+  \item
+    \(1129\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então,
+  \[n \geq \left( \frac{2.24 \times 0.6}{0.04} \right)^2=1128.96.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=1129\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Antes da aplicação do Sistema de Avaliação da Educação Profissional e
+  Tecnológica (SAEP) no curso de Mecânica Automotiva do SENAI, deseja-se
+  estimar o desempenho médio dos alunos. Sabe-se de resultados
+  anteriores que o desempenho dos alunos possui distribuição Normal com
+  desvio padrão populacional igual a \(1.06\) pontos. Qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(99\%\), a média
+  amostral não difira da média populacional por mais de \(0.46\) pontos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(36\)
+  \item
+    \(29\)
+  \item
+    \(22\)
+  \item
+    \(9\)
+  \item
+    \(40\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 1.06}{0.46} \right)^2=35.3456.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=36\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Antes da aplicação do Sistema de Avaliação da Educação Profissional e
+  Tecnológica (SAEP) no curso de Mecânica Automotiva do SENAI, deseja-se
+  estimar o desempenho médio dos alunos. Sabe-se de resultados
+  anteriores que o desempenho dos alunos possui distribuição Normal com
+  desvio padrão populacional igual a \(1.5\) pontos. Qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(95\%\), a média
+  amostral não difira da média populacional por mais de \(0.5\) pontos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(9\)
+  \item
+    \(22\)
+  \item
+    \(25\)
+  \item
+    \(35\)
+  \item
+    \(38\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 1.5}{0.5} \right)^2=34.5744.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=35\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Antes da aplicação do Sistema de Avaliação da Educação Profissional e
+  Tecnológica (SAEP) no curso de Mecânica Automotiva do SENAI, deseja-se
+  estimar o desempenho médio dos alunos. Sabe-se de resultados
+  anteriores que o desempenho dos alunos possui distribuição Normal com
+  desvio padrão populacional igual a \(0.93\) pontos. Qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(90\%\), a média
+  amostral não difira da média populacional por mais de \(0.11\) pontos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(49\)
+  \item
+    \(241\)
+  \item
+    \(121\)
+  \item
+    \(118\)
+  \item
+    \(193\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 0.93}{0.11} \right)^2=192.2508.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=193\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Antes da aplicação do Sistema de Avaliação da Educação Profissional e
+  Tecnológica (SAEP) no curso de Mecânica Automotiva do SENAI, deseja-se
+  estimar o desempenho médio dos alunos. Sabe-se de resultados
+  anteriores que o desempenho dos alunos possui distribuição Normal com
+  desvio padrão populacional igual a \(0.22\) pontos. Qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(80\%\), a média
+  amostral não difira da média populacional por mais de \(0.02\) pontos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(50\)
+  \item
+    \(86\)
+  \item
+    \(239\)
+  \item
+    \(199\)
+  \item
+    \(124\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 0.22}{0.02} \right)^2=198.2464.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=199\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Antes da aplicação do Sistema de Avaliação da Educação Profissional e
+  Tecnológica (SAEP) no curso de Mecânica Automotiva do SENAI, deseja-se
+  estimar o desempenho médio dos alunos. Sabe-se de resultados
+  anteriores que o desempenho dos alunos possui distribuição Normal com
+  desvio padrão populacional igual a \(1.32\) pontos. Qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(95\%\), a média
+  amostral não difira da média populacional por mais de \(0.22\) pontos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(97\)
+  \item
+    \(160\)
+  \item
+    \(139\)
+  \item
+    \(35\)
+  \item
+    \(87\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 1.32}{0.22} \right)^2=138.2976.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=139\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Antes da aplicação do Sistema de Avaliação da Educação Profissional e
+  Tecnológica (SAEP) no curso de Mecânica Automotiva do SENAI, deseja-se
+  estimar o desempenho médio dos alunos. Sabe-se de resultados
+  anteriores que o desempenho dos alunos possui distribuição Normal com
+  desvio padrão populacional igual a \(1.3\) pontos. Qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(80\%\), a média
+  amostral não difira da média populacional por mais de \(0.04\) pontos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(433\)
+  \item
+    \(746\)
+  \item
+    \(1731\)
+  \item
+    \(1991\)
+  \item
+    \(1082\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 1.3}{0.04} \right)^2=1730.56.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=1731\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

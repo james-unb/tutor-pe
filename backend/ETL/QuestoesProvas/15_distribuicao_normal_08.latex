@@ -1,0 +1,522 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa que produz televisores garante a restituição da quantia
+  paga se qualquer televisor apresentar defeito grave no prazo de seis
+  meses. Suponha que os compradores sempre solicitarão essa restituição,
+  e que o tempo para ocorrência de algum defeito grave nos televisores
+  tem distribuição Normal com média 18 meses e desvio padrão 4. Os
+  televisores são produzidos com lucro de 1200, mas caso haja
+  restituição, não há lucro (o lucro é zero). Calcule o lucro esperado
+  para um televisor vendido.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(928\)
+  \item
+    \(1200\)
+  \item
+    \(1093\)
+  \item
+    \(1198\)
+  \item
+    \(1177\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(T\) o tempo de ocorrência de algum defeito grave em um
+  televisor.\\
+  Pelo enunciado da questão, \(T \sim N(\mu=18, \sigma^2=16)\). Então,
+  \[\begin{aligned}
+  \mathbb{P}(\text{Não restituição}) & = \mathbb{P}(Z > (6-18)/4) \\
+                                     & = \mathbb{P}(Z > -3) \\
+                                     & = 1- \mathbb{P}(Z < -3) \\
+                                     & = 0.9987.
+  \end{aligned}\]
+
+  Portanto, pela definição de Esperança Matemática, o lucro médio é de
+  \[1200 \times 0.9987 + 0 \times 0.0013 = 1198 \text{ Reais}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa que produz televisores garante a restituição da quantia
+  paga se qualquer televisor apresentar defeito grave no prazo de seis
+  meses. Suponha que os compradores sempre solicitarão essa restituição,
+  e que o tempo para ocorrência de algum defeito grave nos televisores
+  tem distribuição Normal com média 16 meses e desvio padrão 4. Os
+  televisores são produzidos com lucro de 1400, mas caso haja
+  restituição, não há lucro (o lucro é zero). Calcule o lucro esperado
+  para um televisor vendido.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1391\)
+  \item
+    \(1060\)
+  \item
+    \(1400\)
+  \item
+    \(1136\)
+  \item
+    \(1025\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(T\) o tempo de ocorrência de algum defeito grave em um
+  televisor.\\
+  Pelo enunciado da questão, \(T \sim N(\mu=16, \sigma^2=16)\). Então,
+  \[\begin{aligned}
+  \mathbb{P}(\text{Não restituição}) & = \mathbb{P}(Z > (6-16)/4) \\
+                                     & = \mathbb{P}(Z > -2.5) \\
+                                     & = 1- \mathbb{P}(Z < -2.5) \\
+                                     & = 0.9938.
+  \end{aligned}\]
+
+  Portanto, pela definição de Esperança Matemática, o lucro médio é de
+  \[1400 \times 0.9938 + 0 \times 0.0062 = 1391 \text{ Reais}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa que produz televisores garante a restituição da quantia
+  paga se qualquer televisor apresentar defeito grave no prazo de seis
+  meses. Suponha que os compradores sempre solicitarão essa restituição,
+  e que o tempo para ocorrência de algum defeito grave nos televisores
+  tem distribuição Normal com média 18 meses e desvio padrão 4. Os
+  televisores são produzidos com lucro de 1500, mas caso haja
+  restituição, não há lucro (o lucro é zero). Calcule o lucro esperado
+  para um televisor vendido.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1498\)
+  \item
+    \(1160\)
+  \item
+    \(1500\)
+  \item
+    \(1280\)
+  \item
+    \(1031\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(T\) o tempo de ocorrência de algum defeito grave em um
+  televisor.\\
+  Pelo enunciado da questão, \(T \sim N(\mu=18, \sigma^2=16)\). Então,
+  \[\begin{aligned}
+  \mathbb{P}(\text{Não restituição}) & = \mathbb{P}(Z > (6-18)/4) \\
+                                     & = \mathbb{P}(Z > -3) \\
+                                     & = 1- \mathbb{P}(Z < -3) \\
+                                     & = 0.9987.
+  \end{aligned}\]
+
+  Portanto, pela definição de Esperança Matemática, o lucro médio é de
+  \[1500 \times 0.9987 + 0 \times 0.0013 = 1498 \text{ Reais}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa que produz televisores garante a restituição da quantia
+  paga se qualquer televisor apresentar defeito grave no prazo de seis
+  meses. Suponha que os compradores sempre solicitarão essa restituição,
+  e que o tempo para ocorrência de algum defeito grave nos televisores
+  tem distribuição Normal com média 16 meses e desvio padrão 4. Os
+  televisores são produzidos com lucro de 1500, mas caso haja
+  restituição, não há lucro (o lucro é zero). Calcule o lucro esperado
+  para um televisor vendido.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1422\)
+  \item
+    \(1099\)
+  \item
+    \(1500\)
+  \item
+    \(1491\)
+  \item
+    \(1488\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(T\) o tempo de ocorrência de algum defeito grave em um
+  televisor.\\
+  Pelo enunciado da questão, \(T \sim N(\mu=16, \sigma^2=16)\). Então,
+  \[\begin{aligned}
+  \mathbb{P}(\text{Não restituição}) & = \mathbb{P}(Z > (6-16)/4) \\
+                                     & = \mathbb{P}(Z > -2.5) \\
+                                     & = 1- \mathbb{P}(Z < -2.5) \\
+                                     & = 0.9938.
+  \end{aligned}\]
+
+  Portanto, pela definição de Esperança Matemática, o lucro médio é de
+  \[1500 \times 0.9938 + 0 \times 0.0062 = 1491 \text{ Reais}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa que produz televisores garante a restituição da quantia
+  paga se qualquer televisor apresentar defeito grave no prazo de seis
+  meses. Suponha que os compradores sempre solicitarão essa restituição,
+  e que o tempo para ocorrência de algum defeito grave nos televisores
+  tem distribuição Normal com média 18 meses e desvio padrão 5. Os
+  televisores são produzidos com lucro de 1200, mas caso haja
+  restituição, não há lucro (o lucro é zero). Calcule o lucro esperado
+  para um televisor vendido.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(821\)
+  \item
+    \(1060\)
+  \item
+    \(1137\)
+  \item
+    \(1200\)
+  \item
+    \(1190\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(T\) o tempo de ocorrência de algum defeito grave em um
+  televisor.\\
+  Pelo enunciado da questão, \(T \sim N(\mu=18, \sigma^2=25)\). Então,
+  \[\begin{aligned}
+  \mathbb{P}(\text{Não restituição}) & = \mathbb{P}(Z > (6-18)/5) \\
+                                     & = \mathbb{P}(Z > -2.4) \\
+                                     & = 1- \mathbb{P}(Z < -2.4) \\
+                                     & = 0.9918.
+  \end{aligned}\]
+
+  Portanto, pela definição de Esperança Matemática, o lucro médio é de
+  \[1200 \times 0.9918 + 0 \times 0.0082 = 1190 \text{ Reais}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa que produz televisores garante a restituição da quantia
+  paga se qualquer televisor apresentar defeito grave no prazo de seis
+  meses. Suponha que os compradores sempre solicitarão essa restituição,
+  e que o tempo para ocorrência de algum defeito grave nos televisores
+  tem distribuição Normal com média 16 meses e desvio padrão 5. Os
+  televisores são produzidos com lucro de 1400, mas caso haja
+  restituição, não há lucro (o lucro é zero). Calcule o lucro esperado
+  para um televisor vendido.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(918\)
+  \item
+    \(1400\)
+  \item
+    \(1224\)
+  \item
+    \(1368\)
+  \item
+    \(1353\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(T\) o tempo de ocorrência de algum defeito grave em um
+  televisor.\\
+  Pelo enunciado da questão, \(T \sim N(\mu=16, \sigma^2=25)\). Então,
+  \[\begin{aligned}
+  \mathbb{P}(\text{Não restituição}) & = \mathbb{P}(Z > (6-16)/5) \\
+                                     & = \mathbb{P}(Z > -2) \\
+                                     & = 1- \mathbb{P}(Z < -2) \\
+                                     & = 0.9772.
+  \end{aligned}\]
+
+  Portanto, pela definição de Esperança Matemática, o lucro médio é de
+  \[1400 \times 0.9772 + 0 \times 0.0228 = 1368 \text{ Reais}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa que produz televisores garante a restituição da quantia
+  paga se qualquer televisor apresentar defeito grave no prazo de seis
+  meses. Suponha que os compradores sempre solicitarão essa restituição,
+  e que o tempo para ocorrência de algum defeito grave nos televisores
+  tem distribuição Normal com média 18 meses e desvio padrão 4. Os
+  televisores são produzidos com lucro de 1000, mas caso haja
+  restituição, não há lucro (o lucro é zero). Calcule o lucro esperado
+  para um televisor vendido.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(999\)
+  \item
+    \(1000\)
+  \item
+    \(773\)
+  \item
+    \(906\)
+  \item
+    \(171\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(T\) o tempo de ocorrência de algum defeito grave em um
+  televisor.\\
+  Pelo enunciado da questão, \(T \sim N(\mu=18, \sigma^2=16)\). Então,
+  \[\begin{aligned}
+  \mathbb{P}(\text{Não restituição}) & = \mathbb{P}(Z > (6-18)/4) \\
+                                     & = \mathbb{P}(Z > -3) \\
+                                     & = 1- \mathbb{P}(Z < -3) \\
+                                     & = 0.9987.
+  \end{aligned}\]
+
+  Portanto, pela definição de Esperança Matemática, o lucro médio é de
+  \[1000 \times 0.9987 + 0 \times 0.0013 = 999 \text{ Reais}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa que produz televisores garante a restituição da quantia
+  paga se qualquer televisor apresentar defeito grave no prazo de seis
+  meses. Suponha que os compradores sempre solicitarão essa restituição,
+  e que o tempo para ocorrência de algum defeito grave nos televisores
+  tem distribuição Normal com média 16 meses e desvio padrão 5. Os
+  televisores são produzidos com lucro de 1400, mas caso haja
+  restituição, não há lucro (o lucro é zero). Calcule o lucro esperado
+  para um televisor vendido.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1106\)
+  \item
+    \(1034\)
+  \item
+    \(1400\)
+  \item
+    \(918\)
+  \item
+    \(1368\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(T\) o tempo de ocorrência de algum defeito grave em um
+  televisor.\\
+  Pelo enunciado da questão, \(T \sim N(\mu=16, \sigma^2=25)\). Então,
+  \[\begin{aligned}
+  \mathbb{P}(\text{Não restituição}) & = \mathbb{P}(Z > (6-16)/5) \\
+                                     & = \mathbb{P}(Z > -2) \\
+                                     & = 1- \mathbb{P}(Z < -2) \\
+                                     & = 0.9772.
+  \end{aligned}\]
+
+  Portanto, pela definição de Esperança Matemática, o lucro médio é de
+  \[1400 \times 0.9772 + 0 \times 0.0228 = 1368 \text{ Reais}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa que produz televisores garante a restituição da quantia
+  paga se qualquer televisor apresentar defeito grave no prazo de seis
+  meses. Suponha que os compradores sempre solicitarão essa restituição,
+  e que o tempo para ocorrência de algum defeito grave nos televisores
+  tem distribuição Normal com média 16 meses e desvio padrão 4. Os
+  televisores são produzidos com lucro de 1200, mas caso haja
+  restituição, não há lucro (o lucro é zero). Calcule o lucro esperado
+  para um televisor vendido.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(879\)
+  \item
+    \(1193\)
+  \item
+    \(1135\)
+  \item
+    \(1200\)
+  \item
+    \(1137\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(T\) o tempo de ocorrência de algum defeito grave em um
+  televisor.\\
+  Pelo enunciado da questão, \(T \sim N(\mu=16, \sigma^2=16)\). Então,
+  \[\begin{aligned}
+  \mathbb{P}(\text{Não restituição}) & = \mathbb{P}(Z > (6-16)/4) \\
+                                     & = \mathbb{P}(Z > -2.5) \\
+                                     & = 1- \mathbb{P}(Z < -2.5) \\
+                                     & = 0.9938.
+  \end{aligned}\]
+
+  Portanto, pela definição de Esperança Matemática, o lucro médio é de
+  \[1200 \times 0.9938 + 0 \times 0.0062 = 1193 \text{ Reais}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa que produz televisores garante a restituição da quantia
+  paga se qualquer televisor apresentar defeito grave no prazo de seis
+  meses. Suponha que os compradores sempre solicitarão essa restituição,
+  e que o tempo para ocorrência de algum defeito grave nos televisores
+  tem distribuição Normal com média 18 meses e desvio padrão 5. Os
+  televisores são produzidos com lucro de 1100, mas caso haja
+  restituição, não há lucro (o lucro é zero). Calcule o lucro esperado
+  para um televisor vendido.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1091\)
+  \item
+    \(1088\)
+  \item
+    \(753\)
+  \item
+    \(1100\)
+  \item
+    \(1071\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(T\) o tempo de ocorrência de algum defeito grave em um
+  televisor.\\
+  Pelo enunciado da questão, \(T \sim N(\mu=18, \sigma^2=25)\). Então,
+  \[\begin{aligned}
+  \mathbb{P}(\text{Não restituição}) & = \mathbb{P}(Z > (6-18)/5) \\
+                                     & = \mathbb{P}(Z > -2.4) \\
+                                     & = 1- \mathbb{P}(Z < -2.4) \\
+                                     & = 0.9918.
+  \end{aligned}\]
+
+  Portanto, pela definição de Esperança Matemática, o lucro médio é de
+  \[1100 \times 0.9918 + 0 \times 0.0082 = 1091 \text{ Reais}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

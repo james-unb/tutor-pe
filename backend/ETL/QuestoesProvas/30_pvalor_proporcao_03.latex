@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Com base nos resultados do segundo turno da eleição, 73\% dos
+  eleitores votaram no candidato A. No entanto, a oposição desconfia do
+  resultado oficial, alegando que uma disputa mais acirrada entre os 2
+  candidatos era esperada. Com base em uma amostra aleatória simples de
+  \(50\) eleitores, o partido de oposição conduziu um teste de hipóteses
+  e observou que 35 pessoas haviam votado no candidato A. Assinale a
+  alternativa correspondente ao p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2525\)
+  \item
+    \(0.6091\)
+  \item
+    \(0.3422\)
+  \item
+    \(0.3156\)
+  \item
+    \(0.6844\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.73 \ \ versus \ \ H_a : p < 0.73.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.48\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.48) = 0.3156.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Com base nos resultados do segundo turno da eleição, 76\% dos
+  eleitores votaram no candidato A. No entanto, a oposição desconfia do
+  resultado oficial, alegando que uma disputa mais acirrada entre os 2
+  candidatos era esperada. Com base em uma amostra aleatória simples de
+  \(140\) eleitores, o partido de oposição conduziu um teste de
+  hipóteses e observou que 99 pessoas haviam votado no candidato A.
+  Assinale a alternativa correspondente ao p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0721\)
+  \item
+    \(0.4639\)
+  \item
+    \(0.9279\)
+  \item
+    \(0.0577\)
+  \item
+    \(0.8258\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.76 \ \ versus \ \ H_a : p < 0.76.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.46\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.46) = 0.0721.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Com base nos resultados do segundo turno da eleição, 73\% dos
+  eleitores votaram no candidato A. No entanto, a oposição desconfia do
+  resultado oficial, alegando que uma disputa mais acirrada entre os 2
+  candidatos era esperada. Com base em uma amostra aleatória simples de
+  \(140\) eleitores, o partido de oposição conduziu um teste de
+  hipóteses e observou que 93 pessoas haviam votado no candidato A.
+  Assinale a alternativa correspondente ao p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4800\)
+  \item
+    \(0.8543\)
+  \item
+    \(0.9599\)
+  \item
+    \(0.0320\)
+  \item
+    \(0.0401\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.73 \ \ versus \ \ H_a : p < 0.73.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.75\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.75) = 0.0401.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Com base nos resultados do segundo turno da eleição, 76\% dos
+  eleitores votaram no candidato A. No entanto, a oposição desconfia do
+  resultado oficial, alegando que uma disputa mais acirrada entre os 2
+  candidatos era esperada. Com base em uma amostra aleatória simples de
+  \(160\) eleitores, o partido de oposição conduziu um teste de
+  hipóteses e observou que 112 pessoas haviam votado no candidato A.
+  Assinale a alternativa correspondente ao p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0375\)
+  \item
+    \(0.9625\)
+  \item
+    \(0.8566\)
+  \item
+    \(0.0300\)
+  \item
+    \(0.4812\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.76 \ \ versus \ \ H_a : p < 0.76.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.78\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.78) = 0.0375.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Com base nos resultados do segundo turno da eleição, 76\% dos
+  eleitores votaram no candidato A. No entanto, a oposição desconfia do
+  resultado oficial, alegando que uma disputa mais acirrada entre os 2
+  candidatos era esperada. Com base em uma amostra aleatória simples de
+  \(160\) eleitores, o partido de oposição conduziu um teste de
+  hipóteses e observou que 115 pessoas haviam votado no candidato A.
+  Assinale a alternativa correspondente ao p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4444\)
+  \item
+    \(0.7910\)
+  \item
+    \(0.8888\)
+  \item
+    \(0.1112\)
+  \item
+    \(0.0890\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.76 \ \ versus \ \ H_a : p < 0.76.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.22\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.22) = 0.1112.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Com base nos resultados do segundo turno da eleição, 71\% dos
+  eleitores votaram no candidato A. No entanto, a oposição desconfia do
+  resultado oficial, alegando que uma disputa mais acirrada entre os 2
+  candidatos era esperada. Com base em uma amostra aleatória simples de
+  \(120\) eleitores, o partido de oposição conduziu um teste de
+  hipóteses e observou que 84 pessoas haviam votado no candidato A.
+  Assinale a alternativa correspondente ao p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2974\)
+  \item
+    \(0.5294\)
+  \item
+    \(0.3241\)
+  \item
+    \(0.4052\)
+  \item
+    \(0.5948\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.71 \ \ versus \ \ H_a : p < 0.71.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.24\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.24) = 0.4052.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Com base nos resultados do segundo turno da eleição, 72\% dos
+  eleitores votaram no candidato A. No entanto, a oposição desconfia do
+  resultado oficial, alegando que uma disputa mais acirrada entre os 2
+  candidatos era esperada. Com base em uma amostra aleatória simples de
+  \(140\) eleitores, o partido de oposição conduziu um teste de
+  hipóteses e observou que 96 pessoas haviam votado no candidato A.
+  Assinale a alternativa correspondente ao p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7262\)
+  \item
+    \(0.1841\)
+  \item
+    \(0.1472\)
+  \item
+    \(0.8159\)
+  \item
+    \(0.4080\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.72 \ \ versus \ \ H_a : p < 0.72.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.9\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.9) = 0.1841.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Com base nos resultados do segundo turno da eleição, 78\% dos
+  eleitores votaram no candidato A. No entanto, a oposição desconfia do
+  resultado oficial, alegando que uma disputa mais acirrada entre os 2
+  candidatos era esperada. Com base em uma amostra aleatória simples de
+  \(50\) eleitores, o partido de oposição conduziu um teste de hipóteses
+  e observou que 38 pessoas haviam votado no candidato A. Assinale a
+  alternativa correspondente ao p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6331\)
+  \item
+    \(0.5634\)
+  \item
+    \(0.3165\)
+  \item
+    \(0.3669\)
+  \item
+    \(0.2935\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.78 \ \ versus \ \ H_a : p < 0.78.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.34\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.34) = 0.3669.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Com base nos resultados do segundo turno da eleição, 76\% dos
+  eleitores votaram no candidato A. No entanto, a oposição desconfia do
+  resultado oficial, alegando que uma disputa mais acirrada entre os 2
+  candidatos era esperada. Com base em uma amostra aleatória simples de
+  \(100\) eleitores, o partido de oposição conduziu um teste de
+  hipóteses e observou que 74 pessoas haviam votado no candidato A.
+  Assinale a alternativa correspondente ao p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2553\)
+  \item
+    \(0.3404\)
+  \item
+    \(0.6808\)
+  \item
+    \(0.3192\)
+  \item
+    \(0.6059\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.76 \ \ versus \ \ H_a : p < 0.76.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.47\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.47) = 0.3192.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Com base nos resultados do segundo turno da eleição, 76\% dos
+  eleitores votaram no candidato A. No entanto, a oposição desconfia do
+  resultado oficial, alegando que uma disputa mais acirrada entre os 2
+  candidatos era esperada. Com base em uma amostra aleatória simples de
+  \(120\) eleitores, o partido de oposição conduziu um teste de
+  hipóteses e observou que 89 pessoas haviam votado no candidato A.
+  Assinale a alternativa correspondente ao p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6808\)
+  \item
+    \(0.2553\)
+  \item
+    \(0.6059\)
+  \item
+    \(0.3404\)
+  \item
+    \(0.3192\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.76 \ \ versus \ \ H_a : p < 0.76.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.47\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.47) = 0.3192.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

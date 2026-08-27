@@ -1,0 +1,882 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa foram registradas duas variáveis: \(X\)
+  referente ao número de faltas e \(Y\) referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.3 & 0.35 \\
+  2 & 0.19 & 0.05 \\
+  4 & 0 & 0.11 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.911\)
+  \item
+    \(-0.005\)
+  \item
+    \(2.460\)
+  \item
+    \(0.089\)
+  \item
+    \(0.053\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.3 & 0.35 & 0.65 \\
+  2 & 0.19 & 0.05 & 0.24 \\
+  4 & 0 & 0.11 & 0.11 \\
+  P(Y=y) & 0.49 & 0.51 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 1\times0.65+2\times0.24+4\times0.11 = 1.57\\
+  E(Y) &=& 1\times0.49+2\times0.51 = 1.51\\
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.3 & 0.54 & 0.05 & 0.11 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.3+2\times0.54+4\times0.05+8\times0.11 = 2.46\] e,
+  portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.089.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa foram registradas duas variáveis: \(X\)
+  referente ao número de faltas e \(Y\) referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.19 & 0.01 \\
+  2 & 0.13 & 0.01 \\
+  4 & 0.05 & 0.61 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-4.144\)
+  \item
+    \(0.496\)
+  \item
+    \(5.590\)
+  \item
+    \(0.504\)
+  \item
+    \(0.302\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.19 & 0.01 & 0.2 \\
+  2 & 0.13 & 0.01 & 0.14 \\
+  4 & 0.05 & 0.61 & 0.66 \\
+  P(Y=y) & 0.37 & 0.63 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 1\times0.2+2\times0.14+4\times0.66 = 3.12\\
+  E(Y) &=& 1\times0.37+2\times0.63 = 1.63\\
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.19 & 0.14 & 0.06 & 0.61 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.19+2\times0.14+4\times0.06+8\times0.61 = 5.59\] e,
+  portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.504.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa foram registradas duas variáveis: \(X\)
+  referente ao número de faltas e \(Y\) referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.04 & 0.18 \\
+  2 & 0.34 & 0.05 \\
+  4 & 0.13 & 0.26 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.880\)
+  \item
+    \(0.934\)
+  \item
+    \(0.040\)
+  \item
+    \(0.066\)
+  \item
+    \(-2.674\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.04 & 0.18 & 0.22 \\
+  2 & 0.34 & 0.05 & 0.39 \\
+  4 & 0.13 & 0.26 & 0.39 \\
+  P(Y=y) & 0.51 & 0.49 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 1\times0.22+2\times0.39+4\times0.39 = 2.56\\
+  E(Y) &=& 1\times0.51+2\times0.49 = 1.49\\
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.04 & 0.52 & 0.18 & 0.26 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.04+2\times0.52+4\times0.18+8\times0.26 = 3.88\] e,
+  portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.066.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa foram registradas duas variáveis: \(X\)
+  referente ao número de faltas e \(Y\) referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.28 & 0.38 \\
+  2 & 0.15 & 0.03 \\
+  4 & 0.07 & 0.09 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.030\)
+  \item
+    \(-0.296\)
+  \item
+    \(-0.018\)
+  \item
+    \(0.970\)
+  \item
+    \(2.460\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.28 & 0.38 & 0.66 \\
+  2 & 0.15 & 0.03 & 0.18 \\
+  4 & 0.07 & 0.09 & 0.16 \\
+  P(Y=y) & 0.5 & 0.5 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 1\times0.66+2\times0.18+4\times0.16 = 1.66\\
+  E(Y) &=& 1\times0.5+2\times0.5 = 1.5\\
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.28 & 0.53 & 0.1 & 0.09 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.28+2\times0.53+4\times0.1+8\times0.09 = 2.46\] e,
+  portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.03.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa foram registradas duas variáveis: \(X\)
+  referente ao número de faltas e \(Y\) referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.07 & 0.05 \\
+  2 & 0.01 & 0.64 \\
+  4 & 0.05 & 0.18 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.014\)
+  \item
+    \(4.390\)
+  \item
+    \(0.008\)
+  \item
+    \(-1.086\)
+  \item
+    \(0.986\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.07 & 0.05 & 0.12 \\
+  2 & 0.01 & 0.64 & 0.65 \\
+  4 & 0.05 & 0.18 & 0.23 \\
+  P(Y=y) & 0.13 & 0.87 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 1\times0.12+2\times0.65+4\times0.23 = 2.34\\
+  E(Y) &=& 1\times0.13+2\times0.87 = 1.87\\
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.07 & 0.06 & 0.69 & 0.18 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.07+2\times0.06+4\times0.69+8\times0.18 = 4.39\] e,
+  portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.014.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa foram registradas duas variáveis: \(X\)
+  referente ao número de faltas e \(Y\) referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.01 & 0.01 \\
+  2 & 0.14 & 0.21 \\
+  4 & 0.07 & 0.56 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.143\)
+  \item
+    \(0.086\)
+  \item
+    \(0.857\)
+  \item
+    \(5.910\)
+  \item
+    \(-4.588\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.01 & 0.01 & 0.02 \\
+  2 & 0.14 & 0.21 & 0.35 \\
+  4 & 0.07 & 0.56 & 0.63 \\
+  P(Y=y) & 0.22 & 0.78 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 1\times0.02+2\times0.35+4\times0.63 = 3.24\\
+  E(Y) &=& 1\times0.22+2\times0.78 = 1.78\\
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.01 & 0.15 & 0.28 & 0.56 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.01+2\times0.15+4\times0.28+8\times0.56 = 5.91\] e,
+  portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.143.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa foram registradas duas variáveis: \(X\)
+  referente ao número de faltas e \(Y\) referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.22 & 0.4 \\
+  2 & 0.1 & 0.02 \\
+  4 & 0.05 & 0.21 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.180\)
+  \item
+    \(0.083\)
+  \item
+    \(-0.430\)
+  \item
+    \(0.050\)
+  \item
+    \(0.917\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.22 & 0.4 & 0.62 \\
+  2 & 0.1 & 0.02 & 0.12 \\
+  4 & 0.05 & 0.21 & 0.26 \\
+  P(Y=y) & 0.37 & 0.63 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 1\times0.62+2\times0.12+4\times0.26 = 1.9\\
+  E(Y) &=& 1\times0.37+2\times0.63 = 1.63\\
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.22 & 0.5 & 0.07 & 0.21 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.22+2\times0.5+4\times0.07+8\times0.21 = 3.18\] e,
+  portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.083.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa foram registradas duas variáveis: \(X\)
+  referente ao número de faltas e \(Y\) referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.04 & 0.09 \\
+  2 & 0.03 & 0.67 \\
+  4 & 0.1 & 0.07 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.074\)
+  \item
+    \(0.876\)
+  \item
+    \(3.920\)
+  \item
+    \(-0.964\)
+  \item
+    \(-0.124\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.04 & 0.09 & 0.13 \\
+  2 & 0.03 & 0.67 & 0.7 \\
+  4 & 0.1 & 0.07 & 0.17 \\
+  P(Y=y) & 0.17 & 0.83 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 1\times0.13+2\times0.7+4\times0.17 = 2.21\\
+  E(Y) &=& 1\times0.17+2\times0.83 = 1.83\\
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.04 & 0.12 & 0.77 & 0.07 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.04+2\times0.12+4\times0.77+8\times0.07 = 3.92\] e,
+  portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.124.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa foram registradas duas variáveis: \(X\)
+  referente ao número de faltas e \(Y\) referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.2 & 0.13 \\
+  2 & 0.26 & 0.04 \\
+  4 & 0.22 & 0.15 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.039\)
+  \item
+    \(-2.588\)
+  \item
+    \(3.220\)
+  \item
+    \(0.023\)
+  \item
+    \(0.961\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.2 & 0.13 & 0.33 \\
+  2 & 0.26 & 0.04 & 0.3 \\
+  4 & 0.22 & 0.15 & 0.37 \\
+  P(Y=y) & 0.68 & 0.32 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 1\times0.33+2\times0.3+4\times0.37 = 2.41\\
+  E(Y) &=& 1\times0.68+2\times0.32 = 1.32\\
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.2 & 0.39 & 0.26 & 0.15 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.2+2\times0.39+4\times0.26+8\times0.15 = 3.22\] e,
+  portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.039.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa foram registradas duas variáveis: \(X\)
+  referente ao número de faltas e \(Y\) referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.61 & 0.07 \\
+  2 & 0.11 & 0.07 \\
+  4 & 0.12 & 0.02 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.890\)
+  \item
+    \(0.034\)
+  \item
+    \(0.020\)
+  \item
+    \(0.966\)
+  \item
+    \(-0.670\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.61 & 0.07 & 0.68 \\
+  2 & 0.11 & 0.07 & 0.18 \\
+  4 & 0.12 & 0.02 & 0.14 \\
+  P(Y=y) & 0.84 & 0.16 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 1\times0.68+2\times0.18+4\times0.14 = 1.6\\
+  E(Y) &=& 1\times0.84+2\times0.16 = 1.16\\
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.61 & 0.18 & 0.19 & 0.02 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.61+2\times0.18+4\times0.19+8\times0.02 = 1.89\] e,
+  portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.034.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

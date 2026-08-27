@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório do Ministério da Saúde afirmou que a porcentagem de
+  fumantes no Brasil é de 8\%. Uma pesquisa coletou uma amostra
+  aleatória de 131 pessoas, das quais 13 eram fumantes. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses elaborado para avaliar de há evidência estatisticamente
+  significativa de que o valor reportado pelo Ministério da Saúde não
+  corresponde à proporção verdadeira.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2090\)
+  \item
+    \(0.4179\)
+  \item
+    \(0.1860\)
+  \item
+    \(0.7910\)
+  \item
+    \(0.6328\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.08 \ \ versus \ \ H_a : p \neq 0.08.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.81\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq0.81)) = 0.4179.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório do Ministério da Saúde afirmou que a porcentagem de
+  fumantes no Brasil é de 9\%. Uma pesquisa coletou uma amostra
+  aleatória de 170 pessoas, das quais 15 eram fumantes. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses elaborado para avaliar de há evidência estatisticamente
+  significativa de que o valor reportado pelo Ministério da Saúde não
+  corresponde à proporção verdadeira.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4166\)
+  \item
+    \(0.9362\)
+  \item
+    \(0.4255\)
+  \item
+    \(0.4681\)
+  \item
+    \(0.5319\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.09 \ \ versus \ \ H_a : p \neq 0.09.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.08\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq0.08)) = 0.9362.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório do Ministério da Saúde afirmou que a porcentagem de
+  fumantes no Brasil é de 12\%. Uma pesquisa coletou uma amostra
+  aleatória de 194 pessoas, das quais 21 eram fumantes. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses elaborado para avaliar de há evidência estatisticamente
+  significativa de que o valor reportado pelo Ministério da Saúde não
+  corresponde à proporção verdadeira.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6915\)
+  \item
+    \(0.5532\)
+  \item
+    \(0.3085\)
+  \item
+    \(0.6171\)
+  \item
+    \(0.2746\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.12 \ \ versus \ \ H_a : p \neq 0.12.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.5\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq0.5)) = 0.6171.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório do Ministério da Saúde afirmou que a porcentagem de
+  fumantes no Brasil é de 11\%. Uma pesquisa coletou uma amostra
+  aleatória de 197 pessoas, das quais 21 eram fumantes. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses elaborado para avaliar de há evidência estatisticamente
+  significativa de que o valor reportado pelo Ministério da Saúde não
+  corresponde à proporção verdadeira.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5596\)
+  \item
+    \(0.3919\)
+  \item
+    \(0.8808\)
+  \item
+    \(0.4404\)
+  \item
+    \(0.4477\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.11 \ \ versus \ \ H_a : p \neq 0.11.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.15\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq0.15)) = 0.8808.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório do Ministério da Saúde afirmou que a porcentagem de
+  fumantes no Brasil é de 8\%. Uma pesquisa coletou uma amostra
+  aleatória de 119 pessoas, das quais 12 eram fumantes. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses elaborado para avaliar de há evidência estatisticamente
+  significativa de que o valor reportado pelo Ministério da Saúde não
+  corresponde à proporção verdadeira.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6396\)
+  \item
+    \(0.1784\)
+  \item
+    \(0.4009\)
+  \item
+    \(0.2005\)
+  \item
+    \(0.7995\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.08 \ \ versus \ \ H_a : p \neq 0.08.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.84\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq0.84)) = 0.4009.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório do Ministério da Saúde afirmou que a porcentagem de
+  fumantes no Brasil é de 9\%. Uma pesquisa coletou uma amostra
+  aleatória de 108 pessoas, das quais 8 eram fumantes. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses elaborado para avaliar de há evidência estatisticamente
+  significativa de que o valor reportado pelo Ministério da Saúde não
+  corresponde à proporção verdadeira.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5752\)
+  \item
+    \(0.2501\)
+  \item
+    \(0.7190\)
+  \item
+    \(0.2810\)
+  \item
+    \(0.5619\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.09 \ \ versus \ \ H_a : p \neq 0.09.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.58\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq0.58)) = 0.5619.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório do Ministério da Saúde afirmou que a porcentagem de
+  fumantes no Brasil é de 12\%. Uma pesquisa coletou uma amostra
+  aleatória de 140 pessoas, das quais 15 eram fumantes. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses elaborado para avaliar de há evidência estatisticamente
+  significativa de que o valor reportado pelo Ministério da Saúde não
+  corresponde à proporção verdadeira.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6384\)
+  \item
+    \(0.2841\)
+  \item
+    \(0.3192\)
+  \item
+    \(0.6808\)
+  \item
+    \(0.5447\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.12 \ \ versus \ \ H_a : p \neq 0.12.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.47\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq0.47)) = 0.6384.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório do Ministério da Saúde afirmou que a porcentagem de
+  fumantes no Brasil é de 11\%. Uma pesquisa coletou uma amostra
+  aleatória de 194 pessoas, das quais 12 eram fumantes. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses elaborado para avaliar de há evidência estatisticamente
+  significativa de que o valor reportado pelo Ministério da Saúde não
+  corresponde à proporção verdadeira.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0162\)
+  \item
+    \(0.0144\)
+  \item
+    \(0.7871\)
+  \item
+    \(0.9838\)
+  \item
+    \(0.0324\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.11 \ \ versus \ \ H_a : p \neq 0.11.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 2.14\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq2.14)) = 0.0324.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório do Ministério da Saúde afirmou que a porcentagem de
+  fumantes no Brasil é de 12\%. Uma pesquisa coletou uma amostra
+  aleatória de 157 pessoas, das quais 22 eram fumantes. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses elaborado para avaliar de há evidência estatisticamente
+  significativa de que o valor reportado pelo Ministério da Saúde não
+  corresponde à proporção verdadeira.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2177\)
+  \item
+    \(0.4354\)
+  \item
+    \(0.7823\)
+  \item
+    \(0.6258\)
+  \item
+    \(0.1937\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.12 \ \ versus \ \ H_a : p \neq 0.12.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.78\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq0.78)) = 0.4354.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório do Ministério da Saúde afirmou que a porcentagem de
+  fumantes no Brasil é de 10\%. Uma pesquisa coletou uma amostra
+  aleatória de 116 pessoas, das quais 7 eram fumantes. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses elaborado para avaliar de há evidência estatisticamente
+  significativa de que o valor reportado pelo Ministério da Saúde não
+  corresponde à proporção verdadeira.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0778\)
+  \item
+    \(0.1556\)
+  \item
+    \(0.9222\)
+  \item
+    \(0.7378\)
+  \item
+    \(0.0692\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.1 \ \ versus \ \ H_a : p \neq 0.1.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 1.42\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq1.42)) = 0.1556.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

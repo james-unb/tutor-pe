@@ -1,0 +1,573 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros esportivos, antes de liberá-los, testa seus
+  carros na pista de corrida para verificar se estão funcionando
+  perfeitamente, ou se precisam de ajustes. Uma das variáveis analisada
+  é a velocidade máxima dos carros, a qual supõe seguir uma distribuição
+  Normal com variância igual a \(5\) km\(^2\)/h\(^2\). A fábrica deseja
+  avaliar se a média das velocidades máximas de um certo modelo é de, no
+  mínimo, \(391\) km/h. Para tanto, \(17\) veículos foram testados na
+  pista, fornecendo uma média amostral de \(390.29\). A um nível de
+  significância de \(5\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=390.29\; \emph{vs. }  H_a: \bar{x}>390.29\). Há
+    evidência de que os carros não precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=391\; \emph{vs. }  H_a: \bar{x}=390.29\). Há
+    evidência de que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu \geq391\; \emph{vs. }  H_a: \mu<391\). Há evidência de
+    que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu \geq391\; \emph{vs. }  H_a: \mu<391\). Não há evidência
+    de que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu=391\; \emph{vs. }  H_a: \mu \neq 391\). Há evidência de
+    que os carros precisem de ajuste.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\geq391\)
+  \emph{vs.} \(H_a: \mu < 391\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=391)=P\left(Z<\frac{c-391}{\sqrt{5/17}}\right)=0.05\).
+
+  Portanto, \(\frac{c-391}{\sqrt{5/17}}=-1.64 \Rightarrow c=390.11\).
+
+  Daí, como \(\bar{x} =\) \(390.29 > 390.11\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+\end{enumerate}
+
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros esportivos, antes de liberá-los, testa seus
+  carros na pista de corrida para verificar se estão funcionando
+  perfeitamente, ou se precisam de ajustes. Uma das variáveis analisada
+  é a velocidade máxima dos carros, a qual supõe seguir uma distribuição
+  Normal com variância igual a \(10\) km\(^2\)/h\(^2\). A fábrica deseja
+  avaliar se a média das velocidades máximas de um certo modelo é de, no
+  mínimo, \(389\) km/h. Para tanto, \(18\) veículos foram testados na
+  pista, fornecendo uma média amostral de \(388.04\). A um nível de
+  significância de \(5\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \geq389\; \emph{vs. }  H_a: \mu<389\). Há evidência de
+    que os carros precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=389\; \emph{vs. }  H_a: \bar{x}=388.04\). Há
+    evidência de que os carros precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=388.04\; \emph{vs. }  H_a: \bar{x}>388.04\). Há
+    evidência de que os carros não precisem de ajuste.
+  \item
+    \(H_0: \mu \geq389\; \emph{vs. }  H_a: \mu<389\). Não há evidência
+    de que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu=389\; \emph{vs. }  H_a: \mu \neq 389\). Há evidência de
+    que os carros precisem de ajuste.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\geq389\)
+  \emph{vs.} \(H_a: \mu < 389\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=389)=P\left(Z<\frac{c-389}{\sqrt{10/18}}\right)=0.05\).
+
+  Portanto, \(\frac{c-389}{\sqrt{10/18}}=-1.64 \Rightarrow c=387.78\).
+
+  Daí, como \(\bar{x} =\) \(388.04 > 387.78\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros esportivos, antes de liberá-los, testa seus
+  carros na pista de corrida para verificar se estão funcionando
+  perfeitamente, ou se precisam de ajustes. Uma das variáveis analisada
+  é a velocidade máxima dos carros, a qual supõe seguir uma distribuição
+  Normal com variância igual a \(10\) km\(^2\)/h\(^2\). A fábrica deseja
+  avaliar se a média das velocidades máximas de um certo modelo é de, no
+  mínimo, \(359\) km/h. Para tanto, \(18\) veículos foram testados na
+  pista, fornecendo uma média amostral de \(357.4\). A um nível de
+  significância de \(5\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=357.4\; \emph{vs. }  H_a: \bar{x}>357.4\). Há
+    evidência de que os carros não precisem de ajuste.
+  \item
+    \(H_0: \mu \geq359\; \emph{vs. }  H_a: \mu<359\). Não há evidência
+    de que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu \geq359\; \emph{vs. }  H_a: \mu<359\). Há evidência de
+    que os carros precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=359\; \emph{vs. }  H_a: \bar{x}=357.4\). Há evidência
+    de que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu=359\; \emph{vs. }  H_a: \mu \neq 359\). Há evidência de
+    que os carros precisem de ajuste.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\geq359\)
+  \emph{vs.} \(H_a: \mu < 359\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=359)=P\left(Z<\frac{c-359}{\sqrt{10/18}}\right)=0.05\).
+
+  Portanto, \(\frac{c-359}{\sqrt{10/18}}=-1.64 \Rightarrow c=357.78\).
+
+  Daí, como \(\bar{x} =\) \(357.4 < 357.78\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros esportivos, antes de liberá-los, testa seus
+  carros na pista de corrida para verificar se estão funcionando
+  perfeitamente, ou se precisam de ajustes. Uma das variáveis analisada
+  é a velocidade máxima dos carros, a qual supõe seguir uma distribuição
+  Normal com variância igual a \(5\) km\(^2\)/h\(^2\). A fábrica deseja
+  avaliar se a média das velocidades máximas de um certo modelo é de, no
+  mínimo, \(407\) km/h. Para tanto, \(15\) veículos foram testados na
+  pista, fornecendo uma média amostral de \(405.73\). A um nível de
+  significância de \(5\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \geq407\; \emph{vs. }  H_a: \mu<407\). Há evidência de
+    que os carros precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=405.73\; \emph{vs. }  H_a: \bar{x}>405.73\). Há
+    evidência de que os carros não precisem de ajuste.
+  \item
+    \(H_0: \mu \geq407\; \emph{vs. }  H_a: \mu<407\). Não há evidência
+    de que os carros precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=407\; \emph{vs. }  H_a: \bar{x}=405.73\). Há
+    evidência de que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu=407\; \emph{vs. }  H_a: \mu \neq 407\). Há evidência de
+    que os carros precisem de ajuste.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\geq407\)
+  \emph{vs.} \(H_a: \mu < 407\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=407)=P\left(Z<\frac{c-407}{\sqrt{5/15}}\right)=0.05\).
+
+  Portanto, \(\frac{c-407}{\sqrt{5/15}}=-1.64 \Rightarrow c=406.05\).
+
+  Daí, como \(\bar{x} =\) \(405.73 < 406.05\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros esportivos, antes de liberá-los, testa seus
+  carros na pista de corrida para verificar se estão funcionando
+  perfeitamente, ou se precisam de ajustes. Uma das variáveis analisada
+  é a velocidade máxima dos carros, a qual supõe seguir uma distribuição
+  Normal com variância igual a \(5\) km\(^2\)/h\(^2\). A fábrica deseja
+  avaliar se a média das velocidades máximas de um certo modelo é de, no
+  mínimo, \(415\) km/h. Para tanto, \(20\) veículos foram testados na
+  pista, fornecendo uma média amostral de \(413.96\). A um nível de
+  significância de \(5\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=413.96\; \emph{vs. }  H_a: \bar{x}>413.96\). Há
+    evidência de que os carros não precisem de ajuste.
+  \item
+    \(H_0: \mu \geq415\; \emph{vs. }  H_a: \mu<415\). Não há evidência
+    de que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu \geq415\; \emph{vs. }  H_a: \mu<415\). Há evidência de
+    que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu=415\; \emph{vs. }  H_a: \mu \neq 415\). Há evidência de
+    que os carros precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=415\; \emph{vs. }  H_a: \bar{x}=413.96\). Há
+    evidência de que os carros precisem de ajuste.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\geq415\)
+  \emph{vs.} \(H_a: \mu < 415\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=415)=P\left(Z<\frac{c-415}{\sqrt{5/20}}\right)=0.05\).
+
+  Portanto, \(\frac{c-415}{\sqrt{5/20}}=-1.64 \Rightarrow c=414.18\).
+
+  Daí, como \(\bar{x} =\) \(413.96 < 414.18\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros esportivos, antes de liberá-los, testa seus
+  carros na pista de corrida para verificar se estão funcionando
+  perfeitamente, ou se precisam de ajustes. Uma das variáveis analisada
+  é a velocidade máxima dos carros, a qual supõe seguir uma distribuição
+  Normal com variância igual a \(5\) km\(^2\)/h\(^2\). A fábrica deseja
+  avaliar se a média das velocidades máximas de um certo modelo é de, no
+  mínimo, \(415\) km/h. Para tanto, \(20\) veículos foram testados na
+  pista, fornecendo uma média amostral de \(414.36\). A um nível de
+  significância de \(5\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=415\; \emph{vs. }  H_a: \bar{x}=414.36\). Há
+    evidência de que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu \geq415\; \emph{vs. }  H_a: \mu<415\). Não há evidência
+    de que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu \geq415\; \emph{vs. }  H_a: \mu<415\). Há evidência de
+    que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu=415\; \emph{vs. }  H_a: \mu \neq 415\). Há evidência de
+    que os carros precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=414.36\; \emph{vs. }  H_a: \bar{x}>414.36\). Há
+    evidência de que os carros não precisem de ajuste.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\geq415\)
+  \emph{vs.} \(H_a: \mu < 415\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=415)=P\left(Z<\frac{c-415}{\sqrt{5/20}}\right)=0.05\).
+
+  Portanto, \(\frac{c-415}{\sqrt{5/20}}=-1.64 \Rightarrow c=414.18\).
+
+  Daí, como \(\bar{x} =\) \(414.36 > 414.18\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros esportivos, antes de liberá-los, testa seus
+  carros na pista de corrida para verificar se estão funcionando
+  perfeitamente, ou se precisam de ajustes. Uma das variáveis analisada
+  é a velocidade máxima dos carros, a qual supõe seguir uma distribuição
+  Normal com variância igual a \(5\) km\(^2\)/h\(^2\). A fábrica deseja
+  avaliar se a média das velocidades máximas de um certo modelo é de, no
+  mínimo, \(409\) km/h. Para tanto, \(17\) veículos foram testados na
+  pista, fornecendo uma média amostral de \(408.3\). A um nível de
+  significância de \(5\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \geq409\; \emph{vs. }  H_a: \mu<409\). Há evidência de
+    que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu \geq409\; \emph{vs. }  H_a: \mu<409\). Não há evidência
+    de que os carros precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=408.3\; \emph{vs. }  H_a: \bar{x}>408.3\). Há
+    evidência de que os carros não precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=409\; \emph{vs. }  H_a: \bar{x}=408.3\). Há evidência
+    de que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu=409\; \emph{vs. }  H_a: \mu \neq 409\). Há evidência de
+    que os carros precisem de ajuste.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\geq409\)
+  \emph{vs.} \(H_a: \mu < 409\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=409)=P\left(Z<\frac{c-409}{\sqrt{5/17}}\right)=0.05\).
+
+  Portanto, \(\frac{c-409}{\sqrt{5/17}}=-1.64 \Rightarrow c=408.11\).
+
+  Daí, como \(\bar{x} =\) \(408.3 > 408.11\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros esportivos, antes de liberá-los, testa seus
+  carros na pista de corrida para verificar se estão funcionando
+  perfeitamente, ou se precisam de ajustes. Uma das variáveis analisada
+  é a velocidade máxima dos carros, a qual supõe seguir uma distribuição
+  Normal com variância igual a \(10\) km\(^2\)/h\(^2\). A fábrica deseja
+  avaliar se a média das velocidades máximas de um certo modelo é de, no
+  mínimo, \(386\) km/h. Para tanto, \(20\) veículos foram testados na
+  pista, fornecendo uma média amostral de \(384.52\). A um nível de
+  significância de \(5\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=386\; \emph{vs. }  H_a: \bar{x}=384.52\). Há
+    evidência de que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu \geq386\; \emph{vs. }  H_a: \mu<386\). Não há evidência
+    de que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu=386\; \emph{vs. }  H_a: \mu \neq 386\). Há evidência de
+    que os carros precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=384.52\; \emph{vs. }  H_a: \bar{x}>384.52\). Há
+    evidência de que os carros não precisem de ajuste.
+  \item
+    \(H_0: \mu \geq386\; \emph{vs. }  H_a: \mu<386\). Há evidência de
+    que os carros precisem de ajuste.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\geq386\)
+  \emph{vs.} \(H_a: \mu < 386\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=386)=P\left(Z<\frac{c-386}{\sqrt{10/20}}\right)=0.05\).
+
+  Portanto, \(\frac{c-386}{\sqrt{10/20}}=-1.64 \Rightarrow c=384.84\).
+
+  Daí, como \(\bar{x} =\) \(384.52 < 384.84\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros esportivos, antes de liberá-los, testa seus
+  carros na pista de corrida para verificar se estão funcionando
+  perfeitamente, ou se precisam de ajustes. Uma das variáveis analisada
+  é a velocidade máxima dos carros, a qual supõe seguir uma distribuição
+  Normal com variância igual a \(5\) km\(^2\)/h\(^2\). A fábrica deseja
+  avaliar se a média das velocidades máximas de um certo modelo é de, no
+  mínimo, \(400\) km/h. Para tanto, \(11\) veículos foram testados na
+  pista, fornecendo uma média amostral de \(399.13\). A um nível de
+  significância de \(5\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=400\; \emph{vs. }  H_a: \mu \neq 400\). Há evidência de
+    que os carros precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=400\; \emph{vs. }  H_a: \bar{x}=399.13\). Há
+    evidência de que os carros precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=399.13\; \emph{vs. }  H_a: \bar{x}>399.13\). Há
+    evidência de que os carros não precisem de ajuste.
+  \item
+    \(H_0: \mu \geq400\; \emph{vs. }  H_a: \mu<400\). Não há evidência
+    de que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu \geq400\; \emph{vs. }  H_a: \mu<400\). Há evidência de
+    que os carros precisem de ajuste.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\geq400\)
+  \emph{vs.} \(H_a: \mu < 400\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=400)=P\left(Z<\frac{c-400}{\sqrt{5/11}}\right)=0.05\).
+
+  Portanto, \(\frac{c-400}{\sqrt{5/11}}=-1.64 \Rightarrow c=398.89\).
+
+  Daí, como \(\bar{x} =\) \(399.13 > 398.89\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros esportivos, antes de liberá-los, testa seus
+  carros na pista de corrida para verificar se estão funcionando
+  perfeitamente, ou se precisam de ajustes. Uma das variáveis analisada
+  é a velocidade máxima dos carros, a qual supõe seguir uma distribuição
+  Normal com variância igual a \(10\) km\(^2\)/h\(^2\). A fábrica deseja
+  avaliar se a média das velocidades máximas de um certo modelo é de, no
+  mínimo, \(416\) km/h. Para tanto, \(14\) veículos foram testados na
+  pista, fornecendo uma média amostral de \(414.23\). A um nível de
+  significância de \(5\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=416\; \emph{vs. }  H_a: \mu \neq 416\). Há evidência de
+    que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu \geq416\; \emph{vs. }  H_a: \mu<416\). Há evidência de
+    que os carros precisem de ajuste.
+  \item
+    \(H_0: \mu \geq416\; \emph{vs. }  H_a: \mu<416\). Não há evidência
+    de que os carros precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=414.23\; \emph{vs. }  H_a: \bar{x}>414.23\). Há
+    evidência de que os carros não precisem de ajuste.
+  \item
+    \(H_0: \bar{x}=416\; \emph{vs. }  H_a: \bar{x}=414.23\). Há
+    evidência de que os carros precisem de ajuste.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\geq416\)
+  \emph{vs.} \(H_a: \mu < 416\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=416)=P\left(Z<\frac{c-416}{\sqrt{10/14}}\right)=0.05\).
+
+  Portanto, \(\frac{c-416}{\sqrt{10/14}}=-1.64 \Rightarrow c=414.61\).
+
+  Daí, como \(\bar{x} =\) \(414.23 < 414.61\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

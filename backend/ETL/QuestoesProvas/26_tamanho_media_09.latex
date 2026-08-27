@@ -1,0 +1,474 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Os efeitos da maior crise hídrica da história do Distrito Federal
+  podem ser percebidos nas atitudes dos brasilienses em relação ao uso
+  da água. Deseja-se estimar qual é o consumo médio (por habitante, em
+  litros/dia) de água no DF. Em anos anteriores o desvio padrão do
+  consumo foi de \(3.7\) litros/dia de água, com distribuição Normal. Em
+  um levantamento por amostragem, qual deve ser o tamanho mínimo da
+  amostra de habitantes para que, com confiança de \(99\%\), a média
+  amostral não difira da média populacional por mais de \(1.41\)
+  litros/dia de água?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(29\)
+  \item
+    \(38\)
+  \item
+    \(12\)
+  \item
+    \(46\)
+  \item
+    \(55\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 3.7}{1.41} \right)^2=45.8358.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=46\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Os efeitos da maior crise hídrica da história do Distrito Federal
+  podem ser percebidos nas atitudes dos brasilienses em relação ao uso
+  da água. Deseja-se estimar qual é o consumo médio (por habitante, em
+  litros/dia) de água no DF. Em anos anteriores o desvio padrão do
+  consumo foi de \(2.9\) litros/dia de água, com distribuição Normal. Em
+  um levantamento por amostragem, qual deve ser o tamanho mínimo da
+  amostra de habitantes para que, com confiança de \(95\%\), a média
+  amostral não difira da média populacional por mais de \(1.73\)
+  litros/dia de água?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8\)
+  \item
+    \(14\)
+  \item
+    \(7\)
+  \item
+    \(3\)
+  \item
+    \(11\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 2.9}{1.73} \right)^2=10.7948.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=11\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Os efeitos da maior crise hídrica da história do Distrito Federal
+  podem ser percebidos nas atitudes dos brasilienses em relação ao uso
+  da água. Deseja-se estimar qual é o consumo médio (por habitante, em
+  litros/dia) de água no DF. Em anos anteriores o desvio padrão do
+  consumo foi de \(2.8\) litros/dia de água, com distribuição Normal. Em
+  um levantamento por amostragem, qual deve ser o tamanho mínimo da
+  amostra de habitantes para que, com confiança de \(97.5\%\), a média
+  amostral não difira da média populacional por mais de \(0.61\)
+  litros/dia de água?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(66\)
+  \item
+    \(106\)
+  \item
+    \(27\)
+  \item
+    \(81\)
+  \item
+    \(122\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então,
+  \[n \geq \left( \frac{2.24 \times 2.8}{0.61} \right)^2=105.7188.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=106\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Os efeitos da maior crise hídrica da história do Distrito Federal
+  podem ser percebidos nas atitudes dos brasilienses em relação ao uso
+  da água. Deseja-se estimar qual é o consumo médio (por habitante, em
+  litros/dia) de água no DF. Em anos anteriores o desvio padrão do
+  consumo foi de \(4.3\) litros/dia de água, com distribuição Normal. Em
+  um levantamento por amostragem, qual deve ser o tamanho mínimo da
+  amostra de habitantes para que, com confiança de \(95\%\), a média
+  amostral não difira da média populacional por mais de \(0.06\)
+  litros/dia de água?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4933\)
+  \item
+    \(19731\)
+  \item
+    \(12332\)
+  \item
+    \(21704\)
+  \item
+    \(13815\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 4.3}{0.06} \right)^2=19730.8844.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=19731\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Os efeitos da maior crise hídrica da história do Distrito Federal
+  podem ser percebidos nas atitudes dos brasilienses em relação ao uso
+  da água. Deseja-se estimar qual é o consumo médio (por habitante, em
+  litros/dia) de água no DF. Em anos anteriores o desvio padrão do
+  consumo foi de \(3.9\) litros/dia de água, com distribuição Normal. Em
+  um levantamento por amostragem, qual deve ser o tamanho mínimo da
+  amostra de habitantes para que, com confiança de \(97.5\%\), a média
+  amostral não difira da média populacional por mais de \(0.44\)
+  litros/dia de água?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(435\)
+  \item
+    \(99\)
+  \item
+    \(395\)
+  \item
+    \(302\)
+  \item
+    \(247\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então,
+  \[n \geq \left( \frac{2.24 \times 3.9}{0.44} \right)^2=394.203.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=395\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Os efeitos da maior crise hídrica da história do Distrito Federal
+  podem ser percebidos nas atitudes dos brasilienses em relação ao uso
+  da água. Deseja-se estimar qual é o consumo médio (por habitante, em
+  litros/dia) de água no DF. Em anos anteriores o desvio padrão do
+  consumo foi de \(2.8\) litros/dia de água, com distribuição Normal. Em
+  um levantamento por amostragem, qual deve ser o tamanho mínimo da
+  amostra de habitantes para que, com confiança de \(90\%\), a média
+  amostral não difira da média populacional por mais de \(0.25\)
+  litros/dia de água?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(206\)
+  \item
+    \(212\)
+  \item
+    \(406\)
+  \item
+    \(338\)
+  \item
+    \(85\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 2.8}{0.25} \right)^2=337.3834.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=338\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Os efeitos da maior crise hídrica da história do Distrito Federal
+  podem ser percebidos nas atitudes dos brasilienses em relação ao uso
+  da água. Deseja-se estimar qual é o consumo médio (por habitante, em
+  litros/dia) de água no DF. Em anos anteriores o desvio padrão do
+  consumo foi de \(3.5\) litros/dia de água, com distribuição Normal. Em
+  um levantamento por amostragem, qual deve ser o tamanho mínimo da
+  amostra de habitantes para que, com confiança de \(95\%\), a média
+  amostral não difira da média populacional por mais de \(0.52\)
+  litros/dia de água?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(193\)
+  \item
+    \(175\)
+  \item
+    \(44\)
+  \item
+    \(110\)
+  \item
+    \(122\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 3.5}{0.52} \right)^2=174.037.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=175\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Os efeitos da maior crise hídrica da história do Distrito Federal
+  podem ser percebidos nas atitudes dos brasilienses em relação ao uso
+  da água. Deseja-se estimar qual é o consumo médio (por habitante, em
+  litros/dia) de água no DF. Em anos anteriores o desvio padrão do
+  consumo foi de \(4.1\) litros/dia de água, com distribuição Normal. Em
+  um levantamento por amostragem, qual deve ser o tamanho mínimo da
+  amostra de habitantes para que, com confiança de \(90\%\), a média
+  amostral não difira da média populacional por mais de \(0.16\)
+  litros/dia de água?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(442\)
+  \item
+    \(1076\)
+  \item
+    \(1944\)
+  \item
+    \(1767\)
+  \item
+    \(1104\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 4.1}{0.16} \right)^2=1766.1006.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=1767\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Os efeitos da maior crise hídrica da história do Distrito Federal
+  podem ser percebidos nas atitudes dos brasilienses em relação ao uso
+  da água. Deseja-se estimar qual é o consumo médio (por habitante, em
+  litros/dia) de água no DF. Em anos anteriores o desvio padrão do
+  consumo foi de \(4.1\) litros/dia de água, com distribuição Normal. Em
+  um levantamento por amostragem, qual deve ser o tamanho mínimo da
+  amostra de habitantes para que, com confiança de \(99\%\), a média
+  amostral não difira da média populacional por mais de \(1.51\)
+  litros/dia de água?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(41\)
+  \item
+    \(57\)
+  \item
+    \(32\)
+  \item
+    \(50\)
+  \item
+    \(13\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 4.1}{1.51} \right)^2=49.0742.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=50\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Os efeitos da maior crise hídrica da história do Distrito Federal
+  podem ser percebidos nas atitudes dos brasilienses em relação ao uso
+  da água. Deseja-se estimar qual é o consumo médio (por habitante, em
+  litros/dia) de água no DF. Em anos anteriores o desvio padrão do
+  consumo foi de \(3.7\) litros/dia de água, com distribuição Normal. Em
+  um levantamento por amostragem, qual deve ser o tamanho mínimo da
+  amostra de habitantes para que, com confiança de \(90\%\), a média
+  amostral não difira da média populacional por mais de \(0.88\)
+  litros/dia de água?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(12\)
+  \item
+    \(55\)
+  \item
+    \(30\)
+  \item
+    \(48\)
+  \item
+    \(29\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 3.7}{0.88} \right)^2=47.5473.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=48\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

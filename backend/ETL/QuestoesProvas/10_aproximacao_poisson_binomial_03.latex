@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A chance de uma \emph{aposta simples} (onde escolhe-se 6 números)
+  ganhar a \emph{Mega Sena} é de uma em \(50063860\). A \emph{Mega Sena
+  da Virada} de 2017 arrecadou o equivalente a \(254556391\) apostas
+  simples. Nesse contexto, considerando que os números em cada aposta
+  tenham sido escolhidos de maneira aleatória (cada número com a mesma
+  probabilidade) e independente, qual era a probabilidade de que
+  exatamente \(2\) apostadores ganhassem o prêmio máximo (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.172\)
+  \item
+    \(0.736\)
+  \item
+    \(0.920\)
+  \item
+    \(0.264\)
+  \item
+    \(0.080\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vencedores tem distribuição binomial com parâmetros
+  \(254556391\) e \(1/50063860\), ou seja,
+  \(X \sim \text{Bin}(254556391, 1/50063860).\) Utilizando a aproximação
+  de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=5.085)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=2\), é dada por
+  \[P(X= 2 | X \sim \text{Bin}(254556391, 1/50063860)) \approx P(X= 2 | X \sim \text{Pois}(5.085)) = 8\%\].
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A chance de uma \emph{aposta simples} (onde escolhe-se 6 números)
+  ganhar a \emph{Mega Sena} é de uma em \(50063860\). A \emph{Mega Sena
+  da Virada} de 2017 arrecadou o equivalente a \(254556391\) apostas
+  simples. Nesse contexto, considerando que os números em cada aposta
+  tenham sido escolhidos de maneira aleatória (cada número com a mesma
+  probabilidade) e independente, qual era a probabilidade de que
+  exatamente \(3\) apostadores ganhassem o prêmio máximo (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.864\)
+  \item
+    \(0.238\)
+  \item
+    \(0.339\)
+  \item
+    \(0.136\)
+  \item
+    \(0.661\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vencedores tem distribuição binomial com parâmetros
+  \(254556391\) e \(1/50063860\), ou seja,
+  \(X \sim \text{Bin}(254556391, 1/50063860).\) Utilizando a aproximação
+  de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=5.085)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=3\), é dada por
+  \[P(X= 3 | X \sim \text{Bin}(254556391, 1/50063860)) \approx P(X= 3 | X \sim \text{Pois}(5.085)) = 13.6\%\].
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A chance de uma \emph{aposta simples} (onde escolhe-se 6 números)
+  ganhar a \emph{Mega Sena} é de uma em \(50063860\). A \emph{Mega Sena
+  da Virada} de 2017 arrecadou o equivalente a \(254556391\) apostas
+  simples. Nesse contexto, considerando que os números em cada aposta
+  tenham sido escolhidos de maneira aleatória (cada número com a mesma
+  probabilidade) e independente, qual era a probabilidade de que
+  exatamente \(6\) apostadores ganhassem o prêmio máximo (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.275\)
+  \item
+    \(0.402\)
+  \item
+    \(0.149\)
+  \item
+    \(0.598\)
+  \item
+    \(0.851\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vencedores tem distribuição binomial com parâmetros
+  \(254556391\) e \(1/50063860\), ou seja,
+  \(X \sim \text{Bin}(254556391, 1/50063860).\) Utilizando a aproximação
+  de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=5.085)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=6\), é dada por
+  \[P(X= 6 | X \sim \text{Bin}(254556391, 1/50063860)) \approx P(X= 6 | X \sim \text{Pois}(5.085)) = 14.9\%\].
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A chance de uma \emph{aposta simples} (onde escolhe-se 6 números)
+  ganhar a \emph{Mega Sena} é de uma em \(50063860\). A \emph{Mega Sena
+  da Virada} de 2017 arrecadou o equivalente a \(254556391\) apostas
+  simples. Nesse contexto, considerando que os números em cada aposta
+  tenham sido escolhidos de maneira aleatória (cada número com a mesma
+  probabilidade) e independente, qual era a probabilidade de que
+  exatamente \(5\) apostadores ganhassem o prêmio máximo (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.581\)
+  \item
+    \(0.825\)
+  \item
+    \(0.419\)
+  \item
+    \(0.175\)
+  \item
+    \(0.297\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vencedores tem distribuição binomial com parâmetros
+  \(254556391\) e \(1/50063860\), ou seja,
+  \(X \sim \text{Bin}(254556391, 1/50063860).\) Utilizando a aproximação
+  de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=5.085)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=5\), é dada por
+  \[P(X= 5 | X \sim \text{Bin}(254556391, 1/50063860)) \approx P(X= 5 | X \sim \text{Pois}(5.085)) = 17.5\%\].
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A chance de uma \emph{aposta simples} (onde escolhe-se 6 números)
+  ganhar a \emph{Mega Sena} é de uma em \(50063860\). A \emph{Mega Sena
+  da Virada} de 2017 arrecadou o equivalente a \(254556391\) apostas
+  simples. Nesse contexto, considerando que os números em cada aposta
+  tenham sido escolhidos de maneira aleatória (cada número com a mesma
+  probabilidade) e independente, qual era a probabilidade de que
+  exatamente \(2\) apostadores ganhassem o prêmio máximo (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.172\)
+  \item
+    \(0.920\)
+  \item
+    \(0.736\)
+  \item
+    \(0.080\)
+  \item
+    \(0.264\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vencedores tem distribuição binomial com parâmetros
+  \(254556391\) e \(1/50063860\), ou seja,
+  \(X \sim \text{Bin}(254556391, 1/50063860).\) Utilizando a aproximação
+  de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=5.085)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=2\), é dada por
+  \[P(X= 2 | X \sim \text{Bin}(254556391, 1/50063860)) \approx P(X= 2 | X \sim \text{Pois}(5.085)) = 8\%\].
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A chance de uma \emph{aposta simples} (onde escolhe-se 6 números)
+  ganhar a \emph{Mega Sena} é de uma em \(50063860\). A \emph{Mega Sena
+  da Virada} de 2017 arrecadou o equivalente a \(254556391\) apostas
+  simples. Nesse contexto, considerando que os números em cada aposta
+  tenham sido escolhidos de maneira aleatória (cada número com a mesma
+  probabilidade) e independente, qual era a probabilidade de que
+  exatamente \(4\) apostadores ganhassem o prêmio máximo (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.284\)
+  \item
+    \(0.172\)
+  \item
+    \(0.604\)
+  \item
+    \(0.396\)
+  \item
+    \(0.828\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vencedores tem distribuição binomial com parâmetros
+  \(254556391\) e \(1/50063860\), ou seja,
+  \(X \sim \text{Bin}(254556391, 1/50063860).\) Utilizando a aproximação
+  de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=5.085)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=4\), é dada por
+  \[P(X= 4 | X \sim \text{Bin}(254556391, 1/50063860)) \approx P(X= 4 | X \sim \text{Pois}(5.085)) = 17.2\%\].
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A chance de uma \emph{aposta simples} (onde escolhe-se 6 números)
+  ganhar a \emph{Mega Sena} é de uma em \(50063860\). A \emph{Mega Sena
+  da Virada} de 2017 arrecadou o equivalente a \(254556391\) apostas
+  simples. Nesse contexto, considerando que os números em cada aposta
+  tenham sido escolhidos de maneira aleatória (cada número com a mesma
+  probabilidade) e independente, qual era a probabilidade de que
+  exatamente \(5\) apostadores ganhassem o prêmio máximo (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.419\)
+  \item
+    \(0.175\)
+  \item
+    \(0.825\)
+  \item
+    \(0.581\)
+  \item
+    \(0.297\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vencedores tem distribuição binomial com parâmetros
+  \(254556391\) e \(1/50063860\), ou seja,
+  \(X \sim \text{Bin}(254556391, 1/50063860).\) Utilizando a aproximação
+  de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=5.085)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=5\), é dada por
+  \[P(X= 5 | X \sim \text{Bin}(254556391, 1/50063860)) \approx P(X= 5 | X \sim \text{Pois}(5.085)) = 17.5\%\].
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A chance de uma \emph{aposta simples} (onde escolhe-se 6 números)
+  ganhar a \emph{Mega Sena} é de uma em \(50063860\). A \emph{Mega Sena
+  da Virada} de 2017 arrecadou o equivalente a \(254556391\) apostas
+  simples. Nesse contexto, considerando que os números em cada aposta
+  tenham sido escolhidos de maneira aleatória (cada número com a mesma
+  probabilidade) e independente, qual era a probabilidade de que
+  exatamente \(5\) apostadores ganhassem o prêmio máximo (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.297\)
+  \item
+    \(0.419\)
+  \item
+    \(0.175\)
+  \item
+    \(0.825\)
+  \item
+    \(0.581\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vencedores tem distribuição binomial com parâmetros
+  \(254556391\) e \(1/50063860\), ou seja,
+  \(X \sim \text{Bin}(254556391, 1/50063860).\) Utilizando a aproximação
+  de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=5.085)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=5\), é dada por
+  \[P(X= 5 | X \sim \text{Bin}(254556391, 1/50063860)) \approx P(X= 5 | X \sim \text{Pois}(5.085)) = 17.5\%\].
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A chance de uma \emph{aposta simples} (onde escolhe-se 6 números)
+  ganhar a \emph{Mega Sena} é de uma em \(50063860\). A \emph{Mega Sena
+  da Virada} de 2017 arrecadou o equivalente a \(254556391\) apostas
+  simples. Nesse contexto, considerando que os números em cada aposta
+  tenham sido escolhidos de maneira aleatória (cada número com a mesma
+  probabilidade) e independente, qual era a probabilidade de que
+  exatamente \(4\) apostadores ganhassem o prêmio máximo (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.172\)
+  \item
+    \(0.284\)
+  \item
+    \(0.604\)
+  \item
+    \(0.828\)
+  \item
+    \(0.396\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vencedores tem distribuição binomial com parâmetros
+  \(254556391\) e \(1/50063860\), ou seja,
+  \(X \sim \text{Bin}(254556391, 1/50063860).\) Utilizando a aproximação
+  de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=5.085)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=4\), é dada por
+  \[P(X= 4 | X \sim \text{Bin}(254556391, 1/50063860)) \approx P(X= 4 | X \sim \text{Pois}(5.085)) = 17.2\%\].
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A chance de uma \emph{aposta simples} (onde escolhe-se 6 números)
+  ganhar a \emph{Mega Sena} é de uma em \(50063860\). A \emph{Mega Sena
+  da Virada} de 2017 arrecadou o equivalente a \(254556391\) apostas
+  simples. Nesse contexto, considerando que os números em cada aposta
+  tenham sido escolhidos de maneira aleatória (cada número com a mesma
+  probabilidade) e independente, qual era a probabilidade de que
+  exatamente \(5\) apostadores ganhassem o prêmio máximo (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.297\)
+  \item
+    \(0.419\)
+  \item
+    \(0.581\)
+  \item
+    \(0.175\)
+  \item
+    \(0.825\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vencedores tem distribuição binomial com parâmetros
+  \(254556391\) e \(1/50063860\), ou seja,
+  \(X \sim \text{Bin}(254556391, 1/50063860).\) Utilizando a aproximação
+  de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=5.085)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=5\), é dada por
+  \[P(X= 5 | X \sim \text{Bin}(254556391, 1/50063860)) \approx P(X= 5 | X \sim \text{Pois}(5.085)) = 17.5\%\].
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

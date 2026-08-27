@@ -1,0 +1,402 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco de questões tem \(10\) questões de Estatística e \(14\)
+  questões de probabilidade. Caso \(10\) questões sejam escolhidas do
+  banco aleatoriamente, sem reposição, qual a probabilidade de que uma
+  prova contenha \(7\) questões de Estatística e \(3\) questões de
+  probabilidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4167\)
+  \item
+    \(0.0223\)
+  \item
+    \(0.9143\)
+  \item
+    \(0.3600\)
+  \item
+    \(0.0002\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{{{10 \choose 7} \times {14 \choose 3}}}{{24 \choose 10}}
+  =0.0223.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco de questões tem \(11\) questões de Estatística e \(13\)
+  questões de probabilidade. Caso \(10\) questões sejam escolhidas do
+  banco aleatoriamente, sem reposição, qual a probabilidade de que uma
+  prova contenha \(3\) questões de Estatística e \(7\) questões de
+  probabilidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8112\)
+  \item
+    \(0.1444\)
+  \item
+    \(0.0010\)
+  \item
+    \(0.4167\)
+  \item
+    \(0.3524\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{{{11 \choose 3} \times {13 \choose 7}}}{{24 \choose 10}}
+  =0.1444.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco de questões tem \(11\) questões de Estatística e \(15\)
+  questões de probabilidade. Caso \(10\) questões sejam escolhidas do
+  banco aleatoriamente, sem reposição, qual a probabilidade de que uma
+  prova contenha \(4\) questões de Estatística e \(6\) questões de
+  probabilidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7636\)
+  \item
+    \(0.3782\)
+  \item
+    \(0.3846\)
+  \item
+    \(0.3109\)
+  \item
+    \(0.0010\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{{{11 \choose 4} \times {15 \choose 6}}}{{26 \choose 10}}
+  =0.3109.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco de questões tem \(12\) questões de Estatística e \(12\)
+  questões de probabilidade. Caso \(10\) questões sejam escolhidas do
+  banco aleatoriamente, sem reposição, qual a probabilidade de que uma
+  prova contenha \(4\) questões de Estatística e \(6\) questões de
+  probabilidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4167\)
+  \item
+    \(0.4000\)
+  \item
+    \(0.2332\)
+  \item
+    \(0.0007\)
+  \item
+    \(0.8333\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{{{12 \choose 4} \times {12 \choose 6}}}{{24 \choose 10}}
+  =0.2332.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco de questões tem \(15\) questões de Estatística e \(11\)
+  questões de probabilidade. Caso \(10\) questões sejam escolhidas do
+  banco aleatoriamente, sem reposição, qual a probabilidade de que uma
+  prova contenha \(5\) questões de Estatística e \(5\) questões de
+  probabilidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2612\)
+  \item
+    \(0.3846\)
+  \item
+    \(0.3939\)
+  \item
+    \(0.7879\)
+  \item
+    \(0.0007\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{{{15 \choose 5} \times {11 \choose 5}}}{{26 \choose 10}}
+  =0.2612.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco de questões tem \(10\) questões de Estatística e \(12\)
+  questões de probabilidade. Caso \(10\) questões sejam escolhidas do
+  banco aleatoriamente, sem reposição, qual a probabilidade de que uma
+  prova contenha \(3\) questões de Estatística e \(7\) questões de
+  probabilidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4545\)
+  \item
+    \(0.8833\)
+  \item
+    \(0.0014\)
+  \item
+    \(0.1470\)
+  \item
+    \(0.3850\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{{{10 \choose 3} \times {12 \choose 7}}}{{22 \choose 10}}
+  =0.147.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco de questões tem \(15\) questões de Estatística e \(11\)
+  questões de probabilidade. Caso \(10\) questões sejam escolhidas do
+  banco aleatoriamente, sem reposição, qual a probabilidade de que uma
+  prova contenha \(3\) questões de Estatística e \(7\) questões de
+  probabilidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8364\)
+  \item
+    \(0.3846\)
+  \item
+    \(0.0283\)
+  \item
+    \(0.3309\)
+  \item
+    \(0.0001\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{{{15 \choose 3} \times {11 \choose 7}}}{{26 \choose 10}}
+  =0.0283.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco de questões tem \(14\) questões de Estatística e \(10\)
+  questões de probabilidade. Caso \(10\) questões sejam escolhidas do
+  banco aleatoriamente, sem reposição, qual a probabilidade de que uma
+  prova contenha \(5\) questões de Estatística e \(5\) questões de
+  probabilidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0011\)
+  \item
+    \(0.4286\)
+  \item
+    \(0.4167\)
+  \item
+    \(0.2572\)
+  \item
+    \(0.8571\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{{{14 \choose 5} \times {10 \choose 5}}}{{24 \choose 10}}
+  =0.2572.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco de questões tem \(14\) questões de Estatística e \(12\)
+  questões de probabilidade. Caso \(10\) questões sejam escolhidas do
+  banco aleatoriamente, sem reposição, qual a probabilidade de que uma
+  prova contenha \(7\) questões de Estatística e \(3\) questões de
+  probabilidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1421\)
+  \item
+    \(0.3846\)
+  \item
+    \(0.0007\)
+  \item
+    \(0.3250\)
+  \item
+    \(0.7500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{{{14 \choose 7} \times {12 \choose 3}}}{{26 \choose 10}}
+  =0.1421.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco de questões tem \(12\) questões de Estatística e \(15\)
+  questões de probabilidade. Caso \(10\) questões sejam escolhidas do
+  banco aleatoriamente, sem reposição, qual a probabilidade de que uma
+  prova contenha \(7\) questões de Estatística e \(3\) questões de
+  probabilidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0001\)
+  \item
+    \(0.3150\)
+  \item
+    \(0.3704\)
+  \item
+    \(0.0427\)
+  \item
+    \(0.7833\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{{{12 \choose 7} \times {15 \choose 3}}}{{27 \choose 10}}
+  =0.0427.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

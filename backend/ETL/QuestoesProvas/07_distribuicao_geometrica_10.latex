@@ -1,0 +1,412 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um guepardo conseguir capturar uma presa em uma
+  caça é de 0.4. Um zoólogo quer estimar a quantidade \(X\) de
+  tentativas de que o guepardo precisa até que capture sua primeira
+  presa. Qual das distribuições de probabilidade seria adequada para
+  modelar a variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Geométrica(0.4)
+  \item
+    Poisson(0.4)
+  \item
+    Hipergeométrica(0.4)
+  \item
+    Binomial(n,0.4)
+  \item
+    Binomial(0.5, 0.4)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como queremos estimar determinada quantidade de eventos até que ocorra
+  o primeiro sucesso (primeira presa capturada), a distribuição de
+  probabilidade adequada para descrever o comportamento da variável
+  aleatória \(X\) é Geométrica(0.4).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um guepardo conseguir capturar uma presa em uma
+  caça é de 0.5. Um zoólogo quer estimar a quantidade \(X\) de
+  tentativas de que o guepardo precisa até que capture sua primeira
+  presa. Qual das distribuições de probabilidade seria adequada para
+  modelar a variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Binomial(0.5, 0.5)
+  \item
+    Hipergeométrica(0.5)
+  \item
+    Poisson(0.5)
+  \item
+    Geométrica(0.5)
+  \item
+    Binomial(n,0.5)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como queremos estimar determinada quantidade de eventos até que ocorra
+  o primeiro sucesso (primeira presa capturada), a distribuição de
+  probabilidade adequada para descrever o comportamento da variável
+  aleatória \(X\) é Geométrica(0.5).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um guepardo conseguir capturar uma presa em uma
+  caça é de 0.5. Um zoólogo quer estimar a quantidade \(X\) de
+  tentativas de que o guepardo precisa até que capture sua primeira
+  presa. Qual das distribuições de probabilidade seria adequada para
+  modelar a variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Binomial(n,0.5)
+  \item
+    Geométrica(0.5)
+  \item
+    Hipergeométrica(0.5)
+  \item
+    Binomial(0.5, 0.5)
+  \item
+    Poisson(0.5)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como queremos estimar determinada quantidade de eventos até que ocorra
+  o primeiro sucesso (primeira presa capturada), a distribuição de
+  probabilidade adequada para descrever o comportamento da variável
+  aleatória \(X\) é Geométrica(0.5).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um guepardo conseguir capturar uma presa em uma
+  caça é de 0.6. Um zoólogo quer estimar a quantidade \(X\) de
+  tentativas de que o guepardo precisa até que capture sua primeira
+  presa. Qual das distribuições de probabilidade seria adequada para
+  modelar a variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Poisson(0.6)
+  \item
+    Binomial(0.5, 0.6)
+  \item
+    Geométrica(0.6)
+  \item
+    Binomial(n,0.6)
+  \item
+    Hipergeométrica(0.6)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como queremos estimar determinada quantidade de eventos até que ocorra
+  o primeiro sucesso (primeira presa capturada), a distribuição de
+  probabilidade adequada para descrever o comportamento da variável
+  aleatória \(X\) é Geométrica(0.6).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um guepardo conseguir capturar uma presa em uma
+  caça é de 0.6. Um zoólogo quer estimar a quantidade \(X\) de
+  tentativas de que o guepardo precisa até que capture sua primeira
+  presa. Qual das distribuições de probabilidade seria adequada para
+  modelar a variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Binomial(n,0.6)
+  \item
+    Hipergeométrica(0.6)
+  \item
+    Binomial(0.5, 0.6)
+  \item
+    Geométrica(0.6)
+  \item
+    Poisson(0.6)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como queremos estimar determinada quantidade de eventos até que ocorra
+  o primeiro sucesso (primeira presa capturada), a distribuição de
+  probabilidade adequada para descrever o comportamento da variável
+  aleatória \(X\) é Geométrica(0.6).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um guepardo conseguir capturar uma presa em uma
+  caça é de 0.4. Um zoólogo quer estimar a quantidade \(X\) de
+  tentativas de que o guepardo precisa até que capture sua primeira
+  presa. Qual das distribuições de probabilidade seria adequada para
+  modelar a variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Binomial(0.5, 0.4)
+  \item
+    Hipergeométrica(0.4)
+  \item
+    Binomial(n,0.4)
+  \item
+    Poisson(0.4)
+  \item
+    Geométrica(0.4)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como queremos estimar determinada quantidade de eventos até que ocorra
+  o primeiro sucesso (primeira presa capturada), a distribuição de
+  probabilidade adequada para descrever o comportamento da variável
+  aleatória \(X\) é Geométrica(0.4).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um guepardo conseguir capturar uma presa em uma
+  caça é de 0.4. Um zoólogo quer estimar a quantidade \(X\) de
+  tentativas de que o guepardo precisa até que capture sua primeira
+  presa. Qual das distribuições de probabilidade seria adequada para
+  modelar a variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Geométrica(0.4)
+  \item
+    Binomial(n,0.4)
+  \item
+    Hipergeométrica(0.4)
+  \item
+    Binomial(0.5, 0.4)
+  \item
+    Poisson(0.4)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como queremos estimar determinada quantidade de eventos até que ocorra
+  o primeiro sucesso (primeira presa capturada), a distribuição de
+  probabilidade adequada para descrever o comportamento da variável
+  aleatória \(X\) é Geométrica(0.4).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um guepardo conseguir capturar uma presa em uma
+  caça é de 0.6. Um zoólogo quer estimar a quantidade \(X\) de
+  tentativas de que o guepardo precisa até que capture sua primeira
+  presa. Qual das distribuições de probabilidade seria adequada para
+  modelar a variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Poisson(0.6)
+  \item
+    Hipergeométrica(0.6)
+  \item
+    Binomial(n,0.6)
+  \item
+    Binomial(0.5, 0.6)
+  \item
+    Geométrica(0.6)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como queremos estimar determinada quantidade de eventos até que ocorra
+  o primeiro sucesso (primeira presa capturada), a distribuição de
+  probabilidade adequada para descrever o comportamento da variável
+  aleatória \(X\) é Geométrica(0.6).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um guepardo conseguir capturar uma presa em uma
+  caça é de 0.5. Um zoólogo quer estimar a quantidade \(X\) de
+  tentativas de que o guepardo precisa até que capture sua primeira
+  presa. Qual das distribuições de probabilidade seria adequada para
+  modelar a variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Hipergeométrica(0.5)
+  \item
+    Poisson(0.5)
+  \item
+    Binomial(0.5, 0.5)
+  \item
+    Geométrica(0.5)
+  \item
+    Binomial(n,0.5)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como queremos estimar determinada quantidade de eventos até que ocorra
+  o primeiro sucesso (primeira presa capturada), a distribuição de
+  probabilidade adequada para descrever o comportamento da variável
+  aleatória \(X\) é Geométrica(0.5).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um guepardo conseguir capturar uma presa em uma
+  caça é de 0.5. Um zoólogo quer estimar a quantidade \(X\) de
+  tentativas de que o guepardo precisa até que capture sua primeira
+  presa. Qual das distribuições de probabilidade seria adequada para
+  modelar a variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Binomial(0.5, 0.5)
+  \item
+    Geométrica(0.5)
+  \item
+    Hipergeométrica(0.5)
+  \item
+    Poisson(0.5)
+  \item
+    Binomial(n,0.5)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como queremos estimar determinada quantidade de eventos até que ocorra
+  o primeiro sucesso (primeira presa capturada), a distribuição de
+  probabilidade adequada para descrever o comportamento da variável
+  aleatória \(X\) é Geométrica(0.5).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

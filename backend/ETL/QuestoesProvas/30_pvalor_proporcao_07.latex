@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Na última década ocorreu uma explosão no acesso à internet nos
+  domicílios brasileiros. O aumento no Brasil se deve, em grande parte,
+  à ampliação da conexão por meio de celulares e outros dispositivos
+  móveis. Em 2018, o Governo Federal, buscando exaltar sua gestão,
+  sugeriu que ao menos 56\% dos domicílios do país tinham conexão. A fim
+  de testar tal hipótese, uma pesquisa selecionou uma amostra aleatória
+  simples de \(35\) domicílios no Brasil e constatou que 16 delas tinham
+  acesso à internet. Assinale a alternativa correspondente ao p-valor do
+  referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1093\)
+  \item
+    \(0.0875\)
+  \item
+    \(0.7927\)
+  \item
+    \(0.8907\)
+  \item
+    \(0.4453\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.56 \ \ versus \ \ H_a : p < 0.56.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.23\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.23) = 0.10935.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Na última década ocorreu uma explosão no acesso à internet nos
+  domicílios brasileiros. O aumento no Brasil se deve, em grande parte,
+  à ampliação da conexão por meio de celulares e outros dispositivos
+  móveis. Em 2018, o Governo Federal, buscando exaltar sua gestão,
+  sugeriu que ao menos 52\% dos domicílios do país tinham conexão. A fim
+  de testar tal hipótese, uma pesquisa selecionou uma amostra aleatória
+  simples de \(32\) domicílios no Brasil e constatou que 15 delas tinham
+  acesso à internet. Assinale a alternativa correspondente ao p-valor do
+  referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6399\)
+  \item
+    \(0.7190\)
+  \item
+    \(0.2248\)
+  \item
+    \(0.3595\)
+  \item
+    \(0.2810\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.52 \ \ versus \ \ H_a : p < 0.52.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.58\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.58) = 0.28096.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Na última década ocorreu uma explosão no acesso à internet nos
+  domicílios brasileiros. O aumento no Brasil se deve, em grande parte,
+  à ampliação da conexão por meio de celulares e outros dispositivos
+  móveis. Em 2018, o Governo Federal, buscando exaltar sua gestão,
+  sugeriu que ao menos 57\% dos domicílios do país tinham conexão. A fim
+  de testar tal hipótese, uma pesquisa selecionou uma amostra aleatória
+  simples de \(34\) domicílios no Brasil e constatou que 16 delas tinham
+  acesso à internet. Assinale a alternativa correspondente ao p-valor do
+  referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4395\)
+  \item
+    \(0.0968\)
+  \item
+    \(0.8790\)
+  \item
+    \(0.7823\)
+  \item
+    \(0.1210\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.57 \ \ versus \ \ H_a : p < 0.57.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.17\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.17) = 0.121.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Na última década ocorreu uma explosão no acesso à internet nos
+  domicílios brasileiros. O aumento no Brasil se deve, em grande parte,
+  à ampliação da conexão por meio de celulares e outros dispositivos
+  móveis. Em 2018, o Governo Federal, buscando exaltar sua gestão,
+  sugeriu que ao menos 58\% dos domicílios do país tinham conexão. A fim
+  de testar tal hipótese, uma pesquisa selecionou uma amostra aleatória
+  simples de \(34\) domicílios no Brasil e constatou que 16 delas tinham
+  acesso à internet. Assinale a alternativa correspondente ao p-valor do
+  referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4507\)
+  \item
+    \(0.8023\)
+  \item
+    \(0.0788\)
+  \item
+    \(0.0985\)
+  \item
+    \(0.9015\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.58 \ \ versus \ \ H_a : p < 0.58.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.29\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.29) = 0.09853.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Na última década ocorreu uma explosão no acesso à internet nos
+  domicílios brasileiros. O aumento no Brasil se deve, em grande parte,
+  à ampliação da conexão por meio de celulares e outros dispositivos
+  móveis. Em 2018, o Governo Federal, buscando exaltar sua gestão,
+  sugeriu que ao menos 58\% dos domicílios do país tinham conexão. A fim
+  de testar tal hipótese, uma pesquisa selecionou uma amostra aleatória
+  simples de \(33\) domicílios no Brasil e constatou que 16 delas tinham
+  acesso à internet. Assinale a alternativa correspondente ao p-valor do
+  referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1335\)
+  \item
+    \(0.1068\)
+  \item
+    \(0.7712\)
+  \item
+    \(0.4333\)
+  \item
+    \(0.8665\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.58 \ \ versus \ \ H_a : p < 0.58.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.11\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.11) = 0.1335.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Na última década ocorreu uma explosão no acesso à internet nos
+  domicílios brasileiros. O aumento no Brasil se deve, em grande parte,
+  à ampliação da conexão por meio de celulares e outros dispositivos
+  móveis. Em 2018, o Governo Federal, buscando exaltar sua gestão,
+  sugeriu que ao menos 52\% dos domicílios do país tinham conexão. A fim
+  de testar tal hipótese, uma pesquisa selecionou uma amostra aleatória
+  simples de \(35\) domicílios no Brasil e constatou que 16 delas tinham
+  acesso à internet. Assinale a alternativa correspondente ao p-valor do
+  referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6856\)
+  \item
+    \(0.2296\)
+  \item
+    \(0.7704\)
+  \item
+    \(0.3852\)
+  \item
+    \(0.1837\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.52 \ \ versus \ \ H_a : p < 0.52.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.74\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.74) = 0.22965.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Na última década ocorreu uma explosão no acesso à internet nos
+  domicílios brasileiros. O aumento no Brasil se deve, em grande parte,
+  à ampliação da conexão por meio de celulares e outros dispositivos
+  móveis. Em 2018, o Governo Federal, buscando exaltar sua gestão,
+  sugeriu que ao menos 50\% dos domicílios do país tinham conexão. A fim
+  de testar tal hipótese, uma pesquisa selecionou uma amostra aleatória
+  simples de \(36\) domicílios no Brasil e constatou que 16 delas tinham
+  acesso à internet. Assinale a alternativa correspondente ao p-valor do
+  referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3743\)
+  \item
+    \(0.2514\)
+  \item
+    \(0.6662\)
+  \item
+    \(0.7486\)
+  \item
+    \(0.2011\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.5 \ \ versus \ \ H_a : p < 0.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.67\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.67) = 0.25143.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Na última década ocorreu uma explosão no acesso à internet nos
+  domicílios brasileiros. O aumento no Brasil se deve, em grande parte,
+  à ampliação da conexão por meio de celulares e outros dispositivos
+  móveis. Em 2018, o Governo Federal, buscando exaltar sua gestão,
+  sugeriu que ao menos 54\% dos domicílios do país tinham conexão. A fim
+  de testar tal hipótese, uma pesquisa selecionou uma amostra aleatória
+  simples de \(30\) domicílios no Brasil e constatou que 14 delas tinham
+  acesso à internet. Assinale a alternativa correspondente ao p-valor do
+  referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7910\)
+  \item
+    \(0.1672\)
+  \item
+    \(0.3955\)
+  \item
+    \(0.2090\)
+  \item
+    \(0.7040\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.54 \ \ versus \ \ H_a : p < 0.54.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.81\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.81) = 0.20897.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Na última década ocorreu uma explosão no acesso à internet nos
+  domicílios brasileiros. O aumento no Brasil se deve, em grande parte,
+  à ampliação da conexão por meio de celulares e outros dispositivos
+  móveis. Em 2018, o Governo Federal, buscando exaltar sua gestão,
+  sugeriu que ao menos 52\% dos domicílios do país tinham conexão. A fim
+  de testar tal hipótese, uma pesquisa selecionou uma amostra aleatória
+  simples de \(40\) domicílios no Brasil e constatou que 17 delas tinham
+  acesso à internet. Assinale a alternativa correspondente ao p-valor do
+  referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4425\)
+  \item
+    \(0.8849\)
+  \item
+    \(0.7876\)
+  \item
+    \(0.1151\)
+  \item
+    \(0.0921\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.52 \ \ versus \ \ H_a : p < 0.52.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.2\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.2) = 0.11507.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Na última década ocorreu uma explosão no acesso à internet nos
+  domicílios brasileiros. O aumento no Brasil se deve, em grande parte,
+  à ampliação da conexão por meio de celulares e outros dispositivos
+  móveis. Em 2018, o Governo Federal, buscando exaltar sua gestão,
+  sugeriu que ao menos 58\% dos domicílios do país tinham conexão. A fim
+  de testar tal hipótese, uma pesquisa selecionou uma amostra aleatória
+  simples de \(34\) domicílios no Brasil e constatou que 16 delas tinham
+  acesso à internet. Assinale a alternativa correspondente ao p-valor do
+  referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8023\)
+  \item
+    \(0.0788\)
+  \item
+    \(0.9015\)
+  \item
+    \(0.4507\)
+  \item
+    \(0.0985\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.58 \ \ versus \ \ H_a : p < 0.58.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.29\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.29) = 0.09853.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

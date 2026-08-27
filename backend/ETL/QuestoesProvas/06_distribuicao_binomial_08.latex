@@ -1,0 +1,422 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de resultar em lucro um determinado tipo de
+  investimento na bolsa de valores é de \(0.47\). Se um investidor faz
+  \(121\) investimentos desse tipo, qual é o desvio padrão do número de
+  investimentos que resultam em lucro? (Considere cada investimento
+  independente dos demais).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(30.1411\)
+  \item
+    \(26.7289\)
+  \item
+    \(0.4700\)
+  \item
+    \(28.4350\)
+  \item
+    \(5.4901\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada investimento é independente do outro, a variável aleatória
+  \(X\) relativa ao número de investimentos resultantes em lucro possui
+  distribuição binomial de parâmetros \(n=121\) e \(p=0.47\). Desse
+  modo, o desvio padrão do número de investimentos lucrativos é
+  \[\sqrt{n\times p\times(1-p)}=5.4901.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de resultar em lucro um determinado tipo de
+  investimento na bolsa de valores é de \(0.3\). Se um investidor faz
+  \(142\) investimentos desse tipo, qual é o desvio padrão do número de
+  investimentos que resultam em lucro? (Considere cada investimento
+  independente dos demais).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(21.3000\)
+  \item
+    \(0.3000\)
+  \item
+    \(5.4608\)
+  \item
+    \(12.7800\)
+  \item
+    \(29.8200\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada investimento é independente do outro, a variável aleatória
+  \(X\) relativa ao número de investimentos resultantes em lucro possui
+  distribuição binomial de parâmetros \(n=142\) e \(p=0.3\). Desse modo,
+  o desvio padrão do número de investimentos lucrativos é
+  \[\sqrt{n\times p\times(1-p)}=5.4608.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de resultar em lucro um determinado tipo de
+  investimento na bolsa de valores é de \(0.36\). Se um investidor faz
+  \(146\) investimentos desse tipo, qual é o desvio padrão do número de
+  investimentos que resultam em lucro? (Considere cada investimento
+  independente dos demais).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5.7999\)
+  \item
+    \(33.6384\)
+  \item
+    \(26.2800\)
+  \item
+    \(18.9216\)
+  \item
+    \(0.3600\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada investimento é independente do outro, a variável aleatória
+  \(X\) relativa ao número de investimentos resultantes em lucro possui
+  distribuição binomial de parâmetros \(n=146\) e \(p=0.36\). Desse
+  modo, o desvio padrão do número de investimentos lucrativos é
+  \[\sqrt{n\times p\times(1-p)}=5.7999.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de resultar em lucro um determinado tipo de
+  investimento na bolsa de valores é de \(0.4\). Se um investidor faz
+  \(127\) investimentos desse tipo, qual é o desvio padrão do número de
+  investimentos que resultam em lucro? (Considere cada investimento
+  independente dos demais).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(25.4000\)
+  \item
+    \(5.5209\)
+  \item
+    \(0.4000\)
+  \item
+    \(30.4800\)
+  \item
+    \(20.3200\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada investimento é independente do outro, a variável aleatória
+  \(X\) relativa ao número de investimentos resultantes em lucro possui
+  distribuição binomial de parâmetros \(n=127\) e \(p=0.4\). Desse modo,
+  o desvio padrão do número de investimentos lucrativos é
+  \[\sqrt{n\times p\times(1-p)}=5.5209.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de resultar em lucro um determinado tipo de
+  investimento na bolsa de valores é de \(0.39\). Se um investidor faz
+  \(132\) investimentos desse tipo, qual é o desvio padrão do número de
+  investimentos que resultam em lucro? (Considere cada investimento
+  independente dos demais).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(25.7400\)
+  \item
+    \(5.6038\)
+  \item
+    \(20.0772\)
+  \item
+    \(31.4028\)
+  \item
+    \(0.3900\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada investimento é independente do outro, a variável aleatória
+  \(X\) relativa ao número de investimentos resultantes em lucro possui
+  distribuição binomial de parâmetros \(n=132\) e \(p=0.39\). Desse
+  modo, o desvio padrão do número de investimentos lucrativos é
+  \[\sqrt{n\times p\times(1-p)}=5.6038.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de resultar em lucro um determinado tipo de
+  investimento na bolsa de valores é de \(0.32\). Se um investidor faz
+  \(122\) investimentos desse tipo, qual é o desvio padrão do número de
+  investimentos que resultam em lucro? (Considere cada investimento
+  independente dos demais).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5.1524\)
+  \item
+    \(0.3200\)
+  \item
+    \(26.5472\)
+  \item
+    \(19.5200\)
+  \item
+    \(12.4928\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada investimento é independente do outro, a variável aleatória
+  \(X\) relativa ao número de investimentos resultantes em lucro possui
+  distribuição binomial de parâmetros \(n=122\) e \(p=0.32\). Desse
+  modo, o desvio padrão do número de investimentos lucrativos é
+  \[\sqrt{n\times p\times(1-p)}=5.1524.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de resultar em lucro um determinado tipo de
+  investimento na bolsa de valores é de \(0.49\). Se um investidor faz
+  \(139\) investimentos desse tipo, qual é o desvio padrão do número de
+  investimentos que resultam em lucro? (Considere cada investimento
+  independente dos demais).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(34.7361\)
+  \item
+    \(34.0550\)
+  \item
+    \(5.8937\)
+  \item
+    \(0.4900\)
+  \item
+    \(33.3739\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada investimento é independente do outro, a variável aleatória
+  \(X\) relativa ao número de investimentos resultantes em lucro possui
+  distribuição binomial de parâmetros \(n=139\) e \(p=0.49\). Desse
+  modo, o desvio padrão do número de investimentos lucrativos é
+  \[\sqrt{n\times p\times(1-p)}=5.8937.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de resultar em lucro um determinado tipo de
+  investimento na bolsa de valores é de \(0.43\). Se um investidor faz
+  \(128\) investimentos desse tipo, qual é o desvio padrão do número de
+  investimentos que resultam em lucro? (Considere cada investimento
+  independente dos demais).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5.6011\)
+  \item
+    \(31.3728\)
+  \item
+    \(0.4300\)
+  \item
+    \(23.6672\)
+  \item
+    \(27.5200\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada investimento é independente do outro, a variável aleatória
+  \(X\) relativa ao número de investimentos resultantes em lucro possui
+  distribuição binomial de parâmetros \(n=128\) e \(p=0.43\). Desse
+  modo, o desvio padrão do número de investimentos lucrativos é
+  \[\sqrt{n\times p\times(1-p)}=5.6011.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de resultar em lucro um determinado tipo de
+  investimento na bolsa de valores é de \(0.41\). Se um investidor faz
+  \(147\) investimentos desse tipo, qual é o desvio padrão do número de
+  investimentos que resultam em lucro? (Considere cada investimento
+  independente dos demais).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(30.1350\)
+  \item
+    \(24.7107\)
+  \item
+    \(5.9632\)
+  \item
+    \(0.4100\)
+  \item
+    \(35.5593\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada investimento é independente do outro, a variável aleatória
+  \(X\) relativa ao número de investimentos resultantes em lucro possui
+  distribuição binomial de parâmetros \(n=147\) e \(p=0.41\). Desse
+  modo, o desvio padrão do número de investimentos lucrativos é
+  \[\sqrt{n\times p\times(1-p)}=5.9632.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de resultar em lucro um determinado tipo de
+  investimento na bolsa de valores é de \(0.48\). Se um investidor faz
+  \(126\) investimentos desse tipo, qual é o desvio padrão do número de
+  investimentos que resultam em lucro? (Considere cada investimento
+  independente dos demais).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(29.0304\)
+  \item
+    \(5.6080\)
+  \item
+    \(31.4496\)
+  \item
+    \(0.4800\)
+  \item
+    \(30.2400\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada investimento é independente do outro, a variável aleatória
+  \(X\) relativa ao número de investimentos resultantes em lucro possui
+  distribuição binomial de parâmetros \(n=126\) e \(p=0.48\). Desse
+  modo, o desvio padrão do número de investimentos lucrativos é
+  \[\sqrt{n\times p\times(1-p)}=5.608.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

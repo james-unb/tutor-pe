@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O cano soldável para água fria mais utilizado no Brasil tem diâmetro
+  de 22mm. Distúrbios de fabricação resultam em diâmetros que seguem uma
+  variável aleatória X cuja função de distribuição acumulada é dada por
+  \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<22, \\
+          1-e^{-2(x-22)},  &  x \geq 22.
+        \end{array}
+      \right.
+  \end{aligned}\] Considerando que as peças com diâmetros maiores que
+  24mm são descartadas, qual é a proporção de peças descartadas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.998\)
+  \item
+    \(0.220\)
+  \item
+    \(0.982\)
+  \item
+    \(0.002\)
+  \item
+    \(0.018\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(X>24) = 1-P(X\leq 24) = 1-F(24) = 0.018.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cano soldável para água fria mais utilizado no Brasil tem diâmetro
+  de 22mm. Distúrbios de fabricação resultam em diâmetros que seguem uma
+  variável aleatória X cuja função de distribuição acumulada é dada por
+  \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<20, \\
+          1-e^{-2(x-20)},  &  x \geq 20.
+        \end{array}
+      \right.
+  \end{aligned}\] Considerando que as peças com diâmetros maiores que
+  23mm são descartadas, qual é a proporção de peças descartadas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.000\)
+  \item
+    \(0.002\)
+  \item
+    \(0.200\)
+  \item
+    \(0.998\)
+  \item
+    \(0.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(X>23) = 1-P(X\leq 23) = 1-F(23) = 0.002.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cano soldável para água fria mais utilizado no Brasil tem diâmetro
+  de 22mm. Distúrbios de fabricação resultam em diâmetros que seguem uma
+  variável aleatória X cuja função de distribuição acumulada é dada por
+  \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<21, \\
+          1-e^{-2(x-21)},  &  x \geq 21.
+        \end{array}
+      \right.
+  \end{aligned}\] Considerando que as peças com diâmetros maiores que
+  23mm são descartadas, qual é a proporção de peças descartadas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.982\)
+  \item
+    \(0.018\)
+  \item
+    \(0.998\)
+  \item
+    \(0.002\)
+  \item
+    \(0.210\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(X>23) = 1-P(X\leq 23) = 1-F(23) = 0.018.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cano soldável para água fria mais utilizado no Brasil tem diâmetro
+  de 22mm. Distúrbios de fabricação resultam em diâmetros que seguem uma
+  variável aleatória X cuja função de distribuição acumulada é dada por
+  \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<20, \\
+          1-e^{-2(x-20)},  &  x \geq 20.
+        \end{array}
+      \right.
+  \end{aligned}\] Considerando que as peças com diâmetros maiores que
+  23mm são descartadas, qual é a proporção de peças descartadas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.998\)
+  \item
+    \(0.002\)
+  \item
+    \(0.000\)
+  \item
+    \(1.000\)
+  \item
+    \(0.200\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(X>23) = 1-P(X\leq 23) = 1-F(23) = 0.002.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cano soldável para água fria mais utilizado no Brasil tem diâmetro
+  de 22mm. Distúrbios de fabricação resultam em diâmetros que seguem uma
+  variável aleatória X cuja função de distribuição acumulada é dada por
+  \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<22, \\
+          1-e^{-2(x-22)},  &  x \geq 22.
+        \end{array}
+      \right.
+  \end{aligned}\] Considerando que as peças com diâmetros maiores que
+  24mm são descartadas, qual é a proporção de peças descartadas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.002\)
+  \item
+    \(0.982\)
+  \item
+    \(0.220\)
+  \item
+    \(0.998\)
+  \item
+    \(0.018\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(X>24) = 1-P(X\leq 24) = 1-F(24) = 0.018.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cano soldável para água fria mais utilizado no Brasil tem diâmetro
+  de 22mm. Distúrbios de fabricação resultam em diâmetros que seguem uma
+  variável aleatória X cuja função de distribuição acumulada é dada por
+  \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<20, \\
+          1-e^{-2(x-20)},  &  x \geq 20.
+        \end{array}
+      \right.
+  \end{aligned}\] Considerando que as peças com diâmetros maiores que
+  23mm são descartadas, qual é a proporção de peças descartadas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.200\)
+  \item
+    \(0.000\)
+  \item
+    \(1.000\)
+  \item
+    \(0.998\)
+  \item
+    \(0.002\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(X>23) = 1-P(X\leq 23) = 1-F(23) = 0.002.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cano soldável para água fria mais utilizado no Brasil tem diâmetro
+  de 22mm. Distúrbios de fabricação resultam em diâmetros que seguem uma
+  variável aleatória X cuja função de distribuição acumulada é dada por
+  \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<21, \\
+          1-e^{-2(x-21)},  &  x \geq 21.
+        \end{array}
+      \right.
+  \end{aligned}\] Considerando que as peças com diâmetros maiores que
+  24mm são descartadas, qual é a proporção de peças descartadas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.000\)
+  \item
+    \(0.998\)
+  \item
+    \(0.210\)
+  \item
+    \(0.002\)
+  \item
+    \(0.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(X>24) = 1-P(X\leq 24) = 1-F(24) = 0.002.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cano soldável para água fria mais utilizado no Brasil tem diâmetro
+  de 22mm. Distúrbios de fabricação resultam em diâmetros que seguem uma
+  variável aleatória X cuja função de distribuição acumulada é dada por
+  \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<22, \\
+          1-e^{-2(x-22)},  &  x \geq 22.
+        \end{array}
+      \right.
+  \end{aligned}\] Considerando que as peças com diâmetros maiores que
+  24mm são descartadas, qual é a proporção de peças descartadas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.998\)
+  \item
+    \(0.982\)
+  \item
+    \(0.220\)
+  \item
+    \(0.018\)
+  \item
+    \(0.002\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(X>24) = 1-P(X\leq 24) = 1-F(24) = 0.018.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cano soldável para água fria mais utilizado no Brasil tem diâmetro
+  de 22mm. Distúrbios de fabricação resultam em diâmetros que seguem uma
+  variável aleatória X cuja função de distribuição acumulada é dada por
+  \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<22, \\
+          1-e^{-2(x-22)},  &  x \geq 22.
+        \end{array}
+      \right.
+  \end{aligned}\] Considerando que as peças com diâmetros maiores que
+  24mm são descartadas, qual é a proporção de peças descartadas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.018\)
+  \item
+    \(0.982\)
+  \item
+    \(0.002\)
+  \item
+    \(0.998\)
+  \item
+    \(0.220\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(X>24) = 1-P(X\leq 24) = 1-F(24) = 0.018.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cano soldável para água fria mais utilizado no Brasil tem diâmetro
+  de 22mm. Distúrbios de fabricação resultam em diâmetros que seguem uma
+  variável aleatória X cuja função de distribuição acumulada é dada por
+  \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<22, \\
+          1-e^{-2(x-22)},  &  x \geq 22.
+        \end{array}
+      \right.
+  \end{aligned}\] Considerando que as peças com diâmetros maiores que
+  24mm são descartadas, qual é a proporção de peças descartadas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.002\)
+  \item
+    \(0.220\)
+  \item
+    \(0.998\)
+  \item
+    \(0.018\)
+  \item
+    \(0.982\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(X>24) = 1-P(X\leq 24) = 1-F(24) = 0.018.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

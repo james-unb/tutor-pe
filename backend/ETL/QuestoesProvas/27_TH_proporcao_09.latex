@@ -1,0 +1,492 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Mesmo diante da exigência, prevista em lei, de percentual mínimo de
+  candidatas mulheres a cargos eletivos no Brasil, suspeita-se que a
+  proporção de mulheres entre os candidatos não aumentou nas últimas
+  eleições. A partir de uma amostra aleatória simples de candidatos, um
+  pesquisador conduziu um teste de hipótese para avaliar se as mulheres
+  representam menos de 30\% da lista de candidatos. Foi encontrado um
+  p-valor igual a \(0.09\). Dessa forma, ao nível de significância de
+  \(7\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. A proporção de candidatas mulheres é
+    inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Não há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a proporção
+    de candidatas mulheres seja inferior a 30
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 30\%\) \emph{vs.} \(H_a: p < 30\%\).
+
+  Como p-valor = 0.09 \textgreater{} 0.07, não rejeitamos \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Mesmo diante da exigência, prevista em lei, de percentual mínimo de
+  candidatas mulheres a cargos eletivos no Brasil, suspeita-se que a
+  proporção de mulheres entre os candidatos não aumentou nas últimas
+  eleições. A partir de uma amostra aleatória simples de candidatos, um
+  pesquisador conduziu um teste de hipótese para avaliar se as mulheres
+  representam menos de 30\% da lista de candidatos. Foi encontrado um
+  p-valor igual a \(0.03\). Dessa forma, ao nível de significância de
+  \(2\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. A proporção de candidatas mulheres é
+    inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a proporção
+    de candidatas mulheres seja inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Não há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 30\%\) \emph{vs.} \(H_a: p < 30\%\).
+
+  Como p-valor = 0.03 \textgreater{} 0.02, não rejeitamos \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Mesmo diante da exigência, prevista em lei, de percentual mínimo de
+  candidatas mulheres a cargos eletivos no Brasil, suspeita-se que a
+  proporção de mulheres entre os candidatos não aumentou nas últimas
+  eleições. A partir de uma amostra aleatória simples de candidatos, um
+  pesquisador conduziu um teste de hipótese para avaliar se as mulheres
+  representam menos de 30\% da lista de candidatos. Foi encontrado um
+  p-valor igual a \(0.07\). Dessa forma, ao nível de significância de
+  \(2\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a proporção
+    de candidatas mulheres seja inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Não há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. A proporção de candidatas mulheres é
+    inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 30\%\) \emph{vs.} \(H_a: p < 30\%\).
+
+  Como p-valor = 0.07 \textgreater{} 0.02, não rejeitamos \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Mesmo diante da exigência, prevista em lei, de percentual mínimo de
+  candidatas mulheres a cargos eletivos no Brasil, suspeita-se que a
+  proporção de mulheres entre os candidatos não aumentou nas últimas
+  eleições. A partir de uma amostra aleatória simples de candidatos, um
+  pesquisador conduziu um teste de hipótese para avaliar se as mulheres
+  representam menos de 30\% da lista de candidatos. Foi encontrado um
+  p-valor igual a \(0.04\). Dessa forma, ao nível de significância de
+  \(6\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Não há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a proporção
+    de candidatas mulheres seja inferior a 30
+  \item
+    Não se rejeita a hipótese nula. A proporção de candidatas mulheres é
+    inferior a 30
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 30\%\) \emph{vs.} \(H_a: p < 30\%\).
+
+  Como p-valor = 0.04 \textless{} 0.06, rejeitamos \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Mesmo diante da exigência, prevista em lei, de percentual mínimo de
+  candidatas mulheres a cargos eletivos no Brasil, suspeita-se que a
+  proporção de mulheres entre os candidatos não aumentou nas últimas
+  eleições. A partir de uma amostra aleatória simples de candidatos, um
+  pesquisador conduziu um teste de hipótese para avaliar se as mulheres
+  representam menos de 30\% da lista de candidatos. Foi encontrado um
+  p-valor igual a \(0.05\). Dessa forma, ao nível de significância de
+  \(2\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. A proporção de candidatas mulheres é
+    inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a proporção
+    de candidatas mulheres seja inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Não há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 30\%\) \emph{vs.} \(H_a: p < 30\%\).
+
+  Como p-valor = 0.05 \textgreater{} 0.02, não rejeitamos \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Mesmo diante da exigência, prevista em lei, de percentual mínimo de
+  candidatas mulheres a cargos eletivos no Brasil, suspeita-se que a
+  proporção de mulheres entre os candidatos não aumentou nas últimas
+  eleições. A partir de uma amostra aleatória simples de candidatos, um
+  pesquisador conduziu um teste de hipótese para avaliar se as mulheres
+  representam menos de 30\% da lista de candidatos. Foi encontrado um
+  p-valor igual a \(0.02\). Dessa forma, ao nível de significância de
+  \(4\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Não há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a proporção
+    de candidatas mulheres seja inferior a 30
+  \item
+    Não se rejeita a hipótese nula. A proporção de candidatas mulheres é
+    inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 30\%\) \emph{vs.} \(H_a: p < 30\%\).
+
+  Como p-valor = 0.02 \textless{} 0.04, rejeitamos \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Mesmo diante da exigência, prevista em lei, de percentual mínimo de
+  candidatas mulheres a cargos eletivos no Brasil, suspeita-se que a
+  proporção de mulheres entre os candidatos não aumentou nas últimas
+  eleições. A partir de uma amostra aleatória simples de candidatos, um
+  pesquisador conduziu um teste de hipótese para avaliar se as mulheres
+  representam menos de 30\% da lista de candidatos. Foi encontrado um
+  p-valor igual a \(0.02\). Dessa forma, ao nível de significância de
+  \(9\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. A proporção de candidatas mulheres é
+    inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a proporção
+    de candidatas mulheres seja inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Não há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 30\%\) \emph{vs.} \(H_a: p < 30\%\).
+
+  Como p-valor = 0.02 \textless{} 0.09, rejeitamos \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Mesmo diante da exigência, prevista em lei, de percentual mínimo de
+  candidatas mulheres a cargos eletivos no Brasil, suspeita-se que a
+  proporção de mulheres entre os candidatos não aumentou nas últimas
+  eleições. A partir de uma amostra aleatória simples de candidatos, um
+  pesquisador conduziu um teste de hipótese para avaliar se as mulheres
+  representam menos de 30\% da lista de candidatos. Foi encontrado um
+  p-valor igual a \(0.07\). Dessa forma, ao nível de significância de
+  \(6\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. A proporção de candidatas mulheres é
+    inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Não há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a proporção
+    de candidatas mulheres seja inferior a 30
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 30\%\) \emph{vs.} \(H_a: p < 30\%\).
+
+  Como p-valor = 0.07 \textgreater{} 0.06, não rejeitamos \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Mesmo diante da exigência, prevista em lei, de percentual mínimo de
+  candidatas mulheres a cargos eletivos no Brasil, suspeita-se que a
+  proporção de mulheres entre os candidatos não aumentou nas últimas
+  eleições. A partir de uma amostra aleatória simples de candidatos, um
+  pesquisador conduziu um teste de hipótese para avaliar se as mulheres
+  representam menos de 30\% da lista de candidatos. Foi encontrado um
+  p-valor igual a \(0.02\). Dessa forma, ao nível de significância de
+  \(6\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. A proporção de candidatas mulheres é
+    inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a proporção
+    de candidatas mulheres seja inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Não há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 30\%\) \emph{vs.} \(H_a: p < 30\%\).
+
+  Como p-valor = 0.02 \textless{} 0.06, rejeitamos \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Mesmo diante da exigência, prevista em lei, de percentual mínimo de
+  candidatas mulheres a cargos eletivos no Brasil, suspeita-se que a
+  proporção de mulheres entre os candidatos não aumentou nas últimas
+  eleições. A partir de uma amostra aleatória simples de candidatos, um
+  pesquisador conduziu um teste de hipótese para avaliar se as mulheres
+  representam menos de 30\% da lista de candidatos. Foi encontrado um
+  p-valor igual a \(0.06\). Dessa forma, ao nível de significância de
+  \(5\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a proporção
+    de candidatas mulheres seja inferior a 30
+  \item
+    Não se rejeita a hipótese nula. A proporção de candidatas mulheres é
+    inferior a 30
+  \item
+    Rejeita-se a hipótese nula. Não há evidência de que a proporção de
+    candidatas mulheres é inferior a 30
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 30\%\) \emph{vs.} \(H_a: p < 30\%\).
+
+  Como p-valor = 0.06 \textgreater{} 0.05, não rejeitamos \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

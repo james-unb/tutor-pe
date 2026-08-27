@@ -1,0 +1,562 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de seguros analisou a frequência com que 2000 segurados,
+  924 homens e 1076 mulheres, usaram o hospital. Sabe-se que 394
+  mulheres utilizaram os serviços do hospital e 480 homens, não. Qual a
+  probabilidade de que um segurado, selecionado ao acaso, seja mulher ou
+  tenha usado um hospital?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.760\)
+  \item
+    \(0.197\)
+  \item
+    \(0.419\)
+  \item
+    \(0.563\)
+  \item
+    \(0.225\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere a tabela abaixo:\\
+  \strut \\
+
+  \begin{longtable}[]{@{}lll@{}}
+  \toprule\noalign{}
+  & & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & 444 & 394 \\
+  & 480 & 682 \\
+  \end{longtable}
+
+  \hfill\break
+  \hfill\break
+  A probabilidade de que uma pessoa segurada utilizar o hospital ou ser
+  mulher é dada por
+  \[P(S \cup M) = P(S) + P(M) - P(S \cap M) = \frac{1076}{2000} + \frac{838}{2000} - \frac{394}{2000}  = 0.76\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de seguros analisou a frequência com que 2000 segurados,
+  1342 homens e 658 mulheres, usaram o hospital. Sabe-se que 325
+  mulheres utilizaram os serviços do hospital e 640 homens, não. Qual a
+  probabilidade de que um segurado, selecionado ao acaso, seja mulher ou
+  tenha usado um hospital?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.163\)
+  \item
+    \(0.680\)
+  \item
+    \(0.169\)
+  \item
+    \(0.518\)
+  \item
+    \(0.514\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere a tabela abaixo:\\
+  \strut \\
+
+  \begin{longtable}[]{@{}lll@{}}
+  \toprule\noalign{}
+  & & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & 702 & 325 \\
+  & 640 & 333 \\
+  \end{longtable}
+
+  \hfill\break
+  \hfill\break
+  A probabilidade de que uma pessoa segurada utilizar o hospital ou ser
+  mulher é dada por
+  \[P(S \cup M) = P(S) + P(M) - P(S \cap M) = \frac{658}{2000} + \frac{1027}{2000} - \frac{325}{2000}  = 0.68\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de seguros analisou a frequência com que 2000 segurados,
+  1338 homens e 662 mulheres, usaram o hospital. Sabe-se que 521
+  mulheres utilizaram os serviços do hospital e 1119 homens, não. Qual a
+  probabilidade de que um segurado, selecionado ao acaso, seja mulher ou
+  tenha usado um hospital?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.122\)
+  \item
+    \(0.370\)
+  \item
+    \(0.261\)
+  \item
+    \(0.441\)
+  \item
+    \(0.180\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere a tabela abaixo:\\
+  \strut \\
+
+  \begin{longtable}[]{@{}lll@{}}
+  \toprule\noalign{}
+  & & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & 219 & 521 \\
+  & 1119 & 141 \\
+  \end{longtable}
+
+  \hfill\break
+  \hfill\break
+  A probabilidade de que uma pessoa segurada utilizar o hospital ou ser
+  mulher é dada por
+  \[P(S \cup M) = P(S) + P(M) - P(S \cap M) = \frac{662}{2000} + \frac{740}{2000} - \frac{521}{2000}  = 0.441\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de seguros analisou a frequência com que 2000 segurados,
+  803 homens e 1197 mulheres, usaram o hospital. Sabe-se que 934
+  mulheres utilizaram os serviços do hospital e 420 homens, não. Qual a
+  probabilidade de que um segurado, selecionado ao acaso, seja mulher ou
+  tenha usado um hospital?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.467\)
+  \item
+    \(0.790\)
+  \item
+    \(0.659\)
+  \item
+    \(0.394\)
+  \item
+    \(0.323\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere a tabela abaixo:\\
+  \strut \\
+
+  \begin{longtable}[]{@{}lll@{}}
+  \toprule\noalign{}
+  & & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & 383 & 934 \\
+  & 420 & 263 \\
+  \end{longtable}
+
+  \hfill\break
+  \hfill\break
+  A probabilidade de que uma pessoa segurada utilizar o hospital ou ser
+  mulher é dada por
+  \[P(S \cup M) = P(S) + P(M) - P(S \cap M) = \frac{1197}{2000} + \frac{1317}{2000} - \frac{934}{2000}  = 0.79\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de seguros analisou a frequência com que 2000 segurados,
+  1063 homens e 937 mulheres, usaram o hospital. Sabe-se que 877
+  mulheres utilizaram os serviços do hospital e 855 homens, não. Qual a
+  probabilidade de que um segurado, selecionado ao acaso, seja mulher ou
+  tenha usado um hospital?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.439\)
+  \item
+    \(0.573\)
+  \item
+    \(0.254\)
+  \item
+    \(0.543\)
+  \item
+    \(0.134\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere a tabela abaixo:\\
+  \strut \\
+
+  \begin{longtable}[]{@{}lll@{}}
+  \toprule\noalign{}
+  & & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & 208 & 877 \\
+  & 855 & 60 \\
+  \end{longtable}
+
+  \hfill\break
+  \hfill\break
+  A probabilidade de que uma pessoa segurada utilizar o hospital ou ser
+  mulher é dada por
+  \[P(S \cup M) = P(S) + P(M) - P(S \cap M) = \frac{937}{2000} + \frac{1085}{2000} - \frac{877}{2000}  = 0.573\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de seguros analisou a frequência com que 2000 segurados,
+  960 homens e 1040 mulheres, usaram o hospital. Sabe-se que 672
+  mulheres utilizaram os serviços do hospital e 792 homens, não. Qual a
+  probabilidade de que um segurado, selecionado ao acaso, seja mulher ou
+  tenha usado um hospital?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.336\)
+  \item
+    \(0.268\)
+  \item
+    \(0.420\)
+  \item
+    \(0.604\)
+  \item
+    \(0.218\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere a tabela abaixo:\\
+  \strut \\
+
+  \begin{longtable}[]{@{}lll@{}}
+  \toprule\noalign{}
+  & & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & 168 & 672 \\
+  & 792 & 368 \\
+  \end{longtable}
+
+  \hfill\break
+  \hfill\break
+  A probabilidade de que uma pessoa segurada utilizar o hospital ou ser
+  mulher é dada por
+  \[P(S \cup M) = P(S) + P(M) - P(S \cap M) = \frac{1040}{2000} + \frac{840}{2000} - \frac{672}{2000}  = 0.604\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de seguros analisou a frequência com que 2000 segurados,
+  1182 homens e 818 mulheres, usaram o hospital. Sabe-se que 502
+  mulheres utilizaram os serviços do hospital e 679 homens, não. Qual a
+  probabilidade de que um segurado, selecionado ao acaso, seja mulher ou
+  tenha usado um hospital?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.251\)
+  \item
+    \(0.661\)
+  \item
+    \(0.410\)
+  \item
+    \(0.503\)
+  \item
+    \(0.206\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere a tabela abaixo:\\
+  \strut \\
+
+  \begin{longtable}[]{@{}lll@{}}
+  \toprule\noalign{}
+  & & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & 503 & 502 \\
+  & 679 & 316 \\
+  \end{longtable}
+
+  \hfill\break
+  \hfill\break
+  A probabilidade de que uma pessoa segurada utilizar o hospital ou ser
+  mulher é dada por
+  \[P(S \cup M) = P(S) + P(M) - P(S \cap M) = \frac{818}{2000} + \frac{1005}{2000} - \frac{502}{2000}  = 0.66\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de seguros analisou a frequência com que 2000 segurados,
+  669 homens e 1331 mulheres, usaram o hospital. Sabe-se que 877
+  mulheres utilizaram os serviços do hospital e 171 homens, não. Qual a
+  probabilidade de que um segurado, selecionado ao acaso, seja mulher ou
+  tenha usado um hospital?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.915\)
+  \item
+    \(0.476\)
+  \item
+    \(0.439\)
+  \item
+    \(0.688\)
+  \item
+    \(0.458\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere a tabela abaixo:\\
+  \strut \\
+
+  \begin{longtable}[]{@{}lll@{}}
+  \toprule\noalign{}
+  & & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & 498 & 877 \\
+  & 171 & 454 \\
+  \end{longtable}
+
+  \hfill\break
+  \hfill\break
+  A probabilidade de que uma pessoa segurada utilizar o hospital ou ser
+  mulher é dada por
+  \[P(S \cup M) = P(S) + P(M) - P(S \cap M) = \frac{1331}{2000} + \frac{1375}{2000} - \frac{877}{2000}  = 0.914\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de seguros analisou a frequência com que 2000 segurados,
+  917 homens e 1083 mulheres, usaram o hospital. Sabe-se que 832
+  mulheres utilizaram os serviços do hospital e 745 homens, não. Qual a
+  probabilidade de que um segurado, selecionado ao acaso, seja mulher ou
+  tenha usado um hospital?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.628\)
+  \item
+    \(0.212\)
+  \item
+    \(0.502\)
+  \item
+    \(0.416\)
+  \item
+    \(0.272\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere a tabela abaixo:\\
+  \strut \\
+
+  \begin{longtable}[]{@{}lll@{}}
+  \toprule\noalign{}
+  & & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & 172 & 832 \\
+  & 745 & 251 \\
+  \end{longtable}
+
+  \hfill\break
+  \hfill\break
+  A probabilidade de que uma pessoa segurada utilizar o hospital ou ser
+  mulher é dada por
+  \[P(S \cup M) = P(S) + P(M) - P(S \cap M) = \frac{1083}{2000} + \frac{1004}{2000} - \frac{832}{2000}  = 0.627\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de seguros analisou a frequência com que 2000 segurados,
+  1411 homens e 589 mulheres, usaram o hospital. Sabe-se que 235
+  mulheres utilizaram os serviços do hospital e 626 homens, não. Qual a
+  probabilidade de que um segurado, selecionado ao acaso, seja mulher ou
+  tenha usado um hospital?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.150\)
+  \item
+    \(0.118\)
+  \item
+    \(0.687\)
+  \item
+    \(0.510\)
+  \item
+    \(0.570\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere a tabela abaixo:\\
+  \strut \\
+
+  \begin{longtable}[]{@{}lll@{}}
+  \toprule\noalign{}
+  & & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & 785 & 235 \\
+  & 626 & 354 \\
+  \end{longtable}
+
+  \hfill\break
+  \hfill\break
+  A probabilidade de que uma pessoa segurada utilizar o hospital ou ser
+  mulher é dada por
+  \[P(S \cup M) = P(S) + P(M) - P(S \cap M) = \frac{589}{2000} + \frac{1020}{2000} - \frac{235}{2000}  = 0.687\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

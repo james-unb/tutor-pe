@@ -1,0 +1,54 @@
+@use '../styles/variables' as *;
+
+.layout {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-color: $bg-primary;
+    width: 100%;
+
+    &__content {
+        flex: 1;
+        margin-left: 280px; // Sidebar width
+        padding: $spacing-xl;
+        width: calc(100% - 280px); // Ensure content takes remaining width
+        overflow-y: auto;
+        transition: margin-left 0.3s ease, width 0.3s ease;
+
+        @media (max-width: 768px) {
+            margin-left: 0;
+            width: 100%;
+            padding: $spacing-md;
+            padding-bottom: 80px; // Space for bottom nav
+        }
+    }
+
+    &.unpinned {
+        .layout__content {
+            margin-left: 100px;
+            width: calc(100% - 100px);
+
+            @media (max-width: 768px) {
+                margin-left: 0;
+                width: 100%;
+                padding-bottom: 80px;
+            }
+        }
+
+        @media (min-width: 769px) {
+            &:has(aside:hover) .layout__content {
+                margin-left: 280px;
+                width: calc(100% - 280px);
+            }
+        }
+    }
+
+    .chatMode {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        height: 100vh;
+        overflow-y: hidden;
+    }
+}

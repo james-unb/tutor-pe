@@ -1,0 +1,628 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsfonts,amssymb,amsbsy}
+\usepackage{amsthm} %Permite teorema sem numeração, no meu caso Demonstração
+\usepackage[dvips]{graphicx}
+\usepackage{graphics,graphicx}
+\usepackage{color}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{float}
+
+%------------------------------------------------------------------------------
+
+\setlength{\topmargin}{-1.0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{6.5in}
+\setlength{\baselineskip}{12mm}
+\addtolength{\jot}{.2cm}
+
+%------------------------------------------------------------------------------
+
+\renewcommand{\P}{\mathcal{P}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+        \begin{minipage}[c]{7in}
+                  {Universidade de Brasília} \\
+                  {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf $\text{2}^{\text{\underline{a}}}$ Lista de PE -- Solução}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item 
+\begin{itemize}
+\item[a)] $\Omega = \{ ({d_1},{d_2},m):{d_1},{d_2} \in \{ 1,...,6\} \ , \ m \in \{ C, K\} \}$, onde $C$ = coroa e $K$ = cara. 
+\item[b)] $\Omega = \{ 0,1,2, \ldots \}$
+\item[c)] $\Omega = \{ ({c_1},{c_2},{c_3},{c_4}):{c_i} \in \{ F, M\} \} $, onde $F$ = Feminino, $M$ = Masculino.
+\item[d)] $\Omega = \{ ({e_1},{e_2}, \ldots ,{e_{250}}):{e_i} \in \{ 0,1\} ,i = 1, \ldots ,250\}$, onde 0 significa que o entrevistado não tem máquina e 1 significa que entrevistado tem máquina.
+\item[e)] $\Omega = \{ 3,4,5,6,7,8,9,10\}$.
+\item[f)] $\Omega = \{ \theta  \in \mathbb{R}:0 \leqslant \theta  \leqslant 360^{o}\}$.
+\item[g)] $\Omega = \{ (c,{e_c}):c \in \{ A,B,C,D\} \ \text{e} \ e_c \in \{ {S_o},{C_a}\} \}$, onde ${S_o}=$ Solteiro e ${C_a}=$ Casado.
+\item[h)] $\Omega = \{ h \in {\mathbb{R}^ + }\}$.
+\item[i)] $\Omega = \{ 1,2,3, \ldots ,N - r + 1\}$
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] Como as amostras são ordenadas com reposição, para qualquer posição podemos ter qualquer uma das 4 letras. Desse modo teremos um total de $4 \times 4 \times 4 \times 4 = 4^4$ possíveis amostras.
+\item[b)] Como as amostras são ordenadas sem reposição, uma letra utilizada em uma determinada posição não poderá ser novamente utilizada na posição seguinte. Desse modo teremos um total de $4 \times 3 \times 2 \times 1 = 4!$ possíveis amostras.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] Como os três primeiros dígitos são 452, sobram quatro dígitos que podem ser qualquer um dos números de 0 a 9. Desse modo teremos $10 \times 10 \times 10 \times 10 = 10^4$ possíveis números telefônicos.
+\item[b)] Comos os três primeiros são dígitos 452 e os números seguintes devem ser distintos, teremos $10\times 9 \times 8\times 7$ possíveis números telefônicos. Desse modo, a probabilidade desejada é $$\frac{10\times 9 \times 8\times 7}{10^4}.$$
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] O espaço amostral (finito e discreto) já está bem definido no corpo do problema. Basta observar que temos 2 possibilidades para cada posição e então $n(\Omega)=2^5$.
+\item[b)] O evento em questão é
+\begin{eqnarray*}
+W &=& \{(1, 1, 1, 1, 1), (1, 1, 1, 1, 0), (1, 1, 1, 0, 1), (1, 1, 0, 1, 1), (1, 1, 1, 0, 0),\\
+&&\hspace{0.225cm}(1, 1, 0, 1, 0), ( 1, 1, 0, 0, 1), (1, 1, 0, 0, 0), (1, 0, 1, 1, 1), (0, 1, 1, 1, 1),\\
+&&\hspace{0.225cm}(1, 0, 1, 1, 0), (0, 1, 1, 1, 0), (0, 0, 1, 1, 1), (0, 0, 1, 1, 0), (1, 0, 1, 0, 1)\}
+\end{eqnarray*}
+\item[c)] Como as posições 4 e 5 serão necessariamente 0, temos $n(A)=2^3 = 8$.
+\item[d)] $A\cap W = \{(1,1,1,0,0),(1,1,0,0,0)\}$.
+\end{itemize}
+
+\item O espaço amostral é dado por $\Omega = \{(i,j), \ i=1,\ldots,6 \ \  \text{e} \ \ j=1,\ldots,6\}$ e $n(\Omega)=36$.
+\begin{itemize}
+\item[a)] $A = \{(1,6), (2,5), (3,4), (4,3), (5,2), (6,1) \} \Longrightarrow n(A)=6 \Longrightarrow \mathcal{P}(A)=1/6$.
+\item[b)] $B = \{(1,5), (2,4), (3,3), (4,2), (5,1) \} \Longrightarrow n(A)=5 \Longrightarrow \mathcal{P}(A)=5/36$.
+\item[c)] $C = \{(1,1) \} \Longrightarrow n(A)=1 \Longrightarrow \mathcal{P}(A)=1/36$.
+\item[d)] Basta unirmos os eventos $A$ e $B$ ao evento cuja soma dá 8 (o qual denotaremos por $D$). É fácil ver que $D = \{(2,6), (3,5), (4,4), (5,3), (6,2) \}$, e a probabilidade que queremos é $\mathcal{P}(A\cup B\cup D) = n(A\cup B\cup D)/n(\Omega)=16/36.$
+\item[e)] O evento é \begin{eqnarray*}
+E &=& \{(1, 2), (1, 3), (1, 4), (1, 5), (1, 6),\\
+&&\hspace{0.225cm}(2, 3), (2, 4), (2, 5), (2, 6),\\
+&&\hspace{0.225cm}(3, 4), (3, 5), (3, 6),\\
+&&\hspace{0.225cm}(4,5),(4,6),\\
+&&\hspace{0.225cm}(5,6)\}
+\end{eqnarray*}
+e $\mathcal{P}(E)=15/36$. 
+\end{itemize} 
+
+\item Tendo em vista que o espaço amostral é finito e discreto, podemos concluir facilmente que $n(\Omega)=\binom{11}{3}$. Representando o evento pedido por $E$, $n(E)=\binom{6}{1}\binom{5}{2}$ e a probabilidade desejada é $$\mathcal{P}(E)=\frac{\binom{6}{1}\binom{5}{2}}{\binom{11}{3}}=\frac{4}{11}.$$
+
+\vspace{0.3cm}
+\noindent Se considerarmos a ordem, $n(\Omega)=11\cdot 10\cdot 9 = 990$. Agora, existem $6\cdot 5\cdot 4 = 120$ maneiras no qual a primeira bola é branca e as outras duas são pretas; $5\cdot 6\cdot 4 = 120$ no qual a primeira é preta, a segunda é branca e a terceira é preta; e $5\cdot 4\cdot 6=120$ maneiras no qual as duas primeiras são pretas e a terceira é branca. Enfim, são 360 maneiras de ordenar 2 bolas pretas e uma branca. Concluímos, assim, que a probabilidade desejada também é 4/11.
+
+\item
+\begin{itemize}
+\item[a)] Note que $\P(A) + \P(B) = 1,2$. Do terceiro axioma da probabilidade sabemos que a probabilidade da união de eventos disjuntos é dada pela soma das probabilidades de cada evento. Supondo que $A$ e $B$ são disjuntos temos que $\P(A \cup B) = \P(A) + \P(B)$. Por outro lado temos que $A \cup B \subset \Omega$ e, do segundo axioma da probabilidade, segue que $0 \leqslant \P(A \cup B) \leqslant 1$. Por contradição, concluímos que os eventos $A$ e $B$ não podem ser disjuntos.
+\item[b)] O menor valor para $\P(A \cap B)$ é o valor que maximiza $\P(A \cup B)$, ou seja, 0,2.
+\item[c)] A maior intersecção entre dois eventos ocorre quando um evento está contido em outro. Como $\P(B) > \P(A)$, devemos ter $A \subset B$ de modo que $\P(A\cap B)=\P(A) = 0,5$.
+\end{itemize}
+
+\item Sejam os eventos $V$ = {\it ``o cliente carrega um cartão VISA''} e $A$ = {\it ``o cliente carrega um cartão AMEX''}. A probabilidade desejada é $$\mathcal{P}(V\cup A)=\mathcal{P}(V)+\mathcal{P}(A)-\mathcal{P}(V\cap A)=0,61+0,24-0,11=0,74.$$
+
+\item Nas soluções abaixo representamos os eventos de interesse em notação de conjuntos, seguidas das respectivas representações em diagramas de Venn:
+\begin{itemize}
+\item[a)] $A$
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.26]{Q9itemA.jpg}
+%\caption{}
+%\label{}
+\end{figure}
+\item[b)] $A \cap B \cap {C^c}$
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.26]{Q9itemB.jpg}
+%\caption{}
+%\label{}
+\end{figure}
+\item[c)] $A\cap B \cap C$
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.26]{Q9itemC.jpg}
+%\caption{}
+%\label{}
+\end{figure}
+\item[d)] $A \cup B \cup C$
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.26]{Q9itemD.jpg}
+%\caption{}
+%\label{}
+\end{figure}
+\item[e)] $[(A \cap B)] \cup [(A \cap C)] \cup [(B \cap C)]$
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.26]{Q9itemE.jpg}
+%\caption{}
+%\label{}
+\end{figure}
+\item[f)] $[A\cap (B\cup C)^c]\cup [B\cap (A\cup C)^c] \cup [C\cap (A\cup B)^c]$
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.26]{Q9itemF.jpg}
+%\caption{}
+%\label{}
+\end{figure}
+\item[g)] $[(A \cup B) \cap {C^c}] \cup [(A \cup C) \cap {B^c}] \cup [(B \cup C) \cap {A^c}]$
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.26]{Q9itemG.jpg}
+%\caption{}
+%\label{}
+\end{figure}
+\item[h)] ${A^c} \cap {B^c} \cap {C^c}$
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.26]{Q9itemH.jpg}
+%\caption{}
+%\label{}
+\end{figure}
+\item[i)] $(A \cup B\cup C)\cap (A \cap B \cap C)^C$
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.26]{Q9itemI.jpg}
+%\caption{}
+%\label{}
+\end{figure}
+\item[j)] Similar ao {\bf item d}.
+\end{itemize}
+
+\item 
+\begin{itemize}
+\item[a)] $\P(A) = 0,35$.
+\item[b)] Como $A\cap C=\emptyset$, segue que $A\cap B \cap C = \emptyset$ e $\P(A \cap B \cap {C^c}) = P(A \cap B) = 0,10$.
+\item[c)] Como $A\cap C=\emptyset$, segue que $A\cap B \cap C = \emptyset$ e $\P(A \cap B \cap C) = 0,00$.
+\item[d)] $\mathcal{P}(A\cup B\cup C) = \mathcal{P}(A)+\mathcal{P}(B)+\mathcal{P}(C)-\mathcal{P}(A\cap B)-\mathcal{P}(A\cap C)-\mathcal{P}(B\cap C)+\mathcal{P}(A\cap B\cap C) = 0,35 + 0,4 + 0,15 - 0,10 - 0 - 0 + 0 = 0,80.$
+\item[e)] Como $B\cap C=A\cap C=A\cap B\cap C=\emptyset$, segue que $\P[(A \cap B)] \cup [(A \cap C)] \cup [(B \cap C)] = \P(A\cap B) = 0,10$.
+\item[f)] Como $B\cap C=A\cap C=\emptyset$, segue que $\P[A\cap (B\cup C)^c]\cup [B\cap (A\cup C)^c] \cup [C\cap (A\cup B)^c] = \P(A) + \P(B) - 2\P(A\cap B) = 0,70$.
+\item[g)] Como $B\cap C=A\cap C=\emptyset$, segue que $\P[(A \cup B) \cap {C^c}] \cup [(A \cup C) \cap {B^c}] \cup [(B \cup C) \cap {A^c}] = \P(A \cap B) = 0,10$.
+\item[h)] $\P({A^c} \cap {B^c} \cap {C^c}) = 1-\P(A\cup B\cup C) = 0,20$.
+\item[i)] Como $A\cap B\cap C=\emptyset$, segue que $\P(A \cup B\cup C)\cap (A \cap B \cap C)^C = \P(A\cup B\cup C) = 0,80$.
+\item[j)] Similar ao {\bf item d}.
+\end{itemize}
+
+\item 
+Considere os eventos $A$ e $B$ definidos por:
+
+\begin{center}
+$A$ = {\it ``Erro de cálculo com processador tipo A''}
+
+$B$ = {\it ``Erro de cálculo com processador tipo B''}
+\end{center}
+
+Do enunciado nós temos que $\P(A)=\frac{1}{30}$, $\P(B)=\frac{1}{80}$, $\P(A\cap B)=\frac{1}{1000}$.
+
+\begin{itemize}
+\item[a)] 
+\begin{eqnarray*}
+\P(A\cup B) &=& \P(A) + \P(B) - \P(A\cap B)\\
+&=& \frac{1}{30}+\frac{1}{80}-\frac{1}{1000}\\
+&=& \frac{269}{6000}.
+\end{eqnarray*}
+
+\item[b)] 
+\begin{eqnarray*}
+\P({A^c} \cap {B^c}) &=& 1-\P({({A^c} \cap {B^c})}^c)\\
+&=& 1-P(A \cup B)\\
+&=& \frac{5731}{6000}.
+\end{eqnarray*}
+
+\item[c)] 
+\begin{eqnarray*}
+\P(A \cap {B^c}) &=& \P(A)-\P(A \cap B)\\
+&=& \frac{1}{30}-\frac{1}{1000}\\
+&=& \frac{97}{3000}
+\end{eqnarray*}
+
+\item[d)] Como $A \cap {B^c}$ e ${A^c} \cap B$ são eventos disjuntos, a probabilidade desejada é
+\begin{eqnarray*}
+\P(A \cap {B^c})+\P({A^c} \cap B) &=& \frac{97}{3000}+\frac{92}{8000}\\
+&=& \frac{263}{6000}.
+\end{eqnarray*}
+\end{itemize}
+
+\item Pensando em $A\cup B$ como um evento e $C$ como outro evento, segue que
+
+{\footnotesize
+\begin{eqnarray*}
+\P(A \cup B\cup C) &=& \P([A\cup B]\cup C)\\
+&=& \P(A\cup B) + \P(C) - \P([A\cup B]\cap C) \\
+&=& \P(A) + \P(B) - \P(A \cap B) + \P(C) - \P([A \cap C]\cup [B \cap C])\\
+&=& \P(A) + \P(B) - \P(A \cap B) + \P(C) - [\P(A \cap C) + \P(B \cap C) - \P(A \cap B \cap C)]\\
+&=& \P(A) + \P(B) + \P(C) - \P(A \cap B) - \P(A \cap C) - \P(B \cap C) + \P(A \cap B \cap C).
+\end{eqnarray*}
+}
+
+\item O espaço amostral é claramente finito e discreto. Vamos denotar os respectivos eventos por T, S e B, referentes à cada esporte. Utilizando o Princípio da Inclusão-Exclusão explicitado na {\bf Questão 12} para três eventos, temos $$\mathcal{P}(T\cup S\cup B) = \mathcal{P}(T)+\mathcal{P}(S)+\mathcal{P}(B)-\mathcal{P}(T\cap S)-\mathcal{P}(T\cap B)-\mathcal{P}(S\cap B)+\mathcal{P}(T\cap S\cap B) = \frac{43}{200}.$$
+
+\item
+Considere os eventos $E$, $Q$ e $D$ definidos por:
+
+\begin{center}
+$E$ = {\it ``Emperramento dos mancais''}
+
+$Q$ = {\it ``Queima dos enrolamentos''}
+
+$D$ = {\it ``Desgaste das escovas''}
+\end{center}
+
+Do enunciado nós temos que $\P(E)=2\P(Q)$ e $\P(Q)=4\P(D)$. Do texto sabemos que esses são os únicos modos de falha do motor, ou seja, $\P(E)+\P(Q)+\P(D)$ deve ser um. Utilizando os valores informados nós temos que $$8\P(D)+4\P(D)+\P(D)=1$$ de onde segue que $$P(D)=\frac{1}{13}, \ \ P(Q)=\frac{4}{13} \ \ \text{e} \ \ P(E)=\frac{8}{13}.$$
+
+\item O espaço amostral é claramente finito e discreto. Vamos denotar os respectivos eventos por E, F e A, referentes à cada idioma.
+
+\begin{itemize}
+\item[a)] Utilizando o resultado da {\bf Questão 12} temos $\mathcal{P}(E\cup F\cup A) = \mathcal{P}(E)+\mathcal{P}(F)+\mathcal{P}(A)-\mathcal{P}(E\cap F)-\mathcal{P}(E\cap A)-\mathcal{P}(F\cap A)+\mathcal{P}(E\cap F\cap A) = 0,5$. Portanto, a probabilidade desejada é $1-0,5 = 0,5$.
+\item[b)] Observe no diagrama de Vein construído abaixo que a probabilidade desejada é 32/100.
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.3]{Q6itemB.pdf}
+%\caption{}
+%\label{}
+\end{figure}
+\vspace{0.5cm}
+\item[c)] Também pelo diagrama de Vein acima, sabemos que 50 alunos não cursam nenhum idioma. É fácil notar que a probabilidade de selecionarmos 2 alunos que não estejam cursando nenhum idioma é $\binom{50}{2}\left/\right.\binom{100}{2}=49/198$ e a probabilidade desejada é então $1-49/198=149/198$.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] Como $A \cap B = \emptyset$ temos que $\P(A \cap B)=0$, desse modo
+\begin{eqnarray*}
+\P(A \cup B) &=& \P(A)+\P(B) \Leftrightarrow\\
+0,7 &=& 0,4+\P(B) \Leftrightarrow\\
+	\P(B)&=&0,3\\	
+\end{eqnarray*} 
+\item[b)] Como $A$ e $B$ são independentes segue que
+\begin{eqnarray*}
+\P(A \cup B) &=& \P(A)+\P(B)-\P(A \cap B) \Leftrightarrow\\
+\P(A \cup B) &=& \P(A)+\P(B)-\P(A)\times P(B)\Leftrightarrow\\
+0,7&=&0,4+\P(B)-0,4\P(B) \Leftrightarrow\\
+0,3&=&0,6\P(B)\Leftrightarrow\\
+\P(B)&=& 0,5.
+\end{eqnarray*}	
+\item[c)] Como $A\subset B$ segue que $A \cup B = B$ e, portanto, $\P(B) = 0,7$.
+\end{itemize}
+	
+\item Represente o evento {\it ``um homem fumar cigarro''} por $A$ e o evento {\it ``um homem fumar charuto''} por $B$, desse modo temos
+
+\begin{itemize}
+\item[a)] $\mathcal{P}(A^c \cap B^c)=\mathcal{P}\left( (A\cup B)^c \right) = 1 - \mathcal{P}(A\cup B) = 1 - [\mathcal{P}(A)+\mathcal{P}(B)-\mathcal{P}(A\cap B)] = 0,6$.
+\item[b)] De modo muito simples, queremos $A\setminus(A\cap B)=A\cap(A\cap B)^c$. Após cálculos simples chegamos à expressão $\mathcal{P}(A\cap(A\cap B)^c) = \mathcal{P}(A)-\mathcal{P}(A\cap B) = 0,28-0,05=0,23.$
+\end{itemize}
+
+\item Como cada pessoa pode celebrar seu aniversário em um dos 365 dias do ano (estamos ignorando anos bissextos), nosso espaço amotral é finito, discreto e existe um total de $(365)^n$ possibilidades, ou seja, $n(\Omega)=(365)^n$. Desse modo, a probabilidade desejada é $$\frac{(365)(364)(363)\cdots(365-n + 1)}{(365)^n}.$$
+
+\noindent Para alguns pode ser uma surpresa o fato de que quando $n\geqslant 23$ essa probabilidade é menor que 0,5, ou seja, com 50\% de chances duas pessoas fazem aniversário no mesmo dia do ano. 
+
+\vspace{0.3cm}
+\noindent Quando $n=50$ essa probabilidade cai para 0,03. Isso significa que com probabilidade de 97\%, duas pessoas fazem aniversário no mesmo dia do ano.
+
+\item Vamos considerar os eventos, $A$ = {\it ``os dois lados são vermelhos''}, $B$ = {\it ``os dois lados são pretos''}, $C$ = {\it ``os dois lados são brancos''} e $D$ = {\it ``os dois lados são amarelos''}. Nosso espaço amostral é finito discreto, $n(\Omega)=36$ e os eventos $A,B,C$ e $D$ são disjuntos, então
+
+$$\mathcal{P}(A\cup B\cup C\cup D) = \mathcal{P}(A)+\mathcal{P}(B)+\mathcal{P}(C)+\mathcal{P}(D)=4/36+4/36+1/36+1/36=5/18.$$ 
+
+\item Como existem nove moedas das quais iremos selecionar duas, $n(\Omega) = \binom{9}{2}$. Para que tenhamos R\$ 1,50 devemos selecionar uma moeda de cada cada tipo, desse modo 
+$$ \P(\text{{\it ``obtermos R\$ 1,50''}}) = \dfrac{\binom{5}{1}\binom{4}{1}}{\binom{9}{2}}.$$
+
+\item O espaço amostral do experimento é finito, discreto e $n(\Omega)=\binom{52}{5}$. Com base nessas propriedades, seguem nos itens abaixo as probabilidades pedidas.
+
+\begin{itemize}
+\item[a)] $\dfrac{13\binom{4}{2}\binom{12}{3}\binom{4}{1}\binom{4}{1}\binom{4}{1}}{\binom{52}{5}}$
+\item[b)] $\dfrac{\binom{13}{2}\binom{4}{2}\binom{4}{2}\binom{44}{1}}{\binom{52}{5}}$
+\item[c)] $\dfrac{13\binom{4}{3}\binom{12}{2}\binom{4}{1}\binom{4}{1}}{\binom{52}{5}}$
+\item[d)] $\dfrac{4\binom{13}{5}-40}{\binom{52}{5}}$
+\item[e)] $\dfrac{13\binom{4}{4}\binom{48}{1}}{\binom{52}{5}}$
+\end{itemize} 
+
+\item Seja ${A_k}=$ {\it ``produzir $k$-quadros''}, $k = 1, 2, 3, \ldots$
+
+Os eventos ${A_k}$ são disjuntos, desse modo temos que
+\begin{eqnarray*}
+\P(\text{{\it ``produzir pelo meno um quadro''}}) &=& \P\left(\bigcup_{k=1}^{\infty} A_i\right)\\
+&=& \sum_{k = 1}^\infty\P({A_k})\\
+&=& \sum_{k = 1}^\infty p^k \\
+&=& \frac{p}{{1 - p}}.
+\end{eqnarray*}
+
+Como a probabilidade de produzir pelo menos um quadro por dia é um, resolvendo a equação $\frac{p}{{1 - p}} = 1$ segue que $p=0,5$.
+
+
+\item A primeira observação importante é a de que o espaço amostral do experimento é infinito discreto. Por essa razão, lançamos mão da medida definida segundo os axiomas da probabilidade apresentados em aula. Defina $E_n$ como sendo o evento {\it ``ocorre 5 no $n$-ésimo lançamento e não ocorre 5 nem 7 nos primeiros $n-1$ lançamentos''}. Podemos concluir facilmente que $\mathcal{P}(E_n)=\left(\frac{4}{36}\right)\left(\frac{26}{36}\right)^{n-1}$.
+\vspace{0.3cm}
+
+\noindent A sequência de eventos $\{E_n, n\geqslant 1\}$ é uma sequência de eventos disjuntos, portanto a probabilidade desejada é $$\mathcal{P}\left( \bigcup_{n=1}^{\infty} E_n\right) = \sum_{n=1}^{\infty}\mathcal{P}(E_n)=\sum_{n=1}^{\infty}\left(\frac{4}{36}\right)\left(\frac{26}{36}\right)^{n-1}=\frac{2}{5}.$$
+
+\item Como no exemplo anterior o espaço amostral do experimento é infinito discreto e, seguindo a mesma ideia, defina $E_n$ como sendo o evento {\it ``ocorre A na $n$-ésima repetição e não ocorre A nem B nas primeiras $n-1$ repetições''}. Desse modo, segue que
+
+\begin{eqnarray*}
+\P(E_n) &=& 0,13 \times \P(A^c \cap B^c)^{n-1}\\
+&=& 0,13 \times \P\left((A\cup B)^c\right)^{n-1}\\
+&=& 0,13 \times \{1-\P(A\cup B)\}^{n-1}\\
+&=& 0,13 \times \{1-[0,13+0,39]\}^{n-1}\\
+&=& 0,13 \times 0,48^{n-1}\\
+\end{eqnarray*}
+
+\noindent A sequência de eventos $\{E_n, n\geqslant 1\}$ é uma sequência de eventos disjuntos, portanto a probabilidade desejada é $$\mathcal{P}\left( \bigcup_{n=1}^{\infty} E_n\right) = \sum_{n=1}^{\infty}\mathcal{P}(E_n)=\sum_{n=1}^{\infty}0,13 \times 0,48^{n-1} = 0,25.$$
+
+\item Considere os eventos $V_1$ = {\it ``A primeira bola é vermelha''} e $V_2$ = {\it ``A segunda bola é vermelha''}. 
+Pela lei da multiplicação temos $$\mathcal{P}(V_1\cap V_2)=\mathcal{P}(V_1)\mathcal{P}(V_2| V_1) = \frac{8}{12}\cdot\frac{7}{11}=\frac{14}{33}.$$
+
+\item
+\begin{itemize}
+\item[a)] Seja $A=$ {\it ``As duas primeiras peças são defeituosas''}, então $$\P(A)=\frac{12}{20}\times \frac{11}{19}=\frac{33}{95}.$$
+\item[b)] Seja $B=$ {\it ``Uma peça é perfeita e a outra defeituosa''}, então $$P(B)=\frac{8}{20}\times \frac{12}{19}+ \frac{12}{20}\times \frac{8}{19}=\frac{48}{95}.$$
+\item[c)] Seja $C=$ {\it ``A segunda peça é defeituosa''}, então $$P(C)=\frac{8}{20}\times \frac{12}{19}+ \frac{12}{20}\times \frac{11}{19}=\frac{57}{95}.$$
+\item[d)] Seja $D=$ {\it ``As oito primeiras peças são perfeitas''}, então $$P(D)=\frac{8}{20}\times \frac{7}{19}\times \frac{6}{18}\times \frac{5}{17}\times \frac{4}{16}\times\frac{3}{15}\times\frac{2}{14}\times\frac{1}{13}=\frac{1}{125970}.$$
+\end{itemize}
+
+\item Considere os eventos 
+\begin{eqnarray*}
+A &=& \text{\it ``pelo menos uma pessoa pega o guarda-chuva correto''}\\
+A_j &=&\text{\it ``a $j$-ésima pessoa pega o guarda-chuva correto}, \ \ j=1,2,3.
+\end{eqnarray*}
+ Como temos três guarda-chuvas, existem 3! maneiras distintas de cada pessoa selecionar um guarda-chuva. Os eventos $A_j$ não são disjuntos, de modo que
+{\footnotesize
+\begin{eqnarray*}
+\P(A)&=&\P({A_1}\cup {A_2}\cup {A_3})\\
+&=&\P({A_1})+\P({A_2})+\P({A_3})-\P({A_1}\cap {A_2})-\P({A_2}\cap {A_1})-\P({A_3}\cap {A_2})+\P({A_1}\cap {A_2}\cap {A_3}).
+\end{eqnarray*}}
+
+Agora, note que
+
+\begin{eqnarray*}
+&& \P({A_j})=\frac{2!}{3!}=\frac{2}{6}=\frac{1}{3}\\
+&& \P({A_i}\cap {A_j})=\frac{1!}{3!}=\frac{1}{6}\\
+&& \P({A_1}\cap {A_2}\cap {A_3})=\frac{1!}{3!}=\frac{1}{6}
+\end{eqnarray*}
+
+Desse modo, temos que $\P(A)=\frac{1}{3}+\frac{1}{3}+\frac{1}{3}-\frac{1}{6}-\frac{1}{6}-\frac{1}{6}+\frac{1}{6}=\frac{2}{3}$.
+
+\item 
+\begin{itemize}
+\item[a)] Como existem 400 pessoas no total, segue da definição que  $$\P(S | F) = \frac{\P(S \cap F)}{\P(F)} = \frac{150/400}{(150+40+10+20)/400} = \frac{15}{22}.$$
+Seguindo a mesma ideia encontramos $\P(C | F) = \frac{2}{11}$, $\P(D | F) = \frac{1}{22}$ e  $\P(O | F) = \frac{1}{11}$.
+\item[b)] Basta somar as probabilidades calculadas no item anterior.
+\item[c)] Repetindo o procedimento do {\bf item a)} obtemos $\P(S | M) = \frac{5}{18}, \P(C | M) = \frac{1}{3}$, $\P(D | M) = \frac{2}{9}$ e  $\P(O | M) = \frac{1}{6}$ cuja soma é um.
+\item[d)] Segue da definição que  $$\P(F | S) = \frac{\P(F \cap S)}{\P(S)} = \frac{150/400}{(150+50)/400} = \frac{3}{4}.$$
+Seguindo a mesma ideia encontramos $\P(M | S) = \frac{1}{4}$ que somada à probabilidade anterior dá um.
+\item[e)] Repetindo o procedimento do {\bf item d)} obtemos $\P(F | C) = \frac{2}{5}$, $\P(M | C) = \frac{3}{5}$, $\P(F | D) = \frac{1}{5}$, $\P(M | D) = \frac{4}{5}$, $\P(F | O) = \frac{2}{5}$ e $\P(M | O) = \frac{3}{5}$ cujas somas nas respectivas condicionais é um.
+\item[f)] $\P(S) = \frac{1}{2}$, $\P(C) = \frac{1}{4}, \P(D) = \frac{1}{8}, \P(O) = \frac{1}{8}, \P(S | F) = \frac{15}{22}, \P(C | F) = \frac{2}{11}, \P(D | F) = \frac{1}{22}, \P(O | F) = \frac{1}{11}, \P(S | M) = \frac{5}{18}, \P(C | M) = \frac{1}{3}, \P(D | M) = \frac{2}{9}$ e  $\P(O | M) = \frac{1}{6}$. 
+\item[g)] $\P(F) = \frac{11}{20}, \P(M) = \frac{9}{20}, \P(F | S) = \frac{3}{4}, \P(M | S) = \frac{1}{4}, \P(F | C) = \frac{2}{5}, \P(M | C) = \frac{3}{5}, \P(F | D) = \frac{1}{5}, \P(M | D) = \frac{4}{5}, \P(F | O) = \frac{2}{5}$ e $\P(M | O) = \frac{3}{5}$.
+\item[h)] Basta dividir cada valor na tabela por 400 e repetir os passos via definição.
+\end{itemize}
+
+\item Considere a tabela abaixo construída a partir dos dados:
+\begin{table}[H]
+	\centering
+	
+	\label{my-label}
+	\begin{tabular}{c|cc|c}
+		\hline \hline
+		Sexo/Curso & Computação & Matemática & Total \\ \hline
+		Homem      & 10         & 30         & 40    \\
+		Mulher     & 20         & 40         & 60    \\ \hline
+		Total      & 30         & 70         & 100  \\ \hline
+	\end{tabular}
+\end{table}
+Defina os eventos $H$ = {\it ``O aluno é homem''}, $F=$ {\it ``O aluno é mulher''}, $C=$ {\it ``O aluno é da computação''}, $M=$ {\it ``O aluno é da matemática''}.
+
+\begin{itemize}
+\item[a)] $P(M|F)=\frac{P(F \cap M)}{P(F)}=\frac{40/100}{60/100}=\frac{2}{3}$
+\item[b)] $P(C|H)=\frac{P(H \cap C)}{P(H)}=\frac{10/100}{40/100}=\frac{1}{4}$
+\item[c)] $P(H|C)=\frac{P(C \cap H)}{P(C)}=\frac{10/100}{30/100}=\frac{1}{3}$
+\item[d)] $P(F|M)=\frac{P(M \cap F)}{P(M)}=\frac{40/100}{70/100}=\frac{4}{7}$
+\end{itemize}
+
+\item Considere os eventos
+\begin{eqnarray*}
+U_1 &=& \text{\it ``O usuário é aluno da graduação''}\\
+U_2 &=& \text{\it ``O usuário é aluno da pós-graduação''}\\
+U_3 &=& \text{\it ``O usuário é professor''}\\
+A &=& \text{\it ``O livro é em português''}
+\end{eqnarray*}
+
+\begin{itemize}	
+\item[a)] Da lei da multiplicação segue que
+\begin{eqnarray*}
+\P(A) &=& \P(A|U_1)\P(U_1) + \P(A|U_2)\P(U_2) + \P(A|U_3)\P(U_3)\\
+ &=& 0,30\times 0,75 + 0,38\times 0,50 + 0,32\times 0,20\\
+ &=& 0,479.
+\end{eqnarray*}
+\item[b)] Da definição segue que
+	\[\begin{gathered}
+	\P({U_1}|A) = \frac{{\P({U_1} \cap A)}}{{\P(A)}} = \frac{{\P(A|U_1)\P(U_1)}}{{\P(A)}} = \frac{{0,30\times 0,75}}{{0,479}} \simeq {\text{0}}{\text{,4697}} \hfill \\
+	\P({U_2}|A) = \frac{{\P({U_2} \cap A)}}{{\P(A)}} = \frac{{\P(A|U_2)\P(U_2)}}{{\P(A)}} = \frac{{0,38\times 0,50}}{{0,479}} \simeq {\text{0}}{\text{,3967}} \hfill \\
+	\P({U_3}|A) = \frac{{\P({U_3} \cap A)}}{{\P(A)}} = \frac{{\P(A|U_2)\P(U_2)}}{{\P(A)}} = \frac{{0,32\times 0,20}}{{0,479}} \simeq {\text{0}}{\text{,1336}} \hfill \\ 
+	\end{gathered} \]
+\end{itemize} 
+
+\item Diretamente do enunciado temos que $\P(A|H) = 0,20$ e $\P(B|M) = 0,30$. Para o cálculo da última probabilidade temos 
+\begin{eqnarray*}
+\P(M|A) &=& \frac{\P(M \cap A)}{P(A)} \\
+&=& \frac{\P(A|M)P(M)}{P(A)} \\
+&=& \frac{\P(A|M)P(M)}{\P(A|M)P(M) + \P(A|H)P(H)} \\
+&=& \frac{[1-\P(B|M)][1-\P(H)]}{[1-\P(B|M)][1-\P(H)] + \P(A|H)P(H)} \\
+&=& \frac{[1-0,30][1-0,75]}{[1-0,30][1-0,75] + 0,20\times 0,75} \\
+&\simeq& 0,5385 
+\end{eqnarray*}
+
+\item Primeiramente suponha que $A$ e $B$ são independentes e note que $A = (A\cap B)\cup (A\cap B^c)$. Como $A\cap B$ e $A\cap B^c$ são eventos disjuntos, temos
+\begin{eqnarray*}
+\P(A) &=& \P(A \cap B) + \P(A \cap B^c)\\
+&=& \P(A)\P(B) + \P(A \cap B^c).
+\end{eqnarray*}
+Passando o termo $\P(A)\P(B)$ para o lado esquerdo da igualdade segue que
+\begin{eqnarray*}
+\P(A \cap B^c) &=& \P(A) - \P(A)\P(B)\\
+&=& \P(A)[1-\P(B)]\\
+&=& \P(A)\P(B^c).
+\end{eqnarray*}
+
+Provamos assim que $A$ e $B^c$ são independentes. As demais equivalências seguem de forma análoga.
+
+\item
+\begin{itemize}
+\item[a)] Como $A\cap B \subset A$, temos que $\P(A\cap B) \leqslant \P(A) = 0$, portanto $\P(A\cap B) = 0$. Por outro lado, $\P(A)\P(B)=0$.
+\item[b)] Note que $A \subset A\cup B$, de modo que
+\begin{eqnarray*}
+\P(A\cap B) &=& \P(A) + \P(B) - \P(A\cup B)\\
+&=& 1+ \P(B) -1\\
+&=& \P(B)\\
+&=& \P(A)\P(B).
+\end{eqnarray*}
+\item[c)] Se $D$ e $D^c$ são independentes temos que $\P(D)\P(D^c)=\P(D\cap D^c) = \P(\emptyset) = 0$.
+\item[d)] Sob a hipótese segue que $\P(E) = \P(E \cap E) = \P(E)\P(E) = \left[\P(E)\right]^2$.
+\end{itemize}
+
+\item Considere os eventos
+\begin{eqnarray*}
+A_1 &=& \text{\it ``A pessoa vive 70 anos ou mais''}\\
+A_2 &=& \text{\it ``A pessoa vive 80 anos ou mais''}
+\end{eqnarray*}
+
+A probabilidade de interesse é dada por $$\P({A_2}|{A_1})=\frac{\P({A_1}\cap {A_2})}{\P({A_1})}=\frac{\P({A_2})}{\P({A_1})}=\frac{0,2}{0,6}=\frac{1}{3}$$
+
+\item Considere os eventos
+\begin{eqnarray*}
+B_1 &=& \text{\it ``O circuito apresenta falha''}\\
+B_2 &=& \text{\it ``O circuito não apresenta falha''}\\
+D_1 &=& \text{\it ``O circuito é declarado com falha''}\\
+D_2 &=& \text{\it ``O circuito é declarado sem falha''}
+\end{eqnarray*}
+
+A probabilidade de interesse é dada por 
+
+\begin{eqnarray*}
+P({B_2}|{D_1}) &=& \frac{\P({B_2}\cap {D_1})}{\P({D_1})}\\
+&=&\frac{\P({D_1}|{B_2})\P(B_2)}{\P({D_1})}\\
+&=&\frac{\P({D_1}|{B_2})\P(B_2)}{\P({D_1}|{B_1})\P(B_1)+\P({D_1}|{B_2})\P(B_2)}\\
+&=&\frac{(1-\P({D_2}|{B_2}))(1-\P(B_1))}{\P({D_1}|{B_1})\P(B_1)+(1-\P({D_2}|{B_2}))(1-\P(B_1))}\\
+&=& \frac{(0,95)(0,03)}{(0,05)(0,95)+(0,95)(0,03)}\\
+&\simeq& 0,375
+\end{eqnarray*}
+
+\item Considere os eventos $R$ = {\it ``O aluno responde corretamente''} e $S$ = {\it ``O aluno sabe a resposta''}. A probabilidade desejada é
+\begin{eqnarray*}
+\mathcal{P}(S| R)&=&\frac{\mathcal{P}(S\cap R)}{\mathcal{P}(R)}\\
+&=&\frac{\mathcal{P}(R| S)\mathcal{P}(S)}{\mathcal{P}(R|S)\mathcal{P}(S)+\mathcal{P}(R| S^c)\mathcal{P}(S^c)}\\
+&=& \frac{p}{p+(1/m)(1-p)}\\
+&=&\frac{mp}{1+(m-1)p}.
+\end{eqnarray*}
+
+\noindent Para $m=5$ e $p=1/2$ a probabilidade desejada é $5/6$.
+
+\item Considere os eventos $A$ = {\it ``O suspeito é culpado''} e $B$ = {\it ``O suspeito possui a característica''}. A probabilidade desejada é
+\begin{eqnarray*}
+\mathcal{P}(A| B)&=&\frac{\mathcal{P}(A\cap B)}{\mathcal{P}(B)}\\
+&=&\frac{\mathcal{P}(B| A)\mathcal{P}(A)}{\mathcal{P}(B|A)\mathcal{P}(A)+\mathcal{P}(B| A^c)\mathcal{P}(A^c)}\\
+&=& \frac{1\cdot (0,6)}{1\cdot(0,6)+(0,2)\cdot(0,4)}\\
+&\simeq& 0,882.
+\end{eqnarray*}
+
+\item Considere que todas as probabilidades são condicionadas ao evento em que a mãe tem o par de genes (A, A), o macho número 1 possui o par de genes (a, a), e o macho número 2 tem o par de genes (A, a). Agora, seja $M_i$ o evento em que o macho número $i$ é o pai, $i = 1, 2$, e seja $B_{(A,a)}$ o evento em que o chimpanzé bebê tem o o par de genes (A, a). Então, a probabilidade desejada é
+\begin{eqnarray*}
+\mathcal{P}(M_1|B_{(A,a)}) &=& \frac{\mathcal{P}(M_1\cap B_{(A,a)})}{\mathcal{P}(B_{(A,a)})}\\
+&=& \frac{\mathcal{P}(B_{(A,a)}|M_1)\mathcal{P}(M_1)}{\mathcal{P}(B_{(A,a)}|M_1)\mathcal{P}(M_1) + \mathcal{P}(B_{(A,a)}|M_2)\mathcal{P}(M_2)}\\
+&=& \frac{1\cdot p}{1\cdot p + (1/2)(1-p)}\\
+&=& \frac{2p}{1+p}.
+\end{eqnarray*}
+
+\item Considere os eventos abaixo:
+\begin{eqnarray*}
+C_1&=&\text{\it ``O gabinete A foi sorteado''},\\
+C_2&=&\text{\it ``O gabinete B foi sorteado''},\\
+S_1&=&\text{\it ``Uma moeda de prata foi sorteada na primeira gaveta aberta''},\\
+S_2&=&\text{\it ``Uma moeda de prata foi sorteada na segunda gaveta aberta''}.
+\end{eqnarray*}
+A probabilidade desejada é 
+\begin{eqnarray*}
+\mathcal{P}(S_2|S_1)&=&\frac{\mathcal{P}(S_1\cap S_2)}{\mathcal{P}(S_1)}\\
+&=& \frac{\mathcal{P}(S_1\cap S_2|C_1)\mathcal{P}(C_1)+\mathcal{P}(S_1\cap S_2|C_2)\mathcal{P}(C_2)}{\mathcal{P}(S_1|C_1)\mathcal{P}(C_1)+\mathcal{P}(S_1|C_2)\mathcal{P}(C_2)}\\
+&=& \frac{(1) (\frac{1}{2})+(0) (\frac{1}{2})}{(1)(\frac{1}{2})+(\frac{1}{2})(\frac{1}{2})}\\
+&=& \frac{2}{3}.
+\end{eqnarray*}
+
+\item
+\begin{itemize}
+\item[a)] $\Omega = \{(x,y)\in\mathbb{R}^2: x^2+y^2\leqslant 1\}$.
+\item[b)] Para um evento $A\subset\Omega$ é natural definirmos $\mathcal{P}(A)=\frac{\text{Área}(A)}{\text{Área}(\Omega)}=\frac{\text{Área}(A)}{\pi}$.
+
+\noindent É importante comentar que a área do evento $A$ precisa estar bem definida. De fato, isso nem sempre ocorre.
+\item[c)] A probabilidade do evento $A=(0,0)$ é zero.
+\item[d)] $\mathcal{P}(B)=\frac{\pi(1/2)^2}{\pi}=\frac{1}{4}$, $\mathcal{P}(C)=\frac{\pi(1)^2}{\pi}=\frac{1}{2}$ e $\mathcal{P}(B\cap C)=\frac{\frac{\pi(1/2)^2}{\pi}}{2}=\frac{1}{8}$. 
+
+\noindent Como $\mathcal{P}(B\cap C)=\mathcal{P}(B)\mathcal{P}(C)$, os eventos são independentes.
+\end{itemize}
+
+\item Das informação obtidas no texto, concluímos que $$\mathcal{P}(E|S)=2\mathcal{P}(E|S^c) \ \ \text{e} \ \ \mathcal{P}(S)=0,32.$$ Dessa maneira, segue que
+\begin{eqnarray*}
+\mathcal{P}(S|E)&=&\frac{\mathcal{P}(S\cap E)}{\mathcal{P}(E)}\\
+&=& \frac{\mathcal{P}(E|S)\mathcal{P}(S)}{\mathcal{P}(E|S)\mathcal{P}(S)+\mathcal{P}(E|S^c)\mathcal{P}(S^c)}\\
+&=& \frac{2\mathcal{P}(E|S^c)\mathcal{P}(S)}{2\mathcal{P}(E|S^c)\mathcal{P}(S)+\mathcal{P}(E|S^c)\mathcal{P}(S^c)}\\
+&=& \frac{2\mathcal{P}(S)}{2\mathcal{P}(S)+\mathcal{P}(S^c)}\\
+&=&\frac{32}{66}.
+\end{eqnarray*}
+
+\item
+\begin{itemize}
+\item[a)] $\P(A \cup C)=\P(A)+\P(C)-\P(A)\times \P(C) = \frac{1}{2}+\frac{1}{4}-\frac{1}{2}\times\frac{1}{4}=\frac{5}{8}$
+\item[b)] Como $B\cap C = \emptyset$, segue que
+\begin{eqnarray*}
+\P(A \cup B \cup C) &=& \P(A)+\P(B)+\P(C)-\P(A \cap B)- \P(A\cap C)\\
+&=&\frac{1}{2}+\frac{1}{3}+\frac{1}{4}-\frac{1}{5}-\frac{1}{2}\times \frac{1}{4}\\
+&=& \frac{91}{120}.
+\end{eqnarray*}
+	
+	
+\item[c)] $ \P(B|C)= \frac{\P(C \cap B)}{\P(C)}=\frac{0}{1/4}=0$
+	
+\item[d)] Como $B$ e $C$ são disjuntos, da definição de probabilidade condicional segue que
+\begin{eqnarray*}
+\P[(B\cup C)|A] &=& \frac{\P[A \cap (B\cup C)]}{\P(A)}\\
+&=& \frac{\P[(A \cap B) \cup (A \cap C)]}{\P(A)}\\
+&=& \frac{\P(A \cap B) + \P(A \cap C)}{\P(A)}\\
+&=& \frac{{\frac{1}{5} + \frac{1}{2} \times \frac{1}{4}}}{{\frac{1}{2}}}\\ 
+&=& \frac{{13}}{{20}}.
+\end{eqnarray*} 
+	
+\item[e)] Como $B$ e $C$ são disjuntos, da definição de probabilidade condicional segue que
+\begin{eqnarray*}
+\P[A|(B \cup C)] &=& \frac{\P[(B\cup C) \cap A]}{\P(B\cup C)}\\
+&=& \frac{\P[(A \cap B) \cup (A \cap C)]}{\P(B\cup C)}\\
+&=& \frac{\P(A \cap B) + \P(A \cap C)}{\P(B) + \P(C)}\\
+&=& \frac{{\frac{1}{5} + \frac{1}{2} \times \frac{1}{4}}}{{\frac{1}{3} + \frac{1}{4}}}\\ 
+&=& \frac{39}{70}.
+\end{eqnarray*}
+\end{itemize}
+
+\item Seja $W$ o evento em que uma mulher abandona o emprego e $C$ o evento em que o empregado trabalha na loja C. A probabilidade desejada é
+\begin{eqnarray*}
+\mathcal{P}(C|W) &=& \frac{\mathcal{P}(W\cap C)}{\mathcal{P}(C)}\\
+&=& \frac{\mathcal{P}(W|C)\mathcal{P}(C)}{\mathcal{P}(W|A)\mathcal{P}(A)+\mathcal{P}(W|B)\mathcal{P}(B)+\mathcal{P}(W|C)\mathcal{P}(C)}\\
+&=& \frac{(0,7)\frac{100}{225}}{(0,5)\frac{50}{225}+(0,6)\frac{75}{225}+(0,7)\frac{100}{225}}\\
+&=&\frac{1}{2}.
+\end{eqnarray*}
+
+\item Considere $E$ o evento em que o aluno cursa engenharia da computação e $F$ o evento em que o aluno é do sexo feminino.
+\begin{itemize}
+\item[a)] $\mathcal{P}(F|E)=\dfrac{\mathcal{P}(F\cap E)}{\mathcal{P}(E)}=\dfrac{0,02}{0,05}=0,40.$
+\item[b)] $\mathcal{P}(E|F)=\dfrac{\mathcal{P}(E\cap F)}{\mathcal{P}(F)}=\dfrac{0,02}{0,52}\simeq 0,038.$
+\end{itemize}
+
+\end{enumerate}
+\end{document}

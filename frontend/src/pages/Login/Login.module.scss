@@ -1,0 +1,93 @@
+@use '../../styles/variables' as *;
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: $bg-primary;
+    background-image: radial-gradient(circle at 50% 0%, rgba(59, 130, 246, 0.2), transparent 60%);
+    padding: $spacing-md;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background-color: $bg-surface;
+    backdrop-filter: blur(16px);
+    border: 1px solid $border-color;
+    border-radius: $radius-xl;
+    padding: $spacing-xl;
+    box-shadow: $shadow-float;
+    text-align: center;
+    animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.logoContainer {
+    margin-bottom: $spacing-xl;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 64px;
+    width: auto;
+    filter: drop-shadow(0 0 20px rgba(59, 130, 246, 0.3));
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $text-primary;
+    margin-bottom: $spacing-sm;
+    letter-spacing: -0.025em;
+}
+
+.subtitle {
+    font-size: 0.875rem;
+    color: $text-secondary;
+    margin-bottom: $spacing-xl;
+    line-height: 1.6;
+}
+
+.googleButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: $spacing-md;
+    width: 100%;
+    padding: $spacing-md;
+    background-color: white;
+    color: #1f1f1f;
+    border-radius: $radius-lg;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        background-color: #f8fafc;
+    }
+
+    &:active {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

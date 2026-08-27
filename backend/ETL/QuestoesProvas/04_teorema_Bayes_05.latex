@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Num exame há \(5\) alternativas para cada questão e apenas uma delas é
+  correta. Um determinado aluno sabe \(25\%\) das questões do exame. Se
+  ele acertou uma determinada questão, qual a probabilidade de que ele
+  tenha "chutado" esta questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.400\)
+  \item
+    \(0.150\)
+  \item
+    \(0.200\)
+  \item
+    \(0.250\)
+  \item
+    \(0.375\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{S} &=& \text{ ``O aluno sabe a questão''}\\
+  \text{C} &=& \text{ ``O aluno chutou a questão''}\\
+  \text{A} &=& \text{ ``O aluno acertou a questão''}
+  \end{aligned}\] Pelo teorema de Bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(C|A) &=& \dfrac{P(A|C)P(C)}{P(A|C)P(C)+P(A|S)P(S)}\\
+  &=& \dfrac{1/5\times0.75}{1/5\times0.75+1\times0.25}\\
+  &=& 0.375.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Num exame há \(5\) alternativas para cada questão e apenas uma delas é
+  correta. Um determinado aluno sabe \(22\%\) das questões do exame. Se
+  ele acertou uma determinada questão, qual a probabilidade de que ele
+  tenha "chutado" esta questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.156\)
+  \item
+    \(0.415\)
+  \item
+    \(0.200\)
+  \item
+    \(0.376\)
+  \item
+    \(0.220\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{S} &=& \text{ ``O aluno sabe a questão''}\\
+  \text{C} &=& \text{ ``O aluno chutou a questão''}\\
+  \text{A} &=& \text{ ``O aluno acertou a questão''}
+  \end{aligned}\] Pelo teorema de Bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(C|A) &=& \dfrac{P(A|C)P(C)}{P(A|C)P(C)+P(A|S)P(S)}\\
+  &=& \dfrac{1/5\times0.78}{1/5\times0.78+1\times0.22}\\
+  &=& 0.415.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Num exame há \(3\) alternativas para cada questão e apenas uma delas é
+  correta. Um determinado aluno sabe \(51\%\) das questões do exame. Se
+  ele acertou uma determinada questão, qual a probabilidade de que ele
+  tenha "chutado" esta questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.333\)
+  \item
+    \(0.673\)
+  \item
+    \(0.510\)
+  \item
+    \(0.163\)
+  \item
+    \(0.243\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{S} &=& \text{ ``O aluno sabe a questão''}\\
+  \text{C} &=& \text{ ``O aluno chutou a questão''}\\
+  \text{A} &=& \text{ ``O aluno acertou a questão''}
+  \end{aligned}\] Pelo teorema de Bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(C|A) &=& \dfrac{P(A|C)P(C)}{P(A|C)P(C)+P(A|S)P(S)}\\
+  &=& \dfrac{1/3\times0.49}{1/3\times0.49+1\times0.51}\\
+  &=& 0.243.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Num exame há \(4\) alternativas para cada questão e apenas uma delas é
+  correta. Um determinado aluno sabe \(48\%\) das questões do exame. Se
+  ele acertou uma determinada questão, qual a probabilidade de que ele
+  tenha "chutado" esta questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.610\)
+  \item
+    \(0.130\)
+  \item
+    \(0.250\)
+  \item
+    \(0.480\)
+  \item
+    \(0.213\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{S} &=& \text{ ``O aluno sabe a questão''}\\
+  \text{C} &=& \text{ ``O aluno chutou a questão''}\\
+  \text{A} &=& \text{ ``O aluno acertou a questão''}
+  \end{aligned}\] Pelo teorema de Bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(C|A) &=& \dfrac{P(A|C)P(C)}{P(A|C)P(C)+P(A|S)P(S)}\\
+  &=& \dfrac{1/4\times0.52}{1/4\times0.52+1\times0.48}\\
+  &=& 0.213.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Num exame há \(3\) alternativas para cada questão e apenas uma delas é
+  correta. Um determinado aluno sabe \(22\%\) das questões do exame. Se
+  ele acertou uma determinada questão, qual a probabilidade de que ele
+  tenha "chutado" esta questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.542\)
+  \item
+    \(0.220\)
+  \item
+    \(0.333\)
+  \item
+    \(0.260\)
+  \item
+    \(0.480\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{S} &=& \text{ ``O aluno sabe a questão''}\\
+  \text{C} &=& \text{ ``O aluno chutou a questão''}\\
+  \text{A} &=& \text{ ``O aluno acertou a questão''}
+  \end{aligned}\] Pelo teorema de Bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(C|A) &=& \dfrac{P(A|C)P(C)}{P(A|C)P(C)+P(A|S)P(S)}\\
+  &=& \dfrac{1/3\times0.78}{1/3\times0.78+1\times0.22}\\
+  &=& 0.542.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Num exame há \(4\) alternativas para cada questão e apenas uma delas é
+  correta. Um determinado aluno sabe \(49\%\) das questões do exame. Se
+  ele acertou uma determinada questão, qual a probabilidade de que ele
+  tenha "chutado" esta questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.618\)
+  \item
+    \(0.250\)
+  \item
+    \(0.206\)
+  \item
+    \(0.490\)
+  \item
+    \(0.128\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{S} &=& \text{ ``O aluno sabe a questão''}\\
+  \text{C} &=& \text{ ``O aluno chutou a questão''}\\
+  \text{A} &=& \text{ ``O aluno acertou a questão''}
+  \end{aligned}\] Pelo teorema de Bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(C|A) &=& \dfrac{P(A|C)P(C)}{P(A|C)P(C)+P(A|S)P(S)}\\
+  &=& \dfrac{1/4\times0.51}{1/4\times0.51+1\times0.49}\\
+  &=& 0.206.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Num exame há \(5\) alternativas para cada questão e apenas uma delas é
+  correta. Um determinado aluno sabe \(21\%\) das questões do exame. Se
+  ele acertou uma determinada questão, qual a probabilidade de que ele
+  tenha "chutado" esta questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.200\)
+  \item
+    \(0.158\)
+  \item
+    \(0.368\)
+  \item
+    \(0.429\)
+  \item
+    \(0.210\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{S} &=& \text{ ``O aluno sabe a questão''}\\
+  \text{C} &=& \text{ ``O aluno chutou a questão''}\\
+  \text{A} &=& \text{ ``O aluno acertou a questão''}
+  \end{aligned}\] Pelo teorema de Bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(C|A) &=& \dfrac{P(A|C)P(C)}{P(A|C)P(C)+P(A|S)P(S)}\\
+  &=& \dfrac{1/5\times0.79}{1/5\times0.79+1\times0.21}\\
+  &=& 0.429.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Num exame há \(4\) alternativas para cada questão e apenas uma delas é
+  correta. Um determinado aluno sabe \(30\%\) das questões do exame. Se
+  ele acertou uma determinada questão, qual a probabilidade de que ele
+  tenha "chutado" esta questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(0.475\)
+  \item
+    \(0.368\)
+  \item
+    \(0.300\)
+  \item
+    \(0.175\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{S} &=& \text{ ``O aluno sabe a questão''}\\
+  \text{C} &=& \text{ ``O aluno chutou a questão''}\\
+  \text{A} &=& \text{ ``O aluno acertou a questão''}
+  \end{aligned}\] Pelo teorema de Bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(C|A) &=& \dfrac{P(A|C)P(C)}{P(A|C)P(C)+P(A|S)P(S)}\\
+  &=& \dfrac{1/4\times0.7}{1/4\times0.7+1\times0.3}\\
+  &=& 0.368.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Num exame há \(5\) alternativas para cada questão e apenas uma delas é
+  correta. Um determinado aluno sabe \(24\%\) das questões do exame. Se
+  ele acertou uma determinada questão, qual a probabilidade de que ele
+  tenha "chutado" esta questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.392\)
+  \item
+    \(0.200\)
+  \item
+    \(0.240\)
+  \item
+    \(0.152\)
+  \item
+    \(0.388\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{S} &=& \text{ ``O aluno sabe a questão''}\\
+  \text{C} &=& \text{ ``O aluno chutou a questão''}\\
+  \text{A} &=& \text{ ``O aluno acertou a questão''}
+  \end{aligned}\] Pelo teorema de Bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(C|A) &=& \dfrac{P(A|C)P(C)}{P(A|C)P(C)+P(A|S)P(S)}\\
+  &=& \dfrac{1/5\times0.76}{1/5\times0.76+1\times0.24}\\
+  &=& 0.388.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Num exame há \(5\) alternativas para cada questão e apenas uma delas é
+  correta. Um determinado aluno sabe \(45\%\) das questões do exame. Se
+  ele acertou uma determinada questão, qual a probabilidade de que ele
+  tenha "chutado" esta questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.450\)
+  \item
+    \(0.560\)
+  \item
+    \(0.196\)
+  \item
+    \(0.200\)
+  \item
+    \(0.110\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{S} &=& \text{ ``O aluno sabe a questão''}\\
+  \text{C} &=& \text{ ``O aluno chutou a questão''}\\
+  \text{A} &=& \text{ ``O aluno acertou a questão''}
+  \end{aligned}\] Pelo teorema de Bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(C|A) &=& \dfrac{P(A|C)P(C)}{P(A|C)P(C)+P(A|S)P(S)}\\
+  &=& \dfrac{1/5\times0.55}{1/5\times0.55+1\times0.45}\\
+  &=& 0.196.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,382 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o número de microorganismos em uma cultura de proliferação
+  cuja Função de Distribuição Acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \leq 10.77) = 0.34\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.100\)
+  \item
+    \(0.050\)
+  \item
+    \(0.020\)
+  \item
+    \(0.039\)
+  \item
+    \(0.077\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Tem-se que \(1-e^{-\lambda 10.77} = 0.34\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{\ln(0.66)}{10.77} = 0.039.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o número de microorganismos em uma cultura de proliferação
+  cuja Função de Distribuição Acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \leq 14.97) = 0.48\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.049\)
+  \item
+    \(0.044\)
+  \item
+    \(0.087\)
+  \item
+    \(0.022\)
+  \item
+    \(0.025\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Tem-se que \(1-e^{-\lambda 14.97} = 0.48\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{\ln(0.52)}{14.97} = 0.044.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o número de microorganismos em uma cultura de proliferação
+  cuja Função de Distribuição Acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \leq 15.25) = 0.28\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.042\)
+  \item
+    \(0.043\)
+  \item
+    \(0.011\)
+  \item
+    \(0.022\)
+  \item
+    \(0.083\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Tem-se que \(1-e^{-\lambda 15.25} = 0.28\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{\ln(0.72)}{15.25} = 0.022.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o número de microorganismos em uma cultura de proliferação
+  cuja Função de Distribuição Acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \leq 18.91) = 0.44\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.031\)
+  \item
+    \(0.043\)
+  \item
+    \(0.022\)
+  \item
+    \(0.016\)
+  \item
+    \(0.061\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Tem-se que \(1-e^{-\lambda 18.91} = 0.44\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{\ln(0.56)}{18.91} = 0.031.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o número de microorganismos em uma cultura de proliferação
+  cuja Função de Distribuição Acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \leq 17.12) = 0.31\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.068\)
+  \item
+    \(0.022\)
+  \item
+    \(0.011\)
+  \item
+    \(0.043\)
+  \item
+    \(0.034\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Tem-se que \(1-e^{-\lambda 17.12} = 0.31\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{\ln(0.69)}{17.12} = 0.022.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o número de microorganismos em uma cultura de proliferação
+  cuja Função de Distribuição Acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \leq 19.3) = 0.14\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.051\)
+  \item
+    \(0.102\)
+  \item
+    \(0.008\)
+  \item
+    \(0.004\)
+  \item
+    \(0.016\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Tem-se que \(1-e^{-\lambda 19.3} = 0.14\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{\ln(0.86)}{19.3} = 0.008.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o número de microorganismos em uma cultura de proliferação
+  cuja Função de Distribuição Acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \leq 18.68) = 0.11\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.003\)
+  \item
+    \(0.059\)
+  \item
+    \(0.006\)
+  \item
+    \(0.012\)
+  \item
+    \(0.118\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Tem-se que \(1-e^{-\lambda 18.68} = 0.11\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{\ln(0.89)}{18.68} = 0.006.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o número de microorganismos em uma cultura de proliferação
+  cuja Função de Distribuição Acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \leq 19.17) = 0.43\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.029\)
+  \item
+    \(0.059\)
+  \item
+    \(0.044\)
+  \item
+    \(0.022\)
+  \item
+    \(0.015\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Tem-se que \(1-e^{-\lambda 19.17} = 0.43\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{\ln(0.57)}{19.17} = 0.029.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o número de microorganismos em uma cultura de proliferação
+  cuja Função de Distribuição Acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \leq 16.25) = 0.12\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.008\)
+  \item
+    \(0.004\)
+  \item
+    \(0.016\)
+  \item
+    \(0.065\)
+  \item
+    \(0.130\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Tem-se que \(1-e^{-\lambda 16.25} = 0.12\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{\ln(0.88)}{16.25} = 0.008.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o número de microorganismos em uma cultura de proliferação
+  cuja Função de Distribuição Acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \leq 13.58) = 0.35\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.063\)
+  \item
+    \(0.016\)
+  \item
+    \(0.039\)
+  \item
+    \(0.077\)
+  \item
+    \(0.032\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Tem-se que \(1-e^{-\lambda 13.58} = 0.35\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{\ln(0.65)}{13.58} = 0.032.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

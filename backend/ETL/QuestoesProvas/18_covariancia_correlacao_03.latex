@@ -1,0 +1,891 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa, foram registradas duas variáveis: \(X\),
+  referente ao número de faltas, e \(Y\), referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.14 & 0.02 \\
+  2 & 0.11 & 0.07 \\
+  4 & 0.12 & 0.54 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 3.16\), \(E\left(X^2\right) = 11.44\),
+  \(E(Y) = 1.63\) e \(E\left(Y^2\right) = 2.89\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.396\)
+  \item
+    \(0.230\)
+  \item
+    \(0.329\)
+  \item
+    \(0.566\)
+  \item
+    \(0.434\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.14 & 0.02 & 0.16 \\
+  2 & 0.11 & 0.07 & 0.18 \\
+  4 & 0.12 & 0.54 & 0.66 \\
+  P(Y=y) & 0.37 & 0.63 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 11.44-(3.16)^2 = 1.454\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.89-(1.63)^2 = 0.233
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.14 & 0.13 & 0.19 & 0.54 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.14+2\times0.13+4\times0.19+8\times0.54 = 5.48\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.566\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa, foram registradas duas variáveis: \(X\),
+  referente ao número de faltas, e \(Y\), referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.29 & 0.37 \\
+  2 & 0.13 & 0.11 \\
+  4 & 0.08 & 0.02 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 1.54\), \(E\left(X^2\right) = 3.22\),
+  \(E(Y) = 1.5\) e \(E\left(Y^2\right) = 2.5\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.070\)
+  \item
+    \(-0.217\)
+  \item
+    \(-0.152\)
+  \item
+    \(-0.100\)
+  \item
+    \(0.783\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.29 & 0.37 & 0.66 \\
+  2 & 0.13 & 0.11 & 0.24 \\
+  4 & 0.08 & 0.02 & 0.1 \\
+  P(Y=y) & 0.5 & 0.5 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 3.22-(1.54)^2 = 0.848\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.5-(1.5)^2 = 0.25
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.29 & 0.5 & 0.19 & 0.02 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.29+2\times0.5+4\times0.19+8\times0.02 = 2.21\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = -0.217\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa, foram registradas duas variáveis: \(X\),
+  referente ao número de faltas, e \(Y\), referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.08 & 0.18 \\
+  2 & 0.06 & 0.43 \\
+  4 & 0.05 & 0.2 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 2.24\), \(E\left(X^2\right) = 6.22\),
+  \(E(Y) = 1.81\) e \(E\left(Y^2\right) = 3.43\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.060\)
+  \item
+    \(0.940\)
+  \item
+    \(0.026\)
+  \item
+    \(0.042\)
+  \item
+    \(0.018\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.08 & 0.18 & 0.26 \\
+  2 & 0.06 & 0.43 & 0.49 \\
+  4 & 0.05 & 0.2 & 0.25 \\
+  P(Y=y) & 0.19 & 0.81 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 6.22-(2.24)^2 = 1.202\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 3.43-(1.81)^2 = 0.154
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.08 & 0.24 & 0.48 & 0.2 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.08+2\times0.24+4\times0.48+8\times0.2 = 4.08\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.06\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa, foram registradas duas variáveis: \(X\),
+  referente ao número de faltas, e \(Y\), referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.06 & 0.28 \\
+  2 & 0.35 & 0.07 \\
+  4 & 0.01 & 0.23 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 2.14\), \(E\left(X^2\right) = 5.86\),
+  \(E(Y) = 1.58\) e \(E\left(Y^2\right) = 2.74\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.069\)
+  \item
+    \(0.099\)
+  \item
+    \(0.823\)
+  \item
+    \(0.124\)
+  \item
+    \(0.177\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.06 & 0.28 & 0.34 \\
+  2 & 0.35 & 0.07 & 0.42 \\
+  4 & 0.01 & 0.23 & 0.24 \\
+  P(Y=y) & 0.42 & 0.58 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 5.86-(2.14)^2 = 1.28\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.74-(1.58)^2 = 0.244
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.06 & 0.63 & 0.08 & 0.23 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.06+2\times0.63+4\times0.08+8\times0.23 = 3.48\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.177\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa, foram registradas duas variáveis: \(X\),
+  referente ao número de faltas, e \(Y\), referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.02 & 0.1 \\
+  2 & 0.3 & 0.31 \\
+  4 & 0.06 & 0.21 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 2.42\), \(E\left(X^2\right) = 6.88\),
+  \(E(Y) = 1.62\) e \(E\left(Y^2\right) = 2.86\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.042\)
+  \item
+    \(0.085\)
+  \item
+    \(0.121\)
+  \item
+    \(0.879\)
+  \item
+    \(0.060\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.02 & 0.1 & 0.12 \\
+  2 & 0.3 & 0.31 & 0.61 \\
+  4 & 0.06 & 0.21 & 0.27 \\
+  P(Y=y) & 0.38 & 0.62 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 6.88-(2.42)^2 = 1.024\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.86-(1.62)^2 = 0.236
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.02 & 0.4 & 0.37 & 0.21 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.02+2\times0.4+4\times0.37+8\times0.21 = 3.98\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.121\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa, foram registradas duas variáveis: \(X\),
+  referente ao número de faltas, e \(Y\), referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0 & 0.06 \\
+  2 & 0.24 & 0.22 \\
+  4 & 0.08 & 0.4 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 2.9\), \(E\left(X^2\right) = 9.58\),
+  \(E(Y) = 1.68\) e \(E\left(Y^2\right) = 3.04\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.128\)
+  \item
+    \(0.253\)
+  \item
+    \(0.090\)
+  \item
+    \(0.747\)
+  \item
+    \(0.177\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0 & 0.06 & 0.06 \\
+  2 & 0.24 & 0.22 & 0.46 \\
+  4 & 0.08 & 0.4 & 0.48 \\
+  P(Y=y) & 0.32 & 0.68 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 9.58-(2.9)^2 = 1.17\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 3.04-(1.68)^2 = 0.218
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0 & 0.3 & 0.3 & 0.4 \\
+  \end{longtable}
+
+  De modo que \[E(XY) = 1\times0+2\times0.3+4\times0.3+8\times0.4 = 5\]
+  e, portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.253\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa, foram registradas duas variáveis: \(X\),
+  referente ao número de faltas, e \(Y\), referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.22 & 0.08 \\
+  2 & 0.41 & 0.05 \\
+  4 & 0.24 & 0 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 2.18\), \(E\left(X^2\right) = 5.98\),
+  \(E(Y) = 1.13\) e \(E\left(Y^2\right) = 1.39\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.072\)
+  \item
+    \(0.722\)
+  \item
+    \(-0.103\)
+  \item
+    \(-0.195\)
+  \item
+    \(-0.278\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.22 & 0.08 & 0.3 \\
+  2 & 0.41 & 0.05 & 0.46 \\
+  4 & 0.24 & 0 & 0.24 \\
+  P(Y=y) & 0.87 & 0.13 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 5.98-(2.18)^2 = 1.228\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 1.39-(1.13)^2 = 0.113
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.22 & 0.49 & 0.29 & 0 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.22+2\times0.49+4\times0.29+8\times0 = 2.36\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = -0.278\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa, foram registradas duas variáveis: \(X\),
+  referente ao número de faltas, e \(Y\), referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.24 & 0.22 \\
+  2 & 0.07 & 0.15 \\
+  4 & 0.12 & 0.2 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 2.18\), \(E\left(X^2\right) = 6.46\),
+  \(E(Y) = 1.57\) e \(E\left(Y^2\right) = 2.71\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.084\)
+  \item
+    \(0.054\)
+  \item
+    \(0.120\)
+  \item
+    \(0.077\)
+  \item
+    \(0.880\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.24 & 0.22 & 0.46 \\
+  2 & 0.07 & 0.15 & 0.22 \\
+  4 & 0.12 & 0.2 & 0.32 \\
+  P(Y=y) & 0.43 & 0.57 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 6.46-(2.18)^2 = 1.708\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.71-(1.57)^2 = 0.245
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.24 & 0.29 & 0.27 & 0.2 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.24+2\times0.29+4\times0.27+8\times0.2 = 3.5\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.12\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa, foram registradas duas variáveis: \(X\),
+  referente ao número de faltas, e \(Y\), referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.11 & 0.18 \\
+  2 & 0.13 & 0.2 \\
+  4 & 0.09 & 0.29 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 2.47\), \(E\left(X^2\right) = 7.69\),
+  \(E(Y) = 1.67\) e \(E\left(Y^2\right) = 3.01\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.060\)
+  \item
+    \(0.856\)
+  \item
+    \(0.144\)
+  \item
+    \(0.085\)
+  \item
+    \(0.101\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.11 & 0.18 & 0.29 \\
+  2 & 0.13 & 0.2 & 0.33 \\
+  4 & 0.09 & 0.29 & 0.38 \\
+  P(Y=y) & 0.33 & 0.67 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 7.69-(2.47)^2 = 1.589\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 3.01-(1.67)^2 = 0.221
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.11 & 0.31 & 0.29 & 0.29 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.11+2\times0.31+4\times0.29+8\times0.29 = 4.21\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.144\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada empresa, foram registradas duas variáveis: \(X\),
+  referente ao número de faltas, e \(Y\), referente ao desempenho que é
+  avaliado internamente. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.06 & 0.09 \\
+  2 & 0.01 & 0.61 \\
+  4 & 0.08 & 0.15 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 2.31\), \(E\left(X^2\right) = 6.31\),
+  \(E(Y) = 1.85\) e \(E\left(Y^2\right) = 3.55\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.038\)
+  \item
+    \(-0.054\)
+  \item
+    \(0.848\)
+  \item
+    \(-0.106\)
+  \item
+    \(-0.152\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.06 & 0.09 & 0.15 \\
+  2 & 0.01 & 0.61 & 0.62 \\
+  4 & 0.08 & 0.15 & 0.23 \\
+  P(Y=y) & 0.15 & 0.85 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 6.31-(2.31)^2 = 0.974\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 3.55-(1.85)^2 = 0.127
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 4 & 8 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.06 & 0.1 & 0.69 & 0.15 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 1\times0.06+2\times0.1+4\times0.69+8\times0.15 = 4.22\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = -0.152\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

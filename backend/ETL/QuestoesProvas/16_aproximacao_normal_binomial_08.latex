@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O Comitê organizador de um congresso científico reservou 4 hotéis para
+  hospedar os 38 congressistas inscritos. Admita que cada congressista
+  escolherá de forma aleatória e independente em qual dos 4 hotéis vai
+  se hospedar. O primeiro dos hotéis tem capacidade para acomodar 6
+  pessoas. Qual a probabilidade de que ele consiga acomodar todos os
+  congressistas que o procurarem? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.312\)
+  \item
+    \(0.095\)
+  \item
+    \(0.356\)
+  \item
+    \(0.644\)
+  \item
+    \(0.688\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de congressistas que se dirigem ao primeiro hotel,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=38\) e \(p=0.25\). Visto
+  que \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel
+  utilizar a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(9.5,2.67)\). E probabilidade desejada é dada por
+  \[P(X \leq 6 ) = P \left( Z \leq \dfrac{6 - 38 \times 0.25}{\sqrt{38 \times 0.25 \times 0.75}} \right) = P(Z < -1.31) = 0.095.\]
+  Logo, a probabilidade de que o primeiro hotel consiga acomodar todos
+  os congressistas que o procurarem é 9.5\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Comitê organizador de um congresso científico reservou 5 hotéis para
+  hospedar os 36 congressistas inscritos. Admita que cada congressista
+  escolherá de forma aleatória e independente em qual dos 5 hotéis vai
+  se hospedar. O primeiro dos hotéis tem capacidade para acomodar 9
+  pessoas. Qual a probabilidade de que ele consiga acomodar todos os
+  congressistas que o procurarem? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.773\)
+  \item
+    \(0.401\)
+  \item
+    \(0.378\)
+  \item
+    \(0.622\)
+  \item
+    \(0.599\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de congressistas que se dirigem ao primeiro hotel,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=36\) e \(p=0.2\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(7.2,2.4)\). E probabilidade desejada é dada por
+  \[P(X \leq 9 ) = P \left( Z \leq \dfrac{9 - 36 \times 0.2}{\sqrt{36 \times 0.2 \times 0.8}} \right) = P(Z < 0.75) = 0.773.\]
+  Logo, a probabilidade de que o primeiro hotel consiga acomodar todos
+  os congressistas que o procurarem é 77.3\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Comitê organizador de um congresso científico reservou 4 hotéis para
+  hospedar os 38 congressistas inscritos. Admita que cada congressista
+  escolherá de forma aleatória e independente em qual dos 4 hotéis vai
+  se hospedar. O primeiro dos hotéis tem capacidade para acomodar 12
+  pessoas. Qual a probabilidade de que ele consiga acomodar todos os
+  congressistas que o procurarem? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.603\)
+  \item
+    \(0.363\)
+  \item
+    \(0.826\)
+  \item
+    \(0.397\)
+  \item
+    \(0.637\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de congressistas que se dirigem ao primeiro hotel,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=38\) e \(p=0.25\). Visto
+  que \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel
+  utilizar a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(9.5,2.67)\). E probabilidade desejada é dada por
+  \[P(X \leq 12 ) = P \left( Z \leq \dfrac{12 - 38 \times 0.25}{\sqrt{38 \times 0.25 \times 0.75}} \right) = P(Z < 0.94) = 0.826.\]
+  Logo, a probabilidade de que o primeiro hotel consiga acomodar todos
+  os congressistas que o procurarem é 82.6\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Comitê organizador de um congresso científico reservou 4 hotéis para
+  hospedar os 32 congressistas inscritos. Admita que cada congressista
+  escolherá de forma aleatória e independente em qual dos 4 hotéis vai
+  se hospedar. O primeiro dos hotéis tem capacidade para acomodar 5
+  pessoas. Qual a probabilidade de que ele consiga acomodar todos os
+  congressistas que o procurarem? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.648\)
+  \item
+    \(0.309\)
+  \item
+    \(0.352\)
+  \item
+    \(0.111\)
+  \item
+    \(0.691\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de congressistas que se dirigem ao primeiro hotel,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=32\) e \(p=0.25\). Visto
+  que \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel
+  utilizar a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(8,2.45)\). E probabilidade desejada é dada por
+  \[P(X \leq 5 ) = P \left( Z \leq \dfrac{5 - 32 \times 0.25}{\sqrt{32 \times 0.25 \times 0.75}} \right) = P(Z < -1.22) = 0.111.\]
+  Logo, a probabilidade de que o primeiro hotel consiga acomodar todos
+  os congressistas que o procurarem é 11.1\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Comitê organizador de um congresso científico reservou 3 hotéis para
+  hospedar os 30 congressistas inscritos. Admita que cada congressista
+  escolherá de forma aleatória e independente em qual dos 3 hotéis vai
+  se hospedar. O primeiro dos hotéis tem capacidade para acomodar 13
+  pessoas. Qual a probabilidade de que ele consiga acomodar todos os
+  congressistas que o procurarem? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.674\)
+  \item
+    \(0.382\)
+  \item
+    \(0.618\)
+  \item
+    \(0.877\)
+  \item
+    \(0.326\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de congressistas que se dirigem ao primeiro hotel,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=30\) e \(p=0.33\). Visto
+  que \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel
+  utilizar a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(10,2.58)\). E probabilidade desejada é dada por
+  \[P(X \leq 13 ) = P \left( Z \leq \dfrac{13 - 30 \times 0.33}{\sqrt{30 \times 0.33 \times 0.67}} \right) = P(Z < 1.16) = 0.877.\]
+  Logo, a probabilidade de que o primeiro hotel consiga acomodar todos
+  os congressistas que o procurarem é 87.7\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Comitê organizador de um congresso científico reservou 5 hotéis para
+  hospedar os 34 congressistas inscritos. Admita que cada congressista
+  escolherá de forma aleatória e independente em qual dos 5 hotéis vai
+  se hospedar. O primeiro dos hotéis tem capacidade para acomodar 5
+  pessoas. Qual a probabilidade de que ele consiga acomodar todos os
+  congressistas que o procurarem? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.221\)
+  \item
+    \(0.629\)
+  \item
+    \(0.603\)
+  \item
+    \(0.397\)
+  \item
+    \(0.371\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de congressistas que se dirigem ao primeiro hotel,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=34\) e \(p=0.2\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(6.8,2.33)\). E probabilidade desejada é dada por
+  \[P(X \leq 5 ) = P \left( Z \leq \dfrac{5 - 34 \times 0.2}{\sqrt{34 \times 0.2 \times 0.8}} \right) = P(Z < -0.77) = 0.221.\]
+  Logo, a probabilidade de que o primeiro hotel consiga acomodar todos
+  os congressistas que o procurarem é 22.1\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Comitê organizador de um congresso científico reservou 3 hotéis para
+  hospedar os 32 congressistas inscritos. Admita que cada congressista
+  escolherá de forma aleatória e independente em qual dos 3 hotéis vai
+  se hospedar. O primeiro dos hotéis tem capacidade para acomodar 8
+  pessoas. Qual a probabilidade de que ele consiga acomodar todos os
+  congressistas que o procurarem? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.159\)
+  \item
+    \(0.401\)
+  \item
+    \(0.644\)
+  \item
+    \(0.599\)
+  \item
+    \(0.356\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de congressistas que se dirigem ao primeiro hotel,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=32\) e \(p=0.33\). Visto
+  que \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel
+  utilizar a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(10.67,2.67)\). E probabilidade desejada é dada por
+  \[P(X \leq 8 ) = P \left( Z \leq \dfrac{8 - 32 \times 0.33}{\sqrt{32 \times 0.33 \times 0.67}} \right) = P(Z < -1) = 0.159.\]
+  Logo, a probabilidade de que o primeiro hotel consiga acomodar todos
+  os congressistas que o procurarem é 15.9\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Comitê organizador de um congresso científico reservou 5 hotéis para
+  hospedar os 30 congressistas inscritos. Admita que cada congressista
+  escolherá de forma aleatória e independente em qual dos 5 hotéis vai
+  se hospedar. O primeiro dos hotéis tem capacidade para acomodar 3
+  pessoas. Qual a probabilidade de que ele consiga acomodar todos os
+  congressistas que o procurarem? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.268\)
+  \item
+    \(0.309\)
+  \item
+    \(0.085\)
+  \item
+    \(0.691\)
+  \item
+    \(0.732\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de congressistas que se dirigem ao primeiro hotel,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=30\) e \(p=0.2\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(6,2.19)\). E probabilidade desejada é dada por
+  \[P(X \leq 3 ) = P \left( Z \leq \dfrac{3 - 30 \times 0.2}{\sqrt{30 \times 0.2 \times 0.8}} \right) = P(Z < -1.37) = 0.085.\]
+  Logo, a probabilidade de que o primeiro hotel consiga acomodar todos
+  os congressistas que o procurarem é 8.5\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Comitê organizador de um congresso científico reservou 3 hotéis para
+  hospedar os 40 congressistas inscritos. Admita que cada congressista
+  escolherá de forma aleatória e independente em qual dos 3 hotéis vai
+  se hospedar. O primeiro dos hotéis tem capacidade para acomodar 11
+  pessoas. Qual a probabilidade de que ele consiga acomodar todos os
+  congressistas que o procurarem? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.218\)
+  \item
+    \(0.603\)
+  \item
+    \(0.567\)
+  \item
+    \(0.433\)
+  \item
+    \(0.397\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de congressistas que se dirigem ao primeiro hotel,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=40\) e \(p=0.33\). Visto
+  que \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel
+  utilizar a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(13.33,2.98)\). E probabilidade desejada é dada por
+  \[P(X \leq 11 ) = P \left( Z \leq \dfrac{11 - 40 \times 0.33}{\sqrt{40 \times 0.33 \times 0.67}} \right) = P(Z < -0.78) = 0.218.\]
+  Logo, a probabilidade de que o primeiro hotel consiga acomodar todos
+  os congressistas que o procurarem é 21.8\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Comitê organizador de um congresso científico reservou 5 hotéis para
+  hospedar os 38 congressistas inscritos. Admita que cada congressista
+  escolherá de forma aleatória e independente em qual dos 5 hotéis vai
+  se hospedar. O primeiro dos hotéis tem capacidade para acomodar 6
+  pessoas. Qual a probabilidade de que ele consiga acomodar todos os
+  congressistas que o procurarem? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.397\)
+  \item
+    \(0.583\)
+  \item
+    \(0.603\)
+  \item
+    \(0.417\)
+  \item
+    \(0.258\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de congressistas que se dirigem ao primeiro hotel,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=38\) e \(p=0.2\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(7.6,2.47)\). E probabilidade desejada é dada por
+  \[P(X \leq 6 ) = P \left( Z \leq \dfrac{6 - 38 \times 0.2}{\sqrt{38 \times 0.2 \times 0.8}} \right) = P(Z < -0.65) = 0.258.\]
+  Logo, a probabilidade de que o primeiro hotel consiga acomodar todos
+  os congressistas que o procurarem é 25.8\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

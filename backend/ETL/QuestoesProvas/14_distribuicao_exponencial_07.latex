@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição exponencial com
+  parâmetro \(\lambda=8\). Qual o valor de \(E(X-18)^2\) ~?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(311.75\)
+  \item
+    \(319.53\)
+  \item
+    \(321.77\)
+  \item
+    \(329.52\)
+  \item
+    \(323.98\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim Exp(8)\),
+  \(\text{Var}(X)=\frac{1}{\lambda^2}=\frac{1}{8^2}\) e
+  \(E(X)=\frac{1}{\lambda}=\frac{1}{8}\). Além disso,
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 0.031.\]
+  A partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-18\right)^2 &=& E\left(X^2-36X+18^2\right)\\
+  &=& E\left(X^2\right)-36E(X)+18^2\\
+  &=& 0.03-4.50 +324\\
+  &=& 319.53
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição exponencial com
+  parâmetro \(\lambda=6\). Qual o valor de \(E(X-14)^2\) ~?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(201.36\)
+  \item
+    \(183.67\)
+  \item
+    \(193.69\)
+  \item
+    \(191.39\)
+  \item
+    \(195.97\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim Exp(6)\),
+  \(\text{Var}(X)=\frac{1}{\lambda^2}=\frac{1}{6^2}\) e
+  \(E(X)=\frac{1}{\lambda}=\frac{1}{6}\). Além disso,
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 0.056.\]
+  A partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-14\right)^2 &=& E\left(X^2-28X+14^2\right)\\
+  &=& E\left(X^2\right)-28E(X)+14^2\\
+  &=& 0.06-4.67 +196\\
+  &=& 191.39
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição exponencial com
+  parâmetro \(\lambda=10\). Qual o valor de \(E(X-25)^2\) ~?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(624.99\)
+  \item
+    \(630.01\)
+  \item
+    \(620.02\)
+  \item
+    \(622.51\)
+  \item
+    \(612.50\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim Exp(10)\),
+  \(\text{Var}(X)=\frac{1}{\lambda^2}=\frac{1}{10^2}\) e
+  \(E(X)=\frac{1}{\lambda}=\frac{1}{10}\). Além disso,
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 0.02.\] A
+  partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-25\right)^2 &=& E\left(X^2-50X+25^2\right)\\
+  &=& E\left(X^2\right)-50E(X)+25^2\\
+  &=& 0.02-5.00 +625\\
+  &=& 620.02
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição exponencial com
+  parâmetro \(\lambda=7\). Qual o valor de \(E(X-24)^2\) ~?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(569.18\)
+  \item
+    \(575.98\)
+  \item
+    \(572.59\)
+  \item
+    \(579.16\)
+  \item
+    \(562.57\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim Exp(7)\),
+  \(\text{Var}(X)=\frac{1}{\lambda^2}=\frac{1}{7^2}\) e
+  \(E(X)=\frac{1}{\lambda}=\frac{1}{7}\). Além disso,
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 0.041.\]
+  A partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-24\right)^2 &=& E\left(X^2-48X+24^2\right)\\
+  &=& E\left(X^2\right)-48E(X)+24^2\\
+  &=& 0.04-6.86 +576\\
+  &=& 569.18
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição exponencial com
+  parâmetro \(\lambda=10\). Qual o valor de \(E(X-11)^2\) ~?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(128.81\)
+  \item
+    \(109.90\)
+  \item
+    \(119.91\)
+  \item
+    \(118.82\)
+  \item
+    \(120.99\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim Exp(10)\),
+  \(\text{Var}(X)=\frac{1}{\lambda^2}=\frac{1}{10^2}\) e
+  \(E(X)=\frac{1}{\lambda}=\frac{1}{10}\). Além disso,
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 0.02.\] A
+  partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-11\right)^2 &=& E\left(X^2-22X+11^2\right)\\
+  &=& E\left(X^2\right)-22E(X)+11^2\\
+  &=& 0.02-2.20 +121\\
+  &=& 118.82
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição exponencial com
+  parâmetro \(\lambda=7\). Qual o valor de \(E(X-16)^2\) ~?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(243.71\)
+  \item
+    \(255.98\)
+  \item
+    \(261.45\)
+  \item
+    \(253.73\)
+  \item
+    \(251.47\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim Exp(7)\),
+  \(\text{Var}(X)=\frac{1}{\lambda^2}=\frac{1}{7^2}\) e
+  \(E(X)=\frac{1}{\lambda}=\frac{1}{7}\). Além disso,
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 0.041.\]
+  A partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-16\right)^2 &=& E\left(X^2-32X+16^2\right)\\
+  &=& E\left(X^2\right)-32E(X)+16^2\\
+  &=& 0.04-4.57 +256\\
+  &=& 251.47
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição exponencial com
+  parâmetro \(\lambda=9\). Qual o valor de \(E(X-12)^2\) ~?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(143.99\)
+  \item
+    \(141.36\)
+  \item
+    \(132.67\)
+  \item
+    \(142.68\)
+  \item
+    \(151.35\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim Exp(9)\),
+  \(\text{Var}(X)=\frac{1}{\lambda^2}=\frac{1}{9^2}\) e
+  \(E(X)=\frac{1}{\lambda}=\frac{1}{9}\). Além disso,
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 0.025.\]
+  A partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-12\right)^2 &=& E\left(X^2-24X+12^2\right)\\
+  &=& E\left(X^2\right)-24E(X)+12^2\\
+  &=& 0.03-2.67 +144\\
+  &=& 141.36
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição exponencial com
+  parâmetro \(\lambda=10\). Qual o valor de \(E(X-23)^2\) ~?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(528.99\)
+  \item
+    \(526.71\)
+  \item
+    \(534.41\)
+  \item
+    \(516.70\)
+  \item
+    \(524.42\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim Exp(10)\),
+  \(\text{Var}(X)=\frac{1}{\lambda^2}=\frac{1}{10^2}\) e
+  \(E(X)=\frac{1}{\lambda}=\frac{1}{10}\). Além disso,
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 0.02.\] A
+  partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-23\right)^2 &=& E\left(X^2-46X+23^2\right)\\
+  &=& E\left(X^2\right)-46E(X)+23^2\\
+  &=& 0.02-4.60 +529\\
+  &=& 524.42
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição exponencial com
+  parâmetro \(\lambda=7\). Qual o valor de \(E(X-1)^2\) ~?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.76\)
+  \item
+    \(0.88\)
+  \item
+    \(-9.14\)
+  \item
+    \(10.73\)
+  \item
+    \(0.98\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim Exp(7)\),
+  \(\text{Var}(X)=\frac{1}{\lambda^2}=\frac{1}{7^2}\) e
+  \(E(X)=\frac{1}{\lambda}=\frac{1}{7}\). Além disso,
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 0.041.\]
+  A partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-1\right)^2 &=& E\left(X^2-2X+1^2\right)\\
+  &=& E\left(X^2\right)-2E(X)+1^2\\
+  &=& 0.04-0.29 +1\\
+  &=& 0.76
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição exponencial com
+  parâmetro \(\lambda=7\). Qual o valor de \(E(X-3)^2\) ~?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(18.16\)
+  \item
+    \(-1.43\)
+  \item
+    \(8.18\)
+  \item
+    \(8.98\)
+  \item
+    \(8.59\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim Exp(7)\),
+  \(\text{Var}(X)=\frac{1}{\lambda^2}=\frac{1}{7^2}\) e
+  \(E(X)=\frac{1}{\lambda}=\frac{1}{7}\). Além disso,
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 0.041.\]
+  A partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-3\right)^2 &=& E\left(X^2-6X+3^2\right)\\
+  &=& E\left(X^2\right)-6E(X)+3^2\\
+  &=& 0.04-0.86 +9\\
+  &=& 8.18
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

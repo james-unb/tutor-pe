@@ -1,0 +1,602 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;p)={m\choose x} p^x (1-p)^{m-x}\), \(0<p<1\) e parâmetro
+  conhecido \(m=10\). Considere \[6 \ \ \ 5 \ \ \ 3 \ \ \ 5 \ \ \ 3\]
+  uma amostra observada de \(X\). Assinale a alternativa correspondente
+  à estimativa de máxima verossimilhança para p desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.12\)
+  \item
+    \(0.76\)
+  \item
+    \(0.84\)
+  \item
+    \(0.44\)
+  \item
+    \(0.05\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;m)=\prod_{i=1}^{n}{m\choose x_i} p^x_i (1-p)^{m-x_i}
+   L(x;m)=p^{\sum_{i=1}^{n}(x_i)}(1-p)^{nm-\sum_{i=1}^{n}(x_i)}\prod_{i=1}^{n}\left(\frac{m!}{(m-x_i)!x_i!}\right).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(p)= \sum_{i=1}^{n}(x_i)\ln(p)+(nm-\sum_{i=1}^{n}(x_i))\ln(1-p)+n\ln(m!)-\sum_{i=1}^{n}(\ln((m-x_i)!x_i!)).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(p\) e igualar a equação a zero, obtém-se
+  \[\begin{aligned}
+  p=\frac{\sum_{i=1}^{n}(x_i)}{nm}
+  \end{aligned}\] Como a segunda derivada com repeito a p é
+  \(\frac{-n\sum_{i=1}^{n}(x_i)}{p^2}-\frac{nm-\sum_{i=1}^{n}(x_i)}{(1-p)^2}<0\),
+  concluimos que o EMV de p é \[\begin{aligned}
+  \hat{p}=\frac{\bar{x}}{m}.
+  \end{aligned}\]
+
+  Tomando a amostra \((6, 5, 3, 5, 3)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{p}=0.44\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;p)={m\choose x} p^x (1-p)^{m-x}\), \(0<p<1\) e parâmetro
+  conhecido \(m=11\). Considere \[7 \ \ \ 4 \ \ \ 6 \ \ \ 4 \ \ \ 6\]
+  uma amostra observada de \(X\). Assinale a alternativa correspondente
+  à estimativa de máxima verossimilhança para p desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.49\)
+  \item
+    \(0.76\)
+  \item
+    \(0.02\)
+  \item
+    \(0.04\)
+  \item
+    \(0.93\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;m)=\prod_{i=1}^{n}{m\choose x_i} p^x_i (1-p)^{m-x_i}
+   L(x;m)=p^{\sum_{i=1}^{n}(x_i)}(1-p)^{nm-\sum_{i=1}^{n}(x_i)}\prod_{i=1}^{n}\left(\frac{m!}{(m-x_i)!x_i!}\right).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(p)= \sum_{i=1}^{n}(x_i)\ln(p)+(nm-\sum_{i=1}^{n}(x_i))\ln(1-p)+n\ln(m!)-\sum_{i=1}^{n}(\ln((m-x_i)!x_i!)).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(p\) e igualar a equação a zero, obtém-se
+  \[\begin{aligned}
+  p=\frac{\sum_{i=1}^{n}(x_i)}{nm}
+  \end{aligned}\] Como a segunda derivada com repeito a p é
+  \(\frac{-n\sum_{i=1}^{n}(x_i)}{p^2}-\frac{nm-\sum_{i=1}^{n}(x_i)}{(1-p)^2}<0\),
+  concluimos que o EMV de p é \[\begin{aligned}
+  \hat{p}=\frac{\bar{x}}{m}.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 4, 6, 4, 6)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{p}=0.491\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;p)={m\choose x} p^x (1-p)^{m-x}\), \(0<p<1\) e parâmetro
+  conhecido \(m=10\). Considere \[6 \ \ \ 4 \ \ \ 8 \ \ \ 5 \ \ \ 7\]
+  uma amostra observada de \(X\). Assinale a alternativa correspondente
+  à estimativa de máxima verossimilhança para p desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.85\)
+  \item
+    \(0.14\)
+  \item
+    \(0.57\)
+  \item
+    \(0.60\)
+  \item
+    \(0.03\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;m)=\prod_{i=1}^{n}{m\choose x_i} p^x_i (1-p)^{m-x_i}
+   L(x;m)=p^{\sum_{i=1}^{n}(x_i)}(1-p)^{nm-\sum_{i=1}^{n}(x_i)}\prod_{i=1}^{n}\left(\frac{m!}{(m-x_i)!x_i!}\right).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(p)= \sum_{i=1}^{n}(x_i)\ln(p)+(nm-\sum_{i=1}^{n}(x_i))\ln(1-p)+n\ln(m!)-\sum_{i=1}^{n}(\ln((m-x_i)!x_i!)).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(p\) e igualar a equação a zero, obtém-se
+  \[\begin{aligned}
+  p=\frac{\sum_{i=1}^{n}(x_i)}{nm}
+  \end{aligned}\] Como a segunda derivada com repeito a p é
+  \(\frac{-n\sum_{i=1}^{n}(x_i)}{p^2}-\frac{nm-\sum_{i=1}^{n}(x_i)}{(1-p)^2}<0\),
+  concluimos que o EMV de p é \[\begin{aligned}
+  \hat{p}=\frac{\bar{x}}{m}.
+  \end{aligned}\]
+
+  Tomando a amostra \((6, 4, 8, 5, 7)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{p}=0.6\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;p)={m\choose x} p^x (1-p)^{m-x}\), \(0<p<1\) e parâmetro
+  conhecido \(m=14\). Considere \[3 \ \ \ 8 \ \ \ 3 \ \ \ 4 \ \ \ 7\]
+  uma amostra observada de \(X\). Assinale a alternativa correspondente
+  à estimativa de máxima verossimilhança para p desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.83\)
+  \item
+    \(0.36\)
+  \item
+    \(0.04\)
+  \item
+    \(0.29\)
+  \item
+    \(0.69\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;m)=\prod_{i=1}^{n}{m\choose x_i} p^x_i (1-p)^{m-x_i}
+   L(x;m)=p^{\sum_{i=1}^{n}(x_i)}(1-p)^{nm-\sum_{i=1}^{n}(x_i)}\prod_{i=1}^{n}\left(\frac{m!}{(m-x_i)!x_i!}\right).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(p)= \sum_{i=1}^{n}(x_i)\ln(p)+(nm-\sum_{i=1}^{n}(x_i))\ln(1-p)+n\ln(m!)-\sum_{i=1}^{n}(\ln((m-x_i)!x_i!)).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(p\) e igualar a equação a zero, obtém-se
+  \[\begin{aligned}
+  p=\frac{\sum_{i=1}^{n}(x_i)}{nm}
+  \end{aligned}\] Como a segunda derivada com repeito a p é
+  \(\frac{-n\sum_{i=1}^{n}(x_i)}{p^2}-\frac{nm-\sum_{i=1}^{n}(x_i)}{(1-p)^2}<0\),
+  concluimos que o EMV de p é \[\begin{aligned}
+  \hat{p}=\frac{\bar{x}}{m}.
+  \end{aligned}\]
+
+  Tomando a amostra \((3, 8, 3, 4, 7)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{p}=0.357\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;p)={m\choose x} p^x (1-p)^{m-x}\), \(0<p<1\) e parâmetro
+  conhecido \(m=11\). Considere \[7 \ \ \ 5 \ \ \ 7 \ \ \ 3 \ \ \ 6\]
+  uma amostra observada de \(X\). Assinale a alternativa correspondente
+  à estimativa de máxima verossimilhança para p desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.94\)
+  \item
+    \(0.04\)
+  \item
+    \(0.71\)
+  \item
+    \(0.27\)
+  \item
+    \(0.51\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;m)=\prod_{i=1}^{n}{m\choose x_i} p^x_i (1-p)^{m-x_i}
+   L(x;m)=p^{\sum_{i=1}^{n}(x_i)}(1-p)^{nm-\sum_{i=1}^{n}(x_i)}\prod_{i=1}^{n}\left(\frac{m!}{(m-x_i)!x_i!}\right).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(p)= \sum_{i=1}^{n}(x_i)\ln(p)+(nm-\sum_{i=1}^{n}(x_i))\ln(1-p)+n\ln(m!)-\sum_{i=1}^{n}(\ln((m-x_i)!x_i!)).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(p\) e igualar a equação a zero, obtém-se
+  \[\begin{aligned}
+  p=\frac{\sum_{i=1}^{n}(x_i)}{nm}
+  \end{aligned}\] Como a segunda derivada com repeito a p é
+  \(\frac{-n\sum_{i=1}^{n}(x_i)}{p^2}-\frac{nm-\sum_{i=1}^{n}(x_i)}{(1-p)^2}<0\),
+  concluimos que o EMV de p é \[\begin{aligned}
+  \hat{p}=\frac{\bar{x}}{m}.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 5, 7, 3, 6)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{p}=0.509\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;p)={m\choose x} p^x (1-p)^{m-x}\), \(0<p<1\) e parâmetro
+  conhecido \(m=11\). Considere \[5 \ \ \ 5 \ \ \ 7 \ \ \ 7 \ \ \ 7\]
+  uma amostra observada de \(X\). Assinale a alternativa correspondente
+  à estimativa de máxima verossimilhança para p desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.84\)
+  \item
+    \(0.03\)
+  \item
+    \(0.50\)
+  \item
+    \(0.56\)
+  \item
+    \(0.37\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;m)=\prod_{i=1}^{n}{m\choose x_i} p^x_i (1-p)^{m-x_i}
+   L(x;m)=p^{\sum_{i=1}^{n}(x_i)}(1-p)^{nm-\sum_{i=1}^{n}(x_i)}\prod_{i=1}^{n}\left(\frac{m!}{(m-x_i)!x_i!}\right).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(p)= \sum_{i=1}^{n}(x_i)\ln(p)+(nm-\sum_{i=1}^{n}(x_i))\ln(1-p)+n\ln(m!)-\sum_{i=1}^{n}(\ln((m-x_i)!x_i!)).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(p\) e igualar a equação a zero, obtém-se
+  \[\begin{aligned}
+  p=\frac{\sum_{i=1}^{n}(x_i)}{nm}
+  \end{aligned}\] Como a segunda derivada com repeito a p é
+  \(\frac{-n\sum_{i=1}^{n}(x_i)}{p^2}-\frac{nm-\sum_{i=1}^{n}(x_i)}{(1-p)^2}<0\),
+  concluimos que o EMV de p é \[\begin{aligned}
+  \hat{p}=\frac{\bar{x}}{m}.
+  \end{aligned}\]
+
+  Tomando a amostra \((5, 5, 7, 7, 7)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{p}=0.564\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;p)={m\choose x} p^x (1-p)^{m-x}\), \(0<p<1\) e parâmetro
+  conhecido \(m=14\). Considere \[7 \ \ \ 6 \ \ \ 7 \ \ \ 7 \ \ \ 5\]
+  uma amostra observada de \(X\). Assinale a alternativa correspondente
+  à estimativa de máxima verossimilhança para p desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.28\)
+  \item
+    \(0.73\)
+  \item
+    \(0.82\)
+  \item
+    \(0.46\)
+  \item
+    \(0.03\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;m)=\prod_{i=1}^{n}{m\choose x_i} p^x_i (1-p)^{m-x_i}
+   L(x;m)=p^{\sum_{i=1}^{n}(x_i)}(1-p)^{nm-\sum_{i=1}^{n}(x_i)}\prod_{i=1}^{n}\left(\frac{m!}{(m-x_i)!x_i!}\right).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(p)= \sum_{i=1}^{n}(x_i)\ln(p)+(nm-\sum_{i=1}^{n}(x_i))\ln(1-p)+n\ln(m!)-\sum_{i=1}^{n}(\ln((m-x_i)!x_i!)).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(p\) e igualar a equação a zero, obtém-se
+  \[\begin{aligned}
+  p=\frac{\sum_{i=1}^{n}(x_i)}{nm}
+  \end{aligned}\] Como a segunda derivada com repeito a p é
+  \(\frac{-n\sum_{i=1}^{n}(x_i)}{p^2}-\frac{nm-\sum_{i=1}^{n}(x_i)}{(1-p)^2}<0\),
+  concluimos que o EMV de p é \[\begin{aligned}
+  \hat{p}=\frac{\bar{x}}{m}.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 6, 7, 7, 5)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{p}=0.457\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;p)={m\choose x} p^x (1-p)^{m-x}\), \(0<p<1\) e parâmetro
+  conhecido \(m=11\). Considere \[7 \ \ \ 5 \ \ \ 4 \ \ \ 6 \ \ \ 8\]
+  uma amostra observada de \(X\). Assinale a alternativa correspondente
+  à estimativa de máxima verossimilhança para p desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.03\)
+  \item
+    \(0.23\)
+  \item
+    \(0.62\)
+  \item
+    \(0.55\)
+  \item
+    \(0.88\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;m)=\prod_{i=1}^{n}{m\choose x_i} p^x_i (1-p)^{m-x_i}
+   L(x;m)=p^{\sum_{i=1}^{n}(x_i)}(1-p)^{nm-\sum_{i=1}^{n}(x_i)}\prod_{i=1}^{n}\left(\frac{m!}{(m-x_i)!x_i!}\right).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(p)= \sum_{i=1}^{n}(x_i)\ln(p)+(nm-\sum_{i=1}^{n}(x_i))\ln(1-p)+n\ln(m!)-\sum_{i=1}^{n}(\ln((m-x_i)!x_i!)).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(p\) e igualar a equação a zero, obtém-se
+  \[\begin{aligned}
+  p=\frac{\sum_{i=1}^{n}(x_i)}{nm}
+  \end{aligned}\] Como a segunda derivada com repeito a p é
+  \(\frac{-n\sum_{i=1}^{n}(x_i)}{p^2}-\frac{nm-\sum_{i=1}^{n}(x_i)}{(1-p)^2}<0\),
+  concluimos que o EMV de p é \[\begin{aligned}
+  \hat{p}=\frac{\bar{x}}{m}.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 5, 4, 6, 8)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{p}=0.545\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;p)={m\choose x} p^x (1-p)^{m-x}\), \(0<p<1\) e parâmetro
+  conhecido \(m=13\). Considere \[5 \ \ \ 7 \ \ \ 4 \ \ \ 7 \ \ \ 5\]
+  uma amostra observada de \(X\). Assinale a alternativa correspondente
+  à estimativa de máxima verossimilhança para p desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.14\)
+  \item
+    \(0.92\)
+  \item
+    \(0.43\)
+  \item
+    \(0.04\)
+  \item
+    \(0.70\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;m)=\prod_{i=1}^{n}{m\choose x_i} p^x_i (1-p)^{m-x_i}
+   L(x;m)=p^{\sum_{i=1}^{n}(x_i)}(1-p)^{nm-\sum_{i=1}^{n}(x_i)}\prod_{i=1}^{n}\left(\frac{m!}{(m-x_i)!x_i!}\right).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(p)= \sum_{i=1}^{n}(x_i)\ln(p)+(nm-\sum_{i=1}^{n}(x_i))\ln(1-p)+n\ln(m!)-\sum_{i=1}^{n}(\ln((m-x_i)!x_i!)).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(p\) e igualar a equação a zero, obtém-se
+  \[\begin{aligned}
+  p=\frac{\sum_{i=1}^{n}(x_i)}{nm}
+  \end{aligned}\] Como a segunda derivada com repeito a p é
+  \(\frac{-n\sum_{i=1}^{n}(x_i)}{p^2}-\frac{nm-\sum_{i=1}^{n}(x_i)}{(1-p)^2}<0\),
+  concluimos que o EMV de p é \[\begin{aligned}
+  \hat{p}=\frac{\bar{x}}{m}.
+  \end{aligned}\]
+
+  Tomando a amostra \((5, 7, 4, 7, 5)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{p}=0.431\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;p)={m\choose x} p^x (1-p)^{m-x}\), \(0<p<1\) e parâmetro
+  conhecido \(m=10\). Considere \[7 \ \ \ 3 \ \ \ 3 \ \ \ 4 \ \ \ 8\]
+  uma amostra observada de \(X\). Assinale a alternativa correspondente
+  à estimativa de máxima verossimilhança para p desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.71\)
+  \item
+    \(0.50\)
+  \item
+    \(0.04\)
+  \item
+    \(0.95\)
+  \item
+    \(0.11\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;m)=\prod_{i=1}^{n}{m\choose x_i} p^x_i (1-p)^{m-x_i}
+   L(x;m)=p^{\sum_{i=1}^{n}(x_i)}(1-p)^{nm-\sum_{i=1}^{n}(x_i)}\prod_{i=1}^{n}\left(\frac{m!}{(m-x_i)!x_i!}\right).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(p)= \sum_{i=1}^{n}(x_i)\ln(p)+(nm-\sum_{i=1}^{n}(x_i))\ln(1-p)+n\ln(m!)-\sum_{i=1}^{n}(\ln((m-x_i)!x_i!)).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(p\) e igualar a equação a zero, obtém-se
+  \[\begin{aligned}
+  p=\frac{\sum_{i=1}^{n}(x_i)}{nm}
+  \end{aligned}\] Como a segunda derivada com repeito a p é
+  \(\frac{-n\sum_{i=1}^{n}(x_i)}{p^2}-\frac{nm-\sum_{i=1}^{n}(x_i)}{(1-p)^2}<0\),
+  concluimos que o EMV de p é \[\begin{aligned}
+  \hat{p}=\frac{\bar{x}}{m}.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 3, 3, 4, 8)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{p}=0.5\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

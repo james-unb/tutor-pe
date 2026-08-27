@@ -1,0 +1,402 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte a
+  cesta em um lance livre seja 75\%, e que os lançamentos sejam
+  independentes. Considere que o jogador continue a realizar os
+  lançamentos até que cometa um erro. Qual a probabilidade de que ele
+  acerte pelo menos 4 cestas antes de cometer o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.763\)
+  \item
+    \(0.003\)
+  \item
+    \(0.079\)
+  \item
+    \(0.316\)
+  \item
+    \(0.237\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas antes do primeiro erro. Então \(X\sim\)
+  (0.25), isto é, \(P(X=x)=0.75^x\times 0.25\). Assim,
+  \(P(X\geq 4)=P(\)acertar os 4 primeiros lances\()=0.75^4\)=0.316.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte a
+  cesta em um lance livre seja 75\%, e que os lançamentos sejam
+  independentes. Considere que o jogador continue a realizar os
+  lançamentos até que cometa um erro. Qual a probabilidade de que ele
+  acerte pelo menos 3 cestas antes de cometer o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.316\)
+  \item
+    \(0.105\)
+  \item
+    \(0.422\)
+  \item
+    \(0.012\)
+  \item
+    \(0.684\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas antes do primeiro erro. Então \(X\sim\)
+  (0.25), isto é, \(P(X=x)=0.75^x\times 0.25\). Assim,
+  \(P(X\geq 3)=P(\)acertar os 3 primeiros lances\()=0.75^3\)=0.422.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte a
+  cesta em um lance livre seja 85\%, e que os lançamentos sejam
+  independentes. Considere que o jogador continue a realizar os
+  lançamentos até que cometa um erro. Qual a probabilidade de que ele
+  acerte pelo menos 2 cestas antes de cometer o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.108\)
+  \item
+    \(0.723\)
+  \item
+    \(0.019\)
+  \item
+    \(0.614\)
+  \item
+    \(0.386\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas antes do primeiro erro. Então \(X\sim\)
+  (0.15), isto é, \(P(X=x)=0.85^x\times 0.15\). Assim,
+  \(P(X\geq 2)=P(\)acertar os 2 primeiros lances\()=0.85^2\)=0.723.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte a
+  cesta em um lance livre seja 85\%, e que os lançamentos sejam
+  independentes. Considere que o jogador continue a realizar os
+  lançamentos até que cometa um erro. Qual a probabilidade de que ele
+  acerte pelo menos 2 cestas antes de cometer o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.723\)
+  \item
+    \(0.386\)
+  \item
+    \(0.614\)
+  \item
+    \(0.019\)
+  \item
+    \(0.108\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas antes do primeiro erro. Então \(X\sim\)
+  (0.15), isto é, \(P(X=x)=0.85^x\times 0.15\). Assim,
+  \(P(X\geq 2)=P(\)acertar os 2 primeiros lances\()=0.85^2\)=0.723.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte a
+  cesta em um lance livre seja 85\%, e que os lançamentos sejam
+  independentes. Considere que o jogador continue a realizar os
+  lançamentos até que cometa um erro. Qual a probabilidade de que ele
+  acerte pelo menos 2 cestas antes de cometer o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.723\)
+  \item
+    \(0.019\)
+  \item
+    \(0.386\)
+  \item
+    \(0.614\)
+  \item
+    \(0.108\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas antes do primeiro erro. Então \(X\sim\)
+  (0.15), isto é, \(P(X=x)=0.85^x\times 0.15\). Assim,
+  \(P(X\geq 2)=P(\)acertar os 2 primeiros lances\()=0.85^2\)=0.723.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte a
+  cesta em um lance livre seja 75\%, e que os lançamentos sejam
+  independentes. Considere que o jogador continue a realizar os
+  lançamentos até que cometa um erro. Qual a probabilidade de que ele
+  acerte pelo menos 4 cestas antes de cometer o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.079\)
+  \item
+    \(0.237\)
+  \item
+    \(0.316\)
+  \item
+    \(0.003\)
+  \item
+    \(0.763\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas antes do primeiro erro. Então \(X\sim\)
+  (0.25), isto é, \(P(X=x)=0.75^x\times 0.25\). Assim,
+  \(P(X\geq 4)=P(\)acertar os 4 primeiros lances\()=0.75^4\)=0.316.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte a
+  cesta em um lance livre seja 85\%, e que os lançamentos sejam
+  independentes. Considere que o jogador continue a realizar os
+  lançamentos até que cometa um erro. Qual a probabilidade de que ele
+  acerte pelo menos 2 cestas antes de cometer o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.386\)
+  \item
+    \(0.108\)
+  \item
+    \(0.723\)
+  \item
+    \(0.019\)
+  \item
+    \(0.614\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas antes do primeiro erro. Então \(X\sim\)
+  (0.15), isto é, \(P(X=x)=0.85^x\times 0.15\). Assim,
+  \(P(X\geq 2)=P(\)acertar os 2 primeiros lances\()=0.85^2\)=0.723.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte a
+  cesta em um lance livre seja 75\%, e que os lançamentos sejam
+  independentes. Considere que o jogador continue a realizar os
+  lançamentos até que cometa um erro. Qual a probabilidade de que ele
+  acerte pelo menos 4 cestas antes de cometer o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.079\)
+  \item
+    \(0.237\)
+  \item
+    \(0.316\)
+  \item
+    \(0.003\)
+  \item
+    \(0.763\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas antes do primeiro erro. Então \(X\sim\)
+  (0.25), isto é, \(P(X=x)=0.75^x\times 0.25\). Assim,
+  \(P(X\geq 4)=P(\)acertar os 4 primeiros lances\()=0.75^4\)=0.316.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte a
+  cesta em um lance livre seja 85\%, e que os lançamentos sejam
+  independentes. Considere que o jogador continue a realizar os
+  lançamentos até que cometa um erro. Qual a probabilidade de que ele
+  acerte pelo menos 3 cestas antes de cometer o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.614\)
+  \item
+    \(0.478\)
+  \item
+    \(0.522\)
+  \item
+    \(0.092\)
+  \item
+    \(0.003\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas antes do primeiro erro. Então \(X\sim\)
+  (0.15), isto é, \(P(X=x)=0.85^x\times 0.15\). Assim,
+  \(P(X\geq 3)=P(\)acertar os 3 primeiros lances\()=0.85^3\)=0.614.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte a
+  cesta em um lance livre seja 75\%, e que os lançamentos sejam
+  independentes. Considere que o jogador continue a realizar os
+  lançamentos até que cometa um erro. Qual a probabilidade de que ele
+  acerte pelo menos 3 cestas antes de cometer o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.012\)
+  \item
+    \(0.316\)
+  \item
+    \(0.684\)
+  \item
+    \(0.422\)
+  \item
+    \(0.105\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas antes do primeiro erro. Então \(X\sim\)
+  (0.25), isto é, \(P(X=x)=0.75^x\times 0.25\). Assim,
+  \(P(X\geq 3)=P(\)acertar os 3 primeiros lances\()=0.75^3\)=0.422.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

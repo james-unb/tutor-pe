@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma amostra aleatória de 15 canetas esferográficas de uma certa
+  marca, os usuários foram capazes de escrever, em média, \(256\)
+  páginas, com desvio padrão amostral de \(20.73\). Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o número médio de páginas que alguém pode escrever com
+  essa caneta com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([254.495, 257.505]\)
+  \item
+    \([253.734, 258.266]\)
+  \item
+    \([253.566, 258.434]\)
+  \item
+    \([246.573, 265.427]\)
+  \item
+    \([247.222, 264.778]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[256-1.7613\times\frac{20.73}{\sqrt{15}} \ , \ 256+1.7613\times\frac{20.73}{\sqrt{15}}\right]\\
+  &=&\text{$[246.573, 265.427]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma amostra aleatória de 15 canetas esferográficas de uma certa
+  marca, os usuários foram capazes de escrever, em média, \(282\)
+  páginas, com desvio padrão amostral de \(20.56\). Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o número médio de páginas que alguém pode escrever com
+  essa caneta com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([268.304, 295.696]\)
+  \item
+    \([279.272, 284.728]\)
+  \item
+    \([277.920, 286.080]\)
+  \item
+    \([278.464, 285.536]\)
+  \item
+    \([266.197, 297.803]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[282-2.9768\times\frac{20.56}{\sqrt{15}} \ , \ 282+2.9768\times\frac{20.56}{\sqrt{15}}\right]\\
+  &=&\text{$[266.197, 297.803]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma amostra aleatória de 19 canetas esferográficas de uma certa
+  marca, os usuários foram capazes de escrever, em média, \(268\)
+  páginas, com desvio padrão amostral de \(27.27\). Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o número médio de páginas que alguém pode escrever com
+  essa caneta com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([257.151, 278.849]\)
+  \item
+    \([265.511, 270.489]\)
+  \item
+    \([266.467, 269.533]\)
+  \item
+    \([265.646, 270.354]\)
+  \item
+    \([257.740, 278.260]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[268-1.7341\times\frac{27.27}{\sqrt{19}} \ , \ 268+1.7341\times\frac{27.27}{\sqrt{19}}\right]\\
+  &=&\text{$[257.151, 278.849]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma amostra aleatória de 22 canetas esferográficas de uma certa
+  marca, os usuários foram capazes de escrever, em média, \(275\)
+  páginas, com desvio padrão amostral de \(21.02\). Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o número médio de páginas que alguém pode escrever com
+  essa caneta com confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([273.127, 276.873]\)
+  \item
+    \([273.397, 276.603]\)
+  \item
+    \([265.680, 284.320]\)
+  \item
+    \([266.216, 283.784]\)
+  \item
+    \([273.013, 276.987]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[275-2.0796\times\frac{21.02}{\sqrt{22}} \ , \ 275+2.0796\times\frac{21.02}{\sqrt{22}}\right]\\
+  &=&\text{$[265.680, 284.320]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma amostra aleatória de 18 canetas esferográficas de uma certa
+  marca, os usuários foram capazes de escrever, em média, \(278\)
+  páginas, com desvio padrão amostral de \(20.03\). Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o número médio de páginas que alguém pode escrever com
+  essa caneta com confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([268.039, 287.961]\)
+  \item
+    \([275.819, 280.181]\)
+  \item
+    \([268.747, 287.253]\)
+  \item
+    \([275.652, 280.348]\)
+  \item
+    \([276.270, 279.730]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[278-2.1098\times\frac{20.03}{\sqrt{18}} \ , \ 278+2.1098\times\frac{20.03}{\sqrt{18}}\right]\\
+  &=&\text{$[268.039, 287.961]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma amostra aleatória de 19 canetas esferográficas de uma certa
+  marca, os usuários foram capazes de escrever, em média, \(294\)
+  páginas, com desvio padrão amostral de \(23.37\). Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o número médio de páginas que alguém pode escrever com
+  essa caneta com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([284.703, 303.297]\)
+  \item
+    \([291.867, 296.133]\)
+  \item
+    \([292.580, 295.420]\)
+  \item
+    \([291.983, 296.017]\)
+  \item
+    \([285.207, 302.793]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[294-1.7341\times\frac{23.37}{\sqrt{19}} \ , \ 294+1.7341\times\frac{23.37}{\sqrt{19}}\right]\\
+  &=&\text{$[284.703, 303.297]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma amostra aleatória de 15 canetas esferográficas de uma certa
+  marca, os usuários foram capazes de escrever, em média, \(255\)
+  páginas, com desvio padrão amostral de \(29.55\). Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o número médio de páginas que alguém pode escrever com
+  essa caneta com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([251.730, 258.270]\)
+  \item
+    \([232.288, 277.712]\)
+  \item
+    \([249.136, 260.864]\)
+  \item
+    \([235.315, 274.685]\)
+  \item
+    \([249.917, 260.083]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[255-2.9768\times\frac{29.55}{\sqrt{15}} \ , \ 255+2.9768\times\frac{29.55}{\sqrt{15}}\right]\\
+  &=&\text{$[232.288, 277.712]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma amostra aleatória de 25 canetas esferográficas de uma certa
+  marca, os usuários foram capazes de escrever, em média, \(250\)
+  páginas, com desvio padrão amostral de \(29.36\). Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o número médio de páginas que alguém pode escrever com
+  essa caneta com confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([237.881, 262.119]\)
+  \item
+    \([248.223, 251.777]\)
+  \item
+    \([238.491, 261.509]\)
+  \item
+    \([247.576, 252.424]\)
+  \item
+    \([247.698, 252.302]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[250-2.0639\times\frac{29.36}{\sqrt{25}} \ , \ 250+2.0639\times\frac{29.36}{\sqrt{25}}\right]\\
+  &=&\text{$[237.881, 262.119]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma amostra aleatória de 19 canetas esferográficas de uma certa
+  marca, os usuários foram capazes de escrever, em média, \(261\)
+  páginas, com desvio padrão amostral de \(22.27\). Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o número médio de páginas que alguém pode escrever com
+  essa caneta com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([252.621, 269.379]\)
+  \item
+    \([252.140, 269.860]\)
+  \item
+    \([259.078, 262.922]\)
+  \item
+    \([258.967, 263.033]\)
+  \item
+    \([259.614, 262.386]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[261-1.7341\times\frac{22.27}{\sqrt{19}} \ , \ 261+1.7341\times\frac{22.27}{\sqrt{19}}\right]\\
+  &=&\text{$[252.140, 269.860]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma amostra aleatória de 19 canetas esferográficas de uma certa
+  marca, os usuários foram capazes de escrever, em média, \(296\)
+  páginas, com desvio padrão amostral de \(26.03\). Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o número médio de páginas que alguém pode escrever com
+  essa caneta com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([293.753, 298.247]\)
+  \item
+    \([285.644, 306.356]\)
+  \item
+    \([293.624, 298.376]\)
+  \item
+    \([294.502, 297.498]\)
+  \item
+    \([286.206, 305.794]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[296-1.7341\times\frac{26.03}{\sqrt{19}} \ , \ 296+1.7341\times\frac{26.03}{\sqrt{19}}\right]\\
+  &=&\text{$[285.644, 306.356]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

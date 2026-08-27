@@ -1,0 +1,502 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(4.8\%\) dos homens e \(0.5\%\) das mulheres da população
+  sejam daltônicos. Suponha também que \(43.1\%\) da população é formada
+  por homens. Qual a probabilidade de que uma pessoa seja mulher sabendo
+  que esta pessoa é daltônica?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.005\)
+  \item
+    \(0.003\)
+  \item
+    \(0.121\)
+  \item
+    \(0.569\)
+  \item
+    \(0.879\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``A pessoa é daltônica''}\\
+  \text{M} &=& \text{ ``A pessoa é do sexo masculino''}\\
+  \text{F} &=& \text{ ``A pessoa é do sexo feminino''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(F|D) &=& \dfrac{P(D|F)P(F)}{P(D|F)P(F)+P(D|M)P(M)}\\
+  &=& \dfrac{0.005\times0.569}
+  {0.005\times0.569+0.048\times0.431}\\
+  &=& 0.121.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(4.6\%\) dos homens e \(0.4\%\) das mulheres da população
+  sejam daltônicos. Suponha também que \(41.3\%\) da população é formada
+  por homens. Qual a probabilidade de que uma pessoa seja mulher sabendo
+  que esta pessoa é daltônica?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.002\)
+  \item
+    \(0.587\)
+  \item
+    \(0.004\)
+  \item
+    \(0.110\)
+  \item
+    \(0.890\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``A pessoa é daltônica''}\\
+  \text{M} &=& \text{ ``A pessoa é do sexo masculino''}\\
+  \text{F} &=& \text{ ``A pessoa é do sexo feminino''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(F|D) &=& \dfrac{P(D|F)P(F)}{P(D|F)P(F)+P(D|M)P(M)}\\
+  &=& \dfrac{0.004\times0.587}
+  {0.004\times0.587+0.046\times0.413}\\
+  &=& 0.11.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(3\%\) dos homens e \(0.5\%\) das mulheres da população
+  sejam daltônicos. Suponha também que \(50\%\) da população é formada
+  por homens. Qual a probabilidade de que uma pessoa seja mulher sabendo
+  que esta pessoa é daltônica?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.003\)
+  \item
+    \(0.857\)
+  \item
+    \(0.143\)
+  \item
+    \(0.500\)
+  \item
+    \(0.005\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``A pessoa é daltônica''}\\
+  \text{M} &=& \text{ ``A pessoa é do sexo masculino''}\\
+  \text{F} &=& \text{ ``A pessoa é do sexo feminino''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(F|D) &=& \dfrac{P(D|F)P(F)}{P(D|F)P(F)+P(D|M)P(M)}\\
+  &=& \dfrac{0.005\times0.5}
+  {0.005\times0.5+0.03\times0.5}\\
+  &=& 0.143.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(3.7\%\) dos homens e \(0.3\%\) das mulheres da população
+  sejam daltônicos. Suponha também que \(47.2\%\) da população é formada
+  por homens. Qual a probabilidade de que uma pessoa seja mulher sabendo
+  que esta pessoa é daltônica?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.003\)
+  \item
+    \(0.528\)
+  \item
+    \(0.083\)
+  \item
+    \(0.002\)
+  \item
+    \(0.917\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``A pessoa é daltônica''}\\
+  \text{M} &=& \text{ ``A pessoa é do sexo masculino''}\\
+  \text{F} &=& \text{ ``A pessoa é do sexo feminino''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(F|D) &=& \dfrac{P(D|F)P(F)}{P(D|F)P(F)+P(D|M)P(M)}\\
+  &=& \dfrac{0.003\times0.528}
+  {0.003\times0.528+0.037\times0.472}\\
+  &=& 0.083.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(3.2\%\) dos homens e \(0.5\%\) das mulheres da população
+  sejam daltônicos. Suponha também que \(48.9\%\) da população é formada
+  por homens. Qual a probabilidade de que uma pessoa seja mulher sabendo
+  que esta pessoa é daltônica?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.003\)
+  \item
+    \(0.140\)
+  \item
+    \(0.860\)
+  \item
+    \(0.005\)
+  \item
+    \(0.511\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``A pessoa é daltônica''}\\
+  \text{M} &=& \text{ ``A pessoa é do sexo masculino''}\\
+  \text{F} &=& \text{ ``A pessoa é do sexo feminino''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(F|D) &=& \dfrac{P(D|F)P(F)}{P(D|F)P(F)+P(D|M)P(M)}\\
+  &=& \dfrac{0.005\times0.511}
+  {0.005\times0.511+0.032\times0.489}\\
+  &=& 0.14.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(4.1\%\) dos homens e \(0.4\%\) das mulheres da população
+  sejam daltônicos. Suponha também que \(40\%\) da população é formada
+  por homens. Qual a probabilidade de que uma pessoa seja mulher sabendo
+  que esta pessoa é daltônica?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.128\)
+  \item
+    \(0.600\)
+  \item
+    \(0.002\)
+  \item
+    \(0.004\)
+  \item
+    \(0.872\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``A pessoa é daltônica''}\\
+  \text{M} &=& \text{ ``A pessoa é do sexo masculino''}\\
+  \text{F} &=& \text{ ``A pessoa é do sexo feminino''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(F|D) &=& \dfrac{P(D|F)P(F)}{P(D|F)P(F)+P(D|M)P(M)}\\
+  &=& \dfrac{0.004\times0.6}
+  {0.004\times0.6+0.041\times0.4}\\
+  &=& 0.128.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(3.5\%\) dos homens e \(0.4\%\) das mulheres da população
+  sejam daltônicos. Suponha também que \(49.6\%\) da população é formada
+  por homens. Qual a probabilidade de que uma pessoa seja mulher sabendo
+  que esta pessoa é daltônica?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.504\)
+  \item
+    \(0.002\)
+  \item
+    \(0.104\)
+  \item
+    \(0.004\)
+  \item
+    \(0.896\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``A pessoa é daltônica''}\\
+  \text{M} &=& \text{ ``A pessoa é do sexo masculino''}\\
+  \text{F} &=& \text{ ``A pessoa é do sexo feminino''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(F|D) &=& \dfrac{P(D|F)P(F)}{P(D|F)P(F)+P(D|M)P(M)}\\
+  &=& \dfrac{0.004\times0.504}
+  {0.004\times0.504+0.035\times0.496}\\
+  &=& 0.104.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(4.1\%\) dos homens e \(0.4\%\) das mulheres da população
+  sejam daltônicos. Suponha também que \(40.9\%\) da população é formada
+  por homens. Qual a probabilidade de que uma pessoa seja mulher sabendo
+  que esta pessoa é daltônica?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.124\)
+  \item
+    \(0.002\)
+  \item
+    \(0.876\)
+  \item
+    \(0.004\)
+  \item
+    \(0.591\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``A pessoa é daltônica''}\\
+  \text{M} &=& \text{ ``A pessoa é do sexo masculino''}\\
+  \text{F} &=& \text{ ``A pessoa é do sexo feminino''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(F|D) &=& \dfrac{P(D|F)P(F)}{P(D|F)P(F)+P(D|M)P(M)}\\
+  &=& \dfrac{0.004\times0.591}
+  {0.004\times0.591+0.041\times0.409}\\
+  &=& 0.124.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(3\%\) dos homens e \(0.4\%\) das mulheres da população
+  sejam daltônicos. Suponha também que \(51.5\%\) da população é formada
+  por homens. Qual a probabilidade de que uma pessoa seja mulher sabendo
+  que esta pessoa é daltônica?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.002\)
+  \item
+    \(0.112\)
+  \item
+    \(0.485\)
+  \item
+    \(0.004\)
+  \item
+    \(0.888\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``A pessoa é daltônica''}\\
+  \text{M} &=& \text{ ``A pessoa é do sexo masculino''}\\
+  \text{F} &=& \text{ ``A pessoa é do sexo feminino''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(F|D) &=& \dfrac{P(D|F)P(F)}{P(D|F)P(F)+P(D|M)P(M)}\\
+  &=& \dfrac{0.004\times0.485}
+  {0.004\times0.485+0.03\times0.515}\\
+  &=& 0.112.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(3.6\%\) dos homens e \(0.4\%\) das mulheres da população
+  sejam daltônicos. Suponha também que \(49.5\%\) da população é formada
+  por homens. Qual a probabilidade de que uma pessoa seja mulher sabendo
+  que esta pessoa é daltônica?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.102\)
+  \item
+    \(0.898\)
+  \item
+    \(0.505\)
+  \item
+    \(0.002\)
+  \item
+    \(0.004\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{D} &=& \text{ ``A pessoa é daltônica''}\\
+  \text{M} &=& \text{ ``A pessoa é do sexo masculino''}\\
+  \text{F} &=& \text{ ``A pessoa é do sexo feminino''}
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(F|D) &=& \dfrac{P(D|F)P(F)}{P(D|F)P(F)+P(D|M)P(M)}\\
+  &=& \dfrac{0.004\times0.505}
+  {0.004\times0.505+0.036\times0.495}\\
+  &=& 0.102.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que estamos interessados em verificar o comprimento (em cm)
+  médio das correias produzidas por uma fábrica. Tendo em vista o
+  processo de fabricação, podemos considerar que os comprimentos dessas
+  correias seguem uma distribuição Normal com desvio padrão 1.65. Uma
+  amostra aleatória simples de tamanho 26 foi coletada e apresentou
+  média de 60.2. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o comprimento médio das
+  correias com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([59.614, 60.786]\)
+  \item
+    \([60.023, 60.377]\)
+  \item
+    \([59.298, 61.102]\)
+  \item
+    \([59.365, 61.035]\)
+  \item
+    \([60.036, 60.364]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[60.2-2.58\times\frac{1.65}{\sqrt{26}} \ , \ 60.2+2.58\times\frac{1.65}{\sqrt{26}}\right]\\
+  &=&\text{$[59.365, 61.035]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que estamos interessados em verificar o comprimento (em cm)
+  médio das correias produzidas por uma fábrica. Tendo em vista o
+  processo de fabricação, podemos considerar que os comprimentos dessas
+  correias seguem uma distribuição Normal com desvio padrão 1.74. Uma
+  amostra aleatória simples de tamanho 25 foi coletada e apresentou
+  média de 60.59. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o comprimento médio das
+  correias com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([60.410, 60.770]\)
+  \item
+    \([59.617, 61.563]\)
+  \item
+    \([59.692, 61.488]\)
+  \item
+    \([59.976, 61.204]\)
+  \item
+    \([60.395, 60.785]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[60.59-2.58\times\frac{1.74}{\sqrt{25}} \ , \ 60.59+2.58\times\frac{1.74}{\sqrt{25}}\right]\\
+  &=&\text{$[59.692, 61.488]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que estamos interessados em verificar o comprimento (em cm)
+  médio das correias produzidas por uma fábrica. Tendo em vista o
+  processo de fabricação, podemos considerar que os comprimentos dessas
+  correias seguem uma distribuição Normal com desvio padrão 1.94. Uma
+  amostra aleatória simples de tamanho 29 foi coletada e apresentou
+  média de 63.91. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o comprimento médio das
+  correias com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([62.915, 64.905]\)
+  \item
+    \([63.308, 64.512]\)
+  \item
+    \([63.725, 64.095]\)
+  \item
+    \([63.737, 64.083]\)
+  \item
+    \([62.981, 64.839]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[63.91-2.58\times\frac{1.94}{\sqrt{29}} \ , \ 63.91+2.58\times\frac{1.94}{\sqrt{29}}\right]\\
+  &=&\text{$[62.981, 64.839]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que estamos interessados em verificar o comprimento (em cm)
+  médio das correias produzidas por uma fábrica. Tendo em vista o
+  processo de fabricação, podemos considerar que os comprimentos dessas
+  correias seguem uma distribuição Normal com desvio padrão 1.77. Uma
+  amostra aleatória simples de tamanho 29 foi coletada e apresentou
+  média de 64.86. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o comprimento médio das
+  correias com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([63.952, 65.768]\)
+  \item
+    \([64.691, 65.029]\)
+  \item
+    \([64.285, 65.435]\)
+  \item
+    \([64.703, 65.017]\)
+  \item
+    \([64.012, 65.708]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[64.86-2.58\times\frac{1.77}{\sqrt{29}} \ , \ 64.86+2.58\times\frac{1.77}{\sqrt{29}}\right]\\
+  &=&\text{$[64.012, 65.708]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que estamos interessados em verificar o comprimento (em cm)
+  médio das correias produzidas por uma fábrica. Tendo em vista o
+  processo de fabricação, podemos considerar que os comprimentos dessas
+  correias seguem uma distribuição Normal com desvio padrão 1.44. Uma
+  amostra aleatória simples de tamanho 26 foi coletada e apresentou
+  média de 63.91. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o comprimento médio das
+  correias com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([63.123, 64.697]\)
+  \item
+    \([63.181, 64.639]\)
+  \item
+    \([63.767, 64.053]\)
+  \item
+    \([63.756, 64.064]\)
+  \item
+    \([63.363, 64.457]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[63.91-2.58\times\frac{1.44}{\sqrt{26}} \ , \ 63.91+2.58\times\frac{1.44}{\sqrt{26}}\right]\\
+  &=&\text{$[63.181, 64.639]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que estamos interessados em verificar o comprimento (em cm)
+  médio das correias produzidas por uma fábrica. Tendo em vista o
+  processo de fabricação, podemos considerar que os comprimentos dessas
+  correias seguem uma distribuição Normal com desvio padrão 1.92. Uma
+  amostra aleatória simples de tamanho 30 foi coletada e apresentou
+  média de 64.5. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o comprimento médio das
+  correias com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([63.912, 65.088]\)
+  \item
+    \([63.596, 65.404]\)
+  \item
+    \([64.324, 64.676]\)
+  \item
+    \([63.534, 65.466]\)
+  \item
+    \([64.335, 64.665]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[64.5-2.58\times\frac{1.92}{\sqrt{30}} \ , \ 64.5+2.58\times\frac{1.92}{\sqrt{30}}\right]\\
+  &=&\text{$[63.596, 65.404]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que estamos interessados em verificar o comprimento (em cm)
+  médio das correias produzidas por uma fábrica. Tendo em vista o
+  processo de fabricação, podemos considerar que os comprimentos dessas
+  correias seguem uma distribuição Normal com desvio padrão 1.63. Uma
+  amostra aleatória simples de tamanho 25 foi coletada e apresentou
+  média de 55.01. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o comprimento médio das
+  correias com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([54.098, 55.922]\)
+  \item
+    \([54.842, 55.178]\)
+  \item
+    \([54.169, 55.851]\)
+  \item
+    \([54.828, 55.192]\)
+  \item
+    \([54.416, 55.604]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[55.01-2.58\times\frac{1.63}{\sqrt{25}} \ , \ 55.01+2.58\times\frac{1.63}{\sqrt{25}}\right]\\
+  &=&\text{$[54.169, 55.851]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que estamos interessados em verificar o comprimento (em cm)
+  médio das correias produzidas por uma fábrica. Tendo em vista o
+  processo de fabricação, podemos considerar que os comprimentos dessas
+  correias seguem uma distribuição Normal com desvio padrão 1.34. Uma
+  amostra aleatória simples de tamanho 27 foi coletada e apresentou
+  média de 57.66. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o comprimento médio das
+  correias com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([57.522, 57.798]\)
+  \item
+    \([56.995, 58.325]\)
+  \item
+    \([57.532, 57.788]\)
+  \item
+    \([56.943, 58.377]\)
+  \item
+    \([57.142, 58.178]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[57.66-2.58\times\frac{1.34}{\sqrt{27}} \ , \ 57.66+2.58\times\frac{1.34}{\sqrt{27}}\right]\\
+  &=&\text{$[56.995, 58.325]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que estamos interessados em verificar o comprimento (em cm)
+  médio das correias produzidas por uma fábrica. Tendo em vista o
+  processo de fabricação, podemos considerar que os comprimentos dessas
+  correias seguem uma distribuição Normal com desvio padrão 1.35. Uma
+  amostra aleatória simples de tamanho 27 foi coletada e apresentou
+  média de 56.21. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o comprimento médio das
+  correias com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([56.071, 56.349]\)
+  \item
+    \([55.690, 56.730]\)
+  \item
+    \([55.540, 56.880]\)
+  \item
+    \([55.488, 56.932]\)
+  \item
+    \([56.081, 56.339]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[56.21-2.58\times\frac{1.35}{\sqrt{27}} \ , \ 56.21+2.58\times\frac{1.35}{\sqrt{27}}\right]\\
+  &=&\text{$[55.540, 56.880]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que estamos interessados em verificar o comprimento (em cm)
+  médio das correias produzidas por uma fábrica. Tendo em vista o
+  processo de fabricação, podemos considerar que os comprimentos dessas
+  correias seguem uma distribuição Normal com desvio padrão 1.57. Uma
+  amostra aleatória simples de tamanho 27 foi coletada e apresentou
+  média de 64.32. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o comprimento médio das
+  correias com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([64.170, 64.470]\)
+  \item
+    \([63.480, 65.160]\)
+  \item
+    \([64.158, 64.482]\)
+  \item
+    \([63.540, 65.100]\)
+  \item
+    \([63.759, 64.881]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[64.32-2.58\times\frac{1.57}{\sqrt{27}} \ , \ 64.32+2.58\times\frac{1.57}{\sqrt{27}}\right]\\
+  &=&\text{$[63.540, 65.100]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(587\) mesas atendidas de um restaurante
+  revela que \(59\)\% delas oferecem gorjetas aos garçons. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção das mesas que oferecem gorjetas com
+  confiança de \(95\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.570, 0.610]\)
+  \item
+    \([0.589, 0.591]\)
+  \item
+    \([0.550, 0.630]\)
+  \item
+    \([0.530, 0.650]\)
+  \item
+    \([0.562, 0.618]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.59-1.96\times\sqrt{\frac{0.2419}{587}} \ , \ 0.59+1.96\times\sqrt{\frac{0.2419}{587}}\right]\\
+  &=&\text{$[0.550, 0.630]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(666\) mesas atendidas de um restaurante
+  revela que \(34\)\% delas oferecem gorjetas aos garçons. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção das mesas que oferecem gorjetas com
+  confiança de \(80\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.317, 0.363]\)
+  \item
+    \([0.305, 0.375]\)
+  \item
+    \([0.340, 0.340]\)
+  \item
+    \([0.328, 0.352]\)
+  \item
+    \([0.324, 0.356]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.34-1.28\times\sqrt{\frac{0.2244}{666}} \ , \ 0.34+1.28\times\sqrt{\frac{0.2244}{666}}\right]\\
+  &=&\text{$[0.317, 0.363]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(564\) mesas atendidas de um restaurante
+  revela que \(67\)\% delas oferecem gorjetas aos garçons. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção das mesas que oferecem gorjetas com
+  confiança de \(95\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.612, 0.728]\)
+  \item
+    \([0.631, 0.709]\)
+  \item
+    \([0.669, 0.671]\)
+  \item
+    \([0.651, 0.689]\)
+  \item
+    \([0.643, 0.697]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.67-1.96\times\sqrt{\frac{0.2211}{564}} \ , \ 0.67+1.96\times\sqrt{\frac{0.2211}{564}}\right]\\
+  &=&\text{$[0.631, 0.709]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(548\) mesas atendidas de um restaurante
+  revela que \(79\)\% delas oferecem gorjetas aos garçons. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção das mesas que oferecem gorjetas com
+  confiança de \(80\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.768, 0.812]\)
+  \item
+    \([0.790, 0.790]\)
+  \item
+    \([0.779, 0.801]\)
+  \item
+    \([0.774, 0.806]\)
+  \item
+    \([0.757, 0.823]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.79-1.28\times\sqrt{\frac{0.1659}{548}} \ , \ 0.79+1.28\times\sqrt{\frac{0.1659}{548}}\right]\\
+  &=&\text{$[0.768, 0.812]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(662\) mesas atendidas de um restaurante
+  revela que \(58\)\% delas oferecem gorjetas aos garçons. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção das mesas que oferecem gorjetas com
+  confiança de \(99\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.545, 0.615]\)
+  \item
+    \([0.506, 0.654]\)
+  \item
+    \([0.555, 0.605]\)
+  \item
+    \([0.531, 0.629]\)
+  \item
+    \([0.579, 0.581]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.58-2.58\times\sqrt{\frac{0.2436}{662}} \ , \ 0.58+2.58\times\sqrt{\frac{0.2436}{662}}\right]\\
+  &=&\text{$[0.531, 0.629]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(675\) mesas atendidas de um restaurante
+  revela que \(64\)\% delas oferecem gorjetas aos garçons. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção das mesas que oferecem gorjetas com
+  confiança de \(90\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.595, 0.685]\)
+  \item
+    \([0.640, 0.640]\)
+  \item
+    \([0.610, 0.670]\)
+  \item
+    \([0.619, 0.661]\)
+  \item
+    \([0.625, 0.655]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.64-1.64\times\sqrt{\frac{0.2304}{675}} \ , \ 0.64+1.64\times\sqrt{\frac{0.2304}{675}}\right]\\
+  &=&\text{$[0.610, 0.670]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(519\) mesas atendidas de um restaurante
+  revela que \(50\)\% delas oferecem gorjetas aos garçons. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção das mesas que oferecem gorjetas com
+  confiança de \(80\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.500, 0.500]\)
+  \item
+    \([0.480, 0.520]\)
+  \item
+    \([0.458, 0.542]\)
+  \item
+    \([0.472, 0.528]\)
+  \item
+    \([0.486, 0.514]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.5-1.28\times\sqrt{\frac{0.25}{519}} \ , \ 0.5+1.28\times\sqrt{\frac{0.25}{519}}\right]\\
+  &=&\text{$[0.472, 0.528]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(563\) mesas atendidas de um restaurante
+  revela que \(67\)\% delas oferecem gorjetas aos garçons. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção das mesas que oferecem gorjetas com
+  confiança de \(99\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.669, 0.671]\)
+  \item
+    \([0.619, 0.721]\)
+  \item
+    \([0.634, 0.706]\)
+  \item
+    \([0.593, 0.747]\)
+  \item
+    \([0.644, 0.696]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.67-2.58\times\sqrt{\frac{0.2211}{563}} \ , \ 0.67+2.58\times\sqrt{\frac{0.2211}{563}}\right]\\
+  &=&\text{$[0.619, 0.721]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(510\) mesas atendidas de um restaurante
+  revela que \(60\)\% delas oferecem gorjetas aos garçons. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção das mesas que oferecem gorjetas com
+  confiança de \(80\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.572, 0.628]\)
+  \item
+    \([0.586, 0.614]\)
+  \item
+    \([0.600, 0.600]\)
+  \item
+    \([0.581, 0.619]\)
+  \item
+    \([0.558, 0.642]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.6-1.28\times\sqrt{\frac{0.24}{510}} \ , \ 0.6+1.28\times\sqrt{\frac{0.24}{510}}\right]\\
+  &=&\text{$[0.572, 0.628]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(554\) mesas atendidas de um restaurante
+  revela que \(37\)\% delas oferecem gorjetas aos garçons. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção das mesas que oferecem gorjetas com
+  confiança de \(95\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.369, 0.371]\)
+  \item
+    \([0.310, 0.430]\)
+  \item
+    \([0.350, 0.390]\)
+  \item
+    \([0.330, 0.410]\)
+  \item
+    \([0.342, 0.398]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.37-1.96\times\sqrt{\frac{0.2331}{554}} \ , \ 0.37+1.96\times\sqrt{\frac{0.2331}{554}}\right]\\
+  &=&\text{$[0.330, 0.410]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

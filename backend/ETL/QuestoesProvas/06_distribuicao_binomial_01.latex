@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.97\). Se \(96\) clientes
+  solicitam o cancelamento, qual a probabilidade de que a companhia
+  cancele o cartão de exatamente \(93\) clientes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5400\)
+  \item
+    \(0.9688\)
+  \item
+    \(0.2270\)
+  \item
+    \(0.4700\)
+  \item
+    \(0.0000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada cliente é independente do outro, a variável aleatória \(X\)
+  relativa ao número de clientes que tenham o cartão efetivamente
+  cancelado possui distribuição binomial de parâmetros \(n=96\) e
+  \(p=0.97\). Desse modo, a probabilidade de que a companhia cancele o
+  cartão de exatamente \(93\) clientes é
+  \[P(X=93) = \binom{96}{93}0.97^{93}\times0.03^{3} \approx 0.227.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.99\). Se \(98\) clientes
+  solicitam o cancelamento, qual a probabilidade de que a companhia
+  cancele o cartão de exatamente \(96\) clientes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6100\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.1811\)
+  \item
+    \(0.9796\)
+  \item
+    \(0.7500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada cliente é independente do outro, a variável aleatória \(X\)
+  relativa ao número de clientes que tenham o cartão efetivamente
+  cancelado possui distribuição binomial de parâmetros \(n=98\) e
+  \(p=0.99\). Desse modo, a probabilidade de que a companhia cancele o
+  cartão de exatamente \(96\) clientes é
+  \[P(X=96) = \binom{98}{96}0.99^{96}\times0.01^{2} \approx 0.1811.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.99\). Se \(99\) clientes
+  solicitam o cancelamento, qual a probabilidade de que a companhia
+  cancele o cartão de exatamente \(95\) clientes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0145\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.9500\)
+  \item
+    \(0.3900\)
+  \item
+    \(0.9596\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada cliente é independente do outro, a variável aleatória \(X\)
+  relativa ao número de clientes que tenham o cartão efetivamente
+  cancelado possui distribuição binomial de parâmetros \(n=99\) e
+  \(p=0.99\). Desse modo, a probabilidade de que a companhia cancele o
+  cartão de exatamente \(95\) clientes é
+  \[P(X=95) = \binom{99}{95}0.99^{95}\times0.01^{4} \approx 0.0145.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.97\). Se \(100\) clientes
+  solicitam o cancelamento, qual a probabilidade de que a companhia
+  cancele o cartão de exatamente \(96\) clientes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0000\)
+  \item
+    \(0.9600\)
+  \item
+    \(0.1706\)
+  \item
+    \(0.2900\)
+  \item
+    \(0.2200\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada cliente é independente do outro, a variável aleatória \(X\)
+  relativa ao número de clientes que tenham o cartão efetivamente
+  cancelado possui distribuição binomial de parâmetros \(n=100\) e
+  \(p=0.97\). Desse modo, a probabilidade de que a companhia cancele o
+  cartão de exatamente \(96\) clientes é
+  \[P(X=96) = \binom{100}{96}0.97^{96}\times0.03^{4} \approx 0.1706.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.96\). Se \(100\) clientes
+  solicitam o cancelamento, qual a probabilidade de que a companhia
+  cancele o cartão de exatamente \(97\) clientes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4800\)
+  \item
+    \(0.9700\)
+  \item
+    \(0.1973\)
+  \item
+    \(0.3600\)
+  \item
+    \(0.0000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada cliente é independente do outro, a variável aleatória \(X\)
+  relativa ao número de clientes que tenham o cartão efetivamente
+  cancelado possui distribuição binomial de parâmetros \(n=100\) e
+  \(p=0.96\). Desse modo, a probabilidade de que a companhia cancele o
+  cartão de exatamente \(97\) clientes é
+  \[P(X=97) = \binom{100}{97}0.96^{97}\times0.04^{3} \approx 0.1973.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.99\). Se \(98\) clientes
+  solicitam o cancelamento, qual a probabilidade de que a companhia
+  cancele o cartão de exatamente \(95\) clientes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9694\)
+  \item
+    \(0.5700\)
+  \item
+    \(0.4000\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.0585\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada cliente é independente do outro, a variável aleatória \(X\)
+  relativa ao número de clientes que tenham o cartão efetivamente
+  cancelado possui distribuição binomial de parâmetros \(n=98\) e
+  \(p=0.99\). Desse modo, a probabilidade de que a companhia cancele o
+  cartão de exatamente \(95\) clientes é
+  \[P(X=95) = \binom{98}{95}0.99^{95}\times0.01^{3} \approx 0.0585.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.98\). Se \(95\) clientes
+  solicitam o cancelamento, qual a probabilidade de que a companhia
+  cancele o cartão de exatamente \(92\) clientes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0000\)
+  \item
+    \(0.0800\)
+  \item
+    \(0.5100\)
+  \item
+    \(0.1726\)
+  \item
+    \(0.9684\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada cliente é independente do outro, a variável aleatória \(X\)
+  relativa ao número de clientes que tenham o cartão efetivamente
+  cancelado possui distribuição binomial de parâmetros \(n=95\) e
+  \(p=0.98\). Desse modo, a probabilidade de que a companhia cancele o
+  cartão de exatamente \(92\) clientes é
+  \[P(X=92) = \binom{95}{92}0.98^{92}\times0.02^{3} \approx 0.1726.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.99\). Se \(100\) clientes
+  solicitam o cancelamento, qual a probabilidade de que a companhia
+  cancele o cartão de exatamente \(97\) clientes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.210\)
+  \item
+    \(0.970\)
+  \item
+    \(0.000\)
+  \item
+    \(0.061\)
+  \item
+    \(0.250\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada cliente é independente do outro, a variável aleatória \(X\)
+  relativa ao número de clientes que tenham o cartão efetivamente
+  cancelado possui distribuição binomial de parâmetros \(n=100\) e
+  \(p=0.99\). Desse modo, a probabilidade de que a companhia cancele o
+  cartão de exatamente \(97\) clientes é
+  \[P(X=97) = \binom{100}{97}0.99^{97}\times0.01^{3} \approx 0.061.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.98\). Se \(91\) clientes
+  solicitam o cancelamento, qual a probabilidade de que a companhia
+  cancele o cartão de exatamente \(88\) clientes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1100\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.1643\)
+  \item
+    \(0.9670\)
+  \item
+    \(0.0600\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada cliente é independente do outro, a variável aleatória \(X\)
+  relativa ao número de clientes que tenham o cartão efetivamente
+  cancelado possui distribuição binomial de parâmetros \(n=91\) e
+  \(p=0.98\). Desse modo, a probabilidade de que a companhia cancele o
+  cartão de exatamente \(88\) clientes é
+  \[P(X=88) = \binom{91}{88}0.98^{88}\times0.02^{3} \approx 0.1643.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.97\). Se \(90\) clientes
+  solicitam o cancelamento, qual a probabilidade de que a companhia
+  cancele o cartão de exatamente \(86\) clientes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4400\)
+  \item
+    \(0.9556\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.8600\)
+  \item
+    \(0.1508\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada cliente é independente do outro, a variável aleatória \(X\)
+  relativa ao número de clientes que tenham o cartão efetivamente
+  cancelado possui distribuição binomial de parâmetros \(n=90\) e
+  \(p=0.97\). Desse modo, a probabilidade de que a companhia cancele o
+  cartão de exatamente \(86\) clientes é
+  \[P(X=86) = \binom{90}{86}0.97^{86}\times0.03^{4} \approx 0.1508.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em determinada população, o peso dos homens adultos é distribuído
+  normalmente com um desvio padrão de 18.94 kg. Uma amostra aleatória
+  simples de 28 homens adultos é sorteada desta população, obtendo-se um
+  peso médio de 65.35 kg. Construa um intervalo de confiança de 99\%
+  para o peso médio de todos os homens adultos dessa população.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([63.605, 67.095]\)
+  \item
+    \([63.434, 67.266]\)
+  \item
+    \([55.433, 75.267]\)
+  \item
+    \([56.115, 74.585]\)
+  \item
+    \([63.476, 67.224]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=28, \overline{x}=65.35, \sigma= 18.94\) e
+  \(1-\alpha=0.99\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.995}=2.58\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.99\%)
+  &=
+  \left(65.35-{18.94 \over \sqrt{28}}\times 2.58; \, 65.35+{18.94 \over \sqrt{28}}\times 2.58\right)
+  \\
+  &=\left\text{$[56.115, 74.585]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em determinada população, o peso dos homens adultos é distribuído
+  normalmente com um desvio padrão de 19.82 kg. Uma amostra aleatória
+  simples de 25 homens adultos é sorteada desta população, obtendo-se um
+  peso médio de 89.05 kg. Construa um intervalo de confiança de 90\%
+  para o peso médio de todos os homens adultos dessa população.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([87.750, 90.350]\)
+  \item
+    \([82.268, 95.832]\)
+  \item
+    \([87.694, 90.406]\)
+  \item
+    \([82.549, 95.551]\)
+  \item
+    \([87.910, 90.190]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=25, \overline{x}=89.05, \sigma= 19.82\) e
+  \(1-\alpha=0.9\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.95}=1.64\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.9\%)
+  &=
+  \left(89.05-{19.82 \over \sqrt{25}}\times 1.64; \, 89.05+{19.82 \over \sqrt{25}}\times 1.64\right)
+  \\
+  &=\left\text{$[82.549, 95.551]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em determinada população, o peso dos homens adultos é distribuído
+  normalmente com um desvio padrão de 19.67 kg. Uma amostra aleatória
+  simples de 27 homens adultos é sorteada desta população, obtendo-se um
+  peso médio de 76.67 kg. Construa um intervalo de confiança de 85\%
+  para o peso médio de todos os homens adultos dessa população.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([75.621, 77.719]\)
+  \item
+    \([75.589, 77.751]\)
+  \item
+    \([75.782, 77.558]\)
+  \item
+    \([71.219, 82.121]\)
+  \item
+    \([71.055, 82.285]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=27, \overline{x}=76.67, \sigma= 19.67\) e
+  \(1-\alpha=0.85\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.925}=1.44\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.85\%)
+  &=
+  \left(76.67-{19.67 \over \sqrt{27}}\times 1.44; \, 76.67+{19.67 \over \sqrt{27}}\times 1.44\right)
+  \\
+  &=\left\text{$[71.219, 82.121]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em determinada população, o peso dos homens adultos é distribuído
+  normalmente com um desvio padrão de 19.36 kg. Uma amostra aleatória
+  simples de 27 homens adultos é sorteada desta população, obtendo-se um
+  peso médio de 73.09 kg. Construa um intervalo de confiança de 99\%
+  para o peso médio de todos os homens adultos dessa população.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([71.098, 75.082]\)
+  \item
+    \([62.737, 83.443]\)
+  \item
+    \([71.117, 75.063]\)
+  \item
+    \([63.477, 82.703]\)
+  \item
+    \([71.240, 74.940]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=27, \overline{x}=73.09, \sigma= 19.36\) e
+  \(1-\alpha=0.99\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.995}=2.58\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.99\%)
+  &=
+  \left(73.09-{19.36 \over \sqrt{27}}\times 2.58; \, 73.09+{19.36 \over \sqrt{27}}\times 2.58\right)
+  \\
+  &=\left\text{$[63.477, 82.703]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em determinada população, o peso dos homens adultos é distribuído
+  normalmente com um desvio padrão de 19.8 kg. Uma amostra aleatória
+  simples de 26 homens adultos é sorteada desta população, obtendo-se um
+  peso médio de 79.04 kg. Construa um intervalo de confiança de 90\%
+  para o peso médio de todos os homens adultos dessa população.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([77.923, 80.157]\)
+  \item
+    \([72.407, 85.673]\)
+  \item
+    \([72.672, 85.408]\)
+  \item
+    \([77.791, 80.289]\)
+  \item
+    \([77.739, 80.341]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=26, \overline{x}=79.04, \sigma= 19.8\) e
+  \(1-\alpha=0.9\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.95}=1.64\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.9\%)
+  &=
+  \left(79.04-{19.8 \over \sqrt{26}}\times 1.64; \, 79.04+{19.8 \over \sqrt{26}}\times 1.64\right)
+  \\
+  &=\left\text{$[72.672, 85.408]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em determinada população, o peso dos homens adultos é distribuído
+  normalmente com um desvio padrão de 15.39 kg. Uma amostra aleatória
+  simples de 26 homens adultos é sorteada desta população, obtendo-se um
+  peso médio de 84.91 kg. Construa um intervalo de confiança de 95\%
+  para o peso médio de todos os homens adultos dessa população.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([83.750, 86.070]\)
+  \item
+    \([83.648, 86.172]\)
+  \item
+    \([83.691, 86.129]\)
+  \item
+    \([78.994, 90.826]\)
+  \item
+    \([78.694, 91.126]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=26, \overline{x}=84.91, \sigma= 15.39\) e
+  \(1-\alpha=0.95\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.975}=1.96\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.95\%)
+  &=
+  \left(84.91-{15.39 \over \sqrt{26}}\times 1.96; \, 84.91+{15.39 \over \sqrt{26}}\times 1.96\right)
+  \\
+  &=\left\text{$[78.994, 90.826]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em determinada população, o peso dos homens adultos é distribuído
+  normalmente com um desvio padrão de 15.6 kg. Uma amostra aleatória
+  simples de 30 homens adultos é sorteada desta população, obtendo-se um
+  peso médio de 71.81 kg. Construa um intervalo de confiança de 80\%
+  para o peso médio de todos os homens adultos dessa população.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([71.144, 72.476]\)
+  \item
+    \([68.164, 75.456]\)
+  \item
+    \([71.204, 72.416]\)
+  \item
+    \([71.128, 72.492]\)
+  \item
+    \([68.075, 75.545]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=30, \overline{x}=71.81, \sigma= 15.6\) e
+  \(1-\alpha=0.8\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.9}=1.28\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.8\%)
+  &=
+  \left(71.81-{15.6 \over \sqrt{30}}\times 1.28; \, 71.81+{15.6 \over \sqrt{30}}\times 1.28\right)
+  \\
+  &=\left\text{$[68.164, 75.456]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em determinada população, o peso dos homens adultos é distribuído
+  normalmente com um desvio padrão de 15.02 kg. Uma amostra aleatória
+  simples de 30 homens adultos é sorteada desta população, obtendo-se um
+  peso médio de 65.49 kg. Construa um intervalo de confiança de 95\%
+  para o peso médio de todos os homens adultos dessa população.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([64.509, 66.471]\)
+  \item
+    \([60.115, 70.865]\)
+  \item
+    \([59.882, 71.098]\)
+  \item
+    \([64.330, 66.650]\)
+  \item
+    \([64.466, 66.514]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=30, \overline{x}=65.49, \sigma= 15.02\) e
+  \(1-\alpha=0.95\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.975}=1.96\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.95\%)
+  &=
+  \left(65.49-{15.02 \over \sqrt{30}}\times 1.96; \, 65.49+{15.02 \over \sqrt{30}}\times 1.96\right)
+  \\
+  &=\left\text{$[60.115, 70.865]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em determinada população, o peso dos homens adultos é distribuído
+  normalmente com um desvio padrão de 17.32 kg. Uma amostra aleatória
+  simples de 28 homens adultos é sorteada desta população, obtendo-se um
+  peso médio de 88.01 kg. Construa um intervalo de confiança de 90\%
+  para o peso médio de todos os homens adultos dessa população.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([86.996, 89.024]\)
+  \item
+    \([82.642, 93.378]\)
+  \item
+    \([87.003, 89.017]\)
+  \item
+    \([82.435, 93.585]\)
+  \item
+    \([86.956, 89.064]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=28, \overline{x}=88.01, \sigma= 17.32\) e
+  \(1-\alpha=0.9\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.95}=1.64\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.9\%)
+  &=
+  \left(88.01-{17.32 \over \sqrt{28}}\times 1.64; \, 88.01+{17.32 \over \sqrt{28}}\times 1.64\right)
+  \\
+  &=\left\text{$[82.642, 93.378]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em determinada população, o peso dos homens adultos é distribuído
+  normalmente com um desvio padrão de 17.94 kg. Uma amostra aleatória
+  simples de 27 homens adultos é sorteada desta população, obtendo-se um
+  peso médio de 86.62 kg. Construa um intervalo de confiança de 99\%
+  para o peso médio de todos os homens adultos dessa população.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([77.712, 95.528]\)
+  \item
+    \([84.721, 88.519]\)
+  \item
+    \([84.774, 88.466]\)
+  \item
+    \([84.906, 88.334]\)
+  \item
+    \([77.026, 96.214]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=27, \overline{x}=86.62, \sigma= 17.94\) e
+  \(1-\alpha=0.99\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.995}=2.58\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.99\%)
+  &=
+  \left(86.62-{17.94 \over \sqrt{27}}\times 2.58; \, 86.62+{17.94 \over \sqrt{27}}\times 2.58\right)
+  \\
+  &=\left\text{$[77.712, 95.528]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

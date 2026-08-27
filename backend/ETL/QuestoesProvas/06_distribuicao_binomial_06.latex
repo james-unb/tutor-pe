@@ -1,0 +1,392 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma certa fábrica de canetas esferográficas tem encontrado defeito em
+  \(3\%\) de sua produção. Assumindo independência entre as falhas, a
+  probabilidade de, entre \(133\) canetas, pelo menos uma ser defeituosa
+  é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.555\)
+  \item
+    \(0.980\)
+  \item
+    \(0.983\)
+  \item
+    \(0.020\)
+  \item
+    \(0.138\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de canetas defeituosas na amostra, sabe-se que
+  \(X \sim \text{Binomial}(133, 0.03)\). Portanto,
+  \[P(X > 0) = 1 - P(X = 0) = 1-0.017 = 0.983.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma certa fábrica de canetas esferográficas tem encontrado defeito em
+  \(2\%\) de sua produção. Assumindo independência entre as falhas, a
+  probabilidade de, entre \(130\) canetas, pelo menos uma ser defeituosa
+  é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.226\)
+  \item
+    \(0.928\)
+  \item
+    \(0.477\)
+  \item
+    \(0.010\)
+  \item
+    \(0.990\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de canetas defeituosas na amostra, sabe-se que
+  \(X \sim \text{Binomial}(130, 0.02)\). Portanto,
+  \[P(X > 0) = 1 - P(X = 0) = 1-0.072 = 0.928.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma certa fábrica de canetas esferográficas tem encontrado defeito em
+  \(2\%\) de sua produção. Assumindo independência entre as falhas, a
+  probabilidade de, entre \(122\) canetas, pelo menos uma ser defeituosa
+  é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.020\)
+  \item
+    \(0.117\)
+  \item
+    \(0.915\)
+  \item
+    \(0.676\)
+  \item
+    \(0.980\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de canetas defeituosas na amostra, sabe-se que
+  \(X \sim \text{Binomial}(122, 0.02)\). Portanto,
+  \[P(X > 0) = 1 - P(X = 0) = 1-0.085 = 0.915.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma certa fábrica de canetas esferográficas tem encontrado defeito em
+  \(3\%\) de sua produção. Assumindo independência entre as falhas, a
+  probabilidade de, entre \(136\) canetas, pelo menos uma ser defeituosa
+  é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.990\)
+  \item
+    \(0.730\)
+  \item
+    \(0.984\)
+  \item
+    \(0.010\)
+  \item
+    \(0.697\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de canetas defeituosas na amostra, sabe-se que
+  \(X \sim \text{Binomial}(136, 0.03)\). Portanto,
+  \[P(X > 0) = 1 - P(X = 0) = 1-0.016 = 0.984.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma certa fábrica de canetas esferográficas tem encontrado defeito em
+  \(1\%\) de sua produção. Assumindo independência entre as falhas, a
+  probabilidade de, entre \(131\) canetas, pelo menos uma ser defeituosa
+  é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.111\)
+  \item
+    \(0.732\)
+  \item
+    \(0.010\)
+  \item
+    \(0.990\)
+  \item
+    \(0.231\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de canetas defeituosas na amostra, sabe-se que
+  \(X \sim \text{Binomial}(131, 0.01)\). Portanto,
+  \[P(X > 0) = 1 - P(X = 0) = 1-0.268 = 0.732.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma certa fábrica de canetas esferográficas tem encontrado defeito em
+  \(3\%\) de sua produção. Assumindo independência entre as falhas, a
+  probabilidade de, entre \(118\) canetas, pelo menos uma ser defeituosa
+  é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.122\)
+  \item
+    \(0.973\)
+  \item
+    \(0.030\)
+  \item
+    \(0.970\)
+  \item
+    \(0.343\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de canetas defeituosas na amostra, sabe-se que
+  \(X \sim \text{Binomial}(118, 0.03)\). Portanto,
+  \[P(X > 0) = 1 - P(X = 0) = 1-0.027 = 0.973.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma certa fábrica de canetas esferográficas tem encontrado defeito em
+  \(1\%\) de sua produção. Assumindo independência entre as falhas, a
+  probabilidade de, entre \(146\) canetas, pelo menos uma ser defeituosa
+  é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.103\)
+  \item
+    \(0.990\)
+  \item
+    \(0.769\)
+  \item
+    \(0.010\)
+  \item
+    \(0.374\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de canetas defeituosas na amostra, sabe-se que
+  \(X \sim \text{Binomial}(146, 0.01)\). Portanto,
+  \[P(X > 0) = 1 - P(X = 0) = 1-0.231 = 0.769.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma certa fábrica de canetas esferográficas tem encontrado defeito em
+  \(2\%\) de sua produção. Assumindo independência entre as falhas, a
+  probabilidade de, entre \(112\) canetas, pelo menos uma ser defeituosa
+  é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.030\)
+  \item
+    \(0.423\)
+  \item
+    \(0.896\)
+  \item
+    \(0.970\)
+  \item
+    \(0.210\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de canetas defeituosas na amostra, sabe-se que
+  \(X \sim \text{Binomial}(112, 0.02)\). Portanto,
+  \[P(X > 0) = 1 - P(X = 0) = 1-0.104 = 0.896.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma certa fábrica de canetas esferográficas tem encontrado defeito em
+  \(3\%\) de sua produção. Assumindo independência entre as falhas, a
+  probabilidade de, entre \(133\) canetas, pelo menos uma ser defeituosa
+  é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.502\)
+  \item
+    \(0.617\)
+  \item
+    \(0.010\)
+  \item
+    \(0.990\)
+  \item
+    \(0.983\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de canetas defeituosas na amostra, sabe-se que
+  \(X \sim \text{Binomial}(133, 0.03)\). Portanto,
+  \[P(X > 0) = 1 - P(X = 0) = 1-0.017 = 0.983.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma certa fábrica de canetas esferográficas tem encontrado defeito em
+  \(2\%\) de sua produção. Assumindo independência entre as falhas, a
+  probabilidade de, entre \(141\) canetas, pelo menos uma ser defeituosa
+  é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.415\)
+  \item
+    \(0.833\)
+  \item
+    \(0.980\)
+  \item
+    \(0.020\)
+  \item
+    \(0.942\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de canetas defeituosas na amostra, sabe-se que
+  \(X \sim \text{Binomial}(141, 0.02)\). Portanto,
+  \[P(X > 0) = 1 - P(X = 0) = 1-0.058 = 0.942.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

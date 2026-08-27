@@ -1,0 +1,392 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O número médio de acidentes por mês em um certo cruzamento é 4.
+  Admitindo que o número de acidentes segue a distribuição de Poisson,
+  qual é a probabilidade de, em um dado mês, 5 acidentes ocorrerem nesse
+  cruzamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.327\)
+  \item
+    \(0.785\)
+  \item
+    \(0.175\)
+  \item
+    \(0.354\)
+  \item
+    \(0.156\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de acidentes neste cruzamento, então
+  \(X \sim Poisson(4)\) e portanto
+  \[P[X=5] = \frac{4^5 e^{-4}}{5!} = 0.156\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número médio de acidentes por mês em um certo cruzamento é 3.
+  Admitindo que o número de acidentes segue a distribuição de Poisson,
+  qual é a probabilidade de, em um dado mês, 6 acidentes ocorrerem nesse
+  cruzamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.966\)
+  \item
+    \(0.221\)
+  \item
+    \(0.050\)
+  \item
+    \(0.042\)
+  \item
+    \(0.089\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de acidentes neste cruzamento, então
+  \(X \sim Poisson(3)\) e portanto
+  \[P[X=6] = \frac{3^6 e^{-3}}{6!} = 0.05\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número médio de acidentes por mês em um certo cruzamento é 5.
+  Admitindo que o número de acidentes segue a distribuição de Poisson,
+  qual é a probabilidade de, em um dado mês, 6 acidentes ocorrerem nesse
+  cruzamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.762\)
+  \item
+    \(0.161\)
+  \item
+    \(0.023\)
+  \item
+    \(0.146\)
+  \item
+    \(0.235\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de acidentes neste cruzamento, então
+  \(X \sim Poisson(5)\) e portanto
+  \[P[X=6] = \frac{5^6 e^{-5}}{6!} = 0.146\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número médio de acidentes por mês em um certo cruzamento é 3.
+  Admitindo que o número de acidentes segue a distribuição de Poisson,
+  qual é a probabilidade de, em um dado mês, 6 acidentes ocorrerem nesse
+  cruzamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.231\)
+  \item
+    \(0.089\)
+  \item
+    \(0.966\)
+  \item
+    \(0.021\)
+  \item
+    \(0.050\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de acidentes neste cruzamento, então
+  \(X \sim Poisson(3)\) e portanto
+  \[P[X=6] = \frac{3^6 e^{-3}}{6!} = 0.05\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número médio de acidentes por mês em um certo cruzamento é 3.
+  Admitindo que o número de acidentes segue a distribuição de Poisson,
+  qual é a probabilidade de, em um dado mês, 4 acidentes ocorrerem nesse
+  cruzamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.195\)
+  \item
+    \(0.041\)
+  \item
+    \(0.168\)
+  \item
+    \(0.089\)
+  \item
+    \(0.815\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de acidentes neste cruzamento, então
+  \(X \sim Poisson(3)\) e portanto
+  \[P[X=4] = \frac{3^4 e^{-3}}{4!} = 0.168\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número médio de acidentes por mês em um certo cruzamento é 4.
+  Admitindo que o número de acidentes segue a distribuição de Poisson,
+  qual é a probabilidade de, em um dado mês, 6 acidentes ocorrerem nesse
+  cruzamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.165\)
+  \item
+    \(0.148\)
+  \item
+    \(0.889\)
+  \item
+    \(0.134\)
+  \item
+    \(0.104\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de acidentes neste cruzamento, então
+  \(X \sim Poisson(4)\) e portanto
+  \[P[X=6] = \frac{4^6 e^{-4}}{6!} = 0.104\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número médio de acidentes por mês em um certo cruzamento é 3.
+  Admitindo que o número de acidentes segue a distribuição de Poisson,
+  qual é a probabilidade de, em um dado mês, 6 acidentes ocorrerem nesse
+  cruzamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.050\)
+  \item
+    \(0.047\)
+  \item
+    \(0.089\)
+  \item
+    \(0.966\)
+  \item
+    \(0.076\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de acidentes neste cruzamento, então
+  \(X \sim Poisson(3)\) e portanto
+  \[P[X=6] = \frac{3^6 e^{-3}}{6!} = 0.05\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número médio de acidentes por mês em um certo cruzamento é 5.
+  Admitindo que o número de acidentes segue a distribuição de Poisson,
+  qual é a probabilidade de, em um dado mês, 4 acidentes ocorrerem nesse
+  cruzamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.156\)
+  \item
+    \(0.162\)
+  \item
+    \(0.085\)
+  \item
+    \(0.175\)
+  \item
+    \(0.440\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de acidentes neste cruzamento, então
+  \(X \sim Poisson(5)\) e portanto
+  \[P[X=4] = \frac{5^4 e^{-5}}{4!} = 0.175\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número médio de acidentes por mês em um certo cruzamento é 5.
+  Admitindo que o número de acidentes segue a distribuição de Poisson,
+  qual é a probabilidade de, em um dado mês, 4 acidentes ocorrerem nesse
+  cruzamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.344\)
+  \item
+    \(0.440\)
+  \item
+    \(0.278\)
+  \item
+    \(0.175\)
+  \item
+    \(0.156\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de acidentes neste cruzamento, então
+  \(X \sim Poisson(5)\) e portanto
+  \[P[X=4] = \frac{5^4 e^{-5}}{4!} = 0.175\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número médio de acidentes por mês em um certo cruzamento é 3.
+  Admitindo que o número de acidentes segue a distribuição de Poisson,
+  qual é a probabilidade de, em um dado mês, 4 acidentes ocorrerem nesse
+  cruzamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.815\)
+  \item
+    \(0.278\)
+  \item
+    \(0.195\)
+  \item
+    \(0.058\)
+  \item
+    \(0.168\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de acidentes neste cruzamento, então
+  \(X \sim Poisson(3)\) e portanto
+  \[P[X=4] = \frac{3^4 e^{-3}}{4!} = 0.168\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

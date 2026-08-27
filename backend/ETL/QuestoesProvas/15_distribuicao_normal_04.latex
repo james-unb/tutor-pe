@@ -1,0 +1,460 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O lucro diário (em milhares de reais) de uma corretora na bolsa de
+  valores é dado por \(L=4L_a + 4L_i + 5L_c\), onde \(L_a\), \(L_i\) e
+  \(L_c\) representam, respectivamente, os lucros diários nos setores de
+  agricultura, indústria e comércio. Considere que \(L_a \sim N(1,1)\),
+  \(L_i \sim N(3,16)\) e \(L_c \sim N(2,25)\), onde
+  \(X\sim N(\mu,\sigma^2)\) denota uma variável Normal com média \(\mu\)
+  e variancia \(\sigma^2\). Assumindo independência entre os 3 setores,
+  qual é a probabilidade de um lucro diário acima de \(16\) mil?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.841\)
+  \item
+    \(0.371\)
+  \item
+    \(0.159\)
+  \item
+    \(0.629\)
+  \item
+    \(0.587\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(L=4L_a + 4L_i + 5L_c\), então \(L \sim N(\mu,\sigma)\),
+  onde \[\mu = 4\mu_a + 4\mu_i + 5\mu_c = 26\]
+  \[\sigma = \sqrt{(4\sigma_a)^2 + (4\sigma_i)^2 + (5\sigma_c)^2} = 29.95.\]
+
+  Portanto,
+  \(P(L > 16) = 1 - P(L \leq 16) = 1- P(Z \leq -0.33) = 0.629\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O lucro diário (em milhares de reais) de uma corretora na bolsa de
+  valores é dado por \(L=5L_a + 4L_i + 1L_c\), onde \(L_a\), \(L_i\) e
+  \(L_c\) representam, respectivamente, os lucros diários nos setores de
+  agricultura, indústria e comércio. Considere que \(L_a \sim N(3,1)\),
+  \(L_i \sim N(1,16)\) e \(L_c \sim N(1,36)\), onde
+  \(X\sim N(\mu,\sigma^2)\) denota uma variável Normal com média \(\mu\)
+  e variancia \(\sigma^2\). Assumindo independência entre os 3 setores,
+  qual é a probabilidade de um lucro diário acima de \(12\) mil?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.739\)
+  \item
+    \(0.674\)
+  \item
+    \(0.326\)
+  \item
+    \(0.261\)
+  \item
+    \(0.618\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(L=5L_a + 4L_i + 1L_c\), então \(L \sim N(\mu,\sigma)\),
+  onde \[\mu = 5\mu_a + 4\mu_i + 1\mu_c = 20\]
+  \[\sigma = \sqrt{(5\sigma_a)^2 + (4\sigma_i)^2 + (1\sigma_c)^2} = 17.8045.\]
+
+  Portanto,
+  \(P(L > 12) = 1 - P(L \leq 12) = 1- P(Z \leq -0.45) = 0.674\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O lucro diário (em milhares de reais) de uma corretora na bolsa de
+  valores é dado por \(L=3L_a + 4L_i + 5L_c\), onde \(L_a\), \(L_i\) e
+  \(L_c\) representam, respectivamente, os lucros diários nos setores de
+  agricultura, indústria e comércio. Considere que \(L_a \sim N(3,1)\),
+  \(L_i \sim N(3,16)\) e \(L_c \sim N(4,36)\), onde
+  \(X\sim N(\mu,\sigma^2)\) denota uma variável Normal com média \(\mu\)
+  e variancia \(\sigma^2\). Assumindo independência entre os 3 setores,
+  qual é a probabilidade de um lucro diário acima de \(26\) mil?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.670\)
+  \item
+    \(0.622\)
+  \item
+    \(0.074\)
+  \item
+    \(0.926\)
+  \item
+    \(0.330\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(L=3L_a + 4L_i + 5L_c\), então \(L \sim N(\mu,\sigma)\),
+  onde \[\mu = 3\mu_a + 4\mu_i + 5\mu_c = 41\]
+  \[\sigma = \sqrt{(3\sigma_a)^2 + (4\sigma_i)^2 + (5\sigma_c)^2} = 34.1321.\]
+
+  Portanto,
+  \(P(L > 26) = 1 - P(L \leq 26) = 1- P(Z \leq -0.44) = 0.67\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O lucro diário (em milhares de reais) de uma corretora na bolsa de
+  valores é dado por \(L=3L_a + 3L_i + 4L_c\), onde \(L_a\), \(L_i\) e
+  \(L_c\) representam, respectivamente, os lucros diários nos setores de
+  agricultura, indústria e comércio. Considere que \(L_a \sim N(1,4)\),
+  \(L_i \sim N(3,16)\) e \(L_c \sim N(1,25)\), onde
+  \(X\sim N(\mu,\sigma^2)\) denota uma variável Normal com média \(\mu\)
+  e variancia \(\sigma^2\). Assumindo independência entre os 3 setores,
+  qual é a probabilidade de um lucro diário acima de \(10\) mil?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.674\)
+  \item
+    \(0.401\)
+  \item
+    \(0.326\)
+  \item
+    \(0.564\)
+  \item
+    \(0.599\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(L=3L_a + 3L_i + 4L_c\), então \(L \sim N(\mu,\sigma)\),
+  onde \[\mu = 3\mu_a + 3\mu_i + 4\mu_c = 16\]
+  \[\sigma = \sqrt{(3\sigma_a)^2 + (3\sigma_i)^2 + (4\sigma_c)^2} = 24.0832.\]
+
+  Portanto,
+  \(P(L > 10) = 1 - P(L \leq 10) = 1- P(Z \leq -0.25) = 0.599\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O lucro diário (em milhares de reais) de uma corretora na bolsa de
+  valores é dado por \(L=1L_a + 3L_i + 3L_c\), onde \(L_a\), \(L_i\) e
+  \(L_c\) representam, respectivamente, os lucros diários nos setores de
+  agricultura, indústria e comércio. Considere que \(L_a \sim N(4,4)\),
+  \(L_i \sim N(5,9)\) e \(L_c \sim N(1,25)\), onde
+  \(X\sim N(\mu,\sigma^2)\) denota uma variável Normal com média \(\mu\)
+  e variancia \(\sigma^2\). Assumindo independência entre os 3 setores,
+  qual é a probabilidade de um lucro diário acima de \(16\) mil?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.591\)
+  \item
+    \(0.274\)
+  \item
+    \(0.726\)
+  \item
+    \(0.367\)
+  \item
+    \(0.633\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(L=1L_a + 3L_i + 3L_c\), então \(L \sim N(\mu,\sigma)\),
+  onde \[\mu = 1\mu_a + 3\mu_i + 3\mu_c = 22\]
+  \[\sigma = \sqrt{(1\sigma_a)^2 + (3\sigma_i)^2 + (3\sigma_c)^2} = 17.6068.\]
+
+  Portanto,
+  \(P(L > 16) = 1 - P(L \leq 16) = 1- P(Z \leq -0.34) = 0.633\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O lucro diário (em milhares de reais) de uma corretora na bolsa de
+  valores é dado por \(L=5L_a + 2L_i + 2L_c\), onde \(L_a\), \(L_i\) e
+  \(L_c\) representam, respectivamente, os lucros diários nos setores de
+  agricultura, indústria e comércio. Considere que \(L_a \sim N(3,1)\),
+  \(L_i \sim N(5,9)\) e \(L_c \sim N(3,36)\), onde
+  \(X\sim N(\mu,\sigma^2)\) denota uma variável Normal com média \(\mu\)
+  e variancia \(\sigma^2\). Assumindo independência entre os 3 setores,
+  qual é a probabilidade de um lucro diário acima de \(21\) mil?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.159\)
+  \item
+    \(0.841\)
+  \item
+    \(0.242\)
+  \item
+    \(0.758\)
+  \item
+    \(0.666\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(L=5L_a + 2L_i + 2L_c\), então \(L \sim N(\mu,\sigma)\),
+  onde \[\mu = 5\mu_a + 2\mu_i + 2\mu_c = 31\]
+  \[\sigma = \sqrt{(5\sigma_a)^2 + (2\sigma_i)^2 + (2\sigma_c)^2} = 14.3178.\]
+
+  Portanto,
+  \(P(L > 21) = 1 - P(L \leq 21) = 1- P(Z \leq -0.7) = 0.758\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O lucro diário (em milhares de reais) de uma corretora na bolsa de
+  valores é dado por \(L=5L_a + 5L_i + 2L_c\), onde \(L_a\), \(L_i\) e
+  \(L_c\) representam, respectivamente, os lucros diários nos setores de
+  agricultura, indústria e comércio. Considere que \(L_a \sim N(1,4)\),
+  \(L_i \sim N(1,9)\) e \(L_c \sim N(1,25)\), onde
+  \(X\sim N(\mu,\sigma^2)\) denota uma variável Normal com média \(\mu\)
+  e variancia \(\sigma^2\). Assumindo independência entre os 3 setores,
+  qual é a probabilidade de um lucro diário acima de \(8\) mil?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.425\)
+  \item
+    \(0.309\)
+  \item
+    \(0.544\)
+  \item
+    \(0.575\)
+  \item
+    \(0.691\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(L=5L_a + 5L_i + 2L_c\), então \(L \sim N(\mu,\sigma)\),
+  onde \[\mu = 5\mu_a + 5\mu_i + 2\mu_c = 12\]
+  \[\sigma = \sqrt{(5\sigma_a)^2 + (5\sigma_i)^2 + (2\sigma_c)^2} = 20.6155.\]
+
+  Portanto, \(P(L > 8) = 1 - P(L \leq 8) = 1- P(Z \leq -0.19) = 0.575\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O lucro diário (em milhares de reais) de uma corretora na bolsa de
+  valores é dado por \(L=2L_a + 4L_i + 4L_c\), onde \(L_a\), \(L_i\) e
+  \(L_c\) representam, respectivamente, os lucros diários nos setores de
+  agricultura, indústria e comércio. Considere que \(L_a \sim N(2,1)\),
+  \(L_i \sim N(3,16)\) e \(L_c \sim N(5,36)\), onde
+  \(X\sim N(\mu,\sigma^2)\) denota uma variável Normal com média \(\mu\)
+  e variancia \(\sigma^2\). Assumindo independência entre os 3 setores,
+  qual é a probabilidade de um lucro diário acima de \(23\) mil?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.622\)
+  \item
+    \(0.326\)
+  \item
+    \(0.119\)
+  \item
+    \(0.881\)
+  \item
+    \(0.674\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(L=2L_a + 4L_i + 4L_c\), então \(L \sim N(\mu,\sigma)\),
+  onde \[\mu = 2\mu_a + 4\mu_i + 4\mu_c = 36\]
+  \[\sigma = \sqrt{(2\sigma_a)^2 + (4\sigma_i)^2 + (4\sigma_c)^2} = 28.9137.\]
+
+  Portanto,
+  \(P(L > 23) = 1 - P(L \leq 23) = 1- P(Z \leq -0.45) = 0.674\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O lucro diário (em milhares de reais) de uma corretora na bolsa de
+  valores é dado por \(L=4L_a + 5L_i + 3L_c\), onde \(L_a\), \(L_i\) e
+  \(L_c\) representam, respectivamente, os lucros diários nos setores de
+  agricultura, indústria e comércio. Considere que \(L_a \sim N(4,4)\),
+  \(L_i \sim N(5,9)\) e \(L_c \sim N(3,25)\), onde
+  \(X\sim N(\mu,\sigma^2)\) denota uma variável Normal com média \(\mu\)
+  e variancia \(\sigma^2\). Assumindo independência entre os 3 setores,
+  qual é a probabilidade de um lucro diário acima de \(31\) mil?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.800\)
+  \item
+    \(0.971\)
+  \item
+    \(0.200\)
+  \item
+    \(0.691\)
+  \item
+    \(0.029\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(L=4L_a + 5L_i + 3L_c\), então \(L \sim N(\mu,\sigma)\),
+  onde \[\mu = 4\mu_a + 5\mu_i + 3\mu_c = 50\]
+  \[\sigma = \sqrt{(4\sigma_a)^2 + (5\sigma_i)^2 + (3\sigma_c)^2} = 22.6716.\]
+
+  Portanto, \(P(L > 31) = 1 - P(L \leq 31) = 1- P(Z \leq -0.84) = 0.8\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O lucro diário (em milhares de reais) de uma corretora na bolsa de
+  valores é dado por \(L=4L_a + 3L_i + 1L_c\), onde \(L_a\), \(L_i\) e
+  \(L_c\) representam, respectivamente, os lucros diários nos setores de
+  agricultura, indústria e comércio. Considere que \(L_a \sim N(5,1)\),
+  \(L_i \sim N(4,16)\) e \(L_c \sim N(1,36)\), onde
+  \(X\sim N(\mu,\sigma^2)\) denota uma variável Normal com média \(\mu\)
+  e variancia \(\sigma^2\). Assumindo independência entre os 3 setores,
+  qual é a probabilidade de um lucro diário acima de \(22\) mil?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.215\)
+  \item
+    \(0.862\)
+  \item
+    \(0.691\)
+  \item
+    \(0.785\)
+  \item
+    \(0.138\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(L=4L_a + 3L_i + 1L_c\), então \(L \sim N(\mu,\sigma)\),
+  onde \[\mu = 4\mu_a + 3\mu_i + 1\mu_c = 33\]
+  \[\sigma = \sqrt{(4\sigma_a)^2 + (3\sigma_i)^2 + (1\sigma_c)^2} = 14.\]
+
+  Portanto,
+  \(P(L > 22) = 1 - P(L \leq 22) = 1- P(Z \leq -0.79) = 0.785\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

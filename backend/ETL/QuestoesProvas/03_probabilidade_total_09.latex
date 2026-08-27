@@ -1,0 +1,534 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Para selecionar seus funcionários, uma empresa submete os candidatos a
+  um teste contendo questões referentes a conhecimentos gerais e
+  específicos e apresenta o resultado aprovado (\(A\)) ou reprovado
+  (\(R\)). Dos candidatos que realizam o teste, 25\% são
+  pré-classificados como bons (\(B\)), 50\% como médios (\(M\)) e os
+  restantes 25\% como fracos. Obteve-se as seguintes probabilidades
+  condicionais: \(P(R|B)= 0.13\), \(P(R|M)=0.5\) e \(P(R|F)=0.8\). Qual
+  a probabilidade do candidato ser aprovado no teste?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.652\)
+  \item
+    \(0.087\)
+  \item
+    \(0.518\)
+  \item
+    \(0.523\)
+  \item
+    \(0.483\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  A &=& \text{ ``O candidato foi aprovado.''} \\
+  F &=& \text{ ``Classificado como fraco''} \\
+  M &=& \text{ ``Classificado como médio.''} \\
+  B &=& \text{ ``Classificado como bom.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(A) & = P(A|F)P(F)+P(A|M)P(M)+P(A|B)P(B) \\
+  & = 0.2 \times 0.25 + 0.5 \times 0.5+ \0.87\times 0.25 \\
+  & = 0.518.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para selecionar seus funcionários, uma empresa submete os candidatos a
+  um teste contendo questões referentes a conhecimentos gerais e
+  específicos e apresenta o resultado aprovado (\(A\)) ou reprovado
+  (\(R\)). Dos candidatos que realizam o teste, 25\% são
+  pré-classificados como bons (\(B\)), 50\% como médios (\(M\)) e os
+  restantes 25\% como fracos. Obteve-se as seguintes probabilidades
+  condicionais: \(P(R|B)= 0.2\), \(P(R|M)=0.36\) e \(P(R|F)=0.82\). Qual
+  a probabilidade do candidato ser aprovado no teste?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.641\)
+  \item
+    \(0.092\)
+  \item
+    \(0.538\)
+  \item
+    \(0.435\)
+  \item
+    \(0.565\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  A &=& \text{ ``O candidato foi aprovado.''} \\
+  F &=& \text{ ``Classificado como fraco''} \\
+  M &=& \text{ ``Classificado como médio.''} \\
+  B &=& \text{ ``Classificado como bom.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(A) & = P(A|F)P(F)+P(A|M)P(M)+P(A|B)P(B) \\
+  & = 0.18 \times 0.25 + 0.64 \times 0.5+ \0.8\times 0.25 \\
+  & = 0.565.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para selecionar seus funcionários, uma empresa submete os candidatos a
+  um teste contendo questões referentes a conhecimentos gerais e
+  específicos e apresenta o resultado aprovado (\(A\)) ou reprovado
+  (\(R\)). Dos candidatos que realizam o teste, 25\% são
+  pré-classificados como bons (\(B\)), 50\% como médios (\(M\)) e os
+  restantes 25\% como fracos. Obteve-se as seguintes probabilidades
+  condicionais: \(P(R|B)= 0.0600000000000001\), \(P(R|M)=0.31\) e
+  \(P(R|F)=0.77\). Qual a probabilidade do candidato ser aprovado no
+  teste?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.149\)
+  \item
+    \(0.638\)
+  \item
+    \(0.636\)
+  \item
+    \(0.447\)
+  \item
+    \(0.363\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  A &=& \text{ ``O candidato foi aprovado.''} \\
+  F &=& \text{ ``Classificado como fraco''} \\
+  M &=& \text{ ``Classificado como médio.''} \\
+  B &=& \text{ ``Classificado como bom.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(A) & = P(A|F)P(F)+P(A|M)P(M)+P(A|B)P(B) \\
+  & = 0.23 \times 0.25 + 0.69 \times 0.5+ \0.94\times 0.25 \\
+  & = 0.637.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para selecionar seus funcionários, uma empresa submete os candidatos a
+  um teste contendo questões referentes a conhecimentos gerais e
+  específicos e apresenta o resultado aprovado (\(A\)) ou reprovado
+  (\(R\)). Dos candidatos que realizam o teste, 25\% são
+  pré-classificados como bons (\(B\)), 50\% como médios (\(M\)) e os
+  restantes 25\% como fracos. Obteve-se as seguintes probabilidades
+  condicionais: \(P(R|B)= 0.15\), \(P(R|M)=0.32\) e \(P(R|F)=0.65\).
+  Qual a probabilidade do candidato ser aprovado no teste?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.573\)
+  \item
+    \(0.202\)
+  \item
+    \(0.360\)
+  \item
+    \(0.638\)
+  \item
+    \(0.640\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  A &=& \text{ ``O candidato foi aprovado.''} \\
+  F &=& \text{ ``Classificado como fraco''} \\
+  M &=& \text{ ``Classificado como médio.''} \\
+  B &=& \text{ ``Classificado como bom.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(A) & = P(A|F)P(F)+P(A|M)P(M)+P(A|B)P(B) \\
+  & = 0.35 \times 0.25 + 0.68 \times 0.5+ \0.85\times 0.25 \\
+  & = 0.64.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para selecionar seus funcionários, uma empresa submete os candidatos a
+  um teste contendo questões referentes a conhecimentos gerais e
+  específicos e apresenta o resultado aprovado (\(A\)) ou reprovado
+  (\(R\)). Dos candidatos que realizam o teste, 25\% são
+  pré-classificados como bons (\(B\)), 50\% como médios (\(M\)) e os
+  restantes 25\% como fracos. Obteve-se as seguintes probabilidades
+  condicionais: \(P(R|B)= 0.12\), \(P(R|M)=0.42\) e \(P(R|F)=0.74\).
+  Qual a probabilidade do candidato ser aprovado no teste?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.575\)
+  \item
+    \(0.133\)
+  \item
+    \(0.542\)
+  \item
+    \(0.627\)
+  \item
+    \(0.425\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  A &=& \text{ ``O candidato foi aprovado.''} \\
+  F &=& \text{ ``Classificado como fraco''} \\
+  M &=& \text{ ``Classificado como médio.''} \\
+  B &=& \text{ ``Classificado como bom.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(A) & = P(A|F)P(F)+P(A|M)P(M)+P(A|B)P(B) \\
+  & = 0.26 \times 0.25 + 0.58 \times 0.5+ \0.88\times 0.25 \\
+  & = 0.575.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para selecionar seus funcionários, uma empresa submete os candidatos a
+  um teste contendo questões referentes a conhecimentos gerais e
+  específicos e apresenta o resultado aprovado (\(A\)) ou reprovado
+  (\(R\)). Dos candidatos que realizam o teste, 25\% são
+  pré-classificados como bons (\(B\)), 50\% como médios (\(M\)) e os
+  restantes 25\% como fracos. Obteve-se as seguintes probabilidades
+  condicionais: \(P(R|B)= 0.21\), \(P(R|M)=0.37\) e \(P(R|F)=0.73\).
+  Qual a probabilidade do candidato ser aprovado no teste?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.134\)
+  \item
+    \(0.596\)
+  \item
+    \(0.580\)
+  \item
+    \(0.677\)
+  \item
+    \(0.420\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  A &=& \text{ ``O candidato foi aprovado.''} \\
+  F &=& \text{ ``Classificado como fraco''} \\
+  M &=& \text{ ``Classificado como médio.''} \\
+  B &=& \text{ ``Classificado como bom.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(A) & = P(A|F)P(F)+P(A|M)P(M)+P(A|B)P(B) \\
+  & = 0.27 \times 0.25 + 0.63 \times 0.5+ \0.79\times 0.25 \\
+  & = 0.58.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para selecionar seus funcionários, uma empresa submete os candidatos a
+  um teste contendo questões referentes a conhecimentos gerais e
+  específicos e apresenta o resultado aprovado (\(A\)) ou reprovado
+  (\(R\)). Dos candidatos que realizam o teste, 25\% são
+  pré-classificados como bons (\(B\)), 50\% como médios (\(M\)) e os
+  restantes 25\% como fracos. Obteve-se as seguintes probabilidades
+  condicionais: \(P(R|B)= 0.22\), \(P(R|M)=0.35\) e \(P(R|F)=0.79\).
+  Qual a probabilidade do candidato ser aprovado no teste?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.619\)
+  \item
+    \(0.428\)
+  \item
+    \(0.565\)
+  \item
+    \(0.573\)
+  \item
+    \(0.106\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  A &=& \text{ ``O candidato foi aprovado.''} \\
+  F &=& \text{ ``Classificado como fraco''} \\
+  M &=& \text{ ``Classificado como médio.''} \\
+  B &=& \text{ ``Classificado como bom.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(A) & = P(A|F)P(F)+P(A|M)P(M)+P(A|B)P(B) \\
+  & = 0.21 \times 0.25 + 0.65 \times 0.5+ \0.78\times 0.25 \\
+  & = 0.573.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para selecionar seus funcionários, uma empresa submete os candidatos a
+  um teste contendo questões referentes a conhecimentos gerais e
+  específicos e apresenta o resultado aprovado (\(A\)) ou reprovado
+  (\(R\)). Dos candidatos que realizam o teste, 25\% são
+  pré-classificados como bons (\(B\)), 50\% como médios (\(M\)) e os
+  restantes 25\% como fracos. Obteve-se as seguintes probabilidades
+  condicionais: \(P(R|B)= 0.0600000000000001\), \(P(R|M)=0.33\) e
+  \(P(R|F)=0.89\). Qual a probabilidade do candidato ser aprovado no
+  teste?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.403\)
+  \item
+    \(0.598\)
+  \item
+    \(0.069\)
+  \item
+    \(0.522\)
+  \item
+    \(0.375\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  A &=& \text{ ``O candidato foi aprovado.''} \\
+  F &=& \text{ ``Classificado como fraco''} \\
+  M &=& \text{ ``Classificado como médio.''} \\
+  B &=& \text{ ``Classificado como bom.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(A) & = P(A|F)P(F)+P(A|M)P(M)+P(A|B)P(B) \\
+  & = 0.11 \times 0.25 + 0.67 \times 0.5+ \0.94\times 0.25 \\
+  & = 0.598.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para selecionar seus funcionários, uma empresa submete os candidatos a
+  um teste contendo questões referentes a conhecimentos gerais e
+  específicos e apresenta o resultado aprovado (\(A\)) ou reprovado
+  (\(R\)). Dos candidatos que realizam o teste, 25\% são
+  pré-classificados como bons (\(B\)), 50\% como médios (\(M\)) e os
+  restantes 25\% como fracos. Obteve-se as seguintes probabilidades
+  condicionais: \(P(R|B)= 0.15\), \(P(R|M)=0.48\) e \(P(R|F)=0.83\).
+  Qual a probabilidade do candidato ser aprovado no teste?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.075\)
+  \item
+    \(0.485\)
+  \item
+    \(0.518\)
+  \item
+    \(0.515\)
+  \item
+    \(0.614\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  A &=& \text{ ``O candidato foi aprovado.''} \\
+  F &=& \text{ ``Classificado como fraco''} \\
+  M &=& \text{ ``Classificado como médio.''} \\
+  B &=& \text{ ``Classificado como bom.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(A) & = P(A|F)P(F)+P(A|M)P(M)+P(A|B)P(B) \\
+  & = 0.17 \times 0.25 + 0.52 \times 0.5+ \0.85\times 0.25 \\
+  & = 0.515.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para selecionar seus funcionários, uma empresa submete os candidatos a
+  um teste contendo questões referentes a conhecimentos gerais e
+  específicos e apresenta o resultado aprovado (\(A\)) ou reprovado
+  (\(R\)). Dos candidatos que realizam o teste, 25\% são
+  pré-classificados como bons (\(B\)), 50\% como médios (\(M\)) e os
+  restantes 25\% como fracos. Obteve-se as seguintes probabilidades
+  condicionais: \(P(R|B)= 0.15\), \(P(R|M)=0.39\) e \(P(R|F)=0.9\). Qual
+  a probabilidade do candidato ser aprovado no teste?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.052\)
+  \item
+    \(0.543\)
+  \item
+    \(0.458\)
+  \item
+    \(0.455\)
+  \item
+    \(0.545\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  A &=& \text{ ``O candidato foi aprovado.''} \\
+  F &=& \text{ ``Classificado como fraco''} \\
+  M &=& \text{ ``Classificado como médio.''} \\
+  B &=& \text{ ``Classificado como bom.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(A) & = P(A|F)P(F)+P(A|M)P(M)+P(A|B)P(B) \\
+  & = 0.1 \times 0.25 + 0.61 \times 0.5+ \0.85\times 0.25 \\
+  & = 0.542.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

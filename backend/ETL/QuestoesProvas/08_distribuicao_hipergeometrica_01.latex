@@ -1,0 +1,412 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(14\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(10\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(2\) das \(14\) peças sejam
+  defeituosas. Se a escolha for realizada sem reposição qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.122\)
+  \item
+    \(0.066\)
+  \item
+    \(0.020\)
+  \item
+    \(0.143\)
+  \item
+    \(0.214\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável relativa ao número de peças defeituosas. A
+  probabilidade de aceitação do lote é dada por
+  \[P(X=0)=\dfrac{\binom{12}{10}\binom{2}{0}}{\binom{14}{10}} = 0.066.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(13\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(8\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(2\) das \(13\) peças sejam
+  defeituosas. Se a escolha for realizada sem reposição qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.128\)
+  \item
+    \(0.024\)
+  \item
+    \(0.130\)
+  \item
+    \(0.263\)
+  \item
+    \(0.154\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável relativa ao número de peças defeituosas. A
+  probabilidade de aceitação do lote é dada por
+  \[P(X=0)=\dfrac{\binom{11}{8}\binom{2}{0}}{\binom{13}{8}} = 0.128.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(11\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(8\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(1\) das \(11\) peças sejam
+  defeituosas. Se a escolha for realizada sem reposição qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.467\)
+  \item
+    \(0.008\)
+  \item
+    \(0.083\)
+  \item
+    \(0.273\)
+  \item
+    \(0.091\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável relativa ao número de peças defeituosas. A
+  probabilidade de aceitação do lote é dada por
+  \[P(X=0)=\dfrac{\binom{10}{8}\binom{1}{0}}{\binom{11}{8}} = 0.273.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(13\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(9\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(2\) das \(13\) peças sejam
+  defeituosas. Se a escolha for realizada sem reposição qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.130\)
+  \item
+    \(0.154\)
+  \item
+    \(0.077\)
+  \item
+    \(0.024\)
+  \item
+    \(0.222\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável relativa ao número de peças defeituosas. A
+  probabilidade de aceitação do lote é dada por
+  \[P(X=0)=\dfrac{\binom{11}{9}\binom{2}{0}}{\binom{13}{9}} = 0.077.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(12\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(8\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(2\) das \(12\) peças sejam
+  defeituosas. Se a escolha for realizada sem reposição qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.167\)
+  \item
+    \(0.139\)
+  \item
+    \(0.028\)
+  \item
+    \(0.091\)
+  \item
+    \(0.233\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável relativa ao número de peças defeituosas. A
+  probabilidade de aceitação do lote é dada por
+  \[P(X=0)=\dfrac{\binom{10}{8}\binom{2}{0}}{\binom{12}{8}} = 0.091.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(12\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(6\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(2\) das \(12\) peças sejam
+  defeituosas. Se a escolha for realizada sem reposição qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.227\)
+  \item
+    \(0.167\)
+  \item
+    \(0.139\)
+  \item
+    \(0.028\)
+  \item
+    \(0.335\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável relativa ao número de peças defeituosas. A
+  probabilidade de aceitação do lote é dada por
+  \[P(X=0)=\dfrac{\binom{10}{6}\binom{2}{0}}{\binom{12}{6}} = 0.227.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(11\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(7\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(1\) das \(11\) peças sejam
+  defeituosas. Se a escolha for realizada sem reposição qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.091\)
+  \item
+    \(0.083\)
+  \item
+    \(0.513\)
+  \item
+    \(0.008\)
+  \item
+    \(0.364\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável relativa ao número de peças defeituosas. A
+  probabilidade de aceitação do lote é dada por
+  \[P(X=0)=\dfrac{\binom{10}{7}\binom{1}{0}}{\binom{11}{7}} = 0.364.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(12\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(6\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(2\) das \(12\) peças sejam
+  defeituosas. Se a escolha for realizada sem reposição qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.167\)
+  \item
+    \(0.139\)
+  \item
+    \(0.028\)
+  \item
+    \(0.227\)
+  \item
+    \(0.335\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável relativa ao número de peças defeituosas. A
+  probabilidade de aceitação do lote é dada por
+  \[P(X=0)=\dfrac{\binom{10}{6}\binom{2}{0}}{\binom{12}{6}} = 0.227.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(12\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(8\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(2\) das \(12\) peças sejam
+  defeituosas. Se a escolha for realizada sem reposição qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.139\)
+  \item
+    \(0.028\)
+  \item
+    \(0.091\)
+  \item
+    \(0.233\)
+  \item
+    \(0.167\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável relativa ao número de peças defeituosas. A
+  probabilidade de aceitação do lote é dada por
+  \[P(X=0)=\dfrac{\binom{10}{8}\binom{2}{0}}{\binom{12}{8}} = 0.091.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(10\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(5\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(2\) das \(10\) peças sejam
+  defeituosas. Se a escolha for realizada sem reposição qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.222\)
+  \item
+    \(0.160\)
+  \item
+    \(0.200\)
+  \item
+    \(0.328\)
+  \item
+    \(0.040\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável relativa ao número de peças defeituosas. A
+  probabilidade de aceitação do lote é dada por
+  \[P(X=0)=\dfrac{\binom{8}{5}\binom{2}{0}}{\binom{10}{5}} = 0.222.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

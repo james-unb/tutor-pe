@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil dos refis de uma certa marca de
+  purificadores de água é exponencialmente distribuído com média de
+  \(3\) anos. Gustavo já usou seu refil da referida marca por \(2\) anos
+  seguidos. Qual é a probabilidade de que Gustavo não necessite trocar o
+  refil de seu purificador de água nos próximos \(3\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.368\)
+  \item
+    \(0.712\)
+  \item
+    \(0.632\)
+  \item
+    \(0.602\)
+  \item
+    \(0.140\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  dos refis, então, como \(E(X) = 3\), sabemos que
+  \(X\sim\text{Exp}(1/3).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.333x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>2+3 | X>2) &=& P(X>3)\\
+  &=& 1-F(3)\\
+  &=& 1-(1-e^{-0.333\times3})\\
+  &=& 0.368
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil dos refis de uma certa marca de
+  purificadores de água é exponencialmente distribuído com média de
+  \(4\) anos. Gustavo já usou seu refil da referida marca por \(3\) anos
+  seguidos. Qual é a probabilidade de que Gustavo não necessite trocar o
+  refil de seu purificador de água nos próximos \(3\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.881\)
+  \item
+    \(0.472\)
+  \item
+    \(0.528\)
+  \item
+    \(0.035\)
+  \item
+    \(0.732\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  dos refis, então, como \(E(X) = 4\), sabemos que
+  \(X\sim\text{Exp}(1/4).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.250x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>3+3 | X>3) &=& P(X>3)\\
+  &=& 1-F(3)\\
+  &=& 1-(1-e^{-0.250\times3})\\
+  &=& 0.472
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil dos refis de uma certa marca de
+  purificadores de água é exponencialmente distribuído com média de
+  \(3\) anos. Gustavo já usou seu refil da referida marca por \(2\) anos
+  seguidos. Qual é a probabilidade de que Gustavo não necessite trocar o
+  refil de seu purificador de água nos próximos \(3\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.372\)
+  \item
+    \(0.632\)
+  \item
+    \(0.997\)
+  \item
+    \(0.368\)
+  \item
+    \(0.225\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  dos refis, então, como \(E(X) = 3\), sabemos que
+  \(X\sim\text{Exp}(1/3).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.333x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>2+3 | X>2) &=& P(X>3)\\
+  &=& 1-F(3)\\
+  &=& 1-(1-e^{-0.333\times3})\\
+  &=& 0.368
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil dos refis de uma certa marca de
+  purificadores de água é exponencialmente distribuído com média de
+  \(4\) anos. Gustavo já usou seu refil da referida marca por \(3\) anos
+  seguidos. Qual é a probabilidade de que Gustavo não necessite trocar o
+  refil de seu purificador de água nos próximos \(4\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.702\)
+  \item
+    \(0.632\)
+  \item
+    \(0.368\)
+  \item
+    \(0.500\)
+  \item
+    \(0.497\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  dos refis, então, como \(E(X) = 4\), sabemos que
+  \(X\sim\text{Exp}(1/4).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.250x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>3+4 | X>3) &=& P(X>4)\\
+  &=& 1-F(4)\\
+  &=& 1-(1-e^{-0.250\times4})\\
+  &=& 0.368
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil dos refis de uma certa marca de
+  purificadores de água é exponencialmente distribuído com média de
+  \(3\) anos. Gustavo já usou seu refil da referida marca por \(2\) anos
+  seguidos. Qual é a probabilidade de que Gustavo não necessite trocar o
+  refil de seu purificador de água nos próximos \(2\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.856\)
+  \item
+    \(0.513\)
+  \item
+    \(0.241\)
+  \item
+    \(0.487\)
+  \item
+    \(0.784\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  dos refis, então, como \(E(X) = 3\), sabemos que
+  \(X\sim\text{Exp}(1/3).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.333x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>2+2 | X>2) &=& P(X>2)\\
+  &=& 1-F(2)\\
+  &=& 1-(1-e^{-0.333\times2})\\
+  &=& 0.513
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil dos refis de uma certa marca de
+  purificadores de água é exponencialmente distribuído com média de
+  \(4\) anos. Gustavo já usou seu refil da referida marca por \(3\) anos
+  seguidos. Qual é a probabilidade de que Gustavo não necessite trocar o
+  refil de seu purificador de água nos próximos \(2\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.230\)
+  \item
+    \(0.130\)
+  \item
+    \(0.658\)
+  \item
+    \(0.607\)
+  \item
+    \(0.393\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  dos refis, então, como \(E(X) = 4\), sabemos que
+  \(X\sim\text{Exp}(1/4).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.250x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>3+2 | X>3) &=& P(X>2)\\
+  &=& 1-F(2)\\
+  &=& 1-(1-e^{-0.250\times2})\\
+  &=& 0.607
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil dos refis de uma certa marca de
+  purificadores de água é exponencialmente distribuído com média de
+  \(3\) anos. Gustavo já usou seu refil da referida marca por \(2\) anos
+  seguidos. Qual é a probabilidade de que Gustavo não necessite trocar o
+  refil de seu purificador de água nos próximos \(4\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.931\)
+  \item
+    \(0.662\)
+  \item
+    \(0.147\)
+  \item
+    \(0.736\)
+  \item
+    \(0.264\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  dos refis, então, como \(E(X) = 3\), sabemos que
+  \(X\sim\text{Exp}(1/3).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.333x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>2+4 | X>2) &=& P(X>4)\\
+  &=& 1-F(4)\\
+  &=& 1-(1-e^{-0.333\times4})\\
+  &=& 0.264
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil dos refis de uma certa marca de
+  purificadores de água é exponencialmente distribuído com média de
+  \(4\) anos. Gustavo já usou seu refil da referida marca por \(3\) anos
+  seguidos. Qual é a probabilidade de que Gustavo não necessite trocar o
+  refil de seu purificador de água nos próximos \(4\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.223\)
+  \item
+    \(0.752\)
+  \item
+    \(0.128\)
+  \item
+    \(0.368\)
+  \item
+    \(0.632\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  dos refis, então, como \(E(X) = 4\), sabemos que
+  \(X\sim\text{Exp}(1/4).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.250x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>3+4 | X>3) &=& P(X>4)\\
+  &=& 1-F(4)\\
+  &=& 1-(1-e^{-0.250\times4})\\
+  &=& 0.368
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil dos refis de uma certa marca de
+  purificadores de água é exponencialmente distribuído com média de
+  \(3\) anos. Gustavo já usou seu refil da referida marca por \(2\) anos
+  seguidos. Qual é a probabilidade de que Gustavo não necessite trocar o
+  refil de seu purificador de água nos próximos \(2\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.369\)
+  \item
+    \(0.264\)
+  \item
+    \(0.513\)
+  \item
+    \(0.487\)
+  \item
+    \(0.979\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  dos refis, então, como \(E(X) = 3\), sabemos que
+  \(X\sim\text{Exp}(1/3).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.333x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>2+2 | X>2) &=& P(X>2)\\
+  &=& 1-F(2)\\
+  &=& 1-(1-e^{-0.333\times2})\\
+  &=& 0.513
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil dos refis de uma certa marca de
+  purificadores de água é exponencialmente distribuído com média de
+  \(4\) anos. Gustavo já usou seu refil da referida marca por \(3\) anos
+  seguidos. Qual é a probabilidade de que Gustavo não necessite trocar o
+  refil de seu purificador de água nos próximos \(2\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.432\)
+  \item
+    \(0.497\)
+  \item
+    \(0.607\)
+  \item
+    \(0.393\)
+  \item
+    \(0.974\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  dos refis, então, como \(E(X) = 4\), sabemos que
+  \(X\sim\text{Exp}(1/4).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.250x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>3+2 | X>3) &=& P(X>2)\\
+  &=& 1-F(2)\\
+  &=& 1-(1-e^{-0.250\times2})\\
+  &=& 0.607
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

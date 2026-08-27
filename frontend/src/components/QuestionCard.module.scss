@@ -1,0 +1,78 @@
+@use '../styles/variables' as *;
+
+.card {
+    background-color: $bg-surface; // Was hardcoded #171f2e
+    border: 1px solid $border-color;
+    border-radius: $radius-lg;
+    margin-bottom: $spacing-lg;
+    overflow: hidden;
+    font-size: 0.9rem;
+    color: $text-primary;
+    box-shadow: $shadow-md;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $spacing-md $spacing-lg;
+    background-color: $overlay-subtle;
+    border-bottom: 1px solid $overlay-light;
+
+    h3 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .badge {
+        background-color: $overlay-medium;
+        padding: 4px 12px;
+        border-radius: 999px;
+        font-size: 0.8rem;
+        color: $text-secondary;
+    }
+}
+
+.body {
+    padding: $spacing-lg;
+    line-height: 1.6;
+    color: $text-secondary;
+
+    p {
+        margin-bottom: $spacing-md;
+    }
+}
+
+.items {
+    padding: 0 $spacing-lg $spacing-lg;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+}
+
+.item {
+    display: flex;
+    gap: $spacing-md;
+    background-color: $overlay-item;
+    padding: $spacing-md;
+    border-radius: $radius-md;
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: $overlay-item-hover;
+    }
+
+    .label {
+        font-weight: 600;
+        color: $color-primary; // Using primary color for A, B...
+        min-width: 24px;
+        text-transform: uppercase;
+    }
+
+    .text {
+        flex: 1;
+        color: $text-secondary;
+    }
+}

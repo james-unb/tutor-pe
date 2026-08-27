@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa de satisfação de uma empresa aérea, uma amostra
+  aleatória de \(130\) clientes responderam a um questionário ao final
+  de seus vôos, revelando que \(30\)\% deles estavam insatisfeitos com o
+  serviço prestado. Com base nas informações, assinale a alternativa
+  correspondente a um intervalo de confiança para a proporção de
+  clientes insatisfeitos com confiança de \(95\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.297, 0.303]\)
+  \item
+    \([0.221, 0.379]\)
+  \item
+    \([0.261, 0.339]\)
+  \item
+    \([0.182, 0.418]\)
+  \item
+    \([0.245, 0.355]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.3-1.96\times\sqrt{\frac{0.21}{130}} \ , \ 0.3+1.96\times\sqrt{\frac{0.21}{130}}\right]\\
+  &=&\text{$[0.221, 0.379]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa de satisfação de uma empresa aérea, uma amostra
+  aleatória de \(100\) clientes responderam a um questionário ao final
+  de seus vôos, revelando que \(34\)\% deles estavam insatisfeitos com o
+  serviço prestado. Com base nas informações, assinale a alternativa
+  correspondente a um intervalo de confiança para a proporção de
+  clientes insatisfeitos com confiança de \(80\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.249, 0.431]\)
+  \item
+    \([0.298, 0.382]\)
+  \item
+    \([0.279, 0.401]\)
+  \item
+    \([0.310, 0.370]\)
+  \item
+    \([0.338, 0.342]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.34-1.28\times\sqrt{\frac{0.2244}{100}} \ , \ 0.34+1.28\times\sqrt{\frac{0.2244}{100}}\right]\\
+  &=&\text{$[0.279, 0.401]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa de satisfação de uma empresa aérea, uma amostra
+  aleatória de \(139\) clientes responderam a um questionário ao final
+  de seus vôos, revelando que \(56\)\% deles estavam insatisfeitos com o
+  serviço prestado. Com base nas informações, assinale a alternativa
+  correspondente a um intervalo de confiança para a proporção de
+  clientes insatisfeitos com confiança de \(90\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.491, 0.629]\)
+  \item
+    \([0.456, 0.664]\)
+  \item
+    \([0.512, 0.608]\)
+  \item
+    \([0.558, 0.562]\)
+  \item
+    \([0.525, 0.595]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.56-1.64\times\sqrt{\frac{0.2464}{139}} \ , \ 0.56+1.64\times\sqrt{\frac{0.2464}{139}}\right]\\
+  &=&\text{$[0.491, 0.629]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa de satisfação de uma empresa aérea, uma amostra
+  aleatória de \(148\) clientes responderam a um questionário ao final
+  de seus vôos, revelando que \(21\)\% deles estavam insatisfeitos com o
+  serviço prestado. Com base nas informações, assinale a alternativa
+  correspondente a um intervalo de confiança para a proporção de
+  clientes insatisfeitos com confiança de \(99\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.124, 0.296]\)
+  \item
+    \([0.150, 0.270]\)
+  \item
+    \([0.207, 0.213]\)
+  \item
+    \([0.167, 0.253]\)
+  \item
+    \([0.080, 0.340]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.21-2.58\times\sqrt{\frac{0.1659}{148}} \ , \ 0.21+2.58\times\sqrt{\frac{0.1659}{148}}\right]\\
+  &=&\text{$[0.124, 0.296]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa de satisfação de uma empresa aérea, uma amostra
+  aleatória de \(106\) clientes responderam a um questionário ao final
+  de seus vôos, revelando que \(53\)\% deles estavam insatisfeitos com o
+  serviço prestado. Com base nas informações, assinale a alternativa
+  correspondente a um intervalo de confiança para a proporção de
+  clientes insatisfeitos com confiança de \(80\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.437, 0.623]\)
+  \item
+    \([0.487, 0.573]\)
+  \item
+    \([0.528, 0.532]\)
+  \item
+    \([0.499, 0.561]\)
+  \item
+    \([0.468, 0.592]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.53-1.28\times\sqrt{\frac{0.2491}{106}} \ , \ 0.53+1.28\times\sqrt{\frac{0.2491}{106}}\right]\\
+  &=&\text{$[0.468, 0.592]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa de satisfação de uma empresa aérea, uma amostra
+  aleatória de \(138\) clientes responderam a um questionário ao final
+  de seus vôos, revelando que \(32\)\% deles estavam insatisfeitos com o
+  serviço prestado. Com base nas informações, assinale a alternativa
+  correspondente a um intervalo de confiança para a proporção de
+  clientes insatisfeitos com confiança de \(80\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.284, 0.356]\)
+  \item
+    \([0.244, 0.396]\)
+  \item
+    \([0.269, 0.371]\)
+  \item
+    \([0.295, 0.345]\)
+  \item
+    \([0.319, 0.321]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.32-1.28\times\sqrt{\frac{0.2176}{138}} \ , \ 0.32+1.28\times\sqrt{\frac{0.2176}{138}}\right]\\
+  &=&\text{$[0.269, 0.371]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa de satisfação de uma empresa aérea, uma amostra
+  aleatória de \(111\) clientes responderam a um questionário ao final
+  de seus vôos, revelando que \(50\)\% deles estavam insatisfeitos com o
+  serviço prestado. Com base nas informações, assinale a alternativa
+  correspondente a um intervalo de confiança para a proporção de
+  clientes insatisfeitos com confiança de \(90\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.446, 0.554]\)
+  \item
+    \([0.497, 0.503]\)
+  \item
+    \([0.422, 0.578]\)
+  \item
+    \([0.461, 0.539]\)
+  \item
+    \([0.383, 0.617]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.5-1.64\times\sqrt{\frac{0.25}{111}} \ , \ 0.5+1.64\times\sqrt{\frac{0.25}{111}}\right]\\
+  &=&\text{$[0.422, 0.578]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa de satisfação de uma empresa aérea, uma amostra
+  aleatória de \(124\) clientes responderam a um questionário ao final
+  de seus vôos, revelando que \(33\)\% deles estavam insatisfeitos com o
+  serviço prestado. Com base nas informações, assinale a alternativa
+  correspondente a um intervalo de confiança para a proporção de
+  clientes insatisfeitos com confiança de \(90\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.328, 0.332]\)
+  \item
+    \([0.226, 0.434]\)
+  \item
+    \([0.295, 0.365]\)
+  \item
+    \([0.282, 0.378]\)
+  \item
+    \([0.261, 0.399]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.33-1.64\times\sqrt{\frac{0.2211}{124}} \ , \ 0.33+1.64\times\sqrt{\frac{0.2211}{124}}\right]\\
+  &=&\text{$[0.261, 0.399]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa de satisfação de uma empresa aérea, uma amostra
+  aleatória de \(108\) clientes responderam a um questionário ao final
+  de seus vôos, revelando que \(51\)\% deles estavam insatisfeitos com o
+  serviço prestado. Com base nas informações, assinale a alternativa
+  correspondente a um intervalo de confiança para a proporção de
+  clientes insatisfeitos com confiança de \(80\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.479, 0.541]\)
+  \item
+    \([0.418, 0.602]\)
+  \item
+    \([0.448, 0.572]\)
+  \item
+    \([0.467, 0.553]\)
+  \item
+    \([0.508, 0.512]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.51-1.28\times\sqrt{\frac{0.2499}{108}} \ , \ 0.51+1.28\times\sqrt{\frac{0.2499}{108}}\right]\\
+  &=&\text{$[0.448, 0.572]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa de satisfação de uma empresa aérea, uma amostra
+  aleatória de \(137\) clientes responderam a um questionário ao final
+  de seus vôos, revelando que \(43\)\% deles estavam insatisfeitos com o
+  serviço prestado. Com base nas informações, assinale a alternativa
+  correspondente a um intervalo de confiança para a proporção de
+  clientes insatisfeitos com confiança de \(99\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.321, 0.539]\)
+  \item
+    \([0.266, 0.594]\)
+  \item
+    \([0.426, 0.434]\)
+  \item
+    \([0.375, 0.485]\)
+  \item
+    \([0.354, 0.506]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.43-2.58\times\sqrt{\frac{0.2451}{137}} \ , \ 0.43+2.58\times\sqrt{\frac{0.2451}{137}}\right]\\
+  &=&\text{$[0.321, 0.539]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,742 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria imobiliária. \(X\) e \(Y\)
+  denotam, respectivamente, o número de quartos e o número de banheiros
+  das casas disponíveis no mercado. Os valores na tabela representam a
+  proporção de casas com cada uma das possíveis configurações. Supondo
+  que uma dessas residências seja selecionada aleatoriamente, determine
+  \(\mathbb{P}(X\geq 3|Y \geq 5)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.021 & 0.083 & 0.092 \\
+  \(3\) & 0.252 & 0.105 & 0.052 \\
+  \(4\) & 0.169 & 0.094 & 0.044 \\
+  \(5\) & 0.011 & 0.034 & 0.043 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.316\)
+  \item
+    \(0.386\)
+  \item
+    \(0.034\)
+  \item
+    \(0.077\)
+  \item
+    \(0.875\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.021 & 0.083 & 0.092 & 0.196 & & & & \\
+  \(3\) & 0.252 & 0.105 & 0.052 & 0.409 & & & & \\
+  \(4\) & 0.169 & 0.094 & 0.044 & 0.307 & & & & \\
+  \(5\) & 0.011 & 0.034 & 0.043 & 0.088 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.453 & 0.316 & 0.231 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y \geq5) = 
+  \frac{\mathbb{P}(X \geq 3, Y \geq 5)}{P(Y \geq 5)}=
+  \frac{\sum_{x=3}^{4} \sum_{y=5}^{5}p(x,y)}{\sum_{y=5}^{5}\mathbb{P}(Y=y)} =
+  \frac{0.077}{0.088} = 0.875.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria imobiliária. \(X\) e \(Y\)
+  denotam, respectivamente, o número de quartos e o número de banheiros
+  das casas disponíveis no mercado. Os valores na tabela representam a
+  proporção de casas com cada uma das possíveis configurações. Supondo
+  que uma dessas residências seja selecionada aleatoriamente, determine
+  \(\mathbb{P}(X\geq 3|Y \geq 5)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.002 & 0.226 & 0.075 \\
+  \(3\) & 0.099 & 0.011 & 0.073 \\
+  \(4\) & 0.153 & 0.052 & 0.005 \\
+  \(5\) & 0.271 & 0.017 & 0.016 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.056\)
+  \item
+    \(0.033\)
+  \item
+    \(0.017\)
+  \item
+    \(0.306\)
+  \item
+    \(0.109\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.002 & 0.226 & 0.075 & 0.303 & & & & \\
+  \(3\) & 0.099 & 0.011 & 0.073 & 0.183 & & & & \\
+  \(4\) & 0.153 & 0.052 & 0.005 & 0.21 & & & & \\
+  \(5\) & 0.271 & 0.017 & 0.016 & 0.304 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.525 & 0.306 & 0.169 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y \geq5) = 
+  \frac{\mathbb{P}(X \geq 3, Y \geq 5)}{P(Y \geq 5)}=
+  \frac{\sum_{x=3}^{4} \sum_{y=5}^{5}p(x,y)}{\sum_{y=5}^{5}\mathbb{P}(Y=y)} =
+  \frac{0.033}{0.304} = 0.109.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria imobiliária. \(X\) e \(Y\)
+  denotam, respectivamente, o número de quartos e o número de banheiros
+  das casas disponíveis no mercado. Os valores na tabela representam a
+  proporção de casas com cada uma das possíveis configurações. Supondo
+  que uma dessas residências seja selecionada aleatoriamente, determine
+  \(\mathbb{P}(X\geq 3|Y \geq 5)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.116 & 0.008 & 0 \\
+  \(3\) & 0.155 & 0.311 & 0.037 \\
+  \(4\) & 0.074 & 0.084 & 0.007 \\
+  \(5\) & 0.01 & 0.071 & 0.127 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.474\)
+  \item
+    \(0.341\)
+  \item
+    \(0.198\)
+  \item
+    \(0.952\)
+  \item
+    \(0.071\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.116 & 0.008 & 0 & 0.124 & & & & \\
+  \(3\) & 0.155 & 0.311 & 0.037 & 0.503 & & & & \\
+  \(4\) & 0.074 & 0.084 & 0.007 & 0.165 & & & & \\
+  \(5\) & 0.01 & 0.071 & 0.127 & 0.208 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.355 & 0.474 & 0.171 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y \geq5) = 
+  \frac{\mathbb{P}(X \geq 3, Y \geq 5)}{P(Y \geq 5)}=
+  \frac{\sum_{x=3}^{4} \sum_{y=5}^{5}p(x,y)}{\sum_{y=5}^{5}\mathbb{P}(Y=y)} =
+  \frac{0.198}{0.208} = 0.952.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria imobiliária. \(X\) e \(Y\)
+  denotam, respectivamente, o número de quartos e o número de banheiros
+  das casas disponíveis no mercado. Os valores na tabela representam a
+  proporção de casas com cada uma das possíveis configurações. Supondo
+  que uma dessas residências seja selecionada aleatoriamente, determine
+  \(\mathbb{P}(X\geq 3|Y \geq 4)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.079 & 0.039 & 0.035 \\
+  \(3\) & 0.113 & 0 & 0.081 \\
+  \(4\) & 0.06 & 0.286 & 0.047 \\
+  \(5\) & 0.007 & 0.195 & 0.058 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.897\)
+  \item
+    \(0.728\)
+  \item
+    \(0.481\)
+  \item
+    \(0.586\)
+  \item
+    \(0.439\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.079 & 0.039 & 0.035 & 0.153 & & & & \\
+  \(3\) & 0.113 & 0 & 0.081 & 0.194 & & & & \\
+  \(4\) & 0.06 & 0.286 & 0.047 & 0.393 & & & & \\
+  \(5\) & 0.007 & 0.195 & 0.058 & 0.26 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.259 & 0.52 & 0.221 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y \geq4) = 
+  \frac{\mathbb{P}(X \geq 3, Y \geq 4)}{P(Y \geq 4)}=
+  \frac{\sum_{x=3}^{4} \sum_{y=4}^{5}p(x,y)}{\sum_{y=4}^{5}\mathbb{P}(Y=y)} =
+  \frac{0.586}{0.653} = 0.897.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria imobiliária. \(X\) e \(Y\)
+  denotam, respectivamente, o número de quartos e o número de banheiros
+  das casas disponíveis no mercado. Os valores na tabela representam a
+  proporção de casas com cada uma das possíveis configurações. Supondo
+  que uma dessas residências seja selecionada aleatoriamente, determine
+  \(\mathbb{P}(X\geq 3|Y \geq 4)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.033 & 0.042 & 0.051 \\
+  \(3\) & 0.262 & 0.291 & 0.06 \\
+  \(4\) & 0.02 & 0.018 & 0.03 \\
+  \(5\) & 0.006 & 0.109 & 0.078 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.900\)
+  \item
+    \(0.127\)
+  \item
+    \(0.435\)
+  \item
+    \(0.235\)
+  \item
+    \(0.265\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.033 & 0.042 & 0.051 & 0.126 & & & & \\
+  \(3\) & 0.262 & 0.291 & 0.06 & 0.613 & & & & \\
+  \(4\) & 0.02 & 0.018 & 0.03 & 0.068 & & & & \\
+  \(5\) & 0.006 & 0.109 & 0.078 & 0.193 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.321 & 0.46 & 0.219 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y \geq4) = 
+  \frac{\mathbb{P}(X \geq 3, Y \geq 4)}{P(Y \geq 4)}=
+  \frac{\sum_{x=3}^{4} \sum_{y=4}^{5}p(x,y)}{\sum_{y=4}^{5}\mathbb{P}(Y=y)} =
+  \frac{0.235}{0.261} = 0.900.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria imobiliária. \(X\) e \(Y\)
+  denotam, respectivamente, o número de quartos e o número de banheiros
+  das casas disponíveis no mercado. Os valores na tabela representam a
+  proporção de casas com cada uma das possíveis configurações. Supondo
+  que uma dessas residências seja selecionada aleatoriamente, determine
+  \(\mathbb{P}(X\geq 4|Y \geq 4)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.019 & 0.118 & 0.02 \\
+  \(3\) & 0.099 & 0.242 & 0.034 \\
+  \(4\) & 0.031 & 0.147 & 0.223 \\
+  \(5\) & 0.01 & 0.05 & 0.007 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.491\)
+  \item
+    \(0.840\)
+  \item
+    \(0.230\)
+  \item
+    \(0.556\)
+  \item
+    \(0.427\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.019 & 0.118 & 0.02 & 0.157 & & & & \\
+  \(3\) & 0.099 & 0.242 & 0.034 & 0.375 & & & & \\
+  \(4\) & 0.031 & 0.147 & 0.223 & 0.401 & & & & \\
+  \(5\) & 0.01 & 0.05 & 0.007 & 0.067 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.159 & 0.557 & 0.284 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 4|Y \geq4) = 
+  \frac{\mathbb{P}(X \geq 4, Y \geq 4)}{P(Y \geq 4)}=
+  \frac{\sum_{x=4}^{4} \sum_{y=4}^{5}p(x,y)}{\sum_{y=4}^{5}\mathbb{P}(Y=y)} =
+  \frac{0.230}{0.468} = 0.491.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria imobiliária. \(X\) e \(Y\)
+  denotam, respectivamente, o número de quartos e o número de banheiros
+  das casas disponíveis no mercado. Os valores na tabela representam a
+  proporção de casas com cada uma das possíveis configurações. Supondo
+  que uma dessas residências seja selecionada aleatoriamente, determine
+  \(\mathbb{P}(X\geq 3|Y \geq 4)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.331 & 0.026 & 0.09 \\
+  \(3\) & 0.097 & 0.021 & 0.112 \\
+  \(4\) & 0.096 & 0.051 & 0.023 \\
+  \(5\) & 0.015 & 0.008 & 0.13 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.116\)
+  \item
+    \(0.300\)
+  \item
+    \(0.059\)
+  \item
+    \(0.212\)
+  \item
+    \(0.656\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.331 & 0.026 & 0.09 & 0.447 & & & & \\
+  \(3\) & 0.097 & 0.021 & 0.112 & 0.23 & & & & \\
+  \(4\) & 0.096 & 0.051 & 0.023 & 0.17 & & & & \\
+  \(5\) & 0.015 & 0.008 & 0.13 & 0.153 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.539 & 0.106 & 0.355 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y \geq4) = 
+  \frac{\mathbb{P}(X \geq 3, Y \geq 4)}{P(Y \geq 4)}=
+  \frac{\sum_{x=3}^{4} \sum_{y=4}^{5}p(x,y)}{\sum_{y=4}^{5}\mathbb{P}(Y=y)} =
+  \frac{0.212}{0.323} = 0.656.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria imobiliária. \(X\) e \(Y\)
+  denotam, respectivamente, o número de quartos e o número de banheiros
+  das casas disponíveis no mercado. Os valores na tabela representam a
+  proporção de casas com cada uma das possíveis configurações. Supondo
+  que uma dessas residências seja selecionada aleatoriamente, determine
+  \(\mathbb{P}(X\geq 3|Y \geq 4)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.124 & 0.139 & 0.023 \\
+  \(3\) & 0.047 & 0.024 & 0.023 \\
+  \(4\) & 0.12 & 0.204 & 0.172 \\
+  \(5\) & 0.032 & 0.085 & 0.007 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.468\)
+  \item
+    \(0.755\)
+  \item
+    \(0.289\)
+  \item
+    \(0.411\)
+  \item
+    \(0.419\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.124 & 0.139 & 0.023 & 0.286 & & & & \\
+  \(3\) & 0.047 & 0.024 & 0.023 & 0.094 & & & & \\
+  \(4\) & 0.12 & 0.204 & 0.172 & 0.496 & & & & \\
+  \(5\) & 0.032 & 0.085 & 0.007 & 0.124 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.323 & 0.452 & 0.225 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y \geq4) = 
+  \frac{\mathbb{P}(X \geq 3, Y \geq 4)}{P(Y \geq 4)}=
+  \frac{\sum_{x=3}^{4} \sum_{y=4}^{5}p(x,y)}{\sum_{y=4}^{5}\mathbb{P}(Y=y)} =
+  \frac{0.468}{0.620} = 0.755.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria imobiliária. \(X\) e \(Y\)
+  denotam, respectivamente, o número de quartos e o número de banheiros
+  das casas disponíveis no mercado. Os valores na tabela representam a
+  proporção de casas com cada uma das possíveis configurações. Supondo
+  que uma dessas residências seja selecionada aleatoriamente, determine
+  \(\mathbb{P}(X\geq 3|Y \geq 4)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.183 & 0.045 & 0.31 \\
+  \(3\) & 0.015 & 0.14 & 0.044 \\
+  \(4\) & 0.024 & 0.028 & 0.018 \\
+  \(5\) & 0.019 & 0.163 & 0.011 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.400\)
+  \item
+    \(0.837\)
+  \item
+    \(0.220\)
+  \item
+    \(0.191\)
+  \item
+    \(0.264\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.183 & 0.045 & 0.31 & 0.538 & & & & \\
+  \(3\) & 0.015 & 0.14 & 0.044 & 0.199 & & & & \\
+  \(4\) & 0.024 & 0.028 & 0.018 & 0.07 & & & & \\
+  \(5\) & 0.019 & 0.163 & 0.011 & 0.193 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.241 & 0.376 & 0.383 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y \geq4) = 
+  \frac{\mathbb{P}(X \geq 3, Y \geq 4)}{P(Y \geq 4)}=
+  \frac{\sum_{x=3}^{4} \sum_{y=4}^{5}p(x,y)}{\sum_{y=4}^{5}\mathbb{P}(Y=y)} =
+  \frac{0.220}{0.263} = 0.837.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria imobiliária. \(X\) e \(Y\)
+  denotam, respectivamente, o número de quartos e o número de banheiros
+  das casas disponíveis no mercado. Os valores na tabela representam a
+  proporção de casas com cada uma das possíveis configurações. Supondo
+  que uma dessas residências seja selecionada aleatoriamente, determine
+  \(\mathbb{P}(X\geq 3|Y \geq 4)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.128 & 0.052 & 0.091 \\
+  \(3\) & 0.022 & 0.127 & 0.142 \\
+  \(4\) & 0.026 & 0.115 & 0.052 \\
+  \(5\) & 0.042 & 0.018 & 0.185 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.133\)
+  \item
+    \(0.845\)
+  \item
+    \(0.370\)
+  \item
+    \(0.389\)
+  \item
+    \(0.596\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.128 & 0.052 & 0.091 & 0.271 & & & & \\
+  \(3\) & 0.022 & 0.127 & 0.142 & 0.291 & & & & \\
+  \(4\) & 0.026 & 0.115 & 0.052 & 0.193 & & & & \\
+  \(5\) & 0.042 & 0.018 & 0.185 & 0.245 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.218 & 0.312 & 0.47 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y \geq4) = 
+  \frac{\mathbb{P}(X \geq 3, Y \geq 4)}{P(Y \geq 4)}=
+  \frac{\sum_{x=3}^{4} \sum_{y=4}^{5}p(x,y)}{\sum_{y=4}^{5}\mathbb{P}(Y=y)} =
+  \frac{0.370}{0.438} = 0.845.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

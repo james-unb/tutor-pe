@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Educação deseja estimar o percentual de jovens
+  matriculados no Ensino Superior no Brasil. Considerando pesquisas
+  anteriores, estima-se que tal percentual seja de \(16.2\%\). Qual deve
+  ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(99\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(1.9\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2042\)
+  \item
+    \(2379\)
+  \item
+    \(2629\)
+  \item
+    \(2504\)
+  \item
+    \(2754\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.019} \right)^2 \times 0.162 \times (1-0.162)=2503.18.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2504\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Educação deseja estimar o percentual de jovens
+  matriculados no Ensino Superior no Brasil. Considerando pesquisas
+  anteriores, estima-se que tal percentual seja de \(17.4\%\). Qual deve
+  ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(96\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(1.9\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1758\)
+  \item
+    \(1674\)
+  \item
+    \(1220\)
+  \item
+    \(1841\)
+  \item
+    \(1423\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.019} \right)^2 \times 0.174 \times (1-0.174)=1673.13.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1674\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Educação deseja estimar o percentual de jovens
+  matriculados no Ensino Superior no Brasil. Considerando pesquisas
+  anteriores, estima-se que tal percentual seja de \(17.2\%\). Qual deve
+  ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(99\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(1.7\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3281\)
+  \item
+    \(2953\)
+  \item
+    \(2676\)
+  \item
+    \(3527\)
+  \item
+    \(3773\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.017} \right)^2 \times 0.172 \times (1-0.172)=3280.2.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=3281\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Educação deseja estimar o percentual de jovens
+  matriculados no Ensino Superior no Brasil. Considerando pesquisas
+  anteriores, estima-se que tal percentual seja de \(16.2\%\). Qual deve
+  ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(99\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(1.7\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2814\)
+  \item
+    \(3440\)
+  \item
+    \(3752\)
+  \item
+    \(3127\)
+  \item
+    \(2551\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.017} \right)^2 \times 0.162 \times (1-0.162)=3126.8.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=3127\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Educação deseja estimar o percentual de jovens
+  matriculados no Ensino Superior no Brasil. Considerando pesquisas
+  anteriores, estima-se que tal percentual seja de \(16.8\%\). Qual deve
+  ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(98\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(1.7\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2626\)
+  \item
+    \(2692\)
+  \item
+    \(2495\)
+  \item
+    \(2033\)
+  \item
+    \(2757\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.017} \right)^2 \times 0.168 \times (1-0.168)=2625.71.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2626\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Educação deseja estimar o percentual de jovens
+  matriculados no Ensino Superior no Brasil. Considerando pesquisas
+  anteriores, estima-se que tal percentual seja de \(19.2\%\). Qual deve
+  ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(96\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(1.9\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1716\)
+  \item
+    \(1851\)
+  \item
+    \(1896\)
+  \item
+    \(1317\)
+  \item
+    \(1806\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.019} \right)^2 \times 0.192 \times (1-0.192)=1805.98.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1806\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Educação deseja estimar o percentual de jovens
+  matriculados no Ensino Superior no Brasil. Considerando pesquisas
+  anteriores, estima-se que tal percentual seja de \(19\%\). Qual deve
+  ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(97\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(1.9\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1507\)
+  \item
+    \(2008\)
+  \item
+    \(1908\)
+  \item
+    \(2309\)
+  \item
+    \(2158\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.019} \right)^2 \times 0.19 \times (1-0.19)=2007.48.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2008\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Educação deseja estimar o percentual de jovens
+  matriculados no Ensino Superior no Brasil. Considerando pesquisas
+  anteriores, estima-se que tal percentual seja de \(17.4\%\). Qual deve
+  ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(96\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(1.5\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1957\)
+  \item
+    \(2685\)
+  \item
+    \(2148\)
+  \item
+    \(2954\)
+  \item
+    \(2820\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.015} \right)^2 \times 0.174 \times (1-0.174)=2684.44.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2685\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Educação deseja estimar o percentual de jovens
+  matriculados no Ensino Superior no Brasil. Considerando pesquisas
+  anteriores, estima-se que tal percentual seja de \(17.6\%\). Qual deve
+  ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(95\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(1.9\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1621\)
+  \item
+    \(1081\)
+  \item
+    \(1544\)
+  \item
+    \(1698\)
+  \item
+    \(1390\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.019} \right)^2 \times 0.176 \times (1-0.176)=1543.28.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1544\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Educação deseja estimar o percentual de jovens
+  matriculados no Ensino Superior no Brasil. Considerando pesquisas
+  anteriores, estima-se que tal percentual seja de \(18.2\%\). Qual deve
+  ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(96\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(1.5\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2364\)
+  \item
+    \(2920\)
+  \item
+    \(2850\)
+  \item
+    \(2027\)
+  \item
+    \(2781\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.015} \right)^2 \times 0.182 \times (1-0.182)=2780.67.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2781\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

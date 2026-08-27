@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de 23 dias do número de ocorrências policiais em um certo
+  bairro apresentou média amostral de \(12\) e desvio padrão amostral de
+  \(5.05\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número de ocorrências
+  policiais com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([11.400, 12.600]\)
+  \item
+    \([11.623, 12.377]\)
+  \item
+    \([10.192, 13.808]\)
+  \item
+    \([11.640, 12.360]\)
+  \item
+    \([10.273, 13.727]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[12-1.7171\times\frac{5.05}{\sqrt{23}} \ , \ 12+1.7171\times\frac{5.05}{\sqrt{23}}\right]\\
+  &=&\text{$[10.192, 13.808]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de 24 dias do número de ocorrências policiais em um certo
+  bairro apresentou média amostral de \(11\) e desvio padrão amostral de
+  \(6.94\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número de ocorrências
+  policiais com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([ 8.677, 13.323]\)
+  \item
+    \([10.526, 11.474]\)
+  \item
+    \([10.504, 11.496]\)
+  \item
+    \([ 8.572, 13.428]\)
+  \item
+    \([10.312, 11.688]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[11-1.7139\times\frac{6.94}{\sqrt{24}} \ , \ 11+1.7139\times\frac{6.94}{\sqrt{24}}\right]\\
+  &=&\text{$[ 8.572, 13.428]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de 23 dias do número de ocorrências policiais em um certo
+  bairro apresentou média amostral de \(18\) e desvio padrão amostral de
+  \(4\). Com base nas informações, assinale a alternativa correspondente
+  ao intervalo de confiança para o número de ocorrências policiais com
+  confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([17.466, 18.534]\)
+  \item
+    \([17.701, 18.299]\)
+  \item
+    \([16.568, 19.432]\)
+  \item
+    \([16.632, 19.368]\)
+  \item
+    \([17.715, 18.285]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[18-1.7171\times\frac{4}{\sqrt{23}} \ , \ 18+1.7171\times\frac{4}{\sqrt{23}}\right]\\
+  &=&\text{$[16.568, 19.432]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de 23 dias do número de ocorrências policiais em um certo
+  bairro apresentou média amostral de \(18\) e desvio padrão amostral de
+  \(5.02\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número de ocorrências
+  policiais com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([15.299, 20.701]\)
+  \item
+    \([17.385, 18.615]\)
+  \item
+    \([17.437, 18.563]\)
+  \item
+    \([15.049, 20.951]\)
+  \item
+    \([16.911, 19.089]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[18-2.8188\times\frac{5.02}{\sqrt{23}} \ , \ 18+2.8188\times\frac{5.02}{\sqrt{23}}\right]\\
+  &=&\text{$[15.049, 20.951]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de 25 dias do número de ocorrências policiais em um certo
+  bairro apresentou média amostral de \(11\) e desvio padrão amostral de
+  \(1.75\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número de ocorrências
+  policiais com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([10.804, 11.196]\)
+  \item
+    \([10.819, 11.181]\)
+  \item
+    \([10.097, 11.903]\)
+  \item
+    \([10.021, 11.979]\)
+  \item
+    \([10.384, 11.616]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[11-2.7969\times\frac{1.75}{\sqrt{25}} \ , \ 11+2.7969\times\frac{1.75}{\sqrt{25}}\right]\\
+  &=&\text{$[10.021, 11.979]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de 25 dias do número de ocorrências policiais em um certo
+  bairro apresentou média amostral de \(12\) e desvio padrão amostral de
+  \(2.4\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número de ocorrências
+  policiais com confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([11.059, 12.941]\)
+  \item
+    \([11.802, 12.198]\)
+  \item
+    \([11.492, 12.508]\)
+  \item
+    \([11.009, 12.991]\)
+  \item
+    \([11.812, 12.188]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[12-2.0639\times\frac{2.4}{\sqrt{25}} \ , \ 12+2.0639\times\frac{2.4}{\sqrt{25}}\right]\\
+  &=&\text{$[11.009, 12.991]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de 18 dias do número de ocorrências policiais em um certo
+  bairro apresentou média amostral de \(15\) e desvio padrão amostral de
+  \(4.7\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número de ocorrências
+  policiais com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([14.346, 15.654]\)
+  \item
+    \([13.183, 16.817]\)
+  \item
+    \([14.572, 15.428]\)
+  \item
+    \([14.546, 15.454]\)
+  \item
+    \([13.073, 16.927]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[15-1.7396\times\frac{4.7}{\sqrt{18}} \ , \ 15+1.7396\times\frac{4.7}{\sqrt{18}}\right]\\
+  &=&\text{$[13.073, 16.927]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de 23 dias do número de ocorrências policiais em um certo
+  bairro apresentou média amostral de \(16\) e desvio padrão amostral de
+  \(6.56\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número de ocorrências
+  policiais com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([13.757, 18.243]\)
+  \item
+    \([15.532, 16.468]\)
+  \item
+    \([15.510, 16.490]\)
+  \item
+    \([15.316, 16.684]\)
+  \item
+    \([13.651, 18.349]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[16-1.7171\times\frac{6.56}{\sqrt{23}} \ , \ 16+1.7171\times\frac{6.56}{\sqrt{23}}\right]\\
+  &=&\text{$[13.651, 18.349]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de 16 dias do número de ocorrências policiais em um certo
+  bairro apresentou média amostral de \(11\) e desvio padrão amostral de
+  \(1.73\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número de ocorrências
+  policiais com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([10.242, 11.758]\)
+  \item
+    \([10.810, 11.190]\)
+  \item
+    \([10.579, 11.421]\)
+  \item
+    \([10.823, 11.177]\)
+  \item
+    \([10.291, 11.709]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[11-1.7531\times\frac{1.73}{\sqrt{16}} \ , \ 11+1.7531\times\frac{1.73}{\sqrt{16}}\right]\\
+  &=&\text{$[10.242, 11.758]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de 19 dias do número de ocorrências policiais em um certo
+  bairro apresentou média amostral de \(13\) e desvio padrão amostral de
+  \(5.12\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número de ocorrências
+  policiais com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([12.558, 13.442]\)
+  \item
+    \([12.533, 13.467]\)
+  \item
+    \([11.074, 14.926]\)
+  \item
+    \([12.336, 13.664]\)
+  \item
+    \([10.963, 15.037]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[13-1.7341\times\frac{5.12}{\sqrt{19}} \ , \ 13+1.7341\times\frac{5.12}{\sqrt{19}}\right]\\
+  &=&\text{$[10.963, 15.037]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Deseja-se estimar a participação de livros de ficção no mercado
+  editorial brasileiro. Considerando pesquisas anteriores, a estimativa
+  preliminar do percentual de vendas de livros de ficção no Brasil é de
+  \(7.6\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(96\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.5\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1378\)
+  \item
+    \(956\)
+  \item
+    \(1181\)
+  \item
+    \(1312\)
+  \item
+    \(1345\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.015} \right)^2 \times 0.076 \times (1-0.076)=1311.63.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1312\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Deseja-se estimar a participação de livros de ficção no mercado
+  editorial brasileiro. Considerando pesquisas anteriores, a estimativa
+  preliminar do percentual de vendas de livros de ficção no Brasil é de
+  \(7.2\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(95\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.5\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1084\)
+  \item
+    \(799\)
+  \item
+    \(1170\)
+  \item
+    \(1141\)
+  \item
+    \(1198\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.015} \right)^2 \times 0.072 \times (1-0.072)=1140.8.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1141\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Deseja-se estimar a participação de livros de ficção no mercado
+  editorial brasileiro. Considerando pesquisas anteriores, a estimativa
+  preliminar do percentual de vendas de livros de ficção no Brasil é de
+  \(9\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(96\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.5\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1606\)
+  \item
+    \(1115\)
+  \item
+    \(1530\)
+  \item
+    \(1683\)
+  \item
+    \(1300\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.015} \right)^2 \times 0.09 \times (1-0.09)=1529.71.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1530\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Deseja-se estimar a participação de livros de ficção no mercado
+  editorial brasileiro. Considerando pesquisas anteriores, a estimativa
+  preliminar do percentual de vendas de livros de ficção no Brasil é de
+  \(8.2\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(99\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.1\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3935\)
+  \item
+    \(4556\)
+  \item
+    \(3378\)
+  \item
+    \(4142\)
+  \item
+    \(4970\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.011} \right)^2 \times 0.082 \times (1-0.082)=4141.05.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=4142\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Deseja-se estimar a participação de livros de ficção no mercado
+  editorial brasileiro. Considerando pesquisas anteriores, a estimativa
+  preliminar do percentual de vendas de livros de ficção no Brasil é de
+  \(8.4\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(95\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.1\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2077\)
+  \item
+    \(1711\)
+  \item
+    \(2565\)
+  \item
+    \(2443\)
+  \item
+    \(2504\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.011} \right)^2 \times 0.084 \times (1-0.084)=2442.88.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2443\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Deseja-se estimar a participação de livros de ficção no mercado
+  editorial brasileiro. Considerando pesquisas anteriores, a estimativa
+  preliminar do percentual de vendas de livros de ficção no Brasil é de
+  \(7.8\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(99\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.5\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2022\)
+  \item
+    \(2128\)
+  \item
+    \(2234\)
+  \item
+    \(1736\)
+  \item
+    \(2181\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.015} \right)^2 \times 0.078 \times (1-0.078)=2127.56.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2128\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Deseja-se estimar a participação de livros de ficção no mercado
+  editorial brasileiro. Considerando pesquisas anteriores, a estimativa
+  preliminar do percentual de vendas de livros de ficção no Brasil é de
+  \(8.2\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(95\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.5\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1029\)
+  \item
+    \(1382\)
+  \item
+    \(1479\)
+  \item
+    \(1286\)
+  \item
+    \(900\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.015} \right)^2 \times 0.082 \times (1-0.082)=1285.25.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1286\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Deseja-se estimar a participação de livros de ficção no mercado
+  editorial brasileiro. Considerando pesquisas anteriores, a estimativa
+  preliminar do percentual de vendas de livros de ficção no Brasil é de
+  \(9\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(95\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.5\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1119\)
+  \item
+    \(1539\)
+  \item
+    \(1399\)
+  \item
+    \(980\)
+  \item
+    \(1679\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.015} \right)^2 \times 0.09 \times (1-0.09)=1398.34.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1399\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Deseja-se estimar a participação de livros de ficção no mercado
+  editorial brasileiro. Considerando pesquisas anteriores, a estimativa
+  preliminar do percentual de vendas de livros de ficção no Brasil é de
+  \(7\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(99\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.3\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2629\)
+  \item
+    \(2565\)
+  \item
+    \(2052\)
+  \item
+    \(2092\)
+  \item
+    \(2693\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.013} \right)^2 \times 0.07 \times (1-0.07)=2564.09.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2565\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Deseja-se estimar a participação de livros de ficção no mercado
+  editorial brasileiro. Considerando pesquisas anteriores, a estimativa
+  preliminar do percentual de vendas de livros de ficção no Brasil é de
+  \(8.4\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(98\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.3\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2966\)
+  \item
+    \(2719\)
+  \item
+    \(2101\)
+  \item
+    \(1914\)
+  \item
+    \(2472\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.013} \right)^2 \times 0.084 \times (1-0.084)=2471.72.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2472\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

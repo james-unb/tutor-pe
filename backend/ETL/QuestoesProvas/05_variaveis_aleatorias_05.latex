@@ -1,0 +1,542 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) a variável aleatória que representa a quantidade diária de
+  ocorrências policiais em uma delegacia e cuja distribuição está
+  apresentada na tabela abaixo. Qual é o número esperado de ocorrências
+  nessa delegacia por dia?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.22\) & \(0.47\) & \(0.14\) & \(0.08\) & \(0.09\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.35\)
+  \item
+    \(3.19\)
+  \item
+    \(1.85\)
+  \item
+    \(4.54\)
+  \item
+    \(2.89\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o número de ocorrências
+  por dia. Segue que o valor esperado da variável \(X\) é
+  \[\begin{aligned}
+  E(X) &= \sum_{k=0}^4 k~P(X=k) \\
+  & = 0 \times 0.22+
+  1 \times 0.47+2 \times 0.14+3 \times 0.08+4 \times 0.09 \\
+  & = 1.35.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) a variável aleatória que representa a quantidade diária de
+  ocorrências policiais em uma delegacia e cuja distribuição está
+  apresentada na tabela abaixo. Qual é o número esperado de ocorrências
+  nessa delegacia por dia?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.01\) & \(0.11\) & \(0.13\) & \(0.34\) & \(0.41\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(10.25\)
+  \item
+    \(3.53\)
+  \item
+    \(13.28\)
+  \item
+    \(9.95\)
+  \item
+    \(3.03\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o número de ocorrências
+  por dia. Segue que o valor esperado da variável \(X\) é
+  \[\begin{aligned}
+  E(X) &= \sum_{k=0}^4 k~P(X=k) \\
+  & = 0 \times 0.01+
+  1 \times 0.11+2 \times 0.13+3 \times 0.34+4 \times 0.41 \\
+  & = 3.03.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) a variável aleatória que representa a quantidade diária de
+  ocorrências policiais em uma delegacia e cuja distribuição está
+  apresentada na tabela abaixo. Qual é o número esperado de ocorrências
+  nessa delegacia por dia?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.22\) & \(0.11\) & \(0.37\) & \(0.2\) & \(0.1\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.69\)
+  \item
+    \(2.35\)
+  \item
+    \(6.84\)
+  \item
+    \(4.99\)
+  \item
+    \(1.85\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o número de ocorrências
+  por dia. Segue que o valor esperado da variável \(X\) é
+  \[\begin{aligned}
+  E(X) &= \sum_{k=0}^4 k~P(X=k) \\
+  & = 0 \times 0.22+
+  1 \times 0.11+2 \times 0.37+3 \times 0.2+4 \times 0.1 \\
+  & = 1.85.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) a variável aleatória que representa a quantidade diária de
+  ocorrências policiais em uma delegacia e cuja distribuição está
+  apresentada na tabela abaixo. Qual é o número esperado de ocorrências
+  nessa delegacia por dia?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.08\) & \(0.09\) & \(0.11\) & \(0.36\) & \(0.36\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(9.23\)
+  \item
+    \(12.36\)
+  \item
+    \(9.53\)
+  \item
+    \(3.33\)
+  \item
+    \(2.83\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o número de ocorrências
+  por dia. Segue que o valor esperado da variável \(X\) é
+  \[\begin{aligned}
+  E(X) &= \sum_{k=0}^4 k~P(X=k) \\
+  & = 0 \times 0.08+
+  1 \times 0.09+2 \times 0.11+3 \times 0.36+4 \times 0.36 \\
+  & = 2.83.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) a variável aleatória que representa a quantidade diária de
+  ocorrências policiais em uma delegacia e cuja distribuição está
+  apresentada na tabela abaixo. Qual é o número esperado de ocorrências
+  nessa delegacia por dia?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.01\) & \(0.03\) & \(0.52\) & \(0.05\) & \(0.39\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8.80\)
+  \item
+    \(2.78\)
+  \item
+    \(3.28\)
+  \item
+    \(11.58\)
+  \item
+    \(8.50\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o número de ocorrências
+  por dia. Segue que o valor esperado da variável \(X\) é
+  \[\begin{aligned}
+  E(X) &= \sum_{k=0}^4 k~P(X=k) \\
+  & = 0 \times 0.01+
+  1 \times 0.03+2 \times 0.52+3 \times 0.05+4 \times 0.39 \\
+  & = 2.78.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) a variável aleatória que representa a quantidade diária de
+  ocorrências policiais em uma delegacia e cuja distribuição está
+  apresentada na tabela abaixo. Qual é o número esperado de ocorrências
+  nessa delegacia por dia?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.17\) & \(0.19\) & \(0.28\) & \(0.22\) & \(0.14\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(7.50\)
+  \item
+    \(5.23\)
+  \item
+    \(5.53\)
+  \item
+    \(2.47\)
+  \item
+    \(1.97\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o número de ocorrências
+  por dia. Segue que o valor esperado da variável \(X\) é
+  \[\begin{aligned}
+  E(X) &= \sum_{k=0}^4 k~P(X=k) \\
+  & = 0 \times 0.17+
+  1 \times 0.19+2 \times 0.28+3 \times 0.22+4 \times 0.14 \\
+  & = 1.97.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) a variável aleatória que representa a quantidade diária de
+  ocorrências policiais em uma delegacia e cuja distribuição está
+  apresentada na tabela abaixo. Qual é o número esperado de ocorrências
+  nessa delegacia por dia?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.18\) & \(0.22\) & \(0.26\) & \(0\) & \(0.34\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.40\)
+  \item
+    \(2.60\)
+  \item
+    \(8.80\)
+  \item
+    \(2.10\)
+  \item
+    \(6.70\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o número de ocorrências
+  por dia. Segue que o valor esperado da variável \(X\) é
+  \[\begin{aligned}
+  E(X) &= \sum_{k=0}^4 k~P(X=k) \\
+  & = 0 \times 0.18+
+  1 \times 0.22+2 \times 0.26+3 \times 0+4 \times 0.34 \\
+  & = 2.1.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) a variável aleatória que representa a quantidade diária de
+  ocorrências policiais em uma delegacia e cuja distribuição está
+  apresentada na tabela abaixo. Qual é o número esperado de ocorrências
+  nessa delegacia por dia?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.37\) & \(0.13\) & \(0.31\) & \(0.08\) & \(0.11\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.93\)
+  \item
+    \(1.43\)
+  \item
+    \(3.55\)
+  \item
+    \(5.28\)
+  \item
+    \(3.85\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o número de ocorrências
+  por dia. Segue que o valor esperado da variável \(X\) é
+  \[\begin{aligned}
+  E(X) &= \sum_{k=0}^4 k~P(X=k) \\
+  & = 0 \times 0.37+
+  1 \times 0.13+2 \times 0.31+3 \times 0.08+4 \times 0.11 \\
+  & = 1.43.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) a variável aleatória que representa a quantidade diária de
+  ocorrências policiais em uma delegacia e cuja distribuição está
+  apresentada na tabela abaixo. Qual é o número esperado de ocorrências
+  nessa delegacia por dia?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.19\) & \(0.18\) & \(0.18\) & \(0.08\) & \(0.37\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(9.80\)
+  \item
+    \(7.24\)
+  \item
+    \(7.54\)
+  \item
+    \(2.76\)
+  \item
+    \(2.26\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o número de ocorrências
+  por dia. Segue que o valor esperado da variável \(X\) é
+  \[\begin{aligned}
+  E(X) &= \sum_{k=0}^4 k~P(X=k) \\
+  & = 0 \times 0.19+
+  1 \times 0.18+2 \times 0.18+3 \times 0.08+4 \times 0.37 \\
+  & = 2.26.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) a variável aleatória que representa a quantidade diária de
+  ocorrências policiais em uma delegacia e cuja distribuição está
+  apresentada na tabela abaixo. Qual é o número esperado de ocorrências
+  nessa delegacia por dia?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.05\) & \(0.09\) & \(0.26\) & \(0.37\) & \(0.23\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(7.84\)
+  \item
+    \(3.14\)
+  \item
+    \(8.14\)
+  \item
+    \(2.64\)
+  \item
+    \(10.78\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o número de ocorrências
+  por dia. Segue que o valor esperado da variável \(X\) é
+  \[\begin{aligned}
+  E(X) &= \sum_{k=0}^4 k~P(X=k) \\
+  & = 0 \times 0.05+
+  1 \times 0.09+2 \times 0.26+3 \times 0.37+4 \times 0.23 \\
+  & = 2.64.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

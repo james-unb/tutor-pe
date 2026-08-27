@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisadores desejam estimar a probabilidade, na iniciativa privada,
+  de uma mulher selecionada ao acaso receber um salário inferior ao de
+  um homem (também selecionado ao acaso) que ocupe um cargo similar.
+  Considerando a última PNAD (Pesquisa Nacional por Amostra de
+  Domicílios), estima-se que tal probabilidade seja de \(79.2\%\). Qual
+  deve ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(95\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(1.5\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2672\)
+  \item
+    \(3376\)
+  \item
+    \(2813\)
+  \item
+    \(3094\)
+  \item
+    \(1970\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.015} \right)^2 \times 0.792 \times (1-0.792)=2812.67.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2813\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisadores desejam estimar a probabilidade, na iniciativa privada,
+  de uma mulher selecionada ao acaso receber um salário inferior ao de
+  um homem (também selecionado ao acaso) que ocupe um cargo similar.
+  Considerando a última PNAD (Pesquisa Nacional por Amostra de
+  Domicílios), estima-se que tal probabilidade seja de \(76.8\%\). Qual
+  deve ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(99\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(2.5\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1898\)
+  \item
+    \(1803\)
+  \item
+    \(1548\)
+  \item
+    \(1993\)
+  \item
+    \(1946\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.025} \right)^2 \times 0.768 \times (1-0.768)=1897.62.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1898\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisadores desejam estimar a probabilidade, na iniciativa privada,
+  de uma mulher selecionada ao acaso receber um salário inferior ao de
+  um homem (também selecionado ao acaso) que ocupe um cargo similar.
+  Considerando a última PNAD (Pesquisa Nacional por Amostra de
+  Domicílios), estima-se que tal probabilidade seja de \(70\%\). Qual
+  deve ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(98\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(2.3\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2156\)
+  \item
+    \(1669\)
+  \item
+    \(2372\)
+  \item
+    \(1833\)
+  \item
+    \(2264\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.023} \right)^2 \times 0.7 \times (1-0.7)=2155.14.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2156\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisadores desejam estimar a probabilidade, na iniciativa privada,
+  de uma mulher selecionada ao acaso receber um salário inferior ao de
+  um homem (também selecionado ao acaso) que ocupe um cargo similar.
+  Considerando a última PNAD (Pesquisa Nacional por Amostra de
+  Domicílios), estima-se que tal probabilidade seja de \(74.6\%\). Qual
+  deve ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(98\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(2.5\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1646\)
+  \item
+    \(1893\)
+  \item
+    \(1770\)
+  \item
+    \(1481\)
+  \item
+    \(1275\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.025} \right)^2 \times 0.746 \times (1-0.746)=1645.9.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1646\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisadores desejam estimar a probabilidade, na iniciativa privada,
+  de uma mulher selecionada ao acaso receber um salário inferior ao de
+  um homem (também selecionado ao acaso) que ocupe um cargo similar.
+  Considerando a última PNAD (Pesquisa Nacional por Amostra de
+  Domicílios), estima-se que tal probabilidade seja de \(79\%\). Qual
+  deve ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(98\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(1.9\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2495\)
+  \item
+    \(2370\)
+  \item
+    \(2620\)
+  \item
+    \(2744\)
+  \item
+    \(1932\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.019} \right)^2 \times 0.79 \times (1-0.79)=2494.89.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2495\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisadores desejam estimar a probabilidade, na iniciativa privada,
+  de uma mulher selecionada ao acaso receber um salário inferior ao de
+  um homem (também selecionado ao acaso) que ocupe um cargo similar.
+  Considerando a última PNAD (Pesquisa Nacional por Amostra de
+  Domicílios), estima-se que tal probabilidade seja de \(77\%\). Qual
+  deve ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(95\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(2.1\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1697\)
+  \item
+    \(1543\)
+  \item
+    \(1620\)
+  \item
+    \(1081\)
+  \item
+    \(1389\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.021} \right)^2 \times 0.77 \times (1-0.77)=1542.74.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1543\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisadores desejam estimar a probabilidade, na iniciativa privada,
+  de uma mulher selecionada ao acaso receber um salário inferior ao de
+  um homem (também selecionado ao acaso) que ocupe um cargo similar.
+  Considerando a última PNAD (Pesquisa Nacional por Amostra de
+  Domicílios), estima-se que tal probabilidade seja de \(79\%\). Qual
+  deve ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(95\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(2.1\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1301\)
+  \item
+    \(1446\)
+  \item
+    \(1591\)
+  \item
+    \(1518\)
+  \item
+    \(1012\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.021} \right)^2 \times 0.79 \times (1-0.79)=1445.17.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1446\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisadores desejam estimar a probabilidade, na iniciativa privada,
+  de uma mulher selecionada ao acaso receber um salário inferior ao de
+  um homem (também selecionado ao acaso) que ocupe um cargo similar.
+  Considerando a última PNAD (Pesquisa Nacional por Amostra de
+  Domicílios), estima-se que tal probabilidade seja de \(77.2\%\). Qual
+  deve ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(96\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(2.1\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1762\)
+  \item
+    \(1426\)
+  \item
+    \(1223\)
+  \item
+    \(1720\)
+  \item
+    \(1678\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.021} \right)^2 \times 0.772 \times (1-0.772)=1677.34.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1678\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisadores desejam estimar a probabilidade, na iniciativa privada,
+  de uma mulher selecionada ao acaso receber um salário inferior ao de
+  um homem (também selecionado ao acaso) que ocupe um cargo similar.
+  Considerando a última PNAD (Pesquisa Nacional por Amostra de
+  Domicílios), estima-se que tal probabilidade seja de \(74.6\%\). Qual
+  deve ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(99\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(1.7\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4365\)
+  \item
+    \(3710\)
+  \item
+    \(4802\)
+  \item
+    \(3560\)
+  \item
+    \(4584\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.017} \right)^2 \times 0.746 \times (1-0.746)=4364.3.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=4365\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pesquisadores desejam estimar a probabilidade, na iniciativa privada,
+  de uma mulher selecionada ao acaso receber um salário inferior ao de
+  um homem (também selecionado ao acaso) que ocupe um cargo similar.
+  Considerando a última PNAD (Pesquisa Nacional por Amostra de
+  Domicílios), estima-se que tal probabilidade seja de \(79\%\). Qual
+  deve ser o tamanho mínimo da amostra para que, para o intervalo de
+  confiança de \(99\%\), a margem de erro da estimativa seja de \emph{no
+  máximo} \(1.5\) pontos percentuais? (Considerar a aproximação indicada
+  na equação disponível no conjunto de fórmulas fornecidas para a prova
+  e aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4908\)
+  \item
+    \(3926\)
+  \item
+    \(5154\)
+  \item
+    \(5399\)
+  \item
+    \(4003\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.015} \right)^2 \times 0.79 \times (1-0.79)=4907.99.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=4908\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,592 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=\frac{\beta 4^{\beta}}{x^{\beta+1}}\), \(\beta >0\).
+  Considere \[7 \ \ \ 9 \ \ \ 10 \ \ \ 11 \ \ \ 8\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.79\)
+  \item
+    \(0.30\)
+  \item
+    \(0.02\)
+  \item
+    \(1.25\)
+  \item
+    \(45.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=\frac{(\beta)^n 4^{n\beta}}{\prod_{i=1}^{n}(x_i^{\beta+1})}.
+   
+  \end{aligned}\]
+
+  Aplicando o logaritmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= n \ln(\beta)+n\beta\ln(4)-(\beta+1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(4)}.
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(-n/\beta^2<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(4)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 9, 10, 11, 8)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=1.253\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=\frac{\beta 4^{\beta}}{x^{\beta+1}}\), \(\beta >0\).
+  Considere \[12 \ \ \ 12 \ \ \ 12 \ \ \ 10 \ \ \ 8\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(54.00\)
+  \item
+    \(0.95\)
+  \item
+    \(0.40\)
+  \item
+    \(0.02\)
+  \item
+    \(1.02\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=\frac{(\beta)^n 4^{n\beta}}{\prod_{i=1}^{n}(x_i^{\beta+1})}.
+   
+  \end{aligned}\]
+
+  Aplicando o logaritmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= n \ln(\beta)+n\beta\ln(4)-(\beta+1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(4)}.
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(-n/\beta^2<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(4)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((12, 12, 12, 10, 8)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=1.019\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=\frac{\beta 5^{\beta}}{x^{\beta+1}}\), \(\beta >0\).
+  Considere \[12 \ \ \ 9 \ \ \ 9 \ \ \ 8 \ \ \ 8\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.02\)
+  \item
+    \(46.00\)
+  \item
+    \(1.67\)
+  \item
+    \(0.09\)
+  \item
+    \(0.96\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=\frac{(\beta)^n 5^{n\beta}}{\prod_{i=1}^{n}(x_i^{\beta+1})}.
+   
+  \end{aligned}\]
+
+  Aplicando o logaritmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= n \ln(\beta)+n\beta\ln(5)-(\beta+1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(5)}.
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(-n/\beta^2<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(5)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((12, 9, 9, 8, 8)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=1.672\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=\frac{\beta 3^{\beta}}{x^{\beta+1}}\), \(\beta >0\).
+  Considere \[11 \ \ \ 8 \ \ \ 10 \ \ \ 7 \ \ \ 7\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.73\)
+  \item
+    \(0.96\)
+  \item
+    \(0.02\)
+  \item
+    \(43.00\)
+  \item
+    \(0.97\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=\frac{(\beta)^n 3^{n\beta}}{\prod_{i=1}^{n}(x_i^{\beta+1})}.
+   
+  \end{aligned}\]
+
+  Aplicando o logaritmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= n \ln(\beta)+n\beta\ln(3)-(\beta+1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(3)}.
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(-n/\beta^2<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(3)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((11, 8, 10, 7, 7)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=0.965\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=\frac{\beta 3^{\beta}}{x^{\beta+1}}\), \(\beta >0\).
+  Considere \[10 \ \ \ 8 \ \ \ 9 \ \ \ 12 \ \ \ 12\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.83\)
+  \item
+    \(0.37\)
+  \item
+    \(0.02\)
+  \item
+    \(0.66\)
+  \item
+    \(51.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=\frac{(\beta)^n 3^{n\beta}}{\prod_{i=1}^{n}(x_i^{\beta+1})}.
+   
+  \end{aligned}\]
+
+  Aplicando o logaritmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= n \ln(\beta)+n\beta\ln(3)-(\beta+1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(3)}.
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(-n/\beta^2<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(3)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((10, 8, 9, 12, 12)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=0.826\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=\frac{\beta 5^{\beta}}{x^{\beta+1}}\), \(\beta >0\).
+  Considere \[9 \ \ \ 7 \ \ \ 11 \ \ \ 11 \ \ \ 10\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.38\)
+  \item
+    \(0.02\)
+  \item
+    \(0.17\)
+  \item
+    \(1.57\)
+  \item
+    \(48.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=\frac{(\beta)^n 5^{n\beta}}{\prod_{i=1}^{n}(x_i^{\beta+1})}.
+   
+  \end{aligned}\]
+
+  Aplicando o logaritmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= n \ln(\beta)+n\beta\ln(5)-(\beta+1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(5)}.
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(-n/\beta^2<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(5)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((9, 7, 11, 11, 10)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=1.565\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=\frac{\beta 4^{\beta}}{x^{\beta+1}}\), \(\beta >0\).
+  Considere \[7 \ \ \ 8 \ \ \ 7 \ \ \ 11 \ \ \ 10\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.52\)
+  \item
+    \(1.34\)
+  \item
+    \(0.20\)
+  \item
+    \(43.00\)
+  \item
+    \(0.02\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=\frac{(\beta)^n 4^{n\beta}}{\prod_{i=1}^{n}(x_i^{\beta+1})}.
+   
+  \end{aligned}\]
+
+  Aplicando o logaritmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= n \ln(\beta)+n\beta\ln(4)-(\beta+1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(4)}.
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(-n/\beta^2<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(4)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 8, 7, 11, 10)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=1.337\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=\frac{\beta 4^{\beta}}{x^{\beta+1}}\), \(\beta >0\).
+  Considere \[8 \ \ \ 10 \ \ \ 11 \ \ \ 12 \ \ \ 11\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.02\)
+  \item
+    \(0.59\)
+  \item
+    \(52.00\)
+  \item
+    \(0.77\)
+  \item
+    \(1.06\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=\frac{(\beta)^n 4^{n\beta}}{\prod_{i=1}^{n}(x_i^{\beta+1})}.
+   
+  \end{aligned}\]
+
+  Aplicando o logaritmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= n \ln(\beta)+n\beta\ln(4)-(\beta+1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(4)}.
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(-n/\beta^2<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(4)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((8, 10, 11, 12, 11)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=1.057\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=\frac{\beta 4^{\beta}}{x^{\beta+1}}\), \(\beta >0\).
+  Considere \[11 \ \ \ 10 \ \ \ 12 \ \ \ 10 \ \ \ 9\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.02\)
+  \item
+    \(1.05\)
+  \item
+    \(52.00\)
+  \item
+    \(0.00\)
+  \item
+    \(0.79\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=\frac{(\beta)^n 4^{n\beta}}{\prod_{i=1}^{n}(x_i^{\beta+1})}.
+   
+  \end{aligned}\]
+
+  Aplicando o logaritmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= n \ln(\beta)+n\beta\ln(4)-(\beta+1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(4)}.
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(-n/\beta^2<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(4)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((11, 10, 12, 10, 9)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=1.052\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=\frac{\beta 5^{\beta}}{x^{\beta+1}}\), \(\beta >0\).
+  Considere \[8 \ \ \ 8 \ \ \ 12 \ \ \ 12 \ \ \ 9\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.56\)
+  \item
+    \(49.00\)
+  \item
+    \(0.33\)
+  \item
+    \(1.52\)
+  \item
+    \(0.02\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=\frac{(\beta)^n 5^{n\beta}}{\prod_{i=1}^{n}(x_i^{\beta+1})}.
+   
+  \end{aligned}\]
+
+  Aplicando o logaritmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= n \ln(\beta)+n\beta\ln(5)-(\beta+1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(5)}.
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(-n/\beta^2<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n}{\sum_{i=1}^{n}ln(x_i) - n\ln(5)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((8, 8, 12, 12, 9)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=1.525\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

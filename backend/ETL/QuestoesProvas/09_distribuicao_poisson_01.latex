@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o número de requisições que chegam a um determinado
+  servidor, por minuto, é uma variável aleatória que segue distribuição
+  Poisson com variância igual a \(1.12\). Suponha que a capacidade de
+  atendimento do servidor é de, no máximo, \(3\) requisições por minuto.
+  Qual a probabilidade de que, em um intervalo de um minuto escolhido ao
+  acaso, o servidor não consiga atender a todas as requisições que forem
+  feitas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.973\)
+  \item
+    \(0.027\)
+  \item
+    \(0.013\)
+  \item
+    \(0.961\)
+  \item
+    \(0.039\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de requisições.
+  Uma vez que a capacidade é de, no máximo, \(3\) requisições por
+  minuto, a probabilidade desejada é dada por
+  \[P(X>3) = 1-P(X \leq 3) = 1-\sum_{k=0}^{3}e^{-1.12}\frac{1.12^k}{k!} = 0.027.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o número de requisições que chegam a um determinado
+  servidor, por minuto, é uma variável aleatória que segue distribuição
+  Poisson com variância igual a \(1.81\). Suponha que a capacidade de
+  atendimento do servidor é de, no máximo, \(2\) requisições por minuto.
+  Qual a probabilidade de que, em um intervalo de um minuto escolhido ao
+  acaso, o servidor não consiga atender a todas as requisições que forem
+  feitas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.019\)
+  \item
+    \(0.728\)
+  \item
+    \(0.636\)
+  \item
+    \(0.364\)
+  \item
+    \(0.272\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de requisições.
+  Uma vez que a capacidade é de, no máximo, \(2\) requisições por
+  minuto, a probabilidade desejada é dada por
+  \[P(X>2) = 1-P(X \leq 2) = 1-\sum_{k=0}^{2}e^{-1.81}\frac{1.81^k}{k!} = 0.272.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o número de requisições que chegam a um determinado
+  servidor, por minuto, é uma variável aleatória que segue distribuição
+  Poisson com variância igual a \(1.63\). Suponha que a capacidade de
+  atendimento do servidor é de, no máximo, \(2\) requisições por minuto.
+  Qual a probabilidade de que, em um intervalo de um minuto escolhido ao
+  acaso, o servidor não consiga atender a todas as requisições que forem
+  feitas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.024\)
+  \item
+    \(0.776\)
+  \item
+    \(0.224\)
+  \item
+    \(0.504\)
+  \item
+    \(0.496\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de requisições.
+  Uma vez que a capacidade é de, no máximo, \(2\) requisições por
+  minuto, a probabilidade desejada é dada por
+  \[P(X>2) = 1-P(X \leq 2) = 1-\sum_{k=0}^{2}e^{-1.63}\frac{1.63^k}{k!} = 0.224.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o número de requisições que chegam a um determinado
+  servidor, por minuto, é uma variável aleatória que segue distribuição
+  Poisson com variância igual a \(1.53\). Suponha que a capacidade de
+  atendimento do servidor é de, no máximo, \(2\) requisições por minuto.
+  Qual a probabilidade de que, em um intervalo de um minuto escolhido ao
+  acaso, o servidor não consiga atender a todas as requisições que forem
+  feitas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.199\)
+  \item
+    \(0.415\)
+  \item
+    \(0.801\)
+  \item
+    \(0.029\)
+  \item
+    \(0.585\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de requisições.
+  Uma vez que a capacidade é de, no máximo, \(2\) requisições por
+  minuto, a probabilidade desejada é dada por
+  \[P(X>2) = 1-P(X \leq 2) = 1-\sum_{k=0}^{2}e^{-1.53}\frac{1.53^k}{k!} = 0.199.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o número de requisições que chegam a um determinado
+  servidor, por minuto, é uma variável aleatória que segue distribuição
+  Poisson com variância igual a \(1.62\). Suponha que a capacidade de
+  atendimento do servidor é de, no máximo, \(3\) requisições por minuto.
+  Qual a probabilidade de que, em um intervalo de um minuto escolhido ao
+  acaso, o servidor não consiga atender a todas as requisições que forem
+  feitas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.004\)
+  \item
+    \(0.082\)
+  \item
+    \(0.731\)
+  \item
+    \(0.918\)
+  \item
+    \(0.269\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de requisições.
+  Uma vez que a capacidade é de, no máximo, \(3\) requisições por
+  minuto, a probabilidade desejada é dada por
+  \[P(X>3) = 1-P(X \leq 3) = 1-\sum_{k=0}^{3}e^{-1.62}\frac{1.62^k}{k!} = 0.082.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o número de requisições que chegam a um determinado
+  servidor, por minuto, é uma variável aleatória que segue distribuição
+  Poisson com variância igual a \(1.55\). Suponha que a capacidade de
+  atendimento do servidor é de, no máximo, \(2\) requisições por minuto.
+  Qual a probabilidade de que, em um intervalo de um minuto escolhido ao
+  acaso, o servidor não consiga atender a todas as requisições que forem
+  feitas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.569\)
+  \item
+    \(0.796\)
+  \item
+    \(0.204\)
+  \item
+    \(0.028\)
+  \item
+    \(0.431\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de requisições.
+  Uma vez que a capacidade é de, no máximo, \(2\) requisições por
+  minuto, a probabilidade desejada é dada por
+  \[P(X>2) = 1-P(X \leq 2) = 1-\sum_{k=0}^{2}e^{-1.55}\frac{1.55^k}{k!} = 0.204.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o número de requisições que chegam a um determinado
+  servidor, por minuto, é uma variável aleatória que segue distribuição
+  Poisson com variância igual a \(1.58\). Suponha que a capacidade de
+  atendimento do servidor é de, no máximo, \(2\) requisições por minuto.
+  Qual a probabilidade de que, em um intervalo de um minuto escolhido ao
+  acaso, o servidor não consiga atender a todas as requisições que forem
+  feitas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.026\)
+  \item
+    \(0.455\)
+  \item
+    \(0.789\)
+  \item
+    \(0.545\)
+  \item
+    \(0.211\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de requisições.
+  Uma vez que a capacidade é de, no máximo, \(2\) requisições por
+  minuto, a probabilidade desejada é dada por
+  \[P(X>2) = 1-P(X \leq 2) = 1-\sum_{k=0}^{2}e^{-1.58}\frac{1.58^k}{k!} = 0.211.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o número de requisições que chegam a um determinado
+  servidor, por minuto, é uma variável aleatória que segue distribuição
+  Poisson com variância igual a \(1.46\). Suponha que a capacidade de
+  atendimento do servidor é de, no máximo, \(2\) requisições por minuto.
+  Qual a probabilidade de que, em um intervalo de um minuto escolhido ao
+  acaso, o servidor não consiga atender a todas as requisições que forem
+  feitas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.819\)
+  \item
+    \(0.359\)
+  \item
+    \(0.181\)
+  \item
+    \(0.641\)
+  \item
+    \(0.032\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de requisições.
+  Uma vez que a capacidade é de, no máximo, \(2\) requisições por
+  minuto, a probabilidade desejada é dada por
+  \[P(X>2) = 1-P(X \leq 2) = 1-\sum_{k=0}^{2}e^{-1.46}\frac{1.46^k}{k!} = 0.181.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o número de requisições que chegam a um determinado
+  servidor, por minuto, é uma variável aleatória que segue distribuição
+  Poisson com variância igual a \(1.46\). Suponha que a capacidade de
+  atendimento do servidor é de, no máximo, \(3\) requisições por minuto.
+  Qual a probabilidade de que, em um intervalo de um minuto escolhido ao
+  acaso, o servidor não consiga atender a todas as requisições que forem
+  feitas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.939\)
+  \item
+    \(0.167\)
+  \item
+    \(0.833\)
+  \item
+    \(0.005\)
+  \item
+    \(0.061\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de requisições.
+  Uma vez que a capacidade é de, no máximo, \(3\) requisições por
+  minuto, a probabilidade desejada é dada por
+  \[P(X>3) = 1-P(X \leq 3) = 1-\sum_{k=0}^{3}e^{-1.46}\frac{1.46^k}{k!} = 0.061.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que o número de requisições que chegam a um determinado
+  servidor, por minuto, é uma variável aleatória que segue distribuição
+  Poisson com variância igual a \(1.17\). Suponha que a capacidade de
+  atendimento do servidor é de, no máximo, \(3\) requisições por minuto.
+  Qual a probabilidade de que, em um intervalo de um minuto escolhido ao
+  acaso, o servidor não consiga atender a todas as requisições que forem
+  feitas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.011\)
+  \item
+    \(0.969\)
+  \item
+    \(0.950\)
+  \item
+    \(0.031\)
+  \item
+    \(0.050\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de requisições.
+  Uma vez que a capacidade é de, no máximo, \(3\) requisições por
+  minuto, a probabilidade desejada é dada por
+  \[P(X>3) = 1-P(X \leq 3) = 1-\sum_{k=0}^{3}e^{-1.17}\frac{1.17^k}{k!} = 0.031.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

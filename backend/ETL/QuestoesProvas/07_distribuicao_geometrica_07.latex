@@ -1,0 +1,402 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de um jogador de futebol acertar o gol em
+  uma cobrança de penalti seja 0.51, e que as cobranças sejam
+  independentes. Considere que o jogador continue na cobrança de
+  penaltis até que cometa um erro. Se o jogador já fez 5 gols, qual é a
+  probabilidade de que, ao todo, ele execute mais de \(8\) cobranças?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.060\)
+  \item
+    \(0.133\)
+  \item
+    \(0.068\)
+  \item
+    \(0.065\)
+  \item
+    \(0.127\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.49)\) o número de cobranças de penalti do jogador
+  até cometer o primeiro erro ("sucesso"). Então, usando a propriedade
+  da perda da memória, tem-se: \[P(X>8|X>5)=P(X>3)=(1-0.49)^3=0.133.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de um jogador de futebol acertar o gol em
+  uma cobrança de penalti seja 0.69, e que as cobranças sejam
+  independentes. Considere que o jogador continue na cobrança de
+  penaltis até que cometa um erro. Se o jogador já fez 4 gols, qual é a
+  probabilidade de que, ao todo, ele execute mais de \(7\) cobranças?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.021\)
+  \item
+    \(0.102\)
+  \item
+    \(0.227\)
+  \item
+    \(0.148\)
+  \item
+    \(0.329\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.31)\) o número de cobranças de penalti do jogador
+  até cometer o primeiro erro ("sucesso"). Então, usando a propriedade
+  da perda da memória, tem-se: \[P(X>7|X>4)=P(X>3)=(1-0.31)^3=0.329.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de um jogador de futebol acertar o gol em
+  uma cobrança de penalti seja 0.42, e que as cobranças sejam
+  independentes. Considere que o jogador continue na cobrança de
+  penaltis até que cometa um erro. Se o jogador já fez 3 gols, qual é a
+  probabilidade de que, ao todo, ele execute mais de \(6\) cobranças?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.082\)
+  \item
+    \(0.102\)
+  \item
+    \(0.043\)
+  \item
+    \(0.031\)
+  \item
+    \(0.074\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.58)\) o número de cobranças de penalti do jogador
+  até cometer o primeiro erro ("sucesso"). Então, usando a propriedade
+  da perda da memória, tem-se: \[P(X>6|X>3)=P(X>3)=(1-0.58)^3=0.074.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de um jogador de futebol acertar o gol em
+  uma cobrança de penalti seja 0.47, e que as cobranças sejam
+  independentes. Considere que o jogador continue na cobrança de
+  penaltis até que cometa um erro. Se o jogador já fez 5 gols, qual é a
+  probabilidade de que, ao todo, ele execute mais de \(8\) cobranças?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.117\)
+  \item
+    \(0.070\)
+  \item
+    \(0.049\)
+  \item
+    \(0.104\)
+  \item
+    \(0.055\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.53)\) o número de cobranças de penalti do jogador
+  até cometer o primeiro erro ("sucesso"). Então, usando a propriedade
+  da perda da memória, tem-se: \[P(X>8|X>5)=P(X>3)=(1-0.53)^3=0.104.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de um jogador de futebol acertar o gol em
+  uma cobrança de penalti seja 0.64, e que as cobranças sejam
+  independentes. Considere que o jogador continue na cobrança de
+  penaltis até que cometa um erro. Se o jogador já fez 3 gols, qual é a
+  probabilidade de que, ao todo, ele execute mais de \(6\) cobranças?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.030\)
+  \item
+    \(0.094\)
+  \item
+    \(0.147\)
+  \item
+    \(0.262\)
+  \item
+    \(0.168\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.36)\) o número de cobranças de penalti do jogador
+  até cometer o primeiro erro ("sucesso"). Então, usando a propriedade
+  da perda da memória, tem-se: \[P(X>6|X>3)=P(X>3)=(1-0.36)^3=0.262.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de um jogador de futebol acertar o gol em
+  uma cobrança de penalti seja 0.6, e que as cobranças sejam
+  independentes. Considere que o jogador continue na cobrança de
+  penaltis até que cometa um erro. Se o jogador já fez 4 gols, qual é a
+  probabilidade de que, ao todo, ele execute mais de \(6\) cobranças?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.216\)
+  \item
+    \(0.144\)
+  \item
+    \(0.240\)
+  \item
+    \(0.360\)
+  \item
+    \(0.096\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.4)\) o número de cobranças de penalti do jogador
+  até cometer o primeiro erro ("sucesso"). Então, usando a propriedade
+  da perda da memória, tem-se: \[P(X>6|X>4)=P(X>2)=(1-0.4)^2=0.36.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de um jogador de futebol acertar o gol em
+  uma cobrança de penalti seja 0.53, e que as cobranças sejam
+  independentes. Considere que o jogador continue na cobrança de
+  penaltis até que cometa um erro. Se o jogador já fez 4 gols, qual é a
+  probabilidade de que, ao todo, ele execute mais de \(6\) cobranças?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.249\)
+  \item
+    \(0.281\)
+  \item
+    \(0.132\)
+  \item
+    \(0.149\)
+  \item
+    \(0.117\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.47)\) o número de cobranças de penalti do jogador
+  até cometer o primeiro erro ("sucesso"). Então, usando a propriedade
+  da perda da memória, tem-se: \[P(X>6|X>4)=P(X>2)=(1-0.47)^2=0.281.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de um jogador de futebol acertar o gol em
+  uma cobrança de penalti seja 0.62, e que as cobranças sejam
+  independentes. Considere que o jogador continue na cobrança de
+  penaltis até que cometa um erro. Se o jogador já fez 4 gols, qual é a
+  probabilidade de que, ao todo, ele execute mais de \(6\) cobranças?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.238\)
+  \item
+    \(0.236\)
+  \item
+    \(0.146\)
+  \item
+    \(0.090\)
+  \item
+    \(0.384\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.38)\) o número de cobranças de penalti do jogador
+  até cometer o primeiro erro ("sucesso"). Então, usando a propriedade
+  da perda da memória, tem-se: \[P(X>6|X>4)=P(X>2)=(1-0.38)^2=0.384.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de um jogador de futebol acertar o gol em
+  uma cobrança de penalti seja 0.44, e que as cobranças sejam
+  independentes. Considere que o jogador continue na cobrança de
+  penaltis até que cometa um erro. Se o jogador já fez 5 gols, qual é a
+  probabilidade de que, ao todo, ele execute mais de \(7\) cobranças?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.246\)
+  \item
+    \(0.194\)
+  \item
+    \(0.138\)
+  \item
+    \(0.108\)
+  \item
+    \(0.085\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.56)\) o número de cobranças de penalti do jogador
+  até cometer o primeiro erro ("sucesso"). Então, usando a propriedade
+  da perda da memória, tem-se: \[P(X>7|X>5)=P(X>2)=(1-0.56)^2=0.194.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de um jogador de futebol acertar o gol em
+  uma cobrança de penalti seja 0.54, e que as cobranças sejam
+  independentes. Considere que o jogador continue na cobrança de
+  penaltis até que cometa um erro. Se o jogador já fez 5 gols, qual é a
+  probabilidade de que, ao todo, ele execute mais de \(7\) cobranças?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.157\)
+  \item
+    \(0.292\)
+  \item
+    \(0.248\)
+  \item
+    \(0.134\)
+  \item
+    \(0.114\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.46)\) o número de cobranças de penalti do jogador
+  até cometer o primeiro erro ("sucesso"). Então, usando a propriedade
+  da perda da memória, tem-se: \[P(X>7|X>5)=P(X>2)=(1-0.46)^2=0.292.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

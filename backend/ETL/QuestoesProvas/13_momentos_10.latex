@@ -1,0 +1,572 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \theta x^{\theta-1}, & \mbox{se}\, \ \ 0 \leq x \leq 1; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se \(\theta=4\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.67\)
+  \item
+    \(1.31\)
+  \item
+    \(0.24\)
+  \item
+    \(0.03\)
+  \item
+    \(0.64\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{1} x\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta} dx \\
+  & = \frac{\theta}{\theta+1}\left[x^{\theta+1}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+1} = 0.8 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{1} x^{2}\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta+1} dx \\
+  & = \frac{\theta}{\theta+2}\left[x^{\theta+2}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+2} = 0.67 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta}{\theta+2} - \frac{\theta^2}{(\theta+1)^2} = \frac{\theta}{(\theta+2)(\theta+1)^2} =0.03.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \theta x^{\theta-1}, & \mbox{se}\, \ \ 0 \leq x \leq 1; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se \(\theta=4\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.67\)
+  \item
+    \(0.64\)
+  \item
+    \(0.03\)
+  \item
+    \(1.31\)
+  \item
+    \(0.24\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{1} x\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta} dx \\
+  & = \frac{\theta}{\theta+1}\left[x^{\theta+1}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+1} = 0.8 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{1} x^{2}\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta+1} dx \\
+  & = \frac{\theta}{\theta+2}\left[x^{\theta+2}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+2} = 0.67 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta}{\theta+2} - \frac{\theta^2}{(\theta+1)^2} = \frac{\theta}{(\theta+2)(\theta+1)^2} =0.03.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \theta x^{\theta-1}, & \mbox{se}\, \ \ 0 \leq x \leq 1; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se \(\theta=5\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.41\)
+  \item
+    \(0.69\)
+  \item
+    \(0.71\)
+  \item
+    \(0.02\)
+  \item
+    \(0.18\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{1} x\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta} dx \\
+  & = \frac{\theta}{\theta+1}\left[x^{\theta+1}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+1} = 0.83 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{1} x^{2}\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta+1} dx \\
+  & = \frac{\theta}{\theta+2}\left[x^{\theta+2}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+2} = 0.71 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta}{\theta+2} - \frac{\theta^2}{(\theta+1)^2} = \frac{\theta}{(\theta+2)(\theta+1)^2} =0.02.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \theta x^{\theta-1}, & \mbox{se}\, \ \ 0 \leq x \leq 1; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se \(\theta=4\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.64\)
+  \item
+    \(0.03\)
+  \item
+    \(1.31\)
+  \item
+    \(0.24\)
+  \item
+    \(0.67\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{1} x\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta} dx \\
+  & = \frac{\theta}{\theta+1}\left[x^{\theta+1}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+1} = 0.8 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{1} x^{2}\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta+1} dx \\
+  & = \frac{\theta}{\theta+2}\left[x^{\theta+2}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+2} = 0.67 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta}{\theta+2} - \frac{\theta^2}{(\theta+1)^2} = \frac{\theta}{(\theta+2)(\theta+1)^2} =0.03.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \theta x^{\theta-1}, & \mbox{se}\, \ \ 0 \leq x \leq 1; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se \(\theta=3\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.56\)
+  \item
+    \(1.16\)
+  \item
+    \(0.34\)
+  \item
+    \(0.60\)
+  \item
+    \(0.04\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{1} x\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta} dx \\
+  & = \frac{\theta}{\theta+1}\left[x^{\theta+1}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+1} = 0.75 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{1} x^{2}\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta+1} dx \\
+  & = \frac{\theta}{\theta+2}\left[x^{\theta+2}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+2} = 0.6 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta}{\theta+2} - \frac{\theta^2}{(\theta+1)^2} = \frac{\theta}{(\theta+2)(\theta+1)^2} =0.04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \theta x^{\theta-1}, & \mbox{se}\, \ \ 0 \leq x \leq 1; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se \(\theta=6\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.48\)
+  \item
+    \(0.75\)
+  \item
+    \(0.73\)
+  \item
+    \(0.02\)
+  \item
+    \(0.14\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{1} x\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta} dx \\
+  & = \frac{\theta}{\theta+1}\left[x^{\theta+1}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+1} = 0.86 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{1} x^{2}\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta+1} dx \\
+  & = \frac{\theta}{\theta+2}\left[x^{\theta+2}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+2} = 0.75 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta}{\theta+2} - \frac{\theta^2}{(\theta+1)^2} = \frac{\theta}{(\theta+2)(\theta+1)^2} =0.02.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \theta x^{\theta-1}, & \mbox{se}\, \ \ 0 \leq x \leq 1; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se \(\theta=6\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.73\)
+  \item
+    \(0.14\)
+  \item
+    \(0.02\)
+  \item
+    \(0.75\)
+  \item
+    \(1.48\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{1} x\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta} dx \\
+  & = \frac{\theta}{\theta+1}\left[x^{\theta+1}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+1} = 0.86 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{1} x^{2}\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta+1} dx \\
+  & = \frac{\theta}{\theta+2}\left[x^{\theta+2}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+2} = 0.75 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta}{\theta+2} - \frac{\theta^2}{(\theta+1)^2} = \frac{\theta}{(\theta+2)(\theta+1)^2} =0.02.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \theta x^{\theta-1}, & \mbox{se}\, \ \ 0 \leq x \leq 1; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se \(\theta=6\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.73\)
+  \item
+    \(0.14\)
+  \item
+    \(0.75\)
+  \item
+    \(1.48\)
+  \item
+    \(0.02\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{1} x\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta} dx \\
+  & = \frac{\theta}{\theta+1}\left[x^{\theta+1}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+1} = 0.86 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{1} x^{2}\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta+1} dx \\
+  & = \frac{\theta}{\theta+2}\left[x^{\theta+2}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+2} = 0.75 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta}{\theta+2} - \frac{\theta^2}{(\theta+1)^2} = \frac{\theta}{(\theta+2)(\theta+1)^2} =0.02.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \theta x^{\theta-1}, & \mbox{se}\, \ \ 0 \leq x \leq 1; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se \(\theta=4\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.64\)
+  \item
+    \(0.67\)
+  \item
+    \(1.31\)
+  \item
+    \(0.24\)
+  \item
+    \(0.03\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{1} x\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta} dx \\
+  & = \frac{\theta}{\theta+1}\left[x^{\theta+1}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+1} = 0.8 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{1} x^{2}\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta+1} dx \\
+  & = \frac{\theta}{\theta+2}\left[x^{\theta+2}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+2} = 0.67 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta}{\theta+2} - \frac{\theta^2}{(\theta+1)^2} = \frac{\theta}{(\theta+2)(\theta+1)^2} =0.03.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \theta x^{\theta-1}, & \mbox{se}\, \ \ 0 \leq x \leq 1; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se \(\theta=5\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.71\)
+  \item
+    \(0.18\)
+  \item
+    \(0.02\)
+  \item
+    \(1.41\)
+  \item
+    \(0.69\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{1} x\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta} dx \\
+  & = \frac{\theta}{\theta+1}\left[x^{\theta+1}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+1} = 0.83 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{1} x^{2}\theta x^{\theta -1} dx \\
+  & = \theta\int_{0}^{1} x^{\theta+1} dx \\
+  & = \frac{\theta}{\theta+2}\left[x^{\theta+2}\right]_{0}^{1} \\
+  & = \frac{\theta}{\theta+2} = 0.71 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta}{\theta+2} - \frac{\theta^2}{(\theta+1)^2} = \frac{\theta}{(\theta+2)(\theta+1)^2} =0.02.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

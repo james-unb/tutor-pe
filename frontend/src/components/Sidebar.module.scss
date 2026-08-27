@@ -1,0 +1,508 @@
+@use '../styles/variables' as *;
+
+.sidebar {
+    width: 280px;
+    height: 100vh;
+    background-color: $bg-surface;
+    border-right: 1px solid $border-color;
+    display: flex;
+    flex-direction: column;
+    padding: $spacing-lg;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: $text-secondary;
+    z-index: 50;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        height: auto;
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        border-right: none;
+        border-top: 1px solid $border-color;
+        padding: $spacing-xs 0;
+        justify-content: stretch;
+        align-items: center;
+    }
+
+    @media (min-width: 769px) {
+        &.unpinned {
+            width: 100px; // Width increased for collapsed state
+            transition: width 0.3s ease, background-color 0.3s ease;
+            z-index: 60;
+
+            .sidebar__logo span,
+            .sidebar__link span,
+            .sidebar__history-title span,
+            .sidebar__history-item span {
+                opacity: 0;
+                visibility: hidden;
+                width: 0;
+                height: 0;
+                overflow: hidden;
+                transition: opacity 0.2s, width 0.2s;
+            }
+
+            .sidebar__header {
+                flex-direction: column;
+                gap: $spacing-md;
+                justify-content: center;
+            }
+
+            .sidebar__history-title {
+                justify-content: center;
+                padding: $spacing-md 0;
+                gap: 0;
+
+                svg {
+                    margin: 0;
+                    display: block;
+                }
+            }
+
+            .sidebar__logo {
+                margin-bottom: 0;
+                margin-right: 0;
+                justify-content: center;
+
+                svg {
+                    display: block;
+                    margin: 0;
+                }
+            }
+
+            .sidebar__link {
+                justify-content: center;
+                padding: $spacing-sm $spacing-md;
+                gap: 0; // Remove gap so centering is perfect
+
+                svg {
+                    margin: 0;
+                    display: block;
+                }
+            }
+
+            .sidebar__history-item {
+                justify-content: center;
+                padding: $spacing-sm $spacing-md;
+                gap: 0; // Remove gap so centering is perfect
+
+                svg {
+                    margin: 0;
+                    display: block;
+                }
+            }
+
+            // --- HOVER EXPANSION logic ---
+            &:hover {
+                width: 280px; // Match standard pinned width
+                box-shadow: $shadow-lg;
+
+                .sidebar__logo span,
+                .sidebar__link span,
+                .sidebar__history-title span,
+                .sidebar__history-item span {
+                    opacity: 1;
+                    visibility: visible;
+                    width: auto;
+                    height: auto;
+                }
+
+                .sidebar__header {
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .sidebar__history-title {
+                    justify-content: flex-start;
+                    padding: $spacing-xs $spacing-md;
+                    gap: $spacing-sm; // Restore gap
+
+                    svg {
+                        margin: 0;
+                    }
+                }
+
+                .sidebar__logo {
+                    margin-bottom: 0;
+                    justify-content: flex-start;
+
+                    svg {
+                        margin: 0; // Reset center alignment
+                    }
+                }
+
+                .sidebar__link,
+                .sidebar__history-item {
+                    justify-content: flex-start;
+                    padding: $spacing-sm $spacing-md;
+                    gap: $spacing-md; // Restore gap
+
+                    svg {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: $spacing-xl;
+        min-height: 40px;
+    }
+
+    &__bottom {
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-xs;
+        margin-top: auto;
+
+        @media (max-width: 768px) {
+            flex-direction: row;
+            margin-top: 0;
+            gap: 0;
+            flex: 1; // holds 1 icon (settings gear)
+        }
+
+        .sidebar__toggle-bottom {
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+    }
+
+    // Mobile-only settings button + popup
+    &__settings-mobile {
+        display: none;
+        position: relative;
+
+        @media (max-width: 768px) {
+            display: flex;
+            flex: 1;
+        }
+    }
+
+    &__settings-overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 1000;
+    }
+
+    &__settings-popup {
+        position: absolute;
+        bottom: calc(100% + 12px);
+        right: 0;
+        min-width: 200px;
+        background-color: $bg-surface;
+        border: 1px solid $border-color;
+        border-radius: $radius-lg;
+        box-shadow: $shadow-lg;
+        padding: $spacing-xs;
+        z-index: 1001;
+        animation: settingsSlideUp 0.2s ease-out;
+    }
+
+    &__settings-item {
+        display: flex;
+        align-items: center;
+        gap: $spacing-md;
+        width: 100%;
+        padding: $spacing-md;
+        border-radius: $radius-md;
+        color: $text-primary;
+        font-size: 0.95rem;
+        cursor: pointer;
+        transition: $transition-base;
+        background: none;
+        border: none;
+
+        &:hover {
+            background-color: $bg-surface-hover;
+        }
+
+        &--danger {
+            color: #ef4444;
+
+            &:hover {
+                background-color: rgba(#ef4444, 0.1);
+            }
+        }
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        gap: $spacing-sm;
+        color: $text-primary;
+        font-weight: 600;
+        font-size: 1.25rem;
+
+        svg {
+            color: $color-primary;
+        }
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-xs;
+        margin-bottom: $spacing-xl;
+
+        @media (max-width: 768px) {
+            flex-direction: row;
+            margin-bottom: 0;
+            width: auto;
+            gap: 0;
+            flex: 2; // holds 2 icons, so weight = 2
+        }
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        gap: $spacing-md;
+        padding: $spacing-sm $spacing-md;
+        border-radius: $radius-md;
+        transition: $transition-base;
+        color: $text-secondary;
+        font-size: 0.95rem;
+        background: none;
+        border: none;
+        width: 100%;
+        cursor: pointer;
+        text-align: left;
+
+        svg {
+            flex-shrink: 0;
+            display: block; // Force block logic
+        }
+
+        &:hover,
+        &.active {
+            background-color: rgba(59, 130, 246, 0.1);
+            color: $color-primary;
+        }
+
+        &.active {
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            padding: 8px;
+            font-size: 0.75rem;
+            width: auto;
+            flex: 1;
+
+            span {
+                display: none;
+            }
+        }
+    }
+
+    &__history {
+        flex: 1;
+        overflow-y: auto;
+        min-height: 0;
+        margin-top: $spacing-xl;
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+
+        &-title {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: $spacing-md;
+            color: $text-secondary;
+            display: flex;
+            align-items: center;
+            gap: $spacing-sm;
+            padding: $spacing-xs $spacing-md;
+
+            svg {
+                flex-shrink: 0;
+                display: block;
+            }
+        }
+
+        &-list {
+            display: flex;
+            flex-direction: column;
+            gap: $spacing-xs;
+        }
+
+        &-item {
+            padding: 0 $spacing-md; // Adjusted since we have explicit height and align-items center
+            height: 40px;
+            border-radius: $radius-md;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: $transition-base;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: flex;
+            flex-direction: row;
+            gap: 0.5rem;
+            align-items: center;
+
+            svg {
+                display: block; // Force block logic
+                margin-right: 0.5rem;
+                flex-shrink: 0;
+            }
+
+            &:hover {
+                background-color: $bg-surface-hover;
+                color: $text-primary;
+            }
+
+            &.active {
+                background-color: $color-primary;
+                color: white;
+            }
+        }
+    }
+
+    // Global SVG reset for sidebar to prevent squishing
+    svg {
+        flex-shrink: 0;
+    }
+
+    // Mobile-only history toggle — hidden on desktop
+    &__history-toggle-mobile {
+        display: none !important;
+
+        @media (max-width: 768px) {
+            display: flex !important;
+            flex: 1; // holds 1 icon, equal weight
+        }
+    }
+
+    // Mobile overlay
+    &__mobileOverlay {
+        display: none;
+
+        @media (max-width: 768px) {
+            display: block;
+            position: fixed;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 998;
+        }
+    }
+
+    // Mobile slide-up history drawer
+    &__mobileHistory {
+        display: none;
+
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            max-height: 70vh;
+            background-color: $bg-surface;
+            border-top: 1px solid $border-color;
+            border-radius: $radius-xl $radius-xl 0 0;
+            z-index: 999;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+            padding-bottom: 80px; // space for bottom nav
+
+            &.open {
+                transform: translateY(0);
+            }
+        }
+
+        &-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: $spacing-lg;
+            border-bottom: 1px solid $border-color;
+            color: $text-primary;
+            font-weight: 600;
+            font-size: 1.1rem;
+
+            button {
+                background: none;
+                border: none;
+                color: $text-secondary;
+                font-size: 1.5rem;
+                cursor: pointer;
+                padding: $spacing-xs;
+
+                &:hover {
+                    color: $text-primary;
+                }
+            }
+        }
+
+        &-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: $spacing-md;
+            display: flex;
+            flex-direction: column;
+            gap: $spacing-xs;
+        }
+
+        &-item {
+            display: flex;
+            align-items: center;
+            gap: $spacing-md;
+            padding: $spacing-md;
+            border-radius: $radius-md;
+            color: $text-secondary;
+            transition: $transition-base;
+
+            &:hover {
+                background-color: $bg-surface-hover;
+                color: $text-primary;
+            }
+
+            &.active {
+                background-color: $color-primary;
+                color: white;
+            }
+        }
+
+        &-empty {
+            text-align: center;
+            color: $text-secondary;
+            padding: $spacing-xl;
+            font-size: 0.95rem;
+        }
+    }
+}
+
+@keyframes settingsSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

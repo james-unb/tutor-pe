@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a empresa de consultoria Kantar no Brasil, a confiança no
+  noticiário político eleitoral visto em redes sociais tem diminuído nos
+  últimos anos por causa da ocorrência de "Fake news". Estima-se que
+  dessas notícias veiculadas nas redes sociais \(65\%\) são "Fake news".
+  Se uma pessoa já leu \(7\) notícias em uma rede social e conseguiu
+  checar a veracidade delas por outra fonte confiável, qual é a
+  probabilidade condicional de que a \(10\)ª notícia que ela ler seja a
+  primeira "Fake news" lida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0279\)
+  \item
+    \(0.0961\)
+  \item
+    \(0.0796\)
+  \item
+    \(0.0429\)
+  \item
+    \(0.2746\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(\)0.65\()\) o número de notícias lidas por uma
+  pessoa, em uma rede social, até ler uma "Fake news". Então, usando a
+  propriedade da perda da memória, tem-se:
+  \[P(X=10|X>7)=P(X=3)=0.65 \times 0.35^2=0.079625.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a empresa de consultoria Kantar no Brasil, a confiança no
+  noticiário político eleitoral visto em redes sociais tem diminuído nos
+  últimos anos por causa da ocorrência de "Fake news". Estima-se que
+  dessas notícias veiculadas nas redes sociais \(41\%\) são "Fake news".
+  Se uma pessoa já leu \(7\) notícias em uma rede social e conseguiu
+  checar a veracidade delas por outra fonte confiável, qual é a
+  probabilidade condicional de que a \(9\)ª notícia que ela ler seja a
+  primeira "Fake news" lida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2419\)
+  \item
+    \(0.1427\)
+  \item
+    \(0.3481\)
+  \item
+    \(0.1681\)
+  \item
+    \(0.0992\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(\)0.41\()\) o número de notícias lidas por uma
+  pessoa, em uma rede social, até ler uma "Fake news". Então, usando a
+  propriedade da perda da memória, tem-se:
+  \[P(X=9|X>7)=P(X=2)=0.41 \times 0.59^1=0.2419.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a empresa de consultoria Kantar no Brasil, a confiança no
+  noticiário político eleitoral visto em redes sociais tem diminuído nos
+  últimos anos por causa da ocorrência de "Fake news". Estima-se que
+  dessas notícias veiculadas nas redes sociais \(60\%\) são "Fake news".
+  Se uma pessoa já leu \(6\) notícias em uma rede social e conseguiu
+  checar a veracidade delas por outra fonte confiável, qual é a
+  probabilidade condicional de que a \(8\)ª notícia que ela ler seja a
+  primeira "Fake news" lida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.360\)
+  \item
+    \(0.160\)
+  \item
+    \(0.144\)
+  \item
+    \(0.240\)
+  \item
+    \(0.096\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(\)0.6\()\) o número de notícias lidas por uma pessoa,
+  em uma rede social, até ler uma "Fake news". Então, usando a
+  propriedade da perda da memória, tem-se:
+  \[P(X=8|X>6)=P(X=2)=0.6 \times 0.4^1=0.24.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a empresa de consultoria Kantar no Brasil, a confiança no
+  noticiário político eleitoral visto em redes sociais tem diminuído nos
+  últimos anos por causa da ocorrência de "Fake news". Estima-se que
+  dessas notícias veiculadas nas redes sociais \(55\%\) são "Fake news".
+  Se uma pessoa já leu \(7\) notícias em uma rede social e conseguiu
+  checar a veracidade delas por outra fonte confiável, qual é a
+  probabilidade condicional de que a \(10\)ª notícia que ela ler seja a
+  primeira "Fake news" lida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1114\)
+  \item
+    \(0.1664\)
+  \item
+    \(0.0911\)
+  \item
+    \(0.0501\)
+  \item
+    \(0.0749\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(\)0.55\()\) o número de notícias lidas por uma
+  pessoa, em uma rede social, até ler uma "Fake news". Então, usando a
+  propriedade da perda da memória, tem-se:
+  \[P(X=10|X>7)=P(X=3)=0.55 \times 0.45^2=0.111375.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a empresa de consultoria Kantar no Brasil, a confiança no
+  noticiário político eleitoral visto em redes sociais tem diminuído nos
+  últimos anos por causa da ocorrência de "Fake news". Estima-se que
+  dessas notícias veiculadas nas redes sociais \(66\%\) são "Fake news".
+  Se uma pessoa já leu \(7\) notícias em uma rede social e conseguiu
+  checar a veracidade delas por outra fonte confiável, qual é a
+  probabilidade condicional de que a \(9\)ª notícia que ela ler seja a
+  primeira "Fake news" lida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1481\)
+  \item
+    \(0.4356\)
+  \item
+    \(0.2244\)
+  \item
+    \(0.0763\)
+  \item
+    \(0.1156\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(\)0.66\()\) o número de notícias lidas por uma
+  pessoa, em uma rede social, até ler uma "Fake news". Então, usando a
+  propriedade da perda da memória, tem-se:
+  \[P(X=9|X>7)=P(X=2)=0.66 \times 0.34^1=0.2244.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a empresa de consultoria Kantar no Brasil, a confiança no
+  noticiário político eleitoral visto em redes sociais tem diminuído nos
+  últimos anos por causa da ocorrência de "Fake news". Estima-se que
+  dessas notícias veiculadas nas redes sociais \(54\%\) são "Fake news".
+  Se uma pessoa já leu \(7\) notícias em uma rede social e conseguiu
+  checar a veracidade delas por outra fonte confiável, qual é a
+  probabilidade condicional de que a \(10\)ª notícia que ela ler seja a
+  primeira "Fake news" lida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0526\)
+  \item
+    \(0.1143\)
+  \item
+    \(0.0724\)
+  \item
+    \(0.0973\)
+  \item
+    \(0.1575\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(\)0.54\()\) o número de notícias lidas por uma
+  pessoa, em uma rede social, até ler uma "Fake news". Então, usando a
+  propriedade da perda da memória, tem-se:
+  \[P(X=10|X>7)=P(X=3)=0.54 \times 0.46^2=0.114264.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a empresa de consultoria Kantar no Brasil, a confiança no
+  noticiário político eleitoral visto em redes sociais tem diminuído nos
+  últimos anos por causa da ocorrência de "Fake news". Estima-se que
+  dessas notícias veiculadas nas redes sociais \(61\%\) são "Fake news".
+  Se uma pessoa já leu \(5\) notícias em uma rede social e conseguiu
+  checar a veracidade delas por outra fonte confiável, qual é a
+  probabilidade condicional de que a \(7\)ª notícia que ela ler seja a
+  primeira "Fake news" lida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1451\)
+  \item
+    \(0.3721\)
+  \item
+    \(0.2379\)
+  \item
+    \(0.1521\)
+  \item
+    \(0.0928\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(\)0.61\()\) o número de notícias lidas por uma
+  pessoa, em uma rede social, até ler uma "Fake news". Então, usando a
+  propriedade da perda da memória, tem-se:
+  \[P(X=7|X>5)=P(X=2)=0.61 \times 0.39^1=0.2379.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a empresa de consultoria Kantar no Brasil, a confiança no
+  noticiário político eleitoral visto em redes sociais tem diminuído nos
+  últimos anos por causa da ocorrência de "Fake news". Estima-se que
+  dessas notícias veiculadas nas redes sociais \(78\%\) são "Fake news".
+  Se uma pessoa já leu \(10\) notícias em uma rede social e conseguiu
+  checar a veracidade delas por outra fonte confiável, qual é a
+  probabilidade condicional de que a \(12\)ª notícia que ela ler seja a
+  primeira "Fake news" lida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0378\)
+  \item
+    \(0.1338\)
+  \item
+    \(0.1716\)
+  \item
+    \(0.6084\)
+  \item
+    \(0.0484\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(\)0.78\()\) o número de notícias lidas por uma
+  pessoa, em uma rede social, até ler uma "Fake news". Então, usando a
+  propriedade da perda da memória, tem-se:
+  \[P(X=12|X>10)=P(X=2)=0.78 \times 0.22^1=0.1716.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a empresa de consultoria Kantar no Brasil, a confiança no
+  noticiário político eleitoral visto em redes sociais tem diminuído nos
+  últimos anos por causa da ocorrência de "Fake news". Estima-se que
+  dessas notícias veiculadas nas redes sociais \(52\%\) são "Fake news".
+  Se uma pessoa já leu \(8\) notícias em uma rede social e conseguiu
+  checar a veracidade delas por outra fonte confiável, qual é a
+  probabilidade condicional de que a \(10\)ª notícia que ela ler seja a
+  primeira "Fake news" lida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2496\)
+  \item
+    \(0.2704\)
+  \item
+    \(0.1198\)
+  \item
+    \(0.1298\)
+  \item
+    \(0.2304\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(\)0.52\()\) o número de notícias lidas por uma
+  pessoa, em uma rede social, até ler uma "Fake news". Então, usando a
+  propriedade da perda da memória, tem-se:
+  \[P(X=10|X>8)=P(X=2)=0.52 \times 0.48^1=0.2496.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a empresa de consultoria Kantar no Brasil, a confiança no
+  noticiário político eleitoral visto em redes sociais tem diminuído nos
+  últimos anos por causa da ocorrência de "Fake news". Estima-se que
+  dessas notícias veiculadas nas redes sociais \(47\%\) são "Fake news".
+  Se uma pessoa já leu \(5\) notícias em uma rede social e conseguiu
+  checar a veracidade delas por outra fonte confiável, qual é a
+  probabilidade condicional de que a \(7\)ª notícia que ela ler seja a
+  primeira "Fake news" lida?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2209\)
+  \item
+    \(0.1320\)
+  \item
+    \(0.2491\)
+  \item
+    \(0.1171\)
+  \item
+    \(0.2809\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(\)0.47\()\) o número de notícias lidas por uma
+  pessoa, em uma rede social, até ler uma "Fake news". Então, usando a
+  propriedade da perda da memória, tem-se:
+  \[P(X=7|X>5)=P(X=2)=0.47 \times 0.53^1=0.2491.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

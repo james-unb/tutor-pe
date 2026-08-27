@@ -1,0 +1,382 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um número de 1 a 300 é escolhido aleatoriamente. Qual a probabilidade
+  de que esse número seja divisível por 5 e por 3?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.674\)
+  \item
+    \(0.333\)
+  \item
+    \(0.661\)
+  \item
+    \(0.067\)
+  \item
+    \(0.200\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Um número será divisível por 5 e 3 se for divisível \(5\times3 = 15\).
+  A quantidade de números divisíveis por \(15\) é
+  \[\dfrac{300}{15} = 20.\] Desta maneira, a probabilidade desejada é
+  \[\dfrac{20}{300} = 0.067.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um número de 1 a 120 é escolhido aleatoriamente. Qual a probabilidade
+  de que esse número seja divisível por 3 e por 4?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(0.083\)
+  \item
+    \(0.333\)
+  \item
+    \(0.228\)
+  \item
+    \(0.093\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Um número será divisível por 3 e 4 se for divisível \(3\times4 = 12\).
+  A quantidade de números divisíveis por \(12\) é
+  \[\dfrac{120}{12} = 10.\] Desta maneira, a probabilidade desejada é
+  \[\dfrac{10}{120} = 0.083.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um número de 1 a 560 é escolhido aleatoriamente. Qual a probabilidade
+  de que esse número seja divisível por 7 e por 4?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.143\)
+  \item
+    \(0.227\)
+  \item
+    \(0.784\)
+  \item
+    \(0.250\)
+  \item
+    \(0.036\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Um número será divisível por 7 e 4 se for divisível \(7\times4 = 28\).
+  A quantidade de números divisíveis por \(28\) é
+  \[\dfrac{560}{28} = 20.\] Desta maneira, a probabilidade desejada é
+  \[\dfrac{20}{560} = 0.036.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um número de 1 a 1050 é escolhido aleatoriamente. Qual a probabilidade
+  de que esse número seja divisível por 5 e por 7?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.029\)
+  \item
+    \(0.803\)
+  \item
+    \(0.733\)
+  \item
+    \(0.143\)
+  \item
+    \(0.200\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Um número será divisível por 5 e 7 se for divisível \(5\times7 = 35\).
+  A quantidade de números divisíveis por \(35\) é
+  \[\dfrac{1050}{35} = 30.\] Desta maneira, a probabilidade desejada é
+  \[\dfrac{30}{1050} = 0.029.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um número de 1 a 360 é escolhido aleatoriamente. Qual a probabilidade
+  de que esse número seja divisível por 4 e por 3?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(0.589\)
+  \item
+    \(0.083\)
+  \item
+    \(0.200\)
+  \item
+    \(0.333\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Um número será divisível por 4 e 3 se for divisível \(4\times3 = 12\).
+  A quantidade de números divisíveis por \(12\) é
+  \[\dfrac{360}{12} = 30.\] Desta maneira, a probabilidade desejada é
+  \[\dfrac{30}{360} = 0.083.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um número de 1 a 210 é escolhido aleatoriamente. Qual a probabilidade
+  de que esse número seja divisível por 7 e por 3?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.048\)
+  \item
+    \(0.171\)
+  \item
+    \(0.333\)
+  \item
+    \(0.351\)
+  \item
+    \(0.143\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Um número será divisível por 7 e 3 se for divisível \(7\times3 = 21\).
+  A quantidade de números divisíveis por \(21\) é
+  \[\dfrac{210}{21} = 10.\] Desta maneira, a probabilidade desejada é
+  \[\dfrac{10}{210} = 0.048.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um número de 1 a 300 é escolhido aleatoriamente. Qual a probabilidade
+  de que esse número seja divisível por 3 e por 5?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.893\)
+  \item
+    \(0.067\)
+  \item
+    \(0.333\)
+  \item
+    \(0.200\)
+  \item
+    \(0.994\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Um número será divisível por 3 e 5 se for divisível \(3\times5 = 15\).
+  A quantidade de números divisíveis por \(15\) é
+  \[\dfrac{300}{15} = 20.\] Desta maneira, a probabilidade desejada é
+  \[\dfrac{20}{300} = 0.067.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um número de 1 a 450 é escolhido aleatoriamente. Qual a probabilidade
+  de que esse número seja divisível por 3 e por 5?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.333\)
+  \item
+    \(0.200\)
+  \item
+    \(0.067\)
+  \item
+    \(0.521\)
+  \item
+    \(0.133\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Um número será divisível por 3 e 5 se for divisível \(3\times5 = 15\).
+  A quantidade de números divisíveis por \(15\) é
+  \[\dfrac{450}{15} = 30.\] Desta maneira, a probabilidade desejada é
+  \[\dfrac{30}{450} = 0.067.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um número de 1 a 280 é escolhido aleatoriamente. Qual a probabilidade
+  de que esse número seja divisível por 4 e por 7?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(0.143\)
+  \item
+    \(0.036\)
+  \item
+    \(0.113\)
+  \item
+    \(0.645\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Um número será divisível por 4 e 7 se for divisível \(4\times7 = 28\).
+  A quantidade de números divisíveis por \(28\) é
+  \[\dfrac{280}{28} = 10.\] Desta maneira, a probabilidade desejada é
+  \[\dfrac{10}{280} = 0.036.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um número de 1 a 400 é escolhido aleatoriamente. Qual a probabilidade
+  de que esse número seja divisível por 5 e por 4?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.221\)
+  \item
+    \(0.399\)
+  \item
+    \(0.200\)
+  \item
+    \(0.250\)
+  \item
+    \(0.050\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Um número será divisível por 5 e 4 se for divisível \(5\times4 = 20\).
+  A quantidade de números divisíveis por \(20\) é
+  \[\dfrac{400}{20} = 20.\] Desta maneira, a probabilidade desejada é
+  \[\dfrac{20}{400} = 0.05.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

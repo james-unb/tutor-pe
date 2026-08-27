@@ -1,0 +1,422 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada vara criminal de um Tribunal de Justiça, a
+  probabilidade do juiz conceder um \emph{Habeas Corpus}(H.C.) é de
+  \(0.41\). Se \(30\) réus requerem o benefício, considerando que as
+  concessões sejam independentes, qual a variância do número de réus que
+  recebem \emph{Habeas Corpus}?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.15\)
+  \item
+    \(0.41\)
+  \item
+    \(2.69\)
+  \item
+    \(7.26\)
+  \item
+    \(5.04\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada pedido de \emph{Habeas Corpus} é independente do outro, a
+  variável aleatória \(X\) relativa ao número de réus que recebem
+  \emph{Habeas Corpus} possui distribuição binomial com parâmetros
+  \(n=30\) e \(p=0.41\). Desse modo, a variâcia de réus com H.C.
+  concedido é \[n\times p\times(1-p)=7.26.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada vara criminal de um Tribunal de Justiça, a
+  probabilidade do juiz conceder um \emph{Habeas Corpus}(H.C.) é de
+  \(0.44\). Se \(43\) réus requerem o benefício, considerando que as
+  concessões sejam independentes, qual a variância do número de réus que
+  recebem \emph{Habeas Corpus}?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(10.60\)
+  \item
+    \(9.46\)
+  \item
+    \(0.44\)
+  \item
+    \(8.32\)
+  \item
+    \(3.26\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada pedido de \emph{Habeas Corpus} é independente do outro, a
+  variável aleatória \(X\) relativa ao número de réus que recebem
+  \emph{Habeas Corpus} possui distribuição binomial com parâmetros
+  \(n=43\) e \(p=0.44\). Desse modo, a variâcia de réus com H.C.
+  concedido é \[n\times p\times(1-p)=10.6.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada vara criminal de um Tribunal de Justiça, a
+  probabilidade do juiz conceder um \emph{Habeas Corpus}(H.C.) é de
+  \(0.53\). Se \(47\) réus requerem o benefício, considerando que as
+  concessões sejam independentes, qual a variância do número de réus que
+  recebem \emph{Habeas Corpus}?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(13.20\)
+  \item
+    \(0.53\)
+  \item
+    \(3.42\)
+  \item
+    \(11.71\)
+  \item
+    \(12.46\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada pedido de \emph{Habeas Corpus} é independente do outro, a
+  variável aleatória \(X\) relativa ao número de réus que recebem
+  \emph{Habeas Corpus} possui distribuição binomial com parâmetros
+  \(n=47\) e \(p=0.53\). Desse modo, a variâcia de réus com H.C.
+  concedido é \[n\times p\times(1-p)=11.71.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada vara criminal de um Tribunal de Justiça, a
+  probabilidade do juiz conceder um \emph{Habeas Corpus}(H.C.) é de
+  \(0.57\). Se \(38\) réus requerem o benefício, considerando que as
+  concessões sejam independentes, qual a variância do número de réus que
+  recebem \emph{Habeas Corpus}?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(9.31\)
+  \item
+    \(10.83\)
+  \item
+    \(12.35\)
+  \item
+    \(0.57\)
+  \item
+    \(3.05\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada pedido de \emph{Habeas Corpus} é independente do outro, a
+  variável aleatória \(X\) relativa ao número de réus que recebem
+  \emph{Habeas Corpus} possui distribuição binomial com parâmetros
+  \(n=38\) e \(p=0.57\). Desse modo, a variâcia de réus com H.C.
+  concedido é \[n\times p\times(1-p)=9.31.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada vara criminal de um Tribunal de Justiça, a
+  probabilidade do juiz conceder um \emph{Habeas Corpus}(H.C.) é de
+  \(0.41\). Se \(47\) réus requerem o benefício, considerando que as
+  concessões sejam independentes, qual a variância do número de réus que
+  recebem \emph{Habeas Corpus}?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.41\)
+  \item
+    \(9.63\)
+  \item
+    \(11.37\)
+  \item
+    \(7.90\)
+  \item
+    \(3.37\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada pedido de \emph{Habeas Corpus} é independente do outro, a
+  variável aleatória \(X\) relativa ao número de réus que recebem
+  \emph{Habeas Corpus} possui distribuição binomial com parâmetros
+  \(n=47\) e \(p=0.41\). Desse modo, a variâcia de réus com H.C.
+  concedido é \[n\times p\times(1-p)=11.37.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada vara criminal de um Tribunal de Justiça, a
+  probabilidade do juiz conceder um \emph{Habeas Corpus}(H.C.) é de
+  \(0.44\). Se \(42\) réus requerem o benefício, considerando que as
+  concessões sejam independentes, qual a variância do número de réus que
+  recebem \emph{Habeas Corpus}?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.44\)
+  \item
+    \(8.13\)
+  \item
+    \(3.22\)
+  \item
+    \(10.35\)
+  \item
+    \(9.24\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada pedido de \emph{Habeas Corpus} é independente do outro, a
+  variável aleatória \(X\) relativa ao número de réus que recebem
+  \emph{Habeas Corpus} possui distribuição binomial com parâmetros
+  \(n=42\) e \(p=0.44\). Desse modo, a variâcia de réus com H.C.
+  concedido é \[n\times p\times(1-p)=10.35.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada vara criminal de um Tribunal de Justiça, a
+  probabilidade do juiz conceder um \emph{Habeas Corpus}(H.C.) é de
+  \(0.53\). Se \(47\) réus requerem o benefício, considerando que as
+  concessões sejam independentes, qual a variância do número de réus que
+  recebem \emph{Habeas Corpus}?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.53\)
+  \item
+    \(13.20\)
+  \item
+    \(11.71\)
+  \item
+    \(3.42\)
+  \item
+    \(12.46\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada pedido de \emph{Habeas Corpus} é independente do outro, a
+  variável aleatória \(X\) relativa ao número de réus que recebem
+  \emph{Habeas Corpus} possui distribuição binomial com parâmetros
+  \(n=47\) e \(p=0.53\). Desse modo, a variâcia de réus com H.C.
+  concedido é \[n\times p\times(1-p)=11.71.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada vara criminal de um Tribunal de Justiça, a
+  probabilidade do juiz conceder um \emph{Habeas Corpus}(H.C.) é de
+  \(0.46\). Se \(38\) réus requerem o benefício, considerando que as
+  concessões sejam independentes, qual a variância do número de réus que
+  recebem \emph{Habeas Corpus}?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.07\)
+  \item
+    \(8.74\)
+  \item
+    \(8.04\)
+  \item
+    \(0.46\)
+  \item
+    \(9.44\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada pedido de \emph{Habeas Corpus} é independente do outro, a
+  variável aleatória \(X\) relativa ao número de réus que recebem
+  \emph{Habeas Corpus} possui distribuição binomial com parâmetros
+  \(n=38\) e \(p=0.46\). Desse modo, a variâcia de réus com H.C.
+  concedido é \[n\times p\times(1-p)=9.44.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada vara criminal de um Tribunal de Justiça, a
+  probabilidade do juiz conceder um \emph{Habeas Corpus}(H.C.) é de
+  \(0.53\). Se \(40\) réus requerem o benefício, considerando que as
+  concessões sejam independentes, qual a variância do número de réus que
+  recebem \emph{Habeas Corpus}?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.53\)
+  \item
+    \(10.60\)
+  \item
+    \(11.24\)
+  \item
+    \(3.16\)
+  \item
+    \(9.96\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada pedido de \emph{Habeas Corpus} é independente do outro, a
+  variável aleatória \(X\) relativa ao número de réus que recebem
+  \emph{Habeas Corpus} possui distribuição binomial com parâmetros
+  \(n=40\) e \(p=0.53\). Desse modo, a variâcia de réus com H.C.
+  concedido é \[n\times p\times(1-p)=9.96.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma determinada vara criminal de um Tribunal de Justiça, a
+  probabilidade do juiz conceder um \emph{Habeas Corpus}(H.C.) é de
+  \(0.46\). Se \(49\) réus requerem o benefício, considerando que as
+  concessões sejam independentes, qual a variância do número de réus que
+  recebem \emph{Habeas Corpus}?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.49\)
+  \item
+    \(12.17\)
+  \item
+    \(11.27\)
+  \item
+    \(10.37\)
+  \item
+    \(0.46\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como cada pedido de \emph{Habeas Corpus} é independente do outro, a
+  variável aleatória \(X\) relativa ao número de réus que recebem
+  \emph{Habeas Corpus} possui distribuição binomial com parâmetros
+  \(n=49\) e \(p=0.46\). Desse modo, a variâcia de réus com H.C.
+  concedido é \[n\times p\times(1-p)=12.17.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

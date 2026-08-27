@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que uma determinada agência de telemarketing contacte
+  \(200000\) clientes em uma semana, e que a probabilidade da pessoa
+  contactada comprar o produto oferecido é de \(0.002\%\). Utilizando a
+  aproximação de poisson da distribuição binomial, calcule a
+  probabilidade dessa agência vender exatamente \(3\) produtos em uma
+  dada semana?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.185\)
+  \item
+    \(0.175\)
+  \item
+    \(0.805\)
+  \item
+    \(0.195\)
+  \item
+    \(0.825\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vendas tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(2e+05,0.002\%).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 4).\] Portanto, a probabilidade de
+  observarmos exatamente \(X=3\), é
+  \[P(X=3)= \exp{(-\lambda)} \times \lambda^{3}/3! = 0.195.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que uma determinada agência de telemarketing contacte
+  \(25000\) clientes em uma semana, e que a probabilidade da pessoa
+  contactada comprar o produto oferecido é de \(0.008\%\). Utilizando a
+  aproximação de poisson da distribuição binomial, calcule a
+  probabilidade dessa agência vender exatamente \(1\) produtos em uma
+  dada semana?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.271\)
+  \item
+    \(0.729\)
+  \item
+    \(0.244\)
+  \item
+    \(0.783\)
+  \item
+    \(0.217\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vendas tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(25000,0.008\%).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 2).\] Portanto, a probabilidade de
+  observarmos exatamente \(X=1\), é
+  \[P(X=1)= \exp{(-\lambda)} \times \lambda^{1}/1! = 0.271.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que uma determinada agência de telemarketing contacte
+  \(100000\) clientes em uma semana, e que a probabilidade da pessoa
+  contactada comprar o produto oferecido é de \(0.002\%\). Utilizando a
+  aproximação de poisson da distribuição binomial, calcule a
+  probabilidade dessa agência vender exatamente \(4\) produtos em uma
+  dada semana?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.106\)
+  \item
+    \(0.098\)
+  \item
+    \(0.910\)
+  \item
+    \(0.090\)
+  \item
+    \(0.894\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vendas tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(1e+05,0.002\%).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 2).\] Portanto, a probabilidade de
+  observarmos exatamente \(X=4\), é
+  \[P(X=4)= \exp{(-\lambda)} \times \lambda^{4}/4! = 0.090.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que uma determinada agência de telemarketing contacte
+  \(150000\) clientes em uma semana, e que a probabilidade da pessoa
+  contactada comprar o produto oferecido é de \(0.002\%\). Utilizando a
+  aproximação de poisson da distribuição binomial, calcule a
+  probabilidade dessa agência vender exatamente \(5\) produtos em uma
+  dada semana?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.101\)
+  \item
+    \(0.119\)
+  \item
+    \(0.110\)
+  \item
+    \(0.899\)
+  \item
+    \(0.881\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vendas tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(150000,0.002\%).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 3).\] Portanto, a probabilidade de
+  observarmos exatamente \(X=5\), é
+  \[P(X=5)= \exp{(-\lambda)} \times \lambda^{5}/5! = 0.101.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que uma determinada agência de telemarketing contacte
+  \(50000\) clientes em uma semana, e que a probabilidade da pessoa
+  contactada comprar o produto oferecido é de \(0.004\%\). Utilizando a
+  aproximação de poisson da distribuição binomial, calcule a
+  probabilidade dessa agência vender exatamente \(3\) produtos em uma
+  dada semana?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.199\)
+  \item
+    \(0.180\)
+  \item
+    \(0.820\)
+  \item
+    \(0.783\)
+  \item
+    \(0.217\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vendas tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(50000,0.004\%).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 2).\] Portanto, a probabilidade de
+  observarmos exatamente \(X=3\), é
+  \[P(X=3)= \exp{(-\lambda)} \times \lambda^{3}/3! = 0.180.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que uma determinada agência de telemarketing contacte
+  \(125000\) clientes em uma semana, e que a probabilidade da pessoa
+  contactada comprar o produto oferecido é de \(0.004\%\). Utilizando a
+  aproximação de poisson da distribuição binomial, calcule a
+  probabilidade dessa agência vender exatamente \(6\) produtos em uma
+  dada semana?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.160\)
+  \item
+    \(0.153\)
+  \item
+    \(0.840\)
+  \item
+    \(0.146\)
+  \item
+    \(0.854\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vendas tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(125000,0.004\%).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 5).\] Portanto, a probabilidade de
+  observarmos exatamente \(X=6\), é
+  \[P(X=6)= \exp{(-\lambda)} \times \lambda^{6}/6! = 0.146.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que uma determinada agência de telemarketing contacte
+  \(100000\) clientes em uma semana, e que a probabilidade da pessoa
+  contactada comprar o produto oferecido é de \(0.004\%\). Utilizando a
+  aproximação de poisson da distribuição binomial, calcule a
+  probabilidade dessa agência vender exatamente \(3\) produtos em uma
+  dada semana?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.185\)
+  \item
+    \(0.175\)
+  \item
+    \(0.805\)
+  \item
+    \(0.195\)
+  \item
+    \(0.825\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vendas tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(1e+05,0.004\%).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 4).\] Portanto, a probabilidade de
+  observarmos exatamente \(X=3\), é
+  \[P(X=3)= \exp{(-\lambda)} \times \lambda^{3}/3! = 0.195.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que uma determinada agência de telemarketing contacte
+  \(100000\) clientes em uma semana, e que a probabilidade da pessoa
+  contactada comprar o produto oferecido é de \(0.004\%\). Utilizando a
+  aproximação de poisson da distribuição binomial, calcule a
+  probabilidade dessa agência vender exatamente \(3\) produtos em uma
+  dada semana?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.195\)
+  \item
+    \(0.185\)
+  \item
+    \(0.825\)
+  \item
+    \(0.175\)
+  \item
+    \(0.805\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vendas tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(1e+05,0.004\%).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 4).\] Portanto, a probabilidade de
+  observarmos exatamente \(X=3\), é
+  \[P(X=3)= \exp{(-\lambda)} \times \lambda^{3}/3! = 0.195.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que uma determinada agência de telemarketing contacte
+  \(125000\) clientes em uma semana, e que a probabilidade da pessoa
+  contactada comprar o produto oferecido é de \(0.004\%\). Utilizando a
+  aproximação de poisson da distribuição binomial, calcule a
+  probabilidade dessa agência vender exatamente \(6\) produtos em uma
+  dada semana?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.153\)
+  \item
+    \(0.160\)
+  \item
+    \(0.146\)
+  \item
+    \(0.854\)
+  \item
+    \(0.840\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vendas tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(125000,0.004\%).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 5).\] Portanto, a probabilidade de
+  observarmos exatamente \(X=6\), é
+  \[P(X=6)= \exp{(-\lambda)} \times \lambda^{6}/6! = 0.146.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que uma determinada agência de telemarketing contacte
+  \(250000\) clientes em uma semana, e que a probabilidade da pessoa
+  contactada comprar o produto oferecido é de \(0.002\%\). Utilizando a
+  aproximação de poisson da distribuição binomial, calcule a
+  probabilidade dessa agência vender exatamente \(7\) produtos em uma
+  dada semana?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.896\)
+  \item
+    \(0.119\)
+  \item
+    \(0.104\)
+  \item
+    \(0.112\)
+  \item
+    \(0.881\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de vendas tem distribuição binomial com parâmetros
+  \[X \sim \text{Bin}(250000,0.002\%).\] Utilizando a aproximação de
+  Poisson para a Binomial, tem-se, aproximadamente, que
+  \[X \sim \text{Pois}(np= \lambda = 5).\] Portanto, a probabilidade de
+  observarmos exatamente \(X=7\), é
+  \[P(X=7)= \exp{(-\lambda)} \times \lambda^{7}/7! = 0.104.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

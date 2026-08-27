@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2017 foi elaborado um projeto de lei que propõe tipificar como
+  crime a divulgação de notícias falsas, também conhecidas como fake
+  news (PLS 473/2017), pesquisadores do DataSenado realizaram uma
+  enquete que recebeu \(116\) respostas, das quais \(75\)\% eram
+  favoráveis ao projeto. Considerando tais valores, qual é o intervalo
+  de confiança para o percentual de eleitores favoráveis com nível de
+  confiança de \(80\%\)? (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.714, 0.786]\)
+  \item
+    \([0.699, 0.801]\)
+  \item
+    \([0.724, 0.776]\)
+  \item
+    \([0.673, 0.827]\)
+  \item
+    \([0.749, 0.751]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.75-1.28\times\sqrt{\frac{0.1875}{116}} \ , \ 0.75+1.28\times\sqrt{\frac{0.1875}{116}}\right]\\
+  &=&\text{$[0.699, 0.801]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2017 foi elaborado um projeto de lei que propõe tipificar como
+  crime a divulgação de notícias falsas, também conhecidas como fake
+  news (PLS 473/2017), pesquisadores do DataSenado realizaram uma
+  enquete que recebeu \(91\) respostas, das quais \(74\)\% eram
+  favoráveis ao projeto. Considerando tais valores, qual é o intervalo
+  de confiança para o percentual de eleitores favoráveis com nível de
+  confiança de \(80\%\)? (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.652, 0.828]\)
+  \item
+    \([0.738, 0.742]\)
+  \item
+    \([0.699, 0.781]\)
+  \item
+    \([0.711, 0.769]\)
+  \item
+    \([0.681, 0.799]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.74-1.28\times\sqrt{\frac{0.1924}{91}} \ , \ 0.74+1.28\times\sqrt{\frac{0.1924}{91}}\right]\\
+  &=&\text{$[0.681, 0.799]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2017 foi elaborado um projeto de lei que propõe tipificar como
+  crime a divulgação de notícias falsas, também conhecidas como fake
+  news (PLS 473/2017), pesquisadores do DataSenado realizaram uma
+  enquete que recebeu \(84\) respostas, das quais \(74\)\% eram
+  favoráveis ao projeto. Considerando tais valores, qual é o intervalo
+  de confiança para o percentual de eleitores favoráveis com nível de
+  confiança de \(80\%\)? (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.648, 0.832]\)
+  \item
+    \([0.697, 0.783]\)
+  \item
+    \([0.709, 0.771]\)
+  \item
+    \([0.679, 0.801]\)
+  \item
+    \([0.738, 0.742]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.74-1.28\times\sqrt{\frac{0.1924}{84}} \ , \ 0.74+1.28\times\sqrt{\frac{0.1924}{84}}\right]\\
+  &=&\text{$[0.679, 0.801]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2017 foi elaborado um projeto de lei que propõe tipificar como
+  crime a divulgação de notícias falsas, também conhecidas como fake
+  news (PLS 473/2017), pesquisadores do DataSenado realizaram uma
+  enquete que recebeu \(82\) respostas, das quais \(70\)\% eram
+  favoráveis ao projeto. Considerando tais valores, qual é o intervalo
+  de confiança para o percentual de eleitores favoráveis com nível de
+  confiança de \(80\%\)? (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.603, 0.797]\)
+  \item
+    \([0.668, 0.732]\)
+  \item
+    \([0.635, 0.765]\)
+  \item
+    \([0.698, 0.702]\)
+  \item
+    \([0.655, 0.745]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.7-1.28\times\sqrt{\frac{0.21}{82}} \ , \ 0.7+1.28\times\sqrt{\frac{0.21}{82}}\right]\\
+  &=&\text{$[0.635, 0.765]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2017 foi elaborado um projeto de lei que propõe tipificar como
+  crime a divulgação de notícias falsas, também conhecidas como fake
+  news (PLS 473/2017), pesquisadores do DataSenado realizaram uma
+  enquete que recebeu \(90\) respostas, das quais \(70\)\% eram
+  favoráveis ao projeto. Considerando tais valores, qual é o intervalo
+  de confiança para o percentual de eleitores favoráveis com nível de
+  confiança de \(99\%\)? (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.513, 0.887]\)
+  \item
+    \([0.613, 0.787]\)
+  \item
+    \([0.638, 0.762]\)
+  \item
+    \([0.575, 0.825]\)
+  \item
+    \([0.695, 0.705]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.7-2.58\times\sqrt{\frac{0.21}{90}} \ , \ 0.7+2.58\times\sqrt{\frac{0.21}{90}}\right]\\
+  &=&\text{$[0.575, 0.825]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2017 foi elaborado um projeto de lei que propõe tipificar como
+  crime a divulgação de notícias falsas, também conhecidas como fake
+  news (PLS 473/2017), pesquisadores do DataSenado realizaram uma
+  enquete que recebeu \(80\) respostas, das quais \(71\)\% eram
+  favoráveis ao projeto. Considerando tais valores, qual é o intervalo
+  de confiança para o percentual de eleitores favoráveis com nível de
+  confiança de \(90\%\)? (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.668, 0.752]\)
+  \item
+    \([0.627, 0.793]\)
+  \item
+    \([0.652, 0.768]\)
+  \item
+    \([0.585, 0.835]\)
+  \item
+    \([0.707, 0.713]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.71-1.64\times\sqrt{\frac{0.2059}{80}} \ , \ 0.71+1.64\times\sqrt{\frac{0.2059}{80}}\right]\\
+  &=&\text{$[0.627, 0.793]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2017 foi elaborado um projeto de lei que propõe tipificar como
+  crime a divulgação de notícias falsas, também conhecidas como fake
+  news (PLS 473/2017), pesquisadores do DataSenado realizaram uma
+  enquete que recebeu \(94\) respostas, das quais \(71\)\% eram
+  favoráveis ao projeto. Considerando tais valores, qual é o intervalo
+  de confiança para o percentual de eleitores favoráveis com nível de
+  confiança de \(90\%\)? (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.707, 0.713]\)
+  \item
+    \([0.633, 0.787]\)
+  \item
+    \([0.672, 0.748]\)
+  \item
+    \([0.595, 0.825]\)
+  \item
+    \([0.656, 0.764]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.71-1.64\times\sqrt{\frac{0.2059}{94}} \ , \ 0.71+1.64\times\sqrt{\frac{0.2059}{94}}\right]\\
+  &=&\text{$[0.633, 0.787]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2017 foi elaborado um projeto de lei que propõe tipificar como
+  crime a divulgação de notícias falsas, também conhecidas como fake
+  news (PLS 473/2017), pesquisadores do DataSenado realizaram uma
+  enquete que recebeu \(96\) respostas, das quais \(75\)\% eram
+  favoráveis ao projeto. Considerando tais valores, qual é o intervalo
+  de confiança para o percentual de eleitores favoráveis com nível de
+  confiança de \(90\%\)? (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.699, 0.801]\)
+  \item
+    \([0.747, 0.753]\)
+  \item
+    \([0.714, 0.786]\)
+  \item
+    \([0.678, 0.822]\)
+  \item
+    \([0.641, 0.859]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.75-1.64\times\sqrt{\frac{0.1875}{96}} \ , \ 0.75+1.64\times\sqrt{\frac{0.1875}{96}}\right]\\
+  &=&\text{$[0.678, 0.822]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2017 foi elaborado um projeto de lei que propõe tipificar como
+  crime a divulgação de notícias falsas, também conhecidas como fake
+  news (PLS 473/2017), pesquisadores do DataSenado realizaram uma
+  enquete que recebeu \(110\) respostas, das quais \(74\)\% eram
+  favoráveis ao projeto. Considerando tais valores, qual é o intervalo
+  de confiança para o percentual de eleitores favoráveis com nível de
+  confiança de \(80\%\)? (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.713, 0.767]\)
+  \item
+    \([0.686, 0.794]\)
+  \item
+    \([0.703, 0.777]\)
+  \item
+    \([0.739, 0.741]\)
+  \item
+    \([0.660, 0.820]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.74-1.28\times\sqrt{\frac{0.1924}{110}} \ , \ 0.74+1.28\times\sqrt{\frac{0.1924}{110}}\right]\\
+  &=&\text{$[0.686, 0.794]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2017 foi elaborado um projeto de lei que propõe tipificar como
+  crime a divulgação de notícias falsas, também conhecidas como fake
+  news (PLS 473/2017), pesquisadores do DataSenado realizaram uma
+  enquete que recebeu \(84\) respostas, das quais \(73\)\% eram
+  favoráveis ao projeto. Considerando tais valores, qual é o intervalo
+  de confiança para o percentual de eleitores favoráveis com nível de
+  confiança de \(99\%\)? (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.605, 0.855]\)
+  \item
+    \([0.543, 0.917]\)
+  \item
+    \([0.725, 0.735]\)
+  \item
+    \([0.643, 0.817]\)
+  \item
+    \([0.668, 0.792]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.73-2.58\times\sqrt{\frac{0.1971}{84}} \ , \ 0.73+2.58\times\sqrt{\frac{0.1971}{84}}\right]\\
+  &=&\text{$[0.605, 0.855]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

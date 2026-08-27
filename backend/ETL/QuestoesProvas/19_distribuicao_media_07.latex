@@ -1,0 +1,422 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo necessário para o atendimento de clientes em uma
+  central telefônica siga uma distribuição normal com média de 7 minutos
+  e desvio padrão de 8 minutos. Qual é a probabilidade da média amostral
+  de um conjunto de 33 chamadas telefônicas escolhidas aleatoriamente
+  superar 5 minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.925\)
+  \item
+    \(0.230\)
+  \item
+    \(0.599\)
+  \item
+    \(0.848\)
+  \item
+    \(0.425\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento de uma chamada, então
+  \(E(X) = \mu = 7\), enquanto que o desvio padrão é
+  \(\sigma/\sqrt{n} = 8/\sqrt{33} = 1.393\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>5) = P\left(Z > \frac{5 - 7}{1.393}\right) = P(Z > -1.44) = 0.925.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo necessário para o atendimento de clientes em uma
+  central telefônica siga uma distribuição normal com média de 6 minutos
+  e desvio padrão de 8 minutos. Qual é a probabilidade da média amostral
+  de um conjunto de 35 chamadas telefônicas escolhidas aleatoriamente
+  superar 5 minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.273\)
+  \item
+    \(0.770\)
+  \item
+    \(0.709\)
+  \item
+    \(0.153\)
+  \item
+    \(0.548\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento de uma chamada, então
+  \(E(X) = \mu = 6\), enquanto que o desvio padrão é
+  \(\sigma/\sqrt{n} = 8/\sqrt{35} = 1.352\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>5) = P\left(Z > \frac{5 - 6}{1.352}\right) = P(Z > -0.74) = 0.770.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo necessário para o atendimento de clientes em uma
+  central telefônica siga uma distribuição normal com média de 8 minutos
+  e desvio padrão de 7 minutos. Qual é a probabilidade da média amostral
+  de um conjunto de 32 chamadas telefônicas escolhidas aleatoriamente
+  superar 10 minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.892\)
+  \item
+    \(0.386\)
+  \item
+    \(0.396\)
+  \item
+    \(0.053\)
+  \item
+    \(0.095\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento de uma chamada, então
+  \(E(X) = \mu = 8\), enquanto que o desvio padrão é
+  \(\sigma/\sqrt{n} = 7/\sqrt{32} = 1.237\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>10) = P\left(Z > \frac{10 - 8}{1.237}\right) = P(Z > 1.62) = 0.053.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo necessário para o atendimento de clientes em uma
+  central telefônica siga uma distribuição normal com média de 7 minutos
+  e desvio padrão de 10 minutos. Qual é a probabilidade da média
+  amostral de um conjunto de 33 chamadas telefônicas escolhidas
+  aleatoriamente superar 6 minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.540\)
+  \item
+    \(0.716\)
+  \item
+    \(0.629\)
+  \item
+    \(0.521\)
+  \item
+    \(0.408\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento de uma chamada, então
+  \(E(X) = \mu = 7\), enquanto que o desvio padrão é
+  \(\sigma/\sqrt{n} = 10/\sqrt{33} = 1.741\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>6) = P\left(Z > \frac{6 - 7}{1.741}\right) = P(Z > -0.57) = 0.716.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo necessário para o atendimento de clientes em uma
+  central telefônica siga uma distribuição normal com média de 11
+  minutos e desvio padrão de 9 minutos. Qual é a probabilidade da média
+  amostral de um conjunto de 35 chamadas telefônicas escolhidas
+  aleatoriamente superar 10 minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.498\)
+  \item
+    \(0.666\)
+  \item
+    \(0.313\)
+  \item
+    \(0.745\)
+  \item
+    \(0.544\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento de uma chamada, então
+  \(E(X) = \mu = 11\), enquanto que o desvio padrão é
+  \(\sigma/\sqrt{n} = 9/\sqrt{35} = 1.521\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>10) = P\left(Z > \frac{10 - 11}{1.521}\right) = P(Z > -0.66) = 0.745.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo necessário para o atendimento de clientes em uma
+  central telefônica siga uma distribuição normal com média de 15
+  minutos e desvio padrão de 9 minutos. Qual é a probabilidade da média
+  amostral de um conjunto de 32 chamadas telefônicas escolhidas
+  aleatoriamente superar 14 minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.655\)
+  \item
+    \(0.544\)
+  \item
+    \(0.736\)
+  \item
+    \(0.405\)
+  \item
+    \(0.534\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento de uma chamada, então
+  \(E(X) = \mu = 15\), enquanto que o desvio padrão é
+  \(\sigma/\sqrt{n} = 9/\sqrt{32} = 1.591\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>14) = P\left(Z > \frac{14 - 15}{1.591}\right) = P(Z > -0.63) = 0.736.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo necessário para o atendimento de clientes em uma
+  central telefônica siga uma distribuição normal com média de 10
+  minutos e desvio padrão de 9 minutos. Qual é a probabilidade da média
+  amostral de um conjunto de 31 chamadas telefônicas escolhidas
+  aleatoriamente superar 8 minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.587\)
+  \item
+    \(0.779\)
+  \item
+    \(0.893\)
+  \item
+    \(0.716\)
+  \item
+    \(0.709\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento de uma chamada, então
+  \(E(X) = \mu = 10\), enquanto que o desvio padrão é
+  \(\sigma/\sqrt{n} = 9/\sqrt{31} = 1.616\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>8) = P\left(Z > \frac{8 - 10}{1.616}\right) = P(Z > -1.24) = 0.893.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo necessário para o atendimento de clientes em uma
+  central telefônica siga uma distribuição normal com média de 7 minutos
+  e desvio padrão de 7 minutos. Qual é a probabilidade da média amostral
+  de um conjunto de 34 chamadas telefônicas escolhidas aleatoriamente
+  superar 5 minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.614\)
+  \item
+    \(0.918\)
+  \item
+    \(0.953\)
+  \item
+    \(0.641\)
+  \item
+    \(0.428\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento de uma chamada, então
+  \(E(X) = \mu = 7\), enquanto que o desvio padrão é
+  \(\sigma/\sqrt{n} = 7/\sqrt{34} = 1.2\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>5) = P\left(Z > \frac{5 - 7}{1.2}\right) = P(Z > -1.67) = 0.953.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo necessário para o atendimento de clientes em uma
+  central telefônica siga uma distribuição normal com média de 15
+  minutos e desvio padrão de 9 minutos. Qual é a probabilidade da média
+  amostral de um conjunto de 30 chamadas telefônicas escolhidas
+  aleatoriamente superar 17 minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.230\)
+  \item
+    \(0.413\)
+  \item
+    \(0.111\)
+  \item
+    \(0.293\)
+  \item
+    \(0.618\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento de uma chamada, então
+  \(E(X) = \mu = 15\), enquanto que o desvio padrão é
+  \(\sigma/\sqrt{n} = 9/\sqrt{30} = 1.643\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>17) = P\left(Z > \frac{17 - 15}{1.643}\right) = P(Z > 1.22) = 0.111.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo necessário para o atendimento de clientes em uma
+  central telefônica siga uma distribuição normal com média de 11
+  minutos e desvio padrão de 10 minutos. Qual é a probabilidade da média
+  amostral de um conjunto de 33 chamadas telefônicas escolhidas
+  aleatoriamente superar 13 minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.606\)
+  \item
+    \(0.421\)
+  \item
+    \(0.125\)
+  \item
+    \(0.399\)
+  \item
+    \(0.255\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento de uma chamada, então
+  \(E(X) = \mu = 11\), enquanto que o desvio padrão é
+  \(\sigma/\sqrt{n} = 10/\sqrt{33} = 1.741\). Assim, a probabilidade
+  requerida é
+  \[P(\overline{X}>13) = P\left(Z > \frac{13 - 11}{1.741}\right) = P(Z > 1.15) = 0.125.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

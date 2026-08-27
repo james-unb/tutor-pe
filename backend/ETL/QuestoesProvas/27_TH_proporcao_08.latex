@@ -1,0 +1,371 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2007, o número de fumantes caiu para \(10,3\%\) no Brasil. De
+  acordo com o Ministério da Saúde, essa queda se deu por conta de ações
+  como a política de preços mínimos e a proibição do consumo de
+  cigarros, cigarrilhas, charutos, cachimbos e outros, em certos locais.
+  Em 2019, utilizando uma amostra aleatória de domicílios, pesquisadores
+  conduziram um teste de hipótese para avaliar se o percentual de
+  fumantes continuou caindo após 2017. O teste resultou em um p-valor
+  igual a \(0.06\). Dessa forma, ao nível de significância de \(4\%\),
+  deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o número de
+    fumantes reduziu.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que não se reduziu o
+    número de fumantes.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o número de fumantes
+    aumentou.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o numero de
+    fumantes reduziu.
+  \item
+    Não se rejeita a hipótese nula. O número de fumantes reduziu.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 10,3\%\) \emph{vs.} \(H_a: p < 10,3\%\).
+
+  Portanto, p-valor = \(0.06 > 0.04\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Em 2007, o número de fumantes caiu para\)10,3\%\(no Brasil. De acordo com o Ministério da Saúde, essa queda se deu por conta de ações como a política de preços mínimos e a proibição do consumo de cigarros, cigarrilhas, charutos, cachimbos e outros, em certos locais. Em 2019, utilizando uma amostra aleatória de domicílios, pesquisadores conduziram um teste de hipótese para avaliar se o percentual de fumantes continuou caindo após 2017. O teste resultou em um p-valor igual a\)0.06\(. Dessa forma, ao nível de significância de\)3\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Rejeita-se a hipótese nula. Há evidência de que não se reduziu o número de fumantes.
+      \item Não se rejeita a hipótese nula. Há evidência de que o numero de fumantes reduziu.
+      \item Rejeita-se a hipótese nula. Há evidência de que o número de fumantes aumentou.
+      \item Não se rejeita a hipótese nula. Não há evidência de que o número de fumantes reduziu.
+      \item Não se rejeita a hipótese nula. O número de fumantes reduziu.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p ,3\%\(\emph{vs.}\)H\_a: p \textless{} 10,3\%\(. 
+
+  Portanto, p-valor =\)0.06 \textgreater{}
+  0.03\(e não se rejeita\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2007, o número de fumantes caiu para \(10,3\%\) no Brasil. De
+  acordo com o Ministério da Saúde, essa queda se deu por conta de ações
+  como a política de preços mínimos e a proibição do consumo de
+  cigarros, cigarrilhas, charutos, cachimbos e outros, em certos locais.
+  Em 2019, utilizando uma amostra aleatória de domicílios, pesquisadores
+  conduziram um teste de hipótese para avaliar se o percentual de
+  fumantes continuou caindo após 2017. O teste resultou em um p-valor
+  igual a \(0.05\). Dessa forma, ao nível de significância de \(10\%\),
+  deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o número de fumantes
+    aumentou.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que não se reduziu o
+    número de fumantes.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o numero de
+    fumantes reduziu.
+  \item
+    Não se rejeita a hipótese nula. O número de fumantes reduziu.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o número de
+    fumantes reduziu.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 10,3\%\) \emph{vs.} \(H_a: p < 10,3\%\).
+
+  Portanto, p-valor = \(0.05 < 0.1\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Em 2007, o número de fumantes caiu para\)10,3\%\(no Brasil. De acordo com o Ministério da Saúde, essa queda se deu por conta de ações como a política de preços mínimos e a proibição do consumo de cigarros, cigarrilhas, charutos, cachimbos e outros, em certos locais. Em 2019, utilizando uma amostra aleatória de domicílios, pesquisadores conduziram um teste de hipótese para avaliar se o percentual de fumantes continuou caindo após 2017. O teste resultou em um p-valor igual a\)0.08\(. Dessa forma, ao nível de significância de\)3\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. O número de fumantes reduziu.
+      \item Rejeita-se a hipótese nula. Há evidência de que o número de fumantes aumentou.
+      \item Não se rejeita a hipótese nula. Há evidência de que o numero de fumantes reduziu.
+      \item Rejeita-se a hipótese nula. Há evidência de que não se reduziu o número de fumantes.
+      \item Não se rejeita a hipótese nula. Não há evidência de que o número de fumantes reduziu.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p ,3\%\(\emph{vs.}\)H\_a: p \textless{} 10,3\%\(. 
+
+  Portanto, p-valor =\)0.08 \textgreater{}
+  0.03\(e não se rejeita\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2007, o número de fumantes caiu para \(10,3\%\) no Brasil. De
+  acordo com o Ministério da Saúde, essa queda se deu por conta de ações
+  como a política de preços mínimos e a proibição do consumo de
+  cigarros, cigarrilhas, charutos, cachimbos e outros, em certos locais.
+  Em 2019, utilizando uma amostra aleatória de domicílios, pesquisadores
+  conduziram um teste de hipótese para avaliar se o percentual de
+  fumantes continuou caindo após 2017. O teste resultou em um p-valor
+  igual a \(0.08\). Dessa forma, ao nível de significância de \(10\%\),
+  deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o numero de
+    fumantes reduziu.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o número de
+    fumantes reduziu.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o número de fumantes
+    aumentou.
+  \item
+    Não se rejeita a hipótese nula. O número de fumantes reduziu.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que não se reduziu o
+    número de fumantes.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 10,3\%\) \emph{vs.} \(H_a: p < 10,3\%\).
+
+  Portanto, p-valor = \(0.08 < 0.1\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Em 2007, o número de fumantes caiu para\)10,3\%\(no Brasil. De acordo com o Ministério da Saúde, essa queda se deu por conta de ações como a política de preços mínimos e a proibição do consumo de cigarros, cigarrilhas, charutos, cachimbos e outros, em certos locais. Em 2019, utilizando uma amostra aleatória de domicílios, pesquisadores conduziram um teste de hipótese para avaliar se o percentual de fumantes continuou caindo após 2017. O teste resultou em um p-valor igual a\)0.05\(. Dessa forma, ao nível de significância de\)9\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Rejeita-se a hipótese nula. Há evidência de que o número de fumantes aumentou.
+      \item Não se rejeita a hipótese nula. Não há evidência de que o número de fumantes reduziu.
+      \item Não se rejeita a hipótese nula. O número de fumantes reduziu.
+      \item Não se rejeita a hipótese nula. Há evidência de que o numero de fumantes reduziu.
+      \item Rejeita-se a hipótese nula. Há evidência de que não se reduziu o número de fumantes.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p ,3\%\(\emph{vs.}\)H\_a: p \textless{} 10,3\%\(. 
+
+  Portanto, p-valor =\)0.05 \textless{} 0.09\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2007, o número de fumantes caiu para \(10,3\%\) no Brasil. De
+  acordo com o Ministério da Saúde, essa queda se deu por conta de ações
+  como a política de preços mínimos e a proibição do consumo de
+  cigarros, cigarrilhas, charutos, cachimbos e outros, em certos locais.
+  Em 2019, utilizando uma amostra aleatória de domicílios, pesquisadores
+  conduziram um teste de hipótese para avaliar se o percentual de
+  fumantes continuou caindo após 2017. O teste resultou em um p-valor
+  igual a \(0.09\). Dessa forma, ao nível de significância de \(4\%\),
+  deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o numero de
+    fumantes reduziu.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o número de
+    fumantes reduziu.
+  \item
+    Não se rejeita a hipótese nula. O número de fumantes reduziu.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que não se reduziu o
+    número de fumantes.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o número de fumantes
+    aumentou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 10,3\%\) \emph{vs.} \(H_a: p < 10,3\%\).
+
+  Portanto, p-valor = \(0.09 > 0.04\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Em 2007, o número de fumantes caiu para\)10,3\%\(no Brasil. De acordo com o Ministério da Saúde, essa queda se deu por conta de ações como a política de preços mínimos e a proibição do consumo de cigarros, cigarrilhas, charutos, cachimbos e outros, em certos locais. Em 2019, utilizando uma amostra aleatória de domicílios, pesquisadores conduziram um teste de hipótese para avaliar se o percentual de fumantes continuou caindo após 2017. O teste resultou em um p-valor igual a\)0.06\(. Dessa forma, ao nível de significância de\)2\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. Não há evidência de que o número de fumantes reduziu.
+      \item Não se rejeita a hipótese nula. O número de fumantes reduziu.
+      \item Não se rejeita a hipótese nula. Há evidência de que o numero de fumantes reduziu.
+      \item Rejeita-se a hipótese nula. Há evidência de que o número de fumantes aumentou.
+      \item Rejeita-se a hipótese nula. Há evidência de que não se reduziu o número de fumantes.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p ,3\%\(\emph{vs.}\)H\_a: p \textless{} 10,3\%\(. 
+
+  Portanto, p-valor =\)0.06 \textgreater{}
+  0.02\(e não se rejeita\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2007, o número de fumantes caiu para \(10,3\%\) no Brasil. De
+  acordo com o Ministério da Saúde, essa queda se deu por conta de ações
+  como a política de preços mínimos e a proibição do consumo de
+  cigarros, cigarrilhas, charutos, cachimbos e outros, em certos locais.
+  Em 2019, utilizando uma amostra aleatória de domicílios, pesquisadores
+  conduziram um teste de hipótese para avaliar se o percentual de
+  fumantes continuou caindo após 2017. O teste resultou em um p-valor
+  igual a \(0.07\). Dessa forma, ao nível de significância de \(2\%\),
+  deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o número de fumantes
+    aumentou.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o numero de
+    fumantes reduziu.
+  \item
+    Não se rejeita a hipótese nula. O número de fumantes reduziu.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que não se reduziu o
+    número de fumantes.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o número de
+    fumantes reduziu.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 10,3\%\) \emph{vs.} \(H_a: p < 10,3\%\).
+
+  Portanto, p-valor = \(0.07 > 0.02\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Em 2007, o número de fumantes caiu para\)10,3\%\(no Brasil. De acordo com o Ministério da Saúde, essa queda se deu por conta de ações como a política de preços mínimos e a proibição do consumo de cigarros, cigarrilhas, charutos, cachimbos e outros, em certos locais. Em 2019, utilizando uma amostra aleatória de domicílios, pesquisadores conduziram um teste de hipótese para avaliar se o percentual de fumantes continuou caindo após 2017. O teste resultou em um p-valor igual a\)0.1\(. Dessa forma, ao nível de significância de\)9\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. Há evidência de que o numero de fumantes reduziu.
+      \item Rejeita-se a hipótese nula. Há evidência de que o número de fumantes aumentou.
+      \item Não se rejeita a hipótese nula. O número de fumantes reduziu.
+      \item Não se rejeita a hipótese nula. Não há evidência de que o número de fumantes reduziu.
+      \item Rejeita-se a hipótese nula. Há evidência de que não se reduziu o número de fumantes.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p ,3\%\(\emph{vs.}\)H\_a: p \textless{} 10,3\%\(. 
+
+  Portanto, p-valor =\)0.1 \textgreater{}
+  0.09\(e não se rejeita\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

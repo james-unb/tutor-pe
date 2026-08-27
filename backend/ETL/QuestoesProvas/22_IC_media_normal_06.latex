@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa realizada no Itapoã, em que foram entrevistadas \(29\)
+  moradores dessa região da periferia do Distrito Federal, verificou-se
+  que a renda per capita mensal média é de \(692.23\) reais.
+  Considerando que a renda per capita mensal segue uma distribuição
+  Normal com desvio padrão igual a \(176.21\) reais, assinale a
+  alternativa correspondente ao intervalo de confiança para a renda per
+  capita mensal média dessas pessoas com \(99\)\% de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([675.440, 709.020]\)
+  \item
+    \([607.809, 776.651]\)
+  \item
+    \([676.553, 707.907]\)
+  \item
+    \([686.487, 697.973]\)
+  \item
+    \([601.811, 782.649]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[692.23-2.58\times\frac{176.21}{\sqrt{29}} \ , \ 692.23+2.58\times\frac{176.21}{\sqrt{29}}\right]\\
+  &=&\text{$[607.809, 776.651]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa realizada no Itapoã, em que foram entrevistadas \(27\)
+  moradores dessa região da periferia do Distrito Federal, verificou-se
+  que a renda per capita mensal média é de \(742\) reais. Considerando
+  que a renda per capita mensal segue uma distribuição Normal com desvio
+  padrão igual a \(182.64\) reais, assinale a alternativa correspondente
+  ao intervalo de confiança para a renda per capita mensal média dessas
+  pessoas com \(90\)\% de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([738.671, 745.329]\)
+  \item
+    \([682.050, 801.950]\)
+  \item
+    \([684.356, 799.644]\)
+  \item
+    \([730.906, 753.094]\)
+  \item
+    \([730.463, 753.537]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[742-1.64\times\frac{182.64}{\sqrt{27}} \ , \ 742+1.64\times\frac{182.64}{\sqrt{27}}\right]\\
+  &=&\text{$[684.356, 799.644]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa realizada no Itapoã, em que foram entrevistadas \(28\)
+  moradores dessa região da periferia do Distrito Federal, verificou-se
+  que a renda per capita mensal média é de \(733.13\) reais.
+  Considerando que a renda per capita mensal segue uma distribuição
+  Normal com desvio padrão igual a \(117.2\) reais, assinale a
+  alternativa correspondente ao intervalo de confiança para a renda per
+  capita mensal média dessas pessoas com \(95\)\% de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([724.926, 741.334]\)
+  \item
+    \([689.719, 776.541]\)
+  \item
+    \([687.685, 778.575]\)
+  \item
+    \([724.542, 741.718]\)
+  \item
+    \([729.775, 736.485]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[733.13-1.96\times\frac{117.2}{\sqrt{28}} \ , \ 733.13+1.96\times\frac{117.2}{\sqrt{28}}\right]\\
+  &=&\text{$[689.719, 776.541]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa realizada no Itapoã, em que foram entrevistadas \(27\)
+  moradores dessa região da periferia do Distrito Federal, verificou-se
+  que a renda per capita mensal média é de \(607.35\) reais.
+  Considerando que a renda per capita mensal segue uma distribuição
+  Normal com desvio padrão igual a \(165.73\) reais, assinale a
+  alternativa correspondente ao intervalo de confiança para a renda per
+  capita mensal média dessas pessoas com \(95\)\% de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([594.733, 619.967]\)
+  \item
+    \([603.287, 611.413]\)
+  \item
+    \([541.790, 672.910]\)
+  \item
+    \([544.836, 669.864]\)
+  \item
+    \([595.319, 619.381]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[607.35-1.96\times\frac{165.73}{\sqrt{27}} \ , \ 607.35+1.96\times\frac{165.73}{\sqrt{27}}\right]\\
+  &=&\text{$[544.836, 669.864]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa realizada no Itapoã, em que foram entrevistadas \(29\)
+  moradores dessa região da periferia do Distrito Federal, verificou-se
+  que a renda per capita mensal média é de \(620.58\) reais.
+  Considerando que a renda per capita mensal segue uma distribuição
+  Normal com desvio padrão igual a \(156.41\) reais, assinale a
+  alternativa correspondente ao intervalo de confiança para a renda per
+  capita mensal média dessas pessoas com \(90\)\% de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([611.735, 629.425]\)
+  \item
+    \([617.607, 623.553]\)
+  \item
+    \([572.947, 668.213]\)
+  \item
+    \([571.172, 669.988]\)
+  \item
+    \([611.405, 629.755]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[620.58-1.64\times\frac{156.41}{\sqrt{29}} \ , \ 620.58+1.64\times\frac{156.41}{\sqrt{29}}\right]\\
+  &=&\text{$[572.947, 668.213]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa realizada no Itapoã, em que foram entrevistadas \(25\)
+  moradores dessa região da periferia do Distrito Federal, verificou-se
+  que a renda per capita mensal média é de \(684.96\) reais.
+  Considerando que a renda per capita mensal segue uma distribuição
+  Normal com desvio padrão igual a \(114.96\) reais, assinale a
+  alternativa correspondente ao intervalo de confiança para a renda per
+  capita mensal média dessas pessoas com \(95\)\% de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([675.947, 693.973]\)
+  \item
+    \([681.443, 688.477]\)
+  \item
+    \([637.507, 732.413]\)
+  \item
+    \([639.896, 730.024]\)
+  \item
+    \([675.469, 694.451]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[684.96-1.96\times\frac{114.96}{\sqrt{25}} \ , \ 684.96+1.96\times\frac{114.96}{\sqrt{25}}\right]\\
+  &=&\text{$[639.896, 730.024]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa realizada no Itapoã, em que foram entrevistadas \(27\)
+  moradores dessa região da periferia do Distrito Federal, verificou-se
+  que a renda per capita mensal média é de \(668.51\) reais.
+  Considerando que a renda per capita mensal segue uma distribuição
+  Normal com desvio padrão igual a \(191.36\) reais, assinale a
+  alternativa correspondente ao intervalo de confiança para a renda per
+  capita mensal média dessas pessoas com \(99\)\% de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([566.178, 770.842]\)
+  \item
+    \([573.496, 763.524]\)
+  \item
+    \([662.307, 674.713]\)
+  \item
+    \([650.224, 686.796]\)
+  \item
+    \([648.816, 688.204]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[668.51-2.58\times\frac{191.36}{\sqrt{27}} \ , \ 668.51+2.58\times\frac{191.36}{\sqrt{27}}\right]\\
+  &=&\text{$[573.496, 763.524]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa realizada no Itapoã, em que foram entrevistadas \(28\)
+  moradores dessa região da periferia do Distrito Federal, verificou-se
+  que a renda per capita mensal média é de \(658.51\) reais.
+  Considerando que a renda per capita mensal segue uma distribuição
+  Normal com desvio padrão igual a \(124.12\) reais, assinale a
+  alternativa correspondente ao intervalo de confiança para a renda per
+  capita mensal média dessas pessoas com \(99\)\% de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([653.604, 663.416]\)
+  \item
+    \([647.073, 669.947]\)
+  \item
+    \([646.228, 670.792]\)
+  \item
+    \([597.992, 719.028]\)
+  \item
+    \([593.519, 723.501]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[658.51-2.58\times\frac{124.12}{\sqrt{28}} \ , \ 658.51+2.58\times\frac{124.12}{\sqrt{28}}\right]\\
+  &=&\text{$[597.992, 719.028]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa realizada no Itapoã, em que foram entrevistadas \(28\)
+  moradores dessa região da periferia do Distrito Federal, verificou-se
+  que a renda per capita mensal média é de \(618.75\) reais.
+  Considerando que a renda per capita mensal segue uma distribuição
+  Normal com desvio padrão igual a \(97.98\) reais, assinale a
+  alternativa correspondente ao intervalo de confiança para a renda per
+  capita mensal média dessas pessoas com \(95\)\% de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([611.570, 625.930]\)
+  \item
+    \([582.458, 655.042]\)
+  \item
+    \([611.891, 625.609]\)
+  \item
+    \([615.682, 621.818]\)
+  \item
+    \([580.758, 656.742]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[618.75-1.96\times\frac{97.98}{\sqrt{28}} \ , \ 618.75+1.96\times\frac{97.98}{\sqrt{28}}\right]\\
+  &=&\text{$[582.458, 655.042]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma pesquisa realizada no Itapoã, em que foram entrevistadas \(27\)
+  moradores dessa região da periferia do Distrito Federal, verificou-se
+  que a renda per capita mensal média é de \(736.63\) reais.
+  Considerando que a renda per capita mensal segue uma distribuição
+  Normal com desvio padrão igual a \(170.61\) reais, assinale a
+  alternativa correspondente ao intervalo de confiança para a renda per
+  capita mensal média dessas pessoas com \(99\)\% de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([719.072, 754.188]\)
+  \item
+    \([645.394, 827.866]\)
+  \item
+    \([720.327, 752.933]\)
+  \item
+    \([651.919, 821.341]\)
+  \item
+    \([730.773, 742.487]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[736.63-2.58\times\frac{170.61}{\sqrt{27}} \ , \ 736.63+2.58\times\frac{170.61}{\sqrt{27}}\right]\\
+  &=&\text{$[651.919, 821.341]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

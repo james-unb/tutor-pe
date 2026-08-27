@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  De acordo com a Organização Mundial da Saúde, a proporção de pessoas
+  que sofrem de ansiedade no Brasil é de \(11\%\). Se uma amostra piloto
+  de \(120\) brasileiros for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de brasileiros ansiosos na amostra
+  seja menor que \(12\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.540\)
+  \item
+    \(0.560\)
+  \item
+    \(1.000\)
+  \item
+    \(0.512\)
+  \item
+    \(0.637\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.11\) e
+  \(\sigma = \sqrt{\frac{0.11\times0.89}{120}}=0.0286\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.12\right) &= P\left(\frac{\hat{p}-0.11}{0.0286} < \frac{0.12-0.11}{0.0286}\right) \\
+   & = P\left(Z<0.35\right) = 0.6368.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  De acordo com a Organização Mundial da Saúde, a proporção de pessoas
+  que sofrem de ansiedade no Brasil é de \(10\%\). Se uma amostra piloto
+  de \(100\) brasileiros for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de brasileiros ansiosos na amostra
+  seja menor que \(11\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.544\)
+  \item
+    \(0.629\)
+  \item
+    \(1.000\)
+  \item
+    \(0.512\)
+  \item
+    \(0.102\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.1\) e
+  \(\sigma = \sqrt{\frac{0.1\times0.9}{100}}=0.03\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.11\right) &= P\left(\frac{\hat{p}-0.1}{0.03} < \frac{0.11-0.1}{0.03}\right) \\
+   & = P\left(Z<0.33\right) = 0.6293.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  De acordo com a Organização Mundial da Saúde, a proporção de pessoas
+  que sofrem de ansiedade no Brasil é de \(11\%\). Se uma amostra piloto
+  de \(100\) brasileiros for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de brasileiros ansiosos na amostra
+  seja menor que \(12\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.540\)
+  \item
+    \(0.512\)
+  \item
+    \(1.000\)
+  \item
+    \(0.626\)
+  \item
+    \(0.393\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.11\) e
+  \(\sigma = \sqrt{\frac{0.11\times0.89}{100}}=0.0313\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.12\right) &= P\left(\frac{\hat{p}-0.11}{0.0313} < \frac{0.12-0.11}{0.0313}\right) \\
+   & = P\left(Z<0.32\right) = 0.6255.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  De acordo com a Organização Mundial da Saúde, a proporção de pessoas
+  que sofrem de ansiedade no Brasil é de \(11\%\). Se uma amostra piloto
+  de \(110\) brasileiros for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de brasileiros ansiosos na amostra
+  seja menor que \(13\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.524\)
+  \item
+    \(1.000\)
+  \item
+    \(0.749\)
+  \item
+    \(0.551\)
+  \item
+    \(0.579\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.11\) e
+  \(\sigma = \sqrt{\frac{0.11\times0.89}{110}}=0.0298\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.13\right) &= P\left(\frac{\hat{p}-0.11}{0.0298} < \frac{0.13-0.11}{0.0298}\right) \\
+   & = P\left(Z<0.67\right) = 0.7486.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  De acordo com a Organização Mundial da Saúde, a proporção de pessoas
+  que sofrem de ansiedade no Brasil é de \(11\%\). Se uma amostra piloto
+  de \(110\) brasileiros for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de brasileiros ansiosos na amostra
+  seja menor que \(14\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.324\)
+  \item
+    \(0.844\)
+  \item
+    \(0.622\)
+  \item
+    \(0.540\)
+  \item
+    \(1.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.11\) e
+  \(\sigma = \sqrt{\frac{0.11\times0.89}{110}}=0.0298\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.14\right) &= P\left(\frac{\hat{p}-0.11}{0.0298} < \frac{0.14-0.11}{0.0298}\right) \\
+   & = P\left(Z<1.01\right) = 0.8438.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  De acordo com a Organização Mundial da Saúde, a proporção de pessoas
+  que sofrem de ansiedade no Brasil é de \(11\%\). Se uma amostra piloto
+  de \(120\) brasileiros for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de brasileiros ansiosos na amostra
+  seja menor que \(12\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.512\)
+  \item
+    \(0.662\)
+  \item
+    \(0.540\)
+  \item
+    \(1.000\)
+  \item
+    \(0.637\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.11\) e
+  \(\sigma = \sqrt{\frac{0.11\times0.89}{120}}=0.0286\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.12\right) &= P\left(\frac{\hat{p}-0.11}{0.0286} < \frac{0.12-0.11}{0.0286}\right) \\
+   & = P\left(Z<0.35\right) = 0.6368.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  De acordo com a Organização Mundial da Saúde, a proporção de pessoas
+  que sofrem de ansiedade no Brasil é de \(10\%\). Se uma amostra piloto
+  de \(120\) brasileiros for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de brasileiros ansiosos na amostra
+  seja menor que \(11\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.616\)
+  \item
+    \(0.512\)
+  \item
+    \(1.000\)
+  \item
+    \(0.644\)
+  \item
+    \(0.544\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.1\) e
+  \(\sigma = \sqrt{\frac{0.1\times0.9}{120}}=0.0274\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.11\right) &= P\left(\frac{\hat{p}-0.1}{0.0274} < \frac{0.11-0.1}{0.0274}\right) \\
+   & = P\left(Z<0.37\right) = 0.6443.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  De acordo com a Organização Mundial da Saúde, a proporção de pessoas
+  que sofrem de ansiedade no Brasil é de \(11\%\). Se uma amostra piloto
+  de \(120\) brasileiros for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de brasileiros ansiosos na amostra
+  seja menor que \(12\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.000\)
+  \item
+    \(0.693\)
+  \item
+    \(0.637\)
+  \item
+    \(0.540\)
+  \item
+    \(0.512\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.11\) e
+  \(\sigma = \sqrt{\frac{0.11\times0.89}{120}}=0.0286\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.12\right) &= P\left(\frac{\hat{p}-0.11}{0.0286} < \frac{0.12-0.11}{0.0286}\right) \\
+   & = P\left(Z<0.35\right) = 0.6368.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  De acordo com a Organização Mundial da Saúde, a proporção de pessoas
+  que sofrem de ansiedade no Brasil é de \(11\%\). Se uma amostra piloto
+  de \(110\) brasileiros for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de brasileiros ansiosos na amostra
+  seja menor que \(14\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.540\)
+  \item
+    \(0.653\)
+  \item
+    \(0.622\)
+  \item
+    \(0.844\)
+  \item
+    \(1.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.11\) e
+  \(\sigma = \sqrt{\frac{0.11\times0.89}{110}}=0.0298\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.14\right) &= P\left(\frac{\hat{p}-0.11}{0.0298} < \frac{0.14-0.11}{0.0298}\right) \\
+   & = P\left(Z<1.01\right) = 0.8438.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  De acordo com a Organização Mundial da Saúde, a proporção de pessoas
+  que sofrem de ansiedade no Brasil é de \(11\%\). Se uma amostra piloto
+  de \(100\) brasileiros for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de brasileiros ansiosos na amostra
+  seja menor que \(14\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.540\)
+  \item
+    \(1.000\)
+  \item
+    \(0.622\)
+  \item
+    \(0.829\)
+  \item
+    \(0.831\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.11\) e
+  \(\sigma = \sqrt{\frac{0.11\times0.89}{100}}=0.0313\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.14\right) &= P\left(\frac{\hat{p}-0.11}{0.0313} < \frac{0.14-0.11}{0.0313}\right) \\
+   & = P\left(Z<0.96\right) = 0.8315.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

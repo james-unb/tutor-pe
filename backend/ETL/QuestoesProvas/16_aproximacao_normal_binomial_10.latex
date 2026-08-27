@@ -1,0 +1,502 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O governo de um certo estado do Brasil decidiu adotar um critério para
+  a distribuição de verbas ligadas à área de Ensino Básico entre os seus
+  municípios. Em cada município são sorteadas 32 escolas de 1° grau para
+  serem inspecionadas com relação a diversos aspectos que procuram medir
+  a qualidade da sua administração. Se o número de escolas aprovadas for
+  no máximo 10, o município recebe uma dotação baixa. Qual a
+  probabilidade de que um município onde 21\% das escolas são bem
+  administradas receba uma dotação baixa? (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3121\)
+  \item
+    \(0.7324\)
+  \item
+    \(0.9222\)
+  \item
+    \(0.2676\)
+  \item
+    \(0.6879\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de escolas aprovadas nessa inspeção, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=32\) e \(p=0.21\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(6.72,2.3)\). E probabilidade desejada é dada por
+  \[P(X \leq 10 ) = P \left( Z \leq \dfrac{10 - 32 \times 0.21}{\sqrt{32 \times 0.21 \times 0.79}}\right) = P(Z \leq 1.42) = 0.922.\]
+  A probabilidade requerida é de 92.2\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O governo de um certo estado do Brasil decidiu adotar um critério para
+  a distribuição de verbas ligadas à área de Ensino Básico entre os seus
+  municípios. Em cada município são sorteadas 32 escolas de 1° grau para
+  serem inspecionadas com relação a diversos aspectos que procuram medir
+  a qualidade da sua administração. Se o número de escolas aprovadas for
+  no máximo 24, o município recebe uma dotação baixa. Qual a
+  probabilidade de que um município onde 67\% das escolas são bem
+  administradas receba uma dotação baixa? (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8315\)
+  \item
+    \(0.6406\)
+  \item
+    \(0.5478\)
+  \item
+    \(0.4522\)
+  \item
+    \(0.3594\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de escolas aprovadas nessa inspeção, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=32\) e \(p=0.67\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(21.44,2.66)\). E probabilidade desejada é dada por
+  \[P(X \leq 24 ) = P \left( Z \leq \dfrac{24 - 32 \times 0.67}{\sqrt{32 \times 0.67 \times 0.33}}\right) = P(Z \leq 0.96) = 0.831.\]
+  A probabilidade requerida é de 83.1\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O governo de um certo estado do Brasil decidiu adotar um critério para
+  a distribuição de verbas ligadas à área de Ensino Básico entre os seus
+  municípios. Em cada município são sorteadas 35 escolas de 1° grau para
+  serem inspecionadas com relação a diversos aspectos que procuram medir
+  a qualidade da sua administração. Se o número de escolas aprovadas for
+  no máximo 14, o município recebe uma dotação baixa. Qual a
+  probabilidade de que um município onde 47\% das escolas são bem
+  administradas receba uma dotação baixa? (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2033\)
+  \item
+    \(0.6103\)
+  \item
+    \(0.5596\)
+  \item
+    \(0.4404\)
+  \item
+    \(0.3897\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de escolas aprovadas nessa inspeção, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=35\) e \(p=0.47\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(16.45,2.95)\). E probabilidade desejada é dada por
+  \[P(X \leq 14 ) = P \left( Z \leq \dfrac{14 - 35 \times 0.47}{\sqrt{35 \times 0.47 \times 0.53}}\right) = P(Z \leq -0.83) = 0.203.\]
+  A probabilidade requerida é de 20.3\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O governo de um certo estado do Brasil decidiu adotar um critério para
+  a distribuição de verbas ligadas à área de Ensino Básico entre os seus
+  municípios. Em cada município são sorteadas 40 escolas de 1° grau para
+  serem inspecionadas com relação a diversos aspectos que procuram medir
+  a qualidade da sua administração. Se o número de escolas aprovadas for
+  no máximo 15, o município recebe uma dotação baixa. Qual a
+  probabilidade de que um município onde 43\% das escolas são bem
+  administradas receba uma dotação baixa? (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5517\)
+  \item
+    \(0.4483\)
+  \item
+    \(0.2420\)
+  \item
+    \(0.4129\)
+  \item
+    \(0.5871\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de escolas aprovadas nessa inspeção, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=40\) e \(p=0.43\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(17.2,3.13)\). E probabilidade desejada é dada por
+  \[P(X \leq 15 ) = P \left( Z \leq \dfrac{15 - 40 \times 0.43}{\sqrt{40 \times 0.43 \times 0.57}}\right) = P(Z \leq -0.7) = 0.242.\]
+  A probabilidade requerida é de 24.2\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O governo de um certo estado do Brasil decidiu adotar um critério para
+  a distribuição de verbas ligadas à área de Ensino Básico entre os seus
+  municípios. Em cada município são sorteadas 34 escolas de 1° grau para
+  serem inspecionadas com relação a diversos aspectos que procuram medir
+  a qualidade da sua administração. Se o número de escolas aprovadas for
+  no máximo 23, o município recebe uma dotação baixa. Qual a
+  probabilidade de que um município onde 62\% das escolas são bem
+  administradas receba uma dotação baixa? (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5359\)
+  \item
+    \(0.7517\)
+  \item
+    \(0.5948\)
+  \item
+    \(0.4641\)
+  \item
+    \(0.4052\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de escolas aprovadas nessa inspeção, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=34\) e \(p=0.62\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(21.08,2.83)\). E probabilidade desejada é dada por
+  \[P(X \leq 23 ) = P \left( Z \leq \dfrac{23 - 34 \times 0.62}{\sqrt{34 \times 0.62 \times 0.38}}\right) = P(Z \leq 0.68) = 0.752.\]
+  A probabilidade requerida é de 75.2\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O governo de um certo estado do Brasil decidiu adotar um critério para
+  a distribuição de verbas ligadas à área de Ensino Básico entre os seus
+  municípios. Em cada município são sorteadas 31 escolas de 1° grau para
+  serem inspecionadas com relação a diversos aspectos que procuram medir
+  a qualidade da sua administração. Se o número de escolas aprovadas for
+  no máximo 16, o município recebe uma dotação baixa. Qual a
+  probabilidade de que um município onde 57\% das escolas são bem
+  administradas receba uma dotação baixa? (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2709\)
+  \item
+    \(0.5359\)
+  \item
+    \(0.4641\)
+  \item
+    \(0.5871\)
+  \item
+    \(0.4129\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de escolas aprovadas nessa inspeção, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=31\) e \(p=0.57\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(17.67,2.76)\). E probabilidade desejada é dada por
+  \[P(X \leq 16 ) = P \left( Z \leq \dfrac{16 - 31 \times 0.57}{\sqrt{31 \times 0.57 \times 0.43}}\right) = P(Z \leq -0.61) = 0.271.\]
+  A probabilidade requerida é de 27.1\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O governo de um certo estado do Brasil decidiu adotar um critério para
+  a distribuição de verbas ligadas à área de Ensino Básico entre os seus
+  municípios. Em cada município são sorteadas 36 escolas de 1° grau para
+  serem inspecionadas com relação a diversos aspectos que procuram medir
+  a qualidade da sua administração. Se o número de escolas aprovadas for
+  no máximo 28, o município recebe uma dotação baixa. Qual a
+  probabilidade de que um município onde 70\% das escolas são bem
+  administradas receba uma dotação baixa? (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8461\)
+  \item
+    \(0.4562\)
+  \item
+    \(0.6443\)
+  \item
+    \(0.3557\)
+  \item
+    \(0.5438\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de escolas aprovadas nessa inspeção, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=36\) e \(p=0.7\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(25.2,2.75)\). E probabilidade desejada é dada por
+  \[P(X \leq 28 ) = P \left( Z \leq \dfrac{28 - 36 \times 0.7}{\sqrt{36 \times 0.7 \times 0.3}}\right) = P(Z \leq 1.02) = 0.846.\]
+  A probabilidade requerida é de 84.6\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O governo de um certo estado do Brasil decidiu adotar um critério para
+  a distribuição de verbas ligadas à área de Ensino Básico entre os seus
+  municípios. Em cada município são sorteadas 34 escolas de 1° grau para
+  serem inspecionadas com relação a diversos aspectos que procuram medir
+  a qualidade da sua administração. Se o número de escolas aprovadas for
+  no máximo 12, o município recebe uma dotação baixa. Qual a
+  probabilidade de que um município onde 41\% das escolas são bem
+  administradas receba uma dotação baixa? (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4052\)
+  \item
+    \(0.2483\)
+  \item
+    \(0.5948\)
+  \item
+    \(0.5557\)
+  \item
+    \(0.4443\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de escolas aprovadas nessa inspeção, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=34\) e \(p=0.41\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(13.94,2.87)\). E probabilidade desejada é dada por
+  \[P(X \leq 12 ) = P \left( Z \leq \dfrac{12 - 34 \times 0.41}{\sqrt{34 \times 0.41 \times 0.59}}\right) = P(Z \leq -0.68) = 0.248.\]
+  A probabilidade requerida é de 24.8\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O governo de um certo estado do Brasil decidiu adotar um critério para
+  a distribuição de verbas ligadas à área de Ensino Básico entre os seus
+  municípios. Em cada município são sorteadas 36 escolas de 1° grau para
+  serem inspecionadas com relação a diversos aspectos que procuram medir
+  a qualidade da sua administração. Se o número de escolas aprovadas for
+  no máximo 14, o município recebe uma dotação baixa. Qual a
+  probabilidade de que um município onde 30\% das escolas são bem
+  administradas receba uma dotação baixa? (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3372\)
+  \item
+    \(0.6179\)
+  \item
+    \(0.8770\)
+  \item
+    \(0.6628\)
+  \item
+    \(0.3821\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de escolas aprovadas nessa inspeção, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=36\) e \(p=0.3\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(10.8,2.75)\). E probabilidade desejada é dada por
+  \[P(X \leq 14 ) = P \left( Z \leq \dfrac{14 - 36 \times 0.3}{\sqrt{36 \times 0.3 \times 0.7}}\right) = P(Z \leq 1.16) = 0.877.\]
+  A probabilidade requerida é de 87.7\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O governo de um certo estado do Brasil decidiu adotar um critério para
+  a distribuição de verbas ligadas à área de Ensino Básico entre os seus
+  municípios. Em cada município são sorteadas 33 escolas de 1° grau para
+  serem inspecionadas com relação a diversos aspectos que procuram medir
+  a qualidade da sua administração. Se o número de escolas aprovadas for
+  no máximo 11, o município recebe uma dotação baixa. Qual a
+  probabilidade de que um município onde 25\% das escolas são bem
+  administradas receba uma dotação baixa? (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6293\)
+  \item
+    \(0.3300\)
+  \item
+    \(0.3707\)
+  \item
+    \(0.6700\)
+  \item
+    \(0.8665\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de escolas aprovadas nessa inspeção, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=33\) e \(p=0.25\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(8.25,2.49)\). E probabilidade desejada é dada por
+  \[P(X \leq 11 ) = P \left( Z \leq \dfrac{11 - 33 \times 0.25}{\sqrt{33 \times 0.25 \times 0.75}}\right) = P(Z \leq 1.11) = 0.867.\]
+  A probabilidade requerida é de 86.7\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

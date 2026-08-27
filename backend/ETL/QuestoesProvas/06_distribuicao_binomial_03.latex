@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(18\%\) dos chutes de um determinado jogador resultam em
+  gols. Se em um determinado jogo de futebol esse jogador executou \(6\)
+  chutes, qual a probabilidade deles terem resultado em mais de \(1\)
+  gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.600\)
+  \item
+    \(0.696\)
+  \item
+    \(0.704\)
+  \item
+    \(0.296\)
+  \item
+    \(0.629\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de chutes a gol do jogador.
+  Então, \(X \sim \text{Bin}(6,0.18)\) e a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(X \geq 2) & = 1 - P(X=0) - P(X=1) \\
+  & = 1 - \binom{6}{0}0.18^0(1-0.18)^{6 -  0} -
+  \binom{6}{1}0.18^1(1-0.18)^{6-1} \\
+  & = 0.2956.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(36\%\) dos chutes de um determinado jogador resultam em
+  gols. Se em um determinado jogo de futebol esse jogador executou \(8\)
+  chutes, qual a probabilidade deles terem resultado em mais de \(1\)
+  gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.845\)
+  \item
+    \(0.956\)
+  \item
+    \(0.972\)
+  \item
+    \(0.155\)
+  \item
+    \(0.873\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de chutes a gol do jogador.
+  Então, \(X \sim \text{Bin}(8,0.36)\) e a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(X \geq 2) & = 1 - P(X=0) - P(X=1) \\
+  & = 1 - \binom{8}{0}0.36^0(1-0.36)^{8 -  0} -
+  \binom{8}{1}0.36^1(1-0.36)^{8-1} \\
+  & = 0.8452.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(19\%\) dos chutes de um determinado jogador resultam em
+  gols. Se em um determinado jogo de futebol esse jogador executou
+  \(13\) chutes, qual a probabilidade deles terem resultado em mais de
+  \(1\) gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.935\)
+  \item
+    \(0.803\)
+  \item
+    \(0.262\)
+  \item
+    \(0.738\)
+  \item
+    \(0.920\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de chutes a gol do jogador.
+  Então, \(X \sim \text{Bin}(13,0.19)\) e a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X \geq 2) & = 1 - P(X=0) - P(X=1) \\
+  & = 1 - \binom{13}{0}0.19^0(1-0.19)^{13 -  0} -
+  \binom{13}{1}0.19^1(1-0.19)^{13-1} \\
+  & = 0.7384.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(36\%\) dos chutes de um determinado jogador resultam em
+  gols. Se em um determinado jogo de futebol esse jogador executou
+  \(15\) chutes, qual a probabilidade deles terem resultado em mais de
+  \(1\) gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.998\)
+  \item
+    \(0.012\)
+  \item
+    \(0.999\)
+  \item
+    \(0.988\)
+  \item
+    \(0.990\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de chutes a gol do jogador.
+  Então, \(X \sim \text{Bin}(15,0.36)\) e a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X \geq 2) & = 1 - P(X=0) - P(X=1) \\
+  & = 1 - \binom{15}{0}0.36^0(1-0.36)^{15 -  0} -
+  \binom{15}{1}0.36^1(1-0.36)^{15-1} \\
+  & = 0.9883.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(36\%\) dos chutes de um determinado jogador resultam em
+  gols. Se em um determinado jogo de futebol esse jogador executou
+  \(12\) chutes, qual a probabilidade deles terem resultado em mais de
+  \(1\) gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.968\)
+  \item
+    \(0.963\)
+  \item
+    \(0.993\)
+  \item
+    \(0.037\)
+  \item
+    \(0.995\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de chutes a gol do jogador.
+  Então, \(X \sim \text{Bin}(12,0.36)\) e a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X \geq 2) & = 1 - P(X=0) - P(X=1) \\
+  & = 1 - \binom{12}{0}0.36^0(1-0.36)^{12 -  0} -
+  \binom{12}{1}0.36^1(1-0.36)^{12-1} \\
+  & = 0.9634.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(31\%\) dos chutes de um determinado jogador resultam em
+  gols. Se em um determinado jogo de futebol esse jogador executou
+  \(13\) chutes, qual a probabilidade deles terem resultado em mais de
+  \(1\) gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.988\)
+  \item
+    \(0.055\)
+  \item
+    \(0.953\)
+  \item
+    \(0.992\)
+  \item
+    \(0.945\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de chutes a gol do jogador.
+  Então, \(X \sim \text{Bin}(13,0.31)\) e a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X \geq 2) & = 1 - P(X=0) - P(X=1) \\
+  & = 1 - \binom{13}{0}0.31^0(1-0.31)^{13 -  0} -
+  \binom{13}{1}0.31^1(1-0.31)^{13-1} \\
+  & = 0.945.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(15\%\) dos chutes de um determinado jogador resultam em
+  gols. Se em um determinado jogo de futebol esse jogador executou
+  \(10\) chutes, qual a probabilidade deles terem resultado em mais de
+  \(1\) gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.803\)
+  \item
+    \(0.653\)
+  \item
+    \(0.768\)
+  \item
+    \(0.544\)
+  \item
+    \(0.456\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de chutes a gol do jogador.
+  Então, \(X \sim \text{Bin}(10,0.15)\) e a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X \geq 2) & = 1 - P(X=0) - P(X=1) \\
+  & = 1 - \binom{10}{0}0.15^0(1-0.15)^{10 -  0} -
+  \binom{10}{1}0.15^1(1-0.15)^{10-1} \\
+  & = 0.4557.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(23\%\) dos chutes de um determinado jogador resultam em
+  gols. Se em um determinado jogo de futebol esse jogador executou
+  \(14\) chutes, qual a probabilidade deles terem resultado em mais de
+  \(1\) gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.967\)
+  \item
+    \(0.892\)
+  \item
+    \(0.974\)
+  \item
+    \(0.867\)
+  \item
+    \(0.133\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de chutes a gol do jogador.
+  Então, \(X \sim \text{Bin}(14,0.23)\) e a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X \geq 2) & = 1 - P(X=0) - P(X=1) \\
+  & = 1 - \binom{14}{0}0.23^0(1-0.23)^{14 -  0} -
+  \binom{14}{1}0.23^1(1-0.23)^{14-1} \\
+  & = 0.8665.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(28\%\) dos chutes de um determinado jogador resultam em
+  gols. Se em um determinado jogo de futebol esse jogador executou
+  \(13\) chutes, qual a probabilidade deles terem resultado em mais de
+  \(1\) gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.085\)
+  \item
+    \(0.986\)
+  \item
+    \(0.929\)
+  \item
+    \(0.915\)
+  \item
+    \(0.981\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de chutes a gol do jogador.
+  Então, \(X \sim \text{Bin}(13,0.28)\) e a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X \geq 2) & = 1 - P(X=0) - P(X=1) \\
+  & = 1 - \binom{13}{0}0.28^0(1-0.28)^{13 -  0} -
+  \binom{13}{1}0.28^1(1-0.28)^{13-1} \\
+  & = 0.9154.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(13\%\) dos chutes de um determinado jogador resultam em
+  gols. Se em um determinado jogo de futebol esse jogador executou \(7\)
+  chutes, qual a probabilidade deles terem resultado em mais de \(1\)
+  gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.623\)
+  \item
+    \(0.228\)
+  \item
+    \(0.772\)
+  \item
+    \(0.566\)
+  \item
+    \(0.605\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de chutes a gol do jogador.
+  Então, \(X \sim \text{Bin}(7,0.13)\) e a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(X \geq 2) & = 1 - P(X=0) - P(X=1) \\
+  & = 1 - \binom{7}{0}0.13^0(1-0.13)^{7 -  0} -
+  \binom{7}{1}0.13^1(1-0.13)^{7-1} \\
+  & = 0.2281.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

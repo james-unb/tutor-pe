@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo (em minutos) que um forno elétrico leva para
+  alcançar sua temperatura ideal seja uma variável aleatória \(X\) com
+  função de densidade dada a seguir. \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{1}{800}x, & \mbox{se}\, \ \ 0 < x \leq 40; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância do tempo \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(50\)
+  \item
+    \(89\)
+  \item
+    \(711\)
+  \item
+    \(773\)
+  \item
+    \(800\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = \frac{1}{800} \int_{0}^{40} x^2dx = 27. \\
+  E(X^2) &= \int_{-\infty}^{\infty} x^2 f(x) dx = \frac{1}{800} \int_{0}^{40} x^3 dx = 800. \\
+  Var(X) &=  E(X^2) - [E(X)]^2 = 89.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo (em minutos) que um forno elétrico leva para
+  alcançar sua temperatura ideal seja uma variável aleatória \(X\) com
+  função de densidade dada a seguir. \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{1}{1800}x, & \mbox{se}\, \ \ 0 < x \leq 60; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância do tempo \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1800\)
+  \item
+    \(80\)
+  \item
+    \(1600\)
+  \item
+    \(200\)
+  \item
+    \(1760\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = \frac{1}{1800} \int_{0}^{60} x^2dx = 40. \\
+  E(X^2) &= \int_{-\infty}^{\infty} x^2 f(x) dx = \frac{1}{1800} \int_{0}^{60} x^3 dx = 1800. \\
+  Var(X) &=  E(X^2) - [E(X)]^2 = 200.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo (em minutos) que um forno elétrico leva para
+  alcançar sua temperatura ideal seja uma variável aleatória \(X\) com
+  função de densidade dada a seguir. \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{1}{5000}x, & \mbox{se}\, \ \ 0 < x \leq 100; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância do tempo \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(556\)
+  \item
+    \(4444\)
+  \item
+    \(4933\)
+  \item
+    \(5000\)
+  \item
+    \(10\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = \frac{1}{5000} \int_{0}^{100} x^2dx = 67. \\
+  E(X^2) &= \int_{-\infty}^{\infty} x^2 f(x) dx = \frac{1}{5000} \int_{0}^{100} x^3 dx = 5000. \\
+  Var(X) &=  E(X^2) - [E(X)]^2 = 556.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo (em minutos) que um forno elétrico leva para
+  alcançar sua temperatura ideal seja uma variável aleatória \(X\) com
+  função de densidade dada a seguir. \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{1}{5000}x, & \mbox{se}\, \ \ 0 < x \leq 100; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância do tempo \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(20\)
+  \item
+    \(5000\)
+  \item
+    \(556\)
+  \item
+    \(4444\)
+  \item
+    \(4933\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = \frac{1}{5000} \int_{0}^{100} x^2dx = 67. \\
+  E(X^2) &= \int_{-\infty}^{\infty} x^2 f(x) dx = \frac{1}{5000} \int_{0}^{100} x^3 dx = 5000. \\
+  Var(X) &=  E(X^2) - [E(X)]^2 = 556.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo (em minutos) que um forno elétrico leva para
+  alcançar sua temperatura ideal seja uma variável aleatória \(X\) com
+  função de densidade dada a seguir. \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{1}{50}x, & \mbox{se}\, \ \ 0 < x \leq 10; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância do tempo \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(44\)
+  \item
+    \(40\)
+  \item
+    \(50\)
+  \item
+    \(6\)
+  \item
+    \(43\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = \frac{1}{50} \int_{0}^{10} x^2dx = 7. \\
+  E(X^2) &= \int_{-\infty}^{\infty} x^2 f(x) dx = \frac{1}{50} \int_{0}^{10} x^3 dx = 50. \\
+  Var(X) &=  E(X^2) - [E(X)]^2 = 6.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo (em minutos) que um forno elétrico leva para
+  alcançar sua temperatura ideal seja uma variável aleatória \(X\) com
+  função de densidade dada a seguir. \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{1}{2450}x, & \mbox{se}\, \ \ 0 < x \leq 70; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância do tempo \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(40\)
+  \item
+    \(2403\)
+  \item
+    \(2178\)
+  \item
+    \(2450\)
+  \item
+    \(272\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = \frac{1}{2450} \int_{0}^{70} x^2dx = 47. \\
+  E(X^2) &= \int_{-\infty}^{\infty} x^2 f(x) dx = \frac{1}{2450} \int_{0}^{70} x^3 dx = 2450. \\
+  Var(X) &=  E(X^2) - [E(X)]^2 = 272.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo (em minutos) que um forno elétrico leva para
+  alcançar sua temperatura ideal seja uma variável aleatória \(X\) com
+  função de densidade dada a seguir. \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{1}{450}x, & \mbox{se}\, \ \ 0 < x \leq 30; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância do tempo \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(50\)
+  \item
+    \(450\)
+  \item
+    \(30\)
+  \item
+    \(400\)
+  \item
+    \(430\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = \frac{1}{450} \int_{0}^{30} x^2dx = 20. \\
+  E(X^2) &= \int_{-\infty}^{\infty} x^2 f(x) dx = \frac{1}{450} \int_{0}^{30} x^3 dx = 450. \\
+  Var(X) &=  E(X^2) - [E(X)]^2 = 50.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo (em minutos) que um forno elétrico leva para
+  alcançar sua temperatura ideal seja uma variável aleatória \(X\) com
+  função de densidade dada a seguir. \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{1}{800}x, & \mbox{se}\, \ \ 0 < x \leq 40; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância do tempo \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(89\)
+  \item
+    \(800\)
+  \item
+    \(711\)
+  \item
+    \(90\)
+  \item
+    \(773\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = \frac{1}{800} \int_{0}^{40} x^2dx = 27. \\
+  E(X^2) &= \int_{-\infty}^{\infty} x^2 f(x) dx = \frac{1}{800} \int_{0}^{40} x^3 dx = 800. \\
+  Var(X) &=  E(X^2) - [E(X)]^2 = 89.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo (em minutos) que um forno elétrico leva para
+  alcançar sua temperatura ideal seja uma variável aleatória \(X\) com
+  função de densidade dada a seguir. \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{1}{450}x, & \mbox{se}\, \ \ 0 < x \leq 30; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância do tempo \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(450\)
+  \item
+    \(90\)
+  \item
+    \(400\)
+  \item
+    \(50\)
+  \item
+    \(430\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = \frac{1}{450} \int_{0}^{30} x^2dx = 20. \\
+  E(X^2) &= \int_{-\infty}^{\infty} x^2 f(x) dx = \frac{1}{450} \int_{0}^{30} x^3 dx = 450. \\
+  Var(X) &=  E(X^2) - [E(X)]^2 = 50.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo (em minutos) que um forno elétrico leva para
+  alcançar sua temperatura ideal seja uma variável aleatória \(X\) com
+  função de densidade dada a seguir. \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{1}{200}x, & \mbox{se}\, \ \ 0 < x \leq 20; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância do tempo \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(20\)
+  \item
+    \(22\)
+  \item
+    \(178\)
+  \item
+    \(187\)
+  \item
+    \(200\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = \frac{1}{200} \int_{0}^{20} x^2dx = 13. \\
+  E(X^2) &= \int_{-\infty}^{\infty} x^2 f(x) dx = \frac{1}{200} \int_{0}^{20} x^3 dx = 200. \\
+  Var(X) &=  E(X^2) - [E(X)]^2 = 22.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

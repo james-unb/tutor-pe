@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O número de transistores de um chip de processamento segue uma
+  variável aleatória X cuja Função de Distribuição Acumulada é dada por
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<1, \\
+          -c(x-1),  & 1\leq x \leq 2, \\
+          1, & x > 2.
+        \end{array}
+      \right.\] Qual é o valor de c?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.000\)
+  \item
+    \(0.020\)
+  \item
+    \(-1.000\)
+  \item
+    \(0.500\)
+  \item
+    \(-0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(P(0\leq X \leq 2) = 1\), ou seja, \(-c(2-1)=1\).
+  Resolvendo para \(c\) temos que \(c=-1.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número de transistores de um chip de processamento segue uma
+  variável aleatória X cuja Função de Distribuição Acumulada é dada por
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<1, \\
+          -c(x-1),  & 1\leq x \leq 4, \\
+          1, & x > 4.
+        \end{array}
+      \right.\] Qual é o valor de c?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.250\)
+  \item
+    \(0.040\)
+  \item
+    \(0.333\)
+  \item
+    \(0.250\)
+  \item
+    \(-0.333\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(P(0\leq X \leq 4) = 1\), ou seja, \(-c(4-1)=1\).
+  Resolvendo para \(c\) temos que \(c=-0.333.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número de transistores de um chip de processamento segue uma
+  variável aleatória X cuja Função de Distribuição Acumulada é dada por
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<1, \\
+          -c(x-1),  & 1\leq x \leq 3, \\
+          1, & x > 3.
+        \end{array}
+      \right.\] Qual é o valor de c?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.333\)
+  \item
+    \(0.500\)
+  \item
+    \(0.030\)
+  \item
+    \(-0.500\)
+  \item
+    \(-0.333\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(P(0\leq X \leq 3) = 1\), ou seja, \(-c(3-1)=1\).
+  Resolvendo para \(c\) temos que \(c=-0.5.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número de transistores de um chip de processamento segue uma
+  variável aleatória X cuja Função de Distribuição Acumulada é dada por
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<1, \\
+          -c(x-1),  & 1\leq x \leq 4, \\
+          1, & x > 4.
+        \end{array}
+      \right.\] Qual é o valor de c?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.040\)
+  \item
+    \(0.333\)
+  \item
+    \(0.250\)
+  \item
+    \(-0.250\)
+  \item
+    \(-0.333\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(P(0\leq X \leq 4) = 1\), ou seja, \(-c(4-1)=1\).
+  Resolvendo para \(c\) temos que \(c=-0.333.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número de transistores de um chip de processamento segue uma
+  variável aleatória X cuja Função de Distribuição Acumulada é dada por
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<1, \\
+          -c(x-1),  & 1\leq x \leq 3, \\
+          1, & x > 3.
+        \end{array}
+      \right.\] Qual é o valor de c?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.030\)
+  \item
+    \(-0.333\)
+  \item
+    \(0.500\)
+  \item
+    \(-0.500\)
+  \item
+    \(0.333\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(P(0\leq X \leq 3) = 1\), ou seja, \(-c(3-1)=1\).
+  Resolvendo para \(c\) temos que \(c=-0.5.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número de transistores de um chip de processamento segue uma
+  variável aleatória X cuja Função de Distribuição Acumulada é dada por
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<1, \\
+          -c(x-1),  & 1\leq x \leq 2, \\
+          1, & x > 2.
+        \end{array}
+      \right.\] Qual é o valor de c?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.500\)
+  \item
+    \(1.000\)
+  \item
+    \(0.500\)
+  \item
+    \(0.020\)
+  \item
+    \(-1.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(P(0\leq X \leq 2) = 1\), ou seja, \(-c(2-1)=1\).
+  Resolvendo para \(c\) temos que \(c=-1.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número de transistores de um chip de processamento segue uma
+  variável aleatória X cuja Função de Distribuição Acumulada é dada por
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<1, \\
+          -c(x-1),  & 1\leq x \leq 4, \\
+          1, & x > 4.
+        \end{array}
+      \right.\] Qual é o valor de c?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(-0.250\)
+  \item
+    \(0.333\)
+  \item
+    \(-0.333\)
+  \item
+    \(0.040\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(P(0\leq X \leq 4) = 1\), ou seja, \(-c(4-1)=1\).
+  Resolvendo para \(c\) temos que \(c=-0.333.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número de transistores de um chip de processamento segue uma
+  variável aleatória X cuja Função de Distribuição Acumulada é dada por
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<1, \\
+          -c(x-1),  & 1\leq x \leq 3, \\
+          1, & x > 3.
+        \end{array}
+      \right.\] Qual é o valor de c?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.333\)
+  \item
+    \(-0.500\)
+  \item
+    \(0.500\)
+  \item
+    \(0.030\)
+  \item
+    \(-0.333\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(P(0\leq X \leq 3) = 1\), ou seja, \(-c(3-1)=1\).
+  Resolvendo para \(c\) temos que \(c=-0.5.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número de transistores de um chip de processamento segue uma
+  variável aleatória X cuja Função de Distribuição Acumulada é dada por
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<1, \\
+          -c(x-1),  & 1\leq x \leq 2, \\
+          1, & x > 2.
+        \end{array}
+      \right.\] Qual é o valor de c?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.500\)
+  \item
+    \(0.020\)
+  \item
+    \(1.000\)
+  \item
+    \(-1.000\)
+  \item
+    \(-0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(P(0\leq X \leq 2) = 1\), ou seja, \(-c(2-1)=1\).
+  Resolvendo para \(c\) temos que \(c=-1.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O número de transistores de um chip de processamento segue uma
+  variável aleatória X cuja Função de Distribuição Acumulada é dada por
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<1, \\
+          -c(x-1),  & 1\leq x \leq 3, \\
+          1, & x > 3.
+        \end{array}
+      \right.\] Qual é o valor de c?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.500\)
+  \item
+    \(0.333\)
+  \item
+    \(-0.333\)
+  \item
+    \(0.030\)
+  \item
+    \(-0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(P(0\leq X \leq 3) = 1\), ou seja, \(-c(3-1)=1\).
+  Resolvendo para \(c\) temos que \(c=-0.5.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

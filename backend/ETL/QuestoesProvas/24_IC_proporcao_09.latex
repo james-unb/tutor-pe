@@ -1,0 +1,492 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento realizado pelo DataSenado sobre o projeto de lei PLS
+  782/2015, que institui o pagamento de anuidade em universidades
+  públicas por estudantes com alta renda familiar, revela que 83\% dos
+  participantes se manifestaram contra a proposta. A pesquisa recebeu
+  110 respostas. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores contra a proposta, com confiança de 80\%. Considere que os
+  respondentes da pesquisa foram selecionados aleatoriamente da
+  população de eleitores. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.807, 0.853]\)
+  \item
+    \([0.784, 0.876]\)
+  \item
+    \([0.816, 0.844]\)
+  \item
+    \([0.761, 0.899]\)
+  \item
+    \([0.798, 0.862]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.83-1.28\times\sqrt{\frac{0.1411}{110}} \ , \ 0.83+1.28\times\sqrt{\frac{0.1411}{110}}\right]\\
+  &=&\text{$[0.784, 0.876]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento realizado pelo DataSenado sobre o projeto de lei PLS
+  782/2015, que institui o pagamento de anuidade em universidades
+  públicas por estudantes com alta renda familiar, revela que 92\% dos
+  participantes se manifestaram contra a proposta. A pesquisa recebeu
+  172 respostas. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores contra a proposta, com confiança de 99\%. Considere que os
+  respondentes da pesquisa foram selecionados aleatoriamente da
+  população de eleitores. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.893, 0.947]\)
+  \item
+    \([0.840, 1.000]\)
+  \item
+    \([0.883, 0.957]\)
+  \item
+    \([0.867, 0.973]\)
+  \item
+    \([0.904, 0.936]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.92-2.58\times\sqrt{\frac{0.0736}{172}} \ , \ 0.92+2.58\times\sqrt{\frac{0.0736}{172}}\right]\\
+  &=&\text{$[0.867, 0.973]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento realizado pelo DataSenado sobre o projeto de lei PLS
+  782/2015, que institui o pagamento de anuidade em universidades
+  públicas por estudantes com alta renda familiar, revela que 94\% dos
+  participantes se manifestaram contra a proposta. A pesquisa recebeu 78
+  respostas. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores contra a proposta, com confiança de 95\%. Considere que os
+  respondentes da pesquisa foram selecionados aleatoriamente da
+  população de eleitores. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.861, 1.019]\)
+  \item
+    \([0.903, 0.977]\)
+  \item
+    \([0.924, 0.956]\)
+  \item
+    \([0.914, 0.966]\)
+  \item
+    \([0.887, 0.993]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.94-1.96\times\sqrt{\frac{0.0564}{78}} \ , \ 0.94+1.96\times\sqrt{\frac{0.0564}{78}}\right]\\
+  &=&\text{$[0.887, 0.993]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento realizado pelo DataSenado sobre o projeto de lei PLS
+  782/2015, que institui o pagamento de anuidade em universidades
+  públicas por estudantes com alta renda familiar, revela que 86\% dos
+  participantes se manifestaram contra a proposta. A pesquisa recebeu
+  168 respostas. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores contra a proposta, com confiança de 90\%. Considere que os
+  respondentes da pesquisa foram selecionados aleatoriamente da
+  população de eleitores. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.816, 0.904]\)
+  \item
+    \([0.794, 0.926]\)
+  \item
+    \([0.847, 0.873]\)
+  \item
+    \([0.838, 0.882]\)
+  \item
+    \([0.829, 0.891]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.86-1.64\times\sqrt{\frac{0.1204}{168}} \ , \ 0.86+1.64\times\sqrt{\frac{0.1204}{168}}\right]\\
+  &=&\text{$[0.816, 0.904]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento realizado pelo DataSenado sobre o projeto de lei PLS
+  782/2015, que institui o pagamento de anuidade em universidades
+  públicas por estudantes com alta renda familiar, revela que 93\% dos
+  participantes se manifestaram contra a proposta. A pesquisa recebeu
+  145 respostas. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores contra a proposta, com confiança de 95\%. Considere que os
+  respondentes da pesquisa foram selecionados aleatoriamente da
+  população de eleitores. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.868, 0.992]\)
+  \item
+    \([0.888, 0.972]\)
+  \item
+    \([0.901, 0.959]\)
+  \item
+    \([0.918, 0.942]\)
+  \item
+    \([0.909, 0.951]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.93-1.96\times\sqrt{\frac{0.0651}{145}} \ , \ 0.93+1.96\times\sqrt{\frac{0.0651}{145}}\right]\\
+  &=&\text{$[0.888, 0.972]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento realizado pelo DataSenado sobre o projeto de lei PLS
+  782/2015, que institui o pagamento de anuidade em universidades
+  públicas por estudantes com alta renda familiar, revela que 92\% dos
+  participantes se manifestaram contra a proposta. A pesquisa recebeu
+  101 respostas. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores contra a proposta, com confiança de 99\%. Considere que os
+  respondentes da pesquisa foram selecionados aleatoriamente da
+  população de eleitores. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.885, 0.955]\)
+  \item
+    \([0.850, 0.990]\)
+  \item
+    \([0.899, 0.941]\)
+  \item
+    \([0.871, 0.969]\)
+  \item
+    \([0.816, 1.024]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.92-2.58\times\sqrt{\frac{0.0736}{101}} \ , \ 0.92+2.58\times\sqrt{\frac{0.0736}{101}}\right]\\
+  &=&\text{$[0.850, 0.990]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento realizado pelo DataSenado sobre o projeto de lei PLS
+  782/2015, que institui o pagamento de anuidade em universidades
+  públicas por estudantes com alta renda familiar, revela que 90\% dos
+  participantes se manifestaram contra a proposta. A pesquisa recebeu 83
+  respostas. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores contra a proposta, com confiança de 80\%. Considere que os
+  respondentes da pesquisa foram selecionados aleatoriamente da
+  população de eleitores. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.879, 0.921]\)
+  \item
+    \([0.837, 0.963]\)
+  \item
+    \([0.858, 0.942]\)
+  \item
+    \([0.887, 0.913]\)
+  \item
+    \([0.870, 0.930]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.9-1.28\times\sqrt{\frac{0.09}{83}} \ , \ 0.9+1.28\times\sqrt{\frac{0.09}{83}}\right]\\
+  &=&\text{$[0.858, 0.942]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento realizado pelo DataSenado sobre o projeto de lei PLS
+  782/2015, que institui o pagamento de anuidade em universidades
+  públicas por estudantes com alta renda familiar, revela que 95\% dos
+  participantes se manifestaram contra a proposta. A pesquisa recebeu
+  155 respostas. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores contra a proposta, com confiança de 90\%. Considere que os
+  respondentes da pesquisa foram selecionados aleatoriamente da
+  população de eleitores. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.921, 0.979]\)
+  \item
+    \([0.907, 0.993]\)
+  \item
+    \([0.941, 0.959]\)
+  \item
+    \([0.930, 0.970]\)
+  \item
+    \([0.936, 0.964]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.95-1.64\times\sqrt{\frac{0.0475}{155}} \ , \ 0.95+1.64\times\sqrt{\frac{0.0475}{155}}\right]\\
+  &=&\text{$[0.921, 0.979]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento realizado pelo DataSenado sobre o projeto de lei PLS
+  782/2015, que institui o pagamento de anuidade em universidades
+  públicas por estudantes com alta renda familiar, revela que 80\% dos
+  participantes se manifestaram contra a proposta. A pesquisa recebeu
+  119 respostas. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores contra a proposta, com confiança de 95\%. Considere que os
+  respondentes da pesquisa foram selecionados aleatoriamente da
+  população de eleitores. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.750, 0.850]\)
+  \item
+    \([0.778, 0.822]\)
+  \item
+    \([0.728, 0.872]\)
+  \item
+    \([0.692, 0.908]\)
+  \item
+    \([0.764, 0.836]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.8-1.96\times\sqrt{\frac{0.16}{119}} \ , \ 0.8+1.96\times\sqrt{\frac{0.16}{119}}\right]\\
+  &=&\text{$[0.728, 0.872]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento realizado pelo DataSenado sobre o projeto de lei PLS
+  782/2015, que institui o pagamento de anuidade em universidades
+  públicas por estudantes com alta renda familiar, revela que 82\% dos
+  participantes se manifestaram contra a proposta. A pesquisa recebeu
+  123 respostas. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores contra a proposta, com confiança de 95\%. Considere que os
+  respondentes da pesquisa foram selecionados aleatoriamente da
+  população de eleitores. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.800, 0.840]\)
+  \item
+    \([0.786, 0.854]\)
+  \item
+    \([0.752, 0.888]\)
+  \item
+    \([0.772, 0.868]\)
+  \item
+    \([0.718, 0.922]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.82-1.96\times\sqrt{\frac{0.1476}{123}} \ , \ 0.82+1.96\times\sqrt{\frac{0.1476}{123}}\right]\\
+  &=&\text{$[0.752, 0.888]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A Agência Nacional de Estatísticas da Saúde (NCHS) americana indicou
+  que, em 2002, os norte americanos gastaram, em média, 3194 dólares com
+  saúde e medicamentos. Um pesquisador suspeita que, em 2005, os gastos
+  diminuíram em virtude da disposição de remédios genéricos. Para testar
+  tal hipótese (alternativa), uma amostra aleatória simples de 80
+  cidadãos dos EUA foi selecionada e seus gastos com saúde e
+  medicamentos, em 2005, foram medidos, resultando em uma média amostral
+  de 3100. Sabe-se que o desvio padrão deste tipo de gasto é de 309. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4984\)
+  \item
+    \(0.0458\)
+  \item
+    \(0.0033\)
+  \item
+    \(0.8871\)
+  \item
+    \(0.0330\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 3194 \ \ versus \ \ H_a : \mu < 3194.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-3194}{\sigma/\sqrt{n}} = -2.72\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-2.72) = 0.0033.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Agência Nacional de Estatísticas da Saúde (NCHS) americana indicou
+  que, em 2002, os norte americanos gastaram, em média, 3116 dólares com
+  saúde e medicamentos. Um pesquisador suspeita que, em 2005, os gastos
+  diminuíram em virtude da disposição de remédios genéricos. Para testar
+  tal hipótese (alternativa), uma amostra aleatória simples de 107
+  cidadãos dos EUA foi selecionada e seus gastos com saúde e
+  medicamentos, em 2005, foram medidos, resultando em uma média amostral
+  de 3043. Sabe-se que o desvio padrão deste tipo de gasto é de 293. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0049\)
+  \item
+    \(0.1876\)
+  \item
+    \(0.6497\)
+  \item
+    \(0.4975\)
+  \item
+    \(0.8856\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 3116 \ \ versus \ \ H_a : \mu < 3116.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-3116}{\sigma/\sqrt{n}} = -2.58\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-2.58) = 0.0049.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Agência Nacional de Estatísticas da Saúde (NCHS) americana indicou
+  que, em 2002, os norte americanos gastaram, em média, 3041 dólares com
+  saúde e medicamentos. Um pesquisador suspeita que, em 2005, os gastos
+  diminuíram em virtude da disposição de remédios genéricos. Para testar
+  tal hipótese (alternativa), uma amostra aleatória simples de 103
+  cidadãos dos EUA foi selecionada e seus gastos com saúde e
+  medicamentos, em 2005, foram medidos, resultando em uma média amostral
+  de 2974. Sabe-se que o desvio padrão deste tipo de gasto é de 301. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1021\)
+  \item
+    \(0.6463\)
+  \item
+    \(0.0119\)
+  \item
+    \(0.4940\)
+  \item
+    \(0.8794\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 3041 \ \ versus \ \ H_a : \mu < 3041.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-3041}{\sigma/\sqrt{n}} = -2.26\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-2.26) = 0.0119.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Agência Nacional de Estatísticas da Saúde (NCHS) americana indicou
+  que, em 2002, os norte americanos gastaram, em média, 3119 dólares com
+  saúde e medicamentos. Um pesquisador suspeita que, em 2005, os gastos
+  diminuíram em virtude da disposição de remédios genéricos. Para testar
+  tal hipótese (alternativa), uma amostra aleatória simples de 103
+  cidadãos dos EUA foi selecionada e seus gastos com saúde e
+  medicamentos, em 2005, foram medidos, resultando em uma média amostral
+  de 3039. Sabe-se que o desvio padrão deste tipo de gasto é de 305. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4980\)
+  \item
+    \(0.0039\)
+  \item
+    \(0.8865\)
+  \item
+    \(0.0201\)
+  \item
+    \(0.7569\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 3119 \ \ versus \ \ H_a : \mu < 3119.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-3119}{\sigma/\sqrt{n}} = -2.66\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-2.66) = 0.0039.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Agência Nacional de Estatísticas da Saúde (NCHS) americana indicou
+  que, em 2002, os norte americanos gastaram, em média, 3060 dólares com
+  saúde e medicamentos. Um pesquisador suspeita que, em 2005, os gastos
+  diminuíram em virtude da disposição de remédios genéricos. Para testar
+  tal hipótese (alternativa), uma amostra aleatória simples de 98
+  cidadãos dos EUA foi selecionada e seus gastos com saúde e
+  medicamentos, em 2005, foram medidos, resultando em uma média amostral
+  de 2998. Sabe-se que o desvio padrão deste tipo de gasto é de 294. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0183\)
+  \item
+    \(0.9297\)
+  \item
+    \(0.8737\)
+  \item
+    \(0.4908\)
+  \item
+    \(0.1365\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 3060 \ \ versus \ \ H_a : \mu < 3060.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-3060}{\sigma/\sqrt{n}} = -2.09\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-2.09) = 0.0183.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Agência Nacional de Estatísticas da Saúde (NCHS) americana indicou
+  que, em 2002, os norte americanos gastaram, em média, 3014 dólares com
+  saúde e medicamentos. Um pesquisador suspeita que, em 2005, os gastos
+  diminuíram em virtude da disposição de remédios genéricos. Para testar
+  tal hipótese (alternativa), uma amostra aleatória simples de 114
+  cidadãos dos EUA foi selecionada e seus gastos com saúde e
+  medicamentos, em 2005, foram medidos, resultando em uma média amostral
+  de 2958. Sabe-se que o desvio padrão deste tipo de gasto é de 300. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0233\)
+  \item
+    \(0.8693\)
+  \item
+    \(0.0763\)
+  \item
+    \(0.5362\)
+  \item
+    \(0.4884\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 3014 \ \ versus \ \ H_a : \mu < 3014.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-3014}{\sigma/\sqrt{n}} = -1.99\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.99) = 0.0233.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Agência Nacional de Estatísticas da Saúde (NCHS) americana indicou
+  que, em 2002, os norte americanos gastaram, em média, 3223 dólares com
+  saúde e medicamentos. Um pesquisador suspeita que, em 2005, os gastos
+  diminuíram em virtude da disposição de remédios genéricos. Para testar
+  tal hipótese (alternativa), uma amostra aleatória simples de 83
+  cidadãos dos EUA foi selecionada e seus gastos com saúde e
+  medicamentos, em 2005, foram medidos, resultando em uma média amostral
+  de 3184. Sabe-se que o desvio padrão deste tipo de gasto é de 306. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4385\)
+  \item
+    \(0.1080\)
+  \item
+    \(0.5311\)
+  \item
+    \(0.7805\)
+  \item
+    \(0.1230\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 3223 \ \ versus \ \ H_a : \mu < 3223.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-3223}{\sigma/\sqrt{n}} = -1.16\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.16) = 0.123.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Agência Nacional de Estatísticas da Saúde (NCHS) americana indicou
+  que, em 2002, os norte americanos gastaram, em média, 3227 dólares com
+  saúde e medicamentos. Um pesquisador suspeita que, em 2005, os gastos
+  diminuíram em virtude da disposição de remédios genéricos. Para testar
+  tal hipótese (alternativa), uma amostra aleatória simples de 106
+  cidadãos dos EUA foi selecionada e seus gastos com saúde e
+  medicamentos, em 2005, foram medidos, resultando em uma média amostral
+  de 3132. Sabe-se que o desvio padrão deste tipo de gasto é de 297. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0393\)
+  \item
+    \(0.4997\)
+  \item
+    \(0.1375\)
+  \item
+    \(0.0005\)
+  \item
+    \(0.8896\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 3227 \ \ versus \ \ H_a : \mu < 3227.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-3227}{\sigma/\sqrt{n}} = -3.29\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-3.29) = 5e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Agência Nacional de Estatísticas da Saúde (NCHS) americana indicou
+  que, em 2002, os norte americanos gastaram, em média, 3035 dólares com
+  saúde e medicamentos. Um pesquisador suspeita que, em 2005, os gastos
+  diminuíram em virtude da disposição de remédios genéricos. Para testar
+  tal hipótese (alternativa), uma amostra aleatória simples de 84
+  cidadãos dos EUA foi selecionada e seus gastos com saúde e
+  medicamentos, em 2005, foram medidos, resultando em uma média amostral
+  de 2961. Sabe-se que o desvio padrão deste tipo de gasto é de 302. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6915\)
+  \item
+    \(0.0591\)
+  \item
+    \(0.4939\)
+  \item
+    \(0.0122\)
+  \item
+    \(0.8791\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 3035 \ \ versus \ \ H_a : \mu < 3035.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-3035}{\sigma/\sqrt{n}} = -2.25\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-2.25) = 0.0122.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Agência Nacional de Estatísticas da Saúde (NCHS) americana indicou
+  que, em 2002, os norte americanos gastaram, em média, 3024 dólares com
+  saúde e medicamentos. Um pesquisador suspeita que, em 2005, os gastos
+  diminuíram em virtude da disposição de remédios genéricos. Para testar
+  tal hipótese (alternativa), uma amostra aleatória simples de 81
+  cidadãos dos EUA foi selecionada e seus gastos com saúde e
+  medicamentos, em 2005, foram medidos, resultando em uma média amostral
+  de 2966. Sabe-se que o desvio padrão deste tipo de gasto é de 302. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1986\)
+  \item
+    \(0.0418\)
+  \item
+    \(0.5065\)
+  \item
+    \(0.8528\)
+  \item
+    \(0.4791\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 3024 \ \ versus \ \ H_a : \mu < 3024.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-3024}{\sigma/\sqrt{n}} = -1.73\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.73) = 0.0418.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

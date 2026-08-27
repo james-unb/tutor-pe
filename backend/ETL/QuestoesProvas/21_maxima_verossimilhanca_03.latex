@@ -1,0 +1,622 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\lambda)=\lambda e^{-\lambda(x-\xi)}\), \(x>\xi>0\), com \(\xi\)
+  um número real e parâmetro \(\lambda >0\). Considere
+  \[9 \ \ \ 3 \ \ \ 2 \ \ \ 5 \ \ \ 4\] uma amostra observada de \(X\) e
+  seja \(\xi = 0.7\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\lambda\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(23.00\)
+  \item
+    \(0.04\)
+  \item
+    \(0.64\)
+  \item
+    \(0.72\)
+  \item
+    \(0.26\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\lambda)=(\lambda)^n e^{-\lambda \sum_{i=1}^{n}(x_i-\xi)}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\lambda)= n \ln(\lambda)-\lambda \sum_{i=1}^{n}( x_i-\xi).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\lambda\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \lambda&=&\frac{n}{\sum_{i=1}^{n}( x_i-\xi)} \\
+        &=&\frac{1}{\frac{\sum_{i=1}^{n}x_i}{n}-\xi/n}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\lambda\) é
+  \(-n/\lambda^2<0\), concluimos que o EMV de \(\lambda\) é
+  \[\begin{aligned}
+  \hat{\lambda}=\frac{1}{\bar{X}-\xi/n}.
+  \end{aligned}\]
+
+  Tomando a amostra \((9, 3, 2, 5, 4)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é
+  \(\hat{\lambda}=0.256\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\lambda)=\lambda e^{-\lambda(x-\xi)}\), \(x>\xi>0\), com \(\xi\)
+  um número real e parâmetro \(\lambda >0\). Considere
+  \[8 \ \ \ 8 \ \ \ 5 \ \ \ 3 \ \ \ 4\] uma amostra observada de \(X\) e
+  seja \(\xi = 1.19\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\lambda\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(28.00\)
+  \item
+    \(0.10\)
+  \item
+    \(0.06\)
+  \item
+    \(0.04\)
+  \item
+    \(0.23\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\lambda)=(\lambda)^n e^{-\lambda \sum_{i=1}^{n}(x_i-\xi)}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\lambda)= n \ln(\lambda)-\lambda \sum_{i=1}^{n}( x_i-\xi).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\lambda\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \lambda&=&\frac{n}{\sum_{i=1}^{n}( x_i-\xi)} \\
+        &=&\frac{1}{\frac{\sum_{i=1}^{n}x_i}{n}-\xi/n}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\lambda\) é
+  \(-n/\lambda^2<0\), concluimos que o EMV de \(\lambda\) é
+  \[\begin{aligned}
+  \hat{\lambda}=\frac{1}{\bar{X}-\xi/n}.
+  \end{aligned}\]
+
+  Tomando a amostra \((8, 8, 5, 3, 4)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é
+  \(\hat{\lambda}=0.227\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\lambda)=\lambda e^{-\lambda(x-\xi)}\), \(x>\xi>0\), com \(\xi\)
+  um número real e parâmetro \(\lambda >0\). Considere
+  \[3 \ \ \ 7 \ \ \ 5 \ \ \ 4 \ \ \ 5\] uma amostra observada de \(X\) e
+  seja \(\xi = 0.61\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\lambda\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.99\)
+  \item
+    \(0.27\)
+  \item
+    \(0.04\)
+  \item
+    \(0.24\)
+  \item
+    \(24.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\lambda)=(\lambda)^n e^{-\lambda \sum_{i=1}^{n}(x_i-\xi)}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\lambda)= n \ln(\lambda)-\lambda \sum_{i=1}^{n}( x_i-\xi).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\lambda\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \lambda&=&\frac{n}{\sum_{i=1}^{n}( x_i-\xi)} \\
+        &=&\frac{1}{\frac{\sum_{i=1}^{n}x_i}{n}-\xi/n}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\lambda\) é
+  \(-n/\lambda^2<0\), concluimos que o EMV de \(\lambda\) é
+  \[\begin{aligned}
+  \hat{\lambda}=\frac{1}{\bar{X}-\xi/n}.
+  \end{aligned}\]
+
+  Tomando a amostra \((3, 7, 5, 4, 5)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é
+  \(\hat{\lambda}=0.239\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\lambda)=\lambda e^{-\lambda(x-\xi)}\), \(x>\xi>0\), com \(\xi\)
+  um número real e parâmetro \(\lambda >0\). Considere
+  \[8 \ \ \ 2 \ \ \ 7 \ \ \ 10 \ \ \ 10\] uma amostra observada de \(X\)
+  e seja \(\xi = 0.96\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\lambda\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.30\)
+  \item
+    \(37.00\)
+  \item
+    \(0.10\)
+  \item
+    \(0.16\)
+  \item
+    \(0.03\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\lambda)=(\lambda)^n e^{-\lambda \sum_{i=1}^{n}(x_i-\xi)}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\lambda)= n \ln(\lambda)-\lambda \sum_{i=1}^{n}( x_i-\xi).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\lambda\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \lambda&=&\frac{n}{\sum_{i=1}^{n}( x_i-\xi)} \\
+        &=&\frac{1}{\frac{\sum_{i=1}^{n}x_i}{n}-\xi/n}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\lambda\) é
+  \(-n/\lambda^2<0\), concluimos que o EMV de \(\lambda\) é
+  \[\begin{aligned}
+  \hat{\lambda}=\frac{1}{\bar{X}-\xi/n}.
+  \end{aligned}\]
+
+  Tomando a amostra \((8, 2, 7, 10, 10)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é
+  \(\hat{\lambda}=0.155\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\lambda)=\lambda e^{-\lambda(x-\xi)}\), \(x>\xi>0\), com \(\xi\)
+  um número real e parâmetro \(\lambda >0\). Considere
+  \[2 \ \ \ 7 \ \ \ 6 \ \ \ 6 \ \ \ 2\] uma amostra observada de \(X\) e
+  seja \(\xi = 0.65\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\lambda\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.90\)
+  \item
+    \(0.26\)
+  \item
+    \(0.25\)
+  \item
+    \(23.00\)
+  \item
+    \(0.04\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\lambda)=(\lambda)^n e^{-\lambda \sum_{i=1}^{n}(x_i-\xi)}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\lambda)= n \ln(\lambda)-\lambda \sum_{i=1}^{n}( x_i-\xi).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\lambda\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \lambda&=&\frac{n}{\sum_{i=1}^{n}( x_i-\xi)} \\
+        &=&\frac{1}{\frac{\sum_{i=1}^{n}x_i}{n}-\xi/n}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\lambda\) é
+  \(-n/\lambda^2<0\), concluimos que o EMV de \(\lambda\) é
+  \[\begin{aligned}
+  \hat{\lambda}=\frac{1}{\bar{X}-\xi/n}.
+  \end{aligned}\]
+
+  Tomando a amostra \((2, 7, 6, 6, 2)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é
+  \(\hat{\lambda}=0.253\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\lambda)=\lambda e^{-\lambda(x-\xi)}\), \(x>\xi>0\), com \(\xi\)
+  um número real e parâmetro \(\lambda >0\). Considere
+  \[4 \ \ \ 4 \ \ \ 3 \ \ \ 7 \ \ \ 4\] uma amostra observada de \(X\) e
+  seja \(\xi = 1.04\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\lambda\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.64\)
+  \item
+    \(22.00\)
+  \item
+    \(0.05\)
+  \item
+    \(0.30\)
+  \item
+    \(0.49\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\lambda)=(\lambda)^n e^{-\lambda \sum_{i=1}^{n}(x_i-\xi)}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\lambda)= n \ln(\lambda)-\lambda \sum_{i=1}^{n}( x_i-\xi).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\lambda\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \lambda&=&\frac{n}{\sum_{i=1}^{n}( x_i-\xi)} \\
+        &=&\frac{1}{\frac{\sum_{i=1}^{n}x_i}{n}-\xi/n}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\lambda\) é
+  \(-n/\lambda^2<0\), concluimos que o EMV de \(\lambda\) é
+  \[\begin{aligned}
+  \hat{\lambda}=\frac{1}{\bar{X}-\xi/n}.
+  \end{aligned}\]
+
+  Tomando a amostra \((4, 4, 3, 7, 4)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é
+  \(\hat{\lambda}=0.298\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\lambda)=\lambda e^{-\lambda(x-\xi)}\), \(x>\xi>0\), com \(\xi\)
+  um número real e parâmetro \(\lambda >0\). Considere
+  \[9 \ \ \ 6 \ \ \ 5 \ \ \ 4 \ \ \ 8\] uma amostra observada de \(X\) e
+  seja \(\xi = 0.61\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\lambda\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.03\)
+  \item
+    \(0.48\)
+  \item
+    \(0.37\)
+  \item
+    \(0.17\)
+  \item
+    \(32.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\lambda)=(\lambda)^n e^{-\lambda \sum_{i=1}^{n}(x_i-\xi)}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\lambda)= n \ln(\lambda)-\lambda \sum_{i=1}^{n}( x_i-\xi).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\lambda\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \lambda&=&\frac{n}{\sum_{i=1}^{n}( x_i-\xi)} \\
+        &=&\frac{1}{\frac{\sum_{i=1}^{n}x_i}{n}-\xi/n}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\lambda\) é
+  \(-n/\lambda^2<0\), concluimos que o EMV de \(\lambda\) é
+  \[\begin{aligned}
+  \hat{\lambda}=\frac{1}{\bar{X}-\xi/n}.
+  \end{aligned}\]
+
+  Tomando a amostra \((9, 6, 5, 4, 8)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é
+  \(\hat{\lambda}=0.173\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\lambda)=\lambda e^{-\lambda(x-\xi)}\), \(x>\xi>0\), com \(\xi\)
+  um número real e parâmetro \(\lambda >0\). Considere
+  \[5 \ \ \ 9 \ \ \ 9 \ \ \ 2 \ \ \ 7\] uma amostra observada de \(X\) e
+  seja \(\xi = 0.57\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\lambda\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.26\)
+  \item
+    \(0.60\)
+  \item
+    \(0.17\)
+  \item
+    \(0.03\)
+  \item
+    \(32.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\lambda)=(\lambda)^n e^{-\lambda \sum_{i=1}^{n}(x_i-\xi)}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\lambda)= n \ln(\lambda)-\lambda \sum_{i=1}^{n}( x_i-\xi).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\lambda\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \lambda&=&\frac{n}{\sum_{i=1}^{n}( x_i-\xi)} \\
+        &=&\frac{1}{\frac{\sum_{i=1}^{n}x_i}{n}-\xi/n}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\lambda\) é
+  \(-n/\lambda^2<0\), concluimos que o EMV de \(\lambda\) é
+  \[\begin{aligned}
+  \hat{\lambda}=\frac{1}{\bar{X}-\xi/n}.
+  \end{aligned}\]
+
+  Tomando a amostra \((5, 9, 9, 2, 7)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é
+  \(\hat{\lambda}=0.172\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\lambda)=\lambda e^{-\lambda(x-\xi)}\), \(x>\xi>0\), com \(\xi\)
+  um número real e parâmetro \(\lambda >0\). Considere
+  \[8 \ \ \ 3 \ \ \ 5 \ \ \ 5 \ \ \ 2\] uma amostra observada de \(X\) e
+  seja \(\xi = 0.74\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\lambda\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(23.00\)
+  \item
+    \(0.04\)
+  \item
+    \(0.97\)
+  \item
+    \(0.26\)
+  \item
+    \(0.96\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\lambda)=(\lambda)^n e^{-\lambda \sum_{i=1}^{n}(x_i-\xi)}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\lambda)= n \ln(\lambda)-\lambda \sum_{i=1}^{n}( x_i-\xi).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\lambda\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \lambda&=&\frac{n}{\sum_{i=1}^{n}( x_i-\xi)} \\
+        &=&\frac{1}{\frac{\sum_{i=1}^{n}x_i}{n}-\xi/n}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\lambda\) é
+  \(-n/\lambda^2<0\), concluimos que o EMV de \(\lambda\) é
+  \[\begin{aligned}
+  \hat{\lambda}=\frac{1}{\bar{X}-\xi/n}.
+  \end{aligned}\]
+
+  Tomando a amostra \((8, 3, 5, 5, 2)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é
+  \(\hat{\lambda}=0.259\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\lambda)=\lambda e^{-\lambda(x-\xi)}\), \(x>\xi>0\), com \(\xi\)
+  um número real e parâmetro \(\lambda >0\). Considere
+  \[9 \ \ \ 10 \ \ \ 3 \ \ \ 3 \ \ \ 5\] uma amostra observada de \(X\)
+  e seja \(\xi = 1.28\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\lambda\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.03\)
+  \item
+    \(0.21\)
+  \item
+    \(30.00\)
+  \item
+    \(0.86\)
+  \item
+    \(0.70\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\lambda)=(\lambda)^n e^{-\lambda \sum_{i=1}^{n}(x_i-\xi)}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\lambda)= n \ln(\lambda)-\lambda \sum_{i=1}^{n}( x_i-\xi).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\lambda\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \lambda&=&\frac{n}{\sum_{i=1}^{n}( x_i-\xi)} \\
+        &=&\frac{1}{\frac{\sum_{i=1}^{n}x_i}{n}-\xi/n}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\lambda\) é
+  \(-n/\lambda^2<0\), concluimos que o EMV de \(\lambda\) é
+  \[\begin{aligned}
+  \hat{\lambda}=\frac{1}{\bar{X}-\xi/n}.
+  \end{aligned}\]
+
+  Tomando a amostra \((9, 10, 3, 3, 5)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é
+  \(\hat{\lambda}=0.212\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

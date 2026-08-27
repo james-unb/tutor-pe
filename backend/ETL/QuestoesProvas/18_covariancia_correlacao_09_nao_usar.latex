@@ -1,0 +1,612 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Nos dados descritos a seguir \(X\) representa a renda mensal per
+  capita (em milhares de dólares) e \(Y\) o total de mortes anuais (por
+  100.000 habitantes) por doenças cardíacas em 5 países.
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & & \\
+  País & Renda & Total de Mortes \\
+  A & 1.7 & 103 \\
+  B & 8.9 & 297 \\
+  C & 7.1 & 122 \\
+  D & 1.2 & 131 \\
+  E & 5.5 & 171 \\
+  \end{longtable}
+
+  Sabendo que \(\sum{xy} = 4782.3\), \(\sum{x^2} = 164.2\) e
+  \(\sum{y^2} = 160104\), assinale a alternativa correspondente à
+  correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.273\)
+  \item
+    \(0.509\)
+  \item
+    \(0.727\)
+  \item
+    \(0.003\)
+  \item
+    \(0.570\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X e Y variáveis aleatórias integráveis então o coeficiente de
+  correlação entre X e Y é dado por
+
+  \[r_{xy} = \frac{cov(X,Y)}{\sigma_X \sigma_Y}=\mathbb{E}\left[\left(\frac{X-\mathbb{E}(X)}{\sigma_X}\right) \left(\frac{Y-\mathbb{E}(Y)}{\sigma_Y}\right)\right]\]
+
+  Também é possível usar a fórmula
+  \[r_{xy} = \frac{\text{cov(x,y)}}{\sigma_x \sigma_y} = \frac{n\sum xy - (\sum x)(\sum y)}{\sqrt{n \sum x^2 - (\sum x)^2}\sqrt{n \sum y^2 - (\sum y)^2}}\]
+  \[= \frac{5 \times 4782.3 - 24.4\times824}{\sqrt{5 \times 164.2 - 24.4^2}{\sqrt{5 \times 160104 - 824^2}}} = 0.727.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nos dados descritos a seguir \(X\) representa a renda mensal per
+  capita (em milhares de dólares) e \(Y\) o total de mortes anuais (por
+  100.000 habitantes) por doenças cardíacas em 5 países.
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & & \\
+  País & Renda & Total de Mortes \\
+  A & 2.3 & 234 \\
+  B & 6.4 & 123 \\
+  C & 1.1 & 85 \\
+  D & 2.3 & 100 \\
+  E & 8 & 293 \\
+  \end{longtable}
+
+  Sabendo que \(\sum{xy} = 3992.9\), \(\sum{x^2} = 116.75\) e
+  \(\sum{y^2} = 172959\), assinale a alternativa correspondente à
+  correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.290\)
+  \item
+    \(0.580\)
+  \item
+    \(0.420\)
+  \item
+    \(0.406\)
+  \item
+    \(0.002\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X e Y variáveis aleatórias integráveis então o coeficiente de
+  correlação entre X e Y é dado por
+
+  \[r_{xy} = \frac{cov(X,Y)}{\sigma_X \sigma_Y}=\mathbb{E}\left[\left(\frac{X-\mathbb{E}(X)}{\sigma_X}\right) \left(\frac{Y-\mathbb{E}(Y)}{\sigma_Y}\right)\right]\]
+
+  Também é possível usar a fórmula
+  \[r_{xy} = \frac{\text{cov(x,y)}}{\sigma_x \sigma_y} = \frac{n\sum xy - (\sum x)(\sum y)}{\sqrt{n \sum x^2 - (\sum x)^2}\sqrt{n \sum y^2 - (\sum y)^2}}\]
+  \[= \frac{5 \times 3992.9 - 20.1\times835}{\sqrt{5 \times 116.75 - 20.1^2}{\sqrt{5 \times 172959 - 835^2}}} = 0.58.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nos dados descritos a seguir \(X\) representa a renda mensal per
+  capita (em milhares de dólares) e \(Y\) o total de mortes anuais (por
+  100.000 habitantes) por doenças cardíacas em 5 países.
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & & \\
+  País & Renda & Total de Mortes \\
+  A & 7.8 & 257 \\
+  B & 9 & 110 \\
+  C & 9.7 & 168 \\
+  D & 0.5 & 83 \\
+  E & 1.2 & 208 \\
+  \end{longtable}
+
+  Sabendo que \(\sum{xy} = 4915.3\), \(\sum{x^2} = 237.62\) e
+  \(\sum{y^2} = 156526\), assinale a alternativa correspondente à
+  correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.796\)
+  \item
+    \(0.001\)
+  \item
+    \(0.950\)
+  \item
+    \(0.204\)
+  \item
+    \(0.143\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X e Y variáveis aleatórias integráveis então o coeficiente de
+  correlação entre X e Y é dado por
+
+  \[r_{xy} = \frac{cov(X,Y)}{\sigma_X \sigma_Y}=\mathbb{E}\left[\left(\frac{X-\mathbb{E}(X)}{\sigma_X}\right) \left(\frac{Y-\mathbb{E}(Y)}{\sigma_Y}\right)\right]\]
+
+  Também é possível usar a fórmula
+  \[r_{xy} = \frac{\text{cov(x,y)}}{\sigma_x \sigma_y} = \frac{n\sum xy - (\sum x)(\sum y)}{\sqrt{n \sum x^2 - (\sum x)^2}\sqrt{n \sum y^2 - (\sum y)^2}}\]
+  \[= \frac{5 \times 4915.3 - 28.2\times826}{\sqrt{5 \times 237.62 - 28.2^2}{\sqrt{5 \times 156526 - 826^2}}} = 0.204.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nos dados descritos a seguir \(X\) representa a renda mensal per
+  capita (em milhares de dólares) e \(Y\) o total de mortes anuais (por
+  100.000 habitantes) por doenças cardíacas em 5 países.
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & & \\
+  País & Renda & Total de Mortes \\
+  A & 3.9 & 74 \\
+  B & 7.6 & 128 \\
+  C & 1.5 & 262 \\
+  D & 9.6 & 162 \\
+  E & 6 & 105 \\
+  \end{longtable}
+
+  Sabendo que \(\sum{xy} = 3839.6\), \(\sum{x^2} = 203.38\) e
+  \(\sum{y^2} = 127773\), assinale a alternativa correspondente à
+  correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.625\)
+  \item
+    \(0.700\)
+  \item
+    \(-0.375\)
+  \item
+    \(-0.262\)
+  \item
+    \(-0.002\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X e Y variáveis aleatórias integráveis então o coeficiente de
+  correlação entre X e Y é dado por
+
+  \[r_{xy} = \frac{cov(X,Y)}{\sigma_X \sigma_Y}=\mathbb{E}\left[\left(\frac{X-\mathbb{E}(X)}{\sigma_X}\right) \left(\frac{Y-\mathbb{E}(Y)}{\sigma_Y}\right)\right]\]
+
+  Também é possível usar a fórmula
+  \[r_{xy} = \frac{\text{cov(x,y)}}{\sigma_x \sigma_y} = \frac{n\sum xy - (\sum x)(\sum y)}{\sqrt{n \sum x^2 - (\sum x)^2}\sqrt{n \sum y^2 - (\sum y)^2}}\]
+  \[= \frac{5 \times 3839.6 - 28.6\times731}{\sqrt{5 \times 203.38 - 28.6^2}{\sqrt{5 \times 127773 - 731^2}}} = -0.375.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nos dados descritos a seguir \(X\) representa a renda mensal per
+  capita (em milhares de dólares) e \(Y\) o total de mortes anuais (por
+  100.000 habitantes) por doenças cardíacas em 5 países.
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & & \\
+  País & Renda & Total de Mortes \\
+  A & 9.5 & 237 \\
+  B & 6.7 & 252 \\
+  C & 0.5 & 265 \\
+  D & 1.6 & 296 \\
+  E & 4.6 & 176 \\
+  \end{longtable}
+
+  Sabendo que \(\sum{xy} = 5355.6\), \(\sum{x^2} = 159.11\) e
+  \(\sum{y^2} = 308490\), assinale a alternativa correspondente à
+  correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.603\)
+  \item
+    \(-0.278\)
+  \item
+    \(0.160\)
+  \item
+    \(-0.002\)
+  \item
+    \(-0.397\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X e Y variáveis aleatórias integráveis então o coeficiente de
+  correlação entre X e Y é dado por
+
+  \[r_{xy} = \frac{cov(X,Y)}{\sigma_X \sigma_Y}=\mathbb{E}\left[\left(\frac{X-\mathbb{E}(X)}{\sigma_X}\right) \left(\frac{Y-\mathbb{E}(Y)}{\sigma_Y}\right)\right]\]
+
+  Também é possível usar a fórmula
+  \[r_{xy} = \frac{\text{cov(x,y)}}{\sigma_x \sigma_y} = \frac{n\sum xy - (\sum x)(\sum y)}{\sqrt{n \sum x^2 - (\sum x)^2}\sqrt{n \sum y^2 - (\sum y)^2}}\]
+  \[= \frac{5 \times 5355.6 - 22.9\times1226}{\sqrt{5 \times 159.11 - 22.9^2}{\sqrt{5 \times 308490 - 1226^2}}} = -0.397.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nos dados descritos a seguir \(X\) representa a renda mensal per
+  capita (em milhares de dólares) e \(Y\) o total de mortes anuais (por
+  100.000 habitantes) por doenças cardíacas em 5 países.
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & & \\
+  País & Renda & Total de Mortes \\
+  A & 4.4 & 262 \\
+  B & 3 & 230 \\
+  C & 6.3 & 82 \\
+  D & 2.2 & 157 \\
+  E & 8.7 & 233 \\
+  \end{longtable}
+
+  Sabendo que \(\sum{xy} = 4731.9\), \(\sum{x^2} = 148.58\) e
+  \(\sum{y^2} = 207206\), assinale a alternativa correspondente à
+  correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.000\)
+  \item
+    \(0.986\)
+  \item
+    \(0.520\)
+  \item
+    \(-0.010\)
+  \item
+    \(-0.014\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X e Y variáveis aleatórias integráveis então o coeficiente de
+  correlação entre X e Y é dado por
+
+  \[r_{xy} = \frac{cov(X,Y)}{\sigma_X \sigma_Y}=\mathbb{E}\left[\left(\frac{X-\mathbb{E}(X)}{\sigma_X}\right) \left(\frac{Y-\mathbb{E}(Y)}{\sigma_Y}\right)\right]\]
+
+  Também é possível usar a fórmula
+  \[r_{xy} = \frac{\text{cov(x,y)}}{\sigma_x \sigma_y} = \frac{n\sum xy - (\sum x)(\sum y)}{\sqrt{n \sum x^2 - (\sum x)^2}\sqrt{n \sum y^2 - (\sum y)^2}}\]
+  \[= \frac{5 \times 4731.9 - 24.6\times964}{\sqrt{5 \times 148.58 - 24.6^2}{\sqrt{5 \times 207206 - 964^2}}} = -0.014.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nos dados descritos a seguir \(X\) representa a renda mensal per
+  capita (em milhares de dólares) e \(Y\) o total de mortes anuais (por
+  100.000 habitantes) por doenças cardíacas em 5 países.
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & & \\
+  País & Renda & Total de Mortes \\
+  A & 9.7 & 267 \\
+  B & 2.3 & 79 \\
+  C & 8.1 & 74 \\
+  D & 7.3 & 225 \\
+  E & 2.4 & 71 \\
+  \end{longtable}
+
+  Sabendo que \(\sum{xy} = 5183.9\), \(\sum{x^2} = 224.04\) e
+  \(\sum{y^2} = 138672\), assinale a alternativa correspondente à
+  correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.708\)
+  \item
+    \(0.370\)
+  \item
+    \(0.495\)
+  \item
+    \(0.292\)
+  \item
+    \(0.002\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X e Y variáveis aleatórias integráveis então o coeficiente de
+  correlação entre X e Y é dado por
+
+  \[r_{xy} = \frac{cov(X,Y)}{\sigma_X \sigma_Y}=\mathbb{E}\left[\left(\frac{X-\mathbb{E}(X)}{\sigma_X}\right) \left(\frac{Y-\mathbb{E}(Y)}{\sigma_Y}\right)\right]\]
+
+  Também é possível usar a fórmula
+  \[r_{xy} = \frac{\text{cov(x,y)}}{\sigma_x \sigma_y} = \frac{n\sum xy - (\sum x)(\sum y)}{\sqrt{n \sum x^2 - (\sum x)^2}\sqrt{n \sum y^2 - (\sum y)^2}}\]
+  \[= \frac{5 \times 5183.9 - 29.8\times716}{\sqrt{5 \times 224.04 - 29.8^2}{\sqrt{5 \times 138672 - 716^2}}} = 0.708.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nos dados descritos a seguir \(X\) representa a renda mensal per
+  capita (em milhares de dólares) e \(Y\) o total de mortes anuais (por
+  100.000 habitantes) por doenças cardíacas em 5 países.
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & & \\
+  País & Renda & Total de Mortes \\
+  A & 9.5 & 54 \\
+  B & 3.9 & 193 \\
+  C & 9.4 & 106 \\
+  D & 4.4 & 192 \\
+  E & 3.5 & 242 \\
+  \end{longtable}
+
+  Sabendo que \(\sum{xy} = 3953.9\), \(\sum{x^2} = 225.43\) e
+  \(\sum{y^2} = 146829\), assinale a alternativa correspondente à
+  correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.004\)
+  \item
+    \(-0.954\)
+  \item
+    \(0.046\)
+  \item
+    \(0.600\)
+  \item
+    \(-0.668\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X e Y variáveis aleatórias integráveis então o coeficiente de
+  correlação entre X e Y é dado por
+
+  \[r_{xy} = \frac{cov(X,Y)}{\sigma_X \sigma_Y}=\mathbb{E}\left[\left(\frac{X-\mathbb{E}(X)}{\sigma_X}\right) \left(\frac{Y-\mathbb{E}(Y)}{\sigma_Y}\right)\right]\]
+
+  Também é possível usar a fórmula
+  \[r_{xy} = \frac{\text{cov(x,y)}}{\sigma_x \sigma_y} = \frac{n\sum xy - (\sum x)(\sum y)}{\sqrt{n \sum x^2 - (\sum x)^2}\sqrt{n \sum y^2 - (\sum y)^2}}\]
+  \[= \frac{5 \times 3953.9 - 30.7\times787}{\sqrt{5 \times 225.43 - 30.7^2}{\sqrt{5 \times 146829 - 787^2}}} = -0.954.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nos dados descritos a seguir \(X\) representa a renda mensal per
+  capita (em milhares de dólares) e \(Y\) o total de mortes anuais (por
+  100.000 habitantes) por doenças cardíacas em 5 países.
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & & \\
+  País & Renda & Total de Mortes \\
+  A & 4.2 & 241 \\
+  B & 4.7 & 248 \\
+  C & 5.8 & 255 \\
+  D & 6.8 & 94 \\
+  E & 0.9 & 266 \\
+  \end{longtable}
+
+  Sabendo que \(\sum{xy} = 4535.4\), \(\sum{x^2} = 120.42\) e
+  \(\sum{y^2} = 264202\), assinale a alternativa correspondente à
+  correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.449\)
+  \item
+    \(0.520\)
+  \item
+    \(-0.641\)
+  \item
+    \(-0.004\)
+  \item
+    \(0.359\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X e Y variáveis aleatórias integráveis então o coeficiente de
+  correlação entre X e Y é dado por
+
+  \[r_{xy} = \frac{cov(X,Y)}{\sigma_X \sigma_Y}=\mathbb{E}\left[\left(\frac{X-\mathbb{E}(X)}{\sigma_X}\right) \left(\frac{Y-\mathbb{E}(Y)}{\sigma_Y}\right)\right]\]
+
+  Também é possível usar a fórmula
+  \[r_{xy} = \frac{\text{cov(x,y)}}{\sigma_x \sigma_y} = \frac{n\sum xy - (\sum x)(\sum y)}{\sqrt{n \sum x^2 - (\sum x)^2}\sqrt{n \sum y^2 - (\sum y)^2}}\]
+  \[= \frac{5 \times 4535.4 - 22.4\times1104}{\sqrt{5 \times 120.42 - 22.4^2}{\sqrt{5 \times 264202 - 1104^2}}} = -0.641.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nos dados descritos a seguir \(X\) representa a renda mensal per
+  capita (em milhares de dólares) e \(Y\) o total de mortes anuais (por
+  100.000 habitantes) por doenças cardíacas em 5 países.
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  & & \\
+  País & Renda & Total de Mortes \\
+  A & 1.8 & 124 \\
+  B & 0.9 & 80 \\
+  C & 3.5 & 212 \\
+  D & 4.9 & 206 \\
+  E & 5.2 & 163 \\
+  \end{longtable}
+
+  Sabendo que \(\sum{xy} = 2894.2\), \(\sum{x^2} = 67.35\) e
+  \(\sum{y^2} = 135725\), assinale a alternativa correspondente à
+  correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.796\)
+  \item
+    \(0.008\)
+  \item
+    \(0.557\)
+  \item
+    \(0.204\)
+  \item
+    \(0.970\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X e Y variáveis aleatórias integráveis então o coeficiente de
+  correlação entre X e Y é dado por
+
+  \[r_{xy} = \frac{cov(X,Y)}{\sigma_X \sigma_Y}=\mathbb{E}\left[\left(\frac{X-\mathbb{E}(X)}{\sigma_X}\right) \left(\frac{Y-\mathbb{E}(Y)}{\sigma_Y}\right)\right]\]
+
+  Também é possível usar a fórmula
+  \[r_{xy} = \frac{\text{cov(x,y)}}{\sigma_x \sigma_y} = \frac{n\sum xy - (\sum x)(\sum y)}{\sqrt{n \sum x^2 - (\sum x)^2}\sqrt{n \sum y^2 - (\sum y)^2}}\]
+  \[= \frac{5 \times 2894.2 - 16.3\times785}{\sqrt{5 \times 67.35 - 16.3^2}{\sqrt{5 \times 135725 - 785^2}}} = 0.796.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

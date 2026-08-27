@@ -1,0 +1,582 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{2x}{\theta^2}, & \mbox{se}\, \ \ 0\leq x \leq \theta; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se
+  \(\theta = 53\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(156.06\)
+  \item
+    \(1248.44\)
+  \item
+    \(1404.50\)
+  \item
+    \(2652.94\)
+  \item
+    \(140.45\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^2}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^2 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^3}{3}\right]_{0}^{\theta} \\
+  & = \frac{2}{3}\theta = 35.33 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^3}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^3 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^4}{4}\right]_{0}^{\theta} \\
+  & = \frac{\theta^2}{2} = 1404.5 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta^2}{2} - \frac{4}{9}\theta^2 =156.06.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{2x}{\theta^2}, & \mbox{se}\, \ \ 0\leq x \leq \theta; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se
+  \(\theta = 12\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(64.00\)
+  \item
+    \(136.00\)
+  \item
+    \(8.00\)
+  \item
+    \(7.20\)
+  \item
+    \(72.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^2}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^2 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^3}{3}\right]_{0}^{\theta} \\
+  & = \frac{2}{3}\theta = 8 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^3}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^3 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^4}{4}\right]_{0}^{\theta} \\
+  & = \frac{\theta^2}{2} = 72 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta^2}{2} - \frac{4}{9}\theta^2 =8.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{2x}{\theta^2}, & \mbox{se}\, \ \ 0\leq x \leq \theta; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se
+  \(\theta = 92\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4232.00\)
+  \item
+    \(3761.78\)
+  \item
+    \(470.22\)
+  \item
+    \(7993.78\)
+  \item
+    \(423.20\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^2}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^2 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^3}{3}\right]_{0}^{\theta} \\
+  & = \frac{2}{3}\theta = 61.33 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^3}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^3 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^4}{4}\right]_{0}^{\theta} \\
+  & = \frac{\theta^2}{2} = 4232 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta^2}{2} - \frac{4}{9}\theta^2 =470.22.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{2x}{\theta^2}, & \mbox{se}\, \ \ 0\leq x \leq \theta; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se
+  \(\theta = 67\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4239.61\)
+  \item
+    \(2244.50\)
+  \item
+    \(249.39\)
+  \item
+    \(224.45\)
+  \item
+    \(1995.11\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^2}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^2 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^3}{3}\right]_{0}^{\theta} \\
+  & = \frac{2}{3}\theta = 44.67 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^3}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^3 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^4}{4}\right]_{0}^{\theta} \\
+  & = \frac{\theta^2}{2} = 2244.5 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta^2}{2} - \frac{4}{9}\theta^2 =249.39.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{2x}{\theta^2}, & \mbox{se}\, \ \ 0\leq x \leq \theta; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se
+  \(\theta = 81\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(364.50\)
+  \item
+    \(2916.00\)
+  \item
+    \(6196.50\)
+  \item
+    \(328.05\)
+  \item
+    \(3280.50\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^2}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^2 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^3}{3}\right]_{0}^{\theta} \\
+  & = \frac{2}{3}\theta = 54 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^3}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^3 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^4}{4}\right]_{0}^{\theta} \\
+  & = \frac{\theta^2}{2} = 3280.5 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta^2}{2} - \frac{4}{9}\theta^2 =364.5.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{2x}{\theta^2}, & \mbox{se}\, \ \ 0\leq x \leq \theta; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se
+  \(\theta = 41\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(747.11\)
+  \item
+    \(93.39\)
+  \item
+    \(1587.61\)
+  \item
+    \(84.05\)
+  \item
+    \(840.50\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^2}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^2 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^3}{3}\right]_{0}^{\theta} \\
+  & = \frac{2}{3}\theta = 27.33 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^3}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^3 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^4}{4}\right]_{0}^{\theta} \\
+  & = \frac{\theta^2}{2} = 840.5 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta^2}{2} - \frac{4}{9}\theta^2 =93.39.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{2x}{\theta^2}, & \mbox{se}\, \ \ 0\leq x \leq \theta; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se
+  \(\theta = 95\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4011.11\)
+  \item
+    \(4512.50\)
+  \item
+    \(451.25\)
+  \item
+    \(501.39\)
+  \item
+    \(8523.61\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^2}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^2 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^3}{3}\right]_{0}^{\theta} \\
+  & = \frac{2}{3}\theta = 63.33 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^3}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^3 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^4}{4}\right]_{0}^{\theta} \\
+  & = \frac{\theta^2}{2} = 4512.5 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta^2}{2} - \frac{4}{9}\theta^2 =501.39.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{2x}{\theta^2}, & \mbox{se}\, \ \ 0\leq x \leq \theta; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se
+  \(\theta = 80\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3200.00\)
+  \item
+    \(6044.44\)
+  \item
+    \(355.56\)
+  \item
+    \(2844.44\)
+  \item
+    \(320.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^2}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^2 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^3}{3}\right]_{0}^{\theta} \\
+  & = \frac{2}{3}\theta = 53.33 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^3}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^3 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^4}{4}\right]_{0}^{\theta} \\
+  & = \frac{\theta^2}{2} = 3200 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta^2}{2} - \frac{4}{9}\theta^2 =355.56.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{2x}{\theta^2}, & \mbox{se}\, \ \ 0\leq x \leq \theta; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se
+  \(\theta = 98\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4802.00\)
+  \item
+    \(9070.44\)
+  \item
+    \(4268.44\)
+  \item
+    \(480.20\)
+  \item
+    \(533.56\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^2}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^2 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^3}{3}\right]_{0}^{\theta} \\
+  & = \frac{2}{3}\theta = 65.33 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^3}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^3 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^4}{4}\right]_{0}^{\theta} \\
+  & = \frac{\theta^2}{2} = 4802 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta^2}{2} - \frac{4}{9}\theta^2 =533.56.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{2x}{\theta^2}, & \mbox{se}\, \ \ 0\leq x \leq \theta; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a variância de \(X\), se
+  \(\theta = 87\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(420.50\)
+  \item
+    \(7148.50\)
+  \item
+    \(378.45\)
+  \item
+    \(3364.00\)
+  \item
+    \(3784.50\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^2}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^2 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^3}{3}\right]_{0}^{\theta} \\
+  & = \frac{2}{3}\theta = 58 .
+  \end{aligned}\]
+
+  \[\begin{aligned}
+  E(X^2) & = \int_{-\infty}^{\infty} x^2 f(x) dx \\
+  & = \int_{0}^{\theta} \frac{2x^3}{\theta^2}dx \\
+  & = \frac{2}{\theta^2}\int_{0}^{\theta} x^3 dx \\
+  & = \frac{2}{\theta^2}\left[\frac{x^4}{4}\right]_{0}^{\theta} \\
+  & = \frac{\theta^2}{2} = 3784.5 .
+  \end{aligned}\]
+
+  Portanto,
+  \[Var(X)=E(X^{2})-\left[E(x)\right]^{2}=\frac{\theta^2}{2} - \frac{4}{9}\theta^2 =420.5.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

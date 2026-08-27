@@ -1,0 +1,644 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsfonts,amssymb,amsbsy}
+\usepackage{amsthm} %Permite teorema sem numeração, no meu caso Demonstração
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+
+%------------------------------------------------------------------------------
+
+\setlength{\topmargin}{-1.0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{6.5in}
+\setlength{\baselineskip}{12mm}
+\addtolength{\jot}{.2cm}
+
+%------------------------------------------------------------------------------
+
+\renewcommand{\P}{\mathcal{P}}
+\newcommand{\E}{\mathcal{E}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+        \begin{minipage}[c]{7in}
+                  {Universidade de Brasília} \\
+                  {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf $\text{4}^{\text{\underline{a}}}$ Lista de PE -- Solução}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item
+\begin{itemize}
+\item[a)] Para que $f(x)$ seja uma densidade devemos ter $$1=\int_{-1}^{1}C(1-x^2)dx = C\left.\left(x-\dfrac{x^3}{3}\right)\right|_{-1}^{1}=\dfrac{4}{3}C.$$ Isso ocorre se, e somente se, $C=\dfrac{3}{4}.$
+\item[b)] Para $-1<x<1$ nós temos $$F(x)=\int_{-1}^{x}\frac{3}{4}(1-y^2)dy=\left.\left(y-\dfrac{y^3}{3}\right)\right|_{-1}^{x}=\dfrac{3}{4}\left(x-\dfrac{x^3}{3}+\dfrac{2}{3}\right).$$ Segue que a função distribuição da v.a $X$ é 
+\begin{equation*}
+F(x) = 
+\left\{\begin{array}{lcc}
+\vspace*{0.2cm} 0, & \text{se} & x \leqslant -1,\\
+\vspace*{0.2cm} \dfrac{3}{4}\left(x-\dfrac{x^3}{3}+\dfrac{2}{3}\right), & \text{se} & -1<x<1,\\
+1, & \text{se} & x \geqslant 1.\\
+\end{array} \right.
+\end{equation*}
+\item[c)] Primeiramente calculemos, $$\mathcal{E}(X)=\int_{-1}^{1}\dfrac{3}{4}x(1-x^2)dx=\dfrac{3}{4}\left.\left(\dfrac{x^2}{2}-\dfrac{x^4}{4}\right)\right|_{-1}^{1}=0.$$ Agora $$\mathcal{E}|X|=\int_{-1}^{0}\dfrac{3}{4}(-x)(1-x^2)dx+\int_{0}^{1}\dfrac{3}{4}x(1-x^2)dx=2\times\dfrac{3}{4}\left.\left(\dfrac{x^2}{2}-\dfrac{x^4}{4}\right)\right|_{0}^{1}=\dfrac{3}{8}.$$
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] Integrando por partes podemos encontrar um primitiva para $xe^{-x/2}$, $$G(X)=\int xe^{-x/2}dx = -2xe^{-x/2}-4e^{-x/2}.$$ 
+
+\noindent Para que $f(x)$ seja uma densidade devemos ter $$1=\int_{0}^{\infty} f(x)dx = C\int_{0}^{\infty} xe^{-x/2}dx = C\left\{\lim_{M\rightarrow \infty} G(M)-G(0)\right\} = 4C.$$ Tendo em vista que na penúltima igualdade utilizamos o Teorema Fundamental do Cálculo, isso ocorre se, e somente se, $C=\frac{1}{4}.$
+\item[b)] Pelo Teorema Fundamental do Cálculo, a função distribuição para $x>0$ é dada por $$F(x)=\int_{0}^{x} f(y)dy = \dfrac{1}{4}\left\{G(x)-G(0)\right\} = 1 - \dfrac{1}{2}xe^{-x/2}-e^{-x/2}.$$ Portanto, a função distribuição é definida por 
+\begin{equation*}
+F(x) = 
+\left\{\begin{array}{lcc}
+\vspace*{0.2cm} 0, & \text{se} & x \leqslant 0,\\
+1 - \dfrac{1}{2}xe^{-x/2}-e^{-x/2}, & \text{se} & x > 0.\\
+\end{array} \right.
+\end{equation*}
+\item[c)] Novamente, integrando por partes, podemos encontrar uma primitiva para $x^2e^{-x/2}$, $$H(X)=\int x^2e^{-x/2}dx = -2x^2e^{-x/2}-8xe^{-x/2}-16e^{-x/2}.$$ Pelo Teorema Fundamental do Cálculo, a esperança de $X$ é dada por $$\mathcal{E}(X)=\dfrac{1}{4}\int_{0}^{\infty} x^2e^{-x/2}dx = \dfrac{1}{4}\left\{\lim_{M\rightarrow \infty} H(M)-H(0)\right\}=4.$$
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] Como sabemos, a integral da função densidade no intervalo dos reais deve ser um. Desse modo, $$1 = \int_{0}^{3}\left(\frac{1}{6}x +k\right)dx = \left.\left(\frac{x^2}{12}+kx\right)\right|_0^3 = \frac{3+12k}{4}.$$
+
+Isso ocorre se, e somente se, $k=1/12$.
+\item[b)] $$\P(1<X<2) = \int_{1}^{2}\left(\frac{1}{6}x +\frac{1}{12}\right)dx = \left.\left(\frac{x^2}{12}+\frac{x}{12}\right)\right|_1^2 = \frac{1}{3}.$$
+\item[c)] Do enunciado temos que $$\frac{1}{2} = \P(X < a) = \int_{0}^{a}\left(\frac{1}{6}x +\frac{x}{12}\right)dx = \left.\left(\frac{x^2}{12}+\frac{x}{12}\right)\right|_0^a = \frac{a^2}{12}+\frac{a}{12}.$$ Isso ocorre se, e somente se, $a=2$.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] Como a densidade está definida no intervalo [0,3] o tempo máximo que uma peça pode ficar sem se corroer é 3 anos.
+\item[b)] Para que $f(x)$ seja uma densidade devemos ter
+\begin{eqnarray*}
+1 &=& \int_{0}^{1}kxdx+\int_{1}^{2}kdx+\int_{2}^{3}(-kx+3k)dx\\
+&=& \left.\frac{kx^2}{2}\right|_{0}^{1}+\left.kx\right|_{1}^{2}+\left.\left(-\frac{kx^2}{2}+3kx\right)\right|_{2}^{3}\\
+&=& 2k.
+\end{eqnarray*}
+Isso ocorre se, e somente se, $k=1/2$.
+\item[c)] $$\P(0,5<X<1,5) = \int_{0,5}^1\frac{x}{2}dx+\int_{1}^{1,5}\frac{1}{2}dx = \left.\frac{x^2}{4}\right|_{0,5}^1+\left.\frac{x}{2}\right|_{1}^{1,5} = \frac{7}{16}.$$
+\item[d)] \begin{equation*}
+F(x) = 
+\left\{\begin{array}{lcc}
+\vspace*{0.2cm} \dfrac{x^2}{4}, & \text{se} & 0 \leqslant x \leqslant 1,\\
+\vspace*{0.2cm} \dfrac{1}{4}+\dfrac{(x-1)}{4}, & \text{se} & 1<x\leqslant 2,\\
+\vspace*{0.2cm} \dfrac{-x^2+6x-5}{4}, & \text{se} & 2<x\leqslant 3,\\
+1, & \text{se} & x > 3.\\
+\end{array} \right.
+\end{equation*}
+\end{itemize}
+
+\item De acordo com o enunciado a probabilidade de uma peça ser boa é $\P(X>2) = 1-F(2) = 1/4$. Como a seleção das peças é realizada com reposição, se consideramos a variável $Y$ correspondente ao número de peças boas dentre as 3 selecionadas, concluímos que $Y\sim \text{Bin}(3 , 1/4)$.
+\begin{itemize}
+\item[a)] {$\displaystyle\P(Y=3) =  \binom{3}{3}(1/4)^3(3/4)^0 = 1/64$.}
+\item[b)] {$\displaystyle\P(Y=0) =  \binom{3}{0}(1/4)^0(3/4)^3 = 27/64$.}
+\item[c)] {$\displaystyle\P(Y=1) =  \binom{3}{1}(1/4)^1(3/4)^2 = 27/64$.}
+\end{itemize}
+
+\item Seja $f(k) = \E(X^2-2kX+k^2)=\E(X^2)-2k\E(X)+k^2.$ Derivando a função temos $$f'(k) = -2\E(X)+2k$$ que possui ponto crítico em $k=\E(X)$. Como $f''(k) = 2 >0$, concluímos que $k=\E(X)$ é o ponto de mínimo da função.
+
+\item Por um lado, para que $f(x)$ seja uma densidade, devemos ter $$1=\int_{0}^{1}(a+bx^2)dx = \left.\left(ax-b\dfrac{x^3}{3}\right)\right|_{0}^{1} =a+\dfrac{b}{3}.$$ Por outro lado, devemos ter $$\dfrac{3}{5}=\mathcal{E}(X)=\int_{0}^{1}x(a+bx^2)dx = \left.\left(a\dfrac{x^2}{2}-b\dfrac{x^4}{4}\right)\right|_{0}^{1} =\dfrac{a}{2}+\dfrac{b}{4}.$$ Resolvendo o sistema linear 
+\begin{equation*}
+\left\{\begin{array}{l}
+\vspace*{0.3cm} a+\dfrac{b}{3}=1\\
+\dfrac{a}{2}+\dfrac{b}{4}=\dfrac{3}{5}
+\end{array} \right.
+\end{equation*}
+encontramos $a=\dfrac{3}{5}$ e $b=\dfrac{6}{5}$.
+
+\item
+\begin{itemize}
+\item[a)] {$\displaystyle \P(X>1,5) = \int_{1,5}^{3}\left(-\frac{x}{3}+1\right)dx = \left.\left(-\frac{x^2}{6}+x\right)\right|_{0,5}^3 = \frac{3}{8}.$}
+\item[b)] {$\displaystyle \E(X) = \int_{0}^{1}\frac{2x^2}{3}dx+\int_{1}^{3}\left(-\frac{x^2}{3}+x\right)dx = \left.\frac{2x^3}{9}\right|_{0}^1+\left.\left(-\frac{x^3}{9}+\frac{x^2}{2}\right)\right|_{1}^3 = \frac{4}{3}.$} 
+
+\vspace*{0.2cm}
+
+Considerando que desejamos o valor médio em 30 dias, teremos como resultado $4/3 \times 30 = 4$ toneladas.
+\item[c)] Primeiramente calculamos $$ \E(X^2) = \int_{0}^{1}\frac{2x^3}{3}dx+\int_{1}^{3}\left(-\frac{x^3}{3}+x^2\right)dx = \left.\frac{2x^4}{12}\right|_{0}^1+\left.\left(-\frac{x^4}{12}+\frac{x^3}{3}\right)\right|_{1}^3 = \frac{13}{6}.$$ 
+
+Segue que $\text{Var}(X) = \frac{13}{6}-\left(\frac{4}{3}\right)^2 = \frac{7}{18}.$
+\item[d)] Queremos encontrar $k$ tal que $\P(X\leqslant k) = 0,95$. Para tal, necessitamos da função de distribuição que é dada por
+\begin{equation*}
+F(x) = 
+\left\{\begin{array}{lcc}
+\vspace*{0.2cm} \dfrac{x^2}{3}, & \text{se} & 0 \leqslant x \leqslant 1,\\
+\vspace*{0.2cm} \dfrac{-x^2+6x-3}{6}, & \text{se} & 1<x\leqslant 3,\\
+1, & \text{se} & x > 3.\\
+\end{array} \right.
+\end{equation*} 
+É claro, da equação acima, que o valor de $k$ deve ser maior que um, desse modo basta resolver a equação $$\dfrac{-x^2+6x-3}{6} = 0,95$$ que encontraremos $k=2,45.$ Como os valores são dados em centenas, a resposta desejada é 245kg.
+\end{itemize}
+
+
+\item Lembrando que para obtermos a densidade de uma variável aleatória contínua basta derivarmos a função distribuição temos
+
+\begin{eqnarray*}
+F_Y(x)&=& \mathcal{P}(Y\leqslant x) = \mathcal{P}(\log(2X+3)\leqslant x)\\
+&=& \mathcal{P}(2X+3\leqslant e^x) = \mathcal{P}\left(X\leqslant \frac{e^x-3}{2}\right)\\
+&=& F_X\left(\frac{e^x-3}{2}\right).
+\end{eqnarray*}
+Desse modo, segue que $$f_Y(x)=\dfrac{d}{dx}F_Y(x) = \dfrac{d}{dx}F_X\left(\frac{e^x-3}{2}\right) = \dfrac{1}{2}e^xf_X\left(\frac{e^x-3}{2}\right).$$
+
+\item Vamos considerar $X$ a variável que representa o horário em que o passageiro chega à parada após as 7:00 AM. Desse modo, temos que $X\sim \mathcal{U}(0,30)$.
+\begin{itemize}
+\item[a)] O passageiro irá esperar 5 minutos pelo ônibus se chegar entre 7:10 e 7:15 ou entre 7:25 e 7:30. Segue que
+\begin{eqnarray*}
+\mathcal{P}(\text{\it ``esperar menos de 5 min''})&=& \mathcal{P}(10<X<15)+\mathcal{P}(25<X<30)\\
+&=& \int_{10}^{15}\dfrac{1}{30}dx + \int_{25}^{30}\dfrac{1}{30}dx\\
+&=& \dfrac{1}{3}.
+\end{eqnarray*}
+\item[b)] Analogamente, o passageiro irá esperar mais de 10 minutos pelo ônibus se chegar entre 7:00 e 7:05 ou entre 7:15 e 7:20. Segue que
+\begin{eqnarray*}
+\mathcal{P}(\text{\it ``esperar mais de 10 min''})&=& \mathcal{P}(0<X<5)+\mathcal{P}(15<X<20)\\
+&=& \int_{0}^{5}\dfrac{1}{30}dx + \int_{15}^{20}\dfrac{1}{30}dx\\
+&=& \dfrac{1}{3}.
+\end{eqnarray*}
+\end{itemize}
+
+\item Como $X\sim \mathcal{U}(a,b)$, onde $a<b$; resolvendo o sistema linear 
+\begin{equation*}
+\left\{\begin{array}{l}
+\vspace*{0.3cm} \E(X) = \dfrac{a+b}{2}=1\\
+\text{Var}(X) = \dfrac{(b-a)^2}{12}=\dfrac{1}{12}
+\end{array} \right.
+\end{equation*}
+encontramos $a=0,5$ e $b=1,5$.
+\begin{itemize}
+\item[a)] $\P(X<3/4) = \dfrac{3/4-0,5}{1,5-0,5} = 1/4.$
+\item[b)] $\P(0,8<X<1,2) = \dfrac{1,2-0,8}{1,5-0,5} = 0,4.$
+\item[c)] Como os eventos ${X<0,6}$ e ${X>1,3}$ são disjuntos, 
+\begin{eqnarray*}
+\P[(X<0,6)\cup(X>1,3)|X>1] &=& \P(X<0,6|X>1)+\P(X>1,3|X>1)\\
+&=& \frac{\P(\{X<0,6\}\cap\{X>1\})}{P(X>1)}+\frac{\P(\{X>1,3\}\cap\{X>1\})}{\P(X>1)}\\
+&=& 0+\frac{\P(X>1,3)}{\P(X>1)} \\
+&=& \frac{(1,5-1,3)/(1,5-0,5)}{(1,5-1)/(1,5-0,5)} = 0,4.
+\end{eqnarray*}
+\item[d)] 
+\begin{eqnarray*}
+\P(X>k) &=& 2\P(X<k) \iff\\
+\frac{1,5-k}{1,5-0,5}&=&2\left[\frac{k-0,5}{1,5-0,5}\right]\iff\\
+1,5-k&=&2k-1\iff\\
+k&=&5/6
+\end{eqnarray*}
+\item[e)] 
+\begin{eqnarray*}
+\E(g(X)) &=& \int_{0,5}^{0,8}xdx+\int_{0,8}^{1}1dx+\int_{1}^{1,5}-(x+1)dx\\
+&=&\left.\frac{x^2}{2}\right|_{0,5}^{0,8}+\left.x\right|_{0,8}^1-\left.\left(\frac{x^2}{2}+x\right)\right|_1^{1,5}\\
+&=& -0,73.
+\end{eqnarray*}
+\end{itemize}
+
+\item Se $X\sim \mathcal{U}(0,5)$ representa o tamanho do lado do quadrado, então sua área será $X^2$. Segue que $$\E(X^2) = \int_{0}^{5}\frac{x^2}{5}dx = \left.\frac{x^3}{15}\right|_0^5 = \frac{25}{3}.$$
+
+\item Seja $Z \sim \mathcal{N}(0,1)$, então
+\begin{itemize}
+\item[a)] 
+\begin{eqnarray*}
+\mathcal{P}(X<20) &=& \mathcal{P}\left(\dfrac{X-10}{\sqrt{36}}<\dfrac{20-10}{\sqrt{36}}\right)\\
+&\simeq& \mathcal{P}(Z<1,67)\\
+&\simeq& 0,95254. 
+\end{eqnarray*}
+\item[b)]
+\begin{eqnarray*}
+\mathcal{P}(X>16) &=& 1- \mathcal{P}(X\leqslant 16)\\
+&=& 1-\mathcal{P}\left(\dfrac{X-10}{\sqrt{36}}<\dfrac{16-10}{\sqrt{36}}\right)\\
+&=& 1-\mathcal{P}(Z\leqslant 1)\\
+&\simeq& 1 - 0,84134\\
+&=& 0,15866.
+\end{eqnarray*} 
+\item[c)]
+\begin{eqnarray*}
+\mathcal{P}(X>5)&=& \mathcal{P}\left(\dfrac{X-10}{\sqrt{36}}>\dfrac{5-10}{\sqrt{36}}\right)\\
+&\simeq& \mathcal{P}(Z>-0,83)\\
+&=& \mathcal{P}(Z< 0,83)\\
+&\simeq& 0,79673
+\end{eqnarray*}
+\item[d)]
+\begin{eqnarray*}
+\mathcal{P}(4<X<16)&=& \mathcal{P}\left(\dfrac{4-10}{\sqrt{36}}<\dfrac{X-10}{\sqrt{36}}<\dfrac{16-10}{\sqrt{36}}\right)\\
+&=& \mathcal{P}(-1<Z<1)\\
+&=& \mathcal{P}(Z<1)-\mathcal{P}(Z<-1)\\
+&=& \mathcal{P}(Z<1)-\mathcal{P}(Z>1)\\
+&=& \mathcal{P}(Z<1)-\{1-\mathcal{P}(Z\leqslant 1)\}\\
+&=& 2\mathcal{P}(Z<1)-1\\
+&\simeq& 2(0,84134)-1\\
+&=& 0,68268
+\end{eqnarray*}
+\item[e)]
+\begin{eqnarray*}
+\mathcal{P}(|X|<8) &=& \mathcal{P}(-8<X<8)\\
+&=& \mathcal{P}\left(\dfrac{-8-10}{\sqrt{36}}<\dfrac{X-10}{\sqrt{36}}<\dfrac{8-10}{\sqrt{36}}\right)\\
+&\simeq& \mathcal{P}(-3<Z<-0,33)\\
+&=& \mathcal{P}(Z<-0,33)-\mathcal{P}(Z<-3)\\
+&=& \mathcal{P}(Z>0,33)-\mathcal{P}(Z>3)\\
+&=& 1-\mathcal{P}(Z<0,33)-\{1-\mathcal{P}(Z\leqslant 3)\}\\
+&\simeq& -0,62930+0,99865\\
+&=& 0,36935
+\end{eqnarray*}\end{itemize}
+
+\item Seja $X$ a variável que representa o período de gestação, e suponha que o réu é, de fato, o pai. Desse modo, a probabilidade de que o nascimento possa ter ocorrido no período indicado é 
+\begin{eqnarray*}
+\mathcal{P}(\{X > 290\}\cup \{X < 240\})&=&\mathcal{P}(X > 290) + \mathcal{P}(X < 240)\\
+&=& \mathcal{P}\left(\dfrac{X-270}{\sqrt{100}} > \dfrac{290-270}{\sqrt{100}}\right) + \mathcal{P}\left(\dfrac{X-270}{\sqrt{100}} < \dfrac{240-270}{\sqrt{100}}\right)\\
+&=& \mathcal{P}(Z>2)+\mathcal{P}(Z<-3)\\
+&=& 1-\mathcal{P}(Z\leqslant 2) + \mathcal{P}(Z>3)\\
+&=& 2-\mathcal{P}(Z\leqslant 2) - \mathcal{P}(Z\leqslant 3)\\
+&=& 2-0,97725-0,99865\\
+&\simeq& 0,0241
+\end{eqnarray*}
+
+\item $X\sim\mathcal{N}(\mu,\sigma^2)$, portanto
+\begin{eqnarray*}
+&& \P(X\leqslant k) = 2p(X>k)\iff\\
+&& \P(X\leqslant k) = 2\{1-\P(X\leqslant k)\}\iff\\
+&& \P(X\leqslant k) = 2/3\iff\\
+&& \P\left(\frac{X-\mu}{\sigma}\leqslant \frac{k-\mu}{\sigma}\right) = 2/3\iff\\
+&& \P\left(Z\leqslant \frac{k-\mu}{\sigma}\right) = 2/3\iff\\
+&& \frac{k-\mu}{\sigma} = 0,43\iff\\
+&& k=0,43\sigma+\mu
+\end{eqnarray*}
+
+\item Primeiramente devemos definir de forma adequada as variáveis e eventos associados ao experimento. Sejam $A_M \sim \mathcal{N}(1,6;0,09)$, $A_H \sim \mathcal{N}(1,8;0,16)$ e considere os eventos 
+\begin{eqnarray*}
+H &=& \text{``o indivíduo é homem''}\\
+M &=& \text{``o indivíduo é mulher''}
+\end{eqnarray*}
+\begin{itemize}
+\item[a)] 
+\begin{eqnarray*}
+\P(\text{``medir +1,7''}|H) &=& \P\left(A_H > \frac{1,7-1,8}{\sqrt{0,16}}\right) = \P\left(\frac{A_H-1,8}{\sqrt{0,16}}\right)\\
+&=&\P(Z>-0,25)=\P(Z\leqslant0,25)\\
+&=& 0,59871.
+\end{eqnarray*}
+\item[b)] 
+\begin{eqnarray*}
+\P(M|\text{``medir -1,8''}) &=& \frac{\P(\text{``medir -1,8''}|M)\P(M)}{\P(\text{``medir -1,8''})}\\
+&=& \frac{\P(\text{``medir -1,8''}|M)\P(M)}{\P(\text{``medir -1,8''}|M)\P(M) + \P(\text{``medir -1,8''}|H)\P(H)}\\
+&=& \frac{\P(A_M<1,8)\P(M)}{\P(A_M<1,8)\P(M) + \P(A_H<1,8)\P(H)}\\
+&=& \frac{\P\left(\frac{A_M-1,6}{\sqrt{0,09}}<\frac{1,8-1,6}{\sqrt{0,09}}\right)\P(M)}{\P\left(\frac{A_M-1,6}{\sqrt{0,09}}<\frac{1,8-1,6}{\sqrt{0,09}}\right)\P(M)+\P\left(\frac{A_H-1,8}{\sqrt{0,16}}<\frac{1,8-1,8}{\sqrt{0,16}}\right)\P(H)}\\
+&=& \frac{\P(Z<0,67)\times\frac{1}{3}}{\P(Z<0,67)\times\frac{1}{3} + \P(Z<0)\times\frac{2}{3}}\\
+&=& \frac{0,74857\times\frac{1}{3}}{0,74857\times\frac{1}{3} + 0,5\times\frac{2}{3}}\\
+&=& 0,4281.
+\end{eqnarray*}
+\item[c)] 
+\begin{eqnarray*}
+&&\P(\text{``medir +1,5 e -1,7''}) \\
+&=& \P(\text{``medir +1,5 e -1,7''}|M)\P(M)+\P(\text{``medir +1,5 e -1,7''}|H)\P(H)\\
+&=& \P(1,5<A_M<1,7)\P(M)+\P(1,5<A_H<1,7)\P(H)\\
+&=& \{\P(A_M<1,7)-\P(A_M<1,5)\}\P(M) + \{\P(A_H<1,7)-\P(A_H<1,5)\}\P(H)\\
+&=& \{\P(Z<0,33)-\P(Z<-0,33)\}\P(M) + \{\P(A_H<-0,25)-\P(A_H<-0,75)\}\P(H)\\
+&=& \{0,6293-0,3707\}\times\frac{1}{3}+\{0,40129-0,22663\}\times\frac{2}{3}\\
+&=& 0,20264.
+\end{eqnarray*}
+\item[d)] 
+\begin{eqnarray*}
+\P(H e \text{``medir +2''}) &=& \P(\text{``medir +2''}|H)\P(H)\\
+&=& \P(A_H>2)\P(H)\\
+&=& \P(Z>0,5)\times\frac{2}{3}\\
+&=&(1-0,69146)\times\frac{2}{3}\\
+&=& 0,20569.
+\end{eqnarray*}
+\item[e)] Nesta questão algumas probabilidades já foram calculadas no {\bf item b)} de modo que iremos apenas substituir os valores:
+\begin{eqnarray*}
+&&\P(M \cup \text{``medir -1,8''}) \\
+&=& \P(M)+\P(\text{``medir -1,8''})-\P(M \cap \text{``medir -1,8''}) \\
+&=& \P(M)+\P(\text{``medir -1,8''})-\P(\text{``medir -1,8''}|M)\P(M) \\
+&=& \frac{1}{3}+\left(0,74857\times\frac{1}{3} +0,5\times\frac{2}{3}\right)+0,74857\times\frac{1}{3}\\
+&=& 0,6667.
+\end{eqnarray*}
+\item[f)] Primeiramente defina $p=\P(\text{``medir -1,6''})$. A probabilidade desejada é $$\P(\text{``exatamente 3 em 5 medir -1,6''}) = \binom{5}{3}p^3(1-p)^2.$$ Então nos basta encontrar $p$, que é dado por
+\begin{eqnarray*}
+p &=& \P(\text{``medir -1,6''}|M)\P(M)+\P(\text{``medir -1,6''}|H)\P(H)\\
+&=& \P(A_M<1,6)\P(M)+\P(A_H<1,6)\P(H)\\
+&=& \P(Z<0)\times\frac{1}{3}+\P(A_H<-0,5)\times\frac{2}{3}\\
+&=& 0,5\times\frac{1}{3}+0,30854\times\frac{2}{3}\\
+&=& 0,37236.
+\end{eqnarray*}
+Substituindo o valor encontrado para $p$ temos $$\P(\text{``exatamente 3 em 5 medir -1,6''}) = 0,20338.$$
+\end{itemize}
+
+\item Se $X$ denota o número de estudantes que permanecem na faculdade, então $X$ tem distribuição binomial com parâmetros $n=450$ e $p=0,3$ e a probabilidade desejada é
+\begin{eqnarray*}
+\mathcal{P}(X>150)&=& 1-\mathcal{P}(X\leqslant 150)\\
+&=& 1-\sum_{i=0}^{150}\mathcal{P}(X=i)\\
+&=& 1-\sum_{i=0}^{150}\binom{450}{i}(0,3)^i(0,7)^{450 -i}.
+\end{eqnarray*}
+A soma acima é bastante complicada de se fazer manualmente (uma das razões de se usar a aproximação Normal à Binomial) e levaria um bom tempo para terminá-la. Com o uso de um simples algoritmo, um computador pode calcular a soma acima resultando no valor aproximado de 0,0565.
+\vspace*{0.3cm}
+
+\noindent Podemos aproximar $X$ por uma normal. Para tal, consideramos $Y\sim \mathcal{N}(np,np(1-p))$, ou seja, uma normal de parâmetros $\mu=135$ e $\sigma^2=94,5$. Como $X$ é discreta e $Y$ contínua, aplicando o Teorema de DeMoivre-Laplace aproximamos $X$ por $Y$ como abaixo:
+\vspace{0.3cm}
+\begin{eqnarray*}
+\mathcal{P}(X>150)&\simeq& \mathcal{P}(Y\geqslant 150)\\
+&=& \mathcal{P}\left(\dfrac{Y-135}{\sqrt{94,5}}\geqslant \dfrac{150-135}{\sqrt{94,5}}\right)\\
+&\simeq& 1-\mathcal{P}(Z\leqslant 1,54)\\
+&\simeq& 1-0,93822\\
+&=& 0,06178
+\end{eqnarray*}
+
+\vspace{0.3cm}
+
+\item Observe que $X\sim \text{Bin}(40,1/2)$.
+\begin{itemize}
+\item[a)] Queremos
+\begin{eqnarray*}
+\P(19<X\leqslant 21) &=& \P(X=20)+\P(X=21)\\
+&=& \binom{40}{20}0,5^{40}+\binom{40}{21}0,5^{40}\\
+&=& 0,24477
+\end{eqnarray*}
+\item[b)] Note que $\E(X)=20$ e $\text{Var}(X)=10$. Agora defina $Y\sim\mathcal{N}(20,10)$.
+\begin{eqnarray*}
+\P(19<X\leqslant 21) &\approx& \P(19<Y\leqslant 21)\\
+&=& \P\left(\frac{19-20}{\sqrt{10}} <\frac{Y-20}{\sqrt{10}}<\frac{21-20}{\sqrt{10}}\right)\\
+&=& \P\left(-\frac{1}{\sqrt{10}}<Z<\frac{1}{\sqrt{10}}\right)\\
+&\approx& 2\P(Z<0,32)-1\\
+&=& 2(0,62552)-1\\
+&=& 0,25104
+\end{eqnarray*}
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] Para $x>v$ a função de distribuição é $\int_{v}^{x}f(y)dy$. Com uma substituição simples, $u=\frac{x-v}{\alpha}$, a integral se torna bastante fácil e $$ 
+F(x) = 
+\left\{\begin{array}{lcc}
+0, & \text{se} & x\leqslant v,\\ \vspace{0.1cm}
+1-\exp\left\{ -\left(\dfrac{x-v}{\alpha}\right)^{\beta}\right\}, & \text{se} & x > v.
+\end{array} \right.
+$$
+\item[b)] Quando $\beta=1$ e $v=0$, a distribuição de Weibull se torna uma exponencial de parâmetro $1/\alpha$. Como sabemos, a esperança de uma variável aleatória exponencial $X\sim \text{Exp}(\lambda)$ é $1/\lambda$. Em nosso caso, teremos $\mathcal{E}(X)=\alpha$.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\item Seja $X$ a variável que representa número de anos em que o rádio funciona. Em nosso caso temos $X\sim \text{Exp}(1/8)$ e consequentemente, $F(x)=1-e^{-x/8}$, para $x>0$. Segue que $$\mathcal{P}(X>8)=1-F(8)=e^{-1}.$$
+
+\vspace{0.3cm}
+
+\item No nosso caso temos que $X\sim\text{Exp}(0,1)$ de modo que $F(x) = 1-e^{-0,1x}$.
+\begin{itemize}
+\item[a)] $F(20) = 1-e^{-0,1\times20} = 1-e^{-2}.$
+\item[b)] $\P(X>20) = 1-F(20) = e^{-2}.$
+\item[c)] $\P(X>10) = 1-F(10) = 1-(1-e^{-0,1\times10}) = e^{-1}.$
+\end{itemize}
+
+\item Seja $X\sim \text{Exp}(\lambda)$ e sejam $x\geqslant 0$ e $t\geqslant 0$. Segue que
+\begin{eqnarray*}
+\P(X>x+t|X>t) &=& \frac{\P(\{X>x+t\}\cap \{X>t\})}{\P(X>t)}\\
+&=& \frac{\P(X>x+t)}{\P(X>t)}\\
+&=& \frac{e^{-\lambda(x+t)}}{e^{-\lambda t}}\\
+&=& e^{-\lambda x}\\
+&=& \P(X>x).
+\end{eqnarray*}
+
+\item Seja $X$ a variável que representa o tempo de vida da bateria do carro. Como a média é 10.000 milhas, temos que $X\sim \text{Exp}(1/10.000)$ e $F(x)=1-e^{-x/10.000}$. Queremos calcular a probabilidade do tempo de vida da bateria do carro ser maior que 10.000 dado que é maior que 5.000.
+\begin{eqnarray*}
+\mathcal{P}(X>10.000|X>5.000)&=& \mathcal{P}(X>5.000+5.000|X>5.000)\\
+&=& \mathcal{P}(X>5.000)\\
+&=& 1-F(5.000)\\
+&=& e^{-1/2}\\
+&\simeq& 0,607. 
+\end{eqnarray*} 
+Observe que na segunda igualdade usamos a propriedade de perda de memória da distribuição exponencial.
+
+\item Seja $Z\sim \mathcal{N}(0,1)$.
+
+\begin{itemize}
+\item[a)] $\P(X\leqslant\mu+2\sigma) = \P\left(Z\leqslant\frac{\mu+2\sigma-\mu}{\sigma}\right)=\P(Z\leqslant2)=0,97725.$
+\item[b)] 
+\begin{eqnarray*}
+\P(|X-\mu|\leqslant\sigma) &=& \P\left(\frac{|X-\mu|}{\sigma}\leqslant1\right)=\P(|Z|\leqslant 1)\\
+&=& 2\P(Z<1)-1=2(0,84134)-1\\
+&=&0,68268.
+\end{eqnarray*}
+\item[c)] 
+\begin{eqnarray*}
+&&\P(X>a) = 0,9 \iff\\
+&&\P(X\leqslant -a) = 0,9\iff\\
+&&\P\left(Z\leqslant \frac{-a-\mu}{\sigma}\right) = 0,9\iff\\
+&& -\frac{(a+\mu)}{\sigma} = 1,28\iff\\
+&&a=-(\mu+1,28\sigma).
+\end{eqnarray*}
+\item[d)] \begin{eqnarray*}
+\mathcal{P}(\mu-1,96\sigma<X<\mu+1,96\sigma) &=& \mathcal{P}\left(-1,96<\dfrac{X-\mu}{\sigma}<1,96\right)\\
+&=& \mathcal{P}(-1,96<Z<1,96)\\
+&=& 2\mathcal{P}(Z<1,96)-1\\
+&\simeq& 2(0,97500)-1\\
+&=&0,95.
+\end{eqnarray*}
+
+\vspace{0.5cm}
+\item[e)] Nós queremos que 
+\begin{eqnarray*}
+0,99 &=& \mathcal{P}(\mu-\beta\sigma<X<\mu+\beta\sigma)\\
+&=& \mathcal{P}\left(-\beta<\dfrac{X-\mu}{\sigma}<\beta\right)\\
+&=& \mathcal{P}(-\beta<Z<\beta)\\
+&=& 2\mathcal{P}(Z<\beta)-1.
+\end{eqnarray*} A igualdade acima ocorre se, e somente se, $\mathcal{P}(Z<\beta)=0,995$, ou seja, $\beta=2,58$.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\item Sejam $X\sim \text{Exp}(2)$, $Y\sim \text{Exp}(1)$ e considere os eventos
+\begin{eqnarray*}
+F &=& \text{``o cliente é pessoa física''}\\
+J &=& \text{``o cliente é pessoa jurídica''}
+\end{eqnarray*}
+\begin{itemize}
+\item[a)] $\P(\text{``+1 min''}|F) = \P(X>1) = 1-F_X(1) = 1-(1-e^{-2}) = e^{-2} \approx 0,13534.$ 
+\item[b)] $\P(\text{``-5 min''}|J) = \P(Y<5) = F(5) = 1-e^{-1\times 5} = 1-e^{-5} \approx 0,99326.$ 
+\item[c)] 
+\begin{eqnarray*}
+&& \P(\text{``+2 min''}) \\ 
+&=& \P(\text{``+2 min''}|F)\P(F)+\P(\text{``+2 min''}|J)\P(J)\\
+&=& \P(X>2)\times0,3+\P(Y>2)\times0,7\\
+&=& e^{-4}\times0,3+e^{-2}\times0,7\\
+&=& 0,10023.
+\end{eqnarray*}
+\item[d)] Pela perda de memória da exponencial temos que $$\P(\text{``+4 min dado F''}|\text{``+3 min dado F''}) = \P(X>4|X>3) = \P(X>1)\approx 0,13534.$$
+\item[e)] 
+\begin{eqnarray*}
+&& \P(J|\text{``+2 min''}) = \frac{\P(J\cap \text{``+2 min''})}{\P(\text{``+2 min''})}\\
+&=& \frac{\P(\text{``+2 min''}|J)\P(J)}{\P(\text{``+2 min''})} = \frac{\P(Y>2)}{0,10023}\\
+&=& \frac{e^{-2}\times0,7}{0,10023}\approx 0,94518.
+\end{eqnarray*}
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] Observe que $X$ é determinado pela variável aleatória $\theta$ que representa o ângulo entre o feixe de luz e o eixo y. Claramente, $\theta\sim \mathcal{U}(-\pi/2,\pi/2)$ e sua distribuição é $$F_{\theta}(x)=\mathcal{P}(\theta\leqslant x)=\dfrac{x-(-\pi/2)}{\pi}=\dfrac{1}{2}+\dfrac{x}{\pi}.$$ Como estamos interessados na distribuição de $X$, basta observar que $X=\tan(\theta)$ e, para $-\infty<x<\infty$, segue que
+\begin{eqnarray*}
+F_X(x)&=& \mathcal{P}(X\leqslant x)\\
+&=& \mathcal{P}(\tan(\theta)\leqslant x)\\
+&=& \mathcal{P}(\theta\leqslant \arctan(x))\\
+&=& \dfrac{1}{2}+\dfrac{\arctan(x)}{\pi}.
+\end{eqnarray*}
+Desse modo, ainda para $-\infty<x<\infty$, chegamos a $$f(x)=\dfrac{d}{dx}F_X(x)=\dfrac{1}{\pi(1+x^2)}.$$
+
+\vspace{0.5cm}
+\item[b)] $$\int_{-\infty}^{+\infty}f(x)dx = \dfrac{1}{\pi}\int_{-\infty}^{+\infty}\dfrac{1}{1+x^2}dx=\left.\dfrac{\arctan(x)}{\pi}\right|^{+\infty}_{-\infty}=\dfrac{\pi/2-(-\pi/2)}{\pi}=1$$ 
+\item[c)] \begin{eqnarray*}
+\mathcal{E}|X| &=& \int_{-\infty}^{+\infty}|x|f(x)dx\\
+&=& \int_{-\infty}^{0}(-x)\dfrac{1}{\pi(1+x^2)}dx+\int_{0}^{+\infty}x\dfrac{1}{\pi(1+x^2)}dx\\
+&=& 2\int_{0}^{+\infty}x\dfrac{1}{\pi(1+x^2)}dx\\
+&=& \dfrac{1}{\pi}\int_{0}^{+\infty}\dfrac{2x}{1+x^2}dx\\
+&=& \dfrac{1}{\pi}\lim_{M\rightarrow +\infty}\left.\ln(1+x^2)\right|_{0}^{M}\\
+&=& +\infty.
+\end{eqnarray*}
+\end{itemize}
+
+\item Para $y\geqslant 0$ temos 
+\begin{eqnarray*}
+F_Y(y) &=& \mathcal{P}(Y\leqslant y)\\
+&=& \mathcal{P}(|X|\leqslant y)\\
+&=& \mathcal{P}(-y\leqslant X\leqslant y)\\
+&=& \mathcal{P}(X\leqslant y)-\mathcal{P}(X\leqslant -y)\\
+&=& F_X(y)-F_X(-y).
+\end{eqnarray*}
+Derivando ambos os lados nós obtemos, $$f_Y(y)=f_X(y)+f_X(-y).$$
+
+
+\item Para $y\geqslant 0$ temos 
+\begin{eqnarray*}
+F_Y(y) &=& \mathcal{P}(Y\leqslant y)\\
+&=& \mathcal{P}(X^n\leqslant y)\\
+&=& \mathcal{P}\left(X\leqslant y^{1/n}\right)\\
+&=& F_X\left(y^{1/n}\right).
+\end{eqnarray*}
+Derivando ambos os lados nós obtemos, $$f_Y(y)=\frac{1}{n}y^{1/n-1}f_X\left(y^{1/n}\right).$$
+
+\item
+\begin{itemize}
+\item[a)] \begin{eqnarray*}
+\mathcal{P}(|X|>1/2) &=& 1-\mathcal{P}(|X|<1/2)\\
+&=& 1-\mathcal{P}(-1/2<X<1/2)\\
+&=& 1-\left\{\mathcal{P}(X<1/2)-\mathcal{P}(X<-1/2)\right\}\\
+&=& 1/2.
+\end{eqnarray*}
+\item[b)] Da {\bf Questão 27}, temos que $$f_Y(y)=f_X(y)+f_X(-y)=1.$$ Ou seja, $Y\sim \mathcal{U}(0,1)$. 
+\end{itemize}
+ 
+\item Para que as raízes da equação sejam reais devemos ter $$\Delta = (4Y)^2-16(Y+2)\geqslant 0 \ \ \text{ou} \ \ Y^2\geqslant Y+2.$$
+
+\noindent Como $0<Y<5$, a relação acima ocorre se, e somente se, $Y\geqslant 2$. Então $$\mathcal{P}(Y^2\geqslant Y+2)=\mathcal{P}(Y\geqslant 2)=\frac{3}{5}.$$
+
+\vspace{0.2cm}
+\item Para $y\in \mathbb{R}$, temos
+\begin{eqnarray*}
+\mathcal{P}(Y\leqslant y)&=& \mathcal{P}(\log X\leqslant y)\\
+&=& \mathcal{P}(X\leqslant e^y)\\
+&=& 1-e^{-e^y}.
+\end{eqnarray*}
+Derivando, nós obtemos $$f_Y(y)=e^ye^{-e^y}.$$
+
+\vspace{0.2cm}
+\item Para $1<y<e$, temos
+
+\begin{eqnarray*}
+\mathcal{P}(Y\leqslant y)&=& \mathcal{P}(e^X\leqslant y)\\
+&=& \mathcal{P}(X\leqslant \log y)\\
+&=& \log y.
+\end{eqnarray*}
+Derivando nós obtemos $$f_Y(y)=\frac{1}{y}.$$
+
+\vspace{0.2cm}
+\item Primeiramente, observe que se $Z$ é normal padrão então $-Z$ também é. De fato, 
+\begin{eqnarray*}
+F_{-Z}(z) &=& \mathcal{P}(-Z\leqslant z)\\
+&=& \mathcal{P}(Z\geqslant -z)\\
+&=& 1- \mathcal{P}(Z\leqslant -z)\\
+&=& 1-F_Z(-z).
+\end{eqnarray*}
+Derivando ambos os lados temos $f_{-Z}(z)=f_Z(-z)$ e como uma v.a. normal padrão tem a função densidade par, $f_Z(-z)=f_Z(z)$.
+\begin{itemize}
+\item[a)] $\mathcal{P}(Z>x)=\mathcal{P}(-Z<-x)=\mathcal{P}(Z<-x).$
+\item[b)] \begin{eqnarray*}
+\mathcal{P}(|Z|>x)&=& 1-\mathcal{P}(|Z|<x)\\
+&=& 1-\mathcal{P}(-x<Z<x)\\
+&=& 1-\{\mathcal{P}(Z<x)-\mathcal{P}(Z<-x)\}\\
+&=& 1-\mathcal{P}(Z<x)+\mathcal{P}(Z<-x)\\
+&=& \mathcal{P}(Z>x)+\mathcal{P}(Z<-x)\\
+&=& 2\mathcal{P}(Z>x).
+\end{eqnarray*}
+\item[c)] \begin{eqnarray*}
+\mathcal{P}(|Z|<x) &=& 1-\mathcal{P}(|Z|>x)\\
+&=& 1-2\mathcal{P}(Z>x)\\
+&=& 1-2(1-\mathcal{P}(Z<x))\\
+&=& 2\mathcal{P}(Z<x)-1.
+\end{eqnarray*}
+\end{itemize}
+
+\vspace{0.5cm}
+\item Uma vez que encontramos a distribuição de $X$ na {\bf Questão 19}, basta observar que 
+\begin{eqnarray*}
+\mathcal{P}\left(\left(\frac{X-v}{\alpha}\right)^{\beta}\leqslant x\right) &=& \mathcal{P}\left(\frac{X-v}{\alpha}\leqslant x^{1/\beta}\right)\\
+&=& \mathcal{P}\left(X\leqslant\alpha x^{1/\beta}+v\right)\\
+&=& 1-e^{-x}.
+\end{eqnarray*}
+
+\vspace{0.5cm}
+\item Vamos representar os quantis citados pela sua representação simplificada $q_1$, $q_2$ e $q_3$ respectivamente. Considerando inicialmente a variável $X$, sabemos que $F_X(x)=1-e^{-2x}$ para $x$ positivo. Desse modo,
+\begin{eqnarray*}
+&& \mathcal{P}(X<q_1)=0,25\\
+&\iff& 1-e^{-2q_1}=0,25\\
+&\iff& e^{-2q_1}=0,75\\
+&\iff& q_1 = \frac{\ln(0,75)}{-2}\\
+&\iff& q_1 \simeq 0,1438.
+\end{eqnarray*}
+
+\noindent Analogamente encontramos $q_2\simeq 0,3466$ e $q_3\simeq 0,6932.$
+
+\vspace{0.3cm}
+\noindent Considere agora a variável $Y$. Claramente a mediana é $q_2=4$. Para encontrar $q_3$ note que 
+\begin{eqnarray*}
+&& \mathcal{P}(Y<q_3)=0,75\\
+&\iff& \mathcal{P}\left(\frac{Y-4}{\sqrt{9}}<\frac{q_3-4}{\sqrt{9}}\right)=0,75\\
+&\iff& \mathcal{P}\left(Z<\frac{q_3-4}{3}\right)=0,75.
+\end{eqnarray*}
+e olhando na tabela devemos ter $\dfrac{q_3-4}{3}=0,68$, ou seja, $q_3=6,04$.
+
+\vspace{0.3cm}
+\noindent Para encontrar $q_1=1,96$, basta lembrar que $q_1$ e $q_3$ devem estar à mesma distância da mediana.
+
+\vspace{0.5cm}
+\item
+\begin{itemize}
+\item[a)] O gráfico tem a forma abaixo
+
+\newpage
+\vspace*{0.3cm}
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.7]{Q10itemA.eps}
+%\caption{}
+%\label{}
+\end{figure}
+
+\item[b)] Como a variável é contínua nesse ponto, a probabilidade desejada é 0.
+\item[c)] $\mathcal{P}(X=2)=F(2^+)-F(2^-) = 2/3-1/2=1/6.$ 
+\item[d)] $P(2,2< X< 3,7)=F(3,7)-F(2,2)=5/6-(2,2+6)/12=3/20.$
+\end{itemize} 
+
+
+\end{enumerate}
+\end{document}

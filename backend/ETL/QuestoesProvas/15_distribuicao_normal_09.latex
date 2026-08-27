@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, o tamanho das peças automotivas produzidas
+  (variável aleatória X) segue distribuição Normal de média \(182\) e
+  variância \(4\). Sabendo que \(P(X<k)=0.08\), indique o valor de k.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(179.19\)
+  \item
+    \(176.38\)
+  \item
+    \(184.81\)
+  \item
+    \(178.02\)
+  \item
+    \(187.62\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(182,4)\), nós temos que \[\begin{aligned}
+  && P\left(X<k)=0.08 \iff \\
+  && P\left(\dfrac{X-182}{\sqrt{4}}<\dfrac{k-182}{\sqrt{4}}\right)=0.08 \iff \\
+  && P\left(Z<\dfrac{k-182}{\sqrt{4}}\right)=0.08
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.92\) é
+  \(1.41\). Desse modo, \[\dfrac{k-182}{\sqrt{4}} = -1.41\] e, portanto,
+  \[k = 179.19.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, o tamanho das peças automotivas produzidas
+  (variável aleatória X) segue distribuição Normal de média \(105\) e
+  variância \(5\). Sabendo que \(P(X<k)=0.1\), indique o valor de k.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(100.79\)
+  \item
+    \(107.87\)
+  \item
+    \(98.59\)
+  \item
+    \(102.13\)
+  \item
+    \(111.41\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(105,5)\), nós temos que \[\begin{aligned}
+  && P\left(X<k)=0.1 \iff \\
+  && P\left(\dfrac{X-105}{\sqrt{5}}<\dfrac{k-105}{\sqrt{5}}\right)=0.1 \iff \\
+  && P\left(Z<\dfrac{k-105}{\sqrt{5}}\right)=0.1
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.9\) é
+  \(1.28\). Desse modo, \[\dfrac{k-105}{\sqrt{5}} = -1.28\] e, portanto,
+  \[k = 102.13.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, o tamanho das peças automotivas produzidas
+  (variável aleatória X) segue distribuição Normal de média \(105\) e
+  variância \(10\). Sabendo que \(P(X<k)=0.06\), indique o valor de k.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(93.25\)
+  \item
+    \(109.92\)
+  \item
+    \(89.45\)
+  \item
+    \(120.55\)
+  \item
+    \(100.08\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(105,10)\), nós temos que \[\begin{aligned}
+  && P\left(X<k)=0.06 \iff \\
+  && P\left(\dfrac{X-105}{\sqrt{10}}<\dfrac{k-105}{\sqrt{10}}\right)=0.06 \iff \\
+  && P\left(Z<\dfrac{k-105}{\sqrt{10}}\right)=0.06
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.94\) é
+  \(1.55\). Desse modo, \[\dfrac{k-105}{\sqrt{10}} = -1.55\] e,
+  portanto, \[k = 100.08.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, o tamanho das peças automotivas produzidas
+  (variável aleatória X) segue distribuição Normal de média \(100\) e
+  variância \(4\). Sabendo que \(P(X<k)=0.08\), indique o valor de k.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(94.38\)
+  \item
+    \(96.02\)
+  \item
+    \(97.19\)
+  \item
+    \(105.62\)
+  \item
+    \(102.81\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(100,4)\), nós temos que \[\begin{aligned}
+  && P\left(X<k)=0.08 \iff \\
+  && P\left(\dfrac{X-100}{\sqrt{4}}<\dfrac{k-100}{\sqrt{4}}\right)=0.08 \iff \\
+  && P\left(Z<\dfrac{k-100}{\sqrt{4}}\right)=0.08
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.92\) é
+  \(1.41\). Desse modo, \[\dfrac{k-100}{\sqrt{4}} = -1.41\] e, portanto,
+  \[k = 97.19.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, o tamanho das peças automotivas produzidas
+  (variável aleatória X) segue distribuição Normal de média \(165\) e
+  variância \(7\). Sabendo que \(P(X<k)=0.09\), indique o valor de k.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(155.61\)
+  \item
+    \(168.55\)
+  \item
+    \(161.45\)
+  \item
+    \(174.39\)
+  \item
+    \(158.59\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(165,7)\), nós temos que \[\begin{aligned}
+  && P\left(X<k)=0.09 \iff \\
+  && P\left(\dfrac{X-165}{\sqrt{7}}<\dfrac{k-165}{\sqrt{7}}\right)=0.09 \iff \\
+  && P\left(Z<\dfrac{k-165}{\sqrt{7}}\right)=0.09
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.91\) é
+  \(1.34\). Desse modo, \[\dfrac{k-165}{\sqrt{7}} = -1.34\] e, portanto,
+  \[k = 161.45.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, o tamanho das peças automotivas produzidas
+  (variável aleatória X) segue distribuição Normal de média \(127\) e
+  variância \(3\). Sabendo que \(P(X<k)=0.07\), indique o valor de k.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(122.57\)
+  \item
+    \(131.43\)
+  \item
+    \(124.44\)
+  \item
+    \(123.76\)
+  \item
+    \(129.56\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(127,3)\), nós temos que \[\begin{aligned}
+  && P\left(X<k)=0.07 \iff \\
+  && P\left(\dfrac{X-127}{\sqrt{3}}<\dfrac{k-127}{\sqrt{3}}\right)=0.07 \iff \\
+  && P\left(Z<\dfrac{k-127}{\sqrt{3}}\right)=0.07
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.93\) é
+  \(1.48\). Desse modo, \[\dfrac{k-127}{\sqrt{3}} = -1.48\] e, portanto,
+  \[k = 124.44.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, o tamanho das peças automotivas produzidas
+  (variável aleatória X) segue distribuição Normal de média \(111\) e
+  variância \(9\). Sabendo que \(P(X<k)=0.09\), indique o valor de k.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(102.76\)
+  \item
+    \(115.02\)
+  \item
+    \(106.98\)
+  \item
+    \(123.07\)
+  \item
+    \(98.93\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(111,9)\), nós temos que \[\begin{aligned}
+  && P\left(X<k)=0.09 \iff \\
+  && P\left(\dfrac{X-111}{\sqrt{9}}<\dfrac{k-111}{\sqrt{9}}\right)=0.09 \iff \\
+  && P\left(Z<\dfrac{k-111}{\sqrt{9}}\right)=0.09
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.91\) é
+  \(1.34\). Desse modo, \[\dfrac{k-111}{\sqrt{9}} = -1.34\] e, portanto,
+  \[k = 106.98.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, o tamanho das peças automotivas produzidas
+  (variável aleatória X) segue distribuição Normal de média \(163\) e
+  variância \(4\). Sabendo que \(P(X<k)=0.08\), indique o valor de k.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(165.81\)
+  \item
+    \(160.19\)
+  \item
+    \(168.62\)
+  \item
+    \(157.38\)
+  \item
+    \(159.02\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(163,4)\), nós temos que \[\begin{aligned}
+  && P\left(X<k)=0.08 \iff \\
+  && P\left(\dfrac{X-163}{\sqrt{4}}<\dfrac{k-163}{\sqrt{4}}\right)=0.08 \iff \\
+  && P\left(Z<\dfrac{k-163}{\sqrt{4}}\right)=0.08
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.92\) é
+  \(1.41\). Desse modo, \[\dfrac{k-163}{\sqrt{4}} = -1.41\] e, portanto,
+  \[k = 160.19.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, o tamanho das peças automotivas produzidas
+  (variável aleatória X) segue distribuição Normal de média \(197\) e
+  variância \(2\). Sabendo que \(P(X<k)=0.09\), indique o valor de k.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(195.10\)
+  \item
+    \(198.90\)
+  \item
+    \(195.17\)
+  \item
+    \(199.68\)
+  \item
+    \(194.32\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(197,2)\), nós temos que \[\begin{aligned}
+  && P\left(X<k)=0.09 \iff \\
+  && P\left(\dfrac{X-197}{\sqrt{2}}<\dfrac{k-197}{\sqrt{2}}\right)=0.09 \iff \\
+  && P\left(Z<\dfrac{k-197}{\sqrt{2}}\right)=0.09
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.91\) é
+  \(1.34\). Desse modo, \[\dfrac{k-197}{\sqrt{2}} = -1.34\] e, portanto,
+  \[k = 195.10.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, o tamanho das peças automotivas produzidas
+  (variável aleatória X) segue distribuição Normal de média \(191\) e
+  variância \(4\). Sabendo que \(P(X<k)=0.06\), indique o valor de k.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(187.89\)
+  \item
+    \(184.78\)
+  \item
+    \(197.22\)
+  \item
+    \(186.30\)
+  \item
+    \(194.11\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(191,4)\), nós temos que \[\begin{aligned}
+  && P\left(X<k)=0.06 \iff \\
+  && P\left(\dfrac{X-191}{\sqrt{4}}<\dfrac{k-191}{\sqrt{4}}\right)=0.06 \iff \\
+  && P\left(Z<\dfrac{k-191}{\sqrt{4}}\right)=0.06
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.94\) é
+  \(1.55\). Desse modo, \[\dfrac{k-191}{\sqrt{4}} = -1.55\] e, portanto,
+  \[k = 187.89.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

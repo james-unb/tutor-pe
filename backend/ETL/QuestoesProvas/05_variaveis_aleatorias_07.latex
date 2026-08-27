@@ -1,0 +1,542 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco está fazendo seu planejamento orçamentário e, para isso, faz
+  um levantamento das solicitações de empréstimos por semana. Seja \(X\)
+  a variável aleatória que representa o número de empréstimos aprovados
+  semanalmente, segue abaixo sua tabela de distribuição de
+  probabilidades. Considerando os dados fornecidos, qual é a média do
+  número de empréstimo aprovados por semana neste banco?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.21\) & \(0.34\) & \(0.09\) & \(0.3\) & \(0.06\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.02\)
+  \item
+    \(1.66\)
+  \item
+    \(4.36\)
+  \item
+    \(2.16\)
+  \item
+    \(4.06\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Segue da distribuição de probabilidades apresentada que o valor
+  esperado da variável \(X\) é \[\begin{aligned}
+  E(X) &=& \sum_{k=0}^4 k~P(X=k) = 0 \times 0.21+
+  1 \times 0.34+2 \times 0.09+3 \times 0.3+4 \times 0.06 \\
+  &=& 1.66.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco está fazendo seu planejamento orçamentário e, para isso, faz
+  um levantamento das solicitações de empréstimos por semana. Seja \(X\)
+  a variável aleatória que representa o número de empréstimos aprovados
+  semanalmente, segue abaixo sua tabela de distribuição de
+  probabilidades. Considerando os dados fornecidos, qual é a média do
+  número de empréstimo aprovados por semana neste banco?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.37\) & \(0.03\) & \(0.07\) & \(0.35\) & \(0.18\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8.28\)
+  \item
+    \(2.44\)
+  \item
+    \(1.94\)
+  \item
+    \(6.34\)
+  \item
+    \(6.04\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Segue da distribuição de probabilidades apresentada que o valor
+  esperado da variável \(X\) é \[\begin{aligned}
+  E(X) &=& \sum_{k=0}^4 k~P(X=k) = 0 \times 0.37+
+  1 \times 0.03+2 \times 0.07+3 \times 0.35+4 \times 0.18 \\
+  &=& 1.94.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco está fazendo seu planejamento orçamentário e, para isso, faz
+  um levantamento das solicitações de empréstimos por semana. Seja \(X\)
+  a variável aleatória que representa o número de empréstimos aprovados
+  semanalmente, segue abaixo sua tabela de distribuição de
+  probabilidades. Considerando os dados fornecidos, qual é a média do
+  número de empréstimo aprovados por semana neste banco?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.22\) & \(0.07\) & \(0.4\) & \(0.27\) & \(0.04\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.74\)
+  \item
+    \(2.34\)
+  \item
+    \(1.84\)
+  \item
+    \(4.44\)
+  \item
+    \(6.58\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Segue da distribuição de probabilidades apresentada que o valor
+  esperado da variável \(X\) é \[\begin{aligned}
+  E(X) &=& \sum_{k=0}^4 k~P(X=k) = 0 \times 0.22+
+  1 \times 0.07+2 \times 0.4+3 \times 0.27+4 \times 0.04 \\
+  &=& 1.84.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco está fazendo seu planejamento orçamentário e, para isso, faz
+  um levantamento das solicitações de empréstimos por semana. Seja \(X\)
+  a variável aleatória que representa o número de empréstimos aprovados
+  semanalmente, segue abaixo sua tabela de distribuição de
+  probabilidades. Considerando os dados fornecidos, qual é a média do
+  número de empréstimo aprovados por semana neste banco?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.2\) & \(0.18\) & \(0.18\) & \(0.3\) & \(0.14\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5.54\)
+  \item
+    \(5.84\)
+  \item
+    \(2.00\)
+  \item
+    \(7.84\)
+  \item
+    \(2.50\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Segue da distribuição de probabilidades apresentada que o valor
+  esperado da variável \(X\) é \[\begin{aligned}
+  E(X) &=& \sum_{k=0}^4 k~P(X=k) = 0 \times 0.2+
+  1 \times 0.18+2 \times 0.18+3 \times 0.3+4 \times 0.14 \\
+  &=& 2.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco está fazendo seu planejamento orçamentário e, para isso, faz
+  um levantamento das solicitações de empréstimos por semana. Seja \(X\)
+  a variável aleatória que representa o número de empréstimos aprovados
+  semanalmente, segue abaixo sua tabela de distribuição de
+  probabilidades. Considerando os dados fornecidos, qual é a média do
+  número de empréstimo aprovados por semana neste banco?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.08\) & \(0.07\) & \(0.34\) & \(0.34\) & \(0.17\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2.95\)
+  \item
+    \(2.45\)
+  \item
+    \(7.21\)
+  \item
+    \(9.66\)
+  \item
+    \(6.91\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Segue da distribuição de probabilidades apresentada que o valor
+  esperado da variável \(X\) é \[\begin{aligned}
+  E(X) &=& \sum_{k=0}^4 k~P(X=k) = 0 \times 0.08+
+  1 \times 0.07+2 \times 0.34+3 \times 0.34+4 \times 0.17 \\
+  &=& 2.45.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco está fazendo seu planejamento orçamentário e, para isso, faz
+  um levantamento das solicitações de empréstimos por semana. Seja \(X\)
+  a variável aleatória que representa o número de empréstimos aprovados
+  semanalmente, segue abaixo sua tabela de distribuição de
+  probabilidades. Considerando os dados fornecidos, qual é a média do
+  número de empréstimo aprovados por semana neste banco?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.1\) & \(0.13\) & \(0.13\) & \(0.53\) & \(0.11\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2.42\)
+  \item
+    \(7.18\)
+  \item
+    \(6.88\)
+  \item
+    \(2.92\)
+  \item
+    \(9.60\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Segue da distribuição de probabilidades apresentada que o valor
+  esperado da variável \(X\) é \[\begin{aligned}
+  E(X) &=& \sum_{k=0}^4 k~P(X=k) = 0 \times 0.1+
+  1 \times 0.13+2 \times 0.13+3 \times 0.53+4 \times 0.11 \\
+  &=& 2.42.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco está fazendo seu planejamento orçamentário e, para isso, faz
+  um levantamento das solicitações de empréstimos por semana. Seja \(X\)
+  a variável aleatória que representa o número de empréstimos aprovados
+  semanalmente, segue abaixo sua tabela de distribuição de
+  probabilidades. Considerando os dados fornecidos, qual é a média do
+  número de empréstimo aprovados por semana neste banco?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.06\) & \(0.38\) & \(0.17\) & \(0.18\) & \(0.21\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5.74\)
+  \item
+    \(2.60\)
+  \item
+    \(6.04\)
+  \item
+    \(8.14\)
+  \item
+    \(2.10\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Segue da distribuição de probabilidades apresentada que o valor
+  esperado da variável \(X\) é \[\begin{aligned}
+  E(X) &=& \sum_{k=0}^4 k~P(X=k) = 0 \times 0.06+
+  1 \times 0.38+2 \times 0.17+3 \times 0.18+4 \times 0.21 \\
+  &=& 2.1.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco está fazendo seu planejamento orçamentário e, para isso, faz
+  um levantamento das solicitações de empréstimos por semana. Seja \(X\)
+  a variável aleatória que representa o número de empréstimos aprovados
+  semanalmente, segue abaixo sua tabela de distribuição de
+  probabilidades. Considerando os dados fornecidos, qual é a média do
+  número de empréstimo aprovados por semana neste banco?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.12\) & \(0.04\) & \(0.12\) & \(0.19\) & \(0.53\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(10.41\)
+  \item
+    \(3.47\)
+  \item
+    \(10.71\)
+  \item
+    \(2.97\)
+  \item
+    \(13.68\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Segue da distribuição de probabilidades apresentada que o valor
+  esperado da variável \(X\) é \[\begin{aligned}
+  E(X) &=& \sum_{k=0}^4 k~P(X=k) = 0 \times 0.12+
+  1 \times 0.04+2 \times 0.12+3 \times 0.19+4 \times 0.53 \\
+  &=& 2.97.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco está fazendo seu planejamento orçamentário e, para isso, faz
+  um levantamento das solicitações de empréstimos por semana. Seja \(X\)
+  a variável aleatória que representa o número de empréstimos aprovados
+  semanalmente, segue abaixo sua tabela de distribuição de
+  probabilidades. Considerando os dados fornecidos, qual é a média do
+  número de empréstimo aprovados por semana neste banco?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.05\) & \(0.17\) & \(0.08\) & \(0.19\) & \(0.51\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(10.36\)
+  \item
+    \(2.94\)
+  \item
+    \(13.30\)
+  \item
+    \(3.44\)
+  \item
+    \(10.06\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Segue da distribuição de probabilidades apresentada que o valor
+  esperado da variável \(X\) é \[\begin{aligned}
+  E(X) &=& \sum_{k=0}^4 k~P(X=k) = 0 \times 0.05+
+  1 \times 0.17+2 \times 0.08+3 \times 0.19+4 \times 0.51 \\
+  &=& 2.94.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um banco está fazendo seu planejamento orçamentário e, para isso, faz
+  um levantamento das solicitações de empréstimos por semana. Seja \(X\)
+  a variável aleatória que representa o número de empréstimos aprovados
+  semanalmente, segue abaixo sua tabela de distribuição de
+  probabilidades. Considerando os dados fornecidos, qual é a média do
+  número de empréstimo aprovados por semana neste banco?
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(0\) & \(1\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.28\) & \(0.05\) & \(0.11\) & \(0.37\) & \(0.19\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2.14\)
+  \item
+    \(9.00\)
+  \item
+    \(2.64\)
+  \item
+    \(6.56\)
+  \item
+    \(6.86\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Segue da distribuição de probabilidades apresentada que o valor
+  esperado da variável \(X\) é \[\begin{aligned}
+  E(X) &=& \sum_{k=0}^4 k~P(X=k) = 0 \times 0.28+
+  1 \times 0.05+2 \times 0.11+3 \times 0.37+4 \times 0.19 \\
+  &=& 2.14.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

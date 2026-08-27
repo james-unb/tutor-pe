@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma grande empresa de serviço de streaming deseja lançar uma nova
+  série. Para tanto, decidiu apresentá-la a um grupo aleatório de
+  voluntários. Considerando séries anteriores, a estimativa preliminar
+  de pessoas que gostarão da série é de \(70.6\%\). Qual deverá ser o
+  tamanho mínimo da amostra tal que, para um intervalo de confiança de
+  \(95\%\), a margem de erro da estimativa seja de, \emph{no máximo},
+  \(2.5\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(894\)
+  \item
+    \(1276\)
+  \item
+    \(1340\)
+  \item
+    \(1308\)
+  \item
+    \(1021\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.025} \right)^2 \times 0.706 \times (1-0.706)=1275.8.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1276\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma grande empresa de serviço de streaming deseja lançar uma nova
+  série. Para tanto, decidiu apresentá-la a um grupo aleatório de
+  voluntários. Considerando séries anteriores, a estimativa preliminar
+  de pessoas que gostarão da série é de \(74.6\%\). Qual deverá ser o
+  tamanho mínimo da amostra tal que, para um intervalo de confiança de
+  \(98\%\), a margem de erro da estimativa seja de, \emph{no máximo},
+  \(1.5\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3540\)
+  \item
+    \(4686\)
+  \item
+    \(3658\)
+  \item
+    \(4801\)
+  \item
+    \(4572\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.015} \right)^2 \times 0.746 \times (1-0.746)=4571.95.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=4572\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma grande empresa de serviço de streaming deseja lançar uma nova
+  série. Para tanto, decidiu apresentá-la a um grupo aleatório de
+  voluntários. Considerando séries anteriores, a estimativa preliminar
+  de pessoas que gostarão da série é de \(83\%\). Qual deverá ser o
+  tamanho mínimo da amostra tal que, para um intervalo de confiança de
+  \(97\%\), a margem de erro da estimativa seja de, \emph{no máximo},
+  \(1.9\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1473\)
+  \item
+    \(2117\)
+  \item
+    \(1979\)
+  \item
+    \(1382\)
+  \item
+    \(1841\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.019} \right)^2 \times 0.83 \times (1-0.83)=1840.51.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1841\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma grande empresa de serviço de streaming deseja lançar uma nova
+  série. Para tanto, decidiu apresentá-la a um grupo aleatório de
+  voluntários. Considerando séries anteriores, a estimativa preliminar
+  de pessoas que gostarão da série é de \(85\%\). Qual deverá ser o
+  tamanho mínimo da amostra tal que, para um intervalo de confiança de
+  \(97\%\), a margem de erro da estimativa seja de, \emph{no máximo},
+  \(2.3\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1135\)
+  \item
+    \(908\)
+  \item
+    \(1192\)
+  \item
+    \(1248\)
+  \item
+    \(852\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.023} \right)^2 \times 0.85 \times (1-0.85)=1134.94.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1135\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma grande empresa de serviço de streaming deseja lançar uma nova
+  série. Para tanto, decidiu apresentá-la a um grupo aleatório de
+  voluntários. Considerando séries anteriores, a estimativa preliminar
+  de pessoas que gostarão da série é de \(83.2\%\). Qual deverá ser o
+  tamanho mínimo da amostra tal que, para um intervalo de confiança de
+  \(95\%\), a margem de erro da estimativa seja de, \emph{no máximo},
+  \(1.9\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1637\)
+  \item
+    \(1042\)
+  \item
+    \(1786\)
+  \item
+    \(1339\)
+  \item
+    \(1488\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.019} \right)^2 \times 0.832 \times (1-0.832)=1487.43.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1488\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma grande empresa de serviço de streaming deseja lançar uma nova
+  série. Para tanto, decidiu apresentá-la a um grupo aleatório de
+  voluntários. Considerando séries anteriores, a estimativa preliminar
+  de pessoas que gostarão da série é de \(74\%\). Qual deverá ser o
+  tamanho mínimo da amostra tal que, para um intervalo de confiança de
+  \(96\%\), a margem de erro da estimativa seja de, \emph{no máximo},
+  \(2.1\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1742\)
+  \item
+    \(2018\)
+  \item
+    \(2201\)
+  \item
+    \(1834\)
+  \item
+    \(1337\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.021} \right)^2 \times 0.74 \times (1-0.74)=1833.47.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1834\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma grande empresa de serviço de streaming deseja lançar uma nova
+  série. Para tanto, decidiu apresentá-la a um grupo aleatório de
+  voluntários. Considerando séries anteriores, a estimativa preliminar
+  de pessoas que gostarão da série é de \(75.8\%\). Qual deverá ser o
+  tamanho mínimo da amostra tal que, para um intervalo de confiança de
+  \(97\%\), a margem de erro da estimativa seja de, \emph{no máximo},
+  \(2.3\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1306\)
+  \item
+    \(1674\)
+  \item
+    \(1715\)
+  \item
+    \(1633\)
+  \item
+    \(1226\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.023} \right)^2 \times 0.758 \times (1-0.758)=1632.86.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1633\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma grande empresa de serviço de streaming deseja lançar uma nova
+  série. Para tanto, decidiu apresentá-la a um grupo aleatório de
+  voluntários. Considerando séries anteriores, a estimativa preliminar
+  de pessoas que gostarão da série é de \(83.8\%\). Qual deverá ser o
+  tamanho mínimo da amostra tal que, para um intervalo de confiança de
+  \(96\%\), a margem de erro da estimativa seja de, \emph{no máximo},
+  \(2.1\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1359\)
+  \item
+    \(1035\)
+  \item
+    \(1326\)
+  \item
+    \(1294\)
+  \item
+    \(943\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.021} \right)^2 \times 0.838 \times (1-0.838)=1293.68.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1294\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma grande empresa de serviço de streaming deseja lançar uma nova
+  série. Para tanto, decidiu apresentá-la a um grupo aleatório de
+  voluntários. Considerando séries anteriores, a estimativa preliminar
+  de pessoas que gostarão da série é de \(77.4\%\). Qual deverá ser o
+  tamanho mínimo da amostra tal que, para um intervalo de confiança de
+  \(96\%\), a margem de erro da estimativa seja de, \emph{no máximo},
+  \(1.9\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1833\)
+  \item
+    \(2343\)
+  \item
+    \(2190\)
+  \item
+    \(1484\)
+  \item
+    \(2037\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.019} \right)^2 \times 0.774 \times (1-0.774)=2036.34.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2037\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma grande empresa de serviço de streaming deseja lançar uma nova
+  série. Para tanto, decidiu apresentá-la a um grupo aleatório de
+  voluntários. Considerando séries anteriores, a estimativa preliminar
+  de pessoas que gostarão da série é de \(71.8\%\). Qual deverá ser o
+  tamanho mínimo da amostra tal que, para um intervalo de confiança de
+  \(96\%\), a margem de erro da estimativa seja de, \emph{no máximo},
+  \(2.5\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1362\)
+  \item
+    \(1566\)
+  \item
+    \(1464\)
+  \item
+    \(993\)
+  \item
+    \(1158\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.025} \right)^2 \times 0.718 \times (1-0.718)=1361.45.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1362\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

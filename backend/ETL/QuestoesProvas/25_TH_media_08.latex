@@ -1,0 +1,572 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Analistas de uma companhia de seguros desconfiam dos valores altos de
+  reparos feitos por uma oficina credenciada. Historicamente, o custo
+  médio de reparos custeados pela seguradora é igual a \(1200\) reais.
+  Uma amostra de valores de reparo de \(22\) veículos na referida
+  oficina forneceu um valor médio de \(1266.41\) reais e desvio-padrão
+  de \(190\). Teste, a um nível de significância de \(10\%\), se há
+  evidência de que a oficina está cobrando pelos reparos, em média, mais
+  do que o valor médio comumente observado pela seguradora. Assuma que o
+  custo dos reparos segue uma distribuição Normal.\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=1200\; \emph{vs. }  H_a: \bar{x} >1200\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=1200\; \emph{vs. }  H_a: \bar{x}>1200\). \(H_0\) não
+    é rejeitada.
+  \item
+    \(H_0: \mu \leq1200\; \emph{vs. }  H_a: \mu >1200\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=1200\; \emph{vs. }  H_a: \mu \neq 1200\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq1200\; \emph{vs. }  H_a: \mu >1200\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 1200\) \emph{vs.} \(H_a: \mu > 1200\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=1200)=P\left(T_{n-1}>\frac{c-1200}{190/\sqrt{22}}\right)=0.1\).
+
+  Portanto, \(\frac{c-1200}{190/\sqrt{22}}=1.32 \Rightarrow c=1253.47\).
+
+  Daí, como \(\bar{x} =\) \(1266.41 > 1253.47\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Analistas de uma companhia de seguros desconfiam dos valores altos de
+  reparos feitos por uma oficina credenciada. Historicamente, o custo
+  médio de reparos custeados pela seguradora é igual a \(1100\) reais.
+  Uma amostra de valores de reparo de \(24\) veículos na referida
+  oficina forneceu um valor médio de \(1166.68\) reais e desvio-padrão
+  de \(200\). Teste, a um nível de significância de \(10\%\), se há
+  evidência de que a oficina está cobrando pelos reparos, em média, mais
+  do que o valor médio comumente observado pela seguradora. Assuma que o
+  custo dos reparos segue uma distribuição Normal.\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=1100\; \emph{vs. }  H_a: \mu \neq 1100\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq1100\; \emph{vs. }  H_a: \mu >1100\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq1100\; \emph{vs. }  H_a: \mu >1100\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=1100\; \emph{vs. }  H_a: \bar{x} >1100\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=1100\; \emph{vs. }  H_a: \bar{x}>1100\). \(H_0\) não
+    é rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 1100\) \emph{vs.} \(H_a: \mu > 1100\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=1100)=P\left(T_{n-1}>\frac{c-1100}{200/\sqrt{24}}\right)=0.1\).
+
+  Portanto, \(\frac{c-1100}{200/\sqrt{24}}=1.32 \Rightarrow c=1153.89\).
+
+  Daí, como \(\bar{x} =\) \(1166.68 > 1153.89\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Analistas de uma companhia de seguros desconfiam dos valores altos de
+  reparos feitos por uma oficina credenciada. Historicamente, o custo
+  médio de reparos custeados pela seguradora é igual a \(1100\) reais.
+  Uma amostra de valores de reparo de \(25\) veículos na referida
+  oficina forneceu um valor médio de \(1164.86\) reais e desvio-padrão
+  de \(200\). Teste, a um nível de significância de \(10\%\), se há
+  evidência de que a oficina está cobrando pelos reparos, em média, mais
+  do que o valor médio comumente observado pela seguradora. Assuma que o
+  custo dos reparos segue uma distribuição Normal.\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=1100\; \emph{vs. }  H_a: \bar{x} >1100\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=1100\; \emph{vs. }  H_a: \bar{x}>1100\). \(H_0\) não
+    é rejeitada.
+  \item
+    \(H_0: \mu=1100\; \emph{vs. }  H_a: \mu \neq 1100\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq1100\; \emph{vs. }  H_a: \mu >1100\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq1100\; \emph{vs. }  H_a: \mu >1100\). \(H_0\) não é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 1100\) \emph{vs.} \(H_a: \mu > 1100\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=1100)=P\left(T_{n-1}>\frac{c-1100}{200/\sqrt{25}}\right)=0.1\).
+
+  Portanto, \(\frac{c-1100}{200/\sqrt{25}}=1.32 \Rightarrow c=1152.8\).
+
+  Daí, como \(\bar{x} =\) \(1164.86 > 1152.8\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Analistas de uma companhia de seguros desconfiam dos valores altos de
+  reparos feitos por uma oficina credenciada. Historicamente, o custo
+  médio de reparos custeados pela seguradora é igual a \(1000\) reais.
+  Uma amostra de valores de reparo de \(27\) veículos na referida
+  oficina forneceu um valor médio de \(1043.11\) reais e desvio-padrão
+  de \(220\). Teste, a um nível de significância de \(10\%\), se há
+  evidência de que a oficina está cobrando pelos reparos, em média, mais
+  do que o valor médio comumente observado pela seguradora. Assuma que o
+  custo dos reparos segue uma distribuição Normal.\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=1000\; \emph{vs. }  H_a: \mu \neq 1000\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=1000\; \emph{vs. }  H_a: \bar{x}>1000\). \(H_0\) não
+    é rejeitada.
+  \item
+    \(H_0: \bar{x}=1000\; \emph{vs. }  H_a: \bar{x} >1000\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq1000\; \emph{vs. }  H_a: \mu >1000\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq1000\; \emph{vs. }  H_a: \mu >1000\). \(H_0\) não é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 1000\) \emph{vs.} \(H_a: \mu > 1000\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=1000)=P\left(T_{n-1}>\frac{c-1000}{220/\sqrt{27}}\right)=0.1\).
+
+  Portanto, \(\frac{c-1000}{220/\sqrt{27}}=1.31 \Rightarrow c=1055.46\).
+
+  Daí, como \(\bar{x} =\) \(1043.11 < 1055.46\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Analistas de uma companhia de seguros desconfiam dos valores altos de
+  reparos feitos por uma oficina credenciada. Historicamente, o custo
+  médio de reparos custeados pela seguradora é igual a \(1100\) reais.
+  Uma amostra de valores de reparo de \(28\) veículos na referida
+  oficina forneceu um valor médio de \(1170.38\) reais e desvio-padrão
+  de \(220\). Teste, a um nível de significância de \(10\%\), se há
+  evidência de que a oficina está cobrando pelos reparos, em média, mais
+  do que o valor médio comumente observado pela seguradora. Assuma que o
+  custo dos reparos segue uma distribuição Normal.\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=1100\; \emph{vs. }  H_a: \bar{x} >1100\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=1100\; \emph{vs. }  H_a: \mu \neq 1100\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq1100\; \emph{vs. }  H_a: \mu >1100\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=1100\; \emph{vs. }  H_a: \bar{x}>1100\). \(H_0\) não
+    é rejeitada.
+  \item
+    \(H_0: \mu \leq1100\; \emph{vs. }  H_a: \mu >1100\). \(H_0\) não é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 1100\) \emph{vs.} \(H_a: \mu > 1100\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=1100)=P\left(T_{n-1}>\frac{c-1100}{220/\sqrt{28}}\right)=0.1\).
+
+  Portanto, \(\frac{c-1100}{220/\sqrt{28}}=1.31 \Rightarrow c=1154.46\).
+
+  Daí, como \(\bar{x} =\) \(1170.38 > 1154.46\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Analistas de uma companhia de seguros desconfiam dos valores altos de
+  reparos feitos por uma oficina credenciada. Historicamente, o custo
+  médio de reparos custeados pela seguradora é igual a \(1100\) reais.
+  Uma amostra de valores de reparo de \(28\) veículos na referida
+  oficina forneceu um valor médio de \(1136.84\) reais e desvio-padrão
+  de \(190\). Teste, a um nível de significância de \(10\%\), se há
+  evidência de que a oficina está cobrando pelos reparos, em média, mais
+  do que o valor médio comumente observado pela seguradora. Assuma que o
+  custo dos reparos segue uma distribuição Normal.\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq1100\; \emph{vs. }  H_a: \mu >1100\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=1100\; \emph{vs. }  H_a: \mu \neq 1100\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=1100\; \emph{vs. }  H_a: \bar{x}>1100\). \(H_0\) não
+    é rejeitada.
+  \item
+    \(H_0: \bar{x}=1100\; \emph{vs. }  H_a: \bar{x} >1100\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq1100\; \emph{vs. }  H_a: \mu >1100\). \(H_0\) não é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 1100\) \emph{vs.} \(H_a: \mu > 1100\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=1100)=P\left(T_{n-1}>\frac{c-1100}{190/\sqrt{28}}\right)=0.1\).
+
+  Portanto, \(\frac{c-1100}{190/\sqrt{28}}=1.31 \Rightarrow c=1147.04\).
+
+  Daí, como \(\bar{x} =\) \(1136.84 < 1147.04\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Analistas de uma companhia de seguros desconfiam dos valores altos de
+  reparos feitos por uma oficina credenciada. Historicamente, o custo
+  médio de reparos custeados pela seguradora é igual a \(1200\) reais.
+  Uma amostra de valores de reparo de \(30\) veículos na referida
+  oficina forneceu um valor médio de \(1267.01\) reais e desvio-padrão
+  de \(220\). Teste, a um nível de significância de \(10\%\), se há
+  evidência de que a oficina está cobrando pelos reparos, em média, mais
+  do que o valor médio comumente observado pela seguradora. Assuma que o
+  custo dos reparos segue uma distribuição Normal.\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=1200\; \emph{vs. }  H_a: \bar{x}>1200\). \(H_0\) não
+    é rejeitada.
+  \item
+    \(H_0: \mu \leq1200\; \emph{vs. }  H_a: \mu >1200\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=1200\; \emph{vs. }  H_a: \mu \neq 1200\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=1200\; \emph{vs. }  H_a: \bar{x} >1200\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq1200\; \emph{vs. }  H_a: \mu >1200\). \(H_0\) não é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 1200\) \emph{vs.} \(H_a: \mu > 1200\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=1200)=P\left(T_{n-1}>\frac{c-1200}{220/\sqrt{30}}\right)=0.1\).
+
+  Portanto, \(\frac{c-1200}{220/\sqrt{30}}=1.31 \Rightarrow c=1252.62\).
+
+  Daí, como \(\bar{x} =\) \(1267.01 > 1252.62\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Analistas de uma companhia de seguros desconfiam dos valores altos de
+  reparos feitos por uma oficina credenciada. Historicamente, o custo
+  médio de reparos custeados pela seguradora é igual a \(1300\) reais.
+  Uma amostra de valores de reparo de \(29\) veículos na referida
+  oficina forneceu um valor médio de \(1359.9\) reais e desvio-padrão de
+  \(200\). Teste, a um nível de significância de \(10\%\), se há
+  evidência de que a oficina está cobrando pelos reparos, em média, mais
+  do que o valor médio comumente observado pela seguradora. Assuma que o
+  custo dos reparos segue uma distribuição Normal.\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=1300\; \emph{vs. }  H_a: \mu \neq 1300\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq1300\; \emph{vs. }  H_a: \mu >1300\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq1300\; \emph{vs. }  H_a: \mu >1300\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=1300\; \emph{vs. }  H_a: \bar{x} >1300\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=1300\; \emph{vs. }  H_a: \bar{x}>1300\). \(H_0\) não
+    é rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 1300\) \emph{vs.} \(H_a: \mu > 1300\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=1300)=P\left(T_{n-1}>\frac{c-1300}{200/\sqrt{29}}\right)=0.1\).
+
+  Portanto, \(\frac{c-1300}{200/\sqrt{29}}=1.31 \Rightarrow c=1348.65\).
+
+  Daí, como \(\bar{x} =\) \(1359.9 > 1348.65\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Analistas de uma companhia de seguros desconfiam dos valores altos de
+  reparos feitos por uma oficina credenciada. Historicamente, o custo
+  médio de reparos custeados pela seguradora é igual a \(1300\) reais.
+  Uma amostra de valores de reparo de \(26\) veículos na referida
+  oficina forneceu um valor médio de \(1343.41\) reais e desvio-padrão
+  de \(210\). Teste, a um nível de significância de \(10\%\), se há
+  evidência de que a oficina está cobrando pelos reparos, em média, mais
+  do que o valor médio comumente observado pela seguradora. Assuma que o
+  custo dos reparos segue uma distribuição Normal.\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq1300\; \emph{vs. }  H_a: \mu >1300\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=1300\; \emph{vs. }  H_a: \mu \neq 1300\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq1300\; \emph{vs. }  H_a: \mu >1300\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=1300\; \emph{vs. }  H_a: \bar{x} >1300\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=1300\; \emph{vs. }  H_a: \bar{x}>1300\). \(H_0\) não
+    é rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 1300\) \emph{vs.} \(H_a: \mu > 1300\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=1300)=P\left(T_{n-1}>\frac{c-1300}{210/\sqrt{26}}\right)=0.1\).
+
+  Portanto, \(\frac{c-1300}{210/\sqrt{26}}=1.32 \Rightarrow c=1354.36\).
+
+  Daí, como \(\bar{x} =\) \(1343.41 < 1354.36\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Analistas de uma companhia de seguros desconfiam dos valores altos de
+  reparos feitos por uma oficina credenciada. Historicamente, o custo
+  médio de reparos custeados pela seguradora é igual a \(1300\) reais.
+  Uma amostra de valores de reparo de \(26\) veículos na referida
+  oficina forneceu um valor médio de \(1336.89\) reais e desvio-padrão
+  de \(180\). Teste, a um nível de significância de \(10\%\), se há
+  evidência de que a oficina está cobrando pelos reparos, em média, mais
+  do que o valor médio comumente observado pela seguradora. Assuma que o
+  custo dos reparos segue uma distribuição Normal.\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq1300\; \emph{vs. }  H_a: \mu >1300\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=1300\; \emph{vs. }  H_a: \mu \neq 1300\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq1300\; \emph{vs. }  H_a: \mu >1300\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=1300\; \emph{vs. }  H_a: \bar{x}>1300\). \(H_0\) não
+    é rejeitada.
+  \item
+    \(H_0: \bar{x}=1300\; \emph{vs. }  H_a: \bar{x} >1300\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 1300\) \emph{vs.} \(H_a: \mu > 1300\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=1300)=P\left(T_{n-1}>\frac{c-1300}{180/\sqrt{26}}\right)=0.1\).
+
+  Portanto, \(\frac{c-1300}{180/\sqrt{26}}=1.32 \Rightarrow c=1346.6\).
+
+  Daí, como \(\bar{x} =\) \(1336.89 < 1346.6\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

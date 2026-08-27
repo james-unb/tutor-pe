@@ -1,0 +1,562 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A análise dos dados históricos indica que na segunda metade do último
+  século eram observados anualmente, em média, \(\mu=8\) furacões no
+  Atlântico. Um pesquisador deseja avaliar se \(\mu\) sofreu alteração
+  no século atual. Considere os valores obtidos nos \(10\) primeiros
+  anos do novo século como sendo uma amostra independente de uma
+  distribuição \(N(\mu, \sigma^2=92)\). Nesse contexto, se a média
+  amostral observada foi de \(13.1\), então, a um nível de significância
+  de \(5\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=8\; \emph{vs. }  H_a: \bar{x}=13.1\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=8\; \emph{vs. }  H_a: \mu < 8\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \mu=8\; \emph{vs. }  H_a: \mu \neq8\). Há evidência de que a
+    média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=8\; \emph{vs. }  H_a: \mu \neq8\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=13.1\; \emph{vs. }  H_a: \bar{x}>13.1\). Há evidência
+    de que a média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=8\)
+  \emph{vs.} \(H_a: \mu \neq 8\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=8)= 2P\left(Z>\frac{c-8}{\sqrt{92/10}}\right)=0.05\).
+
+  Portanto, \(\frac{c-8}{\sqrt{92/10}}=1.96 \Rightarrow c=13.94\).
+
+  Daí, como \(\bar{x} =\) \(13.1 < 13.94\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A análise dos dados históricos indica que na segunda metade do último
+  século eram observados anualmente, em média, \(\mu=10\) furacões no
+  Atlântico. Um pesquisador deseja avaliar se \(\mu\) sofreu alteração
+  no século atual. Considere os valores obtidos nos \(10\) primeiros
+  anos do novo século como sendo uma amostra independente de uma
+  distribuição \(N(\mu, \sigma^2=98)\). Nesse contexto, se a média
+  amostral observada foi de \(15.27\), então, a um nível de
+  significância de \(5\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=10\; \emph{vs. }  H_a: \bar{x}=15.27\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=10\; \emph{vs. }  H_a: \mu < 10\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \mu=10\; \emph{vs. }  H_a: \mu \neq10\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=10\; \emph{vs. }  H_a: \mu \neq10\). Há evidência de que
+    a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=15.27\; \emph{vs. }  H_a: \bar{x}>15.27\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=10\)
+  \emph{vs.} \(H_a: \mu \neq 10\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=10)= 2P\left(Z>\frac{c-10}{\sqrt{98/10}}\right)=0.05\).
+
+  Portanto, \(\frac{c-10}{\sqrt{98/10}}=1.96 \Rightarrow c=16.14\).
+
+  Daí, como \(\bar{x} =\) \(15.27 < 16.14\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A análise dos dados históricos indica que na segunda metade do último
+  século eram observados anualmente, em média, \(\mu=9\) furacões no
+  Atlântico. Um pesquisador deseja avaliar se \(\mu\) sofreu alteração
+  no século atual. Considere os valores obtidos nos \(10\) primeiros
+  anos do novo século como sendo uma amostra independente de uma
+  distribuição \(N(\mu, \sigma^2=98)\). Nesse contexto, se a média
+  amostral observada foi de \(16.78\), então, a um nível de
+  significância de \(5\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu \neq9\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=16.78\; \emph{vs. }  H_a: \bar{x}>16.78\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=9\; \emph{vs. }  H_a: \bar{x}=16.78\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu < 9\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu \neq9\). Há evidência de que a
+    média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=9\)
+  \emph{vs.} \(H_a: \mu \neq 9\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=9)= 2P\left(Z>\frac{c-9}{\sqrt{98/10}}\right)=0.05\).
+
+  Portanto, \(\frac{c-9}{\sqrt{98/10}}=1.96 \Rightarrow c=15.14\).
+
+  Daí, como \(\bar{x} =\) \(16.78 > 15.14\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A análise dos dados históricos indica que na segunda metade do último
+  século eram observados anualmente, em média, \(\mu=10\) furacões no
+  Atlântico. Um pesquisador deseja avaliar se \(\mu\) sofreu alteração
+  no século atual. Considere os valores obtidos nos \(10\) primeiros
+  anos do novo século como sendo uma amostra independente de uma
+  distribuição \(N(\mu, \sigma^2=97)\). Nesse contexto, se a média
+  amostral observada foi de \(17.58\), então, a um nível de
+  significância de \(5\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=10\; \emph{vs. }  H_a: \bar{x}=17.58\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=10\; \emph{vs. }  H_a: \mu < 10\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \bar{x}=17.58\; \emph{vs. }  H_a: \bar{x}>17.58\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=10\; \emph{vs. }  H_a: \mu \neq10\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=10\; \emph{vs. }  H_a: \mu \neq10\). Há evidência de que
+    a média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=10\)
+  \emph{vs.} \(H_a: \mu \neq 10\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=10)= 2P\left(Z>\frac{c-10}{\sqrt{97/10}}\right)=0.05\).
+
+  Portanto, \(\frac{c-10}{\sqrt{97/10}}=1.96 \Rightarrow c=16.1\).
+
+  Daí, como \(\bar{x} =\) \(17.58 > 16.1\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A análise dos dados históricos indica que na segunda metade do último
+  século eram observados anualmente, em média, \(\mu=9\) furacões no
+  Atlântico. Um pesquisador deseja avaliar se \(\mu\) sofreu alteração
+  no século atual. Considere os valores obtidos nos \(10\) primeiros
+  anos do novo século como sendo uma amostra independente de uma
+  distribuição \(N(\mu, \sigma^2=108)\). Nesse contexto, se a média
+  amostral observada foi de \(14.49\), então, a um nível de
+  significância de \(5\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=9\; \emph{vs. }  H_a: \bar{x}=14.49\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=14.49\; \emph{vs. }  H_a: \bar{x}>14.49\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu < 9\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu \neq9\). Há evidência de que a
+    média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu \neq9\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=9\)
+  \emph{vs.} \(H_a: \mu \neq 9\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=9)= 2P\left(Z>\frac{c-9}{\sqrt{108/10}}\right)=0.05\).
+
+  Portanto, \(\frac{c-9}{\sqrt{108/10}}=1.96 \Rightarrow c=15.44\).
+
+  Daí, como \(\bar{x} =\) \(14.49 < 15.44\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A análise dos dados históricos indica que na segunda metade do último
+  século eram observados anualmente, em média, \(\mu=9\) furacões no
+  Atlântico. Um pesquisador deseja avaliar se \(\mu\) sofreu alteração
+  no século atual. Considere os valores obtidos nos \(10\) primeiros
+  anos do novo século como sendo uma amostra independente de uma
+  distribuição \(N(\mu, \sigma^2=101)\). Nesse contexto, se a média
+  amostral observada foi de \(14.31\), então, a um nível de
+  significância de \(5\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu < 9\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu \neq9\). Há evidência de que a
+    média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=9\; \emph{vs. }  H_a: \bar{x}=14.31\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=14.31\; \emph{vs. }  H_a: \bar{x}>14.31\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu \neq9\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=9\)
+  \emph{vs.} \(H_a: \mu \neq 9\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=9)= 2P\left(Z>\frac{c-9}{\sqrt{101/10}}\right)=0.05\).
+
+  Portanto, \(\frac{c-9}{\sqrt{101/10}}=1.96 \Rightarrow c=15.23\).
+
+  Daí, como \(\bar{x} =\) \(14.31 < 15.23\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A análise dos dados históricos indica que na segunda metade do último
+  século eram observados anualmente, em média, \(\mu=9\) furacões no
+  Atlântico. Um pesquisador deseja avaliar se \(\mu\) sofreu alteração
+  no século atual. Considere os valores obtidos nos \(10\) primeiros
+  anos do novo século como sendo uma amostra independente de uma
+  distribuição \(N(\mu, \sigma^2=94)\). Nesse contexto, se a média
+  amostral observada foi de \(14.15\), então, a um nível de
+  significância de \(5\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=14.15\; \emph{vs. }  H_a: \bar{x}>14.15\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu < 9\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu \neq9\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=9\; \emph{vs. }  H_a: \bar{x}=14.15\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu \neq9\). Há evidência de que a
+    média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=9\)
+  \emph{vs.} \(H_a: \mu \neq 9\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=9)= 2P\left(Z>\frac{c-9}{\sqrt{94/10}}\right)=0.05\).
+
+  Portanto, \(\frac{c-9}{\sqrt{94/10}}=1.96 \Rightarrow c=15.01\).
+
+  Daí, como \(\bar{x} =\) \(14.15 < 15.01\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A análise dos dados históricos indica que na segunda metade do último
+  século eram observados anualmente, em média, \(\mu=9\) furacões no
+  Atlântico. Um pesquisador deseja avaliar se \(\mu\) sofreu alteração
+  no século atual. Considere os valores obtidos nos \(10\) primeiros
+  anos do novo século como sendo uma amostra independente de uma
+  distribuição \(N(\mu, \sigma^2=110)\). Nesse contexto, se a média
+  amostral observada foi de \(14.61\), então, a um nível de
+  significância de \(5\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu \neq9\). Há evidência de que a
+    média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=14.61\; \emph{vs. }  H_a: \bar{x}>14.61\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=9\; \emph{vs. }  H_a: \bar{x}=14.61\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu \neq9\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu < 9\). A média \((\mu)\)
+    certamente se alterou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=9\)
+  \emph{vs.} \(H_a: \mu \neq 9\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=9)= 2P\left(Z>\frac{c-9}{\sqrt{110/10}}\right)=0.05\).
+
+  Portanto, \(\frac{c-9}{\sqrt{110/10}}=1.96 \Rightarrow c=15.5\).
+
+  Daí, como \(\bar{x} =\) \(14.61 < 15.5\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A análise dos dados históricos indica que na segunda metade do último
+  século eram observados anualmente, em média, \(\mu=9\) furacões no
+  Atlântico. Um pesquisador deseja avaliar se \(\mu\) sofreu alteração
+  no século atual. Considere os valores obtidos nos \(10\) primeiros
+  anos do novo século como sendo uma amostra independente de uma
+  distribuição \(N(\mu, \sigma^2=92)\). Nesse contexto, se a média
+  amostral observada foi de \(14.1\), então, a um nível de significância
+  de \(5\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu \neq9\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=14.1\; \emph{vs. }  H_a: \bar{x}>14.1\). Há evidência
+    de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=9\; \emph{vs. }  H_a: \bar{x}=14.1\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu \neq9\). Há evidência de que a
+    média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=9\; \emph{vs. }  H_a: \mu < 9\). A média \((\mu)\)
+    certamente se alterou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=9\)
+  \emph{vs.} \(H_a: \mu \neq 9\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=9)= 2P\left(Z>\frac{c-9}{\sqrt{92/10}}\right)=0.05\).
+
+  Portanto, \(\frac{c-9}{\sqrt{92/10}}=1.96 \Rightarrow c=14.94\).
+
+  Daí, como \(\bar{x} =\) \(14.1 < 14.94\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A análise dos dados históricos indica que na segunda metade do último
+  século eram observados anualmente, em média, \(\mu=8\) furacões no
+  Atlântico. Um pesquisador deseja avaliar se \(\mu\) sofreu alteração
+  no século atual. Considere os valores obtidos nos \(10\) primeiros
+  anos do novo século como sendo uma amostra independente de uma
+  distribuição \(N(\mu, \sigma^2=94)\). Nesse contexto, se a média
+  amostral observada foi de \(13.09\), então, a um nível de
+  significância de \(5\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=8\; \emph{vs. }  H_a: \bar{x}=13.09\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=8\; \emph{vs. }  H_a: \mu < 8\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \mu=8\; \emph{vs. }  H_a: \mu \neq8\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=13.09\; \emph{vs. }  H_a: \bar{x}>13.09\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=8\; \emph{vs. }  H_a: \mu \neq8\). Há evidência de que a
+    média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=8\)
+  \emph{vs.} \(H_a: \mu \neq 8\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=8)= 2P\left(Z>\frac{c-8}{\sqrt{94/10}}\right)=0.05\).
+
+  Portanto, \(\frac{c-8}{\sqrt{94/10}}=1.96 \Rightarrow c=14.01\).
+
+  Daí, como \(\bar{x} =\) \(13.09 < 14.01\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

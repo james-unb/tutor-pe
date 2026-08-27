@@ -1,0 +1,492 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de ligações feitas por empresas de telefonia a seus
+  clientes em um mês é 332. Suponha que a quantidade de ligações por mês
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(299\)
+  \item
+    \(110556\)
+  \item
+    \(333\)
+  \item
+    \(332\)
+  \item
+    \(110224\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(332)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 332 \times 333 = 110556.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 110556.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de ligações feitas por empresas de telefonia a seus
+  clientes em um mês é 473. Suponha que a quantidade de ligações por mês
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(426\)
+  \item
+    \(474\)
+  \item
+    \(224202\)
+  \item
+    \(473\)
+  \item
+    \(223729\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(473)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 473 \times 474 = 224202.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 224202.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de ligações feitas por empresas de telefonia a seus
+  clientes em um mês é 308. Suponha que a quantidade de ligações por mês
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(95172\)
+  \item
+    \(308\)
+  \item
+    \(94864\)
+  \item
+    \(309\)
+  \item
+    \(277\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(308)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 308 \times 309 = 95172.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 95172.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de ligações feitas por empresas de telefonia a seus
+  clientes em um mês é 348. Suponha que a quantidade de ligações por mês
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(348\)
+  \item
+    \(313\)
+  \item
+    \(121104\)
+  \item
+    \(121452\)
+  \item
+    \(349\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(348)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 348 \times 349 = 121452.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 121452.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de ligações feitas por empresas de telefonia a seus
+  clientes em um mês é 386. Suponha que a quantidade de ligações por mês
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(386\)
+  \item
+    \(347\)
+  \item
+    \(149382\)
+  \item
+    \(148996\)
+  \item
+    \(387\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(386)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 386 \times 387 = 149382.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 149382.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de ligações feitas por empresas de telefonia a seus
+  clientes em um mês é 342. Suponha que a quantidade de ligações por mês
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(343\)
+  \item
+    \(116964\)
+  \item
+    \(308\)
+  \item
+    \(117306\)
+  \item
+    \(342\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(342)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 342 \times 343 = 117306.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 117306.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de ligações feitas por empresas de telefonia a seus
+  clientes em um mês é 360. Suponha que a quantidade de ligações por mês
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(360\)
+  \item
+    \(129600\)
+  \item
+    \(361\)
+  \item
+    \(129960\)
+  \item
+    \(324\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(360)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 360 \times 361 = 129960.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 129960.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de ligações feitas por empresas de telefonia a seus
+  clientes em um mês é 323. Suponha que a quantidade de ligações por mês
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(323\)
+  \item
+    \(324\)
+  \item
+    \(104652\)
+  \item
+    \(291\)
+  \item
+    \(104329\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(323)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 323 \times 324 = 104652.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 104652.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de ligações feitas por empresas de telefonia a seus
+  clientes em um mês é 318. Suponha que a quantidade de ligações por mês
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(318\)
+  \item
+    \(101442\)
+  \item
+    \(101124\)
+  \item
+    \(319\)
+  \item
+    \(286\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(318)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 318 \times 319 = 101442.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 101442.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de ligações feitas por empresas de telefonia a seus
+  clientes em um mês é 393. Suponha que a quantidade de ligações por mês
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(154842\)
+  \item
+    \(394\)
+  \item
+    \(154449\)
+  \item
+    \(354\)
+  \item
+    \(393\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(393)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 393 \times 394 = 154842.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 154842.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A foto de um Chevrolet Camaro com um cilindro de gás natural no
+  porta-malas viralizou nas redes sociais. A queima do GNV, gás natural
+  veicular, é reconhecidamente uma das mais limpas, além de ter o menor
+  custo benefício em relação ao preço da gasolina e do etanol. Deseja-se
+  estimar o custo médio de 1m³ de GNV. Em anos anteriores o desvio
+  padrão populacional dos preços foi de \(0.08\) reais. Em um
+  levantamento por amostragem aleatória de postos de abastecimento, qual
+  deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(80\%\), a média amostral não difira da média populacional por mais
+  de \(0.01\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(46\)
+  \item
+    \(66\)
+  \item
+    \(27\)
+  \item
+    \(105\)
+  \item
+    \(121\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 0.08}{0.01} \right)^2=104.8576.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=105\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A foto de um Chevrolet Camaro com um cilindro de gás natural no
+  porta-malas viralizou nas redes sociais. A queima do GNV, gás natural
+  veicular, é reconhecidamente uma das mais limpas, além de ter o menor
+  custo benefício em relação ao preço da gasolina e do etanol. Deseja-se
+  estimar o custo médio de 1m³ de GNV. Em anos anteriores o desvio
+  padrão populacional dos preços foi de \(0.2\) reais. Em um
+  levantamento por amostragem aleatória de postos de abastecimento, qual
+  deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(90\%\), a média amostral não difira da média populacional por mais
+  de \(0.01\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1076\)
+  \item
+    \(1345\)
+  \item
+    \(269\)
+  \item
+    \(672\)
+  \item
+    \(656\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 0.2}{0.01} \right)^2=1075.84.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=1076\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A foto de um Chevrolet Camaro com um cilindro de gás natural no
+  porta-malas viralizou nas redes sociais. A queima do GNV, gás natural
+  veicular, é reconhecidamente uma das mais limpas, além de ter o menor
+  custo benefício em relação ao preço da gasolina e do etanol. Deseja-se
+  estimar o custo médio de 1m³ de GNV. Em anos anteriores o desvio
+  padrão populacional dos preços foi de \(0.5\) reais. Em um
+  levantamento por amostragem aleatória de postos de abastecimento, qual
+  deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(80\%\), a média amostral não difira da média populacional por mais
+  de \(0.01\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4096\)
+  \item
+    \(4710\)
+  \item
+    \(2560\)
+  \item
+    \(1024\)
+  \item
+    \(1764\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 0.5}{0.01} \right)^2=4096.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=4096\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A foto de um Chevrolet Camaro com um cilindro de gás natural no
+  porta-malas viralizou nas redes sociais. A queima do GNV, gás natural
+  veicular, é reconhecidamente uma das mais limpas, além de ter o menor
+  custo benefício em relação ao preço da gasolina e do etanol. Deseja-se
+  estimar o custo médio de 1m³ de GNV. Em anos anteriores o desvio
+  padrão populacional dos preços foi de \(0.4\) reais. Em um
+  levantamento por amostragem aleatória de postos de abastecimento, qual
+  deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(95\%\), a média amostral não difira da média populacional por mais
+  de \(0.01\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1537\)
+  \item
+    \(4304\)
+  \item
+    \(3842\)
+  \item
+    \(7684\)
+  \item
+    \(6147\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 0.4}{0.01} \right)^2=6146.56.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=6147\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A foto de um Chevrolet Camaro com um cilindro de gás natural no
+  porta-malas viralizou nas redes sociais. A queima do GNV, gás natural
+  veicular, é reconhecidamente uma das mais limpas, além de ter o menor
+  custo benefício em relação ao preço da gasolina e do etanol. Deseja-se
+  estimar o custo médio de 1m³ de GNV. Em anos anteriores o desvio
+  padrão populacional dos preços foi de \(0.23\) reais. Em um
+  levantamento por amostragem aleatória de postos de abastecimento, qual
+  deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(95\%\), a média amostral não difira da média populacional por mais
+  de \(0.01\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2541\)
+  \item
+    \(509\)
+  \item
+    \(1423\)
+  \item
+    \(2033\)
+  \item
+    \(1271\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 0.23}{0.01} \right)^2=2032.2064.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=2033\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A foto de um Chevrolet Camaro com um cilindro de gás natural no
+  porta-malas viralizou nas redes sociais. A queima do GNV, gás natural
+  veicular, é reconhecidamente uma das mais limpas, além de ter o menor
+  custo benefício em relação ao preço da gasolina e do etanol. Deseja-se
+  estimar o custo médio de 1m³ de GNV. Em anos anteriores o desvio
+  padrão populacional dos preços foi de \(0.1\) reais. Em um
+  levantamento por amostragem aleatória de postos de abastecimento, qual
+  deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(90\%\), a média amostral não difira da média populacional por mais
+  de \(0.01\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(309\)
+  \item
+    \(68\)
+  \item
+    \(164\)
+  \item
+    \(269\)
+  \item
+    \(168\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 0.1}{0.01} \right)^2=268.96.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=269\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A foto de um Chevrolet Camaro com um cilindro de gás natural no
+  porta-malas viralizou nas redes sociais. A queima do GNV, gás natural
+  veicular, é reconhecidamente uma das mais limpas, além de ter o menor
+  custo benefício em relação ao preço da gasolina e do etanol. Deseja-se
+  estimar o custo médio de 1m³ de GNV. Em anos anteriores o desvio
+  padrão populacional dos preços foi de \(0.06\) reais. Em um
+  levantamento por amostragem aleatória de postos de abastecimento, qual
+  deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(90\%\), a média amostral não difira da média populacional por mais
+  de \(0.01\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(61\)
+  \item
+    \(121\)
+  \item
+    \(97\)
+  \item
+    \(25\)
+  \item
+    \(59\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 0.06}{0.01} \right)^2=96.8256.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=97\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A foto de um Chevrolet Camaro com um cilindro de gás natural no
+  porta-malas viralizou nas redes sociais. A queima do GNV, gás natural
+  veicular, é reconhecidamente uma das mais limpas, além de ter o menor
+  custo benefício em relação ao preço da gasolina e do etanol. Deseja-se
+  estimar o custo médio de 1m³ de GNV. Em anos anteriores o desvio
+  padrão populacional dos preços foi de \(0.46\) reais. Em um
+  levantamento por amostragem aleatória de postos de abastecimento, qual
+  deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(99\%\), a média amostral não difira da média populacional por mais
+  de \(0.01\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8804\)
+  \item
+    \(14085\)
+  \item
+    \(11488\)
+  \item
+    \(3522\)
+  \item
+    \(17606\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 0.46}{0.01} \right)^2=14084.9424.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=14085\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A foto de um Chevrolet Camaro com um cilindro de gás natural no
+  porta-malas viralizou nas redes sociais. A queima do GNV, gás natural
+  veicular, é reconhecidamente uma das mais limpas, além de ter o menor
+  custo benefício em relação ao preço da gasolina e do etanol. Deseja-se
+  estimar o custo médio de 1m³ de GNV. Em anos anteriores o desvio
+  padrão populacional dos preços foi de \(0.15\) reais. Em um
+  levantamento por amostragem aleatória de postos de abastecimento, qual
+  deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(95\%\), a média amostral não difira da média populacional por mais
+  de \(0.01\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(865\)
+  \item
+    \(217\)
+  \item
+    \(541\)
+  \item
+    \(606\)
+  \item
+    \(995\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 0.15}{0.01} \right)^2=864.36.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=865\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A foto de um Chevrolet Camaro com um cilindro de gás natural no
+  porta-malas viralizou nas redes sociais. A queima do GNV, gás natural
+  veicular, é reconhecidamente uma das mais limpas, além de ter o menor
+  custo benefício em relação ao preço da gasolina e do etanol. Deseja-se
+  estimar o custo médio de 1m³ de GNV. Em anos anteriores o desvio
+  padrão populacional dos preços foi de \(0.23\) reais. Em um
+  levantamento por amostragem aleatória de postos de abastecimento, qual
+  deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(95\%\), a média amostral não difira da média populacional por mais
+  de \(0.01\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2033\)
+  \item
+    \(509\)
+  \item
+    \(2440\)
+  \item
+    \(1423\)
+  \item
+    \(1271\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 0.23}{0.01} \right)^2=2032.2064.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=2033\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

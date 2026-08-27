@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de projetos de lei aprovados pela Câmara dos
+  Deputados em um ano é 127. Suponha que a quantidade de aprovações seja
+  uma variável aleatória \(X\), que segue a distribuição de Poisson.
+  Qual é o segundo momento de \(X\) (i.e. o valor de \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(11\)
+  \item
+    \(16256\)
+  \item
+    \(128\)
+  \item
+    \(16129\)
+  \item
+    \(127\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(127)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 127 \times 128 = 16256.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 16256.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de projetos de lei aprovados pela Câmara dos
+  Deputados em um ano é 148. Suponha que a quantidade de aprovações seja
+  uma variável aleatória \(X\), que segue a distribuição de Poisson.
+  Qual é o segundo momento de \(X\) (i.e. o valor de \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(22052\)
+  \item
+    \(148\)
+  \item
+    \(21904\)
+  \item
+    \(149\)
+  \item
+    \(12\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(148)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 148 \times 149 = 22052.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 22052.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de projetos de lei aprovados pela Câmara dos
+  Deputados em um ano é 133. Suponha que a quantidade de aprovações seja
+  uma variável aleatória \(X\), que segue a distribuição de Poisson.
+  Qual é o segundo momento de \(X\) (i.e. o valor de \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(134\)
+  \item
+    \(17689\)
+  \item
+    \(133\)
+  \item
+    \(12\)
+  \item
+    \(17822\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(133)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 133 \times 134 = 17822.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 17822.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de projetos de lei aprovados pela Câmara dos
+  Deputados em um ano é 142. Suponha que a quantidade de aprovações seja
+  uma variável aleatória \(X\), que segue a distribuição de Poisson.
+  Qual é o segundo momento de \(X\) (i.e. o valor de \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(20306\)
+  \item
+    \(143\)
+  \item
+    \(142\)
+  \item
+    \(20164\)
+  \item
+    \(12\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(142)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 142 \times 143 = 20306.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 20306.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de projetos de lei aprovados pela Câmara dos
+  Deputados em um ano é 130. Suponha que a quantidade de aprovações seja
+  uma variável aleatória \(X\), que segue a distribuição de Poisson.
+  Qual é o segundo momento de \(X\) (i.e. o valor de \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(17030\)
+  \item
+    \(16900\)
+  \item
+    \(11\)
+  \item
+    \(130\)
+  \item
+    \(131\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(130)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 130 \times 131 = 17030.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 17030.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de projetos de lei aprovados pela Câmara dos
+  Deputados em um ano é 145. Suponha que a quantidade de aprovações seja
+  uma variável aleatória \(X\), que segue a distribuição de Poisson.
+  Qual é o segundo momento de \(X\) (i.e. o valor de \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(146\)
+  \item
+    \(21025\)
+  \item
+    \(21170\)
+  \item
+    \(12\)
+  \item
+    \(145\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(145)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 145 \times 146 = 21170.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 21170.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de projetos de lei aprovados pela Câmara dos
+  Deputados em um ano é 145. Suponha que a quantidade de aprovações seja
+  uma variável aleatória \(X\), que segue a distribuição de Poisson.
+  Qual é o segundo momento de \(X\) (i.e. o valor de \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(12\)
+  \item
+    \(21170\)
+  \item
+    \(145\)
+  \item
+    \(21025\)
+  \item
+    \(146\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(145)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 145 \times 146 = 21170.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 21170.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de projetos de lei aprovados pela Câmara dos
+  Deputados em um ano é 128. Suponha que a quantidade de aprovações seja
+  uma variável aleatória \(X\), que segue a distribuição de Poisson.
+  Qual é o segundo momento de \(X\) (i.e. o valor de \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(16384\)
+  \item
+    \(128\)
+  \item
+    \(16512\)
+  \item
+    \(11\)
+  \item
+    \(129\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(128)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 128 \times 129 = 16512.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 16512.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de projetos de lei aprovados pela Câmara dos
+  Deputados em um ano é 129. Suponha que a quantidade de aprovações seja
+  uma variável aleatória \(X\), que segue a distribuição de Poisson.
+  Qual é o segundo momento de \(X\) (i.e. o valor de \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(11\)
+  \item
+    \(130\)
+  \item
+    \(16641\)
+  \item
+    \(129\)
+  \item
+    \(16770\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(129)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 129 \times 130 = 16770.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 16770.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de projetos de lei aprovados pela Câmara dos
+  Deputados em um ano é 152. Suponha que a quantidade de aprovações seja
+  uma variável aleatória \(X\), que segue a distribuição de Poisson.
+  Qual é o segundo momento de \(X\) (i.e. o valor de \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(12\)
+  \item
+    \(152\)
+  \item
+    \(23104\)
+  \item
+    \(23256\)
+  \item
+    \(153\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(152)\) e portanto \[\begin{aligned}
+  V(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 152 \times 153 = 23256.
+  \end{aligned}\] Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda \times \exp^{-\lambda} \left[\sum_{x=1}^{\infty}(x-1) \times \frac{\lambda^{x-1}}{(x-1)\factorial} + \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 23256.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

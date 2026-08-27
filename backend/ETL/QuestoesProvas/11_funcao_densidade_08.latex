@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 1,\\
+  Cx^2 & \mbox{se} & 1 \leq x < 4, \\
+  0 & \mbox{se} & x \geq 4.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.43\)
+  \item
+    \(4.00\)
+  \item
+    \(8.00\)
+  \item
+    \(0.05\)
+  \item
+    \(5.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   1 & = \int_{-\infty}^{1} 0  dx + \int_1^{4} Cx^2 dx + \int_{4}^{\infty} 0 dx \\
+   1 & = \frac{C}{3} \left[{x^3}\right]_1^{4} \\
+   1 & = \frac{C}{3} \left[64-1\right] 
+  \end{aligned}\] Portanto, \[C = \frac{3}{63}.\] Resolvendo-se em
+  \(C\), obtemos \(C=0.05\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 1,\\
+  Cx^2 & \mbox{se} & 1 \leq x < 3, \\
+  0 & \mbox{se} & x \geq 3.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.00\)
+  \item
+    \(0.60\)
+  \item
+    \(0.12\)
+  \item
+    \(6.00\)
+  \item
+    \(4.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   1 & = \int_{-\infty}^{1} 0  dx + \int_1^{3} Cx^2 dx + \int_{3}^{\infty} 0 dx \\
+   1 & = \frac{C}{3} \left[{x^3}\right]_1^{3} \\
+   1 & = \frac{C}{3} \left[27-1\right] 
+  \end{aligned}\] Portanto, \[C = \frac{3}{26}.\] Resolvendo-se em
+  \(C\), obtemos \(C=0.12\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 1,\\
+  Cx^2 & \mbox{se} & 1 \leq x < 3, \\
+  0 & \mbox{se} & x \geq 3.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.00\)
+  \item
+    \(0.60\)
+  \item
+    \(0.12\)
+  \item
+    \(4.00\)
+  \item
+    \(6.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   1 & = \int_{-\infty}^{1} 0  dx + \int_1^{3} Cx^2 dx + \int_{3}^{\infty} 0 dx \\
+   1 & = \frac{C}{3} \left[{x^3}\right]_1^{3} \\
+   1 & = \frac{C}{3} \left[27-1\right] 
+  \end{aligned}\] Portanto, \[C = \frac{3}{26}.\] Resolvendo-se em
+  \(C\), obtemos \(C=0.12\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 1,\\
+  Cx^2 & \mbox{se} & 1 \leq x < 3, \\
+  0 & \mbox{se} & x \geq 3.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.00\)
+  \item
+    \(6.00\)
+  \item
+    \(0.60\)
+  \item
+    \(0.12\)
+  \item
+    \(3.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   1 & = \int_{-\infty}^{1} 0  dx + \int_1^{3} Cx^2 dx + \int_{3}^{\infty} 0 dx \\
+   1 & = \frac{C}{3} \left[{x^3}\right]_1^{3} \\
+   1 & = \frac{C}{3} \left[27-1\right] 
+  \end{aligned}\] Portanto, \[C = \frac{3}{26}.\] Resolvendo-se em
+  \(C\), obtemos \(C=0.12\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 1,\\
+  Cx^2 & \mbox{se} & 1 \leq x < 4, \\
+  0 & \mbox{se} & x \geq 4.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.00\)
+  \item
+    \(5.00\)
+  \item
+    \(0.43\)
+  \item
+    \(8.00\)
+  \item
+    \(0.05\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   1 & = \int_{-\infty}^{1} 0  dx + \int_1^{4} Cx^2 dx + \int_{4}^{\infty} 0 dx \\
+   1 & = \frac{C}{3} \left[{x^3}\right]_1^{4} \\
+   1 & = \frac{C}{3} \left[64-1\right] 
+  \end{aligned}\] Portanto, \[C = \frac{3}{63}.\] Resolvendo-se em
+  \(C\), obtemos \(C=0.05\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 1,\\
+  Cx^2 & \mbox{se} & 1 \leq x < 3, \\
+  0 & \mbox{se} & x \geq 3.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.12\)
+  \item
+    \(4.00\)
+  \item
+    \(6.00\)
+  \item
+    \(3.00\)
+  \item
+    \(0.60\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   1 & = \int_{-\infty}^{1} 0  dx + \int_1^{3} Cx^2 dx + \int_{3}^{\infty} 0 dx \\
+   1 & = \frac{C}{3} \left[{x^3}\right]_1^{3} \\
+   1 & = \frac{C}{3} \left[27-1\right] 
+  \end{aligned}\] Portanto, \[C = \frac{3}{26}.\] Resolvendo-se em
+  \(C\), obtemos \(C=0.12\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 1,\\
+  Cx^2 & \mbox{se} & 1 \leq x < 4, \\
+  0 & \mbox{se} & x \geq 4.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8.00\)
+  \item
+    \(4.00\)
+  \item
+    \(0.43\)
+  \item
+    \(0.05\)
+  \item
+    \(5.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   1 & = \int_{-\infty}^{1} 0  dx + \int_1^{4} Cx^2 dx + \int_{4}^{\infty} 0 dx \\
+   1 & = \frac{C}{3} \left[{x^3}\right]_1^{4} \\
+   1 & = \frac{C}{3} \left[64-1\right] 
+  \end{aligned}\] Portanto, \[C = \frac{3}{63}.\] Resolvendo-se em
+  \(C\), obtemos \(C=0.05\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 1,\\
+  Cx^2 & \mbox{se} & 1 \leq x < 3, \\
+  0 & \mbox{se} & x \geq 3.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.00\)
+  \item
+    \(0.60\)
+  \item
+    \(4.00\)
+  \item
+    \(0.12\)
+  \item
+    \(3.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   1 & = \int_{-\infty}^{1} 0  dx + \int_1^{3} Cx^2 dx + \int_{3}^{\infty} 0 dx \\
+   1 & = \frac{C}{3} \left[{x^3}\right]_1^{3} \\
+   1 & = \frac{C}{3} \left[27-1\right] 
+  \end{aligned}\] Portanto, \[C = \frac{3}{26}.\] Resolvendo-se em
+  \(C\), obtemos \(C=0.12\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 1,\\
+  Cx^2 & \mbox{se} & 1 \leq x < 4, \\
+  0 & \mbox{se} & x \geq 4.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5.00\)
+  \item
+    \(8.00\)
+  \item
+    \(0.05\)
+  \item
+    \(4.00\)
+  \item
+    \(0.43\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   1 & = \int_{-\infty}^{1} 0  dx + \int_1^{4} Cx^2 dx + \int_{4}^{\infty} 0 dx \\
+   1 & = \frac{C}{3} \left[{x^3}\right]_1^{4} \\
+   1 & = \frac{C}{3} \left[64-1\right] 
+  \end{aligned}\] Portanto, \[C = \frac{3}{63}.\] Resolvendo-se em
+  \(C\), obtemos \(C=0.05\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 1,\\
+  Cx^2 & \mbox{se} & 1 \leq x < 2, \\
+  0 & \mbox{se} & x \geq 2.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.00\)
+  \item
+    \(2.00\)
+  \item
+    \(3.00\)
+  \item
+    \(0.43\)
+  \item
+    \(1.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   1 & = \int_{-\infty}^{1} 0  dx + \int_1^{2} Cx^2 dx + \int_{2}^{\infty} 0 dx \\
+   1 & = \frac{C}{3} \left[{x^3}\right]_1^{2} \\
+   1 & = \frac{C}{3} \left[8-1\right] 
+  \end{aligned}\] Portanto, \[C = \frac{3}{7}.\] Resolvendo-se em \(C\),
+  obtemos \(C=0.43\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

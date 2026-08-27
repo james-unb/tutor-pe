@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um procedimento de controle de qualidade foi planejado para garantir
+  um máximo de \(9\%\) de itens defeituosos na produção. A cada 6 horas,
+  sorteia-se uma amostra de \(50\) peças e, havendo mais de \(12\%\) de
+  defeituosas, encerra-se a produção para verificação do processo. Se a
+  probabilidade real de falha for de \(9\%\), qual a probabilidade de
+  uma amostra resultar na interrupção da produção?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2296\)
+  \item
+    \(0.6927\)
+  \item
+    \(0.3557\)
+  \item
+    \(0.4602\)
+  \item
+    \(0.3045\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.09\) e
+  \(\sigma = \sqrt{\frac{0.09\times0.91}{50}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.12\right) &= 1 - P\left(\frac{\hat{p}-0.09}{0.0405} < \frac{0.12-0.09}{0.0405}\right) \\
+   & = 1 - P\left(Z<0.74\right) = 0.2296.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um procedimento de controle de qualidade foi planejado para garantir
+  um máximo de \(8\%\) de itens defeituosos na produção. A cada 6 horas,
+  sorteia-se uma amostra de \(55\) peças e, havendo mais de \(13\%\) de
+  defeituosas, encerra-se a produção para verificação do processo. Se a
+  probabilidade real de falha for de \(8\%\), qual a probabilidade de
+  uma amostra resultar na interrupção da produção?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2483\)
+  \item
+    \(0.4286\)
+  \item
+    \(0.0853\)
+  \item
+    \(0.3395\)
+  \item
+    \(0.2106\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.08\) e
+  \(\sigma = \sqrt{\frac{0.08\times0.92}{55}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.13\right) &= 1 - P\left(\frac{\hat{p}-0.08}{0.0366} < \frac{0.13-0.08}{0.0366}\right) \\
+   & = 1 - P\left(Z<1.37\right) = 0.0853.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um procedimento de controle de qualidade foi planejado para garantir
+  um máximo de \(8\%\) de itens defeituosos na produção. A cada 6 horas,
+  sorteia-se uma amostra de \(50\) peças e, havendo mais de \(10\%\) de
+  defeituosas, encerra-se a produção para verificação do processo. Se a
+  probabilidade real de falha for de \(8\%\), qual a probabilidade de
+  uma amostra resultar na interrupção da produção?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3015\)
+  \item
+    \(0.2386\)
+  \item
+    \(0.3936\)
+  \item
+    \(0.7592\)
+  \item
+    \(0.4721\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.08\) e
+  \(\sigma = \sqrt{\frac{0.08\times0.92}{50}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.1\right) &= 1 - P\left(\frac{\hat{p}-0.08}{0.0384} < \frac{0.1-0.08}{0.0384}\right) \\
+   & = 1 - P\left(Z<0.52\right) = 0.3015.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um procedimento de controle de qualidade foi planejado para garantir
+  um máximo de \(5\%\) de itens defeituosos na produção. A cada 6 horas,
+  sorteia-se uma amostra de \(52\) peças e, havendo mais de \(10\%\) de
+  defeituosas, encerra-se a produção para verificação do processo. Se a
+  probabilidade real de falha for de \(5\%\), qual a probabilidade de
+  uma amostra resultar na interrupção da produção?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0495\)
+  \item
+    \(0.1469\)
+  \item
+    \(0.4090\)
+  \item
+    \(0.6007\)
+  \item
+    \(0.2361\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.05\) e
+  \(\sigma = \sqrt{\frac{0.05\times0.95}{52}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.1\right) &= 1 - P\left(\frac{\hat{p}-0.05}{0.0302} < \frac{0.1-0.05}{0.0302}\right) \\
+   & = 1 - P\left(Z<1.65\right) = 0.0495.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um procedimento de controle de qualidade foi planejado para garantir
+  um máximo de \(6\%\) de itens defeituosos na produção. A cada 6 horas,
+  sorteia-se uma amostra de \(50\) peças e, havendo mais de \(8\%\) de
+  defeituosas, encerra-se a produção para verificação do processo. Se a
+  probabilidade real de falha for de \(6\%\), qual a probabilidade de
+  uma amostra resultar na interrupção da produção?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2743\)
+  \item
+    \(0.5523\)
+  \item
+    \(0.3839\)
+  \item
+    \(0.4681\)
+  \item
+    \(0.3632\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.06\) e
+  \(\sigma = \sqrt{\frac{0.06\times0.94}{50}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.08\right) &= 1 - P\left(\frac{\hat{p}-0.06}{0.0336} < \frac{0.08-0.06}{0.0336}\right) \\
+   & = 1 - P\left(Z<0.6\right) = 0.2743.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um procedimento de controle de qualidade foi planejado para garantir
+  um máximo de \(9\%\) de itens defeituosos na produção. A cada 6 horas,
+  sorteia-se uma amostra de \(50\) peças e, havendo mais de \(14\%\) de
+  defeituosas, encerra-se a produção para verificação do processo. Se a
+  probabilidade real de falha for de \(9\%\), qual a probabilidade de
+  uma amostra resultar na interrupção da produção?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4153\)
+  \item
+    \(0.4325\)
+  \item
+    \(0.1075\)
+  \item
+    \(0.6606\)
+  \item
+    \(0.2709\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.09\) e
+  \(\sigma = \sqrt{\frac{0.09\times0.91}{50}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.14\right) &= 1 - P\left(\frac{\hat{p}-0.09}{0.0405} < \frac{0.14-0.09}{0.0405}\right) \\
+   & = 1 - P\left(Z<1.24\right) = 0.1075.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um procedimento de controle de qualidade foi planejado para garantir
+  um máximo de \(6\%\) de itens defeituosos na produção. A cada 6 horas,
+  sorteia-se uma amostra de \(51\) peças e, havendo mais de \(10\%\) de
+  defeituosas, encerra-se a produção para verificação do processo. Se a
+  probabilidade real de falha for de \(6\%\), qual a probabilidade de
+  uma amostra resultar na interrupção da produção?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4325\)
+  \item
+    \(0.1151\)
+  \item
+    \(0.6867\)
+  \item
+    \(0.2389\)
+  \item
+    \(0.7533\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.06\) e
+  \(\sigma = \sqrt{\frac{0.06\times0.94}{51}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.1\right) &= 1 - P\left(\frac{\hat{p}-0.06}{0.0333} < \frac{0.1-0.06}{0.0333}\right) \\
+   & = 1 - P\left(Z<1.2\right) = 0.1151.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um procedimento de controle de qualidade foi planejado para garantir
+  um máximo de \(6\%\) de itens defeituosos na produção. A cada 6 horas,
+  sorteia-se uma amostra de \(50\) peças e, havendo mais de \(12\%\) de
+  defeituosas, encerra-se a produção para verificação do processo. Se a
+  probabilidade real de falha for de \(6\%\), qual a probabilidade de
+  uma amostra resultar na interrupção da produção?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4013\)
+  \item
+    \(0.4674\)
+  \item
+    \(0.5439\)
+  \item
+    \(0.0367\)
+  \item
+    \(0.1446\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.06\) e
+  \(\sigma = \sqrt{\frac{0.06\times0.94}{50}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.12\right) &= 1 - P\left(\frac{\hat{p}-0.06}{0.0336} < \frac{0.12-0.06}{0.0336}\right) \\
+   & = 1 - P\left(Z<1.79\right) = 0.0367.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um procedimento de controle de qualidade foi planejado para garantir
+  um máximo de \(7\%\) de itens defeituosos na produção. A cada 6 horas,
+  sorteia-se uma amostra de \(53\) peças e, havendo mais de \(8\%\) de
+  defeituosas, encerra-se a produção para verificação do processo. Se a
+  probabilidade real de falha for de \(7\%\), qual a probabilidade de
+  uma amostra resultar na interrupção da produção?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8986\)
+  \item
+    \(0.3859\)
+  \item
+    \(0.4840\)
+  \item
+    \(0.2781\)
+  \item
+    \(0.4404\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.07\) e
+  \(\sigma = \sqrt{\frac{0.07\times0.93}{53}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.08\right) &= 1 - P\left(\frac{\hat{p}-0.07}{0.035} < \frac{0.08-0.07}{0.035}\right) \\
+   & = 1 - P\left(Z<0.29\right) = 0.3859.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um procedimento de controle de qualidade foi planejado para garantir
+  um máximo de \(6\%\) de itens defeituosos na produção. A cada 6 horas,
+  sorteia-se uma amostra de \(52\) peças e, havendo mais de \(8\%\) de
+  defeituosas, encerra-se a produção para verificação do processo. Se a
+  probabilidade real de falha for de \(6\%\), qual a probabilidade de
+  uma amostra resultar na interrupção da produção?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6744\)
+  \item
+    \(0.2709\)
+  \item
+    \(0.4681\)
+  \item
+    \(0.7662\)
+  \item
+    \(0.3632\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.06\) e
+  \(\sigma = \sqrt{\frac{0.06\times0.94}{52}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.08\right) &= 1 - P\left(\frac{\hat{p}-0.06}{0.0329} < \frac{0.08-0.06}{0.0329}\right) \\
+   & = 1 - P\left(Z<0.61\right) = 0.2709.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,372 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma variável aleatória distribuída exponencialmente com
+  variância igual a \(144\). Qual é o valor de \(P(X \leq 7)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.442\)
+  \item
+    \(0.472\)
+  \item
+    \(0.047\)
+  \item
+    \(0.528\)
+  \item
+    \(0.953\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X \sim \exp(\lambda)\), então \(V(X)=1/\lambda^2\). Portanto, se
+  \(V(X)=144\), \(X \sim \text{Exp}(0.0833)\). Daí,
+  \[P(X \leq 7) = 1-\exp{(-0.0833 \times 7)} = 0.442.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma variável aleatória distribuída exponencialmente com
+  variância igual a \(121\). Qual é o valor de \(P(X \leq 6)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.048\)
+  \item
+    \(0.483\)
+  \item
+    \(0.420\)
+  \item
+    \(0.517\)
+  \item
+    \(0.952\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X \sim \exp(\lambda)\), então \(V(X)=1/\lambda^2\). Portanto, se
+  \(V(X)=121\), \(X \sim \text{Exp}(0.0909)\). Daí,
+  \[P(X \leq 6) = 1-\exp{(-0.0909 \times 6)} = 0.42.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma variável aleatória distribuída exponencialmente com
+  variância igual a \(36\). Qual é o valor de \(P(X \leq 5)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.689\)
+  \item
+    \(0.870\)
+  \item
+    \(0.565\)
+  \item
+    \(0.311\)
+  \item
+    \(0.130\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X \sim \exp(\lambda)\), então \(V(X)=1/\lambda^2\). Portanto, se
+  \(V(X)=36\), \(X \sim \text{Exp}(0.1667)\). Daí,
+  \[P(X \leq 5) = 1-\exp{(-0.1667 \times 5)} = 0.565.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma variável aleatória distribuída exponencialmente com
+  variância igual a \(121\). Qual é o valor de \(P(X \leq 7)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.944\)
+  \item
+    \(0.559\)
+  \item
+    \(0.471\)
+  \item
+    \(0.441\)
+  \item
+    \(0.056\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X \sim \exp(\lambda)\), então \(V(X)=1/\lambda^2\). Portanto, se
+  \(V(X)=121\), \(X \sim \text{Exp}(0.0909)\). Daí,
+  \[P(X \leq 7) = 1-\exp{(-0.0909 \times 7)} = 0.471.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma variável aleatória distribuída exponencialmente com
+  variância igual a \(144\). Qual é o valor de \(P(X \leq 5)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.966\)
+  \item
+    \(0.442\)
+  \item
+    \(0.558\)
+  \item
+    \(0.034\)
+  \item
+    \(0.341\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X \sim \exp(\lambda)\), então \(V(X)=1/\lambda^2\). Portanto, se
+  \(V(X)=144\), \(X \sim \text{Exp}(0.0833)\). Daí,
+  \[P(X \leq 5) = 1-\exp{(-0.0833 \times 5)} = 0.341.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma variável aleatória distribuída exponencialmente com
+  variância igual a \(81\). Qual é o valor de \(P(X \leq 10)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.671\)
+  \item
+    \(0.116\)
+  \item
+    \(0.264\)
+  \item
+    \(0.884\)
+  \item
+    \(0.736\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X \sim \exp(\lambda)\), então \(V(X)=1/\lambda^2\). Portanto, se
+  \(V(X)=81\), \(X \sim \text{Exp}(0.1111)\). Daí,
+  \[P(X \leq 10) = 1-\exp{(-0.1111 \times 10)} = 0.671.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma variável aleatória distribuída exponencialmente com
+  variância igual a \(36\). Qual é o valor de \(P(X \leq 7)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.777\)
+  \item
+    \(0.177\)
+  \item
+    \(0.223\)
+  \item
+    \(0.823\)
+  \item
+    \(0.689\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X \sim \exp(\lambda)\), então \(V(X)=1/\lambda^2\). Portanto, se
+  \(V(X)=36\), \(X \sim \text{Exp}(0.1667)\). Daí,
+  \[P(X \leq 7) = 1-\exp{(-0.1667 \times 7)} = 0.689.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma variável aleatória distribuída exponencialmente com
+  variância igual a \(64\). Qual é o valor de \(P(X \leq 6)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.528\)
+  \item
+    \(0.089\)
+  \item
+    \(0.632\)
+  \item
+    \(0.368\)
+  \item
+    \(0.911\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X \sim \exp(\lambda)\), então \(V(X)=1/\lambda^2\). Portanto, se
+  \(V(X)=64\), \(X \sim \text{Exp}(0.125)\). Daí,
+  \[P(X \leq 6) = 1-\exp{(-0.125 \times 6)} = 0.528.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma variável aleatória distribuída exponencialmente com
+  variância igual a \(25\). Qual é o valor de \(P(X \leq 10)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.909\)
+  \item
+    \(0.330\)
+  \item
+    \(0.091\)
+  \item
+    \(0.670\)
+  \item
+    \(0.865\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X \sim \exp(\lambda)\), então \(V(X)=1/\lambda^2\). Portanto, se
+  \(V(X)=25\), \(X \sim \text{Exp}(0.2)\). Daí,
+  \[P(X \leq 10) = 1-\exp{(-0.2 \times 10)} = 0.865.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma variável aleatória distribuída exponencialmente com
+  variância igual a \(49\). Qual é o valor de \(P(X \leq 7)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.724\)
+  \item
+    \(0.276\)
+  \item
+    \(0.867\)
+  \item
+    \(0.632\)
+  \item
+    \(0.133\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X \sim \exp(\lambda)\), então \(V(X)=1/\lambda^2\). Portanto, se
+  \(V(X)=49\), \(X \sim \text{Exp}(0.1429)\). Daí,
+  \[P(X \leq 7) = 1-\exp{(-0.1429 \times 7)} = 0.632.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,569 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsfonts,amssymb,amsbsy}
+\usepackage{amsthm} %Permite teorema sem numeração, no meu caso Demonstração
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+
+%------------------------------------------------------------------------------
+
+\setlength{\topmargin}{-1.0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{6.5in}
+\setlength{\baselineskip}{12mm}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+        \begin{minipage}[c]{7in}
+          {Universidade de Brasília} \\
+          {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf $\text{1}^{\text{\underline{a}}}$ Lista de PE}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+\item Dadas as populações abaixo, classifique as suas respectivas variáveis como qualitativas (ordinal ou nominal) ou quantitativas (contínuas ou discretas): %Apostila
+
+\begin{itemize}
+\item[a)] {\bf População:} Alunos de uma escola.\\
+{\bf Variável:} Cor dos cabelos.
+
+\item[b)] {\bf População:} Casais residentes em uma cidade.\\
+{\bf Variável:} Números de filhos.
+     
+\item[c)] {\bf População:} As jogadas sucessivas de um dado.\\
+     {\bf Variável:} O ponto obtido em cada jogada.
+     
+\item[d)] {\bf População:} Pacientes cancerígenos \\
+     {\bf Variável:} Peso de cada paciente cancerígeno.
+      
+\item[e)] {\bf População:} Estação meteorológica de uma cidade.\\
+      {\bf Variável:} Precipitação pluviométrica, durante um ano.
+      
+\item[f)] {\bf População:} Alunos de uma universidade.\\
+      {\bf Variável:} Conceito obtido.
+      
+\item[g)] {\bf População:} Nascidos vivos numa determinada data.\\ 
+      {\bf Variável:} Altura.
+      
+\item[h)] {\bf População:} Casais residentes em uma cidade.\\
+      {\bf Variável:} Sexo dos filhos.
+\end{itemize}
+
+\vspace*{0.5cm}
+
+\item Um eleição irá ocorrer na próxima semana e, selecionando uma amostra aleatória da população de eleitores, tentaremos predizer qual candidato (Republicano ou Democrata) prevalecerá. Qual dos métodos de seleção abaixo você acha que seria melhor para obtermos uma amostra representativa? %Ross Eng. Cap. 1 - Exercício 1 - Pág. 7
+\begin{itemize}
+\item[(a)] Eleitores presentes em um jogo de basquete colegial.
+\item[(b)] Eleitores presentes em um luxuoso restaurante metropolitano.
+\item[(c)] Sortear 100 nomes da lista de eleitores com idade para votar.
+\item[(d)] Utilizar as pesquisas de telespectadores de uma TV local. 
+\end{itemize}
+
+\vspace*{0.5cm}
+
+\item Para estimar o número de fumantes em uma cidade, via pura observação, decidiu-se por escolher um dos locais abaixo para tomar uma amostra representativa: %Ross Eng. Cap. 1 - Exercício 4 - Pág. 8
+\begin{itemize}
+\item[(a)] parque aquático;
+\item[(b)] bar aberto;
+\item[(c)] shopping; 
+\item[(d)] biblioteca.
+\end{itemize}
+
+\newpage
+
+\item Use os dados da tabela abaixo e construa a distribuição de frequências das variáveis: %Morettin - Capítulo 1 - Exercício 2 - Pág. 15
+\begin{itemize}
+\item[a)] Estado civil.
+\item[b)] Região de procedência.
+\item[c)] Número de filhos dos empregados casados.
+\item[d)] Idade.
+\end{itemize}
+\begin{table}[htbp]
+\centering
+%\caption{Dados de 36 empregados da seção de orçamentos de uma companhia.}
+\begin{tabular}{c|c|c|c|c|c|c}
+\hline
+\hline
+{\bf Número} & {\bf Estado} & {\bf Grau de} &{\bf Número} &{\bf Salário} &{\bf Idade} &{\bf Região de}\\
+{\bf do funcionário} & {\bf civil} & {\bf instrução} &{\bf de filhos} &{\bf (x sal. mín.)} & {\bf (anos)} &{\bf procedência}\\
+\hline
+1& solteiro & fundamental & --- & 4,00 & 26 & interior\\
+2& casado & fundamental& 1 & 4,56 & 32 & capital\\
+3& casado & fundamental & 2 & 5,25 & 36 & capital\\
+4& solteiro & médio & --- & 5,73 & 20 & outra\\
+5& solteiro & fundamental & --- & 6,26 & 40 & outra\\
+6& casado & fundamental & 0 & 6,66 & 28 & interior\\
+7& solteiro & fundamental & --- & 6,86& 41& interior\\
+8& solteiro & fundamental & --- & 7,39 & 43 & capital\\
+9& casado & médio & 1 & 7,59 & 34 & capital\\
+10& solteiro & médio & --- & 7,44 & 23& outra\\
+11& casado & médio & 2 & 8,12 & 33 & interior\\
+12& solteiro & fundamental & --- & 8,46 & 27 & capital\\
+13& solteiro & médio & --- & 8,74 & 37 & outra\\
+14& casado & fundamental & 3 & 8,95 & 44 & outra\\
+15& casado & médio & 0 & 9,13 & 30 & interior\\
+16& solteiro & médio & --- & 9,35 & 38 & outra\\
+17& casado & médio & 1 & 9,77 & 31 & capital\\
+18& casado & fundamental & 2 & 9,80 & 39 & outra\\
+19& solteiro & superior & --- & 10,53 & 25 & interior\\
+20& solteiro & médio & --- & 10,76 & 37 & interior\\
+21& casado & médio & 1 & 11,06 & 30& outra\\
+22& solteiro & médio & --- & 11,59 & 34 & capital\\
+23& solteiro & fundamental & --- & 12,00 & 41 & outra\\
+24& casado & superior & 0 & 12,79 & 26 & outra\\
+25& casado & médio & 2 & 13,23 & 32 & interior\\
+26& casado & médio & 2 & 13,60 & 35 & outra\\
+27& solteiro & fundamental & --- & 13,85 & 46 & outra\\
+28& casado & médio & 0 & 14,69 & 29 & interior\\
+29& casado & médio & 5 & 14,71 & 40 & interior\\
+30& casado & médio & 2 & 15,99 & 35 & capital\\
+31& solteiro & superior & --- & 16,22& 31 & outra\\
+32& casado & médio & 1 & 16,61& 36 & interior\\
+33& casado & superior & 3 & 17,26 & 43 & capital\\
+34& solteiro & superior & --- & 18,75 & 33 & capital\\
+35& casado & médio & 2 & 19,40 & 48 & capital\\
+36& casado & superior & 3 & 23,30 & 42 & interior\\
+ 
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\newpage
+
+\item A MB Indústria e Comércio, desejando melhorar o nível de seus funcionários em cargos de chefia, montou um curso experimental e indicou 25 funcionários para a primeira turma. Os dados referentes à seção a que pertencem, notas e graus obtidos no curso estão na tabela abaixo. Como havia dúvidas quanto à adoção de um único critério de avaliação, cada instrutor adotou seu próprio sistema de aferição. Usando dados da tabela referida, responda às questões: %Morettin - Capítulo 2 - Exercício 9 - Pág. 26
+\begin{itemize}
+\item[a)]  Após observar atentamente cada variável, e com o intuito de resumi-las, como você identificaria (qualitativa ordinal ou nominal e quantitativa discreta ou contínua) cada uma das 9 variáveis listadas?
+\item[b)] Apenas olhando a tabela, indique as diferenças existentes entre as distribuições das variáveis Direito, Estatística e Política.
+\item[c)] Construa o histograma com 8 classes para as notas da variável Redação.
+\item[d)] Construa a distribuição de frequências da variável Metodologia e faça um gráfico para indicar essa distribuição.
+\item[e)]  Sorteado ao acaso um dos 25 funcionários, qual a probabilidade de que ele tenha obtido grau A em Metodologia?
+\item[f)] Se, em vez de um, sorteássemos dois, a probabilidade de que ambos tivessem tido A em Metodologia é maior ou menor do que a resposta dada no item e)?
+\item[g)] Olhando para a seção ao qual os funcionários pertecentem, qual delas teve melhor aproveitamento na disciplina Estatística?
+\end{itemize}
+
+\begin{table}[htbp]
+{\footnotesize
+\centering 
+\begin{tabular}{c|c|c|c|c|c|c|c|c|c}
+\hline
+\hline
+{\bf Func.} & {\bf Seção (*)} & {\bf Adm.} &{\bf Direito} &{\bf Redação} &{\bf Est.} &{\bf Inglês} &{\bf Metodologia} &{\bf Política} &{\bf Economia}\\
+\hline
+1 & P & 8,0 & 9,0 & 8,6 & 9,0 & B & A & 9,0 & 8,5\\
+2 & P & 8,0 & 9,0 & 7,0 & 9,0 & B & C & 6,5 & 8,0\\
+3 & P & 8,0 & 9,0 & 8,0 & 8,0 & D & B & 9,0 & 8,5\\
+4 & P & 6,0 & 9,0 & 8,6 & 8,0 & D & C & 6,0 & 8,5\\
+5 & P & 8,0 & 9,0 & 8,0 & 9,0 & A & A & 6,5 & 9,0\\
+6 & P & 8,0 & 9,0 & 8,5 & 10,0 & B & A & 6,5 & 9,5\\
+7 & P & 8,0 & 9,0 & 8,2 & 8,0 & D & C & 9,0 & 7,0\\
+8 & T & 10,0 & 9,0 & 7,5 & 8,0 & B & C & 6,0 & 8,5\\
+9 & T & 8,0 & 9,0 & 9,4 & 9,0 & B & B & 10,0 & 8,0\\
+10 & T & 10,0 & 9,0 & 7,9 & 8,0 & B & C & 9,0 & 7,5\\
+11 & T & 8,0 & 9,0 & 8,6 & 10,0 & C & B & 10,0 & 8,5\\
+12 & T & 8,0 & 9,0 & 8,3 & 7,0 & D & B & 6,5 & 8,0\\
+13 & T & 6,0 & 9,0 & 7,0 & 7,0 & B & C & 6,0 & 8,5\\
+14 & T & 10,0 & 9,0 & 8,6 & 9,0 & A & B & 10,0 & 7,5\\
+15 & V & 8,0 & 9,0 & 8,6 & 9,0 & C & B & 10,0 & 7,0\\
+16 & V & 8,0 & 9,0 & 9,5 & 7,0 & A & A & 9,0 & 7,5\\
+17 & V & 8,0 & 9,0 & 6,3 & 8,0 & D & C & 10,0 & 7,5\\
+18 & V & 6,0 & 9,0 & 7,5 & 9,0 & C & C & 6,0 & 8,5\\
+19 & V & 6,0 & 9,0 & 6,8 & 4,0 & D & C & 6,0 & 9,5\\
+20 & V & 6,0 & 9,0 & 7,5 & 7,0 & C & B & 6,0 & 8,5\\
+21 & V & 8,0 & 9,0 & 7,7 & 7,0 & D & B & 6,5 & 8,0\\
+22 & V & 6,0 & 9,0 & 8,7 & 8,0 & C & A & 6,0 & 9,0\\
+23 & V & 8,0 & 9,0 & 7,3 & 10,0 & C & C & 9,0 & 7,0\\
+24 & V & 8,0 & 9,0 & 8,5 & 9,0 & A & A & 6,5 & 9,0\\
+25 & V & 8,0 & 9,0 & 7,0 & 9,0 & B & A & 9,0 & 8,5\\
+\hline
+\hline
+\end{tabular}
+}
+\end{table}
+\vspace{-0.9cm}
+\begin{center}
+(*) - P = Departamento pessoal, T = Seção técnica e V = Seção de vendas.
+\end{center}
+
+\newpage
+
+\item As taxas médias geométricas de incremento anual (por 100 habitantes) dos 30 maiores municípios do Brasil estão listadas abaixo.%Morettin - Capítulo 2 - Exercício 6 - Pág. 22
+\begin{center}
+3,67 \ \  1,82 \ \  3,73 \ \  4,10 \ \  4,30\\ 
+1,28 \ \  8,14 \ \  2,43 \ \  4,17 \ \  5,36\\
+3,96 \ \  6,54 \ \  5,84 \ \  7,35  \ \ 3,63\\
+2,93 \ \  2,82 \ \  8,45 \ \  5,28 \ \  5,41\\
+7,77 \ \  4,65 \ \  1,88 \ \  2,12 \ \  4,26\\
+2,78 \ \  5,54 \ \  0,90 \ \  5,09 \ \  4,07\\
+\end{center}
+\begin{itemize}
+\item[a)] Construa a distribuição de frequências com classes de amplitude de tamanho 2 começando em zero e terminando em 10.
+\item[b)] Faça um histograma à partir do {\bf item a)}.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\item Dispomos de uma relação de 200 aluguéis de imóveis urbanos e uma relação de 100 aluguéis de imóveis rurais. %Morettin - Capítulo 2 - Exercício 11 - Pág. 28
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|c|c}
+\hline
+\hline
+{\bf Classes de aluguéis (codificados)} & {\bf Zona urbana} & {\bf Zona rural}\\
+\hline
+$2\vdash 3$ & 10 & 30 \\
+$3\vdash 5$ & 40 & 50 \\
+$5\vdash 7$ & 80 & 15 \\
+\hspace{0.2cm}$7\vdash 10$ & 50 & 5 \\
+$10\vdash 15$ & 20 & 0 \\
+\hline
+{\bf Total} & 200 & 100\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\begin{itemize}
+\item[a)] Construa os histogramas das duas distribuições.
+\item[b)] Com base nos histogramas, discuta e compare as duas distribuições.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\item O número de divórcios em uma cidade, de acordo com a duração do casamento, está representado na tabela abaixo:
+\begin{table}[htbp] %Morettin - Capítulo 3 - Exercício 19 - Pág. 60
+\centering
+\begin{tabular}{c|c}
+\hline
+\hline
+{\bf Anos de casamento} & {\bf $\text{N}^{\text{\underline{o}}}$ de divórcios}\\
+\hline
+$0\vdash 6$ & 2.800 \\
+
+\hspace{0.2cm}$6\vdash 12$ & 1.400\\
+
+$12\vdash 18$ & 600 \\
+
+$18\vdash 24$ & 150 \\
+
+$24\vdash 30$ & 50 \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\begin{itemize}
+\item[a)] Qual a duração média dos casamentos? E a mediana?
+\item[b)] Encontre a variância e o desvio padrão da duração dos casamentos.
+\item[c)] Construa o histograma da distribuição.
+\item[d)] Encontre $q(0,25)$ e $q(0,75)$.
+\item[e)] A distribuição parece simétrica?
+\end{itemize}
+
+\item O que acontece com a mediana, a média e o desvio padrão de uma série de dados quando:%Morettin - Capítulo 3 - Exercício 21 - Pág. 60
+\begin{itemize}
+\item[a)] cada observação é multiplicada por 2;
+\item[b)] soma-se 10 a cada observação;
+\item[c)] subtrai-se a média geral $\overline{x}$ de cada observação;
+\item[d)] de cada observação subtrai-se $\overline{x}$ e divide-se o total pelo desvio padrão $\mathcal{D}(x)$.
+\end{itemize}
+
+\item Na {\bf Questão 5}, temos os resultados de 25 funcionários em vários exames a que se submeteram. Sabe-se agora que os critérios adotados em cada exame não são comparáveis, por isso decidiu-se usar o {\it desempenho relativo} em cada exame. Essa medida será obtida do seguinte modo:%Morettin - Capítulo 3 - Exercício 38 - Pág. 65
+\begin{itemize}
+\item[(I)] Para cada exame serão calculados a média $\overline{x}$ e o desvio padrão $\mathcal{D}(x)$.
+\item[(II)] A nota $X$ de cada aluno será padronizada do seguinte modo: $$Z=\frac{X-\overline{x}}{\mathcal{D}(x)}.$$
+\end{itemize}
+\begin{itemize}
+\item[a)] Interprete o significado de $Z$.
+\item[b)] Calcule as notas padronizadas dos funcionários para o exame de Estatística.
+\item[c)] Com os resultados obtidos no {\bf item b)}, calcule $\overline{z}$ e $\mathcal{D}(z)$.
+\item[d)] Se alguma nota estivar fora do intervalo $(-2\mathcal{D}(z),2\mathcal{D}(z))$ esse funcionário deve ser considerado um caso atípico. Existe alguém nessa situação?
+\item[e)] O funcionário 1 obteve 9,0 em {\it Direito}, em {\it Estatística} e em {\it Política}. Em qual disciplina seu desempenho relativo foi melhor?
+\end{itemize}
+
+\item Supondo que podem existir valores repetidos no conjunto $X=\{x_1,\ldots,x_n\}$, demonstre a validade da propriedade $$\text{Var}(X) = \sum_{i=1}^k f_ix_i^2-\overline{x}^2, \ \ 1\leqslant k \leqslant n.$$%Ross Eng. - Capítulo 2 - An algebraic identity - Pág. 23
+
+\item A distribuição de frequências do salário anual (x 10 salários mínimos) dos moradores do bairro A que tem alguma forma de rendimento é apresentada na tabela abaixo:%Morettin - Capítulo 3 - Exercício 25 - Pág. 61
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|c}
+\hline
+\hline
+{\bf Faixa salarial} & {\bf Frequência}\\
+\hline
+$0\vdash 2$ & 10.000 \\
+
+$2\vdash 4$ & 3.900\\
+
+$4\vdash 6$ & 2.000 \\
+
+$6\vdash 8$ & 1.100 \\
+
+\hspace{0.2cm}$8\vdash 10$ & 800 \\
+
+$10\vdash 12$ & 700 \\
+
+$12\vdash 14$ & 2.000 \\
+\hline
+Total & 20.500 \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\begin{itemize}
+\item[a)] Construa um histograma da distribuição.
+\item[b)] Calcule a média e use o item anterior para calcular o desvio padrão.
+\item[c)] O bairro B apresenta, para a mesma variável, uma média de 7,2 e um desvio padrão de 15,1. Em qual dos bairros a população é mais homogênea em relação à renda?
+\item[d)] Com base na distribuição acumulada decida qual é a faixa salarial dos 10\% mais ricos da população.
+\item[e)] Qual a ``riqueza total'' dos moradores do bairro?
+\end{itemize}
+
+\vspace{0.3cm}
+
+\item Se $0<\alpha<1$, uma {\it média aparada} a $100\alpha\%$ é obtida eliminando-se $100\alpha\%$ dentre as maiores e menores observações e calculando-se a média aritmética das restantes. Por exemplo, se tivermos 10 observações ordenadas $x_{(1)}<x_{(2)}<\cdots<x_{(10)}$, a média aparada a 10\% é $$\overline{x}(0,10)=\frac{x_{(2)}+\cdots+x_{(9)}}{8}.$$%Morettin - Capítulo 3 - Exercício 39 - Pág. 65
+\begin{itemize}
+\item[a)] Calcule a média aparada a 10\% e 25\% para os dados da variável {\it Salários} referentes à tabela presente na {\bf Questão 4}.
+\item[b)] Qual a intenção do autor ao criar a medida de posição {\it média aparada}?
+\end{itemize}
+
+\vspace{0.3cm}
+
+\item Numa pesquisa sobre rotatividade de mão de obra, para uma amostra de 40 pessoas foram observadas duas variáveis: número de empregos nos últimos dois anos $(X)$ e salário mais recente, em número de salários mínimos $(Y)$. Os resultados foram: %Morettin - Capítulo 4 - Exercício 3 - Pág. 72
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|c|c|c|c|c}
+\hline
+\hline
+{\bf Indivíduo} & {\bf X} &{\bf Y} & {\bf Indivíduo} & {\bf X} &{\bf Y}\\
+\hline
+1 & 1 & 6 & 21 & 2 & 4\\
+2 & 3 & 2 & 22 & 3 & 2\\
+3 & 2 & 4 & 23 & 4 & 1\\
+4 & 3 & 1 & 24 & 1 & 5\\
+5 & 2 & 4 & 25 & 2 & 4\\
+6 & 2 & 1 & 26 & 3 & 2\\
+7 & 3 & 3 & 27 & 4 & 1\\
+8 & 1 & 5 & 28 & 1 & 5\\
+9 & 2 & 2 & 29 & 4 & 4\\
+10 & 3 & 2 & 30 & 3 & 3\\
+11 & 2 & 5 & 31 & 2 & 2\\
+12 & 3 & 2 & 32 & 1 & 1\\
+13 & 1 & 6 & 33 & 4 & 1\\
+14 & 2 & 6 & 34 & 2 & 6\\
+15 & 3 & 2 & 35 & 4 & 2\\
+16 & 4 & 2 & 36 & 3 & 1\\
+17 & 1 & 5 & 37 & 1 & 4\\
+18 & 2 & 5 & 38 & 3 & 2\\
+19 & 2 & 1 & 39 & 2 & 3\\
+20 & 2 & 1 & 40 & 2 & 5\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+
+\begin{itemize}
+\item[a)] Usando a mediana, classifique os indivíduos em dois níveis, alto e baixo, para cada uma das variáveis, e construa a distribuição de frequências conjunta das duas classificações.
+\item[b)] Qual a porcentagem das pessoas com baixa rotatividade e ganhando pouco?
+\item[c)] Qual a porcentagem das pessoas que ganham pouco?
+\item[d)] Entre as pessoas com baixa rotatividade, qual a porcentagem das que ganham pouco?
+\item[e)] A informação adicional dada em d) mudou muito a porcentagem observada em c)? O que isso significa?
+\item[f)] Verifique se há associações entre as variáveis rotatividade e salário. %Morettin - Capítulo 4 - Exercício 5 - Pág. 75
+\end{itemize}
+
+\vspace{0.2cm}
+
+\item A companhia {\bf A} de dedetização afirma que o processo por ela utilizado garante um efeito mais prolongado do que aquele obtido por seus concorrentes diretos. Uma amostra de vários ambientes dedetizados foi colhida e anotou-se a duração do efeito de dedetização. Os resultados estão na tabela abaixo. Você acha que existe alguma evidência a favor ou contra a afirmação feita pala companhia {\bf A}?
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|c|c|c}
+\hline
+\hline
+ & \multicolumn{3}{c}{\bf Duração do efeito de dedetização}\\
+\hline
+{\bf Companhia} & {\bf Menos de}  & {\bf De 4 a 8} & {\bf Mais de }\\
+& {\bf 4 meses} & {\bf meses} & {\bf 8 meses}\\
+\hline
+{\bf A} & 64 & 120 & 16\\
+{\bf B} & 104 & 175 & 21\\
+{\bf C} & 27 & 48 & 5\\
+\hline
+\hline
+\end{tabular}
+\end{table} 
+
+\item Prove que $$\frac{1}{n}\sum_i\left(\frac{x_i-\overline{x}}{\mathcal{D}(x)}\right)\left(\frac{y_i-\overline{y}}{\mathcal{D}(y)}\right) = \frac{\sum x_iy_i-n\overline{x} \hspace{0.03cm} \overline{y}}{\sqrt{\left(\sum x_i^2-n\overline{x}^2\right)\left(\sum y_i^2-n\overline{y}^2\right)}}.$$
+
+\item Abaixo estão os dados referentes à porcentagem da população economicamente ativa empregada no setor primário e o respectivo índice de analfabetismo para algumas regiões metropolitanas brasileiras.
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{l|c|c}
+\hline
+\hline
+
+\rule{0in}{0.5cm} {\bf Regiões metropolitanas} & {\bf Setor primário} & {\bf Índice de analfabetismo}\\
+
+\hline
+
+\rule{0in}{0.5cm} São Paulo & 2,0 & 17,5\\
+\rule{0in}{0.5cm} Rio de Janeiro & 2,5 & 18,5\\ 
+\rule{0in}{0.5cm} Belém & 2,9 & 19,5\\
+\rule{0in}{0.5cm} Belo Horizonte & 3,3 & 22,0\\
+\rule{0in}{0.5cm} Salvador & 4,1 & 26,5\\
+\rule{0in}{0.5cm} Porto Alegre & 4,3 & 16,6\\
+\rule{0in}{0.5cm} Recife & 7,0 & 36,6\\
+\rule{0in}{0.5cm} Fortaleza & 13,0 & 38,4\\ 
+
+\hline
+\hline
+\end{tabular}
+\end{table} 
+
+\begin{itemize}
+\item[a)] Faça o diagrama de dispersão.
+\item[b)] Você acha que existe uma dependência linear entre as duas variáveis?
+\item[c)] Calcule o coeficiente de correlação.
+\item[d)] Existe alguma região com comportamento diferente das demais? Se existe, elimine o valor correspondente e recalcule o coeficiente de correlação.
+\end{itemize}
+
+\newpage
+
+
+\end{enumerate}
+
+\newpage
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+        \begin{minipage}[c]{7in}
+          {Universidade de Brasília} \\
+          {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf Respostas}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item
+\begin{itemize}
+\item[a)] Qualitativa nominal. 
+\item[b)] Quantitativa discreta. 
+\item[c)] Quantitativa discreta.
+\item[d)] Quantitativa contínua. 
+\item[e)] Quantitativa contínua. 
+\item[f)] Qualitativa ordinal.
+\item[g)] Quantitativa contínua. 
+\item[h)] Qualitativa nominal.
+\end{itemize}
+
+\item Item (c).
+
+\item Item (b).
+
+\item[5.]
+\begin{itemize}
+\item[a)] 
+{\bf Seção:} Variável qualitativa nominal. \\
+{\bf Administração:} Variável quantitativa contínua.\\
+{\bf Direito:} Variável quantitativa contínua.\\
+{\bf Redação:} Variável quantitativa contínua.\\
+{\bf Estatística:} Variável quantitativa contínua.\\
+{\bf Política:} Variável quantitativa contínua.\\
+{\bf Economia:} Variável quantitativa contínua.\\
+{\bf Inglês:} Variável qualitativa ordinal. \\
+{\bf Metodologia:} Variável qualitativa ordinal. \\
+\end{itemize}
+
+\item[8.]
+\begin{itemize}
+\item[a)] $\overline{x}=6,90$ \ e \ $\tilde{x}=5,35$.
+\item[b)] $\text{Var}(X) = 27,62$ \ e \ $\mathcal{D}(X) = 5,26$.
+\item[d)] $q_1=2,68$ \ e \ $q_3 = 10,07.$
+\item[e)] Assimétrica.
+\end{itemize}
+
+\item[9.] 
+\begin{itemize}
+\item[a)] $2\tilde{x}$, $2\overline{x}$ e $2\mathcal{D}(X).$
+\item[b)] $10+\tilde{x}$, $10+\overline{x}$ e $\mathcal{D}(X)$.
+\item[c)] $\tilde{x}-\overline{x}$, 0 e $\mathcal{D}(X)$.
+\item[d)] $\frac{\tilde{x}-\overline{x}}{\mathcal{D}(X)}$, 0 e 1.
+\end{itemize}
+
+\item[10.] 
+\begin{itemize}
+\item[a)] Média seja zero e o desvio padrão 1.
+\item[b)] 0,58; 1,35; 1,35; -0,95; -0,95; 0,58; -0,18; -0,95; -0,18; -0,18; -0,18; -0,18; -0,95; 0,58; 1,35; -0,18; 0,58; 0,58; -3,26; 0,58; 0,58;  -0,18; 0,58; -0,95; 0,58
+\item[c)] $\overline{z}=0$ e $\mathcal{D}(Z)=1$.
+\item[d)] O funcionário 19 é um caso atípico.
+\item[e)] Política.
+\end{itemize}
+
+\item[12.] 
+\begin{itemize}
+\item[b)] A média é 3,9172 e o o desvio padrão é 3,9631.
+\item[c)] Bairro A.
+\item[d)] A faixa salarial dos 10\% mais ricos é $[11,8592 \ ; \ 14,0000]$.
+\item[e)] Aproximadamente 80.302,6.
+\end{itemize}
+
+\item[13.] 
+\begin{itemize}
+\item[a)] $\overline{x}(0,10)=10,84$ \ e \ $\overline{x}(0,25)=10,52$.
+\item[b)] Eliminar a contribuição exagerada que valores atípicos proporcionam à média aritmética.
+\end{itemize}
+
+\item[14.] 
+\begin{itemize}
+\item[a)] Considere {\it baixa rotatividade} para valores menores que 2 e {\it baixo salário} para valores menores que 2,5
+\item[b)] $2,5\%$.
+\item[c)] $50\%$.
+\item[d)] $12,5\%$.
+\item[e)] Bastante modificada; observe que maioria das pessoas que ganham pouco tem alta rotatividade.
+\item[f)] Parece haver uma associação entre {\it alta rotatividade} e {\it baixos salários}.
+\end{itemize}
+
+\item[15.] Não há diferença entre as 3 empresas.
+
+\item[16.] Demonstração.
+
+\item[17.]
+\begin{itemize}
+\item[b)] O gráfico indica uma dependência linear positiva entre as variáveis.
+\item[c)] 0,87.
+\item[d)] As regiões de Porto Alegre e Fortaleza parecem fugir à curva. O novo coeficiente de correlação é aproximadamente 0,99.
+\end{itemize}
+\end{enumerate}
+\end{document}

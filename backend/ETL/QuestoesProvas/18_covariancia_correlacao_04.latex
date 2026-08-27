@@ -1,0 +1,882 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.06 & 0.16 \\
+  4 & 0.51 & 0.12 \\
+  5 & 0.14 & 0.01 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-10.505\)
+  \item
+    \(0.870\)
+  \item
+    \(-0.130\)
+  \item
+    \(-0.065\)
+  \item
+    \(4.940\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.06 & 0.16 & 0.22 \\
+  4 & 0.51 & 0.12 & 0.63 \\
+  5 & 0.14 & 0.01 & 0.15 \\
+  P(Y=y) & 0.71 & 0.29 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.22+4\times0.63+5\times0.15 = 3.93\\
+  E(Y) &=& 1\times0.71+2\times0.29 = 1.29
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.06 & 0.51 & 0.14 & 0.16 & 0.12 & 0.01 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.06+4\times0.51+5\times0.14+6\times0.16+8\times0.12+10\times0.01 = 4.94\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.13.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.08 & 0.23 \\
+  4 & 0.45 & 0.02 \\
+  5 & 0.1 & 0.12 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-10.008\)
+  \item
+    \(-0.039\)
+  \item
+    \(0.923\)
+  \item
+    \(-0.077\)
+  \item
+    \(5.280\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.08 & 0.23 & 0.31 \\
+  4 & 0.45 & 0.02 & 0.47 \\
+  5 & 0.1 & 0.12 & 0.22 \\
+  P(Y=y) & 0.63 & 0.37 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.31+4\times0.47+5\times0.22 = 3.91\\
+  E(Y) &=& 1\times0.63+2\times0.37 = 1.37
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.08 & 0.45 & 0.1 & 0.23 & 0.02 & 0.12 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.08+4\times0.45+5\times0.1+6\times0.23+8\times0.02+10\times0.12 = 5.28\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.077.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.08 & 0.25 \\
+  4 & 0.02 & 0.14 \\
+  5 & 0.5 & 0.01 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.688\)
+  \item
+    \(-0.312\)
+  \item
+    \(5.540\)
+  \item
+    \(-11.932\)
+  \item
+    \(-0.156\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.08 & 0.25 & 0.33 \\
+  4 & 0.02 & 0.14 & 0.16 \\
+  5 & 0.5 & 0.01 & 0.51 \\
+  P(Y=y) & 0.6 & 0.4 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.33+4\times0.16+5\times0.51 = 4.18\\
+  E(Y) &=& 1\times0.6+2\times0.4 = 1.4
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.08 & 0.02 & 0.5 & 0.25 & 0.14 & 0.01 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.08+4\times0.02+5\times0.5+6\times0.25+8\times0.14+10\times0.01 = 5.54\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.312.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.02 & 0.52 \\
+  4 & 0.2 & 0.04 \\
+  5 & 0.18 & 0.04 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.288\)
+  \item
+    \(-0.144\)
+  \item
+    \(-7.942\)
+  \item
+    \(5.600\)
+  \item
+    \(0.712\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.02 & 0.52 & 0.54 \\
+  4 & 0.2 & 0.04 & 0.24 \\
+  5 & 0.18 & 0.04 & 0.22 \\
+  P(Y=y) & 0.4 & 0.6 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.54+4\times0.24+5\times0.22 = 3.68\\
+  E(Y) &=& 1\times0.4+2\times0.6 = 1.6
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.02 & 0.2 & 0.18 & 0.52 & 0.04 & 0.04 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.02+4\times0.2+5\times0.18+6\times0.52+8\times0.04+10\times0.04 = 5.6\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.288.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.25 & 0.16 \\
+  4 & 0 & 0.24 \\
+  5 & 0.03 & 0.32 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.203\)
+  \item
+    \(0.797\)
+  \item
+    \(6.980\)
+  \item
+    \(-8.544\)
+  \item
+    \(0.102\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.25 & 0.16 & 0.41 \\
+  4 & 0 & 0.24 & 0.24 \\
+  5 & 0.03 & 0.32 & 0.35 \\
+  P(Y=y) & 0.28 & 0.72 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.41+4\times0.24+5\times0.35 = 3.94\\
+  E(Y) &=& 1\times0.28+2\times0.72 = 1.72
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.25 & 0 & 0.03 & 0.16 & 0.24 & 0.32 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.25+4\times0+5\times0.03+6\times0.16+8\times0.24+10\times0.32 = 6.98\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.203.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.14 & 0.25 \\
+  4 & 0.19 & 0.03 \\
+  5 & 0.04 & 0.35 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.050\)
+  \item
+    \(6.620\)
+  \item
+    \(0.100\)
+  \item
+    \(0.900\)
+  \item
+    \(-9.380\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.14 & 0.25 & 0.39 \\
+  4 & 0.19 & 0.03 & 0.22 \\
+  5 & 0.04 & 0.35 & 0.39 \\
+  P(Y=y) & 0.37 & 0.63 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.39+4\times0.22+5\times0.39 = 4\\
+  E(Y) &=& 1\times0.37+2\times0.63 = 1.63
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.14 & 0.19 & 0.04 & 0.25 & 0.03 & 0.35 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.14+4\times0.19+5\times0.04+6\times0.25+8\times0.03+10\times0.35 = 6.62\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.1.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.15 & 0.05 \\
+  4 & 0.05 & 0.02 \\
+  5 & 0.4 & 0.33 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.932\)
+  \item
+    \(6.410\)
+  \item
+    \(-14.111\)
+  \item
+    \(0.068\)
+  \item
+    \(0.034\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.15 & 0.05 & 0.2 \\
+  4 & 0.05 & 0.02 & 0.07 \\
+  5 & 0.4 & 0.33 & 0.73 \\
+  P(Y=y) & 0.6 & 0.4 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.2+4\times0.07+5\times0.73 = 4.53\\
+  E(Y) &=& 1\times0.6+2\times0.4 = 1.4
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.15 & 0.05 & 0.4 & 0.05 & 0.02 & 0.33 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.15+4\times0.05+5\times0.4+6\times0.05+8\times0.02+10\times0.33 = 6.41\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.068.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.07 & 0.03 \\
+  4 & 0.07 & 0.11 \\
+  5 & 0.35 & 0.37 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(7.000\)
+  \item
+    \(0.012\)
+  \item
+    \(0.976\)
+  \item
+    \(-14.344\)
+  \item
+    \(0.024\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.07 & 0.03 & 0.1 \\
+  4 & 0.07 & 0.11 & 0.18 \\
+  5 & 0.35 & 0.37 & 0.72 \\
+  P(Y=y) & 0.49 & 0.51 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.1+4\times0.18+5\times0.72 = 4.62\\
+  E(Y) &=& 1\times0.49+2\times0.51 = 1.51
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.07 & 0.07 & 0.35 & 0.03 & 0.11 & 0.37 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.07+4\times0.07+5\times0.35+6\times0.03+8\times0.11+10\times0.37 = 7\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.024.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.01 & 0.32 \\
+  4 & 0.02 & 0.03 \\
+  5 & 0.14 & 0.48 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.081\)
+  \item
+    \(-0.041\)
+  \item
+    \(0.919\)
+  \item
+    \(7.770\)
+  \item
+    \(-10.634\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.01 & 0.32 & 0.33 \\
+  4 & 0.02 & 0.03 & 0.05 \\
+  5 & 0.14 & 0.48 & 0.62 \\
+  P(Y=y) & 0.17 & 0.83 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.33+4\times0.05+5\times0.62 = 4.29\\
+  E(Y) &=& 1\times0.17+2\times0.83 = 1.83
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.01 & 0.02 & 0.14 & 0.32 & 0.03 & 0.48 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.01+4\times0.02+5\times0.14+6\times0.32+8\times0.03+10\times0.48 = 7.77\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.081.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.05 & 0.17 \\
+  4 & 0 & 0.2 \\
+  5 & 0.45 & 0.13 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.780\)
+  \item
+    \(6.320\)
+  \item
+    \(-12.690\)
+  \item
+    \(-0.220\)
+  \item
+    \(-0.110\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.05 & 0.17 & 0.22 \\
+  4 & 0 & 0.2 & 0.2 \\
+  5 & 0.45 & 0.13 & 0.58 \\
+  P(Y=y) & 0.5 & 0.5 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.22+4\times0.2+5\times0.58 = 4.36\\
+  E(Y) &=& 1\times0.5+2\times0.5 = 1.5
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.05 & 0 & 0.45 & 0.17 & 0.2 & 0.13 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.05+4\times0+5\times0.45+6\times0.17+8\times0.2+10\times0.13 = 6.32\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.22.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

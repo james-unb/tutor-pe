@@ -1,0 +1,422 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um livreiro descuidado mistura 4 exemplares defeituosos junto com
+  outros 5 perfeitos de um certo livro didático. Se 3 amigas vão a essa
+  livraria para comprar seus livros escolares e cada uma compra um
+  livro, então qual a probabilidade de que exatamente duas delas leve um
+  livro defeituoso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.048\)
+  \item
+    \(0.357\)
+  \item
+    \(0.952\)
+  \item
+    \(0.714\)
+  \item
+    \(0.536\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Consideremos o conjunto de \(N=9\) livros, dos quais \(b=4\) são
+  defeituosos. Seja \(X\) o número de livros com defeito dentre os
+  \(n=3\) comprados. Então \(X\) segue distribuição hipergeométrica com
+  parâmetros \(N\), \(b\) e \(n\). Assim,
+  \[P(X=2)=\frac{{4\choose 2} {5 \choose 1}}{{9\choose 3}}=0.357.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um livreiro descuidado mistura 3 exemplares defeituosos junto com
+  outros 5 perfeitos de um certo livro didático. Se 4 amigas vão a essa
+  livraria para comprar seus livros escolares e cada uma compra um
+  livro, então qual a probabilidade de que exatamente duas delas leve um
+  livro defeituoso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.929\)
+  \item
+    \(0.071\)
+  \item
+    \(0.343\)
+  \item
+    \(0.429\)
+  \item
+    \(0.214\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Consideremos o conjunto de \(N=8\) livros, dos quais \(b=3\) são
+  defeituosos. Seja \(X\) o número de livros com defeito dentre os
+  \(n=4\) comprados. Então \(X\) segue distribuição hipergeométrica com
+  parâmetros \(N\), \(b\) e \(n\). Assim,
+  \[P(X=2)=\frac{{3\choose 2} {5 \choose 2}}{{8\choose 4}}=0.429.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um livreiro descuidado mistura 4 exemplares defeituosos junto com
+  outros 5 perfeitos de um certo livro didático. Se 3 amigas vão a essa
+  livraria para comprar seus livros escolares e cada uma compra um
+  livro, então qual a probabilidade de que exatamente duas delas leve um
+  livro defeituoso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.952\)
+  \item
+    \(0.714\)
+  \item
+    \(0.357\)
+  \item
+    \(0.536\)
+  \item
+    \(0.048\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Consideremos o conjunto de \(N=9\) livros, dos quais \(b=4\) são
+  defeituosos. Seja \(X\) o número de livros com defeito dentre os
+  \(n=3\) comprados. Então \(X\) segue distribuição hipergeométrica com
+  parâmetros \(N\), \(b\) e \(n\). Assim,
+  \[P(X=2)=\frac{{4\choose 2} {5 \choose 1}}{{9\choose 3}}=0.357.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um livreiro descuidado mistura 4 exemplares defeituosos junto com
+  outros 5 perfeitos de um certo livro didático. Se 3 amigas vão a essa
+  livraria para comprar seus livros escolares e cada uma compra um
+  livro, então qual a probabilidade de que exatamente duas delas leve um
+  livro defeituoso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.048\)
+  \item
+    \(0.714\)
+  \item
+    \(0.952\)
+  \item
+    \(0.357\)
+  \item
+    \(0.536\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Consideremos o conjunto de \(N=9\) livros, dos quais \(b=4\) são
+  defeituosos. Seja \(X\) o número de livros com defeito dentre os
+  \(n=3\) comprados. Então \(X\) segue distribuição hipergeométrica com
+  parâmetros \(N\), \(b\) e \(n\). Assim,
+  \[P(X=2)=\frac{{4\choose 2} {5 \choose 1}}{{9\choose 3}}=0.357.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um livreiro descuidado mistura 4 exemplares defeituosos junto com
+  outros 5 perfeitos de um certo livro didático. Se 3 amigas vão a essa
+  livraria para comprar seus livros escolares e cada uma compra um
+  livro, então qual a probabilidade de que exatamente duas delas leve um
+  livro defeituoso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.048\)
+  \item
+    \(0.952\)
+  \item
+    \(0.714\)
+  \item
+    \(0.536\)
+  \item
+    \(0.357\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Consideremos o conjunto de \(N=9\) livros, dos quais \(b=4\) são
+  defeituosos. Seja \(X\) o número de livros com defeito dentre os
+  \(n=3\) comprados. Então \(X\) segue distribuição hipergeométrica com
+  parâmetros \(N\), \(b\) e \(n\). Assim,
+  \[P(X=2)=\frac{{4\choose 2} {5 \choose 1}}{{9\choose 3}}=0.357.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um livreiro descuidado mistura 3 exemplares defeituosos junto com
+  outros 5 perfeitos de um certo livro didático. Se 4 amigas vão a essa
+  livraria para comprar seus livros escolares e cada uma compra um
+  livro, então qual a probabilidade de que exatamente duas delas leve um
+  livro defeituoso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.343\)
+  \item
+    \(0.429\)
+  \item
+    \(0.929\)
+  \item
+    \(0.214\)
+  \item
+    \(0.071\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Consideremos o conjunto de \(N=8\) livros, dos quais \(b=3\) são
+  defeituosos. Seja \(X\) o número de livros com defeito dentre os
+  \(n=4\) comprados. Então \(X\) segue distribuição hipergeométrica com
+  parâmetros \(N\), \(b\) e \(n\). Assim,
+  \[P(X=2)=\frac{{3\choose 2} {5 \choose 2}}{{8\choose 4}}=0.429.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um livreiro descuidado mistura 4 exemplares defeituosos junto com
+  outros 5 perfeitos de um certo livro didático. Se 3 amigas vão a essa
+  livraria para comprar seus livros escolares e cada uma compra um
+  livro, então qual a probabilidade de que exatamente duas delas leve um
+  livro defeituoso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.536\)
+  \item
+    \(0.357\)
+  \item
+    \(0.952\)
+  \item
+    \(0.048\)
+  \item
+    \(0.714\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Consideremos o conjunto de \(N=9\) livros, dos quais \(b=4\) são
+  defeituosos. Seja \(X\) o número de livros com defeito dentre os
+  \(n=3\) comprados. Então \(X\) segue distribuição hipergeométrica com
+  parâmetros \(N\), \(b\) e \(n\). Assim,
+  \[P(X=2)=\frac{{4\choose 2} {5 \choose 1}}{{9\choose 3}}=0.357.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um livreiro descuidado mistura 4 exemplares defeituosos junto com
+  outros 5 perfeitos de um certo livro didático. Se 3 amigas vão a essa
+  livraria para comprar seus livros escolares e cada uma compra um
+  livro, então qual a probabilidade de que exatamente duas delas leve um
+  livro defeituoso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.536\)
+  \item
+    \(0.357\)
+  \item
+    \(0.952\)
+  \item
+    \(0.048\)
+  \item
+    \(0.714\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Consideremos o conjunto de \(N=9\) livros, dos quais \(b=4\) são
+  defeituosos. Seja \(X\) o número de livros com defeito dentre os
+  \(n=3\) comprados. Então \(X\) segue distribuição hipergeométrica com
+  parâmetros \(N\), \(b\) e \(n\). Assim,
+  \[P(X=2)=\frac{{4\choose 2} {5 \choose 1}}{{9\choose 3}}=0.357.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um livreiro descuidado mistura 3 exemplares defeituosos junto com
+  outros 5 perfeitos de um certo livro didático. Se 4 amigas vão a essa
+  livraria para comprar seus livros escolares e cada uma compra um
+  livro, então qual a probabilidade de que exatamente duas delas leve um
+  livro defeituoso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.071\)
+  \item
+    \(0.343\)
+  \item
+    \(0.929\)
+  \item
+    \(0.429\)
+  \item
+    \(0.214\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Consideremos o conjunto de \(N=8\) livros, dos quais \(b=3\) são
+  defeituosos. Seja \(X\) o número de livros com defeito dentre os
+  \(n=4\) comprados. Então \(X\) segue distribuição hipergeométrica com
+  parâmetros \(N\), \(b\) e \(n\). Assim,
+  \[P(X=2)=\frac{{3\choose 2} {5 \choose 2}}{{8\choose 4}}=0.429.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um livreiro descuidado mistura 5 exemplares defeituosos junto com
+  outros 5 perfeitos de um certo livro didático. Se 3 amigas vão a essa
+  livraria para comprar seus livros escolares e cada uma compra um
+  livro, então qual a probabilidade de que exatamente duas delas leve um
+  livro defeituoso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.417\)
+  \item
+    \(0.917\)
+  \item
+    \(0.083\)
+  \item
+    \(0.875\)
+  \item
+    \(0.833\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Consideremos o conjunto de \(N=10\) livros, dos quais \(b=5\) são
+  defeituosos. Seja \(X\) o número de livros com defeito dentre os
+  \(n=3\) comprados. Então \(X\) segue distribuição hipergeométrica com
+  parâmetros \(N\), \(b\) e \(n\). Assim,
+  \[P(X=2)=\frac{{5\choose 2} {5 \choose 1}}{{10\choose 3}}=0.417.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

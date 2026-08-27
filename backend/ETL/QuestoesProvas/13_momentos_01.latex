@@ -1,0 +1,502 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo (em minutos) por dia durante o qual um equipamento
+  elétrico é utilizado em carga máxima. Sua função de densidade é dada a
+  seguir. \[f_X(x) = 
+      \begin{cases}
+      \frac{x}{75^2}, & \mbox{se}\, \ \ 0 \leq x \leq 75; \\ 
+      \frac{150-x}{75^2}, & \mbox{se} \, \ \ 75 < x \leq 150 ; \\
+      0, & \text{caso contrário}.
+      \end{cases}
+      \nonumber\] Qual é o tempo esperado de utilização em carga máxima
+  desse equipamento em um dia?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(100\)
+  \item
+    \(50\)
+  \item
+    \(95\)
+  \item
+    \(62\)
+  \item
+    \(75\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que o resultado segue também da simetria da densidade (análise
+  gráfica). \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{75^2} \left(\int_{0}^{75} x^2 dx + \int_{75}^{150} x(150-x) dx \right) \\
+  & = \frac{1}{75^2} \left(\left[\frac{x^3}{3}\right]_0^{75} + \left[150\frac{x^2}{2}\right]_{75}^{150} - 
+  \left[\frac{x^3}{3}\right]_{75}^{150} \right) \\
+  & = 75 \text{ minutos}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo (em minutos) por dia durante o qual um equipamento
+  elétrico é utilizado em carga máxima. Sua função de densidade é dada a
+  seguir. \[f_X(x) = 
+      \begin{cases}
+      \frac{x}{175^2}, & \mbox{se}\, \ \ 0 \leq x \leq 175; \\ 
+      \frac{350-x}{175^2}, & \mbox{se} \, \ \ 175 < x \leq 350 ; \\
+      0, & \text{caso contrário}.
+      \end{cases}
+      \nonumber\] Qual é o tempo esperado de utilização em carga máxima
+  desse equipamento em um dia?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(233\)
+  \item
+    \(175\)
+  \item
+    \(185\)
+  \item
+    \(131\)
+  \item
+    \(117\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que o resultado segue também da simetria da densidade (análise
+  gráfica). \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{175^2} \left(\int_{0}^{175} x^2 dx + \int_{175}^{350} x(350-x) dx \right) \\
+  & = \frac{1}{175^2} \left(\left[\frac{x^3}{3}\right]_0^{175} + \left[350\frac{x^2}{2}\right]_{175}^{350} - 
+  \left[\frac{x^3}{3}\right]_{175}^{350} \right) \\
+  & = 175 \text{ minutos}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo (em minutos) por dia durante o qual um equipamento
+  elétrico é utilizado em carga máxima. Sua função de densidade é dada a
+  seguir. \[f_X(x) = 
+      \begin{cases}
+      \frac{x}{175^2}, & \mbox{se}\, \ \ 0 \leq x \leq 175; \\ 
+      \frac{350-x}{175^2}, & \mbox{se} \, \ \ 175 < x \leq 350 ; \\
+      0, & \text{caso contrário}.
+      \end{cases}
+      \nonumber\] Qual é o tempo esperado de utilização em carga máxima
+  desse equipamento em um dia?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(175\)
+  \item
+    \(117\)
+  \item
+    \(220\)
+  \item
+    \(233\)
+  \item
+    \(174\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que o resultado segue também da simetria da densidade (análise
+  gráfica). \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{175^2} \left(\int_{0}^{175} x^2 dx + \int_{175}^{350} x(350-x) dx \right) \\
+  & = \frac{1}{175^2} \left(\left[\frac{x^3}{3}\right]_0^{175} + \left[350\frac{x^2}{2}\right]_{175}^{350} - 
+  \left[\frac{x^3}{3}\right]_{175}^{350} \right) \\
+  & = 175 \text{ minutos}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo (em minutos) por dia durante o qual um equipamento
+  elétrico é utilizado em carga máxima. Sua função de densidade é dada a
+  seguir. \[f_X(x) = 
+      \begin{cases}
+      \frac{x}{125^2}, & \mbox{se}\, \ \ 0 \leq x \leq 125; \\ 
+      \frac{250-x}{125^2}, & \mbox{se} \, \ \ 125 < x \leq 250 ; \\
+      0, & \text{caso contrário}.
+      \end{cases}
+      \nonumber\] Qual é o tempo esperado de utilização em carga máxima
+  desse equipamento em um dia?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(83\)
+  \item
+    \(125\)
+  \item
+    \(104\)
+  \item
+    \(124\)
+  \item
+    \(167\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que o resultado segue também da simetria da densidade (análise
+  gráfica). \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{125^2} \left(\int_{0}^{125} x^2 dx + \int_{125}^{250} x(250-x) dx \right) \\
+  & = \frac{1}{125^2} \left(\left[\frac{x^3}{3}\right]_0^{125} + \left[250\frac{x^2}{2}\right]_{125}^{250} - 
+  \left[\frac{x^3}{3}\right]_{125}^{250} \right) \\
+  & = 125 \text{ minutos}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo (em minutos) por dia durante o qual um equipamento
+  elétrico é utilizado em carga máxima. Sua função de densidade é dada a
+  seguir. \[f_X(x) = 
+      \begin{cases}
+      \frac{x}{75^2}, & \mbox{se}\, \ \ 0 \leq x \leq 75; \\ 
+      \frac{150-x}{75^2}, & \mbox{se} \, \ \ 75 < x \leq 150 ; \\
+      0, & \text{caso contrário}.
+      \end{cases}
+      \nonumber\] Qual é o tempo esperado de utilização em carga máxima
+  desse equipamento em um dia?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(89\)
+  \item
+    \(51\)
+  \item
+    \(100\)
+  \item
+    \(75\)
+  \item
+    \(50\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que o resultado segue também da simetria da densidade (análise
+  gráfica). \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{75^2} \left(\int_{0}^{75} x^2 dx + \int_{75}^{150} x(150-x) dx \right) \\
+  & = \frac{1}{75^2} \left(\left[\frac{x^3}{3}\right]_0^{75} + \left[150\frac{x^2}{2}\right]_{75}^{150} - 
+  \left[\frac{x^3}{3}\right]_{75}^{150} \right) \\
+  & = 75 \text{ minutos}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo (em minutos) por dia durante o qual um equipamento
+  elétrico é utilizado em carga máxima. Sua função de densidade é dada a
+  seguir. \[f_X(x) = 
+      \begin{cases}
+      \frac{x}{75^2}, & \mbox{se}\, \ \ 0 \leq x \leq 75; \\ 
+      \frac{150-x}{75^2}, & \mbox{se} \, \ \ 75 < x \leq 150 ; \\
+      0, & \text{caso contrário}.
+      \end{cases}
+      \nonumber\] Qual é o tempo esperado de utilização em carga máxima
+  desse equipamento em um dia?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(52\)
+  \item
+    \(50\)
+  \item
+    \(100\)
+  \item
+    \(75\)
+  \item
+    \(56\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que o resultado segue também da simetria da densidade (análise
+  gráfica). \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{75^2} \left(\int_{0}^{75} x^2 dx + \int_{75}^{150} x(150-x) dx \right) \\
+  & = \frac{1}{75^2} \left(\left[\frac{x^3}{3}\right]_0^{75} + \left[150\frac{x^2}{2}\right]_{75}^{150} - 
+  \left[\frac{x^3}{3}\right]_{75}^{150} \right) \\
+  & = 75 \text{ minutos}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo (em minutos) por dia durante o qual um equipamento
+  elétrico é utilizado em carga máxima. Sua função de densidade é dada a
+  seguir. \[f_X(x) = 
+      \begin{cases}
+      \frac{x}{50^2}, & \mbox{se}\, \ \ 0 \leq x \leq 50; \\ 
+      \frac{100-x}{50^2}, & \mbox{se} \, \ \ 50 < x \leq 100 ; \\
+      0, & \text{caso contrário}.
+      \end{cases}
+      \nonumber\] Qual é o tempo esperado de utilização em carga máxima
+  desse equipamento em um dia?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(48\)
+  \item
+    \(54\)
+  \item
+    \(33\)
+  \item
+    \(50\)
+  \item
+    \(67\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que o resultado segue também da simetria da densidade (análise
+  gráfica). \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{50^2} \left(\int_{0}^{50} x^2 dx + \int_{50}^{100} x(100-x) dx \right) \\
+  & = \frac{1}{50^2} \left(\left[\frac{x^3}{3}\right]_0^{50} + \left[100\frac{x^2}{2}\right]_{50}^{100} - 
+  \left[\frac{x^3}{3}\right]_{50}^{100} \right) \\
+  & = 50 \text{ minutos}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo (em minutos) por dia durante o qual um equipamento
+  elétrico é utilizado em carga máxima. Sua função de densidade é dada a
+  seguir. \[f_X(x) = 
+      \begin{cases}
+      \frac{x}{75^2}, & \mbox{se}\, \ \ 0 \leq x \leq 75; \\ 
+      \frac{150-x}{75^2}, & \mbox{se} \, \ \ 75 < x \leq 150 ; \\
+      0, & \text{caso contrário}.
+      \end{cases}
+      \nonumber\] Qual é o tempo esperado de utilização em carga máxima
+  desse equipamento em um dia?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(100\)
+  \item
+    \(50\)
+  \item
+    \(55\)
+  \item
+    \(75\)
+  \item
+    \(81\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que o resultado segue também da simetria da densidade (análise
+  gráfica). \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{75^2} \left(\int_{0}^{75} x^2 dx + \int_{75}^{150} x(150-x) dx \right) \\
+  & = \frac{1}{75^2} \left(\left[\frac{x^3}{3}\right]_0^{75} + \left[150\frac{x^2}{2}\right]_{75}^{150} - 
+  \left[\frac{x^3}{3}\right]_{75}^{150} \right) \\
+  & = 75 \text{ minutos}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo (em minutos) por dia durante o qual um equipamento
+  elétrico é utilizado em carga máxima. Sua função de densidade é dada a
+  seguir. \[f_X(x) = 
+      \begin{cases}
+      \frac{x}{150^2}, & \mbox{se}\, \ \ 0 \leq x \leq 150; \\ 
+      \frac{300-x}{150^2}, & \mbox{se} \, \ \ 150 < x \leq 300 ; \\
+      0, & \text{caso contrário}.
+      \end{cases}
+      \nonumber\] Qual é o tempo esperado de utilização em carga máxima
+  desse equipamento em um dia?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(200\)
+  \item
+    \(142\)
+  \item
+    \(191\)
+  \item
+    \(150\)
+  \item
+    \(100\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que o resultado segue também da simetria da densidade (análise
+  gráfica). \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{150^2} \left(\int_{0}^{150} x^2 dx + \int_{150}^{300} x(300-x) dx \right) \\
+  & = \frac{1}{150^2} \left(\left[\frac{x^3}{3}\right]_0^{150} + \left[300\frac{x^2}{2}\right]_{150}^{300} - 
+  \left[\frac{x^3}{3}\right]_{150}^{300} \right) \\
+  & = 150 \text{ minutos}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo (em minutos) por dia durante o qual um equipamento
+  elétrico é utilizado em carga máxima. Sua função de densidade é dada a
+  seguir. \[f_X(x) = 
+      \begin{cases}
+      \frac{x}{75^2}, & \mbox{se}\, \ \ 0 \leq x \leq 75; \\ 
+      \frac{150-x}{75^2}, & \mbox{se} \, \ \ 75 < x \leq 150 ; \\
+      0, & \text{caso contrário}.
+      \end{cases}
+      \nonumber\] Qual é o tempo esperado de utilização em carga máxima
+  desse equipamento em um dia?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(50\)
+  \item
+    \(75\)
+  \item
+    \(90\)
+  \item
+    \(100\)
+  \item
+    \(82\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que o resultado segue também da simetria da densidade (análise
+  gráfica). \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{75^2} \left(\int_{0}^{75} x^2 dx + \int_{75}^{150} x(150-x) dx \right) \\
+  & = \frac{1}{75^2} \left(\left[\frac{x^3}{3}\right]_0^{75} + \left[150\frac{x^2}{2}\right]_{75}^{150} - 
+  \left[\frac{x^3}{3}\right]_{75}^{150} \right) \\
+  & = 75 \text{ minutos}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

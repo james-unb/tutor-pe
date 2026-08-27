@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de cada atendimento no caixa de um banco é exponencialmente
+  distribuído com média de \(12\) minutos. O banco tem apenas 1 caixa
+  funcionando e você é o próximo da fila, sendo que o último cliente foi
+  chamado há \(28\) minutos. Suponha que, para não perder seu
+  compromisso, você precisa ser chamado em, no máximo, mais \(19\)
+  minutos. Considerando que você não desistirá da fila, qual a
+  probabilidade de você conseguir ir ao compromisso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.903\)
+  \item
+    \(1.000\)
+  \item
+    \(0.205\)
+  \item
+    \(0.795\)
+  \item
+    \(0.980\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento no caixa do banco, então
+  \(X \sim \text{Exp}(0.0833)\). Utilizando a propriedade de perda de
+  memória da distribuição exponencial, tem-se que
+  \[P(X \leq 19+28 | X > 28) = P(X \leq 19) = 1-\exp{(-0.0833 \times 19)} = 0.795.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de cada atendimento no caixa de um banco é exponencialmente
+  distribuído com média de \(11\) minutos. O banco tem apenas 1 caixa
+  funcionando e você é o próximo da fila, sendo que o último cliente foi
+  chamado há \(26\) minutos. Suponha que, para não perder seu
+  compromisso, você precisa ser chamado em, no máximo, mais \(16\)
+  minutos. Considerando que você não desistirá da fila, qual a
+  probabilidade de você conseguir ir ao compromisso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.766\)
+  \item
+    \(0.906\)
+  \item
+    \(1.000\)
+  \item
+    \(0.978\)
+  \item
+    \(0.234\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento no caixa do banco, então
+  \(X \sim \text{Exp}(0.0909)\). Utilizando a propriedade de perda de
+  memória da distribuição exponencial, tem-se que
+  \[P(X \leq 16+26 | X > 26) = P(X \leq 16) = 1-\exp{(-0.0909 \times 16)} = 0.766.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de cada atendimento no caixa de um banco é exponencialmente
+  distribuído com média de \(19\) minutos. O banco tem apenas 1 caixa
+  funcionando e você é o próximo da fila, sendo que o último cliente foi
+  chamado há \(20\) minutos. Suponha que, para não perder seu
+  compromisso, você precisa ser chamado em, no máximo, mais \(10\)
+  minutos. Considerando que você não desistirá da fila, qual a
+  probabilidade de você conseguir ir ao compromisso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.000\)
+  \item
+    \(0.651\)
+  \item
+    \(0.591\)
+  \item
+    \(0.794\)
+  \item
+    \(0.409\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento no caixa do banco, então
+  \(X \sim \text{Exp}(0.0526)\). Utilizando a propriedade de perda de
+  memória da distribuição exponencial, tem-se que
+  \[P(X \leq 10+20 | X > 20) = P(X \leq 10) = 1-\exp{(-0.0526 \times 10)} = 0.409.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de cada atendimento no caixa de um banco é exponencialmente
+  distribuído com média de \(12\) minutos. O banco tem apenas 1 caixa
+  funcionando e você é o próximo da fila, sendo que o último cliente foi
+  chamado há \(26\) minutos. Suponha que, para não perder seu
+  compromisso, você precisa ser chamado em, no máximo, mais \(19\)
+  minutos. Considerando que você não desistirá da fila, qual a
+  probabilidade de você conseguir ir ao compromisso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.000\)
+  \item
+    \(0.795\)
+  \item
+    \(0.976\)
+  \item
+    \(0.885\)
+  \item
+    \(0.205\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento no caixa do banco, então
+  \(X \sim \text{Exp}(0.0833)\). Utilizando a propriedade de perda de
+  memória da distribuição exponencial, tem-se que
+  \[P(X \leq 19+26 | X > 26) = P(X \leq 19) = 1-\exp{(-0.0833 \times 19)} = 0.795.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de cada atendimento no caixa de um banco é exponencialmente
+  distribuído com média de \(15\) minutos. O banco tem apenas 1 caixa
+  funcionando e você é o próximo da fila, sendo que o último cliente foi
+  chamado há \(25\) minutos. Suponha que, para não perder seu
+  compromisso, você precisa ser chamado em, no máximo, mais \(16\)
+  minutos. Considerando que você não desistirá da fila, qual a
+  probabilidade de você conseguir ir ao compromisso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.811\)
+  \item
+    \(0.656\)
+  \item
+    \(1.000\)
+  \item
+    \(0.344\)
+  \item
+    \(0.935\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento no caixa do banco, então
+  \(X \sim \text{Exp}(0.0667)\). Utilizando a propriedade de perda de
+  memória da distribuição exponencial, tem-se que
+  \[P(X \leq 16+25 | X > 25) = P(X \leq 16) = 1-\exp{(-0.0667 \times 16)} = 0.656.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de cada atendimento no caixa de um banco é exponencialmente
+  distribuído com média de \(20\) minutos. O banco tem apenas 1 caixa
+  funcionando e você é o próximo da fila, sendo que o último cliente foi
+  chamado há \(25\) minutos. Suponha que, para não perder seu
+  compromisso, você precisa ser chamado em, no máximo, mais \(11\)
+  minutos. Considerando que você não desistirá da fila, qual a
+  probabilidade de você conseguir ir ao compromisso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.577\)
+  \item
+    \(1.000\)
+  \item
+    \(0.835\)
+  \item
+    \(0.713\)
+  \item
+    \(0.423\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento no caixa do banco, então
+  \(X \sim \text{Exp}(0.05)\). Utilizando a propriedade de perda de
+  memória da distribuição exponencial, tem-se que
+  \[P(X \leq 11+25 | X > 25) = P(X \leq 11) = 1-\exp{(-0.05 \times 11)} = 0.423.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de cada atendimento no caixa de um banco é exponencialmente
+  distribuído com média de \(17\) minutos. O banco tem apenas 1 caixa
+  funcionando e você é o próximo da fila, sendo que o último cliente foi
+  chamado há \(29\) minutos. Suponha que, para não perder seu
+  compromisso, você precisa ser chamado em, no máximo, mais \(18\)
+  minutos. Considerando que você não desistirá da fila, qual a
+  probabilidade de você conseguir ir ao compromisso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.818\)
+  \item
+    \(0.347\)
+  \item
+    \(0.653\)
+  \item
+    \(1.000\)
+  \item
+    \(0.937\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento no caixa do banco, então
+  \(X \sim \text{Exp}(0.0588)\). Utilizando a propriedade de perda de
+  memória da distribuição exponencial, tem-se que
+  \[P(X \leq 18+29 | X > 29) = P(X \leq 18) = 1-\exp{(-0.0588 \times 18)} = 0.653.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de cada atendimento no caixa de um banco é exponencialmente
+  distribuído com média de \(20\) minutos. O banco tem apenas 1 caixa
+  funcionando e você é o próximo da fila, sendo que o último cliente foi
+  chamado há \(25\) minutos. Suponha que, para não perder seu
+  compromisso, você precisa ser chamado em, no máximo, mais \(20\)
+  minutos. Considerando que você não desistirá da fila, qual a
+  probabilidade de você conseguir ir ao compromisso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.713\)
+  \item
+    \(1.000\)
+  \item
+    \(0.895\)
+  \item
+    \(0.368\)
+  \item
+    \(0.632\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento no caixa do banco, então
+  \(X \sim \text{Exp}(0.05)\). Utilizando a propriedade de perda de
+  memória da distribuição exponencial, tem-se que
+  \[P(X \leq 20+25 | X > 25) = P(X \leq 20) = 1-\exp{(-0.05 \times 20)} = 0.632.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de cada atendimento no caixa de um banco é exponencialmente
+  distribuído com média de \(15\) minutos. O banco tem apenas 1 caixa
+  funcionando e você é o próximo da fila, sendo que o último cliente foi
+  chamado há \(28\) minutos. Suponha que, para não perder seu
+  compromisso, você precisa ser chamado em, no máximo, mais \(17\)
+  minutos. Considerando que você não desistirá da fila, qual a
+  probabilidade de você conseguir ir ao compromisso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.845\)
+  \item
+    \(0.322\)
+  \item
+    \(0.950\)
+  \item
+    \(1.000\)
+  \item
+    \(0.678\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento no caixa do banco, então
+  \(X \sim \text{Exp}(0.0667)\). Utilizando a propriedade de perda de
+  memória da distribuição exponencial, tem-se que
+  \[P(X \leq 17+28 | X > 28) = P(X \leq 17) = 1-\exp{(-0.0667 \times 17)} = 0.678.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de cada atendimento no caixa de um banco é exponencialmente
+  distribuído com média de \(11\) minutos. O banco tem apenas 1 caixa
+  funcionando e você é o próximo da fila, sendo que o último cliente foi
+  chamado há \(30\) minutos. Suponha que, para não perder seu
+  compromisso, você precisa ser chamado em, no máximo, mais \(18\)
+  minutos. Considerando que você não desistirá da fila, qual a
+  probabilidade de você conseguir ir ao compromisso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.000\)
+  \item
+    \(0.195\)
+  \item
+    \(0.987\)
+  \item
+    \(0.805\)
+  \item
+    \(0.935\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o tempo de atendimento no caixa do banco, então
+  \(X \sim \text{Exp}(0.0909)\). Utilizando a propriedade de perda de
+  memória da distribuição exponencial, tem-se que
+  \[P(X \leq 18+30 | X > 30) = P(X \leq 18) = 1-\exp{(-0.0909 \times 18)} = 0.805.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

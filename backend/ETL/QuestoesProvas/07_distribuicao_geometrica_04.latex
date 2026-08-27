@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um peladeiro precisa de mais um jogador para completar o time para o
+  próximo jogo. Ele liga para seus amigos até que um deles aceite o
+  convite para jogar. Se cada amigo aceita o convite com probabilidade
+  de 45\(\%\), qual a probabilidade de que ele não precise fazer mais do
+  que 4 ligações para completar o time?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.092\)
+  \item
+    \(0.050\)
+  \item
+    \(0.908\)
+  \item
+    \(0.959\)
+  \item
+    \(0.075\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de ligações feitas até que um amigo aceite o
+  convite. Então \(X\sim\) (0.45), isto é,
+  \(P(X=x)=0.55^{x-1} \times0.45\). Assim, \[\begin{aligned}
+  P(X\leq 4)& =1-P(X>4)\\
+  & =1-P($4 primeiros amigos recusarem o convite$)=1-0.55^4=0.908.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um peladeiro precisa de mais um jogador para completar o time para o
+  próximo jogo. Ele liga para seus amigos até que um deles aceite o
+  convite para jogar. Se cada amigo aceita o convite com probabilidade
+  de 45\(\%\), qual a probabilidade de que ele não precise fazer mais do
+  que 5 ligações para completar o time?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.041\)
+  \item
+    \(0.050\)
+  \item
+    \(0.023\)
+  \item
+    \(0.950\)
+  \item
+    \(0.982\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de ligações feitas até que um amigo aceite o
+  convite. Então \(X\sim\) (0.45), isto é,
+  \(P(X=x)=0.55^{x-1} \times0.45\). Assim, \[\begin{aligned}
+  P(X\leq 5)& =1-P(X>5)\\
+  & =1-P($5 primeiros amigos recusarem o convite$)=1-0.55^5=0.950.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um peladeiro precisa de mais um jogador para completar o time para o
+  próximo jogo. Ele liga para seus amigos até que um deles aceite o
+  convite para jogar. Se cada amigo aceita o convite com probabilidade
+  de 40\(\%\), qual a probabilidade de que ele não precise fazer mais do
+  que 3 ligações para completar o time?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.784\)
+  \item
+    \(0.216\)
+  \item
+    \(0.144\)
+  \item
+    \(0.096\)
+  \item
+    \(0.936\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de ligações feitas até que um amigo aceite o
+  convite. Então \(X\sim\) (0.40), isto é,
+  \(P(X=x)=0.60^{x-1} \times0.40\). Assim, \[\begin{aligned}
+  P(X\leq 3)& =1-P(X>3)\\
+  & =1-P($3 primeiros amigos recusarem o convite$)=1-0.60^3=0.784.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um peladeiro precisa de mais um jogador para completar o time para o
+  próximo jogo. Ele liga para seus amigos até que um deles aceite o
+  convite para jogar. Se cada amigo aceita o convite com probabilidade
+  de 35\(\%\), qual a probabilidade de que ele não precise fazer mais do
+  que 5 ligações para completar o time?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.010\)
+  \item
+    \(0.062\)
+  \item
+    \(0.116\)
+  \item
+    \(0.995\)
+  \item
+    \(0.884\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de ligações feitas até que um amigo aceite o
+  convite. Então \(X\sim\) (0.35), isto é,
+  \(P(X=x)=0.65^{x-1} \times0.35\). Assim, \[\begin{aligned}
+  P(X\leq 5)& =1-P(X>5)\\
+  & =1-P($5 primeiros amigos recusarem o convite$)=1-0.65^5=0.884.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um peladeiro precisa de mais um jogador para completar o time para o
+  próximo jogo. Ele liga para seus amigos até que um deles aceite o
+  convite para jogar. Se cada amigo aceita o convite com probabilidade
+  de 35\(\%\), qual a probabilidade de que ele não precise fazer mais do
+  que 5 ligações para completar o time?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.884\)
+  \item
+    \(0.010\)
+  \item
+    \(0.995\)
+  \item
+    \(0.062\)
+  \item
+    \(0.116\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de ligações feitas até que um amigo aceite o
+  convite. Então \(X\sim\) (0.35), isto é,
+  \(P(X=x)=0.65^{x-1} \times0.35\). Assim, \[\begin{aligned}
+  P(X\leq 5)& =1-P(X>5)\\
+  & =1-P($5 primeiros amigos recusarem o convite$)=1-0.65^5=0.884.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um peladeiro precisa de mais um jogador para completar o time para o
+  próximo jogo. Ele liga para seus amigos até que um deles aceite o
+  convite para jogar. Se cada amigo aceita o convite com probabilidade
+  de 45\(\%\), qual a probabilidade de que ele não precise fazer mais do
+  que 5 ligações para completar o time?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.950\)
+  \item
+    \(0.023\)
+  \item
+    \(0.982\)
+  \item
+    \(0.050\)
+  \item
+    \(0.041\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de ligações feitas até que um amigo aceite o
+  convite. Então \(X\sim\) (0.45), isto é,
+  \(P(X=x)=0.55^{x-1} \times0.45\). Assim, \[\begin{aligned}
+  P(X\leq 5)& =1-P(X>5)\\
+  & =1-P($5 primeiros amigos recusarem o convite$)=1-0.55^5=0.950.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um peladeiro precisa de mais um jogador para completar o time para o
+  próximo jogo. Ele liga para seus amigos até que um deles aceite o
+  convite para jogar. Se cada amigo aceita o convite com probabilidade
+  de 40\(\%\), qual a probabilidade de que ele não precise fazer mais do
+  que 4 ligações para completar o time?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.870\)
+  \item
+    \(0.086\)
+  \item
+    \(0.038\)
+  \item
+    \(0.974\)
+  \item
+    \(0.130\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de ligações feitas até que um amigo aceite o
+  convite. Então \(X\sim\) (0.40), isto é,
+  \(P(X=x)=0.60^{x-1} \times0.40\). Assim, \[\begin{aligned}
+  P(X\leq 4)& =1-P(X>4)\\
+  & =1-P($4 primeiros amigos recusarem o convite$)=1-0.60^4=0.870.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um peladeiro precisa de mais um jogador para completar o time para o
+  próximo jogo. Ele liga para seus amigos até que um deles aceite o
+  convite para jogar. Se cada amigo aceita o convite com probabilidade
+  de 35\(\%\), qual a probabilidade de que ele não precise fazer mais do
+  que 3 ligações para completar o time?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.148\)
+  \item
+    \(0.275\)
+  \item
+    \(0.725\)
+  \item
+    \(0.957\)
+  \item
+    \(0.080\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de ligações feitas até que um amigo aceite o
+  convite. Então \(X\sim\) (0.35), isto é,
+  \(P(X=x)=0.65^{x-1} \times0.35\). Assim, \[\begin{aligned}
+  P(X\leq 3)& =1-P(X>3)\\
+  & =1-P($3 primeiros amigos recusarem o convite$)=1-0.65^3=0.725.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um peladeiro precisa de mais um jogador para completar o time para o
+  próximo jogo. Ele liga para seus amigos até que um deles aceite o
+  convite para jogar. Se cada amigo aceita o convite com probabilidade
+  de 45\(\%\), qual a probabilidade de que ele não precise fazer mais do
+  que 3 ligações para completar o time?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.111\)
+  \item
+    \(0.166\)
+  \item
+    \(0.909\)
+  \item
+    \(0.834\)
+  \item
+    \(0.136\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de ligações feitas até que um amigo aceite o
+  convite. Então \(X\sim\) (0.45), isto é,
+  \(P(X=x)=0.55^{x-1} \times0.45\). Assim, \[\begin{aligned}
+  P(X\leq 3)& =1-P(X>3)\\
+  & =1-P($3 primeiros amigos recusarem o convite$)=1-0.55^3=0.834.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um peladeiro precisa de mais um jogador para completar o time para o
+  próximo jogo. Ele liga para seus amigos até que um deles aceite o
+  convite para jogar. Se cada amigo aceita o convite com probabilidade
+  de 35\(\%\), qual a probabilidade de que ele não precise fazer mais do
+  que 3 ligações para completar o time?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.725\)
+  \item
+    \(0.957\)
+  \item
+    \(0.080\)
+  \item
+    \(0.148\)
+  \item
+    \(0.275\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de ligações feitas até que um amigo aceite o
+  convite. Então \(X\sim\) (0.35), isto é,
+  \(P(X=x)=0.65^{x-1} \times0.35\). Assim, \[\begin{aligned}
+  P(X\leq 3)& =1-P(X>3)\\
+  & =1-P($3 primeiros amigos recusarem o convite$)=1-0.65^3=0.725.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

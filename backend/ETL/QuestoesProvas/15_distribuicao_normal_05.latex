@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Pelas normas atuais que regem a fabricação de elevadores no Brasil,
+  considera-se que cada passageiro possui \(75\) quilos. Ou seja, em um
+  elevador com capacidade para transportar \(8\) passageiros, o limite
+  de carga é de 600 quilos. Considerando que o peso dos homens
+  brasileiros (em KG) tem distribuição Normal com média \(70\) e desvio
+  padrão \(15\), isso é, \(X \sim N(\mu=70, \sigma^2=225)\), qual é a
+  probabilidade de um grupo de \(11\) homens (com pesos independentes
+  entre si) ultrapassar a capacidade de \(750\) kg?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.452\)
+  \item
+    \(0.655\)
+  \item
+    \(0.500\)
+  \item
+    \(0.548\)
+  \item
+    \(0.345\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(Y=\sum_{i=1}^{11} X_i \sim N(\mu_Y=11 \mu = 770, 
+  \sigma^2_Y=11\sigma^2 = 2475)\), onde \(X_i\) é o peso do i-ésimo
+  passageiro na amostra.
+
+  Portanto,
+  \(P(Y > 10 * 75) = 1 - P(Y \leq 750) = 1 - P(Z \leq \frac{750 - 770}{49.749}) = 1 - P(Z \leq -0.402) = 0.655\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pelas normas atuais que regem a fabricação de elevadores no Brasil,
+  considera-se que cada passageiro possui \(75\) quilos. Ou seja, em um
+  elevador com capacidade para transportar \(8\) passageiros, o limite
+  de carga é de 600 quilos. Considerando que o peso dos homens
+  brasileiros (em KG) tem distribuição Normal com média \(70\) e desvio
+  padrão \(14\), isso é, \(X \sim N(\mu=70, \sigma^2=196)\), qual é a
+  probabilidade de um grupo de \(10\) homens (com pesos independentes
+  entre si) ultrapassar a capacidade de \(600\) kg?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.012\)
+  \item
+    \(0.761\)
+  \item
+    \(0.239\)
+  \item
+    \(0.988\)
+  \item
+    \(0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(Y=\sum_{i=1}^{10} X_i \sim N(\mu_Y=10 \mu = 700, 
+  \sigma^2_Y=10\sigma^2 = 1960)\), onde \(X_i\) é o peso do i-ésimo
+  passageiro na amostra.
+
+  Portanto,
+  \(P(Y > 8 * 75) = 1 - P(Y \leq 600) = 1 - P(Z \leq \frac{600 - 700}{44.272}) = 1 - P(Z \leq -2.259) = 0.988\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pelas normas atuais que regem a fabricação de elevadores no Brasil,
+  considera-se que cada passageiro possui \(75\) quilos. Ou seja, em um
+  elevador com capacidade para transportar \(8\) passageiros, o limite
+  de carga é de 600 quilos. Considerando que o peso dos homens
+  brasileiros (em KG) tem distribuição Normal com média \(70\) e desvio
+  padrão \(14\), isso é, \(X \sim N(\mu=70, \sigma^2=196)\), qual é a
+  probabilidade de um grupo de \(13\) homens (com pesos independentes
+  entre si) ultrapassar a capacidade de \(900\) kg?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.421\)
+  \item
+    \(0.480\)
+  \item
+    \(0.520\)
+  \item
+    \(0.500\)
+  \item
+    \(0.579\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(Y=\sum_{i=1}^{13} X_i \sim N(\mu_Y=13 \mu = 910, 
+  \sigma^2_Y=13\sigma^2 = 2548)\), onde \(X_i\) é o peso do i-ésimo
+  passageiro na amostra.
+
+  Portanto,
+  \(P(Y > 12 * 75) = 1 - P(Y \leq 900) = 1 - P(Z \leq \frac{900 - 910}{50.478}) = 1 - P(Z \leq -0.198) = 0.579\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pelas normas atuais que regem a fabricação de elevadores no Brasil,
+  considera-se que cada passageiro possui \(75\) quilos. Ou seja, em um
+  elevador com capacidade para transportar \(8\) passageiros, o limite
+  de carga é de 600 quilos. Considerando que o peso dos homens
+  brasileiros (em KG) tem distribuição Normal com média \(70\) e desvio
+  padrão \(14\), isso é, \(X \sim N(\mu=70, \sigma^2=196)\), qual é a
+  probabilidade de um grupo de \(14\) homens (com pesos independentes
+  entre si) ultrapassar a capacidade de \(900\) kg?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.063\)
+  \item
+    \(0.659\)
+  \item
+    \(0.500\)
+  \item
+    \(0.937\)
+  \item
+    \(0.341\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(Y=\sum_{i=1}^{14} X_i \sim N(\mu_Y=14 \mu = 980, 
+  \sigma^2_Y=14\sigma^2 = 2744)\), onde \(X_i\) é o peso do i-ésimo
+  passageiro na amostra.
+
+  Portanto,
+  \(P(Y > 12 * 75) = 1 - P(Y \leq 900) = 1 - P(Z \leq \frac{900 - 980}{52.383}) = 1 - P(Z \leq -1.527) = 0.937\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pelas normas atuais que regem a fabricação de elevadores no Brasil,
+  considera-se que cada passageiro possui \(75\) quilos. Ou seja, em um
+  elevador com capacidade para transportar \(8\) passageiros, o limite
+  de carga é de 600 quilos. Considerando que o peso dos homens
+  brasileiros (em KG) tem distribuição Normal com média \(70\) e desvio
+  padrão \(10\), isso é, \(X \sim N(\mu=70, \sigma^2=100)\), qual é a
+  probabilidade de um grupo de \(8\) homens (com pesos independentes
+  entre si) ultrapassar a capacidade de \(600\) kg?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.921\)
+  \item
+    \(0.500\)
+  \item
+    \(0.079\)
+  \item
+    \(0.309\)
+  \item
+    \(0.691\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(Y=\sum_{i=1}^{8} X_i \sim N(\mu_Y=8 \mu = 560, 
+  \sigma^2_Y=8\sigma^2 = 800)\), onde \(X_i\) é o peso do i-ésimo
+  passageiro na amostra.
+
+  Portanto,
+  \(P(Y > 8 * 75) = 1 - P(Y \leq 600) = 1 - P(Z \leq \frac{600 - 560}{28.284}) = 1 - P(Z \leq 1.414) = 0.079\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pelas normas atuais que regem a fabricação de elevadores no Brasil,
+  considera-se que cada passageiro possui \(75\) quilos. Ou seja, em um
+  elevador com capacidade para transportar \(8\) passageiros, o limite
+  de carga é de 600 quilos. Considerando que o peso dos homens
+  brasileiros (em KG) tem distribuição Normal com média \(70\) e desvio
+  padrão \(10\), isso é, \(X \sim N(\mu=70, \sigma^2=100)\), qual é a
+  probabilidade de um grupo de \(9\) homens (com pesos independentes
+  entre si) ultrapassar a capacidade de \(600\) kg?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.371\)
+  \item
+    \(0.159\)
+  \item
+    \(0.841\)
+  \item
+    \(0.629\)
+  \item
+    \(0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(Y=\sum_{i=1}^{9} X_i \sim N(\mu_Y=9 \mu = 630, 
+  \sigma^2_Y=9\sigma^2 = 900)\), onde \(X_i\) é o peso do i-ésimo
+  passageiro na amostra.
+
+  Portanto,
+  \(P(Y > 8 * 75) = 1 - P(Y \leq 600) = 1 - P(Z \leq \frac{600 - 630}{30}) = 1 - P(Z \leq -1) = 0.841\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pelas normas atuais que regem a fabricação de elevadores no Brasil,
+  considera-se que cada passageiro possui \(75\) quilos. Ou seja, em um
+  elevador com capacidade para transportar \(8\) passageiros, o limite
+  de carga é de 600 quilos. Considerando que o peso dos homens
+  brasileiros (em KG) tem distribuição Normal com média \(70\) e desvio
+  padrão \(12\), isso é, \(X \sim N(\mu=70, \sigma^2=144)\), qual é a
+  probabilidade de um grupo de \(12\) homens (com pesos independentes
+  entre si) ultrapassar a capacidade de \(750\) kg?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.500\)
+  \item
+    \(0.015\)
+  \item
+    \(0.732\)
+  \item
+    \(0.985\)
+  \item
+    \(0.268\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(Y=\sum_{i=1}^{12} X_i \sim N(\mu_Y=12 \mu = 840, 
+  \sigma^2_Y=12\sigma^2 = 1728)\), onde \(X_i\) é o peso do i-ésimo
+  passageiro na amostra.
+
+  Portanto,
+  \(P(Y > 10 * 75) = 1 - P(Y \leq 750) = 1 - P(Z \leq \frac{750 - 840}{41.569}) = 1 - P(Z \leq -2.165) = 0.985\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pelas normas atuais que regem a fabricação de elevadores no Brasil,
+  considera-se que cada passageiro possui \(75\) quilos. Ou seja, em um
+  elevador com capacidade para transportar \(8\) passageiros, o limite
+  de carga é de 600 quilos. Considerando que o peso dos homens
+  brasileiros (em KG) tem distribuição Normal com média \(70\) e desvio
+  padrão \(10\), isso é, \(X \sim N(\mu=70, \sigma^2=100)\), qual é a
+  probabilidade de um grupo de \(10\) homens (com pesos independentes
+  entre si) ultrapassar a capacidade de \(600\) kg?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.001\)
+  \item
+    \(0.841\)
+  \item
+    \(0.500\)
+  \item
+    \(0.159\)
+  \item
+    \(0.999\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(Y=\sum_{i=1}^{10} X_i \sim N(\mu_Y=10 \mu = 700, 
+  \sigma^2_Y=10\sigma^2 = 1000)\), onde \(X_i\) é o peso do i-ésimo
+  passageiro na amostra.
+
+  Portanto,
+  \(P(Y > 8 * 75) = 1 - P(Y \leq 600) = 1 - P(Z \leq \frac{600 - 700}{31.623}) = 1 - P(Z \leq -3.162) = 0.999\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pelas normas atuais que regem a fabricação de elevadores no Brasil,
+  considera-se que cada passageiro possui \(75\) quilos. Ou seja, em um
+  elevador com capacidade para transportar \(8\) passageiros, o limite
+  de carga é de 600 quilos. Considerando que o peso dos homens
+  brasileiros (em KG) tem distribuição Normal com média \(70\) e desvio
+  padrão \(10\), isso é, \(X \sim N(\mu=70, \sigma^2=100)\), qual é a
+  probabilidade de um grupo de \(8\) homens (com pesos independentes
+  entre si) ultrapassar a capacidade de \(600\) kg?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.309\)
+  \item
+    \(0.921\)
+  \item
+    \(0.079\)
+  \item
+    \(0.691\)
+  \item
+    \(0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(Y=\sum_{i=1}^{8} X_i \sim N(\mu_Y=8 \mu = 560, 
+  \sigma^2_Y=8\sigma^2 = 800)\), onde \(X_i\) é o peso do i-ésimo
+  passageiro na amostra.
+
+  Portanto,
+  \(P(Y > 8 * 75) = 1 - P(Y \leq 600) = 1 - P(Z \leq \frac{600 - 560}{28.284}) = 1 - P(Z \leq 1.414) = 0.079\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Pelas normas atuais que regem a fabricação de elevadores no Brasil,
+  considera-se que cada passageiro possui \(75\) quilos. Ou seja, em um
+  elevador com capacidade para transportar \(8\) passageiros, o limite
+  de carga é de 600 quilos. Considerando que o peso dos homens
+  brasileiros (em KG) tem distribuição Normal com média \(70\) e desvio
+  padrão \(12\), isso é, \(X \sim N(\mu=70, \sigma^2=144)\), qual é a
+  probabilidade de um grupo de \(14\) homens (com pesos independentes
+  entre si) ultrapassar a capacidade de \(900\) kg?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.962\)
+  \item
+    \(0.038\)
+  \item
+    \(0.316\)
+  \item
+    \(0.500\)
+  \item
+    \(0.684\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \(Y=\sum_{i=1}^{14} X_i \sim N(\mu_Y=14 \mu = 980, 
+  \sigma^2_Y=14\sigma^2 = 2016)\), onde \(X_i\) é o peso do i-ésimo
+  passageiro na amostra.
+
+  Portanto,
+  \(P(Y > 12 * 75) = 1 - P(Y \leq 900) = 1 - P(Z \leq \frac{900 - 980}{44.9}) = 1 - P(Z \leq -1.782) = 0.962\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

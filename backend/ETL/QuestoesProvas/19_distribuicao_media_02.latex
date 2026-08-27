@@ -1,0 +1,412 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta nos 100m rasos é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média
+  \(9.93\)s e desvio padrão de \(0.2\)s. Considerando que os tempos são
+  independentes entre si, se esse atleta participar de \(34\) provas,
+  qual é a probabilidade de que a média de seus tempos nas provas seja
+  menor que \(9.85\) segundos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0000\)
+  \item
+    \(0.9430\)
+  \item
+    \(0.0228\)
+  \item
+    \(0.0099\)
+  \item
+    \(0.3446\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 9.93\) e \(\sigma = \frac{0.2}{\sqrt{34}}\), temos que
+  \[P\left(\bar{X}<9.85\right) = P\left(\frac{\bar{X}-9.93}{0.2/\sqrt{34}}<\frac{9.85-9.93}{0.2/\sqrt{34}}\right) = P\left(Z<-2.33\right) = 0.0099.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta nos 100m rasos é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média
+  \(10.23\)s e desvio padrão de \(0.24\)s. Considerando que os tempos
+  são independentes entre si, se esse atleta participar de \(32\)
+  provas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(10.11\) segundos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0023\)
+  \item
+    \(0.9153\)
+  \item
+    \(0.3085\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.0186\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 10.23\) e \(\sigma = \frac{0.24}{\sqrt{32}}\), temos que
+  \[P\left(\bar{X}<10.11\right) = P\left(\frac{\bar{X}-10.23}{0.24/\sqrt{32}}<\frac{10.11-10.23}{0.24/\sqrt{32}}\right) = P\left(Z<-2.83\right) = 0.0023.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta nos 100m rasos é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média
+  \(10.24\)s e desvio padrão de \(0.23\)s. Considerando que os tempos
+  são independentes entre si, se esse atleta participar de \(35\)
+  provas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(10.2\) segundos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0000\)
+  \item
+    \(0.1515\)
+  \item
+    \(0.4310\)
+  \item
+    \(0.9699\)
+  \item
+    \(0.2248\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 10.24\) e \(\sigma = \frac{0.23}{\sqrt{35}}\), temos que
+  \[P\left(\bar{X}<10.2\right) = P\left(\frac{\bar{X}-10.24}{0.23/\sqrt{35}}<\frac{10.2-10.24}{0.23/\sqrt{35}}\right) = P\left(Z<-1.03\right) = 0.1515.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta nos 100m rasos é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média
+  \(9.93\)s e desvio padrão de \(0.27\)s. Considerando que os tempos são
+  independentes entre si, se esse atleta participar de \(33\) provas,
+  qual é a probabilidade de que a média de seus tempos nas provas seja
+  menor que \(9.87\) segundos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6831\)
+  \item
+    \(0.1003\)
+  \item
+    \(0.2052\)
+  \item
+    \(0.4121\)
+  \item
+    \(0.0000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 9.93\) e \(\sigma = \frac{0.27}{\sqrt{33}}\), temos que
+  \[P\left(\bar{X}<9.87\right) = P\left(\frac{\bar{X}-9.93}{0.27/\sqrt{33}}<\frac{9.87-9.93}{0.27/\sqrt{33}}\right) = P\left(Z<-1.28\right) = 0.1003.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta nos 100m rasos é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média
+  \(9.78\)s e desvio padrão de \(0.29\)s. Considerando que os tempos são
+  independentes entre si, se esse atleta participar de \(35\) provas,
+  qual é a probabilidade de que a média de seus tempos nas provas seja
+  menor que \(9.93\) segundos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.0000\)
+  \item
+    \(0.0949\)
+  \item
+    \(0.9628\)
+  \item
+    \(0.6975\)
+  \item
+    \(0.9989\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 9.78\) e \(\sigma = \frac{0.29}{\sqrt{35}}\), temos que
+  \[P\left(\bar{X}<9.93\right) = P\left(\frac{\bar{X}-9.78}{0.29/\sqrt{35}}<\frac{9.93-9.78}{0.29/\sqrt{35}}\right) = P\left(Z<3.06\right) = 0.9989.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta nos 100m rasos é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média
+  \(10.75\)s e desvio padrão de \(0.24\)s. Considerando que os tempos
+  são independentes entre si, se esse atleta participar de \(33\)
+  provas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(10.87\) segundos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.0000\)
+  \item
+    \(0.8184\)
+  \item
+    \(0.9814\)
+  \item
+    \(0.6915\)
+  \item
+    \(0.9979\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 10.75\) e \(\sigma = \frac{0.24}{\sqrt{33}}\), temos que
+  \[P\left(\bar{X}<10.87\right) = P\left(\frac{\bar{X}-10.75}{0.24/\sqrt{33}}<\frac{10.87-10.75}{0.24/\sqrt{33}}\right) = P\left(Z<2.87\right) = 0.9979.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta nos 100m rasos é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média
+  \(10.7\)s e desvio padrão de \(0.25\)s. Considerando que os tempos são
+  independentes entre si, se esse atleta participar de \(27\) provas,
+  qual é a probabilidade de que a média de seus tempos nas provas seja
+  menor que \(10.75\) segundos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8508\)
+  \item
+    \(0.7881\)
+  \item
+    \(1.0000\)
+  \item
+    \(0.5793\)
+  \item
+    \(0.3274\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 10.7\) e \(\sigma = \frac{0.25}{\sqrt{27}}\), temos que
+  \[P\left(\bar{X}<10.75\right) = P\left(\frac{\bar{X}-10.7}{0.25/\sqrt{27}}<\frac{10.75-10.7}{0.25/\sqrt{27}}\right) = P\left(Z<1.04\right) = 0.8508.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta nos 100m rasos é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média
+  \(10.54\)s e desvio padrão de \(0.22\)s. Considerando que os tempos
+  são independentes entre si, se esse atleta participar de \(35\)
+  provas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(10.43\) segundos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3085\)
+  \item
+    \(0.3614\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.0115\)
+  \item
+    \(0.0015\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 10.54\) e \(\sigma = \frac{0.22}{\sqrt{35}}\), temos que
+  \[P\left(\bar{X}<10.43\right) = P\left(\frac{\bar{X}-10.54}{0.22/\sqrt{35}}<\frac{10.43-10.54}{0.22/\sqrt{35}}\right) = P\left(Z<-2.96\right) = 0.0015.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta nos 100m rasos é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média
+  \(10.16\)s e desvio padrão de \(0.23\)s. Considerando que os tempos
+  são independentes entre si, se esse atleta participar de \(27\)
+  provas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(10.28\) segundos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.0000\)
+  \item
+    \(0.6991\)
+  \item
+    \(0.5933\)
+  \item
+    \(0.9966\)
+  \item
+    \(0.9883\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 10.16\) e \(\sigma = \frac{0.23}{\sqrt{27}}\), temos que
+  \[P\left(\bar{X}<10.28\right) = P\left(\frac{\bar{X}-10.16}{0.23/\sqrt{27}}<\frac{10.28-10.16}{0.23/\sqrt{27}}\right) = P\left(Z<2.71\right) = 0.9966.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta nos 100m rasos é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média
+  \(10.55\)s e desvio padrão de \(0.28\)s. Considerando que os tempos
+  são independentes entre si, se esse atleta participar de \(30\)
+  provas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(10.49\) segundos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1210\)
+  \item
+    \(0.4152\)
+  \item
+    \(0.2220\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.2016\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 10.55\) e \(\sigma = \frac{0.28}{\sqrt{30}}\), temos que
+  \[P\left(\bar{X}<10.49\right) = P\left(\frac{\bar{X}-10.55}{0.28/\sqrt{30}}<\frac{10.49-10.55}{0.28/\sqrt{30}}\right) = P\left(Z<-1.17\right) = 0.121.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

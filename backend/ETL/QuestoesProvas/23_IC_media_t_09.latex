@@ -1,0 +1,461 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 25 aeromoças que trabalham em vôos nacionais
+  apresentou média amostral de horas de vôo por mês de \(85\), com
+  desvio padrão amostral de \(13.71\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de vôo mensais das aeromoças com confiança de
+  95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([83.868, 86.132]\)
+  \item
+    \([83.786, 86.214]\)
+  \item
+    \([83.925, 86.075]\)
+  \item
+    \([79.626, 90.374]\)
+  \item
+    \([79.341, 90.659]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[85-2.0639\times\frac{13.71}{\sqrt{25}} \ , \ 85+2.0639\times\frac{13.71}{\sqrt{25}}\right]\\
+  &=&\text{$[79.341, 90.659]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 19 aeromoças que trabalham em vôos nacionais
+  apresentou média amostral de horas de vôo por mês de \(84\), com
+  desvio padrão amostral de \(11.83\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de vôo mensais das aeromoças com confiança de
+  95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([82.706, 85.294]\)
+  \item
+    \([82.692, 85.308]\)
+  \item
+    \([78.681, 89.319]\)
+  \item
+    \([82.780, 85.220]\)
+  \item
+    \([78.298, 89.702]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[84-2.1009\times\frac{11.83}{\sqrt{19}} \ , \ 84+2.1009\times\frac{11.83}{\sqrt{19}}\right]\\
+  &=&\text{$[78.298, 89.702]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 16 aeromoças que trabalham em vôos nacionais
+  apresentou média amostral de horas de vôo por mês de \(83\), com
+  desvio padrão amostral de \(10.35\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de vôo mensais das aeromoças com confiança de
+  95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([81.681, 84.319]\)
+  \item
+    \([81.621, 84.379]\)
+  \item
+    \([77.929, 88.072]\)
+  \item
+    \([81.732, 84.268]\)
+  \item
+    \([77.485, 88.515]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[83-2.1314\times\frac{10.35}{\sqrt{16}} \ , \ 83+2.1314\times\frac{10.35}{\sqrt{16}}\right]\\
+  &=&\text{$[77.485, 88.515]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 20 aeromoças que trabalham em vôos nacionais
+  apresentou média amostral de horas de vôo por mês de \(89\), com
+  desvio padrão amostral de \(10.09\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de vôo mensais das aeromoças com confiança de
+  95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([87.944, 90.056]\)
+  \item
+    \([84.278, 93.722]\)
+  \item
+    \([84.578, 93.422]\)
+  \item
+    \([88.011, 89.989]\)
+  \item
+    \([87.835, 90.165]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[89-2.093\times\frac{10.09}{\sqrt{20}} \ , \ 89+2.093\times\frac{10.09}{\sqrt{20}}\right]\\
+  &=&\text{$[84.278, 93.722]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 23 aeromoças que trabalham em vôos nacionais
+  apresentou média amostral de horas de vôo por mês de \(86\), com
+  desvio padrão amostral de \(13.7\). Com base nas informações, assinale
+  a alternativa correspondente ao intervalo de confiança para o número
+  médio de horas de vôo mensais das aeromoças com confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([80.076, 91.924]\)
+  \item
+    \([84.833, 87.167]\)
+  \item
+    \([84.765, 87.235]\)
+  \item
+    \([80.401, 91.599]\)
+  \item
+    \([84.734, 87.266]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[86-2.0739\times\frac{13.7}{\sqrt{23}} \ , \ 86+2.0739\times\frac{13.7}{\sqrt{23}}\right]\\
+  &=&\text{$[80.076, 91.924]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 19 aeromoças que trabalham em vôos nacionais
+  apresentou média amostral de horas de vôo por mês de \(87\), com
+  desvio padrão amostral de \(11.93\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de vôo mensais das aeromoças com confiança de
+  99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([79.939, 94.061]\)
+  \item
+    \([85.380, 88.620]\)
+  \item
+    \([85.193, 88.807]\)
+  \item
+    \([79.122, 94.878]\)
+  \item
+    \([85.154, 88.846]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[87-2.8784\times\frac{11.93}{\sqrt{19}} \ , \ 87+2.8784\times\frac{11.93}{\sqrt{19}}\right]\\
+  &=&\text{$[79.122, 94.878]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 24 aeromoças que trabalham em vôos nacionais
+  apresentou média amostral de horas de vôo por mês de \(89\), com
+  desvio padrão amostral de \(12.11\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de vôo mensais das aeromoças com confiança de
+  90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([88.172, 89.828]\)
+  \item
+    \([84.946, 93.054]\)
+  \item
+    \([88.135, 89.865]\)
+  \item
+    \([84.763, 93.237]\)
+  \item
+    \([88.091, 89.909]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[89-1.7139\times\frac{12.11}{\sqrt{24}} \ , \ 89+1.7139\times\frac{12.11}{\sqrt{24}}\right]\\
+  &=&\text{$[84.763, 93.237]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 24 aeromoças que trabalham em vôos nacionais
+  apresentou média amostral de horas de vôo por mês de \(89\), com
+  desvio padrão amostral de \(12.72\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de vôo mensais das aeromoças com confiança de
+  95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([83.911, 94.089]\)
+  \item
+    \([87.904, 90.096]\)
+  \item
+    \([87.806, 90.194]\)
+  \item
+    \([87.961, 90.039]\)
+  \item
+    \([83.629, 94.371]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[89-2.0687\times\frac{12.72}{\sqrt{24}} \ , \ 89+2.0687\times\frac{12.72}{\sqrt{24}}\right]\\
+  &=&\text{$[83.629, 94.371]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 21 aeromoças que trabalham em vôos nacionais
+  apresentou média amostral de horas de vôo por mês de \(80\), com
+  desvio padrão amostral de \(12.33\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de vôo mensais das aeromoças com confiança de
+  99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([78.485, 81.515]\)
+  \item
+    \([78.329, 81.671]\)
+  \item
+    \([78.215, 81.785]\)
+  \item
+    \([72.344, 87.656]\)
+  \item
+    \([73.058, 86.942]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[80-2.8453\times\frac{12.33}{\sqrt{21}} \ , \ 80+2.8453\times\frac{12.33}{\sqrt{21}}\right]\\
+  &=&\text{$[72.344, 87.656]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 22 aeromoças que trabalham em vôos nacionais
+  apresentou média amostral de horas de vôo por mês de \(90\), com
+  desvio padrão amostral de \(11.58\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de vôo mensais das aeromoças com confiança de
+  99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([88.642, 91.358]\)
+  \item
+    \([83.630, 96.370]\)
+  \item
+    \([88.310, 91.690]\)
+  \item
+    \([83.010, 96.990]\)
+  \item
+    \([88.510, 91.490]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[90-2.8314\times\frac{11.58}{\sqrt{22}} \ , \ 90+2.8314\times\frac{11.58}{\sqrt{22}}\right]\\
+  &=&\text{$[83.010, 96.990]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

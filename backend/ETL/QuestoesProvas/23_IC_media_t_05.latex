@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 25 crianças de uma escola, cuja diretoria
+  quer saber sobre a hidratação e saúde dos alunos, apresentou um
+  consumo médio amostral de \(3\) litros de água por dia e desvio padrão
+  amostral de \(0.57\). Supondo que o consumo diário de água de uma
+  criança segue distribuição Normal, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  água consumida pelos alunos da escola, com confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([2.765, 3.235]\)
+  \item
+    \([2.752, 3.248]\)
+  \item
+    \([2.777, 3.223]\)
+  \item
+    \([2.955, 3.045]\)
+  \item
+    \([2.953, 3.047]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[3-2.0639\times\frac{0.57}{\sqrt{25}} \ , \ 3+2.0639\times\frac{0.57}{\sqrt{25}}\right]\\
+  &=&\text{$[2.765, 3.235]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 18 crianças de uma escola, cuja diretoria
+  quer saber sobre a hidratação e saúde dos alunos, apresentou um
+  consumo médio amostral de \(3\) litros de água por dia e desvio padrão
+  amostral de \(0.54\). Supondo que o consumo diário de água de uma
+  criança segue distribuição Normal, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  água consumida pelos alunos da escola, com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([2.948, 3.052]\)
+  \item
+    \([2.779, 3.221]\)
+  \item
+    \([2.791, 3.209]\)
+  \item
+    \([2.778, 3.222]\)
+  \item
+    \([2.951, 3.049]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[3-1.7396\times\frac{0.54}{\sqrt{18}} \ , \ 3+1.7396\times\frac{0.54}{\sqrt{18}}\right]\\
+  &=&\text{$[2.779, 3.221]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 17 crianças de uma escola, cuja diretoria
+  quer saber sobre a hidratação e saúde dos alunos, apresentou um
+  consumo médio amostral de \(3\) litros de água por dia e desvio padrão
+  amostral de \(0.7\). Supondo que o consumo diário de água de uma
+  criança segue distribuição Normal, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  água consumida pelos alunos da escola, com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([2.932, 3.068]\)
+  \item
+    \([2.928, 3.072]\)
+  \item
+    \([2.740, 3.260]\)
+  \item
+    \([2.704, 3.296]\)
+  \item
+    \([2.722, 3.278]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[3-1.7459\times\frac{0.7}{\sqrt{17}} \ , \ 3+1.7459\times\frac{0.7}{\sqrt{17}}\right]\\
+  &=&\text{$[2.704, 3.296]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 16 crianças de uma escola, cuja diretoria
+  quer saber sobre a hidratação e saúde dos alunos, apresentou um
+  consumo médio amostral de \(3\) litros de água por dia e desvio padrão
+  amostral de \(0.56\). Supondo que o consumo diário de água de uma
+  criança segue distribuição Normal, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  água consumida pelos alunos da escola, com confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([2.702, 3.298]\)
+  \item
+    \([2.726, 3.274]\)
+  \item
+    \([2.931, 3.069]\)
+  \item
+    \([2.693, 3.307]\)
+  \item
+    \([2.925, 3.075]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[3-2.1314\times\frac{0.56}{\sqrt{16}} \ , \ 3+2.1314\times\frac{0.56}{\sqrt{16}}\right]\\
+  &=&\text{$[2.702, 3.298]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 16 crianças de uma escola, cuja diretoria
+  quer saber sobre a hidratação e saúde dos alunos, apresentou um
+  consumo médio amostral de \(3\) litros de água por dia e desvio padrão
+  amostral de \(0.66\). Supondo que o consumo diário de água de uma
+  criança segue distribuição Normal, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  água consumida pelos alunos da escola, com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([2.711, 3.289]\)
+  \item
+    \([2.729, 3.271]\)
+  \item
+    \([2.740, 3.260]\)
+  \item
+    \([2.932, 3.068]\)
+  \item
+    \([2.928, 3.072]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[3-1.7531\times\frac{0.66}{\sqrt{16}} \ , \ 3+1.7531\times\frac{0.66}{\sqrt{16}}\right]\\
+  &=&\text{$[2.711, 3.289]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 17 crianças de uma escola, cuja diretoria
+  quer saber sobre a hidratação e saúde dos alunos, apresentou um
+  consumo médio amostral de \(3\) litros de água por dia e desvio padrão
+  amostral de \(0.62\). Supondo que o consumo diário de água de uma
+  criança segue distribuição Normal, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  água consumida pelos alunos da escola, com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([2.936, 3.064]\)
+  \item
+    \([2.940, 3.060]\)
+  \item
+    \([2.753, 3.247]\)
+  \item
+    \([2.737, 3.263]\)
+  \item
+    \([2.756, 3.244]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[3-1.7459\times\frac{0.62}{\sqrt{17}} \ , \ 3+1.7459\times\frac{0.62}{\sqrt{17}}\right]\\
+  &=&\text{$[2.737, 3.263]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 17 crianças de uma escola, cuja diretoria
+  quer saber sobre a hidratação e saúde dos alunos, apresentou um
+  consumo médio amostral de \(3\) litros de água por dia e desvio padrão
+  amostral de \(0.63\). Supondo que o consumo diário de água de uma
+  criança segue distribuição Normal, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  água consumida pelos alunos da escola, com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([2.892, 3.108]\)
+  \item
+    \([2.904, 3.096]\)
+  \item
+    \([2.554, 3.446]\)
+  \item
+    \([2.551, 3.449]\)
+  \item
+    \([2.606, 3.394]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[3-2.9208\times\frac{0.63}{\sqrt{17}} \ , \ 3+2.9208\times\frac{0.63}{\sqrt{17}}\right]\\
+  &=&\text{$[2.554, 3.446]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 20 crianças de uma escola, cuja diretoria
+  quer saber sobre a hidratação e saúde dos alunos, apresentou um
+  consumo médio amostral de \(3\) litros de água por dia e desvio padrão
+  amostral de \(0.6\). Supondo que o consumo diário de água de uma
+  criança segue distribuição Normal, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  água consumida pelos alunos da escola, com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([2.596, 3.404]\)
+  \item
+    \([2.923, 3.077]\)
+  \item
+    \([2.616, 3.384]\)
+  \item
+    \([2.914, 3.086]\)
+  \item
+    \([2.654, 3.346]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[3-2.8609\times\frac{0.6}{\sqrt{20}} \ , \ 3+2.8609\times\frac{0.6}{\sqrt{20}}\right]\\
+  &=&\text{$[2.616, 3.384]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 24 crianças de uma escola, cuja diretoria
+  quer saber sobre a hidratação e saúde dos alunos, apresentou um
+  consumo médio amostral de \(3\) litros de água por dia e desvio padrão
+  amostral de \(0.61\). Supondo que o consumo diário de água de uma
+  criança segue distribuição Normal, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  água consumida pelos alunos da escola, com confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([2.742, 3.258]\)
+  \item
+    \([2.950, 3.050]\)
+  \item
+    \([2.739, 3.261]\)
+  \item
+    \([2.756, 3.244]\)
+  \item
+    \([2.947, 3.053]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[3-2.0687\times\frac{0.61}{\sqrt{24}} \ , \ 3+2.0687\times\frac{0.61}{\sqrt{24}}\right]\\
+  &=&\text{$[2.742, 3.258]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 25 crianças de uma escola, cuja diretoria
+  quer saber sobre a hidratação e saúde dos alunos, apresentou um
+  consumo médio amostral de \(3\) litros de água por dia e desvio padrão
+  amostral de \(0.51\). Supondo que o consumo diário de água de uma
+  criança segue distribuição Normal, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  água consumida pelos alunos da escola, com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([2.965, 3.035]\)
+  \item
+    \([2.817, 3.183]\)
+  \item
+    \([2.833, 3.167]\)
+  \item
+    \([2.967, 3.033]\)
+  \item
+    \([2.825, 3.175]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[3-1.7109\times\frac{0.51}{\sqrt{25}} \ , \ 3+1.7109\times\frac{0.51}{\sqrt{25}}\right]\\
+  &=&\text{$[2.825, 3.175]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

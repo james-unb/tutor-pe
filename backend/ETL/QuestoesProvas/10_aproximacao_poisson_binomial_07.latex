@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um patinete elétrico ser roubado no DF, no período
+  de um ano, é \(1.04\%\). Numa região administrativa com \(25\)
+  patinetes, considerando independência entre os casos, qual é o erro
+  absoluto da aproximação da Poisson à Binomial da probabilidade de
+  exatamente \(3\) serem roubados?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2220\)
+  \item
+    \(0.0561\)
+  \item
+    \(0.0002\)
+  \item
+    \(0.0021\)
+  \item
+    \(0.0000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de patinetes roubados \(X\) tem distribuição
+  \(X \sim \text{Bin}(25,0.0104)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(25 \times 0.0104)\).
+  E o erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(25,0.0104)) - P(X= 3 | X \sim \text{Pois}(25 \times 0.0104)) = 0.0021 - 0.0023.\]
+
+  Portanto, o valor absoluto do erro é \(0.0002.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um patinete elétrico ser roubado no DF, no período
+  de um ano, é \(1.2\%\). Numa região administrativa com \(25\)
+  patinetes, considerando independência entre os casos, qual é o erro
+  absoluto da aproximação da Poisson à Binomial da probabilidade de
+  exatamente \(2\) serem roubados?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2379\)
+  \item
+    \(0.0327\)
+  \item
+    \(0.0006\)
+  \item
+    \(0.0679\)
+  \item
+    \(0.0003\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de patinetes roubados \(X\) tem distribuição
+  \(X \sim \text{Bin}(25,0.012)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(25 \times 0.012)\). E
+  o erro da aproximação, quando \(X=2\), é dado por
+
+  \[P(X= 2 | X \sim \text{Bin}(25,0.012)) - P(X= 2 | X \sim \text{Pois}(25 \times 0.012)) = 0.0327 - 0.0333.\]
+
+  Portanto, o valor absoluto do erro é \(0.0006.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um patinete elétrico ser roubado no DF, no período
+  de um ano, é \(1.08\%\). Numa região administrativa com \(30\)
+  patinetes, considerando independência entre os casos, qual é o erro
+  absoluto da aproximação da Poisson à Binomial da probabilidade de
+  exatamente \(3\) serem roubados?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0003\)
+  \item
+    \(0.0001\)
+  \item
+    \(0.0038\)
+  \item
+    \(0.2202\)
+  \item
+    \(0.0561\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de patinetes roubados \(X\) tem distribuição
+  \(X \sim \text{Bin}(30,0.0108)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(30 \times 0.0108)\).
+  E o erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(30,0.0108)) - P(X= 3 | X \sim \text{Pois}(30 \times 0.0108)) = 0.0038 - 0.0041.\]
+
+  Portanto, o valor absoluto do erro é \(0.0003.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um patinete elétrico ser roubado no DF, no período
+  de um ano, é \(1.16\%\). Numa região administrativa com \(25\)
+  patinetes, considerando independência entre os casos, qual é o erro
+  absoluto da aproximação da Poisson à Binomial da probabilidade de
+  exatamente \(3\) serem roubados?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0561\)
+  \item
+    \(0.0028\)
+  \item
+    \(0.0003\)
+  \item
+    \(0.2213\)
+  \item
+    \(0.0000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de patinetes roubados \(X\) tem distribuição
+  \(X \sim \text{Bin}(25,0.0116)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(25 \times 0.0116)\).
+  E o erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(25,0.0116)) - P(X= 3 | X \sim \text{Pois}(25 \times 0.0116)) = 0.0028 - 0.003.\]
+
+  Portanto, o valor absoluto do erro é \(0.0003.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um patinete elétrico ser roubado no DF, no período
+  de um ano, é \(1.12\%\). Numa região administrativa com \(20\)
+  patinetes, considerando independência entre os casos, qual é o erro
+  absoluto da aproximação da Poisson à Binomial da probabilidade de
+  exatamente \(2\) serem roubados?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0006\)
+  \item
+    \(0.0678\)
+  \item
+    \(0.2512\)
+  \item
+    \(0.0194\)
+  \item
+    \(0.0002\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de patinetes roubados \(X\) tem distribuição
+  \(X \sim \text{Bin}(20,0.0112)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(20 \times 0.0112)\).
+  E o erro da aproximação, quando \(X=2\), é dado por
+
+  \[P(X= 2 | X \sim \text{Bin}(20,0.0112)) - P(X= 2 | X \sim \text{Pois}(20 \times 0.0112)) = 0.0195 - 0.0201.\]
+
+  Portanto, o valor absoluto do erro é \(0.0006.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um patinete elétrico ser roubado no DF, no período
+  de um ano, é \(1.04\%\). Numa região administrativa com \(20\)
+  patinetes, considerando independência entre os casos, qual é o erro
+  absoluto da aproximação da Poisson à Binomial da probabilidade de
+  exatamente \(3\) serem roubados?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0000\)
+  \item
+    \(0.0011\)
+  \item
+    \(0.2230\)
+  \item
+    \(0.0561\)
+  \item
+    \(0.0001\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de patinetes roubados \(X\) tem distribuição
+  \(X \sim \text{Bin}(20,0.0104)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(20 \times 0.0104)\).
+  E o erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(20,0.0104)) - P(X= 3 | X \sim \text{Pois}(20 \times 0.0104)) = 0.0011 - 0.0012.\]
+
+  Portanto, o valor absoluto do erro é \(0.0001.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um patinete elétrico ser roubado no DF, no período
+  de um ano, é \(1.12\%\). Numa região administrativa com \(25\)
+  patinetes, considerando independência entre os casos, qual é o erro
+  absoluto da aproximação da Poisson à Binomial da probabilidade de
+  exatamente \(3\) serem roubados?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0000\)
+  \item
+    \(0.0025\)
+  \item
+    \(0.0002\)
+  \item
+    \(0.0561\)
+  \item
+    \(0.2215\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de patinetes roubados \(X\) tem distribuição
+  \(X \sim \text{Bin}(25,0.0112)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(25 \times 0.0112)\).
+  E o erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(25,0.0112)) - P(X= 3 | X \sim \text{Pois}(25 \times 0.0112)) = 0.0025 - 0.0028.\]
+
+  Portanto, o valor absoluto do erro é \(0.0002.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um patinete elétrico ser roubado no DF, no período
+  de um ano, é \(1.08\%\). Numa região administrativa com \(20\)
+  patinetes, considerando independência entre os casos, qual é o erro
+  absoluto da aproximação da Poisson à Binomial da probabilidade de
+  exatamente \(3\) serem roubados?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2228\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.0002\)
+  \item
+    \(0.0561\)
+  \item
+    \(0.0012\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de patinetes roubados \(X\) tem distribuição
+  \(X \sim \text{Bin}(20,0.0108)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(20 \times 0.0108)\).
+  E o erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(20,0.0108)) - P(X= 3 | X \sim \text{Pois}(20 \times 0.0108)) = 0.0012 - 0.0014.\]
+
+  Portanto, o valor absoluto do erro é \(0.0002.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um patinete elétrico ser roubado no DF, no período
+  de um ano, é \(1.2\%\). Numa região administrativa com \(30\)
+  patinetes, considerando independência entre os casos, qual é o erro
+  absoluto da aproximação da Poisson à Binomial da probabilidade de
+  exatamente \(3\) serem roubados?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0561\)
+  \item
+    \(0.0004\)
+  \item
+    \(0.0001\)
+  \item
+    \(0.0051\)
+  \item
+    \(0.2190\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de patinetes roubados \(X\) tem distribuição
+  \(X \sim \text{Bin}(30,0.012)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(30 \times 0.012)\). E
+  o erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(30,0.012)) - P(X= 3 | X \sim \text{Pois}(30 \times 0.012)) = 0.0051 - 0.0054.\]
+
+  Portanto, o valor absoluto do erro é \(0.0004.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um patinete elétrico ser roubado no DF, no período
+  de um ano, é \(1.2\%\). Numa região administrativa com \(20\)
+  patinetes, considerando independência entre os casos, qual é o erro
+  absoluto da aproximação da Poisson à Binomial da probabilidade de
+  exatamente \(3\) serem roubados?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0000\)
+  \item
+    \(0.0561\)
+  \item
+    \(0.2224\)
+  \item
+    \(0.0016\)
+  \item
+    \(0.0002\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de patinetes roubados \(X\) tem distribuição
+  \(X \sim \text{Bin}(20,0.012)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(20 \times 0.012)\). E
+  o erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(20,0.012)) - P(X= 3 | X \sim \text{Pois}(20 \times 0.012)) = 0.0016 - 0.0018.\]
+
+  Portanto, o valor absoluto do erro é \(0.0002.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

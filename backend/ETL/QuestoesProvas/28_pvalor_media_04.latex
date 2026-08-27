@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em um leilão de arte moderna nos EUA, é arrecadado, em média, 320000
+  dólares por quadro. Sabe-se que o desvio padrão populacional dos
+  valores de venda é de 52946. Uma empresa leiloeira suspeita que no
+  último leilão que realizaram a arrecadação diminuiu, possivelmente
+  devido à temporada de tornados muito intensa. Para testar esta
+  hipótese, uma amostra aleatória simples de 15 quadros foi selecionada
+  com seus valores de venda resultando em uma média amostral de 312100
+  dólares. Supondo normalidade para os valores das vendas de leilão de
+  arte moderna nos EUA, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7190\)
+  \item
+    \(0.1280\)
+  \item
+    \(0.3595\)
+  \item
+    \(0.6399\)
+  \item
+    \(0.2810\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente, deve-se observar que o teste é unilateral para a média
+  com variância populacional conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 320000 \ \ versus \ \ H_a : \mu < 320000.\] A
+  estatística de teste normalizada é dada por
+  \[\frac{\bar{x}-320000}{\sigma/\sqrt{n}} = -0.58\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.58) = 0.281.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um leilão de arte moderna nos EUA, é arrecadado, em média, 320000
+  dólares por quadro. Sabe-se que o desvio padrão populacional dos
+  valores de venda é de 50526. Uma empresa leiloeira suspeita que no
+  último leilão que realizaram a arrecadação diminuiu, possivelmente
+  devido à temporada de tornados muito intensa. Para testar esta
+  hipótese, uma amostra aleatória simples de 5 quadros foi selecionada
+  com seus valores de venda resultando em uma média amostral de 312356
+  dólares. Supondo normalidade para os valores das vendas de leilão de
+  arte moderna nos EUA, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6331\)
+  \item
+    \(0.3165\)
+  \item
+    \(0.0689\)
+  \item
+    \(0.3669\)
+  \item
+    \(0.5634\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente, deve-se observar que o teste é unilateral para a média
+  com variância populacional conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 320000 \ \ versus \ \ H_a : \mu < 320000.\] A
+  estatística de teste normalizada é dada por
+  \[\frac{\bar{x}-320000}{\sigma/\sqrt{n}} = -0.34\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.34) = 0.3669.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um leilão de arte moderna nos EUA, é arrecadado, em média, 310000
+  dólares por quadro. Sabe-se que o desvio padrão populacional dos
+  valores de venda é de 59759. Uma empresa leiloeira suspeita que no
+  último leilão que realizaram a arrecadação diminuiu, possivelmente
+  devido à temporada de tornados muito intensa. Para testar esta
+  hipótese, uma amostra aleatória simples de 7 quadros foi selecionada
+  com seus valores de venda resultando em uma média amostral de 298498
+  dólares. Supondo normalidade para os valores das vendas de leilão de
+  arte moderna nos EUA, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0678\)
+  \item
+    \(0.3475\)
+  \item
+    \(0.3050\)
+  \item
+    \(0.6185\)
+  \item
+    \(0.6950\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente, deve-se observar que o teste é unilateral para a média
+  com variância populacional conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 310000 \ \ versus \ \ H_a : \mu < 310000.\] A
+  estatística de teste normalizada é dada por
+  \[\frac{\bar{x}-310000}{\sigma/\sqrt{n}} = -0.51\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.51) = 0.305.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um leilão de arte moderna nos EUA, é arrecadado, em média, 300000
+  dólares por quadro. Sabe-se que o desvio padrão populacional dos
+  valores de venda é de 57338. Uma empresa leiloeira suspeita que no
+  último leilão que realizaram a arrecadação diminuiu, possivelmente
+  devido à temporada de tornados muito intensa. Para testar esta
+  hipótese, uma amostra aleatória simples de 7 quadros foi selecionada
+  com seus valores de venda resultando em uma média amostral de 290268
+  dólares. Supondo normalidade para os valores das vendas de leilão de
+  arte moderna nos EUA, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3264\)
+  \item
+    \(0.5995\)
+  \item
+    \(0.6736\)
+  \item
+    \(0.1691\)
+  \item
+    \(0.3368\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente, deve-se observar que o teste é unilateral para a média
+  com variância populacional conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 3e+05 \ \ versus \ \ H_a : \mu < 3e+05.\] A
+  estatística de teste normalizada é dada por
+  \[\frac{\bar{x}-3e+05}{\sigma/\sqrt{n}} = -0.45\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.45) = 0.3264.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um leilão de arte moderna nos EUA, é arrecadado, em média, 350000
+  dólares por quadro. Sabe-se que o desvio padrão populacional dos
+  valores de venda é de 56958. Uma empresa leiloeira suspeita que no
+  último leilão que realizaram a arrecadação diminuiu, possivelmente
+  devido à temporada de tornados muito intensa. Para testar esta
+  hipótese, uma amostra aleatória simples de 11 quadros foi selecionada
+  com seus valores de venda resultando em uma média amostral de 340220
+  dólares. Supondo normalidade para os valores das vendas de leilão de
+  arte moderna nos EUA, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3578\)
+  \item
+    \(0.7157\)
+  \item
+    \(0.0738\)
+  \item
+    \(0.2843\)
+  \item
+    \(0.6369\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente, deve-se observar que o teste é unilateral para a média
+  com variância populacional conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 350000 \ \ versus \ \ H_a : \mu < 350000.\] A
+  estatística de teste normalizada é dada por
+  \[\frac{\bar{x}-350000}{\sigma/\sqrt{n}} = -0.57\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.57) = 0.2843.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um leilão de arte moderna nos EUA, é arrecadado, em média, 350000
+  dólares por quadro. Sabe-se que o desvio padrão populacional dos
+  valores de venda é de 58794. Uma empresa leiloeira suspeita que no
+  último leilão que realizaram a arrecadação diminuiu, possivelmente
+  devido à temporada de tornados muito intensa. Para testar esta
+  hipótese, uma amostra aleatória simples de 10 quadros foi selecionada
+  com seus valores de venda resultando em uma média amostral de 338906
+  dólares. Supondo normalidade para os valores das vendas de leilão de
+  arte moderna nos EUA, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0945\)
+  \item
+    \(0.3629\)
+  \item
+    \(0.6459\)
+  \item
+    \(0.7257\)
+  \item
+    \(0.2743\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente, deve-se observar que o teste é unilateral para a média
+  com variância populacional conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 350000 \ \ versus \ \ H_a : \mu < 350000.\] A
+  estatística de teste normalizada é dada por
+  \[\frac{\bar{x}-350000}{\sigma/\sqrt{n}} = -0.6\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.6) = 0.2743.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um leilão de arte moderna nos EUA, é arrecadado, em média, 320000
+  dólares por quadro. Sabe-se que o desvio padrão populacional dos
+  valores de venda é de 59785. Uma empresa leiloeira suspeita que no
+  último leilão que realizaram a arrecadação diminuiu, possivelmente
+  devido à temporada de tornados muito intensa. Para testar esta
+  hipótese, uma amostra aleatória simples de 7 quadros foi selecionada
+  com seus valores de venda resultando em uma média amostral de 307863
+  dólares. Supondo normalidade para os valores das vendas de leilão de
+  arte moderna nos EUA, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7054\)
+  \item
+    \(0.6278\)
+  \item
+    \(0.3527\)
+  \item
+    \(0.0769\)
+  \item
+    \(0.2946\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente, deve-se observar que o teste é unilateral para a média
+  com variância populacional conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 320000 \ \ versus \ \ H_a : \mu < 320000.\] A
+  estatística de teste normalizada é dada por
+  \[\frac{\bar{x}-320000}{\sigma/\sqrt{n}} = -0.54\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.54) = 0.2946.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um leilão de arte moderna nos EUA, é arrecadado, em média, 340000
+  dólares por quadro. Sabe-se que o desvio padrão populacional dos
+  valores de venda é de 56754. Uma empresa leiloeira suspeita que no
+  último leilão que realizaram a arrecadação diminuiu, possivelmente
+  devido à temporada de tornados muito intensa. Para testar esta
+  hipótese, uma amostra aleatória simples de 11 quadros foi selecionada
+  com seus valores de venda resultando em uma média amostral de 327743
+  dólares. Supondo normalidade para os valores das vendas de leilão de
+  arte moderna nos EUA, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7642\)
+  \item
+    \(0.6802\)
+  \item
+    \(0.3821\)
+  \item
+    \(0.2358\)
+  \item
+    \(0.1143\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente, deve-se observar que o teste é unilateral para a média
+  com variância populacional conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 340000 \ \ versus \ \ H_a : \mu < 340000.\] A
+  estatística de teste normalizada é dada por
+  \[\frac{\bar{x}-340000}{\sigma/\sqrt{n}} = -0.72\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.72) = 0.2358.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um leilão de arte moderna nos EUA, é arrecadado, em média, 310000
+  dólares por quadro. Sabe-se que o desvio padrão populacional dos
+  valores de venda é de 57510. Uma empresa leiloeira suspeita que no
+  último leilão que realizaram a arrecadação diminuiu, possivelmente
+  devido à temporada de tornados muito intensa. Para testar esta
+  hipótese, uma amostra aleatória simples de 9 quadros foi selecionada
+  com seus valores de venda resultando em uma média amostral de 301506
+  dólares. Supondo normalidade para os valores das vendas de leilão de
+  arte moderna nos EUA, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6700\)
+  \item
+    \(0.5963\)
+  \item
+    \(0.3350\)
+  \item
+    \(0.1862\)
+  \item
+    \(0.3300\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente, deve-se observar que o teste é unilateral para a média
+  com variância populacional conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 310000 \ \ versus \ \ H_a : \mu < 310000.\] A
+  estatística de teste normalizada é dada por
+  \[\frac{\bar{x}-310000}{\sigma/\sqrt{n}} = -0.44\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.44) = 0.33.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um leilão de arte moderna nos EUA, é arrecadado, em média, 350000
+  dólares por quadro. Sabe-se que o desvio padrão populacional dos
+  valores de venda é de 54796. Uma empresa leiloeira suspeita que no
+  último leilão que realizaram a arrecadação diminuiu, possivelmente
+  devido à temporada de tornados muito intensa. Para testar esta
+  hipótese, uma amostra aleatória simples de 10 quadros foi selecionada
+  com seus valores de venda resultando em uma média amostral de 342570
+  dólares. Supondo normalidade para os valores das vendas de leilão de
+  arte moderna nos EUA, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6664\)
+  \item
+    \(0.3336\)
+  \item
+    \(0.5931\)
+  \item
+    \(0.0107\)
+  \item
+    \(0.3332\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente, deve-se observar que o teste é unilateral para a média
+  com variância populacional conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 350000 \ \ versus \ \ H_a : \mu < 350000.\] A
+  estatística de teste normalizada é dada por
+  \[\frac{\bar{x}-350000}{\sigma/\sqrt{n}} = -0.43\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.43) = 0.3336.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

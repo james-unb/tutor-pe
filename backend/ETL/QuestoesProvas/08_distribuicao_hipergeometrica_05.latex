@@ -1,0 +1,402 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um funcionário dos correios deve remeter, por via aérea, para a
+  Europa, \(6\) pacotes de um lote de \(15\). Acontece que ele mistura
+  todos e aplica o carimbo de ``via aérea'' aleatoriamente em \(6\)
+  pacotes. Qual é a probabilidade de que apenas \(2\) dos pacotes que
+  receberam o carimbo realmente deveriam ser enviados via aérea?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.133\)
+  \item
+    \(0.622\)
+  \item
+    \(0.378\)
+  \item
+    \(0.816\)
+  \item
+    \(0.400\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)15\(,\)6\(,\)6\()\). Portanto
+  \[P(X = 2)=\frac{ { 6 \choose 2 }  { 9 \choose 4 } }{  { 15 \choose 6 }  }=0.378.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um funcionário dos correios deve remeter, por via aérea, para a
+  Europa, \(7\) pacotes de um lote de \(17\). Acontece que ele mistura
+  todos e aplica o carimbo de ``via aérea'' aleatoriamente em \(7\)
+  pacotes. Qual é a probabilidade de que apenas \(4\) dos pacotes que
+  receberam o carimbo realmente deveriam ser enviados via aérea?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.153\)
+  \item
+    \(0.235\)
+  \item
+    \(0.784\)
+  \item
+    \(0.621\)
+  \item
+    \(0.216\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)17\(,\)7\(,\)7\()\). Portanto
+  \[P(X = 4)=\frac{ { 7 \choose 4 }  { 10 \choose 3 } }{  { 17 \choose 7 }  }=0.216.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um funcionário dos correios deve remeter, por via aérea, para a
+  Europa, \(7\) pacotes de um lote de \(18\). Acontece que ele mistura
+  todos e aplica o carimbo de ``via aérea'' aleatoriamente em \(7\)
+  pacotes. Qual é a probabilidade de que apenas \(4\) dos pacotes que
+  receberam o carimbo realmente deveriam ser enviados via aérea?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.222\)
+  \item
+    \(0.181\)
+  \item
+    \(0.129\)
+  \item
+    \(0.819\)
+  \item
+    \(0.901\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)18\(,\)7\(,\)7\()\). Portanto
+  \[P(X = 4)=\frac{ { 7 \choose 4 }  { 11 \choose 3 } }{  { 18 \choose 7 }  }=0.181.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um funcionário dos correios deve remeter, por via aérea, para a
+  Europa, \(7\) pacotes de um lote de \(20\). Acontece que ele mistura
+  todos e aplica o carimbo de ``via aérea'' aleatoriamente em \(7\)
+  pacotes. Qual é a probabilidade de que apenas \(2\) dos pacotes que
+  receberam o carimbo realmente deveriam ser enviados via aérea?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.349\)
+  \item
+    \(0.370\)
+  \item
+    \(0.100\)
+  \item
+    \(0.855\)
+  \item
+    \(0.651\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)20\(,\)7\(,\)7\()\). Portanto
+  \[P(X = 2)=\frac{ { 7 \choose 2 }  { 13 \choose 5 } }{  { 20 \choose 7 }  }=0.349.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um funcionário dos correios deve remeter, por via aérea, para a
+  Europa, \(9\) pacotes de um lote de \(21\). Acontece que ele mistura
+  todos e aplica o carimbo de ``via aérea'' aleatoriamente em \(9\)
+  pacotes. Qual é a probabilidade de que apenas \(4\) dos pacotes que
+  receberam o carimbo realmente deveriam ser enviados via aérea?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.660\)
+  \item
+    \(0.190\)
+  \item
+    \(0.309\)
+  \item
+    \(0.340\)
+  \item
+    \(0.276\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)21\(,\)9\(,\)9\()\). Portanto
+  \[P(X = 4)=\frac{ { 9 \choose 4 }  { 12 \choose 5 } }{  { 21 \choose 9 }  }=0.34.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um funcionário dos correios deve remeter, por via aérea, para a
+  Europa, \(9\) pacotes de um lote de \(19\). Acontece que ele mistura
+  todos e aplica o carimbo de ``via aérea'' aleatoriamente em \(9\)
+  pacotes. Qual é a probabilidade de que apenas \(2\) dos pacotes que
+  receberam o carimbo realmente deveriam ser enviados via aérea?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.105\)
+  \item
+    \(0.047\)
+  \item
+    \(0.097\)
+  \item
+    \(0.458\)
+  \item
+    \(0.953\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)19\(,\)9\(,\)9\()\). Portanto
+  \[P(X = 2)=\frac{ { 9 \choose 2 }  { 10 \choose 7 } }{  { 19 \choose 9 }  }=0.047.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um funcionário dos correios deve remeter, por via aérea, para a
+  Europa, \(6\) pacotes de um lote de \(18\). Acontece que ele mistura
+  todos e aplica o carimbo de ``via aérea'' aleatoriamente em \(6\)
+  pacotes. Qual é a probabilidade de que apenas \(4\) dos pacotes que
+  receberam o carimbo realmente deveriam ser enviados via aérea?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.947\)
+  \item
+    \(0.222\)
+  \item
+    \(0.811\)
+  \item
+    \(0.053\)
+  \item
+    \(0.035\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)18\(,\)6\(,\)6\()\). Portanto
+  \[P(X = 4)=\frac{ { 6 \choose 4 }  { 12 \choose 2 } }{  { 18 \choose 6 }  }=0.053.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um funcionário dos correios deve remeter, por via aérea, para a
+  Europa, \(9\) pacotes de um lote de \(19\). Acontece que ele mistura
+  todos e aplica o carimbo de ``via aérea'' aleatoriamente em \(9\)
+  pacotes. Qual é a probabilidade de que apenas \(2\) dos pacotes que
+  receberam o carimbo realmente deveriam ser enviados via aérea?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.047\)
+  \item
+    \(0.953\)
+  \item
+    \(0.097\)
+  \item
+    \(0.105\)
+  \item
+    \(0.065\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)19\(,\)9\(,\)9\()\). Portanto
+  \[P(X = 2)=\frac{ { 9 \choose 2 }  { 10 \choose 7 } }{  { 19 \choose 9 }  }=0.047.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um funcionário dos correios deve remeter, por via aérea, para a
+  Europa, \(8\) pacotes de um lote de \(18\). Acontece que ele mistura
+  todos e aplica o carimbo de ``via aérea'' aleatoriamente em \(8\)
+  pacotes. Qual é a probabilidade de que apenas \(3\) dos pacotes que
+  receberam o carimbo realmente deveriam ser enviados via aérea?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.352\)
+  \item
+    \(0.323\)
+  \item
+    \(0.110\)
+  \item
+    \(0.677\)
+  \item
+    \(0.167\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)18\(,\)8\(,\)8\()\). Portanto
+  \[P(X = 3)=\frac{ { 8 \choose 3 }  { 10 \choose 5 } }{  { 18 \choose 8 }  }=0.323.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um funcionário dos correios deve remeter, por via aérea, para a
+  Europa, \(9\) pacotes de um lote de \(24\). Acontece que ele mistura
+  todos e aplica o carimbo de ``via aérea'' aleatoriamente em \(9\)
+  pacotes. Qual é a probabilidade de que apenas \(4\) dos pacotes que
+  receberam o carimbo realmente deveriam ser enviados via aérea?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(0.711\)
+  \item
+    \(0.167\)
+  \item
+    \(0.289\)
+  \item
+    \(0.288\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)24\(,\)9\(,\)9\()\). Portanto
+  \[P(X = 4)=\frac{ { 9 \choose 4 }  { 15 \choose 5 } }{  { 24 \choose 9 }  }=0.289.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

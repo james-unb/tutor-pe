@@ -1,0 +1,471 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsfonts,amssymb,amsbsy}
+\usepackage{amsthm} %Permite teorema sem numeração, no meu caso Demonstração
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{float}
+
+%------------------------------------------------------------------------------
+
+\setlength{\topmargin}{-1.0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{6.5in}
+\setlength{\baselineskip}{12mm}
+\addtolength{\jot}{.2cm}
+
+%------------------------------------------------------------------------------
+
+\renewcommand{\P}{\mathcal{P}}
+\newcommand{\E}{\mathcal{E}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+        \begin{minipage}[c]{7in}
+                  {Universidade de Brasília} \\
+                  {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf $\text{3}^{\text{\underline{a}}}$ Lista de PE -- Solução}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item Se $X$ representa o ganho do jogador, então os possíveis valores para $X$ são $-2,-1,0,2$ e $4$. Esses valores são, respectivamente, correspondentes a se retirar 2 bolas brancas, 1 branca e 1 laranja, 2 laranjas, 1 preta e 1 branca, 1 preta e 1 laranja e, por último, 2 bolas pretas. 
+
+\vspace*{0.3cm}
+\noindent Sendo o espaço amostral finito, é fácil concluir que $n(\Omega)=\binom{14}{2}$. As probabilidades associadas a esses valores são
+
+\begin{equation*}
+\begin{array}{ll}
+\vspace*{0.3cm} \mathcal{P}(X=-2)=\dfrac{\binom{8}{2}}{\binom{14}{2}}=\dfrac{28}{91} \hspace{2.5cm} & \mathcal{P}(X=1)=\dfrac{\binom{4}{1}\binom{8}{1}}{\binom{14}{2}}=\dfrac{32}{91}\\\vspace*{0.3cm}
+\mathcal{P}(X=-1)=\dfrac{\binom{8}{1}\binom{2}{1}}{\binom{14}{2}}=\dfrac{16}{91} & \mathcal{P}(X=2)=\dfrac{\binom{4}{1}\binom{2}{1}}{\binom{14}{2}}=\dfrac{8}{91}\\
+\mathcal{P}(X=0)=\dfrac{\binom{2}{2}}{\binom{14}{2}}=\dfrac{1}{91} & \mathcal{P}(X=4)=\dfrac{\binom{4}{2}}{\binom{14}{2}}=\dfrac{6}{91}
+\end{array}
+\end{equation*}
+
+\item 
+\begin{itemize}
+\item[a)] Para construir o gráfico da função probabilidade de massa basta marcar os pontos $(i, \P(X=i)), i=0, 1, 2 \ \text{e} \ 3$ no plano cartesiano. A função de distribuição acumulada segue abaixo:
+
+\vspace*{0.3cm}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{Q2itemA.eps}
+%\caption{}
+%\label{}
+\end{figure}
+
+\item[b)] Segue da definição de esperança que
+\begin{eqnarray*}
+\mathcal{E}(X) &=& 0\P(X=0)+1\P(X=1)+2\P(X=2)+3\P(X=3)\\
+&=& 0(0,25)+1(0,125)+2(0,125)+3(0,5)\\
+&=& 1,875.
+\end{eqnarray*}
+\item[c)] Primeiramente calculamos
+\begin{eqnarray*}
+\mathcal{E}\left(X^2\right) &=& 0^2\P(X=0)+1^2\P(X=1)+2^2\P(X=2)+3^2\P(X=3)\\
+&=& 0^2(0,25)+1^2(0,125)+2^2(0,125)+3^2(0,5)\\
+&=& 5,125.
+\end{eqnarray*}
+
+Em seguida, pela definição de variância temos
+$$\text{Var}(X) = 5,125 - (1,875)^2 \approx 1,61.$$
+
+\item[d)] Os resultados seguem abaixo:
+\begin{eqnarray*}
+&\textcolor{white}{.}& \text{Como não há valores entre 0 e 1,} \ \P(0<X<1) = 0.\\
+&\textcolor{white}{.}& \P(X\leqslant 2) = \P(X=0) + \P(X=1) + \P(X=2) = 0,25 + 0,125 + 0,125 = 0,5.\\
+&\textcolor{white}{.}& \text{Como não há valores maiores que 3,} \ \P(X>3)=0.\\
+&\textcolor{white}{.}& \P(X>2,5) = \P(X=3) = 0,5.
+\end{eqnarray*}
+
+\end{itemize}
+
+\item Primeiramente, lembre-se que $F(y^-)$ representa o limite à esquerda da função quando $x\rightarrow y$.
+
+\begin{itemize}
+\item[a)] O gráfico tem a forma abaixo
+
+\vspace*{0.3cm}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.7]{Q3itemA.eps}
+%\caption{}
+%\label{}
+\end{figure}
+
+\item[b)] Como o tamanho dos saltos em cada ponto representa o valor da probabilidade que aquele ponto ``carrega'', temos
+\begin{eqnarray*}
+\mathcal{P}(X=1)&=&F(1)-F(1^-)\hspace{0.2cm} =\hspace{0.2cm} \dfrac{1}{4},\\ 
+\mathcal{P}(X=2)&=&F(2)-F(2^-)\hspace{0.2cm}=\hspace{0.2cm}\dfrac{5}{12},\\
+\mathcal{P}(X=3)&=&F(3)-F(3^-)\hspace{0.2cm}=\hspace{0.2cm}\dfrac{1}{12}.
+\end{eqnarray*} 
+\item[c)] $\mathcal{P}\left(\frac{1}{2}<X<\frac{3}{2}\right)=F\left(\frac{3}{2}\right)-F\left(\frac{1}{2}\right)=\frac{1}{4}.$
+\end{itemize}
+
+\item Das informações do texto temos que $\P(X=0) = 0,5$ e $\P(X=i) = p^i$, $i = 1, 2, 3, \ldots$ 
+\begin{itemize} 
+\item[a)] Como sabemos a soma das probabilidades deve ser igual a um. Desse modo, temos
+
+$$\sum_{i=1}^{\infty}\P(X=i) = \frac{p}{1-p} = \frac{1}{2}.$$
+
+Resolvendo a equação acima encontramos $p=1/3$.
+
+\item[b)] A probabilidade desejada é
+
+$$\P(X\leqslant 5) = \sum_{i=0}^{5} \P(X=i) = \frac{1}{2} + \sum_{i=1}^{5} \frac{1}{3^i} = \frac{1}{162}.$$
+
+\item[c)] A probabilidade desejada é calculada por
+
+$$ \sum_{k=0}^{\infty} \P(X=2k) = \frac{1}{2} + \sum_{i=1}^{\infty} \frac{1}{3^{2k}} = \frac{5}{8}.$$
+\end{itemize}
+
+\item Diretamente da definição temos que 
+\begin{eqnarray*}
+\mathcal{E}(X) &=& -1\P(X=-1)+0\P(X=0)+1\P(X=1)\\
+&=& -1(0,2)+0(0,5)+1(0,3)\\
+&=& 0,1.
+\end{eqnarray*}
+Agora
+\begin{eqnarray*}
+\mathcal{E}\left(X^2\right) &=& (-1)^2\P(X=-1)+0^2\P(X=0)+1^2\P(X=1)\\
+&=& (-1)^2(0,2)+0^2(0,5)+1^2(0,3)\\
+&=& 0,5
+\end{eqnarray*}
+e então $$\text{Var}(X)=0,5-(0,1)^2=0,49.$$
+
+\item
+\begin{itemize}
+\item[a)] A função de distribuição acumulada da variável aleatória $N$ é dada por
+\begin{equation*}
+\P(N \leqslant x) = 
+\left\{\begin{array}{lcr}
+0, & \text{se} & x<0,\\ \vspace{0.1cm}
+0,2, & \text{se} & 0\leqslant x<1,\\ \vspace{0.1cm}
+0,5, & \text{se} & 1\leqslant x<2,\\ \vspace{0.1cm}
+0,85, & \text{se} & 2\leqslant x<3, \\ \vspace{0.1cm}
+0,90, & \text{se} & 3\leqslant x<4, \\ \vspace{0.1cm}
+0,95, & \text{se} & 4\leqslant x<5, \\ \vspace{0.1cm}
+1, & \text{se} & x\geqslant 5.
+\end{array} \right.
+\end{equation*} 
+
+\item[b)] A probabilidade desejada é dada por $$\P(X \geqslant 2) = 1-\P(X < 2) = 1-\P(X\leqslant 1) = 1 - 0,5 = 0,5.$$
+\item[c)] O valor esperado é 
+\begin{eqnarray*}
+\mathcal{E}(X) &=& 0\P(X=0)+1\P(X=1)+2\P(X=2)+3\P(X=3)+4\P(X=4)+5\P(X=5)\\
+&=& 0(0,2)+1(0,3)+2(0,35)+3(0,05)+4(0,05)+5(0,05)\\
+&=& 1,6.
+\end{eqnarray*}
+Para o cálculo da variância, primeiramente calculamos
+\begin{eqnarray*}
+\mathcal{E}\left(X^2\right) &=& \sum_{k=0}^{5}k^2\P(X=k)\\
+&=& 0^2(0,2)+1^2(0,3)+2^2(0,35)+3^2(0,05)+4^2(0,05)+5^2(0,05)\\
+&=& 4,2
+\end{eqnarray*}
+e então $$\text{Var}(X)=4,2-(1,6)^2=1,64.$$
+\end{itemize}
+
+\item 
+\begin{itemize}
+\item[a)] Uma vez que a soma das probabilidades deve ser um, basta resolver a equação $$k + \frac{k}{3} + \frac{k}{5} + \frac{k}{7} = 1,$$ resultando em $k=\frac{105}{176}$.
+\item[b)] A probabilidade desejada é $$\P(X < 5) = \frac{105}{176} + \frac{\frac{105}{176}}{3} = \frac{35}{44}.$$
+\end{itemize}
+
+\item Vamos denotar a probabilidade de sair coroa por $p_c$ e a de sair cara por $p_k$. Do enunciado, temos que $p_k = 4p_c$. Como a soma das probabilidades deve ser um, temos que $4p_c + p_c = 1$ de onde resulta que $p_c = 1/5$ e $p_k = 4/5$. Como jogamos a moeda três vezes, a distribuição da variável $X$ será dada por $$\binom{3}{k}p_k^kp_c^{(3-k)} = \binom{3}{k}\left(\frac{4}{5}\right)^k\left(\frac{1}{5}\right)^{(3-k)}.$$ A distribuição acumulada é dada por $$\P(X \leqslant x) = \sum_{k=0}^{\left \lfloor{x}\right \rfloor} \P(X=k).$$ Onde $\left \lfloor{x}\right \rfloor$ representa o maior inteiro menor ou igual a $x$.
+
+\item Sendo $X$ a variável que representa a soma dos dados, facilmente chegamos às probabilidades
+\begin{eqnarray*}
+\mathcal{P}(X=2) &=& \mathcal{P}(X=12)=1/36\\
+\mathcal{P}(X=3) &=& \mathcal{P}(X=11)=2/36\\
+\mathcal{P}(X=4) &=& \mathcal{P}(X=10)=3/36\\
+\mathcal{P}(X=5) &=& \mathcal{P}(X=9)=4/36\\
+\mathcal{P}(X=6) &=& \mathcal{P}(X=8)=5/36\\
+\mathcal{P}(X=7) &=& 6/36.
+\end{eqnarray*}
+Desse modo, temos
+\begin{eqnarray*}
+\mathcal{E}(X) &=& 2\mathcal{P}(X=2)+3\mathcal{P}(X=3)+\cdots +11\mathcal{P}(X=11)+12\mathcal{P}(X=12)\\
+&=& 7.
+\end{eqnarray*}
+
+\item 
+\begin{itemize}
+\item[a)] O valor esperado é 
+\begin{eqnarray*}
+\mathcal{E}(X) &=& 2\P(X=2)+3\P(X=3)+4\P(X=4)+5\P(X=5)+6\P(X=6)+7\P(X=7)\\
+&=& 2(0,1)+3(0,1)+4(0,3)+5(0,2)+6(0,2)+7(0,1)\\
+&=& 4,6.
+\end{eqnarray*}
+\item[b)] Para o cálculo da variância, primeiramente calculamos
+\begin{eqnarray*}
+\mathcal{E}\left(X^2\right)&=& \sum_{k=2}^{7}k^2\P(X=k)\\
+&=& 2^2(0,1)+3^2(0,1)+4^2(0,3)+5^2(0,2)+6^2(0,2)+7^2(0,1)\\
+&=& 23,2.
+\end{eqnarray*}
+e então $$\text{Var}(X)=23,2-(4,6)^2=2,04.$$
+\item[c)] Seja $Y$ a variável aleatória que representa o valor ganho por um operário. Na tabela abaixo estão computados os valores ganho pelo operário de acordo com o tempo gasto no processamento de uma peça:
+\begin{center}
+\begin{tabular}{c|c|c|c|c|c|c}\hline
+tempo gasto & $2$ & $3$ & $4$ & $5$ & $6$ & $7$\\ \hline
+valor ganho & $4$ & $3,5$ & $3$ & $2,5$ & $2$ & $2$\\ \hline
+\end{tabular}\end{center}
+Como $Y$ é uma transformação da variável $X$ as probabilidades correspondentes são identicas, de modo que as probabilidades associadas à variável $Y$ são:
+\begin{center}
+\begin{tabular}{c|c|c|c|c|c}\hline
+$k$ & $4$ & $3,5$ & $3$ & $2,5$ & $2$\\ \hline
+$\P(Y=k)$ & $0,1$ & $0,1$ & $0,3$ & $0,2$ & $0,3$\\ \hline
+\end{tabular}\end{center}
+Segue que o valor esperado da variável $Y$ é 
+\begin{eqnarray*}
+\mathcal{E}(Y) &=& 4\P(X=4)+3,5\P(X=3,5)+3\P(X=3)+2,5\P(X=2,5)+2\P(X=2)\\
+&=& 4(0,1)+3,5(0,1)+3(0,3)+2,5(0,2)+2(0,3)\\
+&=& 2,75.
+\end{eqnarray*}
+\end{itemize}
+
+\item Do enunciado temos que $\P(X = k) = (0,5)^k$,  para $k = 1, 2, \ldots$
+\begin{itemize}
+\item[a)] ${\displaystyle \P(X<10) = \sum_{k=1}^{9}\P(X=k) = \frac{511}{512}.}$
+\item[b)] ${\displaystyle \E(X) = \sum_{k\geqslant 1}k\P(X=k) = \sum_{k\geqslant 1}\frac{k}{2^k}=2.}$
+\item[c)] $30\times \E(X) \times 50 = 3000$.
+\end{itemize}
+
+\item Se considerarmos o dado honesto e representarmos por $X$ a variável referente ao ganho ou perda do jogador, claramente $X\sim \text{Bin}\left(3,\frac{1}{6}\right)$ e
+
+\begin{eqnarray*}
+\mathcal{P}(X=-1) &=& \binom{3}{0}\left(\frac{1}{6}\right)^0\left(\frac{5}{6}\right)^3=\frac{125}{216}\\
+\mathcal{P}(X=1) &=& \binom{3}{1}\left(\frac{1}{6}\right)^1\left(\frac{5}{6}\right)^2=\frac{75}{216}\\
+\mathcal{P}(X=2) &=& \binom{3}{2}\left(\frac{1}{6}\right)^2\left(\frac{5}{6}\right)^1=\frac{15}{216}\\
+\mathcal{P}(X=3) &=& \binom{3}{3}\left(\frac{1}{6}\right)^3\left(\frac{5}{6}\right)^0=\frac{1}{216}.
+\end{eqnarray*} 
+A esperança da variável $X$ é $$\mathcal{E}(X)=-1\left(\frac{125}{216}\right)+1\left(\frac{75}{216}\right)+2\left(\frac{15}{216}\right)+3\left(\frac{1}{216}\right)=\frac{-17}{216}$$ e concluímos que o jogo não é justo para o jogador.
+
+\item Vamos considerar que $X$ é a variável relativa ao número de jogos realizados. Considere agora os eventos $G_i=${\it ``Equipe A ganha o i-ésimo jogo''}, $i\geqslant 1$. 
+
+\begin{itemize}
+\item[a)] Quando $i=2$ a v.a. $X$ pode assumir os valores 2 ou 3. Agora, como os eventos $G_i$'s são independentes temos
+\begin{eqnarray*}
+\mathcal{P}(X=2)&=& \mathcal{P}(\{G_1\cap G_2\}\cup\{G_1^c\cap G_2^c\})\\
+&=&  \mathcal{P}(G_1\cap G_2)+\mathcal{P}(G_1^c\cap G_2^c) \\
+&=& \mathcal{P}(G_1)\mathcal{P}(G_2)+\mathcal{P}(G_1^c)\mathcal{P}(G_2^c) \\
+&=& p^2+(1-p)^2\\
+\end{eqnarray*}
+e
+{\footnotesize \begin{eqnarray*}
+\mathcal{P}(X=3)&=& \mathcal{P}(\{G_1\cap G_2^c\cap G_3\}\cup\{G_1^c\cap G_2\cap G_3\}\cup\{G_1^c\cap G_2\cap G_3^c\}\cup\{G_1\cap G_2^c\cap G_3^c\})\\
+&=& \mathcal{P}(G_1\cap G_2^c\cap G_3)+\mathcal{P}(G_1^c\cap G_2\cap G_3)+\mathcal{P}(G_1^c\cap G_2\cap G_3^c)+\mathcal{P}(G_1\cap G_2^c\cap G_3^c)\\
+&=& \mathcal{P}(G_1)\mathcal{P}(G_2^c)\mathcal{P}(G_3)+\mathcal{P}(G_1^c)\mathcal{P}(G_2)\mathcal{P}(G_3)+\mathcal{P}(G_1^c)\mathcal{P}(G_2)\mathcal{P}(G_3^c)+\mathcal{P}(G_1)\mathcal{P}(G_2^c)\mathcal{P}(G_3^c)\\
+&=& p(1-p)^2+p(1-p)^2+p^2(1-p)+p^2(1-p)\\
+&=& 2p(1-p)\\
+\end{eqnarray*}}
+
+Segue que $$\mathcal{E}(X)=2\mathcal{P}(X=2)+3\mathcal{P}(X=3) = 2[p^2+(1-p)^2]+3[2p(1-p)] = 2+2p(1-p).$$
+
+\item[b)] Quando $i=3$ a v.a. $X$ pode assumir os valores 3, 4 ou 5. Por argumentos análogos ao do item anterior chegamos às probabilidades
+\begin{eqnarray*}
+\mathcal{P}(X=3)&=& p^3 + (1-p)^3,\\
+\mathcal{P}(X=4)&=& 3p^3(1-p)+3p(1-p)^3,\\
+\mathcal{P}(X=5)&=& 3(1-p)^2p^3+3(1-p)^3p^2 = 6p^2(1-p)^2.
+\end{eqnarray*}
+Segue que 
+\begin{eqnarray*}
+\mathcal{E}(X)&=& 3\mathcal{P}(X=3)+4\mathcal{P}(X=4)+5\mathcal{P}(X=5)\\
+&=& 3[p^3 + (1-p)^3]+4[3p^3(1-p)+3p(1-p)^3]+5[6p^2(1-p)^2]\\
+&=& 6p^4-12p^3+3p^2+3p+3.
+\end{eqnarray*}
+
+\item[c)] Primeiramente, façamos $\mathcal{E}(X)=f(p)$ para o {\bf item a)} e $\mathcal{E}(X)=g(p)$ para o {\bf item b)}. Como queremos maximizar a esperança, derivamos as funções $f(p)$ e $g(p)$ no intervalo $0<p<1$. $$f'(p)=2-4p \ \ \ \text{e} \ \ \ g'(p)=24p^3-26p^2+6p+3$$ e, portanto, $p=1/2$ é ponto crítico de ambas as funções. Para confirmar que $p=1/2$ é, de fato, um ponto de máximo basta observar que, nesse ponto, as funções $$f'(p)=-4 \ \ \ \text{e} \ \ \ g'(p)=72p^2-72p+6$$ são negativas.
+\end{itemize}
+
+\item Vamos considerar que $X$ é a variável que dá o valor da pontuação obtida pelo meteorologista. Então $\mathcal{P}(X=1-(1-p)^2)=p^{\ast}$ e $\mathcal{P}(X=1-p^2)=1-p^{\ast}$. Segue que $$\mathcal{E}(X)=p^{\ast}(1-(1-p^2))+(1-p^{\ast})(1-p^2)=f(p).$$ Como queremos maximizar a esperança derivamos a função $f(p)$ no intervalo $0<p<1$. $$f'(p)=2p^{\ast}(1-p)-2p(1-p^{\ast}) = 0 \Leftrightarrow p=p^{\ast}$$ obtendo $p^{\ast}$ como ponto crítico. Para confirmar que $p^{\ast}$ é, de fato, um ponto de máximo basta observar que $f''(p^{\ast})=-2$.
+
+\item Vamos denotar por $X$ a variável que representa o número de motores funcionando em um avião de 5 motores e $Y$ a variável que representa o número de motores funcionando em um avião de 3 motores. Estamos interessados nos valores de $p$ para o qual $$\mathcal{P}(X\geqslant 3)\geqslant \mathcal{P}(Y\geqslant 2).$$ Como $p$ representa a probabilidade de sucesso (o motor funciona) a desigualdade acima ocorre e
+\begin{eqnarray*}
+&\Leftrightarrow& \binom{5}{3}p^3(1-p)^2+\binom{5}{4}p^4(1-p)+p^5 \geqslant \binom{3}{2}p^2(1-p)+p^3\\
+&\Leftrightarrow& 6p^3-15p^2+12p-3\geqslant 0\\
+&\Leftrightarrow& 6(p-1/2)(p-1)^2 \geqslant 0\\
+&\Leftrightarrow& p\geqslant 1/2.
+\end{eqnarray*}
+
+\item 
+\begin{itemize}
+\item[a)] {$\displaystyle \P(X=k) = \binom{25}{k}\left(\frac{1}{5}\right)^k\left(\frac{4}{5}\right)^{25-k}, \ k=0,1,\ldots,25.$}
+\item[b)] As probabilidades são
+\begin{eqnarray*}
+\P(X\leqslant 1) &=& \P(X=0)+\P(X=1) \approx 0,0274, \\
+\P(X< 1) &=& \P(X=0) \approx 0,0038, \\
+\P(X\geqslant 1) &=& 1 - \P(X<1) \approx 0,9962, \\
+\P(X> 1) &=& 1 - \P(X\leqslant 1) \approx 0,9726, \\
+\P(\{2\leqslant X \leqslant 4\}) &=&  = \P(X=2)+\P(X=3)+\P(X=4) \approx 0,3933, \\
+\P(\{2\leqslant X < 4\}) &=&  = \P(X=2)+\P(X=3) \approx  0,2066, \\
+\P(\{2< X \leqslant 4\}) &=&  = \P(X=3)+\P(X=4) \approx 0,3225, \\
+\P(\{2< X < 4\}) &=&  = \P(X=3) \approx 0,1358.
+\end{eqnarray*}
+
+\item[c)] A aleatoriedade das respostas.
+\end{itemize}
+
+\item Seja $X$ a variável que representa o número de assegurados sobreviventes. A probabilidade associada à variável $X$ é dada por $$\P(X=k) = \binom{20}{k}\left(0,9\right)^k\left(0,1\right)^{20-k}, \ k=0,1,\ldots,20.$$
+\begin{itemize}
+\item[a)] $\P(X=20) \approx 0,1216.$
+\item[b)] $\P(X=0) \approx 0.$
+\item[c)] $\P(X\geqslant 5) \approx 1.$
+\item[d)] $\P(X\geqslant 15) \approx 0,9888.$
+\item[e)] $\P(X=17) \approx 0,1901.$
+\item[f)] $\P(X\geqslant 18) \approx 0,6769.$
+\item[g)] $\P(X\leqslant 15) \approx 0,0432.$
+\item[h)] $\E(X) = 20\times 0,9 = 18$ e $\text{Var}(X) = 20\times0,9\times0,1 = 1,8$.
+\item[i)] Seja $Y$ a variável referente ao número de mortos no período dado. $\E(Y) = 20\times 0,1 = 2$ e $\text{Var}(Y) = 20\times0,1\times0,9 = 1,8$.
+\end{itemize}
+
+\item Seja $X$ a variável que representa o número de pacientes curados. A probabilidade associada à variável $X$ é dada por $$\P(X=k) = \binom{15}{k}\left(0,8\right)^k\left(0,2\right)^{15-k}, \ k=0,1,\ldots,15.$$
+\begin{itemize}
+\item[a)] $\P(X=15) \approx 0,0352.$
+\item[b)] $\P(X\leqslant 13) \approx 0,8329.$
+\item[c)] $\P(X\geqslant 10) \approx 0,9389.$
+\end{itemize}
+
+\item Seja $X$ a variável que representa o número de bactérias em 5cm$^3$. Como a taxa média em 1cm$^3$ é de 0,8; em 5cm$^3$ será de 4. Desse modo, a variável $X$ é uma Poisson de parâmetro 4 cuja distribuição é dada por $$\P(X=k) = \frac{4^k}{k!}e^{-4}, \ k=0,1,\ldots$$
+\begin{itemize}
+\item[a)] $\P(X\geqslant 2) \approx 0,9084.$
+\item[b)] $\P(X\geqslant 13) \approx 0,0003.$
+\item[c)] $\P(X=0) \approx 0,0183.$
+\item[b)] $\P(X\leqslant 7) \approx 0,9489.$
+\end{itemize}
+
+\item Seja $X$ a variável que representa o número de suicídios. A probabilidade associada à variável $X$ é dada por $$\P(X=k) = \binom{500.000}{k}\left(\frac{1}{250.000}\right)^k\left(\frac{249.999}{250.000}\right)^{500.000-k}, \ k=0,1,\ldots,500.000.$$
+\begin{itemize}
+\item[a)] $\P(X\geqslant 6) \approx 0,0166.$
+\item[b)] Sim, bastaria mudar os parâmetros de acordo com os dados relativos à dengue.
+\end{itemize}
+
+\item Seja $X$ a variável relativa ao  número de peças defeituosas. A probabilidade associada à variável $X$ é dada por $$\P(X=k) = \binom{4}{k}\left(\frac{3}{12}\right)^k\left(\frac{9}{12}\right)^{4-k}, \ k=0,1,\ldots,4.$$
+\begin{itemize}
+\item[a)] $\P(X\geqslant 2) \approx 0,2617.$
+\item[b)] $\P(X\leqslant 1) \approx 0,7383.$
+\item[c)] $\P(X\leqslant 3) \approx 0,9961.$
+\end{itemize}
+
+\item Seja $X$ a variável relativa ao  número de bolas brancas retiradas.
+\begin{itemize}
+\item[a)] Nesse caso $X$ tem distribuição hipergeométrica. Como escolhemos 3 entre as 10 bolas brancas e 2 entre as bolas vermelhas, segue que $$\P(X=3)=\frac{\binom{10}{3}\binom{20}{2}}{\binom{30}{5}} \approx 0,1599.$$
+\item[b)] Nesse caso $X$ tem distribuição binomial de parâmetros $n=5$ e $p=1/3$. Segue que $$\P(X=3) = \binom{5}{3}\left(\frac{1}{3}\right)^3\left(\frac{2}{3}\right)^2 \approx 0,1646.$$
+\end{itemize}
+
+\item 
+\begin{itemize}
+\item[a)] Seja $X\sim \text{Bin(4/10,10)}$ a variável responsável pelos 10 lançamentos da moeda 1 e $Y\sim \text{Bin(7/10,10)}$ a variável responsável pelos 10 lançamentos da moeda 2. Como cada moeda pode ser selecionada com 50\% de chances, a probabilidade desejada é $$\frac{1}{2}\mathcal{P}(X=7)+\frac{1}{2}\mathcal{P}(Y=7) = \frac{1}{2}\binom{10}{7}(0,4)^7(0,6)^3+\frac{1}{2}\binom{10}{7}(0,7)^7(0,3)^3.$$
+\item[b)] Se $A$ representa o evento em que temos 7 caras em 10 lançamentos e $B$ representa o evento em que o primeiro lançamento resulta em cara, a probabilidade desejada é $$\mathcal{P}(A|B)=\frac{\mathcal{P}(A\cap B)}{\mathcal{P}(B)}.$$ Para calcular $\mathcal{P}(A\cap B)$ basta observar que, sendo o primeiro lançamento cara, nos resta escolher 6 possíveis caras dentre 9 lançamentos restantes. Se $X\sim \text{Bin(4/10,9)}$ é a variável responsável pelos 9 lançamentos da moeda 1 e $Y\sim \text{Bin(7/10,9)}$ a variável responsável pelos 9 lançamentos da moeda 2, temos que $$\mathcal{P}(A\cap B)=\frac{1}{2}\mathcal{P}(X=6)+\frac{1}{2}\mathcal{P}(Y=6) = \frac{1}{2}\binom{9}{6}(0,4)^6(0,6)^3+\frac{1}{2}\binom{9}{6}(0,7)^6(0,3)^3.$$ Agora, para calcular $\mathcal{P}(B)$, basta representarmos o primeiro lançamento da moeda 1 por $W\sim \text{Ber(0,4)}$ e o primeiro lançamento da moeda 2 por $Z\sim \text{Ber(0,7)}$ e $$\mathcal{P}(B)=\frac{1}{2}\mathcal{P}(W=1)+\frac{1}{2}\mathcal{P}(Z=1)=\frac{1}{2}(0,4)+\frac{1}{2}(0,7).$$
+\end{itemize}
+
+\item Se $A$ representa o evento em que uma pessoa tem 2 resfriados no ano e $B$ representa o evento em que a droga é benéfica, a probabilidade que procuramos é $$\mathcal{P}(B|A)=\frac{\mathcal{P}(A|B)\mathcal{P}(B)}{\mathcal{P}(A|B)\mathcal{P}(B)+\mathcal{P}(A|B^c)\mathcal{P}(B^c)}.$$ Sejam $X\sim \text{Pois(5)}$ e $Y\sim\text{Pois(3)}$, então 
+\begin{eqnarray*}
+\frac{\mathcal{P}(A|B)\mathcal{P}(B)}{\mathcal{P}(A|B)\mathcal{P}(B)+\mathcal{P}(A|B^c)\mathcal{P}(B^c)}&=& \frac{\mathcal{P}(Y=2)(0,75)}{\mathcal{P}(Y=2)(0,75)+\mathcal{P}(X=2)(0,25)}\\
+&=& \frac{\frac{3^2}{2!}e^{-3}(0,75)}{\frac{3^2}{2!}e^{-3}(0,75)+\frac{5^2}{2!}e^{-5}(0,25)}.
+\end{eqnarray*}
+
+\item Do enunciado temos que $Y \sim \text{Pois}(2)$.
+\begin{itemize}
+\item[a)] $\P (Y < 2) = \P(Y=0)+\P(Y=1) = \frac{2^0}{0!}e^{-2}+\frac{2^1}{1!}e^{-2} \approx 0,4060.$
+\item[b)] $\P (2\leqslant Y < 4) = \P(Y=2)+\P(Y=3) = \frac{2^2}{2!}e^{-2}+\frac{2^3}{3!}e^{-2} \approx 0,4511.$
+\item[c)] $\P (Y > 0) = 1-\P(Y=0) = 1-e^{-2}\approx 0,1353.$
+\item[d)] $\P (Y = 1|Y < 3) = \frac{\P(\{Y=1\}\cap \{Y<3\})}{\P(Y<3)} = \frac{\P(Y=1)}{\P(Y<3)} = \frac{2e^{-2}}{3e^{-2}+\frac{4}{3}e^{-2}}=0,4$.
+\end{itemize}
+
+\item Seja $X$ a variável correspondente ao número de defeitos. Do enunciado temos que $X \sim \text{Pois}(1)$.
+\begin{itemize}
+\item[a)] $\P (X\geqslant 1) \approx 0,6321.$
+\item[b)] $\P (X\leqslant 2) \approx 0,9197.$
+\item[c)] $\P (2\leqslant X \leqslant 4) \approx 0,2606.$
+\item[d)] $\P (X\leqslant 1) \approx 0.7358.$
+\end{itemize}
+
+\item Do enunciado temos que $X \sim \text{Pois}(2)$.
+\begin{itemize}
+\item[a)] $\P (X>3) \approx 0,1429.$
+\item[b)] Queremos encontrar $k$ tal que $\P (X\leqslant k) \geqslant 0,90$. Por tentativa e erro encontramos $k=4$. Concluímos que as instalações deveriam atender no máximo quatro petroleiros por dia.
+\item[c)] $\P (X =5) \approx 0,0361.$
+\item[d)] Caso $X\geqslant 3$ atende-se apenas três petroleiros, desse modo temos $$\E (X) = 0\P(X=0)+1\P(X=1)+2\P(X=2)+3\P(X\geqslant3) \approx 1,7819.$$
+\end{itemize}
+
+\item Do enunciado temo que $X \sim \text{Pois}(10)$. Desse modo,
+\begin{eqnarray*}
+\P(X=k) &=& \P(X=k+1) \iff\\
+\frac{10^k}{k!}e^{-10} &=& \frac{10^{k+1}}{(k+1)!}e^{-10} \iff\\
+\frac{(k+1)!}{k!} &=& \frac{10^{k+1}}{10^k} \iff\\
+k+1 &=& 10 \iff\\
+k=9.
+\end{eqnarray*}
+
+\item Seja $X$ a variável correspondente ao número de itens defeituosos, desse modo sabemos que $X\sim \text{Bin}(10 ; 0,2)$. A probabilidade de que tenhamos no máximo um item defeituoso é $$\P(X\leqslant 1) = \binom{10}{0}0,2^0\times0,8^{10}+\binom{10}{1}0,2^1\times0,8^9 \approx 0,3758.$$ Podemos, também, aproximar esta probabilidade por meio de uma Poisson de parâmetro $\lambda = 10\times0,2 = 2.$ Segue que $$\P(X\leqslant 1) = \frac{2^0}{0!}e^{-2}+\frac{2^1}{1!}e^{-2} \approx 0,4060.$$
+
+\item Seja $X$ a variável referente ao o número de chamadas que chegam por minuto. Segue que $X\sim \text{Pois}(8)$.
+\begin{itemize}
+\item[a)] $\P (X\geqslant 10) \approx 0,2834.$
+\item[b)] $\P (X< 9) \approx 0,5926.$
+\item[c)] $\P (7\leqslant X < 9) \approx 0,2792.$
+\end{itemize}
+
+\item Primeiramente seja $X\sim\text{Pois(3)}$.
+\begin{itemize}
+\item[a)] A probabilidade desejada é 
+\begin{eqnarray*}
+\mathcal{P}(X\geqslant 3) &=& 1-\mathcal{P}(X<3)\\
+&=& 1-\{\mathcal{P}(X=0)+\mathcal{P}(X=1)+\mathcal{P}(X=2)\}\\
+&=& 1-e^{-3}-3e^{-3}-\frac{3^2}{2}e^{-3}\\
+&=& 1-\frac{17}{2}e^{-3}.
+\end{eqnarray*}
+\item[b)] A probabilidade condicional é 
+$$\mathcal{P}(X\geqslant 3 | X\geqslant 1) = \frac{\mathcal{P}(\{X\geqslant 3\}\cap\{X\geqslant 1\})}{\mathcal{P}(X\geqslant 1)} = \frac{\mathcal{P}(X\geqslant 3)}{\mathcal{P}(X\geqslant 1)}=\frac{1-\frac{17}{2}e^{-3}}{1-e^{-3}}.$$
+\end{itemize}
+
+\vspace{0.3cm}
+
+\item Usando as propriedades de esperança e variância temos
+\begin{eqnarray*}
+\mathcal{E}(Y)&=& \mathcal{E}\left(\frac{X-\mu}{\sigma}\right)=\frac{1}{\sigma}\mathcal{E}(X-\mu)\\
+&=& \frac{1}{\sigma}\left\{\mathcal{E}(X)-\mu \right\} = \frac{1}{\sigma}(\mu-\mu) \\
+&=& 0.
+\end{eqnarray*}
+e
+\begin{eqnarray*}
+\text{Var}(Y) &=& \text{Var}\left(\frac{X-\mu}{\sigma}\right) = \frac{1}{\sigma^2}\text{Var}(X-\mu)\\
+&=& \frac{1}{\sigma^2}\text{Var}(X) = \frac{1}{\sigma^2}\sigma^2\\
+&=& 1.
+\end{eqnarray*}
+
+\noindent Podemos lembrar da {\bf Questão 9} da {\bf $\text{1}^{\text{\underline{a}}}$ Lista} que os dados, quando padronizados, tem média zero e variância 1. Como era de se esperar, a média de uma variável aleatória padronizada é zero e a sua variância é 1.
+
+
+\item A probabilidade desejada é
+\begin{eqnarray*}
+\mathcal{P}(X = n+k | X>n) &=& \frac{\mathcal{P}(\{X=n+k\}\cap\{X>n\})}{\mathcal{P}(X>n)}\\
+&=&\frac{\mathcal{P}(X=n+k)}{\mathcal{P}(X>n)}\\
+&=&\frac{p(1-p)^{n+k-1}}{(1-p)^n}\\
+&=& p(1-p)^{k-1}.
+\end{eqnarray*}
+
+
+\noindent Se os primeiros $n$ ensaios falham, então é como se estivéssemos recomeçando o experimento a partir do $n$-ésimo ensaio.
+
+
+\end{enumerate}
+\end{document}

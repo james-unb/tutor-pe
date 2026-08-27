@@ -1,0 +1,602 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{\beta^\alpha}{(\alpha-1)!}x^{\alpha-1}(\alpha-1) \exp(-\beta x)\),
+  \(\beta \geq 0\) e parâmetro conhecido \(\alpha=3\). Considere
+  \[9 \ \ \ 8 \ \ \ 9 \ \ \ 8 \ \ \ 10\] uma amostra observada de \(X\).
+  Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.57\)
+  \item
+    \(0.02\)
+  \item
+    \(44.00\)
+  \item
+    \(0.34\)
+  \item
+    \(0.85\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\beta)=\frac{\beta^n\alpha}{[\Gamma(\alpha)]^n}\left(\prod_{i=1}^{n}(x_i)\right)^{\alpha-1}(\alpha-1)^n \exp(-\beta\sum_{i=1}^{n}x_i).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= \alpha n \ln(\beta)-n\ln(\Gamma(\alpha))+(\alpha-1)\sum_{i=1}^{n}\ln(x_i)+n\ln(\alpha-1)-\beta\sum_{i=1}^{n}x_i.
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n\alpha}{\sum_{i=1}^{n} x_i}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{-n\alpha}{\beta^2}<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n\alpha}{\sum_{i=1}^{n} x_i}.
+  \end{aligned}\]
+
+  Tomando a amostra \((9, 8, 9, 8, 10)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=0.341\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{\beta^\alpha}{(\alpha-1)!}x^{\alpha-1}(\alpha-1) \exp(-\beta x)\),
+  \(\beta \geq 0\) e parâmetro conhecido \(\alpha=4\). Considere
+  \[9 \ \ \ 9 \ \ \ 8 \ \ \ 8 \ \ \ 8\] uma amostra observada de \(X\).
+  Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(42.00\)
+  \item
+    \(0.48\)
+  \item
+    \(0.02\)
+  \item
+    \(0.51\)
+  \item
+    \(0.72\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\beta)=\frac{\beta^n\alpha}{[\Gamma(\alpha)]^n}\left(\prod_{i=1}^{n}(x_i)\right)^{\alpha-1}(\alpha-1)^n \exp(-\beta\sum_{i=1}^{n}x_i).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= \alpha n \ln(\beta)-n\ln(\Gamma(\alpha))+(\alpha-1)\sum_{i=1}^{n}\ln(x_i)+n\ln(\alpha-1)-\beta\sum_{i=1}^{n}x_i.
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n\alpha}{\sum_{i=1}^{n} x_i}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{-n\alpha}{\beta^2}<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n\alpha}{\sum_{i=1}^{n} x_i}.
+  \end{aligned}\]
+
+  Tomando a amostra \((9, 9, 8, 8, 8)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=0.476\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{\beta^\alpha}{(\alpha-1)!}x^{\alpha-1}(\alpha-1) \exp(-\beta x)\),
+  \(\beta \geq 0\) e parâmetro conhecido \(\alpha=4\). Considere
+  \[7 \ \ \ 7 \ \ \ 7 \ \ \ 9 \ \ \ 9\] uma amostra observada de \(X\).
+  Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(39.00\)
+  \item
+    \(0.84\)
+  \item
+    \(0.03\)
+  \item
+    \(0.85\)
+  \item
+    \(0.51\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\beta)=\frac{\beta^n\alpha}{[\Gamma(\alpha)]^n}\left(\prod_{i=1}^{n}(x_i)\right)^{\alpha-1}(\alpha-1)^n \exp(-\beta\sum_{i=1}^{n}x_i).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= \alpha n \ln(\beta)-n\ln(\Gamma(\alpha))+(\alpha-1)\sum_{i=1}^{n}\ln(x_i)+n\ln(\alpha-1)-\beta\sum_{i=1}^{n}x_i.
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n\alpha}{\sum_{i=1}^{n} x_i}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{-n\alpha}{\beta^2}<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n\alpha}{\sum_{i=1}^{n} x_i}.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 7, 7, 9, 9)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=0.513\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{\beta^\alpha}{(\alpha-1)!}x^{\alpha-1}(\alpha-1) \exp(-\beta x)\),
+  \(\beta \geq 0\) e parâmetro conhecido \(\alpha=4\). Considere
+  \[10 \ \ \ 7 \ \ \ 8 \ \ \ 8 \ \ \ 9\] uma amostra observada de \(X\).
+  Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.86\)
+  \item
+    \(0.02\)
+  \item
+    \(42.00\)
+  \item
+    \(0.87\)
+  \item
+    \(0.48\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\beta)=\frac{\beta^n\alpha}{[\Gamma(\alpha)]^n}\left(\prod_{i=1}^{n}(x_i)\right)^{\alpha-1}(\alpha-1)^n \exp(-\beta\sum_{i=1}^{n}x_i).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= \alpha n \ln(\beta)-n\ln(\Gamma(\alpha))+(\alpha-1)\sum_{i=1}^{n}\ln(x_i)+n\ln(\alpha-1)-\beta\sum_{i=1}^{n}x_i.
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n\alpha}{\sum_{i=1}^{n} x_i}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{-n\alpha}{\beta^2}<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n\alpha}{\sum_{i=1}^{n} x_i}.
+  \end{aligned}\]
+
+  Tomando a amostra \((10, 7, 8, 8, 9)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=0.476\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{\beta^\alpha}{(\alpha-1)!}x^{\alpha-1}(\alpha-1) \exp(-\beta x)\),
+  \(\beta \geq 0\) e parâmetro conhecido \(\alpha=5\). Considere
+  \[9 \ \ \ 7 \ \ \ 6 \ \ \ 8 \ \ \ 8\] uma amostra observada de \(X\).
+  Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.51\)
+  \item
+    \(0.33\)
+  \item
+    \(0.03\)
+  \item
+    \(0.66\)
+  \item
+    \(38.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\beta)=\frac{\beta^n\alpha}{[\Gamma(\alpha)]^n}\left(\prod_{i=1}^{n}(x_i)\right)^{\alpha-1}(\alpha-1)^n \exp(-\beta\sum_{i=1}^{n}x_i).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= \alpha n \ln(\beta)-n\ln(\Gamma(\alpha))+(\alpha-1)\sum_{i=1}^{n}\ln(x_i)+n\ln(\alpha-1)-\beta\sum_{i=1}^{n}x_i.
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n\alpha}{\sum_{i=1}^{n} x_i}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{-n\alpha}{\beta^2}<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n\alpha}{\sum_{i=1}^{n} x_i}.
+  \end{aligned}\]
+
+  Tomando a amostra \((9, 7, 6, 8, 8)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=0.658\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{\beta^\alpha}{(\alpha-1)!}x^{\alpha-1}(\alpha-1) \exp(-\beta x)\),
+  \(\beta \geq 0\) e parâmetro conhecido \(\alpha=5\). Considere
+  \[7 \ \ \ 8 \ \ \ 7 \ \ \ 10 \ \ \ 6\] uma amostra observada de \(X\).
+  Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.20\)
+  \item
+    \(0.66\)
+  \item
+    \(0.55\)
+  \item
+    \(0.03\)
+  \item
+    \(38.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\beta)=\frac{\beta^n\alpha}{[\Gamma(\alpha)]^n}\left(\prod_{i=1}^{n}(x_i)\right)^{\alpha-1}(\alpha-1)^n \exp(-\beta\sum_{i=1}^{n}x_i).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= \alpha n \ln(\beta)-n\ln(\Gamma(\alpha))+(\alpha-1)\sum_{i=1}^{n}\ln(x_i)+n\ln(\alpha-1)-\beta\sum_{i=1}^{n}x_i.
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n\alpha}{\sum_{i=1}^{n} x_i}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{-n\alpha}{\beta^2}<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n\alpha}{\sum_{i=1}^{n} x_i}.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 8, 7, 10, 6)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=0.658\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{\beta^\alpha}{(\alpha-1)!}x^{\alpha-1}(\alpha-1) \exp(-\beta x)\),
+  \(\beta \geq 0\) e parâmetro conhecido \(\alpha=4\). Considere
+  \[10 \ \ \ 9 \ \ \ 9 \ \ \ 8 \ \ \ 6\] uma amostra observada de \(X\).
+  Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.66\)
+  \item
+    \(0.06\)
+  \item
+    \(42.00\)
+  \item
+    \(0.48\)
+  \item
+    \(0.02\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\beta)=\frac{\beta^n\alpha}{[\Gamma(\alpha)]^n}\left(\prod_{i=1}^{n}(x_i)\right)^{\alpha-1}(\alpha-1)^n \exp(-\beta\sum_{i=1}^{n}x_i).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= \alpha n \ln(\beta)-n\ln(\Gamma(\alpha))+(\alpha-1)\sum_{i=1}^{n}\ln(x_i)+n\ln(\alpha-1)-\beta\sum_{i=1}^{n}x_i.
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n\alpha}{\sum_{i=1}^{n} x_i}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{-n\alpha}{\beta^2}<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n\alpha}{\sum_{i=1}^{n} x_i}.
+  \end{aligned}\]
+
+  Tomando a amostra \((10, 9, 9, 8, 6)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=0.476\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{\beta^\alpha}{(\alpha-1)!}x^{\alpha-1}(\alpha-1) \exp(-\beta x)\),
+  \(\beta \geq 0\) e parâmetro conhecido \(\alpha=4\). Considere
+  \[7 \ \ \ 9 \ \ \ 7 \ \ \ 7 \ \ \ 8\] uma amostra observada de \(X\).
+  Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.03\)
+  \item
+    \(0.67\)
+  \item
+    \(38.00\)
+  \item
+    \(0.92\)
+  \item
+    \(0.53\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\beta)=\frac{\beta^n\alpha}{[\Gamma(\alpha)]^n}\left(\prod_{i=1}^{n}(x_i)\right)^{\alpha-1}(\alpha-1)^n \exp(-\beta\sum_{i=1}^{n}x_i).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= \alpha n \ln(\beta)-n\ln(\Gamma(\alpha))+(\alpha-1)\sum_{i=1}^{n}\ln(x_i)+n\ln(\alpha-1)-\beta\sum_{i=1}^{n}x_i.
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n\alpha}{\sum_{i=1}^{n} x_i}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{-n\alpha}{\beta^2}<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n\alpha}{\sum_{i=1}^{n} x_i}.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 9, 7, 7, 8)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=0.526\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{\beta^\alpha}{(\alpha-1)!}x^{\alpha-1}(\alpha-1) \exp(-\beta x)\),
+  \(\beta \geq 0\) e parâmetro conhecido \(\alpha=4\). Considere
+  \[9 \ \ \ 7 \ \ \ 6 \ \ \ 7 \ \ \ 6\] uma amostra observada de \(X\).
+  Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.57\)
+  \item
+    \(1.00\)
+  \item
+    \(0.03\)
+  \item
+    \(0.98\)
+  \item
+    \(35.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\beta)=\frac{\beta^n\alpha}{[\Gamma(\alpha)]^n}\left(\prod_{i=1}^{n}(x_i)\right)^{\alpha-1}(\alpha-1)^n \exp(-\beta\sum_{i=1}^{n}x_i).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= \alpha n \ln(\beta)-n\ln(\Gamma(\alpha))+(\alpha-1)\sum_{i=1}^{n}\ln(x_i)+n\ln(\alpha-1)-\beta\sum_{i=1}^{n}x_i.
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n\alpha}{\sum_{i=1}^{n} x_i}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{-n\alpha}{\beta^2}<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n\alpha}{\sum_{i=1}^{n} x_i}.
+  \end{aligned}\]
+
+  Tomando a amostra \((9, 7, 6, 7, 6)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=0.571\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{\beta^\alpha}{(\alpha-1)!}x^{\alpha-1}(\alpha-1) \exp(-\beta x)\),
+  \(\beta \geq 0\) e parâmetro conhecido \(\alpha=4\). Considere
+  \[6 \ \ \ 8 \ \ \ 7 \ \ \ 7 \ \ \ 7\] uma amostra observada de \(X\).
+  Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\beta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.57\)
+  \item
+    \(0.16\)
+  \item
+    \(0.03\)
+  \item
+    \(35.00\)
+  \item
+    \(0.20\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\beta)=\frac{\beta^n\alpha}{[\Gamma(\alpha)]^n}\left(\prod_{i=1}^{n}(x_i)\right)^{\alpha-1}(\alpha-1)^n \exp(-\beta\sum_{i=1}^{n}x_i).
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\beta)= \alpha n \ln(\beta)-n\ln(\Gamma(\alpha))+(\alpha-1)\sum_{i=1}^{n}\ln(x_i)+n\ln(\alpha-1)-\beta\sum_{i=1}^{n}x_i.
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\beta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \beta=\frac{n\alpha}{\sum_{i=1}^{n} x_i}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{-n\alpha}{\beta^2}<0\), concluimos que o EMV de \(\beta\) é
+  \[\begin{aligned}
+  \hat{\beta}=\frac{n\alpha}{\sum_{i=1}^{n} x_i}.
+  \end{aligned}\]
+
+  Tomando a amostra \((6, 8, 7, 7, 7)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\beta}=0.571\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

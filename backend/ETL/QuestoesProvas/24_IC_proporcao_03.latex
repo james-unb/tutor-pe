@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de \(2071\) estudantes de uma universidade mostrou que
+  \(1505\) deles consideram que os pais fazem pressão excessiva sobre
+  seus filhos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para proporçãoo real de
+  estudantes universitários que tem a mesma opinião com confiança de
+  \(95\)\%. Aproxime a proporção amostral com três casas de precisão.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.717, 0.737]\)
+  \item
+    \([0.727, 0.727]\)
+  \item
+    \([0.714, 0.740]\)
+  \item
+    \([0.708, 0.746]\)
+  \item
+    \([0.698, 0.756]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.727-1.96\times\sqrt{\frac{0.198}{2071}} \ , \ 0.727+1.96\times\sqrt{\frac{0.198}{2071}}\right]\\
+  &=&\text{$[0.708, 0.746]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de \(2033\) estudantes de uma universidade mostrou que
+  \(1090\) deles consideram que os pais fazem pressão excessiva sobre
+  seus filhos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para proporçãoo real de
+  estudantes universitários que tem a mesma opinião com confiança de
+  \(80\)\%. Aproxime a proporção amostral com três casas de precisão.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.536, 0.536]\)
+  \item
+    \([0.526, 0.546]\)
+  \item
+    \([0.522, 0.550]\)
+  \item
+    \([0.515, 0.557]\)
+  \item
+    \([0.529, 0.543]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.536-1.28\times\sqrt{\frac{0.249}{2033}} \ , \ 0.536+1.28\times\sqrt{\frac{0.249}{2033}}\right]\\
+  &=&\text{$[0.522, 0.550]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de \(2038\) estudantes de uma universidade mostrou que
+  \(1029\) deles consideram que os pais fazem pressão excessiva sobre
+  seus filhos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para proporçãoo real de
+  estudantes universitários que tem a mesma opinião com confiança de
+  \(90\)\%. Aproxime a proporção amostral com três casas de precisão.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.496, 0.514]\)
+  \item
+    \([0.492, 0.518]\)
+  \item
+    \([0.505, 0.505]\)
+  \item
+    \([0.487, 0.523]\)
+  \item
+    \([0.478, 0.532]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.505-1.64\times\sqrt{\frac{0.25}{2038}} \ , \ 0.505+1.64\times\sqrt{\frac{0.25}{2038}}\right]\\
+  &=&\text{$[0.487, 0.523]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de \(2188\) estudantes de uma universidade mostrou que
+  \(1213\) deles consideram que os pais fazem pressão excessiva sobre
+  seus filhos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para proporçãoo real de
+  estudantes universitários que tem a mesma opinião com confiança de
+  \(95\)\%. Aproxime a proporção amostral com três casas de precisão.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.533, 0.575]\)
+  \item
+    \([0.539, 0.569]\)
+  \item
+    \([0.544, 0.564]\)
+  \item
+    \([0.523, 0.585]\)
+  \item
+    \([0.554, 0.554]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.554-1.96\times\sqrt{\frac{0.247}{2188}} \ , \ 0.554+1.96\times\sqrt{\frac{0.247}{2188}}\right]\\
+  &=&\text{$[0.533, 0.575]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de \(2182\) estudantes de uma universidade mostrou que
+  \(1543\) deles consideram que os pais fazem pressão excessiva sobre
+  seus filhos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para proporçãoo real de
+  estudantes universitários que tem a mesma opinião com confiança de
+  \(99\)\%. Aproxime a proporção amostral com três casas de precisão.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.669, 0.745]\)
+  \item
+    \([0.689, 0.725]\)
+  \item
+    \([0.682, 0.732]\)
+  \item
+    \([0.707, 0.707]\)
+  \item
+    \([0.694, 0.720]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.707-2.58\times\sqrt{\frac{0.207}{2182}} \ , \ 0.707+2.58\times\sqrt{\frac{0.207}{2182}}\right]\\
+  &=&\text{$[0.682, 0.732]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de \(2097\) estudantes de uma universidade mostrou que
+  \(1642\) deles consideram que os pais fazem pressão excessiva sobre
+  seus filhos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para proporçãoo real de
+  estudantes universitários que tem a mesma opinião com confiança de
+  \(90\)\%. Aproxime a proporção amostral com três casas de precisão.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.768, 0.798]\)
+  \item
+    \([0.776, 0.790]\)
+  \item
+    \([0.783, 0.783]\)
+  \item
+    \([0.773, 0.793]\)
+  \item
+    \([0.761, 0.805]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.783-1.64\times\sqrt{\frac{0.17}{2097}} \ , \ 0.783+1.64\times\sqrt{\frac{0.17}{2097}}\right]\\
+  &=&\text{$[0.768, 0.798]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de \(2016\) estudantes de uma universidade mostrou que
+  \(1565\) deles consideram que os pais fazem pressão excessiva sobre
+  seus filhos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para proporçãoo real de
+  estudantes universitários que tem a mesma opinião com confiança de
+  \(95\)\%. Aproxime a proporção amostral com três casas de precisão.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.776, 0.776]\)
+  \item
+    \([0.763, 0.789]\)
+  \item
+    \([0.767, 0.785]\)
+  \item
+    \([0.749, 0.803]\)
+  \item
+    \([0.758, 0.794]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.776-1.96\times\sqrt{\frac{0.174}{2016}} \ , \ 0.776+1.96\times\sqrt{\frac{0.174}{2016}}\right]\\
+  &=&\text{$[0.758, 0.794]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de \(2123\) estudantes de uma universidade mostrou que
+  \(1048\) deles consideram que os pais fazem pressão excessiva sobre
+  seus filhos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para proporçãoo real de
+  estudantes universitários que tem a mesma opinião com confiança de
+  \(99\)\%. Aproxime a proporção amostral com três casas de precisão.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.474, 0.514]\)
+  \item
+    \([0.466, 0.522]\)
+  \item
+    \([0.480, 0.508]\)
+  \item
+    \([0.452, 0.536]\)
+  \item
+    \([0.494, 0.494]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.494-2.58\times\sqrt{\frac{0.25}{2123}} \ , \ 0.494+2.58\times\sqrt{\frac{0.25}{2123}}\right]\\
+  &=&\text{$[0.466, 0.522]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de \(2133\) estudantes de uma universidade mostrou que
+  \(1595\) deles consideram que os pais fazem pressão excessiva sobre
+  seus filhos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para proporçãoo real de
+  estudantes universitários que tem a mesma opinião com confiança de
+  \(90\)\%. Aproxime a proporção amostral com três casas de precisão.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.737, 0.759]\)
+  \item
+    \([0.740, 0.756]\)
+  \item
+    \([0.725, 0.771]\)
+  \item
+    \([0.748, 0.748]\)
+  \item
+    \([0.733, 0.763]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.748-1.64\times\sqrt{\frac{0.188}{2133}} \ , \ 0.748+1.64\times\sqrt{\frac{0.188}{2133}}\right]\\
+  &=&\text{$[0.733, 0.763]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra de \(2190\) estudantes de uma universidade mostrou que
+  \(904\) deles consideram que os pais fazem pressão excessiva sobre
+  seus filhos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para proporçãoo real de
+  estudantes universitários que tem a mesma opinião com confiança de
+  \(80\)\%. Aproxime a proporção amostral com três casas de precisão.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.413, 0.413]\)
+  \item
+    \([0.406, 0.420]\)
+  \item
+    \([0.404, 0.422]\)
+  \item
+    \([0.400, 0.426]\)
+  \item
+    \([0.393, 0.433]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.413-1.28\times\sqrt{\frac{0.242}{2190}} \ , \ 0.413+1.28\times\sqrt{\frac{0.242}{2190}}\right]\\
+  &=&\text{$[0.400, 0.426]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

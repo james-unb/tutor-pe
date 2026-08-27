@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(22\) e variância \(2\). Qual o valor de \(E(X-1)^2\) ?̇
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(463\)
+  \item
+    \(443\)
+  \item
+    \(483\)
+  \item
+    \(-503\)
+  \item
+    \(441\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(22,2)\) e
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 486.\] A
+  partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-1\right)^2 &=& E\left(X^2-2X+1^2\right)\\
+  &=& E\left(X^2\right)-2E(X)+1^2\\
+  &=& 486-(44) +1\\
+  &=& 443
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(-22\) e variância \(72\). Qual o valor de \(E(X-1)^2\) ?̇
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(529\)
+  \item
+    \(483\)
+  \item
+    \(601\)
+  \item
+    \(-389\)
+  \item
+    \(507\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(-22,72)\) e
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 556.\] A
+  partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-1\right)^2 &=& E\left(X^2-2X+1^2\right)\\
+  &=& E\left(X^2\right)-2E(X)+1^2\\
+  &=& 556-(-44) +1\\
+  &=& 601
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(80\) e variância \(56\). Qual o valor de \(E(X-14)^2\) ?̇
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-7268\)
+  \item
+    \(4412\)
+  \item
+    \(4356\)
+  \item
+    \(6204\)
+  \item
+    \(5476\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(80,56)\) e
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 6456.\] A
+  partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-14\right)^2 &=& E\left(X^2-28X+14^2\right)\\
+  &=& E\left(X^2\right)-28E(X)+14^2\\
+  &=& 6456-(2240) +196\\
+  &=& 4412
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(28\) e variância \(19\). Qual o valor de \(E(X-3)^2\) ?̇
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(625\)
+  \item
+    \(644\)
+  \item
+    \(-840\)
+  \item
+    \(709\)
+  \item
+    \(775\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(28,19)\) e
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 803.\] A
+  partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-3\right)^2 &=& E\left(X^2-6X+3^2\right)\\
+  &=& E\left(X^2\right)-6E(X)+3^2\\
+  &=& 803-(168) +9\\
+  &=& 644
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(-22\) e variância \(46\). Qual o valor de \(E(X-9)^2\) ?̇
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-159\)
+  \item
+    \(403\)
+  \item
+    \(961\)
+  \item
+    \(763\)
+  \item
+    \(1007\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(-22,46)\) e
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 530.\] A
+  partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-9\right)^2 &=& E\left(X^2-18X+9^2\right)\\
+  &=& E\left(X^2\right)-18E(X)+9^2\\
+  &=& 530-(-396) +81\\
+  &=& 1007
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(-82\) e variância \(22\). Qual o valor de \(E(X-23)^2\) ?̇
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6195\)
+  \item
+    \(11025\)
+  \item
+    \(-4287\)
+  \item
+    \(9139\)
+  \item
+    \(11047\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(-82,22)\) e
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 6746.\] A
+  partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-23\right)^2 &=& E\left(X^2-46X+23^2\right)\\
+  &=& E\left(X^2\right)-46E(X)+23^2\\
+  &=& 6746-(-3772) +529\\
+  &=& 11047
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(-15\) e variância \(59\). Qual o valor de \(E(X-7)^2\) ?̇
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(543\)
+  \item
+    \(176\)
+  \item
+    \(379\)
+  \item
+    \(-12\)
+  \item
+    \(484\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(-15,59)\) e
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 284.\] A
+  partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-7\right)^2 &=& E\left(X^2-14X+7^2\right)\\
+  &=& E\left(X^2\right)-14E(X)+7^2\\
+  &=& 284-(-210) +49\\
+  &=& 543
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(-10\) e variância \(77\). Qual o valor de \(E(X-2)^2\) ?̇
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(124\)
+  \item
+    \(1\)
+  \item
+    \(144\)
+  \item
+    \(221\)
+  \item
+    \(96\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(-10,77)\) e
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 177.\] A
+  partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-2\right)^2 &=& E\left(X^2-4X+2^2\right)\\
+  &=& E\left(X^2\right)-4E(X)+2^2\\
+  &=& 177-(-40) +4\\
+  &=& 221
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(-47\) e variância \(72\). Qual o valor de \(E(X-14)^2\) ?̇
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2013\)
+  \item
+    \(3063\)
+  \item
+    \(-1283\)
+  \item
+    \(3721\)
+  \item
+    \(3793\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(-47,72)\) e
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 2281.\] A
+  partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-14\right)^2 &=& E\left(X^2-28X+14^2\right)\\
+  &=& E\left(X^2\right)-28E(X)+14^2\\
+  &=& 2281-(-1316) +196\\
+  &=& 3793
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(-16\) e variância \(25\). Qual o valor de \(E(X-23)^2\) ?̇
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1546\)
+  \item
+    \(666\)
+  \item
+    \(-273\)
+  \item
+    \(1153\)
+  \item
+    \(1521\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(-16,25)\) e
+  \(\text{Var}(X) = E\left(X^2\right)-\left[E(X)\right]^2\), nós temos
+  que \[E\left(X^2\right)= \text{Var}(X)+\left[E(X)\right]^2 = 281.\] A
+  partir do resultado acima segue que
+
+  \[\begin{aligned}
+  E\left(X-23\right)^2 &=& E\left(X^2-46X+23^2\right)\\
+  &=& E\left(X^2\right)-46E(X)+23^2\\
+  &=& 281-(-736) +529\\
+  &=& 1546
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

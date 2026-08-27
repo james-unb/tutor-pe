@@ -1,0 +1,812 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Para melhor atender a demanda de pacientes no país, foram levantados
+  dados relacionados a quantidade de leitos nos hospitais de cada
+  região. Seja \(A\) a variável referente ao número de hospitais e \(B\)
+  o total de leitos nos hospitais, com base na tabela da distribuição
+  conjunta de X e Y apresentada abaixo, determine
+  \(\mathbb{P}(B > 150 | A = 2)\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(B \setminus A\) & \(1\) & \(2\) & \(3\) & \(4\) & \(5\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(50\) & 0.025 & 0.009 & 0.086 & 0.014 & 0.058 \\
+  \(100\) & 0.013 & 0.008 & 0.013 & 0.056 & 0.015 \\
+  \(150\) & 0.029 & 0.127 & 0.027 & 0.084 & 0.003 \\
+  \(200\) & 0.023 & 0.071 & 0.07 & 0.039 & 0.066 \\
+  \(250\) & 0.002 & 0.046 & 0.015 & 0.009 & 0.093 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.244\)
+  \item
+    \(0.487\)
+  \item
+    \(0.448\)
+  \item
+    \(0.330\)
+  \item
+    \(0.935\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(A\) e
+  \(B\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 3 & 4 & 5 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(A = k) & 0.092 & 0.261 & 0.211 & 0.202 & 0.235 \\
+  \end{longtable}
+
+  e
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 50 & 100 & 150 & 200 & 250 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(B = k) & 0.192 & 0.105 & 0.27 & 0.269 & 0.165 \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(B > 150 |A = 2) = 
+  \frac{\mathbb{P}(B > 150 |A = 2)}{P(A = 2)}=
+  \frac{\sum_{B>150}  p(B,2)}{\mathbb{P}(A = 2)} =
+  \frac{0.117}{0.261} = 0.448.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para melhor atender a demanda de pacientes no país, foram levantados
+  dados relacionados a quantidade de leitos nos hospitais de cada
+  região. Seja \(A\) a variável referente ao número de hospitais e \(B\)
+  o total de leitos nos hospitais, com base na tabela da distribuição
+  conjunta de X e Y apresentada abaixo, determine
+  \(\mathbb{P}(B > 100 | A = 5)\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(B \setminus A\) & \(1\) & \(2\) & \(3\) & \(4\) & \(5\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(50\) & 0.005 & 0.089 & 0.079 & 0.075 & 0.016 \\
+  \(100\) & 0.079 & 0.006 & 0.007 & 0.012 & 0.03 \\
+  \(150\) & 0.004 & 0.033 & 0.083 & 0.011 & 0.009 \\
+  \(200\) & 0.002 & 0.001 & 0.006 & 0.092 & 0.03 \\
+  \(250\) & 0.234 & 0.03 & 0.031 & 0.021 & 0.015 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.540\)
+  \item
+    \(0.093\)
+  \item
+    \(0.084\)
+  \item
+    \(0.840\)
+  \item
+    \(0.300\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(A\) e
+  \(B\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 3 & 4 & 5 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(A = k) & 0.324 & 0.159 & 0.206 & 0.211 & 0.1 \\
+  \end{longtable}
+
+  e
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 50 & 100 & 150 & 200 & 250 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(B = k) & 0.264 & 0.134 & 0.14 & 0.131 & 0.331 \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(B > 100 |A = 5) = 
+  \frac{\mathbb{P}(B > 100 |A = 5)}{P(A = 5)}=
+  \frac{\sum_{B>100}  p(B,5)}{\mathbb{P}(A = 5)} =
+  \frac{0.054}{0.1} = 0.540.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para melhor atender a demanda de pacientes no país, foram levantados
+  dados relacionados a quantidade de leitos nos hospitais de cada
+  região. Seja \(A\) a variável referente ao número de hospitais e \(B\)
+  o total de leitos nos hospitais, com base na tabela da distribuição
+  conjunta de X e Y apresentada abaixo, determine
+  \(\mathbb{P}(B > 100 | A = 2)\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(B \setminus A\) & \(1\) & \(2\) & \(3\) & \(4\) & \(5\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(50\) & 0.03 & 0.046 & 0.064 & 0.046 & 0.157 \\
+  \(100\) & 0.053 & 0.028 & 0.024 & 0.024 & 0.009 \\
+  \(150\) & 0.007 & 0.041 & 0.069 & 0.05 & 0.078 \\
+  \(200\) & 0.025 & 0.041 & 0.004 & 0.002 & 0.021 \\
+  \(250\) & 0.029 & 0.011 & 0.038 & 0.056 & 0.048 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.121\)
+  \item
+    \(0.557\)
+  \item
+    \(0.725\)
+  \item
+    \(0.145\)
+  \item
+    \(0.168\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(A\) e
+  \(B\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 3 & 4 & 5 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(A = k) & 0.144 & 0.167 & 0.199 & 0.178 & 0.313 \\
+  \end{longtable}
+
+  e
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 50 & 100 & 150 & 200 & 250 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(B = k) & 0.343 & 0.138 & 0.245 & 0.093 & 0.182 \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(B > 100 |A = 2) = 
+  \frac{\mathbb{P}(B > 100 |A = 2)}{P(A = 2)}=
+  \frac{\sum_{B>100}  p(B,2)}{\mathbb{P}(A = 2)} =
+  \frac{0.093}{0.167} = 0.557.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para melhor atender a demanda de pacientes no país, foram levantados
+  dados relacionados a quantidade de leitos nos hospitais de cada
+  região. Seja \(A\) a variável referente ao número de hospitais e \(B\)
+  o total de leitos nos hospitais, com base na tabela da distribuição
+  conjunta de X e Y apresentada abaixo, determine
+  \(\mathbb{P}(B > 150 | A = 5)\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(B \setminus A\) & \(1\) & \(2\) & \(3\) & \(4\) & \(5\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(50\) & 0.001 & 0.002 & 0.002 & 0.064 & 0.012 \\
+  \(100\) & 0.051 & 0.036 & 0.021 & 0.187 & 0.08 \\
+  \(150\) & 0.001 & 0.107 & 0.008 & 0.037 & 0.033 \\
+  \(200\) & 0.023 & 0.031 & 0.037 & 0.005 & 0.01 \\
+  \(250\) & 0.063 & 0.011 & 0.012 & 0.019 & 0.147 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.190\)
+  \item
+    \(0.674\)
+  \item
+    \(0.557\)
+  \item
+    \(0.265\)
+  \item
+    \(0.117\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(A\) e
+  \(B\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 3 & 4 & 5 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(A = k) & 0.139 & 0.187 & 0.08 & 0.312 & 0.282 \\
+  \end{longtable}
+
+  e
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 50 & 100 & 150 & 200 & 250 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(B = k) & 0.081 & 0.375 & 0.186 & 0.106 & 0.252 \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(B > 150 |A = 5) = 
+  \frac{\mathbb{P}(B > 150 |A = 5)}{P(A = 5)}=
+  \frac{\sum_{B>150}  p(B,5)}{\mathbb{P}(A = 5)} =
+  \frac{0.157}{0.282} = 0.557.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para melhor atender a demanda de pacientes no país, foram levantados
+  dados relacionados a quantidade de leitos nos hospitais de cada
+  região. Seja \(A\) a variável referente ao número de hospitais e \(B\)
+  o total de leitos nos hospitais, com base na tabela da distribuição
+  conjunta de X e Y apresentada abaixo, determine
+  \(\mathbb{P}(B > 100 | A = 1)\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(B \setminus A\) & \(1\) & \(2\) & \(3\) & \(4\) & \(5\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(50\) & 0.215 & 0.005 & 0.151 & 0.005 & 0.157 \\
+  \(100\) & 0.019 & 0 & 0.004 & 0.024 & 0.094 \\
+  \(150\) & 0.016 & 0.015 & 0.031 & 0.015 & 0.002 \\
+  \(200\) & 0.004 & 0.106 & 0.006 & 0.007 & 0.007 \\
+  \(250\) & 0.005 & 0.016 & 0.018 & 0.008 & 0.071 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.044\)
+  \item
+    \(0.097\)
+  \item
+    \(0.073\)
+  \item
+    \(0.170\)
+  \item
+    \(0.059\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(A\) e
+  \(B\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 3 & 4 & 5 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(A = k) & 0.259 & 0.142 & 0.21 & 0.059 & 0.331 \\
+  \end{longtable}
+
+  e
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 50 & 100 & 150 & 200 & 250 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(B = k) & 0.533 & 0.141 & 0.079 & 0.13 & 0.118 \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(B > 100 |A = 1) = 
+  \frac{\mathbb{P}(B > 100 |A = 1)}{P(A = 1)}=
+  \frac{\sum_{B>100}  p(B,1)}{\mathbb{P}(A = 1)} =
+  \frac{0.025}{0.259} = 0.097.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para melhor atender a demanda de pacientes no país, foram levantados
+  dados relacionados a quantidade de leitos nos hospitais de cada
+  região. Seja \(A\) a variável referente ao número de hospitais e \(B\)
+  o total de leitos nos hospitais, com base na tabela da distribuição
+  conjunta de X e Y apresentada abaixo, determine
+  \(\mathbb{P}(B > 150 | A = 3)\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(B \setminus A\) & \(1\) & \(2\) & \(3\) & \(4\) & \(5\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(50\) & 0.08 & 0.019 & 0.018 & 0.001 & 0.032 \\
+  \(100\) & 0.008 & 0.025 & 0.022 & 0.002 & 0.051 \\
+  \(150\) & 0.095 & 0.021 & 0.014 & 0.021 & 0.011 \\
+  \(200\) & 0.019 & 0.108 & 0.055 & 0.029 & 0.062 \\
+  \(250\) & 0.096 & 0.021 & 0.026 & 0.11 & 0.054 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.104\)
+  \item
+    \(0.600\)
+  \item
+    \(0.110\)
+  \item
+    \(0.095\)
+  \item
+    \(0.704\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(A\) e
+  \(B\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 3 & 4 & 5 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(A = k) & 0.298 & 0.194 & 0.135 & 0.163 & 0.21 \\
+  \end{longtable}
+
+  e
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 50 & 100 & 150 & 200 & 250 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(B = k) & 0.15 & 0.108 & 0.162 & 0.273 & 0.307 \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(B > 150 |A = 3) = 
+  \frac{\mathbb{P}(B > 150 |A = 3)}{P(A = 3)}=
+  \frac{\sum_{B>150}  p(B,3)}{\mathbb{P}(A = 3)} =
+  \frac{0.081}{0.135} = 0.600.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para melhor atender a demanda de pacientes no país, foram levantados
+  dados relacionados a quantidade de leitos nos hospitais de cada
+  região. Seja \(A\) a variável referente ao número de hospitais e \(B\)
+  o total de leitos nos hospitais, com base na tabela da distribuição
+  conjunta de X e Y apresentada abaixo, determine
+  \(\mathbb{P}(B > 150 | A = 5)\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(B \setminus A\) & \(1\) & \(2\) & \(3\) & \(4\) & \(5\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(50\) & 0.014 & 0.165 & 0.002 & 0 & 0.031 \\
+  \(100\) & 0.014 & 0.008 & 0.138 & 0.03 & 0.013 \\
+  \(150\) & 0.028 & 0.031 & 0.021 & 0.038 & 0.08 \\
+  \(200\) & 0.011 & 0.028 & 0.011 & 0.028 & 0.029 \\
+  \(250\) & 0.005 & 0.085 & 0.051 & 0.043 & 0.094 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.203\)
+  \item
+    \(0.498\)
+  \item
+    \(0.822\)
+  \item
+    \(0.324\)
+  \item
+    \(0.270\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(A\) e
+  \(B\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 3 & 4 & 5 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(A = k) & 0.072 & 0.317 & 0.223 & 0.139 & 0.247 \\
+  \end{longtable}
+
+  e
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 50 & 100 & 150 & 200 & 250 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(B = k) & 0.212 & 0.203 & 0.198 & 0.107 & 0.278 \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(B > 150 |A = 5) = 
+  \frac{\mathbb{P}(B > 150 |A = 5)}{P(A = 5)}=
+  \frac{\sum_{B>150}  p(B,5)}{\mathbb{P}(A = 5)} =
+  \frac{0.123}{0.247} = 0.498.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para melhor atender a demanda de pacientes no país, foram levantados
+  dados relacionados a quantidade de leitos nos hospitais de cada
+  região. Seja \(A\) a variável referente ao número de hospitais e \(B\)
+  o total de leitos nos hospitais, com base na tabela da distribuição
+  conjunta de X e Y apresentada abaixo, determine
+  \(\mathbb{P}(B > 200 | A = 2)\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(B \setminus A\) & \(1\) & \(2\) & \(3\) & \(4\) & \(5\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(50\) & 0.01 & 0.021 & 0.01 & 0.002 & 0.027 \\
+  \(100\) & 0.073 & 0.016 & 0.016 & 0.08 & 0.17 \\
+  \(150\) & 0.021 & 0.1 & 0.009 & 0.043 & 0.066 \\
+  \(200\) & 0.003 & 0.075 & 0.052 & 0.063 & 0.015 \\
+  \(250\) & 0.01 & 0.055 & 0.038 & 0.016 & 0.011 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.206\)
+  \item
+    \(0.130\)
+  \item
+    \(0.487\)
+  \item
+    \(0.177\)
+  \item
+    \(0.281\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(A\) e
+  \(B\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 3 & 4 & 5 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(A = k) & 0.117 & 0.267 & 0.125 & 0.204 & 0.289 \\
+  \end{longtable}
+
+  e
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 50 & 100 & 150 & 200 & 250 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(B = k) & 0.07 & 0.355 & 0.239 & 0.208 & 0.13 \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(B > 200 |A = 2) = 
+  \frac{\mathbb{P}(B > 200 |A = 2)}{P(A = 2)}=
+  \frac{\sum_{B>200}  p(B,2)}{\mathbb{P}(A = 2)} =
+  \frac{0.055}{0.267} = 0.206.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para melhor atender a demanda de pacientes no país, foram levantados
+  dados relacionados a quantidade de leitos nos hospitais de cada
+  região. Seja \(A\) a variável referente ao número de hospitais e \(B\)
+  o total de leitos nos hospitais, com base na tabela da distribuição
+  conjunta de X e Y apresentada abaixo, determine
+  \(\mathbb{P}(B > 150 | A = 2)\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(B \setminus A\) & \(1\) & \(2\) & \(3\) & \(4\) & \(5\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(50\) & 0.04 & 0.001 & 0.013 & 0.001 & 0.002 \\
+  \(100\) & 0.017 & 0.065 & 0.022 & 0.024 & 0.03 \\
+  \(150\) & 0.095 & 0.026 & 0.01 & 0.094 & 0.116 \\
+  \(200\) & 0.035 & 0.019 & 0.112 & 0.018 & 0.01 \\
+  \(250\) & 0.002 & 0.011 & 0.098 & 0.105 & 0.033 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.056\)
+  \item
+    \(0.246\)
+  \item
+    \(0.213\)
+  \item
+    \(0.459\)
+  \item
+    \(0.064\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(A\) e
+  \(B\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 3 & 4 & 5 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(A = k) & 0.189 & 0.122 & 0.255 & 0.242 & 0.191 \\
+  \end{longtable}
+
+  e
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 50 & 100 & 150 & 200 & 250 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(B = k) & 0.057 & 0.158 & 0.341 & 0.194 & 0.249 \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(B > 150 |A = 2) = 
+  \frac{\mathbb{P}(B > 150 |A = 2)}{P(A = 2)}=
+  \frac{\sum_{B>150}  p(B,2)}{\mathbb{P}(A = 2)} =
+  \frac{0.03}{0.122} = 0.246.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para melhor atender a demanda de pacientes no país, foram levantados
+  dados relacionados a quantidade de leitos nos hospitais de cada
+  região. Seja \(A\) a variável referente ao número de hospitais e \(B\)
+  o total de leitos nos hospitais, com base na tabela da distribuição
+  conjunta de X e Y apresentada abaixo, determine
+  \(\mathbb{P}(B > 150 | A = 3)\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(B \setminus A\) & \(1\) & \(2\) & \(3\) & \(4\) & \(5\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(50\) & 0.006 & 0.017 & 0.023 & 0.072 & 0.107 \\
+  \(100\) & 0.011 & 0.001 & 0.067 & 0.006 & 0.035 \\
+  \(150\) & 0.041 & 0.005 & 0.015 & 0.022 & 0.001 \\
+  \(200\) & 0.177 & 0.1 & 0.04 & 0.01 & 0.098 \\
+  \(250\) & 0.034 & 0.038 & 0.062 & 0.004 & 0.009 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.147\)
+  \item
+    \(0.565\)
+  \item
+    \(0.493\)
+  \item
+    \(0.072\)
+  \item
+    \(0.117\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(A\) e
+  \(B\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 1 & 2 & 3 & 4 & 5 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(A = k) & 0.269 & 0.161 & 0.207 & 0.114 & 0.25 \\
+  \end{longtable}
+
+  e
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 50 & 100 & 150 & 200 & 250 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(B = k) & 0.225 & 0.12 & 0.084 & 0.425 & 0.147 \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(B > 150 |A = 3) = 
+  \frac{\mathbb{P}(B > 150 |A = 3)}{P(A = 3)}=
+  \frac{\sum_{B>150}  p(B,3)}{\mathbb{P}(A = 3)} =
+  \frac{0.102}{0.207} = 0.493.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um sistema é formado por 100 componentes, cada um dos quais com
+  confiabilidade (probabilidade de funcionar adequadamente num certo
+  período) igual a 0.9. Nesse contexto, qual é a probabilidade de que,
+  ao final de um período, ao menos 87 componentes estejam funcionando?
+  (Não utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.159\)
+  \item
+    \(0.512\)
+  \item
+    \(0.629\)
+  \item
+    \(0.794\)
+  \item
+    \(0.841\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de componentes que funcionaram adequadamente
+  durante todo o período, então \(X\sim Bin(100,0.9)\),
+  \[E(X)=np=100\times 0.9=90\] e
+  \[Var(X)=np(1-p)=100\times 0.9\times 0.1=9.\] Portanto, pela
+  aproximação da Normal à Binomial, \[\begin{aligned}
+  P(X \geq 87) \approx P(Y\geq 87), \quad \text{sendo} \quad Y \sim N(\mu=90, \sigma^2=9)
+  \end{aligned}\] Logo, \[\begin{aligned}
+   P(Y\geq 87)=\left(\frac{Y-90}{3}\geq \frac{87-90}{3}\right)=P(Z\geq -1)=0.841.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um sistema é formado por 100 componentes, cada um dos quais com
+  confiabilidade (probabilidade de funcionar adequadamente num certo
+  período) igual a 0.89. Nesse contexto, qual é a probabilidade de que,
+  ao final de um período, ao menos 88 componentes estejam funcionando?
+  (Não utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.141\)
+  \item
+    \(0.540\)
+  \item
+    \(0.374\)
+  \item
+    \(0.504\)
+  \item
+    \(0.626\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de componentes que funcionaram adequadamente
+  durante todo o período, então \(X\sim Bin(100,0.89)\),
+  \[E(X)=np=100\times 0.89=89\] e
+  \[Var(X)=np(1-p)=100\times 0.89\times 0.11=9.79.\] Portanto, pela
+  aproximação da Normal à Binomial, \[\begin{aligned}
+  P(X \geq 88) \approx P(Y\geq 88), \quad \text{sendo} \quad Y \sim N(\mu=89, \sigma^2=9.79)
+  \end{aligned}\] Logo, \[\begin{aligned}
+   P(Y\geq 88)=\left(\frac{Y-89}{3.1289}\geq \frac{88-89}{3.1289}\right)=P(Z\geq -0.32)=0.626.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um sistema é formado por 100 componentes, cada um dos quais com
+  confiabilidade (probabilidade de funcionar adequadamente num certo
+  período) igual a 0.88. Nesse contexto, qual é a probabilidade de que,
+  ao final de um período, ao menos 87 componentes estejam funcionando?
+  (Não utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.622\)
+  \item
+    \(0.536\)
+  \item
+    \(0.378\)
+  \item
+    \(0.504\)
+  \item
+    \(0.153\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de componentes que funcionaram adequadamente
+  durante todo o período, então \(X\sim Bin(100,0.88)\),
+  \[E(X)=np=100\times 0.88=88\] e
+  \[Var(X)=np(1-p)=100\times 0.88\times 0.12=10.5599.\] Portanto, pela
+  aproximação da Normal à Binomial, \[\begin{aligned}
+  P(X \geq 87) \approx P(Y\geq 87), \quad \text{sendo} \quad Y \sim N(\mu=88, \sigma^2=10.5599)
+  \end{aligned}\] Logo, \[\begin{aligned}
+   P(Y\geq 87)=\left(\frac{Y-88}{3.2496}\geq \frac{87-88}{3.2496}\right)=P(Z\geq -0.31)=0.622.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um sistema é formado por 100 componentes, cada um dos quais com
+  confiabilidade (probabilidade de funcionar adequadamente num certo
+  período) igual a 0.89. Nesse contexto, qual é a probabilidade de que,
+  ao final de um período, ao menos 87 componentes estejam funcionando?
+  (Não utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.276\)
+  \item
+    \(0.508\)
+  \item
+    \(0.739\)
+  \item
+    \(0.261\)
+  \item
+    \(0.579\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de componentes que funcionaram adequadamente
+  durante todo o período, então \(X\sim Bin(100,0.89)\),
+  \[E(X)=np=100\times 0.89=89\] e
+  \[Var(X)=np(1-p)=100\times 0.89\times 0.11=9.79.\] Portanto, pela
+  aproximação da Normal à Binomial, \[\begin{aligned}
+  P(X \geq 87) \approx P(Y\geq 87), \quad \text{sendo} \quad Y \sim N(\mu=89, \sigma^2=9.79)
+  \end{aligned}\] Logo, \[\begin{aligned}
+   P(Y\geq 87)=\left(\frac{Y-89}{3.1289}\geq \frac{87-89}{3.1289}\right)=P(Z\geq -0.64)=0.739.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um sistema é formado por 100 componentes, cada um dos quais com
+  confiabilidade (probabilidade de funcionar adequadamente num certo
+  período) igual a 0.9. Nesse contexto, qual é a probabilidade de que,
+  ao final de um período, ao menos 89 componentes estejam funcionando?
+  (Não utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.371\)
+  \item
+    \(0.544\)
+  \item
+    \(0.586\)
+  \item
+    \(0.629\)
+  \item
+    \(0.504\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de componentes que funcionaram adequadamente
+  durante todo o período, então \(X\sim Bin(100,0.9)\),
+  \[E(X)=np=100\times 0.9=90\] e
+  \[Var(X)=np(1-p)=100\times 0.9\times 0.1=9.\] Portanto, pela
+  aproximação da Normal à Binomial, \[\begin{aligned}
+  P(X \geq 89) \approx P(Y\geq 89), \quad \text{sendo} \quad Y \sim N(\mu=90, \sigma^2=9)
+  \end{aligned}\] Logo, \[\begin{aligned}
+   P(Y\geq 89)=\left(\frac{Y-90}{3}\geq \frac{89-90}{3}\right)=P(Z\geq -0.33)=0.629.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um sistema é formado por 100 componentes, cada um dos quais com
+  confiabilidade (probabilidade de funcionar adequadamente num certo
+  período) igual a 0.88. Nesse contexto, qual é a probabilidade de que,
+  ao final de um período, ao menos 89 componentes estejam funcionando?
+  (Não utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.622\)
+  \item
+    \(0.496\)
+  \item
+    \(0.464\)
+  \item
+    \(0.821\)
+  \item
+    \(0.378\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de componentes que funcionaram adequadamente
+  durante todo o período, então \(X\sim Bin(100,0.88)\),
+  \[E(X)=np=100\times 0.88=88\] e
+  \[Var(X)=np(1-p)=100\times 0.88\times 0.12=10.5599.\] Portanto, pela
+  aproximação da Normal à Binomial, \[\begin{aligned}
+  P(X \geq 89) \approx P(Y\geq 89), \quad \text{sendo} \quad Y \sim N(\mu=88, \sigma^2=10.5599)
+  \end{aligned}\] Logo, \[\begin{aligned}
+   P(Y\geq 89)=\left(\frac{Y-88}{3.2496}\geq \frac{89-88}{3.2496}\right)=P(Z\geq 0.31)=0.378.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um sistema é formado por 100 componentes, cada um dos quais com
+  confiabilidade (probabilidade de funcionar adequadamente num certo
+  período) igual a 0.89. Nesse contexto, qual é a probabilidade de que,
+  ao final de um período, ao menos 88 componentes estejam funcionando?
+  (Não utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.540\)
+  \item
+    \(0.131\)
+  \item
+    \(0.626\)
+  \item
+    \(0.374\)
+  \item
+    \(0.504\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de componentes que funcionaram adequadamente
+  durante todo o período, então \(X\sim Bin(100,0.89)\),
+  \[E(X)=np=100\times 0.89=89\] e
+  \[Var(X)=np(1-p)=100\times 0.89\times 0.11=9.79.\] Portanto, pela
+  aproximação da Normal à Binomial, \[\begin{aligned}
+  P(X \geq 88) \approx P(Y\geq 88), \quad \text{sendo} \quad Y \sim N(\mu=89, \sigma^2=9.79)
+  \end{aligned}\] Logo, \[\begin{aligned}
+   P(Y\geq 88)=\left(\frac{Y-89}{3.1289}\geq \frac{88-89}{3.1289}\right)=P(Z\geq -0.32)=0.626.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um sistema é formado por 100 componentes, cada um dos quais com
+  confiabilidade (probabilidade de funcionar adequadamente num certo
+  período) igual a 0.89. Nesse contexto, qual é a probabilidade de que,
+  ao final de um período, ao menos 88 componentes estejam funcionando?
+  (Não utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.540\)
+  \item
+    \(0.374\)
+  \item
+    \(0.504\)
+  \item
+    \(0.556\)
+  \item
+    \(0.626\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de componentes que funcionaram adequadamente
+  durante todo o período, então \(X\sim Bin(100,0.89)\),
+  \[E(X)=np=100\times 0.89=89\] e
+  \[Var(X)=np(1-p)=100\times 0.89\times 0.11=9.79.\] Portanto, pela
+  aproximação da Normal à Binomial, \[\begin{aligned}
+  P(X \geq 88) \approx P(Y\geq 88), \quad \text{sendo} \quad Y \sim N(\mu=89, \sigma^2=9.79)
+  \end{aligned}\] Logo, \[\begin{aligned}
+   P(Y\geq 88)=\left(\frac{Y-89}{3.1289}\geq \frac{88-89}{3.1289}\right)=P(Z\geq -0.32)=0.626.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um sistema é formado por 100 componentes, cada um dos quais com
+  confiabilidade (probabilidade de funcionar adequadamente num certo
+  período) igual a 0.88. Nesse contexto, qual é a probabilidade de que,
+  ao final de um período, ao menos 89 componentes estejam funcionando?
+  (Não utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.464\)
+  \item
+    \(0.378\)
+  \item
+    \(0.133\)
+  \item
+    \(0.496\)
+  \item
+    \(0.622\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de componentes que funcionaram adequadamente
+  durante todo o período, então \(X\sim Bin(100,0.88)\),
+  \[E(X)=np=100\times 0.88=88\] e
+  \[Var(X)=np(1-p)=100\times 0.88\times 0.12=10.5599.\] Portanto, pela
+  aproximação da Normal à Binomial, \[\begin{aligned}
+  P(X \geq 89) \approx P(Y\geq 89), \quad \text{sendo} \quad Y \sim N(\mu=88, \sigma^2=10.5599)
+  \end{aligned}\] Logo, \[\begin{aligned}
+   P(Y\geq 89)=\left(\frac{Y-88}{3.2496}\geq \frac{89-88}{3.2496}\right)=P(Z\geq 0.31)=0.378.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um sistema é formado por 100 componentes, cada um dos quais com
+  confiabilidade (probabilidade de funcionar adequadamente num certo
+  período) igual a 0.9. Nesse contexto, qual é a probabilidade de que,
+  ao final de um período, ao menos 89 componentes estejam funcionando?
+  (Não utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.504\)
+  \item
+    \(0.544\)
+  \item
+    \(0.629\)
+  \item
+    \(0.371\)
+  \item
+    \(0.575\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de componentes que funcionaram adequadamente
+  durante todo o período, então \(X\sim Bin(100,0.9)\),
+  \[E(X)=np=100\times 0.9=90\] e
+  \[Var(X)=np(1-p)=100\times 0.9\times 0.1=9.\] Portanto, pela
+  aproximação da Normal à Binomial, \[\begin{aligned}
+  P(X \geq 89) \approx P(Y\geq 89), \quad \text{sendo} \quad Y \sim N(\mu=90, \sigma^2=9)
+  \end{aligned}\] Logo, \[\begin{aligned}
+   P(Y\geq 89)=\left(\frac{Y-90}{3}\geq \frac{89-90}{3}\right)=P(Z\geq -0.33)=0.629.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

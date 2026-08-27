@@ -1,0 +1,412 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O cadastro de endereços de e-mail de uma agência que organiza
+  excursões para mergulho contém \(52\)\% de homens e \(48\)\% de
+  mulheres. A agência envia mensagens para \(37\) pessoas aleatoriamente
+  escolhidas em seu cadastro. Qual é a probabilidade de que pelo menos
+  \(51\%\) delas sejam homens?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5080\)
+  \item
+    \(0.5478\)
+  \item
+    \(0.9306\)
+  \item
+    \(0.5358\)
+  \item
+    \(0.5160\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.52\) e
+  \(\sigma = \sqrt{\frac{0.52\times0.48}{37}}\), temos que
+  \[P\left(\hat{p}>0.51\right) = P\left(\frac{\hat{p}-0.52}{\sqrt{\frac{0.52\times0.48}{37}}}>\frac{0.51-0.52}{\sqrt{\frac{0.52\times0.48}{37}}}\right) = 1-P\left(Z<-0.12\right) = 0.5478.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cadastro de endereços de e-mail de uma agência que organiza
+  excursões para mergulho contém \(45\)\% de homens e \(55\)\% de
+  mulheres. A agência envia mensagens para \(47\) pessoas aleatoriamente
+  escolhidas em seu cadastro. Qual é a probabilidade de que pelo menos
+  \(44\%\) delas sejam homens?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5557\)
+  \item
+    \(0.5080\)
+  \item
+    \(0.9713\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.2420\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.45\) e
+  \(\sigma = \sqrt{\frac{0.45\times0.55}{47}}\), temos que
+  \[P\left(\hat{p}>0.44\right) = P\left(\frac{\hat{p}-0.45}{\sqrt{\frac{0.45\times0.55}{47}}}>\frac{0.44-0.45}{\sqrt{\frac{0.45\times0.55}{47}}}\right) = 1-P\left(Z<-0.14\right) = 0.5557.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cadastro de endereços de e-mail de uma agência que organiza
+  excursões para mergulho contém \(45\)\% de homens e \(55\)\% de
+  mulheres. A agência envia mensagens para \(40\) pessoas aleatoriamente
+  escolhidas em seu cadastro. Qual é a probabilidade de que pelo menos
+  \(44\%\) delas sejam homens?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5517\)
+  \item
+    \(0.5408\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.5080\)
+  \item
+    \(0.9474\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.45\) e
+  \(\sigma = \sqrt{\frac{0.45\times0.55}{40}}\), temos que
+  \[P\left(\hat{p}>0.44\right) = P\left(\frac{\hat{p}-0.45}{\sqrt{\frac{0.45\times0.55}{40}}}>\frac{0.44-0.45}{\sqrt{\frac{0.45\times0.55}{40}}}\right) = 1-P\left(Z<-0.13\right) = 0.5517.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cadastro de endereços de e-mail de uma agência que organiza
+  excursões para mergulho contém \(47\)\% de homens e \(53\)\% de
+  mulheres. A agência envia mensagens para \(49\) pessoas aleatoriamente
+  escolhidas em seu cadastro. Qual é a probabilidade de que pelo menos
+  \(46\%\) delas sejam homens?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5557\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.9756\)
+  \item
+    \(0.5080\)
+  \item
+    \(0.3419\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.47\) e
+  \(\sigma = \sqrt{\frac{0.47\times0.53}{49}}\), temos que
+  \[P\left(\hat{p}>0.46\right) = P\left(\frac{\hat{p}-0.47}{\sqrt{\frac{0.47\times0.53}{49}}}>\frac{0.46-0.47}{\sqrt{\frac{0.47\times0.53}{49}}}\right) = 1-P\left(Z<-0.14\right) = 0.5557.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cadastro de endereços de e-mail de uma agência que organiza
+  excursões para mergulho contém \(53\)\% de homens e \(47\)\% de
+  mulheres. A agência envia mensagens para \(43\) pessoas aleatoriamente
+  escolhidas em seu cadastro. Qual é a probabilidade de que pelo menos
+  \(52\%\) delas sejam homens?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7335\)
+  \item
+    \(0.5080\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.5517\)
+  \item
+    \(0.9582\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.53\) e
+  \(\sigma = \sqrt{\frac{0.53\times0.47}{43}}\), temos que
+  \[P\left(\hat{p}>0.52\right) = P\left(\frac{\hat{p}-0.53}{\sqrt{\frac{0.53\times0.47}{43}}}>\frac{0.52-0.53}{\sqrt{\frac{0.53\times0.47}{43}}}\right) = 1-P\left(Z<-0.13\right) = 0.5517.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cadastro de endereços de e-mail de uma agência que organiza
+  excursões para mergulho contém \(51\)\% de homens e \(49\)\% de
+  mulheres. A agência envia mensagens para \(45\) pessoas aleatoriamente
+  escolhidas em seu cadastro. Qual é a probabilidade de que pelo menos
+  \(50\%\) delas sejam homens?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8737\)
+  \item
+    \(0.9641\)
+  \item
+    \(0.5080\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.5517\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.51\) e
+  \(\sigma = \sqrt{\frac{0.51\times0.49}{45}}\), temos que
+  \[P\left(\hat{p}>0.5\right) = P\left(\frac{\hat{p}-0.51}{\sqrt{\frac{0.51\times0.49}{45}}}>\frac{0.5-0.51}{\sqrt{\frac{0.51\times0.49}{45}}}\right) = 1-P\left(Z<-0.13\right) = 0.5517.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cadastro de endereços de e-mail de uma agência que organiza
+  excursões para mergulho contém \(54\)\% de homens e \(46\)\% de
+  mulheres. A agência envia mensagens para \(40\) pessoas aleatoriamente
+  escolhidas em seu cadastro. Qual é a probabilidade de que pelo menos
+  \(53\%\) delas sejam homens?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5517\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.5080\)
+  \item
+    \(0.1051\)
+  \item
+    \(0.9463\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.54\) e
+  \(\sigma = \sqrt{\frac{0.54\times0.46}{40}}\), temos que
+  \[P\left(\hat{p}>0.53\right) = P\left(\frac{\hat{p}-0.54}{\sqrt{\frac{0.54\times0.46}{40}}}>\frac{0.53-0.54}{\sqrt{\frac{0.54\times0.46}{40}}}\right) = 1-P\left(Z<-0.13\right) = 0.5517.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cadastro de endereços de e-mail de uma agência que organiza
+  excursões para mergulho contém \(55\)\% de homens e \(45\)\% de
+  mulheres. A agência envia mensagens para \(45\) pessoas aleatoriamente
+  escolhidas em seu cadastro. Qual é a probabilidade de que pelo menos
+  \(54\%\) delas sejam homens?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9656\)
+  \item
+    \(0.5080\)
+  \item
+    \(0.6621\)
+  \item
+    \(0.5517\)
+  \item
+    \(0.5160\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.55\) e
+  \(\sigma = \sqrt{\frac{0.55\times0.45}{45}}\), temos que
+  \[P\left(\hat{p}>0.54\right) = P\left(\frac{\hat{p}-0.55}{\sqrt{\frac{0.55\times0.45}{45}}}>\frac{0.54-0.55}{\sqrt{\frac{0.55\times0.45}{45}}}\right) = 1-P\left(Z<-0.13\right) = 0.5517.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cadastro de endereços de e-mail de uma agência que organiza
+  excursões para mergulho contém \(54\)\% de homens e \(46\)\% de
+  mulheres. A agência envia mensagens para \(46\) pessoas aleatoriamente
+  escolhidas em seu cadastro. Qual é a probabilidade de que pelo menos
+  \(53\%\) delas sejam homens?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0448\)
+  \item
+    \(0.5080\)
+  \item
+    \(0.9678\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.5557\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.54\) e
+  \(\sigma = \sqrt{\frac{0.54\times0.46}{46}}\), temos que
+  \[P\left(\hat{p}>0.53\right) = P\left(\frac{\hat{p}-0.54}{\sqrt{\frac{0.54\times0.46}{46}}}>\frac{0.53-0.54}{\sqrt{\frac{0.54\times0.46}{46}}}\right) = 1-P\left(Z<-0.14\right) = 0.5557.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O cadastro de endereços de e-mail de uma agência que organiza
+  excursões para mergulho contém \(53\)\% de homens e \(47\)\% de
+  mulheres. A agência envia mensagens para \(43\) pessoas aleatoriamente
+  escolhidas em seu cadastro. Qual é a probabilidade de que pelo menos
+  \(52\%\) delas sejam homens?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5160\)
+  \item
+    \(0.2996\)
+  \item
+    \(0.5517\)
+  \item
+    \(0.5080\)
+  \item
+    \(0.9582\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.53\) e
+  \(\sigma = \sqrt{\frac{0.53\times0.47}{43}}\), temos que
+  \[P\left(\hat{p}>0.52\right) = P\left(\frac{\hat{p}-0.53}{\sqrt{\frac{0.53\times0.47}{43}}}>\frac{0.52-0.53}{\sqrt{\frac{0.53\times0.47}{43}}}\right) = 1-P\left(Z<-0.13\right) = 0.5517.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,513 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsfonts,amssymb,amsbsy}
+\usepackage{amsthm} %Permite teorema sem numeração, no meu caso Demonstração
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+
+%------------------------------------------------------------------------------
+
+\setlength{\topmargin}{-1.0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{6.5in}
+\setlength{\baselineskip}{12mm}
+
+%------------------------------------------------------------------------------
+
+\renewcommand{\P}{\mathcal{P}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+       \begin{minipage}[c]{7in}
+                 {Universidade de Brasília} \\
+                 {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf $\text{3}^{\text{\underline{a}}}$ Lista de PE}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item Duas bolas são escolhidas aleatoriamente de uma urna contendo 8 bolas brancas, 4 pretas, e duas bolas laranjas. Suponha que um jogador ganha 2 reais por cada bola preta selecionada e perde 1 real para cada bola branca selecionada. Seja $X$ o ganho do jogador. Quais são os possíveis valores de $X$, e quais são as probabilidades associadas a cada valor? %Ross - Capítulo 4 - Questão 4.1 - Pág. 172
+
+\vspace{0.2cm}
+
+\item Seja $X$ uma variável aleatória discreta com $\P(X=0)=0,25$, $\P(X=1)=0,125$, $\P(X=2)=0,125$ e $\P(X=3)=0,5$. 
+\begin{itemize}
+\item[a)] Construa o gráfico da função probabilidade de massa e da função de distribuição acumulada.
+\item[b)] Calcule o valor esperado, a moda e a mediana de $X$.
+\item[c)] Calcule a variância de $X$.
+\item[d)] Calcule as probabilidades $\P(0<X<1)$, $\P(X\leqslant 2)$, $\P(X>3)$ e $\P(X>2,5)$.
+\end{itemize}
+  
+\vspace{0.2cm}
+
+\item Suponha que a função de distribuição de uma variável aleatória $X$ é dada por %Ross - Capítulo 4 - Questão 4.17 - Pág. 174
+\begin{equation*}
+F(x) = 
+\left\{\begin{array}{lcr}
+0, & \text{se} & x<0,\\ \vspace{0.1cm}
+\frac{1}{4}, & \text{se} & 0\leqslant x<1,\\ \vspace{0.1cm}
+\frac{1}{2}, & \text{se} & 1\leqslant x<2,\\ \vspace{0.1cm}
+\frac{11}{12} & \text{se} & 2\leqslant x<3, \\
+1, & \text{se} & x\geqslant 3.
+\end{array} \right.
+\end{equation*} 
+
+\begin{itemize}
+\item[a)] Construa o gráfico de $F(x)$.
+\item[b)] Encontre $\mathcal{P}(X=i)$, $i=1,2,3$.
+\item[c)] Encontre $\mathcal{P}\left(\frac{1}{2}<X<\frac{3}{2}\right)$.
+\end{itemize}
+
+\vspace{0.2cm}
+
+\item Seja $X$ uma variável aleatória que representa o número de peças produzidas por uma máquina em um período de um dia. A probabilidade da máquina estar desligada em um dia qualquer é $\frac{1}{2}$ (Se a máquina estiver desligada, então ela não produz nenhuma peça). A  probabilidade da máquina estar ligada e produzir $i$ peças é dada por $\P(X=i)=p^i$, $i = 1, 2, 3, \ldots$  Pergunta-se:
+\begin{itemize}
+\item[a)] Qual é o valor de $p$? 
+\item[b)] Qual a probabilidade da máquina produzir no máximo $5$ peças em um dia?
+\item[c)] Qual a probabilidade da máquina produzir um número par de peças em um dia?
+\end{itemize}
+
+\vspace{0.2cm}
+
+\item Seja $X$ uma variável aleatória que assume os valores -1, 0 e 1 com as respectivas probabilidades 
+$$\mathcal{P}(X=-1)=0,2, \ \ \ \mathcal{P}(X=0)=0,5 \ \ \ \text{e} \ \ \ \mathcal{P}(X=1)=0,3.$$ Encontre a esperança e a variância de $X$. %Capítulo 4 - Ex. 4a - Pág. 128
+
+\vspace{0.2cm}
+
+\item A partir de dados do último censo, a assistente social de um centro de saúde constatou que, para as famílias da região, 20$\%$ delas não possuem filhos, 30$\%$ possui um filho, 35$\%$ possui dois filhos e as famílias restantes se dividem igualmente entre três, quatro ou cinco filhos. 
+\begin{itemize}
+\item[a)] Determine a função de distribuição acumulada da variável $N$, referente ao número de filhos das famílias na região.
+\item[b)] Se uma família é escolhida aleatoriamente nessa região, qual a probabilidade de que o número de filhos nessa família seja maior o igual a 2?
+\item[c)] Calcule o valor esperado e a variância da variável $N$.
+\end{itemize}
+
+\vspace{0.2cm}
+
+\item Seja X uma variável aleatória discreta com a seguinte distribuição de probabilidades:
+\[
+\P(X=x)=\frac{k}{x}, \quad \text{onde } X \ \text{assume os valores} \ 1,3,5,7.
+\]
+\begin{itemize}
+\item[a)] Determine o valor de $k$.
+\item[b)] Calcule $\P(X<5)$.
+\end{itemize}
+
+\vspace{0.2cm}
+	
+\item Considere uma moeda viciada onde a probabilidade de ocorrência da face cara é quatro vezes a probabilidade de ocorrência da face coroa. Essa moeda é jogada três vezes. Seja $X$ o número de caras que aparece. Determine a distribuição de probabilidades de $X$ e também a função de distribuição acumulada.
+
+\vspace{0.2cm}
+
+\item Considere o experimento de jogar dois dados sequencialmente e anotar os resultados. Seja $X$ a variável que computa a soma dos resultados observados nos dois dados. Encontre a distribuição de probabilidades da variável $X$ e calcule sua esperança.
+
+\vspace{0.2cm}
+
+\item Suponha que o tempo $X$, em minutos, necessários para um operário processar uma certa peça é uma variável aleatória com a seguinte distribuição de probabilidades:
+\begin{center}
+\begin{tabular}{c|c|c|c|c|c|c}\hline
+$k$ & $2$ & $3$ & $4$ & $5$ & $6$ & $7$\\ \hline
+$\P(X=k)$ & $0,1$ & $0,1$ & $0,3$ & $0,2$ & $0,2$ & $0,1$\\ \hline
+\end{tabular}\end{center}
+
+\begin{itemize}
+\item[a)] Calcule $\mathcal{E}(X)$, o tempo médio de processamento de uma peça.
+\item[b)] Calcule $\text{Var}(X)$.
+\item[c)] Para cada peça processada, o operário ganha um fixo de R\$ 2,00, mas se ele processa a peça em menos de 6 minutos, ganha R\$ 0,50 por minuto poupado (por exemplo, se o operário processa a peça em $4$ minutos, ele recebe a quantia adicional de R\$ 1,00). Encontre o ganho médio do operário por peça processada.
+\end{itemize}
+
+\vspace{0.2cm}
+
+\item Um pintor produz pelo menos um quadro por dia (esse pintor pode produzir $1, 2, 3, \ldots$ quadros por dia). Seja $X$ uma variável aleatória que denota o número de quadros produzidos por esse pintor em um dia qualquer. A distribuição de probabilidades de $X$ é dado por $\P(X = k) = (0,5)^k$,  para $k = 1, 2, \ldots$
+	
+\begin{itemize}
+\item[a)] Calcule $\P(X<10)$.
+\item[b)] Calcule $\mathcal{E}(X)$.
+\item[c)] Se o pintor vende cada quadro produzido por R\$ 50,00, qual é o ganho esperado desse pintor em um mês (considere um mês de 30 dias) de trabalho? 
+\end{itemize}
+
+\vspace{0.2cm}
+
+\item Um jogo popular em ruas e cassinos consiste no seguinte: um jogador aposta em um dos números de 1 a 6 e três dados são, então, lançados. Se o número apostado pelo jogador aparecer $i$ vezes (onde $i = 1, 2, 3$), o jogador ganha $i$ unidades, e se o número apostado pelo jogador não aparecer em qualquer um dos dados, então o jogador perde uma unidade. Este jogo é justo para o jogador? %Ross - Capítulo 4 - Ex. 6c - Pág. 136
+
+\item Suponha que duas equipas jogam uma série de jogos que termina quando um deles ganhar $i$ jogos. Suponha que cada jogo realizado é ganho pela equipe A, de forma independente, com probabilidade p.%Ross - Capítulo 4 - Questão 4.22 - Pág. 174
+\begin{itemize}
+\item[a)] Encontre o número esperado de jogos que são realizados quando $i = 2$.
+\item[b)] Encontre o número esperado de jogos que são realizados quando $i = 3$. 
+\item[c)] Mostre que, em ambos os casos ({\bf a} e {\bf b}), este número é maximizado quando \\$p = 1/2$.
+\end{itemize}
+
+\item A cada noite um meteorologista diferente nos dá a probabilidade de que irá chover no dia seguinte. Para julgar quem tem melhores previsões, iremos pontuá-los da seguinte maneira: Se um meteorologista diz que irá chover no dia seguinte com probabilidade $p$, então ele ou ela receberá a pontuação de 
+\begin{equation*}
+\begin{array}{ll}
+1-(1-p)^2, & \text{se chover},\\
+1-p^2, & \text{se não chover}.
+\end{array}
+\end{equation*} 
+Iremos, então, manter o controle de pontos ao longo de um determinado período de tempo e concluir que o meteorologista com a pontuação média mais alta é quem melhor prediz o tempo. Suponhamos agora, que um dado meteorologista está ciente do nosso mecanismo e quer maximizar sua pontuação esperada. Se essa pessoa realmente acredita que vai chover amanhã com probabilidade $p^{\ast}$, qual o valor de $p$ ele ou ela deve propor de forma a maximizar o resultado esperado?%Ross - Capítulo 4 - Questão 4.31 - Pág. 175
+
+\item Suponha que, em voo, motores de avião irão falhar com probabilidade $1 - p$, independentemente de motor para motor. Se um avião precisa da maioria de seus motores operando para completar um voo bem sucedido, para que valores de $p$ um avião com 5 motores é preferível a um avião com 3 motores? %Ross - Capítulo 4 - Questão 4.42 - Pág. 176
+
+\item Uma prova consiste em 25 perguntas do tipo múltipla escolha. Cada questão tem 5 respostas, sendo que apenas uma delas  é verdadeira. A nota, $X$, é igual ao número de respostas corretas. Uma pessoa lança um dado equilibrado e indica a resposta cujo número aparece na face
+de cima do dado (se sair 6 o lance  é desconsiderado).
+\begin{itemize}
+\item[a)] Qual é a distribuição da variável ``nota'' nestas condições?
+\item[b)] Calcule as probabilidades dos eventos abaixo utilizando o modelo escolhido no item anterior: $\{X\leqslant 1\}$, $\{X< 1\}$, $\{X\geqslant 1\}$, $\{X> 1\}$, $\{2\leqslant X \leqslant 4\}$, $\{2\leqslant X < 4\}$, $\{2< X \leqslant 4\}$, $\{2< X < 4\}$.
+\item[c)] Quais das hipóteses do modelo deixariam de ser satisfeitas se a pessoa respondesse seriamente em vez de usar o esquema acima descrito?
+\end{itemize}
+
+\item Uma companhia de seguros vendeu apólices a 20 pessoas com mesma idade e condições de saúde. De acordo com as tábuas atuariais, a probabilidade de que uma pessoa nas condições dos assegurados sobreviva 10 anos à data dos contratos é de 0,9. Calcule as probabilidades dos seguintes eventos:
+\begin{itemize}
+\item[a)] todas as pessoas sobrevivem;
+\item[b)] nenhuma sobrevive;
+\item[c)] sobrevivem ao menos 5 pessoas;
+\item[d)] sobrevivem ao menos 15 pessoas;
+\item[e)] morrem exatamente 3 pessoas;
+\item[f)] morrem no máximo 2 pessoas;
+\item[g)] morrem no mínimo 5 pessoas;
+\item[h)] valor médio e variância do número sobreviventes;
+\item[i)] valor médio e variância do número de mortos.
+\end{itemize}
+
+\item Uma certa doença pode ser curada através de procedimento cirúrgico em 80$\%$ dos casos. Dentre os que tem essa doença, sorteamos 15 pacientes que serão submetidos à cirurgia. A partir de alguma suposição adicional que julgue necessária, calcule as probabilidades abaixo.
+\begin{itemize}
+\item[a)] Todos serem curados.
+\item[b)] Pelo menos dois não serem curados.
+\item[c)] Ao menos 10 ficarem livres da doença.
+\end{itemize}
+
+\item Bactérias de uma certa classe aparecem na água à taxa média de 0,8 por cm$^3$. Calcule a probabilidade de que em 5 cm$^3$ de água tenhamos:
+\begin{itemize}
+\item[a)] no mínimo duas bactérias;
+\item[b)] pelo menos 13 bactérias;
+\item[c)] nenhuma bactéria;
+\item[d)] no máximo sete bactérias.
+\end{itemize}
+
+\item A taxa de suicídios num certo país é de 1 para cada 250.000 habitantes por semana. Considere uma cidade de 500.000 habitantes e responda aos itens abaixo.
+\begin{itemize}
+\item[a)] Qual a probabilidade de ocorrerem 6 ou mais suicídios numa semana?
+\item[b)] Você utilizaria o mesmo modelo se em vez de suicídios a questão tratasse da dengue? Justifique.
+\end{itemize}
+
+\item Por engano 3 peças defeituosas foram misturadas a boas peças formando um lote com 12 peças no total. Escolhendo-se ao acaso, com reposição, 4 dessas peças, determine a probabilidade de encontrar:
+\begin{itemize}
+\item[a)] pelo menos 2 peças defeituosas;
+\item[b)] no máximo uma peça defeituosa;
+\item[c)] no mínimo uma peça boa.
+\end{itemize}
+
+\item Considere uma urna com $10$ bolas brancas e $20$ bolas vermelhas. Retira-se uma amostra de $5$ bolas, uma a uma. Qual a probabilidade de $3$ bolas serem brancas se:
+
+\begin{itemize}
+\item[a)] a amostra for sem reposição?
+\item[b)] a amostra for com reposição?
+\end{itemize}
+
+\item Quando a moeda 1 é lançada, aparece cara com probabilidade 0,4. Quando a moeda 2 é lançada, aparece cara com probabilidade 0,7. Uma dessas moedas é escolhida aleatoriamente e lançada 10 vezes. %Ross - Capítulo 4 - Questão 4.49 - Pág. 177
+\begin{itemize}
+\item[a)] Qual é a probabilidade de que a moeda mostre cara exatamente 7 vezes?
+\item[b)] Tendo em conta que no primeiro lançamento apareça cara, qual é a probabilidade condicional de que apareça cara exatamente 7 vezes?
+\end{itemize}
+
+\item O número de vezes que uma pessoa contrai um resfriado em um determinado ano é uma variável aleatória de Poisson com parâmetro $\lambda=5$. Suponha que uma nova droga (com base em grandes quantidades de vitamina C) acaba de ser comercializada e que ela reduz o parâmetro de Poisson a $\lambda=3$ para 75\% da população. Para os outros 25\% da população, a droga não tem efeito significativo sobre o resfriado. Se um indivíduo experimenta a droga por um ano e tem 2 resfriados nesse período, qual a probabilidade de que a droga seja benéfica para ele? %Ross - Capítulo 4.60 - Questão 4.1 - Pág. 177
+
+\item Uma variável aleatória $Y$ tem densidade Poisson com parametro $\lambda = 2$. Obtenha:
+\begin{itemize}
+\item[a)] $\P (Y < 2)$
+\item[b)] $\P (2\leqslant Y < 4)$
+\item[c)] $\P (Y > 0)$
+\item[d)] $\P (Y = 1|Y < 3)$.
+\end{itemize}
+
+\item A aplicação de fundo anti-corrosivo em chapas de aço de 1 m$^2$ é feita mecanicamente e pode produzir defeitos (pequenas bolhas na pintura), de acordo com uma variável aleatória Poisson de parâmetro $\lambda = 1$ por m$^2$. Se uma chapa é sorteada ao acaso para ser inspecionada, calcule a probabilidade de:
+\begin{itemize}
+\item[a)] encontrarmos pelo menos 1 defeito;
+\item[b)] no máximo 2 defeitos serem encontrados;
+\item[c)] encontrar de 2 a 4 defeitos;
+\item[d)] não mais de um defeito ser encontrado.
+\end{itemize}
+
+\item Seja $X$ uma variável aleatória que denota o número de navios petroleiros que chegam a determinada refinaria por dia. Vamos considerar que $X$ segue uma distribuição de Poisson com parâmetro $\lambda = 2$. As atuais instalações do porto podem atender no máximo três petroleiros por dia. Se mais de três petroleiros aportarem por dia, os excedentes a três deverão seguir para outro porto.
+	
+\begin{itemize}
+\item[a)] Em um dia qualquer, qual é a probabilidade de se precisar mandar petroleiros para outro porto? 
+\item[b)] De quanto deverão as atuais instalações ser aumentadas para permitir manobrar todos os petroleiros, em pelo menos $90\%$ dos dias?
+\item[c)] Qual a probabilidade de, em um dia qualquer, exatamente dois petroleiros terem que ir para outro porto?
+\item[d)] Qual é o número esperado de petroleiros a serem atendidos diariamente neste porto?
+\end{itemize}
+		
+\item Seja $X \sim \text{Poisson}(10)$. Qual o valor de $k$ tal que $\P(X = k) = \P(X = k+1)$?
+
+\item Suponha que a probabilidade de que um item produzido por uma máquina seja defeituoso é 0,2. Se 10 itens produzidos por esta máquina são selecionados ao acaso, qual é a probabilidade de que não mais do que um item defeituoso seja encontrado? Use a Binomial e a Poisson e compare os resultados.
+
+\item Numa central telefônica, o número de chamadas chega segundo uma distribuiçao de Poisson com média de 8 chamadas por minuto. Determinar a probabilidade de que, em um minuto, se tenha:
+\begin{itemize}
+\item[a)] 10 ou mais chamadas;
+\item[b)] menos do que 9 chamadas;
+\item[c)] entre 7 (inclusive) e 9 (exclusive) chamadas.
+\end{itemize}
+
+\item Suponha que o número de acidentes que ocorrem numa estrada, a cada dia, é uma variável aleatória de Poisson com parâmetro $\lambda= 3$. %Ross - Capítulo 4 - Questão 4.57 - Pág. 177
+\begin{itemize}
+\item[a)] Encontre a probabilidade de que três ou mais acidentes ocorram hoje.
+\item[b)] Repita a parte {\bf a)}, sob o pressuposto de que pelo menos um acidente ocorra hoje.
+\end{itemize}
+
+\item Seja $X$ uma variável aleatória com esperança $\mu$ e variância $\sigma^2$. Encontre a esperança e a variância da variável $$Y=\frac{X-\mu}{\sigma}.$$ %Ross - Capítulo 4 - Teórica Questão 4.7 - Pág. 180
+
+\item Se $X$ é uma variável aleatória geométrica, mostre analiticamente que
+$$\mathcal{P}(X = n + k | X > n) = \mathcal{P}(X = k).$$
+Usando a interpretação de uma variável aleatória geométrica, dê um argumento verbal do porque a equação anterior é verdadeira.%Ross - Capítulo 4 - Teórica Questão 4.27 - Pág. 182
+
+\end{enumerate}  
+
+\newpage
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+       \begin{minipage}[c]{7in}
+                 {Universidade de Brasília} \\
+                 {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf Respostas}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item Seja $X$ o ganho do jogador, então
+$$\mathcal{P}(X=-2)=\dfrac{28}{91}, \ \ \ \mathcal{P}(X=-1)=\dfrac{16}{91}, \ \ \ \mathcal{P}(X=0)=\dfrac{1}{91}$$
+$$\mathcal{P}(X=1)=\dfrac{32}{91}, \ \ \ \mathcal{P}(X=2)=\dfrac{8}{91}, \ \ \ \mathcal{P}(X=4)=\dfrac{6}{91}$$
+
+\item
+\begin{itemize}
+\item[b)] 1,875.
+\item[c)] 1,61.
+\item[d)] Os valores são, respectivamente, 0; 0,5; 0 e 0,5.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[b)] As probabilidades são
+$$\mathcal{P}(X=1)=\dfrac{1}{4},  \ \ \ \mathcal{P}(X=2)=\dfrac{5}{12} \ \ \ e \ \ \ \mathcal{P}(X=3)=\dfrac{1}{12}.$$
+\item[c)] $\mathcal{P}\left(\frac{1}{2}<X<\frac{3}{2}\right)=\frac{1}{4}.$
+\end{itemize}
+
+\vspace{0.2cm}
+\item 
+\begin{itemize}
+\item[a)] $1/3$.
+\item[b)] $1/162$.
+\item[c)] $5/8$.
+\end{itemize}
+
+\vspace{0.2cm}
+\item $\mathcal{E}(X) = 0,1$ e $\text{Var}(X)=0,49.$
+
+\vspace{0.2cm}
+\item
+\begin{itemize}
+\item[b)] 0,5.
+\item[c)] 1,64.
+\end{itemize}
+
+\vspace{0.2cm}
+\item 
+\begin{itemize}
+\item[a)] $105/176$.
+\item[b)] $35/44$.
+\end{itemize}
+
+\vspace{0.2cm}
+\item $\P(X=0)=\dfrac{1}{125},\quad	\P(X=1)=\dfrac{12}{125},\quad	\P(X=2)=\dfrac{48}{125} \ \ \ e \quad	\P(X=3)=\dfrac{64}{125}$.
+
+\vspace{0.2cm}
+\item $\mathcal{E}(X)=7$.
+
+\vspace{0.2cm}
+\item 
+\begin{itemize}
+\item[a)] $4,6$.
+\item[b)] $2,04$.
+\item[c)] $2,75$.
+\end{itemize}
+
+\vspace{0.2cm}
+\item 
+\begin{itemize}
+\item[a)] $511/512$.
+\item[b)] $2$.
+\item[c)]  R\$ $3000,00$.
+\end{itemize}
+
+\vspace{0.2cm}
+\item O jogo não é justo para o jogador.
+
+\vspace{0.2cm}
+\item 
+\begin{itemize}
+\item[a)] $2+2p(1-p).$
+\item[b)] $6p^4-12p^3+3p^2+3p+3.$
+\end{itemize}
+
+\vspace{0.2cm}
+\item $p^{\ast}$.
+
+\vspace{0.2cm}
+\item $p\geqslant 1/2.$
+
+\vspace{0.2cm}
+\item
+\begin{itemize}
+\item[a)] $\binom{25}{k}\left(\frac{1}{5}\right)^k\left(\frac{1}{5}\right)^{25-k}$
+\item[b)] 0,0274; 0,0038; 0,9962; 0,9726; 0,3933; 0,2066; 0,3225 e 0,1358.
+\item[c)] A aleatoriedade das respostas.
+\end{itemize}
+
+\vspace{0.2cm}
+\item
+\begin{itemize}
+\item[a)] 0,1216.
+\item[b)] 0.
+\item[c)] 1.
+\item[d)] 0,9888.
+\item[e)] 0,1901.
+\item[f)] 0,6769.
+\item[g)] 0,0432.
+\item[h)] 18 e 1,8.
+\item[i)] 2 e 1,8.
+\end{itemize}
+
+\vspace{0.2cm}
+\item
+\begin{itemize}
+\item[a)] 0,0352.
+\item[b)] 0,8329.
+\item[c)] 0,9389.
+\end{itemize}
+
+\vspace{0.2cm}
+\item
+\begin{itemize}
+\item[a)] 0,9084.
+\item[b)] 0,0003.
+\item[c)] 0,0183.
+\item[b)] 0,9489
+\end{itemize}
+
+\vspace{0.2cm}
+\item
+\begin{itemize}
+\item[a)] 0,0166.
+\item[b)] Sim.
+\end{itemize}
+
+\vspace{0.2cm}
+\item
+\begin{itemize}
+\item[a)] 0,2617.
+\item[b)] 0,7383.
+\item[c)] 0,9961.
+\end{itemize}
+
+\vspace{0.2cm}
+\item 
+\begin{itemize}
+\item[a)] $0,1599$.
+\item[b)] $0,1646$.
+\end{itemize}
+
+\vspace{0.2cm}
+\item 
+\begin{itemize}
+\item[a)] ${\displaystyle \frac{1}{2}\binom{10}{7}(0,4)^7(0,6)^3+\frac{1}{2}\binom{10}{7}(0,7)^7(0,3)^3.}$
+\item[b)] 0,55.
+\end{itemize}
+
+\vspace{0.2cm}
+\item ${\displaystyle \frac{\frac{3^2}{2!}e^{-3}(0,75)}{\frac{3^2}{2!}e^{-3}(0,75)+\frac{5^2}{2!}e^{-5}(0,25)}.}$
+
+\vspace{0.2cm}
+\item
+\begin{itemize}
+\item[a)] 0,4060.
+\item[b)] 0,4511.
+\item[c)] 0,1353.
+\item[d)] 0,4.
+\end{itemize}
+
+\vspace{0.2cm}
+\item
+\begin{itemize}
+\item[a)] 0,6321.
+\item[b)] 0,9197.
+\item[c)] 0,2606.
+\item[d)] 0.7358.
+\end{itemize}
+
+\vspace{0.2cm}
+\item 
+\begin{itemize}
+\item[a)] 0,1429.
+\item[b)] As instalações deveriam atender no máximo quatro petroleiros por dia.
+\item[c)] 0,0361.
+\item[d)] 1,7819.
+\end{itemize}
+
+\vspace{0.2cm}
+\item $k = 9$.
+
+\vspace{0.2cm}
+\item As probabilidades calculadas a partir da binomial e poisson são, respectivamente, 0,3758 e 0,4060.
+
+\vspace{0.2cm}
+\item
+\begin{itemize}
+\item[a)] 0,2834.
+\item[b)] 0,5926.
+\item[c)] 0,2792.
+\end{itemize}
+
+\vspace{0.2cm}
+\item 
+\begin{itemize}
+\item[a)] ${\displaystyle 1-\frac{17}{2}e^{-3}.}$
+\item[b)] ${\displaystyle \frac{1-\frac{17}{2}e^{-3}}{1-e^{-3}}.}$
+\end{itemize}
+
+\vspace{0.2cm}
+\item 0 e 1
+
+\vspace{0.2cm}
+\item $p(1-p)^k.$
+
+\end{enumerate}
+\end{document}

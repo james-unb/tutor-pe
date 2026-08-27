@@ -1,0 +1,562 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Filipe posta, no máximo, duas fotos no Instagram em um
+  dia. Seja \(X\) o número de vezes que Filipe encontra sua namorada no
+  dia e \(Y\) o número fotos postadas. A distribuição de probabilidades
+  conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.23 & 0.01 \\
+  1 & 0.23 & 0.16 \\
+  2 & 0.25 & 0.12 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 1 | Y=2)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.59\)
+  \item
+    \(0.17\)
+  \item
+    \(0.39\)
+  \item
+    \(0.67\)
+  \item
+    \(0.29\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 1 | Y=2) &=& \frac{P(X\leq 1,Y=2)}{P(Y=2)} = \frac{P(X=0,Y=2)+P(X=1,Y=2)}{P(Y=2)}\\
+  &=& \frac{0.01+0.16}{0.01+0.16+0.12} = 0.59.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Filipe posta, no máximo, duas fotos no Instagram em um
+  dia. Seja \(X\) o número de vezes que Filipe encontra sua namorada no
+  dia e \(Y\) o número fotos postadas. A distribuição de probabilidades
+  conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.11 & 0.35 \\
+  1 & 0.02 & 0.36 \\
+  2 & 0.15 & 0.01 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 1 | Y=2)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.71\)
+  \item
+    \(0.88\)
+  \item
+    \(0.99\)
+  \item
+    \(0.38\)
+  \item
+    \(0.72\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 1 | Y=2) &=& \frac{P(X\leq 1,Y=2)}{P(Y=2)} = \frac{P(X=0,Y=2)+P(X=1,Y=2)}{P(Y=2)}\\
+  &=& \frac{0.35+0.36}{0.35+0.36+0.01} = 0.99.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Filipe posta, no máximo, duas fotos no Instagram em um
+  dia. Seja \(X\) o número de vezes que Filipe encontra sua namorada no
+  dia e \(Y\) o número fotos postadas. A distribuição de probabilidades
+  conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.01 & 0.08 \\
+  1 & 0.09 & 0.13 \\
+  2 & 0.21 & 0.48 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 1 | Y=2)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.58\)
+  \item
+    \(0.30\)
+  \item
+    \(0.21\)
+  \item
+    \(0.69\)
+  \item
+    \(0.22\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 1 | Y=2) &=& \frac{P(X\leq 1,Y=2)}{P(Y=2)} = \frac{P(X=0,Y=2)+P(X=1,Y=2)}{P(Y=2)}\\
+  &=& \frac{0.08+0.13}{0.08+0.13+0.48} = 0.3.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Filipe posta, no máximo, duas fotos no Instagram em um
+  dia. Seja \(X\) o número de vezes que Filipe encontra sua namorada no
+  dia e \(Y\) o número fotos postadas. A distribuição de probabilidades
+  conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.18 & 0.08 \\
+  1 & 0.16 & 0.39 \\
+  2 & 0.04 & 0.15 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 1 | Y=2)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.76\)
+  \item
+    \(0.47\)
+  \item
+    \(0.55\)
+  \item
+    \(0.62\)
+  \item
+    \(0.63\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 1 | Y=2) &=& \frac{P(X\leq 1,Y=2)}{P(Y=2)} = \frac{P(X=0,Y=2)+P(X=1,Y=2)}{P(Y=2)}\\
+  &=& \frac{0.08+0.39}{0.08+0.39+0.15} = 0.76.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Filipe posta, no máximo, duas fotos no Instagram em um
+  dia. Seja \(X\) o número de vezes que Filipe encontra sua namorada no
+  dia e \(Y\) o número fotos postadas. A distribuição de probabilidades
+  conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.04 & 0.18 \\
+  1 & 0.07 & 0.06 \\
+  2 & 0.07 & 0.58 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 1 | Y=2)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.29\)
+  \item
+    \(0.82\)
+  \item
+    \(0.83\)
+  \item
+    \(0.24\)
+  \item
+    \(0.13\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 1 | Y=2) &=& \frac{P(X\leq 1,Y=2)}{P(Y=2)} = \frac{P(X=0,Y=2)+P(X=1,Y=2)}{P(Y=2)}\\
+  &=& \frac{0.18+0.06}{0.18+0.06+0.58} = 0.29.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Filipe posta, no máximo, duas fotos no Instagram em um
+  dia. Seja \(X\) o número de vezes que Filipe encontra sua namorada no
+  dia e \(Y\) o número fotos postadas. A distribuição de probabilidades
+  conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.23 & 0.17 \\
+  1 & 0 & 0.25 \\
+  2 & 0.08 & 0.27 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 1 | Y=2)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.25\)
+  \item
+    \(0.42\)
+  \item
+    \(0.61\)
+  \item
+    \(0.69\)
+  \item
+    \(0.85\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 1 | Y=2) &=& \frac{P(X\leq 1,Y=2)}{P(Y=2)} = \frac{P(X=0,Y=2)+P(X=1,Y=2)}{P(Y=2)}\\
+  &=& \frac{0.17+0.25}{0.17+0.25+0.27} = 0.61.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Filipe posta, no máximo, duas fotos no Instagram em um
+  dia. Seja \(X\) o número de vezes que Filipe encontra sua namorada no
+  dia e \(Y\) o número fotos postadas. A distribuição de probabilidades
+  conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.44 & 0.17 \\
+  1 & 0.02 & 0.02 \\
+  2 & 0.09 & 0.26 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 1 | Y=2)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.15\)
+  \item
+    \(0.04\)
+  \item
+    \(0.45\)
+  \item
+    \(0.42\)
+  \item
+    \(0.19\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 1 | Y=2) &=& \frac{P(X\leq 1,Y=2)}{P(Y=2)} = \frac{P(X=0,Y=2)+P(X=1,Y=2)}{P(Y=2)}\\
+  &=& \frac{0.17+0.02}{0.17+0.02+0.26} = 0.42.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Filipe posta, no máximo, duas fotos no Instagram em um
+  dia. Seja \(X\) o número de vezes que Filipe encontra sua namorada no
+  dia e \(Y\) o número fotos postadas. A distribuição de probabilidades
+  conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.27 & 0.04 \\
+  1 & 0.27 & 0.17 \\
+  2 & 0.01 & 0.24 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 1 | Y=2)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.45\)
+  \item
+    \(0.51\)
+  \item
+    \(0.47\)
+  \item
+    \(0.21\)
+  \item
+    \(0.44\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 1 | Y=2) &=& \frac{P(X\leq 1,Y=2)}{P(Y=2)} = \frac{P(X=0,Y=2)+P(X=1,Y=2)}{P(Y=2)}\\
+  &=& \frac{0.04+0.17}{0.04+0.17+0.24} = 0.47.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Filipe posta, no máximo, duas fotos no Instagram em um
+  dia. Seja \(X\) o número de vezes que Filipe encontra sua namorada no
+  dia e \(Y\) o número fotos postadas. A distribuição de probabilidades
+  conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.01 & 0.08 \\
+  1 & 0.02 & 0.09 \\
+  2 & 0.52 & 0.28 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 1 | Y=2)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.45\)
+  \item
+    \(0.17\)
+  \item
+    \(0.38\)
+  \item
+    \(0.11\)
+  \item
+    \(0.21\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 1 | Y=2) &=& \frac{P(X\leq 1,Y=2)}{P(Y=2)} = \frac{P(X=0,Y=2)+P(X=1,Y=2)}{P(Y=2)}\\
+  &=& \frac{0.08+0.09}{0.08+0.09+0.28} = 0.38.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Filipe posta, no máximo, duas fotos no Instagram em um
+  dia. Seja \(X\) o número de vezes que Filipe encontra sua namorada no
+  dia e \(Y\) o número fotos postadas. A distribuição de probabilidades
+  conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.4 & 0 \\
+  1 & 0.12 & 0.29 \\
+  2 & 0.15 & 0.04 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 1 | Y=2)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.41\)
+  \item
+    \(0.33\)
+  \item
+    \(0.79\)
+  \item
+    \(0.29\)
+  \item
+    \(0.88\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 1 | Y=2) &=& \frac{P(X\leq 1,Y=2)}{P(Y=2)} = \frac{P(X=0,Y=2)+P(X=1,Y=2)}{P(Y=2)}\\
+  &=& \frac{0+0.29}{0+0.29+0.04} = 0.88.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

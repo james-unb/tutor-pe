@@ -1,0 +1,512 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A média diária de leitores de um pequeno periódico de uma cidade
+  interiorana é 454. Suponha que a quantidade de leitores do periódico
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(206116\)
+  \item
+    \(206570\)
+  \item
+    \(21\)
+  \item
+    \(454\)
+  \item
+    \(455\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(454)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 454 \times 455 = 206570.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 206570.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A média diária de leitores de um pequeno periódico de uma cidade
+  interiorana é 464. Suponha que a quantidade de leitores do periódico
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(464\)
+  \item
+    \(215760\)
+  \item
+    \(215296\)
+  \item
+    \(465\)
+  \item
+    \(22\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(464)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 464 \times 465 = 215760.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 215760.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A média diária de leitores de um pequeno periódico de uma cidade
+  interiorana é 510. Suponha que a quantidade de leitores do periódico
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(23\)
+  \item
+    \(260610\)
+  \item
+    \(510\)
+  \item
+    \(260100\)
+  \item
+    \(511\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(510)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 510 \times 511 = 260610.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 260610.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A média diária de leitores de um pequeno periódico de uma cidade
+  interiorana é 591. Suponha que a quantidade de leitores do periódico
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(591\)
+  \item
+    \(349872\)
+  \item
+    \(592\)
+  \item
+    \(24\)
+  \item
+    \(349281\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(591)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 591 \times 592 = 349872.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 349872.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A média diária de leitores de um pequeno periódico de uma cidade
+  interiorana é 429. Suponha que a quantidade de leitores do periódico
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(21\)
+  \item
+    \(429\)
+  \item
+    \(184041\)
+  \item
+    \(430\)
+  \item
+    \(184470\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(429)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 429 \times 430 = 184470.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 184470.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A média diária de leitores de um pequeno periódico de uma cidade
+  interiorana é 469. Suponha que a quantidade de leitores do periódico
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(219961\)
+  \item
+    \(220430\)
+  \item
+    \(469\)
+  \item
+    \(22\)
+  \item
+    \(470\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(469)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 469 \times 470 = 220430.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 220430.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A média diária de leitores de um pequeno periódico de uma cidade
+  interiorana é 562. Suponha que a quantidade de leitores do periódico
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(563\)
+  \item
+    \(316406\)
+  \item
+    \(315844\)
+  \item
+    \(562\)
+  \item
+    \(24\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(562)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 562 \times 563 = 316406.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 316406.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A média diária de leitores de um pequeno periódico de uma cidade
+  interiorana é 536. Suponha que a quantidade de leitores do periódico
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(287296\)
+  \item
+    \(287832\)
+  \item
+    \(536\)
+  \item
+    \(23\)
+  \item
+    \(537\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(536)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 536 \times 537 = 287832.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 287832.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A média diária de leitores de um pequeno periódico de uma cidade
+  interiorana é 600. Suponha que a quantidade de leitores do periódico
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(24\)
+  \item
+    \(601\)
+  \item
+    \(360600\)
+  \item
+    \(360000\)
+  \item
+    \(600\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(600)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 600 \times 601 = 360600.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 360600.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A média diária de leitores de um pequeno periódico de uma cidade
+  interiorana é 421. Suponha que a quantidade de leitores do periódico
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(177241\)
+  \item
+    \(422\)
+  \item
+    \(177662\)
+  \item
+    \(21\)
+  \item
+    \(421\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(421)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 421 \times 422 = 177662.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x!}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)!} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)!} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}^{\infty}n\frac{\lambda^{n}}{n!} + \sum_{n=0}^{\infty}\frac{\lambda^{n}}{n!}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 177662.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

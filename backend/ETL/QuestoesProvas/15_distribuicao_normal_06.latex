@@ -1,0 +1,441 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros sabe que seus motores têm duração Normal com
+  média 25000 km e desvio padrão de 200 km. Se a fábrica substitui o
+  motor que apresenta duração inferior à garantia, qual deve ser esta
+  garantia para que a porcentagem de motores substituídos seja de
+  2.74\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(21066\)
+  \item
+    \(25384\)
+  \item
+    \(24616\)
+  \item
+    \(26384\)
+  \item
+    \(24898\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.0274,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -1.92 \Rightarrow \alpha = -1.92 \times 200 + 25000 = 24616.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros sabe que seus motores têm duração Normal com
+  média 12000 km e desvio padrão de 400 km. Se a fábrica substitui o
+  motor que apresenta duração inferior à garantia, qual deve ser esta
+  garantia para que a porcentagem de motores substituídos seja de
+  2.68\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(14772\)
+  \item
+    \(11796\)
+  \item
+    \(12772\)
+  \item
+    \(11228\)
+  \item
+    \(10417\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.0268,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -1.93 \Rightarrow \alpha = -1.93 \times 400 + 12000 = 11228.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros sabe que seus motores têm duração Normal com
+  média 20000 km e desvio padrão de 100 km. Se a fábrica substitui o
+  motor que apresenta duração inferior à garantia, qual deve ser esta
+  garantia para que a porcentagem de motores substituídos seja de
+  1.83\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(19791\)
+  \item
+    \(20209\)
+  \item
+    \(19949\)
+  \item
+    \(20709\)
+  \item
+    \(16838\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.0183,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -2.09 \Rightarrow \alpha = -2.09 \times 100 + 20000 = 19791.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros sabe que seus motores têm duração Normal com
+  média 10000 km e desvio padrão de 200 km. Se a fábrica substitui o
+  motor que apresenta duração inferior à garantia, qual deve ser esta
+  garantia para que a porcentagem de motores substituídos seja de 1.5\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(9566\)
+  \item
+    \(10434\)
+  \item
+    \(9899\)
+  \item
+    \(8577\)
+  \item
+    \(11434\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.015,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -2.17 \Rightarrow \alpha = -2.17 \times 200 + 10000 = 9566.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros sabe que seus motores têm duração Normal com
+  média 25000 km e desvio padrão de 200 km. Se a fábrica substitui o
+  motor que apresenta duração inferior à garantia, qual deve ser esta
+  garantia para que a porcentagem de motores substituídos seja de
+  2.33\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(26398\)
+  \item
+    \(25398\)
+  \item
+    \(24898\)
+  \item
+    \(24602\)
+  \item
+    \(21091\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.0233,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -1.99 \Rightarrow \alpha = -1.99 \times 200 + 25000 = 24602.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros sabe que seus motores têm duração Normal com
+  média 17000 km e desvio padrão de 100 km. Se a fábrica substitui o
+  motor que apresenta duração inferior à garantia, qual deve ser esta
+  garantia para que a porcentagem de motores substituídos seja de
+  1.62\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(17714\)
+  \item
+    \(17214\)
+  \item
+    \(16786\)
+  \item
+    \(14336\)
+  \item
+    \(16949\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.0162,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -2.14 \Rightarrow \alpha = -2.14 \times 100 + 17000 = 16786.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros sabe que seus motores têm duração Normal com
+  média 20000 km e desvio padrão de 400 km. Se a fábrica substitui o
+  motor que apresenta duração inferior à garantia, qual deve ser esta
+  garantia para que a porcentagem de motores substituídos seja de
+  2.68\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(19796\)
+  \item
+    \(20772\)
+  \item
+    \(19228\)
+  \item
+    \(17095\)
+  \item
+    \(22772\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.0268,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -1.93 \Rightarrow \alpha = -1.93 \times 400 + 20000 = 19228.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros sabe que seus motores têm duração Normal com
+  média 17000 km e desvio padrão de 200 km. Se a fábrica substitui o
+  motor que apresenta duração inferior à garantia, qual deve ser esta
+  garantia para que a porcentagem de motores substituídos seja de
+  3.36\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(14362\)
+  \item
+    \(16634\)
+  \item
+    \(17366\)
+  \item
+    \(18366\)
+  \item
+    \(16897\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.0336,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -1.83 \Rightarrow \alpha = -1.83 \times 200 + 17000 = 16634.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros sabe que seus motores têm duração Normal com
+  média 15000 km e desvio padrão de 400 km. Se a fábrica substitui o
+  motor que apresenta duração inferior à garantia, qual deve ser esta
+  garantia para que a porcentagem de motores substituídos seja de
+  2.74\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(14232\)
+  \item
+    \(15768\)
+  \item
+    \(12919\)
+  \item
+    \(14796\)
+  \item
+    \(17768\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.0274,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -1.92 \Rightarrow \alpha = -1.92 \times 400 + 15000 = 14232.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros sabe que seus motores têm duração Normal com
+  média 12000 km e desvio padrão de 300 km. Se a fábrica substitui o
+  motor que apresenta duração inferior à garantia, qual deve ser esta
+  garantia para que a porcentagem de motores substituídos seja de
+  1.54\%?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(11848\)
+  \item
+    \(11352\)
+  \item
+    \(12648\)
+  \item
+    \(10351\)
+  \item
+    \(14148\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelo enunciado,
+  \[\mathbb{P}(X \leq \alpha) = \mathbb{P} \left(Z \leq \frac{\alpha -  \mu}{\sigma} \right) = 0.0154,\]
+  onde \(\alpha\) é o quantil desejado e \(Z\) é uma variável aleatória
+  com distribuição Normal padrão.
+
+  Da tabela da distribuição Normal padrão, temos que
+  \[\frac{\alpha -  \mu}{\sigma} = -2.16 \Rightarrow \alpha = -2.16 \times 300 + 12000 = 11352.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

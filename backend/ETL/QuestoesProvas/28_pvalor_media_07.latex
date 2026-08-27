@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Historicamente, a nota média dos alunos de uma disciplina de
+  estatística é de 5.36. Um professor desta disciplina suspeita que a
+  nota média de sua turma foi maior ou igual a esse valor e, a partir de
+  uma amostra aleatória simples com 17 estudantes, obteve média amostral
+  de 5.47 e desvio padrão amostral de 0.34. Assumindo que a nota de um
+  aluno segue distribuição Normal, assinale a altervativa correspondente
+  ao p-valor do teste sobre a suspeita do professor.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9500\)
+  \item
+    \(0.1000\)
+  \item
+    \(0.9000\)
+  \item
+    \(0.0500\)
+  \item
+    \(0.3315\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq5.36 \ \ versus \ \ H_a : \mu >  5.36.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-5.36}{s/\sqrt{n}} = 1.3339\] e o p-valor
+  \[\alpha^{*} = 1-P(T_{16}\leq1.3339))= 0.1.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Historicamente, a nota média dos alunos de uma disciplina de
+  estatística é de 5.39. Um professor desta disciplina suspeita que a
+  nota média de sua turma foi maior ou igual a esse valor e, a partir de
+  uma amostra aleatória simples com 20 estudantes, obteve média amostral
+  de 5.79 e desvio padrão amostral de 0.62. Assumindo que a nota de um
+  aluno segue distribuição Normal, assinale a altervativa correspondente
+  ao p-valor do teste sobre a suspeita do professor.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9950\)
+  \item
+    \(0.0025\)
+  \item
+    \(0.0050\)
+  \item
+    \(0.9975\)
+  \item
+    \(0.3315\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq5.39 \ \ versus \ \ H_a : \mu >  5.39.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-5.39}{s/\sqrt{n}} = 2.8852\] e o p-valor
+  \[\alpha^{*} = 1-P(T_{19}\leq2.8852))= 0.005.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Historicamente, a nota média dos alunos de uma disciplina de
+  estatística é de 5.05. Um professor desta disciplina suspeita que a
+  nota média de sua turma foi maior ou igual a esse valor e, a partir de
+  uma amostra aleatória simples com 12 estudantes, obteve média amostral
+  de 5.47 e desvio padrão amostral de 0.4. Assumindo que a nota de um
+  aluno segue distribuição Normal, assinale a altervativa correspondente
+  ao p-valor do teste sobre a suspeita do professor.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0020\)
+  \item
+    \(0.9980\)
+  \item
+    \(0.9990\)
+  \item
+    \(0.0010\)
+  \item
+    \(0.3315\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq5.05 \ \ versus \ \ H_a : \mu >  5.05.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-5.05}{s/\sqrt{n}} = 3.6373\] e o p-valor
+  \[\alpha^{*} = 1-P(T_{11}\leq3.6373))= 0.002.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Historicamente, a nota média dos alunos de uma disciplina de
+  estatística é de 5.4. Um professor desta disciplina suspeita que a
+  nota média de sua turma foi maior ou igual a esse valor e, a partir de
+  uma amostra aleatória simples com 21 estudantes, obteve média amostral
+  de 5.74 e desvio padrão amostral de 0.55. Assumindo que a nota de um
+  aluno segue distribuição Normal, assinale a altervativa correspondente
+  ao p-valor do teste sobre a suspeita do professor.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0025\)
+  \item
+    \(0.9950\)
+  \item
+    \(0.3315\)
+  \item
+    \(0.9975\)
+  \item
+    \(0.0050\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq5.4 \ \ versus \ \ H_a : \mu >  5.4.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-5.4}{s/\sqrt{n}} = 2.8329\] e o p-valor
+  \[\alpha^{*} = 1-P(T_{20}\leq2.8329))= 0.005.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Historicamente, a nota média dos alunos de uma disciplina de
+  estatística é de 4.57. Um professor desta disciplina suspeita que a
+  nota média de sua turma foi maior ou igual a esse valor e, a partir de
+  uma amostra aleatória simples com 18 estudantes, obteve média amostral
+  de 4.74 e desvio padrão amostral de 0.53. Assumindo que a nota de um
+  aluno segue distribuição Normal, assinale a altervativa correspondente
+  ao p-valor do teste sobre a suspeita do professor.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9500\)
+  \item
+    \(0.1000\)
+  \item
+    \(0.3315\)
+  \item
+    \(0.9000\)
+  \item
+    \(0.0500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq4.57 \ \ versus \ \ H_a : \mu >  4.57.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-4.57}{s/\sqrt{n}} = 1.3608\] e o p-valor
+  \[\alpha^{*} = 1-P(T_{17}\leq1.3608))= 0.1.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Historicamente, a nota média dos alunos de uma disciplina de
+  estatística é de 4.69. Um professor desta disciplina suspeita que a
+  nota média de sua turma foi maior ou igual a esse valor e, a partir de
+  uma amostra aleatória simples com 16 estudantes, obteve média amostral
+  de 4.81 e desvio padrão amostral de 0.87. Assumindo que a nota de um
+  aluno segue distribuição Normal, assinale a altervativa correspondente
+  ao p-valor do teste sobre a suspeita do professor.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3000\)
+  \item
+    \(0.8500\)
+  \item
+    \(0.1500\)
+  \item
+    \(0.7000\)
+  \item
+    \(0.3315\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq4.69 \ \ versus \ \ H_a : \mu >  4.69.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-4.69}{s/\sqrt{n}} = 0.5517\] e o p-valor
+  \[\alpha^{*} = 1-P(T_{15}\leq0.5517))= 0.3.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Historicamente, a nota média dos alunos de uma disciplina de
+  estatística é de 5.18. Um professor desta disciplina suspeita que a
+  nota média de sua turma foi maior ou igual a esse valor e, a partir de
+  uma amostra aleatória simples com 13 estudantes, obteve média amostral
+  de 5.95 e desvio padrão amostral de 0.78. Assumindo que a nota de um
+  aluno segue distribuição Normal, assinale a altervativa correspondente
+  ao p-valor do teste sobre a suspeita do professor.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0010\)
+  \item
+    \(0.3315\)
+  \item
+    \(0.0020\)
+  \item
+    \(0.9980\)
+  \item
+    \(0.9990\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq5.18 \ \ versus \ \ H_a : \mu >  5.18.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-5.18}{s/\sqrt{n}} = 3.5593\] e o p-valor
+  \[\alpha^{*} = 1-P(T_{12}\leq3.5593))= 0.002.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Historicamente, a nota média dos alunos de uma disciplina de
+  estatística é de 5.26. Um professor desta disciplina suspeita que a
+  nota média de sua turma foi maior ou igual a esse valor e, a partir de
+  uma amostra aleatória simples com 25 estudantes, obteve média amostral
+  de 5.42 e desvio padrão amostral de 0.47. Assumindo que a nota de um
+  aluno segue distribuição Normal, assinale a altervativa correspondente
+  ao p-valor do teste sobre a suspeita do professor.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0500\)
+  \item
+    \(0.0250\)
+  \item
+    \(0.3315\)
+  \item
+    \(0.9750\)
+  \item
+    \(0.9500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq5.26 \ \ versus \ \ H_a : \mu >  5.26.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-5.26}{s/\sqrt{n}} = 1.7021\] e o p-valor
+  \[\alpha^{*} = 1-P(T_{24}\leq1.7021))= 0.05.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Historicamente, a nota média dos alunos de uma disciplina de
+  estatística é de 5.35. Um professor desta disciplina suspeita que a
+  nota média de sua turma foi maior ou igual a esse valor e, a partir de
+  uma amostra aleatória simples com 14 estudantes, obteve média amostral
+  de 6.17 e desvio padrão amostral de 0.8. Assumindo que a nota de um
+  aluno segue distribuição Normal, assinale a altervativa correspondente
+  ao p-valor do teste sobre a suspeita do professor.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0005\)
+  \item
+    \(0.9990\)
+  \item
+    \(0.9995\)
+  \item
+    \(0.3315\)
+  \item
+    \(0.0010\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq5.35 \ \ versus \ \ H_a : \mu >  5.35.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-5.35}{s/\sqrt{n}} = 3.8352\] e o p-valor
+  \[\alpha^{*} = 1-P(T_{13}\leq3.8352))= 0.001.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Historicamente, a nota média dos alunos de uma disciplina de
+  estatística é de 5.27. Um professor desta disciplina suspeita que a
+  nota média de sua turma foi maior ou igual a esse valor e, a partir de
+  uma amostra aleatória simples com 19 estudantes, obteve média amostral
+  de 5.53 e desvio padrão amostral de 0.84. Assumindo que a nota de um
+  aluno segue distribuição Normal, assinale a altervativa correspondente
+  ao p-valor do teste sobre a suspeita do professor.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9500\)
+  \item
+    \(0.0500\)
+  \item
+    \(0.1000\)
+  \item
+    \(0.9000\)
+  \item
+    \(0.3315\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq5.27 \ \ versus \ \ H_a : \mu >  5.27.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-5.27}{s/\sqrt{n}} = 1.3492\] e o p-valor
+  \[\alpha^{*} = 1-P(T_{18}\leq1.3492))= 0.1.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

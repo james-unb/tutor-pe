@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{\exp(x)}{150}, & \mbox{se}\, \ \ 0 \leq x \leq 5.017; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a valor esperado de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.74\)
+  \item
+    \(16.40\)
+  \item
+    \(17.23\)
+  \item
+    \(33.63\)
+  \item
+    \(4.05\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{150} \left(\int_{0}^{5.017}x\exp(x)\right)dx \\
+  & = \frac{1}{150} \left[x\exp(x)-\int\exp(x)dx\right]_{0}^{5.017} \\
+  & = \frac{1}{150}\left[(\exp(5.017)(5.017-1))+1\right]=4.05.
+  \end{aligned}\]
+
+  Portanto, \[E(X)=4.05.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{\exp(x)}{90}, & \mbox{se}\, \ \ 0 \leq x \leq 4.511; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a valor esperado de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(12.67\)
+  \item
+    \(26.12\)
+  \item
+    \(0.70\)
+  \item
+    \(13.45\)
+  \item
+    \(3.56\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{90} \left(\int_{0}^{4.511}x\exp(x)\right)dx \\
+  & = \frac{1}{90} \left[x\exp(x)-\int\exp(x)dx\right]_{0}^{4.511} \\
+  & = \frac{1}{90}\left[(\exp(4.511)(4.511-1))+1\right]=3.56.
+  \end{aligned}\]
+
+  Portanto, \[E(X)=3.56.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{\exp(x)}{150}, & \mbox{se}\, \ \ 0 \leq x \leq 5.017; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a valor esperado de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(16.40\)
+  \item
+    \(33.63\)
+  \item
+    \(17.23\)
+  \item
+    \(4.05\)
+  \item
+    \(0.74\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{150} \left(\int_{0}^{5.017}x\exp(x)\right)dx \\
+  & = \frac{1}{150} \left[x\exp(x)-\int\exp(x)dx\right]_{0}^{5.017} \\
+  & = \frac{1}{150}\left[(\exp(5.017)(5.017-1))+1\right]=4.05.
+  \end{aligned}\]
+
+  Portanto, \[E(X)=4.05.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{\exp(x)}{210}, & \mbox{se}\, \ \ 0 \leq x \leq 5.352; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a valor esperado de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(39.21\)
+  \item
+    \(20.03\)
+  \item
+    \(4.38\)
+  \item
+    \(19.18\)
+  \item
+    \(0.76\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{210} \left(\int_{0}^{5.352}x\exp(x)\right)dx \\
+  & = \frac{1}{210} \left[x\exp(x)-\int\exp(x)dx\right]_{0}^{5.352} \\
+  & = \frac{1}{210}\left[(\exp(5.352)(5.352-1))+1\right]=4.38.
+  \end{aligned}\]
+
+  Portanto, \[E(X)=4.38.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{\exp(x)}{150}, & \mbox{se}\, \ \ 0 \leq x \leq 5.017; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a valor esperado de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(17.23\)
+  \item
+    \(4.05\)
+  \item
+    \(16.40\)
+  \item
+    \(0.74\)
+  \item
+    \(33.63\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{150} \left(\int_{0}^{5.017}x\exp(x)\right)dx \\
+  & = \frac{1}{150} \left[x\exp(x)-\int\exp(x)dx\right]_{0}^{5.017} \\
+  & = \frac{1}{150}\left[(\exp(5.017)(5.017-1))+1\right]=4.05.
+  \end{aligned}\]
+
+  Portanto, \[E(X)=4.05.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{\exp(x)}{210}, & \mbox{se}\, \ \ 0 \leq x \leq 5.352; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a valor esperado de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.38\)
+  \item
+    \(19.18\)
+  \item
+    \(20.03\)
+  \item
+    \(39.21\)
+  \item
+    \(0.76\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{210} \left(\int_{0}^{5.352}x\exp(x)\right)dx \\
+  & = \frac{1}{210} \left[x\exp(x)-\int\exp(x)dx\right]_{0}^{5.352} \\
+  & = \frac{1}{210}\left[(\exp(5.352)(5.352-1))+1\right]=4.38.
+  \end{aligned}\]
+
+  Portanto, \[E(X)=4.38.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{\exp(x)}{210}, & \mbox{se}\, \ \ 0 \leq x \leq 5.352; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a valor esperado de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.76\)
+  \item
+    \(20.03\)
+  \item
+    \(19.18\)
+  \item
+    \(4.38\)
+  \item
+    \(39.21\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{210} \left(\int_{0}^{5.352}x\exp(x)\right)dx \\
+  & = \frac{1}{210} \left[x\exp(x)-\int\exp(x)dx\right]_{0}^{5.352} \\
+  & = \frac{1}{210}\left[(\exp(5.352)(5.352-1))+1\right]=4.38.
+  \end{aligned}\]
+
+  Portanto, \[E(X)=4.38.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{\exp(x)}{90}, & \mbox{se}\, \ \ 0 \leq x \leq 4.511; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a valor esperado de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(13.45\)
+  \item
+    \(3.56\)
+  \item
+    \(26.12\)
+  \item
+    \(12.67\)
+  \item
+    \(0.70\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{90} \left(\int_{0}^{4.511}x\exp(x)\right)dx \\
+  & = \frac{1}{90} \left[x\exp(x)-\int\exp(x)dx\right]_{0}^{4.511} \\
+  & = \frac{1}{90}\left[(\exp(4.511)(4.511-1))+1\right]=3.56.
+  \end{aligned}\]
+
+  Portanto, \[E(X)=3.56.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{\exp(x)}{90}, & \mbox{se}\, \ \ 0 \leq x \leq 4.511; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a valor esperado de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.56\)
+  \item
+    \(13.45\)
+  \item
+    \(26.12\)
+  \item
+    \(0.70\)
+  \item
+    \(12.67\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{90} \left(\int_{0}^{4.511}x\exp(x)\right)dx \\
+  & = \frac{1}{90} \left[x\exp(x)-\int\exp(x)dx\right]_{0}^{4.511} \\
+  & = \frac{1}{90}\left[(\exp(4.511)(4.511-1))+1\right]=3.56.
+  \end{aligned}\]
+
+  Portanto, \[E(X)=3.56.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      \frac{\exp(x)}{90}, & \mbox{se}\, \ \ 0 \leq x \leq 4.511; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a valor esperado de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.70\)
+  \item
+    \(12.67\)
+  \item
+    \(3.56\)
+  \item
+    \(13.45\)
+  \item
+    \(26.12\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[\begin{aligned}
+  E(X) & = \int_{-\infty}^{\infty} x f(x) dx \\
+  & = \frac{1}{90} \left(\int_{0}^{4.511}x\exp(x)\right)dx \\
+  & = \frac{1}{90} \left[x\exp(x)-\int\exp(x)dx\right]_{0}^{4.511} \\
+  & = \frac{1}{90}\left[(\exp(4.511)(4.511-1))+1\right]=3.56.
+  \end{aligned}\]
+
+  Portanto, \[E(X)=3.56.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

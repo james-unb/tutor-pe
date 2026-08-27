@@ -1,0 +1,412 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      0.166666666666667 \exp(-0.166666666666667(x-22)), & \mbox{se}\, \ \ 22 \leq x \leq \infty; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a esperança de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(22.0\)
+  \item
+    \(39.0\)
+  \item
+    \(32.4\)
+  \item
+    \(28.0\)
+  \item
+    \(6.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y= X - 22\), então, \(Y \sim \exp(0.166666666666667)\). Pelas
+  propriedades da esperança, \[E(X) = E(Y+22)=E(Y)+22 = 28.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      0.111111111111111 \exp(-0.111111111111111(x-15)), & \mbox{se}\, \ \ 15 \leq x \leq \infty; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a esperança de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(24.0\)
+  \item
+    \(27.0\)
+  \item
+    \(15.0\)
+  \item
+    \(9.0\)
+  \item
+    \(31.5\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y= X - 15\), então, \(Y \sim \exp(0.111111111111111)\). Pelas
+  propriedades da esperança, \[E(X) = E(Y+15)=E(Y)+15 = 24.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      0.142857142857143 \exp(-0.142857142857143(x-21)), & \mbox{se}\, \ \ 21 \leq x \leq \infty; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a esperança de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(38.5\)
+  \item
+    \(28.0\)
+  \item
+    \(7.0\)
+  \item
+    \(32.2\)
+  \item
+    \(21.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y= X - 21\), então, \(Y \sim \exp(0.142857142857143)\). Pelas
+  propriedades da esperança, \[E(X) = E(Y+21)=E(Y)+21 = 28.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      0.333333333333333 \exp(-0.333333333333333(x-10)), & \mbox{se}\, \ \ 10 \leq x \leq \infty; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a esperança de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(18.0\)
+  \item
+    \(13.0\)
+  \item
+    \(15.0\)
+  \item
+    \(3.0\)
+  \item
+    \(10.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y= X - 10\), então, \(Y \sim \exp(0.333333333333333)\). Pelas
+  propriedades da esperança, \[E(X) = E(Y+10)=E(Y)+10 = 13.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      0.142857142857143 \exp(-0.142857142857143(x-20)), & \mbox{se}\, \ \ 20 \leq x \leq \infty; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a esperança de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(31.0\)
+  \item
+    \(7.0\)
+  \item
+    \(20.0\)
+  \item
+    \(27.0\)
+  \item
+    \(37.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y= X - 20\), então, \(Y \sim \exp(0.142857142857143)\). Pelas
+  propriedades da esperança, \[E(X) = E(Y+20)=E(Y)+20 = 27.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      0.2 \exp(-0.2(x-11)), & \mbox{se}\, \ \ 11 \leq x \leq \infty; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a esperança de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(16.0\)
+  \item
+    \(21.5\)
+  \item
+    \(18.2\)
+  \item
+    \(11.0\)
+  \item
+    \(5.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y= X - 11\), então, \(Y \sim \exp(0.2)\). Pelas propriedades da
+  esperança, \[E(X) = E(Y+11)=E(Y)+11 = 16.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      0.111111111111111 \exp(-0.111111111111111(x-12)), & \mbox{se}\, \ \ 12 \leq x \leq \infty; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a esperança de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(21.0\)
+  \item
+    \(27.0\)
+  \item
+    \(12.0\)
+  \item
+    \(9.0\)
+  \item
+    \(23.4\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y= X - 12\), então, \(Y \sim \exp(0.111111111111111)\). Pelas
+  propriedades da esperança, \[E(X) = E(Y+12)=E(Y)+12 = 21.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      0.2 \exp(-0.2(x-10)), & \mbox{se}\, \ \ 10 \leq x \leq \infty; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a esperança de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(15.0\)
+  \item
+    \(20.0\)
+  \item
+    \(10.0\)
+  \item
+    \(17.0\)
+  \item
+    \(5.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y= X - 10\), então, \(Y \sim \exp(0.2)\). Pelas propriedades da
+  esperança, \[E(X) = E(Y+10)=E(Y)+10 = 15.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      0.25 \exp(-0.25(x-15)), & \mbox{se}\, \ \ 15 \leq x \leq \infty; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a esperança de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(22.0\)
+  \item
+    \(4.0\)
+  \item
+    \(26.5\)
+  \item
+    \(15.0\)
+  \item
+    \(19.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y= X - 15\), então, \(Y \sim \exp(0.25)\). Pelas propriedades
+  da esperança, \[E(X) = E(Y+15)=E(Y)+15 = 19.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua com função de densidade:
+  \[f_X(x) = \left\{
+      \begin{array}{ll}
+      0.142857142857143 \exp(-0.142857142857143(x-25)), & \mbox{se}\, \ \ 25 \leq x \leq \infty; \\ 
+      0, & \text{caso contrário}.\\
+      \end{array}
+      \right. \nonumber\] Qual é a esperança de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(32.0\)
+  \item
+    \(44.5\)
+  \item
+    \(25.0\)
+  \item
+    \(37.0\)
+  \item
+    \(7.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y= X - 25\), então, \(Y \sim \exp(0.142857142857143)\). Pelas
+  propriedades da esperança, \[E(X) = E(Y+25)=E(Y)+25 = 32.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

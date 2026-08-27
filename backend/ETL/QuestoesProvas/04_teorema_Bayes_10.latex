@@ -1,0 +1,492 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma cidade em que os carros são testados para emissão de poluentes,
+  18\% deles emitem quantidade considerada excessiva. O teste reprova
+  93\% dos carros que emitem excesso de poluentes, mas resulta em falso
+  positivo para 6.00000000000001\% dos carros que emitem quantidade
+  considerada normal. Qual é a probabilidade de um carro reprovado no
+  teste realmente emitir quantidade excessiva de poluentes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.227\)
+  \item
+    \(0.930\)
+  \item
+    \(0.831\)
+  \item
+    \(0.984\)
+  \item
+    \(0.773\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O carro foi reprovado no teste''}.\\
+  \text{E} &=& \text{ ``Emissão excessiva de gases poluentes''}. \\
+  \text{N} &=& \text{ ``Emissão normal de gases poluentes''}.
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[P(E|R) &=& \dfrac{P(R|E) \times P(E)}{P(R)} &=& \dfrac{P(R|E) \times P(E)}{P(R|E)P(E)+P(R|N)P(N)}\]\\
+  \[&=& \dfrac{0.93 \times 0.18}{0.93 \times 0.18+0.0600000000000001
+  \times 0.82}&=& \dfrac{0.167}{0.217} &=& 0.773.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma cidade em que os carros são testados para emissão de poluentes,
+  29\% deles emitem quantidade considerada excessiva. O teste reprova
+  91\% dos carros que emitem excesso de poluentes, mas resulta em falso
+  positivo para 9\% dos carros que emitem quantidade considerada normal.
+  Qual é a probabilidade de um carro reprovado no teste realmente emitir
+  quantidade excessiva de poluentes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.910\)
+  \item
+    \(0.805\)
+  \item
+    \(0.961\)
+  \item
+    \(0.885\)
+  \item
+    \(0.195\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O carro foi reprovado no teste''}.\\
+  \text{E} &=& \text{ ``Emissão excessiva de gases poluentes''}. \\
+  \text{N} &=& \text{ ``Emissão normal de gases poluentes''}.
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[P(E|R) &=& \dfrac{P(R|E) \times P(E)}{P(R)} &=& \dfrac{P(R|E) \times P(E)}{P(R|E)P(E)+P(R|N)P(N)}\]\\
+  \[&=& \dfrac{0.91 \times 0.29}{0.91 \times 0.29+0.09
+  \times 0.71}&=& \dfrac{0.264}{0.328} &=& 0.805.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma cidade em que os carros são testados para emissão de poluentes,
+  14\% deles emitem quantidade considerada excessiva. O teste reprova
+  96\% dos carros que emitem excesso de poluentes, mas resulta em falso
+  positivo para 17\% dos carros que emitem quantidade considerada
+  normal. Qual é a probabilidade de um carro reprovado no teste
+  realmente emitir quantidade excessiva de poluentes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.499\)
+  \item
+    \(0.479\)
+  \item
+    \(0.960\)
+  \item
+    \(0.992\)
+  \item
+    \(0.521\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O carro foi reprovado no teste''}.\\
+  \text{E} &=& \text{ ``Emissão excessiva de gases poluentes''}. \\
+  \text{N} &=& \text{ ``Emissão normal de gases poluentes''}.
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[P(E|R) &=& \dfrac{P(R|E) \times P(E)}{P(R)} &=& \dfrac{P(R|E) \times P(E)}{P(R|E)P(E)+P(R|N)P(N)}\]\\
+  \[&=& \dfrac{0.96 \times 0.14}{0.96 \times 0.14+0.17
+  \times 0.86}&=& \dfrac{0.134}{0.281} &=& 0.479.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma cidade em que os carros são testados para emissão de poluentes,
+  24\% deles emitem quantidade considerada excessiva. O teste reprova
+  94\% dos carros que emitem excesso de poluentes, mas resulta em falso
+  positivo para 17\% dos carros que emitem quantidade considerada
+  normal. Qual é a probabilidade de um carro reprovado no teste
+  realmente emitir quantidade excessiva de poluentes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.676\)
+  \item
+    \(0.636\)
+  \item
+    \(0.978\)
+  \item
+    \(0.364\)
+  \item
+    \(0.940\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O carro foi reprovado no teste''}.\\
+  \text{E} &=& \text{ ``Emissão excessiva de gases poluentes''}. \\
+  \text{N} &=& \text{ ``Emissão normal de gases poluentes''}.
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[P(E|R) &=& \dfrac{P(R|E) \times P(E)}{P(R)} &=& \dfrac{P(R|E) \times P(E)}{P(R|E)P(E)+P(R|N)P(N)}\]\\
+  \[&=& \dfrac{0.94 \times 0.24}{0.94 \times 0.24+0.17
+  \times 0.76}&=& \dfrac{0.226}{0.355} &=& 0.636.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma cidade em que os carros são testados para emissão de poluentes,
+  20\% deles emitem quantidade considerada excessiva. O teste reprova
+  92\% dos carros que emitem excesso de poluentes, mas resulta em falso
+  positivo para 18\% dos carros que emitem quantidade considerada
+  normal. Qual é a probabilidade de um carro reprovado no teste
+  realmente emitir quantidade excessiva de poluentes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.610\)
+  \item
+    \(0.976\)
+  \item
+    \(0.561\)
+  \item
+    \(0.439\)
+  \item
+    \(0.920\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O carro foi reprovado no teste''}.\\
+  \text{E} &=& \text{ ``Emissão excessiva de gases poluentes''}. \\
+  \text{N} &=& \text{ ``Emissão normal de gases poluentes''}.
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[P(E|R) &=& \dfrac{P(R|E) \times P(E)}{P(R)} &=& \dfrac{P(R|E) \times P(E)}{P(R|E)P(E)+P(R|N)P(N)}\]\\
+  \[&=& \dfrac{0.92 \times 0.2}{0.92 \times 0.2+0.18
+  \times 0.8}&=& \dfrac{0.184}{0.328} &=& 0.561.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma cidade em que os carros são testados para emissão de poluentes,
+  18\% deles emitem quantidade considerada excessiva. O teste reprova
+  91\% dos carros que emitem excesso de poluentes, mas resulta em falso
+  positivo para 14\% dos carros que emitem quantidade considerada
+  normal. Qual é a probabilidade de um carro reprovado no teste
+  realmente emitir quantidade excessiva de poluentes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.588\)
+  \item
+    \(0.978\)
+  \item
+    \(0.646\)
+  \item
+    \(0.412\)
+  \item
+    \(0.910\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O carro foi reprovado no teste''}.\\
+  \text{E} &=& \text{ ``Emissão excessiva de gases poluentes''}. \\
+  \text{N} &=& \text{ ``Emissão normal de gases poluentes''}.
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[P(E|R) &=& \dfrac{P(R|E) \times P(E)}{P(R)} &=& \dfrac{P(R|E) \times P(E)}{P(R|E)P(E)+P(R|N)P(N)}\]\\
+  \[&=& \dfrac{0.91 \times 0.18}{0.91 \times 0.18+0.14
+  \times 0.82}&=& \dfrac{0.164}{0.279} &=& 0.588.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma cidade em que os carros são testados para emissão de poluentes,
+  17\% deles emitem quantidade considerada excessiva. O teste reprova
+  92\% dos carros que emitem excesso de poluentes, mas resulta em falso
+  positivo para 10\% dos carros que emitem quantidade considerada
+  normal. Qual é a probabilidade de um carro reprovado no teste
+  realmente emitir quantidade excessiva de poluentes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.982\)
+  \item
+    \(0.920\)
+  \item
+    \(0.710\)
+  \item
+    \(0.653\)
+  \item
+    \(0.347\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O carro foi reprovado no teste''}.\\
+  \text{E} &=& \text{ ``Emissão excessiva de gases poluentes''}. \\
+  \text{N} &=& \text{ ``Emissão normal de gases poluentes''}.
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[P(E|R) &=& \dfrac{P(R|E) \times P(E)}{P(R)} &=& \dfrac{P(R|E) \times P(E)}{P(R|E)P(E)+P(R|N)P(N)}\]\\
+  \[&=& \dfrac{0.92 \times 0.17}{0.92 \times 0.17+0.1
+  \times 0.83}&=& \dfrac{0.156}{0.239} &=& 0.653.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma cidade em que os carros são testados para emissão de poluentes,
+  19\% deles emitem quantidade considerada excessiva. O teste reprova
+  95\% dos carros que emitem excesso de poluentes, mas resulta em falso
+  positivo para 13\% dos carros que emitem quantidade considerada
+  normal. Qual é a probabilidade de um carro reprovado no teste
+  realmente emitir quantidade excessiva de poluentes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.987\)
+  \item
+    \(0.950\)
+  \item
+    \(0.665\)
+  \item
+    \(0.368\)
+  \item
+    \(0.632\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O carro foi reprovado no teste''}.\\
+  \text{E} &=& \text{ ``Emissão excessiva de gases poluentes''}. \\
+  \text{N} &=& \text{ ``Emissão normal de gases poluentes''}.
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[P(E|R) &=& \dfrac{P(R|E) \times P(E)}{P(R)} &=& \dfrac{P(R|E) \times P(E)}{P(R|E)P(E)+P(R|N)P(N)}\]\\
+  \[&=& \dfrac{0.95 \times 0.19}{0.95 \times 0.19+0.13
+  \times 0.81}&=& \dfrac{0.18}{0.286} &=& 0.632.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma cidade em que os carros são testados para emissão de poluentes,
+  14\% deles emitem quantidade considerada excessiva. O teste reprova
+  90\% dos carros que emitem excesso de poluentes, mas resulta em falso
+  positivo para 18\% dos carros que emitem quantidade considerada
+  normal. Qual é a probabilidade de um carro reprovado no teste
+  realmente emitir quantidade excessiva de poluentes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.900\)
+  \item
+    \(0.499\)
+  \item
+    \(0.551\)
+  \item
+    \(0.981\)
+  \item
+    \(0.449\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O carro foi reprovado no teste''}.\\
+  \text{E} &=& \text{ ``Emissão excessiva de gases poluentes''}. \\
+  \text{N} &=& \text{ ``Emissão normal de gases poluentes''}.
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[P(E|R) &=& \dfrac{P(R|E) \times P(E)}{P(R)} &=& \dfrac{P(R|E) \times P(E)}{P(R|E)P(E)+P(R|N)P(N)}\]\\
+  \[&=& \dfrac{0.9 \times 0.14}{0.9 \times 0.14+0.18
+  \times 0.86}&=& \dfrac{0.126}{0.281} &=& 0.449.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma cidade em que os carros são testados para emissão de poluentes,
+  13\% deles emitem quantidade considerada excessiva. O teste reprova
+  92\% dos carros que emitem excesso de poluentes, mas resulta em falso
+  positivo para 19\% dos carros que emitem quantidade considerada
+  normal. Qual é a probabilidade de um carro reprovado no teste
+  realmente emitir quantidade excessiva de poluentes?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.920\)
+  \item
+    \(0.985\)
+  \item
+    \(0.456\)
+  \item
+    \(0.580\)
+  \item
+    \(0.420\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O carro foi reprovado no teste''}.\\
+  \text{E} &=& \text{ ``Emissão excessiva de gases poluentes''}. \\
+  \text{N} &=& \text{ ``Emissão normal de gases poluentes''}.
+  \end{aligned}\]
+
+  Pelo teorema de bayes, a probabilidade desejada é dada por
+
+  \[P(E|R) &=& \dfrac{P(R|E) \times P(E)}{P(R)} &=& \dfrac{P(R|E) \times P(E)}{P(R|E)P(E)+P(R|N)P(N)}\]\\
+  \[&=& \dfrac{0.92 \times 0.13}{0.92 \times 0.13+0.19
+  \times 0.87}&=& \dfrac{0.12}{0.285} &=& 0.42.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

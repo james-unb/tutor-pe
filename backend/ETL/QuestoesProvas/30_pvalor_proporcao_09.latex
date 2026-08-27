@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Nas últimas eleições gerais, a proporção de mulheres na lista de
+  candidatos não aumentou, e a Justiça precisou notificar coligações
+  para que cumprissem a cota legal. Uma pesquisa por amostragem
+  aleatória registrou 26 mulheres num total de 103 candidatos. Um
+  pesquisador deseja-se testar se há evidência significativa de que a
+  proporção de candidatas é de fato inferior à cota legal de 30\%. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1469\)
+  \item
+    \(0.1175\)
+  \item
+    \(0.8531\)
+  \item
+    \(0.2937\)
+  \item
+    \(0.7593\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p \geq 0.3 \ \ versus \ \ H_a : p < 0.3.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.05\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.05) = 0.1469.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nas últimas eleições gerais, a proporção de mulheres na lista de
+  candidatos não aumentou, e a Justiça precisou notificar coligações
+  para que cumprissem a cota legal. Uma pesquisa por amostragem
+  aleatória registrou 30 mulheres num total de 118 candidatos. Um
+  pesquisador deseja-se testar se há evidência significativa de que a
+  proporção de candidatas é de fato inferior à cota legal de 30\%. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1121\)
+  \item
+    \(0.2801\)
+  \item
+    \(0.1401\)
+  \item
+    \(0.7653\)
+  \item
+    \(0.8599\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p \geq 0.3 \ \ versus \ \ H_a : p < 0.3.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.08\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.08) = 0.1401.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nas últimas eleições gerais, a proporção de mulheres na lista de
+  candidatos não aumentou, e a Justiça precisou notificar coligações
+  para que cumprissem a cota legal. Uma pesquisa por amostragem
+  aleatória registrou 35 mulheres num total de 131 candidatos. Um
+  pesquisador deseja-se testar se há evidência significativa de que a
+  proporção de candidatas é de fato inferior à cota legal de 30\%. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4122\)
+  \item
+    \(0.7066\)
+  \item
+    \(0.7939\)
+  \item
+    \(0.2061\)
+  \item
+    \(0.1649\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p \geq 0.3 \ \ versus \ \ H_a : p < 0.3.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.82\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.82) = 0.2061.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nas últimas eleições gerais, a proporção de mulheres na lista de
+  candidatos não aumentou, e a Justiça precisou notificar coligações
+  para que cumprissem a cota legal. Uma pesquisa por amostragem
+  aleatória registrou 37 mulheres num total de 147 candidatos. Um
+  pesquisador deseja-se testar se há evidência significativa de que a
+  proporção de candidatas é de fato inferior à cota legal de 30\%. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1003\)
+  \item
+    \(0.0802\)
+  \item
+    \(0.2005\)
+  \item
+    \(0.8008\)
+  \item
+    \(0.8997\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p \geq 0.3 \ \ versus \ \ H_a : p < 0.3.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.28\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.28) = 0.1003.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nas últimas eleições gerais, a proporção de mulheres na lista de
+  candidatos não aumentou, e a Justiça precisou notificar coligações
+  para que cumprissem a cota legal. Uma pesquisa por amostragem
+  aleatória registrou 31 mulheres num total de 119 candidatos. Um
+  pesquisador deseja-se testar se há evidência significativa de que a
+  proporção de candidatas é de fato inferior à cota legal de 30\%. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1736\)
+  \item
+    \(0.7355\)
+  \item
+    \(0.8264\)
+  \item
+    \(0.3472\)
+  \item
+    \(0.1389\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p \geq 0.3 \ \ versus \ \ H_a : p < 0.3.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.94\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.94) = 0.1736.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nas últimas eleições gerais, a proporção de mulheres na lista de
+  candidatos não aumentou, e a Justiça precisou notificar coligações
+  para que cumprissem a cota legal. Uma pesquisa por amostragem
+  aleatória registrou 33 mulheres num total de 122 candidatos. Um
+  pesquisador deseja-se testar se há evidência significativa de que a
+  proporção de candidatas é de fato inferior à cota legal de 30\%. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4777\)
+  \item
+    \(0.1911\)
+  \item
+    \(0.7611\)
+  \item
+    \(0.6774\)
+  \item
+    \(0.2389\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p \geq 0.3 \ \ versus \ \ H_a : p < 0.3.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.71\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.71) = 0.2389.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nas últimas eleições gerais, a proporção de mulheres na lista de
+  candidatos não aumentou, e a Justiça precisou notificar coligações
+  para que cumprissem a cota legal. Uma pesquisa por amostragem
+  aleatória registrou 35 mulheres num total de 135 candidatos. Um
+  pesquisador deseja-se testar se há evidência significativa de que a
+  proporção de candidatas é de fato inferior à cota legal de 30\%. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1515\)
+  \item
+    \(0.3030\)
+  \item
+    \(0.1212\)
+  \item
+    \(0.8485\)
+  \item
+    \(0.7552\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p \geq 0.3 \ \ versus \ \ H_a : p < 0.3.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.03\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.03) = 0.1515.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nas últimas eleições gerais, a proporção de mulheres na lista de
+  candidatos não aumentou, e a Justiça precisou notificar coligações
+  para que cumprissem a cota legal. Uma pesquisa por amostragem
+  aleatória registrou 28 mulheres num total de 109 candidatos. Um
+  pesquisador deseja-se testar se há evidência significativa de que a
+  proporção de candidatas é de fato inferior à cota legal de 30\%. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7444\)
+  \item
+    \(0.1308\)
+  \item
+    \(0.1635\)
+  \item
+    \(0.3271\)
+  \item
+    \(0.8365\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p \geq 0.3 \ \ versus \ \ H_a : p < 0.3.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.98\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.98) = 0.1635.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nas últimas eleições gerais, a proporção de mulheres na lista de
+  candidatos não aumentou, e a Justiça precisou notificar coligações
+  para que cumprissem a cota legal. Uma pesquisa por amostragem
+  aleatória registrou 31 mulheres num total de 119 candidatos. Um
+  pesquisador deseja-se testar se há evidência significativa de que a
+  proporção de candidatas é de fato inferior à cota legal de 30\%. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1389\)
+  \item
+    \(0.8264\)
+  \item
+    \(0.1736\)
+  \item
+    \(0.3472\)
+  \item
+    \(0.7355\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p \geq 0.3 \ \ versus \ \ H_a : p < 0.3.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.94\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.94) = 0.1736.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nas últimas eleições gerais, a proporção de mulheres na lista de
+  candidatos não aumentou, e a Justiça precisou notificar coligações
+  para que cumprissem a cota legal. Uma pesquisa por amostragem
+  aleatória registrou 29 mulheres num total de 110 candidatos. Um
+  pesquisador deseja-se testar se há evidência significativa de que a
+  proporção de candidatas é de fato inferior à cota legal de 30\%. Com
+  base nas informações, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2033\)
+  \item
+    \(0.1626\)
+  \item
+    \(0.4065\)
+  \item
+    \(0.7967\)
+  \item
+    \(0.7091\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p \geq 0.3 \ \ versus \ \ H_a : p < 0.3.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.83\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.83) = 0.2033.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

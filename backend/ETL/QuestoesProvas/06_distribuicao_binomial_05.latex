@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Após não ter sido selecionada para uma vaga de emprego, Kely desconfia
+  que foi injustamente discriminada pela empresa contratante. Ao
+  investigar o histórico da empresa, ela descobriu que embora \(59\%\)
+  dos candidatos qualificados fossem do sexo feminino, apenas dois dos
+  últimos \(8\) contratados eram mulheres. Assumindo que as contratações
+  são independentes entre si, caso não houvesse discriminação de genero,
+  a probabilidade de se selecionar no máximo duas mulheres (em \(8\)
+  vagas) é de:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9537\)
+  \item
+    \(0.2696\)
+  \item
+    \(0.6709\)
+  \item
+    \(0.0563\)
+  \item
+    \(0.0463\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de mulheres selecionadas, então
+  \(X \sim \text{Binomial}(8, 0.59)\). Portanto, \[\begin{aligned}
+  P(X \leq 2) & = P(X = 0) + P(X = 1) + P(X = 2) \\
+  & = 0.0008 + 0.0092 + 0.0463 \\
+  & = 0.0563.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Após não ter sido selecionada para uma vaga de emprego, Kely desconfia
+  que foi injustamente discriminada pela empresa contratante. Ao
+  investigar o histórico da empresa, ela descobriu que embora \(56\%\)
+  dos candidatos qualificados fossem do sexo feminino, apenas dois dos
+  últimos \(10\) contratados eram mulheres. Assumindo que as
+  contratações são independentes entre si, caso não houvesse
+  discriminação de genero, a probabilidade de se selecionar no máximo
+  duas mulheres (em \(10\) vagas) é de:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0198\)
+  \item
+    \(0.0236\)
+  \item
+    \(0.9046\)
+  \item
+    \(0.0282\)
+  \item
+    \(0.9802\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de mulheres selecionadas, então
+  \(X \sim \text{Binomial}(10, 0.56)\). Portanto, \[\begin{aligned}
+  P(X \leq 2) & = P(X = 0) + P(X = 1) + P(X = 2) \\
+  & = 0.0003 + 0.0035 + 0.0198 \\
+  & = 0.0236.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Após não ter sido selecionada para uma vaga de emprego, Kely desconfia
+  que foi injustamente discriminada pela empresa contratante. Ao
+  investigar o histórico da empresa, ela descobriu que embora \(56\%\)
+  dos candidatos qualificados fossem do sexo feminino, apenas dois dos
+  últimos \(8\) contratados eram mulheres. Assumindo que as contratações
+  são independentes entre si, caso não houvesse discriminação de genero,
+  a probabilidade de se selecionar no máximo duas mulheres (em \(8\)
+  vagas) é de:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9363\)
+  \item
+    \(0.0637\)
+  \item
+    \(0.8383\)
+  \item
+    \(0.0794\)
+  \item
+    \(0.5949\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de mulheres selecionadas, então
+  \(X \sim \text{Binomial}(8, 0.56)\). Portanto, \[\begin{aligned}
+  P(X \leq 2) & = P(X = 0) + P(X = 1) + P(X = 2) \\
+  & = 0.0014 + 0.0143 + 0.0637 \\
+  & = 0.0794.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Após não ter sido selecionada para uma vaga de emprego, Kely desconfia
+  que foi injustamente discriminada pela empresa contratante. Ao
+  investigar o histórico da empresa, ela descobriu que embora \(60\%\)
+  dos candidatos qualificados fossem do sexo feminino, apenas dois dos
+  últimos \(9\) contratados eram mulheres. Assumindo que as contratações
+  são independentes entre si, caso não houvesse discriminação de genero,
+  a probabilidade de se selecionar no máximo duas mulheres (em \(9\)
+  vagas) é de:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7977\)
+  \item
+    \(0.0212\)
+  \item
+    \(0.0250\)
+  \item
+    \(0.2271\)
+  \item
+    \(0.9788\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de mulheres selecionadas, então
+  \(X \sim \text{Binomial}(9, 0.6)\). Portanto, \[\begin{aligned}
+  P(X \leq 2) & = P(X = 0) + P(X = 1) + P(X = 2) \\
+  & = 0.0003 + 0.0035 + 0.0212 \\
+  & = 0.025.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Após não ter sido selecionada para uma vaga de emprego, Kely desconfia
+  que foi injustamente discriminada pela empresa contratante. Ao
+  investigar o histórico da empresa, ela descobriu que embora \(55\%\)
+  dos candidatos qualificados fossem do sexo feminino, apenas dois dos
+  últimos \(9\) contratados eram mulheres. Assumindo que as contratações
+  são independentes entre si, caso não houvesse discriminação de genero,
+  a probabilidade de se selecionar no máximo duas mulheres (em \(9\)
+  vagas) é de:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0813\)
+  \item
+    \(0.0498\)
+  \item
+    \(0.0407\)
+  \item
+    \(0.0331\)
+  \item
+    \(0.9593\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de mulheres selecionadas, então
+  \(X \sim \text{Binomial}(9, 0.55)\). Portanto, \[\begin{aligned}
+  P(X \leq 2) & = P(X = 0) + P(X = 1) + P(X = 2) \\
+  & = 0.0008 + 0.0083 + 0.0407 \\
+  & = 0.0498.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Após não ter sido selecionada para uma vaga de emprego, Kely desconfia
+  que foi injustamente discriminada pela empresa contratante. Ao
+  investigar o histórico da empresa, ela descobriu que embora \(60\%\)
+  dos candidatos qualificados fossem do sexo feminino, apenas dois dos
+  últimos \(8\) contratados eram mulheres. Assumindo que as contratações
+  são independentes entre si, caso não houvesse discriminação de genero,
+  a probabilidade de se selecionar no máximo duas mulheres (em \(8\)
+  vagas) é de:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6789\)
+  \item
+    \(0.0499\)
+  \item
+    \(0.0413\)
+  \item
+    \(0.7824\)
+  \item
+    \(0.9587\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de mulheres selecionadas, então
+  \(X \sim \text{Binomial}(8, 0.6)\). Portanto, \[\begin{aligned}
+  P(X \leq 2) & = P(X = 0) + P(X = 1) + P(X = 2) \\
+  & = 0.0007 + 0.0079 + 0.0413 \\
+  & = 0.0499.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Após não ter sido selecionada para uma vaga de emprego, Kely desconfia
+  que foi injustamente discriminada pela empresa contratante. Ao
+  investigar o histórico da empresa, ela descobriu que embora \(58\%\)
+  dos candidatos qualificados fossem do sexo feminino, apenas dois dos
+  últimos \(9\) contratados eram mulheres. Assumindo que as contratações
+  são independentes entre si, caso não houvesse discriminação de genero,
+  a probabilidade de se selecionar no máximo duas mulheres (em \(9\)
+  vagas) é de:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0334\)
+  \item
+    \(0.0279\)
+  \item
+    \(0.1565\)
+  \item
+    \(0.9721\)
+  \item
+    \(0.2607\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de mulheres selecionadas, então
+  \(X \sim \text{Binomial}(9, 0.58)\). Portanto, \[\begin{aligned}
+  P(X \leq 2) & = P(X = 0) + P(X = 1) + P(X = 2) \\
+  & = 0.0004 + 0.0051 + 0.0279 \\
+  & = 0.0334.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Após não ter sido selecionada para uma vaga de emprego, Kely desconfia
+  que foi injustamente discriminada pela empresa contratante. Ao
+  investigar o histórico da empresa, ela descobriu que embora \(58\%\)
+  dos candidatos qualificados fossem do sexo feminino, apenas dois dos
+  últimos \(10\) contratados eram mulheres. Assumindo que as
+  contratações são independentes entre si, caso não houvesse
+  discriminação de genero, a probabilidade de se selecionar no máximo
+  duas mulheres (em \(10\) vagas) é de:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9853\)
+  \item
+    \(0.0173\)
+  \item
+    \(0.8645\)
+  \item
+    \(0.0147\)
+  \item
+    \(0.1552\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de mulheres selecionadas, então
+  \(X \sim \text{Binomial}(10, 0.58)\). Portanto, \[\begin{aligned}
+  P(X \leq 2) & = P(X = 0) + P(X = 1) + P(X = 2) \\
+  & = 0.0002 + 0.0024 + 0.0147 \\
+  & = 0.0173.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Após não ter sido selecionada para uma vaga de emprego, Kely desconfia
+  que foi injustamente discriminada pela empresa contratante. Ao
+  investigar o histórico da empresa, ela descobriu que embora \(56\%\)
+  dos candidatos qualificados fossem do sexo feminino, apenas dois dos
+  últimos \(8\) contratados eram mulheres. Assumindo que as contratações
+  são independentes entre si, caso não houvesse discriminação de genero,
+  a probabilidade de se selecionar no máximo duas mulheres (em \(8\)
+  vagas) é de:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6072\)
+  \item
+    \(0.0794\)
+  \item
+    \(0.0637\)
+  \item
+    \(0.9960\)
+  \item
+    \(0.9363\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de mulheres selecionadas, então
+  \(X \sim \text{Binomial}(8, 0.56)\). Portanto, \[\begin{aligned}
+  P(X \leq 2) & = P(X = 0) + P(X = 1) + P(X = 2) \\
+  & = 0.0014 + 0.0143 + 0.0637 \\
+  & = 0.0794.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Após não ter sido selecionada para uma vaga de emprego, Kely desconfia
+  que foi injustamente discriminada pela empresa contratante. Ao
+  investigar o histórico da empresa, ela descobriu que embora \(58\%\)
+  dos candidatos qualificados fossem do sexo feminino, apenas dois dos
+  últimos \(10\) contratados eram mulheres. Assumindo que as
+  contratações são independentes entre si, caso não houvesse
+  discriminação de genero, a probabilidade de se selecionar no máximo
+  duas mulheres (em \(10\) vagas) é de:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0147\)
+  \item
+    \(0.9853\)
+  \item
+    \(0.0173\)
+  \item
+    \(0.7095\)
+  \item
+    \(0.5343\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de mulheres selecionadas, então
+  \(X \sim \text{Binomial}(10, 0.58)\). Portanto, \[\begin{aligned}
+  P(X \leq 2) & = P(X = 0) + P(X = 1) + P(X = 2) \\
+  & = 0.0002 + 0.0024 + 0.0147 \\
+  & = 0.0173.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

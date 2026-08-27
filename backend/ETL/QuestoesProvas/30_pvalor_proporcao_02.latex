@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa fornecedora de painéis solares garante que o produto
+  entregue ao cliente supre a sua necessidade diária em pelo menos 87\%
+  dos dias do ano. Um cliente insatisfeito com a qualidade do seu
+  produto decidiu realizar um teste de hipóteses e, ao sortear uma
+  amostra aleatória simples de \(30\) dias, verificou que sua demanda
+  foi suprida em 24 dias. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7768\)
+  \item
+    \(0.1017\)
+  \item
+    \(0.8729\)
+  \item
+    \(0.1271\)
+  \item
+    \(0.4364\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.87 \ \ versus \ \ H_a : p < 0.87.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.14\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.14) = 0.1271.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa fornecedora de painéis solares garante que o produto
+  entregue ao cliente supre a sua necessidade diária em pelo menos 83\%
+  dos dias do ano. Um cliente insatisfeito com a qualidade do seu
+  produto decidiu realizar um teste de hipóteses e, ao sortear uma
+  amostra aleatória simples de \(60\) dias, verificou que sua demanda
+  foi suprida em 46 dias. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4525\)
+  \item
+    \(0.0951\)
+  \item
+    \(0.9049\)
+  \item
+    \(0.0761\)
+  \item
+    \(0.8054\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.83 \ \ versus \ \ H_a : p < 0.83.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.31\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.31) = 0.0951.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa fornecedora de painéis solares garante que o produto
+  entregue ao cliente supre a sua necessidade diária em pelo menos 85\%
+  dos dias do ano. Um cliente insatisfeito com a qualidade do seu
+  produto decidiu realizar um teste de hipóteses e, ao sortear uma
+  amostra aleatória simples de \(30\) dias, verificou que sua demanda
+  foi suprida em 24 dias. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6936\)
+  \item
+    \(0.2206\)
+  \item
+    \(0.1765\)
+  \item
+    \(0.7794\)
+  \item
+    \(0.3897\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.85 \ \ versus \ \ H_a : p < 0.85.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.77\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.77) = 0.2206.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa fornecedora de painéis solares garante que o produto
+  entregue ao cliente supre a sua necessidade diária em pelo menos 85\%
+  dos dias do ano. Um cliente insatisfeito com a qualidade do seu
+  produto decidiu realizar um teste de hipóteses e, ao sortear uma
+  amostra aleatória simples de \(60\) dias, verificou que sua demanda
+  foi suprida em 47 dias. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4632\)
+  \item
+    \(0.9265\)
+  \item
+    \(0.8246\)
+  \item
+    \(0.0735\)
+  \item
+    \(0.0588\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.85 \ \ versus \ \ H_a : p < 0.85.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.45\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.45) = 0.0735.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa fornecedora de painéis solares garante que o produto
+  entregue ao cliente supre a sua necessidade diária em pelo menos 89\%
+  dos dias do ano. Um cliente insatisfeito com a qualidade do seu
+  produto decidiu realizar um teste de hipóteses e, ao sortear uma
+  amostra aleatória simples de \(60\) dias, verificou que sua demanda
+  foi suprida em 48 dias. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4936\)
+  \item
+    \(0.9871\)
+  \item
+    \(0.0103\)
+  \item
+    \(0.8785\)
+  \item
+    \(0.0129\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.89 \ \ versus \ \ H_a : p < 0.89.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -2.23\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-2.23) = 0.0129.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa fornecedora de painéis solares garante que o produto
+  entregue ao cliente supre a sua necessidade diária em pelo menos 88\%
+  dos dias do ano. Um cliente insatisfeito com a qualidade do seu
+  produto decidiu realizar um teste de hipóteses e, ao sortear uma
+  amostra aleatória simples de \(40\) dias, verificou que sua demanda
+  foi suprida em 31 dias. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0207\)
+  \item
+    \(0.4897\)
+  \item
+    \(0.0165\)
+  \item
+    \(0.9793\)
+  \item
+    \(0.8716\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.88 \ \ versus \ \ H_a : p < 0.88.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -2.04\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-2.04) = 0.0207.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa fornecedora de painéis solares garante que o produto
+  entregue ao cliente supre a sua necessidade diária em pelo menos 85\%
+  dos dias do ano. Um cliente insatisfeito com a qualidade do seu
+  produto decidiu realizar um teste de hipóteses e, ao sortear uma
+  amostra aleatória simples de \(60\) dias, verificou que sua demanda
+  foi suprida em 45 dias. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0120\)
+  \item
+    \(0.0150\)
+  \item
+    \(0.8766\)
+  \item
+    \(0.4925\)
+  \item
+    \(0.9850\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.85 \ \ versus \ \ H_a : p < 0.85.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -2.17\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-2.17) = 0.015.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa fornecedora de painéis solares garante que o produto
+  entregue ao cliente supre a sua necessidade diária em pelo menos 83\%
+  dos dias do ano. Um cliente insatisfeito com a qualidade do seu
+  produto decidiu realizar um teste de hipóteses e, ao sortear uma
+  amostra aleatória simples de \(30\) dias, verificou que sua demanda
+  foi suprida em 24 dias. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5963\)
+  \item
+    \(0.2640\)
+  \item
+    \(0.6700\)
+  \item
+    \(0.3350\)
+  \item
+    \(0.3300\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.83 \ \ versus \ \ H_a : p < 0.83.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.44\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.44) = 0.33.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa fornecedora de painéis solares garante que o produto
+  entregue ao cliente supre a sua necessidade diária em pelo menos 89\%
+  dos dias do ano. Um cliente insatisfeito com a qualidade do seu
+  produto decidiu realizar um teste de hipóteses e, ao sortear uma
+  amostra aleatória simples de \(60\) dias, verificou que sua demanda
+  foi suprida em 46 dias. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0009\)
+  \item
+    \(0.9989\)
+  \item
+    \(0.0011\)
+  \item
+    \(0.4994\)
+  \item
+    \(0.8890\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.89 \ \ versus \ \ H_a : p < 0.89.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -3.05\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-3.05) = 0.0011.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa fornecedora de painéis solares garante que o produto
+  entregue ao cliente supre a sua necessidade diária em pelo menos 86\%
+  dos dias do ano. Um cliente insatisfeito com a qualidade do seu
+  produto decidiu realizar um teste de hipóteses e, ao sortear uma
+  amostra aleatória simples de \(40\) dias, verificou que sua demanda
+  foi suprida em 29 dias. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9931\)
+  \item
+    \(0.4965\)
+  \item
+    \(0.8838\)
+  \item
+    \(0.0069\)
+  \item
+    \(0.0056\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.86 \ \ versus \ \ H_a : p < 0.86.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -2.46\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-2.46) = 0.0069.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

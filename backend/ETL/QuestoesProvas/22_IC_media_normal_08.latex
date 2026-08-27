@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um pesquisador está interessado em estimar o nível médio de uma enzima
+  em uma determinada população. Para isso, ele toma uma amostra de 12
+  indivíduos, determina o nível da enzima em cada um deles e obtem uma
+  média amostral de 21. Se ele sabe que a variável de interesse é
+  normalmente distribuída com um desvio padrão de 6.243, qual é o
+  intervalo de confiança para o nível médio da enzima com \(95\%\) de
+  confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([17.468, 24.532]\)
+  \item
+    \([19.817, 22.183]\)
+  \item
+    \([19.855, 22.145]\)
+  \item
+    \([17.033, 24.967]\)
+  \item
+    \([19.980, 22.020]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=12, \overline{x}=21, \sigma= 6.243\) e
+  \(1-\alpha=0.95\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.975}=1.96\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.95\%)
+  &=
+  \left(21-{6.243 \over \sqrt{12}}\times 1.96; \, 21+{6.243 \over \sqrt{12}}\times 1.96\right)
+  \\
+  &=\left\text{$[17.468, 24.532]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um pesquisador está interessado em estimar o nível médio de uma enzima
+  em uma determinada população. Para isso, ele toma uma amostra de 8
+  indivíduos, determina o nível da enzima em cada um deles e obtem uma
+  média amostral de 24. Se ele sabe que a variável de interesse é
+  normalmente distribuída com um desvio padrão de 6.496, qual é o
+  intervalo de confiança para o nível médio da enzima com \(90\%\) de
+  confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([19.649, 28.351]\)
+  \item
+    \([22.462, 25.538]\)
+  \item
+    \([22.847, 25.153]\)
+  \item
+    \([22.668, 25.332]\)
+  \item
+    \([20.233, 27.767]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=8, \overline{x}=24, \sigma= 6.496\) e
+  \(1-\alpha=0.9\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.95}=1.64\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.9\%)
+  &=
+  \left(24-{6.496 \over \sqrt{8}}\times 1.64; \, 24+{6.496 \over \sqrt{8}}\times 1.64\right)
+  \\
+  &=\left\text{$[20.233, 27.767]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um pesquisador está interessado em estimar o nível médio de uma enzima
+  em uma determinada população. Para isso, ele toma uma amostra de 13
+  indivíduos, determina o nível da enzima em cada um deles e obtem uma
+  média amostral de 23. Se ele sabe que a variável de interesse é
+  normalmente distribuída com um desvio padrão de 7.681, qual é o
+  intervalo de confiança para o nível médio da enzima com \(99\%\) de
+  confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([21.195, 24.805]\)
+  \item
+    \([21.209, 24.791]\)
+  \item
+    \([21.476, 24.524]\)
+  \item
+    \([17.504, 28.496]\)
+  \item
+    \([16.493, 29.507]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=13, \overline{x}=23, \sigma= 7.681\) e
+  \(1-\alpha=0.99\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.995}=2.58\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.99\%)
+  &=
+  \left(23-{7.681 \over \sqrt{13}}\times 2.58; \, 23+{7.681 \over \sqrt{13}}\times 2.58\right)
+  \\
+  &=\left\text{$[17.504, 28.496]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um pesquisador está interessado em estimar o nível médio de uma enzima
+  em uma determinada população. Para isso, ele toma uma amostra de 14
+  indivíduos, determina o nível da enzima em cada um deles e obtem uma
+  média amostral de 24. Se ele sabe que a variável de interesse é
+  normalmente distribuída com um desvio padrão de 6.01, qual é o
+  intervalo de confiança para o nível médio da enzima com \(90\%\) de
+  confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([21.156, 26.844]\)
+  \item
+    \([23.296, 24.704]\)
+  \item
+    \([23.161, 24.839]\)
+  \item
+    \([21.366, 26.634]\)
+  \item
+    \([23.240, 24.760]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=14, \overline{x}=24, \sigma= 6.01\) e
+  \(1-\alpha=0.9\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.95}=1.64\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.9\%)
+  &=
+  \left(24-{6.01 \over \sqrt{14}}\times 1.64; \, 24+{6.01 \over \sqrt{14}}\times 1.64\right)
+  \\
+  &=\left\text{$[21.366, 26.634]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um pesquisador está interessado em estimar o nível médio de uma enzima
+  em uma determinada população. Para isso, ele toma uma amostra de 10
+  indivíduos, determina o nível da enzima em cada um deles e obtem uma
+  média amostral de 25. Se ele sabe que a variável de interesse é
+  normalmente distribuída com um desvio padrão de 7.934, qual é o
+  intervalo de confiança para o nível médio da enzima com \(90\%\) de
+  confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([23.699, 26.301]\)
+  \item
+    \([23.546, 26.454]\)
+  \item
+    \([20.885, 29.115]\)
+  \item
+    \([20.401, 29.599]\)
+  \item
+    \([23.860, 26.140]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=10, \overline{x}=25, \sigma= 7.934\) e
+  \(1-\alpha=0.9\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.95}=1.64\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.9\%)
+  &=
+  \left(25-{7.934 \over \sqrt{10}}\times 1.64; \, 25+{7.934 \over \sqrt{10}}\times 1.64\right)
+  \\
+  &=\left\text{$[20.885, 29.115]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um pesquisador está interessado em estimar o nível médio de uma enzima
+  em uma determinada população. Para isso, ele toma uma amostra de 10
+  indivíduos, determina o nível da enzima em cada um deles e obtem uma
+  média amostral de 28. Se ele sabe que a variável de interesse é
+  normalmente distribuída com um desvio padrão de 6.022, qual é o
+  intervalo de confiança para o nível médio da enzima com \(95\%\) de
+  confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([26.727, 29.273]\)
+  \item
+    \([26.638, 29.362]\)
+  \item
+    \([24.268, 31.732]\)
+  \item
+    \([26.820, 29.180]\)
+  \item
+    \([23.692, 32.308]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=10, \overline{x}=28, \sigma= 6.022\) e
+  \(1-\alpha=0.95\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.975}=1.96\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.95\%)
+  &=
+  \left(28-{6.022 \over \sqrt{10}}\times 1.96; \, 28+{6.022 \over \sqrt{10}}\times 1.96\right)
+  \\
+  &=\left\text{$[24.268, 31.732]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um pesquisador está interessado em estimar o nível médio de uma enzima
+  em uma determinada população. Para isso, ele toma uma amostra de 14
+  indivíduos, determina o nível da enzima em cada um deles e obtem uma
+  média amostral de 20. Se ele sabe que a variável de interesse é
+  normalmente distribuída com um desvio padrão de 7.505, qual é o
+  intervalo de confiança para o nível médio da enzima com \(95\%\) de
+  confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([15.667, 24.333]\)
+  \item
+    \([18.842, 21.158]\)
+  \item
+    \([18.799, 21.201]\)
+  \item
+    \([18.949, 21.051]\)
+  \item
+    \([16.069, 23.931]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=14, \overline{x}=20, \sigma= 7.505\) e
+  \(1-\alpha=0.95\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.975}=1.96\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.95\%)
+  &=
+  \left(20-{7.505 \over \sqrt{14}}\times 1.96; \, 20+{7.505 \over \sqrt{14}}\times 1.96\right)
+  \\
+  &=\left\text{$[16.069, 23.931]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um pesquisador está interessado em estimar o nível médio de uma enzima
+  em uma determinada população. Para isso, ele toma uma amostra de 11
+  indivíduos, determina o nível da enzima em cada um deles e obtem uma
+  média amostral de 26. Se ele sabe que a variável de interesse é
+  normalmente distribuída com um desvio padrão de 6.348, qual é o
+  intervalo de confiança para o nível médio da enzima com \(95\%\) de
+  confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([24.869, 27.131]\)
+  \item
+    \([24.714, 27.286]\)
+  \item
+    \([21.735, 30.265]\)
+  \item
+    \([22.249, 29.751]\)
+  \item
+    \([24.754, 27.246]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=11, \overline{x}=26, \sigma= 6.348\) e
+  \(1-\alpha=0.95\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.975}=1.96\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.95\%)
+  &=
+  \left(26-{6.348 \over \sqrt{11}}\times 1.96; \, 26+{6.348 \over \sqrt{11}}\times 1.96\right)
+  \\
+  &=\left\text{$[22.249, 29.751]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um pesquisador está interessado em estimar o nível médio de uma enzima
+  em uma determinada população. Para isso, ele toma uma amostra de 9
+  indivíduos, determina o nível da enzima em cada um deles e obtem uma
+  média amostral de 29. Se ele sabe que a variável de interesse é
+  normalmente distribuída com um desvio padrão de 7.591, qual é o
+  intervalo de confiança para o nível médio da enzima com \(99\%\) de
+  confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([20.510, 37.490]\)
+  \item
+    \([26.170, 31.830]\)
+  \item
+    \([22.472, 35.528]\)
+  \item
+    \([26.860, 31.140]\)
+  \item
+    \([26.824, 31.176]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=9, \overline{x}=29, \sigma= 7.591\) e
+  \(1-\alpha=0.99\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.995}=2.58\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.99\%)
+  &=
+  \left(29-{7.591 \over \sqrt{9}}\times 2.58; \, 29+{7.591 \over \sqrt{9}}\times 2.58\right)
+  \\
+  &=\left\text{$[22.472, 35.528]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um pesquisador está interessado em estimar o nível médio de uma enzima
+  em uma determinada população. Para isso, ele toma uma amostra de 9
+  indivíduos, determina o nível da enzima em cada um deles e obtem uma
+  média amostral de 20. Se ele sabe que a variável de interesse é
+  normalmente distribuída com um desvio padrão de 6.522, qual é o
+  intervalo de confiança para o nível médio da enzima com \(90\%\) de
+  confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([16.435, 23.565]\)
+  \item
+    \([18.652, 21.348]\)
+  \item
+    \([15.957, 24.043]\)
+  \item
+    \([18.812, 21.188]\)
+  \item
+    \([18.910, 21.090]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=9, \overline{x}=20, \sigma= 6.522\) e
+  \(1-\alpha=0.9\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.95}=1.64\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.9\%)
+  &=
+  \left(20-{6.522 \over \sqrt{9}}\times 1.64; \, 20+{6.522 \over \sqrt{9}}\times 1.64\right)
+  \\
+  &=\left\text{$[16.435, 23.565]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um cientista de uma determinada cidade afirma que a proporção de
+  crianças do sexo feminino nascidas em um ano é de 47\%. Um hospital da
+  cidade registrou, no ano de 2018, 213 bebês do sexo feminino num total
+  de 455 bebês nascidos e deseja testar a afirmação do cientista. Com
+  base nas informações, e tomando a afirmação do cientista como hipótese
+  nula, assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4166\)
+  \item
+    \(0.9362\)
+  \item
+    \(0.4255\)
+  \item
+    \(0.4681\)
+  \item
+    \(0.5319\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.47 \ \ versus \ \ H_a : p \neq 0.47.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.08\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq0.08)) = 0.9362.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um cientista de uma determinada cidade afirma que a proporção de
+  crianças do sexo feminino nascidas em um ano é de 51\%. Um hospital da
+  cidade registrou, no ano de 2018, 205 bebês do sexo feminino num total
+  de 479 bebês nascidos e deseja testar a afirmação do cientista. Com
+  base nas informações, e tomando a afirmação do cientista como hipótese
+  nula, assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0003\)
+  \item
+    \(0.7999\)
+  \item
+    \(0.0002\)
+  \item
+    \(0.0001\)
+  \item
+    \(0.9998\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.51 \ \ versus \ \ H_a : p \neq 0.51.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 3.59\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq3.59)) = 3e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um cientista de uma determinada cidade afirma que a proporção de
+  crianças do sexo feminino nascidas em um ano é de 50\%. Um hospital da
+  cidade registrou, no ano de 2018, 201 bebês do sexo feminino num total
+  de 451 bebês nascidos e deseja testar a afirmação do cientista. Com
+  base nas informações, e tomando a afirmação do cientista como hipótese
+  nula, assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0209\)
+  \item
+    \(0.0104\)
+  \item
+    \(0.9896\)
+  \item
+    \(0.0093\)
+  \item
+    \(0.7916\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.5 \ \ versus \ \ H_a : p \neq 0.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 2.31\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq2.31)) = 0.0209.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um cientista de uma determinada cidade afirma que a proporção de
+  crianças do sexo feminino nascidas em um ano é de 50\%. Um hospital da
+  cidade registrou, no ano de 2018, 204 bebês do sexo feminino num total
+  de 439 bebês nascidos e deseja testar a afirmação do cientista. Com
+  base nas informações, e tomando a afirmação do cientista como hipótese
+  nula, assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7445\)
+  \item
+    \(0.0694\)
+  \item
+    \(0.1389\)
+  \item
+    \(0.9306\)
+  \item
+    \(0.0618\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.5 \ \ versus \ \ H_a : p \neq 0.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 1.48\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq1.48)) = 0.1389.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um cientista de uma determinada cidade afirma que a proporção de
+  crianças do sexo feminino nascidas em um ano é de 50\%. Um hospital da
+  cidade registrou, no ano de 2018, 275 bebês do sexo feminino num total
+  de 494 bebês nascidos e deseja testar a afirmação do cientista. Com
+  base nas informações, e tomando a afirmação do cientista como hipótese
+  nula, assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9941\)
+  \item
+    \(0.0059\)
+  \item
+    \(0.0052\)
+  \item
+    \(0.0117\)
+  \item
+    \(0.7953\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.5 \ \ versus \ \ H_a : p \neq 0.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 2.52\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq2.52)) = 0.0117.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um cientista de uma determinada cidade afirma que a proporção de
+  crianças do sexo feminino nascidas em um ano é de 49\%. Um hospital da
+  cidade registrou, no ano de 2018, 178 bebês do sexo feminino num total
+  de 412 bebês nascidos e deseja testar a afirmação do cientista. Com
+  base nas informações, e tomando a afirmação do cientista como hipótese
+  nula, assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0188\)
+  \item
+    \(0.9906\)
+  \item
+    \(0.7925\)
+  \item
+    \(0.0094\)
+  \item
+    \(0.0084\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.49 \ \ versus \ \ H_a : p \neq 0.49.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 2.35\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq2.35)) = 0.0188.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um cientista de uma determinada cidade afirma que a proporção de
+  crianças do sexo feminino nascidas em um ano é de 49\%. Um hospital da
+  cidade registrou, no ano de 2018, 258 bebês do sexo feminino num total
+  de 493 bebês nascidos e deseja testar a afirmação do cientista. Com
+  base nas informações, e tomando a afirmação do cientista como hipótese
+  nula, assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9306\)
+  \item
+    \(0.0618\)
+  \item
+    \(0.0694\)
+  \item
+    \(0.1389\)
+  \item
+    \(0.7445\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.49 \ \ versus \ \ H_a : p \neq 0.49.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 1.48\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq1.48)) = 0.1389.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um cientista de uma determinada cidade afirma que a proporção de
+  crianças do sexo feminino nascidas em um ano é de 53\%. Um hospital da
+  cidade registrou, no ano de 2018, 229 bebês do sexo feminino num total
+  de 424 bebês nascidos e deseja testar a afirmação do cientista. Com
+  base nas informações, e tomando a afirmação do cientista como hipótese
+  nula, assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3372\)
+  \item
+    \(0.5302\)
+  \item
+    \(0.6745\)
+  \item
+    \(0.3001\)
+  \item
+    \(0.6628\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.53 \ \ versus \ \ H_a : p \neq 0.53.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.42\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq0.42)) = 0.6745.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um cientista de uma determinada cidade afirma que a proporção de
+  crianças do sexo feminino nascidas em um ano é de 45\%. Um hospital da
+  cidade registrou, no ano de 2018, 233 bebês do sexo feminino num total
+  de 490 bebês nascidos e deseja testar a afirmação do cientista. Com
+  base nas informações, e tomando a afirmação do cientista como hipótese
+  nula, assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1132\)
+  \item
+    \(0.2543\)
+  \item
+    \(0.6983\)
+  \item
+    \(0.1271\)
+  \item
+    \(0.8729\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.45 \ \ versus \ \ H_a : p \neq 0.45.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 1.14\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq1.14)) = 0.2543.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um cientista de uma determinada cidade afirma que a proporção de
+  crianças do sexo feminino nascidas em um ano é de 54\%. Um hospital da
+  cidade registrou, no ano de 2018, 260 bebês do sexo feminino num total
+  de 468 bebês nascidos e deseja testar a afirmação do cientista. Com
+  base nas informações, e tomando a afirmação do cientista como hipótese
+  nula, assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4965\)
+  \item
+    \(0.6014\)
+  \item
+    \(0.7517\)
+  \item
+    \(0.2483\)
+  \item
+    \(0.2209\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.54 \ \ versus \ \ H_a : p \neq 0.54.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.68\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq0.68)) = 0.4965.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

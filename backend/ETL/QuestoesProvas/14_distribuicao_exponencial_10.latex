@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição acumulada da variável aleatória \(X\) é tal que
+  \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(5)=0.565\). Qual é a
+  variância de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(72.0\)
+  \item
+    \(8.5\)
+  \item
+    \(0.2\)
+  \item
+    \(6.0\)
+  \item
+    \(36.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  1-\exp(-\lambda\times 5)&=0.565\\
+  \exp(-\lambda\times5)&=0.435\\
+  -\lambda\times5&=ln(0.435)\\
+  \lambda&=\frac{-\ln(0.435)}{5}=0.1667.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.1667)\).
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.028}=36.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição acumulada da variável aleatória \(X\) é tal que
+  \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(7)=0.689\). Qual é a
+  variância de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(36.0\)
+  \item
+    \(0.2\)
+  \item
+    \(6.0\)
+  \item
+    \(72.0\)
+  \item
+    \(8.5\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  1-\exp(-\lambda\times 7)&=0.689\\
+  \exp(-\lambda\times7)&=0.311\\
+  -\lambda\times7&=ln(0.311)\\
+  \lambda&=\frac{-\ln(0.311)}{7}=0.1667.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.1667)\).
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.028}=36.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição acumulada da variável aleatória \(X\) é tal que
+  \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(10)=0.713\). Qual é a
+  variância de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(11.3\)
+  \item
+    \(128.0\)
+  \item
+    \(8.0\)
+  \item
+    \(64.0\)
+  \item
+    \(0.1\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  1-\exp(-\lambda\times 10)&=0.713\\
+  \exp(-\lambda\times10)&=0.287\\
+  -\lambda\times10&=ln(0.287)\\
+  \lambda&=\frac{-\ln(0.287)}{10}=0.125.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.125)\).
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.016}=64.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição acumulada da variável aleatória \(X\) é tal que
+  \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(6)=0.576\). Qual é a
+  variância de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(9.9\)
+  \item
+    \(7.0\)
+  \item
+    \(49.0\)
+  \item
+    \(0.1\)
+  \item
+    \(98.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  1-\exp(-\lambda\times 6)&=0.576\\
+  \exp(-\lambda\times6)&=0.424\\
+  -\lambda\times6&=ln(0.424)\\
+  \lambda&=\frac{-\ln(0.424)}{6}=0.1429.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.1429)\).
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.02}=49.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição acumulada da variável aleatória \(X\) é tal que
+  \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(5)=0.565\). Qual é a
+  variância de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8.5\)
+  \item
+    \(6.0\)
+  \item
+    \(0.2\)
+  \item
+    \(72.0\)
+  \item
+    \(36.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  1-\exp(-\lambda\times 5)&=0.565\\
+  \exp(-\lambda\times5)&=0.435\\
+  -\lambda\times5&=ln(0.435)\\
+  \lambda&=\frac{-\ln(0.435)}{5}=0.1667.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.1667)\).
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.028}=36.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição acumulada da variável aleatória \(X\) é tal que
+  \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(7)=0.753\). Qual é a
+  variância de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(50.0\)
+  \item
+    \(7.1\)
+  \item
+    \(25.0\)
+  \item
+    \(0.2\)
+  \item
+    \(5.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  1-\exp(-\lambda\times 7)&=0.753\\
+  \exp(-\lambda\times7)&=0.247\\
+  -\lambda\times7&=ln(0.247)\\
+  \lambda&=\frac{-\ln(0.247)}{7}=0.2.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.2)\).
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.04}=25.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição acumulada da variável aleatória \(X\) é tal que
+  \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(8)=0.632\). Qual é a
+  variância de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8.0\)
+  \item
+    \(128.0\)
+  \item
+    \(0.1\)
+  \item
+    \(11.3\)
+  \item
+    \(64.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  1-\exp(-\lambda\times 8)&=0.632\\
+  \exp(-\lambda\times8)&=0.368\\
+  -\lambda\times8&=ln(0.368)\\
+  \lambda&=\frac{-\ln(0.368)}{8}=0.125.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.125)\).
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.016}=64.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição acumulada da variável aleatória \(X\) é tal que
+  \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(5)=0.426\). Qual é a
+  variância de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(12.7\)
+  \item
+    \(81.0\)
+  \item
+    \(9.0\)
+  \item
+    \(0.1\)
+  \item
+    \(162.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  1-\exp(-\lambda\times 5)&=0.426\\
+  \exp(-\lambda\times5)&=0.574\\
+  -\lambda\times5&=ln(0.574)\\
+  \lambda&=\frac{-\ln(0.574)}{5}=0.1111.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.1111)\).
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.012}=81.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição acumulada da variável aleatória \(X\) é tal que
+  \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(8)=0.736\). Qual é a
+  variância de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(72.0\)
+  \item
+    \(6.0\)
+  \item
+    \(36.0\)
+  \item
+    \(8.5\)
+  \item
+    \(0.2\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  1-\exp(-\lambda\times 8)&=0.736\\
+  \exp(-\lambda\times8)&=0.264\\
+  -\lambda\times8&=ln(0.264)\\
+  \lambda&=\frac{-\ln(0.264)}{8}=0.1667.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.1667)\).
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.028}=36.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição acumulada da variável aleatória \(X\) é tal que
+  \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(8)=0.589\). Qual é a
+  variância de \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(12.7\)
+  \item
+    \(0.1\)
+  \item
+    \(81.0\)
+  \item
+    \(9.0\)
+  \item
+    \(162.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  1-\exp(-\lambda\times 8)&=0.589\\
+  \exp(-\lambda\times8)&=0.411\\
+  -\lambda\times8&=ln(0.411)\\
+  \lambda&=\frac{-\ln(0.411)}{8}=0.1111.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.1111)\).
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.012}=81.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

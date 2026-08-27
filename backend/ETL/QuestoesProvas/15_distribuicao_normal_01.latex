@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(92\) e variância \(91\). O valor de \(k\) tal que
+  \(P(92-k<X<92+k)=0.89476\) é, aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(147.42\)
+  \item
+    \(113.75\)
+  \item
+    \(15.45\)
+  \item
+    \(1.62\)
+  \item
+    \(11.92\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(92,91)\), nós temos que
+
+  \[\begin{aligned}
+  && P\left(92-k<X<92+k\right)=0.89476 \iff \\
+  && P\left(-\dfrac{k}{\sqrt{91}}<\dfrac{X-(92)}{\sqrt{91}}<\dfrac{k}{\sqrt{91}}\right)=0.89476 \iff \\
+  && 2P\left(Z < \dfrac{k}{\sqrt{91}}\right)-1 =0.89476 \iff \\
+  && P\left(Z < \dfrac{k}{\sqrt{91}}\right) = 0.94738
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.94738\) é
+  \(1.62\). Desse modo, \[\dfrac{k}{\sqrt{91}} = 1.62\] e, portanto,
+  \[k = 1.62\times\sqrt{91} = 15.45.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(-26\) e variância \(74\). O valor de \(k\) tal que
+  \(P(-26-k<X<-26+k)=0.99348\) é, aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(183.52\)
+  \item
+    \(21.33\)
+  \item
+    \(23.40\)
+  \item
+    \(2.72\)
+  \item
+    \(201.28\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(-26,74)\), nós temos que
+
+  \[\begin{aligned}
+  && P\left(-26-k<X<-26+k\right)=0.99348 \iff \\
+  && P\left(-\dfrac{k}{\sqrt{74}}<\dfrac{X-(-26)}{\sqrt{74}}<\dfrac{k}{\sqrt{74}}\right)=0.99348 \iff \\
+  && 2P\left(Z < \dfrac{k}{\sqrt{74}}\right)-1 =0.99348 \iff \\
+  && P\left(Z < \dfrac{k}{\sqrt{74}}\right) = 0.99674
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.99674\) é
+  \(2.72\). Desse modo, \[\dfrac{k}{\sqrt{74}} = 2.72\] e, portanto,
+  \[k = 2.72\times\sqrt{74} = 23.40.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(-19\) e variância \(50\). O valor de \(k\) tal que
+  \(P(-19-k<X<-19+k)=0.77754\) é, aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.22\)
+  \item
+    \(8.63\)
+  \item
+    \(38.00\)
+  \item
+    \(5.37\)
+  \item
+    \(61.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(-19,50)\), nós temos que
+
+  \[\begin{aligned}
+  && P\left(-19-k<X<-19+k\right)=0.77754 \iff \\
+  && P\left(-\dfrac{k}{\sqrt{50}}<\dfrac{X-(-19)}{\sqrt{50}}<\dfrac{k}{\sqrt{50}}\right)=0.77754 \iff \\
+  && 2P\left(Z < \dfrac{k}{\sqrt{50}}\right)-1 =0.77754 \iff \\
+  && P\left(Z < \dfrac{k}{\sqrt{50}}\right) = 0.88877
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.88877\) é
+  \(1.22\). Desse modo, \[\dfrac{k}{\sqrt{50}} = 1.22\] e, portanto,
+  \[k = 1.22\times\sqrt{50} = 8.63.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(89\) e variância \(94\). O valor de \(k\) tal que
+  \(P(89-k<X<89+k)=0.97426\) é, aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2.23\)
+  \item
+    \(18.91\)
+  \item
+    \(183.30\)
+  \item
+    \(209.62\)
+  \item
+    \(21.62\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(89,94)\), nós temos que
+
+  \[\begin{aligned}
+  && P\left(89-k<X<89+k\right)=0.97426 \iff \\
+  && P\left(-\dfrac{k}{\sqrt{94}}<\dfrac{X-(89)}{\sqrt{94}}<\dfrac{k}{\sqrt{94}}\right)=0.97426 \iff \\
+  && 2P\left(Z < \dfrac{k}{\sqrt{94}}\right)-1 =0.97426 \iff \\
+  && P\left(Z < \dfrac{k}{\sqrt{94}}\right) = 0.98713
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.98713\) é
+  \(2.23\). Desse modo, \[\dfrac{k}{\sqrt{94}} = 2.23\] e, portanto,
+  \[k = 2.23\times\sqrt{94} = 21.62.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(6\) e variância \(36\). O valor de \(k\) tal que
+  \(P(6-k<X<6+k)=0.8969\) é, aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.63\)
+  \item
+    \(58.68\)
+  \item
+    \(9.78\)
+  \item
+    \(45.36\)
+  \item
+    \(7.56\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(6,36)\), nós temos que
+
+  \[\begin{aligned}
+  && P\left(6-k<X<6+k\right)=0.8969 \iff \\
+  && P\left(-\dfrac{k}{\sqrt{36}}<\dfrac{X-(6)}{\sqrt{36}}<\dfrac{k}{\sqrt{36}}\right)=0.8969 \iff \\
+  && 2P\left(Z < \dfrac{k}{\sqrt{36}}\right)-1 =0.8969 \iff \\
+  && P\left(Z < \dfrac{k}{\sqrt{36}}\right) = 0.94845
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.94845\) é
+  \(1.63\). Desse modo, \[\dfrac{k}{\sqrt{36}} = 1.63\] e, portanto,
+  \[k = 1.63\times\sqrt{36} = 9.78.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(93\) e variância \(61\). O valor de \(k\) tal que
+  \(P(93-k<X<93+k)=0.90308\) é, aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.66\)
+  \item
+    \(79.30\)
+  \item
+    \(10.15\)
+  \item
+    \(101.26\)
+  \item
+    \(12.97\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(93,61)\), nós temos que
+
+  \[\begin{aligned}
+  && P\left(93-k<X<93+k\right)=0.90308 \iff \\
+  && P\left(-\dfrac{k}{\sqrt{61}}<\dfrac{X-(93)}{\sqrt{61}}<\dfrac{k}{\sqrt{61}}\right)=0.90308 \iff \\
+  && 2P\left(Z < \dfrac{k}{\sqrt{61}}\right)-1 =0.90308 \iff \\
+  && P\left(Z < \dfrac{k}{\sqrt{61}}\right) = 0.95154
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.95154\) é
+  \(1.66\). Desse modo, \[\dfrac{k}{\sqrt{61}} = 1.66\] e, portanto,
+  \[k = 1.66\times\sqrt{61} = 12.97.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(-5\) e variância \(4\). O valor de \(k\) tal que
+  \(P(-5-k<X<-5+k)=0.99328\) é, aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2.71\)
+  \item
+    \(5.42\)
+  \item
+    \(10.84\)
+  \item
+    \(4.94\)
+  \item
+    \(9.88\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(-5,4)\), nós temos que
+
+  \[\begin{aligned}
+  && P\left(-5-k<X<-5+k\right)=0.99328 \iff \\
+  && P\left(-\dfrac{k}{\sqrt{4}}<\dfrac{X-(-5)}{\sqrt{4}}<\dfrac{k}{\sqrt{4}}\right)=0.99328 \iff \\
+  && 2P\left(Z < \dfrac{k}{\sqrt{4}}\right)-1 =0.99328 \iff \\
+  && P\left(Z < \dfrac{k}{\sqrt{4}}\right) = 0.99664
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.99664\) é
+  \(2.71\). Desse modo, \[\dfrac{k}{\sqrt{4}} = 2.71\] e, portanto,
+  \[k = 2.71\times\sqrt{4} = 5.42.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(-65\) e variância \(71\). O valor de \(k\) tal que
+  \(P(-65-k<X<-65+k)=0.8444\) é, aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.42\)
+  \item
+    \(71.71\)
+  \item
+    \(8.51\)
+  \item
+    \(11.97\)
+  \item
+    \(100.82\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(-65,71)\), nós temos que
+
+  \[\begin{aligned}
+  && P\left(-65-k<X<-65+k\right)=0.8444 \iff \\
+  && P\left(-\dfrac{k}{\sqrt{71}}<\dfrac{X-(-65)}{\sqrt{71}}<\dfrac{k}{\sqrt{71}}\right)=0.8444 \iff \\
+  && 2P\left(Z < \dfrac{k}{\sqrt{71}}\right)-1 =0.8444 \iff \\
+  && P\left(Z < \dfrac{k}{\sqrt{71}}\right) = 0.9222
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.9222\) é
+  \(1.42\). Desse modo, \[\dfrac{k}{\sqrt{71}} = 1.42\] e, portanto,
+  \[k = 1.42\times\sqrt{71} = 11.97.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(30\) e variância \(38\). O valor de \(k\) tal que
+  \(P(30-k<X<30+k)=0.99626\) é, aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(110.20\)
+  \item
+    \(17.88\)
+  \item
+    \(2.90\)
+  \item
+    \(16.46\)
+  \item
+    \(101.46\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(30,38)\), nós temos que
+
+  \[\begin{aligned}
+  && P\left(30-k<X<30+k\right)=0.99626 \iff \\
+  && P\left(-\dfrac{k}{\sqrt{38}}<\dfrac{X-(30)}{\sqrt{38}}<\dfrac{k}{\sqrt{38}}\right)=0.99626 \iff \\
+  && 2P\left(Z < \dfrac{k}{\sqrt{38}}\right)-1 =0.99626 \iff \\
+  && P\left(Z < \dfrac{k}{\sqrt{38}}\right) = 0.99813
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.99813\) é
+  \(2.9\). Desse modo, \[\dfrac{k}{\sqrt{38}} = 2.9\] e, portanto,
+  \[k = 2.9\times\sqrt{38} = 17.88.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com distribuição normal de média
+  \(68\) e variância \(48\). O valor de \(k\) tal que
+  \(P(68-k<X<68+k)=0.99472\) é, aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2.79\)
+  \item
+    \(17.74\)
+  \item
+    \(133.92\)
+  \item
+    \(19.33\)
+  \item
+    \(122.88\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X\sim N(68,48)\), nós temos que
+
+  \[\begin{aligned}
+  && P\left(68-k<X<68+k\right)=0.99472 \iff \\
+  && P\left(-\dfrac{k}{\sqrt{48}}<\dfrac{X-(68)}{\sqrt{48}}<\dfrac{k}{\sqrt{48}}\right)=0.99472 \iff \\
+  && 2P\left(Z < \dfrac{k}{\sqrt{48}}\right)-1 =0.99472 \iff \\
+  && P\left(Z < \dfrac{k}{\sqrt{48}}\right) = 0.99736
+  \end{aligned}\]
+
+  Na tabela da Normal, podemos ver que o quantil de ordem \(0.99736\) é
+  \(2.79\). Desse modo, \[\dfrac{k}{\sqrt{48}} = 2.79\] e, portanto,
+  \[k = 2.79\times\sqrt{48} = 19.33.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a produção de papel por eucaliptos plantados na
+  mesma área foi medida a produção individual (em resmas de papel) de
+  uma amostra aleatória simples de \(30\) árvores. Obteve-se o valor
+  médio de \(18\) resmas por árvore. Sabe-se que o desvio-padrão
+  populacional da produção de eucaliptos é de \(1.73\) resmas. Com base
+  nas informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a produção média em toda a área plantada com \(99\)\%
+  de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([17.129, 18.871]\)
+  \item
+    \([17.185, 18.815]\)
+  \item
+    \([17.851, 18.149]\)
+  \item
+    \([17.440, 18.560]\)
+  \item
+    \([17.841, 18.159]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[18-2.58\times\frac{1.73}{\sqrt{30}} \ , \ 18+2.58\times\frac{1.73}{\sqrt{30}}\right]\\
+  &=&\text{$[17.185, 18.815]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a produção de papel por eucaliptos plantados na
+  mesma área foi medida a produção individual (em resmas de papel) de
+  uma amostra aleatória simples de \(28\) árvores. Obteve-se o valor
+  médio de \(19\) resmas por árvore. Sabe-se que o desvio-padrão
+  populacional da produção de eucaliptos é de \(3.4\) resmas. Com base
+  nas informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a produção média em toda a área plantada com \(99\)\%
+  de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([18.664, 19.336]\)
+  \item
+    \([17.342, 20.658]\)
+  \item
+    \([18.687, 19.313]\)
+  \item
+    \([18.188, 19.812]\)
+  \item
+    \([17.220, 20.780]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[19-2.58\times\frac{3.4}{\sqrt{28}} \ , \ 19+2.58\times\frac{3.4}{\sqrt{28}}\right]\\
+  &=&\text{$[17.342, 20.658]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a produção de papel por eucaliptos plantados na
+  mesma área foi medida a produção individual (em resmas de papel) de
+  uma amostra aleatória simples de \(25\) árvores. Obteve-se o valor
+  médio de \(19\) resmas por árvore. Sabe-se que o desvio-padrão
+  populacional da produção de eucaliptos é de \(3.2\) resmas. Com base
+  nas informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a produção média em toda a área plantada com \(99\)\%
+  de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([18.670, 19.330]\)
+  \item
+    \([18.642, 19.358]\)
+  \item
+    \([17.349, 20.651]\)
+  \item
+    \([17.210, 20.790]\)
+  \item
+    \([18.166, 19.834]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[19-2.58\times\frac{3.2}{\sqrt{25}} \ , \ 19+2.58\times\frac{3.2}{\sqrt{25}}\right]\\
+  &=&\text{$[17.349, 20.651]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a produção de papel por eucaliptos plantados na
+  mesma área foi medida a produção individual (em resmas de papel) de
+  uma amostra aleatória simples de \(27\) árvores. Obteve-se o valor
+  médio de \(22\) resmas por árvore. Sabe-se que o desvio-padrão
+  populacional da produção de eucaliptos é de \(3.41\) resmas. Com base
+  nas informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a produção média em toda a área plantada com \(95\)\%
+  de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([20.714, 23.286]\)
+  \item
+    \([20.651, 23.349]\)
+  \item
+    \([21.417, 22.583]\)
+  \item
+    \([21.740, 22.260]\)
+  \item
+    \([21.752, 22.248]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[22-1.96\times\frac{3.41}{\sqrt{27}} \ , \ 22+1.96\times\frac{3.41}{\sqrt{27}}\right]\\
+  &=&\text{$[20.714, 23.286]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a produção de papel por eucaliptos plantados na
+  mesma área foi medida a produção individual (em resmas de papel) de
+  uma amostra aleatória simples de \(26\) árvores. Obteve-se o valor
+  médio de \(21\) resmas por árvore. Sabe-se que o desvio-padrão
+  populacional da produção de eucaliptos é de \(3.33\) resmas. Com base
+  nas informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a produção média em toda a área plantada com \(95\)\%
+  de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([19.720, 22.280]\)
+  \item
+    \([20.413, 21.587]\)
+  \item
+    \([20.736, 21.264]\)
+  \item
+    \([19.655, 22.345]\)
+  \item
+    \([20.749, 21.251]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[21-1.96\times\frac{3.33}{\sqrt{26}} \ , \ 21+1.96\times\frac{3.33}{\sqrt{26}}\right]\\
+  &=&\text{$[19.720, 22.280]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a produção de papel por eucaliptos plantados na
+  mesma área foi medida a produção individual (em resmas de papel) de
+  uma amostra aleatória simples de \(25\) árvores. Obteve-se o valor
+  médio de \(19\) resmas por árvore. Sabe-se que o desvio-padrão
+  populacional da produção de eucaliptos é de \(2.64\) resmas. Com base
+  nas informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a produção média em toda a área plantada com \(99\)\%
+  de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([17.523, 20.477]\)
+  \item
+    \([18.243, 19.757]\)
+  \item
+    \([18.705, 19.295]\)
+  \item
+    \([18.728, 19.272]\)
+  \item
+    \([17.638, 20.362]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[19-2.58\times\frac{2.64}{\sqrt{25}} \ , \ 19+2.58\times\frac{2.64}{\sqrt{25}}\right]\\
+  &=&\text{$[17.638, 20.362]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a produção de papel por eucaliptos plantados na
+  mesma área foi medida a produção individual (em resmas de papel) de
+  uma amostra aleatória simples de \(29\) árvores. Obteve-se o valor
+  médio de \(21\) resmas por árvore. Sabe-se que o desvio-padrão
+  populacional da produção de eucaliptos é de \(3.32\) resmas. Com base
+  nas informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a produção média em toda a área plantada com \(95\)\%
+  de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([20.445, 21.555]\)
+  \item
+    \([19.737, 22.263]\)
+  \item
+    \([19.792, 22.208]\)
+  \item
+    \([20.776, 21.224]\)
+  \item
+    \([20.765, 21.235]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[21-1.96\times\frac{3.32}{\sqrt{29}} \ , \ 21+1.96\times\frac{3.32}{\sqrt{29}}\right]\\
+  &=&\text{$[19.792, 22.208]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a produção de papel por eucaliptos plantados na
+  mesma área foi medida a produção individual (em resmas de papel) de
+  uma amostra aleatória simples de \(27\) árvores. Obteve-se o valor
+  médio de \(20\) resmas por árvore. Sabe-se que o desvio-padrão
+  populacional da produção de eucaliptos é de \(2.88\) resmas. Com base
+  nas informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a produção média em toda a área plantada com \(95\)\%
+  de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([19.781, 20.219]\)
+  \item
+    \([19.464, 20.536]\)
+  \item
+    \([19.791, 20.209]\)
+  \item
+    \([18.861, 21.139]\)
+  \item
+    \([18.914, 21.086]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[20-1.96\times\frac{2.88}{\sqrt{27}} \ , \ 20+1.96\times\frac{2.88}{\sqrt{27}}\right]\\
+  &=&\text{$[18.914, 21.086]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a produção de papel por eucaliptos plantados na
+  mesma área foi medida a produção individual (em resmas de papel) de
+  uma amostra aleatória simples de \(30\) árvores. Obteve-se o valor
+  médio de \(22\) resmas por árvore. Sabe-se que o desvio-padrão
+  populacional da produção de eucaliptos é de \(1.56\) resmas. Com base
+  nas informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a produção média em toda a área plantada com \(99\)\%
+  de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([21.265, 22.735]\)
+  \item
+    \([21.866, 22.134]\)
+  \item
+    \([21.215, 22.785]\)
+  \item
+    \([21.469, 22.531]\)
+  \item
+    \([21.857, 22.143]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[22-2.58\times\frac{1.56}{\sqrt{30}} \ , \ 22+2.58\times\frac{1.56}{\sqrt{30}}\right]\\
+  &=&\text{$[21.265, 22.735]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a produção de papel por eucaliptos plantados na
+  mesma área foi medida a produção individual (em resmas de papel) de
+  uma amostra aleatória simples de \(25\) árvores. Obteve-se o valor
+  médio de \(19\) resmas por árvore. Sabe-se que o desvio-padrão
+  populacional da produção de eucaliptos é de \(3.25\) resmas. Com base
+  nas informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a produção média em toda a área plantada com \(99\)\%
+  de confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([18.160, 19.840]\)
+  \item
+    \([18.665, 19.335]\)
+  \item
+    \([18.636, 19.364]\)
+  \item
+    \([17.323, 20.677]\)
+  \item
+    \([17.182, 20.818]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[19-2.58\times\frac{3.25}{\sqrt{25}} \ , \ 19+2.58\times\frac{3.25}{\sqrt{25}}\right]\\
+  &=&\text{$[17.323, 20.677]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

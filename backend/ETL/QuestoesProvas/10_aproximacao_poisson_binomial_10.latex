@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de uma rosa sobreviver mais de 10 dias em um vaso com
+  água é de \(0.007\). Considerando que uma pessoa comprou \(471\)
+  rosas, qual é a probabilidade de que \(7\) rosas, que foram colocadas
+  em um vaso de água, sobrevivam mais de 10 dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0284\)
+  \item
+    \(0.0259\)
+  \item
+    \(0.9716\)
+  \item
+    \(0.0312\)
+  \item
+    \(0.9688\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de rosas que sobrevivem mais de dez dias tem distribuição
+  binomial com parâmetros \(n\) e \(p\), ou seja,
+  \(X \sim \text{Bin}(471,0.007)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=3.3)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=7\), é dada por
+
+  \(P(X= 7 | X \sim \text{Bin}(471,0.007)) \approx P(X= 7 | X \sim \text{Pois}(3.3)) = 3.12\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de uma rosa sobreviver mais de 10 dias em um vaso com
+  água é de \(0.008\). Considerando que uma pessoa comprou \(362\)
+  rosas, qual é a probabilidade de que \(7\) rosas, que foram colocadas
+  em um vaso de água, sobrevivam mais de 10 dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9864\)
+  \item
+    \(0.0136\)
+  \item
+    \(0.9812\)
+  \item
+    \(0.0188\)
+  \item
+    \(0.0156\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de rosas que sobrevivem mais de dez dias tem distribuição
+  binomial com parâmetros \(n\) e \(p\), ou seja,
+  \(X \sim \text{Bin}(362,0.008)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=2.9)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=7\), é dada por
+
+  \(P(X= 7 | X \sim \text{Bin}(362,0.008)) \approx P(X= 7 | X \sim \text{Pois}(2.9)) = 1.88\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de uma rosa sobreviver mais de 10 dias em um vaso com
+  água é de \(0.008\). Considerando que uma pessoa comprou \(462\)
+  rosas, qual é a probabilidade de que \(8\) rosas, que foram colocadas
+  em um vaso de água, sobrevivam mais de 10 dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0175\)
+  \item
+    \(0.0215\)
+  \item
+    \(0.9785\)
+  \item
+    \(0.9825\)
+  \item
+    \(0.0179\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de rosas que sobrevivem mais de dez dias tem distribuição
+  binomial com parâmetros \(n\) e \(p\), ou seja,
+  \(X \sim \text{Bin}(462,0.008)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=3.7)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=8\), é dada por
+
+  \(P(X= 8 | X \sim \text{Bin}(462,0.008)) \approx P(X= 8 | X \sim \text{Pois}(3.7)) = 2.15\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de uma rosa sobreviver mais de 10 dias em um vaso com
+  água é de \(0.005\). Considerando que uma pessoa comprou \(540\)
+  rosas, qual é a probabilidade de que \(6\) rosas, que foram colocadas
+  em um vaso de água, sobrevivam mais de 10 dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0362\)
+  \item
+    \(0.9664\)
+  \item
+    \(0.0300\)
+  \item
+    \(0.0336\)
+  \item
+    \(0.9638\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de rosas que sobrevivem mais de dez dias tem distribuição
+  binomial com parâmetros \(n\) e \(p\), ou seja,
+  \(X \sim \text{Bin}(540,0.005)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=2.7)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=6\), é dada por
+
+  \(P(X= 6 | X \sim \text{Bin}(540,0.005)) \approx P(X= 6 | X \sim \text{Pois}(2.7)) = 3.62\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de uma rosa sobreviver mais de 10 dias em um vaso com
+  água é de \(0.009\). Considerando que uma pessoa comprou \(422\)
+  rosas, qual é a probabilidade de que \(8\) rosas, que foram colocadas
+  em um vaso de água, sobrevivam mais de 10 dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0200\)
+  \item
+    \(0.0241\)
+  \item
+    \(0.9794\)
+  \item
+    \(0.0206\)
+  \item
+    \(0.9759\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de rosas que sobrevivem mais de dez dias tem distribuição
+  binomial com parâmetros \(n\) e \(p\), ou seja,
+  \(X \sim \text{Bin}(422,0.009)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=3.8)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=8\), é dada por
+
+  \(P(X= 8 | X \sim \text{Bin}(422,0.009)) \approx P(X= 8 | X \sim \text{Pois}(3.8)) = 2.41\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de uma rosa sobreviver mais de 10 dias em um vaso com
+  água é de \(0.009\). Considerando que uma pessoa comprou \(388\)
+  rosas, qual é a probabilidade de que \(7\) rosas, que foram colocadas
+  em um vaso de água, sobrevivam mais de 10 dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0320\)
+  \item
+    \(0.0385\)
+  \item
+    \(0.9623\)
+  \item
+    \(0.0377\)
+  \item
+    \(0.9615\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de rosas que sobrevivem mais de dez dias tem distribuição
+  binomial com parâmetros \(n\) e \(p\), ou seja,
+  \(X \sim \text{Bin}(388,0.009)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=3.5)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=7\), é dada por
+
+  \(P(X= 7 | X \sim \text{Bin}(388,0.009)) \approx P(X= 7 | X \sim \text{Pois}(3.5)) = 3.85\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de uma rosa sobreviver mais de 10 dias em um vaso com
+  água é de \(0.009\). Considerando que uma pessoa comprou \(444\)
+  rosas, qual é a probabilidade de que \(8\) rosas, que foram colocadas
+  em um vaso de água, sobrevivam mais de 10 dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0247\)
+  \item
+    \(0.0275\)
+  \item
+    \(0.9725\)
+  \item
+    \(0.0298\)
+  \item
+    \(0.9702\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de rosas que sobrevivem mais de dez dias tem distribuição
+  binomial com parâmetros \(n\) e \(p\), ou seja,
+  \(X \sim \text{Bin}(444,0.009)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=4)\). Portanto, a probabilidade de observarmos
+  exatamente \(X=8\), é dada por
+
+  \(P(X= 8 | X \sim \text{Bin}(444,0.009)) \approx P(X= 8 | X \sim \text{Pois}(4)) = 2.98\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de uma rosa sobreviver mais de 10 dias em um vaso com
+  água é de \(0.009\). Considerando que uma pessoa comprou \(433\)
+  rosas, qual é a probabilidade de que \(8\) rosas, que foram colocadas
+  em um vaso de água, sobrevivam mais de 10 dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0223\)
+  \item
+    \(0.9731\)
+  \item
+    \(0.0269\)
+  \item
+    \(0.9761\)
+  \item
+    \(0.0239\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de rosas que sobrevivem mais de dez dias tem distribuição
+  binomial com parâmetros \(n\) e \(p\), ou seja,
+  \(X \sim \text{Bin}(433,0.009)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=3.9)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=8\), é dada por
+
+  \(P(X= 8 | X \sim \text{Bin}(433,0.009)) \approx P(X= 8 | X \sim \text{Pois}(3.9)) = 2.69\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de uma rosa sobreviver mais de 10 dias em um vaso com
+  água é de \(0.008\). Considerando que uma pessoa comprou \(425\)
+  rosas, qual é a probabilidade de que \(8\) rosas, que foram colocadas
+  em um vaso de água, sobrevivam mais de 10 dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9852\)
+  \item
+    \(0.9900\)
+  \item
+    \(0.0100\)
+  \item
+    \(0.0148\)
+  \item
+    \(0.0123\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de rosas que sobrevivem mais de dez dias tem distribuição
+  binomial com parâmetros \(n\) e \(p\), ou seja,
+  \(X \sim \text{Bin}(425,0.008)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=3.4)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=8\), é dada por
+
+  \(P(X= 8 | X \sim \text{Bin}(425,0.008)) \approx P(X= 8 | X \sim \text{Pois}(3.4)) = 1.48\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de uma rosa sobreviver mais de 10 dias em um vaso com
+  água é de \(0.009\). Considerando que uma pessoa comprou \(433\)
+  rosas, qual é a probabilidade de que \(7\) rosas, que foram colocadas
+  em um vaso de água, sobrevivam mais de 10 dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9449\)
+  \item
+    \(0.0551\)
+  \item
+    \(0.0457\)
+  \item
+    \(0.9405\)
+  \item
+    \(0.0595\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de rosas que sobrevivem mais de dez dias tem distribuição
+  binomial com parâmetros \(n\) e \(p\), ou seja,
+  \(X \sim \text{Bin}(433,0.009)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=3.9)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=7\), é dada por
+
+  \(P(X= 7 | X \sim \text{Bin}(433,0.009)) \approx P(X= 7 | X \sim \text{Pois}(3.9)) = 5.51\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

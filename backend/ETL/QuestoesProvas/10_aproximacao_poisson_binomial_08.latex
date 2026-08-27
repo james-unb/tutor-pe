@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um determinado pianista errar na execução de uma
+  música de Chopin é \(5\%\). Numa sinfonia de \(8\) músicas
+  (considerando a execução de cada música independente das demais), qual
+  é o erro absoluto da aproximação Poisson à Binomial da probabilidade
+  de ocorrerem \(3\) erros durante a sua execução pelo pianista?
+  (Observação: O erro absoluto é a probabilidade calculada pelo modelo
+  Binomial menos a probabilidade calculada pelo modelo Poisson, em
+  módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2186\)
+  \item
+    \(0.0054\)
+  \item
+    \(0.0004\)
+  \item
+    \(0.0565\)
+  \item
+    \(0.0017\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de erros \(X\) tem distribuição
+  \(X \sim \text{Bin}(8,0.05)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(8 \times 0.05)\). E o
+  erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(8,0.05)) - P(X= 3 | X \sim \text{Pois}(8 \times 0.05)) = 0.0054 - 0.0072.\]
+
+  Portanto, o valor absoluto do erro é \(0.0017.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um determinado pianista errar na execução de uma
+  música de Chopin é \(4\%\). Numa sinfonia de \(8\) músicas
+  (considerando a execução de cada música independente das demais), qual
+  é o erro absoluto da aproximação Poisson à Binomial da probabilidade
+  de ocorrerem \(2\) erros durante a sua execução pelo pianista?
+  (Observação: O erro absoluto é a probabilidade calculada pelo modelo
+  Binomial menos a probabilidade calculada pelo modelo Poisson, em
+  módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0012\)
+  \item
+    \(0.0343\)
+  \item
+    \(0.2356\)
+  \item
+    \(0.0021\)
+  \item
+    \(0.0683\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de erros \(X\) tem distribuição
+  \(X \sim \text{Bin}(8,0.04)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(8 \times 0.04)\). E o
+  erro da aproximação, quando \(X=2\), é dado por
+
+  \[P(X= 2 | X \sim \text{Bin}(8,0.04)) - P(X= 2 | X \sim \text{Pois}(8 \times 0.04)) = 0.0351 - 0.0372.\]
+
+  Portanto, o valor absoluto do erro é \(0.0021.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um determinado pianista errar na execução de uma
+  música de Chopin é \(4\%\). Numa sinfonia de \(10\) músicas
+  (considerando a execução de cada música independente das demais), qual
+  é o erro absoluto da aproximação Poisson à Binomial da probabilidade
+  de ocorrerem \(3\) erros durante a sua execução pelo pianista?
+  (Observação: O erro absoluto é a probabilidade calculada pelo modelo
+  Binomial menos a probabilidade calculada pelo modelo Poisson, em
+  módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0564\)
+  \item
+    \(0.2183\)
+  \item
+    \(0.0058\)
+  \item
+    \(0.0003\)
+  \item
+    \(0.0014\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de erros \(X\) tem distribuição
+  \(X \sim \text{Bin}(10,0.04)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(10 \times 0.04)\). E
+  o erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(10,0.04)) - P(X= 3 | X \sim \text{Pois}(10 \times 0.04)) = 0.0058 - 0.0072.\]
+
+  Portanto, o valor absoluto do erro é \(0.0014.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um determinado pianista errar na execução de uma
+  música de Chopin é \(4\%\). Numa sinfonia de \(10\) músicas
+  (considerando a execução de cada música independente das demais), qual
+  é o erro absoluto da aproximação Poisson à Binomial da probabilidade
+  de ocorrerem \(3\) erros durante a sua execução pelo pianista?
+  (Observação: O erro absoluto é a probabilidade calculada pelo modelo
+  Binomial menos a probabilidade calculada pelo modelo Poisson, em
+  módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2183\)
+  \item
+    \(0.0058\)
+  \item
+    \(0.0564\)
+  \item
+    \(0.0014\)
+  \item
+    \(0.0003\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de erros \(X\) tem distribuição
+  \(X \sim \text{Bin}(10,0.04)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(10 \times 0.04)\). E
+  o erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(10,0.04)) - P(X= 3 | X \sim \text{Pois}(10 \times 0.04)) = 0.0058 - 0.0072.\]
+
+  Portanto, o valor absoluto do erro é \(0.0014.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um determinado pianista errar na execução de uma
+  música de Chopin é \(3\%\). Numa sinfonia de \(10\) músicas
+  (considerando a execução de cada música independente das demais), qual
+  é o erro absoluto da aproximação Poisson à Binomial da probabilidade
+  de ocorrerem \(2\) erros durante a sua execução pelo pianista?
+  (Observação: O erro absoluto é a probabilidade calculada pelo modelo
+  Binomial menos a probabilidade calculada pelo modelo Poisson, em
+  módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2389\)
+  \item
+    \(0.0682\)
+  \item
+    \(0.0313\)
+  \item
+    \(0.0008\)
+  \item
+    \(0.0016\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de erros \(X\) tem distribuição
+  \(X \sim \text{Bin}(10,0.03)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(10 \times 0.03)\). E
+  o erro da aproximação, quando \(X=2\), é dado por
+
+  \[P(X= 2 | X \sim \text{Bin}(10,0.03)) - P(X= 2 | X \sim \text{Pois}(10 \times 0.03)) = 0.0317 - 0.0333.\]
+
+  Portanto, o valor absoluto do erro é \(0.0016.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um determinado pianista errar na execução de uma
+  música de Chopin é \(3\%\). Numa sinfonia de \(10\) músicas
+  (considerando a execução de cada música independente das demais), qual
+  é o erro absoluto da aproximação Poisson à Binomial da probabilidade
+  de ocorrerem \(2\) erros durante a sua execução pelo pianista?
+  (Observação: O erro absoluto é a probabilidade calculada pelo modelo
+  Binomial menos a probabilidade calculada pelo modelo Poisson, em
+  módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0682\)
+  \item
+    \(0.0016\)
+  \item
+    \(0.0008\)
+  \item
+    \(0.2389\)
+  \item
+    \(0.0313\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de erros \(X\) tem distribuição
+  \(X \sim \text{Bin}(10,0.03)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(10 \times 0.03)\). E
+  o erro da aproximação, quando \(X=2\), é dado por
+
+  \[P(X= 2 | X \sim \text{Bin}(10,0.03)) - P(X= 2 | X \sim \text{Pois}(10 \times 0.03)) = 0.0317 - 0.0333.\]
+
+  Portanto, o valor absoluto do erro é \(0.0016.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um determinado pianista errar na execução de uma
+  música de Chopin é \(3\%\). Numa sinfonia de \(9\) músicas
+  (considerando a execução de cada música independente das demais), qual
+  é o erro absoluto da aproximação Poisson à Binomial da probabilidade
+  de ocorrerem \(3\) erros durante a sua execução pelo pianista?
+  (Observação: O erro absoluto é a probabilidade calculada pelo modelo
+  Binomial menos a probabilidade calculada pelo modelo Poisson, em
+  módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0562\)
+  \item
+    \(0.0001\)
+  \item
+    \(0.0006\)
+  \item
+    \(0.0019\)
+  \item
+    \(0.2222\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de erros \(X\) tem distribuição
+  \(X \sim \text{Bin}(9,0.03)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(9 \times 0.03)\). E o
+  erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(9,0.03)) - P(X= 3 | X \sim \text{Pois}(9 \times 0.03)) = 0.0019 - 0.0025.\]
+
+  Portanto, o valor absoluto do erro é \(6e-04.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um determinado pianista errar na execução de uma
+  música de Chopin é \(5\%\). Numa sinfonia de \(8\) músicas
+  (considerando a execução de cada música independente das demais), qual
+  é o erro absoluto da aproximação Poisson à Binomial da probabilidade
+  de ocorrerem \(2\) erros durante a sua execução pelo pianista?
+  (Observação: O erro absoluto é a probabilidade calculada pelo modelo
+  Binomial menos a probabilidade calculada pelo modelo Poisson, em
+  módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0684\)
+  \item
+    \(0.2192\)
+  \item
+    \(0.0503\)
+  \item
+    \(0.0022\)
+  \item
+    \(0.0021\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de erros \(X\) tem distribuição
+  \(X \sim \text{Bin}(8,0.05)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(8 \times 0.05)\). E o
+  erro da aproximação, quando \(X=2\), é dado por
+
+  \[P(X= 2 | X \sim \text{Bin}(8,0.05)) - P(X= 2 | X \sim \text{Pois}(8 \times 0.05)) = 0.0515 - 0.0536.\]
+
+  Portanto, o valor absoluto do erro é \(0.0022.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um determinado pianista errar na execução de uma
+  música de Chopin é \(3\%\). Numa sinfonia de \(9\) músicas
+  (considerando a execução de cada música independente das demais), qual
+  é o erro absoluto da aproximação Poisson à Binomial da probabilidade
+  de ocorrerem \(3\) erros durante a sua execução pelo pianista?
+  (Observação: O erro absoluto é a probabilidade calculada pelo modelo
+  Binomial menos a probabilidade calculada pelo modelo Poisson, em
+  módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0006\)
+  \item
+    \(0.0001\)
+  \item
+    \(0.0562\)
+  \item
+    \(0.0019\)
+  \item
+    \(0.2222\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de erros \(X\) tem distribuição
+  \(X \sim \text{Bin}(9,0.03)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(9 \times 0.03)\). E o
+  erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(9,0.03)) - P(X= 3 | X \sim \text{Pois}(9 \times 0.03)) = 0.0019 - 0.0025.\]
+
+  Portanto, o valor absoluto do erro é \(6e-04.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A probabilidade de um determinado pianista errar na execução de uma
+  música de Chopin é \(5\%\). Numa sinfonia de \(10\) músicas
+  (considerando a execução de cada música independente das demais), qual
+  é o erro absoluto da aproximação Poisson à Binomial da probabilidade
+  de ocorrerem \(3\) erros durante a sua execução pelo pianista?
+  (Observação: O erro absoluto é a probabilidade calculada pelo modelo
+  Binomial menos a probabilidade calculada pelo modelo Poisson, em
+  módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0022\)
+  \item
+    \(0.0105\)
+  \item
+    \(0.0007\)
+  \item
+    \(0.2136\)
+  \item
+    \(0.0567\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de erros \(X\) tem distribuição
+  \(X \sim \text{Bin}(10,0.05)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(10 \times 0.05)\). E
+  o erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(10,0.05)) - P(X= 3 | X \sim \text{Pois}(10 \times 0.05)) = 0.0105 - 0.0126.\]
+
+  Portanto, o valor absoluto do erro é \(0.0022.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

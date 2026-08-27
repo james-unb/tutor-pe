@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que determinado jogador de basquete acerta, em média, \(54\%\)
+  dos seus lances livres, sendo cada tentativa independente das demais.
+  Qual é a probabilidade de que ele tenha êxito em pelo menos metade das
+  vezes em \(44\) lances livres? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.702\)
+  \item
+    \(0.528\)
+  \item
+    \(0.104\)
+  \item
+    \(0.298\)
+  \item
+    \(0.564\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas convertidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=44\) e \(p=0.54\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(23.76,3.306)\). E probabilidade desejada é dada por
+  \[P(X \geq 22 ) = 1 - P(X < 22) = 1- P(Z < -0.53) = 0.702.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que determinado jogador de basquete acerta, em média, \(60\%\)
+  dos seus lances livres, sendo cada tentativa independente das demais.
+  Qual é a probabilidade de que ele tenha êxito em pelo menos metade das
+  vezes em \(40\) lances livres? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.901\)
+  \item
+    \(0.099\)
+  \item
+    \(0.567\)
+  \item
+    \(0.663\)
+  \item
+    \(0.055\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas convertidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=40\) e \(p=0.6\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(24,3.0984)\). E probabilidade desejada é dada por
+  \[P(X \geq 20 ) = 1 - P(X < 20) = 1- P(Z < -1.29) = 0.901.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que determinado jogador de basquete acerta, em média, \(59\%\)
+  dos seus lances livres, sendo cada tentativa independente das demais.
+  Qual é a probabilidade de que ele tenha êxito em pelo menos metade das
+  vezes em \(46\) lances livres? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.055\)
+  \item
+    \(0.107\)
+  \item
+    \(0.560\)
+  \item
+    \(0.644\)
+  \item
+    \(0.893\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas convertidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=46\) e \(p=0.59\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(27.14,3.3358)\). E probabilidade desejada é dada por
+  \[P(X \geq 23 ) = 1 - P(X < 23) = 1- P(Z < -1.24) = 0.893.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que determinado jogador de basquete acerta, em média, \(53\%\)
+  dos seus lances livres, sendo cada tentativa independente das demais.
+  Qual é a probabilidade de que ele tenha êxito em pelo menos metade das
+  vezes em \(60\) lances livres? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.524\)
+  \item
+    \(0.092\)
+  \item
+    \(0.319\)
+  \item
+    \(0.548\)
+  \item
+    \(0.681\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas convertidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=60\) e \(p=0.53\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(31.8,3.866)\). E probabilidade desejada é dada por
+  \[P(X \geq 30 ) = 1 - P(X < 30) = 1- P(Z < -0.47) = 0.681.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que determinado jogador de basquete acerta, em média, \(57\%\)
+  dos seus lances livres, sendo cada tentativa independente das demais.
+  Qual é a probabilidade de que ele tenha êxito em pelo menos metade das
+  vezes em \(40\) lances livres? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.614\)
+  \item
+    \(0.548\)
+  \item
+    \(0.084\)
+  \item
+    \(0.813\)
+  \item
+    \(0.187\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas convertidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=40\) e \(p=0.57\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(22.8,3.1311)\). E probabilidade desejada é dada por
+  \[P(X \geq 20 ) = 1 - P(X < 20) = 1- P(Z < -0.89) = 0.813.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que determinado jogador de basquete acerta, em média, \(52\%\)
+  dos seus lances livres, sendo cada tentativa independente das demais.
+  Qual é a probabilidade de que ele tenha êxito em pelo menos metade das
+  vezes em \(48\) lances livres? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.110\)
+  \item
+    \(0.516\)
+  \item
+    \(0.532\)
+  \item
+    \(0.390\)
+  \item
+    \(0.610\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas convertidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=48\) e \(p=0.52\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(24.96,3.4613)\). E probabilidade desejada é dada por
+  \[P(X \geq 24 ) = 1 - P(X < 24) = 1- P(Z < -0.28) = 0.61.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que determinado jogador de basquete acerta, em média, \(57\%\)
+  dos seus lances livres, sendo cada tentativa independente das demais.
+  Qual é a probabilidade de que ele tenha êxito em pelo menos metade das
+  vezes em \(50\) lances livres? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.159\)
+  \item
+    \(0.548\)
+  \item
+    \(0.841\)
+  \item
+    \(0.068\)
+  \item
+    \(0.614\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas convertidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=50\) e \(p=0.57\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(28.5,3.5007)\). E probabilidade desejada é dada por
+  \[P(X \geq 25 ) = 1 - P(X < 25) = 1- P(Z < -1) = 0.841.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que determinado jogador de basquete acerta, em média, \(53\%\)
+  dos seus lances livres, sendo cada tentativa independente das demais.
+  Qual é a probabilidade de que ele tenha êxito em pelo menos metade das
+  vezes em \(52\) lances livres? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.524\)
+  \item
+    \(0.100\)
+  \item
+    \(0.666\)
+  \item
+    \(0.548\)
+  \item
+    \(0.334\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas convertidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=52\) e \(p=0.53\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(27.56,3.5991)\). E probabilidade desejada é dada por
+  \[P(X \geq 26 ) = 1 - P(X < 26) = 1- P(Z < -0.43) = 0.666.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que determinado jogador de basquete acerta, em média, \(58\%\)
+  dos seus lances livres, sendo cada tentativa independente das demais.
+  Qual é a probabilidade de que ele tenha êxito em pelo menos metade das
+  vezes em \(44\) lances livres? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.068\)
+  \item
+    \(0.556\)
+  \item
+    \(0.860\)
+  \item
+    \(0.629\)
+  \item
+    \(0.140\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas convertidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=44\) e \(p=0.58\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(25.52,3.2739)\). E probabilidade desejada é dada por
+  \[P(X \geq 22 ) = 1 - P(X < 22) = 1- P(Z < -1.08) = 0.86.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que determinado jogador de basquete acerta, em média, \(59\%\)
+  dos seus lances livres, sendo cada tentativa independente das demais.
+  Qual é a probabilidade de que ele tenha êxito em pelo menos metade das
+  vezes em \(48\) lances livres? (Não utilizar correção de continuidade
+  na aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.102\)
+  \item
+    \(0.052\)
+  \item
+    \(0.898\)
+  \item
+    \(0.644\)
+  \item
+    \(0.560\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de cestas convertidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=48\) e \(p=0.59\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(28.32,3.4075)\). E probabilidade desejada é dada por
+  \[P(X \geq 24 ) = 1 - P(X < 24) = 1- P(Z < -1.27) = 0.898.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

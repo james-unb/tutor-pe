@@ -1,0 +1,492 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  x/4, & 0\leq x < 2, \\
+  1/4, & 2 \leq x \leq 4, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.57 < X\leq 3)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.459\)
+  \item
+    \(0.125\)
+  \item
+    \(0.250\)
+  \item
+    \(0.291\)
+  \item
+    \(0.709\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.57 < X < 3) & = \int_{0.57}^2 x/4 dx + \int_2^{3} 1/4 dx\\
+    & = \frac{x^2}{8} \Big\rvert_{0.57}^2 + \frac{x}{4} \Big\rvert_2^{3} \\
+    & = 0.459 + 0.25 \\
+    & = 0.709.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  x/4, & 0\leq x < 2, \\
+  1/4, & 2 \leq x \leq 4, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.11 < X\leq 4)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.498\)
+  \item
+    \(0.998\)
+  \item
+    \(0.125\)
+  \item
+    \(0.002\)
+  \item
+    \(0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.11 < X < 4) & = \int_{0.11}^2 x/4 dx + \int_2^{4} 1/4 dx\\
+    & = \frac{x^2}{8} \Big\rvert_{0.11}^2 + \frac{x}{4} \Big\rvert_2^{4} \\
+    & = 0.498 + 0.5 \\
+    & = 0.998.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  x/4, & 0\leq x < 2, \\
+  1/4, & 2 \leq x \leq 4, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.18 < X\leq 4)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.500\)
+  \item
+    \(0.996\)
+  \item
+    \(0.496\)
+  \item
+    \(0.004\)
+  \item
+    \(0.125\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.18 < X < 4) & = \int_{0.18}^2 x/4 dx + \int_2^{4} 1/4 dx\\
+    & = \frac{x^2}{8} \Big\rvert_{0.18}^2 + \frac{x}{4} \Big\rvert_2^{4} \\
+    & = 0.496 + 0.5 \\
+    & = 0.996.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  x/4, & 0\leq x < 2, \\
+  1/4, & 2 \leq x \leq 4, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.58 < X\leq 3)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(0.458\)
+  \item
+    \(0.292\)
+  \item
+    \(0.125\)
+  \item
+    \(0.708\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.58 < X < 3) & = \int_{0.58}^2 x/4 dx + \int_2^{3} 1/4 dx\\
+    & = \frac{x^2}{8} \Big\rvert_{0.58}^2 + \frac{x}{4} \Big\rvert_2^{3} \\
+    & = 0.458 + 0.25 \\
+    & = 0.708.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  x/4, & 0\leq x < 2, \\
+  1/4, & 2 \leq x \leq 4, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.23 < X\leq 4)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.125\)
+  \item
+    \(0.993\)
+  \item
+    \(0.500\)
+  \item
+    \(0.493\)
+  \item
+    \(0.007\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.23 < X < 4) & = \int_{0.23}^2 x/4 dx + \int_2^{4} 1/4 dx\\
+    & = \frac{x^2}{8} \Big\rvert_{0.23}^2 + \frac{x}{4} \Big\rvert_2^{4} \\
+    & = 0.493 + 0.5 \\
+    & = 0.993.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  x/4, & 0\leq x < 2, \\
+  1/4, & 2 \leq x \leq 4, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.45 < X\leq 4)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.975\)
+  \item
+    \(0.500\)
+  \item
+    \(0.125\)
+  \item
+    \(0.025\)
+  \item
+    \(0.475\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.45 < X < 4) & = \int_{0.45}^2 x/4 dx + \int_2^{4} 1/4 dx\\
+    & = \frac{x^2}{8} \Big\rvert_{0.45}^2 + \frac{x}{4} \Big\rvert_2^{4} \\
+    & = 0.475 + 0.5 \\
+    & = 0.975.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  x/4, & 0\leq x < 2, \\
+  1/4, & 2 \leq x \leq 4, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.58 < X\leq 4)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.042\)
+  \item
+    \(0.500\)
+  \item
+    \(0.125\)
+  \item
+    \(0.958\)
+  \item
+    \(0.458\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.58 < X < 4) & = \int_{0.58}^2 x/4 dx + \int_2^{4} 1/4 dx\\
+    & = \frac{x^2}{8} \Big\rvert_{0.58}^2 + \frac{x}{4} \Big\rvert_2^{4} \\
+    & = 0.458 + 0.5 \\
+    & = 0.958.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  x/4, & 0\leq x < 2, \\
+  1/4, & 2 \leq x \leq 4, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.78 < X\leq 4)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.125\)
+  \item
+    \(0.076\)
+  \item
+    \(0.424\)
+  \item
+    \(0.500\)
+  \item
+    \(0.924\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.78 < X < 4) & = \int_{0.78}^2 x/4 dx + \int_2^{4} 1/4 dx\\
+    & = \frac{x^2}{8} \Big\rvert_{0.78}^2 + \frac{x}{4} \Big\rvert_2^{4} \\
+    & = 0.424 + 0.5 \\
+    & = 0.924.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  x/4, & 0\leq x < 2, \\
+  1/4, & 2 \leq x \leq 4, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.5 < X\leq 4)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.125\)
+  \item
+    \(0.969\)
+  \item
+    \(0.500\)
+  \item
+    \(0.031\)
+  \item
+    \(0.469\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.5 < X < 4) & = \int_{0.5}^2 x/4 dx + \int_2^{4} 1/4 dx\\
+    & = \frac{x^2}{8} \Big\rvert_{0.5}^2 + \frac{x}{4} \Big\rvert_2^{4} \\
+    & = 0.469 + 0.5 \\
+    & = 0.969.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  x/4, & 0\leq x < 2, \\
+  1/4, & 2 \leq x \leq 4, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.58 < X\leq 4)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.458\)
+  \item
+    \(0.500\)
+  \item
+    \(0.125\)
+  \item
+    \(0.958\)
+  \item
+    \(0.042\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.58 < X < 4) & = \int_{0.58}^2 x/4 dx + \int_2^{4} 1/4 dx\\
+    & = \frac{x^2}{8} \Big\rvert_{0.58}^2 + \frac{x}{4} \Big\rvert_2^{4} \\
+    & = 0.458 + 0.5 \\
+    & = 0.958.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

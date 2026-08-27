@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O SAC de uma empresa recebe, em média, 86 ligações por dia em horário
+  comercial. A fim de estimar o número adequado de atendentes para
+  trabalhar nesses horários, a empresa deseja estimar a probabilidade de
+  receber mais do que 104 ligações em um único dia no horário comercial.
+  Seja \(X\) o número de ligações em um determinado dia, qual das
+  distribuições de probabilidade seria adequada para modelar a variável
+  aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Poisson(86)
+  \item
+    Geométrica(86/104)
+  \item
+    Binomial(0.5, 104)
+  \item
+    Binomial(0.5, 86)
+  \item
+    Poisson(104)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como a probabilidade de sucesso (receber uma ligação de uma dado
+  cliente) é pequena e há muitas chances de sucesso (número de clientes
+  que potencialmente ligarão), a distribuição de probabilidade adequada
+  para descrever o comportamento da variável aleatória \(X\) é
+  Poisson(86).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O SAC de uma empresa recebe, em média, 91 ligações por dia em horário
+  comercial. A fim de estimar o número adequado de atendentes para
+  trabalhar nesses horários, a empresa deseja estimar a probabilidade de
+  receber mais do que 103 ligações em um único dia no horário comercial.
+  Seja \(X\) o número de ligações em um determinado dia, qual das
+  distribuições de probabilidade seria adequada para modelar a variável
+  aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Geométrica(91/103)
+  \item
+    Poisson(103)
+  \item
+    Binomial(0.5, 103)
+  \item
+    Poisson(91)
+  \item
+    Binomial(0.5, 91)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como a probabilidade de sucesso (receber uma ligação de uma dado
+  cliente) é pequena e há muitas chances de sucesso (número de clientes
+  que potencialmente ligarão), a distribuição de probabilidade adequada
+  para descrever o comportamento da variável aleatória \(X\) é
+  Poisson(91).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O SAC de uma empresa recebe, em média, 81 ligações por dia em horário
+  comercial. A fim de estimar o número adequado de atendentes para
+  trabalhar nesses horários, a empresa deseja estimar a probabilidade de
+  receber mais do que 118 ligações em um único dia no horário comercial.
+  Seja \(X\) o número de ligações em um determinado dia, qual das
+  distribuições de probabilidade seria adequada para modelar a variável
+  aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Poisson(81)
+  \item
+    Geométrica(81/118)
+  \item
+    Binomial(0.5, 118)
+  \item
+    Binomial(0.5, 81)
+  \item
+    Poisson(118)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como a probabilidade de sucesso (receber uma ligação de uma dado
+  cliente) é pequena e há muitas chances de sucesso (número de clientes
+  que potencialmente ligarão), a distribuição de probabilidade adequada
+  para descrever o comportamento da variável aleatória \(X\) é
+  Poisson(81).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O SAC de uma empresa recebe, em média, 99 ligações por dia em horário
+  comercial. A fim de estimar o número adequado de atendentes para
+  trabalhar nesses horários, a empresa deseja estimar a probabilidade de
+  receber mais do que 105 ligações em um único dia no horário comercial.
+  Seja \(X\) o número de ligações em um determinado dia, qual das
+  distribuições de probabilidade seria adequada para modelar a variável
+  aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Binomial(0.5, 99)
+  \item
+    Binomial(0.5, 105)
+  \item
+    Poisson(105)
+  \item
+    Poisson(99)
+  \item
+    Geométrica(99/105)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como a probabilidade de sucesso (receber uma ligação de uma dado
+  cliente) é pequena e há muitas chances de sucesso (número de clientes
+  que potencialmente ligarão), a distribuição de probabilidade adequada
+  para descrever o comportamento da variável aleatória \(X\) é
+  Poisson(99).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O SAC de uma empresa recebe, em média, 80 ligações por dia em horário
+  comercial. A fim de estimar o número adequado de atendentes para
+  trabalhar nesses horários, a empresa deseja estimar a probabilidade de
+  receber mais do que 127 ligações em um único dia no horário comercial.
+  Seja \(X\) o número de ligações em um determinado dia, qual das
+  distribuições de probabilidade seria adequada para modelar a variável
+  aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Poisson(127)
+  \item
+    Geométrica(80/127)
+  \item
+    Poisson(80)
+  \item
+    Binomial(0.5, 127)
+  \item
+    Binomial(0.5, 80)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como a probabilidade de sucesso (receber uma ligação de uma dado
+  cliente) é pequena e há muitas chances de sucesso (número de clientes
+  que potencialmente ligarão), a distribuição de probabilidade adequada
+  para descrever o comportamento da variável aleatória \(X\) é
+  Poisson(80).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O SAC de uma empresa recebe, em média, 82 ligações por dia em horário
+  comercial. A fim de estimar o número adequado de atendentes para
+  trabalhar nesses horários, a empresa deseja estimar a probabilidade de
+  receber mais do que 113 ligações em um único dia no horário comercial.
+  Seja \(X\) o número de ligações em um determinado dia, qual das
+  distribuições de probabilidade seria adequada para modelar a variável
+  aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Poisson(113)
+  \item
+    Geométrica(82/113)
+  \item
+    Poisson(82)
+  \item
+    Binomial(0.5, 113)
+  \item
+    Binomial(0.5, 82)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como a probabilidade de sucesso (receber uma ligação de uma dado
+  cliente) é pequena e há muitas chances de sucesso (número de clientes
+  que potencialmente ligarão), a distribuição de probabilidade adequada
+  para descrever o comportamento da variável aleatória \(X\) é
+  Poisson(82).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O SAC de uma empresa recebe, em média, 84 ligações por dia em horário
+  comercial. A fim de estimar o número adequado de atendentes para
+  trabalhar nesses horários, a empresa deseja estimar a probabilidade de
+  receber mais do que 94 ligações em um único dia no horário comercial.
+  Seja \(X\) o número de ligações em um determinado dia, qual das
+  distribuições de probabilidade seria adequada para modelar a variável
+  aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Poisson(94)
+  \item
+    Binomial(0.5, 94)
+  \item
+    Poisson(84)
+  \item
+    Geométrica(84/94)
+  \item
+    Binomial(0.5, 84)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como a probabilidade de sucesso (receber uma ligação de uma dado
+  cliente) é pequena e há muitas chances de sucesso (número de clientes
+  que potencialmente ligarão), a distribuição de probabilidade adequada
+  para descrever o comportamento da variável aleatória \(X\) é
+  Poisson(84).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O SAC de uma empresa recebe, em média, 94 ligações por dia em horário
+  comercial. A fim de estimar o número adequado de atendentes para
+  trabalhar nesses horários, a empresa deseja estimar a probabilidade de
+  receber mais do que 145 ligações em um único dia no horário comercial.
+  Seja \(X\) o número de ligações em um determinado dia, qual das
+  distribuições de probabilidade seria adequada para modelar a variável
+  aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Poisson(145)
+  \item
+    Binomial(0.5, 145)
+  \item
+    Poisson(94)
+  \item
+    Binomial(0.5, 94)
+  \item
+    Geométrica(94/145)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como a probabilidade de sucesso (receber uma ligação de uma dado
+  cliente) é pequena e há muitas chances de sucesso (número de clientes
+  que potencialmente ligarão), a distribuição de probabilidade adequada
+  para descrever o comportamento da variável aleatória \(X\) é
+  Poisson(94).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O SAC de uma empresa recebe, em média, 95 ligações por dia em horário
+  comercial. A fim de estimar o número adequado de atendentes para
+  trabalhar nesses horários, a empresa deseja estimar a probabilidade de
+  receber mais do que 121 ligações em um único dia no horário comercial.
+  Seja \(X\) o número de ligações em um determinado dia, qual das
+  distribuições de probabilidade seria adequada para modelar a variável
+  aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Poisson(121)
+  \item
+    Binomial(0.5, 95)
+  \item
+    Binomial(0.5, 121)
+  \item
+    Poisson(95)
+  \item
+    Geométrica(95/121)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como a probabilidade de sucesso (receber uma ligação de uma dado
+  cliente) é pequena e há muitas chances de sucesso (número de clientes
+  que potencialmente ligarão), a distribuição de probabilidade adequada
+  para descrever o comportamento da variável aleatória \(X\) é
+  Poisson(95).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O SAC de uma empresa recebe, em média, 78 ligações por dia em horário
+  comercial. A fim de estimar o número adequado de atendentes para
+  trabalhar nesses horários, a empresa deseja estimar a probabilidade de
+  receber mais do que 136 ligações em um único dia no horário comercial.
+  Seja \(X\) o número de ligações em um determinado dia, qual das
+  distribuições de probabilidade seria adequada para modelar a variável
+  aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Binomial(0.5, 78)
+  \item
+    Poisson(136)
+  \item
+    Binomial(0.5, 136)
+  \item
+    Geométrica(78/136)
+  \item
+    Poisson(78)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como a probabilidade de sucesso (receber uma ligação de uma dado
+  cliente) é pequena e há muitas chances de sucesso (número de clientes
+  que potencialmente ligarão), a distribuição de probabilidade adequada
+  para descrever o comportamento da variável aleatória \(X\) é
+  Poisson(78).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

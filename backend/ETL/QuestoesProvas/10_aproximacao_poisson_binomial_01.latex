@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Qual é o erro, em valor absoluto, da aproximação Poisson da
+  distribuição Binomial do seguinte problema: A probabilidade de uma
+  lâmpada se queimar ao ser ligada é \(5\%\). Numa instalação com \(30\)
+  lâmpadas, qual é a probabilidade de exatamente \(2\) lâmpadas se
+  queimarem ao serem ligadas (utilize a aproximação de poisson da
+  distribuição binomial)? (Observação: O erro absoluto é a probabilidade
+  calculada pelo modelo Binomial menos a probabilidade calculada pelo
+  modelo Poisson, em módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.070\)
+  \item
+    \(0.012\)
+  \item
+    \(0.257\)
+  \item
+    \(0.003\)
+  \item
+    \(0.008\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de lâmpadas queimadas \(X\) tem distribuição
+  \(X \sim \text{Bin}(30,0.05)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(30 \times 0.05)\). E
+  o erro da aproximação, quando \(X=2\), é dado por
+
+  \[P(X= 2 | X \sim \text{Bin}(30,0.05)) - P(X= 2 | X \sim \text{Pois}(30 \times 0.05)) = 0.2586 - 0.251.\]
+
+  Portanto, o valor absoluto do erro é \(0.008.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Qual é o erro, em valor absoluto, da aproximação Poisson da
+  distribuição Binomial do seguinte problema: A probabilidade de uma
+  lâmpada se queimar ao ser ligada é \(8\%\). Numa instalação com \(30\)
+  lâmpadas, qual é a probabilidade de exatamente \(4\) lâmpadas se
+  queimarem ao serem ligadas (utilize a aproximação de poisson da
+  distribuição binomial)? (Observação: O erro absoluto é a probabilidade
+  calculada pelo modelo Binomial menos a probabilidade calculada pelo
+  modelo Poisson, em módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.009\)
+  \item
+    \(0.052\)
+  \item
+    \(0.067\)
+  \item
+    \(0.128\)
+  \item
+    \(0.003\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de lâmpadas queimadas \(X\) tem distribuição
+  \(X \sim \text{Bin}(30,0.08)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(30 \times 0.08)\). E
+  o erro da aproximação, quando \(X=4\), é dado por
+
+  \[P(X= 4 | X \sim \text{Bin}(30,0.08)) - P(X= 4 | X \sim \text{Pois}(30 \times 0.08)) = 0.1284 - 0.1254.\]
+
+  Portanto, o valor absoluto do erro é \(0.003.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Qual é o erro, em valor absoluto, da aproximação Poisson da
+  distribuição Binomial do seguinte problema: A probabilidade de uma
+  lâmpada se queimar ao ser ligada é \(10\%\). Numa instalação com
+  \(25\) lâmpadas, qual é a probabilidade de exatamente \(2\) lâmpadas
+  se queimarem ao serem ligadas (utilize a aproximação de poisson da
+  distribuição binomial)? (Observação: O erro absoluto é a probabilidade
+  calculada pelo modelo Binomial menos a probabilidade calculada pelo
+  modelo Poisson, em módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.261\)
+  \item
+    \(0.007\)
+  \item
+    \(0.005\)
+  \item
+    \(0.009\)
+  \item
+    \(0.071\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de lâmpadas queimadas \(X\) tem distribuição
+  \(X \sim \text{Bin}(25,0.1)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(25 \times 0.1)\). E o
+  erro da aproximação, quando \(X=2\), é dado por
+
+  \[P(X= 2 | X \sim \text{Bin}(25,0.1)) - P(X= 2 | X \sim \text{Pois}(25 \times 0.1)) = 0.2659 - 0.2565.\]
+
+  Portanto, o valor absoluto do erro é \(0.009.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Qual é o erro, em valor absoluto, da aproximação Poisson da
+  distribuição Binomial do seguinte problema: A probabilidade de uma
+  lâmpada se queimar ao ser ligada é \(5\%\). Numa instalação com \(30\)
+  lâmpadas, qual é a probabilidade de exatamente \(3\) lâmpadas se
+  queimarem ao serem ligadas (utilize a aproximação de poisson da
+  distribuição binomial)? (Observação: O erro absoluto é a probabilidade
+  calculada pelo modelo Binomial menos a probabilidade calculada pelo
+  modelo Poisson, em módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.058\)
+  \item
+    \(0.097\)
+  \item
+    \(0.002\)
+  \item
+    \(0.127\)
+  \item
+    \(0.005\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de lâmpadas queimadas \(X\) tem distribuição
+  \(X \sim \text{Bin}(30,0.05)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(30 \times 0.05)\). E
+  o erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(30,0.05)) - P(X= 3 | X \sim \text{Pois}(30 \times 0.05)) = 0.127 - 0.1255.\]
+
+  Portanto, o valor absoluto do erro é \(0.002.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Qual é o erro, em valor absoluto, da aproximação Poisson da
+  distribuição Binomial do seguinte problema: A probabilidade de uma
+  lâmpada se queimar ao ser ligada é \(7\%\). Numa instalação com \(20\)
+  lâmpadas, qual é a probabilidade de exatamente \(4\) lâmpadas se
+  queimarem ao serem ligadas (utilize a aproximação de poisson da
+  distribuição binomial)? (Observação: O erro absoluto é a probabilidade
+  calculada pelo modelo Binomial menos a probabilidade calculada pelo
+  modelo Poisson, em módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.050\)
+  \item
+    \(0.004\)
+  \item
+    \(0.159\)
+  \item
+    \(0.003\)
+  \item
+    \(0.036\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de lâmpadas queimadas \(X\) tem distribuição
+  \(X \sim \text{Bin}(20,0.07)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(20 \times 0.07)\). E
+  o erro da aproximação, quando \(X=4\), é dado por
+
+  \[P(X= 4 | X \sim \text{Bin}(20,0.07)) - P(X= 4 | X \sim \text{Pois}(20 \times 0.07)) = 0.0364 - 0.0395.\]
+
+  Portanto, o valor absoluto do erro é \(0.003.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Qual é o erro, em valor absoluto, da aproximação Poisson da
+  distribuição Binomial do seguinte problema: A probabilidade de uma
+  lâmpada se queimar ao ser ligada é \(10\%\). Numa instalação com
+  \(20\) lâmpadas, qual é a probabilidade de exatamente \(4\) lâmpadas
+  se queimarem ao serem ligadas (utilize a aproximação de poisson da
+  distribuição binomial)? (Observação: O erro absoluto é a probabilidade
+  calculada pelo modelo Binomial menos a probabilidade calculada pelo
+  modelo Poisson, em módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.000\)
+  \item
+    \(0.009\)
+  \item
+    \(0.106\)
+  \item
+    \(0.090\)
+  \item
+    \(0.051\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de lâmpadas queimadas \(X\) tem distribuição
+  \(X \sim \text{Bin}(20,0.1)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(20 \times 0.1)\). E o
+  erro da aproximação, quando \(X=4\), é dado por
+
+  \[P(X= 4 | X \sim \text{Bin}(20,0.1)) - P(X= 4 | X \sim \text{Pois}(20 \times 0.1)) = 0.0898 - 0.0902.\]
+
+  Portanto, o valor absoluto do erro é \(0.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Qual é o erro, em valor absoluto, da aproximação Poisson da
+  distribuição Binomial do seguinte problema: A probabilidade de uma
+  lâmpada se queimar ao ser ligada é \(8\%\). Numa instalação com \(20\)
+  lâmpadas, qual é a probabilidade de exatamente \(3\) lâmpadas se
+  queimarem ao serem ligadas (utilize a aproximação de poisson da
+  distribuição binomial)? (Observação: O erro absoluto é a probabilidade
+  calculada pelo modelo Binomial menos a probabilidade calculada pelo
+  modelo Poisson, em módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.083\)
+  \item
+    \(0.141\)
+  \item
+    \(0.059\)
+  \item
+    \(0.004\)
+  \item
+    \(0.008\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de lâmpadas queimadas \(X\) tem distribuição
+  \(X \sim \text{Bin}(20,0.08)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(20 \times 0.08)\). E
+  o erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(20,0.08)) - P(X= 3 | X \sim \text{Pois}(20 \times 0.08)) = 0.1414 - 0.1378.\]
+
+  Portanto, o valor absoluto do erro é \(0.004.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Qual é o erro, em valor absoluto, da aproximação Poisson da
+  distribuição Binomial do seguinte problema: A probabilidade de uma
+  lâmpada se queimar ao ser ligada é \(6\%\). Numa instalação com \(20\)
+  lâmpadas, qual é a probabilidade de exatamente \(4\) lâmpadas se
+  queimarem ao serem ligadas (utilize a aproximação de poisson da
+  distribuição binomial)? (Observação: O erro absoluto é a probabilidade
+  calculada pelo modelo Binomial menos a probabilidade calculada pelo
+  modelo Poisson, em módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.003\)
+  \item
+    \(0.002\)
+  \item
+    \(0.050\)
+  \item
+    \(0.023\)
+  \item
+    \(0.172\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de lâmpadas queimadas \(X\) tem distribuição
+  \(X \sim \text{Bin}(20,0.06)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(20 \times 0.06)\). E
+  o erro da aproximação, quando \(X=4\), é dado por
+
+  \[P(X= 4 | X \sim \text{Bin}(20,0.06)) - P(X= 4 | X \sim \text{Pois}(20 \times 0.06)) = 0.0233 - 0.026.\]
+
+  Portanto, o valor absoluto do erro é \(0.003.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Qual é o erro, em valor absoluto, da aproximação Poisson da
+  distribuição Binomial do seguinte problema: A probabilidade de uma
+  lâmpada se queimar ao ser ligada é \(8\%\). Numa instalação com \(25\)
+  lâmpadas, qual é a probabilidade de exatamente \(4\) lâmpadas se
+  queimarem ao serem ligadas (utilize a aproximação de poisson da
+  distribuição binomial)? (Observação: O erro absoluto é a probabilidade
+  calculada pelo modelo Binomial menos a probabilidade calculada pelo
+  modelo Poisson, em módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.105\)
+  \item
+    \(0.000\)
+  \item
+    \(0.008\)
+  \item
+    \(0.051\)
+  \item
+    \(0.090\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de lâmpadas queimadas \(X\) tem distribuição
+  \(X \sim \text{Bin}(25,0.08)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(25 \times 0.08)\). E
+  o erro da aproximação, quando \(X=4\), é dado por
+
+  \[P(X= 4 | X \sim \text{Bin}(25,0.08)) - P(X= 4 | X \sim \text{Pois}(25 \times 0.08)) = 0.0899 - 0.0902.\]
+
+  Portanto, o valor absoluto do erro é \(0.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Qual é o erro, em valor absoluto, da aproximação Poisson da
+  distribuição Binomial do seguinte problema: A probabilidade de uma
+  lâmpada se queimar ao ser ligada é \(9\%\). Numa instalação com \(30\)
+  lâmpadas, qual é a probabilidade de exatamente \(3\) lâmpadas se
+  queimarem ao serem ligadas (utilize a aproximação de poisson da
+  distribuição binomial)? (Observação: O erro absoluto é a probabilidade
+  calculada pelo modelo Binomial menos a probabilidade calculada pelo
+  modelo Poisson, em módulo.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.011\)
+  \item
+    \(0.232\)
+  \item
+    \(0.064\)
+  \item
+    \(0.008\)
+  \item
+    \(0.003\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de lâmpadas queimadas \(X\) tem distribuição
+  \(X \sim \text{Bin}(30,0.09)\). Utilizando a aproximação de Poisson
+  para a Binomial, tem-se que \(X \sim \text{Pois}(30 \times 0.09)\). E
+  o erro da aproximação, quando \(X=3\), é dado por
+
+  \[P(X= 3 | X \sim \text{Bin}(30,0.09)) - P(X= 3 | X \sim \text{Pois}(30 \times 0.09)) = 0.2319 - 0.2205.\]
+
+  Portanto, o valor absoluto do erro é \(0.011.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

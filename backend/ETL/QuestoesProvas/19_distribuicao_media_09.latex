@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Foi realizada uma pesquisa envolvendo uma amostra de 74 pacientes,
+  entre 15 e 20 anos, de um certo hospital. Cada um desses pacientes foi
+  submetido a uma série de exames clínicos, incluíndo sua frequência
+  cardíaca. Pessoas saudáveis nessa faixa etária apresentam batimentos
+  entre 60 e 90 vezes por minuto. Sabendo-se que a média e o desvio
+  padrão populacional são de 89 e 21, respectivamente, calcule a
+  probabilidade da média dos pacientes da amostra estar dentro da faixa
+  de batimentos cardíacos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0279\)
+  \item
+    \(0.5675\)
+  \item
+    \(0.6591\)
+  \item
+    \(0.2211\)
+  \item
+    \(0.4361\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(E(\bar{X}) = \mu = 89\), enquanto que o desvio padrão estimado pela
+  amostra é \(\sigma/\sqrt{n} = 21/\sqrt{74} = 2.441\). Assim, a
+  probabilidade requerida é
+  \[P(60 \leq \overline{X} \leq 90) = P\left(Z \leq \frac{90 - 89}{2.441}\right) - P\left(Z \leq \frac{60 - 89}{2.441}\right) = P(Z < 0.41) - P(Z < -11.88) = 0.6591.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Foi realizada uma pesquisa envolvendo uma amostra de 78 pacientes,
+  entre 15 e 20 anos, de um certo hospital. Cada um desses pacientes foi
+  submetido a uma série de exames clínicos, incluíndo sua frequência
+  cardíaca. Pessoas saudáveis nessa faixa etária apresentam batimentos
+  entre 60 e 90 vezes por minuto. Sabendo-se que a média e o desvio
+  padrão populacional são de 87 e 20, respectivamente, calcule a
+  probabilidade da média dos pacientes da amostra estar dentro da faixa
+  de batimentos cardíacos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7190\)
+  \item
+    \(0.0319\)
+  \item
+    \(0.4711\)
+  \item
+    \(0.9066\)
+  \item
+    \(0.6848\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(E(\bar{X}) = \mu = 87\), enquanto que o desvio padrão estimado pela
+  amostra é \(\sigma/\sqrt{n} = 20/\sqrt{78} = 2.265\). Assim, a
+  probabilidade requerida é
+  \[P(60 \leq \overline{X} \leq 90) = P\left(Z \leq \frac{90 - 87}{2.265}\right) - P\left(Z \leq \frac{60 - 87}{2.265}\right) = P(Z < 1.32) - P(Z < -11.92) = 0.9066.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Foi realizada uma pesquisa envolvendo uma amostra de 74 pacientes,
+  entre 15 e 20 anos, de um certo hospital. Cada um desses pacientes foi
+  submetido a uma série de exames clínicos, incluíndo sua frequência
+  cardíaca. Pessoas saudáveis nessa faixa etária apresentam batimentos
+  entre 60 e 90 vezes por minuto. Sabendo-se que a média e o desvio
+  padrão populacional são de 87 e 22, respectivamente, calcule a
+  probabilidade da média dos pacientes da amostra estar dentro da faixa
+  de batimentos cardíacos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6772\)
+  \item
+    \(0.4463\)
+  \item
+    \(0.7878\)
+  \item
+    \(0.0279\)
+  \item
+    \(0.8790\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(E(\bar{X}) = \mu = 87\), enquanto que o desvio padrão estimado pela
+  amostra é \(\sigma/\sqrt{n} = 22/\sqrt{74} = 2.557\). Assim, a
+  probabilidade requerida é
+  \[P(60 \leq \overline{X} \leq 90) = P\left(Z \leq \frac{90 - 87}{2.557}\right) - P\left(Z \leq \frac{60 - 87}{2.557}\right) = P(Z < 1.17) - P(Z < -10.56) = 0.879.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Foi realizada uma pesquisa envolvendo uma amostra de 80 pacientes,
+  entre 15 e 20 anos, de um certo hospital. Cada um desses pacientes foi
+  submetido a uma série de exames clínicos, incluíndo sua frequência
+  cardíaca. Pessoas saudáveis nessa faixa etária apresentam batimentos
+  entre 60 e 90 vezes por minuto. Sabendo-se que a média e o desvio
+  padrão populacional são de 92 e 21, respectivamente, calcule a
+  probabilidade da média dos pacientes da amostra estar dentro da faixa
+  de batimentos cardíacos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3594\)
+  \item
+    \(0.0601\)
+  \item
+    \(0.3959\)
+  \item
+    \(0.0279\)
+  \item
+    \(0.1977\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(E(\bar{X}) = \mu = 92\), enquanto que o desvio padrão estimado pela
+  amostra é \(\sigma/\sqrt{n} = 21/\sqrt{80} = 2.348\). Assim, a
+  probabilidade requerida é
+  \[P(60 \leq \overline{X} \leq 90) = P\left(Z \leq \frac{90 - 92}{2.348}\right) - P\left(Z \leq \frac{60 - 92}{2.348}\right) = P(Z < -0.85) - P(Z < -13.63) = 0.1977.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Foi realizada uma pesquisa envolvendo uma amostra de 80 pacientes,
+  entre 15 e 20 anos, de um certo hospital. Cada um desses pacientes foi
+  submetido a uma série de exames clínicos, incluíndo sua frequência
+  cardíaca. Pessoas saudáveis nessa faixa etária apresentam batimentos
+  entre 60 e 90 vezes por minuto. Sabendo-se que a média e o desvio
+  padrão populacional são de 88 e 22, respectivamente, calcule a
+  probabilidade da média dos pacientes da amostra estar dentro da faixa
+  de batimentos cardíacos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7910\)
+  \item
+    \(0.4338\)
+  \item
+    \(0.6293\)
+  \item
+    \(0.8284\)
+  \item
+    \(0.0239\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(E(\bar{X}) = \mu = 88\), enquanto que o desvio padrão estimado pela
+  amostra é \(\sigma/\sqrt{n} = 22/\sqrt{80} = 2.46\). Assim, a
+  probabilidade requerida é
+  \[P(60 \leq \overline{X} \leq 90) = P\left(Z \leq \frac{90 - 88}{2.46}\right) - P\left(Z \leq \frac{60 - 88}{2.46}\right) = P(Z < 0.81) - P(Z < -11.38) = 0.791.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Foi realizada uma pesquisa envolvendo uma amostra de 73 pacientes,
+  entre 15 e 20 anos, de um certo hospital. Cada um desses pacientes foi
+  submetido a uma série de exames clínicos, incluíndo sua frequência
+  cardíaca. Pessoas saudáveis nessa faixa etária apresentam batimentos
+  entre 60 e 90 vezes por minuto. Sabendo-se que a média e o desvio
+  padrão populacional são de 91 e 21, respectivamente, calcule a
+  probabilidade da média dos pacientes da amostra estar dentro da faixa
+  de batimentos cardíacos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4106\)
+  \item
+    \(0.4325\)
+  \item
+    \(0.0279\)
+  \item
+    \(0.3958\)
+  \item
+    \(0.3409\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(E(\bar{X}) = \mu = 91\), enquanto que o desvio padrão estimado pela
+  amostra é \(\sigma/\sqrt{n} = 21/\sqrt{73} = 2.458\). Assim, a
+  probabilidade requerida é
+  \[P(60 \leq \overline{X} \leq 90) = P\left(Z \leq \frac{90 - 91}{2.458}\right) - P\left(Z \leq \frac{60 - 91}{2.458}\right) = P(Z < -0.41) - P(Z < -12.61) = 0.3409.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Foi realizada uma pesquisa envolvendo uma amostra de 80 pacientes,
+  entre 15 e 20 anos, de um certo hospital. Cada um desses pacientes foi
+  submetido a uma série de exames clínicos, incluíndo sua frequência
+  cardíaca. Pessoas saudáveis nessa faixa etária apresentam batimentos
+  entre 60 e 90 vezes por minuto. Sabendo-se que a média e o desvio
+  padrão populacional são de 92 e 20, respectivamente, calcule a
+  probabilidade da média dos pacientes da amostra estar dentro da faixa
+  de batimentos cardíacos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0319\)
+  \item
+    \(0.8469\)
+  \item
+    \(0.4054\)
+  \item
+    \(0.3446\)
+  \item
+    \(0.1867\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(E(\bar{X}) = \mu = 92\), enquanto que o desvio padrão estimado pela
+  amostra é \(\sigma/\sqrt{n} = 20/\sqrt{80} = 2.236\). Assim, a
+  probabilidade requerida é
+  \[P(60 \leq \overline{X} \leq 90) = P\left(Z \leq \frac{90 - 92}{2.236}\right) - P\left(Z \leq \frac{60 - 92}{2.236}\right) = P(Z < -0.89) - P(Z < -14.31) = 0.1867.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Foi realizada uma pesquisa envolvendo uma amostra de 72 pacientes,
+  entre 15 e 20 anos, de um certo hospital. Cada um desses pacientes foi
+  submetido a uma série de exames clínicos, incluíndo sua frequência
+  cardíaca. Pessoas saudáveis nessa faixa etária apresentam batimentos
+  entre 60 e 90 vezes por minuto. Sabendo-se que a média e o desvio
+  padrão populacional são de 92 e 21, respectivamente, calcule a
+  probabilidade da média dos pacientes da amostra estar dentro da faixa
+  de batimentos cardíacos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3959\)
+  \item
+    \(0.3707\)
+  \item
+    \(0.2032\)
+  \item
+    \(0.2090\)
+  \item
+    \(0.0279\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(E(\bar{X}) = \mu = 92\), enquanto que o desvio padrão estimado pela
+  amostra é \(\sigma/\sqrt{n} = 21/\sqrt{72} = 2.475\). Assim, a
+  probabilidade requerida é
+  \[P(60 \leq \overline{X} \leq 90) = P\left(Z \leq \frac{90 - 92}{2.475}\right) - P\left(Z \leq \frac{60 - 92}{2.475}\right) = P(Z < -0.81) - P(Z < -12.93) = 0.209.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Foi realizada uma pesquisa envolvendo uma amostra de 77 pacientes,
+  entre 15 e 20 anos, de um certo hospital. Cada um desses pacientes foi
+  submetido a uma série de exames clínicos, incluíndo sua frequência
+  cardíaca. Pessoas saudáveis nessa faixa etária apresentam batimentos
+  entre 60 e 90 vezes por minuto. Sabendo-se que a média e o desvio
+  padrão populacional são de 86 e 22, respectivamente, calcule a
+  probabilidade da média dos pacientes da amostra estar dentro da faixa
+  de batimentos cardíacos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4423\)
+  \item
+    \(0.4524\)
+  \item
+    \(0.0239\)
+  \item
+    \(0.9452\)
+  \item
+    \(0.7389\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(E(\bar{X}) = \mu = 86\), enquanto que o desvio padrão estimado pela
+  amostra é \(\sigma/\sqrt{n} = 22/\sqrt{77} = 2.507\). Assim, a
+  probabilidade requerida é
+  \[P(60 \leq \overline{X} \leq 90) = P\left(Z \leq \frac{90 - 86}{2.507}\right) - P\left(Z \leq \frac{60 - 86}{2.507}\right) = P(Z < 1.6) - P(Z < -10.37) = 0.9452.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Foi realizada uma pesquisa envolvendo uma amostra de 73 pacientes,
+  entre 15 e 20 anos, de um certo hospital. Cada um desses pacientes foi
+  submetido a uma série de exames clínicos, incluíndo sua frequência
+  cardíaca. Pessoas saudáveis nessa faixa etária apresentam batimentos
+  entre 60 e 90 vezes por minuto. Sabendo-se que a média e o desvio
+  padrão populacional são de 91 e 23, respectivamente, calcule a
+  probabilidade da média dos pacientes da amostra estar dentro da faixa
+  de batimentos cardíacos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3955\)
+  \item
+    \(0.7382\)
+  \item
+    \(0.4443\)
+  \item
+    \(0.0239\)
+  \item
+    \(0.3557\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(E(\bar{X}) = \mu = 91\), enquanto que o desvio padrão estimado pela
+  amostra é \(\sigma/\sqrt{n} = 23/\sqrt{73} = 2.692\). Assim, a
+  probabilidade requerida é
+  \[P(60 \leq \overline{X} \leq 90) = P\left(Z \leq \frac{90 - 91}{2.692}\right) - P\left(Z \leq \frac{60 - 91}{2.692}\right) = P(Z < -0.37) - P(Z < -11.52) = 0.3557.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

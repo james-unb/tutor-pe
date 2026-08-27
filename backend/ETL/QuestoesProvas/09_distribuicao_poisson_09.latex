@@ -1,0 +1,522 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de lixo produzido por folhetos de campanhas
+  eleitorais em uma grande cidade brasileira é de 51 quilos por
+  candidato. Suponha que a quantidade de lixo produzida por um candidato
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2601\)
+  \item
+    \(51\)
+  \item
+    \(2652\)
+  \item
+    \(7\)
+  \item
+    \(52\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(51)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 51 \times 52 = 2652.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x\factorial}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)\factorial} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)\factorial} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}{\infty}n\frac{\lambda^{n}}{n\factorial} + \sum_{n=0}{\infty}\frac{\lambda^{n}}{n\factorial}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 2652.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de lixo produzido por folhetos de campanhas
+  eleitorais em uma grande cidade brasileira é de 65 quilos por
+  candidato. Suponha que a quantidade de lixo produzida por um candidato
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(66\)
+  \item
+    \(8\)
+  \item
+    \(4225\)
+  \item
+    \(4290\)
+  \item
+    \(65\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(65)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 65 \times 66 = 4290.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x\factorial}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)\factorial} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)\factorial} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}{\infty}n\frac{\lambda^{n}}{n\factorial} + \sum_{n=0}{\infty}\frac{\lambda^{n}}{n\factorial}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 4290.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de lixo produzido por folhetos de campanhas
+  eleitorais em uma grande cidade brasileira é de 50 quilos por
+  candidato. Suponha que a quantidade de lixo produzida por um candidato
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2500\)
+  \item
+    \(50\)
+  \item
+    \(7\)
+  \item
+    \(51\)
+  \item
+    \(2550\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(50)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 50 \times 51 = 2550.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x\factorial}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)\factorial} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)\factorial} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}{\infty}n\frac{\lambda^{n}}{n\factorial} + \sum_{n=0}{\infty}\frac{\lambda^{n}}{n\factorial}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 2550.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de lixo produzido por folhetos de campanhas
+  eleitorais em uma grande cidade brasileira é de 59 quilos por
+  candidato. Suponha que a quantidade de lixo produzida por um candidato
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(59\)
+  \item
+    \(3540\)
+  \item
+    \(3481\)
+  \item
+    \(8\)
+  \item
+    \(60\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(59)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 59 \times 60 = 3540.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x\factorial}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)\factorial} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)\factorial} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}{\infty}n\frac{\lambda^{n}}{n\factorial} + \sum_{n=0}{\infty}\frac{\lambda^{n}}{n\factorial}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 3540.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de lixo produzido por folhetos de campanhas
+  eleitorais em uma grande cidade brasileira é de 66 quilos por
+  candidato. Suponha que a quantidade de lixo produzida por um candidato
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4422\)
+  \item
+    \(66\)
+  \item
+    \(4356\)
+  \item
+    \(8\)
+  \item
+    \(67\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(66)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 66 \times 67 = 4422.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x\factorial}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)\factorial} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)\factorial} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}{\infty}n\frac{\lambda^{n}}{n\factorial} + \sum_{n=0}{\infty}\frac{\lambda^{n}}{n\factorial}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 4422.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de lixo produzido por folhetos de campanhas
+  eleitorais em uma grande cidade brasileira é de 65 quilos por
+  candidato. Suponha que a quantidade de lixo produzida por um candidato
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8\)
+  \item
+    \(4225\)
+  \item
+    \(65\)
+  \item
+    \(66\)
+  \item
+    \(4290\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(65)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 65 \times 66 = 4290.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x\factorial}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)\factorial} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)\factorial} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}{\infty}n\frac{\lambda^{n}}{n\factorial} + \sum_{n=0}{\infty}\frac{\lambda^{n}}{n\factorial}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 4290.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de lixo produzido por folhetos de campanhas
+  eleitorais em uma grande cidade brasileira é de 65 quilos por
+  candidato. Suponha que a quantidade de lixo produzida por um candidato
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(65\)
+  \item
+    \(4225\)
+  \item
+    \(66\)
+  \item
+    \(4290\)
+  \item
+    \(8\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(65)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 65 \times 66 = 4290.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x\factorial}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)\factorial} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)\factorial} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}{\infty}n\frac{\lambda^{n}}{n\factorial} + \sum_{n=0}{\infty}\frac{\lambda^{n}}{n\factorial}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 4290.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de lixo produzido por folhetos de campanhas
+  eleitorais em uma grande cidade brasileira é de 66 quilos por
+  candidato. Suponha que a quantidade de lixo produzida por um candidato
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(66\)
+  \item
+    \(67\)
+  \item
+    \(8\)
+  \item
+    \(4356\)
+  \item
+    \(4422\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(66)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 66 \times 67 = 4422.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x\factorial}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)\factorial} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)\factorial} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}{\infty}n\frac{\lambda^{n}}{n\factorial} + \sum_{n=0}{\infty}\frac{\lambda^{n}}{n\factorial}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 4422.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de lixo produzido por folhetos de campanhas
+  eleitorais em uma grande cidade brasileira é de 67 quilos por
+  candidato. Suponha que a quantidade de lixo produzida por um candidato
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(67\)
+  \item
+    \(8\)
+  \item
+    \(4556\)
+  \item
+    \(68\)
+  \item
+    \(4489\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(67)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 67 \times 68 = 4556.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x\factorial}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)\factorial} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)\factorial} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}{\infty}n\frac{\lambda^{n}}{n\factorial} + \sum_{n=0}{\infty}\frac{\lambda^{n}}{n\factorial}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 4556.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A quantidade média de lixo produzido por folhetos de campanhas
+  eleitorais em uma grande cidade brasileira é de 74 quilos por
+  candidato. Suponha que a quantidade de lixo produzida por um candidato
+  seja uma variável aleatória \(X\), que segue a distribuição de
+  Poisson. Qual é o segundo momento de \(X\) (i.e. o valor de
+  \(E(X^2)\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(75\)
+  \item
+    \(5550\)
+  \item
+    \(9\)
+  \item
+    \(5476\)
+  \item
+    \(74\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \(X \sim Poisson(74)\) e portanto \[\begin{aligned}
+  Var(X) & = E(X^2) - \left[E(X)\right]^2 \Rightarrow \\
+  \lambda & = E(X^2) - \lambda^2 \Rightarrow  \\
+  E(X^2) & = \lambda + \lambda^2 = \lambda\times(\lambda + 1) = 74 \times 75 = 5550.
+  \end{aligned}\]
+
+  Ou, alternativamente, \[\begin{aligned}
+  E(X^2) &= \sum_{x=1}^{\infty}k^2\times\frac{\lambda^{x}}{x\factorial}\times e^{-\lambda} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}x\times\frac{\lambda^{x}}{(x-1)\factorial} \\
+  &= e^{-\lambda}\sum_{x=1}^{\infty}(x-1+1)\times\frac{\lambda\lambda^{x-1}}{(x-1)\factorial} \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{x=1}^{\infty}(x-1)\times\frac{\lambda^{x-1}}{(x-1)\factorial} +  \sum_{x=1}^{\infty}\frac{\lambda^{x-1}}{(x-1)\factorial}\right] \\
+  &= \lambda\times e^{-\lambda}\left[\sum_{n=0}{\infty}n\frac{\lambda^{n}}{n\factorial} + \sum_{n=0}{\infty}\frac{\lambda^{n}}{n\factorial}\right] \\
+  &= \lambda\times\left[E(X) + 1] =\lambda\times(\lambda + 1) = 5550.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma clínica onde são realizados testes para rastreamento do câncer
+  de próstata em homens, 95\% dos resultados são negativos. Dos
+  pacientes com resultado positivo, 37\% são de fato doentes e dos
+  pacientes com resultado negativo, 91\% não são doentes. Qual a
+  probabilidade de um paciente da clínica ter câncer?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.883\)
+  \item
+    \(0.869\)
+  \item
+    \(0.104\)
+  \item
+    \(0.090\)
+  \item
+    \(0.023\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{P} &=& \text{ ``O teste teve resultado positivo''}.\\
+  \text{N} &=& \text{ ``O teste teve resultado negativo''}.\\
+  \text{C} &=& \text{ ``O paciente tem câncer''}.
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|P)P(P)+P(C|N)P(N) =   0.37\times0.05+0.09\times0.95 = 0.104.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma clínica onde são realizados testes para rastreamento do câncer
+  de próstata em homens, 97\% dos resultados são negativos. Dos
+  pacientes com resultado positivo, 37\% são de fato doentes e dos
+  pacientes com resultado negativo, 99\% não são doentes. Qual a
+  probabilidade de um paciente da clínica ter câncer?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.971\)
+  \item
+    \(0.010\)
+  \item
+    \(0.961\)
+  \item
+    \(0.021\)
+  \item
+    \(0.011\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{P} &=& \text{ ``O teste teve resultado positivo''}.\\
+  \text{N} &=& \text{ ``O teste teve resultado negativo''}.\\
+  \text{C} &=& \text{ ``O paciente tem câncer''}.
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|P)P(P)+P(C|N)P(N) =   0.37\times0.03+0.01\times0.97 = 0.021.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma clínica onde são realizados testes para rastreamento do câncer
+  de próstata em homens, 94\% dos resultados são negativos. Dos
+  pacientes com resultado positivo, 31\% são de fato doentes e dos
+  pacientes com resultado negativo, 92\% não são doentes. Qual a
+  probabilidade de um paciente da clínica ter câncer?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.080\)
+  \item
+    \(0.023\)
+  \item
+    \(0.870\)
+  \item
+    \(0.883\)
+  \item
+    \(0.094\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{P} &=& \text{ ``O teste teve resultado positivo''}.\\
+  \text{N} &=& \text{ ``O teste teve resultado negativo''}.\\
+  \text{C} &=& \text{ ``O paciente tem câncer''}.
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|P)P(P)+P(C|N)P(N) =   0.31\times0.06+0.08\times0.94 = 0.094.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma clínica onde são realizados testes para rastreamento do câncer
+  de próstata em homens, 94\% dos resultados são negativos. Dos
+  pacientes com resultado positivo, 38\% são de fato doentes e dos
+  pacientes com resultado negativo, 97\% não são doentes. Qual a
+  probabilidade de um paciente da clínica ter câncer?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.051\)
+  \item
+    \(0.025\)
+  \item
+    \(0.914\)
+  \item
+    \(0.030\)
+  \item
+    \(0.935\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{P} &=& \text{ ``O teste teve resultado positivo''}.\\
+  \text{N} &=& \text{ ``O teste teve resultado negativo''}.\\
+  \text{C} &=& \text{ ``O paciente tem câncer''}.
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|P)P(P)+P(C|N)P(N) =   0.38\times0.06+0.03\times0.94 = 0.051.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma clínica onde são realizados testes para rastreamento do câncer
+  de próstata em homens, 91\% dos resultados são negativos. Dos
+  pacientes com resultado positivo, 56\% são de fato doentes e dos
+  pacientes com resultado negativo, 93\% não são doentes. Qual a
+  probabilidade de um paciente da clínica ter câncer?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.057\)
+  \item
+    \(0.070\)
+  \item
+    \(0.897\)
+  \item
+    \(0.853\)
+  \item
+    \(0.114\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{P} &=& \text{ ``O teste teve resultado positivo''}.\\
+  \text{N} &=& \text{ ``O teste teve resultado negativo''}.\\
+  \text{C} &=& \text{ ``O paciente tem câncer''}.
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|P)P(P)+P(C|N)P(N) =   0.56\times0.09+0.07\times0.91 = 0.114.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma clínica onde são realizados testes para rastreamento do câncer
+  de próstata em homens, 95\% dos resultados são negativos. Dos
+  pacientes com resultado positivo, 52\% são de fato doentes e dos
+  pacientes com resultado negativo, 98\% não são doentes. Qual a
+  probabilidade de um paciente da clínica ter câncer?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.932\)
+  \item
+    \(0.957\)
+  \item
+    \(0.045\)
+  \item
+    \(0.020\)
+  \item
+    \(0.027\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{P} &=& \text{ ``O teste teve resultado positivo''}.\\
+  \text{N} &=& \text{ ``O teste teve resultado negativo''}.\\
+  \text{C} &=& \text{ ``O paciente tem câncer''}.
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|P)P(P)+P(C|N)P(N) =   0.52\times0.05+0.02\times0.95 = 0.045.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma clínica onde são realizados testes para rastreamento do câncer
+  de próstata em homens, 96\% dos resultados são negativos. Dos
+  pacientes com resultado positivo, 33\% são de fato doentes e dos
+  pacientes com resultado negativo, 97\% não são doentes. Qual a
+  probabilidade de um paciente da clínica ter câncer?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.014\)
+  \item
+    \(0.932\)
+  \item
+    \(0.944\)
+  \item
+    \(0.042\)
+  \item
+    \(0.030\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{P} &=& \text{ ``O teste teve resultado positivo''}.\\
+  \text{N} &=& \text{ ``O teste teve resultado negativo''}.\\
+  \text{C} &=& \text{ ``O paciente tem câncer''}.
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|P)P(P)+P(C|N)P(N) =   0.33\times0.04+0.03\times0.96 = 0.042.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma clínica onde são realizados testes para rastreamento do câncer
+  de próstata em homens, 93\% dos resultados são negativos. Dos
+  pacientes com resultado positivo, 58\% são de fato doentes e dos
+  pacientes com resultado negativo, 92\% não são doentes. Qual a
+  probabilidade de um paciente da clínica ter câncer?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.861\)
+  \item
+    \(0.896\)
+  \item
+    \(0.115\)
+  \item
+    \(0.046\)
+  \item
+    \(0.080\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{P} &=& \text{ ``O teste teve resultado positivo''}.\\
+  \text{N} &=& \text{ ``O teste teve resultado negativo''}.\\
+  \text{C} &=& \text{ ``O paciente tem câncer''}.
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|P)P(P)+P(C|N)P(N) =   0.58\times0.07+0.08\times0.93 = 0.115.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma clínica onde são realizados testes para rastreamento do câncer
+  de próstata em homens, 94\% dos resultados são negativos. Dos
+  pacientes com resultado positivo, 32\% são de fato doentes e dos
+  pacientes com resultado negativo, 92\% não são doentes. Qual a
+  probabilidade de um paciente da clínica ter câncer?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.024\)
+  \item
+    \(0.870\)
+  \item
+    \(0.884\)
+  \item
+    \(0.080\)
+  \item
+    \(0.094\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{P} &=& \text{ ``O teste teve resultado positivo''}.\\
+  \text{N} &=& \text{ ``O teste teve resultado negativo''}.\\
+  \text{C} &=& \text{ ``O paciente tem câncer''}.
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|P)P(P)+P(C|N)P(N) =   0.32\times0.06+0.08\times0.94 = 0.094.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma clínica onde são realizados testes para rastreamento do câncer
+  de próstata em homens, 95\% dos resultados são negativos. Dos
+  pacientes com resultado positivo, 54\% são de fato doentes e dos
+  pacientes com resultado negativo, 93\% não são doentes. Qual a
+  probabilidade de um paciente da clínica ter câncer?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.887\)
+  \item
+    \(0.031\)
+  \item
+    \(0.070\)
+  \item
+    \(0.094\)
+  \item
+    \(0.911\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{P} &=& \text{ ``O teste teve resultado positivo''}.\\
+  \text{N} &=& \text{ ``O teste teve resultado negativo''}.\\
+  \text{C} &=& \text{ ``O paciente tem câncer''}.
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|P)P(P)+P(C|N)P(N) =   0.54\times0.05+0.07\times0.95 = 0.094.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

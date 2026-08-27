@@ -1,0 +1,522 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que a chegada de aviões em um aeroporto se dá segundo um
+  modelo Poisson. Atualmente, a taxa de chegada é de 0,5 avião por
+  minuto, em média, e o aeroporto também possui capacidade para atender
+  0,5 avião por minuto. A previsão para os próximos 10 anos é que o
+  tráfego aéreo irá aumentar em \(8\) vezes e a capacidade de
+  atendimento será ampliada em \(4\) vezes. Caso essas previsões se
+  confirmem, qual a probabilidade de haver aviões sem atendimento
+  imediato daqui a 10 anos em um dado minuto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.393\)
+  \item
+    \(0.908\)
+  \item
+    \(0.762\)
+  \item
+    \(0.238\)
+  \item
+    \(0.053\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam \(X\) e \(Y\) variáveis aleatórias representando a quantidade de
+  aviões que pousam em um dado minuto no aeroporto, atualmente e em 10
+  anos, respectivamente.\\
+  Então, \(X \sim \text{Pois}(0.5)\) e \(Y \sim \text{Pois}(4)\).
+
+  Considerando que a capacidade do aeroporto para daqui há 10 anos será
+  de atender \(2\) aviões por minuto, a probabilidade de haver aviões
+  sem atendimento imediato é dada pela probabilidade de chegar mais do
+  que \(2\) aviões em um dado minuto, ou seja,
+
+  \[P(Y > 2) =  1- P(Y \leq 2) = 
+  1- P(Y=0) - P(Y=1) - \cdots - P(Y=2) = 0.762.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que a chegada de aviões em um aeroporto se dá segundo um
+  modelo Poisson. Atualmente, a taxa de chegada é de 0,5 avião por
+  minuto, em média, e o aeroporto também possui capacidade para atender
+  0,5 avião por minuto. A previsão para os próximos 10 anos é que o
+  tráfego aéreo irá aumentar em \(8\) vezes e a capacidade de
+  atendimento será ampliada em \(4\) vezes. Caso essas previsões se
+  confirmem, qual a probabilidade de haver aviões sem atendimento
+  imediato daqui a 10 anos em um dado minuto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.393\)
+  \item
+    \(0.053\)
+  \item
+    \(0.762\)
+  \item
+    \(0.908\)
+  \item
+    \(0.238\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam \(X\) e \(Y\) variáveis aleatórias representando a quantidade de
+  aviões que pousam em um dado minuto no aeroporto, atualmente e em 10
+  anos, respectivamente.\\
+  Então, \(X \sim \text{Pois}(0.5)\) e \(Y \sim \text{Pois}(4)\).
+
+  Considerando que a capacidade do aeroporto para daqui há 10 anos será
+  de atender \(2\) aviões por minuto, a probabilidade de haver aviões
+  sem atendimento imediato é dada pela probabilidade de chegar mais do
+  que \(2\) aviões em um dado minuto, ou seja,
+
+  \[P(Y > 2) =  1- P(Y \leq 2) = 
+  1- P(Y=0) - P(Y=1) - \cdots - P(Y=2) = 0.762.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que a chegada de aviões em um aeroporto se dá segundo um
+  modelo Poisson. Atualmente, a taxa de chegada é de 0,5 avião por
+  minuto, em média, e o aeroporto também possui capacidade para atender
+  0,5 avião por minuto. A previsão para os próximos 10 anos é que o
+  tráfego aéreo irá aumentar em \(6\) vezes e a capacidade de
+  atendimento será ampliada em \(2\) vezes. Caso essas previsões se
+  confirmem, qual a probabilidade de haver aviões sem atendimento
+  imediato daqui a 10 anos em um dado minuto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.801\)
+  \item
+    \(0.019\)
+  \item
+    \(0.199\)
+  \item
+    \(0.393\)
+  \item
+    \(0.950\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam \(X\) e \(Y\) variáveis aleatórias representando a quantidade de
+  aviões que pousam em um dado minuto no aeroporto, atualmente e em 10
+  anos, respectivamente.\\
+  Então, \(X \sim \text{Pois}(0.5)\) e \(Y \sim \text{Pois}(3)\).
+
+  Considerando que a capacidade do aeroporto para daqui há 10 anos será
+  de atender \(1\) aviões por minuto, a probabilidade de haver aviões
+  sem atendimento imediato é dada pela probabilidade de chegar mais do
+  que \(1\) aviões em um dado minuto, ou seja,
+
+  \[P(Y > 1) =  1- P(Y \leq 1) = 
+  1- P(Y=0) - P(Y=1) - \cdots - P(Y=1) = 0.801.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que a chegada de aviões em um aeroporto se dá segundo um
+  modelo Poisson. Atualmente, a taxa de chegada é de 0,5 avião por
+  minuto, em média, e o aeroporto também possui capacidade para atender
+  0,5 avião por minuto. A previsão para os próximos 10 anos é que o
+  tráfego aéreo irá aumentar em \(8\) vezes e a capacidade de
+  atendimento será ampliada em \(2\) vezes. Caso essas previsões se
+  confirmem, qual a probabilidade de haver aviões sem atendimento
+  imediato daqui a 10 anos em um dado minuto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.092\)
+  \item
+    \(0.393\)
+  \item
+    \(0.982\)
+  \item
+    \(0.004\)
+  \item
+    \(0.908\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam \(X\) e \(Y\) variáveis aleatórias representando a quantidade de
+  aviões que pousam em um dado minuto no aeroporto, atualmente e em 10
+  anos, respectivamente.\\
+  Então, \(X \sim \text{Pois}(0.5)\) e \(Y \sim \text{Pois}(4)\).
+
+  Considerando que a capacidade do aeroporto para daqui há 10 anos será
+  de atender \(1\) aviões por minuto, a probabilidade de haver aviões
+  sem atendimento imediato é dada pela probabilidade de chegar mais do
+  que \(1\) aviões em um dado minuto, ou seja,
+
+  \[P(Y > 1) =  1- P(Y \leq 1) = 
+  1- P(Y=0) - P(Y=1) - \cdots - P(Y=1) = 0.908.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que a chegada de aviões em um aeroporto se dá segundo um
+  modelo Poisson. Atualmente, a taxa de chegada é de 0,5 avião por
+  minuto, em média, e o aeroporto também possui capacidade para atender
+  0,5 avião por minuto. A previsão para os próximos 10 anos é que o
+  tráfego aéreo irá aumentar em \(6\) vezes e a capacidade de
+  atendimento será ampliada em \(2\) vezes. Caso essas previsões se
+  confirmem, qual a probabilidade de haver aviões sem atendimento
+  imediato daqui a 10 anos em um dado minuto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.019\)
+  \item
+    \(0.199\)
+  \item
+    \(0.950\)
+  \item
+    \(0.393\)
+  \item
+    \(0.801\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam \(X\) e \(Y\) variáveis aleatórias representando a quantidade de
+  aviões que pousam em um dado minuto no aeroporto, atualmente e em 10
+  anos, respectivamente.\\
+  Então, \(X \sim \text{Pois}(0.5)\) e \(Y \sim \text{Pois}(3)\).
+
+  Considerando que a capacidade do aeroporto para daqui há 10 anos será
+  de atender \(1\) aviões por minuto, a probabilidade de haver aviões
+  sem atendimento imediato é dada pela probabilidade de chegar mais do
+  que \(1\) aviões em um dado minuto, ou seja,
+
+  \[P(Y > 1) =  1- P(Y \leq 1) = 
+  1- P(Y=0) - P(Y=1) - \cdots - P(Y=1) = 0.801.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que a chegada de aviões em um aeroporto se dá segundo um
+  modelo Poisson. Atualmente, a taxa de chegada é de 0,5 avião por
+  minuto, em média, e o aeroporto também possui capacidade para atender
+  0,5 avião por minuto. A previsão para os próximos 10 anos é que o
+  tráfego aéreo irá aumentar em \(4\) vezes e a capacidade de
+  atendimento será ampliada em \(6\) vezes. Caso essas previsões se
+  confirmem, qual a probabilidade de haver aviões sem atendimento
+  imediato daqui a 10 anos em um dado minuto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.577\)
+  \item
+    \(0.143\)
+  \item
+    \(0.857\)
+  \item
+    \(0.393\)
+  \item
+    \(0.323\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam \(X\) e \(Y\) variáveis aleatórias representando a quantidade de
+  aviões que pousam em um dado minuto no aeroporto, atualmente e em 10
+  anos, respectivamente.\\
+  Então, \(X \sim \text{Pois}(0.5)\) e \(Y \sim \text{Pois}(2)\).
+
+  Considerando que a capacidade do aeroporto para daqui há 10 anos será
+  de atender \(3\) aviões por minuto, a probabilidade de haver aviões
+  sem atendimento imediato é dada pela probabilidade de chegar mais do
+  que \(3\) aviões em um dado minuto, ou seja,
+
+  \[P(Y > 3) =  1- P(Y \leq 3) = 
+  1- P(Y=0) - P(Y=1) - \cdots - P(Y=3) = 0.143.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que a chegada de aviões em um aeroporto se dá segundo um
+  modelo Poisson. Atualmente, a taxa de chegada é de 0,5 avião por
+  minuto, em média, e o aeroporto também possui capacidade para atender
+  0,5 avião por minuto. A previsão para os próximos 10 anos é que o
+  tráfego aéreo irá aumentar em \(8\) vezes e a capacidade de
+  atendimento será ampliada em \(6\) vezes. Caso essas previsões se
+  confirmem, qual a probabilidade de haver aviões sem atendimento
+  imediato daqui a 10 anos em um dado minuto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.762\)
+  \item
+    \(0.433\)
+  \item
+    \(0.567\)
+  \item
+    \(0.185\)
+  \item
+    \(0.393\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam \(X\) e \(Y\) variáveis aleatórias representando a quantidade de
+  aviões que pousam em um dado minuto no aeroporto, atualmente e em 10
+  anos, respectivamente.\\
+  Então, \(X \sim \text{Pois}(0.5)\) e \(Y \sim \text{Pois}(4)\).
+
+  Considerando que a capacidade do aeroporto para daqui há 10 anos será
+  de atender \(3\) aviões por minuto, a probabilidade de haver aviões
+  sem atendimento imediato é dada pela probabilidade de chegar mais do
+  que \(3\) aviões em um dado minuto, ou seja,
+
+  \[P(Y > 3) =  1- P(Y \leq 3) = 
+  1- P(Y=0) - P(Y=1) - \cdots - P(Y=3) = 0.567.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que a chegada de aviões em um aeroporto se dá segundo um
+  modelo Poisson. Atualmente, a taxa de chegada é de 0,5 avião por
+  minuto, em média, e o aeroporto também possui capacidade para atender
+  0,5 avião por minuto. A previsão para os próximos 10 anos é que o
+  tráfego aéreo irá aumentar em \(4\) vezes e a capacidade de
+  atendimento será ampliada em \(2\) vezes. Caso essas previsões se
+  confirmem, qual a probabilidade de haver aviões sem atendimento
+  imediato daqui a 10 anos em um dado minuto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.406\)
+  \item
+    \(0.865\)
+  \item
+    \(0.080\)
+  \item
+    \(0.393\)
+  \item
+    \(0.594\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam \(X\) e \(Y\) variáveis aleatórias representando a quantidade de
+  aviões que pousam em um dado minuto no aeroporto, atualmente e em 10
+  anos, respectivamente.\\
+  Então, \(X \sim \text{Pois}(0.5)\) e \(Y \sim \text{Pois}(2)\).
+
+  Considerando que a capacidade do aeroporto para daqui há 10 anos será
+  de atender \(1\) aviões por minuto, a probabilidade de haver aviões
+  sem atendimento imediato é dada pela probabilidade de chegar mais do
+  que \(1\) aviões em um dado minuto, ou seja,
+
+  \[P(Y > 1) =  1- P(Y \leq 1) = 
+  1- P(Y=0) - P(Y=1) - \cdots - P(Y=1) = 0.594.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que a chegada de aviões em um aeroporto se dá segundo um
+  modelo Poisson. Atualmente, a taxa de chegada é de 0,5 avião por
+  minuto, em média, e o aeroporto também possui capacidade para atender
+  0,5 avião por minuto. A previsão para os próximos 10 anos é que o
+  tráfego aéreo irá aumentar em \(8\) vezes e a capacidade de
+  atendimento será ampliada em \(4\) vezes. Caso essas previsões se
+  confirmem, qual a probabilidade de haver aviões sem atendimento
+  imediato daqui a 10 anos em um dado minuto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.762\)
+  \item
+    \(0.908\)
+  \item
+    \(0.053\)
+  \item
+    \(0.393\)
+  \item
+    \(0.238\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam \(X\) e \(Y\) variáveis aleatórias representando a quantidade de
+  aviões que pousam em um dado minuto no aeroporto, atualmente e em 10
+  anos, respectivamente.\\
+  Então, \(X \sim \text{Pois}(0.5)\) e \(Y \sim \text{Pois}(4)\).
+
+  Considerando que a capacidade do aeroporto para daqui há 10 anos será
+  de atender \(2\) aviões por minuto, a probabilidade de haver aviões
+  sem atendimento imediato é dada pela probabilidade de chegar mais do
+  que \(2\) aviões em um dado minuto, ou seja,
+
+  \[P(Y > 2) =  1- P(Y \leq 2) = 
+  1- P(Y=0) - P(Y=1) - \cdots - P(Y=2) = 0.762.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que a chegada de aviões em um aeroporto se dá segundo um
+  modelo Poisson. Atualmente, a taxa de chegada é de 0,5 avião por
+  minuto, em média, e o aeroporto também possui capacidade para atender
+  0,5 avião por minuto. A previsão para os próximos 10 anos é que o
+  tráfego aéreo irá aumentar em \(8\) vezes e a capacidade de
+  atendimento será ampliada em \(4\) vezes. Caso essas previsões se
+  confirmem, qual a probabilidade de haver aviões sem atendimento
+  imediato daqui a 10 anos em um dado minuto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.053\)
+  \item
+    \(0.908\)
+  \item
+    \(0.238\)
+  \item
+    \(0.393\)
+  \item
+    \(0.762\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam \(X\) e \(Y\) variáveis aleatórias representando a quantidade de
+  aviões que pousam em um dado minuto no aeroporto, atualmente e em 10
+  anos, respectivamente.\\
+  Então, \(X \sim \text{Pois}(0.5)\) e \(Y \sim \text{Pois}(4)\).
+
+  Considerando que a capacidade do aeroporto para daqui há 10 anos será
+  de atender \(2\) aviões por minuto, a probabilidade de haver aviões
+  sem atendimento imediato é dada pela probabilidade de chegar mais do
+  que \(2\) aviões em um dado minuto, ou seja,
+
+  \[P(Y > 2) =  1- P(Y \leq 2) = 
+  1- P(Y=0) - P(Y=1) - \cdots - P(Y=2) = 0.762.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,358 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Especula-se que nos últimos anos tenha havido um aumento no acesso à
+  internet nos domicílios brasileiros. Em 2017, 57,8\% dos domicílios do
+  país tinham conexão. Em 2019, uma pesquisa por amostragem realizou um
+  teste de hipótese para avaliar se o percentual de acesso de fato
+  aumentou no período e encontrou um p-valor igual a \(0.02\). Dessa
+  forma, ao nível de significância de \(10\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o acesso à
+    internet no país tenha aumentado.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o acesso à
+    internet em 2019 é superior a \(57,8\%\).
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o acesso à internet
+    no país aumentou.
+  \item
+    Não se rejeita a hipótese nula. O acesso à internet é certamente
+    inferior a \(57,8\%\).
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o acesso à internet
+    em 2019 é inferior a \(57,8\%\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 57,8\%\) \emph{vs.} \(H_a: p > 57,8\%\).
+
+  Portanto, p-valor = \(0.02 < 0.1\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Especula-se que nos últimos anos tenha havido um aumento no acesso à internet nos domicílios brasileiros. Em 2017, 57,8\% dos domicílios do país tinham conexão. Em 2019, uma pesquisa por amostragem realizou um teste de hipótese para avaliar se o percentual de acesso de fato aumentou no período e encontrou um p-valor igual a\)0.04\(. Dessa forma, ao nível de significância de\)5\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. Não há evidência de que o acesso à internet no país tenha aumentado.
+      \item Rejeita-se a hipótese nula. Há evidência de que o acesso à internet no país aumentou.
+      \item Rejeita-se a hipótese nula. Há evidência de que o acesso à internet em 2019 é inferior a\)57,8\%\(.
+      \item Não se rejeita a hipótese nula. O acesso à internet é certamente inferior a\)57,8\%\(.
+      \item Não se rejeita a hipótese nula. Há evidência de que o acesso à internet em 2019 é superior a\)57,8\%\(.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p ,8\%\(\emph{vs.}\)H\_a: p \textgreater{} 57,8\%\(. 
+
+  Portanto, p-valor =\)0.04 \textless{} 0.05\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Especula-se que nos últimos anos tenha havido um aumento no acesso à
+  internet nos domicílios brasileiros. Em 2017, 57,8\% dos domicílios do
+  país tinham conexão. Em 2019, uma pesquisa por amostragem realizou um
+  teste de hipótese para avaliar se o percentual de acesso de fato
+  aumentou no período e encontrou um p-valor igual a \(0.06\). Dessa
+  forma, ao nível de significância de \(5\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. O acesso à internet é certamente
+    inferior a \(57,8\%\).
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o acesso à internet
+    em 2019 é inferior a \(57,8\%\).
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o acesso à
+    internet no país tenha aumentado.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o acesso à internet
+    no país aumentou.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o acesso à
+    internet em 2019 é superior a \(57,8\%\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 57,8\%\) \emph{vs.} \(H_a: p > 57,8\%\).
+
+  Portanto, p-valor = \(0.06 > 0.05\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Especula-se que nos últimos anos tenha havido um aumento no acesso à internet nos domicílios brasileiros. Em 2017, 57,8\% dos domicílios do país tinham conexão. Em 2019, uma pesquisa por amostragem realizou um teste de hipótese para avaliar se o percentual de acesso de fato aumentou no período e encontrou um p-valor igual a\)0.05\(. Dessa forma, ao nível de significância de\)9\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Rejeita-se a hipótese nula. Há evidência de que o acesso à internet no país aumentou.
+      \item Não se rejeita a hipótese nula. Há evidência de que o acesso à internet em 2019 é superior a\)57,8\%\(.
+      \item Não se rejeita a hipótese nula. Não há evidência de que o acesso à internet no país tenha aumentado.
+      \item Rejeita-se a hipótese nula. Há evidência de que o acesso à internet em 2019 é inferior a\)57,8\%\(.
+      \item Não se rejeita a hipótese nula. O acesso à internet é certamente inferior a\)57,8\%\(.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p ,8\%\(\emph{vs.}\)H\_a: p \textgreater{} 57,8\%\(. 
+
+  Portanto, p-valor =\)0.05 \textless{} 0.09\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Especula-se que nos últimos anos tenha havido um aumento no acesso à
+  internet nos domicílios brasileiros. Em 2017, 57,8\% dos domicílios do
+  país tinham conexão. Em 2019, uma pesquisa por amostragem realizou um
+  teste de hipótese para avaliar se o percentual de acesso de fato
+  aumentou no período e encontrou um p-valor igual a \(0.03\). Dessa
+  forma, ao nível de significância de \(7\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o acesso à
+    internet no país tenha aumentado.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o acesso à internet
+    no país aumentou.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o acesso à
+    internet em 2019 é superior a \(57,8\%\).
+  \item
+    Não se rejeita a hipótese nula. O acesso à internet é certamente
+    inferior a \(57,8\%\).
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o acesso à internet
+    em 2019 é inferior a \(57,8\%\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 57,8\%\) \emph{vs.} \(H_a: p > 57,8\%\).
+
+  Portanto, p-valor = \(0.03 < 0.07\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Especula-se que nos últimos anos tenha havido um aumento no acesso à internet nos domicílios brasileiros. Em 2017, 57,8\% dos domicílios do país tinham conexão. Em 2019, uma pesquisa por amostragem realizou um teste de hipótese para avaliar se o percentual de acesso de fato aumentou no período e encontrou um p-valor igual a\)0.03\(. Dessa forma, ao nível de significância de\)7\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. Não há evidência de que o acesso à internet no país tenha aumentado.
+      \item Não se rejeita a hipótese nula. Há evidência de que o acesso à internet em 2019 é superior a\)57,8\%\(.
+      \item Rejeita-se a hipótese nula. Há evidência de que o acesso à internet no país aumentou.
+      \item Não se rejeita a hipótese nula. O acesso à internet é certamente inferior a\)57,8\%\(.
+      \item Rejeita-se a hipótese nula. Há evidência de que o acesso à internet em 2019 é inferior a\)57,8\%\(.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p ,8\%\(\emph{vs.}\)H\_a: p \textgreater{} 57,8\%\(. 
+
+  Portanto, p-valor =\)0.03 \textless{} 0.07\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Especula-se que nos últimos anos tenha havido um aumento no acesso à
+  internet nos domicílios brasileiros. Em 2017, 57,8\% dos domicílios do
+  país tinham conexão. Em 2019, uma pesquisa por amostragem realizou um
+  teste de hipótese para avaliar se o percentual de acesso de fato
+  aumentou no período e encontrou um p-valor igual a \(0.06\). Dessa
+  forma, ao nível de significância de \(1\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o acesso à internet
+    em 2019 é inferior a \(57,8\%\).
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o acesso à
+    internet em 2019 é superior a \(57,8\%\).
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o acesso à
+    internet no país tenha aumentado.
+  \item
+    Não se rejeita a hipótese nula. O acesso à internet é certamente
+    inferior a \(57,8\%\).
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o acesso à internet
+    no país aumentou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 57,8\%\) \emph{vs.} \(H_a: p > 57,8\%\).
+
+  Portanto, p-valor = \(0.06 > 0.01\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Especula-se que nos últimos anos tenha havido um aumento no acesso à internet nos domicílios brasileiros. Em 2017, 57,8\% dos domicílios do país tinham conexão. Em 2019, uma pesquisa por amostragem realizou um teste de hipótese para avaliar se o percentual de acesso de fato aumentou no período e encontrou um p-valor igual a\)0.09\(. Dessa forma, ao nível de significância de\)6\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. Não há evidência de que o acesso à internet no país tenha aumentado.
+      \item Rejeita-se a hipótese nula. Há evidência de que o acesso à internet em 2019 é inferior a\)57,8\%\(.
+      \item Rejeita-se a hipótese nula. Há evidência de que o acesso à internet no país aumentou.
+      \item Não se rejeita a hipótese nula. Há evidência de que o acesso à internet em 2019 é superior a\)57,8\%\(.
+      \item Não se rejeita a hipótese nula. O acesso à internet é certamente inferior a\)57,8\%\(.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p ,8\%\(\emph{vs.}\)H\_a: p \textgreater{} 57,8\%\(. 
+
+  Portanto, p-valor =\)0.09 \textgreater{}
+  0.06\(e não se rejeita\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Especula-se que nos últimos anos tenha havido um aumento no acesso à
+  internet nos domicílios brasileiros. Em 2017, 57,8\% dos domicílios do
+  país tinham conexão. Em 2019, uma pesquisa por amostragem realizou um
+  teste de hipótese para avaliar se o percentual de acesso de fato
+  aumentou no período e encontrou um p-valor igual a \(0.08\). Dessa
+  forma, ao nível de significância de \(3\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o acesso à
+    internet em 2019 é superior a \(57,8\%\).
+  \item
+    Não se rejeita a hipótese nula. O acesso à internet é certamente
+    inferior a \(57,8\%\).
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o acesso à internet
+    no país aumentou.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o acesso à
+    internet no país tenha aumentado.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o acesso à internet
+    em 2019 é inferior a \(57,8\%\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 57,8\%\) \emph{vs.} \(H_a: p > 57,8\%\).
+
+  Portanto, p-valor = \(0.08 > 0.03\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Especula-se que nos últimos anos tenha havido um aumento no acesso à internet nos domicílios brasileiros. Em 2017, 57,8\% dos domicílios do país tinham conexão. Em 2019, uma pesquisa por amostragem realizou um teste de hipótese para avaliar se o percentual de acesso de fato aumentou no período e encontrou um p-valor igual a\)0.06\(. Dessa forma, ao nível de significância de\)7\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. O acesso à internet é certamente inferior a\)57,8\%\(.
+      \item Rejeita-se a hipótese nula. Há evidência de que o acesso à internet em 2019 é inferior a\)57,8\%\(.
+      \item Rejeita-se a hipótese nula. Há evidência de que o acesso à internet no país aumentou.
+      \item Não se rejeita a hipótese nula. Há evidência de que o acesso à internet em 2019 é superior a\)57,8\%\(.
+      \item Não se rejeita a hipótese nula. Não há evidência de que o acesso à internet no país tenha aumentado.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p ,8\%\(\emph{vs.}\)H\_a: p \textgreater{} 57,8\%\(. 
+
+  Portanto, p-valor =\)0.06 \textless{} 0.07\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

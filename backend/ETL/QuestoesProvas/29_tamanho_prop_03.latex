@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um estúdio de animação produziu um novo desenho animado, e agora
+  deseja avaliar o nível de aprovação de seu produto. Para tanto, irá
+  conduzir um estudo para estimar o percentual de crianças que gostaram
+  do desenho. Considerando outras obras da produtora, estima-se que o
+  percentual é de \(86.2\%\). Qual deverá ser o tamanho mínimo da
+  amostra para que, para o intervalo de confiança de \(96\%\), a margem
+  de erro da estimativa seja de \emph{no máximo} \(1.7\) pontos
+  percentuais? (Considerar a aproximação indicada na equação disponível
+  no conjunto de fórmulas fornecidas para a prova e aproximar o quantil
+  usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1470\)
+  \item
+    \(1816\)
+  \item
+    \(1730\)
+  \item
+    \(1773\)
+  \item
+    \(1261\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.017} \right)^2 \times 0.862 \times (1-0.862)=1729.8.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1730\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estúdio de animação produziu um novo desenho animado, e agora
+  deseja avaliar o nível de aprovação de seu produto. Para tanto, irá
+  conduzir um estudo para estimar o percentual de crianças que gostaram
+  do desenho. Considerando outras obras da produtora, estima-se que o
+  percentual é de \(77.6\%\). Qual deverá ser o tamanho mínimo da
+  amostra para que, para o intervalo de confiança de \(99\%\), a margem
+  de erro da estimativa seja de \emph{no máximo} \(1.7\) pontos
+  percentuais? (Considerar a aproximação indicada na equação disponível
+  no conjunto de fórmulas fornecidas para a prova e aproximar o quantil
+  usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3804\)
+  \item
+    \(4204\)
+  \item
+    \(3266\)
+  \item
+    \(4004\)
+  \item
+    \(4404\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.017} \right)^2 \times 0.776 \times (1-0.776)=4003.61.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=4004\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estúdio de animação produziu um novo desenho animado, e agora
+  deseja avaliar o nível de aprovação de seu produto. Para tanto, irá
+  conduzir um estudo para estimar o percentual de crianças que gostaram
+  do desenho. Considerando outras obras da produtora, estima-se que o
+  percentual é de \(76.4\%\). Qual deverá ser o tamanho mínimo da
+  amostra para que, para o intervalo de confiança de \(99\%\), a margem
+  de erro da estimativa seja de \emph{no máximo} \(1.7\) pontos
+  percentuais? (Considerar a aproximação indicada na equação disponível
+  no conjunto de fórmulas fornecidas para a prova e aproximar o quantil
+  usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4464\)
+  \item
+    \(4153\)
+  \item
+    \(4776\)
+  \item
+    \(3388\)
+  \item
+    \(3738\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.017} \right)^2 \times 0.764 \times (1-0.764)=4152.86.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=4153\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estúdio de animação produziu um novo desenho animado, e agora
+  deseja avaliar o nível de aprovação de seu produto. Para tanto, irá
+  conduzir um estudo para estimar o percentual de crianças que gostaram
+  do desenho. Considerando outras obras da produtora, estima-se que o
+  percentual é de \(75.6\%\). Qual deverá ser o tamanho mínimo da
+  amostra para que, para o intervalo de confiança de \(97\%\), a margem
+  de erro da estimativa seja de \emph{no máximo} \(2.5\) pontos
+  percentuais? (Considerar a aproximação indicada na equação disponível
+  no conjunto de fórmulas fornecidas para a prova e aproximar o quantil
+  usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1529\)
+  \item
+    \(1390\)
+  \item
+    \(1460\)
+  \item
+    \(1320\)
+  \item
+    \(1044\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.025} \right)^2 \times 0.756 \times (1-0.756)=1389.8.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1390\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estúdio de animação produziu um novo desenho animado, e agora
+  deseja avaliar o nível de aprovação de seu produto. Para tanto, irá
+  conduzir um estudo para estimar o percentual de crianças que gostaram
+  do desenho. Considerando outras obras da produtora, estima-se que o
+  percentual é de \(77.4\%\). Qual deverá ser o tamanho mínimo da
+  amostra para que, para o intervalo de confiança de \(98\%\), a margem
+  de erro da estimativa seja de \emph{no máximo} \(2.1\) pontos
+  percentuais? (Considerar a aproximação indicada na equação disponível
+  no conjunto de fórmulas fornecidas para a prova e aproximar o quantil
+  usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2046\)
+  \item
+    \(1667\)
+  \item
+    \(2262\)
+  \item
+    \(2154\)
+  \item
+    \(2208\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.021} \right)^2 \times 0.774 \times (1-0.774)=2153.39.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2154\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estúdio de animação produziu um novo desenho animado, e agora
+  deseja avaliar o nível de aprovação de seu produto. Para tanto, irá
+  conduzir um estudo para estimar o percentual de crianças que gostaram
+  do desenho. Considerando outras obras da produtora, estima-se que o
+  percentual é de \(78.4\%\). Qual deverá ser o tamanho mínimo da
+  amostra para que, para o intervalo de confiança de \(95\%\), a margem
+  de erro da estimativa seja de \emph{no máximo} \(1.5\) pontos
+  percentuais? (Considerar a aproximação indicada na equação disponível
+  no conjunto de fórmulas fornecidas para a prova e aproximar o quantil
+  usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2892\)
+  \item
+    \(3036\)
+  \item
+    \(3181\)
+  \item
+    \(2747\)
+  \item
+    \(2025\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.015} \right)^2 \times 0.784 \times (1-0.784)=2891.34.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2892\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estúdio de animação produziu um novo desenho animado, e agora
+  deseja avaliar o nível de aprovação de seu produto. Para tanto, irá
+  conduzir um estudo para estimar o percentual de crianças que gostaram
+  do desenho. Considerando outras obras da produtora, estima-se que o
+  percentual é de \(81.4\%\). Qual deverá ser o tamanho mínimo da
+  amostra para que, para o intervalo de confiança de \(98\%\), a margem
+  de erro da estimativa seja de \emph{no máximo} \(2.5\) pontos
+  percentuais? (Considerar a aproximação indicada na equação disponível
+  no conjunto de fórmulas fornecidas para a prova e aproximar o quantil
+  usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1316\)
+  \item
+    \(1250\)
+  \item
+    \(1019\)
+  \item
+    \(1382\)
+  \item
+    \(1349\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.025} \right)^2 \times 0.814 \times (1-0.814)=1315.13.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1316\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estúdio de animação produziu um novo desenho animado, e agora
+  deseja avaliar o nível de aprovação de seu produto. Para tanto, irá
+  conduzir um estudo para estimar o percentual de crianças que gostaram
+  do desenho. Considerando outras obras da produtora, estima-se que o
+  percentual é de \(85.6\%\). Qual deverá ser o tamanho mínimo da
+  amostra para que, para o intervalo de confiança de \(97\%\), a margem
+  de erro da estimativa seja de \emph{no máximo} \(1.9\) pontos
+  percentuais? (Considerar a aproximação indicada na equação disponível
+  no conjunto de fórmulas fornecidas para a prova e aproximar o quantil
+  usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1688\)
+  \item
+    \(1608\)
+  \item
+    \(1367\)
+  \item
+    \(1648\)
+  \item
+    \(1207\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.019} \right)^2 \times 0.856 \times (1-0.856)=1607.86.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1608\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estúdio de animação produziu um novo desenho animado, e agora
+  deseja avaliar o nível de aprovação de seu produto. Para tanto, irá
+  conduzir um estudo para estimar o percentual de crianças que gostaram
+  do desenho. Considerando outras obras da produtora, estima-se que o
+  percentual é de \(75.6\%\). Qual deverá ser o tamanho mínimo da
+  amostra para que, para o intervalo de confiança de \(96\%\), a margem
+  de erro da estimativa seja de \emph{no máximo} \(2.5\) pontos
+  percentuais? (Considerar a aproximação indicada na equação disponível
+  no conjunto de fórmulas fornecidas para a prova e aproximar o quantil
+  usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1365\)
+  \item
+    \(1179\)
+  \item
+    \(1303\)
+  \item
+    \(1241\)
+  \item
+    \(904\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.025} \right)^2 \times 0.756 \times (1-0.756)=1240.34.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1241\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estúdio de animação produziu um novo desenho animado, e agora
+  deseja avaliar o nível de aprovação de seu produto. Para tanto, irá
+  conduzir um estudo para estimar o percentual de crianças que gostaram
+  do desenho. Considerando outras obras da produtora, estima-se que o
+  percentual é de \(77\%\). Qual deverá ser o tamanho mínimo da amostra
+  para que, para o intervalo de confiança de \(95\%\), a margem de erro
+  da estimativa seja de \emph{no máximo} \(2.5\) pontos percentuais?
+  (Considerar a aproximação indicada na equação disponível no conjunto
+  de fórmulas fornecidas para a prova e aproximar o quantil usando a
+  tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1307\)
+  \item
+    \(1089\)
+  \item
+    \(871\)
+  \item
+    \(763\)
+  \item
+    \(1198\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.025} \right)^2 \times 0.77 \times (1-0.77)=1088.56.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1089\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

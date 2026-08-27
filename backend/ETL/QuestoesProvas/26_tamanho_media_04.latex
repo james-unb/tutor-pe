@@ -1,0 +1,483 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A Pesquisa de Acompanhamento de Egressos, realizada pelo SENAI, tem
+  como objetivo avaliar o desempenho da instituição. Assim que um
+  estudante se forma no SENAI, ele preenche um formulário com dados
+  profissionais. Após um ano da conclusão do curso, a escola entra em
+  contato com ex-alunos e faz uma pesquisa sobre inserção no mercado de
+  trabalho. Deseja-se estimar a renda média de ex-alunos empregados. Em
+  anos anteriores o desvio padrão populacional era de \(938\) reais.
+  Qual deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(97.5\%\), a média amostral não difira da média populacional por mais
+  de \(140\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(173\)
+  \item
+    \(282\)
+  \item
+    \(226\)
+  \item
+    \(57\)
+  \item
+    \(142\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então,
+  \[n \geq \left( \frac{2.24 \times 938}{140} \right)^2=225.2401.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=226\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Pesquisa de Acompanhamento de Egressos, realizada pelo SENAI, tem
+  como objetivo avaliar o desempenho da instituição. Assim que um
+  estudante se forma no SENAI, ele preenche um formulário com dados
+  profissionais. Após um ano da conclusão do curso, a escola entra em
+  contato com ex-alunos e faz uma pesquisa sobre inserção no mercado de
+  trabalho. Deseja-se estimar a renda média de ex-alunos empregados. Em
+  anos anteriores o desvio padrão populacional era de \(926\) reais.
+  Qual deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(99\%\), a média amostral não difira da média populacional por mais
+  de \(162\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(55\)
+  \item
+    \(136\)
+  \item
+    \(178\)
+  \item
+    \(272\)
+  \item
+    \(218\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 926}{162} \right)^2=217.486.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=218\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Pesquisa de Acompanhamento de Egressos, realizada pelo SENAI, tem
+  como objetivo avaliar o desempenho da instituição. Assim que um
+  estudante se forma no SENAI, ele preenche um formulário com dados
+  profissionais. Após um ano da conclusão do curso, a escola entra em
+  contato com ex-alunos e faz uma pesquisa sobre inserção no mercado de
+  trabalho. Deseja-se estimar a renda média de ex-alunos empregados. Em
+  anos anteriores o desvio padrão populacional era de \(600\) reais.
+  Qual deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(95\%\), a média amostral não difira da média populacional por mais
+  de \(274\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(19\)
+  \item
+    \(23\)
+  \item
+    \(12\)
+  \item
+    \(13\)
+  \item
+    \(5\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 600}{274} \right)^2=18.421.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=19\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Pesquisa de Acompanhamento de Egressos, realizada pelo SENAI, tem
+  como objetivo avaliar o desempenho da instituição. Assim que um
+  estudante se forma no SENAI, ele preenche um formulário com dados
+  profissionais. Após um ano da conclusão do curso, a escola entra em
+  contato com ex-alunos e faz uma pesquisa sobre inserção no mercado de
+  trabalho. Deseja-se estimar a renda média de ex-alunos empregados. Em
+  anos anteriores o desvio padrão populacional era de \(329\) reais.
+  Qual deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(99\%\), a média amostral não difira da média populacional por mais
+  de \(291\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6\)
+  \item
+    \(9\)
+  \item
+    \(10\)
+  \item
+    \(7\)
+  \item
+    \(3\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 329}{291} \right)^2=8.5083.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=9\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Pesquisa de Acompanhamento de Egressos, realizada pelo SENAI, tem
+  como objetivo avaliar o desempenho da instituição. Assim que um
+  estudante se forma no SENAI, ele preenche um formulário com dados
+  profissionais. Após um ano da conclusão do curso, a escola entra em
+  contato com ex-alunos e faz uma pesquisa sobre inserção no mercado de
+  trabalho. Deseja-se estimar a renda média de ex-alunos empregados. Em
+  anos anteriores o desvio padrão populacional era de \(890\) reais.
+  Qual deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(99\%\), a média amostral não difira da média populacional por mais
+  de \(298\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(49\)
+  \item
+    \(60\)
+  \item
+    \(66\)
+  \item
+    \(15\)
+  \item
+    \(38\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 890}{298} \right)^2=59.3727.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=60\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Pesquisa de Acompanhamento de Egressos, realizada pelo SENAI, tem
+  como objetivo avaliar o desempenho da instituição. Assim que um
+  estudante se forma no SENAI, ele preenche um formulário com dados
+  profissionais. Após um ano da conclusão do curso, a escola entra em
+  contato com ex-alunos e faz uma pesquisa sobre inserção no mercado de
+  trabalho. Deseja-se estimar a renda média de ex-alunos empregados. Em
+  anos anteriores o desvio padrão populacional era de \(472\) reais.
+  Qual deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(95\%\), a média amostral não difira da média populacional por mais
+  de \(197\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(26\)
+  \item
+    \(16\)
+  \item
+    \(6\)
+  \item
+    \(14\)
+  \item
+    \(23\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 472}{197} \right)^2=22.0528.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=23\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Pesquisa de Acompanhamento de Egressos, realizada pelo SENAI, tem
+  como objetivo avaliar o desempenho da instituição. Assim que um
+  estudante se forma no SENAI, ele preenche um formulário com dados
+  profissionais. Após um ano da conclusão do curso, a escola entra em
+  contato com ex-alunos e faz uma pesquisa sobre inserção no mercado de
+  trabalho. Deseja-se estimar a renda média de ex-alunos empregados. Em
+  anos anteriores o desvio padrão populacional era de \(827\) reais.
+  Qual deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(99\%\), a média amostral não difira da média populacional por mais
+  de \(206\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(88\)
+  \item
+    \(108\)
+  \item
+    \(68\)
+  \item
+    \(27\)
+  \item
+    \(124\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 827}{206} \right)^2=107.2793.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=108\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Pesquisa de Acompanhamento de Egressos, realizada pelo SENAI, tem
+  como objetivo avaliar o desempenho da instituição. Assim que um
+  estudante se forma no SENAI, ele preenche um formulário com dados
+  profissionais. Após um ano da conclusão do curso, a escola entra em
+  contato com ex-alunos e faz uma pesquisa sobre inserção no mercado de
+  trabalho. Deseja-se estimar a renda média de ex-alunos empregados. Em
+  anos anteriores o desvio padrão populacional era de \(704\) reais.
+  Qual deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(99\%\), a média amostral não difira da média populacional por mais
+  de \(205\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(79\)
+  \item
+    \(99\)
+  \item
+    \(65\)
+  \item
+    \(50\)
+  \item
+    \(20\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 704}{205} \right)^2=78.5013.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=79\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Pesquisa de Acompanhamento de Egressos, realizada pelo SENAI, tem
+  como objetivo avaliar o desempenho da instituição. Assim que um
+  estudante se forma no SENAI, ele preenche um formulário com dados
+  profissionais. Após um ano da conclusão do curso, a escola entra em
+  contato com ex-alunos e faz uma pesquisa sobre inserção no mercado de
+  trabalho. Deseja-se estimar a renda média de ex-alunos empregados. Em
+  anos anteriores o desvio padrão populacional era de \(321\) reais.
+  Qual deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(99\%\), a média amostral não difira da média populacional por mais
+  de \(128\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(35\)
+  \item
+    \(26\)
+  \item
+    \(11\)
+  \item
+    \(46\)
+  \item
+    \(42\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 321}{128} \right)^2=41.8629.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=42\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A Pesquisa de Acompanhamento de Egressos, realizada pelo SENAI, tem
+  como objetivo avaliar o desempenho da instituição. Assim que um
+  estudante se forma no SENAI, ele preenche um formulário com dados
+  profissionais. Após um ano da conclusão do curso, a escola entra em
+  contato com ex-alunos e faz uma pesquisa sobre inserção no mercado de
+  trabalho. Deseja-se estimar a renda média de ex-alunos empregados. Em
+  anos anteriores o desvio padrão populacional era de \(935\) reais.
+  Qual deve ser o tamanho mínimo da amostra para que, com confiança de
+  \(99\%\), a média amostral não difira da média populacional por mais
+  de \(175\) reais?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(191\)
+  \item
+    \(155\)
+  \item
+    \(210\)
+  \item
+    \(120\)
+  \item
+    \(48\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 935}{175} \right)^2=190.0144.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=191\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

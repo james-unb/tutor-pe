@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja função de distribuição
+  acumulada (fda) é dada por \[F_X(x) = \left\{
+  \begin{array}{ll}
+  0, &\mbox{se}\, \ \ x <0;\\
+  x^2/49,& \mbox{se}\, \ \ 0 \leq x \leq 7;\\ 
+  1, & \mbox{se}\, \ \ x > 7.\\
+  \end{array}
+  \right. \nonumber\] Qual o valor de \(E(X)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(12.25\)
+  \item
+    \(4.67\)
+  \item
+    \(1.00\)
+  \item
+    \(14.00\)
+  \item
+    \(2.33\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade dessa variável aleatória é dada por
+  \(f(x)=\frac{dF(x)}{dx}=\frac{2x}{49}\).\\
+  Portanto, sua esperança é
+  \[E(X)=\int_{0}^{7} x f(x)\, dx = \frac{2}{49} \int_{0}^{7} x^2\, dx = \frac{2}{{49}} \times \frac{{343}}{3} = 4.67.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja função de distribuição
+  acumulada (fda) é dada por \[F_X(x) = \left\{
+  \begin{array}{ll}
+  0, &\mbox{se}\, \ \ x <0;\\
+  x^2/144,& \mbox{se}\, \ \ 0 \leq x \leq 12;\\ 
+  1, & \mbox{se}\, \ \ x > 12.\\
+  \end{array}
+  \right. \nonumber\] Qual o valor de \(E(X)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.00\)
+  \item
+    \(8.00\)
+  \item
+    \(36.00\)
+  \item
+    \(24.00\)
+  \item
+    \(4.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade dessa variável aleatória é dada por
+  \(f(x)=\frac{dF(x)}{dx}=\frac{2x}{144}\).\\
+  Portanto, sua esperança é
+  \[E(X)=\int_{0}^{12} x f(x)\, dx = \frac{2}{144} \int_{0}^{12} x^2\, dx = \frac{2}{{144}} \times \frac{{1728}}{3} = 8.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja função de distribuição
+  acumulada (fda) é dada por \[F_X(x) = \left\{
+  \begin{array}{ll}
+  0, &\mbox{se}\, \ \ x <0;\\
+  x^2/36,& \mbox{se}\, \ \ 0 \leq x \leq 6;\\ 
+  1, & \mbox{se}\, \ \ x > 6.\\
+  \end{array}
+  \right. \nonumber\] Qual o valor de \(E(X)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(12.00\)
+  \item
+    \(9.00\)
+  \item
+    \(1.00\)
+  \item
+    \(4.00\)
+  \item
+    \(2.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade dessa variável aleatória é dada por
+  \(f(x)=\frac{dF(x)}{dx}=\frac{2x}{36}\).\\
+  Portanto, sua esperança é
+  \[E(X)=\int_{0}^{6} x f(x)\, dx = \frac{2}{36} \int_{0}^{6} x^2\, dx = \frac{2}{{36}} \times \frac{{216}}{3} = 4.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja função de distribuição
+  acumulada (fda) é dada por \[F_X(x) = \left\{
+  \begin{array}{ll}
+  0, &\mbox{se}\, \ \ x <0;\\
+  x^2/1,& \mbox{se}\, \ \ 0 \leq x \leq 1;\\ 
+  1, & \mbox{se}\, \ \ x > 1.\\
+  \end{array}
+  \right. \nonumber\] Qual o valor de \(E(X)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.67\)
+  \item
+    \(0.33\)
+  \item
+    \(1.00\)
+  \item
+    \(0.25\)
+  \item
+    \(2.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade dessa variável aleatória é dada por
+  \(f(x)=\frac{dF(x)}{dx}=\frac{2x}{1}\).\\
+  Portanto, sua esperança é
+  \[E(X)=\int_{0}^{1} x f(x)\, dx = \frac{2}{1} \int_{0}^{1} x^2\, dx = \frac{2}{{1}} \times \frac{{1}}{3} = 0.67.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja função de distribuição
+  acumulada (fda) é dada por \[F_X(x) = \left\{
+  \begin{array}{ll}
+  0, &\mbox{se}\, \ \ x <0;\\
+  x^2/49,& \mbox{se}\, \ \ 0 \leq x \leq 7;\\ 
+  1, & \mbox{se}\, \ \ x > 7.\\
+  \end{array}
+  \right. \nonumber\] Qual o valor de \(E(X)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(12.25\)
+  \item
+    \(4.67\)
+  \item
+    \(1.00\)
+  \item
+    \(2.33\)
+  \item
+    \(14.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade dessa variável aleatória é dada por
+  \(f(x)=\frac{dF(x)}{dx}=\frac{2x}{49}\).\\
+  Portanto, sua esperança é
+  \[E(X)=\int_{0}^{7} x f(x)\, dx = \frac{2}{49} \int_{0}^{7} x^2\, dx = \frac{2}{{49}} \times \frac{{343}}{3} = 4.67.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja função de distribuição
+  acumulada (fda) é dada por \[F_X(x) = \left\{
+  \begin{array}{ll}
+  0, &\mbox{se}\, \ \ x <0;\\
+  x^2/144,& \mbox{se}\, \ \ 0 \leq x \leq 12;\\ 
+  1, & \mbox{se}\, \ \ x > 12.\\
+  \end{array}
+  \right. \nonumber\] Qual o valor de \(E(X)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.00\)
+  \item
+    \(4.00\)
+  \item
+    \(24.00\)
+  \item
+    \(8.00\)
+  \item
+    \(36.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade dessa variável aleatória é dada por
+  \(f(x)=\frac{dF(x)}{dx}=\frac{2x}{144}\).\\
+  Portanto, sua esperança é
+  \[E(X)=\int_{0}^{12} x f(x)\, dx = \frac{2}{144} \int_{0}^{12} x^2\, dx = \frac{2}{{144}} \times \frac{{1728}}{3} = 8.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja função de distribuição
+  acumulada (fda) é dada por \[F_X(x) = \left\{
+  \begin{array}{ll}
+  0, &\mbox{se}\, \ \ x <0;\\
+  x^2/121,& \mbox{se}\, \ \ 0 \leq x \leq 11;\\ 
+  1, & \mbox{se}\, \ \ x > 11.\\
+  \end{array}
+  \right. \nonumber\] Qual o valor de \(E(X)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(30.25\)
+  \item
+    \(22.00\)
+  \item
+    \(3.67\)
+  \item
+    \(7.33\)
+  \item
+    \(1.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade dessa variável aleatória é dada por
+  \(f(x)=\frac{dF(x)}{dx}=\frac{2x}{121}\).\\
+  Portanto, sua esperança é
+  \[E(X)=\int_{0}^{11} x f(x)\, dx = \frac{2}{121} \int_{0}^{11} x^2\, dx = \frac{2}{{121}} \times \frac{{1331}}{3} = 7.33.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja função de distribuição
+  acumulada (fda) é dada por \[F_X(x) = \left\{
+  \begin{array}{ll}
+  0, &\mbox{se}\, \ \ x <0;\\
+  x^2/25,& \mbox{se}\, \ \ 0 \leq x \leq 5;\\ 
+  1, & \mbox{se}\, \ \ x > 5.\\
+  \end{array}
+  \right. \nonumber\] Qual o valor de \(E(X)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.25\)
+  \item
+    \(1.00\)
+  \item
+    \(10.00\)
+  \item
+    \(1.67\)
+  \item
+    \(3.33\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade dessa variável aleatória é dada por
+  \(f(x)=\frac{dF(x)}{dx}=\frac{2x}{25}\).\\
+  Portanto, sua esperança é
+  \[E(X)=\int_{0}^{5} x f(x)\, dx = \frac{2}{25} \int_{0}^{5} x^2\, dx = \frac{2}{{25}} \times \frac{{125}}{3} = 3.33.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja função de distribuição
+  acumulada (fda) é dada por \[F_X(x) = \left\{
+  \begin{array}{ll}
+  0, &\mbox{se}\, \ \ x <0;\\
+  x^2/16,& \mbox{se}\, \ \ 0 \leq x \leq 4;\\ 
+  1, & \mbox{se}\, \ \ x > 4.\\
+  \end{array}
+  \right. \nonumber\] Qual o valor de \(E(X)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.33\)
+  \item
+    \(4.00\)
+  \item
+    \(2.67\)
+  \item
+    \(8.00\)
+  \item
+    \(1.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade dessa variável aleatória é dada por
+  \(f(x)=\frac{dF(x)}{dx}=\frac{2x}{16}\).\\
+  Portanto, sua esperança é
+  \[E(X)=\int_{0}^{4} x f(x)\, dx = \frac{2}{16} \int_{0}^{4} x^2\, dx = \frac{2}{{16}} \times \frac{{64}}{3} = 2.67.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja função de distribuição
+  acumulada (fda) é dada por \[F_X(x) = \left\{
+  \begin{array}{ll}
+  0, &\mbox{se}\, \ \ x <0;\\
+  x^2/100,& \mbox{se}\, \ \ 0 \leq x \leq 10;\\ 
+  1, & \mbox{se}\, \ \ x > 10.\\
+  \end{array}
+  \right. \nonumber\] Qual o valor de \(E(X)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(20.00\)
+  \item
+    \(6.67\)
+  \item
+    \(1.00\)
+  \item
+    \(25.00\)
+  \item
+    \(3.33\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade dessa variável aleatória é dada por
+  \(f(x)=\frac{dF(x)}{dx}=\frac{2x}{100}\).\\
+  Portanto, sua esperança é
+  \[E(X)=\int_{0}^{10} x f(x)\, dx = \frac{2}{100} \int_{0}^{10} x^2\, dx = \frac{2}{{100}} \times \frac{{1000}}{3} = 6.67.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

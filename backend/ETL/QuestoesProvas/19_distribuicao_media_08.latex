@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição dos pesos de frangos criados numa granja pode ser
+  representada por uma distribuição Normal, com média 6 kg e desvio
+  padrão 0.81 kg. Um abatedouro comprará 500 frangos e os classificará
+  de acordo com seus respectivos pesos. Qual é o valor de \(c\) tal que
+  \(P(\bar{X} > c)=1.54\%\), onde \(\bar{X}\) representa o peso médio
+  dos 500 frangos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.003\)
+  \item
+    \(5.997\)
+  \item
+    \(6.078\)
+  \item
+    \(5.922\)
+  \item
+    \(6.410\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[P(\bar{X} > c) = 0.0154 \rightarrow P \left(Z > \dfrac{c-6}{\frac{0.81}\sqrt{500}} \right) = 0.0154\]
+  Temos c tal que, \[\dfrac{(c-6)}{\frac{0.81}\sqrt{500}} = 2.16\]
+  Então,
+  \[c= 6+\left(2.16 \times \frac{0.81}{\sqrt{500}}\right) \approx 6.078\]
+  Portanto, \(c=6.078\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição dos pesos de frangos criados numa granja pode ser
+  representada por uma distribuição Normal, com média 5 kg e desvio
+  padrão 0.77 kg. Um abatedouro comprará 530 frangos e os classificará
+  de acordo com seus respectivos pesos. Qual é o valor de \(c\) tal que
+  \(P(\bar{X} > c)=96.33\%\), onde \(\bar{X}\) representa o peso médio
+  dos 530 frangos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.998\)
+  \item
+    \(5.059\)
+  \item
+    \(5.002\)
+  \item
+    \(4.941\)
+  \item
+    \(4.675\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[P(\bar{X} > c) = 0.9633 \rightarrow P \left(Z > \dfrac{c-5}{\frac{0.77}\sqrt{530}} \right) = 0.9633\]
+  Temos c tal que, \[\dfrac{(c-5)}{\frac{0.77}\sqrt{530}} = -1.79\]
+  Então,
+  \[c= 5+\left(-1.79 \times \frac{0.77}{\sqrt{530}}\right) \approx 4.941\]
+  Portanto, \(c=4.941\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição dos pesos de frangos criados numa granja pode ser
+  representada por uma distribuição Normal, com média 4 kg e desvio
+  padrão 0.78 kg. Um abatedouro comprará 500 frangos e os classificará
+  de acordo com seus respectivos pesos. Qual é o valor de \(c\) tal que
+  \(P(\bar{X} > c)=1.1\%\), onde \(\bar{X}\) representa o peso médio dos
+  500 frangos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.003\)
+  \item
+    \(3.920\)
+  \item
+    \(4.080\)
+  \item
+    \(3.997\)
+  \item
+    \(4.428\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[P(\bar{X} > c) = 0.011 \rightarrow P \left(Z > \dfrac{c-4}{\frac{0.78}\sqrt{500}} \right) = 0.011\]
+  Temos c tal que, \[\dfrac{(c-4)}{\frac{0.78}\sqrt{500}} = 2.29\]
+  Então,
+  \[c= 4+\left(2.29 \times \frac{0.78}{\sqrt{500}}\right) \approx 4.08\]
+  Portanto, \(c=4.08\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição dos pesos de frangos criados numa granja pode ser
+  representada por uma distribuição Normal, com média 5 kg e desvio
+  padrão 0.82 kg. Um abatedouro comprará 530 frangos e os classificará
+  de acordo com seus respectivos pesos. Qual é o valor de \(c\) tal que
+  \(P(\bar{X} > c)=2.44\%\), onde \(\bar{X}\) representa o peso médio
+  dos 530 frangos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5.071\)
+  \item
+    \(5.374\)
+  \item
+    \(4.929\)
+  \item
+    \(5.003\)
+  \item
+    \(4.997\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[P(\bar{X} > c) = 0.0244 \rightarrow P \left(Z > \dfrac{c-5}{\frac{0.82}\sqrt{530}} \right) = 0.0244\]
+  Temos c tal que, \[\dfrac{(c-5)}{\frac{0.82}\sqrt{530}} = 1.97\]
+  Então,
+  \[c= 5+\left(1.97 \times \frac{0.82}{\sqrt{530}}\right) \approx 5.071\]
+  Portanto, \(c=5.071\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição dos pesos de frangos criados numa granja pode ser
+  representada por uma distribuição Normal, com média 7 kg e desvio
+  padrão 0.77 kg. Um abatedouro comprará 550 frangos e os classificará
+  de acordo com seus respectivos pesos. Qual é o valor de \(c\) tal que
+  \(P(\bar{X} > c)=98.42\%\), onde \(\bar{X}\) representa o peso médio
+  dos 550 frangos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.609\)
+  \item
+    \(6.929\)
+  \item
+    \(7.002\)
+  \item
+    \(6.998\)
+  \item
+    \(7.071\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[P(\bar{X} > c) = 0.9842 \rightarrow P \left(Z > \dfrac{c-7}{\frac{0.77}\sqrt{550}} \right) = 0.9842\]
+  Temos c tal que, \[\dfrac{(c-7)}{\frac{0.77}\sqrt{550}} = -2.15\]
+  Então,
+  \[c= 7+\left(-2.15 \times \frac{0.77}{\sqrt{550}}\right) \approx 6.929\]
+  Portanto, \(c=6.929\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição dos pesos de frangos criados numa granja pode ser
+  representada por uma distribuição Normal, com média 3 kg e desvio
+  padrão 0.79 kg. Um abatedouro comprará 590 frangos e os classificará
+  de acordo com seus respectivos pesos. Qual é o valor de \(c\) tal que
+  \(P(\bar{X} > c)=6.3\%\), onde \(\bar{X}\) representa o peso médio dos
+  590 frangos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2.950\)
+  \item
+    \(3.278\)
+  \item
+    \(3.002\)
+  \item
+    \(2.998\)
+  \item
+    \(3.050\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[P(\bar{X} > c) = 0.063 \rightarrow P \left(Z > \dfrac{c-3}{\frac{0.79}\sqrt{590}} \right) = 0.063\]
+  Temos c tal que, \[\dfrac{(c-3)}{\frac{0.79}\sqrt{590}} = 1.53\]
+  Então,
+  \[c= 3+\left(1.53 \times \frac{0.79}{\sqrt{590}}\right) \approx 3.05\]
+  Portanto, \(c=3.05\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição dos pesos de frangos criados numa granja pode ser
+  representada por uma distribuição Normal, com média 3 kg e desvio
+  padrão 0.93 kg. Um abatedouro comprará 460 frangos e os classificará
+  de acordo com seus respectivos pesos. Qual é o valor de \(c\) tal que
+  \(P(\bar{X} > c)=5.82\%\), onde \(\bar{X}\) representa o peso médio
+  dos 460 frangos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2.932\)
+  \item
+    \(3.068\)
+  \item
+    \(3.003\)
+  \item
+    \(3.326\)
+  \item
+    \(2.997\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[P(\bar{X} > c) = 0.0582 \rightarrow P \left(Z > \dfrac{c-3}{\frac{0.93}\sqrt{460}} \right) = 0.0582\]
+  Temos c tal que, \[\dfrac{(c-3)}{\frac{0.93}\sqrt{460}} = 1.57\]
+  Então,
+  \[c= 3+\left(1.57 \times \frac{0.93}{\sqrt{460}}\right) \approx 3.068\]
+  Portanto, \(c=3.068\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição dos pesos de frangos criados numa granja pode ser
+  representada por uma distribuição Normal, com média 4 kg e desvio
+  padrão 0.92 kg. Um abatedouro comprará 560 frangos e os classificará
+  de acordo com seus respectivos pesos. Qual é o valor de \(c\) tal que
+  \(P(\bar{X} > c)=0.69\%\), onde \(\bar{X}\) representa o peso médio
+  dos 560 frangos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.486\)
+  \item
+    \(3.904\)
+  \item
+    \(4.096\)
+  \item
+    \(3.996\)
+  \item
+    \(4.004\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[P(\bar{X} > c) = 0.0069 \rightarrow P \left(Z > \dfrac{c-4}{\frac{0.92}\sqrt{560}} \right) = 0.0069\]
+  Temos c tal que, \[\dfrac{(c-4)}{\frac{0.92}\sqrt{560}} = 2.46\]
+  Então,
+  \[c= 4+\left(2.46 \times \frac{0.92}{\sqrt{560}}\right) \approx 4.096\]
+  Portanto, \(c=4.096\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição dos pesos de frangos criados numa granja pode ser
+  representada por uma distribuição Normal, com média 4 kg e desvio
+  padrão 0.82 kg. Um abatedouro comprará 510 frangos e os classificará
+  de acordo com seus respectivos pesos. Qual é o valor de \(c\) tal que
+  \(P(\bar{X} > c)=98.5\%\), onde \(\bar{X}\) representa o peso médio
+  dos 510 frangos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.003\)
+  \item
+    \(4.078\)
+  \item
+    \(3.922\)
+  \item
+    \(3.588\)
+  \item
+    \(3.997\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[P(\bar{X} > c) = 0.985 \rightarrow P \left(Z > \dfrac{c-4}{\frac{0.82}\sqrt{510}} \right) = 0.985\]
+  Temos c tal que, \[\dfrac{(c-4)}{\frac{0.82}\sqrt{510}} = -2.17\]
+  Então,
+  \[c= 4+\left(-2.17 \times \frac{0.82}{\sqrt{510}}\right) \approx 3.922\]
+  Portanto, \(c=3.922\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A distribuição dos pesos de frangos criados numa granja pode ser
+  representada por uma distribuição Normal, com média 5 kg e desvio
+  padrão 0.81 kg. Um abatedouro comprará 500 frangos e os classificará
+  de acordo com seus respectivos pesos. Qual é o valor de \(c\) tal que
+  \(P(\bar{X} > c)=82.12\%\), onde \(\bar{X}\) representa o peso médio
+  dos 500 frangos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.999\)
+  \item
+    \(5.001\)
+  \item
+    \(4.967\)
+  \item
+    \(4.825\)
+  \item
+    \(5.033\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  \[P(\bar{X} > c) = 0.8212 \rightarrow P \left(Z > \dfrac{c-5}{\frac{0.81}\sqrt{500}} \right) = 0.8212\]
+  Temos c tal que, \[\dfrac{(c-5)}{\frac{0.81}\sqrt{500}} = -0.92\]
+  Então,
+  \[c= 5+\left(-0.92 \times \frac{0.81}{\sqrt{500}}\right) \approx 4.967\]
+  Portanto, \(c=4.967\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

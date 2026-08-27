@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Casos de feminicídio têm sido pauta frequente dos meios de comunicação
+  no Brasil. Deseja-se estimar o número médio diário de mulheres mortas
+  em crimes de ódio motivados pela condição de gênero. Em anos
+  anteriores o desvio padrão populacional desses casos foi de \(12\).
+  Para estimar a média diária relativa ao ano de 2018 a partir de uma
+  amostra aleatória de dias do ano, qual deve ser o tamanho mínimo da
+  amostra para que, com confiança de \(90\%\), a média amostral não
+  difira da média populacional em mais de \(2\) casos? Considere que o
+  desvio padrão não se alterou.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(61\)
+  \item
+    \(25\)
+  \item
+    \(59\)
+  \item
+    \(97\)
+  \item
+    \(107\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 12}{2} \right)^2=96.8256.\] Portanto
+  o tamanho mínimo da amostra deve ser \(n=97\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Casos de feminicídio têm sido pauta frequente dos meios de comunicação
+  no Brasil. Deseja-se estimar o número médio diário de mulheres mortas
+  em crimes de ódio motivados pela condição de gênero. Em anos
+  anteriores o desvio padrão populacional desses casos foi de \(15\).
+  Para estimar a média diária relativa ao ano de 2018 a partir de uma
+  amostra aleatória de dias do ano, qual deve ser o tamanho mínimo da
+  amostra para que, com confiança de \(90\%\), a média amostral não
+  difira da média populacional em mais de \(3\) casos? Considere que o
+  desvio padrão não se alterou.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(17\)
+  \item
+    \(41\)
+  \item
+    \(42\)
+  \item
+    \(82\)
+  \item
+    \(68\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 15}{3} \right)^2=67.24.\] Portanto o
+  tamanho mínimo da amostra deve ser \(n=68\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Casos de feminicídio têm sido pauta frequente dos meios de comunicação
+  no Brasil. Deseja-se estimar o número médio diário de mulheres mortas
+  em crimes de ódio motivados pela condição de gênero. Em anos
+  anteriores o desvio padrão populacional desses casos foi de \(11\).
+  Para estimar a média diária relativa ao ano de 2018 a partir de uma
+  amostra aleatória de dias do ano, qual deve ser o tamanho mínimo da
+  amostra para que, com confiança de \(97.5\%\), a média amostral não
+  difira da média populacional em mais de \(3\) casos? Considere que o
+  desvio padrão não se alterou.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(42\)
+  \item
+    \(52\)
+  \item
+    \(75\)
+  \item
+    \(68\)
+  \item
+    \(17\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então, \[n \geq \left( \frac{2.24 \times 11}{3} \right)^2=67.4588.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=68\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Casos de feminicídio têm sido pauta frequente dos meios de comunicação
+  no Brasil. Deseja-se estimar o número médio diário de mulheres mortas
+  em crimes de ódio motivados pela condição de gênero. Em anos
+  anteriores o desvio padrão populacional desses casos foi de \(15\).
+  Para estimar a média diária relativa ao ano de 2018 a partir de uma
+  amostra aleatória de dias do ano, qual deve ser o tamanho mínimo da
+  amostra para que, com confiança de \(97.5\%\), a média amostral não
+  difira da média populacional em mais de \(2\) casos? Considere que o
+  desvio padrão não se alterou.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(71\)
+  \item
+    \(340\)
+  \item
+    \(283\)
+  \item
+    \(217\)
+  \item
+    \(177\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então, \[n \geq \left( \frac{2.24 \times 15}{2} \right)^2=282.24.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=283\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Casos de feminicídio têm sido pauta frequente dos meios de comunicação
+  no Brasil. Deseja-se estimar o número médio diário de mulheres mortas
+  em crimes de ódio motivados pela condição de gênero. Em anos
+  anteriores o desvio padrão populacional desses casos foi de \(12\).
+  Para estimar a média diária relativa ao ano de 2018 a partir de uma
+  amostra aleatória de dias do ano, qual deve ser o tamanho mínimo da
+  amostra para que, com confiança de \(99\%\), a média amostral não
+  difira da média populacional em mais de \(3\) casos? Considere que o
+  desvio padrão não se alterou.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(87\)
+  \item
+    \(118\)
+  \item
+    \(67\)
+  \item
+    \(27\)
+  \item
+    \(107\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 12}{3} \right)^2=106.5024.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=107\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Casos de feminicídio têm sido pauta frequente dos meios de comunicação
+  no Brasil. Deseja-se estimar o número médio diário de mulheres mortas
+  em crimes de ódio motivados pela condição de gênero. Em anos
+  anteriores o desvio padrão populacional desses casos foi de \(13\).
+  Para estimar a média diária relativa ao ano de 2018 a partir de uma
+  amostra aleatória de dias do ano, qual deve ser o tamanho mínimo da
+  amostra para que, com confiança de \(90\%\), a média amostral não
+  difira da média populacional em mais de \(3\) casos? Considere que o
+  desvio padrão não se alterou.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(32\)
+  \item
+    \(31\)
+  \item
+    \(51\)
+  \item
+    \(13\)
+  \item
+    \(64\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 13}{3} \right)^2=50.5047.\] Portanto
+  o tamanho mínimo da amostra deve ser \(n=51\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Casos de feminicídio têm sido pauta frequente dos meios de comunicação
+  no Brasil. Deseja-se estimar o número médio diário de mulheres mortas
+  em crimes de ódio motivados pela condição de gênero. Em anos
+  anteriores o desvio padrão populacional desses casos foi de \(14\).
+  Para estimar a média diária relativa ao ano de 2018 a partir de uma
+  amostra aleatória de dias do ano, qual deve ser o tamanho mínimo da
+  amostra para que, com confiança de \(97.5\%\), a média amostral não
+  difira da média populacional em mais de \(3\) casos? Considere que o
+  desvio padrão não se alterou.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(69\)
+  \item
+    \(84\)
+  \item
+    \(28\)
+  \item
+    \(138\)
+  \item
+    \(110\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então, \[n \geq \left( \frac{2.24 \times 14}{3} \right)^2=109.2722.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=110\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Casos de feminicídio têm sido pauta frequente dos meios de comunicação
+  no Brasil. Deseja-se estimar o número médio diário de mulheres mortas
+  em crimes de ódio motivados pela condição de gênero. Em anos
+  anteriores o desvio padrão populacional desses casos foi de \(11\).
+  Para estimar a média diária relativa ao ano de 2018 a partir de uma
+  amostra aleatória de dias do ano, qual deve ser o tamanho mínimo da
+  amostra para que, com confiança de \(90\%\), a média amostral não
+  difira da média populacional em mais de \(3\) casos? Considere que o
+  desvio padrão não se alterou.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(23\)
+  \item
+    \(37\)
+  \item
+    \(44\)
+  \item
+    \(10\)
+  \item
+    \(24\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 11}{3} \right)^2=36.1602.\] Portanto
+  o tamanho mínimo da amostra deve ser \(n=37\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Casos de feminicídio têm sido pauta frequente dos meios de comunicação
+  no Brasil. Deseja-se estimar o número médio diário de mulheres mortas
+  em crimes de ódio motivados pela condição de gênero. Em anos
+  anteriores o desvio padrão populacional desses casos foi de \(15\).
+  Para estimar a média diária relativa ao ano de 2018 a partir de uma
+  amostra aleatória de dias do ano, qual deve ser o tamanho mínimo da
+  amostra para que, com confiança de \(97.5\%\), a média amostral não
+  difira da média populacional em mais de \(2\) casos? Considere que o
+  desvio padrão não se alterou.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(177\)
+  \item
+    \(340\)
+  \item
+    \(71\)
+  \item
+    \(283\)
+  \item
+    \(217\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então, \[n \geq \left( \frac{2.24 \times 15}{2} \right)^2=282.24.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=283\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Casos de feminicídio têm sido pauta frequente dos meios de comunicação
+  no Brasil. Deseja-se estimar o número médio diário de mulheres mortas
+  em crimes de ódio motivados pela condição de gênero. Em anos
+  anteriores o desvio padrão populacional desses casos foi de \(10\).
+  Para estimar a média diária relativa ao ano de 2018 a partir de uma
+  amostra aleatória de dias do ano, qual deve ser o tamanho mínimo da
+  amostra para que, com confiança de \(99\%\), a média amostral não
+  difira da média populacional em mais de \(2\) casos? Considere que o
+  desvio padrão não se alterou.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(136\)
+  \item
+    \(167\)
+  \item
+    \(104\)
+  \item
+    \(42\)
+  \item
+    \(184\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 10}{2} \right)^2=166.41.\] Portanto
+  o tamanho mínimo da amostra deve ser \(n=167\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

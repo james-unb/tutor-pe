@@ -1,0 +1,631 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um aplicativo de consulta de itinerários e linhas do transporte
+  público de Brasília informa os horários de chegada dos ônibus em cada
+  ponto. Entretanto, há momentos em que trânsito, falhas no veículo,
+  chuva e acidentes podem atrasar o itinerário. Seja \(W\) a variável
+  que representa o tempo de atraso (em minutos) que pode ocorrer,
+  assinale a alternativa correspondente a variância da variável \(W\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(\text{W}\) & \(0\) & \(3\) & \(5\) & \(10\) & \(15\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(\text{P(W=w)}\) & \(0\) & \(0.2\) & \(0.1\) & \(0.05\) & \(0.36\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(83.30\)
+  \item
+    \(97.30\)
+  \item
+    \(139.30\)
+  \item
+    \(41.30\)
+  \item
+    \(90.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(W)\) e \(E(W^2)\): \[\begin{aligned}
+  E(W) &= \sum_{w} w~P(W=w) \\
+  & = 0 \times 0+
+  3 \times 0.2+5 \times 0.1+
+  10 \times 0.05+15 \times 0.36 = 7, 
+  \end{aligned}\] \[\begin{aligned}
+  E(W^2) &= \sum_{w} w^2~P(W=w) \\
+  & = 0 \times 0+
+  9 \times 0.2+25 \times 0.1+
+  100 \times 0.05+225 \times 0.36 \\
+  & =90.3.
+  \end{aligned}\] De modo que
+  \(V(W) = E(W^2) - \left\{E(W)\right\}^2 = 41.3\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um aplicativo de consulta de itinerários e linhas do transporte
+  público de Brasília informa os horários de chegada dos ônibus em cada
+  ponto. Entretanto, há momentos em que trânsito, falhas no veículo,
+  chuva e acidentes podem atrasar o itinerário. Seja \(W\) a variável
+  que representa o tempo de atraso (em minutos) que pode ocorrer,
+  assinale a alternativa correspondente a variância da variável \(W\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(\text{W}\) & \(0\) & \(3\) & \(5\) & \(10\) & \(15\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(\text{P(W=w)}\) & \(0.16\) & \(0.03\) & \(0\) & \(0.39\) &
+  \(0.18\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(79.47\)
+  \item
+    \(86.46\)
+  \item
+    \(73.08\)
+  \item
+    \(35.01\)
+  \item
+    \(124.53\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(W)\) e \(E(W^2)\): \[\begin{aligned}
+  E(W) &= \sum_{w} w~P(W=w) \\
+  & = 0 \times 0.16+
+  3 \times 0.03+5 \times 0+
+  10 \times 0.39+15 \times 0.18 = 6.69, 
+  \end{aligned}\] \[\begin{aligned}
+  E(W^2) &= \sum_{w} w^2~P(W=w) \\
+  & = 0 \times 0.16+
+  9 \times 0.03+25 \times 0+
+  100 \times 0.39+225 \times 0.18 \\
+  & =79.77.
+  \end{aligned}\] De modo que
+  \(V(W) = E(W^2) - \left\{E(W)\right\}^2 = 35.01\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um aplicativo de consulta de itinerários e linhas do transporte
+  público de Brasília informa os horários de chegada dos ônibus em cada
+  ponto. Entretanto, há momentos em que trânsito, falhas no veículo,
+  chuva e acidentes podem atrasar o itinerário. Seja \(W\) a variável
+  que representa o tempo de atraso (em minutos) que pode ocorrer,
+  assinale a alternativa correspondente a variância da variável \(W\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(\text{W}\) & \(0\) & \(3\) & \(5\) & \(10\) & \(15\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(\text{P(W=w)}\) & \(0.01\) & \(0.01\) & \(0.42\) & \(0.15\) &
+  \(0.1\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(42.96\)
+  \item
+    \(53.22\)
+  \item
+    \(21.77\)
+  \item
+    \(47.79\)
+  \item
+    \(74.41\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(W)\) e \(E(W^2)\): \[\begin{aligned}
+  E(W) &= \sum_{w} w~P(W=w) \\
+  & = 0 \times 0.01+
+  3 \times 0.01+5 \times 0.42+
+  10 \times 0.15+15 \times 0.1 = 5.13, 
+  \end{aligned}\] \[\begin{aligned}
+  E(W^2) &= \sum_{w} w^2~P(W=w) \\
+  & = 0 \times 0.01+
+  9 \times 0.01+25 \times 0.42+
+  100 \times 0.15+225 \times 0.1 \\
+  & =48.09.
+  \end{aligned}\] De modo que
+  \(V(W) = E(W^2) - \left\{E(W)\right\}^2 = 21.77\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um aplicativo de consulta de itinerários e linhas do transporte
+  público de Brasília informa os horários de chegada dos ônibus em cada
+  ponto. Entretanto, há momentos em que trânsito, falhas no veículo,
+  chuva e acidentes podem atrasar o itinerário. Seja \(W\) a variável
+  que representa o tempo de atraso (em minutos) que pode ocorrer,
+  assinale a alternativa correspondente a variância da variável \(W\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(\text{W}\) & \(0\) & \(3\) & \(5\) & \(10\) & \(15\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(\text{P(W=w)}\) & \(0.29\) & \(0.12\) & \(0.05\) & \(0.19\) &
+  \(0.02\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(17.93\)
+  \item
+    \(28.64\)
+  \item
+    \(23.02\)
+  \item
+    \(25.53\)
+  \item
+    \(33.73\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(W)\) e \(E(W^2)\): \[\begin{aligned}
+  E(W) &= \sum_{w} w~P(W=w) \\
+  & = 0 \times 0.29+
+  3 \times 0.12+5 \times 0.05+
+  10 \times 0.19+15 \times 0.02 = 2.81, 
+  \end{aligned}\] \[\begin{aligned}
+  E(W^2) &= \sum_{w} w^2~P(W=w) \\
+  & = 0 \times 0.29+
+  9 \times 0.12+25 \times 0.05+
+  100 \times 0.19+225 \times 0.02 \\
+  & =25.83.
+  \end{aligned}\] De modo que
+  \(V(W) = E(W^2) - \left\{E(W)\right\}^2 = 17.93\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um aplicativo de consulta de itinerários e linhas do transporte
+  público de Brasília informa os horários de chegada dos ônibus em cada
+  ponto. Entretanto, há momentos em que trânsito, falhas no veículo,
+  chuva e acidentes podem atrasar o itinerário. Seja \(W\) a variável
+  que representa o tempo de atraso (em minutos) que pode ocorrer,
+  assinale a alternativa correspondente a variância da variável \(W\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(\text{W}\) & \(0\) & \(3\) & \(5\) & \(10\) & \(15\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(\text{P(W=w)}\) & \(0.39\) & \(0.03\) & \(0.1\) & \(0.17\) &
+  \(0.07\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(32.18\)
+  \item
+    \(38.86\)
+  \item
+    \(24.36\)
+  \item
+    \(46.68\)
+  \item
+    \(35.22\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(W)\) e \(E(W^2)\): \[\begin{aligned}
+  E(W) &= \sum_{w} w~P(W=w) \\
+  & = 0 \times 0.39+
+  3 \times 0.03+5 \times 0.1+
+  10 \times 0.17+15 \times 0.07 = 3.34, 
+  \end{aligned}\] \[\begin{aligned}
+  E(W^2) &= \sum_{w} w^2~P(W=w) \\
+  & = 0 \times 0.39+
+  9 \times 0.03+25 \times 0.1+
+  100 \times 0.17+225 \times 0.07 \\
+  & =35.52.
+  \end{aligned}\] De modo que
+  \(V(W) = E(W^2) - \left\{E(W)\right\}^2 = 24.36\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um aplicativo de consulta de itinerários e linhas do transporte
+  público de Brasília informa os horários de chegada dos ônibus em cada
+  ponto. Entretanto, há momentos em que trânsito, falhas no veículo,
+  chuva e acidentes podem atrasar o itinerário. Seja \(W\) a variável
+  que representa o tempo de atraso (em minutos) que pode ocorrer,
+  assinale a alternativa correspondente a variância da variável \(W\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(\text{W}\) & \(0\) & \(3\) & \(5\) & \(10\) & \(15\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(\text{P(W=w)}\) & \(0.31\) & \(0.07\) & \(0.07\) & \(0.16\) &
+  \(0.12\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(29.70\)
+  \item
+    \(49.34\)
+  \item
+    \(45.08\)
+  \item
+    \(61.06\)
+  \item
+    \(41.42\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(W)\) e \(E(W^2)\): \[\begin{aligned}
+  E(W) &= \sum_{w} w~P(W=w) \\
+  & = 0 \times 0.31+
+  3 \times 0.07+5 \times 0.07+
+  10 \times 0.16+15 \times 0.12 = 3.96, 
+  \end{aligned}\] \[\begin{aligned}
+  E(W^2) &= \sum_{w} w^2~P(W=w) \\
+  & = 0 \times 0.31+
+  9 \times 0.07+25 \times 0.07+
+  100 \times 0.16+225 \times 0.12 \\
+  & =45.38.
+  \end{aligned}\] De modo que
+  \(V(W) = E(W^2) - \left\{E(W)\right\}^2 = 29.7\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um aplicativo de consulta de itinerários e linhas do transporte
+  público de Brasília informa os horários de chegada dos ônibus em cada
+  ponto. Entretanto, há momentos em que trânsito, falhas no veículo,
+  chuva e acidentes podem atrasar o itinerário. Seja \(W\) a variável
+  que representa o tempo de atraso (em minutos) que pode ocorrer,
+  assinale a alternativa correspondente a variância da variável \(W\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(\text{W}\) & \(0\) & \(3\) & \(5\) & \(10\) & \(15\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(\text{P(W=w)}\) & \(0.02\) & \(0.41\) & \(0.03\) & \(0.04\) &
+  \(0.05\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(26.09\)
+  \item
+    \(19.39\)
+  \item
+    \(17.16\)
+  \item
+    \(22.22\)
+  \item
+    \(13.29\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(W)\) e \(E(W^2)\): \[\begin{aligned}
+  E(W) &= \sum_{w} w~P(W=w) \\
+  & = 0 \times 0.02+
+  3 \times 0.41+5 \times 0.03+
+  10 \times 0.04+15 \times 0.05 = 2.53, 
+  \end{aligned}\] \[\begin{aligned}
+  E(W^2) &= \sum_{w} w^2~P(W=w) \\
+  & = 0 \times 0.02+
+  9 \times 0.41+25 \times 0.03+
+  100 \times 0.04+225 \times 0.05 \\
+  & =19.69.
+  \end{aligned}\] De modo que
+  \(V(W) = E(W^2) - \left\{E(W)\right\}^2 = 13.29\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um aplicativo de consulta de itinerários e linhas do transporte
+  público de Brasília informa os horários de chegada dos ônibus em cada
+  ponto. Entretanto, há momentos em que trânsito, falhas no veículo,
+  chuva e acidentes podem atrasar o itinerário. Seja \(W\) a variável
+  que representa o tempo de atraso (em minutos) que pode ocorrer,
+  assinale a alternativa correspondente a variância da variável \(W\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(\text{W}\) & \(0\) & \(3\) & \(5\) & \(10\) & \(15\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(\text{P(W=w)}\) & \(0.48\) & \(0.2\) & \(0.17\) & \(0.01\) &
+  \(0.06\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(18.10\)
+  \item
+    \(26.55\)
+  \item
+    \(23.00\)
+  \item
+    \(14.55\)
+  \item
+    \(20.25\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(W)\) e \(E(W^2)\): \[\begin{aligned}
+  E(W) &= \sum_{w} w~P(W=w) \\
+  & = 0 \times 0.48+
+  3 \times 0.2+5 \times 0.17+
+  10 \times 0.01+15 \times 0.06 = 2.45, 
+  \end{aligned}\] \[\begin{aligned}
+  E(W^2) &= \sum_{w} w^2~P(W=w) \\
+  & = 0 \times 0.48+
+  9 \times 0.2+25 \times 0.17+
+  100 \times 0.01+225 \times 0.06 \\
+  & =20.55.
+  \end{aligned}\] De modo que
+  \(V(W) = E(W^2) - \left\{E(W)\right\}^2 = 14.55\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um aplicativo de consulta de itinerários e linhas do transporte
+  público de Brasília informa os horários de chegada dos ônibus em cada
+  ponto. Entretanto, há momentos em que trânsito, falhas no veículo,
+  chuva e acidentes podem atrasar o itinerário. Seja \(W\) a variável
+  que representa o tempo de atraso (em minutos) que pode ocorrer,
+  assinale a alternativa correspondente a variância da variável \(W\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(\text{W}\) & \(0\) & \(3\) & \(5\) & \(10\) & \(15\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(\text{P(W=w)}\) & \(0.25\) & \(0.09\) & \(0.06\) & \(0.12\) &
+  \(0.01\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(20.25\)
+  \item
+    \(18.48\)
+  \item
+    \(12.87\)
+  \item
+    \(14.64\)
+  \item
+    \(16.26\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(W)\) e \(E(W^2)\): \[\begin{aligned}
+  E(W) &= \sum_{w} w~P(W=w) \\
+  & = 0 \times 0.25+
+  3 \times 0.09+5 \times 0.06+
+  10 \times 0.12+15 \times 0.01 = 1.92, 
+  \end{aligned}\] \[\begin{aligned}
+  E(W^2) &= \sum_{w} w^2~P(W=w) \\
+  & = 0 \times 0.25+
+  9 \times 0.09+25 \times 0.06+
+  100 \times 0.12+225 \times 0.01 \\
+  & =16.56.
+  \end{aligned}\] De modo que
+  \(V(W) = E(W^2) - \left\{E(W)\right\}^2 = 12.87\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um aplicativo de consulta de itinerários e linhas do transporte
+  público de Brasília informa os horários de chegada dos ônibus em cada
+  ponto. Entretanto, há momentos em que trânsito, falhas no veículo,
+  chuva e acidentes podem atrasar o itinerário. Seja \(W\) a variável
+  que representa o tempo de atraso (em minutos) que pode ocorrer,
+  assinale a alternativa correspondente a variância da variável \(W\).
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(\text{W}\) & \(0\) & \(3\) & \(5\) & \(10\) & \(15\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(\text{P(W=w)}\) & \(0.01\) & \(0.01\) & \(0.21\) & \(0.18\) &
+  \(0.06\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(51.13\)
+  \item
+    \(22.55\)
+  \item
+    \(40.62\)
+  \item
+    \(36.54\)
+  \item
+    \(33.06\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(W)\) e \(E(W^2)\): \[\begin{aligned}
+  E(W) &= \sum_{w} w~P(W=w) \\
+  & = 0 \times 0.01+
+  3 \times 0.01+5 \times 0.21+
+  10 \times 0.18+15 \times 0.06 = 3.78, 
+  \end{aligned}\] \[\begin{aligned}
+  E(W^2) &= \sum_{w} w^2~P(W=w) \\
+  & = 0 \times 0.01+
+  9 \times 0.01+25 \times 0.21+
+  100 \times 0.18+225 \times 0.06 \\
+  & =36.84.
+  \end{aligned}\] De modo que
+  \(V(W) = E(W^2) - \left\{E(W)\right\}^2 = 22.55\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

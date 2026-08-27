@@ -1,0 +1,374 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Nos textos escritos em língua portuguesa, em média, \(14,7\%\) das
+  letras são ``A", enquanto que nos demais idiomas essa porcentagem é
+  distinta. Com base na frequência de ocorrência da letra ``A" em uma
+  amostra de texto de um livro, um aplicativo de celular realiza um
+  teste de hipótese a fim de identificar textos que necessitem de
+  tradução para o português. Para um determinado livro, o aplicativo
+  encontrou p-valor igual a \(0.01\). Considerando um nível de
+  significância de \(2\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o texto não
+    está escrito em português.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o texto está escrito
+    em português.
+  \item
+    Não se rejeita a hipótese nula. O texto certamente está escrito em
+    português.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o texto está
+    escrito em outra língua.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o texto não está
+    escrito em português.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p=14,7\%\) \emph{vs.} \(H_a: p \neq 14,7\%\).
+
+  Portanto, p-valor = \(0.01 < 0.02\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Nos textos escritos em língua portuguesa, em média,\)14,7\%\(das letras são ``A", enquanto que nos demais idiomas essa porcentagem é distinta. Com base na frequência de ocorrência da letra ``A" em uma amostra de texto de um livro, um aplicativo de celular realiza um teste de hipótese a fim de identificar textos que necessitem de tradução para o português. Para um determinado livro, o aplicativo encontrou p-valor igual a\)0.09\(. Considerando um nível de significância de\)7\%\(, conclui-se que:
+
+
+    \begin{enumerate}[(a)]
+      \item Rejeita-se a hipótese nula. Há evidência de que o texto está escrito em português.
+      \item Não se rejeita a hipótese nula. Há evidência de que o texto está escrito em outra língua.
+      \item Não se rejeita a hipótese nula. Não há evidência de que o texto não está escrito em português.
+      \item Rejeita-se a hipótese nula. Há evidência de que o texto não está escrito em português.
+      \item Não se rejeita a hipótese nula. O texto certamente está escrito em português.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p=14,7\%\(\emph{vs.}\)H\_a: p ,7\%\(. 
+
+  Portanto, p-valor =\)0.09 \textgreater{}
+  0.07\(e não se rejeita\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nos textos escritos em língua portuguesa, em média, \(14,7\%\) das
+  letras são ``A", enquanto que nos demais idiomas essa porcentagem é
+  distinta. Com base na frequência de ocorrência da letra ``A" em uma
+  amostra de texto de um livro, um aplicativo de celular realiza um
+  teste de hipótese a fim de identificar textos que necessitem de
+  tradução para o português. Para um determinado livro, o aplicativo
+  encontrou p-valor igual a \(0.04\). Considerando um nível de
+  significância de \(2\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o texto não
+    está escrito em português.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o texto está
+    escrito em outra língua.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o texto está escrito
+    em português.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o texto não está
+    escrito em português.
+  \item
+    Não se rejeita a hipótese nula. O texto certamente está escrito em
+    português.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p=14,7\%\) \emph{vs.} \(H_a: p \neq 14,7\%\).
+
+  Portanto, p-valor = \(0.04 > 0.02\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Nos textos escritos em língua portuguesa, em média,\)14,7\%\(das letras são ``A", enquanto que nos demais idiomas essa porcentagem é distinta. Com base na frequência de ocorrência da letra ``A" em uma amostra de texto de um livro, um aplicativo de celular realiza um teste de hipótese a fim de identificar textos que necessitem de tradução para o português. Para um determinado livro, o aplicativo encontrou p-valor igual a\)0.03\(. Considerando um nível de significância de\)8\%\(, conclui-se que:
+
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. O texto certamente está escrito em português.
+      \item Rejeita-se a hipótese nula. Há evidência de que o texto está escrito em português.
+      \item Rejeita-se a hipótese nula. Há evidência de que o texto não está escrito em português.
+      \item Não se rejeita a hipótese nula. Há evidência de que o texto está escrito em outra língua.
+      \item Não se rejeita a hipótese nula. Não há evidência de que o texto não está escrito em português.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p=14,7\%\(\emph{vs.}\)H\_a: p ,7\%\(. 
+
+  Portanto, p-valor =\)0.03 \textless{} 0.08\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nos textos escritos em língua portuguesa, em média, \(14,7\%\) das
+  letras são ``A", enquanto que nos demais idiomas essa porcentagem é
+  distinta. Com base na frequência de ocorrência da letra ``A" em uma
+  amostra de texto de um livro, um aplicativo de celular realiza um
+  teste de hipótese a fim de identificar textos que necessitem de
+  tradução para o português. Para um determinado livro, o aplicativo
+  encontrou p-valor igual a \(0.1\). Considerando um nível de
+  significância de \(9\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o texto não está
+    escrito em português.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o texto não
+    está escrito em português.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o texto está
+    escrito em outra língua.
+  \item
+    Não se rejeita a hipótese nula. O texto certamente está escrito em
+    português.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o texto está escrito
+    em português.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p=14,7\%\) \emph{vs.} \(H_a: p \neq 14,7\%\).
+
+  Portanto, p-valor = \(0.1 > 0.09\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Nos textos escritos em língua portuguesa, em média,\)14,7\%\(das letras são ``A", enquanto que nos demais idiomas essa porcentagem é distinta. Com base na frequência de ocorrência da letra ``A" em uma amostra de texto de um livro, um aplicativo de celular realiza um teste de hipótese a fim de identificar textos que necessitem de tradução para o português. Para um determinado livro, o aplicativo encontrou p-valor igual a\)0.06\(. Considerando um nível de significância de\)10\%\(, conclui-se que:
+
+
+    \begin{enumerate}[(a)]
+      \item Rejeita-se a hipótese nula. Há evidência de que o texto não está escrito em português.
+      \item Não se rejeita a hipótese nula. O texto certamente está escrito em português.
+      \item Rejeita-se a hipótese nula. Há evidência de que o texto está escrito em português.
+      \item Não se rejeita a hipótese nula. Há evidência de que o texto está escrito em outra língua.
+      \item Não se rejeita a hipótese nula. Não há evidência de que o texto não está escrito em português.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p=14,7\%\(\emph{vs.}\)H\_a: p ,7\%\(. 
+
+  Portanto, p-valor =\)0.06 \textless{} 0.1\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nos textos escritos em língua portuguesa, em média, \(14,7\%\) das
+  letras são ``A", enquanto que nos demais idiomas essa porcentagem é
+  distinta. Com base na frequência de ocorrência da letra ``A" em uma
+  amostra de texto de um livro, um aplicativo de celular realiza um
+  teste de hipótese a fim de identificar textos que necessitem de
+  tradução para o português. Para um determinado livro, o aplicativo
+  encontrou p-valor igual a \(0.04\). Considerando um nível de
+  significância de \(2\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. O texto certamente está escrito em
+    português.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o texto está escrito
+    em português.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o texto está
+    escrito em outra língua.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o texto não
+    está escrito em português.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o texto não está
+    escrito em português.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p=14,7\%\) \emph{vs.} \(H_a: p \neq 14,7\%\).
+
+  Portanto, p-valor = \(0.04 > 0.02\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Nos textos escritos em língua portuguesa, em média,\)14,7\%\(das letras são ``A", enquanto que nos demais idiomas essa porcentagem é distinta. Com base na frequência de ocorrência da letra ``A" em uma amostra de texto de um livro, um aplicativo de celular realiza um teste de hipótese a fim de identificar textos que necessitem de tradução para o português. Para um determinado livro, o aplicativo encontrou p-valor igual a\)0.07\(. Considerando um nível de significância de\)5\%\(, conclui-se que:
+
+
+    \begin{enumerate}[(a)]
+      \item Rejeita-se a hipótese nula. Há evidência de que o texto não está escrito em português.
+      \item Não se rejeita a hipótese nula. Não há evidência de que o texto não está escrito em português.
+      \item Não se rejeita a hipótese nula. O texto certamente está escrito em português.
+      \item Não se rejeita a hipótese nula. Há evidência de que o texto está escrito em outra língua.
+      \item Rejeita-se a hipótese nula. Há evidência de que o texto está escrito em português.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p=14,7\%\(\emph{vs.}\)H\_a: p ,7\%\(. 
+
+  Portanto, p-valor =\)0.07 \textgreater{}
+  0.05\(e não se rejeita\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Nos textos escritos em língua portuguesa, em média, \(14,7\%\) das
+  letras são ``A", enquanto que nos demais idiomas essa porcentagem é
+  distinta. Com base na frequência de ocorrência da letra ``A" em uma
+  amostra de texto de um livro, um aplicativo de celular realiza um
+  teste de hipótese a fim de identificar textos que necessitem de
+  tradução para o português. Para um determinado livro, o aplicativo
+  encontrou p-valor igual a \(0.08\). Considerando um nível de
+  significância de \(10\%\), conclui-se que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o texto não está
+    escrito em português.
+  \item
+    Não se rejeita a hipótese nula. O texto certamente está escrito em
+    português.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o texto está
+    escrito em outra língua.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o texto não
+    está escrito em português.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o texto está escrito
+    em português.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p=14,7\%\) \emph{vs.} \(H_a: p \neq 14,7\%\).
+
+  Portanto, p-valor = \(0.08 < 0.1\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Nos textos escritos em língua portuguesa, em média,\)14,7\%\(das letras são ``A", enquanto que nos demais idiomas essa porcentagem é distinta. Com base na frequência de ocorrência da letra ``A" em uma amostra de texto de um livro, um aplicativo de celular realiza um teste de hipótese a fim de identificar textos que necessitem de tradução para o português. Para um determinado livro, o aplicativo encontrou p-valor igual a\)0.04\(. Considerando um nível de significância de\)7\%\(, conclui-se que:
+
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. Não há evidência de que o texto não está escrito em português.
+      \item Não se rejeita a hipótese nula. Há evidência de que o texto está escrito em outra língua.
+      \item Rejeita-se a hipótese nula. Há evidência de que o texto está escrito em português.
+      \item Rejeita-se a hipótese nula. Há evidência de que o texto não está escrito em português.
+      \item Não se rejeita a hipótese nula. O texto certamente está escrito em português.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p=14,7\%\(\emph{vs.}\)H\_a: p ,7\%\(. 
+
+  Portanto, p-valor =\)0.04 \textless{} 0.07\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

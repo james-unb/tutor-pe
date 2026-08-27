@@ -1,0 +1,612 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\theta x^{\theta-1}\), \(\theta > 0\) e \(0<x<1\).
+  Considere \[0.1 \ \ \ 0.5 \ \ \ 0.8 \ \ \ 0.6 \ \ \ 0.7\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.65\)
+  \item
+    \(2.70\)
+  \item
+    \(0.35\)
+  \item
+    \(1.22\)
+  \item
+    \(0.37\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\theta)=\theta^n\left(\prod_{i=1}^{n}(x_i)\right)^{\theta - 1}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\theta)= n \ln(\theta)+(\theta-1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\theta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \theta=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\theta\) é
+  \(\frac{n}{\theta}+\sum_{i=1}^{n}\ln(x_i)<0\), uma vez que os
+  logaritmos de número entre 0 e 1 são negativos, concluímos que o EMV
+  de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.1, 0.5, 0.8, 0.6, 0.7)\), temos que a
+  estimativa de máxima verossimilhança a partir desta amostra é
+  \(\hat{\theta}=1.224\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\theta x^{\theta-1}\), \(\theta > 0\) e \(0<x<1\).
+  Considere \[0.8 \ \ \ 0.5 \ \ \ 0.6 \ \ \ 0.8 \ \ \ 0.9\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2.85\)
+  \item
+    \(0.77\)
+  \item
+    \(0.28\)
+  \item
+    \(0.74\)
+  \item
+    \(3.60\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\theta)=\theta^n\left(\prod_{i=1}^{n}(x_i)\right)^{\theta - 1}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\theta)= n \ln(\theta)+(\theta-1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\theta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \theta=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\theta\) é
+  \(\frac{n}{\theta}+\sum_{i=1}^{n}\ln(x_i)<0\), uma vez que os
+  logaritmos de número entre 0 e 1 são negativos, concluímos que o EMV
+  de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.8, 0.5, 0.6, 0.8, 0.9)\), temos que a
+  estimativa de máxima verossimilhança a partir desta amostra é
+  \(\hat{\theta}=2.848\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\theta x^{\theta-1}\), \(\theta > 0\) e \(0<x<1\).
+  Considere \[0.3 \ \ \ 0.6 \ \ \ 0.2 \ \ \ 0.6 \ \ \ 0.2\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.92\)
+  \item
+    \(0.67\)
+  \item
+    \(1.90\)
+  \item
+    \(0.53\)
+  \item
+    \(0.71\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\theta)=\theta^n\left(\prod_{i=1}^{n}(x_i)\right)^{\theta - 1}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\theta)= n \ln(\theta)+(\theta-1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\theta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \theta=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\theta\) é
+  \(\frac{n}{\theta}+\sum_{i=1}^{n}\ln(x_i)<0\), uma vez que os
+  logaritmos de número entre 0 e 1 são negativos, concluímos que o EMV
+  de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.3, 0.6, 0.2, 0.6, 0.2)\), temos que a
+  estimativa de máxima verossimilhança a partir desta amostra é
+  \(\hat{\theta}=0.918\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\theta x^{\theta-1}\), \(\theta > 0\) e \(0<x<1\).
+  Considere \[0.6 \ \ \ 0.7 \ \ \ 0.2 \ \ \ 0.3 \ \ \ 0.5\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.85\)
+  \item
+    \(0.30\)
+  \item
+    \(1.14\)
+  \item
+    \(0.43\)
+  \item
+    \(2.30\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\theta)=\theta^n\left(\prod_{i=1}^{n}(x_i)\right)^{\theta - 1}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\theta)= n \ln(\theta)+(\theta-1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\theta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \theta=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\theta\) é
+  \(\frac{n}{\theta}+\sum_{i=1}^{n}\ln(x_i)<0\), uma vez que os
+  logaritmos de número entre 0 e 1 são negativos, concluímos que o EMV
+  de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.6, 0.7, 0.2, 0.3, 0.5)\), temos que a
+  estimativa de máxima verossimilhança a partir desta amostra é
+  \(\hat{\theta}=1.143\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\theta x^{\theta-1}\), \(\theta > 0\) e \(0<x<1\).
+  Considere \[0.8 \ \ \ 0.5 \ \ \ 0.5 \ \ \ 0.7 \ \ \ 0.6\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2.02\)
+  \item
+    \(0.71\)
+  \item
+    \(3.10\)
+  \item
+    \(0.32\)
+  \item
+    \(0.73\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\theta)=\theta^n\left(\prod_{i=1}^{n}(x_i)\right)^{\theta - 1}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\theta)= n \ln(\theta)+(\theta-1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\theta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \theta=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\theta\) é
+  \(\frac{n}{\theta}+\sum_{i=1}^{n}\ln(x_i)<0\), uma vez que os
+  logaritmos de número entre 0 e 1 são negativos, concluímos que o EMV
+  de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.8, 0.5, 0.5, 0.7, 0.6)\), temos que a
+  estimativa de máxima verossimilhança a partir desta amostra é
+  \(\hat{\theta}=2.019\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\theta x^{\theta-1}\), \(\theta > 0\) e \(0<x<1\).
+  Considere \[0.3 \ \ \ 0.8 \ \ \ 0.7 \ \ \ 0.7 \ \ \ 0.9\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.22\)
+  \item
+    \(3.40\)
+  \item
+    \(2.23\)
+  \item
+    \(0.29\)
+  \item
+    \(0.71\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\theta)=\theta^n\left(\prod_{i=1}^{n}(x_i)\right)^{\theta - 1}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\theta)= n \ln(\theta)+(\theta-1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\theta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \theta=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\theta\) é
+  \(\frac{n}{\theta}+\sum_{i=1}^{n}\ln(x_i)<0\), uma vez que os
+  logaritmos de número entre 0 e 1 são negativos, concluímos que o EMV
+  de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.3, 0.8, 0.7, 0.7, 0.9)\), temos que a
+  estimativa de máxima verossimilhança a partir desta amostra é
+  \(\hat{\theta}=2.226\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\theta x^{\theta-1}\), \(\theta > 0\) e \(0<x<1\).
+  Considere \[0.5 \ \ \ 0.2 \ \ \ 0.6 \ \ \ 0.4 \ \ \ 0.2\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.90\)
+  \item
+    \(0.94\)
+  \item
+    \(0.30\)
+  \item
+    \(0.53\)
+  \item
+    \(0.03\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\theta)=\theta^n\left(\prod_{i=1}^{n}(x_i)\right)^{\theta - 1}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\theta)= n \ln(\theta)+(\theta-1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\theta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \theta=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\theta\) é
+  \(\frac{n}{\theta}+\sum_{i=1}^{n}\ln(x_i)<0\), uma vez que os
+  logaritmos de número entre 0 e 1 são negativos, concluímos que o EMV
+  de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.5, 0.2, 0.6, 0.4, 0.2)\), temos que a
+  estimativa de máxima verossimilhança a partir desta amostra é
+  \(\hat{\theta}=0.936\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\theta x^{\theta-1}\), \(\theta > 0\) e \(0<x<1\).
+  Considere \[0.5 \ \ \ 0.6 \ \ \ 0.3 \ \ \ 0.7 \ \ \ 0.3\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.61\)
+  \item
+    \(2.40\)
+  \item
+    \(0.24\)
+  \item
+    \(1.26\)
+  \item
+    \(0.42\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\theta)=\theta^n\left(\prod_{i=1}^{n}(x_i)\right)^{\theta - 1}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\theta)= n \ln(\theta)+(\theta-1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\theta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \theta=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\theta\) é
+  \(\frac{n}{\theta}+\sum_{i=1}^{n}\ln(x_i)<0\), uma vez que os
+  logaritmos de número entre 0 e 1 são negativos, concluímos que o EMV
+  de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.5, 0.6, 0.3, 0.7, 0.3)\), temos que a
+  estimativa de máxima verossimilhança a partir desta amostra é
+  \(\hat{\theta}=1.26\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\theta x^{\theta-1}\), \(\theta > 0\) e \(0<x<1\).
+  Considere \[0.7 \ \ \ 0.2 \ \ \ 0.8 \ \ \ 0.3 \ \ \ 0.6\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.38\)
+  \item
+    \(2.60\)
+  \item
+    \(1.28\)
+  \item
+    \(0.67\)
+  \item
+    \(0.32\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\theta)=\theta^n\left(\prod_{i=1}^{n}(x_i)\right)^{\theta - 1}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\theta)= n \ln(\theta)+(\theta-1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\theta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \theta=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\theta\) é
+  \(\frac{n}{\theta}+\sum_{i=1}^{n}\ln(x_i)<0\), uma vez que os
+  logaritmos de número entre 0 e 1 são negativos, concluímos que o EMV
+  de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.7, 0.2, 0.8, 0.3, 0.6)\), temos que a
+  estimativa de máxima verossimilhança a partir desta amostra é
+  \(\hat{\theta}=1.281\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\theta x^{\theta-1}\), \(\theta > 0\) e \(0<x<1\).
+  Considere \[0.1 \ \ \ 0.4 \ \ \ 0.9 \ \ \ 0.4 \ \ \ 0.6\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.05\)
+  \item
+    \(2.40\)
+  \item
+    \(0.42\)
+  \item
+    \(0.45\)
+  \item
+    \(0.48\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(x;\theta)=\theta^n\left(\prod_{i=1}^{n}(x_i)\right)^{\theta - 1}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\theta)= n \ln(\theta)+(\theta-1)\sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\theta\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \theta=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}
+  \end{aligned}\] Como a segunda derivada com repeito a \(\theta\) é
+  \(\frac{n}{\theta}+\sum_{i=1}^{n}\ln(x_i)<0\), uma vez que os
+  logaritmos de número entre 0 e 1 são negativos, concluímos que o EMV
+  de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.1, 0.4, 0.9, 0.4, 0.6)\), temos que a
+  estimativa de máxima verossimilhança a partir desta amostra é
+  \(\hat{\theta}=1.052\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

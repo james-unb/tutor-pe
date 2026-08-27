@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento de \(182\) casos de homicídio selecionados
+  aleatoriamente em determinado estado da Federação revela que \(26\)\%
+  desses casos nunca foram solucionados. Com base nas informações,
+  assinale a alternativa correspondente a um intervalo de confiança para
+  a proporção de homicídios, nesse estado, que não são resolvidos, com
+  confiança de \(95\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.196, 0.324]\)
+  \item
+    \([0.228, 0.292]\)
+  \item
+    \([0.258, 0.262]\)
+  \item
+    \([0.164, 0.356]\)
+  \item
+    \([0.215, 0.305]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.26-1.96\times\sqrt{\frac{0.1924}{182}} \ , \ 0.26+1.96\times\sqrt{\frac{0.1924}{182}}\right]\\
+  &=&\text{$[0.196, 0.324]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento de \(177\) casos de homicídio selecionados
+  aleatoriamente em determinado estado da Federação revela que \(26\)\%
+  desses casos nunca foram solucionados. Com base nas informações,
+  assinale a alternativa correspondente a um intervalo de confiança para
+  a proporção de homicídios, nesse estado, que não são resolvidos, com
+  confiança de \(90\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.179, 0.341]\)
+  \item
+    \([0.206, 0.314]\)
+  \item
+    \([0.222, 0.298]\)
+  \item
+    \([0.259, 0.261]\)
+  \item
+    \([0.233, 0.287]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.26-1.64\times\sqrt{\frac{0.1924}{177}} \ , \ 0.26+1.64\times\sqrt{\frac{0.1924}{177}}\right]\\
+  &=&\text{$[0.206, 0.314]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento de \(158\) casos de homicídio selecionados
+  aleatoriamente em determinado estado da Federação revela que \(25\)\%
+  desses casos nunca foram solucionados. Com base nas informações,
+  assinale a alternativa correspondente a um intervalo de confiança para
+  a proporção de homicídios, nesse estado, que não são resolvidos, com
+  confiança de \(99\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.117, 0.383]\)
+  \item
+    \([0.206, 0.294]\)
+  \item
+    \([0.188, 0.312]\)
+  \item
+    \([0.247, 0.253]\)
+  \item
+    \([0.161, 0.339]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.25-2.58\times\sqrt{\frac{0.1875}{158}} \ , \ 0.25+2.58\times\sqrt{\frac{0.1875}{158}}\right]\\
+  &=&\text{$[0.161, 0.339]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento de \(199\) casos de homicídio selecionados
+  aleatoriamente em determinado estado da Federação revela que \(29\)\%
+  desses casos nunca foram solucionados. Com base nas informações,
+  assinale a alternativa correspondente a um intervalo de confiança para
+  a proporção de homicídios, nesse estado, que não são resolvidos, com
+  confiança de \(99\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.288, 0.292]\)
+  \item
+    \([0.232, 0.348]\)
+  \item
+    \([0.166, 0.414]\)
+  \item
+    \([0.249, 0.331]\)
+  \item
+    \([0.207, 0.373]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.29-2.58\times\sqrt{\frac{0.2059}{199}} \ , \ 0.29+2.58\times\sqrt{\frac{0.2059}{199}}\right]\\
+  &=&\text{$[0.207, 0.373]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento de \(159\) casos de homicídio selecionados
+  aleatoriamente em determinado estado da Federação revela que \(22\)\%
+  desses casos nunca foram solucionados. Com base nas informações,
+  assinale a alternativa correspondente a um intervalo de confiança para
+  a proporção de homicídios, nesse estado, que não são resolvidos, com
+  confiança de \(95\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.156, 0.284]\)
+  \item
+    \([0.123, 0.317]\)
+  \item
+    \([0.218, 0.222]\)
+  \item
+    \([0.175, 0.265]\)
+  \item
+    \([0.188, 0.252]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.22-1.96\times\sqrt{\frac{0.1716}{159}} \ , \ 0.22+1.96\times\sqrt{\frac{0.1716}{159}}\right]\\
+  &=&\text{$[0.156, 0.284]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento de \(120\) casos de homicídio selecionados
+  aleatoriamente em determinado estado da Federação revela que \(24\)\%
+  desses casos nunca foram solucionados. Com base nas informações,
+  assinale a alternativa correspondente a um intervalo de confiança para
+  a proporção de homicídios, nesse estado, que não são resolvidos, com
+  confiança de \(99\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.190, 0.290]\)
+  \item
+    \([0.170, 0.310]\)
+  \item
+    \([0.236, 0.244]\)
+  \item
+    \([0.139, 0.341]\)
+  \item
+    \([0.089, 0.391]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.24-2.58\times\sqrt{\frac{0.1824}{120}} \ , \ 0.24+2.58\times\sqrt{\frac{0.1824}{120}}\right]\\
+  &=&\text{$[0.139, 0.341]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento de \(124\) casos de homicídio selecionados
+  aleatoriamente em determinado estado da Federação revela que \(26\)\%
+  desses casos nunca foram solucionados. Com base nas informações,
+  assinale a alternativa correspondente a um intervalo de confiança para
+  a proporção de homicídios, nesse estado, que não são resolvidos, com
+  confiança de \(99\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.108, 0.412]\)
+  \item
+    \([0.256, 0.264]\)
+  \item
+    \([0.209, 0.311]\)
+  \item
+    \([0.189, 0.331]\)
+  \item
+    \([0.158, 0.362]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.26-2.58\times\sqrt{\frac{0.1924}{124}} \ , \ 0.26+2.58\times\sqrt{\frac{0.1924}{124}}\right]\\
+  &=&\text{$[0.158, 0.362]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento de \(128\) casos de homicídio selecionados
+  aleatoriamente em determinado estado da Federação revela que \(29\)\%
+  desses casos nunca foram solucionados. Com base nas informações,
+  assinale a alternativa correspondente a um intervalo de confiança para
+  a proporção de homicídios, nesse estado, que não são resolvidos, com
+  confiança de \(99\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.218, 0.362]\)
+  \item
+    \([0.238, 0.342]\)
+  \item
+    \([0.187, 0.393]\)
+  \item
+    \([0.135, 0.445]\)
+  \item
+    \([0.286, 0.294]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.29-2.58\times\sqrt{\frac{0.2059}{128}} \ , \ 0.29+2.58\times\sqrt{\frac{0.2059}{128}}\right]\\
+  &=&\text{$[0.187, 0.393]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento de \(137\) casos de homicídio selecionados
+  aleatoriamente em determinado estado da Federação revela que \(29\)\%
+  desses casos nunca foram solucionados. Com base nas informações,
+  assinale a alternativa correspondente a um intervalo de confiança para
+  a proporção de homicídios, nesse estado, que não são resolvidos, com
+  confiança de \(95\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.252, 0.328]\)
+  \item
+    \([0.214, 0.366]\)
+  \item
+    \([0.237, 0.343]\)
+  \item
+    \([0.176, 0.404]\)
+  \item
+    \([0.288, 0.292]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.29-1.96\times\sqrt{\frac{0.2059}{137}} \ , \ 0.29+1.96\times\sqrt{\frac{0.2059}{137}}\right]\\
+  &=&\text{$[0.214, 0.366]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um levantamento de \(191\) casos de homicídio selecionados
+  aleatoriamente em determinado estado da Federação revela que \(24\)\%
+  desses casos nunca foram solucionados. Com base nas informações,
+  assinale a alternativa correspondente a um intervalo de confiança para
+  a proporção de homicídios, nesse estado, que não são resolvidos, com
+  confiança de \(80\)\%. (Utilize a fórmula disponível no conjunto de
+  equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.239, 0.241]\)
+  \item
+    \([0.181, 0.299]\)
+  \item
+    \([0.200, 0.280]\)
+  \item
+    \([0.212, 0.268]\)
+  \item
+    \([0.220, 0.260]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.24-1.28\times\sqrt{\frac{0.1824}{191}} \ , \ 0.24+1.28\times\sqrt{\frac{0.1824}{191}}\right]\\
+  &=&\text{$[0.200, 0.280]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

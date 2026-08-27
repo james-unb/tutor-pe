@@ -1,0 +1,297 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsfonts,amssymb,amsbsy}
+\usepackage{amsthm} %Permite teorema sem numeração, no meu caso Demonstração
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+
+%------------------------------------------------------------------------------
+
+\setlength{\topmargin}{-1.0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{6.5in}
+\setlength{\baselineskip}{12mm}
+
+%------------------------------------------------------------------------------
+
+\renewcommand{\P}{\mathcal{P}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+        \begin{minipage}[c]{7in}
+                  {Universidade de Brasília} \\
+                  {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf $\text{7}^{\text{\underline{a}}}$ Lista de PE}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item Identifique as hipóteses que estão sendo testadas em cada caso: %Magalhães - Seção 8.1 - Exercício 1 - Pág. 245
+
+\begin{itemize}
+\item[a)] Uma companhia de transportes afirma que, em média, o intervalo de chegada entre sucessivos ônibus é de 15 minutos. Uma associação de usuários de transportes coletivos acha que a pontualidade é muito importante e pretende testar essa afirmação da companhia.
+\item[b)] Os amortecedores de automóveis que circulam em cidades duram em média 30 mil quilômetros, segundo informações de algumas oficinas especializadas. Um proprietário de automóvel deseja testar essa afirmação.
+\item[c)] Um veterinário conseguiu ganho médio diário de 3 litros de leite por vaca com uma nova composição de ração. Um pecuarista acredita que o ganho não é tão grande assim.
+\end{itemize}
+
+\item Garrafas de cerveja deveriam conter 600 ml, porém existem flutuações aleatórias. Os órgãos de fiscalização permitem oscilações e entendem esse número como a média dos conteúdos engarrafados. Discuta um critério para a aplicação de multas por diminuição do conteúdo engarrafado. %Magalhães - Seção 8.1 - Exercício 2 - Pág. 245
+
+\item Um fabricante afirma que sua vacina previne 80\% dos casos de uma certa doença. Um grupo de médicos desconfia que a vacina não é tão eficiente assim. Você poderia ajudá-los e indicar como resolver a questão? %Magalhães - Seção 8.1 - Exercício 3 - Pág. 246
+ 
+\item Para decidir sobre o vício de uma moeda, são feitos 100 lançamentos e o número de caras é contado. Aceita-se o equilíbrio da moeda se obtivermos entre 45 e 50 caras, caso contrário, a moeda é considerada viciada. Discuta a eficiência desse critério. %Magalhães - Seção 8.1 - Exercício 5 - Pág. 246
+
+\item Uma variável aleatória tem distribuição Normal e desvio padrão igual a 12. Estamos testando se sua média é igual ou diferente de 20 e coletamos uma amostra de 100 valores dessa variável, obtendo uma média amostral de 17,4. %Magalhães - Seção 8.2 - Exercício 1 - Pág. 256
+\begin{itemize}
+\item[a)] Formule as hipóteses.
+\item[b)] Obtenha a região crítica e dê a conclusão do teste para os seguintes níveis de significância: 1\%, 2\%, 4\%, 6\% e 8\%.
+\end{itemize}
+
+\item Para uma variável aleatória com densidade Normal e desvio padrão 5, o teste da média $\mu=10$ contra $\mu=14$, teve uma região crítica dada por $\{x\in\mathbb{R} : x>12\}$ para uma amostra de tamanho $n=25$. Determine as probabilidades dos erros tipo I e tipo II. %Magalhães - Seção 8.2 - Exercício 2 - Pág. 257
+
+\item A vida média de uma amostra de 100 lâmpadas de certa marca é 1615 horas. Por similaridade com outros processos de fabricação, supomos o desvio padrão igual a 120 horas. Utilizando $\alpha=5\%$, desejamos testar se a duração média de todas as lâmpadas dessa marca é igual ou diferente de 1600 horas. Qual é a conclusão? %Determine também a probabilidade de erro tipo II, se a média fosse 1620 horas.  %Magalhães - Seção 8.2 - Exercício 5 - Pág. 257
+
+\item Um estudo foi desenvolvido para avaliar o salário de empregadas domésticas na cidade de São Paulo. Foram sorteadas e entrevistadas 200 trabalhadoras. Admita que o desvio padrão dessa variável na cidade é de 0,8 salários mínimos. %Magalhães - Seção 8.2 - Exercício 3 - Pág. 257
+\begin{itemize}
+\item[a)] Você conhece a distribuição do estimador $\overline{X}$? Se não, é possível fazer alguma suposição?
+\item[b)] Deseja-se testar se a média é igual a 3 salários mínimos ou menor. Formule as hipóteses adequadas.
+\item[c)] Para um nível de significância de 3\% construa a região crítica.
+\item[d)] Se a amostra forneceu média de 2,5 salários mínimos, qual seria a conclusão?
+\end{itemize}
+
+\item Um pesquisador está realizando um teste para a média e obteve nível descritivo igual a 0,035. Ele não rejeitará a hipótese nula para níveis de significância superiores ou inferiores à 0,035? %Magalhães - Seção 8.4 - Exercício 1 - Pág. 266
+
+\item Uma máquina deve produzir peças com diâmetro de 2 cm. Entretanto, variações acontecem e vamos assumir que o diâmetro dessas peças siga o modelo Normal com variância igual a $0,09$ cm$^2$. Para testar se a máquina está bem regulada, $100$ peças são observadas e sua média calculada em 2,1 cm.
+
+\begin{itemize}
+\item[a)] Formule o problema como um teste de hipóteses (defina as hipóteses). 
+\item[b)] Se considerarmos um nível de significância de $2\%$, qual seria a região crítica do teste?
+\item[c)] Supondo que a região de aceitação é $\{x\in \mathbb{R}: 1,9\leqslant x\leqslant 2,1\}$, qual seria a probabilidade do erro tipo II se $\mu = 1,9$?
+\end{itemize}
+		
+\item {\bf Gabarito incompleto e sem solução} O atual tempo de travessia com balsas entre Santos e Guarujá é considerado uma variável aleatória com distribuição Normal de média $10$ minutos e desvio-padrão $3$ minutos. Uma nova balsa vai entrar em operação e desconfia-se que será mais lenta que as anteriores, isto é, haverá aumento na média especificada no modelo acima.
+
+\begin{itemize}
+\item[a)] Especifique as hipóteses em discussão. 
+\item[b)] Interprete os erros tipo I e tipo II.
+\item[c)] Para uma amostra de $20$ tempos de travessia com a nova balsa, obtenha a região crítica do teste considerando um nível de significância de $5\%$.
+\item[d)] Calcule a probabilidade do erro tipo II, se a nova balsa demora, em média, $2$ minutos a mais que as anteriores para completar a travessia.
+\end{itemize}
+	
+\item Uma variável aleatória tem distribuição Normal e desvio padrão igual a 10. Uma amostra de 50 valores dessa variável forneceu média igual a 15,2. Para cada um dos testes abaixo, responda qual o p-valor (nível descritivo). %Magalhães - Seção 8.4 - Exercício 2 - Pág. 266
+\begin{itemize}
+\item[a)] $H_0 : \mu=18 \ \ versus \ \ H_a : \mu =13$.
+\item[b)] $H_0 : \mu=18 \ \ versus \ \ H_a : \mu <18$.
+\item[c)] $H_0 : \mu=18 \ \ versus \ \ H_a : \mu \neq 18$.
+\item[d)] $H_0 : \mu=17 \ \ versus \ \ H_a : \mu =14$.
+\end{itemize}
+
+\item A resistência de um certo tipo de cabo de aço é uma variável aleatória modelada pela distribuição Normal com desvio padrão 6 kgf. Uma amostra de tamanho 25 desses cabos, escolhida ao acaso, forneceu média igual a 9,8 kgf. Para o teste $\mu=13$ contra $\mu=8$, qual é o nível descritivo? Que conclusão você considera adequada? %Magalhães - Seção 8.4 - Exercício 3 - Pág. 266
+
+\item Os pesos de salmões criados em uma incubadora comercial são normalmente distribuídos com um desvio padrão de 1,2 libras. O incubatório afirma que o peso médio da safra deste ano é de pelo menos 7,6 libras. Suponha que uma amostra aleatória de 16 peixes rendeu um peso médio de 7,2 libras. %Prova 3 - 1/2012
+
+\begin{itemize}
+\item[a)] Esta evidência é suficientemente forte para rejeitar as alegações do incubatório a um nível de significância de 5\%?
+\item[b)] Calcule o nível descritivo (p-valor) e explique o seu significado.
+\end{itemize}
+
+\item Admitindo que a pressão sanguínea arterial em homens siga o modelo Normal, 7 pacientes foram sorteados e tiveram sua pressão medida com os seguintes resultados: 84, 81, 77, 85, 69, 80 e 79. %Magalhães - Seção 8.3 - Exercício 3 - Pág. 262 (O primeiro item é inventado!!!)
+\begin{itemize}
+\item[a)] Teste a hipótese de que a média é 82 com confiança de 5\%. 
+\item[b)] Teste a hipótese de que a média é 82 contra a alternativa de ser 80 com confiança de 2\%.
+\end{itemize}
+
+\item Uma amostra com 10 observações de uma variável aleatória Normal forneceu média 5,5 e variância amostral 4. Deseja-se testar, ao nível de significância de 5\%, se a média na população é igual ou é menor que 6. Qual é a conclusão? %Magalhães - Seção 8.3 - Exercício 2 - Pág. 262
+
+\item Um fabricante afirma que seus cigarros contem não mais que 30 mg de nicotina. Uma amostra de 25 cigarros fornece média de 31,5 mg e desvio padrão amostral de 3 mg. Ao nível de 5\%, os dados refutam ou não a afirmação do fabricante? %Morettin - Capítulo 12 - Ex. 12.10 - Pág. 356
+
+\item Um produtor especifica que o tempo de vida médio de um determinado tipo de bateria é de pelo menos 240 horas. Uma amostra de 18 dessas baterias, forneceu os seguintes dados: %Prova 3 - 1/2012.
+
+\begin{center}
+237 \ \ \ 242 \ \ \ 232 \ \ \ 242 \ \ \ 248 \ \ \ 230 \\
+244 \ \ \ 243 \ \ \ 254 \ \ \ 262 \ \ \ 234 \ \ \ 220 \\
+225 \ \ \ 236 \ \ \ 232 \ \ \ 218 \ \ \ 228 \ \ \ 240 \\
+\end{center}
+
+Assumindo que a vida útil das baterias é aproximadamente normal, os dados indicam que as especificações não estão sendo atendidas se escolhermos um nível de significância de 5\%?
+
+\item O tempo de permanência de engenheiros recém formados no primeiro emprego, em anos, foi estudado considerando um modelo Normal com média e variância desconhecidas. Por analogia com outras categorias profissionais, deseja-se testar se a média é de 2 anos contra a alternativa de ser 3 anos. Para uma amostra de 15 engenheiros, a média obtida foi de 2,7 anos e o desvio padrão amostral de 1,4 anos. Ao nível de 1\%, qual a conclusão do teste? %Magalhães - Seção 8.3 - Exercício 4 - Pág. 262
+
+\item O número de pontos em um exame de inglês tem sido historicamente ao redor de 80. Sorteamos 10 estudantes que fizeram recentemente esse exame e observamos as notas: 65, 74, 78, 86, 59, 84, 75, 72, 81 e 83. Especialistas desconfiam que a média diminuiu e desejam testar essa afirmação através de um teste de hipóteses, com nível de significância de 5\%. Fazendo as suposições necessárias, qual seria a conclusão do teste? %Magalhães - Seção 8.3 - Exercício 6 - Pág. 263
+
+\item Sorteamos, ao acaso, 12 observações de uma variável aleatória que segue o modelo Normal. Da amostra obtivemos média 21,7 e desvio padrão 5,5. Determine o nível descritivo do teste $\mu=18$ contra $\mu>18$. %Magalhães - Seção 8.4 - Exercício 4 - Pág. 267
+
+\item A resistência à ruptura em cabos de aço é considerada uma variável Normal com média e variância dependendo de outros fatores. Uma amostra de 12 cabos produzidos por uma empresa são levados a teste para indicar se eles podem ser usados na construção de uma ponte. Cada cabo, para ser usado, precisa ter carga média de ruptura de no mínimo 2500kg. Indique a conclusão que se pode retirar, baseado no nível descritivo, se os seguintes resultados foram observados: %Sub 3 - 1/2012
+\begin{center}
+2518 \ \ 2492 \ \ 2450 \ \ 2535 \ \ 2547 \ \ 2486 \\
+2455 \ \ 2499 \ \ 2522 \ \ 2505 \ \ 2469 \ \ 2440 \\
+\end{center}
+
+\item Um fabricante garante que 90\% dos equipamentos que fornece a uma fábrica estão de acordo com as especificações exigidas. O exame de uma amostra de 200 peças desse equipamento revelou 25 delas defeituosas. Teste, ao nível de 10\%, a afirmação do fabricante. O que diz o p-valor?
+
+\vspace{0.3cm}
+
+\item Uma estação de televisão afirma que 60\% dos televisores estavam ligados no seu programa especial do último domingo. Uma rede competidora deseja contestar essa afirmação e decide usar uma amostra de 200 famílias para um teste. Se durante a pesquisa 104 famílias afirmaram que estavam assistindo ao programa, teste a veracidade da afirmação da estação ao nível de 5\%. O que diz o p-valor? %Exemplo 12.3, Morettin, Pág. 342
+
+\vspace{0.3cm}
+
+\item Para evitar um colapso na economia e combater a desigualdade um governante recém reeleito enviou ao congresso uma proposta de imposto progressivo sobre a renda além da taxação de grandes heranças. Preocupado com sua popularidade após as medidas o candidato encomendou uma pesquisa para saber se a aprovação do seu governo, anteriormente calculada em 52\%, permanece ou se houve um aumento significativo. A empresa contratada entrevistou 1.250 eleitores e 717 deles responderam que aprovam o governo atual. À partir do p-valor, qual deve ser a conclusão apresentada ao governante? %Inventada
+
+\end{enumerate}
+
+\newpage
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+       \begin{minipage}[c]{7in}
+                 {Universidade de Brasília} \\
+                 {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf Respostas}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item 
+\begin{itemize}
+\item[a)] $H_0 : \mu=15 \ \ versus \ \ H_a : \mu \neq 15$.
+\item[b)] $H_0 : \mu=30.000 \ \ versus \ \ H_a : \mu \neq 30.000$.
+\item[c)] $H_0 : \mu=3 \ \ versus \ \ H_a : \mu <3$.
+\end{itemize}
+
+\item Admita uma tolerância de $t$ ml e multe se o conteúdo estiver abaixo de $600-t$.
+
+\item Escolha uma amostra, aplique a vacina e teste $H_0 : p=0,8 \ \ versus \ \ H_a : p<0,8.$
+ 
+\item O critério parece estar desbalanceado, pois a flutuação ao redor do valor esperado está desigual. Um intervalo $(45,55)$ parece mais adequado.
+
+\item 
+\begin{itemize}
+\item[a)] $H_0 : \mu=20 \ \ versus \ \ H_a : \mu \neq 20$.
+\item[b)] As regiões críticas são
+\end{itemize}
+\vspace{-0.6cm}
+
+\begin{eqnarray*}
+\text{RC} &=& \{x\in\mathbb{R} : x<16,92 \ \ \text{ou} \ \ x>23,08\}\\
+\text{RC} &=& \{x\in\mathbb{R} : x<17,20 \ \ \text{ou} \ \ x>22,80\}\\
+\text{RC} &=& \{x\in\mathbb{R} : x<17,53 \ \ \text{ou} \ \ x>22,57\}\\
+\text{RC} &=& \{x\in\mathbb{R} : x<17,74 \ \ \text{ou} \ \ x>22,26\}\\
+\text{RC} &=& \{x\in\mathbb{R} : x<17,90 \ \ \text{ou} \ \ x>22,10\}
+\end{eqnarray*}
+
+\item 0,02275 e 0,02275.
+
+\item Rejeitamos $H_0$.
+
+%\vspace*{0.3cm}
+%\noindent Poderíamos encontrar a probabilidade de erro tipo II como no exercício anterior, no entanto façamos uso da função característica de operação (FCO). Para $\mu=1620$ a probabilidade de erro tipo II é dada por
+%\begin{eqnarray*}
+%\beta(1620)&=& \Phi\left(\frac{1600-1620}{120/\sqrt{10}}+1,96\right)-\Phi\left(\frac{1600-1620}{120/\sqrt{10}}-1,96\right)\\
+%&=& \Phi(0,29)-\Phi(-3,62)\\
+%&=& \Phi(0,29)+\Phi(3,62)-1\\
+%&\simeq& 0,6141+0,9999-1\\
+%&=& 0,6140.
+%\end{eqnarray*}
+
+\vspace{0.2cm}
+\item 
+\begin{itemize}
+\item[a)] Não conhecemos a distribuição de $\overline{X}$. Supomos $n$ grande o suficiente para que possamos aplicar o TLC.
+\item[b)] $H_0 : \mu=3 \ \ versus \ \ H_a : \mu <3$.
+\item[c)] $\text{RC} = \{x\in\mathbb{R} : x<2,89\}.$
+\item[d)] Rejeitamos a hipótese $H_0$.
+\end{itemize}
+
+\vspace{0.2cm}
+\item Ele não rejeitará $H_0$ para níveis de significância inferiores a 0,035.
+
+\vspace{0.2cm}
+\item
+\begin{itemize}
+\item[a)] $H_0: \mu=2$ \ \ versus \ \  $H_a:\ \mu\neq 2$.  
+\item[b)] RC = $\{x\in\mathbb{R}:\ x<1,93\text{ ou }x>,07\}$ e a hipótese é rejeitada.
+\item[c)] $\beta\approx0,5$.
+\end{itemize}	
+	 
+\vspace{0.2cm}
+\item
+\begin{itemize}
+\item[a)] $H_0: \mu=10$ \ \ versus \ \  $H_a:\ \mu>10$.  
+\item[b)] Interpretação.
+\item[c)] RC = $\{x\in\mathbb{R}:\ x>11,10\}$.
+\item[d)] $0,0912$. 
+\end{itemize}
+
+\vspace{0.2cm}
+\item 
+\begin{itemize}
+\item[a)] 0,0239.
+\item[b)] 0,0239.
+\item[c)] 0,0478.
+\item[d)] 0,1020.
+\end{itemize}
+
+\item Rejeitamos a hipótese nula.
+
+\item \begin{itemize}
+\item[a)] Não rejeitamos $H_0$.
+\item[b)] $\alpha^{*} = 0,0918.$ Isso significa que a hipótese não seria rejeitada até um nível de significância de 9,18\% que, sendo um valor mediano, indica a não rejeição de $H_0$.
+\end{itemize}
+
+\item 
+\begin{itemize}
+\item[a)] Não rejeitamos $H_0$.
+\item[b)] Não rejeitamos $H_0$.
+\end{itemize}
+
+\item Não rejeitamos $H_0$.
+
+\item Rejeitamos a afirmação do fabricante.
+ 
+\item Os dados indicam que as especificações estão sendo atendidas.
+
+\item Não rejeitamos $H_0$.
+
+\item Não rejeitamos a hipótese de que a média é 80.
+
+\item Rejeitamos $H_0$.
+
+\item Não rejeitamos a hipótese de que a média é maior ou igual a 2500.
+
+\item Temos fortes indícios à favor da afirmação do fabricante.
+
+\item Temos fortes indícios contra a afirmação a emissora.
+
+\item Houve um aumento significativo da popularidade do governante.
+
+\end{enumerate}
+\end{document}

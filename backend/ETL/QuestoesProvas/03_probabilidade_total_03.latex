@@ -1,0 +1,502 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O dono de um posto recomenda aos três frentistas que eles lavem os
+  para-brisas de todos os veículos atendidos. Sabe-se que João, Marcelo
+  e Raul atendem, respectivamente, 40\(\%\), 25\(\%\) e 35\(\%\) dos
+  veículos. Eles esquecem de lavar o para-brisas com probabilidades
+  25\(\%\), 20\(\%\) e 30\(\%\), respectivamente. Se um motorista
+  abastece nesse posto, qual a probabilidade de que o para-brisas do seu
+  veículo não seja lavado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.015\)
+  \item
+    \(0.250\)
+  \item
+    \(0.255\)
+  \item
+    \(0.085\)
+  \item
+    \(0.750\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  J &=& \text{ ``João realiza o atendimento.''}\\
+  M &=& \text{ ``Marcelo realiza o atendimento.''}\\
+  R &=& \text{ ``Raul realiza o atendimento.''}\\
+  N &=& \text{ ``O para-brisas não é lavado.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(J)=0.4\), \(P(M)=0.25\), \(P(R)=0.35\),
+  \(P(N|J)=0.25\), \(P(N|M)=0.2\) e \(P(N|R)=0.3\). Logo, pelo Teorema
+  da Probabilidade Total tem-se que
+  \(P(N)=P(J)P(N|J)+P(M)P(N|M)+P(R)P(N|R)=0.4\times 0.25+0.25\times 0.2+0.35\times 0.3=0.255\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O dono de um posto recomenda aos três frentistas que eles lavem os
+  para-brisas de todos os veículos atendidos. Sabe-se que João, Marcelo
+  e Raul atendem, respectivamente, 25\(\%\), 40\(\%\) e 35\(\%\) dos
+  veículos. Eles esquecem de lavar o para-brisas com probabilidades
+  30\(\%\), 20\(\%\) e 25\(\%\), respectivamente. Se um motorista
+  abastece nesse posto, qual a probabilidade de que o para-brisas do seu
+  veículo não seja lavado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.081\)
+  \item
+    \(0.243\)
+  \item
+    \(0.250\)
+  \item
+    \(0.750\)
+  \item
+    \(0.015\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  J &=& \text{ ``João realiza o atendimento.''}\\
+  M &=& \text{ ``Marcelo realiza o atendimento.''}\\
+  R &=& \text{ ``Raul realiza o atendimento.''}\\
+  N &=& \text{ ``O para-brisas não é lavado.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(J)=0.25\), \(P(M)=0.4\), \(P(R)=0.35\),
+  \(P(N|J)=0.3\), \(P(N|M)=0.2\) e \(P(N|R)=0.25\). Logo, pelo Teorema
+  da Probabilidade Total tem-se que
+  \(P(N)=P(J)P(N|J)+P(M)P(N|M)+P(R)P(N|R)=0.25\times 0.3+0.4\times 0.2+0.35\times 0.25=0.2425\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O dono de um posto recomenda aos três frentistas que eles lavem os
+  para-brisas de todos os veículos atendidos. Sabe-se que João, Marcelo
+  e Raul atendem, respectivamente, 40\(\%\), 35\(\%\) e 25\(\%\) dos
+  veículos. Eles esquecem de lavar o para-brisas com probabilidades
+  20\(\%\), 25\(\%\) e 30\(\%\), respectivamente. Se um motorista
+  abastece nesse posto, qual a probabilidade de que o para-brisas do seu
+  veículo não seja lavado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.081\)
+  \item
+    \(0.243\)
+  \item
+    \(0.750\)
+  \item
+    \(0.250\)
+  \item
+    \(0.015\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  J &=& \text{ ``João realiza o atendimento.''}\\
+  M &=& \text{ ``Marcelo realiza o atendimento.''}\\
+  R &=& \text{ ``Raul realiza o atendimento.''}\\
+  N &=& \text{ ``O para-brisas não é lavado.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(J)=0.4\), \(P(M)=0.35\), \(P(R)=0.25\),
+  \(P(N|J)=0.2\), \(P(N|M)=0.25\) e \(P(N|R)=0.3\). Logo, pelo Teorema
+  da Probabilidade Total tem-se que
+  \(P(N)=P(J)P(N|J)+P(M)P(N|M)+P(R)P(N|R)=0.4\times 0.2+0.35\times 0.25+0.25\times 0.3=0.2425\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O dono de um posto recomenda aos três frentistas que eles lavem os
+  para-brisas de todos os veículos atendidos. Sabe-se que João, Marcelo
+  e Raul atendem, respectivamente, 35\(\%\), 25\(\%\) e 40\(\%\) dos
+  veículos. Eles esquecem de lavar o para-brisas com probabilidades
+  30\(\%\), 20\(\%\) e 25\(\%\), respectivamente. Se um motorista
+  abastece nesse posto, qual a probabilidade de que o para-brisas do seu
+  veículo não seja lavado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.255\)
+  \item
+    \(0.085\)
+  \item
+    \(0.750\)
+  \item
+    \(0.250\)
+  \item
+    \(0.015\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  J &=& \text{ ``João realiza o atendimento.''}\\
+  M &=& \text{ ``Marcelo realiza o atendimento.''}\\
+  R &=& \text{ ``Raul realiza o atendimento.''}\\
+  N &=& \text{ ``O para-brisas não é lavado.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(J)=0.35\), \(P(M)=0.25\), \(P(R)=0.4\),
+  \(P(N|J)=0.3\), \(P(N|M)=0.2\) e \(P(N|R)=0.25\). Logo, pelo Teorema
+  da Probabilidade Total tem-se que
+  \(P(N)=P(J)P(N|J)+P(M)P(N|M)+P(R)P(N|R)=0.35\times 0.3+0.25\times 0.2+0.4\times 0.25=0.255\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O dono de um posto recomenda aos três frentistas que eles lavem os
+  para-brisas de todos os veículos atendidos. Sabe-se que João, Marcelo
+  e Raul atendem, respectivamente, 50\(\%\), 10\(\%\) e 40\(\%\) dos
+  veículos. Eles esquecem de lavar o para-brisas com probabilidades
+  20\(\%\), 30\(\%\) e 25\(\%\), respectivamente. Se um motorista
+  abastece nesse posto, qual a probabilidade de que o para-brisas do seu
+  veículo não seja lavado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.077\)
+  \item
+    \(0.015\)
+  \item
+    \(0.250\)
+  \item
+    \(0.230\)
+  \item
+    \(0.750\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  J &=& \text{ ``João realiza o atendimento.''}\\
+  M &=& \text{ ``Marcelo realiza o atendimento.''}\\
+  R &=& \text{ ``Raul realiza o atendimento.''}\\
+  N &=& \text{ ``O para-brisas não é lavado.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(J)=0.5\), \(P(M)=0.1\), \(P(R)=0.4\),
+  \(P(N|J)=0.2\), \(P(N|M)=0.3\) e \(P(N|R)=0.25\). Logo, pelo Teorema
+  da Probabilidade Total tem-se que
+  \(P(N)=P(J)P(N|J)+P(M)P(N|M)+P(R)P(N|R)=0.5\times 0.2+0.1\times 0.3+0.4\times 0.25=0.23\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O dono de um posto recomenda aos três frentistas que eles lavem os
+  para-brisas de todos os veículos atendidos. Sabe-se que João, Marcelo
+  e Raul atendem, respectivamente, 20\(\%\), 40\(\%\) e 40\(\%\) dos
+  veículos. Eles esquecem de lavar o para-brisas com probabilidades
+  30\(\%\), 25\(\%\) e 20\(\%\), respectivamente. Se um motorista
+  abastece nesse posto, qual a probabilidade de que o para-brisas do seu
+  veículo não seja lavado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.750\)
+  \item
+    \(0.015\)
+  \item
+    \(0.080\)
+  \item
+    \(0.240\)
+  \item
+    \(0.250\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  J &=& \text{ ``João realiza o atendimento.''}\\
+  M &=& \text{ ``Marcelo realiza o atendimento.''}\\
+  R &=& \text{ ``Raul realiza o atendimento.''}\\
+  N &=& \text{ ``O para-brisas não é lavado.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(J)=0.2\), \(P(M)=0.4\), \(P(R)=0.4\),
+  \(P(N|J)=0.3\), \(P(N|M)=0.25\) e \(P(N|R)=0.2\). Logo, pelo Teorema
+  da Probabilidade Total tem-se que
+  \(P(N)=P(J)P(N|J)+P(M)P(N|M)+P(R)P(N|R)=0.2\times 0.3+0.4\times 0.25+0.4\times 0.2=0.24\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O dono de um posto recomenda aos três frentistas que eles lavem os
+  para-brisas de todos os veículos atendidos. Sabe-se que João, Marcelo
+  e Raul atendem, respectivamente, 50\(\%\), 15\(\%\) e 35\(\%\) dos
+  veículos. Eles esquecem de lavar o para-brisas com probabilidades
+  25\(\%\), 30\(\%\) e 20\(\%\), respectivamente. Se um motorista
+  abastece nesse posto, qual a probabilidade de que o para-brisas do seu
+  veículo não seja lavado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(0.080\)
+  \item
+    \(0.015\)
+  \item
+    \(0.240\)
+  \item
+    \(0.750\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  J &=& \text{ ``João realiza o atendimento.''}\\
+  M &=& \text{ ``Marcelo realiza o atendimento.''}\\
+  R &=& \text{ ``Raul realiza o atendimento.''}\\
+  N &=& \text{ ``O para-brisas não é lavado.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(J)=0.5\), \(P(M)=0.15\), \(P(R)=0.35\),
+  \(P(N|J)=0.25\), \(P(N|M)=0.3\) e \(P(N|R)=0.2\). Logo, pelo Teorema
+  da Probabilidade Total tem-se que
+  \(P(N)=P(J)P(N|J)+P(M)P(N|M)+P(R)P(N|R)=0.5\times 0.25+0.15\times 0.3+0.35\times 0.2=0.24\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O dono de um posto recomenda aos três frentistas que eles lavem os
+  para-brisas de todos os veículos atendidos. Sabe-se que João, Marcelo
+  e Raul atendem, respectivamente, 35\(\%\), 30\(\%\) e 35\(\%\) dos
+  veículos. Eles esquecem de lavar o para-brisas com probabilidades
+  30\(\%\), 20\(\%\) e 25\(\%\), respectivamente. Se um motorista
+  abastece nesse posto, qual a probabilidade de que o para-brisas do seu
+  veículo não seja lavado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.015\)
+  \item
+    \(0.250\)
+  \item
+    \(0.750\)
+  \item
+    \(0.084\)
+  \item
+    \(0.253\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  J &=& \text{ ``João realiza o atendimento.''}\\
+  M &=& \text{ ``Marcelo realiza o atendimento.''}\\
+  R &=& \text{ ``Raul realiza o atendimento.''}\\
+  N &=& \text{ ``O para-brisas não é lavado.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(J)=0.35\), \(P(M)=0.3\), \(P(R)=0.35\),
+  \(P(N|J)=0.3\), \(P(N|M)=0.2\) e \(P(N|R)=0.25\). Logo, pelo Teorema
+  da Probabilidade Total tem-se que
+  \(P(N)=P(J)P(N|J)+P(M)P(N|M)+P(R)P(N|R)=0.35\times 0.3+0.3\times 0.2+0.35\times 0.25=0.2525\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O dono de um posto recomenda aos três frentistas que eles lavem os
+  para-brisas de todos os veículos atendidos. Sabe-se que João, Marcelo
+  e Raul atendem, respectivamente, 15\(\%\), 35\(\%\) e 50\(\%\) dos
+  veículos. Eles esquecem de lavar o para-brisas com probabilidades
+  25\(\%\), 30\(\%\) e 20\(\%\), respectivamente. Se um motorista
+  abastece nesse posto, qual a probabilidade de que o para-brisas do seu
+  veículo não seja lavado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.015\)
+  \item
+    \(0.081\)
+  \item
+    \(0.750\)
+  \item
+    \(0.243\)
+  \item
+    \(0.250\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  J &=& \text{ ``João realiza o atendimento.''}\\
+  M &=& \text{ ``Marcelo realiza o atendimento.''}\\
+  R &=& \text{ ``Raul realiza o atendimento.''}\\
+  N &=& \text{ ``O para-brisas não é lavado.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(J)=0.15\), \(P(M)=0.35\), \(P(R)=0.5\),
+  \(P(N|J)=0.25\), \(P(N|M)=0.3\) e \(P(N|R)=0.2\). Logo, pelo Teorema
+  da Probabilidade Total tem-se que
+  \(P(N)=P(J)P(N|J)+P(M)P(N|M)+P(R)P(N|R)=0.15\times 0.25+0.35\times 0.3+0.5\times 0.2=0.2425\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O dono de um posto recomenda aos três frentistas que eles lavem os
+  para-brisas de todos os veículos atendidos. Sabe-se que João, Marcelo
+  e Raul atendem, respectivamente, 20\(\%\), 35\(\%\) e 45\(\%\) dos
+  veículos. Eles esquecem de lavar o para-brisas com probabilidades
+  30\(\%\), 25\(\%\) e 20\(\%\), respectivamente. Se um motorista
+  abastece nesse posto, qual a probabilidade de que o para-brisas do seu
+  veículo não seja lavado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.015\)
+  \item
+    \(0.250\)
+  \item
+    \(0.079\)
+  \item
+    \(0.238\)
+  \item
+    \(0.750\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sejam os eventos \[\begin{aligned}
+  J &=& \text{ ``João realiza o atendimento.''}\\
+  M &=& \text{ ``Marcelo realiza o atendimento.''}\\
+  R &=& \text{ ``Raul realiza o atendimento.''}\\
+  N &=& \text{ ``O para-brisas não é lavado.''}
+  \end{aligned}\]
+
+  Pelo enunciado tem-se \(P(J)=0.2\), \(P(M)=0.35\), \(P(R)=0.45\),
+  \(P(N|J)=0.3\), \(P(N|M)=0.25\) e \(P(N|R)=0.2\). Logo, pelo Teorema
+  da Probabilidade Total tem-se que
+  \(P(N)=P(J)P(N|J)+P(M)P(N|M)+P(R)P(N|R)=0.2\times 0.3+0.35\times 0.25+0.45\times 0.2=0.2375\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

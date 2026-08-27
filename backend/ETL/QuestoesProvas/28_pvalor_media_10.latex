@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um mercado na Dinamarca comercializa produtos vencidos que ainda estão
+  próprios para consumo. O mercado acredita que esses produtos são
+  vendidos, em média, num prazo inferior a 4 dias após a data de
+  vencimento. Uma amostra com 6 caixas de iogurte, escolhidas ao acaso,
+  obteve tempo médio até a venda de 4.199 dias, com desvio padrão
+  amostral de 0.53. Entretanto, desconfia-se que o mercado não esteja
+  correto quanto ao tempo médio de venda de produtos vencidos. Assumindo
+  que as observações seguem uma distribuição Normal, assinale a
+  altervativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8107\)
+  \item
+    \(0.8212\)
+  \item
+    \(0.8001\)
+  \item
+    \(0.1788\)
+  \item
+    \(0.1999\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq4 \ \ versus \ \ H_a : \mu >  4.\] A estatística de
+  teste normalizada é dada por \[\frac{\bar{x}-4}{s/\sqrt{n}} = 0.92\] e
+  o p-valor \[\alpha^{*} = 1-P(T_{5}\leq0.92)) = 0.1999.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um mercado na Dinamarca comercializa produtos vencidos que ainda estão
+  próprios para consumo. O mercado acredita que esses produtos são
+  vendidos, em média, num prazo inferior a 3 dias após a data de
+  vencimento. Uma amostra com 8 caixas de iogurte, escolhidas ao acaso,
+  obteve tempo médio até a venda de 3.165 dias, com desvio padrão
+  amostral de 0.33. Entretanto, desconfia-se que o mercado não esteja
+  correto quanto ao tempo médio de venda de produtos vencidos. Assumindo
+  que as observações seguem uma distribuição Normal, assinale a
+  altervativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9107\)
+  \item
+    \(0.1000\)
+  \item
+    \(0.9000\)
+  \item
+    \(0.0785\)
+  \item
+    \(0.9215\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq3 \ \ versus \ \ H_a : \mu >  3.\] A estatística de
+  teste normalizada é dada por \[\frac{\bar{x}-3}{s/\sqrt{n}} = 1.415\]
+  e o p-valor \[\alpha^{*} = 1-P(T_{7}\leq1.415)) = 0.1.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um mercado na Dinamarca comercializa produtos vencidos que ainda estão
+  próprios para consumo. O mercado acredita que esses produtos são
+  vendidos, em média, num prazo inferior a 4 dias após a data de
+  vencimento. Uma amostra com 8 caixas de iogurte, escolhidas ao acaso,
+  obteve tempo médio até a venda de 4.26 dias, com desvio padrão
+  amostral de 0.52. Entretanto, desconfia-se que o mercado não esteja
+  correto quanto ao tempo médio de venda de produtos vencidos. Assumindo
+  que as observações seguem uma distribuição Normal, assinale a
+  altervativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1000\)
+  \item
+    \(0.9107\)
+  \item
+    \(0.9215\)
+  \item
+    \(0.0785\)
+  \item
+    \(0.9000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq4 \ \ versus \ \ H_a : \mu >  4.\] A estatística de
+  teste normalizada é dada por \[\frac{\bar{x}-4}{s/\sqrt{n}} = 1.415\]
+  e o p-valor \[\alpha^{*} = 1-P(T_{7}\leq1.415)) = 0.1.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um mercado na Dinamarca comercializa produtos vencidos que ainda estão
+  próprios para consumo. O mercado acredita que esses produtos são
+  vendidos, em média, num prazo inferior a 4 dias após a data de
+  vencimento. Uma amostra com 6 caixas de iogurte, escolhidas ao acaso,
+  obteve tempo médio até a venda de 4.146 dias, com desvio padrão
+  amostral de 0.39. Entretanto, desconfia-se que o mercado não esteja
+  correto quanto ao tempo médio de venda de produtos vencidos. Assumindo
+  que as observações seguem uma distribuição Normal, assinale a
+  altervativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1788\)
+  \item
+    \(0.8001\)
+  \item
+    \(0.8107\)
+  \item
+    \(0.1999\)
+  \item
+    \(0.8212\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq4 \ \ versus \ \ H_a : \mu >  4.\] A estatística de
+  teste normalizada é dada por \[\frac{\bar{x}-4}{s/\sqrt{n}} = 0.92\] e
+  o p-valor \[\alpha^{*} = 1-P(T_{5}\leq0.92)) = 0.1999.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um mercado na Dinamarca comercializa produtos vencidos que ainda estão
+  próprios para consumo. O mercado acredita que esses produtos são
+  vendidos, em média, num prazo inferior a 5 dias após a data de
+  vencimento. Uma amostra com 10 caixas de iogurte, escolhidas ao acaso,
+  obteve tempo médio até a venda de 5.243 dias, com desvio padrão
+  amostral de 0.32. Entretanto, desconfia-se que o mercado não esteja
+  correto quanto ao tempo médio de venda de produtos vencidos. Assumindo
+  que as observações seguem uma distribuição Normal, assinale a
+  altervativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0082\)
+  \item
+    \(0.9918\)
+  \item
+    \(0.9859\)
+  \item
+    \(0.9800\)
+  \item
+    \(0.0200\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq5 \ \ versus \ \ H_a : \mu >  5.\] A estatística de
+  teste normalizada é dada por \[\frac{\bar{x}-5}{s/\sqrt{n}} = 2.398\]
+  e o p-valor \[\alpha^{*} = 1-P(T_{9}\leq2.398)) = 0.02.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um mercado na Dinamarca comercializa produtos vencidos que ainda estão
+  próprios para consumo. O mercado acredita que esses produtos são
+  vendidos, em média, num prazo inferior a 3 dias após a data de
+  vencimento. Uma amostra com 9 caixas de iogurte, escolhidas ao acaso,
+  obteve tempo médio até a venda de 3.191 dias, com desvio padrão
+  amostral de 0.41. Entretanto, desconfia-se que o mercado não esteja
+  correto quanto ao tempo médio de venda de produtos vencidos. Assumindo
+  que as observações seguem uma distribuição Normal, assinale a
+  altervativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0812\)
+  \item
+    \(0.9188\)
+  \item
+    \(0.9094\)
+  \item
+    \(0.1000\)
+  \item
+    \(0.9000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq3 \ \ versus \ \ H_a : \mu >  3.\] A estatística de
+  teste normalizada é dada por \[\frac{\bar{x}-3}{s/\sqrt{n}} = 1.397\]
+  e o p-valor \[\alpha^{*} = 1-P(T_{8}\leq1.397)) = 0.1.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um mercado na Dinamarca comercializa produtos vencidos que ainda estão
+  próprios para consumo. O mercado acredita que esses produtos são
+  vendidos, em média, num prazo inferior a 5 dias após a data de
+  vencimento. Uma amostra com 10 caixas de iogurte, escolhidas ao acaso,
+  obteve tempo médio até a venda de 5.209 dias, com desvio padrão
+  amostral de 0.75. Entretanto, desconfia-se que o mercado não esteja
+  correto quanto ao tempo médio de venda de produtos vencidos. Assumindo
+  que as observações seguem uma distribuição Normal, assinale a
+  altervativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1886\)
+  \item
+    \(0.8114\)
+  \item
+    \(0.2001\)
+  \item
+    \(0.7999\)
+  \item
+    \(0.8056\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq5 \ \ versus \ \ H_a : \mu >  5.\] A estatística de
+  teste normalizada é dada por \[\frac{\bar{x}-5}{s/\sqrt{n}} = 0.883\]
+  e o p-valor \[\alpha^{*} = 1-P(T_{9}\leq0.883)) = 0.2001.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um mercado na Dinamarca comercializa produtos vencidos que ainda estão
+  próprios para consumo. O mercado acredita que esses produtos são
+  vendidos, em média, num prazo inferior a 5 dias após a data de
+  vencimento. Uma amostra com 6 caixas de iogurte, escolhidas ao acaso,
+  obteve tempo médio até a venda de 5.395 dias, com desvio padrão
+  amostral de 0.48. Entretanto, desconfia-se que o mercado não esteja
+  correto quanto ao tempo médio de venda de produtos vencidos. Assumindo
+  que as observações seguem uma distribuição Normal, assinale a
+  altervativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.978\)
+  \item
+    \(0.964\)
+  \item
+    \(0.022\)
+  \item
+    \(0.050\)
+  \item
+    \(0.950\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq5 \ \ versus \ \ H_a : \mu >  5.\] A estatística de
+  teste normalizada é dada por \[\frac{\bar{x}-5}{s/\sqrt{n}} = 2.015\]
+  e o p-valor \[\alpha^{*} = 1-P(T_{5}\leq2.015)) = 0.05.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um mercado na Dinamarca comercializa produtos vencidos que ainda estão
+  próprios para consumo. O mercado acredita que esses produtos são
+  vendidos, em média, num prazo inferior a 4 dias após a data de
+  vencimento. Uma amostra com 5 caixas de iogurte, escolhidas ao acaso,
+  obteve tempo médio até a venda de 4.925 dias, com desvio padrão
+  amostral de 0.69. Entretanto, desconfia-se que o mercado não esteja
+  correto quanto ao tempo médio de venda de produtos vencidos. Assumindo
+  que as observações seguem uma distribuição Normal, assinale a
+  altervativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9986\)
+  \item
+    \(0.0014\)
+  \item
+    \(0.9800\)
+  \item
+    \(0.9893\)
+  \item
+    \(0.0200\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq4 \ \ versus \ \ H_a : \mu >  4.\] A estatística de
+  teste normalizada é dada por \[\frac{\bar{x}-4}{s/\sqrt{n}} = 2.999\]
+  e o p-valor \[\alpha^{*} = 1-P(T_{4}\leq2.999)) = 0.02.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um mercado na Dinamarca comercializa produtos vencidos que ainda estão
+  próprios para consumo. O mercado acredita que esses produtos são
+  vendidos, em média, num prazo inferior a 4 dias após a data de
+  vencimento. Uma amostra com 6 caixas de iogurte, escolhidas ao acaso,
+  obteve tempo médio até a venda de 4.63 dias, com desvio padrão
+  amostral de 0.56. Entretanto, desconfia-se que o mercado não esteja
+  correto quanto ao tempo médio de venda de produtos vencidos. Assumindo
+  que as observações seguem uma distribuição Normal, assinale a
+  altervativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9885\)
+  \item
+    \(0.9971\)
+  \item
+    \(0.0200\)
+  \item
+    \(0.9800\)
+  \item
+    \(0.0029\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu\leq4 \ \ versus \ \ H_a : \mu >  4.\] A estatística de
+  teste normalizada é dada por \[\frac{\bar{x}-4}{s/\sqrt{n}} = 2.757\]
+  e o p-valor \[\alpha^{*} = 1-P(T_{5}\leq2.757)) = 0.02.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 21 fotógrafos apresentou média amostral de
+  \(1454\) fotos tiradas por trabalho, com desvio padrão amostral de
+  \(252.9\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número médio de fotos
+  por trabalho com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1449.558, 1458.442]\)
+  \item
+    \([1363.493, 1544.507]\)
+  \item
+    \([1434.250, 1473.750]\)
+  \item
+    \([1433.230, 1474.770]\)
+  \item
+    \([1358.818, 1549.182]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[1454-1.7247\times\frac{252.9}{\sqrt{21}} \ , \ 1454+1.7247\times\frac{252.9}{\sqrt{21}}\right]\\
+  &=&\text{$[1358.818, 1549.182]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 21 fotógrafos apresentou média amostral de
+  \(1828\) fotos tiradas por trabalho, com desvio padrão amostral de
+  \(276.06\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número médio de fotos
+  por trabalho com confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1822.054, 1833.946]\)
+  \item
+    \([1800.578, 1855.422]\)
+  \item
+    \([1702.337, 1953.663]\)
+  \item
+    \([1709.927, 1946.073]\)
+  \item
+    \([1802.234, 1853.766]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[1828-2.086\times\frac{276.06}{\sqrt{21}} \ , \ 1828+2.086\times\frac{276.06}{\sqrt{21}}\right]\\
+  &=&\text{$[1702.337, 1953.663]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 20 fotógrafos apresentou média amostral de
+  \(1963\) fotos tiradas por trabalho, com desvio padrão amostral de
+  \(220.13\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número médio de fotos
+  por trabalho com confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1859.977, 2066.023]\)
+  \item
+    \([1957.559, 1968.441]\)
+  \item
+    \([1866.524, 2059.476]\)
+  \item
+    \([1941.427, 1984.573]\)
+  \item
+    \([1939.963, 1986.037]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[1963-2.093\times\frac{220.13}{\sqrt{20}} \ , \ 1963+2.093\times\frac{220.13}{\sqrt{20}}\right]\\
+  &=&\text{$[1859.977, 2066.023]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 21 fotógrafos apresentou média amostral de
+  \(1350\) fotos tiradas por trabalho, com desvio padrão amostral de
+  \(202.53\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número médio de fotos
+  por trabalho com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1273.776, 1426.224]\)
+  \item
+    \([1346.025, 1353.975]\)
+  \item
+    \([1277.519, 1422.481]\)
+  \item
+    \([1334.183, 1365.817]\)
+  \item
+    \([1333.367, 1366.633]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[1350-1.7247\times\frac{202.53}{\sqrt{21}} \ , \ 1350+1.7247\times\frac{202.53}{\sqrt{21}}\right]\\
+  &=&\text{$[1273.776, 1426.224]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 17 fotógrafos apresentou média amostral de
+  \(1458\) fotos tiradas por trabalho, com desvio padrão amostral de
+  \(230.15\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número médio de fotos
+  por trabalho com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1435.797, 1480.203]\)
+  \item
+    \([1366.456, 1549.544]\)
+  \item
+    \([1434.364, 1481.636]\)
+  \item
+    \([1453.290, 1462.710]\)
+  \item
+    \([1360.545, 1555.455]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[1458-1.7459\times\frac{230.15}{\sqrt{17}} \ , \ 1458+1.7459\times\frac{230.15}{\sqrt{17}}\right]\\
+  &=&\text{$[1360.545, 1555.455]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 16 fotógrafos apresentou média amostral de
+  \(1259\) fotos tiradas por trabalho, com desvio padrão amostral de
+  \(240\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número médio de fotos
+  por trabalho com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1232.704, 1285.297]\)
+  \item
+    \([1160.600, 1357.400]\)
+  \item
+    \([1254.043, 1263.957]\)
+  \item
+    \([1153.814, 1364.186]\)
+  \item
+    \([1234.400, 1283.600]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[1259-1.7531\times\frac{240}{\sqrt{16}} \ , \ 1259+1.7531\times\frac{240}{\sqrt{16}}\right]\\
+  &=&\text{$[1153.814, 1364.186]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 17 fotógrafos apresentou média amostral de
+  \(1235\) fotos tiradas por trabalho, com desvio padrão amostral de
+  \(204.17\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número médio de fotos
+  por trabalho com confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1229.317, 1240.683]\)
+  \item
+    \([1137.944, 1332.056]\)
+  \item
+    \([1209.540, 1260.460]\)
+  \item
+    \([1211.460, 1258.540]\)
+  \item
+    \([1130.026, 1339.974]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[1235-2.1199\times\frac{204.17}{\sqrt{17}} \ , \ 1235+2.1199\times\frac{204.17}{\sqrt{17}}\right]\\
+  &=&\text{$[1130.026, 1339.974]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 20 fotógrafos apresentou média amostral de
+  \(1174\) fotos tiradas por trabalho, com desvio padrão amostral de
+  \(253.78\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número médio de fotos
+  por trabalho com confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1152.059, 1195.941]\)
+  \item
+    \([1075.879, 1272.121]\)
+  \item
+    \([1169.440, 1178.560]\)
+  \item
+    \([1153.190, 1194.810]\)
+  \item
+    \([1080.935, 1267.065]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[1174-1.7291\times\frac{253.78}{\sqrt{20}} \ , \ 1174+1.7291\times\frac{253.78}{\sqrt{20}}\right]\\
+  &=&\text{$[1075.879, 1272.121]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 18 fotógrafos apresentou média amostral de
+  \(1492\) fotos tiradas por trabalho, com desvio padrão amostral de
+  \(262.63\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número médio de fotos
+  por trabalho com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1312.594, 1671.406]\)
+  \item
+    \([1449.714, 1534.286]\)
+  \item
+    \([1332.292, 1651.708]\)
+  \item
+    \([1483.100, 1500.900]\)
+  \item
+    \([1454.356, 1529.644]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[1492-2.8982\times\frac{262.63}{\sqrt{18}} \ , \ 1492+2.8982\times\frac{262.63}{\sqrt{18}}\right]\\
+  &=&\text{$[1312.594, 1671.406]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 22 fotógrafos apresentou média amostral de
+  \(1789\) fotos tiradas por trabalho, com desvio padrão amostral de
+  \(222.54\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o número médio de fotos
+  por trabalho com confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1696.006, 1881.994]\)
+  \item
+    \([1767.964, 1810.036]\)
+  \item
+    \([1769.174, 1808.826]\)
+  \item
+    \([1783.784, 1794.216]\)
+  \item
+    \([1690.332, 1887.668]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[1789-2.0796\times\frac{222.54}{\sqrt{22}} \ , \ 1789+2.0796\times\frac{222.54}{\sqrt{22}}\right]\\
+  &=&\text{$[1690.332, 1887.668]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

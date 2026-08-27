@@ -1,0 +1,567 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsfonts,amssymb,amsbsy}
+\usepackage{amsthm} %Permite teorema sem numeração, no meu caso Demonstração
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{float}
+
+%------------------------------------------------------------------------------
+
+\setlength{\topmargin}{-1.0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{6.5in}
+\setlength{\baselineskip}{12mm}
+\addtolength{\jot}{.2cm}
+
+%------------------------------------------------------------------------------
+
+\renewcommand{\P}{\mathcal{P}}
+\newcommand{\E}{\mathcal{E}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+        \begin{minipage}[c]{7in}
+                  {Universidade de Brasília} \\
+                  {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf $\text{5}^{\text{\underline{a}}}$ Lista de PE -- Solução}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item Sejam $X_A$ e $X_B$ o números de jogos que o time ganha contra times da classe A e da classe B respectivamente. Claramente $X_A$ e $X_B$ são variáveis aleatórias binomiais de parâmetros
+ 
+\begin{eqnarray*}
+\mathcal{E}\left(X_A\right)=26(0,4)=10,4 &\text{e}& \text{Var}(X_A)=26(0,4)(0,6)=6,24\\
+\mathcal{E}\left(X_B\right)=18(0,7)=12,6 &\text{e}& \text{Var}(X_B)=18(0,7)(0,3)=3,78.
+\end{eqnarray*} 
+
+\vspace{0.1cm} 
+
+\begin{itemize}
+\item[a)] Como estamos interessados na probabilidade de que $X_A+X_B$ seja maior ou igual a 25, observe que esta soma tem distribuição aproximadamente normal de média 23 e variância 10,02. Se $Y\sim N(23;10,02)$, aplicando o Teorema de DeMoivre-Laplace podemos aproximar a probabilidade desejada como abaixo:
+\begin{eqnarray*}
+\mathcal{P}(X_A+X_B\geqslant 25)&\simeq& \mathcal{P}(Y\geqslant 25)\\
+&=& \mathcal{P}\left(\frac{Y-23}{\sqrt{10,02}}\geqslant\frac{25-23}{\sqrt{10,02}}\right)\\
+&\simeq& \mathcal{P}(Z\geqslant 0,6318)\\
+&=& 1-\mathcal{P}(Z\leqslant 0,6318)\\
+&\simeq& 0,26435
+\end{eqnarray*}
+
+\item[b)] Agora, queremos calcular a probabilidade de que $X_A-X_B$ seja maior ou igual a 1. Observe então que esta subtração tem distribuição aproximadamente normal de média -2,2 e variância 10,02. Se $Y\sim N(-2,2;10,02)$, aplicamos novamente o Teorema de DeMoivre-Laplace e aproximamos a probabilidade por
+\begin{eqnarray*}
+\mathcal{P}(X_A-X_B\geqslant 1)&\simeq& \mathcal{P}(Y\geqslant 1)\\
+&=& \mathcal{P}\left(\frac{Y+2,2}{\sqrt{10,02}}\geqslant\frac{1+2,2}{\sqrt{10,02}}\right)\\
+&\simeq& \mathcal{P}(Z\geqslant 1,0109)\\
+&=& 1-\mathcal{P}(Z\leqslant 1,0109)\\
+&\simeq& 0,15625
+\end{eqnarray*}
+\end{itemize}
+
+\item Considere a sequência $X_i$ de $n$ v.a.'s independentes onde 
+\begin{equation*}
+X_i = 
+\left\{\begin{array}{lr}
+1, & \text{se ocorrer sucesso},\\ \vspace{0.1cm}
+0, & \text{se ocorrer fracasso},
+\end{array} \right.
+\end{equation*} 
+com $\mathcal{P}(X_i=1)=p$. 
+
+\vspace{0.3cm}
+\noindent Claramente $X_i\sim\text{Ber}(p)$ e se fizermos $X=X_1+\cdots+X_n$, $X$ representa o número de sucessos em $n$ lançamentos (que já sabemos que representa uma binomial). Como $$\mathcal{E}(X)=\mathcal{E}(X_1)+\cdots+\mathcal{E}(X_n) = np$$ e $$\text{Var}(X)=\text{Var}(X_1)+\cdots+\text{Var}(X_n)=np(1-p)$$ concluímos que $X\sim\text{Bin}(n,p)$.
+
+\item A tabela abaixo apresenta as probabilidades $\mathcal{P}(X=i,Y=j)$ com as respectivas marginais:
+\begin{table}[htbp]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{c|c|c|c|c|c}
+\hline
+\hline
+X / Y & 0 & 1 & 2 & 3 & $\mathcal{P}(X=i)$\\
+\hline
+0 & $\frac{10}{220}$ & $\frac{40}{220}$ & $\frac{30}{220}$ & $\frac{4}{220}$ &$\frac{84}{220}$\\
+
+1 & $\frac{30}{220}$ & $\frac{60}{220}$ & $\frac{18}{220}$ & 0 &$\frac{108}{220}$\\
+
+2 & $\frac{15}{220}$ & $\frac{12}{220}$ & 0 & 0 &$\frac{27}{220}$\\
+
+3 & $\frac{1}{220}$ & 0 & 0 & 0 &$\frac{1}{220}$\\
+\hline
+$\mathcal{P}(Y=j)$ & $\frac{56}{220}$ & $\frac{112}{220}$ & $\frac{48}{220}$ & $\frac{4}{220}$ &1\\
+
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+
+\item
+\begin{itemize}
+\item[a)] $\Omega = \{(1,C), (2,C), (3,C), (4,C), (5,C), (6,C), (1,K), (2,K), (3,K), (4,K), (5,K), (6,K) \}$.
+\item[b)] A tabela de distribuição segue abaixo:
+\begin{table}[htbp]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{c|c|c|c|c|c|c|c}
+\hline
+\hline
+X / Y & 1 & 2 & 3 & 4 & 5 & 6 & $\mathcal{P}(X=i)$\\
+\hline
+0 & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{2}$\\ 
+
+1 & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{2}$\\
+\hline
+$\mathcal{P}(Y=j)$ & $\frac{1}{6}$ &  $\frac{1}{6}$ &  $\frac{1}{6}$ &  $\frac{1}{6}$ &  $\frac{1}{6}$ &  $\frac{1}{6}$ & 1\\
+
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\item[c)] Para todo $i=0,1$ e $j=1,2,3,4,5,6$ temos que $$\mathcal{P}(X=i,Y=j) = \mathcal{P}(X=i)\mathcal{P}(Y=j),$$ portanto $X$ e $Y$ são independentes.
+\item[d)] $$\mathcal{P}(X\geqslant 0,Y\leqslant 4)=\sum_{i=0}^{1}\sum_{j=1}^{4}\mathcal{P}(X=i,Y=j)=\frac{8}{12}.$$
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] As distribuições marginais seguem na tabela abaixo:
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|c|c|c|c}
+\hline
+\hline
+Y / X & 1 & 2 & 3 & $\mathcal{P}(Y=y)$\\
+\hline
+0 & 0,1 & 0,1 & 0,1 & 0,3\\
+
+1 & 0,2 & 0,0 & 0,3 & 0,5\\
+
+2 & 0,0 & 0,1 & 0,1 & 0,2\\
+\hline
+$\mathcal{P}(X=x)$ & 0,3 & 0,2 & 0,5 & 1\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\item[b)] 
+\vspace*{-0.5cm}
+\begin{eqnarray*}
+\mathcal{E}(X)&=& 1(0,3)+2(0,2)+3(0,5)=2,2\\
+\mathcal{E}(Y)&=& 0(0,3)+1(0,5)+2(0,2)=0,9\\
+\end{eqnarray*}
+
+\vspace*{-1.5cm}
+
+\begin{eqnarray*}
+\mathcal{E}(X^2)&=& 1^2(0,3)+2^2(0,2)+3^2(0,5)=5,6\\
+\mathcal{E}(Y^2)&=& 0^2(0,3)+1^2(0,2)+2^2(0,5)=1,3\\
+\end{eqnarray*}
+
+\vspace*{-1.5cm}
+
+\begin{eqnarray*}
+\text{Var}(X)&=& \mathcal{E}(X^2)-[\mathcal{E}(X)]^2=0,76\\
+\text{Var}(Y)&=& \mathcal{E}(Y^2)-[\mathcal{E}(Y)]^2=0,49\\
+\end{eqnarray*}
+\item[c)] Não são independentes. Basta observar que $$0,0=\mathcal{P}(X=2,Y=1)\neq \mathcal{P}(X=2)\mathcal{P}(Y=1) = (0,2)(0,5)=0,1.$$
+\item[d)] $$\mathcal{P}(X=1|Y=0)=\frac{\mathcal{P}(X=1,Y=0)}{\mathcal{P}(Y=0)}=\frac{0,1}{0,3}=\frac{1}{3}.$$ 
+$$\mathcal{P}(Y=2|X=3)=\frac{\mathcal{P}(Y=2,X=3)}{\mathcal{P}(X=3)}=\frac{0,1}{0,5}=\frac{1}{5}.$$
+\item[e)] $$\mathcal{P}(X\leqslant 2)=\mathcal{P}(X=1)+\mathcal{P}(X=2)=0,5.$$
+$$\mathcal{P}(X=2,Y\leqslant 1) = \mathcal{P}(X=2,Y=0)+\mathcal{P}(X=2,Y=1) = 0,1.$$
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] As distribuições marginais seguem na tabela abaixo:
+
+\begin{table}[htbp]
+\renewcommand{\arraystretch}{1.3}
+\centering
+\begin{tabular}{c|c|c|c|c}
+\hline
+\hline
+Y / X & -1 & 0 & 1 & $\mathcal{P}(Y=y)$\\
+\hline
+-1 & $\frac{1}{12}$ & 0 & $\frac{1}{12}$ & $\frac{1}{6}$\\
+
+0 & $\frac{1}{6}$ & 0 & $\frac{1}{6}$ & $\frac{1}{3}$\\
+
+1 & $\frac{1}{4}$ & 0 & $\frac{1}{4}$ & $\frac{1}{2}$\\
+\hline
+$\mathcal{P}(X=x)$ & $\frac{1}{2}$ & 0 & $\frac{1}{2}$ & 1\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\item[b)] \begin{eqnarray*}
+\mathcal{E}(X)&=& -1\left(\frac{1}{2}\right)+0+1\left(\frac{1}{2}\right)=0\\
+\mathcal{E}(Y)&=& -1\left(\frac{1}{6}\right)+0+1\left(\frac{1}{2}\right)=\frac{1}{3}\\
+\end{eqnarray*}
+
+\vspace*{-1cm}
+
+\begin{eqnarray*}
+\mathcal{E}(X^2)&=& 1\left(\frac{1}{2}\right)+0+1\left(\frac{1}{2}\right)=1\\
+\mathcal{E}(Y^2)&=& 1\left(\frac{1}{6}\right)+0+1\left(\frac{1}{2}\right)=\frac{2}{3}\\
+\end{eqnarray*}
+\vspace*{-1cm}
+
+\begin{eqnarray*}
+\text{Var}(X)&=& \mathcal{E}(X^2)-[\mathcal{E}(X)]^2=1\\
+\text{Var}(Y)&=& \mathcal{E}(Y^2)-[\mathcal{E}(Y)]^2=\frac{5}{9}\\
+\end{eqnarray*} 
+\item[c)] De maneira análoga ao {\bf item d)} da {\bf Questão 5} encontramos $$\mathcal{P}(X=-1|Y=0)=\frac{1}{2}, \ \ \mathcal{P}(X=0|Y=0)=0,  \ \ \mathcal{P}(X=1|Y=0)=\frac{1}{2},$$ 
+$$\mathcal{P}(Y=-1|X=1)=\frac{1}{6},  \ \ \mathcal{P}(Y=0|X=1)=\frac{1}{3},  \ \ \mathcal{P}(Y=1|X=1)=\frac{1}{2}.$$
+\item[d)] Como $X$ e $Y$ são independentes $\text{Cov}(X,Y)=0$ e $$\text{Var}(X+Y)=\text{Var}(X)+\text{Var}(Y)=1+\frac{5}{9}=\frac{14}{9}.$$
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] Lembre-se que podemos escrever $\rho(X,Y)=\mathcal{E}\left[\left(\frac{X-\mathcal{E}(X)}{\sigma(X)}\right)\left(\frac{Y-\mathcal{E}(Y)}{\sigma(Y)}\right)\right]$.
+
+\noindent Como $$\left(\frac{X-\mathcal{E}(X)}{\sigma(X)}-\frac{Y-\mathcal{E}(Y)}{\sigma(Y)}\right)^2\geqslant 0,$$ temos
+\begin{eqnarray*}
+&& \mathcal{E}\left(\frac{X-\mathcal{E}(X)}{\sigma(X)}-\frac{Y-\mathcal{E}(Y)}{\sigma(Y)}\right)^2\\
+&=& \mathcal{E}\left(\frac{X-\mathcal{E}(X)}{\sigma(X)}\right)^2+\mathcal{E}\left(\frac{Y-\mathcal{E}(Y)}{\sigma(Y)}\right)^2-\frac{2}{\sigma(X)\sigma(Y)}\mathcal{E}[(X-\mathcal{E}(X))(Y-\mathcal{E}(Y))]\\
+&=& \frac{\text{Var(X)}}{\sigma^2(X)}+\frac{\text{Var(Y)}}{\sigma^2(Y)}-\frac{2\text{Cov(X,Y)}}{\sigma(X)\sigma(Y)}=2-2\rho(X,Y)\\
+&\geqslant& 0.
+\end{eqnarray*}
+Logo $\rho(X,Y)\leqslant 1.$
+
+\noindent Substituindo ``$-$'' por ``$+$'' na expressão acima, encontramos a outra desigualdade.
+\item[b)] \begin{eqnarray*}
+\rho(X+a,Y+b)&=& \frac{\mathcal{E}[(X+a)(Y+b)]-\mathcal{E}(X+a)\mathcal{E}(Y+b)}{\sigma(X+a)\sigma(Y+b)}\\
+&=& \frac{\mathcal{E}(XY+aY+bX+ab)-[\mathcal{E}(X)+a][\mathcal{E}(Y)+b]}{\sigma(X)\sigma(Y)}\\
+&=& \frac{\mathcal{E}(XY)-\mathcal{E}(X)\mathcal{E}(Y)}{\sigma(X)\sigma(Y)}\\
+&=& \rho(X,Y).
+\end{eqnarray*}
+\item[c)] \begin{eqnarray*}
+\rho(aX,bY)&=& \frac{\mathcal{E}(aXbY)-\mathcal{E}(aX)\mathcal{E}(bY)}{\sigma(aX)\sigma(bY)}\\
+&=& \frac{ab\mathcal{E}(XY)-ab\mathcal{E}(X)\mathcal{E}(Y)}{|a||b|\sigma(X)\sigma(Y)}\\
+&=& \frac{ab}{|ab|}\frac{\text{Cov}(X,Y)}{\sigma(X)\sigma(Y)}\\
+&=& \frac{ab}{|ab|}\rho(X,Y).
+\end{eqnarray*}
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] A distribuição de $X+Y$ segue na tabela abaixo:
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|ccccc|c}
+\hline
+\hline
+$k$ & 2 & 3 & 4 & 5 & 6 & Total\\
+\hline
+$\mathcal{P}(X+Y=k)$ & 0,1 & 0,2 & 0,3 & 0,4 & 0,0 & 1,0\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\noindent Desse modo,
+
+$$\mathcal{E}(X+Y)=2(0,1)+3(0,2)+4(0,3)+ 5(0,4)+6(0,0)=4.$$
+
+\noindent Outra maneira de obter a resposta seria encontrar as distribuições marginais obtendo $\mathcal{E}(X)=2$ e $\mathcal{E}(Y)=2$, em seguida aplicar a lei da soma para esperanças.
+
+\item[b)] A distribuição de $XY$ segue na tabela abaixo:
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|ccccccccc|c}
+\hline
+\hline
+$k$ & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & Total\\
+\hline
+$\mathcal{P}(XY=k)$ & 0,1 & 0,2 & 0,1 & 0,2 & 0,0 & 0,4 & 0,0 & 0,0 & 0,0 & 1,0\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\noindent Desse modo, $$\mathcal{E}(XY)=1(0,1)+2(0,2)+3(0,1)+4(0,2)+5(0,0)+6(0,4)+7(0,0)+8(0,0)+9(0,0)=4.$$
+
+\item[c)] Claramente, $\mathcal{E}(XY)=\mathcal{E}(X)\mathcal{E}(Y)$, mas $$0=\mathcal{P}(X=3,Y=1)\neq \mathcal{P}(X=3)\mathcal{P}(Y=1)=(0,3)(0,2)=0,06.$$
+\item[d)] $$\mathcal{E}(X+Y)^2=2^2(0,1)+3^2(0,2)+4^2(0,3)+ 5^2(0,4)+6^2(0,0)=17.$$ Portanto, $$\text{Var}(X+Y)=17-4^2=1.$$
+\end{itemize}
+
+\item 
+\begin{itemize}
+\item[a)]A tabela abaixo apresenta as probabilidades $\mathcal{P}(X=i,Y=j)$ com as respectivas marginais:
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{c|c|c|c|c}
+\hline
+\hline
+X / Y & 1 & 2 & 3 & $\mathcal{P}(X=i)$\\
+\hline
+1 & 0 & $\frac{1}{6}$ & $\frac{1}{6}$ & $\frac{1}{3}$\\
+
+2 & $\frac{1}{6}$ & 0 & $\frac{1}{6}$ &$\frac{1}{3}$\\
+
+3 & $\frac{1}{6}$ & $\frac{1}{6}$ & 0 &$\frac{1}{3}$\\
+\hline
+$\mathcal{P}(Y=j)$ & $\frac{1}{3}$ & $\frac{1}{3}$ & $\frac{1}{3}$ & 1\\
+\hline
+\hline
+\end{tabular}
+\end{table} 
+\item[b)] A distribuição de $Z=X+Y$ segue na tabela abaixo
+\begin{table}[H]
+\centering
+\begin{tabular}{c|ccccc|c}
+\hline
+\hline
+$k$ & 2 & 3 & 4 & 5 & 6& Total\\
+\hline
+$\mathcal{P}(X+Y=k)$ & 0 & $\frac{1}{3}$ & $\frac{1}{3}$ & $\frac{1}{3}$ & 0 & 1\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+enquanto a distribuição da variável $W=XY$ é dada pela tabela
+\begin{table}[H]
+\centering
+\begin{tabular}{c|cccccc|c}
+\hline
+\hline
+$k$ & 1 & 2 & 3 & 4 & 6 & 9 & Total\\
+\hline
+$\mathcal{P}(XY=k)$ & 0 & $\frac{1}{3}$ & $\frac{1}{3}$ & 0 & $\frac{1}{3}$ & 0 & 1\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\item[c)] \begin{eqnarray*}
+\P(X<Y) &=& \P(X=1,Y=2)+\P(X=1,Y=3)+\P(X=2,Y=3)\\
+&=& 1/6+1/6+1/6\\
+&=& 1/2.
+\end{eqnarray*}
+\item[d)] \begin{eqnarray*}
+\E(X) &=& \E(Y) = 1\times \frac{1}{3}+2\times \frac{1}{3}+3\times \frac{1}{3}=2\\
+\E(Z) &=& 3\times \frac{1}{3}+4\times \frac{1}{3}+5\times \frac{1}{3}=4\\
+\E(W) &=& 2\times \frac{1}{3}+3\times \frac{1}{3}+6\times \frac{1}{3}= \frac{11}{3}.
+\end{eqnarray*}
+\item[e)] Primeiramente calculamos $$\E(X^2) = \E(Y^2) = 1^2\times \frac{1}{3}+2^2\times \frac{1}{3}+3^2\times \frac{1}{3}=\frac{14}{3}$$ e, consequentemente $$\text{Var}(X)=\text{Var}(Y)=\frac{14}{3}-2^2=\frac{2}{3}.$$
+\item[f)] \begin{eqnarray*}
+\text{Cov}(X,Y) &=& \E(XY)-\E(X)\E(Y)\\
+&=& \E(W)-\E(X)\E(Y)\\
+&=& 11/3-2\times 2\\
+&=& -1/3
+\end{eqnarray*}
+\end{itemize}
+
+\item Da definição temos
+\begin{eqnarray*}
+\text{Var}(X+Y) &=& \E(X+Y)^2-\{\E(X+Y)\}^2\\
+&=& \E(X^2+2XY+Y^2)-\{\E(X)+\E(Y)\}^2\\
+&=& \E(X^2)+2\E(XY)+\E(Y^2)-\{[\E(X)]^2+2\E(X)\E(Y)+[\E(Y)]^2\}\\
+&=& \E(X^2)-[\E(X)]^2 +2\{\E(XY)-\E(X)\E(Y)\} +\E(Y^2)-[\E(Y)]^2\\
+&=& \text{Var}(X)+2\text{Cov}(X,Y)+\text{Var}(Y).
+\end{eqnarray*}
+
+Analogamente, encontramos $\text{Var}(X-Y) = \text{Var}(X)-2\text{Cov}(X,Y)+\text{Var}(Y).$
+
+\item Vamos supor que homens e mulheres entrem na drogaria de forma independente. Como a soma de duas poissons é uma poisson com os parâmetros somados seja $X_1\sim \text{Pois}(5)$ e $X_2\sim \text{Pois}(5)$ as variáveis que representam o números de homens e mulheres que entram na drogaria respectivamente. Desse modo, $X_1+X_2 \sim \text{Pois}(10)$ como esperávamos. A probabilidade desejada é
+\begin{eqnarray*}
+\mathcal{P}(X_1\leqslant 3|X_2=10)&=& \mathcal{P}(X_1\leqslant 3)\\
+&=& e^{-5}+5e^{-5}+\frac{5^2}{2!}e^{-5}+\frac{5^3}{3!}e^{-5}.
+\end{eqnarray*}
+
+\item
+\begin{eqnarray*}
+\mathcal{P}(X=k|X+Y=n) &=& \frac{\mathcal{P}(X=k,X+Y=n)}{\mathcal{P}(X+Y=n)}\\
+&=& \frac{\mathcal{P}(X=k,Y=n-k)}{\mathcal{P}(X+Y=n)}\\
+&=& \frac{\mathcal{P}(X=k)\mathcal{P}(Y=n-k)}{\mathcal{P}(X+Y=n)}\\
+&=& \frac{e^{-\lambda_1}\lambda_1^k}{k!}\frac{e^{-\lambda_2}\lambda_2^{n-k}}{(n-k)!}\left[\frac{e^{-(\lambda_1+\lambda_2)}(\lambda_1+\lambda_2)^n}{n!}\right]^{-1}\\
+&=& \binom{n}{k}\left(\frac{\lambda_1}{\lambda_1+\lambda_2}\right)^k\left(\frac{\lambda_2}{\lambda_1+\lambda_2}\right)^{n-k}\\
+\end{eqnarray*}
+ou seja, é a distribuição de uma binomial de parâmetros $n$ e $\frac{\lambda_1}{\lambda_1+\lambda_2}$.
+
+\item 
+\begin{itemize}
+\item[a)] Sabendo que $X\sim \mathcal{N}(100,100)$, segue que
+
+\begin{eqnarray*}
+\mathcal{P}(90<X<110) &=& \mathcal{P}\left(\frac{90-100}{10}<\frac{X-100}{10}<\frac{110-100}{10}\right)\\
+&\simeq& \mathcal{P}(-1<Z<1)\\
+&=& 2\mathcal{P}(Z<1)-1\\
+&\simeq& 2(0,84134)-1\\
+&=& 0,68268.
+\end{eqnarray*}
+
+\vspace*{0.8cm}
+\item[b)] Como $\overline{X}\sim \mathcal{N}(100,100/16)$, temos que
+
+\begin{eqnarray*}
+\mathcal{P}\left(90<\overline{X}<110\right) &=& \mathcal{P}\left(\frac{90-100}{10/4}<\frac{\overline{X}-100}{10/4}<\frac{110-100}{10/4}\right)\\
+&\simeq& \mathcal{P}(-4<Z<4)\\
+&=& 2\mathcal{P}(Z<4)-1\\
+&\simeq& 2(0,99997)-1\\
+&=& 0,99994.
+\end{eqnarray*}
+
+\vspace*{0.8cm}
+\item[c)] As densidades seguem na figura abaixo
+
+\vspace*{0.7cm}
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.72]{Q1itemC.eps}
+%\caption{}
+%\label{}
+\end{figure}
+\item[d)] Partindo da equação fornecida e sabendo que $\overline{X}\sim \mathcal{N}(100,100/n)$, segue que
+\begin{eqnarray*}
+&& \mathcal{P}\left(90<\overline{X}<110\right) = 0,95\\
+&\iff& \mathcal{P}\left(\frac{90-100}{10/\sqrt{n}}<\frac{\overline{X}-100}{10/\sqrt{n}}<\frac{110-100}{10/\sqrt{n}}\right)=0,95\\
+&\iff& \mathcal{P}(-\sqrt{n}<Z<\sqrt{n})=0,95\\
+&\iff& 2\mathcal{P}(Z<\sqrt{n})-1=0,95\\
+&\iff& \mathcal{P}(Z<\sqrt{n})=0,975\\
+&\iff& \sqrt{n}\simeq 1,96\\
+&\iff& n\simeq 3,84.
+\end{eqnarray*}
+Como $n$ deve ser inteiro concluímos que seu valor deve ser, pelo menos, 4.
+
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] Nós temos que $X\sim \mathcal{N}(\mu,10^2)$, então
+\begin{eqnarray*}
+&& \mathcal{P}(X<500) = 0,10\\
+&\iff& \mathcal{P}\left(\frac{X-\mu}{10}<\frac{500-\mu}{10}\right)=0,10\\
+&\iff& \mathcal{P}\left(Z<\frac{500-\mu}{10}\right)=0,10\\
+&\iff& \mathcal{P}\left(Z>-\frac{500-\mu}{10}\right)=0,10\\
+&\iff& 1-\mathcal{P}\left(Z<\frac{\mu-500}{10}\right)=0,10\\
+&\iff& \mathcal{P}\left(Z<\frac{\mu-500}{10}\right)=0,90\\
+&\iff& \frac{\mu-500}{10} = 1,28\\
+&\iff& \mu = 512,8.
+\end{eqnarray*}
+
+\item[b)] O peso total dos pacotes é dado por $$S_4=X_1+\cdots +X_4 \sim \mathcal{N}(4\times 512,8 \ ; \ 4\times10^2).$$ Desse modo temos
+\begin{eqnarray*}
+\mathcal{P}(S_4<2000) &=& \mathcal{P}\left(\frac{S_4-2051,2}{20}<\frac{2000-2051,2}{20}\right)\\
+&\simeq& \mathcal{P}(Z<-2,56)\\
+&=& \mathcal{P}(Z>2,56)\\
+&=& 1-\mathcal{P}(Z<2,56)\\
+&=& 1-0,99477\\
+&=& 0,00523.
+\end{eqnarray*}
+\end{itemize}
+
+\item O peso total dos passageiros é dado por $$S_7=X_1+\cdots +X_7 \sim \mathcal{N}(7\times 70 \ , \ 7\times100).$$ Desse modo temos
+\begin{eqnarray*}
+\mathcal{P}(S_7>500) &=& \mathcal{P}\left(\frac{S_7-490}{10\sqrt{7}}>\frac{500-490}{10\sqrt{7}}\right)\\
+&\simeq& \mathcal{P}(Z>0,38)\\
+&=& 1-\mathcal{P}(Z<0,38)\\
+&=& 1-0,64803\\
+&=& 0,35197.
+\end{eqnarray*} 
+
+\item Inicialmente temos $X\sim \mathcal{N}(200,100)$.
+\begin{itemize}
+\item[a)] A probabilidade de um pacote pesar menos de 205 gramas é $$\P(X<205)=\P\left(Z<\frac{205-200}{\sqrt{100}}\right) = \P(Z<0,5)=0,69146.$$ Como sorteamos 25 pacotes aleatoriamente, o número esperado de pacotes com peso menor que 205 gramas é $0,69146\times 25 = 17,2865.$
+\item[b)] Denotando $S_{25} = X_1+\cdots+X_{25}$, sabemos que $S_{25}\sim \mathcal{N}(25\times 200,25\times 100)$. Desse modo $$\P(S_{25}<5125)=\P\left(Z<\frac{5125-25\times 200}{\sqrt{25\times 100}}\right) = \P(Z<2,5)=0,99379.$$
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] O valor esperado é dado por $$\mu=200(0,45)=90,$$ e o desvio padrão é dado por $$\sigma = \sqrt{­200(0,45)(1-0,45)} = 7,0356.$$
+\item[b)] Como estamos interessados em aproximar a probabilidade pela normal, se representarmos por $X$ o número de indivíduos a favor do candidato e $Y$ uma v.a. com distribuição $\mathcal{N}(\mu, \sigma^2)$, basta aplicarmos o Teorema de DeMoivre-Laplace e 
+\begin{eqnarray*}
+\mathcal{P}(X>101) &\simeq& \mathcal{P}(Y>100,5)\\
+&=& \mathcal{P}\left(\frac{Y-90}{7,0356}>\frac{100,5-90}{7,0356}\right)\\
+&\simeq&  \mathcal{P}(Z>1,49)\\
+&=& 1-\mathcal{P}(Z<1,49)\\
+&\simeq& 1-0,93189\\
+&=& 0,06811.
+\end{eqnarray*}
+\end{itemize}
+
+\item Se o máximo de um conjunto é menor que um valor então, obviamente, todos os outros elementos do conjunto também serão menores que este valor. Com base nessa idéia note que para $X$, uma v.a. com mesma distribuição dos $X_i$'s temos
+\begin{eqnarray*}
+F_M(m) &=& \mathcal{P}(M\leqslant m)\\
+&=& \mathcal{P}(\text{Max}(X_1,\ldots,X_n)\leqslant m)\\
+&=& \mathcal{P}(X_1\leqslant m,\ldots,X_n\leqslant m)\\
+&=& \mathcal{P}(X_1\leqslant m)\cdots \mathcal{P}(X_n\leqslant m)\\
+&=& [F_X(m)]^n.
+\end{eqnarray*}
+Para encontrar a densidade basta derivar a função distribuição:
+
+\begin{eqnarray*}
+f_M(m) &=& \frac{d}{dm}F_M(m)\\
+&=&\frac{d}{dm}[F_X(m)]^n\\
+&=& n[F_X(m)]^{n-1}f_X(m).
+\end{eqnarray*}
+
+\item Se $X\sim \mathcal{U}(0,\theta)$, temos
+\begin{equation*}
+\renewcommand{\arraystretch}{1.3}
+f_X(m) = 
+\left\{\begin{array}{lrr}
+\dfrac{1}{\theta}, &\text{se} & m\in (0,\theta),\\
+0 &\text{se} & m \notin (0,\theta).\\
+\end{array} \right.
+\end{equation*} 
+e
+
+\begin{equation*}
+\renewcommand{\arraystretch}{1.4}
+F_X(m) = 
+\left\{\begin{array}{crr}
+0, &\text{se} & m\leqslant 0,\\
+\dfrac{m}{\theta}, &\text{se} & m\in (0,\theta),\\
+1 &\text{se} & m \geqslant \theta.\\
+\end{array} \right.
+\end{equation*} 
+
+\noindent Portanto
+\begin{equation*}
+\renewcommand{\arraystretch}{1.4}
+f_M(m) = 
+\left\{\begin{array}{crr}
+\dfrac{nm^{n-1}}{\theta^n}, &\text{se} & m\in (0,\theta),\\
+0, &\text{se} & m \notin (0,\theta).\\
+\end{array} \right.
+\end{equation*} 
+e
+
+\begin{equation*}
+\renewcommand{\arraystretch}{1.4}
+F_M(m) = 
+\left\{\begin{array}{crr}
+0, &\text{se} & m\leqslant 0,\\
+\dfrac{m^n}{\theta^n}, &\text{se} & m\in (0,\theta),\\
+1, &\text{se} & m \geqslant \theta.\\
+\end{array} \right.
+\end{equation*} 
+
+
+
+
+
+\end{enumerate}
+\end{document}

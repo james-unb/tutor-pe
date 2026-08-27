@@ -1,0 +1,512 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Numa certa população, \(10\%\) das pessoas estão infectadas por um
+  determinado vírus. Um teste para detecção do vírus detecta
+  corretamente \(93\%\) dos casos nos quais os indivíduos estão
+  infectados, mas, equivocadamente, atribui \(10\%\) de resultados
+  positivos para os não infectados (falso positivos). Qual a
+  probabilidade de que o teste de uma pessoa dessa população dê
+  resultado positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.300\)
+  \item
+    \(0.100\)
+  \item
+    \(0.183\)
+  \item
+    \(0.093\)
+  \item
+    \(0.097\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``o resultado do teste é positivo'',}
+  \\
+  & B=\text{``a pessoa está infectada''.}
+  \end{array}\] Por hipótese temos que \(\mathbb{P}(B)=10\%\),
+  \(\mathbb{P}(A|B)=93\%\) e \(\mathbb{P}(A|B^c)=10\%\). Desejamos
+  calcular \(\mathbb{P}(A)\). Para isso, note que \(\{B,B^c\}\) forma
+  uma partição do espaço amostral. Logo, pelo Teorema da probabilidade
+  total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= 0.93 \times 0.1 + 0.1 \times 0.9 = 0.183
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Numa certa população, \(9\%\) das pessoas estão infectadas por um
+  determinado vírus. Um teste para detecção do vírus detecta
+  corretamente \(93\%\) dos casos nos quais os indivíduos estão
+  infectados, mas, equivocadamente, atribui \(9\%\) de resultados
+  positivos para os não infectados (falso positivos). Qual a
+  probabilidade de que o teste de uma pessoa dessa população dê
+  resultado positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.090\)
+  \item
+    \(0.166\)
+  \item
+    \(0.084\)
+  \item
+    \(0.087\)
+  \item
+    \(0.160\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``o resultado do teste é positivo'',}
+  \\
+  & B=\text{``a pessoa está infectada''.}
+  \end{array}\] Por hipótese temos que \(\mathbb{P}(B)=9\%\),
+  \(\mathbb{P}(A|B)=93\%\) e \(\mathbb{P}(A|B^c)=9\%\). Desejamos
+  calcular \(\mathbb{P}(A)\). Para isso, note que \(\{B,B^c\}\) forma
+  uma partição do espaço amostral. Logo, pelo Teorema da probabilidade
+  total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= 0.93 \times 0.09 + 0.09 \times 0.91 = 0.166
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Numa certa população, \(5\%\) das pessoas estão infectadas por um
+  determinado vírus. Um teste para detecção do vírus detecta
+  corretamente \(91\%\) dos casos nos quais os indivíduos estão
+  infectados, mas, equivocadamente, atribui \(4\%\) de resultados
+  positivos para os não infectados (falso positivos). Qual a
+  probabilidade de que o teste de uma pessoa dessa população dê
+  resultado positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.046\)
+  \item
+    \(0.240\)
+  \item
+    \(0.050\)
+  \item
+    \(0.048\)
+  \item
+    \(0.084\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``o resultado do teste é positivo'',}
+  \\
+  & B=\text{``a pessoa está infectada''.}
+  \end{array}\] Por hipótese temos que \(\mathbb{P}(B)=5\%\),
+  \(\mathbb{P}(A|B)=91\%\) e \(\mathbb{P}(A|B^c)=4\%\). Desejamos
+  calcular \(\mathbb{P}(A)\). Para isso, note que \(\{B,B^c\}\) forma
+  uma partição do espaço amostral. Logo, pelo Teorema da probabilidade
+  total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= 0.91 \times 0.05 + 0.04 \times 0.95 = 0.084
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Numa certa população, \(7\%\) das pessoas estão infectadas por um
+  determinado vírus. Um teste para detecção do vírus detecta
+  corretamente \(91\%\) dos casos nos quais os indivíduos estão
+  infectados, mas, equivocadamente, atribui \(7\%\) de resultados
+  positivos para os não infectados (falso positivos). Qual a
+  probabilidade de que o teste de uma pessoa dessa população dê
+  resultado positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.129\)
+  \item
+    \(0.067\)
+  \item
+    \(0.220\)
+  \item
+    \(0.070\)
+  \item
+    \(0.064\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``o resultado do teste é positivo'',}
+  \\
+  & B=\text{``a pessoa está infectada''.}
+  \end{array}\] Por hipótese temos que \(\mathbb{P}(B)=7\%\),
+  \(\mathbb{P}(A|B)=91\%\) e \(\mathbb{P}(A|B^c)=7\%\). Desejamos
+  calcular \(\mathbb{P}(A)\). Para isso, note que \(\{B,B^c\}\) forma
+  uma partição do espaço amostral. Logo, pelo Teorema da probabilidade
+  total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= 0.91 \times 0.07 + 0.07 \times 0.93 = 0.129
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Numa certa população, \(8\%\) das pessoas estão infectadas por um
+  determinado vírus. Um teste para detecção do vírus detecta
+  corretamente \(90\%\) dos casos nos quais os indivíduos estão
+  infectados, mas, equivocadamente, atribui \(4\%\) de resultados
+  positivos para os não infectados (falso positivos). Qual a
+  probabilidade de que o teste de uma pessoa dessa população dê
+  resultado positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.240\)
+  \item
+    \(0.109\)
+  \item
+    \(0.080\)
+  \item
+    \(0.072\)
+  \item
+    \(0.076\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``o resultado do teste é positivo'',}
+  \\
+  & B=\text{``a pessoa está infectada''.}
+  \end{array}\] Por hipótese temos que \(\mathbb{P}(B)=8\%\),
+  \(\mathbb{P}(A|B)=90\%\) e \(\mathbb{P}(A|B^c)=4\%\). Desejamos
+  calcular \(\mathbb{P}(A)\). Para isso, note que \(\{B,B^c\}\) forma
+  uma partição do espaço amostral. Logo, pelo Teorema da probabilidade
+  total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= 0.9 \times 0.08 + 0.04 \times 0.92 = 0.109
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Numa certa população, \(15\%\) das pessoas estão infectadas por um
+  determinado vírus. Um teste para detecção do vírus detecta
+  corretamente \(97\%\) dos casos nos quais os indivíduos estão
+  infectados, mas, equivocadamente, atribui \(4\%\) de resultados
+  positivos para os não infectados (falso positivos). Qual a
+  probabilidade de que o teste de uma pessoa dessa população dê
+  resultado positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.150\)
+  \item
+    \(0.148\)
+  \item
+    \(0.100\)
+  \item
+    \(0.180\)
+  \item
+    \(0.146\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``o resultado do teste é positivo'',}
+  \\
+  & B=\text{``a pessoa está infectada''.}
+  \end{array}\] Por hipótese temos que \(\mathbb{P}(B)=15\%\),
+  \(\mathbb{P}(A|B)=97\%\) e \(\mathbb{P}(A|B^c)=4\%\). Desejamos
+  calcular \(\mathbb{P}(A)\). Para isso, note que \(\{B,B^c\}\) forma
+  uma partição do espaço amostral. Logo, pelo Teorema da probabilidade
+  total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= 0.97 \times 0.15 + 0.04 \times 0.85 = 0.18
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Numa certa população, \(13\%\) das pessoas estão infectadas por um
+  determinado vírus. Um teste para detecção do vírus detecta
+  corretamente \(94\%\) dos casos nos quais os indivíduos estão
+  infectados, mas, equivocadamente, atribui \(5\%\) de resultados
+  positivos para os não infectados (falso positivos). Qual a
+  probabilidade de que o teste de uma pessoa dessa população dê
+  resultado positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.130\)
+  \item
+    \(0.166\)
+  \item
+    \(0.160\)
+  \item
+    \(0.122\)
+  \item
+    \(0.126\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``o resultado do teste é positivo'',}
+  \\
+  & B=\text{``a pessoa está infectada''.}
+  \end{array}\] Por hipótese temos que \(\mathbb{P}(B)=13\%\),
+  \(\mathbb{P}(A|B)=94\%\) e \(\mathbb{P}(A|B^c)=5\%\). Desejamos
+  calcular \(\mathbb{P}(A)\). Para isso, note que \(\{B,B^c\}\) forma
+  uma partição do espaço amostral. Logo, pelo Teorema da probabilidade
+  total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= 0.94 \times 0.13 + 0.05 \times 0.87 = 0.166
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Numa certa população, \(7\%\) das pessoas estão infectadas por um
+  determinado vírus. Um teste para detecção do vírus detecta
+  corretamente \(93\%\) dos casos nos quais os indivíduos estão
+  infectados, mas, equivocadamente, atribui \(5\%\) de resultados
+  positivos para os não infectados (falso positivos). Qual a
+  probabilidade de que o teste de uma pessoa dessa população dê
+  resultado positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.065\)
+  \item
+    \(0.070\)
+  \item
+    \(0.100\)
+  \item
+    \(0.112\)
+  \item
+    \(0.068\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``o resultado do teste é positivo'',}
+  \\
+  & B=\text{``a pessoa está infectada''.}
+  \end{array}\] Por hipótese temos que \(\mathbb{P}(B)=7\%\),
+  \(\mathbb{P}(A|B)=93\%\) e \(\mathbb{P}(A|B^c)=5\%\). Desejamos
+  calcular \(\mathbb{P}(A)\). Para isso, note que \(\{B,B^c\}\) forma
+  uma partição do espaço amostral. Logo, pelo Teorema da probabilidade
+  total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= 0.93 \times 0.07 + 0.05 \times 0.93 = 0.112
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Numa certa população, \(11\%\) das pessoas estão infectadas por um
+  determinado vírus. Um teste para detecção do vírus detecta
+  corretamente \(96\%\) dos casos nos quais os indivíduos estão
+  infectados, mas, equivocadamente, atribui \(6\%\) de resultados
+  positivos para os não infectados (falso positivos). Qual a
+  probabilidade de que o teste de uma pessoa dessa população dê
+  resultado positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.159\)
+  \item
+    \(0.110\)
+  \item
+    \(0.106\)
+  \item
+    \(0.260\)
+  \item
+    \(0.108\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``o resultado do teste é positivo'',}
+  \\
+  & B=\text{``a pessoa está infectada''.}
+  \end{array}\] Por hipótese temos que \(\mathbb{P}(B)=11\%\),
+  \(\mathbb{P}(A|B)=96\%\) e \(\mathbb{P}(A|B^c)=6\%\). Desejamos
+  calcular \(\mathbb{P}(A)\). Para isso, note que \(\{B,B^c\}\) forma
+  uma partição do espaço amostral. Logo, pelo Teorema da probabilidade
+  total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= 0.96 \times 0.11 + 0.06 \times 0.89 = 0.159
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Numa certa população, \(5\%\) das pessoas estão infectadas por um
+  determinado vírus. Um teste para detecção do vírus detecta
+  corretamente \(91\%\) dos casos nos quais os indivíduos estão
+  infectados, mas, equivocadamente, atribui \(3\%\) de resultados
+  positivos para os não infectados (falso positivos). Qual a
+  probabilidade de que o teste de uma pessoa dessa população dê
+  resultado positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.260\)
+  \item
+    \(0.046\)
+  \item
+    \(0.050\)
+  \item
+    \(0.074\)
+  \item
+    \(0.048\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``o resultado do teste é positivo'',}
+  \\
+  & B=\text{``a pessoa está infectada''.}
+  \end{array}\] Por hipótese temos que \(\mathbb{P}(B)=5\%\),
+  \(\mathbb{P}(A|B)=91\%\) e \(\mathbb{P}(A|B^c)=3\%\). Desejamos
+  calcular \(\mathbb{P}(A)\). Para isso, note que \(\{B,B^c\}\) forma
+  uma partição do espaço amostral. Logo, pelo Teorema da probabilidade
+  total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= 0.91 \times 0.05 + 0.03 \times 0.95 = 0.074
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

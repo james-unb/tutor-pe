@@ -1,0 +1,496 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsfonts,amssymb,amsbsy}
+\usepackage{amsthm} %Permite teorema sem numeração, no meu caso Demonstração
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{float}
+
+%------------------------------------------------------------------------------
+
+\setlength{\topmargin}{-1.0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{6.5in}
+\setlength{\baselineskip}{12mm}
+
+%------------------------------------------------------------------------------
+
+\renewcommand{\P}{\mathcal{P}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+        \begin{minipage}[c]{7in}
+                  {Universidade de Brasília} \\
+                  {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf $\text{5}^{\text{\underline{a}}}$ Lista de PE}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item Um time de basquete irá jogar uma temporada de 44 jogos. 26 desses jogos serão disputados contra times da classe A e os 18 restantes contra times da classe B. Suponha que o time irá vencer cada jogo contra times da classe A com probabilidade 0,4 e irá vencer cada jogo contra times da classe B com probabilidade 0,7. Suponha também que os resultados de diferentes jogos são independentes. Use a normal para aproximar a probabilidade de que %Ross, Cap. 6, Ex. 3c, Pág. 257.
+\begin{itemize}
+\item[a)] o time ganhe 25 jogos ou mais;
+\item[b)] o time ganhe mais jogos contra times da classe A do que da classe B.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\item Justifique porque a soma de $n$ v.a.'s bernoulli é uma binomial. %Morettin, Cap. 8, Ex. 8.5, Pág. 212 
+
+
+\vspace{0.4cm}
+
+\item Suponha que 3 bolas são escolhidas de uma urna contendo 3 bolas vermelhas, 4 bolas brancas e 5 bolas azuis sem reposição. Seja $X$ o número de bolas vermelhas e $Y$ o número de bolas brancas. Faça uma tabela de distribuição conjunta de $X$ e $Y$ e indique as probabilidades marginais. %Ross, Cap. 5, Ex. 1a, Pág. 233.
+
+\vspace{0.4cm}
+
+\item  Lançam-se, simultaneamente, uma moeda e um dado. %Morettin, Cap. 8, Exercício 1, Pág. 209
+\begin{itemize}
+\item[a)] Determine o espaço amostral correspondente a esse experimento.
+\item[b)] Obtenha a tabela da distribuição conjunta, considerando $X$ o número de caras no lançamento da moeda e $Y$ o número da face do dado.
+\item[c)] Verifique se $X$ e $Y$ são independentes.
+\item[d)] Calcule $\mathcal{P}(X\geqslant 0, Y\leqslant 4)$.
+\end{itemize}
+
+\vspace{0.4cm}
+
+\item A tabela abaixo fornece a distribuição conjunta de $X$ e $Y$. %Morettin, Cap. 8, Exercício 2, Pág. 209
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|c|c|c}
+\hline
+\hline
+Y / X & 1 & 2 & 3\\
+\hline
+0 & 0,1 & 0,1 & 0,1\\
+
+1 & 0,2 & 0,0 & 0,3\\
+
+2 & 0,0 & 0,1 & 0,1\\
+
+\hline
+\hline
+\end{tabular}
+\end{table}
+\begin{itemize}
+\item[a)] Determine as distribuições marginais de $X$ e $Y$. 
+\item[b)] Obtenha as esperanças e variâncias de $X$ e $Y$. 
+\item[c)] Verifique se $X$ e $Y$ são independentes.
+\item[d)] Calcule $\mathcal{P}(X=1|Y=0)$ e $\mathcal{P}(Y=2|X=3)$. 
+\item[e)] Calcule $\mathcal{P}(X\leqslant 2)$ e $\mathcal{P}(X=2,Y\leqslant 1)$.
+\end{itemize}
+
+\newpage
+
+\item Considere a distribuição conjunta de $X$ e $Y$, parcialmente conhecida, dada na tabela abaixo. %Morettin, Cap. 8, Exercício 3, Pág. 209
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|c|c|c|c}
+\hline
+\hline
+Y / X & -1 & 0 & 1 & $\mathcal{P}(Y=y)$\\
+\hline
+-1 & 1/12 &  &  &\\
+
+0 &  &  &  & 1/3\\
+
+1 & 1/4 &  & 1/4 &\\
+\hline
+$\mathcal{P}(X=x)$ &  &  &  &1\\
+
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\begin{itemize}
+\item[a)] Complete a tabela, considerando $X$ e $Y$ independentes.
+\item[b)] Calcule as médias e variâncias de $X$ e $Y$.
+\item[c)] Obtenha as distribuições condicionais de $X$, dado que $Y=0$, e de $Y$, dado que $X=1$.
+\item[d)] Calcule $\text{Cov}(X,Y)$ e $\text{Var}(X+Y)$.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\item Simbolizando a correlação das variáveis aleatórias $X$ e $Y$ por $\rho(X,Y) = \dfrac{\text{Cov}(X, Y )}{\sigma(X)\sigma(Y)}$. \\Mostre que %Inventada
+\begin{itemize}
+\item[a)] $-1\leqslant\rho(X,Y)\leqslant 1$; 
+\item[b)] $\rho(X + a, Y + b) = \rho(X,Y)$; 
+\item[c)] $\rho(aX,bY)= \dfrac{ab}{|ab|}\rho(X,Y)$.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\item Suponha que $X$ e $Y$ tenham a seguinte distribuição conjunta: %Morettin, Cap. 8, Exercício 10, Pág. 213
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|c|c|c}
+\hline
+\hline
+Y / X & 1 & 2 & 3\\
+\hline
+1 & 0,1 & 0,1 & 0,0\\
+
+2 & 0,1 & 0,2 & 0,3\\
+
+3 & 0,1 & 0,1 & 0,0\\
+
+\hline
+\hline
+\end{tabular}
+\end{table}
+\begin{itemize}
+\item[a)] Determine a distribuição de $X+Y$ e, a partir dela, calcule $\mathcal{E}(X+Y)$. Pode-se obter a mesma resposta de outra maneira?
+\item[b)] Determine a distribuição de $XY$ e, em seguida, calcule $\mathcal{E}(XY)$.
+\item[c)] Mostre que, embora $\mathcal{E}(XY)=\mathcal{E}(X)\mathcal{E}(Y)$, $X$ e $Y$ não são independentes.
+\item[d)] Calcule $\text{Var}(X+Y)$.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\item Suponha que temos uma urna contendo três bolas numeradas 1, 2 e 3. Retiramos duas bolas dessa urna, sem reposição. Seja $X$ o número da primeira bola e $Y$ o número da segunda bola retirada.
+	
+\begin{itemize}
+\item[a)] Encontre a distribuição conjunta de $(X, Y)$ com suas respectivas distribuições marginais. 
+\item[b)] Encontre a distribuição de probabilidades marginais das variáveis $Z = X+Y$ e $W = XY$.
+\item[c)] Calcule $\P(X<Y)$.
+\item[d)] Calcule $\mathcal{E}(X)$; $\mathcal{E}(Y)$; $\mathcal{E}(Z)$ e $\mathcal{E}(W)$.
+\item[e)] Calcule $\text{Var}(X)$ e $\text{Var}(Y)$.
+\item[f)] Calcule $\text{Cov}(X,Y)$.
+\item[g)] $X$ e $Y$ são independentes? 
+\end{itemize}
+
+\vspace{0.3cm}
+	
+\item Sejam $X$ e $Y$ duas variáveis aleatórias quaisquer. Mostre que $\text{Var}(X \pm Y) = \text{Var}(X) + \text{Var}(Y) \pm 2\text{Cov}(X,Y)$.
+
+\vspace{0.3cm}
+
+\item O número de pessoas que entram em uma drogaria em uma hora é uma variável aleatória de Poisson com parâmetro $\lambda = 10$. Calcule a probabilidade condicional de que no máximo 3 homens entrem na drogaria dado que 10 mulheres entraram nessa hora. Que hipóteses você tomou? %Ross, Cap. 6, Exercício 6.12, Pág. 287.
+
+\vspace{0.4cm}
+
+\item Se $X$ e $Y$ são v.a.'s de Poisson independentes com parâmetros $\lambda_1$ e $\lambda_2$ respectivamente, calcule a distribuição condicional de $X$ dado que $X + Y = n$. %Ross, Cap. 6, Ex. 4b, Pág. 264.
+
+\item Uma v.a. $X$ tem distribuição normal, com média 100 e desvio padrão 10. %Morettin, Cap. 10, Q.7, Pág. 281.
+\begin{itemize}
+\item[a)] Qual a $\mathcal{P}(90 < X < 110)$?
+\item[b)] Se $\overline{X}$ for a média de uma amostra de 16 elementos retirados dessa população, calcule $\mathcal{P}\left(90 <\overline{X} <110\right)$.
+\item[c)] Represente, num único gráfico, as distribuições de $X$ e $\overline{X}$.
+\item[d)] Que tamanho deveria ter a amostra para que $\mathcal{P}\left(90<\overline{X}<110\right)=0,95$?
+\end{itemize}
+
+\item A máquina de empacotar um determinado produto, o faz segundo uma distribuição normal, com média $\mu$ e desvio padrão 10g. %Morettin, Cap. 10, Q.8, Pág. 281.
+\begin{itemize}
+\item[a)] Em quanto deve ser regulado o peso médio $\mu$ para que apenas 10\% dos pacotes tenham menos do que 500g?
+\item[b)] Com a máquina assim regulada, qual a probabilidade de que o peso total de 4 pacotes escolhidos ao acaso seja inferior a 2kg?
+\end{itemize}
+
+\item A capacidade máxima de um elevador é de 500kg. Se a distribuição $X$ dos pesos dos usuários for suposta $\mathcal{N}(70, 100)$, qual é a probabilidade de sete passageiros ultrapassarem esse limite? %Morettin, Cap. 10, Q.10, Pág. 281.
+
+\item Uma máquina enche pacotes de café com um peso (medido em gramas) que se comporta segundo uma variável aleatória $X$, onde $X \sim \mathcal{N}(200, 100)$. Uma amostra de $25$ pacotes é sorteada e pergunta-se:
+
+\begin{itemize}
+\item[a)] qual é o número esperado de pacotes na amostra com peso inferior a $205$ gramas?
+\item[b)] qual a probabilidade de que o peso total dos pacotes da amostra não exceda $5125$ gramas?
+\end{itemize}
+
+\item Suponha que 45\% de uma população esteja a favor de um certo candidato em uma eleição vindoura. Se uma AAS de tamanho 200 é escolhida dentre indivíduos dessa população, calcule %Ross (Eng.), Cap. 6, Ex. 6.6a, Pág. 222.
+\begin{itemize}
+\item[a)] o valor esperado e o desvio padrão do número de indivíduos a favor do candidato;
+\item[b)] aproxime a probabilidade de que mais da metade dos indivíduos na amostra estejam a favor do candidato.
+\end{itemize}
+
+\item Considere $M$ o máximo de uma AAS, ($X_1, \ldots, X_n$), escolhida de uma população com densidade $f(x)$ e função distribuição $F(x)$. Encontre $F_M(m) = \mathcal{P}(M \leqslant m)$ (a distribuição de $M$) e a densidade de $M$.
+
+\item Para o item anterior, encontre a distribuição e a densidade caso a amostra tenha uma distribuição uniforme no intervalo $(0, \theta)$.
+
+\end{enumerate}
+
+\newpage
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+      \begin{minipage}[c]{7in}
+                {Universidade de Brasília} \\
+                {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf Respostas}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item 
+\begin{itemize}
+\item[a)] 0,26435.
+\item[b)] 0,15625.
+\end{itemize}
+
+\item Demonstração
+
+\item A tabela segue abaixo:
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{c|c|c|c|c|c}
+\hline
+\hline
+X / Y & 0 & 1 & 2 & 3 & $\mathcal{P}(X=i)$\\
+\hline
+0 & $\frac{10}{220}$ & $\frac{40}{220}$ & $\frac{30}{220}$ & $\frac{4}{220}$ &$\frac{84}{220}$\\
+
+1 & $\frac{30}{220}$ & $\frac{60}{220}$ & $\frac{18}{220}$ & 0 &$\frac{108}{220}$\\
+
+2 & $\frac{15}{220}$ & $\frac{12}{220}$ & 0 & 0 &$\frac{27}{220}$\\
+
+3 & $\frac{1}{220}$ & 0 & 0 & 0 &$\frac{1}{220}$\\
+\hline
+$\mathcal{P}(Y=j)$ & $\frac{56}{220}$ & $\frac{112}{220}$ & $\frac{48}{220}$ & $\frac{4}{220}$ &\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+
+\item
+\begin{itemize}
+\item[a)] $\Omega = \{(1,C), (2,C), (3,C), (4,C), (5,C), (6,C), (1,K), (2,K), (3,K), (4,K), (5,K), (6,K) \}$.
+\item[b)] A tabela segue abaixo:
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{c|c|c|c|c|c|c|c}
+\hline
+\hline
+X / Y & 1 & 2 & 3 & 4 & 5 & 6 & $\mathcal{P}(X=i)$\\
+\hline
+0 & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{2}$\\ 
+
+1 & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{12}$ & $\frac{1}{2}$\\
+\hline
+$\mathcal{P}(Y=j)$ & $\frac{1}{6}$ &  $\frac{1}{6}$ &  $\frac{1}{6}$ &  $\frac{1}{6}$ &  $\frac{1}{6}$ &  $\frac{1}{6}$ & \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\item[c)] São independentes.
+\item[d)] 8/12
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)]As distribuições marginais seguem na tabela abaixo:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c|c|c|c|c}
+\hline
+\hline
+Y / X & 1 & 2 & 3 & $\mathcal{P}(Y=y)$\\
+\hline
+0 & 0,1 & 0,1 & 0,1 & 0,3\\
+
+1 & 0,2 & 0,0 & 0,3 & 0,5\\
+
+2 & 0,0 & 0,1 & 0,1 & 0,2\\
+\hline
+$\mathcal{P}(X=x)$ & 0,3 & 0,2 & 0,5 & 1\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\newpage 
+\item[b)] 2,2; 0,9; 0,76 e 0,49
+\item[c)] Não são independentes.
+\item[d)] 1/5.
+\item[e)] 0,1.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] As distribuições marginais seguem na tabela abaixo:
+
+\begin{table}[H]
+\renewcommand{\arraystretch}{1.3}
+\centering
+\begin{tabular}{c|c|c|c|c}
+\hline
+\hline
+Y / X & -1 & 0 & 1 & $\mathcal{P}(Y=y)$\\
+\hline
+-1 & $\frac{1}{12}$ & 0 & $\frac{1}{12}$ & $\frac{1}{6}$\\
+
+0 & $\frac{1}{6}$ & 0 & $\frac{1}{6}$ & $\frac{1}{3}$\\
+
+1 & $\frac{1}{4}$ & 0 & $\frac{1}{4}$ & $\frac{1}{2}$\\
+\hline
+$\mathcal{P}(X=x)$ & $\frac{1}{2}$ & 0 & $\frac{1}{2}$ & 1\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\item[b)] 0, 1/3, 1 e 5/9.
+\item[c)] Os valores são $$\mathcal{P}(X=-1|Y=0)=\frac{1}{2}, \ \ \mathcal{P}(X=0|Y=0)=0,  \ \ \mathcal{P}(X=1|Y=0)=\frac{1}{2},$$ 
+$$\mathcal{P}(Y=-1|X=1)=\frac{1}{6},  \ \ \mathcal{P}(Y=0|X=1)=\frac{1}{3},  \ \ \mathcal{P}(Y=1|X=1)=\frac{1}{2}.$$
+\item[d)] 14/9.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] Demonstração.
+\item[b)] Demonstração.
+\item[c)] Demonstração.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] $\mathcal{E}(X+Y)=4.$
+\item[b)] $\mathcal{E}(XY)=4.$
+\item[c)] Demonstração.
+\item[d)] 1.
+\end{itemize}
+
+\item 
+\begin{itemize}
+\item[a)] A distribuição conjunta segue abaixo:
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{c|c|c|c|c}
+\hline
+\hline
+X / Y & 1 & 2 & 3 & $\mathcal{P}(X=i)$\\
+\hline
+1 & 0 & $\frac{1}{6}$ & $\frac{1}{6}$ & $\frac{1}{3}$\\
+
+2 & $\frac{1}{6}$ & 0 & $\frac{1}{6}$ &$\frac{1}{3}$\\
+
+3 & $\frac{1}{6}$ & $\frac{1}{6}$ & 0 &$\frac{1}{3}$\\
+\hline
+$\mathcal{P}(Y=j)$ & $\frac{1}{3}$ & $\frac{1}{3}$ & $\frac{1}{3}$ & 1\\
+\hline
+\hline
+\end{tabular}
+\end{table} 
+\item[b)] As distribuições seguem abaixo:
+\begin{table}[H]
+\centering
+\begin{tabular}{c|ccccc|c}
+\hline
+\hline
+$k$ & 2 & 3 & 4 & 5 & 6& Total\\
+\hline
+$\mathcal{P}(X+Y=k)$ & 0 & $\frac{1}{3}$ & $\frac{1}{3}$ & $\frac{1}{3}$ & 0 & 1\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c|cccccc|c}
+\hline
+\hline
+$k$ & 1 & 2 & 3 & 4 & 6 & 9 & Total\\
+\hline
+$\mathcal{P}(XY=k)$ & 0 & $\frac{1}{3}$ & $\frac{1}{3}$ & 0 & $\frac{1}{3}$ & 0 & 1\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\item[c)] $1/2$.
+\item[d)] $2$; $2$; $4$ e $11/3$.
+\item[e)] $2/3$ e $2/3$.
+\item[f)] $-1/3$.
+\item[g)] Não. 
+\end{itemize}
+		
+\item Demonstração.	
+
+\item $e^{-5}+5e^{-5}+\frac{5^2}{2!}e^{-5}+\frac{5^3}{3!}e^{-5}.$
+
+\item${\displaystyle \binom{n}{k}\left(\frac{\lambda_1}{\lambda_1+\lambda_2}\right)^k\left(\frac{\lambda_2}{\lambda_1+\lambda_2}\right)^{n-k}.}$
+
+\item
+\begin{itemize}
+\item[a)] 0,68268.
+\item[b)] 0,99994.
+\item[d)] 4.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] 512,8.
+\item[b)] 0,00523.
+\end{itemize}
+
+\item 0,35197.
+
+\item
+\begin{itemize}
+\item[a)] $17,29$.
+\item[b)] $0,9938$.
+\end{itemize}
+ 
+\item
+\begin{itemize}
+\item[a)] 90 e 7,0356.
+\item[b)] 0,06811.
+\end{itemize}
+
+\item A função distribuição é $F_M(m) = [F_X(m)]^n$ e a função densidade é $f_M(m) = n[F_X(m)]^{n-1}f_X(m).$
+
+\item Nesse caso a função densidade será
+\begin{equation*}
+\renewcommand{\arraystretch}{1.4}
+f_M(m) = 
+\left\{\begin{array}{crr}
+\dfrac{nm^{n-1}}{\theta^n}, &\text{se} & m\in (0,\theta),\\
+0, &\text{se} & m \notin (0,\theta).\\
+\end{array} \right.
+\end{equation*} 
+e a função distribuição
+
+\begin{equation*}
+\renewcommand{\arraystretch}{1.4}
+F_M(m) = 
+\left\{\begin{array}{crr}
+0, &\text{se} & m\leqslant 0,\\
+\dfrac{m^n}{\theta^n}, &\text{se} & m\in (0,\theta),\\
+1, &\text{se} & m \geqslant \theta.\\
+\end{array} \right.
+\end{equation*} 
+
+
+\end{enumerate}
+\end{document}

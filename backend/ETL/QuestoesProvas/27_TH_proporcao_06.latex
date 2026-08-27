@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A composição química do petróleo deve apresentar \(85\%\) de carbono.
+  Um engenheiro químico controla esse processo industrial retirando uma
+  amostra aleatória e realizando um teste de hipóteses, a fim de avaliar
+  se, em média, a composição do petróleo produzido está conforme
+  especificação técnica. Para um determinado teste, o engenheiro obteve
+  p-valor igual a \(0.09\). Dessa forma, ao nível de significância de
+  \(2\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Em média, a composição química está
+    definitivamente incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está correta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \[H_0: p=85\% \ \emph{vs.} \ H_a: p \neq 85\%.\]
+
+  Portanto, p-valor = 0.09 \textgreater{} 0.02 e não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A composição química do petróleo deve apresentar \(85\%\) de carbono.
+  Um engenheiro químico controla esse processo industrial retirando uma
+  amostra aleatória e realizando um teste de hipóteses, a fim de avaliar
+  se, em média, a composição do petróleo produzido está conforme
+  especificação técnica. Para um determinado teste, o engenheiro obteve
+  p-valor igual a \(0.07\). Dessa forma, ao nível de significância de
+  \(6\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está correta.
+  \item
+    Não se rejeita a hipótese nula. Em média, a composição química está
+    definitivamente incorreta.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \[H_0: p=85\% \ \emph{vs.} \ H_a: p \neq 85\%.\]
+
+  Portanto, p-valor = 0.07 \textgreater{} 0.06 e não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A composição química do petróleo deve apresentar \(85\%\) de carbono.
+  Um engenheiro químico controla esse processo industrial retirando uma
+  amostra aleatória e realizando um teste de hipóteses, a fim de avaliar
+  se, em média, a composição do petróleo produzido está conforme
+  especificação técnica. Para um determinado teste, o engenheiro obteve
+  p-valor igual a \(0.04\). Dessa forma, ao nível de significância de
+  \(5\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Não se rejeita a hipótese nula. Em média, a composição química está
+    definitivamente incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está correta.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \[H_0: p=85\% \ \emph{vs.} \ H_a: p \neq 85\%.\]
+
+  Portanto, p-valor = 0.04 \textless{} 0.05 e rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A composição química do petróleo deve apresentar \(85\%\) de carbono.
+  Um engenheiro químico controla esse processo industrial retirando uma
+  amostra aleatória e realizando um teste de hipóteses, a fim de avaliar
+  se, em média, a composição do petróleo produzido está conforme
+  especificação técnica. Para um determinado teste, o engenheiro obteve
+  p-valor igual a \(0.05\). Dessa forma, ao nível de significância de
+  \(8\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está correta.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Não se rejeita a hipótese nula. Em média, a composição química está
+    definitivamente incorreta.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \[H_0: p=85\% \ \emph{vs.} \ H_a: p \neq 85\%.\]
+
+  Portanto, p-valor = 0.05 \textless{} 0.08 e rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A composição química do petróleo deve apresentar \(85\%\) de carbono.
+  Um engenheiro químico controla esse processo industrial retirando uma
+  amostra aleatória e realizando um teste de hipóteses, a fim de avaliar
+  se, em média, a composição do petróleo produzido está conforme
+  especificação técnica. Para um determinado teste, o engenheiro obteve
+  p-valor igual a \(0.09\). Dessa forma, ao nível de significância de
+  \(4\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Em média, a composição química está
+    definitivamente incorreta.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está correta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \[H_0: p=85\% \ \emph{vs.} \ H_a: p \neq 85\%.\]
+
+  Portanto, p-valor = 0.09 \textgreater{} 0.04 e não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A composição química do petróleo deve apresentar \(85\%\) de carbono.
+  Um engenheiro químico controla esse processo industrial retirando uma
+  amostra aleatória e realizando um teste de hipóteses, a fim de avaliar
+  se, em média, a composição do petróleo produzido está conforme
+  especificação técnica. Para um determinado teste, o engenheiro obteve
+  p-valor igual a \(0.06\). Dessa forma, ao nível de significância de
+  \(2\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Em média, a composição química está
+    definitivamente incorreta.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está correta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \[H_0: p=85\% \ \emph{vs.} \ H_a: p \neq 85\%.\]
+
+  Portanto, p-valor = 0.06 \textgreater{} 0.02 e não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A composição química do petróleo deve apresentar \(85\%\) de carbono.
+  Um engenheiro químico controla esse processo industrial retirando uma
+  amostra aleatória e realizando um teste de hipóteses, a fim de avaliar
+  se, em média, a composição do petróleo produzido está conforme
+  especificação técnica. Para um determinado teste, o engenheiro obteve
+  p-valor igual a \(0.02\). Dessa forma, ao nível de significância de
+  \(6\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Em média, a composição química está
+    definitivamente incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está correta.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \[H_0: p=85\% \ \emph{vs.} \ H_a: p \neq 85\%.\]
+
+  Portanto, p-valor = 0.02 \textless{} 0.06 e rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A composição química do petróleo deve apresentar \(85\%\) de carbono.
+  Um engenheiro químico controla esse processo industrial retirando uma
+  amostra aleatória e realizando um teste de hipóteses, a fim de avaliar
+  se, em média, a composição do petróleo produzido está conforme
+  especificação técnica. Para um determinado teste, o engenheiro obteve
+  p-valor igual a \(0.09\). Dessa forma, ao nível de significância de
+  \(7\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Em média, a composição química está
+    definitivamente incorreta.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está correta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \[H_0: p=85\% \ \emph{vs.} \ H_a: p \neq 85\%.\]
+
+  Portanto, p-valor = 0.09 \textgreater{} 0.07 e não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A composição química do petróleo deve apresentar \(85\%\) de carbono.
+  Um engenheiro químico controla esse processo industrial retirando uma
+  amostra aleatória e realizando um teste de hipóteses, a fim de avaliar
+  se, em média, a composição do petróleo produzido está conforme
+  especificação técnica. Para um determinado teste, o engenheiro obteve
+  p-valor igual a \(0.06\). Dessa forma, ao nível de significância de
+  \(4\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está correta.
+  \item
+    Não se rejeita a hipótese nula. Em média, a composição química está
+    definitivamente incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \[H_0: p=85\% \ \emph{vs.} \ H_a: p \neq 85\%.\]
+
+  Portanto, p-valor = 0.06 \textgreater{} 0.04 e não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A composição química do petróleo deve apresentar \(85\%\) de carbono.
+  Um engenheiro químico controla esse processo industrial retirando uma
+  amostra aleatória e realizando um teste de hipóteses, a fim de avaliar
+  se, em média, a composição do petróleo produzido está conforme
+  especificação técnica. Para um determinado teste, o engenheiro obteve
+  p-valor igual a \(0.08\). Dessa forma, ao nível de significância de
+  \(4\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que, em média, a
+    composição química está correta.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que, em média, a
+    composição química está incorreta.
+  \item
+    Não se rejeita a hipótese nula. Em média, a composição química está
+    definitivamente incorreta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \[H_0: p=85\% \ \emph{vs.} \ H_a: p \neq 85\%.\]
+
+  Portanto, p-valor = 0.08 \textgreater{} 0.04 e não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

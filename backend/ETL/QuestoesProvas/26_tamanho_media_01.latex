@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre as condições de saúde de certa comunidade,
+  deseja-se estimar o número médio de remédios diferentes consumidos por
+  pessoa por ano. A partir de pesquisas anteriores, assume-se que o
+  desvio padrão populacional da quantidade de remédios consumida por um
+  indivíduo é \(3.1\). Qual deve ser o tamanho mínimo da amostra para
+  que, com confiança de \(96\%\), a média amostral não difira da média
+  populacional por mais de \(0.6\) unidades?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(71\)
+  \item
+    \(141\)
+  \item
+    \(113\)
+  \item
+    \(82\)
+  \item
+    \(29\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left( \frac{2.05 \times 3.1}{0.6} \right)^2=112.1834.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=113\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre as condições de saúde de certa comunidade,
+  deseja-se estimar o número médio de remédios diferentes consumidos por
+  pessoa por ano. A partir de pesquisas anteriores, assume-se que o
+  desvio padrão populacional da quantidade de remédios consumida por um
+  indivíduo é \(3.6\). Qual deve ser o tamanho mínimo da amostra para
+  que, com confiança de \(97\%\), a média amostral não difira da média
+  populacional por mais de \(0.3\) unidades?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(679\)
+  \item
+    \(849\)
+  \item
+    \(170\)
+  \item
+    \(424\)
+  \item
+    \(509\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left( \frac{2.17 \times 3.6}{0.3} \right)^2=678.0816.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=679\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre as condições de saúde de certa comunidade,
+  deseja-se estimar o número médio de remédios diferentes consumidos por
+  pessoa por ano. A partir de pesquisas anteriores, assume-se que o
+  desvio padrão populacional da quantidade de remédios consumida por um
+  indivíduo é \(3.2\). Qual deve ser o tamanho mínimo da amostra para
+  que, com confiança de \(95\%\), a média amostral não difira da média
+  populacional por mais de \(0.3\) unidades?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(274\)
+  \item
+    \(438\)
+  \item
+    \(110\)
+  \item
+    \(307\)
+  \item
+    \(482\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 3.2}{0.3} \right)^2=437.0887.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=438\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre as condições de saúde de certa comunidade,
+  deseja-se estimar o número médio de remédios diferentes consumidos por
+  pessoa por ano. A partir de pesquisas anteriores, assume-se que o
+  desvio padrão populacional da quantidade de remédios consumida por um
+  indivíduo é \(3.8\). Qual deve ser o tamanho mínimo da amostra para
+  que, com confiança de \(99\%\), a média amostral não difira da média
+  populacional por mais de \(0.5\) unidades?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(314\)
+  \item
+    \(385\)
+  \item
+    \(97\)
+  \item
+    \(424\)
+  \item
+    \(241\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 3.8}{0.5} \right)^2=384.4737.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=385\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre as condições de saúde de certa comunidade,
+  deseja-se estimar o número médio de remédios diferentes consumidos por
+  pessoa por ano. A partir de pesquisas anteriores, assume-se que o
+  desvio padrão populacional da quantidade de remédios consumida por um
+  indivíduo é \(3.2\). Qual deve ser o tamanho mínimo da amostra para
+  que, com confiança de \(95\%\), a média amostral não difira da média
+  populacional por mais de \(0.5\) unidades?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(158\)
+  \item
+    \(99\)
+  \item
+    \(111\)
+  \item
+    \(190\)
+  \item
+    \(40\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 3.2}{0.5} \right)^2=157.3519.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=158\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre as condições de saúde de certa comunidade,
+  deseja-se estimar o número médio de remédios diferentes consumidos por
+  pessoa por ano. A partir de pesquisas anteriores, assume-se que o
+  desvio padrão populacional da quantidade de remédios consumida por um
+  indivíduo é \(3.5\). Qual deve ser o tamanho mínimo da amostra para
+  que, com confiança de \(96\%\), a média amostral não difira da média
+  populacional por mais de \(0.8\) unidades?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(59\)
+  \item
+    \(51\)
+  \item
+    \(97\)
+  \item
+    \(21\)
+  \item
+    \(81\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left( \frac{2.05 \times 3.5}{0.8} \right)^2=80.4385.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=81\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre as condições de saúde de certa comunidade,
+  deseja-se estimar o número médio de remédios diferentes consumidos por
+  pessoa por ano. A partir de pesquisas anteriores, assume-se que o
+  desvio padrão populacional da quantidade de remédios consumida por um
+  indivíduo é \(3.6\). Qual deve ser o tamanho mínimo da amostra para
+  que, com confiança de \(99\%\), a média amostral não difira da média
+  populacional por mais de \(0.5\) unidades?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(381\)
+  \item
+    \(216\)
+  \item
+    \(87\)
+  \item
+    \(282\)
+  \item
+    \(346\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 3.6}{0.5} \right)^2=345.0678.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=346\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre as condições de saúde de certa comunidade,
+  deseja-se estimar o número médio de remédios diferentes consumidos por
+  pessoa por ano. A partir de pesquisas anteriores, assume-se que o
+  desvio padrão populacional da quantidade de remédios consumida por um
+  indivíduo é \(3.5\). Qual deve ser o tamanho mínimo da amostra para
+  que, com confiança de \(97\%\), a média amostral não difira da média
+  populacional por mais de \(0.7\) unidades?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(30\)
+  \item
+    \(118\)
+  \item
+    \(89\)
+  \item
+    \(148\)
+  \item
+    \(74\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left( \frac{2.17 \times 3.5}{0.7} \right)^2=117.7225.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=118\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre as condições de saúde de certa comunidade,
+  deseja-se estimar o número médio de remédios diferentes consumidos por
+  pessoa por ano. A partir de pesquisas anteriores, assume-se que o
+  desvio padrão populacional da quantidade de remédios consumida por um
+  indivíduo é \(3.1\). Qual deve ser o tamanho mínimo da amostra para
+  que, com confiança de \(98\%\), a média amostral não difira da média
+  populacional por mais de \(0.3\) unidades?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(362\)
+  \item
+    \(449\)
+  \item
+    \(145\)
+  \item
+    \(580\)
+  \item
+    \(696\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left( \frac{2.33 \times 3.1}{0.3} \right)^2=579.6859.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=580\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre as condições de saúde de certa comunidade,
+  deseja-se estimar o número médio de remédios diferentes consumidos por
+  pessoa por ano. A partir de pesquisas anteriores, assume-se que o
+  desvio padrão populacional da quantidade de remédios consumida por um
+  indivíduo é \(3.6\). Qual deve ser o tamanho mínimo da amostra para
+  que, com confiança de \(97\%\), a média amostral não difira da média
+  populacional por mais de \(0.8\) unidades?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(96\)
+  \item
+    \(24\)
+  \item
+    \(110\)
+  \item
+    \(72\)
+  \item
+    \(60\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left( \frac{2.17 \times 3.6}{0.8} \right)^2=95.3552.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=96\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

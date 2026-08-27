@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Defesa pretende realizar um novo estudo sobre o nível
+  de interesse das mulheres em atuar no Exército brasileiro.
+  Considerando pesquisas anteriores, estima-se que \(2\%\) das mulheres
+  estejam interessadas em buscar tal opção. Qual deverá ser o tamanho
+  mínimo da amostra para que, para o intervalo de confiança de \(96\%\),
+  a margem de erro da estimativa seja de \emph{no máximo} \(0.6\) pontos
+  percentuais? (Considerar a aproximação indicada na equação disponível
+  no conjunto de fórmulas fornecidas para a prova e aproximar o quantil
+  usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2747\)
+  \item
+    \(2289\)
+  \item
+    \(2175\)
+  \item
+    \(2518\)
+  \item
+    \(1668\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.006} \right)^2 \times 0.02 \times (1-0.02)=2288.03.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2289\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Defesa pretende realizar um novo estudo sobre o nível
+  de interesse das mulheres em atuar no Exército brasileiro.
+  Considerando pesquisas anteriores, estima-se que \(2.4\%\) das
+  mulheres estejam interessadas em buscar tal opção. Qual deverá ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(96\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(0.5\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3150\)
+  \item
+    \(4135\)
+  \item
+    \(2870\)
+  \item
+    \(3938\)
+  \item
+    \(4332\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.005} \right)^2 \times 0.024 \times (1-0.024)=3937.57.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=3938\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Defesa pretende realizar um novo estudo sobre o nível
+  de interesse das mulheres em atuar no Exército brasileiro.
+  Considerando pesquisas anteriores, estima-se que \(2\%\) das mulheres
+  estejam interessadas em buscar tal opção. Qual deverá ser o tamanho
+  mínimo da amostra para que, para o intervalo de confiança de \(98\%\),
+  a margem de erro da estimativa seja de \emph{no máximo} \(0.9\) pontos
+  percentuais? (Considerar a aproximação indicada na equação disponível
+  no conjunto de fórmulas fornecidas para a prova e aproximar o quantil
+  usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1017\)
+  \item
+    \(1314\)
+  \item
+    \(1412\)
+  \item
+    \(1117\)
+  \item
+    \(1511\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.009} \right)^2 \times 0.02 \times (1-0.02)=1313.66.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1314\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Defesa pretende realizar um novo estudo sobre o nível
+  de interesse das mulheres em atuar no Exército brasileiro.
+  Considerando pesquisas anteriores, estima-se que \(2\%\) das mulheres
+  estejam interessadas em buscar tal opção. Qual deverá ser o tamanho
+  mínimo da amostra para que, para o intervalo de confiança de \(99\%\),
+  a margem de erro da estimativa seja de \emph{no máximo} \(0.8\) pontos
+  percentuais? (Considerar a aproximação indicada na equação disponível
+  no conjunto de fórmulas fornecidas para a prova e aproximar o quantil
+  usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2039\)
+  \item
+    \(2192\)
+  \item
+    \(1631\)
+  \item
+    \(1663\)
+  \item
+    \(2345\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.008} \right)^2 \times 0.02 \times (1-0.02)=2038.52.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2039\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Defesa pretende realizar um novo estudo sobre o nível
+  de interesse das mulheres em atuar no Exército brasileiro.
+  Considerando pesquisas anteriores, estima-se que \(2.4\%\) das
+  mulheres estejam interessadas em buscar tal opção. Qual deverá ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(97\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(0.6\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2604\)
+  \item
+    \(2300\)
+  \item
+    \(3140\)
+  \item
+    \(3064\)
+  \item
+    \(3217\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.006} \right)^2 \times 0.024 \times (1-0.024)=3063.92.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=3064\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Defesa pretende realizar um novo estudo sobre o nível
+  de interesse das mulheres em atuar no Exército brasileiro.
+  Considerando pesquisas anteriores, estima-se que \(2.8\%\) das
+  mulheres estejam interessadas em buscar tal opção. Qual deverá ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(99\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(0.8\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2548\)
+  \item
+    \(2831\)
+  \item
+    \(2972\)
+  \item
+    \(3114\)
+  \item
+    \(2309\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.008} \right)^2 \times 0.028 \times (1-0.028)=2830.63.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2831\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Defesa pretende realizar um novo estudo sobre o nível
+  de interesse das mulheres em atuar no Exército brasileiro.
+  Considerando pesquisas anteriores, estima-se que \(2.6\%\) das
+  mulheres estejam interessadas em buscar tal opção. Qual deverá ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(96\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(0.7\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1955\)
+  \item
+    \(1583\)
+  \item
+    \(2280\)
+  \item
+    \(2172\)
+  \item
+    \(2389\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.007} \right)^2 \times 0.026 \times (1-0.026)=2171.92.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2172\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Defesa pretende realizar um novo estudo sobre o nível
+  de interesse das mulheres em atuar no Exército brasileiro.
+  Considerando pesquisas anteriores, estima-se que \(2.8\%\) das
+  mulheres estejam interessadas em buscar tal opção. Qual deverá ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(98\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(0.8\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1788\)
+  \item
+    \(2194\)
+  \item
+    \(2655\)
+  \item
+    \(2482\)
+  \item
+    \(2309\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.008} \right)^2 \times 0.028 \times (1-0.028)=2308.64.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2309\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Defesa pretende realizar um novo estudo sobre o nível
+  de interesse das mulheres em atuar no Exército brasileiro.
+  Considerando pesquisas anteriores, estima-se que \(2.6\%\) das
+  mulheres estejam interessadas em buscar tal opção. Qual deverá ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(96\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(0.8\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1830\)
+  \item
+    \(1663\)
+  \item
+    \(1497\)
+  \item
+    \(1996\)
+  \item
+    \(1212\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.008} \right)^2 \times 0.026 \times (1-0.026)=1662.88.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1663\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Ministério da Defesa pretende realizar um novo estudo sobre o nível
+  de interesse das mulheres em atuar no Exército brasileiro.
+  Considerando pesquisas anteriores, estima-se que \(2.8\%\) das
+  mulheres estejam interessadas em buscar tal opção. Qual deverá ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(99\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(0.8\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3256\)
+  \item
+    \(2831\)
+  \item
+    \(3044\)
+  \item
+    \(2265\)
+  \item
+    \(2309\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.008} \right)^2 \times 0.028 \times (1-0.028)=2830.63.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2831\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

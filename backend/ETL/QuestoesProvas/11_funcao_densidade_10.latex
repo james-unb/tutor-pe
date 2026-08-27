@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) =
+  \begin{cases}
+  0, \; & x < 0,\\
+  x/4, \; & 0 \leq x < 2, \\
+  e^x/C, \; & 2 \leq x < 3, \\
+  0, \; & x \geq 3.\\
+  \end{cases}\] Qual valor deve ter a constante real \(C\) para que
+  \(f(x)\) seja de fato uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.00\)
+  \item
+    \(6.00\)
+  \item
+    \(25.39\)
+  \item
+    \(12.70\)
+  \item
+    \(4.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1&=\int_{-\infty}^{\infty} f(x) dx  \\
+    &= \int_{-\infty}^{0} 0 dx + \int_0^2 \frac{x}{4} dx + \int_2^{3} \frac{e^x}{C} dx + \int_{3}^{\infty} 0 dx \\
+    &= \left[\frac{x^2}{8}\right]_0^2 + \frac{1}{C}\left[e^x\right]_2^3 \\
+    &= \frac{1}{2} + \frac{1}{C}\left[e^x\right]_2^3 
+  \end{aligned}\] Portanto, \[C = 2\left[e^3 - e^2\right]\]
+  Resolvendo-se em \(C\), obtemos \(C=25.39\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) =
+  \begin{cases}
+  0, \; & x < 0,\\
+  x/4, \; & 0 \leq x < 2, \\
+  e^x/C, \; & 2 \leq x < 3, \\
+  0, \; & x \geq 3.\\
+  \end{cases}\] Qual valor deve ter a constante real \(C\) para que
+  \(f(x)\) seja de fato uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.00\)
+  \item
+    \(6.00\)
+  \item
+    \(4.00\)
+  \item
+    \(12.70\)
+  \item
+    \(25.39\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1&=\int_{-\infty}^{\infty} f(x) dx  \\
+    &= \int_{-\infty}^{0} 0 dx + \int_0^2 \frac{x}{4} dx + \int_2^{3} \frac{e^x}{C} dx + \int_{3}^{\infty} 0 dx \\
+    &= \left[\frac{x^2}{8}\right]_0^2 + \frac{1}{C}\left[e^x\right]_2^3 \\
+    &= \frac{1}{2} + \frac{1}{C}\left[e^x\right]_2^3 
+  \end{aligned}\] Portanto, \[C = 2\left[e^3 - e^2\right]\]
+  Resolvendo-se em \(C\), obtemos \(C=25.39\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) =
+  \begin{cases}
+  0, \; & x < 0,\\
+  x/4, \; & 0 \leq x < 2, \\
+  e^x/C, \; & 2 \leq x < 4, \\
+  0, \; & x \geq 4.\\
+  \end{cases}\] Qual valor deve ter a constante real \(C\) para que
+  \(f(x)\) seja de fato uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(47.21\)
+  \item
+    \(94.42\)
+  \item
+    \(5.00\)
+  \item
+    \(4.00\)
+  \item
+    \(8.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1&=\int_{-\infty}^{\infty} f(x) dx  \\
+    &= \int_{-\infty}^{0} 0 dx + \int_0^2 \frac{x}{4} dx + \int_2^{4} \frac{e^x}{C} dx + \int_{4}^{\infty} 0 dx \\
+    &= \left[\frac{x^2}{8}\right]_0^2 + \frac{1}{C}\left[e^x\right]_2^4 \\
+    &= \frac{1}{2} + \frac{1}{C}\left[e^x\right]_2^4 
+  \end{aligned}\] Portanto, \[C = 2\left[e^4 - e^2\right]\]
+  Resolvendo-se em \(C\), obtemos \(C=94.42\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) =
+  \begin{cases}
+  0, \; & x < 0,\\
+  x/4, \; & 0 \leq x < 2, \\
+  e^x/C, \; & 2 \leq x < 4, \\
+  0, \; & x \geq 4.\\
+  \end{cases}\] Qual valor deve ter a constante real \(C\) para que
+  \(f(x)\) seja de fato uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8.00\)
+  \item
+    \(94.42\)
+  \item
+    \(5.00\)
+  \item
+    \(4.00\)
+  \item
+    \(47.21\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1&=\int_{-\infty}^{\infty} f(x) dx  \\
+    &= \int_{-\infty}^{0} 0 dx + \int_0^2 \frac{x}{4} dx + \int_2^{4} \frac{e^x}{C} dx + \int_{4}^{\infty} 0 dx \\
+    &= \left[\frac{x^2}{8}\right]_0^2 + \frac{1}{C}\left[e^x\right]_2^4 \\
+    &= \frac{1}{2} + \frac{1}{C}\left[e^x\right]_2^4 
+  \end{aligned}\] Portanto, \[C = 2\left[e^4 - e^2\right]\]
+  Resolvendo-se em \(C\), obtemos \(C=94.42\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) =
+  \begin{cases}
+  0, \; & x < 0,\\
+  x/4, \; & 0 \leq x < 2, \\
+  e^x/C, \; & 2 \leq x < 4, \\
+  0, \; & x \geq 4.\\
+  \end{cases}\] Qual valor deve ter a constante real \(C\) para que
+  \(f(x)\) seja de fato uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8.00\)
+  \item
+    \(94.42\)
+  \item
+    \(5.00\)
+  \item
+    \(47.21\)
+  \item
+    \(4.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1&=\int_{-\infty}^{\infty} f(x) dx  \\
+    &= \int_{-\infty}^{0} 0 dx + \int_0^2 \frac{x}{4} dx + \int_2^{4} \frac{e^x}{C} dx + \int_{4}^{\infty} 0 dx \\
+    &= \left[\frac{x^2}{8}\right]_0^2 + \frac{1}{C}\left[e^x\right]_2^4 \\
+    &= \frac{1}{2} + \frac{1}{C}\left[e^x\right]_2^4 
+  \end{aligned}\] Portanto, \[C = 2\left[e^4 - e^2\right]\]
+  Resolvendo-se em \(C\), obtemos \(C=94.42\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) =
+  \begin{cases}
+  0, \; & x < 0,\\
+  x/4, \; & 0 \leq x < 2, \\
+  e^x/C, \; & 2 \leq x < 4, \\
+  0, \; & x \geq 4.\\
+  \end{cases}\] Qual valor deve ter a constante real \(C\) para que
+  \(f(x)\) seja de fato uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.00\)
+  \item
+    \(47.21\)
+  \item
+    \(94.42\)
+  \item
+    \(5.00\)
+  \item
+    \(8.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1&=\int_{-\infty}^{\infty} f(x) dx  \\
+    &= \int_{-\infty}^{0} 0 dx + \int_0^2 \frac{x}{4} dx + \int_2^{4} \frac{e^x}{C} dx + \int_{4}^{\infty} 0 dx \\
+    &= \left[\frac{x^2}{8}\right]_0^2 + \frac{1}{C}\left[e^x\right]_2^4 \\
+    &= \frac{1}{2} + \frac{1}{C}\left[e^x\right]_2^4 
+  \end{aligned}\] Portanto, \[C = 2\left[e^4 - e^2\right]\]
+  Resolvendo-se em \(C\), obtemos \(C=94.42\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) =
+  \begin{cases}
+  0, \; & x < 0,\\
+  x/4, \; & 0 \leq x < 2, \\
+  e^x/C, \; & 2 \leq x < 3, \\
+  0, \; & x \geq 3.\\
+  \end{cases}\] Qual valor deve ter a constante real \(C\) para que
+  \(f(x)\) seja de fato uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.00\)
+  \item
+    \(12.70\)
+  \item
+    \(3.00\)
+  \item
+    \(25.39\)
+  \item
+    \(4.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1&=\int_{-\infty}^{\infty} f(x) dx  \\
+    &= \int_{-\infty}^{0} 0 dx + \int_0^2 \frac{x}{4} dx + \int_2^{3} \frac{e^x}{C} dx + \int_{3}^{\infty} 0 dx \\
+    &= \left[\frac{x^2}{8}\right]_0^2 + \frac{1}{C}\left[e^x\right]_2^3 \\
+    &= \frac{1}{2} + \frac{1}{C}\left[e^x\right]_2^3 
+  \end{aligned}\] Portanto, \[C = 2\left[e^3 - e^2\right]\]
+  Resolvendo-se em \(C\), obtemos \(C=25.39\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) =
+  \begin{cases}
+  0, \; & x < 0,\\
+  x/4, \; & 0 \leq x < 2, \\
+  e^x/C, \; & 2 \leq x < 4, \\
+  0, \; & x \geq 4.\\
+  \end{cases}\] Qual valor deve ter a constante real \(C\) para que
+  \(f(x)\) seja de fato uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8.00\)
+  \item
+    \(47.21\)
+  \item
+    \(4.00\)
+  \item
+    \(5.00\)
+  \item
+    \(94.42\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1&=\int_{-\infty}^{\infty} f(x) dx  \\
+    &= \int_{-\infty}^{0} 0 dx + \int_0^2 \frac{x}{4} dx + \int_2^{4} \frac{e^x}{C} dx + \int_{4}^{\infty} 0 dx \\
+    &= \left[\frac{x^2}{8}\right]_0^2 + \frac{1}{C}\left[e^x\right]_2^4 \\
+    &= \frac{1}{2} + \frac{1}{C}\left[e^x\right]_2^4 
+  \end{aligned}\] Portanto, \[C = 2\left[e^4 - e^2\right]\]
+  Resolvendo-se em \(C\), obtemos \(C=94.42\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) =
+  \begin{cases}
+  0, \; & x < 0,\\
+  x/4, \; & 0 \leq x < 2, \\
+  e^x/C, \; & 2 \leq x < 3, \\
+  0, \; & x \geq 3.\\
+  \end{cases}\] Qual valor deve ter a constante real \(C\) para que
+  \(f(x)\) seja de fato uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.00\)
+  \item
+    \(12.70\)
+  \item
+    \(25.39\)
+  \item
+    \(6.00\)
+  \item
+    \(3.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1&=\int_{-\infty}^{\infty} f(x) dx  \\
+    &= \int_{-\infty}^{0} 0 dx + \int_0^2 \frac{x}{4} dx + \int_2^{3} \frac{e^x}{C} dx + \int_{3}^{\infty} 0 dx \\
+    &= \left[\frac{x^2}{8}\right]_0^2 + \frac{1}{C}\left[e^x\right]_2^3 \\
+    &= \frac{1}{2} + \frac{1}{C}\left[e^x\right]_2^3 
+  \end{aligned}\] Portanto, \[C = 2\left[e^3 - e^2\right]\]
+  Resolvendo-se em \(C\), obtemos \(C=25.39\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) =
+  \begin{cases}
+  0, \; & x < 0,\\
+  x/4, \; & 0 \leq x < 2, \\
+  e^x/C, \; & 2 \leq x < 5, \\
+  0, \; & x \geq 5.\\
+  \end{cases}\] Qual valor deve ter a constante real \(C\) para que
+  \(f(x)\) seja de fato uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5.00\)
+  \item
+    \(6.00\)
+  \item
+    \(282.05\)
+  \item
+    \(10.00\)
+  \item
+    \(141.02\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1&=\int_{-\infty}^{\infty} f(x) dx  \\
+    &= \int_{-\infty}^{0} 0 dx + \int_0^2 \frac{x}{4} dx + \int_2^{5} \frac{e^x}{C} dx + \int_{5}^{\infty} 0 dx \\
+    &= \left[\frac{x^2}{8}\right]_0^2 + \frac{1}{C}\left[e^x\right]_2^5 \\
+    &= \frac{1}{2} + \frac{1}{C}\left[e^x\right]_2^5 
+  \end{aligned}\] Portanto, \[C = 2\left[e^5 - e^2\right]\]
+  Resolvendo-se em \(C\), obtemos \(C=282.05\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

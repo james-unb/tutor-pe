@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a Organização Mundial da Saúde, a proporção de brasileiros que
+  sofrem com a depressão é de \(6\%\). Se uma amostra de \(200\) for
+  selecionada de forma aleatória, qual a probabilidade de que a
+  proporção amostral de depressivos seja menor que \(7\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5714\)
+  \item
+    \(0.7257\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.7011\)
+  \item
+    \(0.6967\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.06\) e
+  \(\sigma = \sqrt{\frac{0.06\times0.94}{200}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.07\right) &= P\left(\frac{\hat{p}-0.06}{0.0168} < \frac{0.07-0.06}{0.0168}\right) \\
+   & = P\left(Z<0.6\right) = 0.7257.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a Organização Mundial da Saúde, a proporção de brasileiros que
+  sofrem com a depressão é de \(5\%\). Se uma amostra de \(210\) for
+  selecionada de forma aleatória, qual a probabilidade de que a
+  proporção amostral de depressivos seja menor que \(6\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5832\)
+  \item
+    \(0.7156\)
+  \item
+    \(0.7454\)
+  \item
+    \(0.5199\)
+  \item
+    \(0.6428\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.05\) e
+  \(\sigma = \sqrt{\frac{0.05\times0.95}{210}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.06\right) &= P\left(\frac{\hat{p}-0.05}{0.015} < \frac{0.06-0.05}{0.015}\right) \\
+   & = P\left(Z<0.66\right) = 0.7454.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a Organização Mundial da Saúde, a proporção de brasileiros que
+  sofrem com a depressão é de \(5\%\). Se uma amostra de \(210\) for
+  selecionada de forma aleatória, qual a probabilidade de que a
+  proporção amostral de depressivos seja menor que \(6\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7156\)
+  \item
+    \(0.7454\)
+  \item
+    \(0.5832\)
+  \item
+    \(0.5061\)
+  \item
+    \(0.5199\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.05\) e
+  \(\sigma = \sqrt{\frac{0.05\times0.95}{210}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.06\right) &= P\left(\frac{\hat{p}-0.05}{0.015} < \frac{0.06-0.05}{0.015}\right) \\
+   & = P\left(Z<0.66\right) = 0.7454.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a Organização Mundial da Saúde, a proporção de brasileiros que
+  sofrem com a depressão é de \(6\%\). Se uma amostra de \(210\) for
+  selecionada de forma aleatória, qual a probabilidade de que a
+  proporção amostral de depressivos seja menor que \(7\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2051\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.6999\)
+  \item
+    \(0.7291\)
+  \item
+    \(0.5714\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.06\) e
+  \(\sigma = \sqrt{\frac{0.06\times0.94}{210}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.07\right) &= P\left(\frac{\hat{p}-0.06}{0.0164} < \frac{0.07-0.06}{0.0164}\right) \\
+   & = P\left(Z<0.61\right) = 0.7291.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a Organização Mundial da Saúde, a proporção de brasileiros que
+  sofrem com a depressão é de \(5\%\). Se uma amostra de \(200\) for
+  selecionada de forma aleatória, qual a probabilidade de que a
+  proporção amostral de depressivos seja menor que \(6\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5832\)
+  \item
+    \(0.5199\)
+  \item
+    \(0.7913\)
+  \item
+    \(0.7125\)
+  \item
+    \(0.7422\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.05\) e
+  \(\sigma = \sqrt{\frac{0.05\times0.95}{200}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.06\right) &= P\left(\frac{\hat{p}-0.05}{0.0154} < \frac{0.06-0.05}{0.0154}\right) \\
+   & = P\left(Z<0.65\right) = 0.7422.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a Organização Mundial da Saúde, a proporção de brasileiros que
+  sofrem com a depressão é de \(6\%\). Se uma amostra de \(200\) for
+  selecionada de forma aleatória, qual a probabilidade de que a
+  proporção amostral de depressivos seja menor que \(7\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6967\)
+  \item
+    \(0.7257\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.5714\)
+  \item
+    \(0.7477\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.06\) e
+  \(\sigma = \sqrt{\frac{0.06\times0.94}{200}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.07\right) &= P\left(\frac{\hat{p}-0.06}{0.0168} < \frac{0.07-0.06}{0.0168}\right) \\
+   & = P\left(Z<0.6\right) = 0.7257.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a Organização Mundial da Saúde, a proporção de brasileiros que
+  sofrem com a depressão é de \(6\%\). Se uma amostra de \(220\) for
+  selecionada de forma aleatória, qual a probabilidade de que a
+  proporção amostral de depressivos seja menor que \(7\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5714\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.7031\)
+  \item
+    \(0.1377\)
+  \item
+    \(0.7324\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.06\) e
+  \(\sigma = \sqrt{\frac{0.06\times0.94}{220}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.07\right) &= P\left(\frac{\hat{p}-0.06}{0.016} < \frac{0.07-0.06}{0.016}\right) \\
+   & = P\left(Z<0.62\right) = 0.7324.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a Organização Mundial da Saúde, a proporção de brasileiros que
+  sofrem com a depressão é de \(6\%\). Se uma amostra de \(200\) for
+  selecionada de forma aleatória, qual a probabilidade de que a
+  proporção amostral de depressivos seja menor que \(7\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5714\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.6967\)
+  \item
+    \(0.7257\)
+  \item
+    \(0.6525\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.06\) e
+  \(\sigma = \sqrt{\frac{0.06\times0.94}{200}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.07\right) &= P\left(\frac{\hat{p}-0.06}{0.0168} < \frac{0.07-0.06}{0.0168}\right) \\
+   & = P\left(Z<0.6\right) = 0.7257.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a Organização Mundial da Saúde, a proporção de brasileiros que
+  sofrem com a depressão é de \(5\%\). Se uma amostra de \(220\) for
+  selecionada de forma aleatória, qual a probabilidade de que a
+  proporção amostral de depressivos seja menor que \(6\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7217\)
+  \item
+    \(0.5199\)
+  \item
+    \(0.4824\)
+  \item
+    \(0.5832\)
+  \item
+    \(0.7517\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.05\) e
+  \(\sigma = \sqrt{\frac{0.05\times0.95}{220}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.06\right) &= P\left(\frac{\hat{p}-0.05}{0.0147} < \frac{0.06-0.05}{0.0147}\right) \\
+   & = P\left(Z<0.68\right) = 0.7517.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Segundo a Organização Mundial da Saúde, a proporção de brasileiros que
+  sofrem com a depressão é de \(5\%\). Se uma amostra de \(220\) for
+  selecionada de forma aleatória, qual a probabilidade de que a
+  proporção amostral de depressivos seja menor que \(6\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5832\)
+  \item
+    \(0.1628\)
+  \item
+    \(0.5199\)
+  \item
+    \(0.7517\)
+  \item
+    \(0.7217\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.05\) e
+  \(\sigma = \sqrt{\frac{0.05\times0.95}{220}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}<0.06\right) &= P\left(\frac{\hat{p}-0.05}{0.0147} < \frac{0.06-0.05}{0.0147}\right) \\
+   & = P\left(Z<0.68\right) = 0.7517.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,422 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2023, um corretor imobiliário estima que a probabilidade de não
+  vender um apartamento em Brasília é de \(0.66\) para cada cliente que
+  o apartamento é apresentado. Se ele já mostrou um apartamento para
+  \(4\) clientes e não teve sucesso de venda, qual é a probabilidade de
+  precisar mostrar o apartamento a partir de agora a mais de \(2\)
+  clientes para conseguir vendê-lo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.436\)
+  \item
+    \(0.148\)
+  \item
+    \(0.076\)
+  \item
+    \(0.287\)
+  \item
+    \(0.224\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma v.a. \(X\sim Geo(\)0.34\()\) representa o número de vezes que o
+  corretor deve mostrar o apartamento até conseguir vendê-lo. Então,
+  usando a propriedade da perda da memória, tem-se:
+  \[P(X>6|X>4)=P(X>2)=(1-0.34)^2=0.436.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2023, um corretor imobiliário estima que a probabilidade de não
+  vender um apartamento em Brasília é de \(0.64\) para cada cliente que
+  o apartamento é apresentado. Se ele já mostrou um apartamento para
+  \(5\) clientes e não teve sucesso de venda, qual é a probabilidade de
+  precisar mostrar o apartamento a partir de agora a mais de \(2\)
+  clientes para conseguir vendê-lo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.410\)
+  \item
+    \(0.083\)
+  \item
+    \(0.262\)
+  \item
+    \(0.230\)
+  \item
+    \(0.147\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma v.a. \(X\sim Geo(\)0.36\()\) representa o número de vezes que o
+  corretor deve mostrar o apartamento até conseguir vendê-lo. Então,
+  usando a propriedade da perda da memória, tem-se:
+  \[P(X>7|X>5)=P(X>2)=(1-0.36)^2=0.41.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2023, um corretor imobiliário estima que a probabilidade de não
+  vender um apartamento em Brasília é de \(0.65\) para cada cliente que
+  o apartamento é apresentado. Se ele já mostrou um apartamento para
+  \(5\) clientes e não teve sucesso de venda, qual é a probabilidade de
+  precisar mostrar o apartamento a partir de agora a mais de \(2\)
+  clientes para conseguir vendê-lo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.080\)
+  \item
+    \(0.148\)
+  \item
+    \(0.275\)
+  \item
+    \(0.423\)
+  \item
+    \(0.228\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma v.a. \(X\sim Geo(\)0.35\()\) representa o número de vezes que o
+  corretor deve mostrar o apartamento até conseguir vendê-lo. Então,
+  usando a propriedade da perda da memória, tem-se:
+  \[P(X>7|X>5)=P(X>2)=(1-0.35)^2=0.423.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2023, um corretor imobiliário estima que a probabilidade de não
+  vender um apartamento em Brasília é de \(0.49\) para cada cliente que
+  o apartamento é apresentado. Se ele já mostrou um apartamento para
+  \(5\) clientes e não teve sucesso de venda, qual é a probabilidade de
+  precisar mostrar o apartamento a partir de agora a mais de \(3\)
+  clientes para conseguir vendê-lo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.122\)
+  \item
+    \(0.060\)
+  \item
+    \(0.058\)
+  \item
+    \(0.065\)
+  \item
+    \(0.118\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma v.a. \(X\sim Geo(\)0.51\()\) representa o número de vezes que o
+  corretor deve mostrar o apartamento até conseguir vendê-lo. Então,
+  usando a propriedade da perda da memória, tem-se:
+  \[P(X>8|X>5)=P(X>3)=(1-0.51)^3=0.118.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2023, um corretor imobiliário estima que a probabilidade de não
+  vender um apartamento em Brasília é de \(0.53\) para cada cliente que
+  o apartamento é apresentado. Se ele já mostrou um apartamento para
+  \(3\) clientes e não teve sucesso de venda, qual é a probabilidade de
+  precisar mostrar o apartamento a partir de agora a mais de \(3\)
+  clientes para conseguir vendê-lo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.070\)
+  \item
+    \(0.079\)
+  \item
+    \(0.149\)
+  \item
+    \(0.132\)
+  \item
+    \(0.055\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma v.a. \(X\sim Geo(\)0.47\()\) representa o número de vezes que o
+  corretor deve mostrar o apartamento até conseguir vendê-lo. Então,
+  usando a propriedade da perda da memória, tem-se:
+  \[P(X>6|X>3)=P(X>3)=(1-0.47)^3=0.149.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2023, um corretor imobiliário estima que a probabilidade de não
+  vender um apartamento em Brasília é de \(0.46\) para cada cliente que
+  o apartamento é apresentado. Se ele já mostrou um apartamento para
+  \(4\) clientes e não teve sucesso de venda, qual é a probabilidade de
+  precisar mostrar o apartamento a partir de agora a mais de \(2\)
+  clientes para conseguir vendê-lo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.097\)
+  \item
+    \(0.248\)
+  \item
+    \(0.114\)
+  \item
+    \(0.134\)
+  \item
+    \(0.212\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma v.a. \(X\sim Geo(\)0.54\()\) representa o número de vezes que o
+  corretor deve mostrar o apartamento até conseguir vendê-lo. Então,
+  usando a propriedade da perda da memória, tem-se:
+  \[P(X>6|X>4)=P(X>2)=(1-0.54)^2=0.212.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2023, um corretor imobiliário estima que a probabilidade de não
+  vender um apartamento em Brasília é de \(0.63\) para cada cliente que
+  o apartamento é apresentado. Se ele já mostrou um apartamento para
+  \(4\) clientes e não teve sucesso de venda, qual é a probabilidade de
+  precisar mostrar o apartamento a partir de agora a mais de \(3\)
+  clientes para conseguir vendê-lo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(0.032\)
+  \item
+    \(0.147\)
+  \item
+    \(0.093\)
+  \item
+    \(0.158\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma v.a. \(X\sim Geo(\)0.37\()\) representa o número de vezes que o
+  corretor deve mostrar o apartamento até conseguir vendê-lo. Então,
+  usando a propriedade da perda da memória, tem-se:
+  \[P(X>7|X>4)=P(X>3)=(1-0.37)^3=0.25.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2023, um corretor imobiliário estima que a probabilidade de não
+  vender um apartamento em Brasília é de \(0.65\) para cada cliente que
+  o apartamento é apresentado. Se ele já mostrou um apartamento para
+  \(3\) clientes e não teve sucesso de venda, qual é a probabilidade de
+  precisar mostrar o apartamento a partir de agora a mais de \(2\)
+  clientes para conseguir vendê-lo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.423\)
+  \item
+    \(0.275\)
+  \item
+    \(0.228\)
+  \item
+    \(0.080\)
+  \item
+    \(0.148\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma v.a. \(X\sim Geo(\)0.35\()\) representa o número de vezes que o
+  corretor deve mostrar o apartamento até conseguir vendê-lo. Então,
+  usando a propriedade da perda da memória, tem-se:
+  \[P(X>5|X>3)=P(X>2)=(1-0.35)^2=0.423.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2023, um corretor imobiliário estima que a probabilidade de não
+  vender um apartamento em Brasília é de \(0.54\) para cada cliente que
+  o apartamento é apresentado. Se ele já mostrou um apartamento para
+  \(5\) clientes e não teve sucesso de venda, qual é a probabilidade de
+  precisar mostrar o apartamento a partir de agora a mais de \(2\)
+  clientes para conseguir vendê-lo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.292\)
+  \item
+    \(0.157\)
+  \item
+    \(0.114\)
+  \item
+    \(0.248\)
+  \item
+    \(0.134\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma v.a. \(X\sim Geo(\)0.46\()\) representa o número de vezes que o
+  corretor deve mostrar o apartamento até conseguir vendê-lo. Então,
+  usando a propriedade da perda da memória, tem-se:
+  \[P(X>7|X>5)=P(X>2)=(1-0.46)^2=0.292.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em 2023, um corretor imobiliário estima que a probabilidade de não
+  vender um apartamento em Brasília é de \(0.65\) para cada cliente que
+  o apartamento é apresentado. Se ele já mostrou um apartamento para
+  \(5\) clientes e não teve sucesso de venda, qual é a probabilidade de
+  precisar mostrar o apartamento a partir de agora a mais de \(3\)
+  clientes para conseguir vendê-lo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.179\)
+  \item
+    \(0.275\)
+  \item
+    \(0.148\)
+  \item
+    \(0.096\)
+  \item
+    \(0.028\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma v.a. \(X\sim Geo(\)0.35\()\) representa o número de vezes que o
+  corretor deve mostrar o apartamento até conseguir vendê-lo. Então,
+  usando a propriedade da perda da memória, tem-se:
+  \[P(X>8|X>5)=P(X>3)=(1-0.35)^3=0.275.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

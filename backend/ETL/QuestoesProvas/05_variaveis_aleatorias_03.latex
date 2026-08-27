@@ -1,0 +1,842 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo \(X\), em minutos, necessário para um operário
+  processar uma certa peça é uma variável aleatória com a seguinte
+  distribuição de probabilidade:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.08\) & \(0.47\) & \(0.1\) & \(0.25\) & \(0.1\) \\
+  \end{longtable}
+
+  Para cada peça processada, o operário ganha um valor fixo de R\$ 2.00,
+  mas se ele processa a peça em menos de 5 minutos, ganha R\$ 0.50 por
+  minuto poupado (por exemplo, se o operário processa a peça em \(3\)
+  minutos, ele recebe a quantia adicional de R\$ 1.00). Encontre o ganho
+  médio do operário por peça processada.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2.94\)
+  \item
+    \(3.64\)
+  \item
+    \(3.82\)
+  \item
+    \(4.32\)
+  \item
+    \(2.64\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y\) a variável aleatória que representa o valor ganho por um
+  operário. Na tabela abaixo estão computados os valores ganho pelo
+  operário de acordo com o tempo gasto no processamento de uma peça:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  tempo gasto & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  valor ganho & \(3.5\) & \(3\) & \(2.5\) & \(2\) & \(2\) \\
+  \end{longtable}
+
+  Como \(Y\) é uma transformação da variável \(X\) as probabilidades
+  correspondentes são identicas, de modo que as probabilidades
+  associadas à variável \(Y\) são:
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(3.5\) & \(3\) & \(2.5\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(Y=k)\) & \(0.08\) & \(0.47\) & \(0.1\) & \(0.35\) \\
+  \end{longtable}
+
+  Segue que o valor esperado da variável \(Y\) é \[\begin{aligned}
+  E(Y) &=& 3.5 \times 0.08+
+  3 \times 0.47+2.5 \times 0.1+2 \times 0.35 \\
+  &=& 2.64.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo \(X\), em minutos, necessário para um operário
+  processar uma certa peça é uma variável aleatória com a seguinte
+  distribuição de probabilidade:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.29\) & \(0.04\) & \(0.41\) & \(0.07\) & \(0.19\) \\
+  \end{longtable}
+
+  Para cada peça processada, o operário ganha um valor fixo de R\$ 2.00,
+  mas se ele processa a peça em menos de 5 minutos, ganha R\$ 0.50 por
+  minuto poupado (por exemplo, se o operário processa a peça em \(3\)
+  minutos, ele recebe a quantia adicional de R\$ 1.00). Encontre o ganho
+  médio do operário por peça processada.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.33\)
+  \item
+    \(2.68\)
+  \item
+    \(3.68\)
+  \item
+    \(3.83\)
+  \item
+    \(2.98\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y\) a variável aleatória que representa o valor ganho por um
+  operário. Na tabela abaixo estão computados os valores ganho pelo
+  operário de acordo com o tempo gasto no processamento de uma peça:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  tempo gasto & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  valor ganho & \(3.5\) & \(3\) & \(2.5\) & \(2\) & \(2\) \\
+  \end{longtable}
+
+  Como \(Y\) é uma transformação da variável \(X\) as probabilidades
+  correspondentes são identicas, de modo que as probabilidades
+  associadas à variável \(Y\) são:
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(3.5\) & \(3\) & \(2.5\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(Y=k)\) & \(0.29\) & \(0.04\) & \(0.41\) & \(0.26\) \\
+  \end{longtable}
+
+  Segue que o valor esperado da variável \(Y\) é \[\begin{aligned}
+  E(Y) &=& 3.5 \times 0.29+
+  3 \times 0.04+2.5 \times 0.41+2 \times 0.26 \\
+  &=& 2.68.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo \(X\), em minutos, necessário para um operário
+  processar uma certa peça é uma variável aleatória com a seguinte
+  distribuição de probabilidade:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0\) & \(0.12\) & \(0.12\) & \(0.06\) & \(0.7\) \\
+  \end{longtable}
+
+  Para cada peça processada, o operário ganha um valor fixo de R\$ 2.00,
+  mas se ele processa a peça em menos de 5 minutos, ganha R\$ 0.50 por
+  minuto poupado (por exemplo, se o operário processa a peça em \(3\)
+  minutos, ele recebe a quantia adicional de R\$ 1.00). Encontre o ganho
+  médio do operário por peça processada.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5.34\)
+  \item
+    \(2.48\)
+  \item
+    \(2.18\)
+  \item
+    \(3.18\)
+  \item
+    \(5.84\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y\) a variável aleatória que representa o valor ganho por um
+  operário. Na tabela abaixo estão computados os valores ganho pelo
+  operário de acordo com o tempo gasto no processamento de uma peça:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  tempo gasto & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  valor ganho & \(3.5\) & \(3\) & \(2.5\) & \(2\) & \(2\) \\
+  \end{longtable}
+
+  Como \(Y\) é uma transformação da variável \(X\) as probabilidades
+  correspondentes são identicas, de modo que as probabilidades
+  associadas à variável \(Y\) são:
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(3.5\) & \(3\) & \(2.5\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(Y=k)\) & \(0\) & \(0.12\) & \(0.12\) & \(0.76\) \\
+  \end{longtable}
+
+  Segue que o valor esperado da variável \(Y\) é \[\begin{aligned}
+  E(Y) &=& 3.5 \times 0+
+  3 \times 0.12+2.5 \times 0.12+2 \times 0.76 \\
+  &=& 2.18.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo \(X\), em minutos, necessário para um operário
+  processar uma certa peça é uma variável aleatória com a seguinte
+  distribuição de probabilidade:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.06\) & \(0.29\) & \(0.19\) & \(0.31\) & \(0.15\) \\
+  \end{longtable}
+
+  Para cada peça processada, o operário ganha um valor fixo de R\$ 2.00,
+  mas se ele processa a peça em menos de 5 minutos, ganha R\$ 0.50 por
+  minuto poupado (por exemplo, se o operário processa a peça em \(3\)
+  minutos, ele recebe a quantia adicional de R\$ 1.00). Encontre o ganho
+  médio do operário por peça processada.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.20\)
+  \item
+    \(2.48\)
+  \item
+    \(3.48\)
+  \item
+    \(2.78\)
+  \item
+    \(4.70\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y\) a variável aleatória que representa o valor ganho por um
+  operário. Na tabela abaixo estão computados os valores ganho pelo
+  operário de acordo com o tempo gasto no processamento de uma peça:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  tempo gasto & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  valor ganho & \(3.5\) & \(3\) & \(2.5\) & \(2\) & \(2\) \\
+  \end{longtable}
+
+  Como \(Y\) é uma transformação da variável \(X\) as probabilidades
+  correspondentes são identicas, de modo que as probabilidades
+  associadas à variável \(Y\) são:
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(3.5\) & \(3\) & \(2.5\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(Y=k)\) & \(0.06\) & \(0.29\) & \(0.19\) & \(0.46\) \\
+  \end{longtable}
+
+  Segue que o valor esperado da variável \(Y\) é \[\begin{aligned}
+  E(Y) &=& 3.5 \times 0.06+
+  3 \times 0.29+2.5 \times 0.19+2 \times 0.46 \\
+  &=& 2.47.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo \(X\), em minutos, necessário para um operário
+  processar uma certa peça é uma variável aleatória com a seguinte
+  distribuição de probabilidade:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.01\) & \(0.42\) & \(0.4\) & \(0.02\) & \(0.15\) \\
+  \end{longtable}
+
+  Para cada peça processada, o operário ganha um valor fixo de R\$ 2.00,
+  mas se ele processa a peça em menos de 5 minutos, ganha R\$ 0.50 por
+  minuto poupado (por exemplo, se o operário processa a peça em \(3\)
+  minutos, ele recebe a quantia adicional de R\$ 1.00). Encontre o ganho
+  médio do operário por peça processada.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.64\)
+  \item
+    \(3.88\)
+  \item
+    \(4.38\)
+  \item
+    \(2.64\)
+  \item
+    \(2.94\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y\) a variável aleatória que representa o valor ganho por um
+  operário. Na tabela abaixo estão computados os valores ganho pelo
+  operário de acordo com o tempo gasto no processamento de uma peça:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  tempo gasto & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  valor ganho & \(3.5\) & \(3\) & \(2.5\) & \(2\) & \(2\) \\
+  \end{longtable}
+
+  Como \(Y\) é uma transformação da variável \(X\) as probabilidades
+  correspondentes são identicas, de modo que as probabilidades
+  associadas à variável \(Y\) são:
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(3.5\) & \(3\) & \(2.5\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(Y=k)\) & \(0.01\) & \(0.42\) & \(0.4\) & \(0.17\) \\
+  \end{longtable}
+
+  Segue que o valor esperado da variável \(Y\) é \[\begin{aligned}
+  E(Y) &=& 3.5 \times 0.01+
+  3 \times 0.42+2.5 \times 0.4+2 \times 0.17 \\
+  &=& 2.63.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo \(X\), em minutos, necessário para um operário
+  processar uma certa peça é uma variável aleatória com a seguinte
+  distribuição de probabilidade:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.22\) & \(0.11\) & \(0.03\) & \(0.24\) & \(0.4\) \\
+  \end{longtable}
+
+  Para cada peça processada, o operário ganha um valor fixo de R\$ 2.00,
+  mas se ele processa a peça em menos de 5 minutos, ganha R\$ 0.50 por
+  minuto poupado (por exemplo, se o operário processa a peça em \(3\)
+  minutos, ele recebe a quantia adicional de R\$ 1.00). Encontre o ganho
+  médio do operário por peça processada.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.99\)
+  \item
+    \(2.46\)
+  \item
+    \(3.46\)
+  \item
+    \(4.49\)
+  \item
+    \(2.76\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y\) a variável aleatória que representa o valor ganho por um
+  operário. Na tabela abaixo estão computados os valores ganho pelo
+  operário de acordo com o tempo gasto no processamento de uma peça:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  tempo gasto & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  valor ganho & \(3.5\) & \(3\) & \(2.5\) & \(2\) & \(2\) \\
+  \end{longtable}
+
+  Como \(Y\) é uma transformação da variável \(X\) as probabilidades
+  correspondentes são identicas, de modo que as probabilidades
+  associadas à variável \(Y\) são:
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(3.5\) & \(3\) & \(2.5\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(Y=k)\) & \(0.22\) & \(0.11\) & \(0.03\) & \(0.64\) \\
+  \end{longtable}
+
+  Segue que o valor esperado da variável \(Y\) é \[\begin{aligned}
+  E(Y) &=& 3.5 \times 0.22+
+  3 \times 0.11+2.5 \times 0.03+2 \times 0.64 \\
+  &=& 2.46.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo \(X\), em minutos, necessário para um operário
+  processar uma certa peça é uma variável aleatória com a seguinte
+  distribuição de probabilidade:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.02\) & \(0.03\) & \(0.03\) & \(0.83\) & \(0.09\) \\
+  \end{longtable}
+
+  Para cada peça processada, o operário ganha um valor fixo de R\$ 2.00,
+  mas se ele processa a peça em menos de 5 minutos, ganha R\$ 0.50 por
+  minuto poupado (por exemplo, se o operário processa a peça em \(3\)
+  minutos, ele recebe a quantia adicional de R\$ 1.00). Encontre o ganho
+  médio do operário por peça processada.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.94\)
+  \item
+    \(2.08\)
+  \item
+    \(3.08\)
+  \item
+    \(5.44\)
+  \item
+    \(2.38\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y\) a variável aleatória que representa o valor ganho por um
+  operário. Na tabela abaixo estão computados os valores ganho pelo
+  operário de acordo com o tempo gasto no processamento de uma peça:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  tempo gasto & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  valor ganho & \(3.5\) & \(3\) & \(2.5\) & \(2\) & \(2\) \\
+  \end{longtable}
+
+  Como \(Y\) é uma transformação da variável \(X\) as probabilidades
+  correspondentes são identicas, de modo que as probabilidades
+  associadas à variável \(Y\) são:
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(3.5\) & \(3\) & \(2.5\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(Y=k)\) & \(0.02\) & \(0.03\) & \(0.03\) & \(0.92\) \\
+  \end{longtable}
+
+  Segue que o valor esperado da variável \(Y\) é \[\begin{aligned}
+  E(Y) &=& 3.5 \times 0.02+
+  3 \times 0.03+2.5 \times 0.03+2 \times 0.92 \\
+  &=& 2.07.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo \(X\), em minutos, necessário para um operário
+  processar uma certa peça é uma variável aleatória com a seguinte
+  distribuição de probabilidade:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.44\) & \(0.14\) & \(0.19\) & \(0.09\) & \(0.14\) \\
+  \end{longtable}
+
+  Para cada peça processada, o operário ganha um valor fixo de R\$ 2.00,
+  mas se ele processa a peça em menos de 5 minutos, ganha R\$ 0.50 por
+  minuto poupado (por exemplo, se o operário processa a peça em \(3\)
+  minutos, ele recebe a quantia adicional de R\$ 1.00). Encontre o ganho
+  médio do operário por peça processada.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.90\)
+  \item
+    \(3.35\)
+  \item
+    \(2.90\)
+  \item
+    \(3.20\)
+  \item
+    \(3.85\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y\) a variável aleatória que representa o valor ganho por um
+  operário. Na tabela abaixo estão computados os valores ganho pelo
+  operário de acordo com o tempo gasto no processamento de uma peça:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  tempo gasto & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  valor ganho & \(3.5\) & \(3\) & \(2.5\) & \(2\) & \(2\) \\
+  \end{longtable}
+
+  Como \(Y\) é uma transformação da variável \(X\) as probabilidades
+  correspondentes são identicas, de modo que as probabilidades
+  associadas à variável \(Y\) são:
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(3.5\) & \(3\) & \(2.5\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(Y=k)\) & \(0.44\) & \(0.14\) & \(0.19\) & \(0.23\) \\
+  \end{longtable}
+
+  Segue que o valor esperado da variável \(Y\) é \[\begin{aligned}
+  E(Y) &=& 3.5 \times 0.44+
+  3 \times 0.14+2.5 \times 0.19+2 \times 0.23 \\
+  &=& 2.9.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo \(X\), em minutos, necessário para um operário
+  processar uma certa peça é uma variável aleatória com a seguinte
+  distribuição de probabilidade:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.46\) & \(0.02\) & \(0.06\) & \(0.3\) & \(0.16\) \\
+  \end{longtable}
+
+  Para cada peça processada, o operário ganha um valor fixo de R\$ 2.00,
+  mas se ele processa a peça em menos de 5 minutos, ganha R\$ 0.50 por
+  minuto poupado (por exemplo, se o operário processa a peça em \(3\)
+  minutos, ele recebe a quantia adicional de R\$ 1.00). Encontre o ganho
+  médio do operário por peça processada.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.18\)
+  \item
+    \(3.04\)
+  \item
+    \(3.74\)
+  \item
+    \(3.68\)
+  \item
+    \(2.74\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y\) a variável aleatória que representa o valor ganho por um
+  operário. Na tabela abaixo estão computados os valores ganho pelo
+  operário de acordo com o tempo gasto no processamento de uma peça:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  tempo gasto & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  valor ganho & \(3.5\) & \(3\) & \(2.5\) & \(2\) & \(2\) \\
+  \end{longtable}
+
+  Como \(Y\) é uma transformação da variável \(X\) as probabilidades
+  correspondentes são identicas, de modo que as probabilidades
+  associadas à variável \(Y\) são:
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(3.5\) & \(3\) & \(2.5\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(Y=k)\) & \(0.46\) & \(0.02\) & \(0.06\) & \(0.46\) \\
+  \end{longtable}
+
+  Segue que o valor esperado da variável \(Y\) é \[\begin{aligned}
+  E(Y) &=& 3.5 \times 0.46+
+  3 \times 0.02+2.5 \times 0.06+2 \times 0.46 \\
+  &=& 2.74.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo \(X\), em minutos, necessário para um operário
+  processar uma certa peça é uma variável aleatória com a seguinte
+  distribuição de probabilidade:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(X=k)\) & \(0.35\) & \(0\) & \(0.06\) & \(0.22\) & \(0.37\) \\
+  \end{longtable}
+
+  Para cada peça processada, o operário ganha um valor fixo de R\$ 2.00,
+  mas se ele processa a peça em menos de 5 minutos, ganha R\$ 0.50 por
+  minuto poupado (por exemplo, se o operário processa a peça em \(3\)
+  minutos, ele recebe a quantia adicional de R\$ 1.00). Encontre o ganho
+  médio do operário por peça processada.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.56\)
+  \item
+    \(4.76\)
+  \item
+    \(2.86\)
+  \item
+    \(4.26\)
+  \item
+    \(2.56\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(Y\) a variável aleatória que representa o valor ganho por um
+  operário. Na tabela abaixo estão computados os valores ganho pelo
+  operário de acordo com o tempo gasto no processamento de uma peça:
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  tempo gasto & \(2\) & \(3\) & \(4\) & \(5\) & \(6\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  valor ganho & \(3.5\) & \(3\) & \(2.5\) & \(2\) & \(2\) \\
+  \end{longtable}
+
+  Como \(Y\) é uma transformação da variável \(X\) as probabilidades
+  correspondentes são identicas, de modo que as probabilidades
+  associadas à variável \(Y\) são:
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  \(k\) & \(3.5\) & \(3\) & \(2.5\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(P(Y=k)\) & \(0.35\) & \(0\) & \(0.06\) & \(0.59\) \\
+  \end{longtable}
+
+  Segue que o valor esperado da variável \(Y\) é \[\begin{aligned}
+  E(Y) &=& 3.5 \times 0.35+
+  3 \times 0+2.5 \times 0.06+2 \times 0.59 \\
+  &=& 2.55.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

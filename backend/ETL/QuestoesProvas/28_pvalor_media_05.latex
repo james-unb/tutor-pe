@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de bebidas precisa saber a quantidade média de água de
+  coco contida em um coco para produzir água de coco em caixinha. Para
+  que se tenha lucro, é necessário que cada coco contenha, pelo menos,
+  396 mL. Porém, acredita-se que esse número diminuiu devido a uma seca
+  na área produtora de cocos. Para testar tal hipótese, uma amostra
+  aleatória simples de 81 cocos foi selecionada resultando em uma
+  quantidade média de água por coco de 388 mL. Sabe-se que o desvio
+  padrão populacional dessa quantidade é de 37. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0149\)
+  \item
+    \(0.8672\)
+  \item
+    \(0.4872\)
+  \item
+    \(0.0256\)
+  \item
+    \(0.7458\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 396 \ \ versus \ \ H_a : \mu < 396.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-396}{\sigma/\sqrt{n}} = -1.95\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.95) = 0.0256.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de bebidas precisa saber a quantidade média de água de
+  coco contida em um coco para produzir água de coco em caixinha. Para
+  que se tenha lucro, é necessário que cada coco contenha, pelo menos,
+  399 mL. Porém, acredita-se que esse número diminuiu devido a uma seca
+  na área produtora de cocos. Para testar tal hipótese, uma amostra
+  aleatória simples de 58 cocos foi selecionada resultando em uma
+  quantidade média de água por coco de 394 mL. Sabe-se que o desvio
+  padrão populacional dessa quantidade é de 34. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7731\)
+  \item
+    \(0.1438\)
+  \item
+    \(0.2463\)
+  \item
+    \(0.1314\)
+  \item
+    \(0.4343\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 399 \ \ versus \ \ H_a : \mu < 399.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-399}{\sigma/\sqrt{n}} = -1.12\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.12) = 0.1314.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de bebidas precisa saber a quantidade média de água de
+  coco contida em um coco para produzir água de coco em caixinha. Para
+  que se tenha lucro, é necessário que cada coco contenha, pelo menos,
+  393 mL. Porém, acredita-se que esse número diminuiu devido a uma seca
+  na área produtora de cocos. Para testar tal hipótese, uma amostra
+  aleatória simples de 63 cocos foi selecionada resultando em uma
+  quantidade média de água por coco de 388 mL. Sabe-se que o desvio
+  padrão populacional dessa quantidade é de 35. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4354\)
+  \item
+    \(0.0255\)
+  \item
+    \(0.1292\)
+  \item
+    \(0.7750\)
+  \item
+    \(0.5236\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 393 \ \ versus \ \ H_a : \mu < 393.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-393}{\sigma/\sqrt{n}} = -1.13\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.13) = 0.1292.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de bebidas precisa saber a quantidade média de água de
+  coco contida em um coco para produzir água de coco em caixinha. Para
+  que se tenha lucro, é necessário que cada coco contenha, pelo menos,
+  390 mL. Porém, acredita-se que esse número diminuiu devido a uma seca
+  na área produtora de cocos. Para testar tal hipótese, uma amostra
+  aleatória simples de 76 cocos foi selecionada resultando em uma
+  quantidade média de água por coco de 385 mL. Sabe-se que o desvio
+  padrão populacional dessa quantidade é de 38. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7787\)
+  \item
+    \(0.1251\)
+  \item
+    \(0.4375\)
+  \item
+    \(0.1960\)
+  \item
+    \(0.6529\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 390 \ \ versus \ \ H_a : \mu < 390.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-390}{\sigma/\sqrt{n}} = -1.15\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.15) = 0.1251.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de bebidas precisa saber a quantidade média de água de
+  coco contida em um coco para produzir água de coco em caixinha. Para
+  que se tenha lucro, é necessário que cada coco contenha, pelo menos,
+  402 mL. Porém, acredita-se que esse número diminuiu devido a uma seca
+  na área produtora de cocos. Para testar tal hipótese, uma amostra
+  aleatória simples de 55 cocos foi selecionada resultando em uma
+  quantidade média de água por coco de 391 mL. Sabe-se que o desvio
+  padrão populacional dessa quantidade é de 38. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8760\)
+  \item
+    \(0.4464\)
+  \item
+    \(0.1491\)
+  \item
+    \(0.0158\)
+  \item
+    \(0.4921\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 402 \ \ versus \ \ H_a : \mu < 402.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-402}{\sigma/\sqrt{n}} = -2.15\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-2.15) = 0.0158.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de bebidas precisa saber a quantidade média de água de
+  coco contida em um coco para produzir água de coco em caixinha. Para
+  que se tenha lucro, é necessário que cada coco contenha, pelo menos,
+  405 mL. Porém, acredita-se que esse número diminuiu devido a uma seca
+  na área produtora de cocos. Para testar tal hipótese, uma amostra
+  aleatória simples de 65 cocos foi selecionada resultando em uma
+  quantidade média de água por coco de 399 mL. Sabe-se que o desvio
+  padrão populacional dessa quantidade é de 34. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7891\)
+  \item
+    \(0.4611\)
+  \item
+    \(0.0778\)
+  \item
+    \(0.1452\)
+  \item
+    \(0.8208\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 405 \ \ versus \ \ H_a : \mu < 405.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-405}{\sigma/\sqrt{n}} = -1.42\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.42) = 0.0778.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de bebidas precisa saber a quantidade média de água de
+  coco contida em um coco para produzir água de coco em caixinha. Para
+  que se tenha lucro, é necessário que cada coco contenha, pelo menos,
+  409 mL. Porém, acredita-se que esse número diminuiu devido a uma seca
+  na área produtora de cocos. Para testar tal hipótese, uma amostra
+  aleatória simples de 61 cocos foi selecionada resultando em uma
+  quantidade média de água por coco de 399 mL. Sabe-se que o desvio
+  padrão populacional dessa quantidade é de 33. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8821\)
+  \item
+    \(0.4628\)
+  \item
+    \(0.4956\)
+  \item
+    \(0.0832\)
+  \item
+    \(0.0089\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 409 \ \ versus \ \ H_a : \mu < 409.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-409}{\sigma/\sqrt{n}} = -2.37\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-2.37) = 0.0089.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de bebidas precisa saber a quantidade média de água de
+  coco contida em um coco para produzir água de coco em caixinha. Para
+  que se tenha lucro, é necessário que cada coco contenha, pelo menos,
+  397 mL. Porém, acredita-se que esse número diminuiu devido a uma seca
+  na área produtora de cocos. Para testar tal hipótese, uma amostra
+  aleatória simples de 88 cocos foi selecionada resultando em uma
+  quantidade média de água por coco de 386 mL. Sabe-se que o desvio
+  padrão populacional dessa quantidade é de 34. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0012\)
+  \item
+    \(0.7310\)
+  \item
+    \(0.4994\)
+  \item
+    \(0.8889\)
+  \item
+    \(0.0812\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 397 \ \ versus \ \ H_a : \mu < 397.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-397}{\sigma/\sqrt{n}} = -3.03\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-3.03) = 0.0012.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de bebidas precisa saber a quantidade média de água de
+  coco contida em um coco para produzir água de coco em caixinha. Para
+  que se tenha lucro, é necessário que cada coco contenha, pelo menos,
+  404 mL. Porém, acredita-se que esse número diminuiu devido a uma seca
+  na área produtora de cocos. Para testar tal hipótese, uma amostra
+  aleatória simples de 98 cocos foi selecionada resultando em uma
+  quantidade média de água por coco de 397 mL. Sabe-se que o desvio
+  padrão populacional dessa quantidade é de 36. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0607\)
+  \item
+    \(0.8463\)
+  \item
+    \(0.0274\)
+  \item
+    \(0.4863\)
+  \item
+    \(0.8656\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 404 \ \ versus \ \ H_a : \mu < 404.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-404}{\sigma/\sqrt{n}} = -1.92\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.92) = 0.0274.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de bebidas precisa saber a quantidade média de água de
+  coco contida em um coco para produzir água de coco em caixinha. Para
+  que se tenha lucro, é necessário que cada coco contenha, pelo menos,
+  409 mL. Porém, acredita-se que esse número diminuiu devido a uma seca
+  na área produtora de cocos. Para testar tal hipótese, uma amostra
+  aleatória simples de 65 cocos foi selecionada resultando em uma
+  quantidade média de água por coco de 403 mL. Sabe-se que o desvio
+  padrão populacional dessa quantidade é de 38. Com base nas
+  informações, assinale a alternativa correspondente ao p-valor do teste
+  de hipóteses em consideração.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1020\)
+  \item
+    \(0.7992\)
+  \item
+    \(0.1923\)
+  \item
+    \(0.8186\)
+  \item
+    \(0.4490\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu \geq 409 \ \ versus \ \ H_a : \mu < 409.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-409}{\sigma/\sqrt{n}} = -1.27\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.27) = 0.102.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

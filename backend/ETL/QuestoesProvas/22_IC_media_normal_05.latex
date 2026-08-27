@@ -1,0 +1,492 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Para se avaliar a audiência do mais conhecido telejornal (Jornal
+  Nacional) da rede Globo de televisão, em determinado mês do ano,
+  mediu-se os pontos de audiência do programa para \(16\) dias desse
+  mês. Obteve-se o valor médio de \(34.6\) pontos. Sabe-se que o desvio
+  padrão populacional dos pontos de audiência desse telejornal é de
+  \(3.2\) pontos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para os pontos de audiência
+  médio em todo o mês com \(99\)\% de confiança. Assuma que a audiência
+  do jornal segue uma distribuição normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([32.536, 36.664]\)
+  \item
+    \([34.084, 35.116]\)
+  \item
+    \([33.558, 35.642]\)
+  \item
+    \([32.243, 36.957]\)
+  \item
+    \([34.011, 35.189]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, temos que a variância populacinal é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[34.6-2.58\times\frac{3.2}{\sqrt{16}} \ , \ 34.6+2.58\times\frac{3.2}{\sqrt{16}}\right]\\
+  &=&\text{$[32.536, 36.664]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para se avaliar a audiência do mais conhecido telejornal (Jornal
+  Nacional) da rede Globo de televisão, em determinado mês do ano,
+  mediu-se os pontos de audiência do programa para \(16\) dias desse
+  mês. Obteve-se o valor médio de \(31.4\) pontos. Sabe-se que o desvio
+  padrão populacional dos pontos de audiência desse telejornal é de
+  \(2.5\) pontos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para os pontos de audiência
+  médio em todo o mês com \(90\)\% de confiança. Assuma que a audiência
+  do jornal segue uma distribuição normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([30.375, 32.425]\)
+  \item
+    \([31.126, 31.674]\)
+  \item
+    \([30.304, 32.496]\)
+  \item
+    \([30.894, 31.906]\)
+  \item
+    \([31.144, 31.656]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, temos que a variância populacinal é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[31.4-1.64\times\frac{2.5}{\sqrt{16}} \ , \ 31.4+1.64\times\frac{2.5}{\sqrt{16}}\right]\\
+  &=&\text{$[30.375, 32.425]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para se avaliar a audiência do mais conhecido telejornal (Jornal
+  Nacional) da rede Globo de televisão, em determinado mês do ano,
+  mediu-se os pontos de audiência do programa para \(25\) dias desse
+  mês. Obteve-se o valor médio de \(30.6\) pontos. Sabe-se que o desvio
+  padrão populacional dos pontos de audiência desse telejornal é de
+  \(3.8\) pontos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para os pontos de audiência
+  médio em todo o mês com \(99\)\% de confiança. Assuma que a audiência
+  do jornal segue uma distribuição normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([30.208, 30.992]\)
+  \item
+    \([28.474, 32.726]\)
+  \item
+    \([29.692, 31.508]\)
+  \item
+    \([28.639, 32.561]\)
+  \item
+    \([30.175, 31.025]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, temos que a variância populacinal é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[30.6-2.58\times\frac{3.8}{\sqrt{25}} \ , \ 30.6+2.58\times\frac{3.8}{\sqrt{25}}\right]\\
+  &=&\text{$[28.639, 32.561]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para se avaliar a audiência do mais conhecido telejornal (Jornal
+  Nacional) da rede Globo de televisão, em determinado mês do ano,
+  mediu-se os pontos de audiência do programa para \(16\) dias desse
+  mês. Obteve-se o valor médio de \(34.5\) pontos. Sabe-se que o desvio
+  padrão populacional dos pontos de audiência desse telejornal é de
+  \(3.7\) pontos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para os pontos de audiência
+  médio em todo o mês com \(95\)\% de confiança. Assuma que a audiência
+  do jornal segue uma distribuição normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([32.528, 36.472]\)
+  \item
+    \([33.711, 35.289]\)
+  \item
+    \([34.007, 34.993]\)
+  \item
+    \([32.687, 36.313]\)
+  \item
+    \([34.047, 34.953]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, temos que a variância populacinal é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[34.5-1.96\times\frac{3.7}{\sqrt{16}} \ , \ 34.5+1.96\times\frac{3.7}{\sqrt{16}}\right]\\
+  &=&\text{$[32.687, 36.313]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para se avaliar a audiência do mais conhecido telejornal (Jornal
+  Nacional) da rede Globo de televisão, em determinado mês do ano,
+  mediu-se os pontos de audiência do programa para \(16\) dias desse
+  mês. Obteve-se o valor médio de \(27.4\) pontos. Sabe-se que o desvio
+  padrão populacional dos pontos de audiência desse telejornal é de
+  \(3.9\) pontos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para os pontos de audiência
+  médio em todo o mês com \(90\)\% de confiança. Assuma que a audiência
+  do jornal segue uma distribuição normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([25.801, 28.999]\)
+  \item
+    \([25.691, 29.109]\)
+  \item
+    \([26.973, 27.827]\)
+  \item
+    \([26.768, 28.032]\)
+  \item
+    \([27.000, 27.800]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, temos que a variância populacinal é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[27.4-1.64\times\frac{3.9}{\sqrt{16}} \ , \ 27.4+1.64\times\frac{3.9}{\sqrt{16}}\right]\\
+  &=&\text{$[25.801, 28.999]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para se avaliar a audiência do mais conhecido telejornal (Jornal
+  Nacional) da rede Globo de televisão, em determinado mês do ano,
+  mediu-se os pontos de audiência do programa para \(16\) dias desse
+  mês. Obteve-se o valor médio de \(34.3\) pontos. Sabe-se que o desvio
+  padrão populacional dos pontos de audiência desse telejornal é de
+  \(4.4\) pontos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para os pontos de audiência
+  médio em todo o mês com \(90\)\% de confiança. Assuma que a audiência
+  do jornal segue uma distribuição normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([32.496, 36.104]\)
+  \item
+    \([32.372, 36.228]\)
+  \item
+    \([33.629, 34.971]\)
+  \item
+    \([33.849, 34.751]\)
+  \item
+    \([33.818, 34.782]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, temos que a variância populacinal é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[34.3-1.64\times\frac{4.4}{\sqrt{16}} \ , \ 34.3+1.64\times\frac{4.4}{\sqrt{16}}\right]\\
+  &=&\text{$[32.496, 36.104]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para se avaliar a audiência do mais conhecido telejornal (Jornal
+  Nacional) da rede Globo de televisão, em determinado mês do ano,
+  mediu-se os pontos de audiência do programa para \(25\) dias desse
+  mês. Obteve-se o valor médio de \(33.1\) pontos. Sabe-se que o desvio
+  padrão populacional dos pontos de audiência desse telejornal é de
+  \(3.1\) pontos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para os pontos de audiência
+  médio em todo o mês com \(99\)\% de confiança. Assuma que a audiência
+  do jornal segue uma distribuição normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([32.780, 33.420]\)
+  \item
+    \([31.366, 34.834]\)
+  \item
+    \([32.280, 33.920]\)
+  \item
+    \([32.753, 33.447]\)
+  \item
+    \([31.500, 34.700]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, temos que a variância populacinal é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[33.1-2.58\times\frac{3.1}{\sqrt{25}} \ , \ 33.1+2.58\times\frac{3.1}{\sqrt{25}}\right]\\
+  &=&\text{$[31.500, 34.700]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para se avaliar a audiência do mais conhecido telejornal (Jornal
+  Nacional) da rede Globo de televisão, em determinado mês do ano,
+  mediu-se os pontos de audiência do programa para \(25\) dias desse
+  mês. Obteve-se o valor médio de \(28.1\) pontos. Sabe-se que o desvio
+  padrão populacional dos pontos de audiência desse telejornal é de
+  \(3.5\) pontos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para os pontos de audiência
+  médio em todo o mês com \(95\)\% de confiança. Assuma que a audiência
+  do jornal segue uma distribuição normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([27.811, 28.389]\)
+  \item
+    \([26.728, 29.472]\)
+  \item
+    \([27.486, 28.714]\)
+  \item
+    \([26.655, 29.545]\)
+  \item
+    \([27.826, 28.374]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, temos que a variância populacinal é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[28.1-1.96\times\frac{3.5}{\sqrt{25}} \ , \ 28.1+1.96\times\frac{3.5}{\sqrt{25}}\right]\\
+  &=&\text{$[26.728, 29.472]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para se avaliar a audiência do mais conhecido telejornal (Jornal
+  Nacional) da rede Globo de televisão, em determinado mês do ano,
+  mediu-se os pontos de audiência do programa para \(16\) dias desse
+  mês. Obteve-se o valor médio de \(32.1\) pontos. Sabe-se que o desvio
+  padrão populacional dos pontos de audiência desse telejornal é de
+  \(3\) pontos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para os pontos de audiência
+  médio em todo o mês com \(95\)\% de confiança. Assuma que a audiência
+  do jornal segue uma distribuição normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([30.501, 33.699]\)
+  \item
+    \([31.390, 32.810]\)
+  \item
+    \([30.630, 33.570]\)
+  \item
+    \([31.700, 32.500]\)
+  \item
+    \([31.733, 32.468]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, temos que a variância populacinal é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[32.1-1.96\times\frac{3}{\sqrt{16}} \ , \ 32.1+1.96\times\frac{3}{\sqrt{16}}\right]\\
+  &=&\text{$[30.630, 33.570]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para se avaliar a audiência do mais conhecido telejornal (Jornal
+  Nacional) da rede Globo de televisão, em determinado mês do ano,
+  mediu-se os pontos de audiência do programa para \(25\) dias desse
+  mês. Obteve-se o valor médio de \(27.6\) pontos. Sabe-se que o desvio
+  padrão populacional dos pontos de audiência desse telejornal é de
+  \(4.1\) pontos. Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para os pontos de audiência
+  médio em todo o mês com \(99\)\% de confiança. Assuma que a audiência
+  do jornal segue uma distribuição normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([25.307, 29.893]\)
+  \item
+    \([25.484, 29.716]\)
+  \item
+    \([26.656, 28.544]\)
+  \item
+    \([27.141, 28.059]\)
+  \item
+    \([27.177, 28.023]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, temos que a variância populacinal é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[27.6-2.58\times\frac{4.1}{\sqrt{25}} \ , \ 27.6+2.58\times\frac{4.1}{\sqrt{25}}\right]\\
+  &=&\text{$[25.484, 29.716]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

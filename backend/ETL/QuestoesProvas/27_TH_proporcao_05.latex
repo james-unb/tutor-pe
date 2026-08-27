@@ -1,0 +1,358 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um software de processamento de voz deseja descartar automaticamente
+  clips cujo percentual de ruído seja superior a \(70\%\). Utilizando
+  uma amostra aleatória de trechos do clip, faz-se um teste de hipótese
+  a fim de identificar automaticamente clips para exclusão. Para um
+  determinado teste, foi encontrado um p-valor igual a \(0.04\). Dessa
+  forma, ao nível de significância de \(10\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o clip deve ser
+    excluído.
+  \item
+    Não se rejeita a hipótese nula. O clip certamente não deve ser
+    excluído.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o clip não deve ser
+    excluído.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o clip deve ser
+    excluído.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o clip deve
+    ser excluído.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 70\%\) \emph{vs.} \(H_a: p > 70\%\).
+
+  Portanto, p-valor = \(0.04 < 0.1\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Um software de processamento de voz deseja descartar automaticamente clips cujo percentual de ruído seja superior a\)70\%\(. Utilizando uma amostra aleatória de trechos do clip, faz-se um teste de hipótese a fim de identificar automaticamente clips para exclusão. Para um determinado teste, foi encontrado um p-valor igual a\)0.07\(. Dessa forma, ao nível de significância de\)10\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. O clip certamente não deve ser excluído.
+      \item Não se rejeita a hipótese nula. Não há evidência de que o clip deve ser excluído.
+      \item Rejeita-se a hipótese nula. Há evidência de que o clip deve ser excluído.
+      \item Não se rejeita a hipótese nula. Há evidência de que o clip deve ser excluído.
+      \item Rejeita-se a hipótese nula. Há evidência de que o clip não deve ser excluído.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textgreater{} 70\%\(. 
+
+  Portanto, p-valor =\)0.07 \textless{} 0.1\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um software de processamento de voz deseja descartar automaticamente
+  clips cujo percentual de ruído seja superior a \(70\%\). Utilizando
+  uma amostra aleatória de trechos do clip, faz-se um teste de hipótese
+  a fim de identificar automaticamente clips para exclusão. Para um
+  determinado teste, foi encontrado um p-valor igual a \(0.05\). Dessa
+  forma, ao nível de significância de \(8\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o clip deve ser
+    excluído.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o clip deve ser
+    excluído.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o clip não deve ser
+    excluído.
+  \item
+    Não se rejeita a hipótese nula. O clip certamente não deve ser
+    excluído.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o clip deve
+    ser excluído.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 70\%\) \emph{vs.} \(H_a: p > 70\%\).
+
+  Portanto, p-valor = \(0.05 < 0.08\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Um software de processamento de voz deseja descartar automaticamente clips cujo percentual de ruído seja superior a\)70\%\(. Utilizando uma amostra aleatória de trechos do clip, faz-se um teste de hipótese a fim de identificar automaticamente clips para exclusão. Para um determinado teste, foi encontrado um p-valor igual a\)0.04\(. Dessa forma, ao nível de significância de\)8\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. Não há evidência de que o clip deve ser excluído.
+      \item Rejeita-se a hipótese nula. Há evidência de que o clip não deve ser excluído.
+      \item Não se rejeita a hipótese nula. O clip certamente não deve ser excluído.
+      \item Rejeita-se a hipótese nula. Há evidência de que o clip deve ser excluído.
+      \item Não se rejeita a hipótese nula. Há evidência de que o clip deve ser excluído.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textgreater{} 70\%\(. 
+
+  Portanto, p-valor =\)0.04 \textless{} 0.08\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um software de processamento de voz deseja descartar automaticamente
+  clips cujo percentual de ruído seja superior a \(70\%\). Utilizando
+  uma amostra aleatória de trechos do clip, faz-se um teste de hipótese
+  a fim de identificar automaticamente clips para exclusão. Para um
+  determinado teste, foi encontrado um p-valor igual a \(0.07\). Dessa
+  forma, ao nível de significância de \(4\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o clip deve ser
+    excluído.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o clip deve
+    ser excluído.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o clip não deve ser
+    excluído.
+  \item
+    Não se rejeita a hipótese nula. O clip certamente não deve ser
+    excluído.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o clip deve ser
+    excluído.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 70\%\) \emph{vs.} \(H_a: p > 70\%\).
+
+  Portanto, p-valor = \(0.07 > 0.04\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Um software de processamento de voz deseja descartar automaticamente clips cujo percentual de ruído seja superior a\)70\%\(. Utilizando uma amostra aleatória de trechos do clip, faz-se um teste de hipótese a fim de identificar automaticamente clips para exclusão. Para um determinado teste, foi encontrado um p-valor igual a\)0.01\(. Dessa forma, ao nível de significância de\)5\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Rejeita-se a hipótese nula. Há evidência de que o clip deve ser excluído.
+      \item Não se rejeita a hipótese nula. Há evidência de que o clip deve ser excluído.
+      \item Não se rejeita a hipótese nula. Não há evidência de que o clip deve ser excluído.
+      \item Não se rejeita a hipótese nula. O clip certamente não deve ser excluído.
+      \item Rejeita-se a hipótese nula. Há evidência de que o clip não deve ser excluído.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textgreater{} 70\%\(. 
+
+  Portanto, p-valor =\)0.01 \textless{} 0.05\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um software de processamento de voz deseja descartar automaticamente
+  clips cujo percentual de ruído seja superior a \(70\%\). Utilizando
+  uma amostra aleatória de trechos do clip, faz-se um teste de hipótese
+  a fim de identificar automaticamente clips para exclusão. Para um
+  determinado teste, foi encontrado um p-valor igual a \(0.04\). Dessa
+  forma, ao nível de significância de \(8\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o clip não deve ser
+    excluído.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o clip deve
+    ser excluído.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o clip deve ser
+    excluído.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o clip deve ser
+    excluído.
+  \item
+    Não se rejeita a hipótese nula. O clip certamente não deve ser
+    excluído.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 70\%\) \emph{vs.} \(H_a: p > 70\%\).
+
+  Portanto, p-valor = \(0.04 < 0.08\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Um software de processamento de voz deseja descartar automaticamente clips cujo percentual de ruído seja superior a\)70\%\(. Utilizando uma amostra aleatória de trechos do clip, faz-se um teste de hipótese a fim de identificar automaticamente clips para exclusão. Para um determinado teste, foi encontrado um p-valor igual a\)0.04\(. Dessa forma, ao nível de significância de\)5\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Rejeita-se a hipótese nula. Há evidência de que o clip não deve ser excluído.
+      \item Não se rejeita a hipótese nula. O clip certamente não deve ser excluído.
+      \item Não se rejeita a hipótese nula. Não há evidência de que o clip deve ser excluído.
+      \item Rejeita-se a hipótese nula. Há evidência de que o clip deve ser excluído.
+      \item Não se rejeita a hipótese nula. Há evidência de que o clip deve ser excluído.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textgreater{} 70\%\(. 
+
+  Portanto, p-valor =\)0.04 \textless{} 0.05\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um software de processamento de voz deseja descartar automaticamente
+  clips cujo percentual de ruído seja superior a \(70\%\). Utilizando
+  uma amostra aleatória de trechos do clip, faz-se um teste de hipótese
+  a fim de identificar automaticamente clips para exclusão. Para um
+  determinado teste, foi encontrado um p-valor igual a \(0.05\). Dessa
+  forma, ao nível de significância de \(1\%\), deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. O clip certamente não deve ser
+    excluído.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que o clip deve ser
+    excluído.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o clip deve ser
+    excluído.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que o clip deve
+    ser excluído.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que o clip não deve ser
+    excluído.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 70\%\) \emph{vs.} \(H_a: p > 70\%\).
+
+  Portanto, p-valor = \(0.05 > 0.01\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Um software de processamento de voz deseja descartar automaticamente clips cujo percentual de ruído seja superior a\)70\%\(. Utilizando uma amostra aleatória de trechos do clip, faz-se um teste de hipótese a fim de identificar automaticamente clips para exclusão. Para um determinado teste, foi encontrado um p-valor igual a\)0.06\(. Dessa forma, ao nível de significância de\)3\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Rejeita-se a hipótese nula. Há evidência de que o clip não deve ser excluído.
+      \item Rejeita-se a hipótese nula. Há evidência de que o clip deve ser excluído.
+      \item Não se rejeita a hipótese nula. Não há evidência de que o clip deve ser excluído.
+      \item Não se rejeita a hipótese nula. O clip certamente não deve ser excluído.
+      \item Não se rejeita a hipótese nula. Há evidência de que o clip deve ser excluído.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textgreater{} 70\%\(. 
+
+  Portanto, p-valor =\)0.06 \textgreater{}
+  0.03\(e não se rejeita\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

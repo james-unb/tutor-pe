@@ -1,0 +1,492 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Apesar de ter ganhado grande visibilidade a partir da sanção da Lei
+  12.711 de 2012, o sistema de cotas no Brasil existe desde o início dos
+  anos 2000, quando a Universidade de Brasília (UnB) decidiu fazer
+  reserva de vagas para alguns candidatos em seu processo seletivo. Em
+  um estudo sobre o desempenho de alunos cotistas em universidades
+  públicas, deseja-se estimar o número médio de alunos cotistas
+  desligados das universidades em 2018. Em anos anteriores o desvio
+  padrão populacional da quantidade de cotistas desligados é de \(82\).
+  Em um levantamento por amostragem aleatória, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(97.5\%\), a média
+  amostral não difira da média populacional por mais de \(31\) cotistas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(45\)
+  \item
+    \(36\)
+  \item
+    \(22\)
+  \item
+    \(27\)
+  \item
+    \(9\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então, \[n \geq \left( \frac{2.24 \times 82}{31} \right)^2=35.1075.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=36\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Apesar de ter ganhado grande visibilidade a partir da sanção da Lei
+  12.711 de 2012, o sistema de cotas no Brasil existe desde o início dos
+  anos 2000, quando a Universidade de Brasília (UnB) decidiu fazer
+  reserva de vagas para alguns candidatos em seu processo seletivo. Em
+  um estudo sobre o desempenho de alunos cotistas em universidades
+  públicas, deseja-se estimar o número médio de alunos cotistas
+  desligados das universidades em 2018. Em anos anteriores o desvio
+  padrão populacional da quantidade de cotistas desligados é de \(67\).
+  Em um levantamento por amostragem aleatória, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(95\%\), a média
+  amostral não difira da média populacional por mais de \(30\) cotistas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(14\)
+  \item
+    \(12\)
+  \item
+    \(5\)
+  \item
+    \(23\)
+  \item
+    \(20\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 67}{30} \right)^2=19.161.\] Portanto
+  o tamanho mínimo da amostra deve ser \(n=20\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Apesar de ter ganhado grande visibilidade a partir da sanção da Lei
+  12.711 de 2012, o sistema de cotas no Brasil existe desde o início dos
+  anos 2000, quando a Universidade de Brasília (UnB) decidiu fazer
+  reserva de vagas para alguns candidatos em seu processo seletivo. Em
+  um estudo sobre o desempenho de alunos cotistas em universidades
+  públicas, deseja-se estimar o número médio de alunos cotistas
+  desligados das universidades em 2018. Em anos anteriores o desvio
+  padrão populacional da quantidade de cotistas desligados é de \(77\).
+  Em um levantamento por amostragem aleatória, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(90\%\), a média
+  amostral não difira da média populacional por mais de \(19\) cotistas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(54\)
+  \item
+    \(27\)
+  \item
+    \(45\)
+  \item
+    \(12\)
+  \item
+    \(28\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 77}{19} \right)^2=44.1735.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=45\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Apesar de ter ganhado grande visibilidade a partir da sanção da Lei
+  12.711 de 2012, o sistema de cotas no Brasil existe desde o início dos
+  anos 2000, quando a Universidade de Brasília (UnB) decidiu fazer
+  reserva de vagas para alguns candidatos em seu processo seletivo. Em
+  um estudo sobre o desempenho de alunos cotistas em universidades
+  públicas, deseja-se estimar o número médio de alunos cotistas
+  desligados das universidades em 2018. Em anos anteriores o desvio
+  padrão populacional da quantidade de cotistas desligados é de \(64\).
+  Em um levantamento por amostragem aleatória, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(97.5\%\), a média
+  amostral não difira da média populacional por mais de \(22\) cotistas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(11\)
+  \item
+    \(27\)
+  \item
+    \(43\)
+  \item
+    \(49\)
+  \item
+    \(33\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então, \[n \geq \left( \frac{2.24 \times 64}{22} \right)^2=42.463.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=43\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Apesar de ter ganhado grande visibilidade a partir da sanção da Lei
+  12.711 de 2012, o sistema de cotas no Brasil existe desde o início dos
+  anos 2000, quando a Universidade de Brasília (UnB) decidiu fazer
+  reserva de vagas para alguns candidatos em seu processo seletivo. Em
+  um estudo sobre o desempenho de alunos cotistas em universidades
+  públicas, deseja-se estimar o número médio de alunos cotistas
+  desligados das universidades em 2018. Em anos anteriores o desvio
+  padrão populacional da quantidade de cotistas desligados é de \(87\).
+  Em um levantamento por amostragem aleatória, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(80\%\), a média
+  amostral não difira da média populacional por mais de \(20\) cotistas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(20\)
+  \item
+    \(32\)
+  \item
+    \(40\)
+  \item
+    \(8\)
+  \item
+    \(14\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 87}{20} \right)^2=31.0026.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=32\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Apesar de ter ganhado grande visibilidade a partir da sanção da Lei
+  12.711 de 2012, o sistema de cotas no Brasil existe desde o início dos
+  anos 2000, quando a Universidade de Brasília (UnB) decidiu fazer
+  reserva de vagas para alguns candidatos em seu processo seletivo. Em
+  um estudo sobre o desempenho de alunos cotistas em universidades
+  públicas, deseja-se estimar o número médio de alunos cotistas
+  desligados das universidades em 2018. Em anos anteriores o desvio
+  padrão populacional da quantidade de cotistas desligados é de \(80\).
+  Em um levantamento por amostragem aleatória, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(99\%\), a média
+  amostral não difira da média populacional por mais de \(23\) cotistas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(101\)
+  \item
+    \(21\)
+  \item
+    \(66\)
+  \item
+    \(51\)
+  \item
+    \(81\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 80}{23} \right)^2=80.5311.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=81\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Apesar de ter ganhado grande visibilidade a partir da sanção da Lei
+  12.711 de 2012, o sistema de cotas no Brasil existe desde o início dos
+  anos 2000, quando a Universidade de Brasília (UnB) decidiu fazer
+  reserva de vagas para alguns candidatos em seu processo seletivo. Em
+  um estudo sobre o desempenho de alunos cotistas em universidades
+  públicas, deseja-se estimar o número médio de alunos cotistas
+  desligados das universidades em 2018. Em anos anteriores o desvio
+  padrão populacional da quantidade de cotistas desligados é de \(62\).
+  Em um levantamento por amostragem aleatória, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(80\%\), a média
+  amostral não difira da média populacional por mais de \(26\) cotistas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(10\)
+  \item
+    \(6\)
+  \item
+    \(3\)
+  \item
+    \(5\)
+  \item
+    \(12\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 62}{26} \right)^2=9.3166.\] Portanto
+  o tamanho mínimo da amostra deve ser \(n=10\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Apesar de ter ganhado grande visibilidade a partir da sanção da Lei
+  12.711 de 2012, o sistema de cotas no Brasil existe desde o início dos
+  anos 2000, quando a Universidade de Brasília (UnB) decidiu fazer
+  reserva de vagas para alguns candidatos em seu processo seletivo. Em
+  um estudo sobre o desempenho de alunos cotistas em universidades
+  públicas, deseja-se estimar o número médio de alunos cotistas
+  desligados das universidades em 2018. Em anos anteriores o desvio
+  padrão populacional da quantidade de cotistas desligados é de \(79\).
+  Em um levantamento por amostragem aleatória, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(95\%\), a média
+  amostral não difira da média populacional por mais de \(30\) cotistas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(34\)
+  \item
+    \(7\)
+  \item
+    \(27\)
+  \item
+    \(17\)
+  \item
+    \(19\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 79}{30} \right)^2=26.6394.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=27\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Apesar de ter ganhado grande visibilidade a partir da sanção da Lei
+  12.711 de 2012, o sistema de cotas no Brasil existe desde o início dos
+  anos 2000, quando a Universidade de Brasília (UnB) decidiu fazer
+  reserva de vagas para alguns candidatos em seu processo seletivo. Em
+  um estudo sobre o desempenho de alunos cotistas em universidades
+  públicas, deseja-se estimar o número médio de alunos cotistas
+  desligados das universidades em 2018. Em anos anteriores o desvio
+  padrão populacional da quantidade de cotistas desligados é de \(86\).
+  Em um levantamento por amostragem aleatória, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(99\%\), a média
+  amostral não difira da média populacional por mais de \(29\) cotistas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(37\)
+  \item
+    \(74\)
+  \item
+    \(59\)
+  \item
+    \(48\)
+  \item
+    \(15\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 86}{29} \right)^2=58.5383.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=59\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Apesar de ter ganhado grande visibilidade a partir da sanção da Lei
+  12.711 de 2012, o sistema de cotas no Brasil existe desde o início dos
+  anos 2000, quando a Universidade de Brasília (UnB) decidiu fazer
+  reserva de vagas para alguns candidatos em seu processo seletivo. Em
+  um estudo sobre o desempenho de alunos cotistas em universidades
+  públicas, deseja-se estimar o número médio de alunos cotistas
+  desligados das universidades em 2018. Em anos anteriores o desvio
+  padrão populacional da quantidade de cotistas desligados é de \(85\).
+  Em um levantamento por amostragem aleatória, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(99\%\), a média
+  amostral não difira da média populacional por mais de \(33\) cotistas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(28\)
+  \item
+    \(37\)
+  \item
+    \(12\)
+  \item
+    \(50\)
+  \item
+    \(45\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 85}{33} \right)^2=44.1621.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=45\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

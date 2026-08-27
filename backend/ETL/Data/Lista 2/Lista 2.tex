@@ -1,0 +1,553 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsfonts,amssymb,amsbsy}
+\usepackage{amsthm} %Permite teorema sem numeração, no meu caso Demonstração
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+
+%------------------------------------------------------------------------------
+
+\setlength{\topmargin}{-1.0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{6.5in}
+\setlength{\baselineskip}{12mm}
+
+%------------------------------------------------------------------------------
+
+\renewcommand{\P}{\mathcal{P}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+        \begin{minipage}[c]{7in}
+                  {Universidade de Brasília} \\
+                  {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf $\text{2}^{\text{\underline{a}}}$ Lista de PE}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item Defina o espaço amostral para cada um dos seguintes experimentos aleatórios.
+\begin{itemize}
+\item[a)] Lançamento de dois dados e uma moeda, anota-se a configuração obtida.
+\item[b)] Numa linha de produção conta-se o número de peças defeituosas num intervalo de uma hora.
+\item[c)] Investigam-se famílias com 4 crianças, anotando-se a configuração segundo o sexo.
+\item[d)] Numa entrevista telefônica com 250 assinantes, pergunta-se se o proprietário tem ou não máquina de secar roupa.
+\item[e)] Um fichário de 10 nomes contém 3 nomes de mulheres. Seleciona-se  ficha após ficha, até o último nome de mulher ser selecionado, e anota-se o número de fichas selecionadas.
+\item[f)] Um relógio mecânico pode parar a qualquer momento por falha técnica. Mede-se o ângulo em graus que o ponteiro dos segundos forma com o eixo imaginário orientado do centro ao número 12.
+\item[g)] De cada família entrevistada numa pesquisa, anotam-se a classe social a que pertence $\{\text{A, B, C, D}\}$ e o estado civil do chefe da família.
+\item[h)] Altura, em metros, de um aluno selecionado aleatoriamente da turma de Probabilidade e Estatística.
+\item[i)] Uma caixa com $N$ lâmpadas contém $r$ lâmpadas $(r\leqslant N)$ com filamento partido. Anota-se o número de lâmpadas verificadas até que uma lâmpada defeituosa seja encontrada.
+\end{itemize}
+
+\item Considere o conjunto $\{a, b, c, d\}$
+\begin{itemize}
+\item[a)] Calcular o número de amostras ordenadas com reposição.
+\item[b)] Calcular o número de amostras ordenadas sem reposição.
+\end{itemize}
+
+\item Em uma determinada cidade os números de telefone possuem 7 dígitos. O prefixo telefônico de uma universidade desta cidade é 452 (os três primeiros dígitos dos telefones pertencentes à universidade sempre serão 452).
+\begin{itemize}
+\item[a)] Quantos números telefônicos poderiam haver na universidade?
+\item[b)] Quantos números telefônicos, com os 4 dígitos após o prefixo diferentes, poderiam haver na universidade? 
+Qual a probabilidade de, obtido um número ao acaso, este apresentar a característica descrita na pergunta anterior?
+\end{itemize}
+
+\item Um sistema é composto de 5 componentes, cada um podendo funcionar ou falhar. Considere um experimento que consiste em observar o estado de cada componente, e o resultado do experimento é dado como um vetor $(x_1, x_2, x_3, x_4, x_5)$, onde $x_i$ é igual a 1 se o componente está funcionando e 0 se ele falhar. %Ross - Capítulo 2 - Q5 - Pág. 50
+\begin{itemize}
+\item[a)] Quantos resultados são possíveis no espaço amostral desse experimento?
+\item[b)] Suponha que o sistema irá funcionar se os componentes 1 e 2 estiverem ambos funcionando, ou se os componentes 3 e 4 estiverem funcionando, ou se os componentes 1, 3 e 5 estiverem funcionando. Seja W o evento {\it ``o sistema irá funcionar''}. Especifique os resultados de W.
+\item[c)] Seja A o evento {\it ``os componentes 4 e 5 irão falhar''}. Quantos resultados existem no evento A?
+\item[d)] Escreva todos os possíveis resultados do evento $A\cap W$.
+\end{itemize}
+
+\item Considere o experimento de jogar dois dados sequencialmente e anotar os resultados. Descreva o espaço amostral do experimento e calcule a probabilidade dos eventos abaixo. % Iventada por mim.
+\begin{itemize}
+\item[a)] A soma dá 7.
+\item[b)] A soma dá 6.
+\item[c)] A soma dá 2.
+\item[d)] A soma é maior ou igual a 6 e menor ou igual a 8.
+\item[e)] O segundo dado tem valor maior que o primeiro.
+\end{itemize}
+
+\item Se 3 bolas são selecionadas aleatoriamente de uma urna contendo 6 bolas brancas e 5 bolas pretas, calcule a probabilidade de que uma bola seja branca e as outras duas sejam pretas. Mostre que se considerarmos a seleção das bolas de forma ordenada a probabilidade será a mesma que no caso em que não consideramos ordem na seleção. %Ross - Capítulo 2 - Exemplo 5b - Pág. 34 
+
+\item Sejam $\P(A) = 0,5$ e $\P(B) = 0,7$. Com base nas informações, responda:
+\begin{itemize}
+\item[a)] $A$ e $B$ podem ser eventos disjuntos?			%\ \ \ \(não)
+\item[b)] Qual o valor mínimo de $\P(A\cap B)$?			%$\quad (0,2)$
+\item[c)] Qual o valor máximo de $\P(A \cap B)$?			%$\quad(0,5)$
+\end{itemize}
+
+\item Um estabelecimento aceita os cartões VISA e American Express (AMEX). Um total de $24\%$ dos seus clientes carregam um cartão da AMEX, $61\%$ carregam um VISA e $11\%$ carregam os dois. Qual a porcentagem de clientes que carrega um cartão aceito pelo estabelecimento?
+
+\item Sejam $A, B$ e $C$ eventos associados a um experimento aleatório. Expresse
+em notação de conjuntos e faça os diagramas de Venn dos seguintes
+eventos:
+%
+\begin{itemize}
+\item[a)] somente $A$ ocorre;
+\item[b)] $A$ e $B$ ocorrem, mas $C$ não;
+\item[c)] todos os três ocorrem;
+\item[d)] pelo menos um deles ocorre;
+\item[e)] pelo menos dois deles ocorrem;
+\item[f)] exatamente um deles ocorre;
+\item[g)] exatamente dois deles ocorrem;
+\item[h)] nenhum deles ocorre;
+\item[i)] não mais que dois deles ocorrem;
+\item[j)]  no máximo 3 deles ocorrem.
+\end{itemize}
+
+\item Calcule as probabilidades relativas aos itens da {\bf Questão 9} supondo que
+\[
+\P(A)=0,35; \ \P(B)=0,40; \ \P(C)=0,15; \ \P(A\cap B)=0,10; \ B\cap C=A\cap C=\emptyset.
+\]
+
+\item Dois processadores tipos $A$ e $B$ são colocados em teste por 50 mil horas. A probabilidade que um erro de cálculo aconteça no processador do tipo $A$ é de $1/30$, no tipo $B$ é $1/80$ e em ambos $1/1000$. Determine a probabilidade de que
+\begin{itemize}
+\item[a)] pelo menos um dos processadores tenha apresentado erro;		%$\quad( 269/6000 )$
+\item[b)] nenhum dos processadores tenha apresentado erro;			%$\quad( 5731/6000 )$
+\item[c)] apenas o processador A tenha apresentado o erro;			%$\quad( 97/3000 )$
+\item[d)] somente um dos processadores tenha apresentado erro;		%$\quad( 263/6000 )$
+\end{itemize}
+
+\item Sejam $A$, $B$ e $C$ eventos associados a um experimento aleatório. Demonstre e interprete a equação abaixo:
+\[
+\P(A\cup B\cup C)=\P(A)+\P(B)+\P(C)-\P(A\cap B)-\P(A\cap C)-\P(B\cap C)+\P(A\cap B\cap C).
+\]
+
+\item Um clube tem 200 membros dos quais 36 jogam tenis, 28 jogam squash e 18 jogam badminton. Além disso, 22 membros jogam ambos tenis e squash, 12 jogam tenis e badminton, 9 jogam squash e badminton, e 4 jogam os três esportes. Qual a probabilidade de um membro do clube jogar ao menos um dos esportes? %Ross - Capítulo 2 - Exemplo 5l - Pág. 40
+
+\item Um certo tipo de motor elétrico falha se ocorrer uma das seguintes situações: emperramento dos mancais, queima dos enrolamentos ou desgaste das escovas. Suponha que a probabilidade de emperramento seja duas vezes a probabilidade de queima, e esta quatro vezes a probabilidade do desgaste das escovas. Considere que as situações citadas acima não ocorrem simultaneamente. Qual a probabilidade de falha devida a cada uma dessas circunstâncias?
+
+\item Uma escola primária está oferecendo três cursos de línguas: uma em espanhol, outra em francês, e uma em alemão. As aulas são abertas a qualquer um dos 100 alunos da escola. Há 28 alunos na aula de espanhol, 26 na aula de francês e 16 na aula de alemão. Há 12 alunos que estão cursando espanhol e francês, 4 alunos cursando  espanhol e alemão e 6 alunos cursando francês e alemão. Além disso, existem 2 estudantes que cursam todas as três línguas. %Ross - Capítulo 2 - Q12 - Pág. 51
+\begin{itemize}
+\item[a)] Se um estudante é escolhido aleatoriamente, qual é a
+probabilidade de que ele ou ela não esteja em nenhuma das
+aulas de língua?
+\item[b)] Se um estudante é escolhido aleatoriamente, qual é a
+probabilidade de que ele ou ela esteja estudando exatamente uma língua?
+\item[c)] Se dois alunos são escolhidos aleatoriamente, qual é a
+probabilidade de que pelo menos um está cursando um idioma?
+\end{itemize}
+
+\item Se $\P(A\cup B) = 0,7$ e $\P(A) = 0,4$, determine o valor de $P(B)$ no caso de:
+\begin{itemize}
+\item[a)] $A$ e $B$ serem mutuamente exclusivos (disjuntos);			%$( 0,3 )$ 
+\item[b)] $A$ e $B$ serem independentes;					%$( 0,5 )$
+\item[c)] $A \subseteq B$ ($A$ estar contido em $B$).		%$( 0,7 )$
+\end{itemize}		
+
+\item Um total de 28\% dos homens brasileiros fumam cigarros, 7\% fumam charuto, e 5\% fumam cigarro e charuto. %Ross - Capítulo 2 - Q11 - pág. 51
+\begin{itemize}
+\item[a)] Qual o percentual dos que não fumam nem cigarro nem charuto?
+\item[b)] Qual o percentual dos que fumam cigarro mas não fumam charuto?
+\end{itemize}
+
+\item Se $n$ pessoas est\~ao presentes em uma sala de reuni\~ao, qual a probabilidade de que nenhum par de pessoas celebrem anivers\'ario no mesmo dia do ano? Qual o tamanho de $n$ para que essa probabilidade seja menor que $\frac{1}{2}$? E se tivermos 50 pessoas na turma, qual seria a probabilidade? %Ross - Capítulo 2 - Exemplo 3i - Pág. 38
+
+\item Dois dados simétricos tiveram dois de seus lados pintados de vermelho, dois pintados de preto, um pintado de amarelo e o outro lado pintado de branco. Quando este par de dados é lançado, qual é a probabilidade de ambas as faces apresentarem a mesma cor?%Ross - Capítulo 2 - Q19 - Pág. 52
+
+\item Numa bolsa temos $5$ moedas de R\$ 1,00 e $4$ moedas de R\$ 0,50. Qual a probabilidade de ao retirarmos duas moedas, obtermos R\$ 1,50 ?	%$( 5/9 )$
+
+\item Considere uma m\~ao de poker formada de 5 cartas escolhidas aleatoriamente de um baralho com 52 cartas. Qual a probabilidade de sa\'irem os jogos abaixo? %Ross - Capítulo 2 - Q15 - Pág. 51
+\begin{itemize}
+\item[a)] Um par (duas cartas de mesma denominação e as outras cartas distintas entre si, por exemplo,  $\{A\clubsuit,A\diamondsuit,2\clubsuit,3\heartsuit,4\spadesuit\}$);
+\item[b)] Dois pares (dois grupos de duas cartas de mesma denominação e uma carta distinta das demais, por exemplo, $\{Q\heartsuit,Q\spadesuit,10\diamondsuit,10\clubsuit,7\heartsuit\}$);
+\item[c)] Trinca (tr\^es cartas de mesma denominação e as outras cartas distintas entre si, por exemplo, $\{7\clubsuit,7\heartsuit,7\spadesuit,10\spadesuit,J\diamondsuit\}$);
+\item[d)] Flush (todas as cartas de mesmo naipe, por\'em fora de sequ\^encia, por exemplo, \\ $\{2\clubsuit,4\clubsuit,10\clubsuit,J\clubsuit,K\clubsuit\}$);
+\item[e)] Quadra (quatro cartas de mesma denominação e a carta restante distinta das demais, por exemplo, $\{K\spadesuit,K\heartsuit,K\diamondsuit,K\clubsuit,6\spadesuit\}$.
+\end{itemize}
+
+\item Um pintor produz pelo menos um quadro por dia (esse pintor pode produzir $1, 2, 3, \ldots$ quadros por dia). A probabilidade de esse pintor produzir $k$ quadros em um dia qualquer é dado por $p^k$, $k = 1, 2,\ldots$ Qual o valor de p?  %$(p=1/2)$
+
+\item Um par de dados com cores distintas é lançado até que a soma 5 ou 7 apareça. Encontre a probabilidade de que a soma 5 apareça primeiro. \{\textbf{Dica:} Seja $E_n$ o evento {\it ``ocorre 5 no $n$-ésimo lançamento e não ocorre 5 nem 7 nos primeiros $n-1$ lançamentos''}. Calcule $\mathcal{P}(E_n)$ e argumente que a probabilidade desejada é $\sum_{n=1}^{\infty}\mathcal{P}(E_n)$.\} %Ross - Capítulo 2 - Q25 - Pág. 52
+
+\item Sejam $A$ e $B$ dois eventos disjuntos de um experimento, onde $\P(A) = 0,13$ e $\P(B) = 0,39$. Suponha que esse experimento é repetido até que ocorra pelo menos um dos eventos citados. Determine a probabilidade do evento $A$ ocorrer antes do evento $B$. %$( 0,25 )$
+
+\item Suponha que uma urna contém 8 bolas vermelhas e 4 bolas brancas. Retiramos 2 bolas da urna sem reposição. Se assumirmos que cada bola na urna tem a mesma probabilidade de ser selecionada, qual é a probabilidade de que ambas as bolas retiradas sejam vermelhas? %Ross - Capítulo 3 - Exemplo 2f - Pág 62.
+
+\item Vinte peças, $12$ das quais são defeituosas e $8$ perfeitas, são inspecionadas uma após a outra, sem reposição. Se essas peças forem extraídas ao acaso, qual será a probabilidade de que:
+\begin{itemize}
+\item[a)] as duas primeiras peças sejam defeituosas;					%( 33/95 ) 
+\item[b)] das duas primeiras peças inspecionadas, uma seja perfeita e a outra defeituosa;	%( 48/95 )
+\item[c)] de duas peças inspecionadas, a segunda peça ser defeituosa;			%( 57/95 )
+\item[d)] as oito primeiras peças inspecionadas serem perfeitas.				%( 1/125970 )
+\end{itemize}
+
+\item Três pessoas deixam seus guarda-chuvas ao chegar numa festa. Ao sair, cada um pega um guarda-chuva aleatoriamente. Qual a probabilidade de pelo menos uma pessoa ter pego o guarda-chuva certo?	%$(2/3)$
+
+\item 400 pessoas são classificadas segundo sexo e estado civil, obtendo-se a seguinte tabela:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{{|c|c|c|c|c|}}
+\hline
+ & Solteiro (S) & Casado (C) & Desquitado (D) & Outros (O)
+\\
+\hline
+Feminino (F) & 150 & 40 & 10 & 20 
+\\
+\hline
+Masculino (M) & 50 & 60 & 40 & 30
+\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{itemize}
+\item[a)] Calcule $\P(S | F)$, $\P(C | F)$, $\P(D | F)$,  $\P(O | F)$.
+\item[b)] Verifique que $P(S | F)+\P(C | F )+\P(D | F )+\P(O | F)=1.$
+\item[c)] Repita os itens anterior substituindo $F$ por $M$.
+\item[d)] Calcule $\P(F | S)$, $\P(M | S)$ e verifique que $\P(F|S)+\P(M|S)=1.$
+\item[e)] Repita o item anterior substituindo $S$ por $C$, $D$ e $O$.
+\item[f)] Apresente formalmente as distribuições de estado civil, estado civil dado $F$ e estado civil dado $M$.
+\item[g)] Apresente formalmente as distribuições de sexo, sexo dado $S$, sexo dado $C$, sexo dado $D$ e sexo dado $O$.
+\item[h)] Repita os itens anteriores substituindo a tabela acima por uma tabela equivalente onde constem apenas probabilidades em vez de frequências absolutas.
+\end{itemize}
+
+\item Considere 100 alunos dos cursos de Computação e Matemática que cursam a disciplina de Probabilidade e Estatística. Desses alunos, 10 são homens e são do curso de Computação, 40 são mulheres e são do curso de Matemática. Ao todo são 60 mulheres. Um indivíduo é selecionado ao acaso.
+\begin{itemize}
+\item[a)] Qual a probabilidade de estar cursando Matemática dado que é mulher?		%$( 2/3 )$
+\item[b)] Qual a probabilidade de estear cursando Computação dado que é homem?		%$( 1/4 )$
+\item[c)] Qual a probabilidade de ser homem dado que cursa Computação?			%$( 1/3 )$
+\item[d)] Qual a probabilidade de ser mulher dado que cursa Matemática?	%$( 4/7 )$	
+\end{itemize}	
+
+\item Dos usuários de uma biblioteca universitária 30$\%$ são alunos da graduação, 38$\%$ são alunos da pós e 32$\%$ professores. A consulta a livros estrangeiros é de 25$\%$, 50$\%$ e 80$\%$ nas três categorias de usuários, respectivamente.
+\begin{itemize}
+\item[a)] Qual é a probabilidade de que um usuário qualquer utilize um livro em português?
+\item[b)] Se um usuário retirou um livro em português, calcule a probabilidade de que seja aluno da graduação. Faça o mesmo para os outros casos.
+\end{itemize}
+
+\item Um restaurante popular apresenta apenas dois tipos de refeições: salada completa ou um prato à base de carne. Sabe-se que 20$\%$ dos fregueses do sexo masculino preferem salada, 30$\%$ das mulheres escolhem carne e 75$\%$ dos fregueses são homens. Considere os eventos H = ``{\it o freguês é do sexo masculino}'', M = ``{\it o freguês é do sexo feminino}'', A = ``{\it o freguês prefere salada}'' e B = ``{\it o freguês prefere carne}''. Calcule as probabilidades $\P(A|H)$, $\P(B|M)$ e $\P(M|A)$.
+
+\item Sejam $A$ e $B$ eventos de $\Omega$. Mostre que as afirmações abaixo são todas equivalentes:
+\begin{itemize}
+\item[i)] $A$ e $B$ são independentes.
+\item[ii)] $A$ e $B^c$ são independentes.
+\item[iii)] $A^c$ e $B^c$ são independentes.
+\item[iv)] $A^c$ e $B$ são independentes.
+\end{itemize}
+
+\item Sejam $A$, $B$, $D$ e $E$ eventos de $\Omega$. Mostre que as afirmações abaixo são verdadeiras:
+\begin{itemize}
+\item[a)] Se $\P(A)=0$ e $B$  é um evento qualquer, então $A$ e $B$ são independentes.
+\item[b)] Se $\P(A)=1$ e $B$  é um evento qualquer, então $A$ e $B$ são independentes.
+\item[c)] Os eventos $D$ e $D^c$ são independentes se e somente se $\P(D)=0$ ou $\P(D)=1.$
+\item[d)] Ache uma condição para que um evento $E$ seja independente dele mesmo.
+\end{itemize}
+
+\item Suponha que a probabilidade de viver 70 anos ou mais é de 0,6 e que a probabilidade de viver 80 anos ou mais é 0,2. Se uma pessoa fez 70 anos, qual é a probabilidade de que comemore o aniversário número 80?.
+
+\item Suponha que se testam os chips para um circuito integrado e que a probabilidade de que sejam declarados com falhas quando efetivamente as tem seja 0,95. Suponha também que a probabilidade de que sejam declarados em bom estado quando efetivamente estão em bom estado seja 0,97. Se 0,5$\%$ dos chips apresentam falhas, qual é a probabilidade de que um chip que foi declarado com falhas seja bom?
+
+\item Ao responder a uma pergunta em um teste de múltipla escolha, o aluno ou sabe a resposta ou chuta. Seja $p$ a probabilidade de que o aluno saiba a resposta e $1-p$ a probabilidade de que o aluno chute. Suponha que um aluno que tente adivinhar a resposta, possa acertá-la com probabilidade $1/m$, onde $m$ é o número de alternativas da questão de múltipla escolha. Qual é a probabilidade condicional de que um estudante realmente sabia a resposta, uma vez que ele ou ela respondeu o teste corretamente? Calcule a probabilidade para $m=5$ e $p=1/2$. %Ross - Capítulo 3 - Exemplo 3c - Pág. 67.
+
+\item Em um determinado estágio de uma investigação criminal, o inspetor responsável está 60\% convencido da culpa de um certo suspeito . Suponha, no entanto, que uma nova peça de evidência, mostrando que o criminoso tem uma certa característica (como canhoto, calvície, ou cabelo castanho), é descoberta. Se 20\% da população possui esta característica, quão certo da culpa do suspeito o inspetor deve estar agora? %Ross - Capítulo 3 - Exemplo 3f - Pág. 69.
+
+\item Um chimpanzé fêmea deu à luz. Não é certo, no entanto, qual dos dois chimpanzés machos é o pai. Antes que qualquer análise genética seja realizada, considera-se que a probabilidade de que o macho número 1 seja o pai é $p$ e a probabilidade de que o macho número 2 seja o pai é $1 - p$. A partir do DNA obtido da mãe, do macho número 1 e do macho  número 2, há indícios de que, em um local específico do genoma, a mãe tem o par de genes (A, A), o macho número 1 possui o par de genes (a, a), e o macho número 2 tem o par de genes (A, a). Se um teste de DNA mostra que o chimpanzé bebê tem o par de genes (A, a), qual é a probabilidade de que o macho número 1 seja o pai?%Ross - Capítulo 3 - Exemplo 5b - Pág. 95.
+
+\item Dois gabinetes idênticos em aparência tem duas gavetas. O gabinete A contém uma moeda de prata em cada gaveta e o gabinete B contém uma moeda de prata em uma das suas gavetas e uma moeda de ouro na outra. Um gabinete foi selecionado aleatoriamente, uma de suas gavetas foi aberta, e uma moeda de prata foi encontrada. Qual é a probabilidade de que exista uma moeda de prata na outra gaveta? %Prova Sub 1 - 1/2012.
+
+\item Considere o experimento de selecionar, ao acaso, um ponto do círculo (disco) de raio 1 centrado na origem. %Barry James - Exemplo 6 - Pág 19.
+\begin{itemize}
+\item[a)] Descreva o espaço amostral do experimento.
+\item[b)] Defina uma medida de probabilidade adequada ao experimento.
+\item[c)] Qual a probabilidade do evento $A = (0,0)$?
+\item[d)] Mostre os que eventos $B= \text{\it ``a distância entre o ponto escolhido e a origem é} \leqslant 1/2\text{''}$ e $C=${\it ``a primeira coordenada do ponto escolhido é maior que a segunda coordenada''} são independentes.
+\end{itemize}
+
+\item Uma gravidez ectópica é duas vezes mais propensa a se desenvolver quando a gestante é fumante do que quando ela não é fumante. Se 32\% das mulheres em idade fértil são fumantes, qual a percentagem de mulheres com gravidez ectópica que são fumantes? %Ross - Capítulo 3 - Exercício 15 - Pág. 102.
+
+\item Sejam $\P(A)=\frac{1}{2}$, $\P(B)=\frac{1}{3}$, $\P(C)=\frac{1}{4}$ e $\P(A\cap B)=\frac{1}{5}$. Suponha que $A$ e $C$ são eventos independentes; e que $B$ e $C$ são eventos disjuntos. Calcule:
+\begin{itemize}
+\item[a)] $\P(A\cup C)$; 
+\item[b)] $\P(A\cup B\cup C)$;
+\item[c)] $\P(B|C)$;
+\item[d)] $\P[(B\cup C)|A]$;
+\item[e)] $\P[A|(B\cup C)]$. 
+\end{itemize}
+
+\item Três lojas A, B, e C tem 50, 75 e 100 empregados, respectivamente, e 50\%, 60\% e 70\% dos quais são, respectivamente, mulheres. Abandonos são igualmente prováveis entre todos os funcionários, independentemente do sexo. Uma funcionária mulher abandona. Qual é a probabilidade de que ela tenha trabalhado na loja C? %Ross - Capítulo 3 - Exercício 36 - Pág. 104.
+
+\item Cinquenta e dois por cento dos estudantes de uma certa universidade são mulheres. Cinco por cento dos alunos desta faculdade estão se graduando em engenharia da computação. Dois por cento dos estudantes são mulheres se formando em engenharia da computação. Se um aluno é selecionado aleatoriamente, determine a probabilidade condicional de que %Ross - Capítulo 3 - Exercício 20 - Pág. 103.
+\begin{itemize}
+\item[a)] o aluno seja do sexo feminino, uma vez que o aluno está se formando em engenharia da computação;
+\item[b)] esse aluno está se formando em engenharia da computação, uma vez que o aluno é do sexo feminino.
+\end{itemize} 
+
+\end{enumerate}
+
+\newpage
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+        \begin{minipage}[c]{7in}
+                  {Universidade de Brasília} \\
+                  {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf Respostas}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item
+\begin{itemize}
+\item[a)] $\Omega = \{ ({d_1},{d_2},m):{d_1},{d_2} \in \{ 1,...,6\} \ , \ m \in \{ C, K\} \}$, onde $C$ = coroa e $K$ = cara. 
+\item[b)] $\Omega = \{ 0,1,2, \ldots \}$
+\item[c)] $\Omega = \{ ({c_1},{c_2},{c_3},{c_4}):{c_i} \in \{ F, M\} \} $, onde $F$ = Feminino, $M$ = Masculino.
+\item[d)] $\Omega = \{ ({e_1},{e_2}, \ldots ,{e_{250}}):{e_i} \in \{ 0,1\} ,i = 1, \ldots ,250\}$, onde 0 significa que o entrevistado não tem máquina e 1 significa que entrevistado tem máquina.
+\item[e)] $\Omega = \{ 3,4,5,6,7,8,9,10\}$.
+\item[f)] $\Omega = \{ \theta  \in \mathbb{R}:0 \leqslant \theta  \leqslant 360^{o}\}$.
+\item[g)] $\Omega = \{ (c,{e_c}):c \in \{ A,B,C,D\} \ \text{e} \ e_c \in \{ {S_o},{C_a}\} \}$, onde ${S_o}=$ Solteiro e ${C_a}=$ Casado.
+\item[h)] $\Omega = \{ h \in {\mathbb{R}^ + }\}$.
+\item[i)] $\Omega = \{ 1,2,3, \ldots ,N - r + 1\}$
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] $4^4$.
+\item[b)] $4!$.
+\end{itemize} 
+
+\item
+\begin{itemize}
+\item[a)] $10^4$.
+\item[b)] $10\times 9 \times 8\times 7$ \ \ e \ \ $\dfrac{10\times 9 \times 8\times 7}{10^4}.$
+\end{itemize} 
+
+\item
+\begin{itemize}
+\item[a)] $2^5$.
+\item[b)] $\{(1, 1, 1, 1, 1), (1, 1, 1, 1, 0), (1, 1, 1, 0, 1), (1, 1, 0, 1, 1), (1, 1, 1, 0, 0),\\
+(1, 1, 0, 1, 0), ( 1, 1, 0, 0, 1), (1, 1, 0, 0, 0), (1, 0, 1, 1, 1), (0, 1, 1, 1, 1),\\
+(1, 0, 1, 1, 0), (0, 1, 1, 1, 0), (0, 0, 1, 1, 1), (0, 0, 1, 1, 0), (1, 0, 1, 0, 1)\}$
+\item[c)] 8.
+\item[d)] $\{(1,1,1,0,0),(1,1,0,0,0)\}$.
+\end{itemize}
+
+\item 
+\begin{itemize}
+\item[a)] $1/6$.
+\item[b)] $5/36$.
+\item[c)] $1/36$.
+\item[d)] $16/36.$
+\item[e)] $15/36$. 
+\end{itemize} 
+
+\item 4/11
+
+\item 
+\begin{itemize}
+\item[a)] Não.  
+\item[b)] $0,2$.
+\item[c)] $0,5$.
+\end{itemize}
+
+\item $0,74.$ 
+
+\item 
+\begin{itemize}
+\item[a)] $A$.
+\item[b)] $A \cap B \cap {C^c}$.
+\item[c)] $A\cap B \cap C$.
+\item[d)] $A \cup B \cup C$.
+\item[e)] $[(A \cap B)] \cup [(A \cap C)] \cup [(B \cap C)]$.
+\item[f)] $[A\cap (B\cup C)^c]\cup [B\cap (A\cup C)^c] \cup [C\cap (A\cup B)^c]$.
+\item[g)] $[(A \cup B) \cap {C^c}] \cup [(A \cup C) \cap {B^c}] \cup [(B \cup C) \cap {A^c}]$.
+\item[h)] ${A^c} \cap {B^c} \cap {C^c}$.
+\item[i)] $(A \cup B\cup C)\cap (A \cap B \cap C)^C$.
+\item[j)] Similar ao {\bf item d}.
+\end{itemize}
+
+\item 
+\begin{itemize}
+\item[a)] $0,35$.
+\item[b)] $0,10$.
+\item[c)] $0,00$.
+\item[d)] $0,80$.
+\item[e)] $0,10$.
+\item[f)] $0,70$.
+\item[g)] $0,10$.
+\item[h)] $0,20$.
+\item[i)] $0,80$.
+\item[j)] $0,80$.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] $269/6000$.  
+\item[b)] $5731/6000$.
+\item[c)] $97/3000$.
+\item[d)] $263/6000$.
+\end{itemize}
+
+\item Demonstração.
+
+\item 43/200
+
+\item $\P(\text{``emperramento''}) = 8/13;\quad	\P(\text{``queima''}) = 4/13;\quad		\P(\text{``desgaste''}) = 1/13$.
+
+\item \begin{itemize}
+\item[a)] $0,5$.
+\item[b)] 32/100.
+\item[c)] $149/198$.
+\end{itemize} 
+
+\item 
+\begin{itemize}
+\item[a)] $0,3$.
+\item[b)] $0,5$.
+\item[c)] $0,7$.
+\end{itemize}
+
+\item 
+\begin{itemize}
+\item[a)] $0,7$.
+\item[b)] $0,23.$
+\end{itemize}
+
+\item ${\displaystyle \frac{(365)(364)(363)\cdots(365-n + 1)}{(365)^n}.}$
+
+\item $5/18.$
+
+\item $5/9$.
+
+\item 
+\begin{itemize}
+\item[a)] $\dfrac{13\binom{4}{2}\binom{12}{3}\binom{4}{1}\binom{4}{1}\binom{4}{1}}{\binom{52}{5}}$.
+\item[b)] $\dfrac{\binom{13}{2}\binom{4}{2}\binom{4}{2}\binom{44}{1}}{\binom{52}{5}}$.
+\item[c)] $\dfrac{13\binom{4}{3}\binom{12}{2}\binom{4}{1}\binom{4}{1}}{\binom{52}{5}}$.
+\item[d)] $\dfrac{4\binom{13}{5}-40}{\binom{52}{5}}$.
+\item[e)] $\dfrac{13\binom{4}{4}\binom{48}{1}}{\binom{52}{5}}$.
+\end{itemize} 
+
+\item $p = 1/2$.
+
+\item $2/5$.
+
+\item $0,25$.
+
+\item 14/33.
+
+\item
+\begin{itemize}
+\item[a)] $33/95$.
+\item[b)] $48/95$.
+\item[c)] $57/95$.
+\item[d)] $1/125970$.
+\end{itemize}
+
+\item $2/3$.
+
+\item
+\begin{itemize}
+\item[a)] $\P(S | F) = \frac{\P(S \cap F)}{\P(F)} \frac{15}{22}$, $\P(C | F) = \frac{2}{11}$, $\P(D | F) = \frac{1}{22}$ e  $\P(O | F) = \frac{1}{11}$.
+\item[b)] Basta somar as probabilidades calculadas no item anterior.
+\item[c)] $\P(S | M) = \frac{5}{18}, \P(C | M) = \frac{1}{3}$, $\P(D | M) = \frac{2}{9}$ e  $\P(O | M) = \frac{1}{6}$.
+\item[d)] $\P(F | S) = \frac{3}{4}$, $\P(M | S) = \frac{1}{4}$.
+\item[e)] $\P(F | C) = \frac{2}{5}$, $\P(M | C) = \frac{3}{5}$, $\P(F | D) = \frac{1}{5}$, $\P(M | D) = \frac{4}{5}$, $\P(F | O) = \frac{2}{5}$ e $\P(M | O) = \frac{3}{5}$.
+\item[f)] $\P(S) = \frac{1}{2}$, $\P(C) = \frac{1}{4}, \P(D) = \frac{1}{8}, \P(O) = \frac{1}{8}, \P(S | F) = \frac{15}{22}, \P(C | F) = \frac{2}{11}, \P(D | F) = \frac{1}{22}, \P(O | F) = \frac{1}{11}, \P(S | M) = \frac{5}{18}, \P(C | M) = \frac{1}{3}, \P(D | M) = \frac{2}{9}$ e  $\P(O | M) = \frac{1}{6}$. 
+\item[g)] $\P(F) = \frac{11}{20}, \P(M) = \frac{9}{20}, \P(F | S) = \frac{3}{4}, \P(M | S) = \frac{1}{4}, \P(F | C) = \frac{2}{5}, \P(M | C) = \frac{3}{5}, \P(F | D) = \frac{1}{5}, \P(M | D) = \frac{4}{5}, \P(F | O) = \frac{2}{5}$ e $\P(M | O) = \frac{3}{5}$.
+\item[h)] Basta dividir cada valor na tabela por 400 e repetir os passos via definição.
+
+\end{itemize}
+
+\item 
+\begin{itemize}
+\item[a)] $2/3$. 
+\item[b)] $1/4$.
+\item[c)] $1/3$.
+\item[d)] $4/7$.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] 0,479.
+\item[b)] Aproximadamente ${\text{0}}{\text{,4697}} \ ; \ {\text{0}}{\text{,3967}}$ \ e \ ${\text{0}}{\text{,1336}}$.
+\end{itemize}
+
+\item $\P(A|H) = 0,20$ \ ; \ $\P(B|M) = 0,30$ \ e \ $\P(M|A) \approx 0,5385$.
+
+\item Demonstração.
+ 
+
+\item
+\begin{itemize}
+\item[a)] Demonstração.
+\item[b)] Demonstração.
+\item[c)] Demonstração.
+\item[d)] Demonstração.
+\end{itemize} 
+
+\item $1/3$.
+
+\item  $0,375$.
+
+\item $5/6$.
+
+\item 0,882.
+
+\item ${\displaystyle \frac{2p}{1+p}.}$
+
+\item 2/3.
+
+\item 
+\begin{itemize}
+\item[a)] $\Omega = \{(x,y)\in\mathbb{R}^2: x^2+y^2\leqslant 1\}$.
+\item[b)] Para um evento $A\subset\Omega$ é natural definirmos $\mathcal{P}(A)=\frac{\text{Área}(A)}{\pi}$.
+\item[c)] 0.
+\item[d)] Os eventos são independentes.
+\end{itemize}
+
+\item 32/66.
+
+\item
+\begin{itemize}
+\item[a)] $5/8$.
+\item[b)] $91/120$.
+\item[c)] $0$.
+\item[d)] $13/20$.
+\item[e)] $39/70$.	
+\end{itemize}
+
+\item 1/2.
+
+\item
+\begin{itemize}
+\item[a)] 0,40.
+\item[b)] 0,038.
+\end{itemize}
+
+
+\end{enumerate}
+\end{document}

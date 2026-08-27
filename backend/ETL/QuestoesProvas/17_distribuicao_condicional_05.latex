@@ -1,0 +1,592 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  São selecionados, aleatoriamente, 4 filmes de uma prateleira contendo
+  3 filmes de romance, 2 filmes de ação e 2 filmes de terror. Denote
+  \(X\) o número de filmes românticos selecionados e \(Y\) o número de
+  filmes de ação selecionados. A distribuição conjunta de \(X\) e \(Y\)
+  é dada por
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0 & 0 & 0.029 \\
+  \(1\) & 0 & 0.171 & 0.171 \\
+  \(2\) & 0.086 & 0.343 & 0.086 \\
+  \(3\) & 0.057 & 0.057 & 0 \\
+  \end{longtable}
+
+  Encontre \(\mathbb{P}(0\leq X\leq 1 | Y\leq 1)\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.859\)
+  \item
+    \(0.855\)
+  \item
+    \(0.371\)
+  \item
+    \(0.571\)
+  \item
+    \(0.239\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\). Logo,
+
+  \[\mathbb{P}(0\leq X\leq 1|Y\leq 1) =
+  \frac{\mathbb{P}(0\leq X\leq 1,Y\leq 1)}{P(Y\leq 1)}=
+  \frac{\sum_{x=0}^{1} \sum_{y=0}^{1}p(x,y)}{\sum_{y=0}^{1}\mathbb{P}(Y=y)}
+  =\frac{0.171}{0.714}
+  = 0.239.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  São selecionados, aleatoriamente, 4 filmes de uma prateleira contendo
+  3 filmes de romance, 2 filmes de ação e 3 filmes de terror. Denote
+  \(X\) o número de filmes românticos selecionados e \(Y\) o número de
+  filmes de ação selecionados. A distribuição conjunta de \(X\) e \(Y\)
+  é dada por
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0 & 0.029 & 0.043 \\
+  \(1\) & 0.043 & 0.257 & 0.129 \\
+  \(2\) & 0.129 & 0.257 & 0.043 \\
+  \(3\) & 0.043 & 0.029 & 0 \\
+  \end{longtable}
+
+  Encontre \(\mathbb{P}(0\leq X\leq 1 | Y\leq 1)\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.245\)
+  \item
+    \(0.572\)
+  \item
+    \(0.418\)
+  \item
+    \(0.501\)
+  \item
+    \(0.743\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\). Logo,
+
+  \[\mathbb{P}(0\leq X\leq 1|Y\leq 1) =
+  \frac{\mathbb{P}(0\leq X\leq 1,Y\leq 1)}{P(Y\leq 1)}=
+  \frac{\sum_{x=0}^{1} \sum_{y=0}^{1}p(x,y)}{\sum_{y=0}^{1}\mathbb{P}(Y=y)}
+  =\frac{0.329}{0.787}
+  = 0.418.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  São selecionados, aleatoriamente, 4 filmes de uma prateleira contendo
+  3 filmes de romance, 2 filmes de ação e 3 filmes de terror. Denote
+  \(X\) o número de filmes românticos selecionados e \(Y\) o número de
+  filmes de ação selecionados. A distribuição conjunta de \(X\) e \(Y\)
+  é dada por
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0 & 0.029 & 0.043 \\
+  \(1\) & 0.043 & 0.257 & 0.129 \\
+  \(2\) & 0.129 & 0.257 & 0.043 \\
+  \(3\) & 0.043 & 0.029 & 0 \\
+  \end{longtable}
+
+  Encontre \(\mathbb{P}(0\leq X\leq 1 | Y\leq 1)\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.572\)
+  \item
+    \(0.501\)
+  \item
+    \(0.552\)
+  \item
+    \(0.418\)
+  \item
+    \(0.116\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\). Logo,
+
+  \[\mathbb{P}(0\leq X\leq 1|Y\leq 1) =
+  \frac{\mathbb{P}(0\leq X\leq 1,Y\leq 1)}{P(Y\leq 1)}=
+  \frac{\sum_{x=0}^{1} \sum_{y=0}^{1}p(x,y)}{\sum_{y=0}^{1}\mathbb{P}(Y=y)}
+  =\frac{0.329}{0.787}
+  = 0.418.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  São selecionados, aleatoriamente, 4 filmes de uma prateleira contendo
+  3 filmes de romance, 2 filmes de ação e 2 filmes de terror. Denote
+  \(X\) o número de filmes românticos selecionados e \(Y\) o número de
+  filmes de ação selecionados. A distribuição conjunta de \(X\) e \(Y\)
+  é dada por
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0 & 0 & 0.029 \\
+  \(1\) & 0 & 0.171 & 0.171 \\
+  \(2\) & 0.086 & 0.343 & 0.086 \\
+  \(3\) & 0.057 & 0.057 & 0 \\
+  \end{longtable}
+
+  Encontre \(\mathbb{P}(0\leq X\leq 1 | Y\leq 1)\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.239\)
+  \item
+    \(0.371\)
+  \item
+    \(0.536\)
+  \item
+    \(0.571\)
+  \item
+    \(0.426\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\). Logo,
+
+  \[\mathbb{P}(0\leq X\leq 1|Y\leq 1) =
+  \frac{\mathbb{P}(0\leq X\leq 1,Y\leq 1)}{P(Y\leq 1)}=
+  \frac{\sum_{x=0}^{1} \sum_{y=0}^{1}p(x,y)}{\sum_{y=0}^{1}\mathbb{P}(Y=y)}
+  =\frac{0.171}{0.714}
+  = 0.239.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  São selecionados, aleatoriamente, 4 filmes de uma prateleira contendo
+  3 filmes de romance, 2 filmes de ação e 2 filmes de terror. Denote
+  \(X\) o número de filmes românticos selecionados e \(Y\) o número de
+  filmes de ação selecionados. A distribuição conjunta de \(X\) e \(Y\)
+  é dada por
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0 & 0 & 0.029 \\
+  \(1\) & 0 & 0.171 & 0.171 \\
+  \(2\) & 0.086 & 0.343 & 0.086 \\
+  \(3\) & 0.057 & 0.057 & 0 \\
+  \end{longtable}
+
+  Encontre \(\mathbb{P}(0\leq X\leq 1 | Y\leq 1)\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.528\)
+  \item
+    \(0.371\)
+  \item
+    \(0.239\)
+  \item
+    \(0.571\)
+  \item
+    \(0.609\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\). Logo,
+
+  \[\mathbb{P}(0\leq X\leq 1|Y\leq 1) =
+  \frac{\mathbb{P}(0\leq X\leq 1,Y\leq 1)}{P(Y\leq 1)}=
+  \frac{\sum_{x=0}^{1} \sum_{y=0}^{1}p(x,y)}{\sum_{y=0}^{1}\mathbb{P}(Y=y)}
+  =\frac{0.171}{0.714}
+  = 0.239.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  São selecionados, aleatoriamente, 4 filmes de uma prateleira contendo
+  3 filmes de romance, 2 filmes de ação e 2 filmes de terror. Denote
+  \(X\) o número de filmes românticos selecionados e \(Y\) o número de
+  filmes de ação selecionados. A distribuição conjunta de \(X\) e \(Y\)
+  é dada por
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0 & 0 & 0.029 \\
+  \(1\) & 0 & 0.171 & 0.171 \\
+  \(2\) & 0.086 & 0.343 & 0.086 \\
+  \(3\) & 0.057 & 0.057 & 0 \\
+  \end{longtable}
+
+  Encontre \(\mathbb{P}(0\leq X\leq 1 | Y\leq 1)\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.239\)
+  \item
+    \(0.371\)
+  \item
+    \(0.795\)
+  \item
+    \(0.291\)
+  \item
+    \(0.571\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\). Logo,
+
+  \[\mathbb{P}(0\leq X\leq 1|Y\leq 1) =
+  \frac{\mathbb{P}(0\leq X\leq 1,Y\leq 1)}{P(Y\leq 1)}=
+  \frac{\sum_{x=0}^{1} \sum_{y=0}^{1}p(x,y)}{\sum_{y=0}^{1}\mathbb{P}(Y=y)}
+  =\frac{0.171}{0.714}
+  = 0.239.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  São selecionados, aleatoriamente, 4 filmes de uma prateleira contendo
+  3 filmes de romance, 2 filmes de ação e 2 filmes de terror. Denote
+  \(X\) o número de filmes românticos selecionados e \(Y\) o número de
+  filmes de ação selecionados. A distribuição conjunta de \(X\) e \(Y\)
+  é dada por
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0 & 0 & 0.029 \\
+  \(1\) & 0 & 0.171 & 0.171 \\
+  \(2\) & 0.086 & 0.343 & 0.086 \\
+  \(3\) & 0.057 & 0.057 & 0 \\
+  \end{longtable}
+
+  Encontre \(\mathbb{P}(0\leq X\leq 1 | Y\leq 1)\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.565\)
+  \item
+    \(0.239\)
+  \item
+    \(0.371\)
+  \item
+    \(0.571\)
+  \item
+    \(0.524\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\). Logo,
+
+  \[\mathbb{P}(0\leq X\leq 1|Y\leq 1) =
+  \frac{\mathbb{P}(0\leq X\leq 1,Y\leq 1)}{P(Y\leq 1)}=
+  \frac{\sum_{x=0}^{1} \sum_{y=0}^{1}p(x,y)}{\sum_{y=0}^{1}\mathbb{P}(Y=y)}
+  =\frac{0.171}{0.714}
+  = 0.239.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  São selecionados, aleatoriamente, 4 filmes de uma prateleira contendo
+  3 filmes de romance, 2 filmes de ação e 2 filmes de terror. Denote
+  \(X\) o número de filmes românticos selecionados e \(Y\) o número de
+  filmes de ação selecionados. A distribuição conjunta de \(X\) e \(Y\)
+  é dada por
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0 & 0 & 0.029 \\
+  \(1\) & 0 & 0.171 & 0.171 \\
+  \(2\) & 0.086 & 0.343 & 0.086 \\
+  \(3\) & 0.057 & 0.057 & 0 \\
+  \end{longtable}
+
+  Encontre \(\mathbb{P}(0\leq X\leq 1 | Y\leq 1)\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.371\)
+  \item
+    \(0.571\)
+  \item
+    \(0.609\)
+  \item
+    \(0.409\)
+  \item
+    \(0.239\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\). Logo,
+
+  \[\mathbb{P}(0\leq X\leq 1|Y\leq 1) =
+  \frac{\mathbb{P}(0\leq X\leq 1,Y\leq 1)}{P(Y\leq 1)}=
+  \frac{\sum_{x=0}^{1} \sum_{y=0}^{1}p(x,y)}{\sum_{y=0}^{1}\mathbb{P}(Y=y)}
+  =\frac{0.171}{0.714}
+  = 0.239.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  São selecionados, aleatoriamente, 4 filmes de uma prateleira contendo
+  3 filmes de romance, 2 filmes de ação e 2 filmes de terror. Denote
+  \(X\) o número de filmes românticos selecionados e \(Y\) o número de
+  filmes de ação selecionados. A distribuição conjunta de \(X\) e \(Y\)
+  é dada por
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0 & 0 & 0.029 \\
+  \(1\) & 0 & 0.171 & 0.171 \\
+  \(2\) & 0.086 & 0.343 & 0.086 \\
+  \(3\) & 0.057 & 0.057 & 0 \\
+  \end{longtable}
+
+  Encontre \(\mathbb{P}(0\leq X\leq 1 | Y\leq 1)\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.432\)
+  \item
+    \(0.371\)
+  \item
+    \(0.571\)
+  \item
+    \(0.172\)
+  \item
+    \(0.239\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\). Logo,
+
+  \[\mathbb{P}(0\leq X\leq 1|Y\leq 1) =
+  \frac{\mathbb{P}(0\leq X\leq 1,Y\leq 1)}{P(Y\leq 1)}=
+  \frac{\sum_{x=0}^{1} \sum_{y=0}^{1}p(x,y)}{\sum_{y=0}^{1}\mathbb{P}(Y=y)}
+  =\frac{0.171}{0.714}
+  = 0.239.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  São selecionados, aleatoriamente, 4 filmes de uma prateleira contendo
+  3 filmes de romance, 2 filmes de ação e 3 filmes de terror. Denote
+  \(X\) o número de filmes românticos selecionados e \(Y\) o número de
+  filmes de ação selecionados. A distribuição conjunta de \(X\) e \(Y\)
+  é dada por
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(X \setminus Y\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0 & 0.029 & 0.043 \\
+  \(1\) & 0.043 & 0.257 & 0.129 \\
+  \(2\) & 0.129 & 0.257 & 0.043 \\
+  \(3\) & 0.043 & 0.029 & 0 \\
+  \end{longtable}
+
+  Encontre \(\mathbb{P}(0\leq X\leq 1 | Y\leq 1)\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.501\)
+  \item
+    \(0.418\)
+  \item
+    \(0.572\)
+  \item
+    \(0.272\)
+  \item
+    \(0.311\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\). Logo,
+
+  \[\mathbb{P}(0\leq X\leq 1|Y\leq 1) =
+  \frac{\mathbb{P}(0\leq X\leq 1,Y\leq 1)}{P(Y\leq 1)}=
+  \frac{\sum_{x=0}^{1} \sum_{y=0}^{1}p(x,y)}{\sum_{y=0}^{1}\mathbb{P}(Y=y)}
+  =\frac{0.329}{0.787}
+  = 0.418.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

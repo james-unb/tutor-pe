@@ -1,0 +1,562 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias viajam no máximo quatro vezes ao
+  ano. Seja \(X\) o número de viagens nacionais e \(Y\) o número de
+  viagens internacionais. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.03 & 0.32 \\
+  2 & 0.01 & 0.43 \\
+  3 & 0.13 & 0.08 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 2 | Y=1)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.90\)
+  \item
+    \(0.44\)
+  \item
+    \(0.28\)
+  \item
+    \(0.75\)
+  \item
+    \(0.04\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 2 | Y=1) &=& \frac{P(X\leq 2,Y=1)}{P(Y=1)} = \frac{P(X=1,Y=1)+P(X=2,Y=1)}{P(Y=1)}\\
+  &=& \frac{0.32+0.43}{0.32+0.43+0.08} = 0.9.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias viajam no máximo quatro vezes ao
+  ano. Seja \(X\) o número de viagens nacionais e \(Y\) o número de
+  viagens internacionais. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.07 & 0.11 \\
+  2 & 0.26 & 0.19 \\
+  3 & 0.13 & 0.24 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 2 | Y=1)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.33\)
+  \item
+    \(0.42\)
+  \item
+    \(0.56\)
+  \item
+    \(0.45\)
+  \item
+    \(0.30\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 2 | Y=1) &=& \frac{P(X\leq 2,Y=1)}{P(Y=1)} = \frac{P(X=1,Y=1)+P(X=2,Y=1)}{P(Y=1)}\\
+  &=& \frac{0.11+0.19}{0.11+0.19+0.24} = 0.56.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias viajam no máximo quatro vezes ao
+  ano. Seja \(X\) o número de viagens nacionais e \(Y\) o número de
+  viagens internacionais. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.21 & 0.18 \\
+  2 & 0.09 & 0.08 \\
+  3 & 0.25 & 0.19 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 2 | Y=1)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.26\)
+  \item
+    \(0.81\)
+  \item
+    \(0.58\)
+  \item
+    \(0.30\)
+  \item
+    \(0.17\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 2 | Y=1) &=& \frac{P(X\leq 2,Y=1)}{P(Y=1)} = \frac{P(X=1,Y=1)+P(X=2,Y=1)}{P(Y=1)}\\
+  &=& \frac{0.18+0.08}{0.18+0.08+0.19} = 0.58.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias viajam no máximo quatro vezes ao
+  ano. Seja \(X\) o número de viagens nacionais e \(Y\) o número de
+  viagens internacionais. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.05 & 0.26 \\
+  2 & 0.27 & 0.1 \\
+  3 & 0.28 & 0.04 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 2 | Y=1)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.36\)
+  \item
+    \(0.90\)
+  \item
+    \(0.40\)
+  \item
+    \(0.32\)
+  \item
+    \(0.37\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 2 | Y=1) &=& \frac{P(X\leq 2,Y=1)}{P(Y=1)} = \frac{P(X=1,Y=1)+P(X=2,Y=1)}{P(Y=1)}\\
+  &=& \frac{0.26+0.1}{0.26+0.1+0.04} = 0.9.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias viajam no máximo quatro vezes ao
+  ano. Seja \(X\) o número de viagens nacionais e \(Y\) o número de
+  viagens internacionais. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.03 & 0.42 \\
+  2 & 0.25 & 0.05 \\
+  3 & 0.17 & 0.08 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 2 | Y=1)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.47\)
+  \item
+    \(0.28\)
+  \item
+    \(0.30\)
+  \item
+    \(0.85\)
+  \item
+    \(0.63\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 2 | Y=1) &=& \frac{P(X\leq 2,Y=1)}{P(Y=1)} = \frac{P(X=1,Y=1)+P(X=2,Y=1)}{P(Y=1)}\\
+  &=& \frac{0.42+0.05}{0.42+0.05+0.08} = 0.85.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias viajam no máximo quatro vezes ao
+  ano. Seja \(X\) o número de viagens nacionais e \(Y\) o número de
+  viagens internacionais. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.02 & 0.05 \\
+  2 & 0.47 & 0.21 \\
+  3 & 0.05 & 0.2 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 2 | Y=1)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.16\)
+  \item
+    \(0.49\)
+  \item
+    \(0.57\)
+  \item
+    \(0.26\)
+  \item
+    \(0.68\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 2 | Y=1) &=& \frac{P(X\leq 2,Y=1)}{P(Y=1)} = \frac{P(X=1,Y=1)+P(X=2,Y=1)}{P(Y=1)}\\
+  &=& \frac{0.05+0.21}{0.05+0.21+0.2} = 0.57.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias viajam no máximo quatro vezes ao
+  ano. Seja \(X\) o número de viagens nacionais e \(Y\) o número de
+  viagens internacionais. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.22 & 0.12 \\
+  2 & 0.02 & 0.25 \\
+  3 & 0.34 & 0.05 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 2 | Y=1)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.27\)
+  \item
+    \(0.37\)
+  \item
+    \(0.24\)
+  \item
+    \(0.88\)
+  \item
+    \(0.63\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 2 | Y=1) &=& \frac{P(X\leq 2,Y=1)}{P(Y=1)} = \frac{P(X=1,Y=1)+P(X=2,Y=1)}{P(Y=1)}\\
+  &=& \frac{0.12+0.25}{0.12+0.25+0.05} = 0.88.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias viajam no máximo quatro vezes ao
+  ano. Seja \(X\) o número de viagens nacionais e \(Y\) o número de
+  viagens internacionais. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.12 & 0.04 \\
+  2 & 0.66 & 0.01 \\
+  3 & 0.15 & 0.02 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 2 | Y=1)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.71\)
+  \item
+    \(0.67\)
+  \item
+    \(0.21\)
+  \item
+    \(0.78\)
+  \item
+    \(0.05\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 2 | Y=1) &=& \frac{P(X\leq 2,Y=1)}{P(Y=1)} = \frac{P(X=1,Y=1)+P(X=2,Y=1)}{P(Y=1)}\\
+  &=& \frac{0.04+0.01}{0.04+0.01+0.02} = 0.71.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias viajam no máximo quatro vezes ao
+  ano. Seja \(X\) o número de viagens nacionais e \(Y\) o número de
+  viagens internacionais. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.15 & 0.25 \\
+  2 & 0.07 & 0.31 \\
+  3 & 0.13 & 0.09 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 2 | Y=1)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.50\)
+  \item
+    \(0.22\)
+  \item
+    \(0.38\)
+  \item
+    \(0.86\)
+  \item
+    \(0.56\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 2 | Y=1) &=& \frac{P(X\leq 2,Y=1)}{P(Y=1)} = \frac{P(X=1,Y=1)+P(X=2,Y=1)}{P(Y=1)}\\
+  &=& \frac{0.25+0.31}{0.25+0.31+0.09} = 0.86.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias viajam no máximo quatro vezes ao
+  ano. Seja \(X\) o número de viagens nacionais e \(Y\) o número de
+  viagens internacionais. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & 0.11 & 0.2 \\
+  2 & 0.17 & 0.33 \\
+  3 & 0.16 & 0.03 \\
+  \end{longtable}
+
+  Qual a probabilidade de \(P(X\leq 2 | Y=1)\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.28\)
+  \item
+    \(0.53\)
+  \item
+    \(0.88\)
+  \item
+    \(0.95\)
+  \item
+    \(0.50\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Da definição de probabilidade condicional, temos que
+
+  \[\begin{aligned}
+  P(X\leq 2 | Y=1) &=& \frac{P(X\leq 2,Y=1)}{P(Y=1)} = \frac{P(X=1,Y=1)+P(X=2,Y=1)}{P(Y=1)}\\
+  &=& \frac{0.2+0.33}{0.2+0.33+0.03} = 0.95.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

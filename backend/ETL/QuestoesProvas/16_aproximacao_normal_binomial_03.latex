@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que lançamos uma moeda honesta 200 vezes. Obtenha a
+  probabilidade (aproximada) do número de caras estar entre 92 e 112 dos
+  lançamentos (incluindo os extremos). (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.465\)
+  \item
+    \(0.826\)
+  \item
+    \(0.955\)
+  \item
+    \(0.045\)
+  \item
+    \(0.871\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de caras obtidas após os 200 lançamentos,
+  temos que \[X \sim Bin(200, 0.5).\] Queremos calcular
+  \[\begin{aligned}
+  P(92\leq X\leq 112)&\approx& \Phi\left (\frac{112-100}{7.071}\right) -\Phi\left(\frac{92-100}{7.071} \right)\\
+                           & =& \Phi(1.7)- \Phi(-1.13)\\
+                            &=& \Phi(1.7)- (1-\Phi(1.13))\\
+                            &=& \Phi(1.7)+\Phi(1.13)-1\\
+                            &=&0.955+0.871-1\\
+                            &=&0.826.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=7.071\) e \(np=100\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que lançamos uma moeda honesta 200 vezes. Obtenha a
+  probabilidade (aproximada) do número de caras estar entre 92 e 104 dos
+  lançamentos (incluindo os extremos). (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.716\)
+  \item
+    \(0.416\)
+  \item
+    \(0.284\)
+  \item
+    \(0.586\)
+  \item
+    \(0.871\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de caras obtidas após os 200 lançamentos,
+  temos que \[X \sim Bin(200, 0.5).\] Queremos calcular
+  \[\begin{aligned}
+  P(92\leq X\leq 104)&\approx& \Phi\left (\frac{104-100}{7.071}\right) -\Phi\left(\frac{92-100}{7.071} \right)\\
+                           & =& \Phi(0.57)- \Phi(-1.13)\\
+                            &=& \Phi(0.57)- (1-\Phi(1.13))\\
+                            &=& \Phi(0.57)+\Phi(1.13)-1\\
+                            &=&0.716+0.871-1\\
+                            &=&0.586.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=7.071\) e \(np=100\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que lançamos uma moeda honesta 200 vezes. Obtenha a
+  probabilidade (aproximada) do número de caras estar entre 80 e 104 dos
+  lançamentos (incluindo os extremos). (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.998\)
+  \item
+    \(0.713\)
+  \item
+    \(0.716\)
+  \item
+    \(0.214\)
+  \item
+    \(0.284\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de caras obtidas após os 200 lançamentos,
+  temos que \[X \sim Bin(200, 0.5).\] Queremos calcular
+  \[\begin{aligned}
+  P(80\leq X\leq 104)&\approx& \Phi\left (\frac{104-100}{7.071}\right) -\Phi\left(\frac{80-100}{7.071} \right)\\
+                           & =& \Phi(0.57)- \Phi(-2.83)\\
+                            &=& \Phi(0.57)- (1-\Phi(2.83))\\
+                            &=& \Phi(0.57)+\Phi(2.83)-1\\
+                            &=&0.716+0.998-1\\
+                            &=&0.713.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=7.071\) e \(np=100\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que lançamos uma moeda honesta 200 vezes. Obtenha a
+  probabilidade (aproximada) do número de caras estar entre 92 e 104 dos
+  lançamentos (incluindo os extremos). (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.716\)
+  \item
+    \(0.586\)
+  \item
+    \(0.593\)
+  \item
+    \(0.284\)
+  \item
+    \(0.871\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de caras obtidas após os 200 lançamentos,
+  temos que \[X \sim Bin(200, 0.5).\] Queremos calcular
+  \[\begin{aligned}
+  P(92\leq X\leq 104)&\approx& \Phi\left (\frac{104-100}{7.071}\right) -\Phi\left(\frac{92-100}{7.071} \right)\\
+                           & =& \Phi(0.57)- \Phi(-1.13)\\
+                            &=& \Phi(0.57)- (1-\Phi(1.13))\\
+                            &=& \Phi(0.57)+\Phi(1.13)-1\\
+                            &=&0.716+0.871-1\\
+                            &=&0.586.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=7.071\) e \(np=100\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que lançamos uma moeda honesta 250 vezes. Obtenha a
+  probabilidade (aproximada) do número de caras estar entre 115 e 140
+  dos lançamentos (incluindo os extremos). (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.867\)
+  \item
+    \(0.537\)
+  \item
+    \(0.896\)
+  \item
+    \(0.971\)
+  \item
+    \(0.029\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de caras obtidas após os 250 lançamentos,
+  temos que \[X \sim Bin(250, 0.5).\] Queremos calcular
+  \[\begin{aligned}
+  P(115\leq X\leq 140)&\approx& \Phi\left (\frac{140-125}{7.906}\right) -\Phi\left(\frac{115-125}{7.906} \right)\\
+                           & =& \Phi(1.9)- \Phi(-1.26)\\
+                            &=& \Phi(1.9)- (1-\Phi(1.26))\\
+                            &=& \Phi(1.9)+\Phi(1.26)-1\\
+                            &=&0.971+0.896-1\\
+                            &=&0.867.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=7.906\) e \(np=125\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que lançamos uma moeda honesta 250 vezes. Obtenha a
+  probabilidade (aproximada) do número de caras estar entre 115 e 130
+  dos lançamentos (incluindo os extremos). (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.264\)
+  \item
+    \(0.632\)
+  \item
+    \(0.809\)
+  \item
+    \(0.896\)
+  \item
+    \(0.736\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de caras obtidas após os 250 lançamentos,
+  temos que \[X \sim Bin(250, 0.5).\] Queremos calcular
+  \[\begin{aligned}
+  P(115\leq X\leq 130)&\approx& \Phi\left (\frac{130-125}{7.906}\right) -\Phi\left(\frac{115-125}{7.906} \right)\\
+                           & =& \Phi(0.63)- \Phi(-1.26)\\
+                            &=& \Phi(0.63)- (1-\Phi(1.26))\\
+                            &=& \Phi(0.63)+\Phi(1.26)-1\\
+                            &=&0.736+0.896-1\\
+                            &=&0.632.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=7.906\) e \(np=125\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que lançamos uma moeda honesta 200 vezes. Obtenha a
+  probabilidade (aproximada) do número de caras estar entre 92 e 104 dos
+  lançamentos (incluindo os extremos). (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.284\)
+  \item
+    \(0.871\)
+  \item
+    \(0.716\)
+  \item
+    \(0.586\)
+  \item
+    \(0.420\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de caras obtidas após os 200 lançamentos,
+  temos que \[X \sim Bin(200, 0.5).\] Queremos calcular
+  \[\begin{aligned}
+  P(92\leq X\leq 104)&\approx& \Phi\left (\frac{104-100}{7.071}\right) -\Phi\left(\frac{92-100}{7.071} \right)\\
+                           & =& \Phi(0.57)- \Phi(-1.13)\\
+                            &=& \Phi(0.57)- (1-\Phi(1.13))\\
+                            &=& \Phi(0.57)+\Phi(1.13)-1\\
+                            &=&0.716+0.871-1\\
+                            &=&0.586.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=7.071\) e \(np=100\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que lançamos uma moeda honesta 300 vezes. Obtenha a
+  probabilidade (aproximada) do número de caras estar entre 138 e 168
+  dos lançamentos (incluindo os extremos). (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.266\)
+  \item
+    \(0.019\)
+  \item
+    \(0.899\)
+  \item
+    \(0.981\)
+  \item
+    \(0.918\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de caras obtidas após os 300 lançamentos,
+  temos que \[X \sim Bin(300, 0.5).\] Queremos calcular
+  \[\begin{aligned}
+  P(138\leq X\leq 168)&\approx& \Phi\left (\frac{168-150}{8.66}\right) -\Phi\left(\frac{138-150}{8.66} \right)\\
+                           & =& \Phi(2.08)- \Phi(-1.39)\\
+                            &=& \Phi(2.08)- (1-\Phi(1.39))\\
+                            &=& \Phi(2.08)+\Phi(1.39)-1\\
+                            &=&0.981+0.918-1\\
+                            &=&0.899.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=8.66\) e \(np=150\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que lançamos uma moeda honesta 250 vezes. Obtenha a
+  probabilidade (aproximada) do número de caras estar entre 100 e 140
+  dos lançamentos (incluindo os extremos). (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.999\)
+  \item
+    \(0.970\)
+  \item
+    \(0.029\)
+  \item
+    \(0.843\)
+  \item
+    \(0.971\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de caras obtidas após os 250 lançamentos,
+  temos que \[X \sim Bin(250, 0.5).\] Queremos calcular
+  \[\begin{aligned}
+  P(100\leq X\leq 140)&\approx& \Phi\left (\frac{140-125}{7.906}\right) -\Phi\left(\frac{100-125}{7.906} \right)\\
+                           & =& \Phi(1.9)- \Phi(-3.16)\\
+                            &=& \Phi(1.9)- (1-\Phi(3.16))\\
+                            &=& \Phi(1.9)+\Phi(3.16)-1\\
+                            &=&0.971+0.999-1\\
+                            &=&0.97.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=7.906\) e \(np=125\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que lançamos uma moeda honesta 250 vezes. Obtenha a
+  probabilidade (aproximada) do número de caras estar entre 100 e 140
+  dos lançamentos (incluindo os extremos). (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.970\)
+  \item
+    \(0.029\)
+  \item
+    \(0.999\)
+  \item
+    \(0.971\)
+  \item
+    \(0.048\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de caras obtidas após os 250 lançamentos,
+  temos que \[X \sim Bin(250, 0.5).\] Queremos calcular
+  \[\begin{aligned}
+  P(100\leq X\leq 140)&\approx& \Phi\left (\frac{140-125}{7.906}\right) -\Phi\left(\frac{100-125}{7.906} \right)\\
+                           & =& \Phi(1.9)- \Phi(-3.16)\\
+                            &=& \Phi(1.9)- (1-\Phi(3.16))\\
+                            &=& \Phi(1.9)+\Phi(3.16)-1\\
+                            &=&0.971+0.999-1\\
+                            &=&0.97.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=7.906\) e \(np=125\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

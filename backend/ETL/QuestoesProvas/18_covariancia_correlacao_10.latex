@@ -1,0 +1,911 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de vendas está fazendo uma análise do desempenho de seus
+  funcionários para criar novas políticas de contratação. O gerente
+  acredita que o tempo de serviço do funcionário pode interferir no
+  número de clientes que ele irá adquirir. Seja \(X\) o tempo de
+  serviço, em anos, do funcionário e \(Y\) o número de clientes, a
+  distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.02 & 0.1 & 0.03 \\
+  4 & 0.08 & 0.09 & 0.1 \\
+  5 & 0.37 & 0.15 & 0.06 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.599\)
+  \item
+    \(0.002\)
+  \item
+    \(37.100\)
+  \item
+    \(-0.998\)
+  \item
+    \(17.475\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.02 & 0.1 & 0.03 & 0.15 \\
+  4 & 0.08 & 0.09 & 0.1 & 0.27 \\
+  5 & 0.37 & 0.15 & 0.06 & 0.58 \\
+  P(Y=y) & 0.47 & 0.34 & 0.19 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.15+4\times0.27+5\times0.58 = 4.43\\
+  E(Y) &=& 5\times0.47+10\times0.34+15\times0.19 = 8.6
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccccccc@{}}
+  \toprule\noalign{}
+  k & 15 & 20 & 25 & 30 & 40 & 50 & 45 & 60 & 75 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.02 & 0.08 & 0.37 & 0.1 & 0.09 & 0.15 & 0.03 & 0.1 &
+  0.06 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 15\times0.02+20\times0.08+25\times0.37+30\times0.1+40\times0.09+50\times0.15+45\times0.03+60\times0.1+75\times0.06 = 37.1\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.998.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de vendas está fazendo uma análise do desempenho de seus
+  funcionários para criar novas políticas de contratação. O gerente
+  acredita que o tempo de serviço do funcionário pode interferir no
+  número de clientes que ele irá adquirir. Seja \(X\) o tempo de
+  serviço, em anos, do funcionário e \(Y\) o número de clientes, a
+  distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.07 & 0.08 & 0.35 \\
+  4 & 0.21 & 0 & 0.23 \\
+  5 & 0.01 & 0.04 & 0.01 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.260\)
+  \item
+    \(-0.444\)
+  \item
+    \(-0.740\)
+  \item
+    \(27.526\)
+  \item
+    \(40.200\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.07 & 0.08 & 0.35 & 0.5 \\
+  4 & 0.21 & 0 & 0.23 & 0.44 \\
+  5 & 0.01 & 0.04 & 0.01 & 0.06 \\
+  P(Y=y) & 0.29 & 0.12 & 0.59 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.5+4\times0.44+5\times0.06 = 3.56\\
+  E(Y) &=& 5\times0.29+10\times0.12+15\times0.59 = 11.5
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccccccc@{}}
+  \toprule\noalign{}
+  k & 15 & 20 & 25 & 30 & 40 & 50 & 45 & 60 & 75 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.07 & 0.21 & 0.01 & 0.08 & 0 & 0.04 & 0.35 & 0.23 &
+  0.01 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 15\times0.07+20\times0.21+25\times0.01+30\times0.08+40\times0+50\times0.04+45\times0.35+60\times0.23+75\times0.01 = 40.2\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.74.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de vendas está fazendo uma análise do desempenho de seus
+  funcionários para criar novas políticas de contratação. O gerente
+  acredita que o tempo de serviço do funcionário pode interferir no
+  número de clientes que ele irá adquirir. Seja \(X\) o tempo de
+  serviço, em anos, do funcionário e \(Y\) o número de clientes, a
+  distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.16 & 0.39 & 0.08 \\
+  4 & 0 & 0.15 & 0.15 \\
+  5 & 0.02 & 0.03 & 0.02 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(24.366\)
+  \item
+    \(0.404\)
+  \item
+    \(36.200\)
+  \item
+    \(0.358\)
+  \item
+    \(0.596\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.16 & 0.39 & 0.08 & 0.63 \\
+  4 & 0 & 0.15 & 0.15 & 0.3 \\
+  5 & 0.02 & 0.03 & 0.02 & 0.07 \\
+  P(Y=y) & 0.18 & 0.57 & 0.25 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.63+4\times0.3+5\times0.07 = 3.44\\
+  E(Y) &=& 5\times0.18+10\times0.57+15\times0.25 = 10.35
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccccccc@{}}
+  \toprule\noalign{}
+  k & 15 & 20 & 25 & 30 & 40 & 50 & 45 & 60 & 75 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.16 & 0 & 0.02 & 0.39 & 0.15 & 0.03 & 0.08 & 0.15 &
+  0.02 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 15\times0.16+20\times0+25\times0.02+30\times0.39+40\times0.15+50\times0.03+45\times0.08+60\times0.15+75\times0.02 = 36.2\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.596.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de vendas está fazendo uma análise do desempenho de seus
+  funcionários para criar novas políticas de contratação. O gerente
+  acredita que o tempo de serviço do funcionário pode interferir no
+  número de clientes que ele irá adquirir. Seja \(X\) o tempo de
+  serviço, em anos, do funcionário e \(Y\) o número de clientes, a
+  distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.23 & 0.04 & 0.09 \\
+  4 & 0.07 & 0.02 & 0.23 \\
+  5 & 0.01 & 0.09 & 0.22 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.796\)
+  \item
+    \(45.950\)
+  \item
+    \(30.268\)
+  \item
+    \(1.078\)
+  \item
+    \(-0.796\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.23 & 0.04 & 0.09 & 0.36 \\
+  4 & 0.07 & 0.02 & 0.23 & 0.32 \\
+  5 & 0.01 & 0.09 & 0.22 & 0.32 \\
+  P(Y=y) & 0.31 & 0.15 & 0.54 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.36+4\times0.32+5\times0.32 = 3.96\\
+  E(Y) &=& 5\times0.31+10\times0.15+15\times0.54 = 11.15
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccccccc@{}}
+  \toprule\noalign{}
+  k & 15 & 20 & 25 & 30 & 40 & 50 & 45 & 60 & 75 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.23 & 0.07 & 0.01 & 0.04 & 0.02 & 0.09 & 0.09 & 0.23 &
+  0.22 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 15\times0.23+20\times0.07+25\times0.01+30\times0.04+40\times0.02+50\times0.09+45\times0.09+60\times0.23+75\times0.22 = 45.95\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 1.796.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de vendas está fazendo uma análise do desempenho de seus
+  funcionários para criar novas políticas de contratação. O gerente
+  acredita que o tempo de serviço do funcionário pode interferir no
+  número de clientes que ele irá adquirir. Seja \(X\) o tempo de
+  serviço, em anos, do funcionário e \(Y\) o número de clientes, a
+  distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.04 & 0.21 & 0.02 \\
+  4 & 0.04 & 0.1 & 0.2 \\
+  5 & 0 & 0.38 & 0.01 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.036\)
+  \item
+    \(44.350\)
+  \item
+    \(27.376\)
+  \item
+    \(0.940\)
+  \item
+    \(0.060\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.04 & 0.21 & 0.02 & 0.27 \\
+  4 & 0.04 & 0.1 & 0.2 & 0.34 \\
+  5 & 0 & 0.38 & 0.01 & 0.39 \\
+  P(Y=y) & 0.08 & 0.69 & 0.23 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.27+4\times0.34+5\times0.39 = 4.12\\
+  E(Y) &=& 5\times0.08+10\times0.69+15\times0.23 = 10.75
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccccccc@{}}
+  \toprule\noalign{}
+  k & 15 & 20 & 25 & 30 & 40 & 50 & 45 & 60 & 75 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.04 & 0.04 & 0 & 0.21 & 0.1 & 0.38 & 0.02 & 0.2 & 0.01 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 15\times0.04+20\times0.04+25\times0+30\times0.21+40\times0.1+50\times0.38+45\times0.02+60\times0.2+75\times0.01 = 44.35\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.06.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de vendas está fazendo uma análise do desempenho de seus
+  funcionários para criar novas políticas de contratação. O gerente
+  acredita que o tempo de serviço do funcionário pode interferir no
+  número de clientes que ele irá adquirir. Seja \(X\) o tempo de
+  serviço, em anos, do funcionário e \(Y\) o número de clientes, a
+  distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.24 & 0 & 0.16 \\
+  4 & 0.04 & 0.15 & 0.24 \\
+  5 & 0.11 & 0.04 & 0.02 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.984\)
+  \item
+    \(-0.016\)
+  \item
+    \(38.250\)
+  \item
+    \(-0.010\)
+  \item
+    \(24.037\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.24 & 0 & 0.16 & 0.4 \\
+  4 & 0.04 & 0.15 & 0.24 & 0.43 \\
+  5 & 0.11 & 0.04 & 0.02 & 0.17 \\
+  P(Y=y) & 0.39 & 0.19 & 0.42 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.4+4\times0.43+5\times0.17 = 3.77\\
+  E(Y) &=& 5\times0.39+10\times0.19+15\times0.42 = 10.15
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccccccc@{}}
+  \toprule\noalign{}
+  k & 15 & 20 & 25 & 30 & 40 & 50 & 45 & 60 & 75 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.24 & 0.04 & 0.11 & 0 & 0.15 & 0.04 & 0.16 & 0.24 &
+  0.02 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 15\times0.24+20\times0.04+25\times0.11+30\times0+40\times0.15+50\times0.04+45\times0.16+60\times0.24+75\times0.02 = 38.25\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.016.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de vendas está fazendo uma análise do desempenho de seus
+  funcionários para criar novas políticas de contratação. O gerente
+  acredita que o tempo de serviço do funcionário pode interferir no
+  número de clientes que ele irá adquirir. Seja \(X\) o tempo de
+  serviço, em anos, do funcionário e \(Y\) o número de clientes, a
+  distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.01 & 0.09 & 0.08 \\
+  4 & 0.05 & 0.06 & 0.04 \\
+  5 & 0.1 & 0.56 & 0.01 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(43.500\)
+  \item
+    \(23.340\)
+  \item
+    \(0.273\)
+  \item
+    \(-0.436\)
+  \item
+    \(-0.727\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.01 & 0.09 & 0.08 & 0.18 \\
+  4 & 0.05 & 0.06 & 0.04 & 0.15 \\
+  5 & 0.1 & 0.56 & 0.01 & 0.67 \\
+  P(Y=y) & 0.16 & 0.71 & 0.13 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.18+4\times0.15+5\times0.67 = 4.49\\
+  E(Y) &=& 5\times0.16+10\times0.71+15\times0.13 = 9.85
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccccccc@{}}
+  \toprule\noalign{}
+  k & 15 & 20 & 25 & 30 & 40 & 50 & 45 & 60 & 75 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.01 & 0.05 & 0.1 & 0.09 & 0.06 & 0.56 & 0.08 & 0.04 &
+  0.01 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 15\times0.01+20\times0.05+25\times0.1+30\times0.09+40\times0.06+50\times0.56+45\times0.08+60\times0.04+75\times0.01 = 43.5\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.727.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de vendas está fazendo uma análise do desempenho de seus
+  funcionários para criar novas políticas de contratação. O gerente
+  acredita que o tempo de serviço do funcionário pode interferir no
+  número de clientes que ele irá adquirir. Seja \(X\) o tempo de
+  serviço, em anos, do funcionário e \(Y\) o número de clientes, a
+  distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.49 & 0.03 & 0.06 \\
+  4 & 0.06 & 0.13 & 0.02 \\
+  5 & 0.04 & 0.11 & 0.06 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.418\)
+  \item
+    \(1.418\)
+  \item
+    \(16.373\)
+  \item
+    \(0.851\)
+  \item
+    \(29.550\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.49 & 0.03 & 0.06 & 0.58 \\
+  4 & 0.06 & 0.13 & 0.02 & 0.21 \\
+  5 & 0.04 & 0.11 & 0.06 & 0.21 \\
+  P(Y=y) & 0.59 & 0.27 & 0.14 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.58+4\times0.21+5\times0.21 = 3.63\\
+  E(Y) &=& 5\times0.59+10\times0.27+15\times0.14 = 7.75
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccccccc@{}}
+  \toprule\noalign{}
+  k & 15 & 20 & 25 & 30 & 40 & 50 & 45 & 60 & 75 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.49 & 0.06 & 0.04 & 0.03 & 0.13 & 0.11 & 0.06 & 0.02 &
+  0.06 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 15\times0.49+20\times0.06+25\times0.04+30\times0.03+40\times0.13+50\times0.11+45\times0.06+60\times0.02+75\times0.06 = 29.55\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 1.418.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de vendas está fazendo uma análise do desempenho de seus
+  funcionários para criar novas políticas de contratação. O gerente
+  acredita que o tempo de serviço do funcionário pode interferir no
+  número de clientes que ele irá adquirir. Seja \(X\) o tempo de
+  serviço, em anos, do funcionário e \(Y\) o número de clientes, a
+  distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.38 & 0.04 & 0.09 \\
+  4 & 0.1 & 0.12 & 0.23 \\
+  5 & 0.01 & 0 & 0.03 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.221\)
+  \item
+    \(21.589\)
+  \item
+    \(0.733\)
+  \item
+    \(-0.221\)
+  \item
+    \(34.050\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.38 & 0.04 & 0.09 & 0.51 \\
+  4 & 0.1 & 0.12 & 0.23 & 0.45 \\
+  5 & 0.01 & 0 & 0.03 & 0.04 \\
+  P(Y=y) & 0.49 & 0.16 & 0.35 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.51+4\times0.45+5\times0.04 = 3.53\\
+  E(Y) &=& 5\times0.49+10\times0.16+15\times0.35 = 9.3
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccccccc@{}}
+  \toprule\noalign{}
+  k & 15 & 20 & 25 & 30 & 40 & 50 & 45 & 60 & 75 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.38 & 0.1 & 0.01 & 0.04 & 0.12 & 0 & 0.09 & 0.23 &
+  0.03 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 15\times0.38+20\times0.1+25\times0.01+30\times0.04+40\times0.12+50\times0+45\times0.09+60\times0.23+75\times0.03 = 34.05\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 1.221.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de vendas está fazendo uma análise do desempenho de seus
+  funcionários para criar novas políticas de contratação. O gerente
+  acredita que o tempo de serviço do funcionário pode interferir no
+  número de clientes que ele irá adquirir. Seja \(X\) o tempo de
+  serviço, em anos, do funcionário e \(Y\) o número de clientes, a
+  distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.02 & 0.1 & 0.11 \\
+  4 & 0.22 & 0.05 & 0.07 \\
+  5 & 0.08 & 0.33 & 0.02 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.630\)
+  \item
+    \(21.210\)
+  \item
+    \(38.850\)
+  \item
+    \(-0.378\)
+  \item
+    \(0.370\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 5 & 10 & 15 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.02 & 0.1 & 0.11 & 0.23 \\
+  4 & 0.22 & 0.05 & 0.07 & 0.34 \\
+  5 & 0.08 & 0.33 & 0.02 & 0.43 \\
+  P(Y=y) & 0.32 & 0.48 & 0.2 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos
+
+  \[\begin{aligned}
+  E(X) &=& 3\times0.23+4\times0.34+5\times0.43 = 4.2\\
+  E(Y) &=& 5\times0.32+10\times0.48+15\times0.2 = 9.4
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccccccc@{}}
+  \toprule\noalign{}
+  k & 15 & 20 & 25 & 30 & 40 & 50 & 45 & 60 & 75 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.02 & 0.22 & 0.08 & 0.1 & 0.05 & 0.33 & 0.11 & 0.07 &
+  0.02 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 15\times0.02+20\times0.22+25\times0.08+30\times0.1+40\times0.05+50\times0.33+45\times0.11+60\times0.07+75\times0.02 = 38.85\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.63.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

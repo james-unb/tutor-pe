@@ -1,0 +1,502 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A \emph{glicemia de jejum} é um exame que mede o nível de glicose
+  (açúcar) na circulação sanguínea de um indivíduo em jejum (de 8 a 12
+  horas). Valores entre 70 e 110 mg/dL são considerados normais. Nesse
+  contexto, para estimar o nível médio de glicose de jejum das pessoas
+  de uma dada comunidade rural, pesquisadores realizaram o exame em
+  \(23\) pessoas escolhidas ao acaso dessa comunidade, obtendo-se média
+  e variância amostrais de \(110\) e \(85\), respectivamente. Supondo
+  normalidade da glicemia de jejum, assinale a alternativa
+  correspondente a um intervalo de confiança para a glicemia de jejum
+  média dessa população com confiança de \(90\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([103.654, 116.346]\)
+  \item
+    \([106.847, 113.153]\)
+  \item
+    \([107.539, 112.461]\)
+  \item
+    \([106.699, 113.301]\)
+  \item
+    \([103.939, 116.061]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[110-1.7171\times\frac{9.22}{\sqrt{23}} \ , \ 110+1.7171\times\frac{9.22}{\sqrt{23}}\right]\\
+  &=&\text{$[106.699, 113.301]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A \emph{glicemia de jejum} é um exame que mede o nível de glicose
+  (açúcar) na circulação sanguínea de um indivíduo em jejum (de 8 a 12
+  horas). Valores entre 70 e 110 mg/dL são considerados normais. Nesse
+  contexto, para estimar o nível médio de glicose de jejum das pessoas
+  de uma dada comunidade rural, pesquisadores realizaram o exame em
+  \(15\) pessoas escolhidas ao acaso dessa comunidade, obtendo-se média
+  e variância amostrais de \(112\) e \(91\), respectivamente. Supondo
+  normalidade da glicemia de jejum, assinale a alternativa
+  correspondente a um intervalo de confiança para a glicemia de jejum
+  média dessa população com confiança de \(99\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([106.261, 117.739]\)
+  \item
+    \([ 93.941, 130.059]\)
+  \item
+    \([104.668, 119.332]\)
+  \item
+    \([102.051, 121.949]\)
+  \item
+    \([107.961, 116.039]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[112-2.9768\times\frac{9.54}{\sqrt{15}} \ , \ 112+2.9768\times\frac{9.54}{\sqrt{15}}\right]\\
+  &=&\text{$[104.668, 119.332]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A \emph{glicemia de jejum} é um exame que mede o nível de glicose
+  (açúcar) na circulação sanguínea de um indivíduo em jejum (de 8 a 12
+  horas). Valores entre 70 e 110 mg/dL são considerados normais. Nesse
+  contexto, para estimar o nível médio de glicose de jejum das pessoas
+  de uma dada comunidade rural, pesquisadores realizaram o exame em
+  \(22\) pessoas escolhidas ao acaso dessa comunidade, obtendo-se média
+  e variância amostrais de \(103\) e \(91\), respectivamente. Supondo
+  normalidade da glicemia de jejum, assinale a alternativa
+  correspondente a um intervalo de confiança para a glicemia de jejum
+  média dessa população com confiança de \(90\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([ 96.216, 109.784]\)
+  \item
+    \([100.397, 105.603]\)
+  \item
+    \([ 99.665, 106.335]\)
+  \item
+    \([ 99.500, 106.500]\)
+  \item
+    \([ 95.883, 110.117]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[103-1.7207\times\frac{9.54}{\sqrt{22}} \ , \ 103+1.7207\times\frac{9.54}{\sqrt{22}}\right]\\
+  &=&\text{$[ 99.500, 106.500]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A \emph{glicemia de jejum} é um exame que mede o nível de glicose
+  (açúcar) na circulação sanguínea de um indivíduo em jejum (de 8 a 12
+  horas). Valores entre 70 e 110 mg/dL são considerados normais. Nesse
+  contexto, para estimar o nível médio de glicose de jejum das pessoas
+  de uma dada comunidade rural, pesquisadores realizaram o exame em
+  \(16\) pessoas escolhidas ao acaso dessa comunidade, obtendo-se média
+  e variância amostrais de \(103\) e \(96\), respectivamente. Supondo
+  normalidade da glicemia de jejum, assinale a alternativa
+  correspondente a um intervalo de confiança para a glicemia de jejum
+  média dessa população com confiança de \(90\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([ 99.865, 106.135]\)
+  \item
+    \([ 93.160, 112.840]\)
+  \item
+    \([ 98.983, 107.017]\)
+  \item
+    \([ 98.706, 107.294]\)
+  \item
+    \([ 92.481, 113.519]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[103-1.7531\times\frac{9.8}{\sqrt{16}} \ , \ 103+1.7531\times\frac{9.8}{\sqrt{16}}\right]\\
+  &=&\text{$[ 98.706, 107.294]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A \emph{glicemia de jejum} é um exame que mede o nível de glicose
+  (açúcar) na circulação sanguínea de um indivíduo em jejum (de 8 a 12
+  horas). Valores entre 70 e 110 mg/dL são considerados normais. Nesse
+  contexto, para estimar o nível médio de glicose de jejum das pessoas
+  de uma dada comunidade rural, pesquisadores realizaram o exame em
+  \(16\) pessoas escolhidas ao acaso dessa comunidade, obtendo-se média
+  e variância amostrais de \(113\) e \(97\), respectivamente. Supondo
+  normalidade da glicemia de jejum, assinale a alternativa
+  correspondente a um intervalo de confiança para a glicemia de jejum
+  média dessa população com confiança de \(99\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([105.745, 120.255]\)
+  \item
+    \([107.263, 118.737]\)
+  \item
+    \([103.058, 122.943]\)
+  \item
+    \([ 95.136, 130.864]\)
+  \item
+    \([108.962, 117.038]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[113-2.9467\times\frac{9.85}{\sqrt{16}} \ , \ 113+2.9467\times\frac{9.85}{\sqrt{16}}\right]\\
+  &=&\text{$[105.745, 120.255]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A \emph{glicemia de jejum} é um exame que mede o nível de glicose
+  (açúcar) na circulação sanguínea de um indivíduo em jejum (de 8 a 12
+  horas). Valores entre 70 e 110 mg/dL são considerados normais. Nesse
+  contexto, para estimar o nível médio de glicose de jejum das pessoas
+  de uma dada comunidade rural, pesquisadores realizaram o exame em
+  \(25\) pessoas escolhidas ao acaso dessa comunidade, obtendo-se média
+  e variância amostrais de \(120\) e \(91\), respectivamente. Supondo
+  normalidade da glicemia de jejum, assinale a alternativa
+  correspondente a um intervalo de confiança para a glicemia de jejum
+  média dessa população com confiança de \(99\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([114.664, 125.336]\)
+  \item
+    \([116.871, 123.129]\)
+  \item
+    \([114.030, 125.970]\)
+  \item
+    \([109.819, 130.181]\)
+  \item
+    \([115.555, 124.445]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[120-2.7969\times\frac{9.54}{\sqrt{25}} \ , \ 120+2.7969\times\frac{9.54}{\sqrt{25}}\right]\\
+  &=&\text{$[114.664, 125.336]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A \emph{glicemia de jejum} é um exame que mede o nível de glicose
+  (açúcar) na circulação sanguínea de um indivíduo em jejum (de 8 a 12
+  horas). Valores entre 70 e 110 mg/dL são considerados normais. Nesse
+  contexto, para estimar o nível médio de glicose de jejum das pessoas
+  de uma dada comunidade rural, pesquisadores realizaram o exame em
+  \(17\) pessoas escolhidas ao acaso dessa comunidade, obtendo-se média
+  e variância amostrais de \(113\) e \(85\), respectivamente. Supondo
+  normalidade da glicemia de jejum, assinale a alternativa
+  correspondente a um intervalo de confiança para a glicemia de jejum
+  média dessa população com confiança de \(90\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([104.271, 121.730]\)
+  \item
+    \([109.096, 116.904]\)
+  \item
+    \([109.333, 116.667]\)
+  \item
+    \([110.138, 115.862]\)
+  \item
+    \([104.800, 121.200]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[113-1.7459\times\frac{9.22}{\sqrt{17}} \ , \ 113+1.7459\times\frac{9.22}{\sqrt{17}}\right]\\
+  &=&\text{$[109.096, 116.904]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A \emph{glicemia de jejum} é um exame que mede o nível de glicose
+  (açúcar) na circulação sanguínea de um indivíduo em jejum (de 8 a 12
+  horas). Valores entre 70 e 110 mg/dL são considerados normais. Nesse
+  contexto, para estimar o nível médio de glicose de jejum das pessoas
+  de uma dada comunidade rural, pesquisadores realizaram o exame em
+  \(18\) pessoas escolhidas ao acaso dessa comunidade, obtendo-se média
+  e variância amostrais de \(114\) e \(99\), respectivamente. Supondo
+  normalidade da glicemia de jejum, assinale a alternativa
+  correspondente a um intervalo de confiança para a glicemia de jejum
+  média dessa população com confiança de \(99\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([110.154, 117.846]\)
+  \item
+    \([104.980, 123.020]\)
+  \item
+    \([107.203, 120.797]\)
+  \item
+    \([108.536, 119.464]\)
+  \item
+    \([ 98.060, 129.940]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[114-2.8982\times\frac{9.95}{\sqrt{18}} \ , \ 114+2.8982\times\frac{9.95}{\sqrt{18}}\right]\\
+  &=&\text{$[107.203, 120.797]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A \emph{glicemia de jejum} é um exame que mede o nível de glicose
+  (açúcar) na circulação sanguínea de um indivíduo em jejum (de 8 a 12
+  horas). Valores entre 70 e 110 mg/dL são considerados normais. Nesse
+  contexto, para estimar o nível médio de glicose de jejum das pessoas
+  de uma dada comunidade rural, pesquisadores realizaram o exame em
+  \(20\) pessoas escolhidas ao acaso dessa comunidade, obtendo-se média
+  e variância amostrais de \(104\) e \(97\), respectivamente. Supondo
+  normalidade da glicemia de jejum, assinale a alternativa
+  correspondente a um intervalo de confiança para a glicemia de jejum
+  média dessa população com confiança de \(99\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([ 97.700, 110.300]\)
+  \item
+    \([ 90.125, 117.875]\)
+  \item
+    \([ 98.869, 109.131]\)
+  \item
+    \([ 96.046, 111.954]\)
+  \item
+    \([100.388, 107.612]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[104-2.8609\times\frac{9.85}{\sqrt{20}} \ , \ 104+2.8609\times\frac{9.85}{\sqrt{20}}\right]\\
+  &=&\text{$[ 97.700, 110.300]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A \emph{glicemia de jejum} é um exame que mede o nível de glicose
+  (açúcar) na circulação sanguínea de um indivíduo em jejum (de 8 a 12
+  horas). Valores entre 70 e 110 mg/dL são considerados normais. Nesse
+  contexto, para estimar o nível médio de glicose de jejum das pessoas
+  de uma dada comunidade rural, pesquisadores realizaram o exame em
+  \(20\) pessoas escolhidas ao acaso dessa comunidade, obtendo-se média
+  e variância amostrais de \(101\) e \(80\), respectivamente. Supondo
+  normalidade da glicemia de jejum, assinale a alternativa
+  correspondente a um intervalo de confiança para a glicemia de jejum
+  média dessa população com confiança de \(90\%\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([ 97.720, 104.280]\)
+  \item
+    \([ 94.084, 107.916]\)
+  \item
+    \([ 98.440, 103.560]\)
+  \item
+    \([ 94.440, 107.560]\)
+  \item
+    \([ 97.542, 104.458]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[101-1.7291\times\frac{8.94}{\sqrt{20}} \ , \ 101+1.7291\times\frac{8.94}{\sqrt{20}}\right]\\
+  &=&\text{$[ 97.542, 104.458]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

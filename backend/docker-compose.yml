@@ -1,0 +1,49 @@
+services:
+  database:
+    image: postgres:18
+    container_name: TUTOR_PE_DATABASE_
+    environment:
+      - POSTGRES_PASSWORD=pass
+      - POSTGRES_USER=user
+      - POSTGRES_DB=database
+    restart: on-failure
+    ports:
+      - "5432:5432"
+    volumes:
+      - tutorpe_postgres_data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U user -d database"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - tutor_pe_network
+
+  tutor_pe_backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tutor_pe_backend
+    depends_on:
+      database:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DATABASE_HOST=database
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    working_dir: /app
+    restart: on-failure
+    networks:
+      - tutor_pe_network
+
+volumes:
+  tutorpe_postgres_data:
+
+networks:
+  tutor_pe_network:
+    driver: bridge

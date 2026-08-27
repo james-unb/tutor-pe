@@ -1,0 +1,632 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=(\theta\alpha)x^{\alpha-1} e^{-\theta x^\alpha}\),
+  \(x>0\), \(\alpha\) conhecido e parâmetro \(\theta >0\). Considere
+  \[5 \ \ \ 9 \ \ \ 7 \ \ \ 8 \ \ \ 7\] uma amostra observada de \(X\) e
+  seja \(\alpha = 0.5\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.03\)
+  \item
+    \(5.10\)
+  \item
+    \(0.37\)
+  \item
+    \(7.20\)
+  \item
+    \(0.71\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \((x_1,\ldots,x_n)\) um valor observado da amostra aleatória.
+  Note que a função de verosimilhança é \[L(\theta)
+  =
+  c\,
+  \theta^n
+  e^{-\theta \sum_{i=1}^n x_i^\alpha},
+  \quad 
+  \text{onde} \ c=\prod_{i=1}^n \alpha x_i^{\alpha-1}.\] Logo, a função
+  log-verosimilhança é dada por \[\ell(\theta)
+  =
+  \ln(c)+n\ln(\theta)
+  -
+  \theta \sum_{i=1}^n x_i^\alpha.\] A ideia é maximizar a função
+  \(\ell(\theta)\). Derivando \(\ell(\theta)\) com respeito a \(\theta\)
+  temos que \[\ell'(\theta)
+  =
+  {n\over \theta}  
+  -
+  \sum_{i=1}^n x_i^\alpha.\] Logo, um possível ponto de máximo é
+  \(\theta={n/ \sum_{i=1}^n x_i^\alpha}\). Uma vez que
+  \(\ell''(\theta)=-n/\theta^2 <0\) \(\forall\theta\), concluímos que
+  \(\hat{\theta}_{\mathrm{EMV}}={n/ \sum_{i=1}^n X_i^\alpha}\).
+
+  Tomando a amostra \((5, 9, 7, 8, 7)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\theta}=0.37\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=(\theta\alpha)x^{\alpha-1} e^{-\theta x^\alpha}\),
+  \(x>0\), \(\alpha\) conhecido e parâmetro \(\theta >0\). Considere
+  \[5 \ \ \ 7 \ \ \ 9 \ \ \ 7 \ \ \ 5\] uma amostra observada de \(X\) e
+  seja \(\alpha = 0.5\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.60\)
+  \item
+    \(0.32\)
+  \item
+    \(0.03\)
+  \item
+    \(2.38\)
+  \item
+    \(0.39\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \((x_1,\ldots,x_n)\) um valor observado da amostra aleatória.
+  Note que a função de verosimilhança é \[L(\theta)
+  =
+  c\,
+  \theta^n
+  e^{-\theta \sum_{i=1}^n x_i^\alpha},
+  \quad 
+  \text{onde} \ c=\prod_{i=1}^n \alpha x_i^{\alpha-1}.\] Logo, a função
+  log-verosimilhança é dada por \[\ell(\theta)
+  =
+  \ln(c)+n\ln(\theta)
+  -
+  \theta \sum_{i=1}^n x_i^\alpha.\] A ideia é maximizar a função
+  \(\ell(\theta)\). Derivando \(\ell(\theta)\) com respeito a \(\theta\)
+  temos que \[\ell'(\theta)
+  =
+  {n\over \theta}  
+  -
+  \sum_{i=1}^n x_i^\alpha.\] Logo, um possível ponto de máximo é
+  \(\theta={n/ \sum_{i=1}^n x_i^\alpha}\). Uma vez que
+  \(\ell''(\theta)=-n/\theta^2 <0\) \(\forall\theta\), concluímos que
+  \(\hat{\theta}_{\mathrm{EMV}}={n/ \sum_{i=1}^n X_i^\alpha}\).
+
+  Tomando a amostra \((5, 7, 9, 7, 5)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\theta}=0.39\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=(\theta\alpha)x^{\alpha-1} e^{-\theta x^\alpha}\),
+  \(x>0\), \(\alpha\) conhecido e parâmetro \(\theta >0\). Considere
+  \[5 \ \ \ 8 \ \ \ 8 \ \ \ 9 \ \ \ 8\] uma amostra observada de \(X\) e
+  seja \(\alpha = 0.5\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(7.60\)
+  \item
+    \(0.03\)
+  \item
+    \(0.36\)
+  \item
+    \(0.08\)
+  \item
+    \(3.45\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \((x_1,\ldots,x_n)\) um valor observado da amostra aleatória.
+  Note que a função de verosimilhança é \[L(\theta)
+  =
+  c\,
+  \theta^n
+  e^{-\theta \sum_{i=1}^n x_i^\alpha},
+  \quad 
+  \text{onde} \ c=\prod_{i=1}^n \alpha x_i^{\alpha-1}.\] Logo, a função
+  log-verosimilhança é dada por \[\ell(\theta)
+  =
+  \ln(c)+n\ln(\theta)
+  -
+  \theta \sum_{i=1}^n x_i^\alpha.\] A ideia é maximizar a função
+  \(\ell(\theta)\). Derivando \(\ell(\theta)\) com respeito a \(\theta\)
+  temos que \[\ell'(\theta)
+  =
+  {n\over \theta}  
+  -
+  \sum_{i=1}^n x_i^\alpha.\] Logo, um possível ponto de máximo é
+  \(\theta={n/ \sum_{i=1}^n x_i^\alpha}\). Uma vez que
+  \(\ell''(\theta)=-n/\theta^2 <0\) \(\forall\theta\), concluímos que
+  \(\hat{\theta}_{\mathrm{EMV}}={n/ \sum_{i=1}^n X_i^\alpha}\).
+
+  Tomando a amostra \((5, 8, 8, 9, 8)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\theta}=0.36\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=(\theta\alpha)x^{\alpha-1} e^{-\theta x^\alpha}\),
+  \(x>0\), \(\alpha\) conhecido e parâmetro \(\theta >0\). Considere
+  \[8 \ \ \ 9 \ \ \ 6 \ \ \ 9 \ \ \ 8\] uma amostra observada de \(X\) e
+  seja \(\alpha = 1\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.12\)
+  \item
+    \(0.24\)
+  \item
+    \(8.00\)
+  \item
+    \(0.03\)
+  \item
+    \(4.30\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \((x_1,\ldots,x_n)\) um valor observado da amostra aleatória.
+  Note que a função de verosimilhança é \[L(\theta)
+  =
+  c\,
+  \theta^n
+  e^{-\theta \sum_{i=1}^n x_i^\alpha},
+  \quad 
+  \text{onde} \ c=\prod_{i=1}^n \alpha x_i^{\alpha-1}.\] Logo, a função
+  log-verosimilhança é dada por \[\ell(\theta)
+  =
+  \ln(c)+n\ln(\theta)
+  -
+  \theta \sum_{i=1}^n x_i^\alpha.\] A ideia é maximizar a função
+  \(\ell(\theta)\). Derivando \(\ell(\theta)\) com respeito a \(\theta\)
+  temos que \[\ell'(\theta)
+  =
+  {n\over \theta}  
+  -
+  \sum_{i=1}^n x_i^\alpha.\] Logo, um possível ponto de máximo é
+  \(\theta={n/ \sum_{i=1}^n x_i^\alpha}\). Uma vez que
+  \(\ell''(\theta)=-n/\theta^2 <0\) \(\forall\theta\), concluímos que
+  \(\hat{\theta}_{\mathrm{EMV}}={n/ \sum_{i=1}^n X_i^\alpha}\).
+
+  Tomando a amostra \((8, 9, 6, 9, 8)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\theta}=0.12\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=(\theta\alpha)x^{\alpha-1} e^{-\theta x^\alpha}\),
+  \(x>0\), \(\alpha\) conhecido e parâmetro \(\theta >0\). Considere
+  \[10 \ \ \ 8 \ \ \ 9 \ \ \ 8 \ \ \ 10\] uma amostra observada de \(X\)
+  e seja \(\alpha = 1\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(9.00\)
+  \item
+    \(9.14\)
+  \item
+    \(0.02\)
+  \item
+    \(0.68\)
+  \item
+    \(0.11\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \((x_1,\ldots,x_n)\) um valor observado da amostra aleatória.
+  Note que a função de verosimilhança é \[L(\theta)
+  =
+  c\,
+  \theta^n
+  e^{-\theta \sum_{i=1}^n x_i^\alpha},
+  \quad 
+  \text{onde} \ c=\prod_{i=1}^n \alpha x_i^{\alpha-1}.\] Logo, a função
+  log-verosimilhança é dada por \[\ell(\theta)
+  =
+  \ln(c)+n\ln(\theta)
+  -
+  \theta \sum_{i=1}^n x_i^\alpha.\] A ideia é maximizar a função
+  \(\ell(\theta)\). Derivando \(\ell(\theta)\) com respeito a \(\theta\)
+  temos que \[\ell'(\theta)
+  =
+  {n\over \theta}  
+  -
+  \sum_{i=1}^n x_i^\alpha.\] Logo, um possível ponto de máximo é
+  \(\theta={n/ \sum_{i=1}^n x_i^\alpha}\). Uma vez que
+  \(\ell''(\theta)=-n/\theta^2 <0\) \(\forall\theta\), concluímos que
+  \(\hat{\theta}_{\mathrm{EMV}}={n/ \sum_{i=1}^n X_i^\alpha}\).
+
+  Tomando a amostra \((10, 8, 9, 8, 10)\), temos que o estimador de
+  máxima verossimilhança desta amostra é \(\hat{\theta}=0.11\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=(\theta\alpha)x^{\alpha-1} e^{-\theta x^\alpha}\),
+  \(x>0\), \(\alpha\) conhecido e parâmetro \(\theta >0\). Considere
+  \[10 \ \ \ 9 \ \ \ 7 \ \ \ 7 \ \ \ 5\] uma amostra observada de \(X\)
+  e seja \(\alpha = 2\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.69\)
+  \item
+    \(0.60\)
+  \item
+    \(7.60\)
+  \item
+    \(0.02\)
+  \item
+    \(0.03\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \((x_1,\ldots,x_n)\) um valor observado da amostra aleatória.
+  Note que a função de verosimilhança é \[L(\theta)
+  =
+  c\,
+  \theta^n
+  e^{-\theta \sum_{i=1}^n x_i^\alpha},
+  \quad 
+  \text{onde} \ c=\prod_{i=1}^n \alpha x_i^{\alpha-1}.\] Logo, a função
+  log-verosimilhança é dada por \[\ell(\theta)
+  =
+  \ln(c)+n\ln(\theta)
+  -
+  \theta \sum_{i=1}^n x_i^\alpha.\] A ideia é maximizar a função
+  \(\ell(\theta)\). Derivando \(\ell(\theta)\) com respeito a \(\theta\)
+  temos que \[\ell'(\theta)
+  =
+  {n\over \theta}  
+  -
+  \sum_{i=1}^n x_i^\alpha.\] Logo, um possível ponto de máximo é
+  \(\theta={n/ \sum_{i=1}^n x_i^\alpha}\). Uma vez que
+  \(\ell''(\theta)=-n/\theta^2 <0\) \(\forall\theta\), concluímos que
+  \(\hat{\theta}_{\mathrm{EMV}}={n/ \sum_{i=1}^n X_i^\alpha}\).
+
+  Tomando a amostra \((10, 9, 7, 7, 5)\), temos que o estimador de
+  máxima verossimilhança desta amostra é \(\hat{\theta}=0.02\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=(\theta\alpha)x^{\alpha-1} e^{-\theta x^\alpha}\),
+  \(x>0\), \(\alpha\) conhecido e parâmetro \(\theta >0\). Considere
+  \[10 \ \ \ 7 \ \ \ 9 \ \ \ 8 \ \ \ 6\] uma amostra observada de \(X\)
+  e seja \(\alpha = 0.5\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8.00\)
+  \item
+    \(7.25\)
+  \item
+    \(0.03\)
+  \item
+    \(0.35\)
+  \item
+    \(0.45\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \((x_1,\ldots,x_n)\) um valor observado da amostra aleatória.
+  Note que a função de verosimilhança é \[L(\theta)
+  =
+  c\,
+  \theta^n
+  e^{-\theta \sum_{i=1}^n x_i^\alpha},
+  \quad 
+  \text{onde} \ c=\prod_{i=1}^n \alpha x_i^{\alpha-1}.\] Logo, a função
+  log-verosimilhança é dada por \[\ell(\theta)
+  =
+  \ln(c)+n\ln(\theta)
+  -
+  \theta \sum_{i=1}^n x_i^\alpha.\] A ideia é maximizar a função
+  \(\ell(\theta)\). Derivando \(\ell(\theta)\) com respeito a \(\theta\)
+  temos que \[\ell'(\theta)
+  =
+  {n\over \theta}  
+  -
+  \sum_{i=1}^n x_i^\alpha.\] Logo, um possível ponto de máximo é
+  \(\theta={n/ \sum_{i=1}^n x_i^\alpha}\). Uma vez que
+  \(\ell''(\theta)=-n/\theta^2 <0\) \(\forall\theta\), concluímos que
+  \(\hat{\theta}_{\mathrm{EMV}}={n/ \sum_{i=1}^n X_i^\alpha}\).
+
+  Tomando a amostra \((10, 7, 9, 8, 6)\), temos que o estimador de
+  máxima verossimilhança desta amostra é \(\hat{\theta}=0.35\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=(\theta\alpha)x^{\alpha-1} e^{-\theta x^\alpha}\),
+  \(x>0\), \(\alpha\) conhecido e parâmetro \(\theta >0\). Considere
+  \[5 \ \ \ 6 \ \ \ 7 \ \ \ 10 \ \ \ 5\] uma amostra observada de \(X\)
+  e seja \(\alpha = 2\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.32\)
+  \item
+    \(0.02\)
+  \item
+    \(0.03\)
+  \item
+    \(0.28\)
+  \item
+    \(6.60\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \((x_1,\ldots,x_n)\) um valor observado da amostra aleatória.
+  Note que a função de verosimilhança é \[L(\theta)
+  =
+  c\,
+  \theta^n
+  e^{-\theta \sum_{i=1}^n x_i^\alpha},
+  \quad 
+  \text{onde} \ c=\prod_{i=1}^n \alpha x_i^{\alpha-1}.\] Logo, a função
+  log-verosimilhança é dada por \[\ell(\theta)
+  =
+  \ln(c)+n\ln(\theta)
+  -
+  \theta \sum_{i=1}^n x_i^\alpha.\] A ideia é maximizar a função
+  \(\ell(\theta)\). Derivando \(\ell(\theta)\) com respeito a \(\theta\)
+  temos que \[\ell'(\theta)
+  =
+  {n\over \theta}  
+  -
+  \sum_{i=1}^n x_i^\alpha.\] Logo, um possível ponto de máximo é
+  \(\theta={n/ \sum_{i=1}^n x_i^\alpha}\). Uma vez que
+  \(\ell''(\theta)=-n/\theta^2 <0\) \(\forall\theta\), concluímos que
+  \(\hat{\theta}_{\mathrm{EMV}}={n/ \sum_{i=1}^n X_i^\alpha}\).
+
+  Tomando a amostra \((5, 6, 7, 10, 5)\), temos que o estimador de
+  máxima verossimilhança desta amostra é \(\hat{\theta}=0.02\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=(\theta\alpha)x^{\alpha-1} e^{-\theta x^\alpha}\),
+  \(x>0\), \(\alpha\) conhecido e parâmetro \(\theta >0\). Considere
+  \[6 \ \ \ 9 \ \ \ 6 \ \ \ 7 \ \ \ 9\] uma amostra observada de \(X\) e
+  seja \(\alpha = 0.5\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.37\)
+  \item
+    \(0.03\)
+  \item
+    \(3.44\)
+  \item
+    \(0.30\)
+  \item
+    \(7.40\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \((x_1,\ldots,x_n)\) um valor observado da amostra aleatória.
+  Note que a função de verosimilhança é \[L(\theta)
+  =
+  c\,
+  \theta^n
+  e^{-\theta \sum_{i=1}^n x_i^\alpha},
+  \quad 
+  \text{onde} \ c=\prod_{i=1}^n \alpha x_i^{\alpha-1}.\] Logo, a função
+  log-verosimilhança é dada por \[\ell(\theta)
+  =
+  \ln(c)+n\ln(\theta)
+  -
+  \theta \sum_{i=1}^n x_i^\alpha.\] A ideia é maximizar a função
+  \(\ell(\theta)\). Derivando \(\ell(\theta)\) com respeito a \(\theta\)
+  temos que \[\ell'(\theta)
+  =
+  {n\over \theta}  
+  -
+  \sum_{i=1}^n x_i^\alpha.\] Logo, um possível ponto de máximo é
+  \(\theta={n/ \sum_{i=1}^n x_i^\alpha}\). Uma vez que
+  \(\ell''(\theta)=-n/\theta^2 <0\) \(\forall\theta\), concluímos que
+  \(\hat{\theta}_{\mathrm{EMV}}={n/ \sum_{i=1}^n X_i^\alpha}\).
+
+  Tomando a amostra \((6, 9, 6, 7, 9)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\theta}=0.37\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=(\theta\alpha)x^{\alpha-1} e^{-\theta x^\alpha}\),
+  \(x>0\), \(\alpha\) conhecido e parâmetro \(\theta >0\). Considere
+  \[6 \ \ \ 9 \ \ \ 9 \ \ \ 10 \ \ \ 9\] uma amostra observada de \(X\)
+  e seja \(\alpha = 2\). Assinale a alternativa correspondente à
+  estimativa de máxima verossimilhança para \(\theta\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.92\)
+  \item
+    \(8.60\)
+  \item
+    \(0.01\)
+  \item
+    \(5.47\)
+  \item
+    \(0.02\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \((x_1,\ldots,x_n)\) um valor observado da amostra aleatória.
+  Note que a função de verosimilhança é \[L(\theta)
+  =
+  c\,
+  \theta^n
+  e^{-\theta \sum_{i=1}^n x_i^\alpha},
+  \quad 
+  \text{onde} \ c=\prod_{i=1}^n \alpha x_i^{\alpha-1}.\] Logo, a função
+  log-verosimilhança é dada por \[\ell(\theta)
+  =
+  \ln(c)+n\ln(\theta)
+  -
+  \theta \sum_{i=1}^n x_i^\alpha.\] A ideia é maximizar a função
+  \(\ell(\theta)\). Derivando \(\ell(\theta)\) com respeito a \(\theta\)
+  temos que \[\ell'(\theta)
+  =
+  {n\over \theta}  
+  -
+  \sum_{i=1}^n x_i^\alpha.\] Logo, um possível ponto de máximo é
+  \(\theta={n/ \sum_{i=1}^n x_i^\alpha}\). Uma vez que
+  \(\ell''(\theta)=-n/\theta^2 <0\) \(\forall\theta\), concluímos que
+  \(\hat{\theta}_{\mathrm{EMV}}={n/ \sum_{i=1}^n X_i^\alpha}\).
+
+  Tomando a amostra \((6, 9, 9, 10, 9)\), temos que o estimador de
+  máxima verossimilhança desta amostra é \(\hat{\theta}=0.01\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

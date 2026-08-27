@@ -1,0 +1,492 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre pinheiros plantados em uma mesma época do ano numa
+  área de reflorestamento foi medido o diâmetro de \(25\) árvores a 135
+  cm do solo. Obteve-se o valor médio de \(43.59\) cm. Sabe-se, de
+  estudos anteriores, que o desvio-padrão do diâmetro de árvores da
+  mesma espécie com a mesma idade é igual a \(9.26\) cm. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o diâmetro médio em toda a área plantada com \(90\)\%
+  de confiança. Assuma que o diâmetro das árvores segue uma distribuição
+  Normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([40.421, 46.759]\)
+  \item
+    \([40.553, 46.627]\)
+  \item
+    \([42.956, 44.224]\)
+  \item
+    \([42.983, 44.197]\)
+  \item
+    \([42.811, 44.369]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[43.59-1.64\times\frac{9.26}{\sqrt{25}} \ , \ 43.59+1.64\times\frac{9.26}{\sqrt{25}}\right]\\
+  &=&\text{$[40.553, 46.627]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre pinheiros plantados em uma mesma época do ano numa
+  área de reflorestamento foi medido o diâmetro de \(27\) árvores a 135
+  cm do solo. Obteve-se o valor médio de \(46.2\) cm. Sabe-se, de
+  estudos anteriores, que o desvio-padrão do diâmetro de árvores da
+  mesma espécie com a mesma idade é igual a \(7.65\) cm. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o diâmetro médio em toda a área plantada com \(99\)\%
+  de confiança. Assuma que o diâmetro das árvores segue uma distribuição
+  Normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([45.469, 46.931]\)
+  \item
+    \([42.402, 49.998]\)
+  \item
+    \([45.413, 46.987]\)
+  \item
+    \([42.109, 50.291]\)
+  \item
+    \([44.960, 47.440]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[46.2-2.58\times\frac{7.65}{\sqrt{27}} \ , \ 46.2+2.58\times\frac{7.65}{\sqrt{27}}\right]\\
+  &=&\text{$[42.402, 49.998]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre pinheiros plantados em uma mesma época do ano numa
+  área de reflorestamento foi medido o diâmetro de \(25\) árvores a 135
+  cm do solo. Obteve-se o valor médio de \(45.56\) cm. Sabe-se, de
+  estudos anteriores, que o desvio-padrão do diâmetro de árvores da
+  mesma espécie com a mesma idade é igual a \(7.52\) cm. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o diâmetro médio em toda a área plantada com \(95\)\%
+  de confiança. Assuma que o diâmetro das árvores segue uma distribuição
+  Normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([44.970, 46.150]\)
+  \item
+    \([42.456, 48.664]\)
+  \item
+    \([42.612, 48.508]\)
+  \item
+    \([44.939, 46.181]\)
+  \item
+    \([44.661, 46.459]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[45.56-1.96\times\frac{7.52}{\sqrt{25}} \ , \ 45.56+1.96\times\frac{7.52}{\sqrt{25}}\right]\\
+  &=&\text{$[42.612, 48.508]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre pinheiros plantados em uma mesma época do ano numa
+  área de reflorestamento foi medido o diâmetro de \(26\) árvores a 135
+  cm do solo. Obteve-se o valor médio de \(48.44\) cm. Sabe-se, de
+  estudos anteriores, que o desvio-padrão do diâmetro de árvores da
+  mesma espécie com a mesma idade é igual a \(9.2\) cm. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o diâmetro médio em toda a área plantada com \(99\)\%
+  de confiança. Assuma que o diâmetro das árvores segue uma distribuição
+  Normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([43.785, 53.095]\)
+  \item
+    \([43.411, 53.469]\)
+  \item
+    \([47.454, 49.426]\)
+  \item
+    \([47.054, 49.826]\)
+  \item
+    \([47.527, 49.353]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[48.44-2.58\times\frac{9.2}{\sqrt{26}} \ , \ 48.44+2.58\times\frac{9.2}{\sqrt{26}}\right]\\
+  &=&\text{$[43.785, 53.095]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre pinheiros plantados em uma mesma época do ano numa
+  área de reflorestamento foi medido o diâmetro de \(26\) árvores a 135
+  cm do solo. Obteve-se o valor médio de \(47.1\) cm. Sabe-se, de
+  estudos anteriores, que o desvio-padrão do diâmetro de árvores da
+  mesma espécie com a mesma idade é igual a \(9.43\) cm. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o diâmetro médio em toda a área plantada com \(99\)\%
+  de confiança. Assuma que o diâmetro das árvores segue uma distribuição
+  Normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([42.329, 51.871]\)
+  \item
+    \([46.089, 48.111]\)
+  \item
+    \([41.945, 52.255]\)
+  \item
+    \([45.697, 48.503]\)
+  \item
+    \([46.164, 48.036]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[47.1-2.58\times\frac{9.43}{\sqrt{26}} \ , \ 47.1+2.58\times\frac{9.43}{\sqrt{26}}\right]\\
+  &=&\text{$[42.329, 51.871]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre pinheiros plantados em uma mesma época do ano numa
+  área de reflorestamento foi medido o diâmetro de \(30\) árvores a 135
+  cm do solo. Obteve-se o valor médio de \(48.48\) cm. Sabe-se, de
+  estudos anteriores, que o desvio-padrão do diâmetro de árvores da
+  mesma espécie com a mesma idade é igual a \(8.01\) cm. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o diâmetro médio em toda a área plantada com \(95\)\%
+  de confiança. Assuma que o diâmetro das árvores segue uma distribuição
+  Normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([45.614, 51.346]\)
+  \item
+    \([45.489, 51.471]\)
+  \item
+    \([47.934, 49.026]\)
+  \item
+    \([47.957, 49.003]\)
+  \item
+    \([47.633, 49.327]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[48.48-1.96\times\frac{8.01}{\sqrt{30}} \ , \ 48.48+1.96\times\frac{8.01}{\sqrt{30}}\right]\\
+  &=&\text{$[45.614, 51.346]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre pinheiros plantados em uma mesma época do ano numa
+  área de reflorestamento foi medido o diâmetro de \(28\) árvores a 135
+  cm do solo. Obteve-se o valor médio de \(47.2\) cm. Sabe-se, de
+  estudos anteriores, que o desvio-padrão do diâmetro de árvores da
+  mesma espécie com a mesma idade é igual a \(8.55\) cm. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o diâmetro médio em toda a área plantada com \(90\)\%
+  de confiança. Assuma que o diâmetro das árvores segue uma distribuição
+  Normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([44.550, 49.850]\)
+  \item
+    \([46.493, 47.907]\)
+  \item
+    \([46.699, 47.701]\)
+  \item
+    \([46.680, 47.720]\)
+  \item
+    \([44.448, 49.952]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[47.2-1.64\times\frac{8.55}{\sqrt{28}} \ , \ 47.2+1.64\times\frac{8.55}{\sqrt{28}}\right]\\
+  &=&\text{$[44.550, 49.850]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre pinheiros plantados em uma mesma época do ano numa
+  área de reflorestamento foi medido o diâmetro de \(28\) árvores a 135
+  cm do solo. Obteve-se o valor médio de \(46.19\) cm. Sabe-se, de
+  estudos anteriores, que o desvio-padrão do diâmetro de árvores da
+  mesma espécie com a mesma idade é igual a \(8.79\) cm. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o diâmetro médio em toda a área plantada com \(95\)\%
+  de confiança. Assuma que o diâmetro das árvores segue uma distribuição
+  Normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([45.271, 47.109]\)
+  \item
+    \([45.546, 46.834]\)
+  \item
+    \([42.934, 49.446]\)
+  \item
+    \([45.575, 46.805]\)
+  \item
+    \([42.782, 49.598]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[46.19-1.96\times\frac{8.79}{\sqrt{28}} \ , \ 46.19+1.96\times\frac{8.79}{\sqrt{28}}\right]\\
+  &=&\text{$[42.934, 49.446]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre pinheiros plantados em uma mesma época do ano numa
+  área de reflorestamento foi medido o diâmetro de \(28\) árvores a 135
+  cm do solo. Obteve-se o valor médio de \(42.24\) cm. Sabe-se, de
+  estudos anteriores, que o desvio-padrão do diâmetro de árvores da
+  mesma espécie com a mesma idade é igual a \(8.41\) cm. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o diâmetro médio em toda a área plantada com \(99\)\%
+  de confiança. Assuma que o diâmetro das árvores segue uma distribuição
+  Normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([41.408, 43.072]\)
+  \item
+    \([41.465, 43.015]\)
+  \item
+    \([38.140, 46.340]\)
+  \item
+    \([40.963, 43.517]\)
+  \item
+    \([37.836, 46.644]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[42.24-2.58\times\frac{8.41}{\sqrt{28}} \ , \ 42.24+2.58\times\frac{8.41}{\sqrt{28}}\right]\\
+  &=&\text{$[38.140, 46.340]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre pinheiros plantados em uma mesma época do ano numa
+  área de reflorestamento foi medido o diâmetro de \(26\) árvores a 135
+  cm do solo. Obteve-se o valor médio de \(41.72\) cm. Sabe-se, de
+  estudos anteriores, que o desvio-padrão do diâmetro de árvores da
+  mesma espécie com a mesma idade é igual a \(8.31\) cm. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o diâmetro médio em toda a área plantada com \(95\)\%
+  de confiança. Assuma que o diâmetro das árvores segue uma distribuição
+  Normal.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([41.094, 42.346]\)
+  \item
+    \([40.793, 42.647]\)
+  \item
+    \([38.364, 45.076]\)
+  \item
+    \([41.062, 42.378]\)
+  \item
+    \([38.526, 44.914]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[41.72-1.96\times\frac{8.31}{\sqrt{26}} \ , \ 41.72+1.96\times\frac{8.31}{\sqrt{26}}\right]\\
+  &=&\text{$[38.526, 44.914]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que há \(12\) meninas e \(14\) meninos em um determinado
+  grupo de estudantes. Uma amostra de \(5\) pessoas é escolhida
+  aleatoriamente, sem reposição, nesse grupo. Seja \(X\) a variável
+  aleatória igual ao número de meninas nessa amostra. A probabilidade de
+  ter pelo menos uma menina na amostra é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.006\)
+  \item
+    \(0.980\)
+  \item
+    \(0.970\)
+  \item
+    \(0.183\)
+  \item
+    \(0.817\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)26\(,\)12\(,\)5\()\). Daí, temos que
+  \[p(X=x) = \frac{\binom{12}{x}\binom{14}{5-x}}{\binom{26}{5}}.\]
+
+  A probabilidade desejada é, portanto, dada por
+  \[P(X \geq 1) = 1-P(X \leq 0) = 1 - (0.03) = 0.97.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que há \(13\) meninas e \(15\) meninos em um determinado
+  grupo de estudantes. Uma amostra de \(3\) pessoas é escolhida
+  aleatoriamente, sem reposição, nesse grupo. Seja \(X\) a variável
+  aleatória igual ao número de meninas nessa amostra. A probabilidade de
+  ter pelo menos duas meninas na amostra é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.004\)
+  \item
+    \(0.643\)
+  \item
+    \(0.800\)
+  \item
+    \(0.357\)
+  \item
+    \(0.444\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)28\(,\)13\(,\)3\()\). Daí, temos que
+  \[p(X=x) = \frac{\binom{13}{x}\binom{15}{3-x}}{\binom{28}{3}}.\]
+
+  A probabilidade desejada é, portanto, dada por
+  \[P(X \geq 2) = 1-P(X \leq 1) = 1 - (0.139+0.417) = 0.444.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que há \(15\) meninas e \(14\) meninos em um determinado
+  grupo de estudantes. Uma amostra de \(3\) pessoas é escolhida
+  aleatoriamente, sem reposição, nesse grupo. Seja \(X\) a variável
+  aleatória igual ao número de meninas nessa amostra. A probabilidade de
+  ter pelo menos duas meninas na amostra é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.004\)
+  \item
+    \(0.527\)
+  \item
+    \(0.402\)
+  \item
+    \(0.210\)
+  \item
+    \(0.598\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)29\(,\)15\(,\)3\()\). Daí, temos que
+  \[p(X=x) = \frac{\binom{15}{x}\binom{14}{3-x}}{\binom{29}{3}}.\]
+
+  A probabilidade desejada é, portanto, dada por
+  \[P(X \geq 2) = 1-P(X \leq 1) = 1 - (0.1+0.374) = 0.527.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que há \(15\) meninas e \(12\) meninos em um determinado
+  grupo de estudantes. Uma amostra de \(3\) pessoas é escolhida
+  aleatoriamente, sem reposição, nesse grupo. Seja \(X\) a variável
+  aleatória igual ao número de meninas nessa amostra. A probabilidade de
+  ter pelo menos uma menina na amostra é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.662\)
+  \item
+    \(0.338\)
+  \item
+    \(0.925\)
+  \item
+    \(0.004\)
+  \item
+    \(0.680\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)27\(,\)15\(,\)3\()\). Daí, temos que
+  \[p(X=x) = \frac{\binom{15}{x}\binom{12}{3-x}}{\binom{27}{3}}.\]
+
+  A probabilidade desejada é, portanto, dada por
+  \[P(X \geq 1) = 1-P(X \leq 0) = 1 - (0.075) = 0.925.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que há \(13\) meninas e \(12\) meninos em um determinado
+  grupo de estudantes. Uma amostra de \(5\) pessoas é escolhida
+  aleatoriamente, sem reposição, nesse grupo. Seja \(X\) a variável
+  aleatória igual ao número de meninas nessa amostra. A probabilidade de
+  ter pelo menos duas meninas na amostra é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.100\)
+  \item
+    \(0.323\)
+  \item
+    \(0.677\)
+  \item
+    \(0.864\)
+  \item
+    \(0.016\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)25\(,\)13\(,\)5\()\). Daí, temos que
+  \[p(X=x) = \frac{\binom{13}{x}\binom{12}{5-x}}{\binom{25}{5}}.\]
+
+  A probabilidade desejada é, portanto, dada por
+  \[P(X \geq 2) = 1-P(X \leq 1) = 1 - (0.015+0.121) = 0.864.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que há \(12\) meninas e \(14\) meninos em um determinado
+  grupo de estudantes. Uma amostra de \(5\) pessoas é escolhida
+  aleatoriamente, sem reposição, nesse grupo. Seja \(X\) a variável
+  aleatória igual ao número de meninas nessa amostra. A probabilidade de
+  ter pelo menos uma menina na amostra é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.006\)
+  \item
+    \(0.260\)
+  \item
+    \(0.970\)
+  \item
+    \(0.817\)
+  \item
+    \(0.183\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)26\(,\)12\(,\)5\()\). Daí, temos que
+  \[p(X=x) = \frac{\binom{12}{x}\binom{14}{5-x}}{\binom{26}{5}}.\]
+
+  A probabilidade desejada é, portanto, dada por
+  \[P(X \geq 1) = 1-P(X \leq 0) = 1 - (0.03) = 0.97.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que há \(12\) meninas e \(14\) meninos em um determinado
+  grupo de estudantes. Uma amostra de \(5\) pessoas é escolhida
+  aleatoriamente, sem reposição, nesse grupo. Seja \(X\) a variável
+  aleatória igual ao número de meninas nessa amostra. A probabilidade de
+  ter pelo menos duas meninas na amostra é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.017\)
+  \item
+    \(0.365\)
+  \item
+    \(0.635\)
+  \item
+    \(0.900\)
+  \item
+    \(0.787\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)26\(,\)12\(,\)5\()\). Daí, temos que
+  \[p(X=x) = \frac{\binom{12}{x}\binom{14}{5-x}}{\binom{26}{5}}.\]
+
+  A probabilidade desejada é, portanto, dada por
+  \[P(X \geq 2) = 1-P(X \leq 1) = 1 - (0.03+0.183) = 0.787.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que há \(12\) meninas e \(14\) meninos em um determinado
+  grupo de estudantes. Uma amostra de \(3\) pessoas é escolhida
+  aleatoriamente, sem reposição, nesse grupo. Seja \(X\) a variável
+  aleatória igual ao número de meninas nessa amostra. A probabilidade de
+  ter pelo menos uma menina na amostra é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.005\)
+  \item
+    \(0.420\)
+  \item
+    \(0.850\)
+  \item
+    \(0.860\)
+  \item
+    \(0.580\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)26\(,\)12\(,\)3\()\). Daí, temos que
+  \[p(X=x) = \frac{\binom{12}{x}\binom{14}{3-x}}{\binom{26}{3}}.\]
+
+  A probabilidade desejada é, portanto, dada por
+  \[P(X \geq 1) = 1-P(X \leq 0) = 1 - (0.14) = 0.86.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que há \(13\) meninas e \(15\) meninos em um determinado
+  grupo de estudantes. Uma amostra de \(3\) pessoas é escolhida
+  aleatoriamente, sem reposição, nesse grupo. Seja \(X\) a variável
+  aleatória igual ao número de meninas nessa amostra. A probabilidade de
+  ter pelo menos duas meninas na amostra é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.643\)
+  \item
+    \(0.140\)
+  \item
+    \(0.004\)
+  \item
+    \(0.357\)
+  \item
+    \(0.444\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)28\(,\)13\(,\)3\()\). Daí, temos que
+  \[p(X=x) = \frac{\binom{13}{x}\binom{15}{3-x}}{\binom{28}{3}}.\]
+
+  A probabilidade desejada é, portanto, dada por
+  \[P(X \geq 2) = 1-P(X \leq 1) = 1 - (0.139+0.417) = 0.444.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere que há \(12\) meninas e \(13\) meninos em um determinado
+  grupo de estudantes. Uma amostra de \(5\) pessoas é escolhida
+  aleatoriamente, sem reposição, nesse grupo. Seja \(X\) a variável
+  aleatória igual ao número de meninas nessa amostra. A probabilidade de
+  ter pelo menos uma menina na amostra é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.839\)
+  \item
+    \(0.161\)
+  \item
+    \(0.005\)
+  \item
+    \(0.976\)
+  \item
+    \(0.160\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que, nesse contexto,
+  \(X \sim \text{Hiper}(\)25\(,\)12\(,\)5\()\). Daí, temos que
+  \[p(X=x) = \frac{\binom{12}{x}\binom{13}{5-x}}{\binom{25}{5}}.\]
+
+  A probabilidade desejada é, portanto, dada por
+  \[P(X \geq 1) = 1-P(X \leq 0) = 1 - (0.024) = 0.976.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

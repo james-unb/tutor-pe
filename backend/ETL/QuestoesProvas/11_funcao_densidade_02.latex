@@ -1,0 +1,572 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória continua cuja função de densidade é
+  dada por \[f_X(x) = \left\{
+  \begin{array}{ll}
+    0,                  & \mbox{se}\, \ \ x <1; \\
+    \frac{\sqrt{x}}{c}, & \mbox{se}\, \ \ 1 \leq x < 2; \\ 
+    0.031 \exp(x), & \mbox{se}\, \ \ 2 \leq x < 3; \\
+    0,                  & \mbox{se}\, \ \ x \geq 3, \\
+  \end{array}
+  \right. \nonumber\] onde \(c\) é uma constante real. Qual é o valor de
+  P(\(X > 1.7\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.594\)
+  \item
+    \(0.609\)
+  \item
+    \(0.391\)
+  \item
+    \(0.500\)
+  \item
+    \(0.406\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade da variável aleatória em questão apenas existe
+  se \(c=2\).\\
+  Tal valor pode ser encontrado notando-se que
+  \[\int_2^3 0.031 \exp(x) dx = 0.031 \exp(x) \Big\rvert_2^3 = 0.031 (\exp(3)-\exp(2)) = 0.394\]
+  e, portanto,
+  \[\int_1^2 \frac{\sqrt{x}}{c} dx = \frac{2x^{3/2}}{3 c} \Big\rvert_1^2 = 0.606 \\
+  \Rightarrow c = 2\]
+
+  Assim, temos que \[\begin{aligned}
+    P(X > 1.7) & = 1 - P(X \leq 1.7) \\
+    & = 1 - F_X(1.7) = 1 - \int_1^{1.7} \frac{\sqrt{x}}{c} dx \\
+    & = 1 - \frac{2x^{3/2}}{3 c} \Big\rvert_1^{1.7} \\
+    & = 1 - 0.406 =
+    0.594.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória continua cuja função de densidade é
+  dada por \[f_X(x) = \left\{
+  \begin{array}{ll}
+    0,                  & \mbox{se}\, \ \ x <1; \\
+    \frac{\sqrt{x}}{c}, & \mbox{se}\, \ \ 1 \leq x < 2; \\ 
+    0.031 \exp(x), & \mbox{se}\, \ \ 2 \leq x < 3; \\
+    0,                  & \mbox{se}\, \ \ x \geq 3, \\
+  \end{array}
+  \right. \nonumber\] onde \(c\) é uma constante real. Qual é o valor de
+  P(\(X > 1.4\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.500\)
+  \item
+    \(0.391\)
+  \item
+    \(0.609\)
+  \item
+    \(0.781\)
+  \item
+    \(0.219\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade da variável aleatória em questão apenas existe
+  se \(c=2\).\\
+  Tal valor pode ser encontrado notando-se que
+  \[\int_2^3 0.031 \exp(x) dx = 0.031 \exp(x) \Big\rvert_2^3 = 0.031 (\exp(3)-\exp(2)) = 0.394\]
+  e, portanto,
+  \[\int_1^2 \frac{\sqrt{x}}{c} dx = \frac{2x^{3/2}}{3 c} \Big\rvert_1^2 = 0.606 \\
+  \Rightarrow c = 2\]
+
+  Assim, temos que \[\begin{aligned}
+    P(X > 1.4) & = 1 - P(X \leq 1.4) \\
+    & = 1 - F_X(1.4) = 1 - \int_1^{1.4} \frac{\sqrt{x}}{c} dx \\
+    & = 1 - \frac{2x^{3/2}}{3 c} \Big\rvert_1^{1.4} \\
+    & = 1 - 0.219 =
+    0.781.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória continua cuja função de densidade é
+  dada por \[f_X(x) = \left\{
+  \begin{array}{ll}
+    0,                  & \mbox{se}\, \ \ x <1; \\
+    \frac{\sqrt{x}}{c}, & \mbox{se}\, \ \ 1 \leq x < 2; \\ 
+    0.031 \exp(x), & \mbox{se}\, \ \ 2 \leq x < 3; \\
+    0,                  & \mbox{se}\, \ \ x \geq 3, \\
+  \end{array}
+  \right. \nonumber\] onde \(c\) é uma constante real. Qual é o valor de
+  P(\(X > 1.2\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.500\)
+  \item
+    \(0.895\)
+  \item
+    \(0.391\)
+  \item
+    \(0.105\)
+  \item
+    \(0.609\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade da variável aleatória em questão apenas existe
+  se \(c=2\).\\
+  Tal valor pode ser encontrado notando-se que
+  \[\int_2^3 0.031 \exp(x) dx = 0.031 \exp(x) \Big\rvert_2^3 = 0.031 (\exp(3)-\exp(2)) = 0.394\]
+  e, portanto,
+  \[\int_1^2 \frac{\sqrt{x}}{c} dx = \frac{2x^{3/2}}{3 c} \Big\rvert_1^2 = 0.606 \\
+  \Rightarrow c = 2\]
+
+  Assim, temos que \[\begin{aligned}
+    P(X > 1.2) & = 1 - P(X \leq 1.2) \\
+    & = 1 - F_X(1.2) = 1 - \int_1^{1.2} \frac{\sqrt{x}}{c} dx \\
+    & = 1 - \frac{2x^{3/2}}{3 c} \Big\rvert_1^{1.2} \\
+    & = 1 - 0.105 =
+    0.895.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória continua cuja função de densidade é
+  dada por \[f_X(x) = \left\{
+  \begin{array}{ll}
+    0,                  & \mbox{se}\, \ \ x <1; \\
+    \frac{\sqrt{x}}{c}, & \mbox{se}\, \ \ 1 \leq x < 2; \\ 
+    0.031 \exp(x), & \mbox{se}\, \ \ 2 \leq x < 3; \\
+    0,                  & \mbox{se}\, \ \ x \geq 3, \\
+  \end{array}
+  \right. \nonumber\] onde \(c\) é uma constante real. Qual é o valor de
+  P(\(X > 1.9\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.391\)
+  \item
+    \(0.540\)
+  \item
+    \(0.460\)
+  \item
+    \(0.500\)
+  \item
+    \(0.609\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade da variável aleatória em questão apenas existe
+  se \(c=2\).\\
+  Tal valor pode ser encontrado notando-se que
+  \[\int_2^3 0.031 \exp(x) dx = 0.031 \exp(x) \Big\rvert_2^3 = 0.031 (\exp(3)-\exp(2)) = 0.394\]
+  e, portanto,
+  \[\int_1^2 \frac{\sqrt{x}}{c} dx = \frac{2x^{3/2}}{3 c} \Big\rvert_1^2 = 0.606 \\
+  \Rightarrow c = 2\]
+
+  Assim, temos que \[\begin{aligned}
+    P(X > 1.9) & = 1 - P(X \leq 1.9) \\
+    & = 1 - F_X(1.9) = 1 - \int_1^{1.9} \frac{\sqrt{x}}{c} dx \\
+    & = 1 - \frac{2x^{3/2}}{3 c} \Big\rvert_1^{1.9} \\
+    & = 1 - 0.54 =
+    0.46.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória continua cuja função de densidade é
+  dada por \[f_X(x) = \left\{
+  \begin{array}{ll}
+    0,                  & \mbox{se}\, \ \ x <1; \\
+    \frac{\sqrt{x}}{c}, & \mbox{se}\, \ \ 1 \leq x < 2; \\ 
+    0.031 \exp(x), & \mbox{se}\, \ \ 2 \leq x < 3; \\
+    0,                  & \mbox{se}\, \ \ x \geq 3, \\
+  \end{array}
+  \right. \nonumber\] onde \(c\) é uma constante real. Qual é o valor de
+  P(\(X > 1.5\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.279\)
+  \item
+    \(0.391\)
+  \item
+    \(0.500\)
+  \item
+    \(0.609\)
+  \item
+    \(0.721\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade da variável aleatória em questão apenas existe
+  se \(c=2\).\\
+  Tal valor pode ser encontrado notando-se que
+  \[\int_2^3 0.031 \exp(x) dx = 0.031 \exp(x) \Big\rvert_2^3 = 0.031 (\exp(3)-\exp(2)) = 0.394\]
+  e, portanto,
+  \[\int_1^2 \frac{\sqrt{x}}{c} dx = \frac{2x^{3/2}}{3 c} \Big\rvert_1^2 = 0.606 \\
+  \Rightarrow c = 2\]
+
+  Assim, temos que \[\begin{aligned}
+    P(X > 1.5) & = 1 - P(X \leq 1.5) \\
+    & = 1 - F_X(1.5) = 1 - \int_1^{1.5} \frac{\sqrt{x}}{c} dx \\
+    & = 1 - \frac{2x^{3/2}}{3 c} \Big\rvert_1^{1.5} \\
+    & = 1 - 0.279 =
+    0.721.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória continua cuja função de densidade é
+  dada por \[f_X(x) = \left\{
+  \begin{array}{ll}
+    0,                  & \mbox{se}\, \ \ x <1; \\
+    \frac{\sqrt{x}}{c}, & \mbox{se}\, \ \ 1 \leq x < 2; \\ 
+    0.031 \exp(x), & \mbox{se}\, \ \ 2 \leq x < 3; \\
+    0,                  & \mbox{se}\, \ \ x \geq 3, \\
+  \end{array}
+  \right. \nonumber\] onde \(c\) é uma constante real. Qual é o valor de
+  P(\(X > 1.4\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.391\)
+  \item
+    \(0.609\)
+  \item
+    \(0.219\)
+  \item
+    \(0.500\)
+  \item
+    \(0.781\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade da variável aleatória em questão apenas existe
+  se \(c=2\).\\
+  Tal valor pode ser encontrado notando-se que
+  \[\int_2^3 0.031 \exp(x) dx = 0.031 \exp(x) \Big\rvert_2^3 = 0.031 (\exp(3)-\exp(2)) = 0.394\]
+  e, portanto,
+  \[\int_1^2 \frac{\sqrt{x}}{c} dx = \frac{2x^{3/2}}{3 c} \Big\rvert_1^2 = 0.606 \\
+  \Rightarrow c = 2\]
+
+  Assim, temos que \[\begin{aligned}
+    P(X > 1.4) & = 1 - P(X \leq 1.4) \\
+    & = 1 - F_X(1.4) = 1 - \int_1^{1.4} \frac{\sqrt{x}}{c} dx \\
+    & = 1 - \frac{2x^{3/2}}{3 c} \Big\rvert_1^{1.4} \\
+    & = 1 - 0.219 =
+    0.781.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória continua cuja função de densidade é
+  dada por \[f_X(x) = \left\{
+  \begin{array}{ll}
+    0,                  & \mbox{se}\, \ \ x <1; \\
+    \frac{\sqrt{x}}{c}, & \mbox{se}\, \ \ 1 \leq x < 2; \\ 
+    0.031 \exp(x), & \mbox{se}\, \ \ 2 \leq x < 3; \\
+    0,                  & \mbox{se}\, \ \ x \geq 3, \\
+  \end{array}
+  \right. \nonumber\] onde \(c\) é uma constante real. Qual é o valor de
+  P(\(X > 1.5\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.500\)
+  \item
+    \(0.279\)
+  \item
+    \(0.391\)
+  \item
+    \(0.609\)
+  \item
+    \(0.721\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade da variável aleatória em questão apenas existe
+  se \(c=2\).\\
+  Tal valor pode ser encontrado notando-se que
+  \[\int_2^3 0.031 \exp(x) dx = 0.031 \exp(x) \Big\rvert_2^3 = 0.031 (\exp(3)-\exp(2)) = 0.394\]
+  e, portanto,
+  \[\int_1^2 \frac{\sqrt{x}}{c} dx = \frac{2x^{3/2}}{3 c} \Big\rvert_1^2 = 0.606 \\
+  \Rightarrow c = 2\]
+
+  Assim, temos que \[\begin{aligned}
+    P(X > 1.5) & = 1 - P(X \leq 1.5) \\
+    & = 1 - F_X(1.5) = 1 - \int_1^{1.5} \frac{\sqrt{x}}{c} dx \\
+    & = 1 - \frac{2x^{3/2}}{3 c} \Big\rvert_1^{1.5} \\
+    & = 1 - 0.279 =
+    0.721.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória continua cuja função de densidade é
+  dada por \[f_X(x) = \left\{
+  \begin{array}{ll}
+    0,                  & \mbox{se}\, \ \ x <1; \\
+    \frac{\sqrt{x}}{c}, & \mbox{se}\, \ \ 1 \leq x < 2; \\ 
+    0.031 \exp(x), & \mbox{se}\, \ \ 2 \leq x < 3; \\
+    0,                  & \mbox{se}\, \ \ x \geq 3, \\
+  \end{array}
+  \right. \nonumber\] onde \(c\) é uma constante real. Qual é o valor de
+  P(\(X > 1.7\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.391\)
+  \item
+    \(0.594\)
+  \item
+    \(0.406\)
+  \item
+    \(0.500\)
+  \item
+    \(0.609\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade da variável aleatória em questão apenas existe
+  se \(c=2\).\\
+  Tal valor pode ser encontrado notando-se que
+  \[\int_2^3 0.031 \exp(x) dx = 0.031 \exp(x) \Big\rvert_2^3 = 0.031 (\exp(3)-\exp(2)) = 0.394\]
+  e, portanto,
+  \[\int_1^2 \frac{\sqrt{x}}{c} dx = \frac{2x^{3/2}}{3 c} \Big\rvert_1^2 = 0.606 \\
+  \Rightarrow c = 2\]
+
+  Assim, temos que \[\begin{aligned}
+    P(X > 1.7) & = 1 - P(X \leq 1.7) \\
+    & = 1 - F_X(1.7) = 1 - \int_1^{1.7} \frac{\sqrt{x}}{c} dx \\
+    & = 1 - \frac{2x^{3/2}}{3 c} \Big\rvert_1^{1.7} \\
+    & = 1 - 0.406 =
+    0.594.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória continua cuja função de densidade é
+  dada por \[f_X(x) = \left\{
+  \begin{array}{ll}
+    0,                  & \mbox{se}\, \ \ x <1; \\
+    \frac{\sqrt{x}}{c}, & \mbox{se}\, \ \ 1 \leq x < 2; \\ 
+    0.031 \exp(x), & \mbox{se}\, \ \ 2 \leq x < 3; \\
+    0,                  & \mbox{se}\, \ \ x \geq 3, \\
+  \end{array}
+  \right. \nonumber\] onde \(c\) é uma constante real. Qual é o valor de
+  P(\(X > 1.2\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.609\)
+  \item
+    \(0.895\)
+  \item
+    \(0.391\)
+  \item
+    \(0.105\)
+  \item
+    \(0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade da variável aleatória em questão apenas existe
+  se \(c=2\).\\
+  Tal valor pode ser encontrado notando-se que
+  \[\int_2^3 0.031 \exp(x) dx = 0.031 \exp(x) \Big\rvert_2^3 = 0.031 (\exp(3)-\exp(2)) = 0.394\]
+  e, portanto,
+  \[\int_1^2 \frac{\sqrt{x}}{c} dx = \frac{2x^{3/2}}{3 c} \Big\rvert_1^2 = 0.606 \\
+  \Rightarrow c = 2\]
+
+  Assim, temos que \[\begin{aligned}
+    P(X > 1.2) & = 1 - P(X \leq 1.2) \\
+    & = 1 - F_X(1.2) = 1 - \int_1^{1.2} \frac{\sqrt{x}}{c} dx \\
+    & = 1 - \frac{2x^{3/2}}{3 c} \Big\rvert_1^{1.2} \\
+    & = 1 - 0.105 =
+    0.895.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória continua cuja função de densidade é
+  dada por \[f_X(x) = \left\{
+  \begin{array}{ll}
+    0,                  & \mbox{se}\, \ \ x <1; \\
+    \frac{\sqrt{x}}{c}, & \mbox{se}\, \ \ 1 \leq x < 2; \\ 
+    0.031 \exp(x), & \mbox{se}\, \ \ 2 \leq x < 3; \\
+    0,                  & \mbox{se}\, \ \ x \geq 3, \\
+  \end{array}
+  \right. \nonumber\] onde \(c\) é uma constante real. Qual é o valor de
+  P(\(X > 1.7\))?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.609\)
+  \item
+    \(0.406\)
+  \item
+    \(0.500\)
+  \item
+    \(0.391\)
+  \item
+    \(0.594\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de densidade da variável aleatória em questão apenas existe
+  se \(c=2\).\\
+  Tal valor pode ser encontrado notando-se que
+  \[\int_2^3 0.031 \exp(x) dx = 0.031 \exp(x) \Big\rvert_2^3 = 0.031 (\exp(3)-\exp(2)) = 0.394\]
+  e, portanto,
+  \[\int_1^2 \frac{\sqrt{x}}{c} dx = \frac{2x^{3/2}}{3 c} \Big\rvert_1^2 = 0.606 \\
+  \Rightarrow c = 2\]
+
+  Assim, temos que \[\begin{aligned}
+    P(X > 1.7) & = 1 - P(X \leq 1.7) \\
+    & = 1 - F_X(1.7) = 1 - \int_1^{1.7} \frac{\sqrt{x}}{c} dx \\
+    & = 1 - \frac{2x^{3/2}}{3 c} \Big\rvert_1^{1.7} \\
+    & = 1 - 0.406 =
+    0.594.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

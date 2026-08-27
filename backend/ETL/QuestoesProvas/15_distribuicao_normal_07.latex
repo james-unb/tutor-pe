@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante de medicina, aluno de Iniciação à Pesquisa Científica,
+  resolveu fazer um levantamento sobre o crescimento e desenvolvimento
+  de crianças na área de abrangência de uma unidade básica de saúde
+  (UBS). Constatou-se que 50\% das crianças tinha estatura abaixo de 147
+  cm e 47.78\% estão entre 147 e 181.17 cm. Assumindo que as alturas
+  seguem uma distribuição Normal, calcule a média e o desvio padrão
+  dessa distribuição.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    139 e 11
+  \item
+    131 e 16
+  \item
+    139 e 29
+  \item
+    147 e 14
+  \item
+    147 e 17
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X \sim N(\mu, \sigma^2)\), onde \(X\) representa a altura das
+  crianças dessa sub-população, e \(P(X \leq 147) = 0.5\) , temos que
+  \(\mu = 147\).
+
+  Seja \(Z=\frac{X -  \mu}{\sigma}\), então \(Z \sim N(0, 1)\). Como
+  \(P(X<181.17)=97.78\%\), pela tabela da Normal padrão,
+  \[P(Z \leq z ) = 0.9778 \; \rightarrow \; \frac {181.17 -  147}{\sigma} = 2.01 \; \rightarrow \; \sigma= 17.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante de medicina, aluno de Iniciação à Pesquisa Científica,
+  resolveu fazer um levantamento sobre o crescimento e desenvolvimento
+  de crianças na área de abrangência de uma unidade básica de saúde
+  (UBS). Constatou-se que 50\% das crianças tinha estatura abaixo de 150
+  cm e 46.86\% estão entre 150 e 187.2 cm. Assumindo que as alturas
+  seguem uma distribuição Normal, calcule a média e o desvio padrão
+  dessa distribuição.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    133 e 17
+  \item
+    135 e 14
+  \item
+    150 e 10
+  \item
+    133 e 20
+  \item
+    150 e 20
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X \sim N(\mu, \sigma^2)\), onde \(X\) representa a altura das
+  crianças dessa sub-população, e \(P(X \leq 150) = 0.5\) , temos que
+  \(\mu = 150\).
+
+  Seja \(Z=\frac{X -  \mu}{\sigma}\), então \(Z \sim N(0, 1)\). Como
+  \(P(X<187.2)=96.86\%\), pela tabela da Normal padrão,
+  \[P(Z \leq z ) = 0.9686 \; \rightarrow \; \frac {187.2 -  150}{\sigma} = 1.86 \; \rightarrow \; \sigma= 20.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante de medicina, aluno de Iniciação à Pesquisa Científica,
+  resolveu fazer um levantamento sobre o crescimento e desenvolvimento
+  de crianças na área de abrangência de uma unidade básica de saúde
+  (UBS). Constatou-se que 50\% das crianças tinha estatura abaixo de 149
+  cm e 47.93\% estão entre 149 e 189.8 cm. Assumindo que as alturas
+  seguem uma distribuição Normal, calcule a média e o desvio padrão
+  dessa distribuição.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    149 e 17
+  \item
+    134 e 23
+  \item
+    149 e 26
+  \item
+    134 e 25
+  \item
+    149 e 20
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X \sim N(\mu, \sigma^2)\), onde \(X\) representa a altura das
+  crianças dessa sub-população, e \(P(X \leq 149) = 0.5\) , temos que
+  \(\mu = 149\).
+
+  Seja \(Z=\frac{X -  \mu}{\sigma}\), então \(Z \sim N(0, 1)\). Como
+  \(P(X<189.8)=97.93\%\), pela tabela da Normal padrão,
+  \[P(Z \leq z ) = 0.9793 \; \rightarrow \; \frac {189.8 -  149}{\sigma} = 2.04 \; \rightarrow \; \sigma= 20.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante de medicina, aluno de Iniciação à Pesquisa Científica,
+  resolveu fazer um levantamento sobre o crescimento e desenvolvimento
+  de crianças na área de abrangência de uma unidade básica de saúde
+  (UBS). Constatou-se que 50\% das crianças tinha estatura abaixo de 147
+  cm e 47.98\% estão entre 147 e 185.95 cm. Assumindo que as alturas
+  seguem uma distribuição Normal, calcule a média e o desvio padrão
+  dessa distribuição.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    138 e 20
+  \item
+    138 e 25
+  \item
+    139 e 14
+  \item
+    147 e 19
+  \item
+    147 e 30
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X \sim N(\mu, \sigma^2)\), onde \(X\) representa a altura das
+  crianças dessa sub-população, e \(P(X \leq 147) = 0.5\) , temos que
+  \(\mu = 147\).
+
+  Seja \(Z=\frac{X -  \mu}{\sigma}\), então \(Z \sim N(0, 1)\). Como
+  \(P(X<185.95)=97.98\%\), pela tabela da Normal padrão,
+  \[P(Z \leq z ) = 0.9798 \; \rightarrow \; \frac {185.95 -  147}{\sigma} = 2.05 \; \rightarrow \; \sigma= 19.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante de medicina, aluno de Iniciação à Pesquisa Científica,
+  resolveu fazer um levantamento sobre o crescimento e desenvolvimento
+  de crianças na área de abrangência de uma unidade básica de saúde
+  (UBS). Constatou-se que 50\% das crianças tinha estatura abaixo de 150
+  cm e 48.21\% estão entre 150 e 187.8 cm. Assumindo que as alturas
+  seguem uma distribuição Normal, calcule a média e o desvio padrão
+  dessa distribuição.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    148 e 16
+  \item
+    146 e 17
+  \item
+    150 e 11
+  \item
+    150 e 18
+  \item
+    146 e 19
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X \sim N(\mu, \sigma^2)\), onde \(X\) representa a altura das
+  crianças dessa sub-população, e \(P(X \leq 150) = 0.5\) , temos que
+  \(\mu = 150\).
+
+  Seja \(Z=\frac{X -  \mu}{\sigma}\), então \(Z \sim N(0, 1)\). Como
+  \(P(X<187.8)=98.21\%\), pela tabela da Normal padrão,
+  \[P(Z \leq z ) = 0.9821 \; \rightarrow \; \frac {187.8 -  150}{\sigma} = 2.1 \; \rightarrow \; \sigma= 18.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante de medicina, aluno de Iniciação à Pesquisa Científica,
+  resolveu fazer um levantamento sobre o crescimento e desenvolvimento
+  de crianças na área de abrangência de uma unidade básica de saúde
+  (UBS). Constatou-se que 50\% das crianças tinha estatura abaixo de 145
+  cm e 46.99\% estão entre 145 e 178.84 cm. Assumindo que as alturas
+  seguem uma distribuição Normal, calcule a média e o desvio padrão
+  dessa distribuição.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    145 e 18
+  \item
+    136 e 10
+  \item
+    146 e 11
+  \item
+    136 e 21
+  \item
+    145 e 16
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X \sim N(\mu, \sigma^2)\), onde \(X\) representa a altura das
+  crianças dessa sub-população, e \(P(X \leq 145) = 0.5\) , temos que
+  \(\mu = 145\).
+
+  Seja \(Z=\frac{X -  \mu}{\sigma}\), então \(Z \sim N(0, 1)\). Como
+  \(P(X<178.84)=96.99\%\), pela tabela da Normal padrão,
+  \[P(Z \leq z ) = 0.9699 \; \rightarrow \; \frac {178.84 -  145}{\sigma} = 1.88 \; \rightarrow \; \sigma= 18.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante de medicina, aluno de Iniciação à Pesquisa Científica,
+  resolveu fazer um levantamento sobre o crescimento e desenvolvimento
+  de crianças na área de abrangência de uma unidade básica de saúde
+  (UBS). Constatou-se que 50\% das crianças tinha estatura abaixo de 149
+  cm e 48.5\% estão entre 149 e 185.89 cm. Assumindo que as alturas
+  seguem uma distribuição Normal, calcule a média e o desvio padrão
+  dessa distribuição.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    135 e 10
+  \item
+    149 e 17
+  \item
+    143 e 14
+  \item
+    149 e 21
+  \item
+    135 e 18
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X \sim N(\mu, \sigma^2)\), onde \(X\) representa a altura das
+  crianças dessa sub-população, e \(P(X \leq 149) = 0.5\) , temos que
+  \(\mu = 149\).
+
+  Seja \(Z=\frac{X -  \mu}{\sigma}\), então \(Z \sim N(0, 1)\). Como
+  \(P(X<185.89)=98.5\%\), pela tabela da Normal padrão,
+  \[P(Z \leq z ) = 0.985 \; \rightarrow \; \frac {185.89 -  149}{\sigma} = 2.17 \; \rightarrow \; \sigma= 17.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante de medicina, aluno de Iniciação à Pesquisa Científica,
+  resolveu fazer um levantamento sobre o crescimento e desenvolvimento
+  de crianças na área de abrangência de uma unidade básica de saúde
+  (UBS). Constatou-se que 50\% das crianças tinha estatura abaixo de 149
+  cm e 48.03\% estão entre 149 e 184.02 cm. Assumindo que as alturas
+  seguem uma distribuição Normal, calcule a média e o desvio padrão
+  dessa distribuição.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    149 e 17
+  \item
+    142 e 30
+  \item
+    133 e 21
+  \item
+    142 e 25
+  \item
+    149 e 13
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X \sim N(\mu, \sigma^2)\), onde \(X\) representa a altura das
+  crianças dessa sub-população, e \(P(X \leq 149) = 0.5\) , temos que
+  \(\mu = 149\).
+
+  Seja \(Z=\frac{X -  \mu}{\sigma}\), então \(Z \sim N(0, 1)\). Como
+  \(P(X<184.02)=98.03\%\), pela tabela da Normal padrão,
+  \[P(Z \leq z ) = 0.9803 \; \rightarrow \; \frac {184.02 -  149}{\sigma} = 2.06 \; \rightarrow \; \sigma= 17.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante de medicina, aluno de Iniciação à Pesquisa Científica,
+  resolveu fazer um levantamento sobre o crescimento e desenvolvimento
+  de crianças na área de abrangência de uma unidade básica de saúde
+  (UBS). Constatou-se que 50\% das crianças tinha estatura abaixo de 145
+  cm e 46.41\% estão entre 145 e 177.4 cm. Assumindo que as alturas
+  seguem uma distribuição Normal, calcule a média e o desvio padrão
+  dessa distribuição.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    136 e 22
+  \item
+    142 e 18
+  \item
+    142 e 11
+  \item
+    145 e 24
+  \item
+    145 e 18
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X \sim N(\mu, \sigma^2)\), onde \(X\) representa a altura das
+  crianças dessa sub-população, e \(P(X \leq 145) = 0.5\) , temos que
+  \(\mu = 145\).
+
+  Seja \(Z=\frac{X -  \mu}{\sigma}\), então \(Z \sim N(0, 1)\). Como
+  \(P(X<177.4)=96.41\%\), pela tabela da Normal padrão,
+  \[P(Z \leq z ) = 0.9641 \; \rightarrow \; \frac {177.4 -  145}{\sigma} = 1.8 \; \rightarrow \; \sigma= 18.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante de medicina, aluno de Iniciação à Pesquisa Científica,
+  resolveu fazer um levantamento sobre o crescimento e desenvolvimento
+  de crianças na área de abrangência de uma unidade básica de saúde
+  (UBS). Constatou-se que 50\% das crianças tinha estatura abaixo de 146
+  cm e 48.34\% estão entre 146 e 184.34 cm. Assumindo que as alturas
+  seguem uma distribuição Normal, calcule a média e o desvio padrão
+  dessa distribuição.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    142 e 22
+  \item
+    146 e 12
+  \item
+    138 e 27
+  \item
+    138 e 28
+  \item
+    146 e 18
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como \(X \sim N(\mu, \sigma^2)\), onde \(X\) representa a altura das
+  crianças dessa sub-população, e \(P(X \leq 146) = 0.5\) , temos que
+  \(\mu = 146\).
+
+  Seja \(Z=\frac{X -  \mu}{\sigma}\), então \(Z \sim N(0, 1)\). Como
+  \(P(X<184.34)=98.34\%\), pela tabela da Normal padrão,
+  \[P(Z \leq z ) = 0.9834 \; \rightarrow \; \frac {184.34 -  146}{\sigma} = 2.13 \; \rightarrow \; \sigma= 18.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

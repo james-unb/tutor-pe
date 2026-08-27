@@ -1,0 +1,422 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma raspadinha contém \(35\) números \((1,2, 3, ..., 35)\), e o
+  jogador deve escolher raspar exatamente \(12\) deles. Caso todos os
+  números divisíveis por \(10\) apareçam em uma única cartela, o jogador
+  ganha o prêmio. Qual é a probabilidade de um jogador ganhar o prêmio
+  ao raspar exatamente uma cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0336\)
+  \item
+    \(0.0618\)
+  \item
+    \(0.0003\)
+  \item
+    \(0.2343\)
+  \item
+    \(0.1339\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória quantidade de números divisíveis por
+  \(10\) na amostra de tamanho \(12\), sem reposição, dos elementos
+  \((1,2, 3, ..., 35)\). Então, \(X \sim \text{Hiper}(N=35, r=3, n=12)\)
+  e a probabilidade desejada é dada por
+  \[P(X = 3) =  \frac{\binom{3}{3} \binom{32}{ 9}}{\binom{35}{12}} = 0.0336 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma raspadinha contém \(30\) números \((1,2, 3, ..., 30)\), e o
+  jogador deve escolher raspar exatamente \(11\) deles. Caso todos os
+  números divisíveis por \(10\) apareçam em uma única cartela, o jogador
+  ganha o prêmio. Qual é a probabilidade de um jogador ganhar o prêmio
+  ao raspar exatamente uma cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0406\)
+  \item
+    \(0.0710\)
+  \item
+    \(0.1384\)
+  \item
+    \(0.2361\)
+  \item
+    \(0.0004\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória quantidade de números divisíveis por
+  \(10\) na amostra de tamanho \(11\), sem reposição, dos elementos
+  \((1,2, 3, ..., 30)\). Então, \(X \sim \text{Hiper}(N=30, r=3, n=11)\)
+  e a probabilidade desejada é dada por
+  \[P(X = 3) =  \frac{\binom{3}{3} \binom{27}{ 8}}{\binom{30}{11}} = 0.0406 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma raspadinha contém \(35\) números \((1,2, 3, ..., 35)\), e o
+  jogador deve escolher raspar exatamente \(14\) deles. Caso todos os
+  números divisíveis por \(10\) apareçam em uma única cartela, o jogador
+  ganha o prêmio. Qual é a probabilidade de um jogador ganhar o prêmio
+  ao raspar exatamente uma cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0002\)
+  \item
+    \(0.2343\)
+  \item
+    \(0.0556\)
+  \item
+    \(0.1449\)
+  \item
+    \(0.0855\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória quantidade de números divisíveis por
+  \(10\) na amostra de tamanho \(14\), sem reposição, dos elementos
+  \((1,2, 3, ..., 35)\). Então, \(X \sim \text{Hiper}(N=35, r=3, n=14)\)
+  e a probabilidade desejada é dada por
+  \[P(X = 3) =  \frac{\binom{3}{3} \binom{32}{ 11}}{\binom{35}{14}} = 0.0556 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma raspadinha contém \(30\) números \((1,2, 3, ..., 30)\), e o
+  jogador deve escolher raspar exatamente \(13\) deles. Caso todos os
+  números divisíveis por \(10\) apareçam em uma única cartela, o jogador
+  ganha o prêmio. Qual é a probabilidade de um jogador ganhar o prêmio
+  ao raspar exatamente uma cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1533\)
+  \item
+    \(0.2361\)
+  \item
+    \(0.0003\)
+  \item
+    \(0.0704\)
+  \item
+    \(0.0997\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória quantidade de números divisíveis por
+  \(10\) na amostra de tamanho \(13\), sem reposição, dos elementos
+  \((1,2, 3, ..., 30)\). Então, \(X \sim \text{Hiper}(N=30, r=3, n=13)\)
+  e a probabilidade desejada é dada por
+  \[P(X = 3) =  \frac{\binom{3}{3} \binom{27}{ 10}}{\binom{30}{13}} = 0.0704 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma raspadinha contém \(33\) números \((1,2, 3, ..., 33)\), e o
+  jogador deve escolher raspar exatamente \(15\) deles. Caso todos os
+  números divisíveis por \(10\) apareçam em uma única cartela, o jogador
+  ganha o prêmio. Qual é a probabilidade de um jogador ganhar o prêmio
+  ao raspar exatamente uma cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1592\)
+  \item
+    \(0.2349\)
+  \item
+    \(0.1089\)
+  \item
+    \(0.0834\)
+  \item
+    \(0.0002\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória quantidade de números divisíveis por
+  \(10\) na amostra de tamanho \(15\), sem reposição, dos elementos
+  \((1,2, 3, ..., 33)\). Então, \(X \sim \text{Hiper}(N=33, r=3, n=15)\)
+  e a probabilidade desejada é dada por
+  \[P(X = 3) =  \frac{\binom{3}{3} \binom{30}{ 12}}{\binom{33}{15}} = 0.0834 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma raspadinha contém \(35\) números \((1,2, 3, ..., 35)\), e o
+  jogador deve escolher raspar exatamente \(15\) deles. Caso todos os
+  números divisíveis por \(10\) apareçam em uma única cartela, o jogador
+  ganha o prêmio. Qual é a probabilidade de um jogador ganhar o prêmio
+  ao raspar exatamente uma cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0695\)
+  \item
+    \(0.0978\)
+  \item
+    \(0.1519\)
+  \item
+    \(0.0002\)
+  \item
+    \(0.2343\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória quantidade de números divisíveis por
+  \(10\) na amostra de tamanho \(15\), sem reposição, dos elementos
+  \((1,2, 3, ..., 35)\). Então, \(X \sim \text{Hiper}(N=35, r=3, n=15)\)
+  e a probabilidade desejada é dada por
+  \[P(X = 3) =  \frac{\binom{3}{3} \binom{32}{ 12}}{\binom{35}{15}} = 0.0695 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma raspadinha contém \(32\) números \((1,2, 3, ..., 32)\), e o
+  jogador deve escolher raspar exatamente \(10\) deles. Caso todos os
+  números divisíveis por \(10\) apareçam em uma única cartela, o jogador
+  ganha o prêmio. Qual é a probabilidade de um jogador ganhar o prêmio
+  ao raspar exatamente uma cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2353\)
+  \item
+    \(0.1297\)
+  \item
+    \(0.0242\)
+  \item
+    \(0.0004\)
+  \item
+    \(0.0496\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória quantidade de números divisíveis por
+  \(10\) na amostra de tamanho \(10\), sem reposição, dos elementos
+  \((1,2, 3, ..., 32)\). Então, \(X \sim \text{Hiper}(N=32, r=3, n=10)\)
+  e a probabilidade desejada é dada por
+  \[P(X = 3) =  \frac{\binom{3}{3} \binom{29}{ 7}}{\binom{32}{10}} = 0.0242 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma raspadinha contém \(31\) números \((1,2, 3, ..., 31)\), e o
+  jogador deve escolher raspar exatamente \(10\) deles. Caso todos os
+  números divisíveis por \(10\) apareçam em uma única cartela, o jogador
+  ganha o prêmio. Qual é a probabilidade de um jogador ganhar o prêmio
+  ao raspar exatamente uma cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0267\)
+  \item
+    \(0.0533\)
+  \item
+    \(0.2357\)
+  \item
+    \(0.1312\)
+  \item
+    \(0.0004\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória quantidade de números divisíveis por
+  \(10\) na amostra de tamanho \(10\), sem reposição, dos elementos
+  \((1,2, 3, ..., 31)\). Então, \(X \sim \text{Hiper}(N=31, r=3, n=10)\)
+  e a probabilidade desejada é dada por
+  \[P(X = 3) =  \frac{\binom{3}{3} \binom{28}{ 7}}{\binom{31}{10}} = 0.0267 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma raspadinha contém \(31\) números \((1,2, 3, ..., 31)\), e o
+  jogador deve escolher raspar exatamente \(10\) deles. Caso todos os
+  números divisíveis por \(10\) apareçam em uma única cartela, o jogador
+  ganha o prêmio. Qual é a probabilidade de um jogador ganhar o prêmio
+  ao raspar exatamente uma cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0533\)
+  \item
+    \(0.0004\)
+  \item
+    \(0.1312\)
+  \item
+    \(0.2357\)
+  \item
+    \(0.0267\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória quantidade de números divisíveis por
+  \(10\) na amostra de tamanho \(10\), sem reposição, dos elementos
+  \((1,2, 3, ..., 31)\). Então, \(X \sim \text{Hiper}(N=31, r=3, n=10)\)
+  e a probabilidade desejada é dada por
+  \[P(X = 3) =  \frac{\binom{3}{3} \binom{28}{ 7}}{\binom{31}{10}} = 0.0267 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma raspadinha contém \(32\) números \((1,2, 3, ..., 32)\), e o
+  jogador deve escolher raspar exatamente \(14\) deles. Caso todos os
+  números divisíveis por \(10\) apareçam em uma única cartela, o jogador
+  ganha o prêmio. Qual é a probabilidade de um jogador ganhar o prêmio
+  ao raspar exatamente uma cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1543\)
+  \item
+    \(0.1016\)
+  \item
+    \(0.0734\)
+  \item
+    \(0.0003\)
+  \item
+    \(0.2353\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória quantidade de números divisíveis por
+  \(10\) na amostra de tamanho \(14\), sem reposição, dos elementos
+  \((1,2, 3, ..., 32)\). Então, \(X \sim \text{Hiper}(N=32, r=3, n=14)\)
+  e a probabilidade desejada é dada por
+  \[P(X = 3) =  \frac{\binom{3}{3} \binom{29}{ 11}}{\binom{32}{14}} = 0.0734 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

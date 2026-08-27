@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A internet móvel vem, aos poucos, se tornando um padrão em várias
+  partes do mundo. No Brasil, milhares de pessoas fazem uso das mídias
+  sociais como Facebook, Whatsapp, Twitter e Instagram. Deseja-se
+  estimar o tempo diário gasto nas redes sociais. Em pesquisas
+  anteriores, o desvio padrão populacional era de \(27\) minutos. Em um
+  levantamento por amostragem aleatória de usuários de redes sociais no
+  Brasil e considerando que o desvio padrão não se alterou, qual deve
+  ser o tamanho mínimo da amostra para que, com confiança de \(95\%\), a
+  média amostral não difira da média populacional por mais de \(4\)
+  minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(110\)
+  \item
+    \(44\)
+  \item
+    \(176\)
+  \item
+    \(123\)
+  \item
+    \(220\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 27}{4} \right)^2=175.0329.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=176\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A internet móvel vem, aos poucos, se tornando um padrão em várias
+  partes do mundo. No Brasil, milhares de pessoas fazem uso das mídias
+  sociais como Facebook, Whatsapp, Twitter e Instagram. Deseja-se
+  estimar o tempo diário gasto nas redes sociais. Em pesquisas
+  anteriores, o desvio padrão populacional era de \(29\) minutos. Em um
+  levantamento por amostragem aleatória de usuários de redes sociais no
+  Brasil e considerando que o desvio padrão não se alterou, qual deve
+  ser o tamanho mínimo da amostra para que, com confiança de \(99\%\), a
+  média amostral não difira da média populacional por mais de \(4\)
+  minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(219\)
+  \item
+    \(88\)
+  \item
+    \(350\)
+  \item
+    \(286\)
+  \item
+    \(420\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 29}{4} \right)^2=349.877.\] Portanto
+  o tamanho mínimo da amostra deve ser \(n=350\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A internet móvel vem, aos poucos, se tornando um padrão em várias
+  partes do mundo. No Brasil, milhares de pessoas fazem uso das mídias
+  sociais como Facebook, Whatsapp, Twitter e Instagram. Deseja-se
+  estimar o tempo diário gasto nas redes sociais. Em pesquisas
+  anteriores, o desvio padrão populacional era de \(21\) minutos. Em um
+  levantamento por amostragem aleatória de usuários de redes sociais no
+  Brasil e considerando que o desvio padrão não se alterou, qual deve
+  ser o tamanho mínimo da amostra para que, com confiança de \(99\%\), a
+  média amostral não difira da média populacional por mais de \(4\)
+  minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(46\)
+  \item
+    \(150\)
+  \item
+    \(230\)
+  \item
+    \(184\)
+  \item
+    \(115\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 21}{4} \right)^2=183.467.\] Portanto
+  o tamanho mínimo da amostra deve ser \(n=184\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A internet móvel vem, aos poucos, se tornando um padrão em várias
+  partes do mundo. No Brasil, milhares de pessoas fazem uso das mídias
+  sociais como Facebook, Whatsapp, Twitter e Instagram. Deseja-se
+  estimar o tempo diário gasto nas redes sociais. Em pesquisas
+  anteriores, o desvio padrão populacional era de \(22\) minutos. Em um
+  levantamento por amostragem aleatória de usuários de redes sociais no
+  Brasil e considerando que o desvio padrão não se alterou, qual deve
+  ser o tamanho mínimo da amostra para que, com confiança de \(80\%\), a
+  média amostral não difira da média populacional por mais de \(5\)
+  minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(40\)
+  \item
+    \(8\)
+  \item
+    \(20\)
+  \item
+    \(32\)
+  \item
+    \(14\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 22}{5} \right)^2=31.7194.\] Portanto
+  o tamanho mínimo da amostra deve ser \(n=32\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A internet móvel vem, aos poucos, se tornando um padrão em várias
+  partes do mundo. No Brasil, milhares de pessoas fazem uso das mídias
+  sociais como Facebook, Whatsapp, Twitter e Instagram. Deseja-se
+  estimar o tempo diário gasto nas redes sociais. Em pesquisas
+  anteriores, o desvio padrão populacional era de \(27\) minutos. Em um
+  levantamento por amostragem aleatória de usuários de redes sociais no
+  Brasil e considerando que o desvio padrão não se alterou, qual deve
+  ser o tamanho mínimo da amostra para que, com confiança de \(80\%\), a
+  média amostral não difira da média populacional por mais de \(4\)
+  minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(47\)
+  \item
+    \(94\)
+  \item
+    \(19\)
+  \item
+    \(33\)
+  \item
+    \(75\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 27}{4} \right)^2=74.6496.\] Portanto
+  o tamanho mínimo da amostra deve ser \(n=75\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A internet móvel vem, aos poucos, se tornando um padrão em várias
+  partes do mundo. No Brasil, milhares de pessoas fazem uso das mídias
+  sociais como Facebook, Whatsapp, Twitter e Instagram. Deseja-se
+  estimar o tempo diário gasto nas redes sociais. Em pesquisas
+  anteriores, o desvio padrão populacional era de \(15\) minutos. Em um
+  levantamento por amostragem aleatória de usuários de redes sociais no
+  Brasil e considerando que o desvio padrão não se alterou, qual deve
+  ser o tamanho mínimo da amostra para que, com confiança de \(99\%\), a
+  média amostral não difira da média populacional por mais de \(4\)
+  minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(59\)
+  \item
+    \(24\)
+  \item
+    \(113\)
+  \item
+    \(94\)
+  \item
+    \(77\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 15}{4} \right)^2=93.6056.\] Portanto
+  o tamanho mínimo da amostra deve ser \(n=94\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A internet móvel vem, aos poucos, se tornando um padrão em várias
+  partes do mundo. No Brasil, milhares de pessoas fazem uso das mídias
+  sociais como Facebook, Whatsapp, Twitter e Instagram. Deseja-se
+  estimar o tempo diário gasto nas redes sociais. Em pesquisas
+  anteriores, o desvio padrão populacional era de \(26\) minutos. Em um
+  levantamento por amostragem aleatória de usuários de redes sociais no
+  Brasil e considerando que o desvio padrão não se alterou, qual deve
+  ser o tamanho mínimo da amostra para que, com confiança de \(99\%\), a
+  média amostral não difira da média populacional por mais de \(3\)
+  minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(312\)
+  \item
+    \(550\)
+  \item
+    \(125\)
+  \item
+    \(408\)
+  \item
+    \(500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 26}{3} \right)^2=499.9696.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=500\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A internet móvel vem, aos poucos, se tornando um padrão em várias
+  partes do mundo. No Brasil, milhares de pessoas fazem uso das mídias
+  sociais como Facebook, Whatsapp, Twitter e Instagram. Deseja-se
+  estimar o tempo diário gasto nas redes sociais. Em pesquisas
+  anteriores, o desvio padrão populacional era de \(20\) minutos. Em um
+  levantamento por amostragem aleatória de usuários de redes sociais no
+  Brasil e considerando que o desvio padrão não se alterou, qual deve
+  ser o tamanho mínimo da amostra para que, com confiança de \(97.5\%\),
+  a média amostral não difira da média populacional por mais de \(4\)
+  minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(126\)
+  \item
+    \(79\)
+  \item
+    \(97\)
+  \item
+    \(32\)
+  \item
+    \(151\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então, \[n \geq \left( \frac{2.24 \times 20}{4} \right)^2=125.44.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=126\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A internet móvel vem, aos poucos, se tornando um padrão em várias
+  partes do mundo. No Brasil, milhares de pessoas fazem uso das mídias
+  sociais como Facebook, Whatsapp, Twitter e Instagram. Deseja-se
+  estimar o tempo diário gasto nas redes sociais. Em pesquisas
+  anteriores, o desvio padrão populacional era de \(26\) minutos. Em um
+  levantamento por amostragem aleatória de usuários de redes sociais no
+  Brasil e considerando que o desvio padrão não se alterou, qual deve
+  ser o tamanho mínimo da amostra para que, com confiança de \(97.5\%\),
+  a média amostral não difira da média populacional por mais de \(5\)
+  minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(85\)
+  \item
+    \(136\)
+  \item
+    \(163\)
+  \item
+    \(104\)
+  \item
+    \(34\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então, \[n \geq \left( \frac{2.24 \times 26}{5} \right)^2=135.6759.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=136\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A internet móvel vem, aos poucos, se tornando um padrão em várias
+  partes do mundo. No Brasil, milhares de pessoas fazem uso das mídias
+  sociais como Facebook, Whatsapp, Twitter e Instagram. Deseja-se
+  estimar o tempo diário gasto nas redes sociais. Em pesquisas
+  anteriores, o desvio padrão populacional era de \(15\) minutos. Em um
+  levantamento por amostragem aleatória de usuários de redes sociais no
+  Brasil e considerando que o desvio padrão não se alterou, qual deve
+  ser o tamanho mínimo da amostra para que, com confiança de \(80\%\), a
+  média amostral não difira da média populacional por mais de \(4\)
+  minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(10\)
+  \item
+    \(24\)
+  \item
+    \(6\)
+  \item
+    \(15\)
+  \item
+    \(29\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 15}{4} \right)^2=23.04.\] Portanto o
+  tamanho mínimo da amostra deve ser \(n=24\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

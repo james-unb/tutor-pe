@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O Departamento de Estatística verificou que, com base em sua
+  experiência ao longo dos anos, \(30\%\) dos alunos ingressantes
+  concluem o curso. Com base nessa afirmação, considerando independência
+  entre os alunos, calcule a probabilidade de que menos de 26 dos 80
+  alunos ingressantes ao longo deste ano concluirão o curso. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.688\)
+  \item
+    \(0.548\)
+  \item
+    \(0.468\)
+  \item
+    \(0.532\)
+  \item
+    \(0.452\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de alunos que concluirão o curso de Estatística,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=80\) e \(p=0.3\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(24,4.1)\). E probabilidade desejada é dada por
+  \[P(X \leq 26) = P \left(Z \leq \dfrac{26 - 80 \times 0.3}{\sqrt{80 \times 0.3 \times 0.7}} \right) =  P(Z \leq 0.49) = 0.688.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Departamento de Estatística verificou que, com base em sua
+  experiência ao longo dos anos, \(30\%\) dos alunos ingressantes
+  concluem o curso. Com base nessa afirmação, considerando independência
+  entre os alunos, calcule a probabilidade de que menos de 28 dos 85
+  alunos ingressantes ao longo deste ano concluirão o curso. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.460\)
+  \item
+    \(0.722\)
+  \item
+    \(0.556\)
+  \item
+    \(0.540\)
+  \item
+    \(0.444\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de alunos que concluirão o curso de Estatística,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=85\) e \(p=0.3\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(25.5,4.22)\). E probabilidade desejada é dada por
+  \[P(X \leq 28) = P \left(Z \leq \dfrac{28 - 85 \times 0.3}{\sqrt{85 \times 0.3 \times 0.7}} \right) =  P(Z \leq 0.59) = 0.722.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Departamento de Estatística verificou que, com base em sua
+  experiência ao longo dos anos, \(30\%\) dos alunos ingressantes
+  concluem o curso. Com base nessa afirmação, considerando independência
+  entre os alunos, calcule a probabilidade de que menos de 22 dos 80
+  alunos ingressantes ao longo deste ano concluirão o curso. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.452\)
+  \item
+    \(0.312\)
+  \item
+    \(0.468\)
+  \item
+    \(0.548\)
+  \item
+    \(0.532\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de alunos que concluirão o curso de Estatística,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=80\) e \(p=0.3\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(24,4.1)\). E probabilidade desejada é dada por
+  \[P(X \leq 22) = P \left(Z \leq \dfrac{22 - 80 \times 0.3}{\sqrt{80 \times 0.3 \times 0.7}} \right) =  P(Z \leq -0.49) = 0.312.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Departamento de Estatística verificou que, com base em sua
+  experiência ao longo dos anos, \(40\%\) dos alunos ingressantes
+  concluem o curso. Com base nessa afirmação, considerando independência
+  entre os alunos, calcule a probabilidade de que menos de 32 dos 85
+  alunos ingressantes ao longo deste ano concluirão o curso. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.524\)
+  \item
+    \(0.330\)
+  \item
+    \(0.460\)
+  \item
+    \(0.476\)
+  \item
+    \(0.540\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de alunos que concluirão o curso de Estatística,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=85\) e \(p=0.4\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(34,4.52)\). E probabilidade desejada é dada por
+  \[P(X \leq 32) = P \left(Z \leq \dfrac{32 - 85 \times 0.4}{\sqrt{85 \times 0.4 \times 0.6}} \right) =  P(Z \leq -0.44) = 0.33.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Departamento de Estatística verificou que, com base em sua
+  experiência ao longo dos anos, \(30\%\) dos alunos ingressantes
+  concluem o curso. Com base nessa afirmação, considerando independência
+  entre os alunos, calcule a probabilidade de que menos de 22 dos 80
+  alunos ingressantes ao longo deste ano concluirão o curso. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.452\)
+  \item
+    \(0.548\)
+  \item
+    \(0.312\)
+  \item
+    \(0.468\)
+  \item
+    \(0.532\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de alunos que concluirão o curso de Estatística,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=80\) e \(p=0.3\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(24,4.1)\). E probabilidade desejada é dada por
+  \[P(X \leq 22) = P \left(Z \leq \dfrac{22 - 80 \times 0.3}{\sqrt{80 \times 0.3 \times 0.7}} \right) =  P(Z \leq -0.49) = 0.312.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Departamento de Estatística verificou que, com base em sua
+  experiência ao longo dos anos, \(40\%\) dos alunos ingressantes
+  concluem o curso. Com base nessa afirmação, considerando independência
+  entre os alunos, calcule a probabilidade de que menos de 37 dos 85
+  alunos ingressantes ao longo deste ano concluirão o curso. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.440\)
+  \item
+    \(0.745\)
+  \item
+    \(0.464\)
+  \item
+    \(0.560\)
+  \item
+    \(0.536\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de alunos que concluirão o curso de Estatística,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=85\) e \(p=0.4\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(34,4.52)\). E probabilidade desejada é dada por
+  \[P(X \leq 37) = P \left(Z \leq \dfrac{37 - 85 \times 0.4}{\sqrt{85 \times 0.4 \times 0.6}} \right) =  P(Z \leq 0.66) = 0.745.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Departamento de Estatística verificou que, com base em sua
+  experiência ao longo dos anos, \(40\%\) dos alunos ingressantes
+  concluem o curso. Com base nessa afirmação, considerando independência
+  entre os alunos, calcule a probabilidade de que menos de 37 dos 85
+  alunos ingressantes ao longo deste ano concluirão o curso. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.536\)
+  \item
+    \(0.560\)
+  \item
+    \(0.745\)
+  \item
+    \(0.464\)
+  \item
+    \(0.440\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de alunos que concluirão o curso de Estatística,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=85\) e \(p=0.4\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(34,4.52)\). E probabilidade desejada é dada por
+  \[P(X \leq 37) = P \left(Z \leq \dfrac{37 - 85 \times 0.4}{\sqrt{85 \times 0.4 \times 0.6}} \right) =  P(Z \leq 0.66) = 0.745.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Departamento de Estatística verificou que, com base em sua
+  experiência ao longo dos anos, \(30\%\) dos alunos ingressantes
+  concluem o curso. Com base nessa afirmação, considerando independência
+  entre os alunos, calcule a probabilidade de que menos de 19 dos 70
+  alunos ingressantes ao longo deste ano concluirão o curso. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.460\)
+  \item
+    \(0.556\)
+  \item
+    \(0.540\)
+  \item
+    \(0.302\)
+  \item
+    \(0.444\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de alunos que concluirão o curso de Estatística,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=70\) e \(p=0.3\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(21,3.83)\). E probabilidade desejada é dada por
+  \[P(X \leq 19) = P \left(Z \leq \dfrac{19 - 70 \times 0.3}{\sqrt{70 \times 0.3 \times 0.7}} \right) =  P(Z \leq -0.52) = 0.302.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Departamento de Estatística verificou que, com base em sua
+  experiência ao longo dos anos, \(30\%\) dos alunos ingressantes
+  concluem o curso. Com base nessa afirmação, considerando independência
+  entre os alunos, calcule a probabilidade de que menos de 26 dos 75
+  alunos ingressantes ao longo deste ano concluirão o curso. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.564\)
+  \item
+    \(0.587\)
+  \item
+    \(0.811\)
+  \item
+    \(0.413\)
+  \item
+    \(0.436\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de alunos que concluirão o curso de Estatística,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=75\) e \(p=0.3\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(22.5,3.97)\). E probabilidade desejada é dada por
+  \[P(X \leq 26) = P \left(Z \leq \dfrac{26 - 75 \times 0.3}{\sqrt{75 \times 0.3 \times 0.7}} \right) =  P(Z \leq 0.88) = 0.811.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Departamento de Estatística verificou que, com base em sua
+  experiência ao longo dos anos, \(40\%\) dos alunos ingressantes
+  concluem o curso. Com base nessa afirmação, considerando independência
+  entre os alunos, calcule a probabilidade de que menos de 32 dos 75
+  alunos ingressantes ao longo deste ano concluirão o curso. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.472\)
+  \item
+    \(0.528\)
+  \item
+    \(0.544\)
+  \item
+    \(0.456\)
+  \item
+    \(0.681\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de alunos que concluirão o curso de Estatística,
+  então \(X \sim \text{Bin}(n,p)\), onde \(n=75\) e \(p=0.4\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(30,4.24)\). E probabilidade desejada é dada por
+  \[P(X \leq 32) = P \left(Z \leq \dfrac{32 - 75 \times 0.4}{\sqrt{75 \times 0.4 \times 0.6}} \right) =  P(Z \leq 0.47) = 0.681.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A dureza, na escala Rockwel, de uma liga metálica pode ser descrita
+  como uma variável aleatória Uniforme no intervalo (a,80), cuja Função
+  de Distribuição Acumulada é variável Uniforme \(X \sim U(a,80)\)
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{80-a},  & a \leq x < 80, \\
+          1, & x \geq 80.
+        \end{array}
+      \right.\]
+
+  Sabendo que \(P(X \leq 50)= 0.455\), qual o valor de \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(625.000\)
+  \item
+    \(0.455\)
+  \item
+    \(18.000\)
+  \item
+    \(0.472\)
+  \item
+    \(25.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 50)= 0.455.\] Dessa forma, tem-se que
+  \(\frac{50-a}{80-a}=0.455\). Portanto, \(a=25.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A dureza, na escala Rockwel, de uma liga metálica pode ser descrita
+  como uma variável aleatória Uniforme no intervalo (a,80), cuja Função
+  de Distribuição Acumulada é variável Uniforme \(X \sim U(a,80)\)
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{80-a},  & a \leq x < 80, \\
+          1, & x \geq 80.
+        \end{array}
+      \right.\]
+
+  Sabendo que \(P(X \leq 56)= 0.547\), qual o valor de \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(20.000\)
+  \item
+    \(0.509\)
+  \item
+    \(729.000\)
+  \item
+    \(27.000\)
+  \item
+    \(0.547\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 56)= 0.547.\] Dessa forma, tem-se que
+  \(\frac{56-a}{80-a}=0.547\). Portanto, \(a=27.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A dureza, na escala Rockwel, de uma liga metálica pode ser descrita
+  como uma variável aleatória Uniforme no intervalo (a,80), cuja Função
+  de Distribuição Acumulada é variável Uniforme \(X \sim U(a,80)\)
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{80-a},  & a \leq x < 80, \\
+          1, & x \geq 80.
+        \end{array}
+      \right.\]
+
+  Sabendo que \(P(X \leq 63)= 0.673\), qual o valor de \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(28.000\)
+  \item
+    \(21.000\)
+  \item
+    \(784.000\)
+  \item
+    \(0.528\)
+  \item
+    \(0.673\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 63)= 0.673.\] Dessa forma, tem-se que
+  \(\frac{63-a}{80-a}=0.673\). Portanto, \(a=28.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A dureza, na escala Rockwel, de uma liga metálica pode ser descrita
+  como uma variável aleatória Uniforme no intervalo (a,80), cuja Função
+  de Distribuição Acumulada é variável Uniforme \(X \sim U(a,80)\)
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{80-a},  & a \leq x < 80, \\
+          1, & x \geq 80.
+        \end{array}
+      \right.\]
+
+  Sabendo que \(P(X \leq 59)= 0.488\), qual o valor de \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.736\)
+  \item
+    \(32.000\)
+  \item
+    \(39.000\)
+  \item
+    \(1521.000\)
+  \item
+    \(0.488\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 59)= 0.488.\] Dessa forma, tem-se que
+  \(\frac{59-a}{80-a}=0.488\). Portanto, \(a=39.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A dureza, na escala Rockwel, de uma liga metálica pode ser descrita
+  como uma variável aleatória Uniforme no intervalo (a,80), cuja Função
+  de Distribuição Acumulada é variável Uniforme \(X \sim U(a,80)\)
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{80-a},  & a \leq x < 80, \\
+          1, & x \geq 80.
+        \end{array}
+      \right.\]
+
+  Sabendo que \(P(X \leq 56)= 0.415\), qual o valor de \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(39.000\)
+  \item
+    \(32.000\)
+  \item
+    \(1521.000\)
+  \item
+    \(0.736\)
+  \item
+    \(0.415\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 56)= 0.415.\] Dessa forma, tem-se que
+  \(\frac{56-a}{80-a}=0.415\). Portanto, \(a=39.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A dureza, na escala Rockwel, de uma liga metálica pode ser descrita
+  como uma variável aleatória Uniforme no intervalo (a,80), cuja Função
+  de Distribuição Acumulada é variável Uniforme \(X \sim U(a,80)\)
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{80-a},  & a \leq x < 80, \\
+          1, & x \geq 80.
+        \end{array}
+      \right.\]
+
+  Sabendo que \(P(X \leq 65)= 0.681\), qual o valor de \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.681\)
+  \item
+    \(26.000\)
+  \item
+    \(33.000\)
+  \item
+    \(1089.000\)
+  \item
+    \(0.623\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 65)= 0.681.\] Dessa forma, tem-se que
+  \(\frac{65-a}{80-a}=0.681\). Portanto, \(a=33.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A dureza, na escala Rockwel, de uma liga metálica pode ser descrita
+  como uma variável aleatória Uniforme no intervalo (a,80), cuja Função
+  de Distribuição Acumulada é variável Uniforme \(X \sim U(a,80)\)
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{80-a},  & a \leq x < 80, \\
+          1, & x \geq 80.
+        \end{array}
+      \right.\]
+
+  Sabendo que \(P(X \leq 61)= 0.667\), qual o valor de \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(23.000\)
+  \item
+    \(16.000\)
+  \item
+    \(529.000\)
+  \item
+    \(0.434\)
+  \item
+    \(0.667\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 61)= 0.667.\] Dessa forma, tem-se que
+  \(\frac{61-a}{80-a}=0.667\). Portanto, \(a=23.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A dureza, na escala Rockwel, de uma liga metálica pode ser descrita
+  como uma variável aleatória Uniforme no intervalo (a,80), cuja Função
+  de Distribuição Acumulada é variável Uniforme \(X \sim U(a,80)\)
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{80-a},  & a \leq x < 80, \\
+          1, & x \geq 80.
+        \end{array}
+      \right.\]
+
+  Sabendo que \(P(X \leq 62)= 0.625\), qual o valor de \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(25.000\)
+  \item
+    \(32.000\)
+  \item
+    \(1024.000\)
+  \item
+    \(0.625\)
+  \item
+    \(0.604\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 62)= 0.625.\] Dessa forma, tem-se que
+  \(\frac{62-a}{80-a}=0.625\). Portanto, \(a=32.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A dureza, na escala Rockwel, de uma liga metálica pode ser descrita
+  como uma variável aleatória Uniforme no intervalo (a,80), cuja Função
+  de Distribuição Acumulada é variável Uniforme \(X \sim U(a,80)\)
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{80-a},  & a \leq x < 80, \\
+          1, & x \geq 80.
+        \end{array}
+      \right.\]
+
+  Sabendo que \(P(X \leq 60)= 0.623\), qual o valor de \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(729.000\)
+  \item
+    \(0.509\)
+  \item
+    \(20.000\)
+  \item
+    \(0.623\)
+  \item
+    \(27.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 60)= 0.623.\] Dessa forma, tem-se que
+  \(\frac{60-a}{80-a}=0.623\). Portanto, \(a=27.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A dureza, na escala Rockwel, de uma liga metálica pode ser descrita
+  como uma variável aleatória Uniforme no intervalo (a,80), cuja Função
+  de Distribuição Acumulada é variável Uniforme \(X \sim U(a,80)\)
+  \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{80-a},  & a \leq x < 80, \\
+          1, & x \geq 80.
+        \end{array}
+      \right.\]
+
+  Sabendo que \(P(X \leq 50)= 0.268\), qual o valor de \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(39.000\)
+  \item
+    \(0.268\)
+  \item
+    \(32.000\)
+  \item
+    \(0.736\)
+  \item
+    \(1521.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 50)= 0.268.\] Dessa forma, tem-se que
+  \(\frac{50-a}{80-a}=0.268\). Portanto, \(a=39.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

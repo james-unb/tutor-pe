@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma pesquisa realizada relatou que a proporção de brasileiros que leem
+  a bula antes de consumir medicamentos sem prescrição médica é de
+  \(51\%\). Se uma amostra de tamanho \(220\) for selecionada de forma
+  aleatória dessa população, qual a probabilidade de que a proporção
+  amostral seja maior que \(52\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4316\)
+  \item
+    \(0.4840\)
+  \item
+    \(0.3821\)
+  \item
+    \(0.4920\)
+  \item
+    \(0.8163\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.51\) e
+  \(\sigma = \sqrt{\frac{0.51\times0.49}{220}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.52\right) &= 1 - P\left(\frac{\hat{p}-0.51}{0.0337} < \frac{0.52-0.51}{0.0337}\right) \\
+   & = 1 - P\left(Z<0.3\right) = 0.3821.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma pesquisa realizada relatou que a proporção de brasileiros que leem
+  a bula antes de consumir medicamentos sem prescrição médica é de
+  \(64\%\). Se uma amostra de tamanho \(220\) for selecionada de forma
+  aleatória dessa população, qual a probabilidade de que a proporção
+  amostral seja maior que \(65\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4840\)
+  \item
+    \(0.3783\)
+  \item
+    \(0.4389\)
+  \item
+    \(0.4920\)
+  \item
+    \(0.5922\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.64\) e
+  \(\sigma = \sqrt{\frac{0.64\times0.36}{220}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.65\right) &= 1 - P\left(\frac{\hat{p}-0.64}{0.0324} < \frac{0.65-0.64}{0.0324}\right) \\
+   & = 1 - P\left(Z<0.31\right) = 0.3783.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma pesquisa realizada relatou que a proporção de brasileiros que leem
+  a bula antes de consumir medicamentos sem prescrição médica é de
+  \(71\%\). Se uma amostra de tamanho \(200\) for selecionada de forma
+  aleatória dessa população, qual a probabilidade de que a proporção
+  amostral seja maior que \(72\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3761\)
+  \item
+    \(0.3783\)
+  \item
+    \(0.4801\)
+  \item
+    \(0.4920\)
+  \item
+    \(0.6404\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.71\) e
+  \(\sigma = \sqrt{\frac{0.71\times0.29}{200}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.72\right) &= 1 - P\left(\frac{\hat{p}-0.71}{0.0321} < \frac{0.72-0.71}{0.0321}\right) \\
+   & = 1 - P\left(Z<0.31\right) = 0.3783.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma pesquisa realizada relatou que a proporção de brasileiros que leem
+  a bula antes de consumir medicamentos sem prescrição médica é de
+  \(72\%\). Se uma amostra de tamanho \(300\) for selecionada de forma
+  aleatória dessa população, qual a probabilidade de que a proporção
+  amostral seja maior que \(73\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4920\)
+  \item
+    \(0.3483\)
+  \item
+    \(0.2675\)
+  \item
+    \(0.4801\)
+  \item
+    \(0.7829\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.72\) e
+  \(\sigma = \sqrt{\frac{0.72\times0.28}{300}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.73\right) &= 1 - P\left(\frac{\hat{p}-0.72}{0.0259} < \frac{0.73-0.72}{0.0259}\right) \\
+   & = 1 - P\left(Z<0.39\right) = 0.3483.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma pesquisa realizada relatou que a proporção de brasileiros que leem
+  a bula antes de consumir medicamentos sem prescrição médica é de
+  \(80\%\). Se uma amostra de tamanho \(220\) for selecionada de forma
+  aleatória dessa população, qual a probabilidade de que a proporção
+  amostral seja maior que \(81\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3557\)
+  \item
+    \(0.4761\)
+  \item
+    \(0.8863\)
+  \item
+    \(0.4880\)
+  \item
+    \(0.6959\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.8\) e
+  \(\sigma = \sqrt{\frac{0.8\times0.2}{220}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.81\right) &= 1 - P\left(\frac{\hat{p}-0.8}{0.027} < \frac{0.81-0.8}{0.027}\right) \\
+   & = 1 - P\left(Z<0.37\right) = 0.3557.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma pesquisa realizada relatou que a proporção de brasileiros que leem
+  a bula antes de consumir medicamentos sem prescrição médica é de
+  \(79\%\). Se uma amostra de tamanho \(220\) for selecionada de forma
+  aleatória dessa população, qual a probabilidade de que a proporção
+  amostral seja maior que \(80\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6657\)
+  \item
+    \(0.3594\)
+  \item
+    \(0.2192\)
+  \item
+    \(0.4761\)
+  \item
+    \(0.4920\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.79\) e
+  \(\sigma = \sqrt{\frac{0.79\times0.21}{220}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.8\right) &= 1 - P\left(\frac{\hat{p}-0.79}{0.0275} < \frac{0.8-0.79}{0.0275}\right) \\
+   & = 1 - P\left(Z<0.36\right) = 0.3594.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma pesquisa realizada relatou que a proporção de brasileiros que leem
+  a bula antes de consumir medicamentos sem prescrição médica é de
+  \(76\%\). Se uma amostra de tamanho \(200\) for selecionada de forma
+  aleatória dessa população, qual a probabilidade de que a proporção
+  amostral seja maior que \(78\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6961\)
+  \item
+    \(0.2546\)
+  \item
+    \(0.4801\)
+  \item
+    \(0.8643\)
+  \item
+    \(0.4562\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.76\) e
+  \(\sigma = \sqrt{\frac{0.76\times0.24}{200}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.78\right) &= 1 - P\left(\frac{\hat{p}-0.76}{0.0302} < \frac{0.78-0.76}{0.0302}\right) \\
+   & = 1 - P\left(Z<0.66\right) = 0.2546.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma pesquisa realizada relatou que a proporção de brasileiros que leem
+  a bula antes de consumir medicamentos sem prescrição médica é de
+  \(52\%\). Se uma amostra de tamanho \(250\) for selecionada de forma
+  aleatória dessa população, qual a probabilidade de que a proporção
+  amostral seja maior que \(53\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3287\)
+  \item
+    \(0.4109\)
+  \item
+    \(0.4840\)
+  \item
+    \(0.4920\)
+  \item
+    \(0.3745\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.52\) e
+  \(\sigma = \sqrt{\frac{0.52\times0.48}{250}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.53\right) &= 1 - P\left(\frac{\hat{p}-0.52}{0.0316} < \frac{0.53-0.52}{0.0316}\right) \\
+   & = 1 - P\left(Z<0.32\right) = 0.3745.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma pesquisa realizada relatou que a proporção de brasileiros que leem
+  a bula antes de consumir medicamentos sem prescrição médica é de
+  \(73\%\). Se uma amostra de tamanho \(210\) for selecionada de forma
+  aleatória dessa população, qual a probabilidade de que a proporção
+  amostral seja maior que \(74\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4920\)
+  \item
+    \(0.3707\)
+  \item
+    \(0.8260\)
+  \item
+    \(0.4801\)
+  \item
+    \(0.3422\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.73\) e
+  \(\sigma = \sqrt{\frac{0.73\times0.27}{210}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.74\right) &= 1 - P\left(\frac{\hat{p}-0.73}{0.0306} < \frac{0.74-0.73}{0.0306}\right) \\
+   & = 1 - P\left(Z<0.33\right) = 0.3707.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma pesquisa realizada relatou que a proporção de brasileiros que leem
+  a bula antes de consumir medicamentos sem prescrição médica é de
+  \(54\%\). Se uma amostra de tamanho \(300\) for selecionada de forma
+  aleatória dessa população, qual a probabilidade de que a proporção
+  amostral seja maior que \(55\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3262\)
+  \item
+    \(0.3632\)
+  \item
+    \(0.4920\)
+  \item
+    \(0.6869\)
+  \item
+    \(0.4840\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.54\) e
+  \(\sigma = \sqrt{\frac{0.54\times0.46}{300}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.55\right) &= 1 - P\left(\frac{\hat{p}-0.54}{0.0288} < \frac{0.55-0.54}{0.0288}\right) \\
+   & = 1 - P\left(Z<0.35\right) = 0.3632.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

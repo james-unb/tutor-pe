@@ -1,0 +1,451 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de energia constatou que panes na rede de distribuição
+  elétrica estão se concentrando em um determinado trecho, seguindo uma
+  distribuição Uniforme \(X \sim U[a,10]\), cuja Função de Distribuição
+  Acumulada é \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{10-a},  & a \leq x < 10, \\
+          1, & x \geq 10.
+        \end{array}
+      \right.\] Sabendo que \(P(X \leq 5)= 0.286\), qual o valor de
+  \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.000\)
+  \item
+    \(9.000\)
+  \item
+    \(0.030\)
+  \item
+    \(0.286\)
+  \item
+    \(2.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 5)= 0.286.\] Dessa forma, tem-se que
+  \(\frac{5-a}{10-a}=0.286\). Portanto, \(a=3.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de energia constatou que panes na rede de distribuição
+  elétrica estão se concentrando em um determinado trecho, seguindo uma
+  distribuição Uniforme \(X \sim U[a,10]\), cuja Função de Distribuição
+  Acumulada é \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{10-a},  & a \leq x < 10, \\
+          1, & x \geq 10.
+        \end{array}
+      \right.\] Sabendo que \(P(X \leq 8)= 0.667\), qual o valor de
+  \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.667\)
+  \item
+    \(16.000\)
+  \item
+    \(0.040\)
+  \item
+    \(3.000\)
+  \item
+    \(4.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 8)= 0.667.\] Dessa forma, tem-se que
+  \(\frac{8-a}{10-a}=0.667\). Portanto, \(a=4.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de energia constatou que panes na rede de distribuição
+  elétrica estão se concentrando em um determinado trecho, seguindo uma
+  distribuição Uniforme \(X \sim U[a,10]\), cuja Função de Distribuição
+  Acumulada é \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{10-a},  & a \leq x < 10, \\
+          1, & x \geq 10.
+        \end{array}
+      \right.\] Sabendo que \(P(X \leq 5)= 0.286\), qual o valor de
+  \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2.000\)
+  \item
+    \(0.030\)
+  \item
+    \(9.000\)
+  \item
+    \(3.000\)
+  \item
+    \(0.286\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 5)= 0.286.\] Dessa forma, tem-se que
+  \(\frac{5-a}{10-a}=0.286\). Portanto, \(a=3.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de energia constatou que panes na rede de distribuição
+  elétrica estão se concentrando em um determinado trecho, seguindo uma
+  distribuição Uniforme \(X \sim U[a,10]\), cuja Função de Distribuição
+  Acumulada é \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{10-a},  & a \leq x < 10, \\
+          1, & x \geq 10.
+        \end{array}
+      \right.\] Sabendo que \(P(X \leq 5)= 0.167\), qual o valor de
+  \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.000\)
+  \item
+    \(16.000\)
+  \item
+    \(0.040\)
+  \item
+    \(4.000\)
+  \item
+    \(0.167\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 5)= 0.167.\] Dessa forma, tem-se que
+  \(\frac{5-a}{10-a}=0.167\). Portanto, \(a=4.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de energia constatou que panes na rede de distribuição
+  elétrica estão se concentrando em um determinado trecho, seguindo uma
+  distribuição Uniforme \(X \sim U[a,10]\), cuja Função de Distribuição
+  Acumulada é \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{10-a},  & a \leq x < 10, \\
+          1, & x \geq 10.
+        \end{array}
+      \right.\] Sabendo que \(P(X \leq 6)= 0.429\), qual o valor de
+  \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.000\)
+  \item
+    \(0.030\)
+  \item
+    \(0.429\)
+  \item
+    \(9.000\)
+  \item
+    \(2.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 6)= 0.429.\] Dessa forma, tem-se que
+  \(\frac{6-a}{10-a}=0.429\). Portanto, \(a=3.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de energia constatou que panes na rede de distribuição
+  elétrica estão se concentrando em um determinado trecho, seguindo uma
+  distribuição Uniforme \(X \sim U[a,10]\), cuja Função de Distribuição
+  Acumulada é \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{10-a},  & a \leq x < 10, \\
+          1, & x \geq 10.
+        \end{array}
+      \right.\] Sabendo que \(P(X \leq 6)= 0.429\), qual o valor de
+  \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2.000\)
+  \item
+    \(0.429\)
+  \item
+    \(0.030\)
+  \item
+    \(3.000\)
+  \item
+    \(9.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 6)= 0.429.\] Dessa forma, tem-se que
+  \(\frac{6-a}{10-a}=0.429\). Portanto, \(a=3.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de energia constatou que panes na rede de distribuição
+  elétrica estão se concentrando em um determinado trecho, seguindo uma
+  distribuição Uniforme \(X \sim U[a,10]\), cuja Função de Distribuição
+  Acumulada é \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{10-a},  & a \leq x < 10, \\
+          1, & x \geq 10.
+        \end{array}
+      \right.\] Sabendo que \(P(X \leq 6)= 0.5\), qual o valor de \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.020\)
+  \item
+    \(2.000\)
+  \item
+    \(4.000\)
+  \item
+    \(0.500\)
+  \item
+    \(1.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 6)= 0.5.\] Dessa forma, tem-se que
+  \(\frac{6-a}{10-a}=0.5\). Portanto, \(a=2.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de energia constatou que panes na rede de distribuição
+  elétrica estão se concentrando em um determinado trecho, seguindo uma
+  distribuição Uniforme \(X \sim U[a,10]\), cuja Função de Distribuição
+  Acumulada é \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{10-a},  & a \leq x < 10, \\
+          1, & x \geq 10.
+        \end{array}
+      \right.\] Sabendo que \(P(X \leq 7)= 0.625\), qual o valor de
+  \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.020\)
+  \item
+    \(0.625\)
+  \item
+    \(4.000\)
+  \item
+    \(2.000\)
+  \item
+    \(1.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 7)= 0.625.\] Dessa forma, tem-se que
+  \(\frac{7-a}{10-a}=0.625\). Portanto, \(a=2.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de energia constatou que panes na rede de distribuição
+  elétrica estão se concentrando em um determinado trecho, seguindo uma
+  distribuição Uniforme \(X \sim U[a,10]\), cuja Função de Distribuição
+  Acumulada é \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{10-a},  & a \leq x < 10, \\
+          1, & x \geq 10.
+        \end{array}
+      \right.\] Sabendo que \(P(X \leq 5)= 0.167\), qual o valor de
+  \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.040\)
+  \item
+    \(3.000\)
+  \item
+    \(4.000\)
+  \item
+    \(16.000\)
+  \item
+    \(0.167\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 5)= 0.167.\] Dessa forma, tem-se que
+  \(\frac{5-a}{10-a}=0.167\). Portanto, \(a=4.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de energia constatou que panes na rede de distribuição
+  elétrica estão se concentrando em um determinado trecho, seguindo uma
+  distribuição Uniforme \(X \sim U[a,10]\), cuja Função de Distribuição
+  Acumulada é \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<a, \\
+          \frac{x-a}{10-a},  & a \leq x < 10, \\
+          1, & x \geq 10.
+        \end{array}
+      \right.\] Sabendo que \(P(X \leq 7)= 0.625\), qual o valor de
+  \(a\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.000\)
+  \item
+    \(1.000\)
+  \item
+    \(0.020\)
+  \item
+    \(0.625\)
+  \item
+    \(2.000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 7)= 0.625.\] Dessa forma, tem-se que
+  \(\frac{7-a}{10-a}=0.625\). Portanto, \(a=2.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

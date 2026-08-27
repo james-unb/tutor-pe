@@ -1,0 +1,512 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um dado agente de telemarketing consegue vender seu produto, em média,
+  para \(19\%\) dos clientes contactados. Cada venda lhe rende \(3\)
+  reais. Além desse valor fixo, para estimular os funcionários, a
+  empresa onde trabalha oferece uma gratificação extra de \(100\) reais
+  para aqueles que conseguirem realizar ao menos \(210\) vendas no mês.
+  Caso faça \(1000\) ligações, qual é a probabilide aproximada do agente
+  receber, no total, ao menos \(730\) reais em um único mês? (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.063\)
+  \item
+    \(1.000\)
+  \item
+    \(0.889\)
+  \item
+    \(0.894\)
+  \item
+    \(0.010\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de vendas realizadas, então
+  \(X \sim \text{Bin}(n, p)\), onde \(n=1000\) e \(p=0.19\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(190,12.41)\), aproximadamente. O agente receberá \(730\)
+  reais ou mais se realizar ao menos \(210\) vendas no mês.
+
+  Portanto, a aproximação da Binomial pela Normal é dada por
+  \[1- P(X \leq 209) = 0.063.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um dado agente de telemarketing consegue vender seu produto, em média,
+  para \(10\%\) dos clientes contactados. Cada venda lhe rende \(3\)
+  reais. Além desse valor fixo, para estimular os funcionários, a
+  empresa onde trabalha oferece uma gratificação extra de \(100\) reais
+  para aqueles que conseguirem realizar ao menos \(110\) vendas no mês.
+  Caso faça \(1000\) ligações, qual é a probabilide aproximada do agente
+  receber, no total, ao menos \(430\) reais em um único mês? (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.000\)
+  \item
+    \(0.171\)
+  \item
+    \(0.870\)
+  \item
+    \(0.026\)
+  \item
+    \(0.863\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de vendas realizadas, então
+  \(X \sim \text{Bin}(n, p)\), onde \(n=1000\) e \(p=0.1\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(100,9.49)\), aproximadamente. O agente receberá \(430\)
+  reais ou mais se realizar ao menos \(110\) vendas no mês.
+
+  Portanto, a aproximação da Binomial pela Normal é dada por
+  \[1- P(X \leq 109) = 0.171.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um dado agente de telemarketing consegue vender seu produto, em média,
+  para \(17\%\) dos clientes contactados. Cada venda lhe rende \(3\)
+  reais. Além desse valor fixo, para estimular os funcionários, a
+  empresa onde trabalha oferece uma gratificação extra de \(100\) reais
+  para aqueles que conseguirem realizar ao menos \(180\) vendas no mês.
+  Caso faça \(1000\) ligações, qual é a probabilide aproximada do agente
+  receber, no total, ao menos \(640\) reais em um único mês? (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.000\)
+  \item
+    \(0.224\)
+  \item
+    \(0.025\)
+  \item
+    \(0.887\)
+  \item
+    \(0.884\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de vendas realizadas, então
+  \(X \sim \text{Bin}(n, p)\), onde \(n=1000\) e \(p=0.17\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(170,11.88)\), aproximadamente. O agente receberá \(640\)
+  reais ou mais se realizar ao menos \(180\) vendas no mês.
+
+  Portanto, a aproximação da Binomial pela Normal é dada por
+  \[1- P(X \leq 179) = 0.224.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um dado agente de telemarketing consegue vender seu produto, em média,
+  para \(14\%\) dos clientes contactados. Cada venda lhe rende \(3\)
+  reais. Além desse valor fixo, para estimular os funcionários, a
+  empresa onde trabalha oferece uma gratificação extra de \(100\) reais
+  para aqueles que conseguirem realizar ao menos \(160\) vendas no mês.
+  Caso faça \(1000\) ligações, qual é a probabilide aproximada do agente
+  receber, no total, ao menos \(580\) reais em um único mês? (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.000\)
+  \item
+    \(0.042\)
+  \item
+    \(0.880\)
+  \item
+    \(0.875\)
+  \item
+    \(0.008\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de vendas realizadas, então
+  \(X \sim \text{Bin}(n, p)\), onde \(n=1000\) e \(p=0.14\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(140,10.97)\), aproximadamente. O agente receberá \(580\)
+  reais ou mais se realizar ao menos \(160\) vendas no mês.
+
+  Portanto, a aproximação da Binomial pela Normal é dada por
+  \[1- P(X \leq 159) = 0.042.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um dado agente de telemarketing consegue vender seu produto, em média,
+  para \(15\%\) dos clientes contactados. Cada venda lhe rende \(3\)
+  reais. Além desse valor fixo, para estimular os funcionários, a
+  empresa onde trabalha oferece uma gratificação extra de \(100\) reais
+  para aqueles que conseguirem realizar ao menos \(170\) vendas no mês.
+  Caso faça \(1000\) ligações, qual é a probabilide aproximada do agente
+  receber, no total, ao menos \(610\) reais em um único mês? (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.009\)
+  \item
+    \(0.046\)
+  \item
+    \(1.000\)
+  \item
+    \(0.882\)
+  \item
+    \(0.878\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de vendas realizadas, então
+  \(X \sim \text{Bin}(n, p)\), onde \(n=1000\) e \(p=0.15\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(150,11.29)\), aproximadamente. O agente receberá \(610\)
+  reais ou mais se realizar ao menos \(170\) vendas no mês.
+
+  Portanto, a aproximação da Binomial pela Normal é dada por
+  \[1- P(X \leq 169) = 0.046.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um dado agente de telemarketing consegue vender seu produto, em média,
+  para \(11\%\) dos clientes contactados. Cada venda lhe rende \(3\)
+  reais. Além desse valor fixo, para estimular os funcionários, a
+  empresa onde trabalha oferece uma gratificação extra de \(100\) reais
+  para aqueles que conseguirem realizar ao menos \(130\) vendas no mês.
+  Caso faça \(1000\) ligações, qual é a probabilide aproximada do agente
+  receber, no total, ao menos \(490\) reais em um único mês? (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.006\)
+  \item
+    \(0.873\)
+  \item
+    \(0.027\)
+  \item
+    \(1.000\)
+  \item
+    \(0.866\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de vendas realizadas, então
+  \(X \sim \text{Bin}(n, p)\), onde \(n=1000\) e \(p=0.11\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(110,9.89)\), aproximadamente. O agente receberá \(490\)
+  reais ou mais se realizar ao menos \(130\) vendas no mês.
+
+  Portanto, a aproximação da Binomial pela Normal é dada por
+  \[1- P(X \leq 129) = 0.027.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um dado agente de telemarketing consegue vender seu produto, em média,
+  para \(17\%\) dos clientes contactados. Cada venda lhe rende \(3\)
+  reais. Além desse valor fixo, para estimular os funcionários, a
+  empresa onde trabalha oferece uma gratificação extra de \(100\) reais
+  para aqueles que conseguirem realizar ao menos \(190\) vendas no mês.
+  Caso faça \(1000\) ligações, qual é a probabilide aproximada do agente
+  receber, no total, ao menos \(670\) reais em um único mês? (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.009\)
+  \item
+    \(0.884\)
+  \item
+    \(0.888\)
+  \item
+    \(1.000\)
+  \item
+    \(0.055\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de vendas realizadas, então
+  \(X \sim \text{Bin}(n, p)\), onde \(n=1000\) e \(p=0.17\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(170,11.88)\), aproximadamente. O agente receberá \(670\)
+  reais ou mais se realizar ao menos \(190\) vendas no mês.
+
+  Portanto, a aproximação da Binomial pela Normal é dada por
+  \[1- P(X \leq 189) = 0.055.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um dado agente de telemarketing consegue vender seu produto, em média,
+  para \(15\%\) dos clientes contactados. Cada venda lhe rende \(3\)
+  reais. Além desse valor fixo, para estimular os funcionários, a
+  empresa onde trabalha oferece uma gratificação extra de \(100\) reais
+  para aqueles que conseguirem realizar ao menos \(170\) vendas no mês.
+  Caso faça \(1000\) ligações, qual é a probabilide aproximada do agente
+  receber, no total, ao menos \(610\) reais em um único mês? (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.000\)
+  \item
+    \(0.878\)
+  \item
+    \(0.046\)
+  \item
+    \(0.883\)
+  \item
+    \(0.009\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de vendas realizadas, então
+  \(X \sim \text{Bin}(n, p)\), onde \(n=1000\) e \(p=0.15\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(150,11.29)\), aproximadamente. O agente receberá \(610\)
+  reais ou mais se realizar ao menos \(170\) vendas no mês.
+
+  Portanto, a aproximação da Binomial pela Normal é dada por
+  \[1- P(X \leq 169) = 0.046.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um dado agente de telemarketing consegue vender seu produto, em média,
+  para \(15\%\) dos clientes contactados. Cada venda lhe rende \(3\)
+  reais. Além desse valor fixo, para estimular os funcionários, a
+  empresa onde trabalha oferece uma gratificação extra de \(100\) reais
+  para aqueles que conseguirem realizar ao menos \(170\) vendas no mês.
+  Caso faça \(1000\) ligações, qual é a probabilide aproximada do agente
+  receber, no total, ao menos \(610\) reais em um único mês? (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.877\)
+  \item
+    \(0.009\)
+  \item
+    \(0.046\)
+  \item
+    \(1.000\)
+  \item
+    \(0.883\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de vendas realizadas, então
+  \(X \sim \text{Bin}(n, p)\), onde \(n=1000\) e \(p=0.15\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(150,11.29)\), aproximadamente. O agente receberá \(610\)
+  reais ou mais se realizar ao menos \(170\) vendas no mês.
+
+  Portanto, a aproximação da Binomial pela Normal é dada por
+  \[1- P(X \leq 169) = 0.046.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um dado agente de telemarketing consegue vender seu produto, em média,
+  para \(12\%\) dos clientes contactados. Cada venda lhe rende \(3\)
+  reais. Além desse valor fixo, para estimular os funcionários, a
+  empresa onde trabalha oferece uma gratificação extra de \(100\) reais
+  para aqueles que conseguirem realizar ao menos \(130\) vendas no mês.
+  Caso faça \(1000\) ligações, qual é a probabilide aproximada do agente
+  receber, no total, ao menos \(490\) reais em um único mês? (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.000\)
+  \item
+    \(0.875\)
+  \item
+    \(0.869\)
+  \item
+    \(0.026\)
+  \item
+    \(0.191\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de vendas realizadas, então
+  \(X \sim \text{Bin}(n, p)\), onde \(n=1000\) e \(p=0.12\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(120,10.28)\), aproximadamente. O agente receberá \(490\)
+  reais ou mais se realizar ao menos \(130\) vendas no mês.
+
+  Portanto, a aproximação da Binomial pela Normal é dada por
+  \[1- P(X \leq 129) = 0.191.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

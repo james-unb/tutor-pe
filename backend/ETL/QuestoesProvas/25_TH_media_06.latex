@@ -1,0 +1,542 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros na Europa, antes de liberá-los, testa seus
+  carros para verificar se eles estão nos padrões legais de emissão de
+  carbono, que é de até \(95\) gramas de CO2 por km. Para testar se os
+  veículos respeitam esse critério, \(30\) deles foram testados,
+  fornecendo uma média amostral de \(95.68\). Considerando que a
+  variância da emissão de carbono é de \(3\), as hipóteses do teste e a
+  conclusão a um nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=95.68\; \emph{vs. }  H_a: \bar{x}>95.68\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=95\; \emph{vs. }  H_a: \mu \neq 95\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=95\; \emph{vs. }  H_a: \bar{x}=95.68\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) é rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\leq95\)
+  \emph{vs.} \(H_a: \mu > 95\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=95)=P\left(Z>\frac{c-95}{\sqrt{3/30}}\right)=0.05\).
+
+  Portanto, \(\frac{c-95}{\sqrt{3/30}}=1.64 \Rightarrow c=95.52\).
+
+  Daí, como \(\bar{x} =\) \(95.68 > 95.52\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros na Europa, antes de liberá-los, testa seus
+  carros para verificar se eles estão nos padrões legais de emissão de
+  carbono, que é de até \(95\) gramas de CO2 por km. Para testar se os
+  veículos respeitam esse critério, \(34\) deles foram testados,
+  fornecendo uma média amostral de \(95.32\). Considerando que a
+  variância da emissão de carbono é de \(2\), as hipóteses do teste e a
+  conclusão a um nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=95\; \emph{vs. }  H_a: \bar{x}=95.32\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=95.32\; \emph{vs. }  H_a: \bar{x}>95.32\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \mu=95\; \emph{vs. }  H_a: \mu \neq 95\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\leq95\)
+  \emph{vs.} \(H_a: \mu > 95\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=95)=P\left(Z>\frac{c-95}{\sqrt{2/34}}\right)=0.05\).
+
+  Portanto, \(\frac{c-95}{\sqrt{2/34}}=1.64 \Rightarrow c=95.4\).
+
+  Daí, como \(\bar{x} =\) \(95.32 < 95.4\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros na Europa, antes de liberá-los, testa seus
+  carros para verificar se eles estão nos padrões legais de emissão de
+  carbono, que é de até \(95\) gramas de CO2 por km. Para testar se os
+  veículos respeitam esse critério, \(33\) deles foram testados,
+  fornecendo uma média amostral de \(95.32\). Considerando que a
+  variância da emissão de carbono é de \(2\), as hipóteses do teste e a
+  conclusão a um nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=95\; \emph{vs. }  H_a: \bar{x}=95.32\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=95\; \emph{vs. }  H_a: \mu \neq 95\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=95.32\; \emph{vs. }  H_a: \bar{x}>95.32\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\leq95\)
+  \emph{vs.} \(H_a: \mu > 95\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=95)=P\left(Z>\frac{c-95}{\sqrt{2/33}}\right)=0.05\).
+
+  Portanto, \(\frac{c-95}{\sqrt{2/33}}=1.64 \Rightarrow c=95.4\).
+
+  Daí, como \(\bar{x} =\) \(95.32 < 95.4\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros na Europa, antes de liberá-los, testa seus
+  carros para verificar se eles estão nos padrões legais de emissão de
+  carbono, que é de até \(95\) gramas de CO2 por km. Para testar se os
+  veículos respeitam esse critério, \(43\) deles foram testados,
+  fornecendo uma média amostral de \(95.57\). Considerando que a
+  variância da emissão de carbono é de \(3\), as hipóteses do teste e a
+  conclusão a um nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=95\; \emph{vs. }  H_a: \bar{x}=95.57\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \mu=95\; \emph{vs. }  H_a: \mu \neq 95\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=95.57\; \emph{vs. }  H_a: \bar{x}>95.57\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\leq95\)
+  \emph{vs.} \(H_a: \mu > 95\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=95)=P\left(Z>\frac{c-95}{\sqrt{3/43}}\right)=0.05\).
+
+  Portanto, \(\frac{c-95}{\sqrt{3/43}}=1.64 \Rightarrow c=95.43\).
+
+  Daí, como \(\bar{x} =\) \(95.57 > 95.43\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros na Europa, antes de liberá-los, testa seus
+  carros para verificar se eles estão nos padrões legais de emissão de
+  carbono, que é de até \(95\) gramas de CO2 por km. Para testar se os
+  veículos respeitam esse critério, \(37\) deles foram testados,
+  fornecendo uma média amostral de \(95.52\). Considerando que a
+  variância da emissão de carbono é de \(2\), as hipóteses do teste e a
+  conclusão a um nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=95\; \emph{vs. }  H_a: \bar{x}=95.52\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \bar{x}=95.52\; \emph{vs. }  H_a: \bar{x}>95.52\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=95\; \emph{vs. }  H_a: \mu \neq 95\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\leq95\)
+  \emph{vs.} \(H_a: \mu > 95\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=95)=P\left(Z>\frac{c-95}{\sqrt{2/37}}\right)=0.05\).
+
+  Portanto, \(\frac{c-95}{\sqrt{2/37}}=1.64 \Rightarrow c=95.38\).
+
+  Daí, como \(\bar{x} =\) \(95.52 > 95.38\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros na Europa, antes de liberá-los, testa seus
+  carros para verificar se eles estão nos padrões legais de emissão de
+  carbono, que é de até \(95\) gramas de CO2 por km. Para testar se os
+  veículos respeitam esse critério, \(45\) deles foram testados,
+  fornecendo uma média amostral de \(95.27\). Considerando que a
+  variância da emissão de carbono é de \(2\), as hipóteses do teste e a
+  conclusão a um nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=95.27\; \emph{vs. }  H_a: \bar{x}>95.27\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=95\; \emph{vs. }  H_a: \mu \neq 95\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=95\; \emph{vs. }  H_a: \bar{x}=95.27\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) é rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\leq95\)
+  \emph{vs.} \(H_a: \mu > 95\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=95)=P\left(Z>\frac{c-95}{\sqrt{2/45}}\right)=0.05\).
+
+  Portanto, \(\frac{c-95}{\sqrt{2/45}}=1.64 \Rightarrow c=95.35\).
+
+  Daí, como \(\bar{x} =\) \(95.27 < 95.35\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros na Europa, antes de liberá-los, testa seus
+  carros para verificar se eles estão nos padrões legais de emissão de
+  carbono, que é de até \(95\) gramas de CO2 por km. Para testar se os
+  veículos respeitam esse critério, \(35\) deles foram testados,
+  fornecendo uma média amostral de \(95.38\). Considerando que a
+  variância da emissão de carbono é de \(3\), as hipóteses do teste e a
+  conclusão a um nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \mu=95\; \emph{vs. }  H_a: \mu \neq 95\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=95.38\; \emph{vs. }  H_a: \bar{x}>95.38\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=95\; \emph{vs. }  H_a: \bar{x}=95.38\). \(H_0\) não é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\leq95\)
+  \emph{vs.} \(H_a: \mu > 95\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=95)=P\left(Z>\frac{c-95}{\sqrt{3/35}}\right)=0.05\).
+
+  Portanto, \(\frac{c-95}{\sqrt{3/35}}=1.64 \Rightarrow c=95.48\).
+
+  Daí, como \(\bar{x} =\) \(95.38 < 95.48\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros na Europa, antes de liberá-los, testa seus
+  carros para verificar se eles estão nos padrões legais de emissão de
+  carbono, que é de até \(95\) gramas de CO2 por km. Para testar se os
+  veículos respeitam esse critério, \(39\) deles foram testados,
+  fornecendo uma média amostral de \(95.36\). Considerando que a
+  variância da emissão de carbono é de \(3\), as hipóteses do teste e a
+  conclusão a um nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=95.36\; \emph{vs. }  H_a: \bar{x}>95.36\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=95\; \emph{vs. }  H_a: \bar{x}=95.36\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=95\; \emph{vs. }  H_a: \mu \neq 95\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\leq95\)
+  \emph{vs.} \(H_a: \mu > 95\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=95)=P\left(Z>\frac{c-95}{\sqrt{3/39}}\right)=0.05\).
+
+  Portanto, \(\frac{c-95}{\sqrt{3/39}}=1.64 \Rightarrow c=95.45\).
+
+  Daí, como \(\bar{x} =\) \(95.36 < 95.45\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros na Europa, antes de liberá-los, testa seus
+  carros para verificar se eles estão nos padrões legais de emissão de
+  carbono, que é de até \(95\) gramas de CO2 por km. Para testar se os
+  veículos respeitam esse critério, \(49\) deles foram testados,
+  fornecendo uma média amostral de \(95.27\). Considerando que a
+  variância da emissão de carbono é de \(2\), as hipóteses do teste e a
+  conclusão a um nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=95.27\; \emph{vs. }  H_a: \bar{x}>95.27\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=95\; \emph{vs. }  H_a: \bar{x}=95.27\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=95\; \emph{vs. }  H_a: \mu \neq 95\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) é rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\leq95\)
+  \emph{vs.} \(H_a: \mu > 95\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=95)=P\left(Z>\frac{c-95}{\sqrt{2/49}}\right)=0.05\).
+
+  Portanto, \(\frac{c-95}{\sqrt{2/49}}=1.64 \Rightarrow c=95.33\).
+
+  Daí, como \(\bar{x} =\) \(95.27 < 95.33\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de carros na Europa, antes de liberá-los, testa seus
+  carros para verificar se eles estão nos padrões legais de emissão de
+  carbono, que é de até \(95\) gramas de CO2 por km. Para testar se os
+  veículos respeitam esse critério, \(45\) deles foram testados,
+  fornecendo uma média amostral de \(95.46\). Considerando que a
+  variância da emissão de carbono é de \(2\), as hipóteses do teste e a
+  conclusão a um nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq95\; \emph{vs. }  H_a: \mu>95\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \bar{x}=95\; \emph{vs. }  H_a: \bar{x}=95.46\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=95\; \emph{vs. }  H_a: \mu \neq 95\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=95.46\; \emph{vs. }  H_a: \bar{x}>95.46\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu\leq95\)
+  \emph{vs.} \(H_a: \mu > 95\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=95)=P\left(Z>\frac{c-95}{\sqrt{2/45}}\right)=0.05\).
+
+  Portanto, \(\frac{c-95}{\sqrt{2/45}}=1.64 \Rightarrow c=95.35\).
+
+  Daí, como \(\bar{x} =\) \(95.46 > 95.35\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

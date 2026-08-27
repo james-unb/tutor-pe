@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em um dia ensolarado, a probabilidade de um motociclista sofrer um
+  acidente de moto (caso a use) é de \(0.0007\). Considerando que
+  acidentes ocorrem de forma independente (uns dos outros), se, em um
+  dia de sol, \(4714\) motociclistas pilotarem suas motos, qual é a
+  probabilidade de observarmos exatamente \(3\) acidentes (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.214\)
+  \item
+    \(0.786\)
+  \item
+    \(0.217\)
+  \item
+    \(0.779\)
+  \item
+    \(0.221\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de acidentes tem distribuição binomial com parâmetros \(n\) e
+  \(p\), ou seja, \(X \sim \text{Bin}(4714,0.0007)\). Utilizando a
+  aproximação de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=3.3)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=3\), é dada por
+  \[P(X= 3 | X \sim \text{Bin}(4714,0.0007)) \approx P(X= 3 | X \sim \text{Pois}(3.3)) = 22.1\%.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um dia ensolarado, a probabilidade de um motociclista sofrer um
+  acidente de moto (caso a use) é de \(0.0008\). Considerando que
+  acidentes ocorrem de forma independente (uns dos outros), se, em um
+  dia de sol, \(5625\) motociclistas pilotarem suas motos, qual é a
+  probabilidade de observarmos exatamente \(6\) acidentes (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.137\)
+  \item
+    \(0.854\)
+  \item
+    \(0.146\)
+  \item
+    \(0.872\)
+  \item
+    \(0.128\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de acidentes tem distribuição binomial com parâmetros \(n\) e
+  \(p\), ou seja, \(X \sim \text{Bin}(5625,0.0008)\). Utilizando a
+  aproximação de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=4.5)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=6\), é dada por
+  \[P(X= 6 | X \sim \text{Bin}(5625,0.0008)) \approx P(X= 6 | X \sim \text{Pois}(4.5)) = 12.8\%.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um dia ensolarado, a probabilidade de um motociclista sofrer um
+  acidente de moto (caso a use) é de \(0.0007\). Considerando que
+  acidentes ocorrem de forma independente (uns dos outros), se, em um
+  dia de sol, \(5285\) motociclistas pilotarem suas motos, qual é a
+  probabilidade de observarmos exatamente \(6\) acidentes (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.095\)
+  \item
+    \(0.102\)
+  \item
+    \(0.088\)
+  \item
+    \(0.912\)
+  \item
+    \(0.898\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de acidentes tem distribuição binomial com parâmetros \(n\) e
+  \(p\), ou seja, \(X \sim \text{Bin}(5285,0.0007)\). Utilizando a
+  aproximação de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=3.7)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=6\), é dada por
+  \[P(X= 6 | X \sim \text{Bin}(5285,0.0007)) \approx P(X= 6 | X \sim \text{Pois}(3.7)) = 8.8\%.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um dia ensolarado, a probabilidade de um motociclista sofrer um
+  acidente de moto (caso a use) é de \(0.0008\). Considerando que
+  acidentes ocorrem de forma independente (uns dos outros), se, em um
+  dia de sol, \(4625\) motociclistas pilotarem suas motos, qual é a
+  probabilidade de observarmos exatamente \(6\) acidentes (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.912\)
+  \item
+    \(0.088\)
+  \item
+    \(0.095\)
+  \item
+    \(0.898\)
+  \item
+    \(0.102\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de acidentes tem distribuição binomial com parâmetros \(n\) e
+  \(p\), ou seja, \(X \sim \text{Bin}(4625,0.0008)\). Utilizando a
+  aproximação de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=3.7)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=6\), é dada por
+  \[P(X= 6 | X \sim \text{Bin}(4625,0.0008)) \approx P(X= 6 | X \sim \text{Pois}(3.7)) = 8.8\%.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um dia ensolarado, a probabilidade de um motociclista sofrer um
+  acidente de moto (caso a use) é de \(0.0007\). Considerando que
+  acidentes ocorrem de forma independente (uns dos outros), se, em um
+  dia de sol, \(4285\) motociclistas pilotarem suas motos, qual é a
+  probabilidade de observarmos exatamente \(2\) acidentes (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.193\)
+  \item
+    \(0.807\)
+  \item
+    \(0.224\)
+  \item
+    \(0.776\)
+  \item
+    \(0.209\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de acidentes tem distribuição binomial com parâmetros \(n\) e
+  \(p\), ou seja, \(X \sim \text{Bin}(4285,0.0007)\). Utilizando a
+  aproximação de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=3)\). Portanto, a probabilidade de observarmos
+  exatamente \(X=2\), é dada por
+  \[P(X= 2 | X \sim \text{Bin}(4285,0.0007)) \approx P(X= 2 | X \sim \text{Pois}(3)) = 22.4\%.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um dia ensolarado, a probabilidade de um motociclista sofrer um
+  acidente de moto (caso a use) é de \(0.0007\). Considerando que
+  acidentes ocorrem de forma independente (uns dos outros), se, em um
+  dia de sol, \(3428\) motociclistas pilotarem suas motos, qual é a
+  probabilidade de observarmos exatamente \(4\) acidentes (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.151\)
+  \item
+    \(0.849\)
+  \item
+    \(0.138\)
+  \item
+    \(0.125\)
+  \item
+    \(0.875\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de acidentes tem distribuição binomial com parâmetros \(n\) e
+  \(p\), ou seja, \(X \sim \text{Bin}(3428,0.0007)\). Utilizando a
+  aproximação de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=2.4)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=4\), é dada por
+  \[P(X= 4 | X \sim \text{Bin}(3428,0.0007)) \approx P(X= 4 | X \sim \text{Pois}(2.4)) = 12.5\%.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um dia ensolarado, a probabilidade de um motociclista sofrer um
+  acidente de moto (caso a use) é de \(0.0002\). Considerando que
+  acidentes ocorrem de forma independente (uns dos outros), se, em um
+  dia de sol, \(18000\) motociclistas pilotarem suas motos, qual é a
+  probabilidade de observarmos exatamente \(6\) acidentes (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.917\)
+  \item
+    \(0.905\)
+  \item
+    \(0.095\)
+  \item
+    \(0.089\)
+  \item
+    \(0.083\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de acidentes tem distribuição binomial com parâmetros \(n\) e
+  \(p\), ou seja, \(X \sim \text{Bin}(18000,0.0002)\). Utilizando a
+  aproximação de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=3.6)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=6\), é dada por
+  \[P(X= 6 | X \sim \text{Bin}(18000,0.0002)) \approx P(X= 6 | X \sim \text{Pois}(3.6)) = 8.3\%.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um dia ensolarado, a probabilidade de um motociclista sofrer um
+  acidente de moto (caso a use) é de \(0.0009\). Considerando que
+  acidentes ocorrem de forma independente (uns dos outros), se, em um
+  dia de sol, \(3000\) motociclistas pilotarem suas motos, qual é a
+  probabilidade de observarmos exatamente \(2\) acidentes (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.232\)
+  \item
+    \(0.219\)
+  \item
+    \(0.781\)
+  \item
+    \(0.755\)
+  \item
+    \(0.245\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de acidentes tem distribuição binomial com parâmetros \(n\) e
+  \(p\), ou seja, \(X \sim \text{Bin}(3000,0.0009)\). Utilizando a
+  aproximação de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=2.7)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=2\), é dada por
+  \[P(X= 2 | X \sim \text{Bin}(3000,0.0009)) \approx P(X= 2 | X \sim \text{Pois}(2.7)) = 24.5\%.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um dia ensolarado, a probabilidade de um motociclista sofrer um
+  acidente de moto (caso a use) é de \(0.0008\). Considerando que
+  acidentes ocorrem de forma independente (uns dos outros), se, em um
+  dia de sol, \(2874\) motociclistas pilotarem suas motos, qual é a
+  probabilidade de observarmos exatamente \(4\) acidentes (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.859\)
+  \item
+    \(0.883\)
+  \item
+    \(0.129\)
+  \item
+    \(0.141\)
+  \item
+    \(0.117\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de acidentes tem distribuição binomial com parâmetros \(n\) e
+  \(p\), ou seja, \(X \sim \text{Bin}(2874,0.0008)\). Utilizando a
+  aproximação de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=2.3)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=4\), é dada por
+  \[P(X= 4 | X \sim \text{Bin}(2874,0.0008)) \approx P(X= 4 | X \sim \text{Pois}(2.3)) = 11.7\%.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um dia ensolarado, a probabilidade de um motociclista sofrer um
+  acidente de moto (caso a use) é de \(0.0009\). Considerando que
+  acidentes ocorrem de forma independente (uns dos outros), se, em um
+  dia de sol, \(4555\) motociclistas pilotarem suas motos, qual é a
+  probabilidade de observarmos exatamente \(6\) acidentes (utilize a
+  aproximação de poisson da distribuição binomial)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.891\)
+  \item
+    \(0.109\)
+  \item
+    \(0.873\)
+  \item
+    \(0.127\)
+  \item
+    \(0.118\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O número de acidentes tem distribuição binomial com parâmetros \(n\) e
+  \(p\), ou seja, \(X \sim \text{Bin}(4555,0.0009)\). Utilizando a
+  aproximação de Poisson para a Binomial, tem-se, aproximadamente, que
+  \(X \sim \text{Pois}(np=4.1)\). Portanto, a probabilidade de
+  observarmos exatamente \(X=6\), é dada por
+  \[P(X= 6 | X \sim \text{Bin}(4555,0.0009)) \approx P(X= 6 | X \sim \text{Pois}(4.1)) = 10.9\%.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,368 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, deseja-se que a taxa de itens defeituosos
+  não ultrapasse \(2\%\). Caso isso ocorra, será necessário parar a
+  máquina para avaliar o problema. Considerando que os prejuízos em
+  parar a máquina são muito altos, a empresa decide tomar sua decisão
+  realizando periodicamente um teste de hipóteses com nível de
+  significância de \(1\%\). Para uma determinada amostra, os
+  responsáveis técnicos obtiveram p-valor igual a \(0.08\). Dessa forma:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a máquina não está
+    operando adequadamente.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a máquina está
+    operando adequadamente.
+  \item
+    Não se rejeita a hipótese nula. A maquina certamente está operando
+    adequadamente.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que de que a máquina
+    não está operando adequadamente.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a máquina
+    não está operando adequadamente.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 2\%\) \emph{vs.} \(H_a: p > 2\%\).
+
+  Portanto, p-valor = \(0.08 > 0.01\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Em uma linha de produção, deseja-se que a taxa de itens defeituosos não ultrapasse\)2\%\(. Caso isso ocorra, será necessário parar a máquina para avaliar o problema. Considerando que os prejuízos em parar a máquina são muito altos, a empresa decide tomar sua decisão realizando periodicamente um teste de hipóteses com nível de significância de\)10\%\(. Para uma determinada amostra, os responsáveis técnicos obtiveram p-valor igual a\)0.03\(. Dessa forma:
+
+
+    \begin{enumerate}[(a)]
+      \item Rejeita-se a hipótese nula. Há evidência de que a máquina não está operando adequadamente.
+      \item Rejeita-se a hipótese nula. Há evidência de que a máquina está operando adequadamente.
+      \item Não se rejeita a hipótese nula. Há evidência de que de que a máquina não está operando adequadamente.
+      \item Não se rejeita a hipótese nula. Não há evidência de que a máquina não está operando adequadamente.
+      \item Não se rejeita a hipótese nula. A maquina certamente está operando adequadamente.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textgreater{} 2\%\(. 
+
+  Portanto, p-valor =\)0.03 \textless{} 0.1\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, deseja-se que a taxa de itens defeituosos
+  não ultrapasse \(2\%\). Caso isso ocorra, será necessário parar a
+  máquina para avaliar o problema. Considerando que os prejuízos em
+  parar a máquina são muito altos, a empresa decide tomar sua decisão
+  realizando periodicamente um teste de hipóteses com nível de
+  significância de \(5\%\). Para uma determinada amostra, os
+  responsáveis técnicos obtiveram p-valor igual a \(0.01\). Dessa forma:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a máquina está
+    operando adequadamente.
+  \item
+    Não se rejeita a hipótese nula. A maquina certamente está operando
+    adequadamente.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a máquina
+    não está operando adequadamente.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que de que a máquina
+    não está operando adequadamente.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a máquina não está
+    operando adequadamente.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 2\%\) \emph{vs.} \(H_a: p > 2\%\).
+
+  Portanto, p-valor = \(0.01 < 0.05\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Em uma linha de produção, deseja-se que a taxa de itens defeituosos não ultrapasse\)2\%\(. Caso isso ocorra, será necessário parar a máquina para avaliar o problema. Considerando que os prejuízos em parar a máquina são muito altos, a empresa decide tomar sua decisão realizando periodicamente um teste de hipóteses com nível de significância de\)9\%\(. Para uma determinada amostra, os responsáveis técnicos obtiveram p-valor igual a\)0.01\(. Dessa forma:
+
+
+    \begin{enumerate}[(a)]
+      \item Rejeita-se a hipótese nula. Há evidência de que a máquina não está operando adequadamente.
+      \item Não se rejeita a hipótese nula. A maquina certamente está operando adequadamente.
+      \item Não se rejeita a hipótese nula. Não há evidência de que a máquina não está operando adequadamente.
+      \item Não se rejeita a hipótese nula. Há evidência de que de que a máquina não está operando adequadamente.
+      \item Rejeita-se a hipótese nula. Há evidência de que a máquina está operando adequadamente.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textgreater{} 2\%\(. 
+
+  Portanto, p-valor =\)0.01 \textless{} 0.09\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, deseja-se que a taxa de itens defeituosos
+  não ultrapasse \(2\%\). Caso isso ocorra, será necessário parar a
+  máquina para avaliar o problema. Considerando que os prejuízos em
+  parar a máquina são muito altos, a empresa decide tomar sua decisão
+  realizando periodicamente um teste de hipóteses com nível de
+  significância de \(1\%\). Para uma determinada amostra, os
+  responsáveis técnicos obtiveram p-valor igual a \(0.06\). Dessa forma:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a máquina não está
+    operando adequadamente.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que de que a máquina
+    não está operando adequadamente.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a máquina está
+    operando adequadamente.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a máquina
+    não está operando adequadamente.
+  \item
+    Não se rejeita a hipótese nula. A maquina certamente está operando
+    adequadamente.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 2\%\) \emph{vs.} \(H_a: p > 2\%\).
+
+  Portanto, p-valor = \(0.06 > 0.01\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Em uma linha de produção, deseja-se que a taxa de itens defeituosos não ultrapasse\)2\%\(. Caso isso ocorra, será necessário parar a máquina para avaliar o problema. Considerando que os prejuízos em parar a máquina são muito altos, a empresa decide tomar sua decisão realizando periodicamente um teste de hipóteses com nível de significância de\)7\%\(. Para uma determinada amostra, os responsáveis técnicos obtiveram p-valor igual a\)0.04\(. Dessa forma:
+
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. Não há evidência de que a máquina não está operando adequadamente.
+      \item Rejeita-se a hipótese nula. Há evidência de que a máquina não está operando adequadamente.
+      \item Rejeita-se a hipótese nula. Há evidência de que a máquina está operando adequadamente.
+      \item Não se rejeita a hipótese nula. Há evidência de que de que a máquina não está operando adequadamente.
+      \item Não se rejeita a hipótese nula. A maquina certamente está operando adequadamente.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textgreater{} 2\%\(. 
+
+  Portanto, p-valor =\)0.04 \textless{} 0.07\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, deseja-se que a taxa de itens defeituosos
+  não ultrapasse \(2\%\). Caso isso ocorra, será necessário parar a
+  máquina para avaliar o problema. Considerando que os prejuízos em
+  parar a máquina são muito altos, a empresa decide tomar sua decisão
+  realizando periodicamente um teste de hipóteses com nível de
+  significância de \(3\%\). Para uma determinada amostra, os
+  responsáveis técnicos obtiveram p-valor igual a \(0.01\). Dessa forma:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. A maquina certamente está operando
+    adequadamente.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a máquina
+    não está operando adequadamente.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a máquina não está
+    operando adequadamente.
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que de que a máquina
+    não está operando adequadamente.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a máquina está
+    operando adequadamente.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 2\%\) \emph{vs.} \(H_a: p > 2\%\).
+
+  Portanto, p-valor = \(0.01 < 0.03\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Em uma linha de produção, deseja-se que a taxa de itens defeituosos não ultrapasse\)2\%\(. Caso isso ocorra, será necessário parar a máquina para avaliar o problema. Considerando que os prejuízos em parar a máquina são muito altos, a empresa decide tomar sua decisão realizando periodicamente um teste de hipóteses com nível de significância de\)10\%\(. Para uma determinada amostra, os responsáveis técnicos obtiveram p-valor igual a\)0.07\(. Dessa forma:
+
+
+    \begin{enumerate}[(a)]
+      \item Rejeita-se a hipótese nula. Há evidência de que a máquina está operando adequadamente.
+      \item Não se rejeita a hipótese nula. Há evidência de que de que a máquina não está operando adequadamente.
+      \item Não se rejeita a hipótese nula. Não há evidência de que a máquina não está operando adequadamente.
+      \item Não se rejeita a hipótese nula. A maquina certamente está operando adequadamente.
+      \item Rejeita-se a hipótese nula. Há evidência de que a máquina não está operando adequadamente.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textgreater{} 2\%\(. 
+
+  Portanto, p-valor =\)0.07 \textless{} 0.1\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em uma linha de produção, deseja-se que a taxa de itens defeituosos
+  não ultrapasse \(2\%\). Caso isso ocorra, será necessário parar a
+  máquina para avaliar o problema. Considerando que os prejuízos em
+  parar a máquina são muito altos, a empresa decide tomar sua decisão
+  realizando periodicamente um teste de hipóteses com nível de
+  significância de \(4\%\). Para uma determinada amostra, os
+  responsáveis técnicos obtiveram p-valor igual a \(0.02\). Dessa forma:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que de que a máquina
+    não está operando adequadamente.
+  \item
+    Não se rejeita a hipótese nula. A maquina certamente está operando
+    adequadamente.
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a máquina
+    não está operando adequadamente.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a máquina não está
+    operando adequadamente.
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a máquina está
+    operando adequadamente.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \leq 2\%\) \emph{vs.} \(H_a: p > 2\%\).
+
+  Portanto, p-valor = \(0.02 < 0.04\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Em uma linha de produção, deseja-se que a taxa de itens defeituosos não ultrapasse\)2\%\(. Caso isso ocorra, será necessário parar a máquina para avaliar o problema. Considerando que os prejuízos em parar a máquina são muito altos, a empresa decide tomar sua decisão realizando periodicamente um teste de hipóteses com nível de significância de\)2\%\(. Para uma determinada amostra, os responsáveis técnicos obtiveram p-valor igual a\)0.05\(. Dessa forma:
+
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. A maquina certamente está operando adequadamente.
+      \item Não se rejeita a hipótese nula. Há evidência de que de que a máquina não está operando adequadamente.
+      \item Rejeita-se a hipótese nula. Há evidência de que a máquina está operando adequadamente.
+      \item Não se rejeita a hipótese nula. Não há evidência de que a máquina não está operando adequadamente.
+      \item Rejeita-se a hipótese nula. Há evidência de que a máquina não está operando adequadamente.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textgreater{} 2\%\(. 
+
+  Portanto, p-valor =\)0.05 \textgreater{}
+  0.02\(e não se rejeita\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

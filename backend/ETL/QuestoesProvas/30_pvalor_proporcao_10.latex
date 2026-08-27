@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Alguns especialistas sugerem que menos da metade da população
+  universitária é formada por alunos provindos de escolas da rede
+  pública. Um grupo de pesquisadores deseja validar a afirmação por meio
+  de um teste de hipóteses. Para tanto, os pesquisadores coletaram uma
+  amostra aleatória de \(175\) universitários, dos quais 68 eram
+  provindos de escolas da rede pública. Com base nas informações
+  assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4992\)
+  \item
+    \(0.0013\)
+  \item
+    \(0.8886\)
+  \item
+    \(0.9984\)
+  \item
+    \(0.0016\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.5 \ \ versus \ \ H_a : p < 0.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -2.948\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-2.948) = 0.0016.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Alguns especialistas sugerem que menos da metade da população
+  universitária é formada por alunos provindos de escolas da rede
+  pública. Um grupo de pesquisadores deseja validar a afirmação por meio
+  de um teste de hipóteses. Para tanto, os pesquisadores coletaram uma
+  amostra aleatória de \(200\) universitários, dos quais 79 eram
+  provindos de escolas da rede pública. Com base nas informações
+  assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0012\)
+  \item
+    \(0.4993\)
+  \item
+    \(0.8887\)
+  \item
+    \(0.0015\)
+  \item
+    \(0.9985\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.5 \ \ versus \ \ H_a : p < 0.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -2.97\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-2.97) = 0.0015.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Alguns especialistas sugerem que menos da metade da população
+  universitária é formada por alunos provindos de escolas da rede
+  pública. Um grupo de pesquisadores deseja validar a afirmação por meio
+  de um teste de hipóteses. Para tanto, os pesquisadores coletaram uma
+  amostra aleatória de \(246\) universitários, dos quais 110 eram
+  provindos de escolas da rede pública. Com base nas informações
+  assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0389\)
+  \item
+    \(0.8467\)
+  \item
+    \(0.0487\)
+  \item
+    \(0.4757\)
+  \item
+    \(0.9513\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.5 \ \ versus \ \ H_a : p < 0.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.658\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.658) = 0.0487.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Alguns especialistas sugerem que menos da metade da população
+  universitária é formada por alunos provindos de escolas da rede
+  pública. Um grupo de pesquisadores deseja validar a afirmação por meio
+  de um teste de hipóteses. Para tanto, os pesquisadores coletaram uma
+  amostra aleatória de \(230\) universitários, dos quais 88 eram
+  provindos de escolas da rede pública. Com base nas informações
+  assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4999\)
+  \item
+    \(0.0001\)
+  \item
+    \(0.0002\)
+  \item
+    \(0.9998\)
+  \item
+    \(0.8898\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.5 \ \ versus \ \ H_a : p < 0.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -3.561\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-3.561) = 2e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Alguns especialistas sugerem que menos da metade da população
+  universitária é formada por alunos provindos de escolas da rede
+  pública. Um grupo de pesquisadores deseja validar a afirmação por meio
+  de um teste de hipóteses. Para tanto, os pesquisadores coletaram uma
+  amostra aleatória de \(161\) universitários, dos quais 86 eram
+  provindos de escolas da rede pública. Com base nas informações
+  assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0965\)
+  \item
+    \(0.8070\)
+  \item
+    \(0.1930\)
+  \item
+    \(0.1717\)
+  \item
+    \(0.6456\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.5 \ \ versus \ \ H_a : p < 0.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.867\] e o
+  p-valor \[\alpha^{*} = P(Z\leq0.867) = 0.807.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Alguns especialistas sugerem que menos da metade da população
+  universitária é formada por alunos provindos de escolas da rede
+  pública. Um grupo de pesquisadores deseja validar a afirmação por meio
+  de um teste de hipóteses. Para tanto, os pesquisadores coletaram uma
+  amostra aleatória de \(176\) universitários, dos quais 96 eram
+  provindos de escolas da rede pública. Com base nas informações
+  assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1139\)
+  \item
+    \(0.8861\)
+  \item
+    \(0.7089\)
+  \item
+    \(0.1014\)
+  \item
+    \(0.0570\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.5 \ \ versus \ \ H_a : p < 0.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 1.206\] e o
+  p-valor \[\alpha^{*} = P(Z\leq1.206) = 0.8861.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Alguns especialistas sugerem que menos da metade da população
+  universitária é formada por alunos provindos de escolas da rede
+  pública. Um grupo de pesquisadores deseja validar a afirmação por meio
+  de um teste de hipóteses. Para tanto, os pesquisadores coletaram uma
+  amostra aleatória de \(221\) universitários, dos quais 115 eram
+  provindos de escolas da rede pública. Com base nas informações
+  assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5819\)
+  \item
+    \(0.2426\)
+  \item
+    \(0.2726\)
+  \item
+    \(0.1363\)
+  \item
+    \(0.7274\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.5 \ \ versus \ \ H_a : p < 0.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.605\] e o
+  p-valor \[\alpha^{*} = P(Z\leq0.605) = 0.7274.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Alguns especialistas sugerem que menos da metade da população
+  universitária é formada por alunos provindos de escolas da rede
+  pública. Um grupo de pesquisadores deseja validar a afirmação por meio
+  de um teste de hipóteses. Para tanto, os pesquisadores coletaram uma
+  amostra aleatória de \(158\) universitários, dos quais 73 eram
+  provindos de escolas da rede pública. Com base nas informações
+  assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8302\)
+  \item
+    \(0.1358\)
+  \item
+    \(0.7389\)
+  \item
+    \(0.1698\)
+  \item
+    \(0.4151\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.5 \ \ versus \ \ H_a : p < 0.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.955\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.955) = 0.1698.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Alguns especialistas sugerem que menos da metade da população
+  universitária é formada por alunos provindos de escolas da rede
+  pública. Um grupo de pesquisadores deseja validar a afirmação por meio
+  de um teste de hipóteses. Para tanto, os pesquisadores coletaram uma
+  amostra aleatória de \(227\) universitários, dos quais 101 eram
+  provindos de escolas da rede pública. Com base nas informações
+  assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9514\)
+  \item
+    \(0.0388\)
+  \item
+    \(0.0486\)
+  \item
+    \(0.8468\)
+  \item
+    \(0.4757\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.5 \ \ versus \ \ H_a : p < 0.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.659\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.659) = 0.0486.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Alguns especialistas sugerem que menos da metade da população
+  universitária é formada por alunos provindos de escolas da rede
+  pública. Um grupo de pesquisadores deseja validar a afirmação por meio
+  de um teste de hipóteses. Para tanto, os pesquisadores coletaram uma
+  amostra aleatória de \(243\) universitários, dos quais 125 eram
+  provindos de escolas da rede pública. Com base nas informações
+  assinale a alternativa correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2908\)
+  \item
+    \(0.6733\)
+  \item
+    \(0.5386\)
+  \item
+    \(0.3267\)
+  \item
+    \(0.1634\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.5 \ \ versus \ \ H_a : p < 0.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.449\] e o
+  p-valor \[\alpha^{*} = P(Z\leq0.449) = 0.6733.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

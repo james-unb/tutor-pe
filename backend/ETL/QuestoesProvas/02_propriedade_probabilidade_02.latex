@@ -1,0 +1,492 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere o lançamento de duas moedas idênticas, mas desequilibradas.
+  Para cada moeda, a probabilidade de ocorrer cara é \(50\%\) maior do
+  que a probabilidade de obter coroa. As duas moedas foram lançadas
+  simultaneamente, qual é a probabilidade de obter \(2\) caras, dado que
+  se obteve cara no primeiro lançamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.500\)
+  \item
+    \(0.600\)
+  \item
+    \(0.333\)
+  \item
+    \(0.200\)
+  \item
+    \(0.429\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja ``A'' o evento saiu cara e ``O'' saiu coroa.\\
+  Em um lançamento, a probabilidade de obter cara P(A) ou coroa P(O) é
+  igual a \(1\). Como a probabilidade de obter cara é \(50\%\) maior do
+  que a probabilidade de obter coroa, temos que \[P(O)+(1+0.5)P(O)=1\]
+  Portanto, \(P(O)=0.4\) e \(P(A)=0.6\). E as probabilidades em dois
+  lançamentos são dadas por:\\
+  \(P(AA) = 0.6\times 0.6 = 0.36\)\\
+  \(P(AO) = 0.6\times0.4 = 0.24\)\\
+  \(P(OA) = 0.24\)\\
+  \(P(OO) = 0.4\times0.4 = 0.16\)\\
+  Logo, a probabilidade desejada é
+  \[P(AA | AA \cup AO ) = \frac{P(AA)}{P(AA \cup AO)} = \frac{0.36}{0.6} = 0.6 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere o lançamento de duas moedas idênticas, mas desequilibradas.
+  Para cada moeda, a probabilidade de ocorrer cara é \(20\%\) maior do
+  que a probabilidade de obter coroa. As duas moedas foram lançadas
+  simultaneamente, qual é a probabilidade de obter \(2\) caras, dado que
+  se obteve cara no primeiro lançamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.375\)
+  \item
+    \(0.333\)
+  \item
+    \(0.500\)
+  \item
+    \(0.286\)
+  \item
+    \(0.545\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja ``A'' o evento saiu cara e ``O'' saiu coroa.\\
+  Em um lançamento, a probabilidade de obter cara P(A) ou coroa P(O) é
+  igual a \(1\). Como a probabilidade de obter cara é \(20\%\) maior do
+  que a probabilidade de obter coroa, temos que \[P(O)+(1+0.2)P(O)=1\]
+  Portanto, \(P(O)=0.4545\) e \(P(A)=0.5455\). E as probabilidades em
+  dois lançamentos são dadas por:\\
+  \(P(AA) = 0.5455\times 0.5455 = 0.2975\)\\
+  \(P(AO) = 0.5455\times0.4545 = 0.2479\)\\
+  \(P(OA) = 0.2479\)\\
+  \(P(OO) = 0.4545\times0.4545 = 0.2066\)\\
+  Logo, a probabilidade desejada é
+  \[P(AA | AA \cup AO ) = \frac{P(AA)}{P(AA \cup AO)} = \frac{0.2975}{0.5455} = 0.545 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere o lançamento de duas moedas idênticas, mas desequilibradas.
+  Para cada moeda, a probabilidade de ocorrer cara é \(30\%\) maior do
+  que a probabilidade de obter coroa. As duas moedas foram lançadas
+  simultaneamente, qual é a probabilidade de obter \(2\) caras, dado que
+  se obteve cara no primeiro lançamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.259\)
+  \item
+    \(0.565\)
+  \item
+    \(0.394\)
+  \item
+    \(0.500\)
+  \item
+    \(0.333\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja ``A'' o evento saiu cara e ``O'' saiu coroa.\\
+  Em um lançamento, a probabilidade de obter cara P(A) ou coroa P(O) é
+  igual a \(1\). Como a probabilidade de obter cara é \(30\%\) maior do
+  que a probabilidade de obter coroa, temos que \[P(O)+(1+0.3)P(O)=1\]
+  Portanto, \(P(O)=0.4348\) e \(P(A)=0.5652\). E as probabilidades em
+  dois lançamentos são dadas por:\\
+  \(P(AA) = 0.5652\times 0.5652 = 0.3195\)\\
+  \(P(AO) = 0.5652\times0.4348 = 0.2457\)\\
+  \(P(OA) = 0.2457\)\\
+  \(P(OO) = 0.4348\times0.4348 = 0.189\)\\
+  Logo, a probabilidade desejada é
+  \[P(AA | AA \cup AO ) = \frac{P(AA)}{P(AA \cup AO)} = \frac{0.3195}{0.5652} = 0.565 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere o lançamento de duas moedas idênticas, mas desequilibradas.
+  Para cada moeda, a probabilidade de ocorrer cara é \(35\%\) maior do
+  que a probabilidade de obter coroa. As duas moedas foram lançadas
+  simultaneamente, qual é a probabilidade de obter \(2\) caras, dado que
+  se obteve cara no primeiro lançamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.500\)
+  \item
+    \(0.245\)
+  \item
+    \(0.574\)
+  \item
+    \(0.403\)
+  \item
+    \(0.333\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja ``A'' o evento saiu cara e ``O'' saiu coroa.\\
+  Em um lançamento, a probabilidade de obter cara P(A) ou coroa P(O) é
+  igual a \(1\). Como a probabilidade de obter cara é \(35\%\) maior do
+  que a probabilidade de obter coroa, temos que \[P(O)+(1+0.35)P(O)=1\]
+  Portanto, \(P(O)=0.4255\) e \(P(A)=0.5745\). E as probabilidades em
+  dois lançamentos são dadas por:\\
+  \(P(AA) = 0.5745\times 0.5745 = 0.33\)\\
+  \(P(AO) = 0.5745\times0.4255 = 0.2445\)\\
+  \(P(OA) = 0.2445\)\\
+  \(P(OO) = 0.4255\times0.4255 = 0.1811\)\\
+  Logo, a probabilidade desejada é
+  \[P(AA | AA \cup AO ) = \frac{P(AA)}{P(AA \cup AO)} = \frac{0.33}{0.5745} = 0.574 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere o lançamento de duas moedas idênticas, mas desequilibradas.
+  Para cada moeda, a probabilidade de ocorrer cara é \(15\%\) maior do
+  que a probabilidade de obter coroa. As duas moedas foram lançadas
+  simultaneamente, qual é a probabilidade de obter \(2\) caras, dado que
+  se obteve cara no primeiro lançamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.535\)
+  \item
+    \(0.298\)
+  \item
+    \(0.333\)
+  \item
+    \(0.365\)
+  \item
+    \(0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja ``A'' o evento saiu cara e ``O'' saiu coroa.\\
+  Em um lançamento, a probabilidade de obter cara P(A) ou coroa P(O) é
+  igual a \(1\). Como a probabilidade de obter cara é \(15\%\) maior do
+  que a probabilidade de obter coroa, temos que \[P(O)+(1+0.15)P(O)=1\]
+  Portanto, \(P(O)=0.4651\) e \(P(A)=0.5349\). E as probabilidades em
+  dois lançamentos são dadas por:\\
+  \(P(AA) = 0.5349\times 0.5349 = 0.2861\)\\
+  \(P(AO) = 0.5349\times0.4651 = 0.2488\)\\
+  \(P(OA) = 0.2488\)\\
+  \(P(OO) = 0.4651\times0.4651 = 0.2163\)\\
+  Logo, a probabilidade desejada é
+  \[P(AA | AA \cup AO ) = \frac{P(AA)}{P(AA \cup AO)} = \frac{0.2861}{0.5349} = 0.535 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere o lançamento de duas moedas idênticas, mas desequilibradas.
+  Para cada moeda, a probabilidade de ocorrer cara é \(15\%\) maior do
+  que a probabilidade de obter coroa. As duas moedas foram lançadas
+  simultaneamente, qual é a probabilidade de obter \(2\) caras, dado que
+  se obteve cara no primeiro lançamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.333\)
+  \item
+    \(0.365\)
+  \item
+    \(0.535\)
+  \item
+    \(0.298\)
+  \item
+    \(0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja ``A'' o evento saiu cara e ``O'' saiu coroa.\\
+  Em um lançamento, a probabilidade de obter cara P(A) ou coroa P(O) é
+  igual a \(1\). Como a probabilidade de obter cara é \(15\%\) maior do
+  que a probabilidade de obter coroa, temos que \[P(O)+(1+0.15)P(O)=1\]
+  Portanto, \(P(O)=0.4651\) e \(P(A)=0.5349\). E as probabilidades em
+  dois lançamentos são dadas por:\\
+  \(P(AA) = 0.5349\times 0.5349 = 0.2861\)\\
+  \(P(AO) = 0.5349\times0.4651 = 0.2488\)\\
+  \(P(OA) = 0.2488\)\\
+  \(P(OO) = 0.4651\times0.4651 = 0.2163\)\\
+  Logo, a probabilidade desejada é
+  \[P(AA | AA \cup AO ) = \frac{P(AA)}{P(AA \cup AO)} = \frac{0.2861}{0.5349} = 0.535 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere o lançamento de duas moedas idênticas, mas desequilibradas.
+  Para cada moeda, a probabilidade de ocorrer cara é \(30\%\) maior do
+  que a probabilidade de obter coroa. As duas moedas foram lançadas
+  simultaneamente, qual é a probabilidade de obter \(2\) caras, dado que
+  se obteve cara no primeiro lançamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.500\)
+  \item
+    \(0.565\)
+  \item
+    \(0.394\)
+  \item
+    \(0.259\)
+  \item
+    \(0.333\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja ``A'' o evento saiu cara e ``O'' saiu coroa.\\
+  Em um lançamento, a probabilidade de obter cara P(A) ou coroa P(O) é
+  igual a \(1\). Como a probabilidade de obter cara é \(30\%\) maior do
+  que a probabilidade de obter coroa, temos que \[P(O)+(1+0.3)P(O)=1\]
+  Portanto, \(P(O)=0.4348\) e \(P(A)=0.5652\). E as probabilidades em
+  dois lançamentos são dadas por:\\
+  \(P(AA) = 0.5652\times 0.5652 = 0.3195\)\\
+  \(P(AO) = 0.5652\times0.4348 = 0.2457\)\\
+  \(P(OA) = 0.2457\)\\
+  \(P(OO) = 0.4348\times0.4348 = 0.189\)\\
+  Logo, a probabilidade desejada é
+  \[P(AA | AA \cup AO ) = \frac{P(AA)}{P(AA \cup AO)} = \frac{0.3195}{0.5652} = 0.565 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere o lançamento de duas moedas idênticas, mas desequilibradas.
+  Para cada moeda, a probabilidade de ocorrer cara é \(20\%\) maior do
+  que a probabilidade de obter coroa. As duas moedas foram lançadas
+  simultaneamente, qual é a probabilidade de obter \(2\) caras, dado que
+  se obteve cara no primeiro lançamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.286\)
+  \item
+    \(0.375\)
+  \item
+    \(0.545\)
+  \item
+    \(0.333\)
+  \item
+    \(0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja ``A'' o evento saiu cara e ``O'' saiu coroa.\\
+  Em um lançamento, a probabilidade de obter cara P(A) ou coroa P(O) é
+  igual a \(1\). Como a probabilidade de obter cara é \(20\%\) maior do
+  que a probabilidade de obter coroa, temos que \[P(O)+(1+0.2)P(O)=1\]
+  Portanto, \(P(O)=0.4545\) e \(P(A)=0.5455\). E as probabilidades em
+  dois lançamentos são dadas por:\\
+  \(P(AA) = 0.5455\times 0.5455 = 0.2975\)\\
+  \(P(AO) = 0.5455\times0.4545 = 0.2479\)\\
+  \(P(OA) = 0.2479\)\\
+  \(P(OO) = 0.4545\times0.4545 = 0.2066\)\\
+  Logo, a probabilidade desejada é
+  \[P(AA | AA \cup AO ) = \frac{P(AA)}{P(AA \cup AO)} = \frac{0.2975}{0.5455} = 0.545 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere o lançamento de duas moedas idênticas, mas desequilibradas.
+  Para cada moeda, a probabilidade de ocorrer cara é \(20\%\) maior do
+  que a probabilidade de obter coroa. As duas moedas foram lançadas
+  simultaneamente, qual é a probabilidade de obter \(2\) caras, dado que
+  se obteve cara no primeiro lançamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.333\)
+  \item
+    \(0.500\)
+  \item
+    \(0.545\)
+  \item
+    \(0.286\)
+  \item
+    \(0.375\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja ``A'' o evento saiu cara e ``O'' saiu coroa.\\
+  Em um lançamento, a probabilidade de obter cara P(A) ou coroa P(O) é
+  igual a \(1\). Como a probabilidade de obter cara é \(20\%\) maior do
+  que a probabilidade de obter coroa, temos que \[P(O)+(1+0.2)P(O)=1\]
+  Portanto, \(P(O)=0.4545\) e \(P(A)=0.5455\). E as probabilidades em
+  dois lançamentos são dadas por:\\
+  \(P(AA) = 0.5455\times 0.5455 = 0.2975\)\\
+  \(P(AO) = 0.5455\times0.4545 = 0.2479\)\\
+  \(P(OA) = 0.2479\)\\
+  \(P(OO) = 0.4545\times0.4545 = 0.2066\)\\
+  Logo, a probabilidade desejada é
+  \[P(AA | AA \cup AO ) = \frac{P(AA)}{P(AA \cup AO)} = \frac{0.2975}{0.5455} = 0.545 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere o lançamento de duas moedas idênticas, mas desequilibradas.
+  Para cada moeda, a probabilidade de ocorrer cara é \(40\%\) maior do
+  que a probabilidade de obter coroa. As duas moedas foram lançadas
+  simultaneamente, qual é a probabilidade de obter \(2\) caras, dado que
+  se obteve cara no primeiro lançamento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.500\)
+  \item
+    \(0.333\)
+  \item
+    \(0.583\)
+  \item
+    \(0.231\)
+  \item
+    \(0.412\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja ``A'' o evento saiu cara e ``O'' saiu coroa.\\
+  Em um lançamento, a probabilidade de obter cara P(A) ou coroa P(O) é
+  igual a \(1\). Como a probabilidade de obter cara é \(40\%\) maior do
+  que a probabilidade de obter coroa, temos que \[P(O)+(1+0.4)P(O)=1\]
+  Portanto, \(P(O)=0.4167\) e \(P(A)=0.5833\). E as probabilidades em
+  dois lançamentos são dadas por:\\
+  \(P(AA) = 0.5833\times 0.5833 = 0.3403\)\\
+  \(P(AO) = 0.5833\times0.4167 = 0.2431\)\\
+  \(P(OA) = 0.2431\)\\
+  \(P(OO) = 0.4167\times0.4167 = 0.1736\)\\
+  Logo, a probabilidade desejada é
+  \[P(AA | AA \cup AO ) = \frac{P(AA)}{P(AA \cup AO)} = \frac{0.3403}{0.5833} = 0.583 .\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,556 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um laboratório criou um novo método para identificar Selenoureia na
+  água, um composto organosselênico que se apresenta em forma de sólido
+  branco. Para a água encanada, a taxa de Selenoureia segue uma
+  distribuição Normal com valor esperado de \(50\) ng/ml. Retira-se uma
+  amostra de tamanho \(5\) da água da torneira. A média desses valores é
+  de \(51.7\) ng/ml e o desvio padrão é de \(1.41\). Considerando um
+  nível de significância de \(10\%\), há evidências de que a média
+  mudou?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \geq50\; \emph{vs. }  H_a: \mu < 50\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \mu=50\; \emph{vs. }  H_a: \mu \neq50\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=50\; \emph{vs. }  H_a: \bar{x}=51.7\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu =50\; \emph{vs. }  H_a: \mu \neq50\). Há evidência de que
+    a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x} \leq 51.7\; \emph{vs. }  H_a: \bar{x}>51.7\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses do teste são \(H_0: \mu =50\)
+  \emph{vs.} \(H_a: \mu \neq 50\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=50)= 2P\left(T_{n-1}>\frac{c-50}{1.9881/\sqrt{5}}\right)=0.1\).
+
+  Portanto, \(\frac{c-50}{1.41/\sqrt{5}}=2.13 \Rightarrow c=51.34\).
+
+  Daí, como \(\bar{x} =\) \(51.7 > 51.34\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um laboratório criou um novo método para identificar Selenoureia na
+  água, um composto organosselênico que se apresenta em forma de sólido
+  branco. Para a água encanada, a taxa de Selenoureia segue uma
+  distribuição Normal com valor esperado de \(50\) ng/ml. Retira-se uma
+  amostra de tamanho \(5\) da água da torneira. A média desses valores é
+  de \(51.21\) ng/ml e o desvio padrão é de \(1\). Considerando um nível
+  de significância de \(10\%\), há evidências de que a média mudou?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=50\; \emph{vs. }  H_a: \mu \neq50\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x} \leq 51.21\; \emph{vs. }  H_a: \bar{x}>51.21\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu =50\; \emph{vs. }  H_a: \mu \neq50\). Há evidência de que
+    a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=50\; \emph{vs. }  H_a: \bar{x}=51.21\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu \geq50\; \emph{vs. }  H_a: \mu < 50\). A média \((\mu)\)
+    certamente se alterou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses do teste são \(H_0: \mu =50\)
+  \emph{vs.} \(H_a: \mu \neq 50\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=50)= 2P\left(T_{n-1}>\frac{c-50}{1/\sqrt{5}}\right)=0.1\).
+
+  Portanto, \(\frac{c-50}{1/\sqrt{5}}=2.13 \Rightarrow c=50.95\).
+
+  Daí, como \(\bar{x} =\) \(51.21 > 50.95\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um laboratório criou um novo método para identificar Selenoureia na
+  água, um composto organosselênico que se apresenta em forma de sólido
+  branco. Para a água encanada, a taxa de Selenoureia segue uma
+  distribuição Normal com valor esperado de \(50\) ng/ml. Retira-se uma
+  amostra de tamanho \(5\) da água da torneira. A média desses valores é
+  de \(51.74\) ng/ml e o desvio padrão é de \(1.41\). Considerando um
+  nível de significância de \(10\%\), há evidências de que a média
+  mudou?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \geq50\; \emph{vs. }  H_a: \mu < 50\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \mu=50\; \emph{vs. }  H_a: \mu \neq50\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=50\; \emph{vs. }  H_a: \bar{x}=51.74\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu =50\; \emph{vs. }  H_a: \mu \neq50\). Há evidência de que
+    a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x} \leq 51.74\; \emph{vs. }  H_a: \bar{x}>51.74\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses do teste são \(H_0: \mu =50\)
+  \emph{vs.} \(H_a: \mu \neq 50\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=50)= 2P\left(T_{n-1}>\frac{c-50}{1.9881/\sqrt{5}}\right)=0.1\).
+
+  Portanto, \(\frac{c-50}{1.41/\sqrt{5}}=2.13 \Rightarrow c=51.34\).
+
+  Daí, como \(\bar{x} =\) \(51.74 > 51.34\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um laboratório criou um novo método para identificar Selenoureia na
+  água, um composto organosselênico que se apresenta em forma de sólido
+  branco. Para a água encanada, a taxa de Selenoureia segue uma
+  distribuição Normal com valor esperado de \(50\) ng/ml. Retira-se uma
+  amostra de tamanho \(5\) da água da torneira. A média desses valores é
+  de \(50.79\) ng/ml e o desvio padrão é de \(1\). Considerando um nível
+  de significância de \(10\%\), há evidências de que a média mudou?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x} \leq 50.79\; \emph{vs. }  H_a: \bar{x}>50.79\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu \geq50\; \emph{vs. }  H_a: \mu < 50\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \bar{x}=50\; \emph{vs. }  H_a: \bar{x}=50.79\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu =50\; \emph{vs. }  H_a: \mu \neq50\). Há evidência de que
+    a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=50\; \emph{vs. }  H_a: \mu \neq50\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses do teste são \(H_0: \mu =50\)
+  \emph{vs.} \(H_a: \mu \neq 50\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=50)= 2P\left(T_{n-1}>\frac{c-50}{1/\sqrt{5}}\right)=0.1\).
+
+  Portanto, \(\frac{c-50}{1/\sqrt{5}}=2.13 \Rightarrow c=50.95\).
+
+  Daí, como \(\bar{x} =\) \(50.79 < 50.95\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um laboratório criou um novo método para identificar Selenoureia na
+  água, um composto organosselênico que se apresenta em forma de sólido
+  branco. Para a água encanada, a taxa de Selenoureia segue uma
+  distribuição Normal com valor esperado de \(50\) ng/ml. Retira-se uma
+  amostra de tamanho \(5\) da água da torneira. A média desses valores é
+  de \(51.7\) ng/ml e o desvio padrão é de \(1.41\). Considerando um
+  nível de significância de \(10\%\), há evidências de que a média
+  mudou?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=50\; \emph{vs. }  H_a: \bar{x}=51.7\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x} \leq 51.7\; \emph{vs. }  H_a: \bar{x}>51.7\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu \geq50\; \emph{vs. }  H_a: \mu < 50\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \mu=50\; \emph{vs. }  H_a: \mu \neq50\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu =50\; \emph{vs. }  H_a: \mu \neq50\). Há evidência de que
+    a média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses do teste são \(H_0: \mu =50\)
+  \emph{vs.} \(H_a: \mu \neq 50\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=50)= 2P\left(T_{n-1}>\frac{c-50}{1.9881/\sqrt{5}}\right)=0.1\).
+
+  Portanto, \(\frac{c-50}{1.41/\sqrt{5}}=2.13 \Rightarrow c=51.34\).
+
+  Daí, como \(\bar{x} =\) \(51.7 > 51.34\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um laboratório criou um novo método para identificar Selenoureia na
+  água, um composto organosselênico que se apresenta em forma de sólido
+  branco. Para a água encanada, a taxa de Selenoureia segue uma
+  distribuição Normal com valor esperado de \(50\) ng/ml. Retira-se uma
+  amostra de tamanho \(5\) da água da torneira. A média desses valores é
+  de \(51.19\) ng/ml e o desvio padrão é de \(1\). Considerando um nível
+  de significância de \(10\%\), há evidências de que a média mudou?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu =50\; \emph{vs. }  H_a: \mu \neq50\). Há evidência de que
+    a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=50\; \emph{vs. }  H_a: \bar{x}=51.19\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu \geq50\; \emph{vs. }  H_a: \mu < 50\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \bar{x} \leq 51.19\; \emph{vs. }  H_a: \bar{x}>51.19\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=50\; \emph{vs. }  H_a: \mu \neq50\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses do teste são \(H_0: \mu =50\)
+  \emph{vs.} \(H_a: \mu \neq 50\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=50)= 2P\left(T_{n-1}>\frac{c-50}{1/\sqrt{5}}\right)=0.1\).
+
+  Portanto, \(\frac{c-50}{1/\sqrt{5}}=2.13 \Rightarrow c=50.95\).
+
+  Daí, como \(\bar{x} =\) \(51.19 > 50.95\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um laboratório criou um novo método para identificar Selenoureia na
+  água, um composto organosselênico que se apresenta em forma de sólido
+  branco. Para a água encanada, a taxa de Selenoureia segue uma
+  distribuição Normal com valor esperado de \(50\) ng/ml. Retira-se uma
+  amostra de tamanho \(5\) da água da torneira. A média desses valores é
+  de \(50.75\) ng/ml e o desvio padrão é de \(1\). Considerando um nível
+  de significância de \(10\%\), há evidências de que a média mudou?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x} \leq 50.75\; \emph{vs. }  H_a: \bar{x}>50.75\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu =50\; \emph{vs. }  H_a: \mu \neq50\). Há evidência de que
+    a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=50\; \emph{vs. }  H_a: \bar{x}=50.75\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu=50\; \emph{vs. }  H_a: \mu \neq50\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu \geq50\; \emph{vs. }  H_a: \mu < 50\). A média \((\mu)\)
+    certamente se alterou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses do teste são \(H_0: \mu =50\)
+  \emph{vs.} \(H_a: \mu \neq 50\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=50)= 2P\left(T_{n-1}>\frac{c-50}{1/\sqrt{5}}\right)=0.1\).
+
+  Portanto, \(\frac{c-50}{1/\sqrt{5}}=2.13 \Rightarrow c=50.95\).
+
+  Daí, como \(\bar{x} =\) \(50.75 < 50.95\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um laboratório criou um novo método para identificar Selenoureia na
+  água, um composto organosselênico que se apresenta em forma de sólido
+  branco. Para a água encanada, a taxa de Selenoureia segue uma
+  distribuição Normal com valor esperado de \(50\) ng/ml. Retira-se uma
+  amostra de tamanho \(5\) da água da torneira. A média desses valores é
+  de \(51.24\) ng/ml e o desvio padrão é de \(1\). Considerando um nível
+  de significância de \(10\%\), há evidências de que a média mudou?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=50\; \emph{vs. }  H_a: \mu \neq50\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=50\; \emph{vs. }  H_a: \bar{x}=51.24\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu \geq50\; \emph{vs. }  H_a: \mu < 50\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \mu =50\; \emph{vs. }  H_a: \mu \neq50\). Há evidência de que
+    a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x} \leq 51.24\; \emph{vs. }  H_a: \bar{x}>51.24\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses do teste são \(H_0: \mu =50\)
+  \emph{vs.} \(H_a: \mu \neq 50\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=50)= 2P\left(T_{n-1}>\frac{c-50}{1/\sqrt{5}}\right)=0.1\).
+
+  Portanto, \(\frac{c-50}{1/\sqrt{5}}=2.13 \Rightarrow c=50.95\).
+
+  Daí, como \(\bar{x} =\) \(51.24 > 50.95\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um laboratório criou um novo método para identificar Selenoureia na
+  água, um composto organosselênico que se apresenta em forma de sólido
+  branco. Para a água encanada, a taxa de Selenoureia segue uma
+  distribuição Normal com valor esperado de \(50\) ng/ml. Retira-se uma
+  amostra de tamanho \(5\) da água da torneira. A média desses valores é
+  de \(50.78\) ng/ml e o desvio padrão é de \(1\). Considerando um nível
+  de significância de \(10\%\), há evidências de que a média mudou?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=50\; \emph{vs. }  H_a: \bar{x}=50.78\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x} \leq 50.78\; \emph{vs. }  H_a: \bar{x}>50.78\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu \geq50\; \emph{vs. }  H_a: \mu < 50\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \mu=50\; \emph{vs. }  H_a: \mu \neq50\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu =50\; \emph{vs. }  H_a: \mu \neq50\). Há evidência de que
+    a média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses do teste são \(H_0: \mu =50\)
+  \emph{vs.} \(H_a: \mu \neq 50\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=50)= 2P\left(T_{n-1}>\frac{c-50}{1/\sqrt{5}}\right)=0.1\).
+
+  Portanto, \(\frac{c-50}{1/\sqrt{5}}=2.13 \Rightarrow c=50.95\).
+
+  Daí, como \(\bar{x} =\) \(50.78 < 50.95\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um laboratório criou um novo método para identificar Selenoureia na
+  água, um composto organosselênico que se apresenta em forma de sólido
+  branco. Para a água encanada, a taxa de Selenoureia segue uma
+  distribuição Normal com valor esperado de \(50\) ng/ml. Retira-se uma
+  amostra de tamanho \(5\) da água da torneira. A média desses valores é
+  de \(51.07\) ng/ml e o desvio padrão é de \(1.41\). Considerando um
+  nível de significância de \(10\%\), há evidências de que a média
+  mudou?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x} \leq 51.07\; \emph{vs. }  H_a: \bar{x}>51.07\). Há
+    evidência de que a média \((\mu)\) mudou.
+  \item
+    \(H_0: \mu =50\; \emph{vs. }  H_a: \mu \neq50\). Há evidência de que
+    a média \((\mu)\) mudou.
+  \item
+    \(H_0: \bar{x}=50\; \emph{vs. }  H_a: \bar{x}=51.07\). Não há
+    evidência de que a média não \((\mu)\) mudou.
+  \item
+    \(H_0: \mu \geq50\; \emph{vs. }  H_a: \mu < 50\). A média \((\mu)\)
+    certamente se alterou.
+  \item
+    \(H_0: \mu=50\; \emph{vs. }  H_a: \mu \neq50\). Não há evidência de
+    que a média \((\mu)\) mudou.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses do teste são \(H_0: \mu =50\)
+  \emph{vs.} \(H_a: \mu \neq 50\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  2P(\bar{X}>|c| \; | \;\mu=50)= 2P\left(T_{n-1}>\frac{c-50}{1.9881/\sqrt{5}}\right)=0.1\).
+
+  Portanto, \(\frac{c-50}{1.41/\sqrt{5}}=2.13 \Rightarrow c=51.34\).
+
+  Daí, como \(\bar{x} =\) \(51.07 < 51.34\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

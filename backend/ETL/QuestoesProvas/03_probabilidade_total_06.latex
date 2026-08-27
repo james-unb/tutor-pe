@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que temos duas urnas: a primeira tem \(5\) bolas azuis e \(6\)
+  bolas brancas, e a outra tem \(6\) azuis e \(3\) brancas. Lançamos um
+  dado honesto e se sair um número par, selecionamos ao acaso uma bola
+  da primeira urna, se for um número ímpar selecionamos da segunda urna.
+  Qual a probabilidade de selecionar uma bola azul?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.455\)
+  \item
+    \(0.561\)
+  \item
+    \(0.511\)
+  \item
+    \(0.667\)
+  \item
+    \(0.611\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``selecionar uma bola azul'',}
+  \\
+  & B=\text{``saiu um número par''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)=\mathbb{P}(B^c)=1/2\). Logo, pelo
+  Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= {5\over 11} \times {0.5} + {6\over 9} \times {0.5} = 0.561 
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que temos duas urnas: a primeira tem \(3\) bolas azuis e \(7\)
+  bolas brancas, e a outra tem \(6\) azuis e \(3\) brancas. Lançamos um
+  dado honesto e se sair um número par, selecionamos ao acaso uma bola
+  da primeira urna, se for um número ímpar selecionamos da segunda urna.
+  Qual a probabilidade de selecionar uma bola azul?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.667\)
+  \item
+    \(0.300\)
+  \item
+    \(0.533\)
+  \item
+    \(0.483\)
+  \item
+    \(0.433\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``selecionar uma bola azul'',}
+  \\
+  & B=\text{``saiu um número par''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)=\mathbb{P}(B^c)=1/2\). Logo, pelo
+  Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= {3\over 10} \times {0.5} + {6\over 9} \times {0.5} = 0.483 
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que temos duas urnas: a primeira tem \(3\) bolas azuis e \(7\)
+  bolas brancas, e a outra tem \(7\) azuis e \(2\) brancas. Lançamos um
+  dado honesto e se sair um número par, selecionamos ao acaso uma bola
+  da primeira urna, se for um número ímpar selecionamos da segunda urna.
+  Qual a probabilidade de selecionar uma bola azul?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.589\)
+  \item
+    \(0.778\)
+  \item
+    \(0.489\)
+  \item
+    \(0.300\)
+  \item
+    \(0.539\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``selecionar uma bola azul'',}
+  \\
+  & B=\text{``saiu um número par''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)=\mathbb{P}(B^c)=1/2\). Logo, pelo
+  Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= {3\over 10} \times {0.5} + {7\over 9} \times {0.5} = 0.539 
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que temos duas urnas: a primeira tem \(5\) bolas azuis e \(6\)
+  bolas brancas, e a outra tem \(6\) azuis e \(2\) brancas. Lançamos um
+  dado honesto e se sair um número par, selecionamos ao acaso uma bola
+  da primeira urna, se for um número ímpar selecionamos da segunda urna.
+  Qual a probabilidade de selecionar uma bola azul?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.652\)
+  \item
+    \(0.552\)
+  \item
+    \(0.750\)
+  \item
+    \(0.455\)
+  \item
+    \(0.602\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``selecionar uma bola azul'',}
+  \\
+  & B=\text{``saiu um número par''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)=\mathbb{P}(B^c)=1/2\). Logo, pelo
+  Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= {5\over 11} \times {0.5} + {6\over 8} \times {0.5} = 0.602 
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que temos duas urnas: a primeira tem \(4\) bolas azuis e \(7\)
+  bolas brancas, e a outra tem \(8\) azuis e \(2\) brancas. Lançamos um
+  dado honesto e se sair um número par, selecionamos ao acaso uma bola
+  da primeira urna, se for um número ímpar selecionamos da segunda urna.
+  Qual a probabilidade de selecionar uma bola azul?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.632\)
+  \item
+    \(0.364\)
+  \item
+    \(0.800\)
+  \item
+    \(0.532\)
+  \item
+    \(0.582\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``selecionar uma bola azul'',}
+  \\
+  & B=\text{``saiu um número par''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)=\mathbb{P}(B^c)=1/2\). Logo, pelo
+  Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= {4\over 11} \times {0.5} + {8\over 10} \times {0.5} = 0.582 
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que temos duas urnas: a primeira tem \(3\) bolas azuis e \(7\)
+  bolas brancas, e a outra tem \(8\) azuis e \(2\) brancas. Lançamos um
+  dado honesto e se sair um número par, selecionamos ao acaso uma bola
+  da primeira urna, se for um número ímpar selecionamos da segunda urna.
+  Qual a probabilidade de selecionar uma bola azul?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.550\)
+  \item
+    \(0.800\)
+  \item
+    \(0.600\)
+  \item
+    \(0.300\)
+  \item
+    \(0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``selecionar uma bola azul'',}
+  \\
+  & B=\text{``saiu um número par''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)=\mathbb{P}(B^c)=1/2\). Logo, pelo
+  Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= {3\over 10} \times {0.5} + {8\over 10} \times {0.5} = 0.55 
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que temos duas urnas: a primeira tem \(3\) bolas azuis e \(7\)
+  bolas brancas, e a outra tem \(6\) azuis e \(3\) brancas. Lançamos um
+  dado honesto e se sair um número par, selecionamos ao acaso uma bola
+  da primeira urna, se for um número ímpar selecionamos da segunda urna.
+  Qual a probabilidade de selecionar uma bola azul?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.300\)
+  \item
+    \(0.483\)
+  \item
+    \(0.533\)
+  \item
+    \(0.667\)
+  \item
+    \(0.433\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``selecionar uma bola azul'',}
+  \\
+  & B=\text{``saiu um número par''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)=\mathbb{P}(B^c)=1/2\). Logo, pelo
+  Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= {3\over 10} \times {0.5} + {6\over 9} \times {0.5} = 0.483 
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que temos duas urnas: a primeira tem \(5\) bolas azuis e \(6\)
+  bolas brancas, e a outra tem \(6\) azuis e \(2\) brancas. Lançamos um
+  dado honesto e se sair um número par, selecionamos ao acaso uma bola
+  da primeira urna, se for um número ímpar selecionamos da segunda urna.
+  Qual a probabilidade de selecionar uma bola azul?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.750\)
+  \item
+    \(0.455\)
+  \item
+    \(0.552\)
+  \item
+    \(0.652\)
+  \item
+    \(0.602\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``selecionar uma bola azul'',}
+  \\
+  & B=\text{``saiu um número par''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)=\mathbb{P}(B^c)=1/2\). Logo, pelo
+  Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= {5\over 11} \times {0.5} + {6\over 8} \times {0.5} = 0.602 
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que temos duas urnas: a primeira tem \(5\) bolas azuis e \(7\)
+  bolas brancas, e a outra tem \(8\) azuis e \(2\) brancas. Lançamos um
+  dado honesto e se sair um número par, selecionamos ao acaso uma bola
+  da primeira urna, se for um número ímpar selecionamos da segunda urna.
+  Qual a probabilidade de selecionar uma bola azul?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.658\)
+  \item
+    \(0.800\)
+  \item
+    \(0.608\)
+  \item
+    \(0.558\)
+  \item
+    \(0.417\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``selecionar uma bola azul'',}
+  \\
+  & B=\text{``saiu um número par''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)=\mathbb{P}(B^c)=1/2\). Logo, pelo
+  Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= {5\over 12} \times {0.5} + {8\over 10} \times {0.5} = 0.608 
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que temos duas urnas: a primeira tem \(4\) bolas azuis e \(7\)
+  bolas brancas, e a outra tem \(7\) azuis e \(2\) brancas. Lançamos um
+  dado honesto e se sair um número par, selecionamos ao acaso uma bola
+  da primeira urna, se for um número ímpar selecionamos da segunda urna.
+  Qual a probabilidade de selecionar uma bola azul?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.364\)
+  \item
+    \(0.521\)
+  \item
+    \(0.571\)
+  \item
+    \(0.621\)
+  \item
+    \(0.778\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``selecionar uma bola azul'',}
+  \\
+  & B=\text{``saiu um número par''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)=\mathbb{P}(B^c)=1/2\). Logo, pelo
+  Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &= {4\over 11} \times {0.5} + {7\over 9} \times {0.5} = 0.571 
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

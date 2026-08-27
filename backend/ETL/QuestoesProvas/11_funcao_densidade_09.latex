@@ -1,0 +1,512 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  \frac{3}{4}\sqrt{x} & \mbox{se} & 0 \leq x < 1, \\
+  x - \frac{x}{C} & \mbox{se} & 1 \leq x \leq 4, \\
+  0 & \mbox{se} & x \geq 4.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.00\)
+  \item
+    \(14.88\)
+  \item
+    \(8.00\)
+  \item
+    \(5.00\)
+  \item
+    \(1.07\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   & = \int_{-\infty}^{0} 0 dx + \int_0^1 \frac{3}{4}\sqrt{x} dx + \int_1^{4} x-\frac{x}{C} dx + \int_{1}^{\infty} 0 dx \\
+    & = \frac{3}{4} \left[\frac{x^{{\frac{3}{2}}}}{\frac{3}{2}}\right]_0^1 + \frac{1}{2}\left[x^2\right]_1^4 - \frac{1}{2C}\left[x^2\right]_1^{4} \\
+    & = \frac{1}{2} + \frac{16 - 1}{2} - \frac{16 - 1}{2C}.
+  \end{aligned}\] Portanto, \[\begin{aligned}
+  \frac{16 - 1}{2C} &= \frac{16 - 2}{2} \\
+  C &= \frac{16 - 1}{16 - 2}.
+  \end{aligned}\] Resolvendo-se em \(C\), obtemos \(C=1.07\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  \frac{3}{4}\sqrt{x} & \mbox{se} & 0 \leq x < 1, \\
+  x - \frac{x}{C} & \mbox{se} & 1 \leq x \leq 3, \\
+  0 & \mbox{se} & x \geq 3.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.00\)
+  \item
+    \(1.14\)
+  \item
+    \(3.00\)
+  \item
+    \(7.78\)
+  \item
+    \(4.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   & = \int_{-\infty}^{0} 0 dx + \int_0^1 \frac{3}{4}\sqrt{x} dx + \int_1^{3} x-\frac{x}{C} dx + \int_{1}^{\infty} 0 dx \\
+    & = \frac{3}{4} \left[\frac{x^{{\frac{3}{2}}}}{\frac{3}{2}}\right]_0^1 + \frac{1}{2}\left[x^2\right]_1^3 - \frac{1}{2C}\left[x^2\right]_1^{3} \\
+    & = \frac{1}{2} + \frac{9 - 1}{2} - \frac{9 - 1}{2C}.
+  \end{aligned}\] Portanto, \[\begin{aligned}
+  \frac{9 - 1}{2C} &= \frac{9 - 2}{2} \\
+  C &= \frac{9 - 1}{9 - 2}.
+  \end{aligned}\] Resolvendo-se em \(C\), obtemos \(C=1.14\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  \frac{3}{4}\sqrt{x} & \mbox{se} & 0 \leq x < 1, \\
+  x - \frac{x}{C} & \mbox{se} & 1 \leq x \leq 3, \\
+  0 & \mbox{se} & x \geq 3.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6.00\)
+  \item
+    \(4.00\)
+  \item
+    \(3.00\)
+  \item
+    \(7.78\)
+  \item
+    \(1.14\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   & = \int_{-\infty}^{0} 0 dx + \int_0^1 \frac{3}{4}\sqrt{x} dx + \int_1^{3} x-\frac{x}{C} dx + \int_{1}^{\infty} 0 dx \\
+    & = \frac{3}{4} \left[\frac{x^{{\frac{3}{2}}}}{\frac{3}{2}}\right]_0^1 + \frac{1}{2}\left[x^2\right]_1^3 - \frac{1}{2C}\left[x^2\right]_1^{3} \\
+    & = \frac{1}{2} + \frac{9 - 1}{2} - \frac{9 - 1}{2C}.
+  \end{aligned}\] Portanto, \[\begin{aligned}
+  \frac{9 - 1}{2C} &= \frac{9 - 2}{2} \\
+  C &= \frac{9 - 1}{9 - 2}.
+  \end{aligned}\] Resolvendo-se em \(C\), obtemos \(C=1.14\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  \frac{3}{4}\sqrt{x} & \mbox{se} & 0 \leq x < 1, \\
+  x - \frac{x}{C} & \mbox{se} & 1 \leq x \leq 2, \\
+  0 & \mbox{se} & x \geq 2.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.00\)
+  \item
+    \(2.50\)
+  \item
+    \(4.00\)
+  \item
+    \(1.50\)
+  \item
+    \(2.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   & = \int_{-\infty}^{0} 0 dx + \int_0^1 \frac{3}{4}\sqrt{x} dx + \int_1^{2} x-\frac{x}{C} dx + \int_{1}^{\infty} 0 dx \\
+    & = \frac{3}{4} \left[\frac{x^{{\frac{3}{2}}}}{\frac{3}{2}}\right]_0^1 + \frac{1}{2}\left[x^2\right]_1^2 - \frac{1}{2C}\left[x^2\right]_1^{2} \\
+    & = \frac{1}{2} + \frac{4 - 1}{2} - \frac{4 - 1}{2C}.
+  \end{aligned}\] Portanto, \[\begin{aligned}
+  \frac{4 - 1}{2C} &= \frac{4 - 2}{2} \\
+  C &= \frac{4 - 1}{4 - 2}.
+  \end{aligned}\] Resolvendo-se em \(C\), obtemos \(C=1.5\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  \frac{3}{4}\sqrt{x} & \mbox{se} & 0 \leq x < 1, \\
+  x - \frac{x}{C} & \mbox{se} & 1 \leq x \leq 3, \\
+  0 & \mbox{se} & x \geq 3.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.00\)
+  \item
+    \(4.00\)
+  \item
+    \(1.14\)
+  \item
+    \(7.78\)
+  \item
+    \(6.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   & = \int_{-\infty}^{0} 0 dx + \int_0^1 \frac{3}{4}\sqrt{x} dx + \int_1^{3} x-\frac{x}{C} dx + \int_{1}^{\infty} 0 dx \\
+    & = \frac{3}{4} \left[\frac{x^{{\frac{3}{2}}}}{\frac{3}{2}}\right]_0^1 + \frac{1}{2}\left[x^2\right]_1^3 - \frac{1}{2C}\left[x^2\right]_1^{3} \\
+    & = \frac{1}{2} + \frac{9 - 1}{2} - \frac{9 - 1}{2C}.
+  \end{aligned}\] Portanto, \[\begin{aligned}
+  \frac{9 - 1}{2C} &= \frac{9 - 2}{2} \\
+  C &= \frac{9 - 1}{9 - 2}.
+  \end{aligned}\] Resolvendo-se em \(C\), obtemos \(C=1.14\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  \frac{3}{4}\sqrt{x} & \mbox{se} & 0 \leq x < 1, \\
+  x - \frac{x}{C} & \mbox{se} & 1 \leq x \leq 3, \\
+  0 & \mbox{se} & x \geq 3.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.14\)
+  \item
+    \(6.00\)
+  \item
+    \(4.00\)
+  \item
+    \(3.00\)
+  \item
+    \(7.78\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   & = \int_{-\infty}^{0} 0 dx + \int_0^1 \frac{3}{4}\sqrt{x} dx + \int_1^{3} x-\frac{x}{C} dx + \int_{1}^{\infty} 0 dx \\
+    & = \frac{3}{4} \left[\frac{x^{{\frac{3}{2}}}}{\frac{3}{2}}\right]_0^1 + \frac{1}{2}\left[x^2\right]_1^3 - \frac{1}{2C}\left[x^2\right]_1^{3} \\
+    & = \frac{1}{2} + \frac{9 - 1}{2} - \frac{9 - 1}{2C}.
+  \end{aligned}\] Portanto, \[\begin{aligned}
+  \frac{9 - 1}{2C} &= \frac{9 - 2}{2} \\
+  C &= \frac{9 - 1}{9 - 2}.
+  \end{aligned}\] Resolvendo-se em \(C\), obtemos \(C=1.14\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  \frac{3}{4}\sqrt{x} & \mbox{se} & 0 \leq x < 1, \\
+  x - \frac{x}{C} & \mbox{se} & 1 \leq x \leq 4, \\
+  0 & \mbox{se} & x \geq 4.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(14.88\)
+  \item
+    \(4.00\)
+  \item
+    \(1.07\)
+  \item
+    \(5.00\)
+  \item
+    \(8.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   & = \int_{-\infty}^{0} 0 dx + \int_0^1 \frac{3}{4}\sqrt{x} dx + \int_1^{4} x-\frac{x}{C} dx + \int_{1}^{\infty} 0 dx \\
+    & = \frac{3}{4} \left[\frac{x^{{\frac{3}{2}}}}{\frac{3}{2}}\right]_0^1 + \frac{1}{2}\left[x^2\right]_1^4 - \frac{1}{2C}\left[x^2\right]_1^{4} \\
+    & = \frac{1}{2} + \frac{16 - 1}{2} - \frac{16 - 1}{2C}.
+  \end{aligned}\] Portanto, \[\begin{aligned}
+  \frac{16 - 1}{2C} &= \frac{16 - 2}{2} \\
+  C &= \frac{16 - 1}{16 - 2}.
+  \end{aligned}\] Resolvendo-se em \(C\), obtemos \(C=1.07\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  \frac{3}{4}\sqrt{x} & \mbox{se} & 0 \leq x < 1, \\
+  x - \frac{x}{C} & \mbox{se} & 1 \leq x \leq 2, \\
+  0 & \mbox{se} & x \geq 2.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.50\)
+  \item
+    \(2.50\)
+  \item
+    \(3.00\)
+  \item
+    \(4.00\)
+  \item
+    \(2.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   & = \int_{-\infty}^{0} 0 dx + \int_0^1 \frac{3}{4}\sqrt{x} dx + \int_1^{2} x-\frac{x}{C} dx + \int_{1}^{\infty} 0 dx \\
+    & = \frac{3}{4} \left[\frac{x^{{\frac{3}{2}}}}{\frac{3}{2}}\right]_0^1 + \frac{1}{2}\left[x^2\right]_1^2 - \frac{1}{2C}\left[x^2\right]_1^{2} \\
+    & = \frac{1}{2} + \frac{4 - 1}{2} - \frac{4 - 1}{2C}.
+  \end{aligned}\] Portanto, \[\begin{aligned}
+  \frac{4 - 1}{2C} &= \frac{4 - 2}{2} \\
+  C &= \frac{4 - 1}{4 - 2}.
+  \end{aligned}\] Resolvendo-se em \(C\), obtemos \(C=1.5\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  \frac{3}{4}\sqrt{x} & \mbox{se} & 0 \leq x < 1, \\
+  x - \frac{x}{C} & \mbox{se} & 1 \leq x \leq 4, \\
+  0 & \mbox{se} & x \geq 4.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8.00\)
+  \item
+    \(1.07\)
+  \item
+    \(5.00\)
+  \item
+    \(4.00\)
+  \item
+    \(14.88\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   & = \int_{-\infty}^{0} 0 dx + \int_0^1 \frac{3}{4}\sqrt{x} dx + \int_1^{4} x-\frac{x}{C} dx + \int_{1}^{\infty} 0 dx \\
+    & = \frac{3}{4} \left[\frac{x^{{\frac{3}{2}}}}{\frac{3}{2}}\right]_0^1 + \frac{1}{2}\left[x^2\right]_1^4 - \frac{1}{2C}\left[x^2\right]_1^{4} \\
+    & = \frac{1}{2} + \frac{16 - 1}{2} - \frac{16 - 1}{2C}.
+  \end{aligned}\] Portanto, \[\begin{aligned}
+  \frac{16 - 1}{2C} &= \frac{16 - 2}{2} \\
+  C &= \frac{16 - 1}{16 - 2}.
+  \end{aligned}\] Resolvendo-se em \(C\), obtemos \(C=1.07\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a seguinte função definida em partes. \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  \frac{3}{4}\sqrt{x} & \mbox{se} & 0 \leq x < 1, \\
+  x - \frac{x}{C} & \mbox{se} & 1 \leq x \leq 2, \\
+  0 & \mbox{se} & x \geq 2.\\
+  \end{array}
+  \right.\] Qual valor deve ter a constante real \(C\) para que \(f(x)\)
+  seja uma densidade?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.00\)
+  \item
+    \(2.00\)
+  \item
+    \(1.50\)
+  \item
+    \(2.50\)
+  \item
+    \(4.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 &=\int_{-\infty}^{\infty} f(x) dx  \\
+   & = \int_{-\infty}^{0} 0 dx + \int_0^1 \frac{3}{4}\sqrt{x} dx + \int_1^{2} x-\frac{x}{C} dx + \int_{1}^{\infty} 0 dx \\
+    & = \frac{3}{4} \left[\frac{x^{{\frac{3}{2}}}}{\frac{3}{2}}\right]_0^1 + \frac{1}{2}\left[x^2\right]_1^2 - \frac{1}{2C}\left[x^2\right]_1^{2} \\
+    & = \frac{1}{2} + \frac{4 - 1}{2} - \frac{4 - 1}{2C}.
+  \end{aligned}\] Portanto, \[\begin{aligned}
+  \frac{4 - 1}{2C} &= \frac{4 - 2}{2} \\
+  C &= \frac{4 - 1}{4 - 2}.
+  \end{aligned}\] Resolvendo-se em \(C\), obtemos \(C=1.5\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

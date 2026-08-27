@@ -1,0 +1,417 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Marque a alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    A probabilidade de selecionarmos um número racional no conjunto dos
+    reais é zero.
+  \item
+    Um espaço amostral infinito discreto pode ser equiprovável (os
+    elementos do espaço amostral possuem mesma probabilidade).
+  \item
+    A probabilidade da união de eventos é a soma das probabilidades dos
+    eventos.
+  \item
+    Um evento \(A\) jamais será independente de si mesmo.
+  \item
+    Se \(A\) está contido em \(B\), então \(P(A)\) é diferente de
+    \(P(B)\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro. Como o espaço dos reais é contínuo, cada elemento do
+    conjunto dos racionais tem probabilidade zero.
+  \item
+    Falso. Caso os elementos de um espaço amostral infinito tenham mesma
+    probabilidade, a soma das probabilidades será infinita.
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    disjuntos.
+  \item
+    Falso. Um evento \(A\) pode ser independente de si mesmo caso
+    \(P(A)\) seja 0 ou 1.
+  \item
+    Falso. Não necessariamente. Se \(A \subset B\) e \(B \subset A\),
+    então \(P(A) = P(B)\).
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Marque a alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Eventos disjuntos são complementares.
+  \item
+    Um espaço amostral infinito discreto pode ser equiprovável (os
+    elementos do espaço amostral possuem mesma probabilidade).
+  \item
+    A probabilidade da intersecção de eventos é o produto das
+    probabilidades dos eventos.
+  \item
+    A probabilidade da união de eventos é a soma das probabilidades dos
+    eventos.
+  \item
+    Se \(A\) e \(B\) são eventos independentes, então \(A^c\) e \(B\)
+    também são independentes.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. Eventos complementares são disjuntos, não o contrário.
+  \item
+    Falso. Caso os elementos de um espaço amostral infinito tenham mesma
+    probabilidade, a soma das probabilidades será infinita.
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    independentes entre si.
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    disjuntos.
+  \item
+    Verdadeiro. Se dois eventos são independentes, os originais e
+    complementares são todos independentes entre si.
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Marque a alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    A probabilidade da união de eventos é a soma das probabilidades dos
+    eventos.
+  \item
+    Um espaço amostral infinito discreto pode ser equiprovável (os
+    elementos do espaço amostral possuem mesma probabilidade).
+  \item
+    Se \(A\) está contido em \(B\), então \(P(A)\) é diferente de
+    \(P(B)\).
+  \item
+    Eventos disjuntos são complementares.
+  \item
+    Se \(A\) e \(B\) são eventos independentes, então \(A^c\) e \(B\)
+    também são independentes.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    disjuntos.
+  \item
+    Falso. Caso os elementos de um espaço amostral infinito tenham mesma
+    probabilidade, a soma das probabilidades será infinita.
+  \item
+    Falso. Não necessariamente. Se \(A \subset B\) e \(B \subset A\),
+    então \(P(A) = P(B)\).
+  \item
+    Falso. Eventos complementares são disjuntos, não o contrário.
+  \item
+    Verdadeiro. Se dois eventos são independentes, os originais e
+    complementares são todos independentes entre si.
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Marque a alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    A probabilidade da união de eventos é a soma das probabilidades dos
+    eventos.
+  \item
+    A probabilidade da intersecção de eventos é o produto das
+    probabilidades dos eventos.
+  \item
+    Se \(A\) está contido em \(B\), então \(P(A)\) é diferente de
+    \(P(B)\).
+  \item
+    A probabilidade de selecionarmos um número racional no conjunto dos
+    reais é zero.
+  \item
+    Um espaço amostral infinito discreto pode ser equiprovável (os
+    elementos do espaço amostral possuem mesma probabilidade).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    disjuntos.
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    independentes entre si.
+  \item
+    Falso. Não necessariamente. Se \(A \subset B\) e \(B \subset A\),
+    então \(P(A) = P(B)\).
+  \item
+    Verdadeiro. Como o espaço dos reais é contínuo, cada elemento do
+    conjunto dos racionais tem probabilidade zero.
+  \item
+    Falso. Caso os elementos de um espaço amostral infinito tenham mesma
+    probabilidade, a soma das probabilidades será infinita.
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Marque a alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Um evento \(A\) jamais será independente de si mesmo.
+  \item
+    A probabilidade de selecionarmos um número racional no conjunto dos
+    reais é zero.
+  \item
+    Um espaço amostral infinito discreto pode ser equiprovável (os
+    elementos do espaço amostral possuem mesma probabilidade).
+  \item
+    A probabilidade da intersecção de eventos é o produto das
+    probabilidades dos eventos.
+  \item
+    Eventos disjuntos são complementares.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. Um evento \(A\) pode ser independente de si mesmo caso
+    \(P(A)\) seja 0 ou 1.
+  \item
+    Verdadeiro. Como o espaço dos reais é contínuo, cada elemento do
+    conjunto dos racionais tem probabilidade zero.
+  \item
+    Falso. Caso os elementos de um espaço amostral infinito tenham mesma
+    probabilidade, a soma das probabilidades será infinita.
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    independentes entre si.
+  \item
+    Falso. Eventos complementares são disjuntos, não o contrário.
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Marque a alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    A probabilidade de selecionarmos um número racional no conjunto dos
+    reais é zero.
+  \item
+    Eventos disjuntos são complementares.
+  \item
+    Se \(A\) está contido em \(B\), então \(P(A)\) é diferente de
+    \(P(B)\).
+  \item
+    A probabilidade da união de eventos é a soma das probabilidades dos
+    eventos.
+  \item
+    A probabilidade da intersecção de eventos é o produto das
+    probabilidades dos eventos.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro. Como o espaço dos reais é contínuo, cada elemento do
+    conjunto dos racionais tem probabilidade zero.
+  \item
+    Falso. Eventos complementares são disjuntos, não o contrário.
+  \item
+    Falso. Não necessariamente. Se \(A \subset B\) e \(B \subset A\),
+    então \(P(A) = P(B)\).
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    disjuntos.
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    independentes entre si.
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Marque a alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    A probabilidade da união de eventos é a soma das probabilidades dos
+    eventos.
+  \item
+    A probabilidade da intersecção de eventos é o produto das
+    probabilidades dos eventos.
+  \item
+    Um espaço amostral infinito discreto pode ser equiprovável (os
+    elementos do espaço amostral possuem mesma probabilidade).
+  \item
+    Se \(A\) e \(B\) são eventos independentes, então \(A^c\) e \(B\)
+    também são independentes.
+  \item
+    Se \(A\) está contido em \(B\), então \(P(A)\) é diferente de
+    \(P(B)\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    disjuntos.
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    independentes entre si.
+  \item
+    Falso. Caso os elementos de um espaço amostral infinito tenham mesma
+    probabilidade, a soma das probabilidades será infinita.
+  \item
+    Verdadeiro. Se dois eventos são independentes, os originais e
+    complementares são todos independentes entre si.
+  \item
+    Falso. Não necessariamente. Se \(A \subset B\) e \(B \subset A\),
+    então \(P(A) = P(B)\).
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Marque a alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Se \(A\) está contido em \(B\), então \(P(A)\) é diferente de
+    \(P(B)\).
+  \item
+    A probabilidade de selecionarmos um número racional no conjunto dos
+    reais é zero.
+  \item
+    A probabilidade da união de eventos é a soma das probabilidades dos
+    eventos.
+  \item
+    Um evento \(A\) jamais será independente de si mesmo.
+  \item
+    Um espaço amostral infinito discreto pode ser equiprovável (os
+    elementos do espaço amostral possuem mesma probabilidade).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. Não necessariamente. Se \(A \subset B\) e \(B \subset A\),
+    então \(P(A) = P(B)\).
+  \item
+    Verdadeiro. Como o espaço dos reais é contínuo, cada elemento do
+    conjunto dos racionais tem probabilidade zero.
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    disjuntos.
+  \item
+    Falso. Um evento \(A\) pode ser independente de si mesmo caso
+    \(P(A)\) seja 0 ou 1.
+  \item
+    Falso. Caso os elementos de um espaço amostral infinito tenham mesma
+    probabilidade, a soma das probabilidades será infinita.
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Marque a alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    A probabilidade da união de eventos é a soma das probabilidades dos
+    eventos.
+  \item
+    Um evento \(A\) jamais será independente de si mesmo.
+  \item
+    Se \(A\) e \(B\) são eventos independentes, então \(A^c\) e \(B\)
+    também são independentes.
+  \item
+    A probabilidade da intersecção de eventos é o produto das
+    probabilidades dos eventos.
+  \item
+    Se \(A\) está contido em \(B\), então \(P(A)\) é diferente de
+    \(P(B)\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    disjuntos.
+  \item
+    Falso. Um evento \(A\) pode ser independente de si mesmo caso
+    \(P(A)\) seja 0 ou 1.
+  \item
+    Verdadeiro. Se dois eventos são independentes, os originais e
+    complementares são todos independentes entre si.
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    independentes entre si.
+  \item
+    Falso. Não necessariamente. Se \(A \subset B\) e \(B \subset A\),
+    então \(P(A) = P(B)\).
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Marque a alternativa correta:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Um evento \(A\) jamais será independente de si mesmo.
+  \item
+    Eventos disjuntos são complementares.
+  \item
+    Um espaço amostral infinito discreto pode ser equiprovável (os
+    elementos do espaço amostral possuem mesma probabilidade).
+  \item
+    A probabilidade da união de eventos é a soma das probabilidades dos
+    eventos.
+  \item
+    A probabilidade de selecionarmos um número racional no conjunto dos
+    reais é zero.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso. Um evento \(A\) pode ser independente de si mesmo caso
+    \(P(A)\) seja 0 ou 1.
+  \item
+    Falso. Eventos complementares são disjuntos, não o contrário.
+  \item
+    Falso. Caso os elementos de um espaço amostral infinito tenham mesma
+    probabilidade, a soma das probabilidades será infinita.
+  \item
+    Falso. Esta propriedade é válida apenas se os eventos forem
+    disjuntos.
+  \item
+    Verdadeiro. Como o espaço dos reais é contínuo, cada elemento do
+    conjunto dos racionais tem probabilidade zero.
+  \end{enumerate}
+\end{enumerate}

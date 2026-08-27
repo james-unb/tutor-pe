@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma concessionária de carros deseja estimar a porcentagem de pessoas
+  que compram um carro zero a cada 5 anos, no máximo. Considerando
+  pesquisas anteriores, essa estimativa é de \(12.6\%\). Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(99\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(2.5\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1173\)
+  \item
+    \(1232\)
+  \item
+    \(957\)
+  \item
+    \(1202\)
+  \item
+    \(1114\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.025} \right)^2 \times 0.126 \times (1-0.126)=1172.85.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1173\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma concessionária de carros deseja estimar a porcentagem de pessoas
+  que compram um carro zero a cada 5 anos, no máximo. Considerando
+  pesquisas anteriores, essa estimativa é de \(14.8\%\). Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(95\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(1.5\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1508\)
+  \item
+    \(2314\)
+  \item
+    \(2153\)
+  \item
+    \(2045\)
+  \item
+    \(2476\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.015} \right)^2 \times 0.148 \times (1-0.148)=2152.94.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2153\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma concessionária de carros deseja estimar a porcentagem de pessoas
+  que compram um carro zero a cada 5 anos, no máximo. Considerando
+  pesquisas anteriores, essa estimativa é de \(12.2\%\). Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(98\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(1.7\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2013\)
+  \item
+    \(1812\)
+  \item
+    \(1558\)
+  \item
+    \(2416\)
+  \item
+    \(2214\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.017} \right)^2 \times 0.122 \times (1-0.122)=2012.19.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2013\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma concessionária de carros deseja estimar a porcentagem de pessoas
+  que compram um carro zero a cada 5 anos, no máximo. Considerando
+  pesquisas anteriores, essa estimativa é de \(12.2\%\). Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(97\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(1.5\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2578\)
+  \item
+    \(2242\)
+  \item
+    \(2410\)
+  \item
+    \(2130\)
+  \item
+    \(1683\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.015} \right)^2 \times 0.122 \times (1-0.122)=2241.77.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2242\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma concessionária de carros deseja estimar a porcentagem de pessoas
+  que compram um carro zero a cada 5 anos, no máximo. Considerando
+  pesquisas anteriores, essa estimativa é de \(14.2\%\). Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(95\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(2.5\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(768\)
+  \item
+    \(749\)
+  \item
+    \(786\)
+  \item
+    \(674\)
+  \item
+    \(525\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.025} \right)^2 \times 0.142 \times (1-0.142)=748.87.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=749\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma concessionária de carros deseja estimar a porcentagem de pessoas
+  que compram um carro zero a cada 5 anos, no máximo. Considerando
+  pesquisas anteriores, essa estimativa é de \(12.6\%\). Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(99\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(1.5\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2606\)
+  \item
+    \(3502\)
+  \item
+    \(3747\)
+  \item
+    \(3258\)
+  \item
+    \(2658\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.015} \right)^2 \times 0.126 \times (1-0.126)=3257.91.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=3258\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma concessionária de carros deseja estimar a porcentagem de pessoas
+  que compram um carro zero a cada 5 anos, no máximo. Considerando
+  pesquisas anteriores, essa estimativa é de \(10.8\%\). Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(96\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(2.1\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(781\)
+  \item
+    \(669\)
+  \item
+    \(919\)
+  \item
+    \(965\)
+  \item
+    \(1011\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.021} \right)^2 \times 0.108 \times (1-0.108)=918.03.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=919\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma concessionária de carros deseja estimar a porcentagem de pessoas
+  que compram um carro zero a cada 5 anos, no máximo. Considerando
+  pesquisas anteriores, essa estimativa é de \(11.4\%\). Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(97\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(2.1\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(971\)
+  \item
+    \(810\)
+  \item
+    \(1106\)
+  \item
+    \(1079\)
+  \item
+    \(1133\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.021} \right)^2 \times 0.114 \times (1-0.114)=1078.5.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1079\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma concessionária de carros deseja estimar a porcentagem de pessoas
+  que compram um carro zero a cada 5 anos, no máximo. Considerando
+  pesquisas anteriores, essa estimativa é de \(11.8\%\). Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(99\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(1.5\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3310\)
+  \item
+    \(2512\)
+  \item
+    \(3541\)
+  \item
+    \(2925\)
+  \item
+    \(3079\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.015} \right)^2 \times 0.118 \times (1-0.118)=3078.98.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=3079\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma concessionária de carros deseja estimar a porcentagem de pessoas
+  que compram um carro zero a cada 5 anos, no máximo. Considerando
+  pesquisas anteriores, essa estimativa é de \(10.2\%\). Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(97\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(2.1\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(783\)
+  \item
+    \(735\)
+  \item
+    \(979\)
+  \item
+    \(1004\)
+  \item
+    \(1028\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.021} \right)^2 \times 0.102 \times (1-0.102)=978.04.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=979\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,882 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias têm no máximo quatro crianças.
+  Seja \(X\) o número de meninos na família e \(Y\) o número de meninas.
+  A distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.14 & 0.17 \\
+  1 & 0.22 & 0.17 \\
+  2 & 0.05 & 0.25 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 0.99\), \(E\left(X^2\right) = 1.59\),
+  \(E(Y) = 1.59\) e \(E\left(Y^2\right) = 2.77\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.776\)
+  \item
+    \(0.052\)
+  \item
+    \(0.224\)
+  \item
+    \(0.134\)
+  \item
+    \(0.086\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.14 & 0.17 & 0.31 \\
+  1 & 0.22 & 0.17 & 0.39 \\
+  2 & 0.05 & 0.25 & 0.3 \\
+  P(Y=y) & 0.41 & 0.59 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 1.59-(0.99)^2 = 0.61\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.77-(1.59)^2 = 0.242
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 1 & 2 & 4 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.31 & 0.22 & 0.22 & 0.25 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.31+1\times0.22+2\times0.22+4\times0.25 = 1.66\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.224\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias têm no máximo quatro crianças.
+  Seja \(X\) o número de meninos na família e \(Y\) o número de meninas.
+  A distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.3 & 0.08 \\
+  1 & 0.17 & 0 \\
+  2 & 0.15 & 0.3 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 1.07\), \(E\left(X^2\right) = 1.97\),
+  \(E(Y) = 1.38\) e \(E\left(Y^2\right) = 2.14\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.438\)
+  \item
+    \(0.116\)
+  \item
+    \(0.263\)
+  \item
+    \(0.562\)
+  \item
+    \(0.193\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.3 & 0.08 & 0.38 \\
+  1 & 0.17 & 0 & 0.17 \\
+  2 & 0.15 & 0.3 & 0.45 \\
+  P(Y=y) & 0.62 & 0.38 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 1.97-(1.07)^2 = 0.825\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.14-(1.38)^2 = 0.236
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 1 & 2 & 4 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.38 & 0.17 & 0.15 & 0.3 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.38+1\times0.17+2\times0.15+4\times0.3 = 1.67\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.438\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias têm no máximo quatro crianças.
+  Seja \(X\) o número de meninos na família e \(Y\) o número de meninas.
+  A distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.27 & 0.05 \\
+  1 & 0.22 & 0.12 \\
+  2 & 0.19 & 0.15 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 1.02\), \(E\left(X^2\right) = 1.7\),
+  \(E(Y) = 1.32\) e \(E\left(Y^2\right) = 1.96\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.148\)
+  \item
+    \(0.753\)
+  \item
+    \(0.094\)
+  \item
+    \(0.247\)
+  \item
+    \(0.056\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.27 & 0.05 & 0.32 \\
+  1 & 0.22 & 0.12 & 0.34 \\
+  2 & 0.19 & 0.15 & 0.34 \\
+  P(Y=y) & 0.68 & 0.32 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 1.7-(1.02)^2 = 0.66\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 1.96-(1.32)^2 = 0.218
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 1 & 2 & 4 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.32 & 0.22 & 0.31 & 0.15 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.32+1\times0.22+2\times0.31+4\times0.15 = 1.44\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.247\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias têm no máximo quatro crianças.
+  Seja \(X\) o número de meninos na família e \(Y\) o número de meninas.
+  A distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.27 & 0.13 \\
+  1 & 0.03 & 0.42 \\
+  2 & 0.09 & 0.06 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 0.75\), \(E\left(X^2\right) = 1.05\),
+  \(E(Y) = 1.61\) e \(E\left(Y^2\right) = 2.83\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.083\)
+  \item
+    \(0.050\)
+  \item
+    \(0.242\)
+  \item
+    \(0.145\)
+  \item
+    \(0.758\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.27 & 0.13 & 0.4 \\
+  1 & 0.03 & 0.42 & 0.45 \\
+  2 & 0.09 & 0.06 & 0.15 \\
+  P(Y=y) & 0.39 & 0.61 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 1.05-(0.75)^2 = 0.488\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.83-(1.61)^2 = 0.238
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 1 & 2 & 4 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.4 & 0.03 & 0.51 & 0.06 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.4+1\times0.03+2\times0.51+4\times0.06 = 1.29\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.242\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias têm no máximo quatro crianças.
+  Seja \(X\) o número de meninos na família e \(Y\) o número de meninas.
+  A distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.22 & 0.01 \\
+  1 & 0.3 & 0.38 \\
+  2 & 0.05 & 0.04 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 0.86\), \(E\left(X^2\right) = 1.04\),
+  \(E(Y) = 1.43\) e \(E\left(Y^2\right) = 2.29\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.054\)
+  \item
+    \(0.090\)
+  \item
+    \(0.200\)
+  \item
+    \(0.333\)
+  \item
+    \(0.667\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.22 & 0.01 & 0.23 \\
+  1 & 0.3 & 0.38 & 0.68 \\
+  2 & 0.05 & 0.04 & 0.09 \\
+  P(Y=y) & 0.57 & 0.43 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 1.04-(0.86)^2 = 0.3\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.29-(1.43)^2 = 0.245
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 1 & 2 & 4 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.23 & 0.3 & 0.43 & 0.04 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.23+1\times0.3+2\times0.43+4\times0.04 = 1.32\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.333\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias têm no máximo quatro crianças.
+  Seja \(X\) o número de meninos na família e \(Y\) o número de meninas.
+  A distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.13 & 0.54 \\
+  1 & 0.22 & 0.03 \\
+  2 & 0.04 & 0.04 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 0.41\), \(E\left(X^2\right) = 0.57\),
+  \(E(Y) = 1.61\) e \(E\left(Y^2\right) = 2.83\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.547\)
+  \item
+    \(-0.084\)
+  \item
+    \(-0.140\)
+  \item
+    \(-0.272\)
+  \item
+    \(-0.453\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.13 & 0.54 & 0.67 \\
+  1 & 0.22 & 0.03 & 0.25 \\
+  2 & 0.04 & 0.04 & 0.08 \\
+  P(Y=y) & 0.39 & 0.61 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 0.57-(0.41)^2 = 0.402\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.83-(1.61)^2 = 0.238
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 1 & 2 & 4 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.67 & 0.22 & 0.07 & 0.04 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.67+1\times0.22+2\times0.07+4\times0.04 = 0.52\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = -0.453\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias têm no máximo quatro crianças.
+  Seja \(X\) o número de meninos na família e \(Y\) o número de meninas.
+  A distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0 & 0.09 \\
+  1 & 0.06 & 0.18 \\
+  2 & 0.21 & 0.46 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 1.58\), \(E\left(X^2\right) = 2.92\),
+  \(E(Y) = 1.73\) e \(E\left(Y^2\right) = 3.19\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.053\)
+  \item
+    \(0.815\)
+  \item
+    \(-0.032\)
+  \item
+    \(-0.111\)
+  \item
+    \(-0.185\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0 & 0.09 & 0.09 \\
+  1 & 0.06 & 0.18 & 0.24 \\
+  2 & 0.21 & 0.46 & 0.67 \\
+  P(Y=y) & 0.27 & 0.73 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 2.92-(1.58)^2 = 0.424\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 3.19-(1.73)^2 = 0.197
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 1 & 2 & 4 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.09 & 0.06 & 0.39 & 0.46 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.09+1\times0.06+2\times0.39+4\times0.46 = 2.68\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = -0.185\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias têm no máximo quatro crianças.
+  Seja \(X\) o número de meninos na família e \(Y\) o número de meninas.
+  A distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.03 & 0.26 \\
+  1 & 0.02 & 0.27 \\
+  2 & 0.12 & 0.3 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 1.13\), \(E\left(X^2\right) = 1.97\),
+  \(E(Y) = 1.83\) e \(E\left(Y^2\right) = 3.49\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.783\)
+  \item
+    \(-0.217\)
+  \item
+    \(-0.068\)
+  \item
+    \(-0.041\)
+  \item
+    \(-0.130\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.03 & 0.26 & 0.29 \\
+  1 & 0.02 & 0.27 & 0.29 \\
+  2 & 0.12 & 0.3 & 0.42 \\
+  P(Y=y) & 0.17 & 0.83 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 1.97-(1.13)^2 = 0.693\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 3.49-(1.83)^2 = 0.141
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 1 & 2 & 4 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.29 & 0.02 & 0.39 & 0.3 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.29+1\times0.02+2\times0.39+4\times0.3 = 2\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = -0.217\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias têm no máximo quatro crianças.
+  Seja \(X\) o número de meninos na família e \(Y\) o número de meninas.
+  A distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.03 & 0.09 \\
+  1 & 0.02 & 0.55 \\
+  2 & 0.18 & 0.13 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 1.19\), \(E\left(X^2\right) = 1.81\),
+  \(E(Y) = 1.77\) e \(E\left(Y^2\right) = 3.31\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.597\)
+  \item
+    \(-0.106\)
+  \item
+    \(-0.403\)
+  \item
+    \(-0.242\)
+  \item
+    \(-0.064\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.03 & 0.09 & 0.12 \\
+  1 & 0.02 & 0.55 & 0.57 \\
+  2 & 0.18 & 0.13 & 0.31 \\
+  P(Y=y) & 0.23 & 0.77 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 1.81-(1.19)^2 = 0.394\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 3.31-(1.77)^2 = 0.177
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 1 & 2 & 4 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.12 & 0.02 & 0.73 & 0.13 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.12+1\times0.02+2\times0.73+4\times0.13 = 2\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = -0.403\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma cidade onde as famílias têm no máximo quatro crianças.
+  Seja \(X\) o número de meninos na família e \(Y\) o número de meninas.
+  A distribuição de probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.06 & 0.08 \\
+  1 & 0.6 & 0.02 \\
+  2 & 0.1 & 0.14 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 1.1\), \(E\left(X^2\right) = 1.58\),
+  \(E(Y) = 1.24\) e \(E\left(Y^2\right) = 1.72\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.022\)
+  \item
+    \(0.083\)
+  \item
+    \(0.036\)
+  \item
+    \(0.861\)
+  \item
+    \(0.139\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.06 & 0.08 & 0.14 \\
+  1 & 0.6 & 0.02 & 0.62 \\
+  2 & 0.1 & 0.14 & 0.24 \\
+  P(Y=y) & 0.76 & 0.24 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 1.58-(1.1)^2 = 0.37\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 1.72-(1.24)^2 = 0.182
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 1 & 2 & 4 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.14 & 0.6 & 0.12 & 0.14 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.14+1\times0.6+2\times0.12+4\times0.14 = 1.4\] e,
+  portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.139\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

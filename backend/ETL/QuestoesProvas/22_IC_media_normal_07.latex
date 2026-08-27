@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de lâmpadas quer testar sua qualidade de produção. Sabe-se
+  que o tempo de vida em horas de um bulbo de lâmpada de 75W é
+  distribuída de forma aproximadamente normal com desvio padrão de
+  \(32.98\). Uma amostra aleatória de \(10\) bulbos apresentou tempo de
+  vida médio de \(1021.91\) horas. Assinale a alternativa correspondente
+  ao intervalo de confiança para duração desses bulbos com \(99\)\% de
+  confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([ 995.003, 1048.817]\)
+  \item
+    \([1017.679, 1026.141]\)
+  \item
+    \([ 988.017, 1055.803]\)
+  \item
+    \([1011.192, 1032.628]\)
+  \item
+    \([1013.401, 1030.419]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[1021.91-2.58\times\frac{32.98}{\sqrt{10}} \ , \ 1021.91+2.58\times\frac{32.98}{\sqrt{10}}\right]\\
+  &=&\text{$[ 995.003, 1048.817]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de lâmpadas quer testar sua qualidade de produção. Sabe-se
+  que o tempo de vida em horas de um bulbo de lâmpada de 75W é
+  distribuída de forma aproximadamente normal com desvio padrão de
+  \(39.78\). Uma amostra aleatória de \(15\) bulbos apresentou tempo de
+  vida médio de \(1079.55\) horas. Assinale a alternativa correspondente
+  ao intervalo de confiança para duração desses bulbos com \(99\)\% de
+  confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1072.708, 1086.392]\)
+  \item
+    \([1053.050, 1106.050]\)
+  \item
+    \([1075.756, 1083.344]\)
+  \item
+    \([1048.975, 1110.125]\)
+  \item
+    \([1071.656, 1087.444]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[1079.55-2.58\times\frac{39.78}{\sqrt{15}} \ , \ 1079.55+2.58\times\frac{39.78}{\sqrt{15}}\right]\\
+  &=&\text{$[1053.050, 1106.050]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de lâmpadas quer testar sua qualidade de produção. Sabe-se
+  que o tempo de vida em horas de um bulbo de lâmpada de 75W é
+  distribuída de forma aproximadamente normal com desvio padrão de
+  \(21.5\). Uma amostra aleatória de \(15\) bulbos apresentou tempo de
+  vida médio de \(1077.98\) horas. Assinale a alternativa correspondente
+  ao intervalo de confiança para duração desses bulbos com \(90\)\% de
+  confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1068.203, 1087.757]\)
+  \item
+    \([1075.455, 1080.505]\)
+  \item
+    \([1068.876, 1087.084]\)
+  \item
+    \([1075.629, 1080.331]\)
+  \item
+    \([1076.448, 1079.512]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[1077.98-1.64\times\frac{21.5}{\sqrt{15}} \ , \ 1077.98+1.64\times\frac{21.5}{\sqrt{15}}\right]\\
+  &=&\text{$[1068.876, 1087.084]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de lâmpadas quer testar sua qualidade de produção. Sabe-se
+  que o tempo de vida em horas de um bulbo de lâmpada de 75W é
+  distribuída de forma aproximadamente normal com desvio padrão de
+  \(27.56\). Uma amostra aleatória de \(8\) bulbos apresentou tempo de
+  vida médio de \(1398.14\) horas. Assinale a alternativa correspondente
+  ao intervalo de confiança para duração desses bulbos com \(99\)\% de
+  confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1393.815, 1402.465]\)
+  \item
+    \([1386.084, 1410.196]\)
+  \item
+    \([1364.041, 1432.239]\)
+  \item
+    \([1373.001, 1423.279]\)
+  \item
+    \([1389.252, 1407.028]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[1398.14-2.58\times\frac{27.56}{\sqrt{8}} \ , \ 1398.14+2.58\times\frac{27.56}{\sqrt{8}}\right]\\
+  &=&\text{$[1373.001, 1423.279]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de lâmpadas quer testar sua qualidade de produção. Sabe-se
+  que o tempo de vida em horas de um bulbo de lâmpada de 75W é
+  distribuída de forma aproximadamente normal com desvio padrão de
+  \(33.35\). Uma amostra aleatória de \(10\) bulbos apresentou tempo de
+  vida médio de \(1065.92\) horas. Assinale a alternativa correspondente
+  ao intervalo de confiança para duração desses bulbos com \(99\)\% de
+  confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1038.711, 1093.129]\)
+  \item
+    \([1031.647, 1100.193]\)
+  \item
+    \([1057.316, 1074.524]\)
+  \item
+    \([1061.665, 1070.175]\)
+  \item
+    \([1055.082, 1076.758]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[1065.92-2.58\times\frac{33.35}{\sqrt{10}} \ , \ 1065.92+2.58\times\frac{33.35}{\sqrt{10}}\right]\\
+  &=&\text{$[1038.711, 1093.129]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de lâmpadas quer testar sua qualidade de produção. Sabe-se
+  que o tempo de vida em horas de um bulbo de lâmpada de 75W é
+  distribuída de forma aproximadamente normal com desvio padrão de
+  \(22.68\). Uma amostra aleatória de \(9\) bulbos apresentou tempo de
+  vida médio de \(1319.22\) horas. Assinale a alternativa correspondente
+  ao intervalo de confiança para duração desses bulbos com \(95\)\% de
+  confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1313.409, 1325.031]\)
+  \item
+    \([1301.787, 1336.653]\)
+  \item
+    \([1304.402, 1334.038]\)
+  \item
+    \([1316.617, 1321.823]\)
+  \item
+    \([1314.281, 1324.159]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[1319.22-1.96\times\frac{22.68}{\sqrt{9}} \ , \ 1319.22+1.96\times\frac{22.68}{\sqrt{9}}\right]\\
+  &=&\text{$[1304.402, 1334.038]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de lâmpadas quer testar sua qualidade de produção. Sabe-se
+  que o tempo de vida em horas de um bulbo de lâmpada de 75W é
+  distribuída de forma aproximadamente normal com desvio padrão de
+  \(37.23\). Uma amostra aleatória de \(13\) bulbos apresentou tempo de
+  vida médio de \(1251.04\) horas. Assinale a alternativa correspondente
+  ao intervalo de confiança para duração desses bulbos com \(99\)\% de
+  confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1242.292, 1259.788]\)
+  \item
+    \([1247.097, 1254.983]\)
+  \item
+    \([1243.651, 1258.429]\)
+  \item
+    \([1219.500, 1282.580]\)
+  \item
+    \([1224.400, 1277.680]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[1251.04-2.58\times\frac{37.23}{\sqrt{13}} \ , \ 1251.04+2.58\times\frac{37.23}{\sqrt{13}}\right]\\
+  &=&\text{$[1224.400, 1277.680]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de lâmpadas quer testar sua qualidade de produção. Sabe-se
+  que o tempo de vida em horas de um bulbo de lâmpada de 75W é
+  distribuída de forma aproximadamente normal com desvio padrão de
+  \(34.21\). Uma amostra aleatória de \(9\) bulbos apresentou tempo de
+  vida médio de \(1693.96\) horas. Assinale a alternativa correspondente
+  ao intervalo de confiança para duração desses bulbos com \(90\)\% de
+  confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1672.756, 1715.164]\)
+  \item
+    \([1687.726, 1700.194]\)
+  \item
+    \([1686.892, 1701.028]\)
+  \item
+    \([1675.259, 1712.661]\)
+  \item
+    \([1691.464, 1696.456]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[1693.96-1.64\times\frac{34.21}{\sqrt{9}} \ , \ 1693.96+1.64\times\frac{34.21}{\sqrt{9}}\right]\\
+  &=&\text{$[1675.259, 1712.661]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de lâmpadas quer testar sua qualidade de produção. Sabe-se
+  que o tempo de vida em horas de um bulbo de lâmpada de 75W é
+  distribuída de forma aproximadamente normal com desvio padrão de
+  \(30.41\). Uma amostra aleatória de \(12\) bulbos apresentou tempo de
+  vida médio de \(1526.38\) horas. Assinale a alternativa correspondente
+  ao intervalo de confiança para duração desses bulbos com \(99\)\% de
+  confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1522.671, 1530.089]\)
+  \item
+    \([1503.731, 1549.029]\)
+  \item
+    \([1499.115, 1553.645]\)
+  \item
+    \([1518.509, 1534.251]\)
+  \item
+    \([1519.842, 1532.918]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[1526.38-2.58\times\frac{30.41}{\sqrt{12}} \ , \ 1526.38+2.58\times\frac{30.41}{\sqrt{12}}\right]\\
+  &=&\text{$[1503.731, 1549.029]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma fábrica de lâmpadas quer testar sua qualidade de produção. Sabe-se
+  que o tempo de vida em horas de um bulbo de lâmpada de 75W é
+  distribuída de forma aproximadamente normal com desvio padrão de
+  \(30.06\). Uma amostra aleatória de \(15\) bulbos apresentou tempo de
+  vida médio de \(1028.26\) horas. Assinale a alternativa correspondente
+  ao intervalo de confiança para duração desses bulbos com \(95\)\% de
+  confiança.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([1024.332, 1032.188]\)
+  \item
+    \([1011.613, 1044.907]\)
+  \item
+    \([1023.962, 1032.558]\)
+  \item
+    \([1013.048, 1043.472]\)
+  \item
+    \([1025.938, 1030.582]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[1028.26-1.96\times\frac{30.06}{\sqrt{15}} \ , \ 1028.26+1.96\times\frac{30.06}{\sqrt{15}}\right]\\
+  &=&\text{$[1013.048, 1043.472]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

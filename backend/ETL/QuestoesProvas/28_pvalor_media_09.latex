@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma equipe de confeiteiros amadores quer testar o método de temperagem
+  de chocolates. Durante o processo, a manteiga de cacau assume uma
+  forma cristalina estável que garante um acabamento perfeito com um
+  brilho acetinado e uma quebra (som) deliciosa. Sabe-se que, para obter
+  esse resultado, deve-se fazer com que os chocolates sejam produzidos,
+  em média, a 29°C. Foram temperados chocolates em 8 recipientes
+  diferentes, com média amostral de 29.3502°C e desvio padrão amostral
+  de 0.7°C. Com base nas informações, assumindo que as observações
+  seguem uma distribuição Normal, assinale a alternativa correspondente
+  ao p-valor do teste para a temperatura média.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8214\)
+  \item
+    \(0.8000\)
+  \item
+    \(0.2000\)
+  \item
+    \(0.1571\)
+  \item
+    \(0.8429\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância populacional desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=29 \ \ versus \ \ H_a : \mu \neq 29.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\bar{x}-29|}{s/\sqrt{n}} = 1.4149\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{7}\leq1.4149)) = 0.2.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma equipe de confeiteiros amadores quer testar o método de temperagem
+  de chocolates. Durante o processo, a manteiga de cacau assume uma
+  forma cristalina estável que garante um acabamento perfeito com um
+  brilho acetinado e uma quebra (som) deliciosa. Sabe-se que, para obter
+  esse resultado, deve-se fazer com que os chocolates sejam produzidos,
+  em média, a 29°C. Foram temperados chocolates em 10 recipientes
+  diferentes, com média amostral de 29.372°C e desvio padrão amostral de
+  0.52°C. Com base nas informações, assumindo que as observações seguem
+  uma distribuição Normal, assinale a alternativa correspondente ao
+  p-valor do teste para a temperatura média.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9500\)
+  \item
+    \(0.0237\)
+  \item
+    \(0.0500\)
+  \item
+    \(0.9632\)
+  \item
+    \(0.9763\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância populacional desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=29 \ \ versus \ \ H_a : \mu \neq 29.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\bar{x}-29|}{s/\sqrt{n}} = 2.2622\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{9}\leq2.2622)) = 0.05.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma equipe de confeiteiros amadores quer testar o método de temperagem
+  de chocolates. Durante o processo, a manteiga de cacau assume uma
+  forma cristalina estável que garante um acabamento perfeito com um
+  brilho acetinado e uma quebra (som) deliciosa. Sabe-se que, para obter
+  esse resultado, deve-se fazer com que os chocolates sejam produzidos,
+  em média, a 29°C. Foram temperados chocolates em 11 recipientes
+  diferentes, com média amostral de 29.4098°C e desvio padrão amostral
+  de 0.61°C. Com base nas informações, assumindo que as observações
+  seguem uma distribuição Normal, assinale a alternativa correspondente
+  ao p-valor do teste para a temperatura média.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9621\)
+  \item
+    \(0.0259\)
+  \item
+    \(0.9500\)
+  \item
+    \(0.0500\)
+  \item
+    \(0.9741\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância populacional desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=29 \ \ versus \ \ H_a : \mu \neq 29.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\bar{x}-29|}{s/\sqrt{n}} = 2.2281\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{10}\leq2.2281)) = 0.05.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma equipe de confeiteiros amadores quer testar o método de temperagem
+  de chocolates. Durante o processo, a manteiga de cacau assume uma
+  forma cristalina estável que garante um acabamento perfeito com um
+  brilho acetinado e uma quebra (som) deliciosa. Sabe-se que, para obter
+  esse resultado, deve-se fazer com que os chocolates sejam produzidos,
+  em média, a 29°C. Foram temperados chocolates em 10 recipientes
+  diferentes, com média amostral de 29.2608°C e desvio padrão amostral
+  de 0.75°C. Com base nas informações, assumindo que as observações
+  seguem uma distribuição Normal, assinale a alternativa correspondente
+  ao p-valor do teste para a temperatura média.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2715\)
+  \item
+    \(0.7285\)
+  \item
+    \(0.3000\)
+  \item
+    \(0.7000\)
+  \item
+    \(0.7143\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância populacional desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=29 \ \ versus \ \ H_a : \mu \neq 29.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\bar{x}-29|}{s/\sqrt{n}} = 1.0997\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{9}\leq1.0997)) = 0.3.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma equipe de confeiteiros amadores quer testar o método de temperagem
+  de chocolates. Durante o processo, a manteiga de cacau assume uma
+  forma cristalina estável que garante um acabamento perfeito com um
+  brilho acetinado e uma quebra (som) deliciosa. Sabe-se que, para obter
+  esse resultado, deve-se fazer com que os chocolates sejam produzidos,
+  em média, a 29°C. Foram temperados chocolates em 7 recipientes
+  diferentes, com média amostral de 29.4952°C e desvio padrão amostral
+  de 0.91°C. Com base nas informações, assumindo que as observações
+  seguem uma distribuição Normal, assinale a alternativa correspondente
+  ao p-valor do teste para a temperatura média.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2000\)
+  \item
+    \(0.8501\)
+  \item
+    \(0.8250\)
+  \item
+    \(0.1499\)
+  \item
+    \(0.8000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância populacional desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=29 \ \ versus \ \ H_a : \mu \neq 29.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\bar{x}-29|}{s/\sqrt{n}} = 1.4398\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{6}\leq1.4398)) = 0.2.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma equipe de confeiteiros amadores quer testar o método de temperagem
+  de chocolates. Durante o processo, a manteiga de cacau assume uma
+  forma cristalina estável que garante um acabamento perfeito com um
+  brilho acetinado e uma quebra (som) deliciosa. Sabe-se que, para obter
+  esse resultado, deve-se fazer com que os chocolates sejam produzidos,
+  em média, a 31°C. Foram temperados chocolates em 10 recipientes
+  diferentes, com média amostral de 31.2782°C e desvio padrão amostral
+  de 0.8°C. Com base nas informações, assumindo que as observações
+  seguem uma distribuição Normal, assinale a alternativa correspondente
+  ao p-valor do teste para a temperatura média.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2715\)
+  \item
+    \(0.7285\)
+  \item
+    \(0.3000\)
+  \item
+    \(0.7143\)
+  \item
+    \(0.7000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância populacional desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=31 \ \ versus \ \ H_a : \mu \neq 31.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\bar{x}-31|}{s/\sqrt{n}} = 1.0997\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{9}\leq1.0997)) = 0.3.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma equipe de confeiteiros amadores quer testar o método de temperagem
+  de chocolates. Durante o processo, a manteiga de cacau assume uma
+  forma cristalina estável que garante um acabamento perfeito com um
+  brilho acetinado e uma quebra (som) deliciosa. Sabe-se que, para obter
+  esse resultado, deve-se fazer com que os chocolates sejam produzidos,
+  em média, a 29°C. Foram temperados chocolates em 8 recipientes
+  diferentes, com média amostral de 29.643°C e desvio padrão amostral de
+  0.96°C. Com base nas informações, assumindo que as observações seguem
+  uma distribuição Normal, assinale a alternativa correspondente ao
+  p-valor do teste para a temperatura média.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9000\)
+  \item
+    \(0.1000\)
+  \item
+    \(0.9419\)
+  \item
+    \(0.0581\)
+  \item
+    \(0.9209\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância populacional desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=29 \ \ versus \ \ H_a : \mu \neq 29.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\bar{x}-29|}{s/\sqrt{n}} = 1.8946\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{7}\leq1.8946)) = 0.1.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma equipe de confeiteiros amadores quer testar o método de temperagem
+  de chocolates. Durante o processo, a manteiga de cacau assume uma
+  forma cristalina estável que garante um acabamento perfeito com um
+  brilho acetinado e uma quebra (som) deliciosa. Sabe-se que, para obter
+  esse resultado, deve-se fazer com que os chocolates sejam produzidos,
+  em média, a 29°C. Foram temperados chocolates em 9 recipientes
+  diferentes, com média amostral de 29.4029°C e desvio padrão amostral
+  de 0.65°C. Com base nas informações, assumindo que as observações
+  seguem uma distribuição Normal, assinale a alternativa correspondente
+  ao p-valor do teste para a temperatura média.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9370\)
+  \item
+    \(0.9000\)
+  \item
+    \(0.1000\)
+  \item
+    \(0.9185\)
+  \item
+    \(0.0630\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância populacional desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=29 \ \ versus \ \ H_a : \mu \neq 29.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\bar{x}-29|}{s/\sqrt{n}} = 1.8595\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{8}\leq1.8595)) = 0.1.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma equipe de confeiteiros amadores quer testar o método de temperagem
+  de chocolates. Durante o processo, a manteiga de cacau assume uma
+  forma cristalina estável que garante um acabamento perfeito com um
+  brilho acetinado e uma quebra (som) deliciosa. Sabe-se que, para obter
+  esse resultado, deve-se fazer com que os chocolates sejam produzidos,
+  em média, a 31°C. Foram temperados chocolates em 10 recipientes
+  diferentes, com média amostral de 31.2712°C e desvio padrão amostral
+  de 0.78°C. Com base nas informações, assumindo que as observações
+  seguem uma distribuição Normal, assinale a alternativa correspondente
+  ao p-valor do teste para a temperatura média.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7000\)
+  \item
+    \(0.7143\)
+  \item
+    \(0.3000\)
+  \item
+    \(0.2715\)
+  \item
+    \(0.7285\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância populacional desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=31 \ \ versus \ \ H_a : \mu \neq 31.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\bar{x}-31|}{s/\sqrt{n}} = 1.0997\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{9}\leq1.0997)) = 0.3.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma equipe de confeiteiros amadores quer testar o método de temperagem
+  de chocolates. Durante o processo, a manteiga de cacau assume uma
+  forma cristalina estável que garante um acabamento perfeito com um
+  brilho acetinado e uma quebra (som) deliciosa. Sabe-se que, para obter
+  esse resultado, deve-se fazer com que os chocolates sejam produzidos,
+  em média, a 31°C. Foram temperados chocolates em 9 recipientes
+  diferentes, com média amostral de 31.4401°C e desvio padrão amostral
+  de 0.71°C. Com base nas informações, assumindo que as observações
+  seguem uma distribuição Normal, assinale a alternativa correspondente
+  ao p-valor do teste para a temperatura média.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1000\)
+  \item
+    \(0.9000\)
+  \item
+    \(0.9370\)
+  \item
+    \(0.9185\)
+  \item
+    \(0.0630\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância populacional desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=31 \ \ versus \ \ H_a : \mu \neq 31.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\bar{x}-31|}{s/\sqrt{n}} = 1.8595\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{8}\leq1.8595)) = 0.1.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

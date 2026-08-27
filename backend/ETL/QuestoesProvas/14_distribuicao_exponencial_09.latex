@@ -1,0 +1,412 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Sabendo que \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(7)=0.689\),
+  qual é a variância dessa variável aleatória?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.03\)
+  \item
+    \(0.17\)
+  \item
+    \(5.99\)
+  \item
+    \(71.84\)
+  \item
+    \(35.92\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  \exp(-7 \lambda)&=0.311\\
+  -7 \lambda &=ln(0.311) \\
+  \lambda&=\frac{-ln(0.311)}{7}=0.1669.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.1669)\), e
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.0278}=35.9201698053302.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabendo que \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(8)=0.632\),
+  qual é a variância dessa variável aleatória?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(64.04\)
+  \item
+    \(0.12\)
+  \item
+    \(128.08\)
+  \item
+    \(0.02\)
+  \item
+    \(8.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  \exp(-8 \lambda)&=0.368\\
+  -8 \lambda &=ln(0.368) \\
+  \lambda&=\frac{-ln(0.368)}{8}=0.125.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.125)\), e
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.0156}=64.041960998143.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabendo que \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(8)=0.517\),
+  qual é a variância dessa variável aleatória?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.01\)
+  \item
+    \(120.85\)
+  \item
+    \(0.09\)
+  \item
+    \(241.69\)
+  \item
+    \(10.99\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  \exp(-8 \lambda)&=0.483\\
+  -8 \lambda &=ln(0.483) \\
+  \lambda&=\frac{-ln(0.483)}{8}=0.091.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.091)\), e
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.0083}=120.845121262734.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabendo que \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(5)=0.465\),
+  qual é a variância dessa variável aleatória?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.13\)
+  \item
+    \(127.80\)
+  \item
+    \(63.90\)
+  \item
+    \(0.02\)
+  \item
+    \(7.99\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  \exp(-5 \lambda)&=0.535\\
+  -5 \lambda &=ln(0.535) \\
+  \lambda&=\frac{-ln(0.535)}{5}=0.1251.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.1251)\), e
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.0156}=63.9000658145535.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabendo que \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(8)=0.551\),
+  qual é a variância dessa variável aleatória?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(199.63\)
+  \item
+    \(0.10\)
+  \item
+    \(99.82\)
+  \item
+    \(0.01\)
+  \item
+    \(9.99\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  \exp(-8 \lambda)&=0.449\\
+  -8 \lambda &=ln(0.449) \\
+  \lambda&=\frac{-ln(0.449)}{8}=0.1001.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.1001)\), e
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.01}=99.8171533195243.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabendo que \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(6)=0.576\),
+  qual é a variância dessa variável aleatória?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.02\)
+  \item
+    \(48.90\)
+  \item
+    \(6.99\)
+  \item
+    \(0.14\)
+  \item
+    \(97.80\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  \exp(-6 \lambda)&=0.424\\
+  -6 \lambda &=ln(0.424) \\
+  \lambda&=\frac{-ln(0.424)}{6}=0.143.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.143)\), e
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.0205}=48.8996591876525.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabendo que \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(5)=0.565\),
+  qual é a variância dessa variável aleatória?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(36.08\)
+  \item
+    \(0.03\)
+  \item
+    \(0.17\)
+  \item
+    \(72.16\)
+  \item
+    \(6.01\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  \exp(-5 \lambda)&=0.435\\
+  -5 \lambda &=ln(0.435) \\
+  \lambda&=\frac{-ln(0.435)}{5}=0.1665.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.1665)\), e
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.0277}=36.0799739824337.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabendo que \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(5)=0.341\),
+  qual é a variância dessa variável aleatória?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.08\)
+  \item
+    \(143.75\)
+  \item
+    \(287.50\)
+  \item
+    \(0.01\)
+  \item
+    \(11.99\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  \exp(-5 \lambda)&=0.659\\
+  -5 \lambda &=ln(0.659) \\
+  \lambda&=\frac{-ln(0.659)}{5}=0.0834.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.0834)\), e
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.007}=143.747989476449.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabendo que \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(9)=0.632\),
+  qual é a variância dessa variável aleatória?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(162.11\)
+  \item
+    \(0.11\)
+  \item
+    \(9.00\)
+  \item
+    \(81.05\)
+  \item
+    \(0.01\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  \exp(-9 \lambda)&=0.368\\
+  -9 \lambda &=ln(0.368) \\
+  \lambda&=\frac{-ln(0.368)}{9}=0.1111.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.1111)\), e
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.0123}=81.0531068882747.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabendo que \(P(X \leq x) = 1-\exp(-\lambda x)\), e \(F(5)=0.565\),
+  qual é a variância dessa variável aleatória?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(36.08\)
+  \item
+    \(6.01\)
+  \item
+    \(0.03\)
+  \item
+    \(72.16\)
+  \item
+    \(0.17\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para encontrar o valor de \(\lambda\), basta resolver:
+  \[\begin{aligned}
+  \exp(-5 \lambda)&=0.435\\
+  -5 \lambda &=ln(0.435) \\
+  \lambda&=\frac{-ln(0.435)}{5}=0.1665.
+  \end{aligned}\] Portanto, \(X \sim \text{Exp}(0.1665)\), e
+  \[Var(X)=\frac{1}{\lambda^2}=\frac{1}{0.0277}=36.0799739824337.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

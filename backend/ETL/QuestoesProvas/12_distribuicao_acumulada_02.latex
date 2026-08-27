@@ -1,0 +1,392 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo até a desintegração de uma partícula radioativa
+  cuja função de distribuição acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \geq 0.11) = 0.83\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-1.694\)
+  \item
+    \(1.694\)
+  \item
+    \(-16.109\)
+  \item
+    \(2.659\)
+  \item
+    \(16.109\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 0.11) = 1- P(X \geq 0.11) = 1-0.83.\] Dessa
+  forma, tem-se que \(1-e^{-\lambda x} = 1-0.83\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{ln(0.83)}{0.11} = 1.694.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo até a desintegração de uma partícula radioativa
+  cuja função de distribuição acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \geq 0.12) = 0.79\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.964\)
+  \item
+    \(2.684\)
+  \item
+    \(-1.964\)
+  \item
+    \(-13.005\)
+  \item
+    \(13.005\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 0.12) = 1- P(X \geq 0.12) = 1-0.79.\] Dessa
+  forma, tem-se que \(1-e^{-\lambda x} = 1-0.79\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{ln(0.79)}{0.12} = 1.964.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo até a desintegração de uma partícula radioativa
+  cuja função de distribuição acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \geq 0.1) = 0.23\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-2.614\)
+  \item
+    \(10.011\)
+  \item
+    \(2.614\)
+  \item
+    \(14.697\)
+  \item
+    \(-14.697\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 0.1) = 1- P(X \geq 0.1) = 1-0.23.\] Dessa
+  forma, tem-se que \(1-e^{-\lambda x} = 1-0.23\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{ln(0.23)}{0.1} = 14.697.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo até a desintegração de uma partícula radioativa
+  cuja função de distribuição acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \geq 0.19) = 0.83\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.981\)
+  \item
+    \(-9.326\)
+  \item
+    \(0.981\)
+  \item
+    \(9.326\)
+  \item
+    \(2.001\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 0.19) = 1- P(X \geq 0.19) = 1-0.83.\] Dessa
+  forma, tem-se que \(1-e^{-\lambda x} = 1-0.83\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{ln(0.83)}{0.19} = 0.981.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo até a desintegração de uma partícula radioativa
+  cuja função de distribuição acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \geq 0.19) = 0.86\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.931\)
+  \item
+    \(0.794\)
+  \item
+    \(-10.348\)
+  \item
+    \(10.348\)
+  \item
+    \(-0.794\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 0.19) = 1- P(X \geq 0.19) = 1-0.86.\] Dessa
+  forma, tem-se que \(1-e^{-\lambda x} = 1-0.86\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{ln(0.86)}{0.19} = 0.794.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo até a desintegração de uma partícula radioativa
+  cuja função de distribuição acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \geq 0.02) = 0.79\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(11.786\)
+  \item
+    \(-11.786\)
+  \item
+    \(78.032\)
+  \item
+    \(4.952\)
+  \item
+    \(-78.032\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 0.02) = 1- P(X \geq 0.02) = 1-0.79.\] Dessa
+  forma, tem-se que \(1-e^{-\lambda x} = 1-0.79\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{ln(0.79)}{0.02} = 11.786.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo até a desintegração de uma partícula radioativa
+  cuja função de distribuição acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \geq 0.01) = 0.29\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(15.880\)
+  \item
+    \(123.787\)
+  \item
+    \(-123.787\)
+  \item
+    \(-34.249\)
+  \item
+    \(34.249\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 0.01) = 1- P(X \geq 0.01) = 1-0.29.\] Dessa
+  forma, tem-se que \(1-e^{-\lambda x} = 1-0.29\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{ln(0.29)}{0.01} = 123.787.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo até a desintegração de uma partícula radioativa
+  cuja função de distribuição acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \geq 0.04) = 0.47\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-18.876\)
+  \item
+    \(18.876\)
+  \item
+    \(-15.872\)
+  \item
+    \(6.849\)
+  \item
+    \(15.872\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 0.04) = 1- P(X \geq 0.04) = 1-0.47.\] Dessa
+  forma, tem-se que \(1-e^{-\lambda x} = 1-0.47\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{ln(0.47)}{0.04} = 18.876.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo até a desintegração de uma partícula radioativa
+  cuja função de distribuição acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \geq 0.18) = 0.57\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-3.123\)
+  \item
+    \(3.008\)
+  \item
+    \(3.123\)
+  \item
+    \(4.689\)
+  \item
+    \(-4.689\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 0.18) = 1- P(X \geq 0.18) = 1-0.57.\] Dessa
+  forma, tem-se que \(1-e^{-\lambda x} = 1-0.57\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{ln(0.57)}{0.18} = 3.123.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) o tempo até a desintegração de uma partícula radioativa
+  cuja função de distribuição acumulada (fda) é dada por:
+  \(F(x) = 1-e^{-\lambda x}\), para \(x > 0\). Qual é o valor de
+  \(\lambda\) tal que \(P(X \geq 0.15) = 0.35\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-2.872\)
+  \item
+    \(2.872\)
+  \item
+    \(6.999\)
+  \item
+    \(5.420\)
+  \item
+    \(-6.999\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Sabe-se que \[P(X \leq 0.15) = 1- P(X \geq 0.15) = 1-0.35.\] Dessa
+  forma, tem-se que \(1-e^{-\lambda x} = 1-0.35\), e resolvendo para
+  \(\lambda\) temos que \[\lambda = -\frac{ln(0.35)}{0.15} = 6.999.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

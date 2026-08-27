@@ -1,0 +1,449 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório afirma que o gasto médio anual de energia de um aspirador
+  numa determinada cidade é de \(1.97\) kWh. Uma amostra aleatória de
+  \(15\) casas indicou que os aspiradores gastaram uma média de
+  \(2.449\) kWh por ano, com desvio padrão \(0.49\) kWh. Desconfia-se
+  que o gasto de energia apresentado no relatório está incorreto,
+  assinale a altervativa correspondente ao p-valor do teste para a
+  afirmação.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.499\)
+  \item
+    \(0.004\)
+  \item
+    \(0.001\)
+  \item
+    \(0.002\)
+  \item
+    \(0.998\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=1.97 \ \ versus \ \ H_a : \mu \neq 1.97.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-1.97|}{s/\sqrt{n}} = 3.786\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{14}\leq3.786)) = 0.002.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório afirma que o gasto médio anual de energia de um aspirador
+  numa determinada cidade é de \(1.59\) kWh. Uma amostra aleatória de
+  \(10\) casas indicou que os aspiradores gastaram uma média de
+  \(2.346\) kWh por ano, com desvio padrão \(0.5\) kWh. Desconfia-se que
+  o gasto de energia apresentado no relatório está incorreto, assinale a
+  altervativa correspondente ao p-valor do teste para a afirmação.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9990\)
+  \item
+    \(0.0010\)
+  \item
+    \(0.4995\)
+  \item
+    \(0.0020\)
+  \item
+    \(0.0005\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=1.59 \ \ versus \ \ H_a : \mu \neq 1.59.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-1.59|}{s/\sqrt{n}} = 4.7814\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{9}\leq4.7814)) = 0.001.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório afirma que o gasto médio anual de energia de um aspirador
+  numa determinada cidade é de \(1.66\) kWh. Uma amostra aleatória de
+  \(11\) casas indicou que os aspiradores gastaram uma média de
+  \(2.127\) kWh por ano, com desvio padrão \(0.56\) kWh. Desconfia-se
+  que o gasto de energia apresentado no relatório está incorreto,
+  assinale a altervativa correspondente ao p-valor do teste para a
+  afirmação.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.49\)
+  \item
+    \(0.01\)
+  \item
+    \(0.02\)
+  \item
+    \(0.98\)
+  \item
+    \(0.04\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=1.66 \ \ versus \ \ H_a : \mu \neq 1.66.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-1.66|}{s/\sqrt{n}} = 2.7658\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{10}\leq2.7658)) = 0.02.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório afirma que o gasto médio anual de energia de um aspirador
+  numa determinada cidade é de \(2\) kWh. Uma amostra aleatória de
+  \(22\) casas indicou que os aspiradores gastaram uma média de
+  \(2.308\) kWh por ano, com desvio padrão \(0.41\) kWh. Desconfia-se
+  que o gasto de energia apresentado no relatório está incorreto,
+  assinale a altervativa correspondente ao p-valor do teste para a
+  afirmação.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.002\)
+  \item
+    \(0.998\)
+  \item
+    \(0.499\)
+  \item
+    \(0.001\)
+  \item
+    \(0.004\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=2 \ \ versus \ \ H_a : \mu \neq 2.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\bar{x}-2|}{s/\sqrt{n}} = 3.5235\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{21}\leq3.5235)) = 0.002.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório afirma que o gasto médio anual de energia de um aspirador
+  numa determinada cidade é de \(2.46\) kWh. Uma amostra aleatória de
+  \(11\) casas indicou que os aspiradores gastaram uma média de
+  \(2.572\) kWh por ano, com desvio padrão \(0.34\) kWh. Desconfia-se
+  que o gasto de energia apresentado no relatório está incorreto,
+  assinale a altervativa correspondente ao p-valor do teste para a
+  afirmação.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.60\)
+  \item
+    \(0.70\)
+  \item
+    \(0.15\)
+  \item
+    \(0.30\)
+  \item
+    \(0.35\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=2.46 \ \ versus \ \ H_a : \mu \neq 2.46.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-2.46|}{s/\sqrt{n}} = 1.0925\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{10}\leq1.0925)) = 0.3.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório afirma que o gasto médio anual de energia de um aspirador
+  numa determinada cidade é de \(2.23\) kWh. Uma amostra aleatória de
+  \(11\) casas indicou que os aspiradores gastaram uma média de
+  \(2.479\) kWh por ano, com desvio padrão \(0.37\) kWh. Desconfia-se
+  que o gasto de energia apresentado no relatório está incorreto,
+  assinale a altervativa correspondente ao p-valor do teste para a
+  afirmação.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.100\)
+  \item
+    \(0.475\)
+  \item
+    \(0.950\)
+  \item
+    \(0.025\)
+  \item
+    \(0.050\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=2.23 \ \ versus \ \ H_a : \mu \neq 2.23.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-2.23|}{s/\sqrt{n}} = 2.232\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{10}\leq2.232)) = 0.05.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório afirma que o gasto médio anual de energia de um aspirador
+  numa determinada cidade é de \(1.87\) kWh. Uma amostra aleatória de
+  \(14\) casas indicou que os aspiradores gastaram uma média de
+  \(2.457\) kWh por ano, com desvio padrão \(0.52\) kWh. Desconfia-se
+  que o gasto de energia apresentado no relatório está incorreto,
+  assinale a altervativa correspondente ao p-valor do teste para a
+  afirmação.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0010\)
+  \item
+    \(0.4995\)
+  \item
+    \(0.0020\)
+  \item
+    \(0.0005\)
+  \item
+    \(0.9990\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=1.87 \ \ versus \ \ H_a : \mu \neq 1.87.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-1.87|}{s/\sqrt{n}} = 4.2238\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{13}\leq4.2238)) = 0.001.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório afirma que o gasto médio anual de energia de um aspirador
+  numa determinada cidade é de \(1.5\) kWh. Uma amostra aleatória de
+  \(20\) casas indicou que os aspiradores gastaram uma média de
+  \(1.926\) kWh por ano, com desvio padrão \(0.6\) kWh. Desconfia-se que
+  o gasto de energia apresentado no relatório está incorreto, assinale a
+  altervativa correspondente ao p-valor do teste para a afirmação.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9950\)
+  \item
+    \(0.0050\)
+  \item
+    \(0.0025\)
+  \item
+    \(0.0100\)
+  \item
+    \(0.4975\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=1.5 \ \ versus \ \ H_a : \mu \neq 1.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\bar{x}-1.5|}{s/\sqrt{n}} = 3.1752\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{19}\leq3.1752)) = 0.005.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório afirma que o gasto médio anual de energia de um aspirador
+  numa determinada cidade é de \(2.39\) kWh. Uma amostra aleatória de
+  \(10\) casas indicou que os aspiradores gastaram uma média de \(2.54\)
+  kWh por ano, com desvio padrão \(0.43\) kWh. Desconfia-se que o gasto
+  de energia apresentado no relatório está incorreto, assinale a
+  altervativa correspondente ao p-valor do teste para a afirmação.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.15\)
+  \item
+    \(0.30\)
+  \item
+    \(0.35\)
+  \item
+    \(0.70\)
+  \item
+    \(0.60\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=2.39 \ \ versus \ \ H_a : \mu \neq 2.39.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-2.39|}{s/\sqrt{n}} = 1.1031\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{9}\leq1.1031)) = 0.3.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um relatório afirma que o gasto médio anual de energia de um aspirador
+  numa determinada cidade é de \(1.52\) kWh. Uma amostra aleatória de
+  \(22\) casas indicou que os aspiradores gastaram uma média de
+  \(1.858\) kWh por ano, com desvio padrão \(0.45\) kWh. Desconfia-se
+  que o gasto de energia apresentado no relatório está incorreto,
+  assinale a altervativa correspondente ao p-valor do teste para a
+  afirmação.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.998\)
+  \item
+    \(0.002\)
+  \item
+    \(0.004\)
+  \item
+    \(0.001\)
+  \item
+    \(0.499\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=1.52 \ \ versus \ \ H_a : \mu \neq 1.52.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-1.52|}{s/\sqrt{n}} = 3.523\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{21}\leq3.523)) = 0.002.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

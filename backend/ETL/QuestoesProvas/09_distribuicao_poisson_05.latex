@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um editor de um jornal descobre que o número médio de erros
+  tipográficos por página do jornal é 3. Admitindo que o número de erros
+  por página desse jornal segue uma distribuição de Poisson, determine a
+  probabilidade de que em uma determinada página o número de erros seja
+  maior que 2.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.423\)
+  \item
+    \(0.139\)
+  \item
+    \(0.224\)
+  \item
+    \(0.577\)
+  \item
+    \(0.776\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de erros na página, logo \(X \sim Poisson(3)\) e
+  portanto \[\begin{aligned}
+  P[X>2] &=& 1 - P[X \leq 2] \\
+         &=& 1 - (P[X = 0] + P[X = 1] + P[X = 2]) \\
+         &=& 1 - \left(\frac{ 3^0 e^{-3} }{0!} + \frac{ 3^1 e^{-3} }{1!} + \frac{ 3^2 e^{-3} }{2!}\right) \\
+         &=& 1 - (0.05 +  0.149 + 0.224)\\
+         &=& 0.577
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um editor de um jornal descobre que o número médio de erros
+  tipográficos por página do jornal é 1. Admitindo que o número de erros
+  por página desse jornal segue uma distribuição de Poisson, determine a
+  probabilidade de que em uma determinada página o número de erros seja
+  maior que 2.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.184\)
+  \item
+    \(0.939\)
+  \item
+    \(0.080\)
+  \item
+    \(0.920\)
+  \item
+    \(0.616\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de erros na página, logo \(X \sim Poisson(1)\) e
+  portanto \[\begin{aligned}
+  P[X>2] &=& 1 - P[X \leq 2] \\
+         &=& 1 - (P[X = 0] + P[X = 1] + P[X = 2]) \\
+         &=& 1 - \left(\frac{ 1^0 e^{-1} }{0!} + \frac{ 1^1 e^{-1} }{1!} + \frac{ 1^2 e^{-1} }{2!}\right) \\
+         &=& 1 - (0.368 +  0.368 + 0.184)\\
+         &=& 0.08
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um editor de um jornal descobre que o número médio de erros
+  tipográficos por página do jornal é 4. Admitindo que o número de erros
+  por página desse jornal segue uma distribuição de Poisson, determine a
+  probabilidade de que em uma determinada página o número de erros seja
+  maior que 2.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.125\)
+  \item
+    \(0.805\)
+  \item
+    \(0.147\)
+  \item
+    \(0.238\)
+  \item
+    \(0.762\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de erros na página, logo \(X \sim Poisson(4)\) e
+  portanto \[\begin{aligned}
+  P[X>2] &=& 1 - P[X \leq 2] \\
+         &=& 1 - (P[X = 0] + P[X = 1] + P[X = 2]) \\
+         &=& 1 - \left(\frac{ 4^0 e^{-4} }{0!} + \frac{ 4^1 e^{-4} }{1!} + \frac{ 4^2 e^{-4} }{2!}\right) \\
+         &=& 1 - (0.018 +  0.073 + 0.147)\\
+         &=& 0.762
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um editor de um jornal descobre que o número médio de erros
+  tipográficos por página do jornal é 4. Admitindo que o número de erros
+  por página desse jornal segue uma distribuição de Poisson, determine a
+  probabilidade de que em uma determinada página o número de erros seja
+  maior que 2.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.238\)
+  \item
+    \(0.147\)
+  \item
+    \(0.762\)
+  \item
+    \(0.038\)
+  \item
+    \(0.805\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de erros na página, logo \(X \sim Poisson(4)\) e
+  portanto \[\begin{aligned}
+  P[X>2] &=& 1 - P[X \leq 2] \\
+         &=& 1 - (P[X = 0] + P[X = 1] + P[X = 2]) \\
+         &=& 1 - \left(\frac{ 4^0 e^{-4} }{0!} + \frac{ 4^1 e^{-4} }{1!} + \frac{ 4^2 e^{-4} }{2!}\right) \\
+         &=& 1 - (0.018 +  0.073 + 0.147)\\
+         &=& 0.762
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um editor de um jornal descobre que o número médio de erros
+  tipográficos por página do jornal é 2. Admitindo que o número de erros
+  por página desse jornal segue uma distribuição de Poisson, determine a
+  probabilidade de que em uma determinada página o número de erros seja
+  maior que 2.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.323\)
+  \item
+    \(0.677\)
+  \item
+    \(0.233\)
+  \item
+    \(0.271\)
+  \item
+    \(0.820\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de erros na página, logo \(X \sim Poisson(2)\) e
+  portanto \[\begin{aligned}
+  P[X>2] &=& 1 - P[X \leq 2] \\
+         &=& 1 - (P[X = 0] + P[X = 1] + P[X = 2]) \\
+         &=& 1 - \left(\frac{ 2^0 e^{-2} }{0!} + \frac{ 2^1 e^{-2} }{1!} + \frac{ 2^2 e^{-2} }{2!}\right) \\
+         &=& 1 - (0.135 +  0.271 + 0.271)\\
+         &=& 0.323
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um editor de um jornal descobre que o número médio de erros
+  tipográficos por página do jornal é 3. Admitindo que o número de erros
+  por página desse jornal segue uma distribuição de Poisson, determine a
+  probabilidade de que em uma determinada página o número de erros seja
+  maior que 2.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.577\)
+  \item
+    \(0.423\)
+  \item
+    \(0.986\)
+  \item
+    \(0.224\)
+  \item
+    \(0.776\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de erros na página, logo \(X \sim Poisson(3)\) e
+  portanto \[\begin{aligned}
+  P[X>2] &=& 1 - P[X \leq 2] \\
+         &=& 1 - (P[X = 0] + P[X = 1] + P[X = 2]) \\
+         &=& 1 - \left(\frac{ 3^0 e^{-3} }{0!} + \frac{ 3^1 e^{-3} }{1!} + \frac{ 3^2 e^{-3} }{2!}\right) \\
+         &=& 1 - (0.05 +  0.149 + 0.224)\\
+         &=& 0.577
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um editor de um jornal descobre que o número médio de erros
+  tipográficos por página do jornal é 4. Admitindo que o número de erros
+  por página desse jornal segue uma distribuição de Poisson, determine a
+  probabilidade de que em uma determinada página o número de erros seja
+  maior que 2.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.805\)
+  \item
+    \(0.762\)
+  \item
+    \(0.147\)
+  \item
+    \(0.356\)
+  \item
+    \(0.238\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de erros na página, logo \(X \sim Poisson(4)\) e
+  portanto \[\begin{aligned}
+  P[X>2] &=& 1 - P[X \leq 2] \\
+         &=& 1 - (P[X = 0] + P[X = 1] + P[X = 2]) \\
+         &=& 1 - \left(\frac{ 4^0 e^{-4} }{0!} + \frac{ 4^1 e^{-4} }{1!} + \frac{ 4^2 e^{-4} }{2!}\right) \\
+         &=& 1 - (0.018 +  0.073 + 0.147)\\
+         &=& 0.762
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um editor de um jornal descobre que o número médio de erros
+  tipográficos por página do jornal é 2. Admitindo que o número de erros
+  por página desse jornal segue uma distribuição de Poisson, determine a
+  probabilidade de que em uma determinada página o número de erros seja
+  maior que 2.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.323\)
+  \item
+    \(0.703\)
+  \item
+    \(0.820\)
+  \item
+    \(0.677\)
+  \item
+    \(0.271\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de erros na página, logo \(X \sim Poisson(2)\) e
+  portanto \[\begin{aligned}
+  P[X>2] &=& 1 - P[X \leq 2] \\
+         &=& 1 - (P[X = 0] + P[X = 1] + P[X = 2]) \\
+         &=& 1 - \left(\frac{ 2^0 e^{-2} }{0!} + \frac{ 2^1 e^{-2} }{1!} + \frac{ 2^2 e^{-2} }{2!}\right) \\
+         &=& 1 - (0.135 +  0.271 + 0.271)\\
+         &=& 0.323
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um editor de um jornal descobre que o número médio de erros
+  tipográficos por página do jornal é 1. Admitindo que o número de erros
+  por página desse jornal segue uma distribuição de Poisson, determine a
+  probabilidade de que em uma determinada página o número de erros seja
+  maior que 2.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.939\)
+  \item
+    \(0.080\)
+  \item
+    \(0.920\)
+  \item
+    \(0.184\)
+  \item
+    \(0.359\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de erros na página, logo \(X \sim Poisson(1)\) e
+  portanto \[\begin{aligned}
+  P[X>2] &=& 1 - P[X \leq 2] \\
+         &=& 1 - (P[X = 0] + P[X = 1] + P[X = 2]) \\
+         &=& 1 - \left(\frac{ 1^0 e^{-1} }{0!} + \frac{ 1^1 e^{-1} }{1!} + \frac{ 1^2 e^{-1} }{2!}\right) \\
+         &=& 1 - (0.368 +  0.368 + 0.184)\\
+         &=& 0.08
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um editor de um jornal descobre que o número médio de erros
+  tipográficos por página do jornal é 5. Admitindo que o número de erros
+  por página desse jornal segue uma distribuição de Poisson, determine a
+  probabilidade de que em uma determinada página o número de erros seja
+  maior que 2.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.084\)
+  \item
+    \(0.860\)
+  \item
+    \(0.754\)
+  \item
+    \(0.125\)
+  \item
+    \(0.875\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja X o número de erros na página, logo \(X \sim Poisson(5)\) e
+  portanto \[\begin{aligned}
+  P[X>2] &=& 1 - P[X \leq 2] \\
+         &=& 1 - (P[X = 0] + P[X = 1] + P[X = 2]) \\
+         &=& 1 - \left(\frac{ 5^0 e^{-5} }{0!} + \frac{ 5^1 e^{-5} }{1!} + \frac{ 5^2 e^{-5} }{2!}\right) \\
+         &=& 1 - (0.007 +  0.034 + 0.084)\\
+         &=& 0.875
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

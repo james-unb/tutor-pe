@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante afirma que sua vacina contra a gripe imuniza em \(87\%\)
+  dos casos. Uma amostra de \(41\) indivíduos que tomaram a vacina foi
+  sorteada e testes foram feitos para verificar a imunização ou não
+  desses indivíduos. Se o fabricante estiver correto, qual é a
+  probabilidade da proporção de imunizados na amostra ser superior a
+  \(93\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2981\)
+  \item
+    \(0.4286\)
+  \item
+    \(0.1271\)
+  \item
+    \(0.2828\)
+  \item
+    \(0.4304\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.87\) e
+  \(\sigma = \sqrt{\frac{0.87\times0.13}{41}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.93\right) &= 1- P\left(\frac{\hat{p}-0.87}{0.0525} < \frac{0.93-0.87}{0.0525}\right) \\
+   & = 1- P\left(Z<1.14\right) = 0.1271.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante afirma que sua vacina contra a gripe imuniza em \(78\%\)
+  dos casos. Uma amostra de \(46\) indivíduos que tomaram a vacina foi
+  sorteada e testes foram feitos para verificar a imunização ou não
+  desses indivíduos. Se o fabricante estiver correto, qual é a
+  probabilidade da proporção de imunizados na amostra ser superior a
+  \(83\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4957\)
+  \item
+    \(0.2061\)
+  \item
+    \(0.3859\)
+  \item
+    \(0.4522\)
+  \item
+    \(0.1979\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.78\) e
+  \(\sigma = \sqrt{\frac{0.78\times0.22}{46}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.83\right) &= 1- P\left(\frac{\hat{p}-0.78}{0.0611} < \frac{0.83-0.78}{0.0611}\right) \\
+   & = 1- P\left(Z<0.82\right) = 0.2061.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante afirma que sua vacina contra a gripe imuniza em \(79\%\)
+  dos casos. Uma amostra de \(36\) indivíduos que tomaram a vacina foi
+  sorteada e testes foram feitos para verificar a imunização ou não
+  desses indivíduos. Se o fabricante estiver correto, qual é a
+  probabilidade da proporção de imunizados na amostra ser superior a
+  \(81\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3859\)
+  \item
+    \(0.4801\)
+  \item
+    \(0.4522\)
+  \item
+    \(0.5183\)
+  \item
+    \(0.4112\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.79\) e
+  \(\sigma = \sqrt{\frac{0.79\times0.21}{36}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.81\right) &= 1- P\left(\frac{\hat{p}-0.79}{0.0679} < \frac{0.81-0.79}{0.0679}\right) \\
+   & = 1- P\left(Z<0.29\right) = 0.3859.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante afirma que sua vacina contra a gripe imuniza em \(88\%\)
+  dos casos. Uma amostra de \(49\) indivíduos que tomaram a vacina foi
+  sorteada e testes foram feitos para verificar a imunização ou não
+  desses indivíduos. Se o fabricante estiver correto, qual é a
+  probabilidade da proporção de imunizados na amostra ser superior a
+  \(94\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4286\)
+  \item
+    \(0.1163\)
+  \item
+    \(0.0985\)
+  \item
+    \(0.7942\)
+  \item
+    \(0.2843\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.88\) e
+  \(\sigma = \sqrt{\frac{0.88\times0.12}{49}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.94\right) &= 1- P\left(\frac{\hat{p}-0.88}{0.0464} < \frac{0.94-0.88}{0.0464}\right) \\
+   & = 1- P\left(Z<1.29\right) = 0.0985.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante afirma que sua vacina contra a gripe imuniza em \(89\%\)
+  dos casos. Uma amostra de \(20\) indivíduos que tomaram a vacina foi
+  sorteada e testes foram feitos para verificar a imunização ou não
+  desses indivíduos. Se o fabricante estiver correto, qual é a
+  probabilidade da proporção de imunizados na amostra ser superior a
+  \(100\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8679\)
+  \item
+    \(0.4973\)
+  \item
+    \(0.3632\)
+  \item
+    \(0.0582\)
+  \item
+    \(0.1314\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.89\) e
+  \(\sigma = \sqrt{\frac{0.89\times0.11}{20}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>1\right) &= 1- P\left(\frac{\hat{p}-0.89}{0.07} < \frac{1-0.89}{0.07}\right) \\
+   & = 1- P\left(Z<1.57\right) = 0.0582.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante afirma que sua vacina contra a gripe imuniza em \(73\%\)
+  dos casos. Uma amostra de \(24\) indivíduos que tomaram a vacina foi
+  sorteada e testes foram feitos para verificar a imunização ou não
+  desses indivíduos. Se o fabricante estiver correto, qual é a
+  probabilidade da proporção de imunizados na amostra ser superior a
+  \(83\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3050\)
+  \item
+    \(0.1116\)
+  \item
+    \(0.4090\)
+  \item
+    \(0.7758\)
+  \item
+    \(0.1357\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.73\) e
+  \(\sigma = \sqrt{\frac{0.73\times0.27}{24}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.83\right) &= 1- P\left(\frac{\hat{p}-0.73}{0.0906} < \frac{0.83-0.73}{0.0906}\right) \\
+   & = 1- P\left(Z<1.1\right) = 0.1357.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante afirma que sua vacina contra a gripe imuniza em \(86\%\)
+  dos casos. Uma amostra de \(34\) indivíduos que tomaram a vacina foi
+  sorteada e testes foram feitos para verificar a imunização ou não
+  desses indivíduos. Se o fabricante estiver correto, qual é a
+  probabilidade da proporção de imunizados na amostra ser superior a
+  \(94\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0901\)
+  \item
+    \(0.3972\)
+  \item
+    \(0.2546\)
+  \item
+    \(0.7613\)
+  \item
+    \(0.4090\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.86\) e
+  \(\sigma = \sqrt{\frac{0.86\times0.14}{34}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.94\right) &= 1- P\left(\frac{\hat{p}-0.86}{0.0595} < \frac{0.94-0.86}{0.0595}\right) \\
+   & = 1- P\left(Z<1.34\right) = 0.0901.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante afirma que sua vacina contra a gripe imuniza em \(78\%\)
+  dos casos. Uma amostra de \(34\) indivíduos que tomaram a vacina foi
+  sorteada e testes foram feitos para verificar a imunização ou não
+  desses indivíduos. Se o fabricante estiver correto, qual é a
+  probabilidade da proporção de imunizados na amostra ser superior a
+  \(82\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7137\)
+  \item
+    \(0.2667\)
+  \item
+    \(0.4602\)
+  \item
+    \(0.4090\)
+  \item
+    \(0.2877\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.78\) e
+  \(\sigma = \sqrt{\frac{0.78\times0.22}{34}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.82\right) &= 1- P\left(\frac{\hat{p}-0.78}{0.071} < \frac{0.82-0.78}{0.071}\right) \\
+   & = 1- P\left(Z<0.56\right) = 0.2877.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante afirma que sua vacina contra a gripe imuniza em \(81\%\)
+  dos casos. Uma amostra de \(46\) indivíduos que tomaram a vacina foi
+  sorteada e testes foram feitos para verificar a imunização ou não
+  desses indivíduos. Se o fabricante estiver correto, qual é a
+  probabilidade da proporção de imunizados na amostra ser superior a
+  \(83\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6433\)
+  \item
+    \(0.8292\)
+  \item
+    \(0.3632\)
+  \item
+    \(0.4801\)
+  \item
+    \(0.4483\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.81\) e
+  \(\sigma = \sqrt{\frac{0.81\times0.19}{46}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.83\right) &= 1- P\left(\frac{\hat{p}-0.81}{0.0578} < \frac{0.83-0.81}{0.0578}\right) \\
+   & = 1- P\left(Z<0.35\right) = 0.3632.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante afirma que sua vacina contra a gripe imuniza em \(75\%\)
+  dos casos. Uma amostra de \(46\) indivíduos que tomaram a vacina foi
+  sorteada e testes foram feitos para verificar a imunização ou não
+  desses indivíduos. Se o fabricante estiver correto, qual é a
+  probabilidade da proporção de imunizados na amostra ser superior a
+  \(78\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4721\)
+  \item
+    \(0.6567\)
+  \item
+    \(0.4364\)
+  \item
+    \(0.3192\)
+  \item
+    \(0.3280\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.75\) e
+  \(\sigma = \sqrt{\frac{0.75\times0.25}{46}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.78\right) &= 1- P\left(\frac{\hat{p}-0.75}{0.0638} < \frac{0.78-0.75}{0.0638}\right) \\
+   & = 1- P\left(Z<0.47\right) = 0.3192.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

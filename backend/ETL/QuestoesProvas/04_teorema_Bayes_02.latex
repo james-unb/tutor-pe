@@ -1,0 +1,512 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(33\%\) dos imóveis de uma certa cidade são rurais e
+  \(67\%\) são urbanos. Suponha ainda que \(78\%\) dos imóveis rurais
+  não realizam a coleta seletiva, enquanto que na área urbana esse valor
+  é de \(45\%\). Qual é a probabilidade de um imóvel que não realiza a
+  coleta seletiva ser da área rural?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.461\)
+  \item
+    \(0.559\)
+  \item
+    \(0.539\)
+  \item
+    \(0.257\)
+  \item
+    \(0.302\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  R &=& \text{ ``O imóvel é rural.''}\\
+  U &=& \text{ ``O imóvel é urbano.''}\\
+  NC &=& \text{ ``O imóvel não realiza a coleta seletiva.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(R|NC) &=& \dfrac{P(NC|R) \times P(R)}{P(NC|R) \times P(R) + P(NC|U) \times P(U)}\\
+  &=& \dfrac{0.78 \times 0.33 }
+  {0.78\times 0.33 + 0.45 \times 0.67}\\
+  &=& 0.461.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(22\%\) dos imóveis de uma certa cidade são rurais e
+  \(78\%\) são urbanos. Suponha ainda que \(65\%\) dos imóveis rurais
+  não realizam a coleta seletiva, enquanto que na área urbana esse valor
+  é de \(30\%\). Qual é a probabilidade de um imóvel que não realiza a
+  coleta seletiva ser da área rural?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.621\)
+  \item
+    \(0.377\)
+  \item
+    \(0.379\)
+  \item
+    \(0.234\)
+  \item
+    \(0.143\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  R &=& \text{ ``O imóvel é rural.''}\\
+  U &=& \text{ ``O imóvel é urbano.''}\\
+  NC &=& \text{ ``O imóvel não realiza a coleta seletiva.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(R|NC) &=& \dfrac{P(NC|R) \times P(R)}{P(NC|R) \times P(R) + P(NC|U) \times P(U)}\\
+  &=& \dfrac{0.65 \times 0.22 }
+  {0.65\times 0.22 + 0.3 \times 0.78}\\
+  &=& 0.379.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(39\%\) dos imóveis de uma certa cidade são rurais e
+  \(61\%\) são urbanos. Suponha ainda que \(70\%\) dos imóveis rurais
+  não realizam a coleta seletiva, enquanto que na área urbana esse valor
+  é de \(37\%\). Qual é a probabilidade de um imóvel que não realiza a
+  coleta seletiva ser da área rural?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.499\)
+  \item
+    \(0.453\)
+  \item
+    \(0.547\)
+  \item
+    \(0.226\)
+  \item
+    \(0.273\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  R &=& \text{ ``O imóvel é rural.''}\\
+  U &=& \text{ ``O imóvel é urbano.''}\\
+  NC &=& \text{ ``O imóvel não realiza a coleta seletiva.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(R|NC) &=& \dfrac{P(NC|R) \times P(R)}{P(NC|R) \times P(R) + P(NC|U) \times P(U)}\\
+  &=& \dfrac{0.7 \times 0.39 }
+  {0.7\times 0.39 + 0.37 \times 0.61}\\
+  &=& 0.547.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(22\%\) dos imóveis de uma certa cidade são rurais e
+  \(78\%\) são urbanos. Suponha ainda que \(73\%\) dos imóveis rurais
+  não realizam a coleta seletiva, enquanto que na área urbana esse valor
+  é de \(47\%\). Qual é a probabilidade de um imóvel que não realiza a
+  coleta seletiva ser da área rural?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.527\)
+  \item
+    \(0.695\)
+  \item
+    \(0.367\)
+  \item
+    \(0.161\)
+  \item
+    \(0.305\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  R &=& \text{ ``O imóvel é rural.''}\\
+  U &=& \text{ ``O imóvel é urbano.''}\\
+  NC &=& \text{ ``O imóvel não realiza a coleta seletiva.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(R|NC) &=& \dfrac{P(NC|R) \times P(R)}{P(NC|R) \times P(R) + P(NC|U) \times P(U)}\\
+  &=& \dfrac{0.73 \times 0.22 }
+  {0.73\times 0.22 + 0.47 \times 0.78}\\
+  &=& 0.305.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(31\%\) dos imóveis de uma certa cidade são rurais e
+  \(69\%\) são urbanos. Suponha ainda que \(63\%\) dos imóveis rurais
+  não realizam a coleta seletiva, enquanto que na área urbana esse valor
+  é de \(47\%\). Qual é a probabilidade de um imóvel que não realiza a
+  coleta seletiva ser da área rural?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.324\)
+  \item
+    \(0.520\)
+  \item
+    \(0.624\)
+  \item
+    \(0.195\)
+  \item
+    \(0.376\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  R &=& \text{ ``O imóvel é rural.''}\\
+  U &=& \text{ ``O imóvel é urbano.''}\\
+  NC &=& \text{ ``O imóvel não realiza a coleta seletiva.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(R|NC) &=& \dfrac{P(NC|R) \times P(R)}{P(NC|R) \times P(R) + P(NC|U) \times P(U)}\\
+  &=& \dfrac{0.63 \times 0.31 }
+  {0.63\times 0.31 + 0.47 \times 0.69}\\
+  &=& 0.376.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(26\%\) dos imóveis de uma certa cidade são rurais e
+  \(74\%\) são urbanos. Suponha ainda que \(74\%\) dos imóveis rurais
+  não realizam a coleta seletiva, enquanto que na área urbana esse valor
+  é de \(37\%\). Qual é a probabilidade de um imóvel que não realiza a
+  coleta seletiva ser da área rural?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.587\)
+  \item
+    \(0.192\)
+  \item
+    \(0.274\)
+  \item
+    \(0.413\)
+  \item
+    \(0.466\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  R &=& \text{ ``O imóvel é rural.''}\\
+  U &=& \text{ ``O imóvel é urbano.''}\\
+  NC &=& \text{ ``O imóvel não realiza a coleta seletiva.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(R|NC) &=& \dfrac{P(NC|R) \times P(R)}{P(NC|R) \times P(R) + P(NC|U) \times P(U)}\\
+  &=& \dfrac{0.74 \times 0.26 }
+  {0.74\times 0.26 + 0.37 \times 0.74}\\
+  &=& 0.413.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(23\%\) dos imóveis de uma certa cidade são rurais e
+  \(77\%\) são urbanos. Suponha ainda que \(81\%\) dos imóveis rurais
+  não realizam a coleta seletiva, enquanto que na área urbana esse valor
+  é de \(30\%\). Qual é a probabilidade de um imóvel que não realiza a
+  coleta seletiva ser da área rural?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.231\)
+  \item
+    \(0.417\)
+  \item
+    \(0.446\)
+  \item
+    \(0.554\)
+  \item
+    \(0.186\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  R &=& \text{ ``O imóvel é rural.''}\\
+  U &=& \text{ ``O imóvel é urbano.''}\\
+  NC &=& \text{ ``O imóvel não realiza a coleta seletiva.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(R|NC) &=& \dfrac{P(NC|R) \times P(R)}{P(NC|R) \times P(R) + P(NC|U) \times P(U)}\\
+  &=& \dfrac{0.81 \times 0.23 }
+  {0.81\times 0.23 + 0.3 \times 0.77}\\
+  &=& 0.446.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(31\%\) dos imóveis de uma certa cidade são rurais e
+  \(69\%\) são urbanos. Suponha ainda que \(82\%\) dos imóveis rurais
+  não realizam a coleta seletiva, enquanto que na área urbana esse valor
+  é de \(33\%\). Qual é a probabilidade de um imóvel que não realiza a
+  coleta seletiva ser da área rural?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.482\)
+  \item
+    \(0.254\)
+  \item
+    \(0.473\)
+  \item
+    \(0.527\)
+  \item
+    \(0.228\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  R &=& \text{ ``O imóvel é rural.''}\\
+  U &=& \text{ ``O imóvel é urbano.''}\\
+  NC &=& \text{ ``O imóvel não realiza a coleta seletiva.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(R|NC) &=& \dfrac{P(NC|R) \times P(R)}{P(NC|R) \times P(R) + P(NC|U) \times P(U)}\\
+  &=& \dfrac{0.82 \times 0.31 }
+  {0.82\times 0.31 + 0.33 \times 0.69}\\
+  &=& 0.527.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(31\%\) dos imóveis de uma certa cidade são rurais e
+  \(69\%\) são urbanos. Suponha ainda que \(78\%\) dos imóveis rurais
+  não realizam a coleta seletiva, enquanto que na área urbana esse valor
+  é de \(47\%\). Qual é a probabilidade de um imóvel que não realiza a
+  coleta seletiva ser da área rural?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.427\)
+  \item
+    \(0.573\)
+  \item
+    \(0.566\)
+  \item
+    \(0.324\)
+  \item
+    \(0.242\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  R &=& \text{ ``O imóvel é rural.''}\\
+  U &=& \text{ ``O imóvel é urbano.''}\\
+  NC &=& \text{ ``O imóvel não realiza a coleta seletiva.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(R|NC) &=& \dfrac{P(NC|R) \times P(R)}{P(NC|R) \times P(R) + P(NC|U) \times P(U)}\\
+  &=& \dfrac{0.78 \times 0.31 }
+  {0.78\times 0.31 + 0.47 \times 0.69}\\
+  &=& 0.427.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que \(27\%\) dos imóveis de uma certa cidade são rurais e
+  \(73\%\) são urbanos. Suponha ainda que \(80\%\) dos imóveis rurais
+  não realizam a coleta seletiva, enquanto que na área urbana esse valor
+  é de \(35\%\). Qual é a probabilidade de um imóvel que não realiza a
+  coleta seletiva ser da área rural?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.458\)
+  \item
+    \(0.542\)
+  \item
+    \(0.472\)
+  \item
+    \(0.216\)
+  \item
+    \(0.256\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  R &=& \text{ ``O imóvel é rural.''}\\
+  U &=& \text{ ``O imóvel é urbano.''}\\
+  NC &=& \text{ ``O imóvel não realiza a coleta seletiva.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(R|NC) &=& \dfrac{P(NC|R) \times P(R)}{P(NC|R) \times P(R) + P(NC|U) \times P(U)}\\
+  &=& \dfrac{0.8 \times 0.27 }
+  {0.8\times 0.27 + 0.35 \times 0.73}\\
+  &=& 0.458.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

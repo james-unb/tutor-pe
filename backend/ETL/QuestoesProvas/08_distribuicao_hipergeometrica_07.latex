@@ -1,0 +1,412 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma cartela da mega-sena contém 60 números, que variam de 1 a 60, dos
+  quais 6 são sorteados. Suponha que um jogador realizou um jogo
+  marcando 6 números na cartela. Qual a probabilidade de que o jogador
+  acerte exatamente \(5\) números nesta cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    21465 ÷ 50063860
+  \item
+    324 ÷ 50063860
+  \item
+    6 ÷ 50063860
+  \item
+    496080 ÷ 50063860
+  \item
+    4743765 ÷ 50063860
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Em uma cartela, o apostador acerta exatamente \(5\) números quando são
+  sorteados \(5\) dos 6 que apostou e \(1\) dos 54 em que não apostou.
+  Deste modo, a probabilidade de acertar exatamente \(5\) números nesta
+  cartela é de
+  \[\dfrac{\binom{6}{5}\times \binom{54}{1}}{\binom{60}{6}} = \text{324 ÷ 50063860}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma cartela da mega-sena contém 60 números, que variam de 1 a 60, dos
+  quais 6 são sorteados. Suponha que um jogador realizou um jogo
+  marcando 6 números na cartela. Qual a probabilidade de que o jogador
+  acerte exatamente \(4\) números nesta cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    4743765 ÷ 50063860
+  \item
+    324 ÷ 50063860
+  \item
+    15 ÷ 50063860
+  \item
+    496080 ÷ 50063860
+  \item
+    21465 ÷ 50063860
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Em uma cartela, o apostador acerta exatamente \(4\) números quando são
+  sorteados \(4\) dos 6 que apostou e \(2\) dos 54 em que não apostou.
+  Deste modo, a probabilidade de acertar exatamente \(4\) números nesta
+  cartela é de
+  \[\dfrac{\binom{6}{4}\times \binom{54}{2}}{\binom{60}{6}} = \text{21465 ÷ 50063860}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma cartela da mega-sena contém 60 números, que variam de 1 a 60, dos
+  quais 6 são sorteados. Suponha que um jogador realizou um jogo
+  marcando 6 números na cartela. Qual a probabilidade de que o jogador
+  acerte exatamente \(4\) números nesta cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    15 ÷ 50063860
+  \item
+    21465 ÷ 50063860
+  \item
+    496080 ÷ 50063860
+  \item
+    4743765 ÷ 50063860
+  \item
+    324 ÷ 50063860
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Em uma cartela, o apostador acerta exatamente \(4\) números quando são
+  sorteados \(4\) dos 6 que apostou e \(2\) dos 54 em que não apostou.
+  Deste modo, a probabilidade de acertar exatamente \(4\) números nesta
+  cartela é de
+  \[\dfrac{\binom{6}{4}\times \binom{54}{2}}{\binom{60}{6}} = \text{21465 ÷ 50063860}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma cartela da mega-sena contém 60 números, que variam de 1 a 60, dos
+  quais 6 são sorteados. Suponha que um jogador realizou um jogo
+  marcando 6 números na cartela. Qual a probabilidade de que o jogador
+  acerte exatamente \(2\) números nesta cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    4743765 ÷ 50063860
+  \item
+    496080 ÷ 50063860
+  \item
+    324 ÷ 50063860
+  \item
+    15 ÷ 50063860
+  \item
+    21465 ÷ 50063860
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Em uma cartela, o apostador acerta exatamente \(2\) números quando são
+  sorteados \(2\) dos 6 que apostou e \(4\) dos 54 em que não apostou.
+  Deste modo, a probabilidade de acertar exatamente \(2\) números nesta
+  cartela é de
+  \[\dfrac{\binom{6}{2}\times \binom{54}{4}}{\binom{60}{6}} = \text{4743765 ÷ 50063860}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma cartela da mega-sena contém 60 números, que variam de 1 a 60, dos
+  quais 6 são sorteados. Suponha que um jogador realizou um jogo
+  marcando 6 números na cartela. Qual a probabilidade de que o jogador
+  acerte exatamente \(5\) números nesta cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    6 ÷ 50063860
+  \item
+    324 ÷ 50063860
+  \item
+    496080 ÷ 50063860
+  \item
+    21465 ÷ 50063860
+  \item
+    4743765 ÷ 50063860
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Em uma cartela, o apostador acerta exatamente \(5\) números quando são
+  sorteados \(5\) dos 6 que apostou e \(1\) dos 54 em que não apostou.
+  Deste modo, a probabilidade de acertar exatamente \(5\) números nesta
+  cartela é de
+  \[\dfrac{\binom{6}{5}\times \binom{54}{1}}{\binom{60}{6}} = \text{324 ÷ 50063860}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma cartela da mega-sena contém 60 números, que variam de 1 a 60, dos
+  quais 6 são sorteados. Suponha que um jogador realizou um jogo
+  marcando 6 números na cartela. Qual a probabilidade de que o jogador
+  acerte exatamente \(2\) números nesta cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    15 ÷ 50063860
+  \item
+    496080 ÷ 50063860
+  \item
+    324 ÷ 50063860
+  \item
+    4743765 ÷ 50063860
+  \item
+    21465 ÷ 50063860
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Em uma cartela, o apostador acerta exatamente \(2\) números quando são
+  sorteados \(2\) dos 6 que apostou e \(4\) dos 54 em que não apostou.
+  Deste modo, a probabilidade de acertar exatamente \(2\) números nesta
+  cartela é de
+  \[\dfrac{\binom{6}{2}\times \binom{54}{4}}{\binom{60}{6}} = \text{4743765 ÷ 50063860}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma cartela da mega-sena contém 60 números, que variam de 1 a 60, dos
+  quais 6 são sorteados. Suponha que um jogador realizou um jogo
+  marcando 6 números na cartela. Qual a probabilidade de que o jogador
+  acerte exatamente \(2\) números nesta cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    324 ÷ 50063860
+  \item
+    15 ÷ 50063860
+  \item
+    4743765 ÷ 50063860
+  \item
+    21465 ÷ 50063860
+  \item
+    496080 ÷ 50063860
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Em uma cartela, o apostador acerta exatamente \(2\) números quando são
+  sorteados \(2\) dos 6 que apostou e \(4\) dos 54 em que não apostou.
+  Deste modo, a probabilidade de acertar exatamente \(2\) números nesta
+  cartela é de
+  \[\dfrac{\binom{6}{2}\times \binom{54}{4}}{\binom{60}{6}} = \text{4743765 ÷ 50063860}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma cartela da mega-sena contém 60 números, que variam de 1 a 60, dos
+  quais 6 são sorteados. Suponha que um jogador realizou um jogo
+  marcando 6 números na cartela. Qual a probabilidade de que o jogador
+  acerte exatamente \(2\) números nesta cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    496080 ÷ 50063860
+  \item
+    324 ÷ 50063860
+  \item
+    21465 ÷ 50063860
+  \item
+    4743765 ÷ 50063860
+  \item
+    15 ÷ 50063860
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Em uma cartela, o apostador acerta exatamente \(2\) números quando são
+  sorteados \(2\) dos 6 que apostou e \(4\) dos 54 em que não apostou.
+  Deste modo, a probabilidade de acertar exatamente \(2\) números nesta
+  cartela é de
+  \[\dfrac{\binom{6}{2}\times \binom{54}{4}}{\binom{60}{6}} = \text{4743765 ÷ 50063860}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma cartela da mega-sena contém 60 números, que variam de 1 a 60, dos
+  quais 6 são sorteados. Suponha que um jogador realizou um jogo
+  marcando 6 números na cartela. Qual a probabilidade de que o jogador
+  acerte exatamente \(2\) números nesta cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    15 ÷ 50063860
+  \item
+    496080 ÷ 50063860
+  \item
+    324 ÷ 50063860
+  \item
+    21465 ÷ 50063860
+  \item
+    4743765 ÷ 50063860
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Em uma cartela, o apostador acerta exatamente \(2\) números quando são
+  sorteados \(2\) dos 6 que apostou e \(4\) dos 54 em que não apostou.
+  Deste modo, a probabilidade de acertar exatamente \(2\) números nesta
+  cartela é de
+  \[\dfrac{\binom{6}{2}\times \binom{54}{4}}{\binom{60}{6}} = \text{4743765 ÷ 50063860}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma cartela da mega-sena contém 60 números, que variam de 1 a 60, dos
+  quais 6 são sorteados. Suponha que um jogador realizou um jogo
+  marcando 6 números na cartela. Qual a probabilidade de que o jogador
+  acerte exatamente \(4\) números nesta cartela?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    496080 ÷ 50063860
+  \item
+    15 ÷ 50063860
+  \item
+    4743765 ÷ 50063860
+  \item
+    21465 ÷ 50063860
+  \item
+    324 ÷ 50063860
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Em uma cartela, o apostador acerta exatamente \(4\) números quando são
+  sorteados \(4\) dos 6 que apostou e \(2\) dos 54 em que não apostou.
+  Deste modo, a probabilidade de acertar exatamente \(4\) números nesta
+  cartela é de
+  \[\dfrac{\binom{6}{4}\times \binom{54}{2}}{\binom{60}{6}} = \text{21465 ÷ 50063860}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

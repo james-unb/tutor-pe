@@ -1,0 +1,492 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  \frac{x}{3}, & 0.2\leq x < 0.8, \\
+  2x, & 0.8 \leq x \leq 1.241, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.5 < X\leq 1.117)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.673\)
+  \item
+    \(0.547\)
+  \item
+    \(0.059\)
+  \item
+    \(0.790\)
+  \item
+    \(0.327\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.5 < X < 1.117) & = \int_{0.5}^{0.8}\frac{x}{3} dx + \int_{0.8}^{1.117} 2x dx\\
+    & = \left[\frac{x^2}{6}\right] \Big\rvert_{0.5}^{0.8} + x^2 \Big\rvert_{0.8}^{1.117} \\
+    & = 0.065 + 0.608 \\
+    & = 0.673.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  \frac{x}{3}, & 0.458\leq x < 0.9, \\
+  2x, & 0.9 \leq x \leq 1.308, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.679 < X\leq 1.177)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.052\)
+  \item
+    \(0.633\)
+  \item
+    \(0.518\)
+  \item
+    \(0.790\)
+  \item
+    \(0.367\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.679 < X < 1.177) & = \int_{0.679}^{0.9}\frac{x}{3} dx + \int_{0.9}^{1.177} 2x dx\\
+    & = \left[\frac{x^2}{6}\right] \Big\rvert_{0.679}^{0.9} + x^2 \Big\rvert_{0.9}^{1.177} \\
+    & = 0.058 + 0.575 \\
+    & = 0.633.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  \frac{x}{3}, & 0.632\leq x < 1, \\
+  2x, & 1 \leq x \leq 1.378, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.816 < X\leq 1.24)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.050\)
+  \item
+    \(0.594\)
+  \item
+    \(0.406\)
+  \item
+    \(0.790\)
+  \item
+    \(0.484\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.816 < X < 1.24) & = \int_{0.816}^{1}\frac{x}{3} dx + \int_{1}^{1.24} 2x dx\\
+    & = \left[\frac{x^2}{6}\right] \Big\rvert_{0.816}^{1} + x^2 \Big\rvert_{1}^{1.24} \\
+    & = 0.056 + 0.538 \\
+    & = 0.594.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  \frac{x}{3}, & 0.2\leq x < 0.8, \\
+  2x, & 0.8 \leq x \leq 1.241, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.5 < X\leq 1.117)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.673\)
+  \item
+    \(0.059\)
+  \item
+    \(0.547\)
+  \item
+    \(0.327\)
+  \item
+    \(0.790\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.5 < X < 1.117) & = \int_{0.5}^{0.8}\frac{x}{3} dx + \int_{0.8}^{1.117} 2x dx\\
+    & = \left[\frac{x^2}{6}\right] \Big\rvert_{0.5}^{0.8} + x^2 \Big\rvert_{0.8}^{1.117} \\
+    & = 0.065 + 0.608 \\
+    & = 0.673.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  \frac{x}{3}, & 0.458\leq x < 0.9, \\
+  2x, & 0.9 \leq x \leq 1.308, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.679 < X\leq 1.177)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.367\)
+  \item
+    \(0.518\)
+  \item
+    \(0.790\)
+  \item
+    \(0.633\)
+  \item
+    \(0.052\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.679 < X < 1.177) & = \int_{0.679}^{0.9}\frac{x}{3} dx + \int_{0.9}^{1.177} 2x dx\\
+    & = \left[\frac{x^2}{6}\right] \Big\rvert_{0.679}^{0.9} + x^2 \Big\rvert_{0.9}^{1.177} \\
+    & = 0.058 + 0.575 \\
+    & = 0.633.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  \frac{x}{3}, & 0.632\leq x < 1, \\
+  2x, & 1 \leq x \leq 1.378, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.816 < X\leq 1.24)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.050\)
+  \item
+    \(0.790\)
+  \item
+    \(0.594\)
+  \item
+    \(0.484\)
+  \item
+    \(0.406\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.816 < X < 1.24) & = \int_{0.816}^{1}\frac{x}{3} dx + \int_{1}^{1.24} 2x dx\\
+    & = \left[\frac{x^2}{6}\right] \Big\rvert_{0.816}^{1} + x^2 \Big\rvert_{1}^{1.24} \\
+    & = 0.056 + 0.538 \\
+    & = 0.594.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  \frac{x}{3}, & 0.781\leq x < 1.1, \\
+  2x, & 1.1 \leq x \leq 1.453, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.941 < X\leq 1.308)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.049\)
+  \item
+    \(0.555\)
+  \item
+    \(0.451\)
+  \item
+    \(0.790\)
+  \item
+    \(0.445\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.941 < X < 1.308) & = \int_{0.941}^{1.1}\frac{x}{3} dx + \int_{1.1}^{1.308} 2x dx\\
+    & = \left[\frac{x^2}{6}\right] \Big\rvert_{0.941}^{1.1} + x^2 \Big\rvert_{1.1}^{1.308} \\
+    & = 0.054 + 0.501 \\
+    & = 0.555.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  \frac{x}{3}, & 0.632\leq x < 1, \\
+  2x, & 1 \leq x \leq 1.378, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.816 < X\leq 1.24)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.050\)
+  \item
+    \(0.790\)
+  \item
+    \(0.484\)
+  \item
+    \(0.594\)
+  \item
+    \(0.406\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.816 < X < 1.24) & = \int_{0.816}^{1}\frac{x}{3} dx + \int_{1}^{1.24} 2x dx\\
+    & = \left[\frac{x^2}{6}\right] \Big\rvert_{0.816}^{1} + x^2 \Big\rvert_{1}^{1.24} \\
+    & = 0.056 + 0.538 \\
+    & = 0.594.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  \frac{x}{3}, & 0.632\leq x < 1, \\
+  2x, & 1 \leq x \leq 1.378, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.816 < X\leq 1.24)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.050\)
+  \item
+    \(0.594\)
+  \item
+    \(0.790\)
+  \item
+    \(0.406\)
+  \item
+    \(0.484\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.816 < X < 1.24) & = \int_{0.816}^{1}\frac{x}{3} dx + \int_{1}^{1.24} 2x dx\\
+    & = \left[\frac{x^2}{6}\right] \Big\rvert_{0.816}^{1} + x^2 \Big\rvert_{1}^{1.24} \\
+    & = 0.056 + 0.538 \\
+    & = 0.594.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória contínua cuja densidade é:
+
+  \[f_{X}(x) = \left\{
+  \begin{array}{ll}
+  \frac{x}{3}, & 0.458\leq x < 0.9, \\
+  2x, & 0.9 \leq x \leq 1.308, \\
+  0, & \mbox{caso contrário}. \\
+  \end{array}
+  \right.\]
+
+  A probabilidade \(\mathbb{P}(0.679 < X\leq 1.177)\) é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.518\)
+  \item
+    \(0.790\)
+  \item
+    \(0.633\)
+  \item
+    \(0.367\)
+  \item
+    \(0.052\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com a densidade em questão, temos que \[\begin{aligned}
+    P(0.679 < X < 1.177) & = \int_{0.679}^{0.9}\frac{x}{3} dx + \int_{0.9}^{1.177} 2x dx\\
+    & = \left[\frac{x^2}{6}\right] \Big\rvert_{0.679}^{0.9} + x^2 \Big\rvert_{0.9}^{1.177} \\
+    & = 0.058 + 0.575 \\
+    & = 0.633.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

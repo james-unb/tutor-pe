@@ -1,0 +1,378 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsfonts,amssymb,amsbsy}
+\usepackage{amsthm} %Permite teorema sem numeração, no meu caso Demonstração
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+
+%------------------------------------------------------------------------------
+
+\setlength{\topmargin}{-1.0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{6.5in}
+\setlength{\baselineskip}{12mm}
+%------------------------------------------------------------------------------
+
+\renewcommand{\P}{\mathcal{P}}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+        \begin{minipage}[c]{7in}
+                  {Universidade de Brasília} \\
+                  {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf $\text{6}^{\text{\underline{a}}}$ Lista de PE}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item Seja $(X_1, \ldots, X_n)$ uma AAS tal que $\mathcal{E}(X_i)=\mu$ e $\text{Var}(X_i)=\sigma^2$.
+\begin{itemize}
+\item[a)] Encontre $\mathcal{E}(X_i^2)$ e $\mathcal{E}\left(\overline{X}^2\right)$. 
+\item[b)] Calcule $\mathcal{E}(X_i\overline{X})$.
+\item[c)] Se ${\displaystyle T=\sum_{i=1}^{n}\frac{(X_i-\overline{X})^2}{n}}$, mostre que $T$ é um estimador viciado para $\sigma^2$.
+\item[d)] A partir do {\bf item c)} encontre um estimador não viciado para $\sigma^2$.
+\end{itemize}
+
+\item Proponha um estimador para o coeficiente de correlação $(\rho)$ entre duas variáveis. %Inventado
+
+\item Uma das desvantagens dos estimadores de momentos é que podemos ter estimadores distintos para um mesmo parâmetro. Mais ainda, estes estimadores distintos podem fornecer valores bem diferentes para o mesmo parâmetro. Com base nessas idéias responda os itens abaixo: %Morettin - Capítulo 11 - Parágrafo 4 - Pág. 305.
+
+\begin{itemize}
+\item[a)] Se $X\sim \text{Pois}(\lambda)$, com base nas propriedades da distribuição de Poisson, proponha dois estimadores de momentos distintos para o parâmetro $\lambda$.
+\item[b)] Suponha que o número de acidentes semanais em uma estrada brasileira, observados num período de 30 semanas, tenha sido registrado como abaixo: 
+\begin{center}
+8 \ \ 0 \ \ 0 \ \ 1 \ \ 3 \ \ 4 \ \ 0 \ \ 2 \ \ 12 \ \ 5 \\ 
+1 \ \ 8 \ \ 0 \ \ 2 \ \ 0 \ \ 1 \ \ 9 \ \ 3 \ \ \ 4 \ \ 5 \\
+3 \ \ 3 \ \ 4 \ \ 7 \ \ 4 \ \ 0 \ \ 1 \ \ 2 \ \ \ 1 \ \ 2 \\
+\end{center}
+Supondo que os dados acima seguem a distribuição de Poisson, mostre que os dois estimadores do {\bf item a)} fornecem estimativas bastante díspares para $\lambda$.
+\end{itemize}
+
+\item Encontre o EMV relativo a uma AAS com distribuição exponencial de parâmetro $\lambda$. %Ross - Parágrafo 3 - Pág. 232.
+
+\item O tempo residual do efeito de um agrotóxico está sendo analisado. Uma análise em laboratório com uma amostra de tamanho 10, forneceu os seguintes valores (em dias): 
+$$3,5 \ \ \  2,9 \ \ \  3,2 \ \ \  2,7 \ \ \  2,8 \ \ \  3,1 \ \ \  2,6 \ \ \  3,3 \ \ \  3,2 \ \ \  2,7$$
+Estudos prévios indicam o modelo exponencial como adequado à variável acima. Encontre a probabilidade de que o tempo residual seja superior a 6 dias.
+
+\item Encontre o EMV relativo a uma AAS com distribuição de Poisson com parâmetro $\lambda$. %Ross - Capítulo 7 - Ex. 7.2c - Pág. 236.
+
+\item O número de acidentes registrados na cidade de Brasília em 10 dias não chuvosos, escolhidos aleatoriamente em 2001, são %Inventado
+$$4 \ \ \ 0 \ \ \ 6 \ \ \ 5 \  \ \ 2 \ \ \ 1 \ \ \ 2 \ \ \ 0 \ \ \ 4 \ \ \ 3$$
+Sabendo que o número de acidentes segue a distribuição de Poison, use os dados para estimar a proporção de dias não chuvosos que tiveram 2 ou menos acidentes neste ano.
+
+\item Encontre o EMV relativo a uma AAS com distribuição normal de parâmetros $\mu$ e $\sigma^2$. %Ross - Capítulo 7 - Ex. 7.2e - Pág. 238.
+
+\item A lei da fragmentação de Kolmogorov diz que o tamanho de uma única partícula em uma coleção de partículas obtida da fragmentação de um mineral composto terá distribuição aproximadamente lognormal, onde uma v.a. $X$ é dita ter distribuição lognormal se $\log(X)$ tem distribuição normal. 
+Essa lei, que foi inicialmente estabelecida empiricamente, teve sua base teórica desenvolvida por Kolmogorov e tem aplicação vasta no campo da engenharia (por exemplo, tem sido usada na análise do tamanho de partículas de ouro selecionadas aleatoriamente de uma coleção de ouro em pó). Suponha que uma amostra de 10 grãos de areia metálica selecionados de uma grande pilha de areia tem os respectivos comprimentos (em milímetros): %Ross - Capítulo 7 - Ex. 7.2f - Pág. 239.
+
+$$2,2 \ \ \  3,4 \ \ \  1,6 \ \ \  0,8 \ \ \  2,7 \ \ \  3,3 \ \ \  1,6 \ \ \  2,8 \ \ \  2,5 \ \ \  1,9$$
+Estime o percentual de grãos de areia da pilha cujo comprimento esteja entre 2 e 3 milímetros.
+
+\item Seja $(X_1,\ldots, X_n)$ uma AAS de uma distribuição cuja densidade é dada por %Ross - Capítulo 7 - Q1 - Pág. 279.
+\begin{equation*}
+\renewcommand{\arraystretch}{1.3}
+f(x) = 
+\left\{\begin{array}{lrr}
+e^{-(x-\theta)}, &\text{se} & x\geqslant\theta,\\
+0 &\text{se} & x<\theta.\\
+\end{array} \right.
+\end{equation*}
+Determine o EMV de $\theta$.
+
+\item Por analogia a produtos similares, o tempo de reação a um novo medicamento pode ser considerado como tendo distribuição normal com desvio padrão igual a 2 minutos. Vinte pacientes foram sorteados, receberam o medicamento e tiveram seu tempo de reação anotado. Os dados (em minutos) foram os seguintes: %Magalhães - Capítulo 7 - Q1 - Pág. 234
+\begin{center}
+2,9 \ \ \ 3,4 \ \ \ 3,5 \ \ \ 4,1 \ \ \ 4,6 \ \ \ 4,7 \ \ \ 4,5 \ \ \ 3,8 \ \ \ 5,3 \ \ \ 4,9 \\ 
+4,8 \ \ \ 5,7 \ \ \ 5,8 \ \ \ 5,0 \ \ \ 3,4 \ \ \ 5,9 \ \ \ 6,3 \ \ \ 4,6 \ \ \ 5,5 \ \ \ 6,2 \\
+\end{center}
+Encontre um intervalo de confiança de 95\% para o tempo de reação médio ao medicamento.
+
+\vspace{0.3cm}
+
+\item Uma amostra aleatória de 625 donas de casa revela que 70\% delas preferem a marca A de um detergente. Construa um intervalo de confiança para a proporção $p$ das donas de casa que preferem a marca A com confiança de 90\%. %Morettin - Capítulo 11 - Q18 - Pág. 315
+
+\vspace{0.3cm}
+
+\item Uma amostra de 25 observações de uma $\mathcal{N}(\mu,16)$ foi coletada e forneceu uma média amostral de valor 8. Construa intervalos de confiança 80\%, 85\%, 90\% e 95\% para a média populacional. Comente as diferenças encontradas. %Magalhães - Capítulo 7 - Q2 - Pág. 234
+
+\vspace{0.3cm}
+
+\item Será coletada uma amostra de uma população normal com desvio padrão igual a 9. Para uma confiança de 90\%, determine a amplitude do intervalo de confiança para a média populacional nos casos em que o tamanho da amostra é 30, 50 ou 100. Comente as diferenças.  %Magalhães - Capítulo 7 - Q3 - Pág. 234
+
+\vspace{0.3cm}
+
+\item Desejamos coletar uma amostra de uma variável aleatória $X$ com distribuição Normal de média desconhecida e variância $30$. Qual deve ser o tamanho da amostra para que, com uma confiança de $92\%$, a média amostral não difira da média populacional por mais de $3$ unidades?
+
+\vspace{0.3cm}
+	
+\item A autonomia de um automóvel (medido em km/l) é uma variável aleatória com parâmetros dependendo do tipo de automóvel. Suponha que, para um certo tipo de automóvel, a variância da autonomia seja conhecida e igual a $4$, porém precisamos de informações sobre a autonomia média desse tipo de automóvel. Para tal, coletamos uma amostra de $40$ automóveis desse modelo e observamos seus desempenhos.
+
+\begin{itemize}
+\item[a)] Se a amostra forneceu uma autonomia média de $9,3$ km/l, construa um intervalo de confiança ($94\%$) para a média de consumo desses carros.
+\item[b)] Se a amplitude de um intervalo de confiança, construído a partir dessa amostra, é de 1,5; qual teria sido o coeficiente de confiança?
+\end{itemize}
+
+\vspace{0.3cm}
+		
+\item O intervalo $(35,21 \ ; \ 35,99)$ é o intervalo com confiança $95\%$, construído a partir de uma amostra de tamanho $100$, para a média $\mu$ de uma população Normal com variância conhecida de valor $4$.
+
+\begin{itemize}
+\item[a)] Qual o valor encontrado para a média dessa amostra? (qual o valor de $\overline{X}$?)
+\item[b)] Se utilizássemos essa mesma amostra, mas com uma confiança de $90\%$, qual seria o novo intervalo de confiança?	
+\end{itemize}
+
+\vspace{0.3cm}
+		
+\item Suponha que estamos interessados em verificar o comprimento (em cm) médio das correias produzidas por uma fábrica. Tendo em vista o processo de fabricação, podemos considerar que os comprimentos dessas correias seguem uma distribuição Normal com variância $2$. Assim, com um nível de confiança de $90\%$:
+\begin{itemize}
+\item[a)] qual deverá ser o tamanho da amostra para que a estimativa do comprimento médio das correias não difira do verdadeiro valor por mais que 0,5 cm?
+\item[b)] retirada a amostra (com tamanho definido no item anterior), foi construído o seguinte intervalo para o comprimento médio das correias: $(57,6 \ ; \ 58,6)$. Qual é a estimativa (pontual) do comprimento médio dessas correias?
+\item[c)] para se ajustar a um certo tipo de máquina, a correia deve ter entre $58$ e $62$ cm de comprimento. Supondo que a média é o valor estimado no item anterior, qual a probabilidade de uma correia, escolhida ao acaso, poder ser usada nesta máquina?
+\end{itemize}
+
+\vspace{0.3cm}
+
+\item Uma amostra em 100 cidades brasileiras, de até 20 mil habitantes, indicou que o valor médio da hora aula paga aos professores do ensino fundamental é de R\$ 2,5. Obtenha um intervalo de confiança de 95\% para o valor médio nacional da hora aula em cidades do tipo mencionado se o desvio padrão é assumido ser igual a R\$ 1,1. %Magalhães - Capítulo 7 - Q4 - Pág. 235
+
+\vspace{0.3cm}
+
+\item Numa pesquisa com 50 eleitores, o candidato José João obteve 34\% da preferência dos eleitores. Construa, com confiança de 94\%, os intervalos otimista e conservador para a proporção de votos a serem recebidos pelo candidato mencionado, supondo que a eleição ocorresse nesse momento. %Magalhães - Capítulo 7 - Q5 - Pág. 235
+
+\item Antes de uma eleição, um determinado partido está interessado em estimar a proporção $p$ de eleitores favoráveis a seu candidato. Uma amostra piloto de tamanho 100 revelou que 60$\%$ dos eleitores eram favoráveis ao candidato em questão.
+\begin{itemize}
+\item[a)] Determine o tamanho da amostra necessário para que o erro cometido na estimação seja de, no máximo, 0,01 com probabilidade de 80$\%$.
+\item[b)] Se na amostra fina, com tamanho dado pelo {\bf item a)}, observou-se que 55$\%$ dos eleitores eram favoráveis ao candidato em questão, construa um intervalo de confiança, com confiança de 95$\%$, para a proporção $p$.
+\end{itemize}
+
+\item Numa pesquisa de mercado desejamos estimar a proporção de pessoas que compram uma certa marca de sabonete.
+		
+\begin{itemize}
+\item[a)] Que tamanho de amostra devemos colher para que, com uma confiabilidade de $90\%$, a estimativa não se desvie do verdadeiro valor por mais de 0,05?
+\item[b)] Se tivermos a informação adicional de que a aceitação do sabonete é no mínimo 0,8, qual deve ser o tamanho da amostra?
+\item[c)] Suponha que decidimos colher uma amostra de tamanho $81$. Com uma confiança de $90\%$, qual o erro máximo que cometeremos?
+\item[d)] Para a amostra de tamanho $81$, qual será a confiabilidade da estimativa se o erro máximo for de 0,08?
+\end{itemize}
+
+\item Suponha que estejamos interessados em estimar a porcentagem de consumidores de um certo produto. Se uma amostra de tamanho 300
+forneceu 100 indivíduos que consomem o dado produto, determine:
+\begin{itemize}
+\item[a)] um intervalo de confiança para $p$, com confiança de 95$\%$;
+\item[b)] o tamanho da amostra para que o erro da estimativa não exceda 0,02 unidades com probabilidade de 95$\%$.
+\end{itemize} 
+
+\vspace{0.3cm}
+
+\item Com o auxílio da tabela {\it t-Student} calcule %Magalhães - Capítulo 8 - Q1 - Pág. 262
+\begin{itemize}
+\item[a)] $\mathcal{P}(-3,365 < t_5 < 3,365)$; 
+\item[b)] $\mathcal{P}(|t_8| < 1,4)$;
+\item[c)] $\mathcal{P}(-1,1<t_{14}<2,15)$;
+\item[d)] O valor de $a$ tal que $\mathcal{P}(t_9>a)=0,02$;
+\item[e)] O valor de $b$ tal que $\mathcal{P}(t_{16} \leqslant b)=0,05$. 
+\end{itemize}
+
+\item Uma amostra de trinta dias do número de ocorrências policiais em um certo bairro de São Paulo, apresentou os seguintes resultados: %Magalhães - Capítulo 7 - Q24 - Pág. 239
+\begin{table}[htbp]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{1em}
+\begin{tabular}{rrrrrrrrrr}
+
+7 & 11 & 8 & 9 & 10 & 14 & 6 & 8 & 8 & 7\\
+8 & 10 & 10 & 14 & 12 & 14 & 12 & 9 & 11 & 13\\
+13 & 8 & 6 & 8 & 13 & 10 & 14 & 5 & 14 & 10
+\end{tabular}
+\end{table}
+
+\noindent Encontre intervalos de confiança para a média de ocorrências diária deste bairro com confiança de 90\% e 95\%.
+
+\vspace{0.3cm}
+
+\item Supondo que a variância é conhecida, como você definiria um intervalo unilateral de confiança para a média? E se a variância fosse desconhecida?
+
+\noindent \{Entenda como intervalos unilaterais, intervalos do tipo $(-\infty,A)$ ou $(B, +\infty)$, onde $A$ e $B$ são reais\}. %Ross - Capítulo 7 - Pág. 246
+
+\vspace{0.3cm}
+
+\item Use os dados da {\bf Questão 25} para obter intervalos de confiança superior e inferior com confiança de 95\%.
+
+\vspace{0.3cm}
+
+\item Seja $(X_1, \ldots , X_n)$ uma AAS de uma população normal com média $\mu_1$ e variância $\sigma_1^2$ e seja $(Y_1, \ldots , Y_m)$ uma AAS de uma outra população normal com média $\mu_2$ e variância $\sigma_2^2$. Suponha que as duas amostras são independentes entre si e que as suas variâncias são conhecidas. Com base nessas informações, proponha um intervalo de confiança para a diferença entre as médias, $\mu_1-\mu_2$, com confiança $(1-\alpha)$. %Ross - Capítulo 7 - Pág. 255
+
+\vspace{0.3cm}
+
+\item Dois tipos de cabos de isolamento elétrico foram recentemente testados afim de determinar o nível de voltagem em que ocorrem falhas. Quando as amostras foram submetidas a um stress de tensão crescente, em uma experiência de laboratório, falhas para os dois tipos de cabos ocorreram nas voltagens seguintes:
+
+\begin{table}[htbp]
+\centering
+{\bf \underline{Tipo A}}
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{1em}
+\begin{tabular}{rrrrrrr}
+36 & 54 & 44 & 52 & 41 & 37 & 53\\
+51 & 38 & 44 & 36 & 35 & 34 & 44
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+{\bf \underline{Tipo B}}
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{1em}
+\begin{tabular}{rrrrrr}
+52 & 60 & 64 & 44 & 38 & 48\\
+68 & 46 & 66 & 70 & 52 & 62
+\end{tabular}
+\end{table}
+
+\noindent Supondo, com base em experimentos anteriores, que a a tensão ao qual os cabos podem suportar é normalmente distribuída com médias $\mu_A$ e $\mu_B$ desconhecidas e variâncias $\sigma_A^2 = 40$ e $\sigma_B^2 = 100$. Determine um intervalo de confiança de 95\% para $\mu_A-\mu_B$. 
+
+\end{enumerate} 
+
+\newpage
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+       \begin{minipage}[c]{7in}
+                 {Universidade de Brasília} \\
+                 {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf Respostas}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item
+\begin{itemize}
+\item[a)] $\mathcal{E}\left(X_i^2\right)=\mu^2+\sigma^2$ \ e \ $\mathcal{E}\left(\overline{X}^2\right)=\mu^2+\dfrac{\sigma^2}{n}.$
+\item[b)] $\mathcal{E}(X_i\overline{X})= \mu^2+\frac{\sigma^2}{n}$.
+\item[c)] Demonstração.
+\item[d)] $S^2 = \sum_{i=1}^n\frac{\left(X_i-\overline{X}\right)^2}{n-1}.$
+\end{itemize}
+
+\item ${\displaystyle \hat{\rho}=\frac{\sum_{i=1}^{n}\left(X_i-\overline{X}\right)\left(Y_i-\overline{Y}\right)}{\sqrt{\sum_{i=1}^{n}\left(X_i-\overline{X}\right)^2\sum_{i=1}^{n}\left(Y_i-\overline{Y}\right)^2}}.}$
+
+\vspace*{0.5cm}
+\item
+\begin{itemize}
+\item[a)] ${\displaystyle \hat{\lambda}_1=\frac{\sum_{i=1}^{n}X_i}{n} \ \ \ \ \ \text{e} \ \ \ \ \ \hat{\lambda}_2 = \frac{\sum_{i=1}^{n}\left(X_i-\overline{X}\right)^2}{n}.}$
+\item[b)] 3,17 e 9,07.
+\end{itemize}
+
+\item ${\displaystyle \hat{\lambda}=1/\overline{X}.}$
+
+\item 0,1362.
+
+\item $\hat{\lambda}=\overline{X}.$
+
+\item 0,4936.
+
+\item ${\displaystyle \hat{\mu}=\frac{\sum_{i=1}^{n}X_i}{n} \ \ \ \text{e} \ \ \ \hat{\sigma} = \sqrt{\frac{\sum_{i=1}^{n}(X_i-\mu)^2}{n}}.}$
+
+\item 0,3399.
+
+\item $\hat{\theta}=\text{Min}(X_1,\cdots, X_n).$
+
+\item $(3,868 \ ; \ 5,622).$
+
+\item $(0,67 \ ; \ 0,73).$
+
+\item $(6,976 \ ; \ 9,024), \ \ \  (6,848 \ ; \ 9,152), \ \ \ (6,688 \ ; \ 9,312), \ \ \ \text{e} \ \ \ (6,432 \ ; \ 9,568).$
+
+\item $5,39; \ \ \ 4,17 \ \ \ \text{e} \ \ \ 2,95.$
+
+\item $11$.
+
+\item
+\begin{itemize}
+\item[a)] $(8,71 \ ; \ 9,89)$.
+\item[b)] $98\%$.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] $35,6$.
+\item[b)] $(35,27 \ ; \ 35,93)$.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] $22$.
+\item[b)] $58,1$.
+\item[c)] $0,5250$.
+\end{itemize}
+
+\item $(2,2844 \ ; \ 2,7156).$
+
+\item $(0,214 \ ; \ 0,466)$ e $(0,207 \ ; \ 0,473)$.
+
+\item
+\begin{itemize}
+\item[a)] 4.096.
+\item[b)] $(0,5347 \ ; \ 0,5652)$.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] $269$.
+\item[b)] $173$.
+\item[c)] $0,07$.
+\item[d)] $0,8501$.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] $(0,2799 \ ; \ 0,3867)$.
+\item[b)] 2.401.
+\end{itemize}
+
+\item 
+\begin{itemize}
+\item[a)] 0,98.
+\item[b)] 0,8.
+\item[c)] 0,825.
+\item[d)] 2,3984.
+\item[e)] -1,7459.
+\end{itemize}
+
+\item $(9,0469 \ ; \ 11,0931) \ \text{e} \ (9,2200 \ ; \ 10,9199).$
+
+\item $\left(\overline{x}-z_{\alpha}\frac{\sigma}{\sqrt{n}} \ ; \ +\infty\right)$, $\left(-\infty \ ; \ \overline{x}+z_{\alpha}\frac{\sigma}{\sqrt{n}}\right)$, $\left(\overline{x}-t_{\alpha,n-1}\frac{s}{\sqrt{n}} \ ; \ +\infty\right)$ e $\left(-\infty \ ; \ \overline{x}+t_{\alpha,n-1}\frac{s}{\sqrt{n}}\right).$
+
+\item $(9,2200 \ ; \ +\infty) \ \text{e} \ (-\infty \ ; \ 10,9199).$
+
+\item $\left(\overline{x}-\overline{y}-z_{\alpha/2}\sqrt{\dfrac{\sigma_1^2}{n}+\dfrac{\sigma_2^2}{m}} \ ; \ \overline{x}-\overline{y}+z_{\alpha/2}\sqrt{\dfrac{\sigma_1^2}{n}+\dfrac{\sigma_2^2}{m}}\right).$
+
+\item $(-19,59 \ ; \ -6,48).$
+
+\end{enumerate} 
+\end{document}

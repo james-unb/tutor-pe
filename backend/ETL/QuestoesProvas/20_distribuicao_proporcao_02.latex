@@ -1,0 +1,412 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a proporção de moradores favoráveis a um projeto de lei em
+  um determinado município é de \(0.3\). Se uma amostra de \(40\)
+  moradores for selecionada de forma aleatória, qual a probabilidade de
+  que a proporção de moradores na amostra, favoráveis ao projeto de lei,
+  seja menor que \(0.26\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4770\)
+  \item
+    \(0.4247\)
+  \item
+    \(0.2912\)
+  \item
+    \(0.1771\)
+  \item
+    \(0.4641\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.3\) e
+  \(\sigma = \sqrt{\frac{0.3\times0.7}{40}}\), temos que
+  \[P\left(\hat{p}<0.26\right) = P\left(\frac{\hat{p}-0.3}{\sqrt{\frac{0.3\times0.7}{40}}}<\frac{0.26-0.3}{\sqrt{\frac{0.3\times0.7}{40}}}\right) = P\left(Z<-0.55\right) = 0.2912.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a proporção de moradores favoráveis a um projeto de lei em
+  um determinado município é de \(0.64\). Se uma amostra de \(45\)
+  moradores for selecionada de forma aleatória, qual a probabilidade de
+  que a proporção de moradores na amostra, favoráveis ao projeto de lei,
+  seja menor que \(0.59\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1478\)
+  \item
+    \(0.2587\)
+  \item
+    \(0.2420\)
+  \item
+    \(0.4602\)
+  \item
+    \(0.4129\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.64\) e
+  \(\sigma = \sqrt{\frac{0.64\times0.36}{45}}\), temos que
+  \[P\left(\hat{p}<0.59\right) = P\left(\frac{\hat{p}-0.64}{\sqrt{\frac{0.64\times0.36}{45}}}<\frac{0.59-0.64}{\sqrt{\frac{0.64\times0.36}{45}}}\right) = P\left(Z<-0.7\right) = 0.242.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a proporção de moradores favoráveis a um projeto de lei em
+  um determinado município é de \(0.54\). Se uma amostra de \(30\)
+  moradores for selecionada de forma aleatória, qual a probabilidade de
+  que a proporção de moradores na amostra, favoráveis ao projeto de lei,
+  seja menor que \(0.47\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2206\)
+  \item
+    \(0.1366\)
+  \item
+    \(0.4443\)
+  \item
+    \(0.3228\)
+  \item
+    \(0.3897\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.54\) e
+  \(\sigma = \sqrt{\frac{0.54\times0.46}{30}}\), temos que
+  \[P\left(\hat{p}<0.47\right) = P\left(\frac{\hat{p}-0.54}{\sqrt{\frac{0.54\times0.46}{30}}}<\frac{0.47-0.54}{\sqrt{\frac{0.54\times0.46}{30}}}\right) = P\left(Z<-0.77\right) = 0.2206.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a proporção de moradores favoráveis a um projeto de lei em
+  um determinado município é de \(0.31\). Se uma amostra de \(39\)
+  moradores for selecionada de forma aleatória, qual a probabilidade de
+  que a proporção de moradores na amostra, favoráveis ao projeto de lei,
+  seja menor que \(0.28\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3409\)
+  \item
+    \(0.4761\)
+  \item
+    \(0.2451\)
+  \item
+    \(0.4473\)
+  \item
+    \(0.4443\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.31\) e
+  \(\sigma = \sqrt{\frac{0.31\times0.69}{39}}\), temos que
+  \[P\left(\hat{p}<0.28\right) = P\left(\frac{\hat{p}-0.31}{\sqrt{\frac{0.31\times0.69}{39}}}<\frac{0.28-0.31}{\sqrt{\frac{0.31\times0.69}{39}}}\right) = P\left(Z<-0.41\right) = 0.3409.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a proporção de moradores favoráveis a um projeto de lei em
+  um determinado município é de \(0.4\). Se uma amostra de \(36\)
+  moradores for selecionada de forma aleatória, qual a probabilidade de
+  que a proporção de moradores na amostra, favoráveis ao projeto de lei,
+  seja menor que \(0.35\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1920\)
+  \item
+    \(0.2709\)
+  \item
+    \(0.4602\)
+  \item
+    \(0.1242\)
+  \item
+    \(0.4168\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.4\) e
+  \(\sigma = \sqrt{\frac{0.4\times0.6}{36}}\), temos que
+  \[P\left(\hat{p}<0.35\right) = P\left(\frac{\hat{p}-0.4}{\sqrt{\frac{0.4\times0.6}{36}}}<\frac{0.35-0.4}{\sqrt{\frac{0.4\times0.6}{36}}}\right) = P\left(Z<-0.61\right) = 0.2709.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a proporção de moradores favoráveis a um projeto de lei em
+  um determinado município é de \(0.37\). Se uma amostra de \(38\)
+  moradores for selecionada de forma aleatória, qual a probabilidade de
+  que a proporção de moradores na amostra, favoráveis ao projeto de lei,
+  seja menor que \(0.33\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1939\)
+  \item
+    \(0.4325\)
+  \item
+    \(0.3050\)
+  \item
+    \(0.4681\)
+  \item
+    \(0.4269\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.37\) e
+  \(\sigma = \sqrt{\frac{0.37\times0.63}{38}}\), temos que
+  \[P\left(\hat{p}<0.33\right) = P\left(\frac{\hat{p}-0.37}{\sqrt{\frac{0.37\times0.63}{38}}}<\frac{0.33-0.37}{\sqrt{\frac{0.37\times0.63}{38}}}\right) = P\left(Z<-0.51\right) = 0.305.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a proporção de moradores favoráveis a um projeto de lei em
+  um determinado município é de \(0.56\). Se uma amostra de \(36\)
+  moradores for selecionada de forma aleatória, qual a probabilidade de
+  que a proporção de moradores na amostra, favoráveis ao projeto de lei,
+  seja menor que \(0.53\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2675\)
+  \item
+    \(0.4540\)
+  \item
+    \(0.4522\)
+  \item
+    \(0.4761\)
+  \item
+    \(0.3594\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.56\) e
+  \(\sigma = \sqrt{\frac{0.56\times0.44}{36}}\), temos que
+  \[P\left(\hat{p}<0.53\right) = P\left(\frac{\hat{p}-0.56}{\sqrt{\frac{0.56\times0.44}{36}}}<\frac{0.53-0.56}{\sqrt{\frac{0.56\times0.44}{36}}}\right) = P\left(Z<-0.36\right) = 0.3594.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a proporção de moradores favoráveis a um projeto de lei em
+  um determinado município é de \(0.36\). Se uma amostra de \(32\)
+  moradores for selecionada de forma aleatória, qual a probabilidade de
+  que a proporção de moradores na amostra, favoráveis ao projeto de lei,
+  seja menor que \(0.34\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2076\)
+  \item
+    \(0.4052\)
+  \item
+    \(0.4840\)
+  \item
+    \(0.2825\)
+  \item
+    \(0.4641\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.36\) e
+  \(\sigma = \sqrt{\frac{0.36\times0.64}{32}}\), temos que
+  \[P\left(\hat{p}<0.34\right) = P\left(\frac{\hat{p}-0.36}{\sqrt{\frac{0.36\times0.64}{32}}}<\frac{0.34-0.36}{\sqrt{\frac{0.36\times0.64}{32}}}\right) = P\left(Z<-0.24\right) = 0.4052.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a proporção de moradores favoráveis a um projeto de lei em
+  um determinado município é de \(0.67\). Se uma amostra de \(42\)
+  moradores for selecionada de forma aleatória, qual a probabilidade de
+  que a proporção de moradores na amostra, favoráveis ao projeto de lei,
+  seja menor que \(0.61\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3936\)
+  \item
+    \(0.1333\)
+  \item
+    \(0.4483\)
+  \item
+    \(0.2193\)
+  \item
+    \(0.2033\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.67\) e
+  \(\sigma = \sqrt{\frac{0.67\times0.33}{42}}\), temos que
+  \[P\left(\hat{p}<0.61\right) = P\left(\frac{\hat{p}-0.67}{\sqrt{\frac{0.67\times0.33}{42}}}<\frac{0.61-0.67}{\sqrt{\frac{0.67\times0.33}{42}}}\right) = P\left(Z<-0.83\right) = 0.2033.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a proporção de moradores favoráveis a um projeto de lei em
+  um determinado município é de \(0.35\). Se uma amostra de \(39\)
+  moradores for selecionada de forma aleatória, qual a probabilidade de
+  que a proporção de moradores na amostra, favoráveis ao projeto de lei,
+  seja menor que \(0.3\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4602\)
+  \item
+    \(0.2578\)
+  \item
+    \(0.1749\)
+  \item
+    \(0.3576\)
+  \item
+    \(0.4129\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.35\) e
+  \(\sigma = \sqrt{\frac{0.35\times0.65}{39}}\), temos que
+  \[P\left(\hat{p}<0.3\right) = P\left(\frac{\hat{p}-0.35}{\sqrt{\frac{0.35\times0.65}{39}}}<\frac{0.3-0.35}{\sqrt{\frac{0.35\times0.65}{39}}}\right) = P\left(Z<-0.65\right) = 0.2578.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

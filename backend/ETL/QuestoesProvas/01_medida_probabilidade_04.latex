@@ -1,0 +1,662 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine um homem chamado Rubens, de 43 anos de idade, casado,
+  tradicional e pai de três filhos. Cursou direito na universidade e
+  quando estudante preocupava-se profundamente com segurança pública e
+  saúde. Rubens é cristão e contra a descriminalização da maconha. Essa
+  descrição de Rubens foi apresentada a um grupo de 77 pessoas que
+  atribuíram probabilidades a uma lista de afirmações sobre Rubens de
+  acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Rubens é contra a descriminalização do aborto & 91\% \\
+  2 & Rubens é capitão do Bope e faz aulas de Krav Maga & 88\% \\
+  3 & Rubens é deputado federal & 82\% \\
+  4 & Rubens é promotor de justiça e maratonista & 76\% \\
+  5 & Rubens é capitão do Bope & 70\% \\
+  6 & Rubens é Pastor pentecostal e contra a descriminalização do aborto
+  & 67\% \\
+  7 & Rubens é corretor de seguros & 63\% \\
+  8 & Rubens é deputado federal e a favor da descriminalização do aborto
+  & 56\% \\
+  9 & Rubens é Pastor pentecostal & 52\% \\
+  10 & Rubens é professor universitário & 42\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 2 e 5 são probabilisticamente contraditórias.
+  \item
+    As afirmações 6 e 8 são probabilisticamente contraditórias.
+  \item
+    Todas as afirmações são probabilisticamente contraditórias.
+  \item
+    As afirmações 3 e 5 são probabilisticamente contraditórias.
+  \item
+    As afirmações 1 e 5 são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine um homem chamado Rubens, de 43 anos de idade, casado,
+  tradicional e pai de três filhos. Cursou direito na universidade e
+  quando estudante preocupava-se profundamente com segurança pública e
+  saúde. Rubens é cristão e contra a descriminalização da maconha. Essa
+  descrição de Rubens foi apresentada a um grupo de 77 pessoas que
+  atribuíram probabilidades a uma lista de afirmações sobre Rubens de
+  acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Rubens é contra a descriminalização do aborto & 92\% \\
+  2 & Rubens é capitão do Bope e faz aulas de Krav Maga & 87\% \\
+  3 & Rubens é deputado federal & 83\% \\
+  4 & Rubens é promotor de justiça e maratonista & 79\% \\
+  5 & Rubens é capitão do Bope & 71\% \\
+  6 & Rubens é Pastor pentecostal e contra a descriminalização do aborto
+  & 67\% \\
+  7 & Rubens é corretor de seguros & 63\% \\
+  8 & Rubens é deputado federal e a favor da descriminalização do aborto
+  & 58\% \\
+  9 & Rubens é Pastor pentecostal & 50\% \\
+  10 & Rubens é professor universitário & 45\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 7 e 9 são probabilisticamente contraditórias.
+  \item
+    As afirmações 2 e 5 são probabilisticamente contraditórias.
+  \item
+    As afirmações 3 e 7 são probabilisticamente contraditórias.
+  \item
+    As afirmações 2 e 6 são probabilisticamente contraditórias.
+  \item
+    Nenhuma das demais alternativas está correta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine um homem chamado Rubens, de 43 anos de idade, casado,
+  tradicional e pai de três filhos. Cursou direito na universidade e
+  quando estudante preocupava-se profundamente com segurança pública e
+  saúde. Rubens é cristão e contra a descriminalização da maconha. Essa
+  descrição de Rubens foi apresentada a um grupo de 77 pessoas que
+  atribuíram probabilidades a uma lista de afirmações sobre Rubens de
+  acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Rubens é contra a descriminalização do aborto & 94\% \\
+  2 & Rubens é capitão do Bope e faz aulas de Krav Maga & 88\% \\
+  3 & Rubens é deputado federal & 80\% \\
+  4 & Rubens é promotor de justiça e maratonista & 77\% \\
+  5 & Rubens é capitão do Bope & 72\% \\
+  6 & Rubens é Pastor pentecostal e contra a descriminalização do aborto
+  & 66\% \\
+  7 & Rubens é corretor de seguros & 63\% \\
+  8 & Rubens é deputado federal e a favor da descriminalização do aborto
+  & 57\% \\
+  9 & Rubens é Pastor pentecostal & 52\% \\
+  10 & Rubens é professor universitário & 46\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 4 e 8 são probabilisticamente contraditórias.
+  \item
+    Nenhuma das demais alternativas está correta.
+  \item
+    As afirmações 5 e 9 são probabilisticamente contraditórias.
+  \item
+    As afirmações 1 e 4 são probabilisticamente contraditórias.
+  \item
+    As afirmações 2 e 5 são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine um homem chamado Rubens, de 43 anos de idade, casado,
+  tradicional e pai de três filhos. Cursou direito na universidade e
+  quando estudante preocupava-se profundamente com segurança pública e
+  saúde. Rubens é cristão e contra a descriminalização da maconha. Essa
+  descrição de Rubens foi apresentada a um grupo de 77 pessoas que
+  atribuíram probabilidades a uma lista de afirmações sobre Rubens de
+  acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Rubens é contra a descriminalização do aborto & 90\% \\
+  2 & Rubens é capitão do Bope e faz aulas de Krav Maga & 88\% \\
+  3 & Rubens é deputado federal & 81\% \\
+  4 & Rubens é promotor de justiça e maratonista & 77\% \\
+  5 & Rubens é capitão do Bope & 70\% \\
+  6 & Rubens é Pastor pentecostal e contra a descriminalização do aborto
+  & 65\% \\
+  7 & Rubens é corretor de seguros & 60\% \\
+  8 & Rubens é deputado federal e a favor da descriminalização do aborto
+  & 56\% \\
+  9 & Rubens é Pastor pentecostal & 53\% \\
+  10 & Rubens é professor universitário & 43\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 2 e 5 são probabilisticamente contraditórias.
+  \item
+    As afirmações 3 e 8 são probabilisticamente contraditórias.
+  \item
+    As afirmações 5 e 6 são probabilisticamente contraditórias.
+  \item
+    Todas as afirmações são probabilisticamente contraditórias.
+  \item
+    As afirmações 6 e 7 são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine um homem chamado Rubens, de 43 anos de idade, casado,
+  tradicional e pai de três filhos. Cursou direito na universidade e
+  quando estudante preocupava-se profundamente com segurança pública e
+  saúde. Rubens é cristão e contra a descriminalização da maconha. Essa
+  descrição de Rubens foi apresentada a um grupo de 77 pessoas que
+  atribuíram probabilidades a uma lista de afirmações sobre Rubens de
+  acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Rubens é contra a descriminalização do aborto & 94\% \\
+  2 & Rubens é capitão do Bope e faz aulas de Krav Maga & 85\% \\
+  3 & Rubens é deputado federal & 83\% \\
+  4 & Rubens é promotor de justiça e maratonista & 77\% \\
+  5 & Rubens é capitão do Bope & 72\% \\
+  6 & Rubens é Pastor pentecostal e contra a descriminalização do aborto
+  & 67\% \\
+  7 & Rubens é corretor de seguros & 63\% \\
+  8 & Rubens é deputado federal e a favor da descriminalização do aborto
+  & 58\% \\
+  9 & Rubens é Pastor pentecostal & 50\% \\
+  10 & Rubens é professor universitário & 46\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Nenhuma das afirmações são probabilisticamente contraditórias.
+  \item
+    As afirmações 2 e 10 são probabilisticamente contraditórias.
+  \item
+    As afirmações 7 e 8 são probabilisticamente contraditórias.
+  \item
+    As afirmações 4 e 5 são probabilisticamente contraditórias.
+  \item
+    As afirmações 2 e 5 são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine um homem chamado Rubens, de 43 anos de idade, casado,
+  tradicional e pai de três filhos. Cursou direito na universidade e
+  quando estudante preocupava-se profundamente com segurança pública e
+  saúde. Rubens é cristão e contra a descriminalização da maconha. Essa
+  descrição de Rubens foi apresentada a um grupo de 77 pessoas que
+  atribuíram probabilidades a uma lista de afirmações sobre Rubens de
+  acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Rubens é contra a descriminalização do aborto & 95\% \\
+  2 & Rubens é capitão do Bope e faz aulas de Krav Maga & 88\% \\
+  3 & Rubens é deputado federal & 81\% \\
+  4 & Rubens é promotor de justiça e maratonista & 78\% \\
+  5 & Rubens é capitão do Bope & 74\% \\
+  6 & Rubens é Pastor pentecostal e contra a descriminalização do aborto
+  & 67\% \\
+  7 & Rubens é corretor de seguros & 61\% \\
+  8 & Rubens é deputado federal e a favor da descriminalização do aborto
+  & 56\% \\
+  9 & Rubens é Pastor pentecostal & 52\% \\
+  10 & Rubens é professor universitário & 47\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Nenhuma das afirmações são probabilisticamente contraditórias.
+  \item
+    As afirmações 6 e 7 são probabilisticamente contraditórias.
+  \item
+    As afirmações 2 e 10 são probabilisticamente contraditórias.
+  \item
+    As afirmações 3 e 5 são probabilisticamente contraditórias.
+  \item
+    As afirmações 6 e 9 são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine um homem chamado Rubens, de 43 anos de idade, casado,
+  tradicional e pai de três filhos. Cursou direito na universidade e
+  quando estudante preocupava-se profundamente com segurança pública e
+  saúde. Rubens é cristão e contra a descriminalização da maconha. Essa
+  descrição de Rubens foi apresentada a um grupo de 77 pessoas que
+  atribuíram probabilidades a uma lista de afirmações sobre Rubens de
+  acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Rubens é contra a descriminalização do aborto & 92\% \\
+  2 & Rubens é capitão do Bope e faz aulas de Krav Maga & 88\% \\
+  3 & Rubens é deputado federal & 83\% \\
+  4 & Rubens é promotor de justiça e maratonista & 78\% \\
+  5 & Rubens é capitão do Bope & 74\% \\
+  6 & Rubens é Pastor pentecostal e contra a descriminalização do aborto
+  & 66\% \\
+  7 & Rubens é corretor de seguros & 61\% \\
+  8 & Rubens é deputado federal e a favor da descriminalização do aborto
+  & 58\% \\
+  9 & Rubens é Pastor pentecostal & 51\% \\
+  10 & Rubens é professor universitário & 46\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 2 e 6 são probabilisticamente contraditórias.
+  \item
+    Nenhuma das demais alternativas está correta.
+  \item
+    As afirmações 6 e 9 são probabilisticamente contraditórias.
+  \item
+    As afirmações 5 e 8 são probabilisticamente contraditórias.
+  \item
+    As afirmações 1 e 8 são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine um homem chamado Rubens, de 43 anos de idade, casado,
+  tradicional e pai de três filhos. Cursou direito na universidade e
+  quando estudante preocupava-se profundamente com segurança pública e
+  saúde. Rubens é cristão e contra a descriminalização da maconha. Essa
+  descrição de Rubens foi apresentada a um grupo de 77 pessoas que
+  atribuíram probabilidades a uma lista de afirmações sobre Rubens de
+  acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Rubens é contra a descriminalização do aborto & 91\% \\
+  2 & Rubens é capitão do Bope e faz aulas de Krav Maga & 88\% \\
+  3 & Rubens é deputado federal & 83\% \\
+  4 & Rubens é promotor de justiça e maratonista & 76\% \\
+  5 & Rubens é capitão do Bope & 74\% \\
+  6 & Rubens é Pastor pentecostal e contra a descriminalização do aborto
+  & 66\% \\
+  7 & Rubens é corretor de seguros & 64\% \\
+  8 & Rubens é deputado federal e a favor da descriminalização do aborto
+  & 58\% \\
+  9 & Rubens é Pastor pentecostal & 51\% \\
+  10 & Rubens é professor universitário & 43\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 6 e 9 são probabilisticamente contraditórias.
+  \item
+    As afirmações 4 e 5 são probabilisticamente contraditórias.
+  \item
+    As afirmações 5 e 9 são probabilisticamente contraditórias.
+  \item
+    As afirmações 8 e 10 são probabilisticamente contraditórias.
+  \item
+    Nenhuma das afirmações são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine um homem chamado Rubens, de 43 anos de idade, casado,
+  tradicional e pai de três filhos. Cursou direito na universidade e
+  quando estudante preocupava-se profundamente com segurança pública e
+  saúde. Rubens é cristão e contra a descriminalização da maconha. Essa
+  descrição de Rubens foi apresentada a um grupo de 77 pessoas que
+  atribuíram probabilidades a uma lista de afirmações sobre Rubens de
+  acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Rubens é contra a descriminalização do aborto & 92\% \\
+  2 & Rubens é capitão do Bope e faz aulas de Krav Maga & 86\% \\
+  3 & Rubens é deputado federal & 82\% \\
+  4 & Rubens é promotor de justiça e maratonista & 77\% \\
+  5 & Rubens é capitão do Bope & 73\% \\
+  6 & Rubens é Pastor pentecostal e contra a descriminalização do aborto
+  & 67\% \\
+  7 & Rubens é corretor de seguros & 63\% \\
+  8 & Rubens é deputado federal e a favor da descriminalização do aborto
+  & 58\% \\
+  9 & Rubens é Pastor pentecostal & 53\% \\
+  10 & Rubens é professor universitário & 37\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 9 e 10 são probabilisticamente contraditórias.
+  \item
+    As afirmações 2 e 6 são probabilisticamente contraditórias.
+  \item
+    As afirmações 6 e 9 são probabilisticamente contraditórias.
+  \item
+    Nenhuma das demais alternativas está correta.
+  \item
+    As afirmações 1 e 6 são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine um homem chamado Rubens, de 43 anos de idade, casado,
+  tradicional e pai de três filhos. Cursou direito na universidade e
+  quando estudante preocupava-se profundamente com segurança pública e
+  saúde. Rubens é cristão e contra a descriminalização da maconha. Essa
+  descrição de Rubens foi apresentada a um grupo de 77 pessoas que
+  atribuíram probabilidades a uma lista de afirmações sobre Rubens de
+  acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Rubens é contra a descriminalização do aborto & 91\% \\
+  2 & Rubens é capitão do Bope e faz aulas de Krav Maga & 88\% \\
+  3 & Rubens é deputado federal & 82\% \\
+  4 & Rubens é promotor de justiça e maratonista & 76\% \\
+  5 & Rubens é capitão do Bope & 73\% \\
+  6 & Rubens é Pastor pentecostal e contra a descriminalização do aborto
+  & 66\% \\
+  7 & Rubens é corretor de seguros & 61\% \\
+  8 & Rubens é deputado federal e a favor da descriminalização do aborto
+  & 56\% \\
+  9 & Rubens é Pastor pentecostal & 53\% \\
+  10 & Rubens é professor universitário & 38\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 6 e 8 são probabilisticamente contraditórias.
+  \item
+    Todas as afirmações são probabilisticamente contraditórias.
+  \item
+    As afirmações 4 e 9 são probabilisticamente contraditórias.
+  \item
+    As afirmações 2 e 5 são probabilisticamente contraditórias.
+  \item
+    As afirmações 8 e 9 são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

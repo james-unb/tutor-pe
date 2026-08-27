@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das lâmpadas dos projetores da marca
+  Vision é exponencialmente distribuído com média de \(51\) meses. Se o
+  pequeno cinema da cidade de Carangola (MG) já usou seu projetor Vision
+  por \(44\) meses, então a probabilidade de que o cinema não tenha que
+  trocar a lâmpada de seu projetor nos próximos \(6\) meses é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.643\)
+  \item
+    \(0.484\)
+  \item
+    \(0.422\)
+  \item
+    \(0.111\)
+  \item
+    \(0.889\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas de projeção, então, como \(E(X) = 51\), sabemos que
+  \(X\sim\text{Exp}(1/51).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.020x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>44+6 | X>44) &=& P(X>6)\\
+  &=& 1-F(6)\\
+  &=& 1-(1-e^{-0.020\times6}) \\
+  &=& 0.889
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das lâmpadas dos projetores da marca
+  Vision é exponencialmente distribuído com média de \(58\) meses. Se o
+  pequeno cinema da cidade de Carangola (MG) já usou seu projetor Vision
+  por \(52\) meses, então a probabilidade de que o cinema não tenha que
+  trocar a lâmpada de seu projetor nos próximos \(8\) meses é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.408\)
+  \item
+    \(0.129\)
+  \item
+    \(0.208\)
+  \item
+    \(0.871\)
+  \item
+    \(0.710\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas de projeção, então, como \(E(X) = 58\), sabemos que
+  \(X\sim\text{Exp}(1/58).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.017x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>52+8 | X>52) &=& P(X>8)\\
+  &=& 1-F(8)\\
+  &=& 1-(1-e^{-0.017\times8}) \\
+  &=& 0.871
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das lâmpadas dos projetores da marca
+  Vision é exponencialmente distribuído com média de \(57\) meses. Se o
+  pequeno cinema da cidade de Carangola (MG) já usou seu projetor Vision
+  por \(48\) meses, então a probabilidade de que o cinema não tenha que
+  trocar a lâmpada de seu projetor nos próximos \(6\) meses é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.100\)
+  \item
+    \(0.092\)
+  \item
+    \(0.955\)
+  \item
+    \(0.431\)
+  \item
+    \(0.900\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas de projeção, então, como \(E(X) = 57\), sabemos que
+  \(X\sim\text{Exp}(1/57).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.018x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>48+6 | X>48) &=& P(X>6)\\
+  &=& 1-F(6)\\
+  &=& 1-(1-e^{-0.018\times6}) \\
+  &=& 0.900
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das lâmpadas dos projetores da marca
+  Vision é exponencialmente distribuído com média de \(53\) meses. Se o
+  pequeno cinema da cidade de Carangola (MG) já usou seu projetor Vision
+  por \(47\) meses, então a probabilidade de que o cinema não tenha que
+  trocar a lâmpada de seu projetor nos próximos \(8\) meses é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.299\)
+  \item
+    \(0.860\)
+  \item
+    \(0.140\)
+  \item
+    \(0.412\)
+  \item
+    \(0.833\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas de projeção, então, como \(E(X) = 53\), sabemos que
+  \(X\sim\text{Exp}(1/53).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.019x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>47+8 | X>47) &=& P(X>8)\\
+  &=& 1-F(8)\\
+  &=& 1-(1-e^{-0.019\times8}) \\
+  &=& 0.860
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das lâmpadas dos projetores da marca
+  Vision é exponencialmente distribuído com média de \(53\) meses. Se o
+  pequeno cinema da cidade de Carangola (MG) já usou seu projetor Vision
+  por \(43\) meses, então a probabilidade de que o cinema não tenha que
+  trocar a lâmpada de seu projetor nos próximos \(10\) meses é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.172\)
+  \item
+    \(0.828\)
+  \item
+    \(0.445\)
+  \item
+    \(0.444\)
+  \item
+    \(0.642\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas de projeção, então, como \(E(X) = 53\), sabemos que
+  \(X\sim\text{Exp}(1/53).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.019x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>43+10 | X>43) &=& P(X>10)\\
+  &=& 1-F(10)\\
+  &=& 1-(1-e^{-0.019\times10}) \\
+  &=& 0.828
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das lâmpadas dos projetores da marca
+  Vision é exponencialmente distribuído com média de \(59\) meses. Se o
+  pequeno cinema da cidade de Carangola (MG) já usou seu projetor Vision
+  por \(53\) meses, então a probabilidade de que o cinema não tenha que
+  trocar a lâmpada de seu projetor nos próximos \(6\) meses é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.682\)
+  \item
+    \(0.407\)
+  \item
+    \(0.021\)
+  \item
+    \(0.903\)
+  \item
+    \(0.097\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas de projeção, então, como \(E(X) = 59\), sabemos que
+  \(X\sim\text{Exp}(1/59).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.017x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>53+6 | X>53) &=& P(X>6)\\
+  &=& 1-F(6)\\
+  &=& 1-(1-e^{-0.017\times6}) \\
+  &=& 0.903
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das lâmpadas dos projetores da marca
+  Vision é exponencialmente distribuído com média de \(60\) meses. Se o
+  pequeno cinema da cidade de Carangola (MG) já usou seu projetor Vision
+  por \(49\) meses, então a probabilidade de que o cinema não tenha que
+  trocar a lâmpada de seu projetor nos próximos \(7\) meses é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.110\)
+  \item
+    \(0.890\)
+  \item
+    \(0.104\)
+  \item
+    \(0.442\)
+  \item
+    \(0.769\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas de projeção, então, como \(E(X) = 60\), sabemos que
+  \(X\sim\text{Exp}(1/60).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.017x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>49+7 | X>49) &=& P(X>7)\\
+  &=& 1-F(7)\\
+  &=& 1-(1-e^{-0.017\times7}) \\
+  &=& 0.890
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das lâmpadas dos projetores da marca
+  Vision é exponencialmente distribuído com média de \(55\) meses. Se o
+  pequeno cinema da cidade de Carangola (MG) já usou seu projetor Vision
+  por \(44\) meses, então a probabilidade de que o cinema não tenha que
+  trocar a lâmpada de seu projetor nos próximos \(8\) meses é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.865\)
+  \item
+    \(0.135\)
+  \item
+    \(0.180\)
+  \item
+    \(0.449\)
+  \item
+    \(0.856\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas de projeção, então, como \(E(X) = 55\), sabemos que
+  \(X\sim\text{Exp}(1/55).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.018x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>44+8 | X>44) &=& P(X>8)\\
+  &=& 1-F(8)\\
+  &=& 1-(1-e^{-0.018\times8}) \\
+  &=& 0.865
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das lâmpadas dos projetores da marca
+  Vision é exponencialmente distribuído com média de \(56\) meses. Se o
+  pequeno cinema da cidade de Carangola (MG) já usou seu projetor Vision
+  por \(46\) meses, então a probabilidade de que o cinema não tenha que
+  trocar a lâmpada de seu projetor nos próximos \(6\) meses é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.440\)
+  \item
+    \(0.790\)
+  \item
+    \(0.219\)
+  \item
+    \(0.898\)
+  \item
+    \(0.102\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas de projeção, então, como \(E(X) = 56\), sabemos que
+  \(X\sim\text{Exp}(1/56).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.018x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>46+6 | X>46) &=& P(X>6)\\
+  &=& 1-F(6)\\
+  &=& 1-(1-e^{-0.018\times6}) \\
+  &=& 0.898
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das lâmpadas dos projetores da marca
+  Vision é exponencialmente distribuído com média de \(58\) meses. Se o
+  pequeno cinema da cidade de Carangola (MG) já usou seu projetor Vision
+  por \(53\) meses, então a probabilidade de que o cinema não tenha que
+  trocar a lâmpada de seu projetor nos próximos \(11\) meses é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.827\)
+  \item
+    \(0.173\)
+  \item
+    \(0.676\)
+  \item
+    \(0.401\)
+  \item
+    \(0.311\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas de projeção, então, como \(E(X) = 58\), sabemos que
+  \(X\sim\text{Exp}(1/58).\) Como a função de distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.017x}\), segue, pela propriedade de
+  \emph{perda de memória da Exponencial}, que a probabilidade desejada é
+  dada por \[\begin{aligned}
+  P(X>53+11 | X>53) &=& P(X>11)\\
+  &=& 1-F(11)\\
+  &=& 1-(1-e^{-0.017\times11}) \\
+  &=& 0.827
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

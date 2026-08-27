@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia afirma que as baterias dos seus laptops duram em média,
+  pelo menos, 10.2 horas por carga. Variações podem ocorrer no processo
+  de fabricação e pode-se assumir que o desvio padrão é de 0.7 hora.
+  Para testar a afirmação, uma empresa de consultoria coletou uma
+  amostra aleatória simples de 45 baterias que apresentaram duração
+  média de 10.3 horas. Com base nas informações, assinale a alternativa
+  correspondente ao p-valor para o teste da afirmação da companhia.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8315\)
+  \item
+    \(0.0770\)
+  \item
+    \(0.3031\)
+  \item
+    \(0.1500\)
+  \item
+    \(0.0843\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu\geq10.2 \ \ versus \ \ H_a : \mu < 10.2.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-10.2}{\sigma/\sqrt{n}} = 0.96\] e o p-valor
+  \[\alpha^{*} = P(Z\leq0.96) = 0.8315.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia afirma que as baterias dos seus laptops duram em média,
+  pelo menos, 10.8 horas por carga. Variações podem ocorrer no processo
+  de fabricação e pode-se assumir que o desvio padrão é de 0.7 hora.
+  Para testar a afirmação, uma empresa de consultoria coletou uma
+  amostra aleatória simples de 55 baterias que apresentaram duração
+  média de 11 horas. Com base nas informações, assinale a alternativa
+  correspondente ao p-valor para o teste da afirmação da companhia.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9830\)
+  \item
+    \(0.0203\)
+  \item
+    \(0.0151\)
+  \item
+    \(0.4671\)
+  \item
+    \(0.0085\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu\geq10.8 \ \ versus \ \ H_a : \mu < 10.8.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-10.8}{\sigma/\sqrt{n}} = 2.12\] e o p-valor
+  \[\alpha^{*} = P(Z\leq2.12) = 0.983.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia afirma que as baterias dos seus laptops duram em média,
+  pelo menos, 7.4 horas por carga. Variações podem ocorrer no processo
+  de fabricação e pode-se assumir que o desvio padrão é de 0.6 hora.
+  Para testar a afirmação, uma empresa de consultoria coletou uma
+  amostra aleatória simples de 35 baterias que apresentaram duração
+  média de 7.3 horas. Com base nas informações, assinale a alternativa
+  correspondente ao p-valor para o teste da afirmação da companhia.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1611\)
+  \item
+    \(0.4195\)
+  \item
+    \(0.1461\)
+  \item
+    \(0.7466\)
+  \item
+    \(0.2948\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu\geq7.4 \ \ versus \ \ H_a : \mu < 7.4.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-7.4}{\sigma/\sqrt{n}} = -0.99\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-0.99) = 0.1611.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia afirma que as baterias dos seus laptops duram em média,
+  pelo menos, 10.6 horas por carga. Variações podem ocorrer no processo
+  de fabricação e pode-se assumir que o desvio padrão é de 0.4 hora.
+  Para testar a afirmação, uma empresa de consultoria coletou uma
+  amostra aleatória simples de 49 baterias que apresentaram duração
+  média de 10.8 horas. Com base nas informações, assinale a alternativa
+  correspondente ao p-valor para o teste da afirmação da companhia.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9998\)
+  \item
+    \(0.7925\)
+  \item
+    \(0.0001\)
+  \item
+    \(0.0002\)
+  \item
+    \(0.1066\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu\geq10.6 \ \ versus \ \ H_a : \mu < 10.6.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-10.6}{\sigma/\sqrt{n}} = 3.5\] e o p-valor
+  \[\alpha^{*} = P(Z\leq3.5) = 0.9998.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia afirma que as baterias dos seus laptops duram em média,
+  pelo menos, 7.8 horas por carga. Variações podem ocorrer no processo
+  de fabricação e pode-se assumir que o desvio padrão é de 0.9 hora.
+  Para testar a afirmação, uma empresa de consultoria coletou uma
+  amostra aleatória simples de 46 baterias que apresentaram duração
+  média de 7.8 horas. Com base nas informações, assinale a alternativa
+  correspondente ao p-valor para o teste da afirmação da companhia.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4450\)
+  \item
+    \(0.2500\)
+  \item
+    \(0.5000\)
+  \item
+    \(0.3101\)
+  \item
+    \(0.1406\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu\geq7.8 \ \ versus \ \ H_a : \mu < 7.8.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-7.8}{\sigma/\sqrt{n}} = 0\] e o p-valor
+  \[\alpha^{*} = P(Z\leq0) = 0.5.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia afirma que as baterias dos seus laptops duram em média,
+  pelo menos, 7.3 horas por carga. Variações podem ocorrer no processo
+  de fabricação e pode-se assumir que o desvio padrão é de 0.4 hora.
+  Para testar a afirmação, uma empresa de consultoria coletou uma
+  amostra aleatória simples de 41 baterias que apresentaram duração
+  média de 7.2 horas. Com base nas informações, assinale a alternativa
+  correspondente ao p-valor para o teste da afirmação da companhia.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4726\)
+  \item
+    \(0.8412\)
+  \item
+    \(0.1528\)
+  \item
+    \(0.0548\)
+  \item
+    \(0.8936\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu\geq7.3 \ \ versus \ \ H_a : \mu < 7.3.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-7.3}{\sigma/\sqrt{n}} = -1.6\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.6) = 0.0548.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia afirma que as baterias dos seus laptops duram em média,
+  pelo menos, 10.8 horas por carga. Variações podem ocorrer no processo
+  de fabricação e pode-se assumir que o desvio padrão é de 0.7 hora.
+  Para testar a afirmação, uma empresa de consultoria coletou uma
+  amostra aleatória simples de 41 baterias que apresentaram duração
+  média de 11 horas. Com base nas informações, assinale a alternativa
+  correspondente ao p-valor para o teste da afirmação da companhia.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0299\)
+  \item
+    \(0.2945\)
+  \item
+    \(0.1443\)
+  \item
+    \(0.0168\)
+  \item
+    \(0.9664\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu\geq10.8 \ \ versus \ \ H_a : \mu < 10.8.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{\bar{x}-10.8}{\sigma/\sqrt{n}} = 1.83\] e o p-valor
+  \[\alpha^{*} = P(Z\leq1.83) = 0.9664.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia afirma que as baterias dos seus laptops duram em média,
+  pelo menos, 8.8 horas por carga. Variações podem ocorrer no processo
+  de fabricação e pode-se assumir que o desvio padrão é de 0.5 hora.
+  Para testar a afirmação, uma empresa de consultoria coletou uma
+  amostra aleatória simples de 49 baterias que apresentaram duração
+  média de 8.7 horas. Com base nas informações, assinale a alternativa
+  correspondente ao p-valor para o teste da afirmação da companhia.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1619\)
+  \item
+    \(0.4596\)
+  \item
+    \(0.8181\)
+  \item
+    \(0.6187\)
+  \item
+    \(0.0808\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu\geq8.8 \ \ versus \ \ H_a : \mu < 8.8.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-8.8}{\sigma/\sqrt{n}} = -1.4\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.4) = 0.0808.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia afirma que as baterias dos seus laptops duram em média,
+  pelo menos, 9.4 horas por carga. Variações podem ocorrer no processo
+  de fabricação e pode-se assumir que o desvio padrão é de 0.4 hora.
+  Para testar a afirmação, uma empresa de consultoria coletou uma
+  amostra aleatória simples de 54 baterias que apresentaram duração
+  média de 9.2 horas. Com base nas informações, assinale a alternativa
+  correspondente ao p-valor para o teste da afirmação da companhia.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0001\)
+  \item
+    \(0.1429\)
+  \item
+    \(0.1117\)
+  \item
+    \(0.8899\)
+  \item
+    \(0.4999\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu\geq9.4 \ \ versus \ \ H_a : \mu < 9.4.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-9.4}{\sigma/\sqrt{n}} = -3.67\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-3.67) = 1e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia afirma que as baterias dos seus laptops duram em média,
+  pelo menos, 9.5 horas por carga. Variações podem ocorrer no processo
+  de fabricação e pode-se assumir que o desvio padrão é de 0.7 hora.
+  Para testar a afirmação, uma empresa de consultoria coletou uma
+  amostra aleatória simples de 52 baterias que apresentaram duração
+  média de 9.4 horas. Com base nas informações, assinale a alternativa
+  correspondente ao p-valor para o teste da afirmação da companhia.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7552\)
+  \item
+    \(0.4242\)
+  \item
+    \(0.1515\)
+  \item
+    \(0.5823\)
+  \item
+    \(0.1819\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses de teste são
+  \[H_0 : \mu\geq9.5 \ \ versus \ \ H_a : \mu < 9.5.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\bar{x}-9.5}{\sigma/\sqrt{n}} = -1.03\] e o p-valor
+  \[\alpha^{*} = P(Z\leq-1.03) = 0.1515.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

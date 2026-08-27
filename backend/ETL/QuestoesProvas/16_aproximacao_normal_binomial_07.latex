@@ -1,0 +1,502 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A avaliação de desempenho dos alunos de uma disciplina da UnB é
+  composta por 50 questões, cada uma com 5 alternativas. Considerando
+  que o aluno selecione as alternativas de maneira aleatória (isso é,
+  ``chute" todas as questões), qual é a probabilidade de que ele acerte
+  ao menos \(14\) questões? (Não utilizar correção de continuidade na
+  aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.000\)
+  \item
+    \(0.691\)
+  \item
+    \(0.548\)
+  \item
+    \(0.915\)
+  \item
+    \(0.079\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de questões respondidas corretamente, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=50\) e \(p=0.2\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(10,2.83)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 14 ) 
+  & = 1 - P \left( X < \frac{14 - np}{\sqrt{np(1-p)}}} \right) \\
+  & = 1 - P\left( X < \frac{14 - 10}{2.828} \right) \\
+  & = 1- P(Z < 1.4142) = 0.079.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A avaliação de desempenho dos alunos de uma disciplina da UnB é
+  composta por 50 questões, cada uma com 5 alternativas. Considerando
+  que o aluno selecione as alternativas de maneira aleatória (isso é,
+  ``chute" todas as questões), qual é a probabilidade de que ele acerte
+  ao menos \(11\) questões? (Não utilizar correção de continuidade na
+  aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.362\)
+  \item
+    \(0.500\)
+  \item
+    \(0.548\)
+  \item
+    \(0.644\)
+  \item
+    \(0.855\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de questões respondidas corretamente, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=50\) e \(p=0.2\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(10,2.83)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 11 ) 
+  & = 1 - P \left( X < \frac{11 - np}{\sqrt{np(1-p)}}} \right) \\
+  & = 1 - P\left( X < \frac{11 - 10}{2.828} \right) \\
+  & = 1- P(Z < 0.3536) = 0.362.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A avaliação de desempenho dos alunos de uma disciplina da UnB é
+  composta por 50 questões, cada uma com 5 alternativas. Considerando
+  que o aluno selecione as alternativas de maneira aleatória (isso é,
+  ``chute" todas as questões), qual é a probabilidade de que ele acerte
+  ao menos \(11\) questões? (Não utilizar correção de continuidade na
+  aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.855\)
+  \item
+    \(0.362\)
+  \item
+    \(0.644\)
+  \item
+    \(0.548\)
+  \item
+    \(0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de questões respondidas corretamente, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=50\) e \(p=0.2\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(10,2.83)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 11 ) 
+  & = 1 - P \left( X < \frac{11 - np}{\sqrt{np(1-p)}}} \right) \\
+  & = 1 - P\left( X < \frac{11 - 10}{2.828} \right) \\
+  & = 1- P(Z < 0.3536) = 0.362.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A avaliação de desempenho dos alunos de uma disciplina da UnB é
+  composta por 50 questões, cada uma com 5 alternativas. Considerando
+  que o aluno selecione as alternativas de maneira aleatória (isso é,
+  ``chute" todas as questões), qual é a probabilidade de que ele acerte
+  ao menos \(13\) questões? (Não utilizar correção de continuidade na
+  aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.998\)
+  \item
+    \(0.644\)
+  \item
+    \(0.144\)
+  \item
+    \(0.500\)
+  \item
+    \(0.841\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de questões respondidas corretamente, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=50\) e \(p=0.2\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(10,2.83)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 13 ) 
+  & = 1 - P \left( X < \frac{13 - np}{\sqrt{np(1-p)}}} \right) \\
+  & = 1 - P\left( X < \frac{13 - 10}{2.828} \right) \\
+  & = 1- P(Z < 1.0607) = 0.144.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A avaliação de desempenho dos alunos de uma disciplina da UnB é
+  composta por 50 questões, cada uma com 5 alternativas. Considerando
+  que o aluno selecione as alternativas de maneira aleatória (isso é,
+  ``chute" todas as questões), qual é a probabilidade de que ele acerte
+  ao menos \(15\) questões? (Não utilizar correção de continuidade na
+  aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.000\)
+  \item
+    \(0.039\)
+  \item
+    \(0.732\)
+  \item
+    \(0.960\)
+  \item
+    \(0.548\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de questões respondidas corretamente, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=50\) e \(p=0.2\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(10,2.83)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 15 ) 
+  & = 1 - P \left( X < \frac{15 - np}{\sqrt{np(1-p)}}} \right) \\
+  & = 1 - P\left( X < \frac{15 - 10}{2.828} \right) \\
+  & = 1- P(Z < 1.7678) = 0.039.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A avaliação de desempenho dos alunos de uma disciplina da UnB é
+  composta por 50 questões, cada uma com 5 alternativas. Considerando
+  que o aluno selecione as alternativas de maneira aleatória (isso é,
+  ``chute" todas as questões), qual é a probabilidade de que ele acerte
+  ao menos \(13\) questões? (Não utilizar correção de continuidade na
+  aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.998\)
+  \item
+    \(0.841\)
+  \item
+    \(0.644\)
+  \item
+    \(0.144\)
+  \item
+    \(0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de questões respondidas corretamente, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=50\) e \(p=0.2\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(10,2.83)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 13 ) 
+  & = 1 - P \left( X < \frac{13 - np}{\sqrt{np(1-p)}}} \right) \\
+  & = 1 - P\left( X < \frac{13 - 10}{2.828} \right) \\
+  & = 1- P(Z < 1.0607) = 0.144.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A avaliação de desempenho dos alunos de uma disciplina da UnB é
+  composta por 50 questões, cada uma com 5 alternativas. Considerando
+  que o aluno selecione as alternativas de maneira aleatória (isso é,
+  ``chute" todas as questões), qual é a probabilidade de que ele acerte
+  ao menos \(11\) questões? (Não utilizar correção de continuidade na
+  aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.362\)
+  \item
+    \(0.548\)
+  \item
+    \(0.855\)
+  \item
+    \(0.644\)
+  \item
+    \(0.500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de questões respondidas corretamente, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=50\) e \(p=0.2\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(10,2.83)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 11 ) 
+  & = 1 - P \left( X < \frac{11 - np}{\sqrt{np(1-p)}}} \right) \\
+  & = 1 - P\left( X < \frac{11 - 10}{2.828} \right) \\
+  & = 1- P(Z < 0.3536) = 0.362.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A avaliação de desempenho dos alunos de uma disciplina da UnB é
+  composta por 50 questões, cada uma com 5 alternativas. Considerando
+  que o aluno selecione as alternativas de maneira aleatória (isso é,
+  ``chute" todas as questões), qual é a probabilidade de que ele acerte
+  ao menos \(11\) questões? (Não utilizar correção de continuidade na
+  aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.500\)
+  \item
+    \(0.855\)
+  \item
+    \(0.362\)
+  \item
+    \(0.644\)
+  \item
+    \(0.548\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de questões respondidas corretamente, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=50\) e \(p=0.2\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(10,2.83)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 11 ) 
+  & = 1 - P \left( X < \frac{11 - np}{\sqrt{np(1-p)}}} \right) \\
+  & = 1 - P\left( X < \frac{11 - 10}{2.828} \right) \\
+  & = 1- P(Z < 0.3536) = 0.362.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A avaliação de desempenho dos alunos de uma disciplina da UnB é
+  composta por 50 questões, cada uma com 5 alternativas. Considerando
+  que o aluno selecione as alternativas de maneira aleatória (isso é,
+  ``chute" todas as questões), qual é a probabilidade de que ele acerte
+  ao menos \(13\) questões? (Não utilizar correção de continuidade na
+  aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.500\)
+  \item
+    \(0.644\)
+  \item
+    \(0.841\)
+  \item
+    \(0.998\)
+  \item
+    \(0.144\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de questões respondidas corretamente, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=50\) e \(p=0.2\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(10,2.83)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 13 ) 
+  & = 1 - P \left( X < \frac{13 - np}{\sqrt{np(1-p)}}} \right) \\
+  & = 1 - P\left( X < \frac{13 - 10}{2.828} \right) \\
+  & = 1- P(Z < 1.0607) = 0.144.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A avaliação de desempenho dos alunos de uma disciplina da UnB é
+  composta por 50 questões, cada uma com 5 alternativas. Considerando
+  que o aluno selecione as alternativas de maneira aleatória (isso é,
+  ``chute" todas as questões), qual é a probabilidade de que ele acerte
+  ao menos \(11\) questões? (Não utilizar correção de continuidade na
+  aproximação da distribuição Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.362\)
+  \item
+    \(0.644\)
+  \item
+    \(0.548\)
+  \item
+    \(0.500\)
+  \item
+    \(0.855\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de questões respondidas corretamente, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=50\) e \(p=0.2\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(10,2.83)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 11 ) 
+  & = 1 - P \left( X < \frac{11 - np}{\sqrt{np(1-p)}}} \right) \\
+  & = 1 - P\left( X < \frac{11 - 10}{2.828} \right) \\
+  & = 1- P(Z < 0.3536) = 0.362.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

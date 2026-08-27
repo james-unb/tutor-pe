@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que uma vendedora de panos de prato tem \(37\%\) de chance de
+  efetuar a venda para cada mesa de bar que ela passa. Em quantas mesas,
+  no mínimo, ela deve parar para ter, pelo menos, \(74\%\) de chance de
+  vender o último pano que lhe resta no momento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5\)
+  \item
+    \(6\)
+  \item
+    \(3\)
+  \item
+    \(4\)
+  \item
+    \(2\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de mesas percorridas para a
+  venda de 1 pano de prato. Então, \(X \sim \text{Geo}(0.37)\), e o
+  número mínimo de mesas é o menor valor de \(k\) tal que:
+  \[P(X=1) + P(X=2) + ... + P(X=k) \geq 0.74\] Como \[\begin{aligned}
+  P(X=1) &= 0.37 = 0.37 \\
+  P(X=2) &= 0.37\times(1-0.37) = 0.2331 \\
+  P(X=3) &= 0.37\times(1-0.37)^2 = 0.1469 \\
+  P(X=4) &= 0.37\times(1-0.37)^3 = 0.0925 \\
+  \end{aligned}\] Então, \(k= 3\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que uma vendedora de panos de prato tem \(47\%\) de chance de
+  efetuar a venda para cada mesa de bar que ela passa. Em quantas mesas,
+  no mínimo, ela deve parar para ter, pelo menos, \(73\%\) de chance de
+  vender o último pano que lhe resta no momento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6\)
+  \item
+    \(4\)
+  \item
+    \(5\)
+  \item
+    \(3\)
+  \item
+    \(2\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de mesas percorridas para a
+  venda de 1 pano de prato. Então, \(X \sim \text{Geo}(0.47)\), e o
+  número mínimo de mesas é o menor valor de \(k\) tal que:
+  \[P(X=1) + P(X=2) + ... + P(X=k) \geq 0.73\] Como \[\begin{aligned}
+  P(X=1) &= 0.47 = 0.47 \\
+  P(X=2) &= 0.47\times(1-0.47) = 0.2491 \\
+  P(X=3) &= 0.47\times(1-0.47)^2 = 0.132 \\
+  P(X=4) &= 0.47\times(1-0.47)^3 = 0.07 \\
+  \end{aligned}\] Então, \(k= 3\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que uma vendedora de panos de prato tem \(45\%\) de chance de
+  efetuar a venda para cada mesa de bar que ela passa. Em quantas mesas,
+  no mínimo, ela deve parar para ter, pelo menos, \(76\%\) de chance de
+  vender o último pano que lhe resta no momento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3\)
+  \item
+    \(5\)
+  \item
+    \(4\)
+  \item
+    \(6\)
+  \item
+    \(2\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de mesas percorridas para a
+  venda de 1 pano de prato. Então, \(X \sim \text{Geo}(0.45)\), e o
+  número mínimo de mesas é o menor valor de \(k\) tal que:
+  \[P(X=1) + P(X=2) + ... + P(X=k) \geq 0.76\] Como \[\begin{aligned}
+  P(X=1) &= 0.45 = 0.45 \\
+  P(X=2) &= 0.45\times(1-0.45) = 0.2475 \\
+  P(X=3) &= 0.45\times(1-0.45)^2 = 0.1361 \\
+  P(X=4) &= 0.45\times(1-0.45)^3 = 0.0749 \\
+  \end{aligned}\] Então, \(k= 3\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que uma vendedora de panos de prato tem \(49\%\) de chance de
+  efetuar a venda para cada mesa de bar que ela passa. Em quantas mesas,
+  no mínimo, ela deve parar para ter, pelo menos, \(77\%\) de chance de
+  vender o último pano que lhe resta no momento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3\)
+  \item
+    \(4\)
+  \item
+    \(6\)
+  \item
+    \(2\)
+  \item
+    \(5\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de mesas percorridas para a
+  venda de 1 pano de prato. Então, \(X \sim \text{Geo}(0.49)\), e o
+  número mínimo de mesas é o menor valor de \(k\) tal que:
+  \[P(X=1) + P(X=2) + ... + P(X=k) \geq 0.77\] Como \[\begin{aligned}
+  P(X=1) &= 0.49 = 0.49 \\
+  P(X=2) &= 0.49\times(1-0.49) = 0.2499 \\
+  P(X=3) &= 0.49\times(1-0.49)^2 = 0.1274 \\
+  P(X=4) &= 0.49\times(1-0.49)^3 = 0.065 \\
+  \end{aligned}\] Então, \(k= 3\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que uma vendedora de panos de prato tem \(41\%\) de chance de
+  efetuar a venda para cada mesa de bar que ela passa. Em quantas mesas,
+  no mínimo, ela deve parar para ter, pelo menos, \(75\%\) de chance de
+  vender o último pano que lhe resta no momento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3\)
+  \item
+    \(6\)
+  \item
+    \(5\)
+  \item
+    \(2\)
+  \item
+    \(4\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de mesas percorridas para a
+  venda de 1 pano de prato. Então, \(X \sim \text{Geo}(0.41)\), e o
+  número mínimo de mesas é o menor valor de \(k\) tal que:
+  \[P(X=1) + P(X=2) + ... + P(X=k) \geq 0.75\] Como \[\begin{aligned}
+  P(X=1) &= 0.41 = 0.41 \\
+  P(X=2) &= 0.41\times(1-0.41) = 0.2419 \\
+  P(X=3) &= 0.41\times(1-0.41)^2 = 0.1427 \\
+  P(X=4) &= 0.41\times(1-0.41)^3 = 0.0842 \\
+  \end{aligned}\] Então, \(k= 3\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que uma vendedora de panos de prato tem \(37\%\) de chance de
+  efetuar a venda para cada mesa de bar que ela passa. Em quantas mesas,
+  no mínimo, ela deve parar para ter, pelo menos, \(72\%\) de chance de
+  vender o último pano que lhe resta no momento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2\)
+  \item
+    \(6\)
+  \item
+    \(4\)
+  \item
+    \(3\)
+  \item
+    \(5\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de mesas percorridas para a
+  venda de 1 pano de prato. Então, \(X \sim \text{Geo}(0.37)\), e o
+  número mínimo de mesas é o menor valor de \(k\) tal que:
+  \[P(X=1) + P(X=2) + ... + P(X=k) \geq 0.72\] Como \[\begin{aligned}
+  P(X=1) &= 0.37 = 0.37 \\
+  P(X=2) &= 0.37\times(1-0.37) = 0.2331 \\
+  P(X=3) &= 0.37\times(1-0.37)^2 = 0.1469 \\
+  P(X=4) &= 0.37\times(1-0.37)^3 = 0.0925 \\
+  \end{aligned}\] Então, \(k= 3\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que uma vendedora de panos de prato tem \(48\%\) de chance de
+  efetuar a venda para cada mesa de bar que ela passa. Em quantas mesas,
+  no mínimo, ela deve parar para ter, pelo menos, \(75\%\) de chance de
+  vender o último pano que lhe resta no momento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6\)
+  \item
+    \(5\)
+  \item
+    \(3\)
+  \item
+    \(4\)
+  \item
+    \(2\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de mesas percorridas para a
+  venda de 1 pano de prato. Então, \(X \sim \text{Geo}(0.48)\), e o
+  número mínimo de mesas é o menor valor de \(k\) tal que:
+  \[P(X=1) + P(X=2) + ... + P(X=k) \geq 0.75\] Como \[\begin{aligned}
+  P(X=1) &= 0.48 = 0.48 \\
+  P(X=2) &= 0.48\times(1-0.48) = 0.2496 \\
+  P(X=3) &= 0.48\times(1-0.48)^2 = 0.1298 \\
+  P(X=4) &= 0.48\times(1-0.48)^3 = 0.0675 \\
+  \end{aligned}\] Então, \(k= 3\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que uma vendedora de panos de prato tem \(44\%\) de chance de
+  efetuar a venda para cada mesa de bar que ela passa. Em quantas mesas,
+  no mínimo, ela deve parar para ter, pelo menos, \(78\%\) de chance de
+  vender o último pano que lhe resta no momento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2\)
+  \item
+    \(4\)
+  \item
+    \(5\)
+  \item
+    \(3\)
+  \item
+    \(6\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de mesas percorridas para a
+  venda de 1 pano de prato. Então, \(X \sim \text{Geo}(0.44)\), e o
+  número mínimo de mesas é o menor valor de \(k\) tal que:
+  \[P(X=1) + P(X=2) + ... + P(X=k) \geq 0.78\] Como \[\begin{aligned}
+  P(X=1) &= 0.44 = 0.44 \\
+  P(X=2) &= 0.44\times(1-0.44) = 0.2464 \\
+  P(X=3) &= 0.44\times(1-0.44)^2 = 0.138 \\
+  P(X=4) &= 0.44\times(1-0.44)^3 = 0.0773 \\
+  \end{aligned}\] Então, \(k= 3\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que uma vendedora de panos de prato tem \(35\%\) de chance de
+  efetuar a venda para cada mesa de bar que ela passa. Em quantas mesas,
+  no mínimo, ela deve parar para ter, pelo menos, \(79\%\) de chance de
+  vender o último pano que lhe resta no momento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5\)
+  \item
+    \(3\)
+  \item
+    \(4\)
+  \item
+    \(6\)
+  \item
+    \(2\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de mesas percorridas para a
+  venda de 1 pano de prato. Então, \(X \sim \text{Geo}(0.35)\), e o
+  número mínimo de mesas é o menor valor de \(k\) tal que:
+  \[P(X=1) + P(X=2) + ... + P(X=k) \geq 0.79\] Como \[\begin{aligned}
+  P(X=1) &= 0.35 = 0.35 \\
+  P(X=2) &= 0.35\times(1-0.35) = 0.2275 \\
+  P(X=3) &= 0.35\times(1-0.35)^2 = 0.1479 \\
+  P(X=4) &= 0.35\times(1-0.35)^3 = 0.0961 \\
+  \end{aligned}\] Então, \(k= 4\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que uma vendedora de panos de prato tem \(41\%\) de chance de
+  efetuar a venda para cada mesa de bar que ela passa. Em quantas mesas,
+  no mínimo, ela deve parar para ter, pelo menos, \(72\%\) de chance de
+  vender o último pano que lhe resta no momento?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2\)
+  \item
+    \(3\)
+  \item
+    \(4\)
+  \item
+    \(6\)
+  \item
+    \(5\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória número de mesas percorridas para a
+  venda de 1 pano de prato. Então, \(X \sim \text{Geo}(0.41)\), e o
+  número mínimo de mesas é o menor valor de \(k\) tal que:
+  \[P(X=1) + P(X=2) + ... + P(X=k) \geq 0.72\] Como \[\begin{aligned}
+  P(X=1) &= 0.41 = 0.41 \\
+  P(X=2) &= 0.41\times(1-0.41) = 0.2419 \\
+  P(X=3) &= 0.41\times(1-0.41)^2 = 0.1427 \\
+  P(X=4) &= 0.41\times(1-0.41)^3 = 0.0842 \\
+  \end{aligned}\] Então, \(k= 3\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

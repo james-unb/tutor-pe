@@ -1,0 +1,592 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{(\gamma-1)^x}{\gamma^{x+1}}\), \(0<1/\gamma<1\).
+  Considere \[7 \ \ \ 7 \ \ \ 9 \ \ \ 7 \ \ \ 8\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.29\)
+  \item
+    \(0.69\)
+  \item
+    \(0.03\)
+  \item
+    \(8.60\)
+  \item
+    \(38.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=\frac{1}{\gamma^n}(1-1/\gamma)^{\sum_{i=1}^{n}x_i}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\gamma)= n \ln(1/\gamma)+\sum_{i=1}^{n}x_i\ln(1-1/\gamma).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\gamma\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \gamma=\frac{\sum_{i=1}^{n}x_i}{n} + 1
+  \end{aligned}\] Como a segunda derivada com repeito a \(\gamma\) é
+  \(\frac{n+\sum_{i=1}^{n}(x_i)}{\gamma^2} -\frac{\sum_{i=1}^{n}(x_i)}{(\gamma-1)^2}<0\),
+  concluimos que o EMV de \(\gamma\) é \[\begin{aligned}
+  \hat{\gamma}=\frac{\sum_{i=1}^{n}x_i}{n} + 1.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 7, 9, 7, 8)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\gamma}=8.6\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{(\gamma-1)^x}{\gamma^{x+1}}\), \(0<1/\gamma<1\).
+  Considere \[8 \ \ \ 6 \ \ \ 9 \ \ \ 7 \ \ \ 7\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.79\)
+  \item
+    \(8.40\)
+  \item
+    \(37.00\)
+  \item
+    \(0.40\)
+  \item
+    \(0.03\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=\frac{1}{\gamma^n}(1-1/\gamma)^{\sum_{i=1}^{n}x_i}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\gamma)= n \ln(1/\gamma)+\sum_{i=1}^{n}x_i\ln(1-1/\gamma).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\gamma\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \gamma=\frac{\sum_{i=1}^{n}x_i}{n} + 1
+  \end{aligned}\] Como a segunda derivada com repeito a \(\gamma\) é
+  \(\frac{n+\sum_{i=1}^{n}(x_i)}{\gamma^2} -\frac{\sum_{i=1}^{n}(x_i)}{(\gamma-1)^2}<0\),
+  concluimos que o EMV de \(\gamma\) é \[\begin{aligned}
+  \hat{\gamma}=\frac{\sum_{i=1}^{n}x_i}{n} + 1.
+  \end{aligned}\]
+
+  Tomando a amostra \((8, 6, 9, 7, 7)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\gamma}=8.4\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{(\gamma-1)^x}{\gamma^{x+1}}\), \(0<1/\gamma<1\).
+  Considere \[7 \ \ \ 9 \ \ \ 7 \ \ \ 8 \ \ \ 7\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.88\)
+  \item
+    \(8.60\)
+  \item
+    \(0.36\)
+  \item
+    \(0.03\)
+  \item
+    \(38.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=\frac{1}{\gamma^n}(1-1/\gamma)^{\sum_{i=1}^{n}x_i}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\gamma)= n \ln(1/\gamma)+\sum_{i=1}^{n}x_i\ln(1-1/\gamma).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\gamma\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \gamma=\frac{\sum_{i=1}^{n}x_i}{n} + 1
+  \end{aligned}\] Como a segunda derivada com repeito a \(\gamma\) é
+  \(\frac{n+\sum_{i=1}^{n}(x_i)}{\gamma^2} -\frac{\sum_{i=1}^{n}(x_i)}{(\gamma-1)^2}<0\),
+  concluimos que o EMV de \(\gamma\) é \[\begin{aligned}
+  \hat{\gamma}=\frac{\sum_{i=1}^{n}x_i}{n} + 1.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 9, 7, 8, 7)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\gamma}=8.6\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{(\gamma-1)^x}{\gamma^{x+1}}\), \(0<1/\gamma<1\).
+  Considere \[8 \ \ \ 6 \ \ \ 9 \ \ \ 10 \ \ \ 7\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.03\)
+  \item
+    \(9.00\)
+  \item
+    \(0.78\)
+  \item
+    \(0.65\)
+  \item
+    \(40.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=\frac{1}{\gamma^n}(1-1/\gamma)^{\sum_{i=1}^{n}x_i}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\gamma)= n \ln(1/\gamma)+\sum_{i=1}^{n}x_i\ln(1-1/\gamma).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\gamma\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \gamma=\frac{\sum_{i=1}^{n}x_i}{n} + 1
+  \end{aligned}\] Como a segunda derivada com repeito a \(\gamma\) é
+  \(\frac{n+\sum_{i=1}^{n}(x_i)}{\gamma^2} -\frac{\sum_{i=1}^{n}(x_i)}{(\gamma-1)^2}<0\),
+  concluimos que o EMV de \(\gamma\) é \[\begin{aligned}
+  \hat{\gamma}=\frac{\sum_{i=1}^{n}x_i}{n} + 1.
+  \end{aligned}\]
+
+  Tomando a amostra \((8, 6, 9, 10, 7)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\gamma}=9\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{(\gamma-1)^x}{\gamma^{x+1}}\), \(0<1/\gamma<1\).
+  Considere \[7 \ \ \ 8 \ \ \ 9 \ \ \ 6 \ \ \ 6\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8.20\)
+  \item
+    \(0.68\)
+  \item
+    \(36.00\)
+  \item
+    \(0.92\)
+  \item
+    \(0.03\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=\frac{1}{\gamma^n}(1-1/\gamma)^{\sum_{i=1}^{n}x_i}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\gamma)= n \ln(1/\gamma)+\sum_{i=1}^{n}x_i\ln(1-1/\gamma).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\gamma\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \gamma=\frac{\sum_{i=1}^{n}x_i}{n} + 1
+  \end{aligned}\] Como a segunda derivada com repeito a \(\gamma\) é
+  \(\frac{n+\sum_{i=1}^{n}(x_i)}{\gamma^2} -\frac{\sum_{i=1}^{n}(x_i)}{(\gamma-1)^2}<0\),
+  concluimos que o EMV de \(\gamma\) é \[\begin{aligned}
+  \hat{\gamma}=\frac{\sum_{i=1}^{n}x_i}{n} + 1.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 8, 9, 6, 6)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\gamma}=8.2\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{(\gamma-1)^x}{\gamma^{x+1}}\), \(0<1/\gamma<1\).
+  Considere \[7 \ \ \ 7 \ \ \ 7 \ \ \ 10 \ \ \ 8\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.34\)
+  \item
+    \(0.68\)
+  \item
+    \(0.03\)
+  \item
+    \(39.00\)
+  \item
+    \(8.80\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=\frac{1}{\gamma^n}(1-1/\gamma)^{\sum_{i=1}^{n}x_i}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\gamma)= n \ln(1/\gamma)+\sum_{i=1}^{n}x_i\ln(1-1/\gamma).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\gamma\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \gamma=\frac{\sum_{i=1}^{n}x_i}{n} + 1
+  \end{aligned}\] Como a segunda derivada com repeito a \(\gamma\) é
+  \(\frac{n+\sum_{i=1}^{n}(x_i)}{\gamma^2} -\frac{\sum_{i=1}^{n}(x_i)}{(\gamma-1)^2}<0\),
+  concluimos que o EMV de \(\gamma\) é \[\begin{aligned}
+  \hat{\gamma}=\frac{\sum_{i=1}^{n}x_i}{n} + 1.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 7, 7, 10, 8)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\gamma}=8.8\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{(\gamma-1)^x}{\gamma^{x+1}}\), \(0<1/\gamma<1\).
+  Considere \[7 \ \ \ 9 \ \ \ 10 \ \ \ 7 \ \ \ 6\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.03\)
+  \item
+    \(8.80\)
+  \item
+    \(0.98\)
+  \item
+    \(0.21\)
+  \item
+    \(39.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=\frac{1}{\gamma^n}(1-1/\gamma)^{\sum_{i=1}^{n}x_i}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\gamma)= n \ln(1/\gamma)+\sum_{i=1}^{n}x_i\ln(1-1/\gamma).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\gamma\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \gamma=\frac{\sum_{i=1}^{n}x_i}{n} + 1
+  \end{aligned}\] Como a segunda derivada com repeito a \(\gamma\) é
+  \(\frac{n+\sum_{i=1}^{n}(x_i)}{\gamma^2} -\frac{\sum_{i=1}^{n}(x_i)}{(\gamma-1)^2}<0\),
+  concluimos que o EMV de \(\gamma\) é \[\begin{aligned}
+  \hat{\gamma}=\frac{\sum_{i=1}^{n}x_i}{n} + 1.
+  \end{aligned}\]
+
+  Tomando a amostra \((7, 9, 10, 7, 6)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\gamma}=8.8\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{(\gamma-1)^x}{\gamma^{x+1}}\), \(0<1/\gamma<1\).
+  Considere \[9 \ \ \ 7 \ \ \ 9 \ \ \ 9 \ \ \ 6\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(40.00\)
+  \item
+    \(0.17\)
+  \item
+    \(9.00\)
+  \item
+    \(0.61\)
+  \item
+    \(0.03\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=\frac{1}{\gamma^n}(1-1/\gamma)^{\sum_{i=1}^{n}x_i}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\gamma)= n \ln(1/\gamma)+\sum_{i=1}^{n}x_i\ln(1-1/\gamma).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\gamma\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \gamma=\frac{\sum_{i=1}^{n}x_i}{n} + 1
+  \end{aligned}\] Como a segunda derivada com repeito a \(\gamma\) é
+  \(\frac{n+\sum_{i=1}^{n}(x_i)}{\gamma^2} -\frac{\sum_{i=1}^{n}(x_i)}{(\gamma-1)^2}<0\),
+  concluimos que o EMV de \(\gamma\) é \[\begin{aligned}
+  \hat{\gamma}=\frac{\sum_{i=1}^{n}x_i}{n} + 1.
+  \end{aligned}\]
+
+  Tomando a amostra \((9, 7, 9, 9, 6)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\gamma}=9\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{(\gamma-1)^x}{\gamma^{x+1}}\), \(0<1/\gamma<1\).
+  Considere \[8 \ \ \ 8 \ \ \ 6 \ \ \ 9 \ \ \ 7\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.52\)
+  \item
+    \(0.03\)
+  \item
+    \(8.60\)
+  \item
+    \(38.00\)
+  \item
+    \(0.37\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=\frac{1}{\gamma^n}(1-1/\gamma)^{\sum_{i=1}^{n}x_i}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\gamma)= n \ln(1/\gamma)+\sum_{i=1}^{n}x_i\ln(1-1/\gamma).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\gamma\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \gamma=\frac{\sum_{i=1}^{n}x_i}{n} + 1
+  \end{aligned}\] Como a segunda derivada com repeito a \(\gamma\) é
+  \(\frac{n+\sum_{i=1}^{n}(x_i)}{\gamma^2} -\frac{\sum_{i=1}^{n}(x_i)}{(\gamma-1)^2}<0\),
+  concluimos que o EMV de \(\gamma\) é \[\begin{aligned}
+  \hat{\gamma}=\frac{\sum_{i=1}^{n}x_i}{n} + 1.
+  \end{aligned}\]
+
+  Tomando a amostra \((8, 8, 6, 9, 7)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\gamma}=8.6\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=\frac{(\gamma-1)^x}{\gamma^{x+1}}\), \(0<1/\gamma<1\).
+  Considere \[10 \ \ \ 9 \ \ \ 7 \ \ \ 7 \ \ \ 10\] uma amostra
+  observada de \(X\). Assinale a alternativa correspondente à estimativa
+  de máxima verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(43.00\)
+  \item
+    \(0.19\)
+  \item
+    \(0.39\)
+  \item
+    \(9.60\)
+  \item
+    \(0.02\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=\frac{1}{\gamma^n}(1-1/\gamma)^{\sum_{i=1}^{n}x_i}.
+   
+  \end{aligned}\]
+
+  Aplicando o logarítmo, a função de log-verossimilhança é:
+  \[\begin{aligned}
+   \ell(\gamma)= n \ln(1/\gamma)+\sum_{i=1}^{n}x_i\ln(1-1/\gamma).
+   
+  \end{aligned}\]
+
+  Ao derivar com respeito a \(\gamma\) e igualar a equação a zero,
+  obtém-se \[\begin{aligned}
+  \gamma=\frac{\sum_{i=1}^{n}x_i}{n} + 1
+  \end{aligned}\] Como a segunda derivada com repeito a \(\gamma\) é
+  \(\frac{n+\sum_{i=1}^{n}(x_i)}{\gamma^2} -\frac{\sum_{i=1}^{n}(x_i)}{(\gamma-1)^2}<0\),
+  concluimos que o EMV de \(\gamma\) é \[\begin{aligned}
+  \hat{\gamma}=\frac{\sum_{i=1}^{n}x_i}{n} + 1.
+  \end{aligned}\]
+
+  Tomando a amostra \((10, 9, 7, 7, 10)\), temos que a estimativa de
+  máxima verossimilhança a partir desta amostra é \(\hat{\gamma}=9.6\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

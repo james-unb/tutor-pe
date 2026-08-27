@@ -1,0 +1,550 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A nota média de PE tem sido historicamente igual a \(5.1\).
+  Desconfia-se que as provas ficaram mais fáceis e que a nota média
+  atual é maior. Para verificar, uma amostra de \(20\) notas foi
+  selecionada ao acaso, resultando numa média e variância amostrais
+  iguais a \(5.56\) e \(4\), respectivamente. Considerando que as notas
+  são normalmente distribuídas e um nível de significância de \(10\%\),
+  as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=5.56\; \emph{vs. }  H_a: \bar{x} >5.56\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=5.1\; \emph{vs. }  H_a: \bar{x}=5.56\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq5.1\; \emph{vs. }  H_a: \mu >5.1\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=5.1\; \emph{vs. }  H_a: \mu \neq 5.1\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq5.1\; \emph{vs. }  H_a: \mu >5.1\). \(H_0\) não é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 5.1\) \emph{vs.} \(H_a: \mu > 5.1\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=5.1)=P\left(T_{n-1}>\frac{c-5.1}{\sqrt{4/20}}\right)=0.1\).
+
+  Portanto, \(\frac{c-5.1}{\sqrt{4/20}}=1.33 \Rightarrow c=5.69\).
+
+  Daí, como \(\bar{x} =\) \(5.56 < 5.69\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A nota média de PE tem sido historicamente igual a \(5.1\).
+  Desconfia-se que as provas ficaram mais fáceis e que a nota média
+  atual é maior. Para verificar, uma amostra de \(30\) notas foi
+  selecionada ao acaso, resultando numa média e variância amostrais
+  iguais a \(5.47\) e \(4\), respectivamente. Considerando que as notas
+  são normalmente distribuídas e um nível de significância de \(10\%\),
+  as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq5.1\; \emph{vs. }  H_a: \mu >5.1\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=5.1\; \emph{vs. }  H_a: \bar{x}=5.47\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq5.1\; \emph{vs. }  H_a: \mu >5.1\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=5.1\; \emph{vs. }  H_a: \mu \neq 5.1\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=5.47\; \emph{vs. }  H_a: \bar{x} >5.47\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 5.1\) \emph{vs.} \(H_a: \mu > 5.1\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=5.1)=P\left(T_{n-1}>\frac{c-5.1}{\sqrt{4/30}}\right)=0.1\).
+
+  Portanto, \(\frac{c-5.1}{\sqrt{4/30}}=1.31 \Rightarrow c=5.58\).
+
+  Daí, como \(\bar{x} =\) \(5.47 < 5.58\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A nota média de PE tem sido historicamente igual a \(5.3\).
+  Desconfia-se que as provas ficaram mais fáceis e que a nota média
+  atual é maior. Para verificar, uma amostra de \(20\) notas foi
+  selecionada ao acaso, resultando numa média e variância amostrais
+  iguais a \(5.71\) e \(3.2\), respectivamente. Considerando que as
+  notas são normalmente distribuídas e um nível de significância de
+  \(10\%\), as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq5.3\; \emph{vs. }  H_a: \mu >5.3\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq5.3\; \emph{vs. }  H_a: \mu >5.3\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=5.3\; \emph{vs. }  H_a: \mu \neq 5.3\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=5.71\; \emph{vs. }  H_a: \bar{x} >5.71\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=5.3\; \emph{vs. }  H_a: \bar{x}=5.71\). \(H_0\) não é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 5.3\) \emph{vs.} \(H_a: \mu > 5.3\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=5.3)=P\left(T_{n-1}>\frac{c-5.3}{\sqrt{3.2/20}}\right)=0.1\).
+
+  Portanto, \(\frac{c-5.3}{\sqrt{3.2/20}}=1.33 \Rightarrow c=5.83\).
+
+  Daí, como \(\bar{x} =\) \(5.71 < 5.83\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A nota média de PE tem sido historicamente igual a \(5.3\).
+  Desconfia-se que as provas ficaram mais fáceis e que a nota média
+  atual é maior. Para verificar, uma amostra de \(25\) notas foi
+  selecionada ao acaso, resultando numa média e variância amostrais
+  iguais a \(5.73\) e \(4.2\), respectivamente. Considerando que as
+  notas são normalmente distribuídas e um nível de significância de
+  \(10\%\), as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=5.3\; \emph{vs. }  H_a: \bar{x}=5.73\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=5.3\; \emph{vs. }  H_a: \mu \neq 5.3\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq5.3\; \emph{vs. }  H_a: \mu >5.3\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=5.73\; \emph{vs. }  H_a: \bar{x} >5.73\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq5.3\; \emph{vs. }  H_a: \mu >5.3\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 5.3\) \emph{vs.} \(H_a: \mu > 5.3\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=5.3)=P\left(T_{n-1}>\frac{c-5.3}{\sqrt{4.2/25}}\right)=0.1\).
+
+  Portanto, \(\frac{c-5.3}{\sqrt{4.2/25}}=1.32 \Rightarrow c=5.84\).
+
+  Daí, como \(\bar{x} =\) \(5.73 < 5.84\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A nota média de PE tem sido historicamente igual a \(6\). Desconfia-se
+  que as provas ficaram mais fáceis e que a nota média atual é maior.
+  Para verificar, uma amostra de \(30\) notas foi selecionada ao acaso,
+  resultando numa média e variância amostrais iguais a \(6.69\) e
+  \(4.7\), respectivamente. Considerando que as notas são normalmente
+  distribuídas e um nível de significância de \(10\%\), as hipóteses do
+  teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq6\; \emph{vs. }  H_a: \mu >6\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \bar{x}=6.69\; \emph{vs. }  H_a: \bar{x} >6.69\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=6\; \emph{vs. }  H_a: \mu \neq 6\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \mu \leq6\; \emph{vs. }  H_a: \mu >6\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=6\; \emph{vs. }  H_a: \bar{x}=6.69\). \(H_0\) não é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 6\) \emph{vs.} \(H_a: \mu > 6\). Além disso, sabe-se
+  que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=6)=P\left(T_{n-1}>\frac{c-6}{\sqrt{4.7/30}}\right)=0.1\).
+
+  Portanto, \(\frac{c-6}{\sqrt{4.7/30}}=1.31 \Rightarrow c=6.52\).
+
+  Daí, como \(\bar{x} =\) \(6.69 > 6.52\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A nota média de PE tem sido historicamente igual a \(5.6\).
+  Desconfia-se que as provas ficaram mais fáceis e que a nota média
+  atual é maior. Para verificar, uma amostra de \(23\) notas foi
+  selecionada ao acaso, resultando numa média e variância amostrais
+  iguais a \(6.03\) e \(3.9\), respectivamente. Considerando que as
+  notas são normalmente distribuídas e um nível de significância de
+  \(10\%\), as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq5.6\; \emph{vs. }  H_a: \mu >5.6\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq5.6\; \emph{vs. }  H_a: \mu >5.6\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=5.6\; \emph{vs. }  H_a: \bar{x}=6.03\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=6.03\; \emph{vs. }  H_a: \bar{x} >6.03\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=5.6\; \emph{vs. }  H_a: \mu \neq 5.6\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 5.6\) \emph{vs.} \(H_a: \mu > 5.6\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=5.6)=P\left(T_{n-1}>\frac{c-5.6}{\sqrt{3.9/23}}\right)=0.1\).
+
+  Portanto, \(\frac{c-5.6}{\sqrt{3.9/23}}=1.32 \Rightarrow c=6.14\).
+
+  Daí, como \(\bar{x} =\) \(6.03 < 6.14\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A nota média de PE tem sido historicamente igual a \(5.6\).
+  Desconfia-se que as provas ficaram mais fáceis e que a nota média
+  atual é maior. Para verificar, uma amostra de \(30\) notas foi
+  selecionada ao acaso, resultando numa média e variância amostrais
+  iguais a \(6\) e \(4.6\), respectivamente. Considerando que as notas
+  são normalmente distribuídas e um nível de significância de \(10\%\),
+  as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=6\; \emph{vs. }  H_a: \bar{x} >6\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=5.6\; \emph{vs. }  H_a: \bar{x}=6\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq5.6\; \emph{vs. }  H_a: \mu >5.6\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=5.6\; \emph{vs. }  H_a: \mu \neq 5.6\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq5.6\; \emph{vs. }  H_a: \mu >5.6\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 5.6\) \emph{vs.} \(H_a: \mu > 5.6\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=5.6)=P\left(T_{n-1}>\frac{c-5.6}{\sqrt{4.6/30}}\right)=0.1\).
+
+  Portanto, \(\frac{c-5.6}{\sqrt{4.6/30}}=1.31 \Rightarrow c=6.11\).
+
+  Daí, como \(\bar{x} =\) \(6 < 6.11\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A nota média de PE tem sido historicamente igual a \(5.1\).
+  Desconfia-se que as provas ficaram mais fáceis e que a nota média
+  atual é maior. Para verificar, uma amostra de \(21\) notas foi
+  selecionada ao acaso, resultando numa média e variância amostrais
+  iguais a \(5.57\) e \(4.3\), respectivamente. Considerando que as
+  notas são normalmente distribuídas e um nível de significância de
+  \(10\%\), as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq5.1\; \emph{vs. }  H_a: \mu >5.1\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=5.1\; \emph{vs. }  H_a: \bar{x}=5.57\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=5.1\; \emph{vs. }  H_a: \mu \neq 5.1\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=5.57\; \emph{vs. }  H_a: \bar{x} >5.57\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq5.1\; \emph{vs. }  H_a: \mu >5.1\). \(H_0\) não é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 5.1\) \emph{vs.} \(H_a: \mu > 5.1\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=5.1)=P\left(T_{n-1}>\frac{c-5.1}{\sqrt{4.3/21}}\right)=0.1\).
+
+  Portanto, \(\frac{c-5.1}{\sqrt{4.3/21}}=1.33 \Rightarrow c=5.7\).
+
+  Daí, como \(\bar{x} =\) \(5.57 < 5.7\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A nota média de PE tem sido historicamente igual a \(5.7\).
+  Desconfia-se que as provas ficaram mais fáceis e que a nota média
+  atual é maior. Para verificar, uma amostra de \(29\) notas foi
+  selecionada ao acaso, resultando numa média e variância amostrais
+  iguais a \(6.06\) e \(3.7\), respectivamente. Considerando que as
+  notas são normalmente distribuídas e um nível de significância de
+  \(10\%\), as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=5.7\; \emph{vs. }  H_a: \bar{x}=6.06\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=5.7\; \emph{vs. }  H_a: \mu \neq 5.7\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq5.7\; \emph{vs. }  H_a: \mu >5.7\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq5.7\; \emph{vs. }  H_a: \mu >5.7\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=6.06\; \emph{vs. }  H_a: \bar{x} >6.06\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 5.7\) \emph{vs.} \(H_a: \mu > 5.7\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=5.7)=P\left(T_{n-1}>\frac{c-5.7}{\sqrt{3.7/29}}\right)=0.1\).
+
+  Portanto, \(\frac{c-5.7}{\sqrt{3.7/29}}=1.31 \Rightarrow c=6.17\).
+
+  Daí, como \(\bar{x} =\) \(6.06 < 6.17\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A nota média de PE tem sido historicamente igual a \(5.7\).
+  Desconfia-se que as provas ficaram mais fáceis e que a nota média
+  atual é maior. Para verificar, uma amostra de \(20\) notas foi
+  selecionada ao acaso, resultando numa média e variância amostrais
+  iguais a \(6.49\) e \(4.1\), respectivamente. Considerando que as
+  notas são normalmente distribuídas e um nível de significância de
+  \(10\%\), as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=5.7\; \emph{vs. }  H_a: \mu \neq 5.7\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq5.7\; \emph{vs. }  H_a: \mu >5.7\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=6.49\; \emph{vs. }  H_a: \bar{x} >6.49\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=5.7\; \emph{vs. }  H_a: \bar{x}=6.49\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq5.7\; \emph{vs. }  H_a: \mu >5.7\). \(H_0\) não é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 5.7\) \emph{vs.} \(H_a: \mu > 5.7\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=5.7)=P\left(T_{n-1}>\frac{c-5.7}{\sqrt{4.1/20}}\right)=0.1\).
+
+  Portanto, \(\frac{c-5.7}{\sqrt{4.1/20}}=1.33 \Rightarrow c=6.3\).
+
+  Daí, como \(\bar{x} =\) \(6.49 > 6.3\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

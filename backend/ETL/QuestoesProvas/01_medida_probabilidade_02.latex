@@ -1,0 +1,372 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que de \(10\) objetos escolhemos \(6\) ao acaso com reposição.
+  Qual a probabilidade de que nenhum objeto seja escolhido mais de uma
+  vez? Aproxime a resposta com duas casa decimais.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.48\)
+  \item
+    \(0.60\)
+  \item
+    \(0.87\)
+  \item
+    \(0.03\)
+  \item
+    \(0.15\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{10\times9\times\cdots\times5}{10^6}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que de \(12\) objetos escolhemos \(4\) ao acaso com reposição.
+  Qual a probabilidade de que nenhum objeto seja escolhido mais de uma
+  vez? Aproxime a resposta com duas casa decimais.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.06\)
+  \item
+    \(0.33\)
+  \item
+    \(0.57\)
+  \item
+    \(0.17\)
+  \item
+    \(0.59\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{12\times11\times\cdots\times9}{12^4}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que de \(8\) objetos escolhemos \(6\) ao acaso com reposição.
+  Qual a probabilidade de que nenhum objeto seja escolhido mais de uma
+  vez? Aproxime a resposta com duas casa decimais.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.86\)
+  \item
+    \(0.75\)
+  \item
+    \(0.90\)
+  \item
+    \(0.08\)
+  \item
+    \(0.03\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{8\times7\times\cdots\times3}{8^6}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que de \(10\) objetos escolhemos \(6\) ao acaso com reposição.
+  Qual a probabilidade de que nenhum objeto seja escolhido mais de uma
+  vez? Aproxime a resposta com duas casa decimais.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.60\)
+  \item
+    \(0.74\)
+  \item
+    \(0.03\)
+  \item
+    \(0.15\)
+  \item
+    \(0.72\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{10\times9\times\cdots\times5}{10^6}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que de \(12\) objetos escolhemos \(8\) ao acaso com reposição.
+  Qual a probabilidade de que nenhum objeto seja escolhido mais de uma
+  vez? Aproxime a resposta com duas casa decimais.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.16\)
+  \item
+    \(0.61\)
+  \item
+    \(0.05\)
+  \item
+    \(0.67\)
+  \item
+    \(0.01\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{12\times11\times\cdots\times5}{12^8}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que de \(8\) objetos escolhemos \(5\) ao acaso com reposição.
+  Qual a probabilidade de que nenhum objeto seja escolhido mais de uma
+  vez? Aproxime a resposta com duas casa decimais.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.21\)
+  \item
+    \(0.63\)
+  \item
+    \(0.05\)
+  \item
+    \(0.71\)
+  \item
+    \(0.91\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{8\times7\times\cdots\times4}{8^5}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que de \(11\) objetos escolhemos \(5\) ao acaso com reposição.
+  Qual a probabilidade de que nenhum objeto seja escolhido mais de uma
+  vez? Aproxime a resposta com duas casa decimais.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.45\)
+  \item
+    \(0.05\)
+  \item
+    \(0.35\)
+  \item
+    \(0.34\)
+  \item
+    \(0.38\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{11\times10\times\cdots\times7}{11^5}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que de \(10\) objetos escolhemos \(5\) ao acaso com reposição.
+  Qual a probabilidade de que nenhum objeto seja escolhido mais de uma
+  vez? Aproxime a resposta com duas casa decimais.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.50\)
+  \item
+    \(0.05\)
+  \item
+    \(0.23\)
+  \item
+    \(0.30\)
+  \item
+    \(0.33\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{10\times9\times\cdots\times6}{10^5}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que de \(12\) objetos escolhemos \(5\) ao acaso com reposição.
+  Qual a probabilidade de que nenhum objeto seja escolhido mais de uma
+  vez? Aproxime a resposta com duas casa decimais.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.38\)
+  \item
+    \(0.42\)
+  \item
+    \(0.05\)
+  \item
+    \(0.39\)
+  \item
+    \(0.57\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{12\times11\times\cdots\times8}{12^5}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que de \(8\) objetos escolhemos \(6\) ao acaso com reposição.
+  Qual a probabilidade de que nenhum objeto seja escolhido mais de uma
+  vez? Aproxime a resposta com duas casa decimais.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.08\)
+  \item
+    \(0.16\)
+  \item
+    \(0.03\)
+  \item
+    \(0.71\)
+  \item
+    \(0.75\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A probabilidade desejada é dada por
+  \[\dfrac{8\times7\times\cdots\times3}{8^6}.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

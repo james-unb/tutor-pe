@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A OMS (Organização Mundial da Saúde) pretende realizar novo estudo
+  sobre a desnutrição infantil no Brasil. Considerando dados anteriores,
+  a estimativa de crianças menores de um ano com desnutrição é de
+  \(6\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(97\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2656\)
+  \item
+    \(1994\)
+  \item
+    \(2922\)
+  \item
+    \(2523\)
+  \item
+    \(3187\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.01} \right)^2 \times 0.06 \times (1-0.06)=2655.82.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2656\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A OMS (Organização Mundial da Saúde) pretende realizar novo estudo
+  sobre a desnutrição infantil no Brasil. Considerando dados anteriores,
+  a estimativa de crianças menores de um ano com desnutrição é de
+  \(5.4\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(97\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.4\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1320\)
+  \item
+    \(1167\)
+  \item
+    \(922\)
+  \item
+    \(1412\)
+  \item
+    \(1228\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.014} \right)^2 \times 0.054 \times (1-0.054)=1227.29.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1228\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A OMS (Organização Mundial da Saúde) pretende realizar novo estudo
+  sobre a desnutrição infantil no Brasil. Considerando dados anteriores,
+  a estimativa de crianças menores de um ano com desnutrição é de
+  \(5.6\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(96\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.4\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1134\)
+  \item
+    \(827\)
+  \item
+    \(1162\)
+  \item
+    \(1191\)
+  \item
+    \(1077\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.014} \right)^2 \times 0.056 \times (1-0.056)=1133.47.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1134\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A OMS (Organização Mundial da Saúde) pretende realizar novo estudo
+  sobre a desnutrição infantil no Brasil. Considerando dados anteriores,
+  a estimativa de crianças menores de um ano com desnutrição é de
+  \(4.2\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(97\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2084\)
+  \item
+    \(1895\)
+  \item
+    \(1611\)
+  \item
+    \(1423\)
+  \item
+    \(2274\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.01} \right)^2 \times 0.042 \times (1-0.042)=1894.67.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1895\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A OMS (Organização Mundial da Saúde) pretende realizar novo estudo
+  sobre a desnutrição infantil no Brasil. Considerando dados anteriores,
+  a estimativa de crianças menores de um ano com desnutrição é de
+  \(4.2\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(99\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.4\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1162\)
+  \item
+    \(1115\)
+  \item
+    \(1367\)
+  \item
+    \(1436\)
+  \item
+    \(1504\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.014} \right)^2 \times 0.042 \times (1-0.042)=1366.46.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1367\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A OMS (Organização Mundial da Saúde) pretende realizar novo estudo
+  sobre a desnutrição infantil no Brasil. Considerando dados anteriores,
+  a estimativa de crianças menores de um ano com desnutrição é de
+  \(4.8\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(97\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.4\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(933\)
+  \item
+    \(1180\)
+  \item
+    \(825\)
+  \item
+    \(1098\)
+  \item
+    \(1263\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.014} \right)^2 \times 0.048 \times (1-0.048)=1097.85.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1098\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A OMS (Organização Mundial da Saúde) pretende realizar novo estudo
+  sobre a desnutrição infantil no Brasil. Considerando dados anteriores,
+  a estimativa de crianças menores de um ano com desnutrição é de
+  \(5.8\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(95\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.2\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1458\)
+  \item
+    \(1021\)
+  \item
+    \(1239\)
+  \item
+    \(1604\)
+  \item
+    \(1750\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.012} \right)^2 \times 0.058 \times (1-0.058)=1457.57.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1458\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A OMS (Organização Mundial da Saúde) pretende realizar novo estudo
+  sobre a desnutrição infantil no Brasil. Considerando dados anteriores,
+  a estimativa de crianças menores de um ano com desnutrição é de
+  \(4.6\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(97\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.4\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(897\)
+  \item
+    \(1055\)
+  \item
+    \(1266\)
+  \item
+    \(1160\)
+  \item
+    \(792\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.014} \right)^2 \times 0.046 \times (1-0.046)=1054.31.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=1055\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A OMS (Organização Mundial da Saúde) pretende realizar novo estudo
+  sobre a desnutrição infantil no Brasil. Considerando dados anteriores,
+  a estimativa de crianças menores de um ano com desnutrição é de
+  \(6.8\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(98\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3527\)
+  \item
+    \(3441\)
+  \item
+    \(3269\)
+  \item
+    \(3613\)
+  \item
+    \(2664\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.01} \right)^2 \times 0.068 \times (1-0.068)=3440.62.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=3441\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A OMS (Organização Mundial da Saúde) pretende realizar novo estudo
+  sobre a desnutrição infantil no Brasil. Considerando dados anteriores,
+  a estimativa de crianças menores de um ano com desnutrição é de
+  \(4.4\%\). Qual deve ser o tamanho mínimo da amostra para que, para o
+  intervalo de confiança de \(95\%\), a margem de erro da estimativa
+  seja de \emph{no máximo} \(1.4\) pontos percentuais? (Considerar a
+  aproximação indicada na equação disponível no conjunto de fórmulas
+  fornecidas para a prova e aproximar o quantil usando a tabela com 2
+  casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(866\)
+  \item
+    \(784\)
+  \item
+    \(846\)
+  \item
+    \(578\)
+  \item
+    \(825\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.014} \right)^2 \times 0.044 \times (1-0.044)=824.45.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=825\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

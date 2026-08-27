@@ -1,0 +1,582 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=(\gamma +1)x^{\gamma}\), \(0<x<1\) e parâmetro
+  \(\gamma>-1\). Considere
+  \[0.2 \ \ \ 0.5 \ \ \ 0.5 \ \ \ 0.1 \ \ \ 0.4\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.70\)
+  \item
+    \(0.43\)
+  \item
+    \(0.59\)
+  \item
+    \(1.70\)
+  \item
+    \(-0.20\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=(\gamma +1)^n \prod_{i=1}^{n} x_i^{\gamma}.
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\gamma)= n \ln(\gamma+1)+ \gamma \sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \gamma=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}-1.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\gamma\) é
+  \(-n/(\gamma+1)^2<0\), concluimos que o EMV de \(\gamma\) é
+  \[\begin{aligned}
+  \hat{\gamma}=\frac{-n}{\sum_{i=1}^{n}\ln(X_i)}-1.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.2, 0.5, 0.5, 0.1, 0.4)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\gamma}=-0.195\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=(\gamma +1)x^{\gamma}\), \(0<x<1\) e parâmetro
+  \(\gamma>-1\). Considere
+  \[0.3 \ \ \ 0.8 \ \ \ 0.4 \ \ \ 0.6 \ \ \ 0.8\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.62\)
+  \item
+    \(0.32\)
+  \item
+    \(0.59\)
+  \item
+    \(2.90\)
+  \item
+    \(0.34\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=(\gamma +1)^n \prod_{i=1}^{n} x_i^{\gamma}.
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\gamma)= n \ln(\gamma+1)+ \gamma \sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \gamma=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}-1.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\gamma\) é
+  \(-n/(\gamma+1)^2<0\), concluimos que o EMV de \(\gamma\) é
+  \[\begin{aligned}
+  \hat{\gamma}=\frac{-n}{\sum_{i=1}^{n}\ln(X_i)}-1.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.3, 0.8, 0.4, 0.6, 0.8)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\gamma}=0.625\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=(\gamma +1)x^{\gamma}\), \(0<x<1\) e parâmetro
+  \(\gamma>-1\). Considere
+  \[0.2 \ \ \ 0.4 \ \ \ 0.5 \ \ \ 0.1 \ \ \ 0.1\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.76\)
+  \item
+    \(0.77\)
+  \item
+    \(0.88\)
+  \item
+    \(1.30\)
+  \item
+    \(-0.36\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=(\gamma +1)^n \prod_{i=1}^{n} x_i^{\gamma}.
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\gamma)= n \ln(\gamma+1)+ \gamma \sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \gamma=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}-1.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\gamma\) é
+  \(-n/(\gamma+1)^2<0\), concluimos que o EMV de \(\gamma\) é
+  \[\begin{aligned}
+  \hat{\gamma}=\frac{-n}{\sum_{i=1}^{n}\ln(X_i)}-1.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.2, 0.4, 0.5, 0.1, 0.1)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\gamma}=-0.361\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=(\gamma +1)x^{\gamma}\), \(0<x<1\) e parâmetro
+  \(\gamma>-1\). Considere
+  \[0.4 \ \ \ 0.1 \ \ \ 0.2 \ \ \ 0.3 \ \ \ 0.6\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.24\)
+  \item
+    \(0.32\)
+  \item
+    \(0.98\)
+  \item
+    \(0.62\)
+  \item
+    \(1.60\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=(\gamma +1)^n \prod_{i=1}^{n} x_i^{\gamma}.
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\gamma)= n \ln(\gamma+1)+ \gamma \sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \gamma=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}-1.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\gamma\) é
+  \(-n/(\gamma+1)^2<0\), concluimos que o EMV de \(\gamma\) é
+  \[\begin{aligned}
+  \hat{\gamma}=\frac{-n}{\sum_{i=1}^{n}\ln(X_i)}-1.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.4, 0.1, 0.2, 0.3, 0.6)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\gamma}=-0.236\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=(\gamma +1)x^{\gamma}\), \(0<x<1\) e parâmetro
+  \(\gamma>-1\). Considere
+  \[0.8 \ \ \ 0.3 \ \ \ 0.2 \ \ \ 0.8 \ \ \ 0.9\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.49\)
+  \item
+    \(0.41\)
+  \item
+    \(0.57\)
+  \item
+    \(3.00\)
+  \item
+    \(0.33\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=(\gamma +1)^n \prod_{i=1}^{n} x_i^{\gamma}.
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\gamma)= n \ln(\gamma+1)+ \gamma \sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \gamma=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}-1.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\gamma\) é
+  \(-n/(\gamma+1)^2<0\), concluimos que o EMV de \(\gamma\) é
+  \[\begin{aligned}
+  \hat{\gamma}=\frac{-n}{\sum_{i=1}^{n}\ln(X_i)}-1.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.8, 0.3, 0.2, 0.8, 0.9)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\gamma}=0.486\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=(\gamma +1)x^{\gamma}\), \(0<x<1\) e parâmetro
+  \(\gamma>-1\). Considere
+  \[0.2 \ \ \ 0.5 \ \ \ 0.8 \ \ \ 0.4 \ \ \ 0.8\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.19\)
+  \item
+    \(0.36\)
+  \item
+    \(0.54\)
+  \item
+    \(0.37\)
+  \item
+    \(2.70\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=(\gamma +1)^n \prod_{i=1}^{n} x_i^{\gamma}.
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\gamma)= n \ln(\gamma+1)+ \gamma \sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \gamma=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}-1.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\gamma\) é
+  \(-n/(\gamma+1)^2<0\), concluimos que o EMV de \(\gamma\) é
+  \[\begin{aligned}
+  \hat{\gamma}=\frac{-n}{\sum_{i=1}^{n}\ln(X_i)}-1.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.2, 0.5, 0.8, 0.4, 0.8)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\gamma}=0.364\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=(\gamma +1)x^{\gamma}\), \(0<x<1\) e parâmetro
+  \(\gamma>-1\). Considere
+  \[0.4 \ \ \ 0.3 \ \ \ 0.4 \ \ \ 0.3 \ \ \ 0.5\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.66\)
+  \item
+    \(0.01\)
+  \item
+    \(0.53\)
+  \item
+    \(1.90\)
+  \item
+    \(0.18\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=(\gamma +1)^n \prod_{i=1}^{n} x_i^{\gamma}.
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\gamma)= n \ln(\gamma+1)+ \gamma \sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \gamma=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}-1.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\gamma\) é
+  \(-n/(\gamma+1)^2<0\), concluimos que o EMV de \(\gamma\) é
+  \[\begin{aligned}
+  \hat{\gamma}=\frac{-n}{\sum_{i=1}^{n}\ln(X_i)}-1.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.4, 0.3, 0.4, 0.3, 0.5)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\gamma}=0.013\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=(\gamma +1)x^{\gamma}\), \(0<x<1\) e parâmetro
+  \(\gamma>-1\). Considere
+  \[0.4 \ \ \ 0.9 \ \ \ 0.5 \ \ \ 0.8 \ \ \ 0.7\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3.30\)
+  \item
+    \(0.30\)
+  \item
+    \(0.84\)
+  \item
+    \(0.77\)
+  \item
+    \(1.18\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=(\gamma +1)^n \prod_{i=1}^{n} x_i^{\gamma}.
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\gamma)= n \ln(\gamma+1)+ \gamma \sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \gamma=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}-1.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\gamma\) é
+  \(-n/(\gamma+1)^2<0\), concluimos que o EMV de \(\gamma\) é
+  \[\begin{aligned}
+  \hat{\gamma}=\frac{-n}{\sum_{i=1}^{n}\ln(X_i)}-1.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.4, 0.9, 0.5, 0.8, 0.7)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\gamma}=1.179\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=(\gamma +1)x^{\gamma}\), \(0<x<1\) e parâmetro
+  \(\gamma>-1\). Considere
+  \[0.2 \ \ \ 0.5 \ \ \ 0.9 \ \ \ 0.4 \ \ \ 0.8\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2.80\)
+  \item
+    \(0.41\)
+  \item
+    \(0.36\)
+  \item
+    \(0.73\)
+  \item
+    \(0.25\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=(\gamma +1)^n \prod_{i=1}^{n} x_i^{\gamma}.
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\gamma)= n \ln(\gamma+1)+ \gamma \sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \gamma=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}-1.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\gamma\) é
+  \(-n/(\gamma+1)^2<0\), concluimos que o EMV de \(\gamma\) é
+  \[\begin{aligned}
+  \hat{\gamma}=\frac{-n}{\sum_{i=1}^{n}\ln(X_i)}-1.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.2, 0.5, 0.9, 0.4, 0.8)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\gamma}=0.409\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\gamma)=(\gamma +1)x^{\gamma}\), \(0<x<1\) e parâmetro
+  \(\gamma>-1\). Considere
+  \[0.5 \ \ \ 0.7 \ \ \ 0.5 \ \ \ 0.5 \ \ \ 0.5\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\gamma\) desta amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.60\)
+  \item
+    \(2.70\)
+  \item
+    \(0.13\)
+  \item
+    \(0.37\)
+  \item
+    \(0.76\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\gamma)=(\gamma +1)^n \prod_{i=1}^{n} x_i^{\gamma}.
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\gamma)= n \ln(\gamma+1)+ \gamma \sum_{i=1}^{n}\ln(x_i).
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \gamma=\frac{-n}{\sum_{i=1}^{n}\ln(x_i)}-1.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\gamma\) é
+  \(-n/(\gamma+1)^2<0\), concluimos que o EMV de \(\gamma\) é
+  \[\begin{aligned}
+  \hat{\gamma}=\frac{-n}{\sum_{i=1}^{n}\ln(X_i)}-1.
+  \end{aligned}\]
+
+  Tomando a amostra \((0.5, 0.7, 0.5, 0.5, 0.5)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\gamma}=0.598\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

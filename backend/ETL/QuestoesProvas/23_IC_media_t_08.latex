@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 17 estudantes de ensino médio apresentou
+  média amostral de \(5\) horas por dia na internet, com desvio padrão
+  amostral de \(0.93\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  tempo, em horas, que os estudantes passam na internet por dia, com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([4.616, 5.384]\)
+  \item
+    \([4.893, 5.107]\)
+  \item
+    \([4.884, 5.116]\)
+  \item
+    \([4.558, 5.442]\)
+  \item
+    \([4.522, 5.478]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[5-2.1199\times\frac{0.93}{\sqrt{17}} \ , \ 5+2.1199\times\frac{0.93}{\sqrt{17}}\right]\\
+  &=&\text{$[4.522, 5.478]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 19 estudantes de ensino médio apresentou
+  média amostral de \(4\) horas por dia na internet, com desvio padrão
+  amostral de \(0.66\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  tempo, em horas, que os estudantes passam na internet por dia, com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([3.927, 4.073]\)
+  \item
+    \([3.932, 4.068]\)
+  \item
+    \([3.682, 4.318]\)
+  \item
+    \([3.703, 4.297]\)
+  \item
+    \([3.694, 4.306]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[4-2.1009\times\frac{0.66}{\sqrt{19}} \ , \ 4+2.1009\times\frac{0.66}{\sqrt{19}}\right]\\
+  &=&\text{$[3.682, 4.318]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 23 estudantes de ensino médio apresentou
+  média amostral de \(4\) horas por dia na internet, com desvio padrão
+  amostral de \(0.52\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  tempo, em horas, que os estudantes passam na internet por dia, com
+  confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([3.808, 4.192]\)
+  \item
+    \([3.961, 4.039]\)
+  \item
+    \([3.963, 4.037]\)
+  \item
+    \([3.822, 4.178]\)
+  \item
+    \([3.814, 4.186]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[4-1.7171\times\frac{0.52}{\sqrt{23}} \ , \ 4+1.7171\times\frac{0.52}{\sqrt{23}}\right]\\
+  &=&\text{$[3.814, 4.186]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 23 estudantes de ensino médio apresentou
+  média amostral de \(4\) horas por dia na internet, com desvio padrão
+  amostral de \(0.66\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  tempo, em horas, que os estudantes passam na internet por dia, com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([3.715, 4.285]\)
+  \item
+    \([3.940, 4.060]\)
+  \item
+    \([3.944, 4.056]\)
+  \item
+    \([3.730, 4.270]\)
+  \item
+    \([3.722, 4.278]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[4-2.0739\times\frac{0.66}{\sqrt{23}} \ , \ 4+2.0739\times\frac{0.66}{\sqrt{23}}\right]\\
+  &=&\text{$[3.715, 4.285]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 25 estudantes de ensino médio apresentou
+  média amostral de \(5\) horas por dia na internet, com desvio padrão
+  amostral de \(0.98\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  tempo, em horas, que os estudantes passam na internet por dia, com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([4.675, 5.325]\)
+  \item
+    \([4.595, 5.405]\)
+  \item
+    \([4.923, 5.077]\)
+  \item
+    \([4.616, 5.384]\)
+  \item
+    \([4.919, 5.081]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[5-2.0639\times\frac{0.98}{\sqrt{25}} \ , \ 5+2.0639\times\frac{0.98}{\sqrt{25}}\right]\\
+  &=&\text{$[4.595, 5.405]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 22 estudantes de ensino médio apresentou
+  média amostral de \(4\) horas por dia na internet, com desvio padrão
+  amostral de \(0.68\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  tempo, em horas, que os estudantes passam na internet por dia, com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([3.716, 4.284]\)
+  \item
+    \([3.699, 4.301]\)
+  \item
+    \([3.712, 4.288]\)
+  \item
+    \([3.936, 4.064]\)
+  \item
+    \([3.939, 4.061]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[4-2.0796\times\frac{0.68}{\sqrt{22}} \ , \ 4+2.0796\times\frac{0.68}{\sqrt{22}}\right]\\
+  &=&\text{$[3.699, 4.301]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 20 estudantes de ensino médio apresentou
+  média amostral de \(4\) horas por dia na internet, com desvio padrão
+  amostral de \(0.61\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  tempo, em horas, que os estudantes passam na internet por dia, com
+  confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([3.921, 4.079]\)
+  \item
+    \([3.593, 4.407]\)
+  \item
+    \([3.913, 4.087]\)
+  \item
+    \([3.648, 4.352]\)
+  \item
+    \([3.610, 4.390]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[4-2.8609\times\frac{0.61}{\sqrt{20}} \ , \ 4+2.8609\times\frac{0.61}{\sqrt{20}}\right]\\
+  &=&\text{$[3.610, 4.390]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 23 estudantes de ensino médio apresentou
+  média amostral de \(4\) horas por dia na internet, com desvio padrão
+  amostral de \(0.94\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  tempo, em horas, que os estudantes passam na internet por dia, com
+  confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([3.679, 4.321]\)
+  \item
+    \([3.663, 4.337]\)
+  \item
+    \([3.741, 4.259]\)
+  \item
+    \([3.933, 4.067]\)
+  \item
+    \([3.930, 4.070]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[4-1.7171\times\frac{0.94}{\sqrt{23}} \ , \ 4+1.7171\times\frac{0.94}{\sqrt{23}}\right]\\
+  &=&\text{$[3.663, 4.337]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 16 estudantes de ensino médio apresentou
+  média amostral de \(5\) horas por dia na internet, com desvio padrão
+  amostral de \(0.56\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  tempo, em horas, que os estudantes passam na internet por dia, com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([4.693, 5.307]\)
+  \item
+    \([4.931, 5.069]\)
+  \item
+    \([4.726, 5.274]\)
+  \item
+    \([4.925, 5.075]\)
+  \item
+    \([4.702, 5.298]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[5-2.1314\times\frac{0.56}{\sqrt{16}} \ , \ 5+2.1314\times\frac{0.56}{\sqrt{16}}\right]\\
+  &=&\text{$[4.702, 5.298]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 21 estudantes de ensino médio apresentou
+  média amostral de \(5\) horas por dia na internet, com desvio padrão
+  amostral de \(0.91\). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para a quantidade média de
+  tempo, em horas, que os estudantes passam na internet por dia, com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([4.659, 5.341]\)
+  \item
+    \([4.586, 5.414]\)
+  \item
+    \([4.915, 5.085]\)
+  \item
+    \([4.611, 5.389]\)
+  \item
+    \([4.910, 5.090]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[5-2.086\times\frac{0.91}{\sqrt{21}} \ , \ 5+2.086\times\frac{0.91}{\sqrt{21}}\right]\\
+  &=&\text{$[4.586, 5.414]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

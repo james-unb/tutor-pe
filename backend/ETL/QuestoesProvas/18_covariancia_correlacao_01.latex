@@ -1,0 +1,892 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.11 & 0.1 \\
+  4 & 0.09 & 0.08 \\
+  5 & 0.11 & 0.51 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 4.41\), \(E\left(X^2\right) = 20.11\),
+  \(E(Y) = 1.69\) e \(E\left(Y^2\right) = 3.07\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.169\)
+  \item
+    \(0.662\)
+  \item
+    \(0.064\)
+  \item
+    \(0.338\)
+  \item
+    \(0.127\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.11 & 0.1 & 0.21 \\
+  4 & 0.09 & 0.08 & 0.17 \\
+  5 & 0.11 & 0.51 & 0.62 \\
+  P(Y=y) & 0.31 & 0.69 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 20.11-(4.41)^2 = 0.662\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 3.07-(1.69)^2 = 0.214
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.11 & 0.09 & 0.11 & 0.1 & 0.08 & 0.51 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.11+4\times0.09+5\times0.11+6\times0.1+8\times0.08+10\times0.51 = 7.58\]
+  e, portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.338\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.05 & 0.27 \\
+  4 & 0.01 & 0.08 \\
+  5 & 0.27 & 0.32 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 4.27\), \(E\left(X^2\right) = 19.07\),
+  \(E(Y) = 1.67\) e \(E\left(Y^2\right) = 3.01\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.304\)
+  \item
+    \(-0.066\)
+  \item
+    \(-0.152\)
+  \item
+    \(0.696\)
+  \item
+    \(-0.131\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.05 & 0.27 & 0.32 \\
+  4 & 0.01 & 0.08 & 0.09 \\
+  5 & 0.27 & 0.32 & 0.59 \\
+  P(Y=y) & 0.33 & 0.67 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 19.07-(4.27)^2 = 0.837\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 3.01-(1.67)^2 = 0.221
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.05 & 0.01 & 0.27 & 0.27 & 0.08 & 0.32 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.05+4\times0.01+5\times0.27+6\times0.27+8\times0.08+10\times0.32 = 7\]
+  e, portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = -0.304\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.08 & 0.12 \\
+  4 & 0.24 & 0.4 \\
+  5 & 0.04 & 0.12 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 3.96\), \(E\left(X^2\right) = 16.04\),
+  \(E(Y) = 1.64\) e \(E\left(Y^2\right) = 2.92\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.026\)
+  \item
+    \(0.045\)
+  \item
+    \(0.089\)
+  \item
+    \(0.911\)
+  \item
+    \(0.013\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.08 & 0.12 & 0.2 \\
+  4 & 0.24 & 0.4 & 0.64 \\
+  5 & 0.04 & 0.12 & 0.16 \\
+  P(Y=y) & 0.36 & 0.64 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 16.04-(3.96)^2 = 0.358\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.92-(1.64)^2 = 0.23
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.08 & 0.24 & 0.04 & 0.12 & 0.4 & 0.12 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.08+4\times0.24+5\times0.04+6\times0.12+8\times0.4+10\times0.12 = 6.52\]
+  e, portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.089\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.07 & 0.02 \\
+  4 & 0.17 & 0.21 \\
+  5 & 0.24 & 0.29 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 4.44\), \(E\left(X^2\right) = 20.14\),
+  \(E(Y) = 1.52\) e \(E\left(Y^2\right) = 2.56\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.041\)
+  \item
+    \(0.874\)
+  \item
+    \(0.063\)
+  \item
+    \(0.126\)
+  \item
+    \(0.021\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.07 & 0.02 & 0.09 \\
+  4 & 0.17 & 0.21 & 0.38 \\
+  5 & 0.24 & 0.29 & 0.53 \\
+  P(Y=y) & 0.48 & 0.52 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 20.14-(4.44)^2 = 0.426\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.56-(1.52)^2 = 0.25
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.07 & 0.17 & 0.24 & 0.02 & 0.21 & 0.29 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.07+4\times0.17+5\times0.24+6\times0.02+8\times0.21+10\times0.29 = 6.79\]
+  e, portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.126\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.37 & 0.26 \\
+  4 & 0.09 & 0.24 \\
+  5 & 0.02 & 0.02 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 3.41\), \(E\left(X^2\right) = 11.95\),
+  \(E(Y) = 1.52\) e \(E\left(Y^2\right) = 2.56\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.765\)
+  \item
+    \(0.118\)
+  \item
+    \(0.034\)
+  \item
+    \(0.067\)
+  \item
+    \(0.235\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.37 & 0.26 & 0.63 \\
+  4 & 0.09 & 0.24 & 0.33 \\
+  5 & 0.02 & 0.02 & 0.04 \\
+  P(Y=y) & 0.48 & 0.52 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 11.95-(3.41)^2 = 0.322\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.56-(1.52)^2 = 0.25
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.37 & 0.09 & 0.02 & 0.26 & 0.24 & 0.02 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.37+4\times0.09+5\times0.02+6\times0.26+8\times0.24+10\times0.02 = 5.25\]
+  e, portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.235\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.14 & 0.04 \\
+  4 & 0.03 & 0.59 \\
+  5 & 0.16 & 0.04 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 4.02\), \(E\left(X^2\right) = 16.54\),
+  \(E(Y) = 1.67\) e \(E\left(Y^2\right) = 3.01\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.954\)
+  \item
+    \(-0.046\)
+  \item
+    \(-0.007\)
+  \item
+    \(-0.013\)
+  \item
+    \(-0.023\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.14 & 0.04 & 0.18 \\
+  4 & 0.03 & 0.59 & 0.62 \\
+  5 & 0.16 & 0.04 & 0.2 \\
+  P(Y=y) & 0.33 & 0.67 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 16.54-(4.02)^2 = 0.38\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 3.01-(1.67)^2 = 0.221
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.14 & 0.03 & 0.16 & 0.04 & 0.59 & 0.04 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.14+4\times0.03+5\times0.16+6\times0.04+8\times0.59+10\times0.04 = 6.7\]
+  e, portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = -0.046\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.18 & 0.29 \\
+  4 & 0.08 & 0.18 \\
+  5 & 0.09 & 0.18 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 3.8\), \(E\left(X^2\right) = 15.14\),
+  \(E(Y) = 1.65\) e \(E\left(Y^2\right) = 2.95\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.020\)
+  \item
+    \(0.025\)
+  \item
+    \(0.010\)
+  \item
+    \(0.950\)
+  \item
+    \(0.050\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.18 & 0.29 & 0.47 \\
+  4 & 0.08 & 0.18 & 0.26 \\
+  5 & 0.09 & 0.18 & 0.27 \\
+  P(Y=y) & 0.35 & 0.65 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 15.14-(3.8)^2 = 0.7\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.95-(1.65)^2 = 0.228
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.18 & 0.08 & 0.09 & 0.29 & 0.18 & 0.18 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.18+4\times0.08+5\times0.09+6\times0.29+8\times0.18+10\times0.18 = 6.29\]
+  e, portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.05\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.07 & 0.05 \\
+  4 & 0.01 & 0.05 \\
+  5 & 0.39 & 0.43 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 4.7\), \(E\left(X^2\right) = 22.54\),
+  \(E(Y) = 1.53\) e \(E\left(Y^2\right) = 2.59\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.009\)
+  \item
+    \(0.027\)
+  \item
+    \(0.005\)
+  \item
+    \(0.014\)
+  \item
+    \(0.973\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.07 & 0.05 & 0.12 \\
+  4 & 0.01 & 0.05 & 0.06 \\
+  5 & 0.39 & 0.43 & 0.82 \\
+  P(Y=y) & 0.47 & 0.53 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 22.54-(4.7)^2 = 0.45\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.59-(1.53)^2 = 0.249
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.07 & 0.01 & 0.39 & 0.05 & 0.05 & 0.43 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.07+4\times0.01+5\times0.39+6\times0.05+8\times0.05+10\times0.43 = 7.2\]
+  e, portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.027\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.12 & 0.2 \\
+  4 & 0.18 & 0.22 \\
+  5 & 0.06 & 0.22 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 3.96\), \(E\left(X^2\right) = 16.28\),
+  \(E(Y) = 1.64\) e \(E\left(Y^2\right) = 2.92\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.062\)
+  \item
+    \(0.046\)
+  \item
+    \(0.877\)
+  \item
+    \(0.123\)
+  \item
+    \(0.023\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.12 & 0.2 & 0.32 \\
+  4 & 0.18 & 0.22 & 0.4 \\
+  5 & 0.06 & 0.22 & 0.28 \\
+  P(Y=y) & 0.36 & 0.64 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 16.28-(3.96)^2 = 0.598\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.92-(1.64)^2 = 0.23
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.12 & 0.18 & 0.06 & 0.2 & 0.22 & 0.22 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.12+4\times0.18+5\times0.06+6\times0.2+8\times0.22+10\times0.22 = 6.54\]
+  e, portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.123\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que Bárbara \emph{``zera"}, no máximo, dois jogos de videogame
+  \emph{PS4} em um semestre. Seja \(X\) o número de disciplinas cursadas
+  no semestre e \(Y\) o número de jogos zerados. A distribuição de
+  probabilidades conjunta de \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  X \textbackslash Y & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.05 & 0.08 \\
+  4 & 0.39 & 0.26 \\
+  5 & 0.04 & 0.18 \\
+  \end{longtable}
+
+  Sabendo que \(E(X) = 4.09\), \(E\left(X^2\right) = 17.07\),
+  \(E(Y) = 1.52\) e \(E\left(Y^2\right) = 2.56\), assinale a alternativa
+  correspondente à correlação linear entre as variáveis \(X\) e \(Y\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.091\)
+  \item
+    \(0.053\)
+  \item
+    \(0.182\)
+  \item
+    \(0.818\)
+  \item
+    \(0.027\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  3 & 0.05 & 0.08 & 0.13 \\
+  4 & 0.39 & 0.26 & 0.65 \\
+  5 & 0.04 & 0.18 & 0.22 \\
+  P(Y=y) & 0.48 & 0.52 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  \text{Var}(X) &=& E\left(X^2\right)-[E(X)]^2 = 17.07-(4.09)^2 = 0.342\\
+  \text{Var}(Y) &=& E\left(Y^2\right)-[E(Y)]^2 = 2.56-(1.52)^2 = 0.25
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  k & 3 & 4 & 5 & 6 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.05 & 0.39 & 0.04 & 0.08 & 0.26 & 0.18 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 3\times0.05+4\times0.39+5\times0.04+6\times0.08+8\times0.26+10\times0.18 = 6.27\]
+  e, portanto,
+  \[\text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = \frac{E(XY)-E(X)E(Y)}{\sqrt{\text{Var}(X)}\sqrt{\text{Var}(Y)}} = 0.182\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

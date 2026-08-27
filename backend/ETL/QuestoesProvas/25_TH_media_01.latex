@@ -1,0 +1,552 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina deve produzir peças com diâmetro médio de \(24\) cm.
+  Entretanto, variações acontecem e pode-se assumir que o diâmetro
+  dessas peças apresentam variância igual a \(10\) cm\(^2\). Para testar
+  se a máquina está bem regulada, \(35\) peças foram observadas,
+  fornecendo uma média amostral de \(24.69\). O técnico então considera
+  um teste para verificar se a máquina produz peças com diâmetro médio
+  maior que a especificação. As hipóteses do teste e a conclusão a um
+  nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=24.69\; \emph{vs. }  H_a: \bar{x}>24.69\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=24\; \emph{vs. }  H_a: \mu \neq 24\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq24\; \emph{vs. }  H_a: \mu>24\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq24\; \emph{vs. }  H_a: \mu>24\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \bar{x}=24\; \emph{vs. }  H_a: \bar{x}=24.69\). \(H_0\) não é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 24\) \emph{vs.} \(H_a: \mu > 24\). Além disso, sabe-se
+  que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=24)=P\left(Z>\frac{c-24}{\sqrt{10/35}}\right)=0.05\).
+
+  Portanto, \(\frac{c-24}{\sqrt{10/35}}=1.64 \Rightarrow c=24.88\).
+
+  Daí, como \(\bar{x} =\) \(24.69 < 24.88\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina deve produzir peças com diâmetro médio de \(23\) cm.
+  Entretanto, variações acontecem e pode-se assumir que o diâmetro
+  dessas peças apresentam variância igual a \(10\) cm\(^2\). Para testar
+  se a máquina está bem regulada, \(30\) peças foram observadas,
+  fornecendo uma média amostral de \(24.22\). O técnico então considera
+  um teste para verificar se a máquina produz peças com diâmetro médio
+  maior que a especificação. As hipóteses do teste e a conclusão a um
+  nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq23\; \emph{vs. }  H_a: \mu>23\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=23\; \emph{vs. }  H_a: \mu \neq 23\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=23\; \emph{vs. }  H_a: \bar{x}=24.22\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq23\; \emph{vs. }  H_a: \mu>23\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \bar{x}=24.22\; \emph{vs. }  H_a: \bar{x}>24.22\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 23\) \emph{vs.} \(H_a: \mu > 23\). Além disso, sabe-se
+  que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=23)=P\left(Z>\frac{c-23}{\sqrt{10/30}}\right)=0.05\).
+
+  Portanto, \(\frac{c-23}{\sqrt{10/30}}=1.64 \Rightarrow c=23.95\).
+
+  Daí, como \(\bar{x} =\) \(24.22 > 23.95\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina deve produzir peças com diâmetro médio de \(25\) cm.
+  Entretanto, variações acontecem e pode-se assumir que o diâmetro
+  dessas peças apresentam variância igual a \(10\) cm\(^2\). Para testar
+  se a máquina está bem regulada, \(32\) peças foram observadas,
+  fornecendo uma média amostral de \(26.21\). O técnico então considera
+  um teste para verificar se a máquina produz peças com diâmetro médio
+  maior que a especificação. As hipóteses do teste e a conclusão a um
+  nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq25\; \emph{vs. }  H_a: \mu>25\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq25\; \emph{vs. }  H_a: \mu>25\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \bar{x}=26.21\; \emph{vs. }  H_a: \bar{x}>26.21\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=25\; \emph{vs. }  H_a: \mu \neq 25\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=25\; \emph{vs. }  H_a: \bar{x}=26.21\). \(H_0\) não é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 25\) \emph{vs.} \(H_a: \mu > 25\). Além disso, sabe-se
+  que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=25)=P\left(Z>\frac{c-25}{\sqrt{10/32}}\right)=0.05\).
+
+  Portanto, \(\frac{c-25}{\sqrt{10/32}}=1.64 \Rightarrow c=25.92\).
+
+  Daí, como \(\bar{x} =\) \(26.21 > 25.92\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina deve produzir peças com diâmetro médio de \(23\) cm.
+  Entretanto, variações acontecem e pode-se assumir que o diâmetro
+  dessas peças apresentam variância igual a \(10\) cm\(^2\). Para testar
+  se a máquina está bem regulada, \(33\) peças foram observadas,
+  fornecendo uma média amostral de \(23.71\). O técnico então considera
+  um teste para verificar se a máquina produz peças com diâmetro médio
+  maior que a especificação. As hipóteses do teste e a conclusão a um
+  nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq23\; \emph{vs. }  H_a: \mu>23\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=23\; \emph{vs. }  H_a: \bar{x}=23.71\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=23\; \emph{vs. }  H_a: \mu \neq 23\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=23.71\; \emph{vs. }  H_a: \bar{x}>23.71\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq23\; \emph{vs. }  H_a: \mu>23\). \(H_0\) é rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 23\) \emph{vs.} \(H_a: \mu > 23\). Além disso, sabe-se
+  que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=23)=P\left(Z>\frac{c-23}{\sqrt{10/33}}\right)=0.05\).
+
+  Portanto, \(\frac{c-23}{\sqrt{10/33}}=1.64 \Rightarrow c=23.9\).
+
+  Daí, como \(\bar{x} =\) \(23.71 < 23.9\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina deve produzir peças com diâmetro médio de \(21\) cm.
+  Entretanto, variações acontecem e pode-se assumir que o diâmetro
+  dessas peças apresentam variância igual a \(5\) cm\(^2\). Para testar
+  se a máquina está bem regulada, \(50\) peças foram observadas,
+  fornecendo uma média amostral de \(21.42\). O técnico então considera
+  um teste para verificar se a máquina produz peças com diâmetro médio
+  maior que a especificação. As hipóteses do teste e a conclusão a um
+  nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq21\; \emph{vs. }  H_a: \mu>21\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=21.42\; \emph{vs. }  H_a: \bar{x}>21.42\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq21\; \emph{vs. }  H_a: \mu>21\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \bar{x}=21\; \emph{vs. }  H_a: \bar{x}=21.42\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=21\; \emph{vs. }  H_a: \mu \neq 21\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 21\) \emph{vs.} \(H_a: \mu > 21\). Além disso, sabe-se
+  que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=21)=P\left(Z>\frac{c-21}{\sqrt{5/50}}\right)=0.05\).
+
+  Portanto, \(\frac{c-21}{\sqrt{5/50}}=1.64 \Rightarrow c=21.52\).
+
+  Daí, como \(\bar{x} =\) \(21.42 < 21.52\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina deve produzir peças com diâmetro médio de \(20\) cm.
+  Entretanto, variações acontecem e pode-se assumir que o diâmetro
+  dessas peças apresentam variância igual a \(10\) cm\(^2\). Para testar
+  se a máquina está bem regulada, \(41\) peças foram observadas,
+  fornecendo uma média amostral de \(21.02\). O técnico então considera
+  um teste para verificar se a máquina produz peças com diâmetro médio
+  maior que a especificação. As hipóteses do teste e a conclusão a um
+  nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=20\; \emph{vs. }  H_a: \mu \neq 20\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq20\; \emph{vs. }  H_a: \mu>20\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \bar{x}=21.02\; \emph{vs. }  H_a: \bar{x}>21.02\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq20\; \emph{vs. }  H_a: \mu>20\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=20\; \emph{vs. }  H_a: \bar{x}=21.02\). \(H_0\) não é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 20\) \emph{vs.} \(H_a: \mu > 20\). Além disso, sabe-se
+  que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=20)=P\left(Z>\frac{c-20}{\sqrt{10/41}}\right)=0.05\).
+
+  Portanto, \(\frac{c-20}{\sqrt{10/41}}=1.64 \Rightarrow c=20.81\).
+
+  Daí, como \(\bar{x} =\) \(21.02 > 20.81\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina deve produzir peças com diâmetro médio de \(22\) cm.
+  Entretanto, variações acontecem e pode-se assumir que o diâmetro
+  dessas peças apresentam variância igual a \(5\) cm\(^2\). Para testar
+  se a máquina está bem regulada, \(41\) peças foram observadas,
+  fornecendo uma média amostral de \(22.73\). O técnico então considera
+  um teste para verificar se a máquina produz peças com diâmetro médio
+  maior que a especificação. As hipóteses do teste e a conclusão a um
+  nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=22\; \emph{vs. }  H_a: \bar{x}=22.73\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=22\; \emph{vs. }  H_a: \mu \neq 22\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq22\; \emph{vs. }  H_a: \mu>22\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \mu \leq22\; \emph{vs. }  H_a: \mu>22\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=22.73\; \emph{vs. }  H_a: \bar{x}>22.73\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 22\) \emph{vs.} \(H_a: \mu > 22\). Além disso, sabe-se
+  que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=22)=P\left(Z>\frac{c-22}{\sqrt{5/41}}\right)=0.05\).
+
+  Portanto, \(\frac{c-22}{\sqrt{5/41}}=1.64 \Rightarrow c=22.57\).
+
+  Daí, como \(\bar{x} =\) \(22.73 > 22.57\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina deve produzir peças com diâmetro médio de \(20\) cm.
+  Entretanto, variações acontecem e pode-se assumir que o diâmetro
+  dessas peças apresentam variância igual a \(5\) cm\(^2\). Para testar
+  se a máquina está bem regulada, \(38\) peças foram observadas,
+  fornecendo uma média amostral de \(20.47\). O técnico então considera
+  um teste para verificar se a máquina produz peças com diâmetro médio
+  maior que a especificação. As hipóteses do teste e a conclusão a um
+  nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq20\; \emph{vs. }  H_a: \mu>20\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq20\; \emph{vs. }  H_a: \mu>20\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \bar{x}=20.47\; \emph{vs. }  H_a: \bar{x}>20.47\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=20\; \emph{vs. }  H_a: \bar{x}=20.47\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=20\; \emph{vs. }  H_a: \mu \neq 20\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 20\) \emph{vs.} \(H_a: \mu > 20\). Além disso, sabe-se
+  que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=20)=P\left(Z>\frac{c-20}{\sqrt{5/38}}\right)=0.05\).
+
+  Portanto, \(\frac{c-20}{\sqrt{5/38}}=1.64 \Rightarrow c=20.59\).
+
+  Daí, como \(\bar{x} =\) \(20.47 < 20.59\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina deve produzir peças com diâmetro médio de \(24\) cm.
+  Entretanto, variações acontecem e pode-se assumir que o diâmetro
+  dessas peças apresentam variância igual a \(5\) cm\(^2\). Para testar
+  se a máquina está bem regulada, \(33\) peças foram observadas,
+  fornecendo uma média amostral de \(24.88\). O técnico então considera
+  um teste para verificar se a máquina produz peças com diâmetro médio
+  maior que a especificação. As hipóteses do teste e a conclusão a um
+  nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq24\; \emph{vs. }  H_a: \mu>24\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \bar{x}=24\; \emph{vs. }  H_a: \bar{x}=24.88\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=24.88\; \emph{vs. }  H_a: \bar{x}>24.88\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq24\; \emph{vs. }  H_a: \mu>24\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=24\; \emph{vs. }  H_a: \mu \neq 24\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 24\) \emph{vs.} \(H_a: \mu > 24\). Além disso, sabe-se
+  que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=24)=P\left(Z>\frac{c-24}{\sqrt{5/33}}\right)=0.05\).
+
+  Portanto, \(\frac{c-24}{\sqrt{5/33}}=1.64 \Rightarrow c=24.64\).
+
+  Daí, como \(\bar{x} =\) \(24.88 > 24.64\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina deve produzir peças com diâmetro médio de \(22\) cm.
+  Entretanto, variações acontecem e pode-se assumir que o diâmetro
+  dessas peças apresentam variância igual a \(5\) cm\(^2\). Para testar
+  se a máquina está bem regulada, \(43\) peças foram observadas,
+  fornecendo uma média amostral de \(22.44\). O técnico então considera
+  um teste para verificar se a máquina produz peças com diâmetro médio
+  maior que a especificação. As hipóteses do teste e a conclusão a um
+  nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq22\; \emph{vs. }  H_a: \mu>22\). \(H_0\) é rejeitada.
+  \item
+    \(H_0: \mu \leq22\; \emph{vs. }  H_a: \mu>22\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=22\; \emph{vs. }  H_a: \bar{x}=22.44\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=22\; \emph{vs. }  H_a: \mu \neq 22\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=22.44\; \emph{vs. }  H_a: \bar{x}>22.44\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 22\) \emph{vs.} \(H_a: \mu > 22\). Além disso, sabe-se
+  que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=22)=P\left(Z>\frac{c-22}{\sqrt{5/43}}\right)=0.05\).
+
+  Portanto, \(\frac{c-22}{\sqrt{5/43}}=1.64 \Rightarrow c=22.56\).
+
+  Daí, como \(\bar{x} =\) \(22.44 < 22.56\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

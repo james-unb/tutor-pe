@@ -1,0 +1,392 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a duração (em horas) de certa válvula seja uma variável
+  aleatória \(X\) com função densidade \(f(x) = 648 x^{-4}\) para
+  \(x>6\), e zero caso contrário. Qual é o tempo de vida esperado (em
+  horas) dessa válvula?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.0\)
+  \item
+    \(9.0\)
+  \item
+    \(72.0\)
+  \item
+    \(156.0\)
+  \item
+    \(108.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pela definição de Esperança matemática, \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = 648 \int_{6}^{\infty}x^{-3} dx = 9 \text{horas}. \\
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a duração (em horas) de certa válvula seja uma variável
+  aleatória \(X\) com função densidade \(f(x) = 1536 x^{-4}\) para
+  \(x>8\), e zero caso contrário. Qual é o tempo de vida esperado (em
+  horas) dessa válvula?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(398.5\)
+  \item
+    \(128.0\)
+  \item
+    \(1.0\)
+  \item
+    \(192.0\)
+  \item
+    \(12.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pela definição de Esperança matemática, \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = 1536 \int_{8}^{\infty}x^{-3} dx = 12 \text{horas}. \\
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a duração (em horas) de certa válvula seja uma variável
+  aleatória \(X\) com função densidade \(f(x) = 1029 x^{-4}\) para
+  \(x>7\), e zero caso contrário. Qual é o tempo de vida esperado (em
+  horas) dessa válvula?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(408.5\)
+  \item
+    \(147.0\)
+  \item
+    \(1.0\)
+  \item
+    \(98.0\)
+  \item
+    \(10.5\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pela definição de Esperança matemática, \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = 1029 \int_{7}^{\infty}x^{-3} dx = 10.5 \text{horas}. \\
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a duração (em horas) de certa válvula seja uma variável
+  aleatória \(X\) com função densidade \(f(x) = 81 x^{-4}\) para
+  \(x>3\), e zero caso contrário. Qual é o tempo de vida esperado (em
+  horas) dessa válvula?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(37.0\)
+  \item
+    \(18.0\)
+  \item
+    \(1.0\)
+  \item
+    \(27.0\)
+  \item
+    \(4.5\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pela definição de Esperança matemática, \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = 81 \int_{3}^{\infty}x^{-3} dx = 4.5 \text{horas}. \\
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a duração (em horas) de certa válvula seja uma variável
+  aleatória \(X\) com função densidade \(f(x) = 375 x^{-4}\) para
+  \(x>5\), e zero caso contrário. Qual é o tempo de vida esperado (em
+  horas) dessa válvula?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.0\)
+  \item
+    \(50.0\)
+  \item
+    \(75.0\)
+  \item
+    \(14.0\)
+  \item
+    \(7.5\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pela definição de Esperança matemática, \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = 375 \int_{5}^{\infty}x^{-3} dx = 7.5 \text{horas}. \\
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a duração (em horas) de certa válvula seja uma variável
+  aleatória \(X\) com função densidade \(f(x) = 81 x^{-4}\) para
+  \(x>3\), e zero caso contrário. Qual é o tempo de vida esperado (em
+  horas) dessa válvula?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4.5\)
+  \item
+    \(27.0\)
+  \item
+    \(18.0\)
+  \item
+    \(10.0\)
+  \item
+    \(1.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pela definição de Esperança matemática, \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = 81 \int_{3}^{\infty}x^{-3} dx = 4.5 \text{horas}. \\
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a duração (em horas) de certa válvula seja uma variável
+  aleatória \(X\) com função densidade \(f(x) = 375 x^{-4}\) para
+  \(x>5\), e zero caso contrário. Qual é o tempo de vida esperado (em
+  horas) dessa válvula?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.0\)
+  \item
+    \(50.0\)
+  \item
+    \(75.0\)
+  \item
+    \(7.5\)
+  \item
+    \(98.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pela definição de Esperança matemática, \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = 375 \int_{5}^{\infty}x^{-3} dx = 7.5 \text{horas}. \\
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a duração (em horas) de certa válvula seja uma variável
+  aleatória \(X\) com função densidade \(f(x) = 1536 x^{-4}\) para
+  \(x>8\), e zero caso contrário. Qual é o tempo de vida esperado (em
+  horas) dessa válvula?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(192.0\)
+  \item
+    \(1.0\)
+  \item
+    \(128.0\)
+  \item
+    \(689.5\)
+  \item
+    \(12.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pela definição de Esperança matemática, \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = 1536 \int_{8}^{\infty}x^{-3} dx = 12 \text{horas}. \\
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a duração (em horas) de certa válvula seja uma variável
+  aleatória \(X\) com função densidade \(f(x) = 192 x^{-4}\) para
+  \(x>4\), e zero caso contrário. Qual é o tempo de vida esperado (em
+  horas) dessa válvula?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(32.0\)
+  \item
+    \(48.0\)
+  \item
+    \(89.0\)
+  \item
+    \(1.0\)
+  \item
+    \(6.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pela definição de Esperança matemática, \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = 192 \int_{4}^{\infty}x^{-3} dx = 6 \text{horas}. \\
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a duração (em horas) de certa válvula seja uma variável
+  aleatória \(X\) com função densidade \(f(x) = 1536 x^{-4}\) para
+  \(x>8\), e zero caso contrário. Qual é o tempo de vida esperado (em
+  horas) dessa válvula?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(192.0\)
+  \item
+    \(302.5\)
+  \item
+    \(128.0\)
+  \item
+    \(12.0\)
+  \item
+    \(1.0\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pela definição de Esperança matemática, \[\begin{aligned}
+  E(X) &= \int_{-\infty}^{\infty} x f(x) dx = 1536 \int_{8}^{\infty}x^{-3} dx = 12 \text{horas}. \\
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

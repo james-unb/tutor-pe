@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Para que a comercialização de um novo medicamento seja autorizada, é
+  necessário um longo período de testes para se verificar possíveis
+  contraindicações. Considerando estudos anteriores, um laboratório
+  farmacêutico estima que \(43.2\%\) dos pacientes com hipertensão
+  apresentam algum efeito colateral a sua nova droga. Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(97\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(1.6\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4063\)
+  \item
+    \(4627\)
+  \item
+    \(4740\)
+  \item
+    \(4514\)
+  \item
+    \(3388\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.016} \right)^2 \times 0.432 \times (1-0.432)=4513.48.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=4514\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para que a comercialização de um novo medicamento seja autorizada, é
+  necessário um longo período de testes para se verificar possíveis
+  contraindicações. Considerando estudos anteriores, um laboratório
+  farmacêutico estima que \(35.6\%\) dos pacientes com hipertensão
+  apresentam algum efeito colateral a sua nova droga. Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(99\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(1.6\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5962\)
+  \item
+    \(4770\)
+  \item
+    \(6856\)
+  \item
+    \(4862\)
+  \item
+    \(6409\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left(\frac{2.58}{0.016} \right)^2 \times 0.356 \times (1-0.356)=5961.22.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=5962\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para que a comercialização de um novo medicamento seja autorizada, é
+  necessário um longo período de testes para se verificar possíveis
+  contraindicações. Considerando estudos anteriores, um laboratório
+  farmacêutico estima que \(40.2\%\) dos pacientes com hipertensão
+  apresentam algum efeito colateral a sua nova droga. Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(97\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(1.2\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5901\)
+  \item
+    \(7862\)
+  \item
+    \(6290\)
+  \item
+    \(8255\)
+  \item
+    \(8648\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.012} \right)^2 \times 0.402 \times (1-0.402)=7861.12.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=7862\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para que a comercialização de um novo medicamento seja autorizada, é
+  necessário um longo período de testes para se verificar possíveis
+  contraindicações. Considerando estudos anteriores, um laboratório
+  farmacêutico estima que \(45.2\%\) dos pacientes com hipertensão
+  apresentam algum efeito colateral a sua nova droga. Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(97\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(1.2\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8708\)
+  \item
+    \(7695\)
+  \item
+    \(6080\)
+  \item
+    \(8100\)
+  \item
+    \(9315\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(97\%\), então \(z=2.17\). Então,
+  \[n \geq \left(\frac{2.17}{0.012} \right)^2 \times 0.452 \times (1-0.452)=8099.83.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=8100\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para que a comercialização de um novo medicamento seja autorizada, é
+  necessário um longo período de testes para se verificar possíveis
+  contraindicações. Considerando estudos anteriores, um laboratório
+  farmacêutico estima que \(45.2\%\) dos pacientes com hipertensão
+  apresentam algum efeito colateral a sua nova droga. Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(98\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(1.4\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8233\)
+  \item
+    \(7547\)
+  \item
+    \(6861\)
+  \item
+    \(6518\)
+  \item
+    \(5311\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.014} \right)^2 \times 0.452 \times (1-0.452)=6860.8.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=6861\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para que a comercialização de um novo medicamento seja autorizada, é
+  necessário um longo período de testes para se verificar possíveis
+  contraindicações. Considerando estudos anteriores, um laboratório
+  farmacêutico estima que \(48\%\) dos pacientes com hipertensão
+  apresentam algum efeito colateral a sua nova droga. Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(98\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(1.8\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5020\)
+  \item
+    \(3765\)
+  \item
+    \(4183\)
+  \item
+    \(3238\)
+  \item
+    \(4602\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.018} \right)^2 \times 0.48 \times (1-0.48)=4182.26.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=4183\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para que a comercialização de um novo medicamento seja autorizada, é
+  necessário um longo período de testes para se verificar possíveis
+  contraindicações. Considerando estudos anteriores, um laboratório
+  farmacêutico estima que \(44\%\) dos pacientes com hipertensão
+  apresentam algum efeito colateral a sua nova droga. Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(98\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(1.8\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3716\)
+  \item
+    \(4336\)
+  \item
+    \(4129\)
+  \item
+    \(4542\)
+  \item
+    \(3196\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(98\%\), então \(z=2.33\). Então,
+  \[n \geq \left(\frac{2.33}{0.018} \right)^2 \times 0.44 \times (1-0.44)=4128.64.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=4129\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para que a comercialização de um novo medicamento seja autorizada, é
+  necessário um longo período de testes para se verificar possíveis
+  contraindicações. Considerando estudos anteriores, um laboratório
+  farmacêutico estima que \(46.4\%\) dos pacientes com hipertensão
+  apresentam algum efeito colateral a sua nova droga. Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(96\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(1.6\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(4695\)
+  \item
+    \(2976\)
+  \item
+    \(3471\)
+  \item
+    \(4083\)
+  \item
+    \(4389\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.016} \right)^2 \times 0.464 \times (1-0.464)=4082.73.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=4083\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para que a comercialização de um novo medicamento seja autorizada, é
+  necessário um longo período de testes para se verificar possíveis
+  contraindicações. Considerando estudos anteriores, um laboratório
+  farmacêutico estima que \(33.8\%\) dos pacientes com hipertensão
+  apresentam algum efeito colateral a sua nova droga. Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(95\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(1.2\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5970\)
+  \item
+    \(5074\)
+  \item
+    \(6418\)
+  \item
+    \(6865\)
+  \item
+    \(4180\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left(\frac{1.96}{0.012} \right)^2 \times 0.338 \times (1-0.338)=5969.31.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=5970\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para que a comercialização de um novo medicamento seja autorizada, é
+  necessário um longo período de testes para se verificar possíveis
+  contraindicações. Considerando estudos anteriores, um laboratório
+  farmacêutico estima que \(41.4\%\) dos pacientes com hipertensão
+  apresentam algum efeito colateral a sua nova droga. Qual deve ser o
+  tamanho mínimo da amostra para que, para o intervalo de confiança de
+  \(96\%\), a margem de erro da estimativa seja de \emph{no máximo}
+  \(2\) pontos percentuais? (Considerar a aproximação indicada na
+  equação disponível no conjunto de fórmulas fornecidas para a prova e
+  aproximar o quantil usando a tabela com 2 casas decimais.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(2549\)
+  \item
+    \(2804\)
+  \item
+    \(1858\)
+  \item
+    \(3059\)
+  \item
+    \(2422\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z}{\varepsilon} \right)^2 \times \tilde{p} \times (1-\tilde{p})\]
+
+  Considerando nível de confiança de \(96\%\), então \(z=2.05\). Então,
+  \[n \geq \left(\frac{2.05}{0.02} \right)^2 \times 0.414 \times (1-0.414)=2548.86.\]
+  Portanto, o tamanho mínimo da amostra deve ser \(n=2549\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

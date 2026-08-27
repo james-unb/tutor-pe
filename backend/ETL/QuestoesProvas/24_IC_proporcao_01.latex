@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(584\) crianças revelou que \(22\)\% delas
+  preferem a marca A de marshmallows. Com base nas informações, assinale
+  a alternativa correspondente ao intervalo de confiança para a
+  proporção das crianças que prefere a marca A com confiança de
+  \(80\)\%. (Utilize a fórmula disponível no conjunto de equações
+  fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.187, 0.253]\)
+  \item
+    \([0.198, 0.242]\)
+  \item
+    \([0.209, 0.231]\)
+  \item
+    \([0.220, 0.220]\)
+  \item
+    \([0.205, 0.235]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.22-1.28\times\sqrt{\frac{0.1716}{584}} \ , \ 0.22+1.28\times\sqrt{\frac{0.1716}{584}}\right]\\
+  &=&\text{$[0.198, 0.242]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(626\) crianças revelou que \(73\)\% delas
+  preferem a marca A de marshmallows. Com base nas informações, assinale
+  a alternativa correspondente ao intervalo de confiança para a
+  proporção das crianças que prefere a marca A com confiança de
+  \(95\)\%. (Utilize a fórmula disponível no conjunto de equações
+  fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.713, 0.747]\)
+  \item
+    \([0.729, 0.731]\)
+  \item
+    \([0.678, 0.782]\)
+  \item
+    \([0.695, 0.765]\)
+  \item
+    \([0.706, 0.754]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.73-1.96\times\sqrt{\frac{0.1971}{626}} \ , \ 0.73+1.96\times\sqrt{\frac{0.1971}{626}}\right]\\
+  &=&\text{$[0.695, 0.765]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(586\) crianças revelou que \(80\)\% delas
+  preferem a marca A de marshmallows. Com base nas informações, assinale
+  a alternativa correspondente ao intervalo de confiança para a
+  proporção das crianças que prefere a marca A com confiança de
+  \(90\)\%. (Utilize a fórmula disponível no conjunto de equações
+  fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.773, 0.827]\)
+  \item
+    \([0.786, 0.814]\)
+  \item
+    \([0.759, 0.841]\)
+  \item
+    \([0.800, 0.800]\)
+  \item
+    \([0.781, 0.819]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.8-1.64\times\sqrt{\frac{0.16}{586}} \ , \ 0.8+1.64\times\sqrt{\frac{0.16}{586}}\right]\\
+  &=&\text{$[0.773, 0.827]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(577\) crianças revelou que \(72\)\% delas
+  preferem a marca A de marshmallows. Com base nas informações, assinale
+  a alternativa correspondente ao intervalo de confiança para a
+  proporção das crianças que prefere a marca A com confiança de
+  \(90\)\%. (Utilize a fórmula disponível no conjunto de equações
+  fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.674, 0.766]\)
+  \item
+    \([0.705, 0.735]\)
+  \item
+    \([0.720, 0.720]\)
+  \item
+    \([0.689, 0.751]\)
+  \item
+    \([0.699, 0.741]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.72-1.64\times\sqrt{\frac{0.2016}{577}} \ , \ 0.72+1.64\times\sqrt{\frac{0.2016}{577}}\right]\\
+  &=&\text{$[0.689, 0.751]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(679\) crianças revelou que \(54\)\% delas
+  preferem a marca A de marshmallows. Com base nas informações, assinale
+  a alternativa correspondente ao intervalo de confiança para a
+  proporção das crianças que prefere a marca A com confiança de
+  \(99\)\%. (Utilize a fórmula disponível no conjunto de equações
+  fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.539, 0.541]\)
+  \item
+    \([0.466, 0.614]\)
+  \item
+    \([0.491, 0.589]\)
+  \item
+    \([0.515, 0.565]\)
+  \item
+    \([0.505, 0.575]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.54-2.58\times\sqrt{\frac{0.2484}{679}} \ , \ 0.54+2.58\times\sqrt{\frac{0.2484}{679}}\right]\\
+  &=&\text{$[0.491, 0.589]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(508\) crianças revelou que \(44\)\% delas
+  preferem a marca A de marshmallows. Com base nas informações, assinale
+  a alternativa correspondente ao intervalo de confiança para a
+  proporção das crianças que prefere a marca A com confiança de
+  \(80\)\%. (Utilize a fórmula disponível no conjunto de equações
+  fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.426, 0.454]\)
+  \item
+    \([0.440, 0.440]\)
+  \item
+    \([0.420, 0.460]\)
+  \item
+    \([0.412, 0.468]\)
+  \item
+    \([0.398, 0.482]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.44-1.28\times\sqrt{\frac{0.2464}{508}} \ , \ 0.44+1.28\times\sqrt{\frac{0.2464}{508}}\right]\\
+  &=&\text{$[0.412, 0.468]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(680\) crianças revelou que \(66\)\% delas
+  preferem a marca A de marshmallows. Com base nas informações, assinale
+  a alternativa correspondente ao intervalo de confiança para a
+  proporção das crianças que prefere a marca A com confiança de
+  \(90\)\%. (Utilize a fórmula disponível no conjunto de equações
+  fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.645, 0.675]\)
+  \item
+    \([0.639, 0.681]\)
+  \item
+    \([0.630, 0.690]\)
+  \item
+    \([0.615, 0.705]\)
+  \item
+    \([0.660, 0.660]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.66-1.64\times\sqrt{\frac{0.2244}{680}} \ , \ 0.66+1.64\times\sqrt{\frac{0.2244}{680}}\right]\\
+  &=&\text{$[0.630, 0.690]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(685\) crianças revelou que \(68\)\% delas
+  preferem a marca A de marshmallows. Com base nas informações, assinale
+  a alternativa correspondente ao intervalo de confiança para a
+  proporção das crianças que prefere a marca A com confiança de
+  \(80\)\%. (Utilize a fórmula disponível no conjunto de equações
+  fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.657, 0.703]\)
+  \item
+    \([0.646, 0.714]\)
+  \item
+    \([0.664, 0.696]\)
+  \item
+    \([0.669, 0.691]\)
+  \item
+    \([0.680, 0.680]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.68-1.28\times\sqrt{\frac{0.2176}{685}} \ , \ 0.68+1.28\times\sqrt{\frac{0.2176}{685}}\right]\\
+  &=&\text{$[0.657, 0.703]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(514\) crianças revelou que \(22\)\% delas
+  preferem a marca A de marshmallows. Com base nas informações, assinale
+  a alternativa correspondente ao intervalo de confiança para a
+  proporção das crianças que prefere a marca A com confiança de
+  \(99\)\%. (Utilize a fórmula disponível no conjunto de equações
+  fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.187, 0.253]\)
+  \item
+    \([0.219, 0.221]\)
+  \item
+    \([0.149, 0.291]\)
+  \item
+    \([0.173, 0.267]\)
+  \item
+    \([0.196, 0.244]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.22-2.58\times\sqrt{\frac{0.1716}{514}} \ , \ 0.22+2.58\times\sqrt{\frac{0.1716}{514}}\right]\\
+  &=&\text{$[0.173, 0.267]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de \(579\) crianças revelou que \(34\)\% delas
+  preferem a marca A de marshmallows. Com base nas informações, assinale
+  a alternativa correspondente ao intervalo de confiança para a
+  proporção das crianças que prefere a marca A com confiança de
+  \(99\)\%. (Utilize a fórmula disponível no conjunto de equações
+  fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.339, 0.341]\)
+  \item
+    \([0.289, 0.391]\)
+  \item
+    \([0.264, 0.416]\)
+  \item
+    \([0.304, 0.376]\)
+  \item
+    \([0.315, 0.365]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.34-2.58\times\sqrt{\frac{0.2244}{579}} \ , \ 0.34+2.58\times\sqrt{\frac{0.2244}{579}}\right]\\
+  &=&\text{$[0.289, 0.391]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

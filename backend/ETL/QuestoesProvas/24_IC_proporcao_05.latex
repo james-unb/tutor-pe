@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a eficiência do trabalho de varas criminais do
+  TJDFT, verificou-se que em \(74\)\% dos processos de uma amostra
+  aleatória simples de \(128\) processos há uma demora de mais de um ano
+  para ser proferida a sentença em primeira instância. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção de processos criminais que levam mais de um
+  ano em sua tramitação com confiança de \(95\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.702, 0.778]\)
+  \item
+    \([0.687, 0.793]\)
+  \item
+    \([0.626, 0.854]\)
+  \item
+    \([0.738, 0.742]\)
+  \item
+    \([0.664, 0.816]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.74-1.96\times\sqrt{\frac{0.1924}{128}} \ , \ 0.74+1.96\times\sqrt{\frac{0.1924}{128}}\right]\\
+  &=&\text{$[0.664, 0.816]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a eficiência do trabalho de varas criminais do
+  TJDFT, verificou-se que em \(69\)\% dos processos de uma amostra
+  aleatória simples de \(173\) processos há uma demora de mais de um ano
+  para ser proferida a sentença em primeira instância. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção de processos criminais que levam mais de um
+  ano em sua tramitação com confiança de \(95\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.621, 0.759]\)
+  \item
+    \([0.688, 0.692]\)
+  \item
+    \([0.642, 0.738]\)
+  \item
+    \([0.656, 0.724]\)
+  \item
+    \([0.587, 0.793]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.69-1.96\times\sqrt{\frac{0.2139}{173}} \ , \ 0.69+1.96\times\sqrt{\frac{0.2139}{173}}\right]\\
+  &=&\text{$[0.621, 0.759]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a eficiência do trabalho de varas criminais do
+  TJDFT, verificou-se que em \(77\)\% dos processos de uma amostra
+  aleatória simples de \(154\) processos há uma demora de mais de um ano
+  para ser proferida a sentença em primeira instância. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção de processos criminais que levam mais de um
+  ano em sua tramitação com confiança de \(95\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.737, 0.803]\)
+  \item
+    \([0.704, 0.836]\)
+  \item
+    \([0.723, 0.817]\)
+  \item
+    \([0.768, 0.772]\)
+  \item
+    \([0.670, 0.870]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.77-1.96\times\sqrt{\frac{0.1771}{154}} \ , \ 0.77+1.96\times\sqrt{\frac{0.1771}{154}}\right]\\
+  &=&\text{$[0.704, 0.836]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a eficiência do trabalho de varas criminais do
+  TJDFT, verificou-se que em \(71\)\% dos processos de uma amostra
+  aleatória simples de \(194\) processos há uma demora de mais de um ano
+  para ser proferida a sentença em primeira instância. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção de processos criminais que levam mais de um
+  ano em sua tramitação com confiança de \(90\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.657, 0.763]\)
+  \item
+    \([0.709, 0.711]\)
+  \item
+    \([0.673, 0.747]\)
+  \item
+    \([0.630, 0.790]\)
+  \item
+    \([0.683, 0.737]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.71-1.64\times\sqrt{\frac{0.2059}{194}} \ , \ 0.71+1.64\times\sqrt{\frac{0.2059}{194}}\right]\\
+  &=&\text{$[0.657, 0.763]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a eficiência do trabalho de varas criminais do
+  TJDFT, verificou-se que em \(62\)\% dos processos de uma amostra
+  aleatória simples de \(104\) processos há uma demora de mais de um ano
+  para ser proferida a sentença em primeira instância. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção de processos criminais que levam mais de um
+  ano em sua tramitação com confiança de \(99\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.534, 0.706]\)
+  \item
+    \([0.559, 0.681]\)
+  \item
+    \([0.436, 0.804]\)
+  \item
+    \([0.497, 0.743]\)
+  \item
+    \([0.615, 0.625]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.62-2.58\times\sqrt{\frac{0.2356}{104}} \ , \ 0.62+2.58\times\sqrt{\frac{0.2356}{104}}\right]\\
+  &=&\text{$[0.497, 0.743]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a eficiência do trabalho de varas criminais do
+  TJDFT, verificou-se que em \(60\)\% dos processos de uma amostra
+  aleatória simples de \(172\) processos há uma demora de mais de um ano
+  para ser proferida a sentença em primeira instância. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção de processos criminais que levam mais de um
+  ano em sua tramitação com confiança de \(95\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.527, 0.673]\)
+  \item
+    \([0.563, 0.637]\)
+  \item
+    \([0.490, 0.710]\)
+  \item
+    \([0.598, 0.602]\)
+  \item
+    \([0.549, 0.651]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.6-1.96\times\sqrt{\frac{0.24}{172}} \ , \ 0.6+1.96\times\sqrt{\frac{0.24}{172}}\right]\\
+  &=&\text{$[0.527, 0.673]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a eficiência do trabalho de varas criminais do
+  TJDFT, verificou-se que em \(79\)\% dos processos de uma amostra
+  aleatória simples de \(152\) processos há uma demora de mais de um ano
+  para ser proferida a sentença em primeira instância. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção de processos criminais que levam mais de um
+  ano em sua tramitação com confiança de \(95\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.758, 0.822]\)
+  \item
+    \([0.745, 0.835]\)
+  \item
+    \([0.788, 0.792]\)
+  \item
+    \([0.725, 0.855]\)
+  \item
+    \([0.693, 0.887]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.79-1.96\times\sqrt{\frac{0.1659}{152}} \ , \ 0.79+1.96\times\sqrt{\frac{0.1659}{152}}\right]\\
+  &=&\text{$[0.725, 0.855]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a eficiência do trabalho de varas criminais do
+  TJDFT, verificou-se que em \(75\)\% dos processos de uma amostra
+  aleatória simples de \(144\) processos há uma demora de mais de um ano
+  para ser proferida a sentença em primeira instância. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção de processos criminais que levam mais de um
+  ano em sua tramitação com confiança de \(90\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.691, 0.809]\)
+  \item
+    \([0.748, 0.752]\)
+  \item
+    \([0.720, 0.780]\)
+  \item
+    \([0.661, 0.839]\)
+  \item
+    \([0.709, 0.791]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.75-1.64\times\sqrt{\frac{0.1875}{144}} \ , \ 0.75+1.64\times\sqrt{\frac{0.1875}{144}}\right]\\
+  &=&\text{$[0.691, 0.809]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a eficiência do trabalho de varas criminais do
+  TJDFT, verificou-se que em \(69\)\% dos processos de uma amostra
+  aleatória simples de \(103\) processos há uma demora de mais de um ano
+  para ser proferida a sentença em primeira instância. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção de processos criminais que levam mais de um
+  ano em sua tramitação com confiança de \(95\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.645, 0.735]\)
+  \item
+    \([0.556, 0.824]\)
+  \item
+    \([0.687, 0.693]\)
+  \item
+    \([0.601, 0.779]\)
+  \item
+    \([0.627, 0.753]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.69-1.96\times\sqrt{\frac{0.2139}{103}} \ , \ 0.69+1.96\times\sqrt{\frac{0.2139}{103}}\right]\\
+  &=&\text{$[0.601, 0.779]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um estudo sobre a eficiência do trabalho de varas criminais do
+  TJDFT, verificou-se que em \(68\)\% dos processos de uma amostra
+  aleatória simples de \(174\) processos há uma demora de mais de um ano
+  para ser proferida a sentença em primeira instância. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para a proporção de processos criminais que levam mais de um
+  ano em sua tramitação com confiança de \(95\)\%. (Utilize a fórmula
+  disponível no conjunto de equações fornecidas para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.631, 0.729]\)
+  \item
+    \([0.678, 0.682]\)
+  \item
+    \([0.645, 0.715]\)
+  \item
+    \([0.576, 0.784]\)
+  \item
+    \([0.611, 0.749]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.68-1.96\times\sqrt{\frac{0.2176}{174}} \ , \ 0.68+1.96\times\sqrt{\frac{0.2176}{174}}\right]\\
+  &=&\text{$[0.611, 0.749]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

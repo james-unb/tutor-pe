@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.93\). Qual a probabilidade de
+  que sejam necessários exatamente \(3\) pedidos para que o primeiro
+  cancelamento seja realizado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7440\)
+  \item
+    \(0.0046\)
+  \item
+    \(0.4650\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.0303\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o experimento é repetido até que ocorra um sucesso, estamos
+  diante de uma distribuição geométrica de parâmetro \(0.93\). Desse
+  modo, representando por \(X\) a variável aleatória relativa ao o
+  número de pedidos necessários para que o primeiro cancelamento seja
+  realizado, a probabilidade desejada é dada por
+  \[P(X=3) = 0.07^{2}\times0.93 = 0.0046.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.92\). Qual a probabilidade de
+  que sejam necessários exatamente \(3\) pedidos para que o primeiro
+  cancelamento seja realizado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4600\)
+  \item
+    \(0.0313\)
+  \item
+    \(0.0059\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.7360\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o experimento é repetido até que ocorra um sucesso, estamos
+  diante de uma distribuição geométrica de parâmetro \(0.92\). Desse
+  modo, representando por \(X\) a variável aleatória relativa ao o
+  número de pedidos necessários para que o primeiro cancelamento seja
+  realizado, a probabilidade desejada é dada por
+  \[P(X=3) = 0.08^{2}\times0.92 = 0.0059.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.93\). Qual a probabilidade de
+  que sejam necessários exatamente \(3\) pedidos para que o primeiro
+  cancelamento seja realizado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7440\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.0306\)
+  \item
+    \(0.0046\)
+  \item
+    \(0.4650\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o experimento é repetido até que ocorra um sucesso, estamos
+  diante de uma distribuição geométrica de parâmetro \(0.93\). Desse
+  modo, representando por \(X\) a variável aleatória relativa ao o
+  número de pedidos necessários para que o primeiro cancelamento seja
+  realizado, a probabilidade desejada é dada por
+  \[P(X=3) = 0.07^{2}\times0.93 = 0.0046.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.94\). Qual a probabilidade de
+  que sejam necessários exatamente \(3\) pedidos para que o primeiro
+  cancelamento seja realizado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0034\)
+  \item
+    \(0.0333\)
+  \item
+    \(0.7520\)
+  \item
+    \(0.4700\)
+  \item
+    \(0.0000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o experimento é repetido até que ocorra um sucesso, estamos
+  diante de uma distribuição geométrica de parâmetro \(0.94\). Desse
+  modo, representando por \(X\) a variável aleatória relativa ao o
+  número de pedidos necessários para que o primeiro cancelamento seja
+  realizado, a probabilidade desejada é dada por
+  \[P(X=3) = 0.0600000000000001^{2}\times0.94 = 0.0034.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.91\). Qual a probabilidade de
+  que sejam necessários exatamente \(2\) pedidos para que o primeiro
+  cancelamento seja realizado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0819\)
+  \item
+    \(0.4550\)
+  \item
+    \(0.7280\)
+  \item
+    \(0.0208\)
+  \item
+    \(0.0000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o experimento é repetido até que ocorra um sucesso, estamos
+  diante de uma distribuição geométrica de parâmetro \(0.91\). Desse
+  modo, representando por \(X\) a variável aleatória relativa ao o
+  número de pedidos necessários para que o primeiro cancelamento seja
+  realizado, a probabilidade desejada é dada por
+  \[P(X=2) = 0.09^{1}\times0.91 = 0.0819.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.94\). Qual a probabilidade de
+  que sejam necessários exatamente \(2\) pedidos para que o primeiro
+  cancelamento seja realizado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0564\)
+  \item
+    \(0.0220\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.7520\)
+  \item
+    \(0.4700\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o experimento é repetido até que ocorra um sucesso, estamos
+  diante de uma distribuição geométrica de parâmetro \(0.94\). Desse
+  modo, representando por \(X\) a variável aleatória relativa ao o
+  número de pedidos necessários para que o primeiro cancelamento seja
+  realizado, a probabilidade desejada é dada por
+  \[P(X=2) = 0.0600000000000001^{1}\times0.94 = 0.0564.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.91\). Qual a probabilidade de
+  que sejam necessários exatamente \(3\) pedidos para que o primeiro
+  cancelamento seja realizado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0074\)
+  \item
+    \(0.0323\)
+  \item
+    \(0.4550\)
+  \item
+    \(0.7280\)
+  \item
+    \(0.0000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o experimento é repetido até que ocorra um sucesso, estamos
+  diante de uma distribuição geométrica de parâmetro \(0.91\). Desse
+  modo, representando por \(X\) a variável aleatória relativa ao o
+  número de pedidos necessários para que o primeiro cancelamento seja
+  realizado, a probabilidade desejada é dada por
+  \[P(X=3) = 0.09^{2}\times0.91 = 0.0074.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.9\). Qual a probabilidade de
+  que sejam necessários exatamente \(3\) pedidos para que o primeiro
+  cancelamento seja realizado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4500\)
+  \item
+    \(0.0090\)
+  \item
+    \(0.7200\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.0306\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o experimento é repetido até que ocorra um sucesso, estamos
+  diante de uma distribuição geométrica de parâmetro \(0.9\). Desse
+  modo, representando por \(X\) a variável aleatória relativa ao o
+  número de pedidos necessários para que o primeiro cancelamento seja
+  realizado, a probabilidade desejada é dada por
+  \[P(X=3) = 0.1^{2}\times0.9 = 0.009.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.93\). Qual a probabilidade de
+  que sejam necessários exatamente \(2\) pedidos para que o primeiro
+  cancelamento seja realizado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0651\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.4650\)
+  \item
+    \(0.7440\)
+  \item
+    \(0.0200\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o experimento é repetido até que ocorra um sucesso, estamos
+  diante de uma distribuição geométrica de parâmetro \(0.93\). Desse
+  modo, representando por \(X\) a variável aleatória relativa ao o
+  número de pedidos necessários para que o primeiro cancelamento seja
+  realizado, a probabilidade desejada é dada por
+  \[P(X=2) = 0.07^{1}\times0.93 = 0.0651.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que para cada cliente que solicita o cancelamento do seu
+  cartão, a companhia responsável efetivamente realize o cancelamento do
+  cartão do cliente com probabilidade \(0.95\). Qual a probabilidade de
+  que sejam necessários exatamente \(3\) pedidos para que o primeiro
+  cancelamento seja realizado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0333\)
+  \item
+    \(0.0000\)
+  \item
+    \(0.4750\)
+  \item
+    \(0.0024\)
+  \item
+    \(0.7600\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como o experimento é repetido até que ocorra um sucesso, estamos
+  diante de uma distribuição geométrica de parâmetro \(0.95\). Desse
+  modo, representando por \(X\) a variável aleatória relativa ao o
+  número de pedidos necessários para que o primeiro cancelamento seja
+  realizado, a probabilidade desejada é dada por
+  \[P(X=3) = 0.05^{2}\times0.95 = 0.0024.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, em uma fábrica de aparelhos de TV, a probabilidade de uma
+  TV ser defeituosa é 0.04 e os defeitos ocorrem de forma independente.
+  Considerando a inspeção de um lote com 350 TVs, qual é a probabilidade
+  (aproximada) do número de TVs defeituosas ser menor ou igual a 8. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.326\)
+  \item
+    \(0.051\)
+  \item
+    \(0.075\)
+  \item
+    \(0.949\)
+  \item
+    \(0.674\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de defeitos obtidos após as 350 inspeções,
+  temos que \[X \sim Bin(350, 0.04).\] Queremos calcular
+  \[\begin{aligned}
+  P(X\leq 8)&\approx& \Phi\left(\frac{8-14}{3.666} \right)\\
+                           & =&  \Phi(-1.64)\\
+                            &=&  (1-\Phi(1.64))\\
+                            &=&0.051.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=3.666\) e \(np=14\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, em uma fábrica de aparelhos de TV, a probabilidade de uma
+  TV ser defeituosa é 0.05 e os defeitos ocorrem de forma independente.
+  Considerando a inspeção de um lote com 350 TVs, qual é a probabilidade
+  (aproximada) do número de TVs defeituosas ser menor ou igual a 12.
+  (Não utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.371\)
+  \item
+    \(0.125\)
+  \item
+    \(0.911\)
+  \item
+    \(0.629\)
+  \item
+    \(0.089\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de defeitos obtidos após as 350 inspeções,
+  temos que \[X \sim Bin(350, 0.05).\] Queremos calcular
+  \[\begin{aligned}
+  P(X\leq 12)&\approx& \Phi\left(\frac{12-17.5}{4.077} \right)\\
+                           & =&  \Phi(-1.35)\\
+                            &=&  (1-\Phi(1.35))\\
+                            &=&0.089.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=4.077\) e \(np=17.5\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, em uma fábrica de aparelhos de TV, a probabilidade de uma
+  TV ser defeituosa é 0.04 e os defeitos ocorrem de forma independente.
+  Considerando a inspeção de um lote com 350 TVs, qual é a probabilidade
+  (aproximada) do número de TVs defeituosas ser menor ou igual a 9. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.356\)
+  \item
+    \(0.913\)
+  \item
+    \(0.087\)
+  \item
+    \(0.123\)
+  \item
+    \(0.644\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de defeitos obtidos após as 350 inspeções,
+  temos que \[X \sim Bin(350, 0.04).\] Queremos calcular
+  \[\begin{aligned}
+  P(X\leq 9)&\approx& \Phi\left(\frac{9-14}{3.666} \right)\\
+                           & =&  \Phi(-1.36)\\
+                            &=&  (1-\Phi(1.36))\\
+                            &=&0.087.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=3.666\) e \(np=14\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, em uma fábrica de aparelhos de TV, a probabilidade de uma
+  TV ser defeituosa é 0.04 e os defeitos ocorrem de forma independente.
+  Considerando a inspeção de um lote com 250 TVs, qual é a probabilidade
+  (aproximada) do número de TVs defeituosas ser menor ou igual a 6. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.138\)
+  \item
+    \(0.337\)
+  \item
+    \(0.099\)
+  \item
+    \(0.901\)
+  \item
+    \(0.663\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de defeitos obtidos após as 250 inspeções,
+  temos que \[X \sim Bin(250, 0.04).\] Queremos calcular
+  \[\begin{aligned}
+  P(X\leq 6)&\approx& \Phi\left(\frac{6-10}{3.098} \right)\\
+                           & =&  \Phi(-1.29)\\
+                            &=&  (1-\Phi(1.29))\\
+                            &=&0.099.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=3.098\) e \(np=10\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, em uma fábrica de aparelhos de TV, a probabilidade de uma
+  TV ser defeituosa é 0.05 e os defeitos ocorrem de forma independente.
+  Considerando a inspeção de um lote com 350 TVs, qual é a probabilidade
+  (aproximada) do número de TVs defeituosas ser menor ou igual a 14.
+  (Não utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.583\)
+  \item
+    \(0.195\)
+  \item
+    \(0.417\)
+  \item
+    \(0.255\)
+  \item
+    \(0.805\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de defeitos obtidos após as 350 inspeções,
+  temos que \[X \sim Bin(350, 0.05).\] Queremos calcular
+  \[\begin{aligned}
+  P(X\leq 14)&\approx& \Phi\left(\frac{14-17.5}{4.077} \right)\\
+                           & =&  \Phi(-0.86)\\
+                            &=&  (1-\Phi(0.86))\\
+                            &=&0.195.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=4.077\) e \(np=17.5\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, em uma fábrica de aparelhos de TV, a probabilidade de uma
+  TV ser defeituosa é 0.04 e os defeitos ocorrem de forma independente.
+  Considerando a inspeção de um lote com 300 TVs, qual é a probabilidade
+  (aproximada) do número de TVs defeituosas ser menor ou igual a 6. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.038\)
+  \item
+    \(0.962\)
+  \item
+    \(0.058\)
+  \item
+    \(0.302\)
+  \item
+    \(0.698\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de defeitos obtidos após as 300 inspeções,
+  temos que \[X \sim Bin(300, 0.04).\] Queremos calcular
+  \[\begin{aligned}
+  P(X\leq 6)&\approx& \Phi\left(\frac{6-12}{3.394} \right)\\
+                           & =&  \Phi(-1.77)\\
+                            &=&  (1-\Phi(1.77))\\
+                            &=&0.038.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=3.394\) e \(np=12\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, em uma fábrica de aparelhos de TV, a probabilidade de uma
+  TV ser defeituosa é 0.04 e os defeitos ocorrem de forma independente.
+  Considerando a inspeção de um lote com 250 TVs, qual é a probabilidade
+  (aproximada) do número de TVs defeituosas ser menor ou igual a 5. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.054\)
+  \item
+    \(0.698\)
+  \item
+    \(0.946\)
+  \item
+    \(0.079\)
+  \item
+    \(0.302\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de defeitos obtidos após as 250 inspeções,
+  temos que \[X \sim Bin(250, 0.04).\] Queremos calcular
+  \[\begin{aligned}
+  P(X\leq 5)&\approx& \Phi\left(\frac{5-10}{3.098} \right)\\
+                           & =&  \Phi(-1.61)\\
+                            &=&  (1-\Phi(1.61))\\
+                            &=&0.054.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=3.098\) e \(np=10\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, em uma fábrica de aparelhos de TV, a probabilidade de uma
+  TV ser defeituosa é 0.04 e os defeitos ocorrem de forma independente.
+  Considerando a inspeção de um lote com 300 TVs, qual é a probabilidade
+  (aproximada) do número de TVs defeituosas ser menor ou igual a 6. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.058\)
+  \item
+    \(0.962\)
+  \item
+    \(0.302\)
+  \item
+    \(0.038\)
+  \item
+    \(0.698\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de defeitos obtidos após as 300 inspeções,
+  temos que \[X \sim Bin(300, 0.04).\] Queremos calcular
+  \[\begin{aligned}
+  P(X\leq 6)&\approx& \Phi\left(\frac{6-12}{3.394} \right)\\
+                           & =&  \Phi(-1.77)\\
+                            &=&  (1-\Phi(1.77))\\
+                            &=&0.038.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=3.394\) e \(np=12\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, em uma fábrica de aparelhos de TV, a probabilidade de uma
+  TV ser defeituosa é 0.05 e os defeitos ocorrem de forma independente.
+  Considerando a inspeção de um lote com 250 TVs, qual é a probabilidade
+  (aproximada) do número de TVs defeituosas ser menor ou igual a 6. (Não
+  utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.971\)
+  \item
+    \(0.291\)
+  \item
+    \(0.046\)
+  \item
+    \(0.029\)
+  \item
+    \(0.709\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de defeitos obtidos após as 250 inspeções,
+  temos que \[X \sim Bin(250, 0.05).\] Queremos calcular
+  \[\begin{aligned}
+  P(X\leq 6)&\approx& \Phi\left(\frac{6-12.5}{3.446} \right)\\
+                           & =&  \Phi(-1.89)\\
+                            &=&  (1-\Phi(1.89))\\
+                            &=&0.029.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=3.446\) e \(np=12.5\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que, em uma fábrica de aparelhos de TV, a probabilidade de uma
+  TV ser defeituosa é 0.05 e os defeitos ocorrem de forma independente.
+  Considerando a inspeção de um lote com 350 TVs, qual é a probabilidade
+  (aproximada) do número de TVs defeituosas ser menor ou igual a 12.
+  (Não utilizar correção de continuidade na aproximação da distribuição
+  Binomial pela distribuição Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.629\)
+  \item
+    \(0.911\)
+  \item
+    \(0.371\)
+  \item
+    \(0.125\)
+  \item
+    \(0.089\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Se \(X\) denota o número de defeitos obtidos após as 350 inspeções,
+  temos que \[X \sim Bin(350, 0.05).\] Queremos calcular
+  \[\begin{aligned}
+  P(X\leq 12)&\approx& \Phi\left(\frac{12-17.5}{4.077} \right)\\
+                           & =&  \Phi(-1.35)\\
+                            &=&  (1-\Phi(1.35))\\
+                            &=&0.089.
+  \end{aligned}\] Note que \(\sqrt{n p(1-p)}=4.077\) e \(np=17.5\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

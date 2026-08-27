@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a probabilidade de um frasco de maionese, selecionado ao
+  acaso, se tornar impróprio para consumo antes do prazo de validade
+  (Evento \(A\)) é de 0.07. Por outro lado, a probabilidade de um pote
+  do produto ser armazenado na geladeira (Evento \(B\)) é de 0.4. Nesse
+  contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.028, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Disjuntos.
+  \item
+    Mutuamente exclusivos.
+  \item
+    Complementares.
+  \item
+    Dependentes.
+  \item
+    Independentes.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com o enunciado da questão,
+  \(P(A \cap B) = 0.028 = P(A) \times P(B) = 
+  0.07 \times 0.4\). Pela definição de independência, segue que os
+  eventos \(A\) e \(B\) são independentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a probabilidade de um frasco de maionese, selecionado ao
+  acaso, se tornar impróprio para consumo antes do prazo de validade
+  (Evento \(A\)) é de 0.06. Por outro lado, a probabilidade de um pote
+  do produto ser armazenado na geladeira (Evento \(B\)) é de 0.48. Nesse
+  contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.0288, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Independentes.
+  \item
+    Dependentes.
+  \item
+    Complementares.
+  \item
+    Disjuntos.
+  \item
+    Mutuamente exclusivos.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com o enunciado da questão,
+  \(P(A \cap B) = 0.0288 = P(A) \times P(B) = 
+  0.06 \times 0.48\). Pela definição de independência, segue que os
+  eventos \(A\) e \(B\) são independentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a probabilidade de um frasco de maionese, selecionado ao
+  acaso, se tornar impróprio para consumo antes do prazo de validade
+  (Evento \(A\)) é de 0.07. Por outro lado, a probabilidade de um pote
+  do produto ser armazenado na geladeira (Evento \(B\)) é de 0.5. Nesse
+  contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.0245, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Complementares.
+  \item
+    Dependentes.
+  \item
+    Independentes.
+  \item
+    Mutuamente exclusivos.
+  \item
+    Disjuntos.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com o enunciado da questão,
+  \(P(A \cap B) = 0.0245 \neq P(A) \times P(B) = 
+  0.07 \times 0.5 = 0.035\). Pela definição de independência, segue que
+  os eventos \(A\) e \(B\) são dependentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a probabilidade de um frasco de maionese, selecionado ao
+  acaso, se tornar impróprio para consumo antes do prazo de validade
+  (Evento \(A\)) é de 0.09. Por outro lado, a probabilidade de um pote
+  do produto ser armazenado na geladeira (Evento \(B\)) é de 0.43. Nesse
+  contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.0387, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Disjuntos.
+  \item
+    Dependentes.
+  \item
+    Mutuamente exclusivos.
+  \item
+    Complementares.
+  \item
+    Independentes.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com o enunciado da questão,
+  \(P(A \cap B) = 0.0387 = P(A) \times P(B) = 
+  0.09 \times 0.43\). Pela definição de independência, segue que os
+  eventos \(A\) e \(B\) são independentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a probabilidade de um frasco de maionese, selecionado ao
+  acaso, se tornar impróprio para consumo antes do prazo de validade
+  (Evento \(A\)) é de 0.05. Por outro lado, a probabilidade de um pote
+  do produto ser armazenado na geladeira (Evento \(B\)) é de 0.4. Nesse
+  contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.014, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Complementares.
+  \item
+    Mutuamente exclusivos.
+  \item
+    Dependentes.
+  \item
+    Disjuntos.
+  \item
+    Independentes.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com o enunciado da questão,
+  \(P(A \cap B) = 0.014 \neq P(A) \times P(B) = 
+  0.05 \times 0.4 = 0.02\). Pela definição de independência, segue que
+  os eventos \(A\) e \(B\) são dependentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a probabilidade de um frasco de maionese, selecionado ao
+  acaso, se tornar impróprio para consumo antes do prazo de validade
+  (Evento \(A\)) é de 0.1. Por outro lado, a probabilidade de um pote do
+  produto ser armazenado na geladeira (Evento \(B\)) é de 0.41. Nesse
+  contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.041, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Complementares.
+  \item
+    Mutuamente exclusivos.
+  \item
+    Disjuntos.
+  \item
+    Dependentes.
+  \item
+    Independentes.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com o enunciado da questão,
+  \(P(A \cap B) = 0.041 = P(A) \times P(B) = 
+  0.1 \times 0.41\). Pela definição de independência, segue que os
+  eventos \(A\) e \(B\) são independentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a probabilidade de um frasco de maionese, selecionado ao
+  acaso, se tornar impróprio para consumo antes do prazo de validade
+  (Evento \(A\)) é de 0.05. Por outro lado, a probabilidade de um pote
+  do produto ser armazenado na geladeira (Evento \(B\)) é de 0.4. Nesse
+  contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.02, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Dependentes.
+  \item
+    Independentes.
+  \item
+    Complementares.
+  \item
+    Disjuntos.
+  \item
+    Mutuamente exclusivos.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com o enunciado da questão,
+  \(P(A \cap B) = 0.02 = P(A) \times P(B) = 
+  0.05 \times 0.4\). Pela definição de independência, segue que os
+  eventos \(A\) e \(B\) são independentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a probabilidade de um frasco de maionese, selecionado ao
+  acaso, se tornar impróprio para consumo antes do prazo de validade
+  (Evento \(A\)) é de 0.08. Por outro lado, a probabilidade de um pote
+  do produto ser armazenado na geladeira (Evento \(B\)) é de 0.47. Nesse
+  contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.0263, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Mutuamente exclusivos.
+  \item
+    Complementares.
+  \item
+    Independentes.
+  \item
+    Dependentes.
+  \item
+    Disjuntos.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com o enunciado da questão,
+  \(P(A \cap B) = 0.0263 \neq P(A) \times P(B) = 
+  0.08 \times 0.47 = 0.0376\). Pela definição de independência, segue
+  que os eventos \(A\) e \(B\) são dependentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a probabilidade de um frasco de maionese, selecionado ao
+  acaso, se tornar impróprio para consumo antes do prazo de validade
+  (Evento \(A\)) é de 0.07. Por outro lado, a probabilidade de um pote
+  do produto ser armazenado na geladeira (Evento \(B\)) é de 0.47. Nesse
+  contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.023, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Disjuntos.
+  \item
+    Complementares.
+  \item
+    Dependentes.
+  \item
+    Independentes.
+  \item
+    Mutuamente exclusivos.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com o enunciado da questão,
+  \(P(A \cap B) = 0.023 \neq P(A) \times P(B) = 
+  0.07 \times 0.47 = 0.0329\). Pela definição de independência, segue
+  que os eventos \(A\) e \(B\) são dependentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que a probabilidade de um frasco de maionese, selecionado ao
+  acaso, se tornar impróprio para consumo antes do prazo de validade
+  (Evento \(A\)) é de 0.06. Por outro lado, a probabilidade de um pote
+  do produto ser armazenado na geladeira (Evento \(B\)) é de 0.48. Nesse
+  contexto, considerando que a probabilidade de esses dois eventos
+  ocorrerem é de 0.0288, seria \textbf{correto} afirmar que os eventos
+  \(A\) e \(B\) são eventos probabilisticamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Dependentes.
+  \item
+    Disjuntos.
+  \item
+    Complementares.
+  \item
+    Independentes.
+  \item
+    Mutuamente exclusivos.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  De acordo com o enunciado da questão,
+  \(P(A \cap B) = 0.0288 = P(A) \times P(B) = 
+  0.06 \times 0.48\). Pela definição de independência, segue que os
+  eventos \(A\) e \(B\) são independentes.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

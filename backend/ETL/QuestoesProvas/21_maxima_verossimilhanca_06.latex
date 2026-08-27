@@ -1,0 +1,582 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\frac{1}{\theta}\exp(-x/\theta)\), \(x\geq 0\) e
+  parâmetro \(\theta>0\). Considere
+  \[2.2 \ \ \ 2.1 \ \ \ 2.8 \ \ \ 1.7 \ \ \ 2.8\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\theta\) dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(11.60\)
+  \item
+    \(2.32\)
+  \item
+    \(0.92\)
+  \item
+    \(0.09\)
+  \item
+    \(0.48\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\theta)=\frac{1}{\theta^n}\exp\left(\frac{-\sum_{i=1}^{n}x_i}{\theta}\right).
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\theta)= -n \ln(\theta)+ \frac{-\sum_{i=1}^{n}x_i}{\theta}.
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \theta=\frac{\sum_{i=1}^{n}x_i}{n}.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{n\theta - 2\sum_{i=1}^{n}(x_i)}{\theta^3} < 0\), concluímos
+  que o EMV de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{\sum_{i=1}^{n}x_i}{n}=\bar{x}.
+  \end{aligned}\]
+
+  Tomando a amostra \((2.2, 2.1, 2.8, 1.7, 2.8)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\theta}=2.32\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\frac{1}{\theta}\exp(-x/\theta)\), \(x\geq 0\) e
+  parâmetro \(\theta>0\). Considere
+  \[1.2 \ \ \ 2.1 \ \ \ 1.8 \ \ \ 2.4 \ \ \ 2.9\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\theta\) dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.61\)
+  \item
+    \(10.40\)
+  \item
+    \(0.80\)
+  \item
+    \(0.10\)
+  \item
+    \(2.08\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\theta)=\frac{1}{\theta^n}\exp\left(\frac{-\sum_{i=1}^{n}x_i}{\theta}\right).
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\theta)= -n \ln(\theta)+ \frac{-\sum_{i=1}^{n}x_i}{\theta}.
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \theta=\frac{\sum_{i=1}^{n}x_i}{n}.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{n\theta - 2\sum_{i=1}^{n}(x_i)}{\theta^3} < 0\), concluímos
+  que o EMV de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{\sum_{i=1}^{n}x_i}{n}=\bar{x}.
+  \end{aligned}\]
+
+  Tomando a amostra \((1.2, 2.1, 1.8, 2.4, 2.9)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\theta}=2.08\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\frac{1}{\theta}\exp(-x/\theta)\), \(x\geq 0\) e
+  parâmetro \(\theta>0\). Considere
+  \[1.1 \ \ \ 2.1 \ \ \ 1.3 \ \ \ 2.9 \ \ \ 1.5\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\theta\) dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.20\)
+  \item
+    \(8.90\)
+  \item
+    \(1.78\)
+  \item
+    \(0.11\)
+  \item
+    \(0.23\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\theta)=\frac{1}{\theta^n}\exp\left(\frac{-\sum_{i=1}^{n}x_i}{\theta}\right).
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\theta)= -n \ln(\theta)+ \frac{-\sum_{i=1}^{n}x_i}{\theta}.
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \theta=\frac{\sum_{i=1}^{n}x_i}{n}.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{n\theta - 2\sum_{i=1}^{n}(x_i)}{\theta^3} < 0\), concluímos
+  que o EMV de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{\sum_{i=1}^{n}x_i}{n}=\bar{x}.
+  \end{aligned}\]
+
+  Tomando a amostra \((1.1, 2.1, 1.3, 2.9, 1.5)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\theta}=1.78\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\frac{1}{\theta}\exp(-x/\theta)\), \(x\geq 0\) e
+  parâmetro \(\theta>0\). Considere
+  \[3 \ \ \ 1.1 \ \ \ 2.8 \ \ \ 1.7 \ \ \ 1.7\] uma amostra observada de
+  \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\theta\) dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.10\)
+  \item
+    \(10.30\)
+  \item
+    \(0.39\)
+  \item
+    \(0.05\)
+  \item
+    \(2.06\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\theta)=\frac{1}{\theta^n}\exp\left(\frac{-\sum_{i=1}^{n}x_i}{\theta}\right).
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\theta)= -n \ln(\theta)+ \frac{-\sum_{i=1}^{n}x_i}{\theta}.
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \theta=\frac{\sum_{i=1}^{n}x_i}{n}.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{n\theta - 2\sum_{i=1}^{n}(x_i)}{\theta^3} < 0\), concluímos
+  que o EMV de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{\sum_{i=1}^{n}x_i}{n}=\bar{x}.
+  \end{aligned}\]
+
+  Tomando a amostra \((3, 1.1, 2.8, 1.7, 1.7)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\theta}=2.06\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\frac{1}{\theta}\exp(-x/\theta)\), \(x\geq 0\) e
+  parâmetro \(\theta>0\). Considere
+  \[1.9 \ \ \ 2.2 \ \ \ 1.4 \ \ \ 2 \ \ \ 2.1\] uma amostra observada de
+  \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\theta\) dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.92\)
+  \item
+    \(9.60\)
+  \item
+    \(0.24\)
+  \item
+    \(0.10\)
+  \item
+    \(0.30\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\theta)=\frac{1}{\theta^n}\exp\left(\frac{-\sum_{i=1}^{n}x_i}{\theta}\right).
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\theta)= -n \ln(\theta)+ \frac{-\sum_{i=1}^{n}x_i}{\theta}.
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \theta=\frac{\sum_{i=1}^{n}x_i}{n}.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{n\theta - 2\sum_{i=1}^{n}(x_i)}{\theta^3} < 0\), concluímos
+  que o EMV de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{\sum_{i=1}^{n}x_i}{n}=\bar{x}.
+  \end{aligned}\]
+
+  Tomando a amostra \((1.9, 2.2, 1.4, 2, 2.1)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\theta}=1.92\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\frac{1}{\theta}\exp(-x/\theta)\), \(x\geq 0\) e
+  parâmetro \(\theta>0\). Considere
+  \[3 \ \ \ 2.2 \ \ \ 1.8 \ \ \ 1.2 \ \ \ 2.4\] uma amostra observada de
+  \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\theta\) dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.25\)
+  \item
+    \(2.12\)
+  \item
+    \(10.60\)
+  \item
+    \(0.20\)
+  \item
+    \(0.09\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\theta)=\frac{1}{\theta^n}\exp\left(\frac{-\sum_{i=1}^{n}x_i}{\theta}\right).
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\theta)= -n \ln(\theta)+ \frac{-\sum_{i=1}^{n}x_i}{\theta}.
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \theta=\frac{\sum_{i=1}^{n}x_i}{n}.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{n\theta - 2\sum_{i=1}^{n}(x_i)}{\theta^3} < 0\), concluímos
+  que o EMV de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{\sum_{i=1}^{n}x_i}{n}=\bar{x}.
+  \end{aligned}\]
+
+  Tomando a amostra \((3, 2.2, 1.8, 1.2, 2.4)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\theta}=2.12\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\frac{1}{\theta}\exp(-x/\theta)\), \(x\geq 0\) e
+  parâmetro \(\theta>0\). Considere
+  \[1.8 \ \ \ 2.1 \ \ \ 2 \ \ \ 2 \ \ \ 2.4\] uma amostra observada de
+  \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\theta\) dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(10.30\)
+  \item
+    \(0.67\)
+  \item
+    \(0.64\)
+  \item
+    \(2.06\)
+  \item
+    \(0.10\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\theta)=\frac{1}{\theta^n}\exp\left(\frac{-\sum_{i=1}^{n}x_i}{\theta}\right).
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\theta)= -n \ln(\theta)+ \frac{-\sum_{i=1}^{n}x_i}{\theta}.
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \theta=\frac{\sum_{i=1}^{n}x_i}{n}.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{n\theta - 2\sum_{i=1}^{n}(x_i)}{\theta^3} < 0\), concluímos
+  que o EMV de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{\sum_{i=1}^{n}x_i}{n}=\bar{x}.
+  \end{aligned}\]
+
+  Tomando a amostra \((1.8, 2.1, 2, 2, 2.4)\), temos que o estimador de
+  máxima verossimilhança desta amostra é \(\hat{\theta}=2.06\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\frac{1}{\theta}\exp(-x/\theta)\), \(x\geq 0\) e
+  parâmetro \(\theta>0\). Considere
+  \[3 \ \ \ 2.9 \ \ \ 2 \ \ \ 2.9 \ \ \ 1.7\] uma amostra observada de
+  \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\theta\) dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.06\)
+  \item
+    \(0.08\)
+  \item
+    \(2.50\)
+  \item
+    \(0.31\)
+  \item
+    \(12.50\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\theta)=\frac{1}{\theta^n}\exp\left(\frac{-\sum_{i=1}^{n}x_i}{\theta}\right).
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\theta)= -n \ln(\theta)+ \frac{-\sum_{i=1}^{n}x_i}{\theta}.
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \theta=\frac{\sum_{i=1}^{n}x_i}{n}.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{n\theta - 2\sum_{i=1}^{n}(x_i)}{\theta^3} < 0\), concluímos
+  que o EMV de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{\sum_{i=1}^{n}x_i}{n}=\bar{x}.
+  \end{aligned}\]
+
+  Tomando a amostra \((3, 2.9, 2, 2.9, 1.7)\), temos que o estimador de
+  máxima verossimilhança desta amostra é \(\hat{\theta}=2.5\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\frac{1}{\theta}\exp(-x/\theta)\), \(x\geq 0\) e
+  parâmetro \(\theta>0\). Considere
+  \[2.2 \ \ \ 1.6 \ \ \ 1.8 \ \ \ 2.2 \ \ \ 1.6\] uma amostra observada
+  de \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\theta\) dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(1.88\)
+  \item
+    \(9.40\)
+  \item
+    \(0.42\)
+  \item
+    \(0.13\)
+  \item
+    \(0.11\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\theta)=\frac{1}{\theta^n}\exp\left(\frac{-\sum_{i=1}^{n}x_i}{\theta}\right).
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\theta)= -n \ln(\theta)+ \frac{-\sum_{i=1}^{n}x_i}{\theta}.
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \theta=\frac{\sum_{i=1}^{n}x_i}{n}.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{n\theta - 2\sum_{i=1}^{n}(x_i)}{\theta^3} < 0\), concluímos
+  que o EMV de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{\sum_{i=1}^{n}x_i}{n}=\bar{x}.
+  \end{aligned}\]
+
+  Tomando a amostra \((2.2, 1.6, 1.8, 2.2, 1.6)\), temos que o estimador
+  de máxima verossimilhança desta amostra é \(\hat{\theta}=1.88\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\theta)=\frac{1}{\theta}\exp(-x/\theta)\), \(x\geq 0\) e
+  parâmetro \(\theta>0\). Considere
+  \[1.4 \ \ \ 2.2 \ \ \ 2 \ \ \ 2.9 \ \ \ 1\] uma amostra observada de
+  \(X\). Assinale a alternativa correspondente à estimativa de máxima
+  verossimilhança para \(\theta\) dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(9.50\)
+  \item
+    \(1.90\)
+  \item
+    \(0.98\)
+  \item
+    \(0.11\)
+  \item
+    \(0.48\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\theta)=\frac{1}{\theta^n}\exp\left(\frac{-\sum_{i=1}^{n}x_i}{\theta}\right).
+   
+  \end{aligned}\] Aplicando logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\theta)= -n \ln(\theta)+ \frac{-\sum_{i=1}^{n}x_i}{\theta}.
+   
+  \end{aligned}\] Ao derivar com respeito a \(\gamma\) e igualar a
+  equação a zero, obtém-se \[\begin{aligned}
+  \theta=\frac{\sum_{i=1}^{n}x_i}{n}.
+  \end{aligned}\]
+
+  Como a segunda derivada com repeito a \(\beta\) é
+  \(\frac{n\theta - 2\sum_{i=1}^{n}(x_i)}{\theta^3} < 0\), concluímos
+  que o EMV de \(\theta\) é \[\begin{aligned}
+  \hat{\theta}=\frac{\sum_{i=1}^{n}x_i}{n}=\bar{x}.
+  \end{aligned}\]
+
+  Tomando a amostra \((1.4, 2.2, 2, 2.9, 1)\), temos que o estimador de
+  máxima verossimilhança desta amostra é \(\hat{\theta}=1.9\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

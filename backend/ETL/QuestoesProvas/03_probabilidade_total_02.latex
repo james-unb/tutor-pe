@@ -1,0 +1,492 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma questão de múltipla escolha com 5 alternativas. Suponha
+  que um aluno pode ter certeza da resposta correta com probabilidade de
+  \(17\%\), ter dúvida quanto a resposta correta com probabilidade de
+  \(33\%\) ou não ter nenhuma ideia da resposta correta com
+  probabilidade de \(50\%\). Ao ter certeza, o aluno sempre acerta a
+  questão, enquanto que no caso de dúvida ele acerta com probabilidade
+  de \(50\%\) e, sem saber, ele faz uma escolha aleatória. Qual a
+  probabilidade do aluno acertar a questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.460\)
+  \item
+    \(0.567\)
+  \item
+    \(0.333\)
+  \item
+    \(0.335\)
+  \item
+    \(0.435\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  C &=& \text{ ``O aluno tem certeza da resposta correta.''} \\
+  D &=& \text{ ``O aluno tem dúvida quanto a resposta correta.''} \\
+  N &=& \text{ ``O aluno não sabe a resposta correta.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(A) = P(A|C)P(C)+P(A|D)P(D)+P(A|N)P(N) = 1 \times 0.17 + 0.5\times0.33+0.2\times0.5 = 0.435.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma questão de múltipla escolha com 5 alternativas. Suponha
+  que um aluno pode ter certeza da resposta correta com probabilidade de
+  \(7\%\), ter dúvida quanto a resposta correta com probabilidade de
+  \(40\%\) ou não ter nenhuma ideia da resposta correta com
+  probabilidade de \(53\%\). Ao ter certeza, o aluno sempre acerta a
+  questão, enquanto que no caso de dúvida ele acerta com probabilidade
+  de \(50\%\) e, sem saber, ele faz uma escolha aleatória. Qual a
+  probabilidade do aluno acertar a questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.270\)
+  \item
+    \(0.567\)
+  \item
+    \(0.333\)
+  \item
+    \(0.376\)
+  \item
+    \(0.403\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  C &=& \text{ ``O aluno tem certeza da resposta correta.''} \\
+  D &=& \text{ ``O aluno tem dúvida quanto a resposta correta.''} \\
+  N &=& \text{ ``O aluno não sabe a resposta correta.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(A) = P(A|C)P(C)+P(A|D)P(D)+P(A|N)P(N) = 1 \times 0.07 + 0.5\times0.4+0.2\times0.53 = 0.376.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma questão de múltipla escolha com 5 alternativas. Suponha
+  que um aluno pode ter certeza da resposta correta com probabilidade de
+  \(12\%\), ter dúvida quanto a resposta correta com probabilidade de
+  \(33\%\) ou não ter nenhuma ideia da resposta correta com
+  probabilidade de \(55\%\). Ao ter certeza, o aluno sempre acerta a
+  questão, enquanto que no caso de dúvida ele acerta com probabilidade
+  de \(36\%\) e, sem saber, ele faz uma escolha aleatória. Qual a
+  probabilidade do aluno acertar a questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.333\)
+  \item
+    \(0.239\)
+  \item
+    \(0.376\)
+  \item
+    \(0.349\)
+  \item
+    \(0.520\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  C &=& \text{ ``O aluno tem certeza da resposta correta.''} \\
+  D &=& \text{ ``O aluno tem dúvida quanto a resposta correta.''} \\
+  N &=& \text{ ``O aluno não sabe a resposta correta.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(A) = P(A|C)P(C)+P(A|D)P(D)+P(A|N)P(N) = 1 \times 0.12 + 0.36\times0.33+0.2\times0.55 = 0.349.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma questão de múltipla escolha com 5 alternativas. Suponha
+  que um aluno pode ter certeza da resposta correta com probabilidade de
+  \(15\%\), ter dúvida quanto a resposta correta com probabilidade de
+  \(44\%\) ou não ter nenhuma ideia da resposta correta com
+  probabilidade de \(41\%\). Ao ter certeza, o aluno sempre acerta a
+  questão, enquanto que no caso de dúvida ele acerta com probabilidade
+  de \(39\%\) e, sem saber, ele faz uma escolha aleatória. Qual a
+  probabilidade do aluno acertar a questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.322\)
+  \item
+    \(0.530\)
+  \item
+    \(0.424\)
+  \item
+    \(0.404\)
+  \item
+    \(0.333\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  C &=& \text{ ``O aluno tem certeza da resposta correta.''} \\
+  D &=& \text{ ``O aluno tem dúvida quanto a resposta correta.''} \\
+  N &=& \text{ ``O aluno não sabe a resposta correta.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(A) = P(A|C)P(C)+P(A|D)P(D)+P(A|N)P(N) = 1 \times 0.15 + 0.39\times0.44+0.2\times0.41 = 0.404.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma questão de múltipla escolha com 5 alternativas. Suponha
+  que um aluno pode ter certeza da resposta correta com probabilidade de
+  \(13\%\), ter dúvida quanto a resposta correta com probabilidade de
+  \(26\%\) ou não ter nenhuma ideia da resposta correta com
+  probabilidade de \(61\%\). Ao ter certeza, o aluno sempre acerta a
+  questão, enquanto que no caso de dúvida ele acerta com probabilidade
+  de \(38\%\) e, sem saber, ele faz uma escolha aleatória. Qual a
+  probabilidade do aluno acertar a questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.333\)
+  \item
+    \(0.229\)
+  \item
+    \(0.381\)
+  \item
+    \(0.351\)
+  \item
+    \(0.527\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  C &=& \text{ ``O aluno tem certeza da resposta correta.''} \\
+  D &=& \text{ ``O aluno tem dúvida quanto a resposta correta.''} \\
+  N &=& \text{ ``O aluno não sabe a resposta correta.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(A) = P(A|C)P(C)+P(A|D)P(D)+P(A|N)P(N) = 1 \times 0.13 + 0.38\times0.26+0.2\times0.61 = 0.351.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma questão de múltipla escolha com 5 alternativas. Suponha
+  que um aluno pode ter certeza da resposta correta com probabilidade de
+  \(21\%\), ter dúvida quanto a resposta correta com probabilidade de
+  \(42\%\) ou não ter nenhuma ideia da resposta correta com
+  probabilidade de \(37\%\). Ao ter certeza, o aluno sempre acerta a
+  questão, enquanto que no caso de dúvida ele acerta com probabilidade
+  de \(43\%\) e, sem saber, ele faz uma escolha aleatória. Qual a
+  probabilidade do aluno acertar a questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.391\)
+  \item
+    \(0.483\)
+  \item
+    \(0.543\)
+  \item
+    \(0.333\)
+  \item
+    \(0.465\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  C &=& \text{ ``O aluno tem certeza da resposta correta.''} \\
+  D &=& \text{ ``O aluno tem dúvida quanto a resposta correta.''} \\
+  N &=& \text{ ``O aluno não sabe a resposta correta.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(A) = P(A|C)P(C)+P(A|D)P(D)+P(A|N)P(N) = 1 \times 0.21 + 0.43\times0.42+0.2\times0.37 = 0.465.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma questão de múltipla escolha com 5 alternativas. Suponha
+  que um aluno pode ter certeza da resposta correta com probabilidade de
+  \(21\%\), ter dúvida quanto a resposta correta com probabilidade de
+  \(36\%\) ou não ter nenhuma ideia da resposta correta com
+  probabilidade de \(43\%\). Ao ter certeza, o aluno sempre acerta a
+  questão, enquanto que no caso de dúvida ele acerta com probabilidade
+  de \(49\%\) e, sem saber, ele faz uma escolha aleatória. Qual a
+  probabilidade do aluno acertar a questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.494\)
+  \item
+    \(0.472\)
+  \item
+    \(0.333\)
+  \item
+    \(0.386\)
+  \item
+    \(0.563\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  C &=& \text{ ``O aluno tem certeza da resposta correta.''} \\
+  D &=& \text{ ``O aluno tem dúvida quanto a resposta correta.''} \\
+  N &=& \text{ ``O aluno não sabe a resposta correta.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(A) = P(A|C)P(C)+P(A|D)P(D)+P(A|N)P(N) = 1 \times 0.21 + 0.49\times0.36+0.2\times0.43 = 0.472.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma questão de múltipla escolha com 5 alternativas. Suponha
+  que um aluno pode ter certeza da resposta correta com probabilidade de
+  \(11\%\), ter dúvida quanto a resposta correta com probabilidade de
+  \(28\%\) ou não ter nenhuma ideia da resposta correta com
+  probabilidade de \(61\%\). Ao ter certeza, o aluno sempre acerta a
+  questão, enquanto que no caso de dúvida ele acerta com probabilidade
+  de \(33\%\) e, sem saber, ele faz uma escolha aleatória. Qual a
+  probabilidade do aluno acertar a questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.510\)
+  \item
+    \(0.355\)
+  \item
+    \(0.324\)
+  \item
+    \(0.202\)
+  \item
+    \(0.333\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  C &=& \text{ ``O aluno tem certeza da resposta correta.''} \\
+  D &=& \text{ ``O aluno tem dúvida quanto a resposta correta.''} \\
+  N &=& \text{ ``O aluno não sabe a resposta correta.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(A) = P(A|C)P(C)+P(A|D)P(D)+P(A|N)P(N) = 1 \times 0.11 + 0.33\times0.28+0.2\times0.61 = 0.324.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma questão de múltipla escolha com 5 alternativas. Suponha
+  que um aluno pode ter certeza da resposta correta com probabilidade de
+  \(20\%\), ter dúvida quanto a resposta correta com probabilidade de
+  \(43\%\) ou não ter nenhuma ideia da resposta correta com
+  probabilidade de \(37\%\). Ao ter certeza, o aluno sempre acerta a
+  questão, enquanto que no caso de dúvida ele acerta com probabilidade
+  de \(30\%\) e, sem saber, ele faz uma escolha aleatória. Qual a
+  probabilidade do aluno acertar a questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.422\)
+  \item
+    \(0.333\)
+  \item
+    \(0.403\)
+  \item
+    \(0.500\)
+  \item
+    \(0.329\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  C &=& \text{ ``O aluno tem certeza da resposta correta.''} \\
+  D &=& \text{ ``O aluno tem dúvida quanto a resposta correta.''} \\
+  N &=& \text{ ``O aluno não sabe a resposta correta.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(A) = P(A|C)P(C)+P(A|D)P(D)+P(A|N)P(N) = 1 \times 0.2 + 0.3\times0.43+0.2\times0.37 = 0.403.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere uma questão de múltipla escolha com 5 alternativas. Suponha
+  que um aluno pode ter certeza da resposta correta com probabilidade de
+  \(19\%\), ter dúvida quanto a resposta correta com probabilidade de
+  \(27\%\) ou não ter nenhuma ideia da resposta correta com
+  probabilidade de \(54\%\). Ao ter certeza, o aluno sempre acerta a
+  questão, enquanto que no caso de dúvida ele acerta com probabilidade
+  de \(48\%\) e, sem saber, ele faz uma escolha aleatória. Qual a
+  probabilidade do aluno acertar a questão?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.320\)
+  \item
+    \(0.560\)
+  \item
+    \(0.333\)
+  \item
+    \(0.428\)
+  \item
+    \(0.455\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  C &=& \text{ ``O aluno tem certeza da resposta correta.''} \\
+  D &=& \text{ ``O aluno tem dúvida quanto a resposta correta.''} \\
+  N &=& \text{ ``O aluno não sabe a resposta correta.''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(A) = P(A|C)P(C)+P(A|D)P(D)+P(A|N)P(N) = 1 \times 0.19 + 0.48\times0.27+0.2\times0.54 = 0.428.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

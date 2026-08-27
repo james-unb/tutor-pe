@@ -1,0 +1,522 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um teste de laboratório é \(94\%\) efetivo em detectar o vírus do HIV
+  em um paciente portador da doença. No entanto, mesmo para um paciente
+  saudável, o teste tem uma probabilidade de \(0.6\%\) de ser positivo.
+  Se \(0.3\%\) da população atualmente possui o vírus do HIV, qual é a
+  probabilidade de uma pessoa ter a doença dado que seu resultado no
+  teste foi positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.009\)
+  \item
+    \(0.680\)
+  \item
+    \(0.940\)
+  \item
+    \(0.003\)
+  \item
+    \(0.320\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  I &=& \text{ ``O paciente é portador do vírus HIV.''}\\
+  I^c &=& \text{ ``O paciente não é portador do vírus HIV.''}\\
+  P &=& \text{ ``Resultado positivo do exame de HIV.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(I|P) &=& \dfrac{P(P|I) \times P(I)}{P(P|I) \times P(I)+ P(P|I^c)\times P(I^c)}\\
+  &=& \dfrac{0.94 \times 0.003 }
+  {0.94 \times 0.003 + 0.006 \times 0.997}\\
+  &=& 0.32.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um teste de laboratório é \(92\%\) efetivo em detectar o vírus do HIV
+  em um paciente portador da doença. No entanto, mesmo para um paciente
+  saudável, o teste tem uma probabilidade de \(0.8\%\) de ser positivo.
+  Se \(0.9\%\) da população atualmente possui o vírus do HIV, qual é a
+  probabilidade de uma pessoa ter a doença dado que seu resultado no
+  teste foi positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.008\)
+  \item
+    \(0.016\)
+  \item
+    \(0.511\)
+  \item
+    \(0.920\)
+  \item
+    \(0.489\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  I &=& \text{ ``O paciente é portador do vírus HIV.''}\\
+  I^c &=& \text{ ``O paciente não é portador do vírus HIV.''}\\
+  P &=& \text{ ``Resultado positivo do exame de HIV.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(I|P) &=& \dfrac{P(P|I) \times P(I)}{P(P|I) \times P(I)+ P(P|I^c)\times P(I^c)}\\
+  &=& \dfrac{0.92 \times 0.009 }
+  {0.92 \times 0.009 + 0.008 \times 0.991}\\
+  &=& 0.511.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um teste de laboratório é \(99\%\) efetivo em detectar o vírus do HIV
+  em um paciente portador da doença. No entanto, mesmo para um paciente
+  saudável, o teste tem uma probabilidade de \(0.2\%\) de ser positivo.
+  Se \(0.1\%\) da população atualmente possui o vírus do HIV, qual é a
+  probabilidade de uma pessoa ter a doença dado que seu resultado no
+  teste foi positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.001\)
+  \item
+    \(0.331\)
+  \item
+    \(0.669\)
+  \item
+    \(0.990\)
+  \item
+    \(0.003\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  I &=& \text{ ``O paciente é portador do vírus HIV.''}\\
+  I^c &=& \text{ ``O paciente não é portador do vírus HIV.''}\\
+  P &=& \text{ ``Resultado positivo do exame de HIV.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(I|P) &=& \dfrac{P(P|I) \times P(I)}{P(P|I) \times P(I)+ P(P|I^c)\times P(I^c)}\\
+  &=& \dfrac{0.99 \times 0.001 }
+  {0.99 \times 0.001 + 0.002 \times 0.999}\\
+  &=& 0.331.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um teste de laboratório é \(95\%\) efetivo em detectar o vírus do HIV
+  em um paciente portador da doença. No entanto, mesmo para um paciente
+  saudável, o teste tem uma probabilidade de \(0.8\%\) de ser positivo.
+  Se \(0.3\%\) da população atualmente possui o vírus do HIV, qual é a
+  probabilidade de uma pessoa ter a doença dado que seu resultado no
+  teste foi positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.263\)
+  \item
+    \(0.003\)
+  \item
+    \(0.950\)
+  \item
+    \(0.737\)
+  \item
+    \(0.011\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  I &=& \text{ ``O paciente é portador do vírus HIV.''}\\
+  I^c &=& \text{ ``O paciente não é portador do vírus HIV.''}\\
+  P &=& \text{ ``Resultado positivo do exame de HIV.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(I|P) &=& \dfrac{P(P|I) \times P(I)}{P(P|I) \times P(I)+ P(P|I^c)\times P(I^c)}\\
+  &=& \dfrac{0.95 \times 0.003 }
+  {0.95 \times 0.003 + 0.008 \times 0.997}\\
+  &=& 0.263.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um teste de laboratório é \(94\%\) efetivo em detectar o vírus do HIV
+  em um paciente portador da doença. No entanto, mesmo para um paciente
+  saudável, o teste tem uma probabilidade de \(0.4\%\) de ser positivo.
+  Se \(0.4\%\) da população atualmente possui o vírus do HIV, qual é a
+  probabilidade de uma pessoa ter a doença dado que seu resultado no
+  teste foi positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.940\)
+  \item
+    \(0.008\)
+  \item
+    \(0.514\)
+  \item
+    \(0.486\)
+  \item
+    \(0.004\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  I &=& \text{ ``O paciente é portador do vírus HIV.''}\\
+  I^c &=& \text{ ``O paciente não é portador do vírus HIV.''}\\
+  P &=& \text{ ``Resultado positivo do exame de HIV.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(I|P) &=& \dfrac{P(P|I) \times P(I)}{P(P|I) \times P(I)+ P(P|I^c)\times P(I^c)}\\
+  &=& \dfrac{0.94 \times 0.004 }
+  {0.94 \times 0.004 + 0.004 \times 0.996}\\
+  &=& 0.486.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um teste de laboratório é \(91\%\) efetivo em detectar o vírus do HIV
+  em um paciente portador da doença. No entanto, mesmo para um paciente
+  saudável, o teste tem uma probabilidade de \(0.6\%\) de ser positivo.
+  Se \(0.3\%\) da população atualmente possui o vírus do HIV, qual é a
+  probabilidade de uma pessoa ter a doença dado que seu resultado no
+  teste foi positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.910\)
+  \item
+    \(0.313\)
+  \item
+    \(0.003\)
+  \item
+    \(0.009\)
+  \item
+    \(0.687\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  I &=& \text{ ``O paciente é portador do vírus HIV.''}\\
+  I^c &=& \text{ ``O paciente não é portador do vírus HIV.''}\\
+  P &=& \text{ ``Resultado positivo do exame de HIV.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(I|P) &=& \dfrac{P(P|I) \times P(I)}{P(P|I) \times P(I)+ P(P|I^c)\times P(I^c)}\\
+  &=& \dfrac{0.91 \times 0.003 }
+  {0.91 \times 0.003 + 0.006 \times 0.997}\\
+  &=& 0.313.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um teste de laboratório é \(92\%\) efetivo em detectar o vírus do HIV
+  em um paciente portador da doença. No entanto, mesmo para um paciente
+  saudável, o teste tem uma probabilidade de \(0.6\%\) de ser positivo.
+  Se \(0.3\%\) da população atualmente possui o vírus do HIV, qual é a
+  probabilidade de uma pessoa ter a doença dado que seu resultado no
+  teste foi positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.684\)
+  \item
+    \(0.920\)
+  \item
+    \(0.316\)
+  \item
+    \(0.003\)
+  \item
+    \(0.009\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  I &=& \text{ ``O paciente é portador do vírus HIV.''}\\
+  I^c &=& \text{ ``O paciente não é portador do vírus HIV.''}\\
+  P &=& \text{ ``Resultado positivo do exame de HIV.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(I|P) &=& \dfrac{P(P|I) \times P(I)}{P(P|I) \times P(I)+ P(P|I^c)\times P(I^c)}\\
+  &=& \dfrac{0.92 \times 0.003 }
+  {0.92 \times 0.003 + 0.006 \times 0.997}\\
+  &=& 0.316.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um teste de laboratório é \(96\%\) efetivo em detectar o vírus do HIV
+  em um paciente portador da doença. No entanto, mesmo para um paciente
+  saudável, o teste tem uma probabilidade de \(0.9\%\) de ser positivo.
+  Se \(0.4\%\) da população atualmente possui o vírus do HIV, qual é a
+  probabilidade de uma pessoa ter a doença dado que seu resultado no
+  teste foi positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.700\)
+  \item
+    \(0.013\)
+  \item
+    \(0.300\)
+  \item
+    \(0.004\)
+  \item
+    \(0.960\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  I &=& \text{ ``O paciente é portador do vírus HIV.''}\\
+  I^c &=& \text{ ``O paciente não é portador do vírus HIV.''}\\
+  P &=& \text{ ``Resultado positivo do exame de HIV.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(I|P) &=& \dfrac{P(P|I) \times P(I)}{P(P|I) \times P(I)+ P(P|I^c)\times P(I^c)}\\
+  &=& \dfrac{0.96 \times 0.004 }
+  {0.96 \times 0.004 + 0.009 \times 0.996}\\
+  &=& 0.3.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um teste de laboratório é \(94\%\) efetivo em detectar o vírus do HIV
+  em um paciente portador da doença. No entanto, mesmo para um paciente
+  saudável, o teste tem uma probabilidade de \(0.8\%\) de ser positivo.
+  Se \(0.2\%\) da população atualmente possui o vírus do HIV, qual é a
+  probabilidade de uma pessoa ter a doença dado que seu resultado no
+  teste foi positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.191\)
+  \item
+    \(0.940\)
+  \item
+    \(0.002\)
+  \item
+    \(0.809\)
+  \item
+    \(0.010\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  I &=& \text{ ``O paciente é portador do vírus HIV.''}\\
+  I^c &=& \text{ ``O paciente não é portador do vírus HIV.''}\\
+  P &=& \text{ ``Resultado positivo do exame de HIV.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(I|P) &=& \dfrac{P(P|I) \times P(I)}{P(P|I) \times P(I)+ P(P|I^c)\times P(I^c)}\\
+  &=& \dfrac{0.94 \times 0.002 }
+  {0.94 \times 0.002 + 0.008 \times 0.998}\\
+  &=& 0.191.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um teste de laboratório é \(96\%\) efetivo em detectar o vírus do HIV
+  em um paciente portador da doença. No entanto, mesmo para um paciente
+  saudável, o teste tem uma probabilidade de \(0.6\%\) de ser positivo.
+  Se \(0.1\%\) da população atualmente possui o vírus do HIV, qual é a
+  probabilidade de uma pessoa ter a doença dado que seu resultado no
+  teste foi positivo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.862\)
+  \item
+    \(0.001\)
+  \item
+    \(0.960\)
+  \item
+    \(0.007\)
+  \item
+    \(0.138\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  I &=& \text{ ``O paciente é portador do vírus HIV.''}\\
+  I^c &=& \text{ ``O paciente não é portador do vírus HIV.''}\\
+  P &=& \text{ ``Resultado positivo do exame de HIV.''}
+  \end{aligned}\]
+
+  Pelo Teorema de Bayes, a probabilidade desejada é dada por
+
+  \[\begin{aligned}
+  P(I|P) &=& \dfrac{P(P|I) \times P(I)}{P(P|I) \times P(I)+ P(P|I^c)\times P(I^c)}\\
+  &=& \dfrac{0.96 \times 0.001 }
+  {0.96 \times 0.001 + 0.006 \times 0.999}\\
+  &=& 0.138.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a altura, em centímetros, de uma pessoa selecionada ao
+  acaso de uma população distribui-se normalmente. Visto que
+  \(P(X \leq 155) = 0.5\) e \(P(X \leq 150) = 0.2312\), qual é a
+  probabilidade de uma pessoa ao acaso ter altura superior a \(168\)cm?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0228\)
+  \item
+    \(0.3897\)
+  \item
+    \(0.0287\)
+  \item
+    \(0.0359\)
+  \item
+    \(0.0043\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(P(X \leq 155) = 0.5\), então a média da variável \(X\) é
+  \(E(X)=155\).\\
+  Além disso, tem-se que \(P(X \leq 150) = 0.2312\), e pela tabela da
+  distribuição Normal padrão, \(P(Z \leq -0.73) \approx 0.2312\). Então,
+  \[\frac{150-155}{\sigma} = -0.73\] Portanto,
+  \[\sigma = \frac{150-155}{-0.73} = 6.8493.\] Logo,
+  \[P(X > 168) = 1- P(Z \leq 1.9) = 0.0287.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a altura, em centímetros, de uma pessoa selecionada ao
+  acaso de uma população distribui-se normalmente. Visto que
+  \(P(X \leq 158) = 0.5\) e \(P(X \leq 150) = 0.2437\), qual é a
+  probabilidade de uma pessoa ao acaso ter altura superior a \(168\)cm?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1949\)
+  \item
+    \(0.1685\)
+  \item
+    \(0.2236\)
+  \item
+    \(0.4721\)
+  \item
+    \(0.0606\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(P(X \leq 158) = 0.5\), então a média da variável \(X\) é
+  \(E(X)=158\).\\
+  Além disso, tem-se que \(P(X \leq 150) = 0.2437\), e pela tabela da
+  distribuição Normal padrão, \(P(Z \leq -0.69) \approx 0.2437\). Então,
+  \[\frac{150-158}{\sigma} = -0.69\] Portanto,
+  \[\sigma = \frac{150-158}{-0.69} = 11.5942.\] Logo,
+  \[P(X > 168) = 1- P(Z \leq 0.86) = 0.1949.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a altura, em centímetros, de uma pessoa selecionada ao
+  acaso de uma população distribui-se normalmente. Visto que
+  \(P(X \leq 153) = 0.5\) e \(P(X \leq 147) = 0.2635\), qual é a
+  probabilidade de uma pessoa ao acaso ter altura superior a \(163\)cm?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1251\)
+  \item
+    \(0.0465\)
+  \item
+    \(0.4562\)
+  \item
+    \(0.1711\)
+  \item
+    \(0.1469\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(P(X \leq 153) = 0.5\), então a média da variável \(X\) é
+  \(E(X)=153\).\\
+  Além disso, tem-se que \(P(X \leq 147) = 0.2635\), e pela tabela da
+  distribuição Normal padrão, \(P(Z \leq -0.63) \approx 0.2635\). Então,
+  \[\frac{147-153}{\sigma} = -0.63\] Portanto,
+  \[\sigma = \frac{147-153}{-0.63} = 9.5238.\] Logo,
+  \[P(X > 163) = 1- P(Z \leq 1.05) = 0.1469.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a altura, em centímetros, de uma pessoa selecionada ao
+  acaso de uma população distribui-se normalmente. Visto que
+  \(P(X \leq 156) = 0.5\) e \(P(X \leq 147) = 0.2371\), qual é a
+  probabilidade de uma pessoa ao acaso ter altura superior a \(165\)cm?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2061\)
+  \item
+    \(0.2676\)
+  \item
+    \(0.2358\)
+  \item
+    \(0.4761\)
+  \item
+    \(0.0749\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(P(X \leq 156) = 0.5\), então a média da variável \(X\) é
+  \(E(X)=156\).\\
+  Além disso, tem-se que \(P(X \leq 147) = 0.2371\), e pela tabela da
+  distribuição Normal padrão, \(P(Z \leq -0.72) \approx 0.2371\). Então,
+  \[\frac{147-156}{\sigma} = -0.72\] Portanto,
+  \[\sigma = \frac{147-156}{-0.72} = 12.5.\] Logo,
+  \[P(X > 165) = 1- P(Z \leq 0.72) = 0.2358.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a altura, em centímetros, de uma pessoa selecionada ao
+  acaso de uma população distribui-se normalmente. Visto que
+  \(P(X \leq 151) = 0.5\) e \(P(X \leq 143) = 0.243\), qual é a
+  probabilidade de uma pessoa ao acaso ter altura superior a \(164\)cm?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1492\)
+  \item
+    \(0.1075\)
+  \item
+    \(0.4602\)
+  \item
+    \(0.1271\)
+  \item
+    \(0.0329\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(P(X \leq 151) = 0.5\), então a média da variável \(X\) é
+  \(E(X)=151\).\\
+  Além disso, tem-se que \(P(X \leq 143) = 0.243\), e pela tabela da
+  distribuição Normal padrão, \(P(Z \leq -0.7) \approx 0.243\). Então,
+  \[\frac{143-151}{\sigma} = -0.7\] Portanto,
+  \[\sigma = \frac{143-151}{-0.7} = 11.4286.\] Logo,
+  \[P(X > 164) = 1- P(Z \leq 1.14) = 0.1271.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a altura, em centímetros, de uma pessoa selecionada ao
+  acaso de uma população distribui-se normalmente. Visto que
+  \(P(X \leq 156) = 0.5\) e \(P(X \leq 148) = 0.222\), qual é a
+  probabilidade de uma pessoa ao acaso ter altura superior a \(168\)cm?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1469\)
+  \item
+    \(0.1038\)
+  \item
+    \(0.4562\)
+  \item
+    \(0.1230\)
+  \item
+    \(0.0268\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(P(X \leq 156) = 0.5\), então a média da variável \(X\) é
+  \(E(X)=156\).\\
+  Além disso, tem-se que \(P(X \leq 148) = 0.222\), e pela tabela da
+  distribuição Normal padrão, \(P(Z \leq -0.77) \approx 0.222\). Então,
+  \[\frac{148-156}{\sigma} = -0.77\] Portanto,
+  \[\sigma = \frac{148-156}{-0.77} = 10.3896.\] Logo,
+  \[P(X > 168) = 1- P(Z \leq 1.16) = 0.123.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a altura, em centímetros, de uma pessoa selecionada ao
+  acaso de uma população distribui-se normalmente. Visto que
+  \(P(X \leq 159) = 0.5\) e \(P(X \leq 151) = 0.2248\), qual é a
+  probabilidade de uma pessoa ao acaso ter altura superior a \(164\)cm?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1093\)
+  \item
+    \(0.2810\)
+  \item
+    \(0.3520\)
+  \item
+    \(0.3156\)
+  \item
+    \(0.4801\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(P(X \leq 159) = 0.5\), então a média da variável \(X\) é
+  \(E(X)=159\).\\
+  Além disso, tem-se que \(P(X \leq 151) = 0.2248\), e pela tabela da
+  distribuição Normal padrão, \(P(Z \leq -0.76) \approx 0.2248\). Então,
+  \[\frac{151-159}{\sigma} = -0.76\] Portanto,
+  \[\sigma = \frac{151-159}{-0.76} = 10.5263.\] Logo,
+  \[P(X > 164) = 1- P(Z \leq 0.48) = 0.3156.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a altura, em centímetros, de uma pessoa selecionada ao
+  acaso de uma população distribui-se normalmente. Visto que
+  \(P(X \leq 159) = 0.5\) e \(P(X \leq 153) = 0.2775\), qual é a
+  probabilidade de uma pessoa ao acaso ter altura superior a \(166\)cm?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2148\)
+  \item
+    \(0.2776\)
+  \item
+    \(0.2451\)
+  \item
+    \(0.1003\)
+  \item
+    \(0.4721\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(P(X \leq 159) = 0.5\), então a média da variável \(X\) é
+  \(E(X)=159\).\\
+  Além disso, tem-se que \(P(X \leq 153) = 0.2775\), e pela tabela da
+  distribuição Normal padrão, \(P(Z \leq -0.59) \approx 0.2775\). Então,
+  \[\frac{153-159}{\sigma} = -0.59\] Portanto,
+  \[\sigma = \frac{153-159}{-0.59} = 10.1695.\] Logo,
+  \[P(X > 166) = 1- P(Z \leq 0.69) = 0.2451.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a altura, em centímetros, de uma pessoa selecionada ao
+  acaso de uma população distribui-se normalmente. Visto que
+  \(P(X \leq 155) = 0.5\) e \(P(X \leq 150) = 0.2558\), qual é a
+  probabilidade de uma pessoa ao acaso ter altura superior a \(168\)cm?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0427\)
+  \item
+    \(0.0526\)
+  \item
+    \(0.4090\)
+  \item
+    \(0.0344\)
+  \item
+    \(0.0087\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(P(X \leq 155) = 0.5\), então a média da variável \(X\) é
+  \(E(X)=155\).\\
+  Além disso, tem-se que \(P(X \leq 150) = 0.2558\), e pela tabela da
+  distribuição Normal padrão, \(P(Z \leq -0.66) \approx 0.2558\). Então,
+  \[\frac{150-155}{\sigma} = -0.66\] Portanto,
+  \[\sigma = \frac{150-155}{-0.66} = 7.5758.\] Logo,
+  \[P(X > 168) = 1- P(Z \leq 1.72) = 0.0427.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a altura, em centímetros, de uma pessoa selecionada ao
+  acaso de uma população distribui-se normalmente. Visto que
+  \(P(X \leq 151) = 0.5\) e \(P(X \leq 141) = 0.2339\), qual é a
+  probabilidade de uma pessoa ao acaso ter altura superior a \(165\)cm?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0401\)
+  \item
+    \(0.1314\)
+  \item
+    \(0.4721\)
+  \item
+    \(0.1788\)
+  \item
+    \(0.1539\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Visto que \(P(X \leq 151) = 0.5\), então a média da variável \(X\) é
+  \(E(X)=151\).\\
+  Além disso, tem-se que \(P(X \leq 141) = 0.2339\), e pela tabela da
+  distribuição Normal padrão, \(P(Z \leq -0.73) \approx 0.2339\). Então,
+  \[\frac{141-151}{\sigma} = -0.73\] Portanto,
+  \[\sigma = \frac{141-151}{-0.73} = 13.6986.\] Logo,
+  \[P(X > 165) = 1- P(Z \leq 1.02) = 0.1539.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

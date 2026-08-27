@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A temperatura com que um meteorito atinge o solo é uma variável
+  aleatória com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          x^{3},  &  0 \leq x <1,\\
+          1,  &  x \geq 1.
+        \end{array}
+      \right.
+  \end{aligned}\] Segundo esse modelo, qual é a proporção de meteoritos
+  que atingem o solo com temperatura entre \(0.4\) e \(1.5\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.729\)
+  \item
+    \(0.917\)
+  \item
+    \(0.936\)
+  \item
+    \(0.064\)
+  \item
+    \(0.512\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(0.4 \leq X \leq 1.5)= F(1.5)-F(0.4)=0.936.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A temperatura com que um meteorito atinge o solo é uma variável
+  aleatória com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          x^{3},  &  0 \leq x <1,\\
+          1,  &  x \geq 1.
+        \end{array}
+      \right.
+  \end{aligned}\] Segundo esse modelo, qual é a proporção de meteoritos
+  que atingem o solo com temperatura entre \(0.5\) e \(1.5\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.875\)
+  \item
+    \(0.857\)
+  \item
+    \(0.125\)
+  \item
+    \(0.512\)
+  \item
+    \(0.729\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(0.5 \leq X \leq 1.5)= F(1.5)-F(0.5)=0.875.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A temperatura com que um meteorito atinge o solo é uma variável
+  aleatória com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          x^{3},  &  0 \leq x <1,\\
+          1,  &  x \geq 1.
+        \end{array}
+      \right.
+  \end{aligned}\] Segundo esse modelo, qual é a proporção de meteoritos
+  que atingem o solo com temperatura entre \(0.5\) e \(1.6\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.857\)
+  \item
+    \(0.875\)
+  \item
+    \(0.729\)
+  \item
+    \(0.512\)
+  \item
+    \(0.125\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(0.5 \leq X \leq 1.6)= F(1.6)-F(0.5)=0.875.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A temperatura com que um meteorito atinge o solo é uma variável
+  aleatória com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          x^{3},  &  0 \leq x <1,\\
+          1,  &  x \geq 1.
+        \end{array}
+      \right.
+  \end{aligned}\] Segundo esse modelo, qual é a proporção de meteoritos
+  que atingem o solo com temperatura entre \(0.5\) e \(1.4\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.857\)
+  \item
+    \(0.729\)
+  \item
+    \(0.512\)
+  \item
+    \(0.875\)
+  \item
+    \(0.125\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(0.5 \leq X \leq 1.4)= F(1.4)-F(0.5)=0.875.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A temperatura com que um meteorito atinge o solo é uma variável
+  aleatória com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          x^{3},  &  0 \leq x <1,\\
+          1,  &  x \geq 1.
+        \end{array}
+      \right.
+  \end{aligned}\] Segundo esse modelo, qual é a proporção de meteoritos
+  que atingem o solo com temperatura entre \(0.4\) e \(1.5\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.917\)
+  \item
+    \(0.936\)
+  \item
+    \(0.064\)
+  \item
+    \(0.512\)
+  \item
+    \(0.729\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(0.4 \leq X \leq 1.5)= F(1.5)-F(0.4)=0.936.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A temperatura com que um meteorito atinge o solo é uma variável
+  aleatória com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          x^{3},  &  0 \leq x <1,\\
+          1,  &  x \geq 1.
+        \end{array}
+      \right.
+  \end{aligned}\] Segundo esse modelo, qual é a proporção de meteoritos
+  que atingem o solo com temperatura entre \(0.5\) e \(1.5\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.125\)
+  \item
+    \(0.857\)
+  \item
+    \(0.512\)
+  \item
+    \(0.729\)
+  \item
+    \(0.875\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(0.5 \leq X \leq 1.5)= F(1.5)-F(0.5)=0.875.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A temperatura com que um meteorito atinge o solo é uma variável
+  aleatória com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          x^{3},  &  0 \leq x <1,\\
+          1,  &  x \geq 1.
+        \end{array}
+      \right.
+  \end{aligned}\] Segundo esse modelo, qual é a proporção de meteoritos
+  que atingem o solo com temperatura entre \(0.4\) e \(1.5\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.064\)
+  \item
+    \(0.917\)
+  \item
+    \(0.512\)
+  \item
+    \(0.729\)
+  \item
+    \(0.936\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(0.4 \leq X \leq 1.5)= F(1.5)-F(0.4)=0.936.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A temperatura com que um meteorito atinge o solo é uma variável
+  aleatória com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          x^{3},  &  0 \leq x <1,\\
+          1,  &  x \geq 1.
+        \end{array}
+      \right.
+  \end{aligned}\] Segundo esse modelo, qual é a proporção de meteoritos
+  que atingem o solo com temperatura entre \(0.4\) e \(1.4\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.512\)
+  \item
+    \(0.917\)
+  \item
+    \(0.729\)
+  \item
+    \(0.064\)
+  \item
+    \(0.936\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(0.4 \leq X \leq 1.4)= F(1.4)-F(0.4)=0.936.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A temperatura com que um meteorito atinge o solo é uma variável
+  aleatória com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          x^{3},  &  0 \leq x <1,\\
+          1,  &  x \geq 1.
+        \end{array}
+      \right.
+  \end{aligned}\] Segundo esse modelo, qual é a proporção de meteoritos
+  que atingem o solo com temperatura entre \(0.6\) e \(1.5\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.216\)
+  \item
+    \(0.729\)
+  \item
+    \(0.768\)
+  \item
+    \(0.784\)
+  \item
+    \(0.512\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(0.6 \leq X \leq 1.5)= F(1.5)-F(0.6)=0.784.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A temperatura com que um meteorito atinge o solo é uma variável
+  aleatória com função de distribuição acumulada \[\begin{aligned}
+  F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          x^{3},  &  0 \leq x <1,\\
+          1,  &  x \geq 1.
+        \end{array}
+      \right.
+  \end{aligned}\] Segundo esse modelo, qual é a proporção de meteoritos
+  que atingem o solo com temperatura entre \(0.5\) e \(1.5\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.857\)
+  \item
+    \(0.875\)
+  \item
+    \(0.729\)
+  \item
+    \(0.125\)
+  \item
+    \(0.512\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(0.5 \leq X \leq 1.5)= F(1.5)-F(0.5)=0.875.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

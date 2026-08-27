@@ -1,0 +1,412 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte uma
+  cesta em um lance livre seja 0.91, e que os lances sejam
+  independentes. Considere que o jogador continue nos lançamentos até
+  que cometa um erro. Qual é a probabilidade de que no seu 6ª ou 3ª
+  lance livre ele cometa o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1356\)
+  \item
+    \(0.1189\)
+  \item
+    \(0.0511\)
+  \item
+    \(0.0678\)
+  \item
+    \(0.1307\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.09)\) o número de lances livres do jogador até
+  cometer o primeiro erro ("sucesso"). Então, somando-se ambas as
+  probabilidades, tem-se:
+  \[P(X=6) + P(X=3)= 0.09\times(0.91)^{5} + 0.09\times(0.91)^{2} =0.130691893059.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte uma
+  cesta em um lance livre seja 0.85, e que os lances sejam
+  independentes. Considere que o jogador continue nos lançamentos até
+  que cometa um erro. Qual é a probabilidade de que no seu 6ª ou 2ª
+  lance livre ele cometa o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1649\)
+  \item
+    \(0.1941\)
+  \item
+    \(0.1084\)
+  \item
+    \(0.0566\)
+  \item
+    \(0.2168\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.15)\) o número de lances livres do jogador até
+  cometer o primeiro erro ("sucesso"). Então, somando-se ambas as
+  probabilidades, tem-se:
+  \[P(X=6) + P(X=2)= 0.15\times(0.85)^{5} + 0.15\times(0.85)^{1} =0.194055796875.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte uma
+  cesta em um lance livre seja 0.92, e que os lances sejam
+  independentes. Considere que o jogador continue nos lançamentos até
+  que cometa um erro. Qual é a probabilidade de que no seu 5ª ou 3ª
+  lance livre ele cometa o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1246\)
+  \item
+    \(0.0623\)
+  \item
+    \(0.1250\)
+  \item
+    \(0.0527\)
+  \item
+    \(0.1150\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.08)\) o número de lances livres do jogador até
+  cometer o primeiro erro ("sucesso"). Então, somando-se ambas as
+  probabilidades, tem-se:
+  \[P(X=5) + P(X=3)= 0.08\times(0.92)^{4} + 0.08\times(0.92)^{2} =0.1250234368.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte uma
+  cesta em um lance livre seja 0.88, e que os lances sejam
+  independentes. Considere que o jogador continue nos lançamentos até
+  que cometa um erro. Qual é a probabilidade de que no seu 6ª ou 2ª
+  lance livre ele cometa o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0929\)
+  \item
+    \(0.1487\)
+  \item
+    \(0.1689\)
+  \item
+    \(0.1859\)
+  \item
+    \(0.0557\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.12)\) o número de lances livres do jogador até
+  cometer o primeiro erro ("sucesso"). Então, somando-se ambas as
+  probabilidades, tem-se:
+  \[P(X=6) + P(X=2)= 0.12\times(0.88)^{5} + 0.12\times(0.88)^{1} =0.168927830016.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte uma
+  cesta em um lance livre seja 0.86, e que os lances sejam
+  independentes. Considere que o jogador continue nos lançamentos até
+  que cometa um erro. Qual é a probabilidade de que no seu 6ª ou 4ª
+  lance livre ele cometa o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1332\)
+  \item
+    \(0.1549\)
+  \item
+    \(0.0566\)
+  \item
+    \(0.1532\)
+  \item
+    \(0.0766\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.14)\) o número de lances livres do jogador até
+  cometer o primeiro erro ("sucesso"). Então, somando-se ambas as
+  probabilidades, tem-se:
+  \[P(X=6) + P(X=4)= 0.14\times(0.86)^{5} + 0.14\times(0.86)^{3} =0.154907622464.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte uma
+  cesta em um lance livre seja 0.89, e que os lances sejam
+  independentes. Considere que o jogador continue nos lançamentos até
+  que cometa um erro. Qual é a probabilidade de que no seu 5ª ou 3ª
+  lance livre ele cometa o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1551\)
+  \item
+    \(0.0775\)
+  \item
+    \(0.1561\)
+  \item
+    \(0.0614\)
+  \item
+    \(0.1390\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.11)\) o número de lances livres do jogador até
+  cometer o primeiro erro ("sucesso"). Então, somando-se ambas as
+  probabilidades, tem-se:
+  \[P(X=5) + P(X=3)= 0.11\times(0.89)^{4} + 0.11\times(0.89)^{2} =0.1561474651.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte uma
+  cesta em um lance livre seja 0.86, e que os lances sejam
+  independentes. Considere que o jogador continue nos lançamentos até
+  que cometa um erro. Qual é a probabilidade de que no seu 6ª ou 3ª
+  lance livre ele cometa o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1457\)
+  \item
+    \(0.1694\)
+  \item
+    \(0.0566\)
+  \item
+    \(0.1781\)
+  \item
+    \(0.0890\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.14)\) o número de lances livres do jogador até
+  cometer o primeiro erro ("sucesso"). Então, somando-se ambas as
+  probabilidades, tem-se:
+  \[P(X=6) + P(X=3)= 0.14\times(0.86)^{5} + 0.14\times(0.86)^{2} =0.169403782464.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte uma
+  cesta em um lance livre seja 0.88, e que os lances sejam
+  independentes. Considere que o jogador continue nos lançamentos até
+  que cometa um erro. Qual é a probabilidade de que no seu 5ª ou 2ª
+  lance livre ele cometa o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1776\)
+  \item
+    \(0.0633\)
+  \item
+    \(0.1859\)
+  \item
+    \(0.0929\)
+  \item
+    \(0.1563\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.12)\) o número de lances livres do jogador até
+  cometer o primeiro erro ("sucesso"). Então, somando-se ambas as
+  probabilidades, tem-se:
+  \[P(X=5) + P(X=2)= 0.12\times(0.88)^{4} + 0.12\times(0.88)^{1} =0.1775634432.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte uma
+  cesta em um lance livre seja 0.94, e que os lances sejam
+  independentes. Considere que o jogador continue nos lançamentos até
+  que cometa um erro. Qual é a probabilidade de que no seu 5ª ou 3ª
+  lance livre ele cometa o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0997\)
+  \item
+    \(0.0999\)
+  \item
+    \(0.0939\)
+  \item
+    \(0.0498\)
+  \item
+    \(0.0440\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.06)\) o número de lances livres do jogador até
+  cometer o primeiro erro ("sucesso"). Então, somando-se ambas as
+  probabilidades, tem-se:
+  \[P(X=5) + P(X=3)= 0.06\times(0.94)^{4} + 0.06\times(0.94)^{2} =0.0998609376.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a probabilidade de que um jogador de basquete acerte uma
+  cesta em um lance livre seja 0.95, e que os lances sejam
+  independentes. Considere que o jogador continue nos lançamentos até
+  que cometa um erro. Qual é a probabilidade de que no seu 5ª ou 4ª
+  lance livre ele cometa o primeiro erro?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0836\)
+  \item
+    \(0.0407\)
+  \item
+    \(0.0387\)
+  \item
+    \(0.0815\)
+  \item
+    \(0.0794\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\sim Geo(0.05)\) o número de lances livres do jogador até
+  cometer o primeiro erro ("sucesso"). Então, somando-se ambas as
+  probabilidades, tem-se:
+  \[P(X=5) + P(X=4)= 0.05\times(0.95)^{4} + 0.05\times(0.95)^{3} =0.0835940625.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

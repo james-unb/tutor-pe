@@ -1,0 +1,461 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 19 alunos de um curso pré-vestibular
+  apresentou média amostral de horas de estudo semanais de \(36\), com
+  desvio padrão amostral de \(10.48\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de estudo dos alunos desse curso com confiança
+  de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([34.577, 37.423]\)
+  \item
+    \([29.080, 42.920]\)
+  \item
+    \([34.412, 37.588]\)
+  \item
+    \([34.270, 37.730]\)
+  \item
+    \([29.797, 42.203]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[36-2.8784\times\frac{10.48}{\sqrt{19}} \ , \ 36+2.8784\times\frac{10.48}{\sqrt{19}}\right]\\
+  &=&\text{$[29.080, 42.920]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 18 alunos de um curso pré-vestibular
+  apresentou média amostral de horas de estudo semanais de \(31\), com
+  desvio padrão amostral de \(10.22\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de estudo dos alunos desse curso com confiança
+  de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([29.887, 32.113]\)
+  \item
+    \([29.802, 32.198]\)
+  \item
+    \([29.764, 32.236]\)
+  \item
+    \([25.918, 36.082]\)
+  \item
+    \([26.279, 35.721]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[31-2.1098\times\frac{10.22}{\sqrt{18}} \ , \ 31+2.1098\times\frac{10.22}{\sqrt{18}}\right]\\
+  &=&\text{$[25.918, 36.082]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 15 alunos de um curso pré-vestibular
+  apresentou média amostral de horas de estudo semanais de \(35\), com
+  desvio padrão amostral de \(11.13\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de estudo dos alunos desse curso com confiança
+  de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([33.546, 36.454]\)
+  \item
+    \([33.409, 36.591]\)
+  \item
+    \([28.836, 41.164]\)
+  \item
+    \([33.587, 36.413]\)
+  \item
+    \([29.367, 40.633]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[35-2.1448\times\frac{11.13}{\sqrt{15}} \ , \ 35+2.1448\times\frac{11.13}{\sqrt{15}}\right]\\
+  &=&\text{$[28.836, 41.164]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 21 alunos de um curso pré-vestibular
+  apresentou média amostral de horas de estudo semanais de \(39\), com
+  desvio padrão amostral de \(13.7\). Com base nas informações, assinale
+  a alternativa correspondente ao intervalo de confiança para o número
+  médio de horas de estudo dos alunos desse curso com confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([37.144, 40.856]\)
+  \item
+    \([30.494, 47.506]\)
+  \item
+    \([37.317, 40.683]\)
+  \item
+    \([37.118, 40.882]\)
+  \item
+    \([31.287, 46.713]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[39-2.8453\times\frac{13.7}{\sqrt{21}} \ , \ 39+2.8453\times\frac{13.7}{\sqrt{21}}\right]\\
+  &=&\text{$[30.494, 47.506]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 22 alunos de um curso pré-vestibular
+  apresentou média amostral de horas de estudo semanais de \(39\), com
+  desvio padrão amostral de \(11.21\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de estudo dos alunos desse curso com confiança
+  de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([35.080, 42.920]\)
+  \item
+    \([38.123, 39.877]\)
+  \item
+    \([38.086, 39.914]\)
+  \item
+    \([38.164, 39.836]\)
+  \item
+    \([34.888, 43.112]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[39-1.7207\times\frac{11.21}{\sqrt{22}} \ , \ 39+1.7207\times\frac{11.21}{\sqrt{22}}\right]\\
+  &=&\text{$[34.888, 43.112]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 23 alunos de um curso pré-vestibular
+  apresentou média amostral de horas de estudo semanais de \(30\), com
+  desvio padrão amostral de \(12.46\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de estudo dos alunos desse curso com confiança
+  de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([29.070, 30.930]\)
+  \item
+    \([25.539, 34.461]\)
+  \item
+    \([29.058, 30.942]\)
+  \item
+    \([29.112, 30.888]\)
+  \item
+    \([25.739, 34.261]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[30-1.7171\times\frac{12.46}{\sqrt{23}} \ , \ 30+1.7171\times\frac{12.46}{\sqrt{23}}\right]\\
+  &=&\text{$[25.539, 34.461]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 15 alunos de um curso pré-vestibular
+  apresentou média amostral de horas de estudo semanais de \(38\), com
+  desvio padrão amostral de \(11.44\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de estudo dos alunos desse curso com confiança
+  de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([29.207, 46.793]\)
+  \item
+    \([35.730, 40.270]\)
+  \item
+    \([36.032, 39.968]\)
+  \item
+    \([30.379, 45.621]\)
+  \item
+    \([35.965, 40.035]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[38-2.9768\times\frac{11.44}{\sqrt{15}} \ , \ 38+2.9768\times\frac{11.44}{\sqrt{15}}\right]\\
+  &=&\text{$[29.207, 46.793]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 20 alunos de um curso pré-vestibular
+  apresentou média amostral de horas de estudo semanais de \(32\), com
+  desvio padrão amostral de \(14.61\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de estudo dos alunos desse curso com confiança
+  de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([23.571, 40.429]\)
+  \item
+    \([30.009, 33.991]\)
+  \item
+    \([30.115, 33.885]\)
+  \item
+    \([29.910, 34.090]\)
+  \item
+    \([22.654, 41.346]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[32-2.8609\times\frac{14.61}{\sqrt{20}} \ , \ 32+2.8609\times\frac{14.61}{\sqrt{20}}\right]\\
+  &=&\text{$[22.654, 41.346]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 22 alunos de um curso pré-vestibular
+  apresentou média amostral de horas de estudo semanais de \(34\), com
+  desvio padrão amostral de \(11.91\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de estudo dos alunos desse curso com confiança
+  de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([29.836, 38.164]\)
+  \item
+    \([29.631, 38.369]\)
+  \item
+    \([33.068, 34.932]\)
+  \item
+    \([33.112, 34.888]\)
+  \item
+    \([33.058, 34.942]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[34-1.7207\times\frac{11.91}{\sqrt{22}} \ , \ 34+1.7207\times\frac{11.91}{\sqrt{22}}\right]\\
+  &=&\text{$[29.631, 38.369]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma amostra aleatória de 19 alunos de um curso pré-vestibular
+  apresentou média amostral de horas de estudo semanais de \(34\), com
+  desvio padrão amostral de \(12.46\). Com base nas informações,
+  assinale a alternativa correspondente ao intervalo de confiança para o
+  número médio de horas de estudo dos alunos desse curso com confiança
+  de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([27.995, 40.005]\)
+  \item
+    \([32.715, 35.285]\)
+  \item
+    \([28.397, 39.603]\)
+  \item
+    \([32.672, 35.328]\)
+  \item
+    \([32.622, 35.378]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[34-2.1009\times\frac{12.46}{\sqrt{19}} \ , \ 34+2.1009\times\frac{12.46}{\sqrt{19}}\right]\\
+  &=&\text{$[27.995, 40.005]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

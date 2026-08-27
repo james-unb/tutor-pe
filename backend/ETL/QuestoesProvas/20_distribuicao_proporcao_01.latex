@@ -1,0 +1,412 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunos com nota superior à média em um
+  determinado curso de uma universidade seja de \(0.49\). Se uma amostra
+  de \(30\) alunos for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de notas superiores à média seja
+  menor que \(0.48\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.492\)
+  \item
+    \(0.484\)
+  \item
+    \(0.115\)
+  \item
+    \(0.456\)
+  \item
+    \(0.932\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.49\) e
+  \(\sigma = \sqrt{\frac{0.49\times0.51}{30}}\), temos que
+  \[P\left(\hat{p}<0.48\right) = P\left(\frac{\hat{p}-0.49}{\sqrt{\frac{0.49\times0.51}{30}}}<\frac{0.48-0.49}{\sqrt{\frac{0.49\times0.51}{30}}}\right) = P\left(Z<-0.11\right) = 0.456.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunos com nota superior à média em um
+  determinado curso de uma universidade seja de \(0.96\). Se uma amostra
+  de \(37\) alunos for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de notas superiores à média seja
+  menor que \(0.94\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.956\)
+  \item
+    \(0.000\)
+  \item
+    \(0.302\)
+  \item
+    \(0.268\)
+  \item
+    \(0.460\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.96\) e
+  \(\sigma = \sqrt{\frac{0.96\times0.04}{37}}\), temos que
+  \[P\left(\hat{p}<0.94\right) = P\left(\frac{\hat{p}-0.96}{\sqrt{\frac{0.96\times0.04}{37}}}<\frac{0.94-0.96}{\sqrt{\frac{0.96\times0.04}{37}}}\right) = P\left(Z<-0.62\right) = 0.268.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunos com nota superior à média em um
+  determinado curso de uma universidade seja de \(0.59\). Se uma amostra
+  de \(47\) alunos for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de notas superiores à média seja
+  menor que \(0.58\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.444\)
+  \item
+    \(0.492\)
+  \item
+    \(0.026\)
+  \item
+    \(0.579\)
+  \item
+    \(0.484\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.59\) e
+  \(\sigma = \sqrt{\frac{0.59\times0.41}{47}}\), temos que
+  \[P\left(\hat{p}<0.58\right) = P\left(\frac{\hat{p}-0.59}{\sqrt{\frac{0.59\times0.41}{47}}}<\frac{0.58-0.59}{\sqrt{\frac{0.59\times0.41}{47}}}\right) = P\left(Z<-0.14\right) = 0.444.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunos com nota superior à média em um
+  determinado curso de uma universidade seja de \(0.59\). Se uma amostra
+  de \(31\) alunos for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de notas superiores à média seja
+  menor que \(0.58\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.100\)
+  \item
+    \(0.152\)
+  \item
+    \(0.456\)
+  \item
+    \(0.492\)
+  \item
+    \(0.484\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.59\) e
+  \(\sigma = \sqrt{\frac{0.59\times0.41}{31}}\), temos que
+  \[P\left(\hat{p}<0.58\right) = P\left(\frac{\hat{p}-0.59}{\sqrt{\frac{0.59\times0.41}{31}}}<\frac{0.58-0.59}{\sqrt{\frac{0.59\times0.41}{31}}}\right) = P\left(Z<-0.11\right) = 0.456.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunos com nota superior à média em um
+  determinado curso de uma universidade seja de \(0.43\). Se uma amostra
+  de \(44\) alunos for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de notas superiores à média seja
+  menor que \(0.42\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.484\)
+  \item
+    \(0.955\)
+  \item
+    \(0.492\)
+  \item
+    \(0.448\)
+  \item
+    \(0.036\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.43\) e
+  \(\sigma = \sqrt{\frac{0.43\times0.57}{44}}\), temos que
+  \[P\left(\hat{p}<0.42\right) = P\left(\frac{\hat{p}-0.43}{\sqrt{\frac{0.43\times0.57}{44}}}<\frac{0.42-0.43}{\sqrt{\frac{0.43\times0.57}{44}}}\right) = P\left(Z<-0.13\right) = 0.448.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunos com nota superior à média em um
+  determinado curso de uma universidade seja de \(0.25\). Se uma amostra
+  de \(39\) alunos for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de notas superiores à média seja
+  menor que \(0.24\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.444\)
+  \item
+    \(0.019\)
+  \item
+    \(0.155\)
+  \item
+    \(0.492\)
+  \item
+    \(0.480\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.25\) e
+  \(\sigma = \sqrt{\frac{0.25\times0.75}{39}}\), temos que
+  \[P\left(\hat{p}<0.24\right) = P\left(\frac{\hat{p}-0.25}{\sqrt{\frac{0.25\times0.75}{39}}}<\frac{0.24-0.25}{\sqrt{\frac{0.25\times0.75}{39}}}\right) = P\left(Z<-0.14\right) = 0.444.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunos com nota superior à média em um
+  determinado curso de uma universidade seja de \(0.68\). Se uma amostra
+  de \(46\) alunos for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de notas superiores à média seja
+  menor que \(0.67\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.480\)
+  \item
+    \(0.492\)
+  \item
+    \(0.017\)
+  \item
+    \(0.101\)
+  \item
+    \(0.440\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.68\) e
+  \(\sigma = \sqrt{\frac{0.68\times0.32}{46}}\), temos que
+  \[P\left(\hat{p}<0.67\right) = P\left(\frac{\hat{p}-0.68}{\sqrt{\frac{0.68\times0.32}{46}}}<\frac{0.67-0.68}{\sqrt{\frac{0.68\times0.32}{46}}}\right) = P\left(Z<-0.15\right) = 0.44.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunos com nota superior à média em um
+  determinado curso de uma universidade seja de \(0.51\). Se uma amostra
+  de \(39\) alunos for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de notas superiores à média seja
+  menor que \(0.5\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.597\)
+  \item
+    \(0.452\)
+  \item
+    \(0.492\)
+  \item
+    \(0.059\)
+  \item
+    \(0.484\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.51\) e
+  \(\sigma = \sqrt{\frac{0.51\times0.49}{39}}\), temos que
+  \[P\left(\hat{p}<0.5\right) = P\left(\frac{\hat{p}-0.51}{\sqrt{\frac{0.51\times0.49}{39}}}<\frac{0.5-0.51}{\sqrt{\frac{0.51\times0.49}{39}}}\right) = P\left(Z<-0.12\right) = 0.452.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunos com nota superior à média em um
+  determinado curso de uma universidade seja de \(0.32\). Se uma amostra
+  de \(32\) alunos for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de notas superiores à média seja
+  menor que \(0.31\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.071\)
+  \item
+    \(0.492\)
+  \item
+    \(0.125\)
+  \item
+    \(0.452\)
+  \item
+    \(0.480\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.32\) e
+  \(\sigma = \sqrt{\frac{0.32\times0.68}{32}}\), temos que
+  \[P\left(\hat{p}<0.31\right) = P\left(\frac{\hat{p}-0.32}{\sqrt{\frac{0.32\times0.68}{32}}}<\frac{0.31-0.32}{\sqrt{\frac{0.32\times0.68}{32}}}\right) = P\left(Z<-0.12\right) = 0.452.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que a proporção de alunos com nota superior à média em um
+  determinado curso de uma universidade seja de \(0.94\). Se uma amostra
+  de \(45\) alunos for selecionada de forma aleatória, qual a
+  probabilidade de que a proporção de notas superiores à média seja
+  menor que \(0.92\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.000\)
+  \item
+    \(0.363\)
+  \item
+    \(0.468\)
+  \item
+    \(0.538\)
+  \item
+    \(0.288\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.94\) e
+  \(\sigma = \sqrt{\frac{0.94\times0.0600000000000001}{45}}\), temos que
+  \[P\left(\hat{p}<0.92\right) = P\left(\frac{\hat{p}-0.94}{\sqrt{\frac{0.94\times0.0600000000000001}{45}}}<\frac{0.92-0.94}{\sqrt{\frac{0.94\times0.0600000000000001}{45}}}\right) = P\left(Z<-0.56\right) = 0.288.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

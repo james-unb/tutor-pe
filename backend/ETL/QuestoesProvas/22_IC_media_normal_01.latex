@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de reação a um novo medicamento pode ser considerado como
+  tendo distribuição normal com desvio padrão igual a 2.13 minutos. 28
+  pacientes foram sorteados, receberam o medicamento e tiveram seu tempo
+  de reação anotado. Da amostra, a média resultante foi 5.67 minutos.
+  Com base nas informações, assinale a alternativa correspondente ao
+  intervalo de confiança para o tempo de reação médio ao medicamento com
+  confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([4.631, 6.709]\)
+  \item
+    \([5.474, 5.866]\)
+  \item
+    \([4.555, 6.785]\)
+  \item
+    \([5.459, 5.881]\)
+  \item
+    \([5.027, 6.313]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[5.67-2.58\times\frac{2.13}{\sqrt{28}} \ , \ 5.67+2.58\times\frac{2.13}{\sqrt{28}}\right]\\
+  &=&\text{$[4.631, 6.709]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de reação a um novo medicamento pode ser considerado como
+  tendo distribuição normal com desvio padrão igual a 3.08 minutos. 26
+  pacientes foram sorteados, receberam o medicamento e tiveram seu tempo
+  de reação anotado. Da amostra, a média resultante foi 5.66 minutos.
+  Com base nas informações, assinale a alternativa correspondente ao
+  intervalo de confiança para o tempo de reação médio ao medicamento com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([4.476, 6.844]\)
+  \item
+    \([5.416, 5.904]\)
+  \item
+    \([5.428, 5.892]\)
+  \item
+    \([5.096, 6.224]\)
+  \item
+    \([4.416, 6.904]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[5.66-1.96\times\frac{3.08}{\sqrt{26}} \ , \ 5.66+1.96\times\frac{3.08}{\sqrt{26}}\right]\\
+  &=&\text{$[4.476, 6.844]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de reação a um novo medicamento pode ser considerado como
+  tendo distribuição normal com desvio padrão igual a 2.83 minutos. 30
+  pacientes foram sorteados, receberam o medicamento e tiveram seu tempo
+  de reação anotado. Da amostra, a média resultante foi 6.44 minutos.
+  Com base nas informações, assinale a alternativa correspondente ao
+  intervalo de confiança para o tempo de reação médio ao medicamento com
+  confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([5.016, 7.864]\)
+  \item
+    \([6.197, 6.683]\)
+  \item
+    \([5.107, 7.773]\)
+  \item
+    \([5.724, 7.156]\)
+  \item
+    \([6.180, 6.700]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[6.44-2.58\times\frac{2.83}{\sqrt{30}} \ , \ 6.44+2.58\times\frac{2.83}{\sqrt{30}}\right]\\
+  &=&\text{$[5.107, 7.773]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de reação a um novo medicamento pode ser considerado como
+  tendo distribuição normal com desvio padrão igual a 1.68 minutos. 29
+  pacientes foram sorteados, receberam o medicamento e tiveram seu tempo
+  de reação anotado. Da amostra, a média resultante foi 5.67 minutos.
+  Com base nas informações, assinale a alternativa correspondente ao
+  intervalo de confiança para o tempo de reação médio ao medicamento com
+  confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([4.865, 6.475]\)
+  \item
+    \([5.521, 5.819]\)
+  \item
+    \([5.510, 5.830]\)
+  \item
+    \([4.808, 6.532]\)
+  \item
+    \([5.109, 6.231]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[5.67-2.58\times\frac{1.68}{\sqrt{29}} \ , \ 5.67+2.58\times\frac{1.68}{\sqrt{29}}\right]\\
+  &=&\text{$[4.865, 6.475]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de reação a um novo medicamento pode ser considerado como
+  tendo distribuição normal com desvio padrão igual a 2.44 minutos. 30
+  pacientes foram sorteados, receberam o medicamento e tiveram seu tempo
+  de reação anotado. Da amostra, a média resultante foi 5.24 minutos.
+  Com base nas informações, assinale a alternativa correspondente ao
+  intervalo de confiança para o tempo de reação médio ao medicamento com
+  confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([4.576, 5.904]\)
+  \item
+    \([5.016, 5.464]\)
+  \item
+    \([4.012, 6.468]\)
+  \item
+    \([5.030, 5.450]\)
+  \item
+    \([4.091, 6.389]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[5.24-2.58\times\frac{2.44}{\sqrt{30}} \ , \ 5.24+2.58\times\frac{2.44}{\sqrt{30}}\right]\\
+  &=&\text{$[4.091, 6.389]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de reação a um novo medicamento pode ser considerado como
+  tendo distribuição normal com desvio padrão igual a 2.72 minutos. 27
+  pacientes foram sorteados, receberam o medicamento e tiveram seu tempo
+  de reação anotado. Da amostra, a média resultante foi 4.63 minutos.
+  Com base nas informações, assinale a alternativa correspondente ao
+  intervalo de confiança para o tempo de reação médio ao medicamento com
+  confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([3.175, 6.085]\)
+  \item
+    \([3.279, 5.981]\)
+  \item
+    \([4.370, 4.890]\)
+  \item
+    \([3.890, 5.370]\)
+  \item
+    \([4.350, 4.910]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[4.63-2.58\times\frac{2.72}{\sqrt{27}} \ , \ 4.63+2.58\times\frac{2.72}{\sqrt{27}}\right]\\
+  &=&\text{$[3.279, 5.981]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de reação a um novo medicamento pode ser considerado como
+  tendo distribuição normal com desvio padrão igual a 2.97 minutos. 28
+  pacientes foram sorteados, receberam o medicamento e tiveram seu tempo
+  de reação anotado. Da amostra, a média resultante foi 5.67 minutos.
+  Com base nas informações, assinale a alternativa correspondente ao
+  intervalo de confiança para o tempo de reação médio ao medicamento com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([5.452, 5.888]\)
+  \item
+    \([5.462, 5.878]\)
+  \item
+    \([5.136, 6.204]\)
+  \item
+    \([4.570, 6.770]\)
+  \item
+    \([4.518, 6.822]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[5.67-1.96\times\frac{2.97}{\sqrt{28}} \ , \ 5.67+1.96\times\frac{2.97}{\sqrt{28}}\right]\\
+  &=&\text{$[4.570, 6.770]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de reação a um novo medicamento pode ser considerado como
+  tendo distribuição normal com desvio padrão igual a 3.04 minutos. 27
+  pacientes foram sorteados, receberam o medicamento e tiveram seu tempo
+  de reação anotado. Da amostra, a média resultante foi 5.96 minutos.
+  Com base nas informações, assinale a alternativa correspondente ao
+  intervalo de confiança para o tempo de reação médio ao medicamento com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([5.410, 6.510]\)
+  \item
+    \([4.813, 7.107]\)
+  \item
+    \([5.729, 6.191]\)
+  \item
+    \([5.739, 6.181]\)
+  \item
+    \([4.757, 7.163]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[5.96-1.96\times\frac{3.04}{\sqrt{27}} \ , \ 5.96+1.96\times\frac{3.04}{\sqrt{27}}\right]\\
+  &=&\text{$[4.813, 7.107]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de reação a um novo medicamento pode ser considerado como
+  tendo distribuição normal com desvio padrão igual a 2.63 minutos. 27
+  pacientes foram sorteados, receberam o medicamento e tiveram seu tempo
+  de reação anotado. Da amostra, a média resultante foi 6.15 minutos.
+  Com base nas informações, assinale a alternativa correspondente ao
+  intervalo de confiança para o tempo de reação médio ao medicamento com
+  confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([5.879, 6.421]\)
+  \item
+    \([4.744, 7.556]\)
+  \item
+    \([4.844, 7.456]\)
+  \item
+    \([5.423, 6.877]\)
+  \item
+    \([5.899, 6.401]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[6.15-2.58\times\frac{2.63}{\sqrt{27}} \ , \ 6.15+2.58\times\frac{2.63}{\sqrt{27}}\right]\\
+  &=&\text{$[4.844, 7.456]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo de reação a um novo medicamento pode ser considerado como
+  tendo distribuição normal com desvio padrão igual a 2.41 minutos. 27
+  pacientes foram sorteados, receberam o medicamento e tiveram seu tempo
+  de reação anotado. Da amostra, a média resultante foi 6.14 minutos.
+  Com base nas informações, assinale a alternativa correspondente ao
+  intervalo de confiança para o tempo de reação médio ao medicamento com
+  confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([5.892, 6.388]\)
+  \item
+    \([5.444, 6.836]\)
+  \item
+    \([4.943, 7.337]\)
+  \item
+    \([4.851, 7.429]\)
+  \item
+    \([5.910, 6.370]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é conhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}} \ , \ \bar{x}+z_{1-\alpha/2}\frac{\sigma}{\sqrt{n}}\right]\\
+  &=&\left[6.14-2.58\times\frac{2.41}{\sqrt{27}} \ , \ 6.14+2.58\times\frac{2.41}{\sqrt{27}}\right]\\
+  &=&\text{$[4.943, 7.337]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

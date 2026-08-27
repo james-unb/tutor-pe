@@ -1,0 +1,388 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina está calibrada para encher embalagens com 101 gramas de
+  amendoim torrado. O desvio padrão da quantidade (\(X\)) de amendoins
+  em cada embalagem é de 4 gramas. No último teste de controle de
+  qualidade, uma amostra aleatória com 100 embalagens foi verificada,
+  tendo apresentado média de 105 gramas. Assinale a única alternativa
+  \textbf{correta}.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    A média populacional é dada por \(\overline{X}\).
+  \item
+    A variância de \(\mu\) é \(\sigma^2\).
+  \item
+    O desvio padrão da média amostral é maior que 4 gramas.
+  \item
+    A variância de \(\mu\) é \(\sigma^2/n\).
+  \item
+    A distribuição de probabilidade de \(\overline{X}\) é
+    aproximadamente Normal quando \(n\to\infty\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina está calibrada para encher embalagens com 114 gramas de
+  amendoim torrado. O desvio padrão da quantidade (\(X\)) de amendoins
+  em cada embalagem é de 4 gramas. No último teste de controle de
+  qualidade, uma amostra aleatória com 120 embalagens foi verificada,
+  tendo apresentado média de 118 gramas. Assinale a única alternativa
+  \textbf{correta}.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    A variância de \(\overline{X}\) é 0.365.
+  \item
+    A distribuição de probabilidade de \(\overline{X}\) é
+    aproximadamente Normal quando \(n\to\infty\).
+  \item
+    A variância de \(\mu\) é \(\sigma^2/n\).
+  \item
+    A média de \(\overline{X}\) é 118.
+  \item
+    O desvio padrão da média amostral é maior que 4 gramas.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina está calibrada para encher embalagens com 110 gramas de
+  amendoim torrado. O desvio padrão da quantidade (\(X\)) de amendoins
+  em cada embalagem é de 2 gramas. No último teste de controle de
+  qualidade, uma amostra aleatória com 120 embalagens foi verificada,
+  tendo apresentado média de 112 gramas. Assinale a única alternativa
+  \textbf{correta}.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(Z = \sqrt{n}(\overline{X} - \mu)/\sigma\) tem variância igual a 1.
+  \item
+    A variância de \(\overline{X}\) é 0.183.
+  \item
+    O desvio padrão da média amostral é maior que 2 gramas.
+  \item
+    A variância de \(\mu\) é \(\sigma^2/n\).
+  \item
+    A média de \(\overline{X}\) é 112.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina está calibrada para encher embalagens com 101 gramas de
+  amendoim torrado. O desvio padrão da quantidade (\(X\)) de amendoins
+  em cada embalagem é de 5 gramas. No último teste de controle de
+  qualidade, uma amostra aleatória com 140 embalagens foi verificada,
+  tendo apresentado média de 96 gramas. Assinale a única alternativa
+  \textbf{correta}.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    O desvio padrão da média amostral é maior que 5 gramas.
+  \item
+    \(Z = \sqrt{n}(\overline{X} - \mu)/\sigma\) tem variância igual a 1.
+  \item
+    A variância de \(\overline{X}\) é 0.423.
+  \item
+    A média de \(\overline{X}\) é 96.
+  \item
+    A média populacional é dada por \(\overline{X}\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina está calibrada para encher embalagens com 107 gramas de
+  amendoim torrado. O desvio padrão da quantidade (\(X\)) de amendoins
+  em cada embalagem é de 3 gramas. No último teste de controle de
+  qualidade, uma amostra aleatória com 150 embalagens foi verificada,
+  tendo apresentado média de 104 gramas. Assinale a única alternativa
+  \textbf{correta}.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    A variância de \(\overline{X}\) é 0.245.
+  \item
+    A média de \(\overline{X}\) é 104.
+  \item
+    A variância de \(\mu\) é \(\sigma^2/n\).
+  \item
+    A média populacional é dada por \(\overline{X}\).
+  \item
+    A distribuição de probabilidade de \(\overline{X}\) é
+    aproximadamente Normal quando \(n\to\infty\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina está calibrada para encher embalagens com 101 gramas de
+  amendoim torrado. O desvio padrão da quantidade (\(X\)) de amendoins
+  em cada embalagem é de 5 gramas. No último teste de controle de
+  qualidade, uma amostra aleatória com 110 embalagens foi verificada,
+  tendo apresentado média de 96 gramas. Assinale a única alternativa
+  \textbf{correta}.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    O desvio padrão da média amostral é maior que 5 gramas.
+  \item
+    A distribuição de probabilidade de \(\overline{X}\) é
+    aproximadamente Normal quando \(n\to\infty\).
+  \item
+    A variância de \(\mu\) é \(\sigma^2\).
+  \item
+    A média de \(\overline{X}\) é 96.
+  \item
+    A média populacional é dada por \(\overline{X}\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina está calibrada para encher embalagens com 104 gramas de
+  amendoim torrado. O desvio padrão da quantidade (\(X\)) de amendoins
+  em cada embalagem é de 2 gramas. No último teste de controle de
+  qualidade, uma amostra aleatória com 140 embalagens foi verificada,
+  tendo apresentado média de 106 gramas. Assinale a única alternativa
+  \textbf{correta}.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    A média de \(\overline{X}\) é 106.
+  \item
+    A distribuição de probabilidade de \(\overline{X}\) é
+    aproximadamente Normal quando \(n\to\infty\).
+  \item
+    A média populacional é dada por \(\overline{X}\).
+  \item
+    A variância de \(\mu\) é \(\sigma^2\).
+  \item
+    O desvio padrão da média amostral é maior que 2 gramas.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina está calibrada para encher embalagens com 116 gramas de
+  amendoim torrado. O desvio padrão da quantidade (\(X\)) de amendoins
+  em cada embalagem é de 5 gramas. No último teste de controle de
+  qualidade, uma amostra aleatória com 100 embalagens foi verificada,
+  tendo apresentado média de 111 gramas. Assinale a única alternativa
+  \textbf{correta}.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    A média de \(\overline{X}\) é 111.
+  \item
+    A variância de \(\mu\) é \(\sigma^2/n\).
+  \item
+    A média populacional é dada por \(\overline{X}\).
+  \item
+    A variância de \(\mu\) é \(\sigma^2\).
+  \item
+    \(Z = \sqrt{n}(\overline{X} - \mu)/\sigma\) tem variância igual a 1.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina está calibrada para encher embalagens com 117 gramas de
+  amendoim torrado. O desvio padrão da quantidade (\(X\)) de amendoins
+  em cada embalagem é de 2 gramas. No último teste de controle de
+  qualidade, uma amostra aleatória com 120 embalagens foi verificada,
+  tendo apresentado média de 119 gramas. Assinale a única alternativa
+  \textbf{correta}.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    A média de \(\overline{X}\) é 119.
+  \item
+    A média populacional é dada por \(\overline{X}\).
+  \item
+    O desvio padrão da média amostral é maior que 2 gramas.
+  \item
+    A distribuição de probabilidade de \(\overline{X}\) é
+    aproximadamente Normal quando \(n\to\infty\).
+  \item
+    A variância de \(\mu\) é \(\sigma^2\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma máquina está calibrada para encher embalagens com 105 gramas de
+  amendoim torrado. O desvio padrão da quantidade (\(X\)) de amendoins
+  em cada embalagem é de 5 gramas. No último teste de controle de
+  qualidade, uma amostra aleatória com 140 embalagens foi verificada,
+  tendo apresentado média de 110 gramas. Assinale a única alternativa
+  \textbf{correta}.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    A média de \(\overline{X}\) é 110.
+  \item
+    O desvio padrão da média amostral é maior que 5 gramas.
+  \item
+    A variância de \(\mu\) é \(\sigma^2/n\).
+  \item
+    A média populacional é dada por \(\overline{X}\).
+  \item
+    \(Z = \sqrt{n}(\overline{X} - \mu)/\sigma\) tem variância igual a 1.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

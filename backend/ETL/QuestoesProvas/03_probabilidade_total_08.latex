@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Determinado veículo pode ter problemas mecânicos ou elétricos. Se
+  tiver problemas mecânicos, não é necessário parar o veículo, mas se
+  tiver problema elétrico, é preciso parar imediatamente. A chance de
+  esse veículo ter problemas mecânicos no período de um ano é de 0.25.
+  Já a chance de ter problemas elétricos é de 0.38 se não houve problema
+  mecânico precedente, e de 0.61 se houve problema mecânico precedente.
+  Qual a probabilidade do veículo precisar parar em determinado ano?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.438\)
+  \item
+    \(0.610\)
+  \item
+    \(0.380\)
+  \item
+    \(0.743\)
+  \item
+    \(0.248\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{M} &=& \text{ ``Ter problema mecânico''}\\
+  \text{E} &=& \text{ ``Ter problema elétrico''}
+  \end{aligned}\]
+
+  O veículo somente irá parar se tiver um problema elétrico. Então é
+  necessário calcular a probabilidade de ocorrer um defeito elétrico,
+  independente de ter havido ou não um defeito mecânico.
+  \[P(E) = P(E|M)P(M)+P(E|M^c)P(M^c) =  0.61 \times 0.25+0.38\times0.75 = 0.438.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Determinado veículo pode ter problemas mecânicos ou elétricos. Se
+  tiver problemas mecânicos, não é necessário parar o veículo, mas se
+  tiver problema elétrico, é preciso parar imediatamente. A chance de
+  esse veículo ter problemas mecânicos no período de um ano é de 0.13.
+  Já a chance de ter problemas elétricos é de 0.28 se não houve problema
+  mecânico precedente, e de 0.64 se houve problema mecânico precedente.
+  Qual a probabilidade do veículo precisar parar em determinado ano?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.327\)
+  \item
+    \(0.640\)
+  \item
+    \(0.120\)
+  \item
+    \(0.280\)
+  \item
+    \(0.800\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{M} &=& \text{ ``Ter problema mecânico''}\\
+  \text{E} &=& \text{ ``Ter problema elétrico''}
+  \end{aligned}\]
+
+  O veículo somente irá parar se tiver um problema elétrico. Então é
+  necessário calcular a probabilidade de ocorrer um defeito elétrico,
+  independente de ter havido ou não um defeito mecânico.
+  \[P(E) = P(E|M)P(M)+P(E|M^c)P(M^c) =  0.64 \times 0.13+0.28\times0.87 = 0.327.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Determinado veículo pode ter problemas mecânicos ou elétricos. Se
+  tiver problemas mecânicos, não é necessário parar o veículo, mas se
+  tiver problema elétrico, é preciso parar imediatamente. A chance de
+  esse veículo ter problemas mecânicos no período de um ano é de 0.14.
+  Já a chance de ter problemas elétricos é de 0.37 se não houve problema
+  mecânico precedente, e de 0.6 se houve problema mecânico precedente.
+  Qual a probabilidade do veículo precisar parar em determinado ano?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.136\)
+  \item
+    \(0.402\)
+  \item
+    \(0.370\)
+  \item
+    \(0.834\)
+  \item
+    \(0.600\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{M} &=& \text{ ``Ter problema mecânico''}\\
+  \text{E} &=& \text{ ``Ter problema elétrico''}
+  \end{aligned}\]
+
+  O veículo somente irá parar se tiver um problema elétrico. Então é
+  necessário calcular a probabilidade de ocorrer um defeito elétrico,
+  independente de ter havido ou não um defeito mecânico.
+  \[P(E) = P(E|M)P(M)+P(E|M^c)P(M^c) =  0.6 \times 0.14+0.37\times0.86 = 0.402.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Determinado veículo pode ter problemas mecânicos ou elétricos. Se
+  tiver problemas mecânicos, não é necessário parar o veículo, mas se
+  tiver problema elétrico, é preciso parar imediatamente. A chance de
+  esse veículo ter problemas mecânicos no período de um ano é de 0.24.
+  Já a chance de ter problemas elétricos é de 0.15 se não houve problema
+  mecânico precedente, e de 0.57 se houve problema mecânico precedente.
+  Qual a probabilidade do veículo precisar parar em determinado ano?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.150\)
+  \item
+    \(0.570\)
+  \item
+    \(0.547\)
+  \item
+    \(0.173\)
+  \item
+    \(0.251\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{M} &=& \text{ ``Ter problema mecânico''}\\
+  \text{E} &=& \text{ ``Ter problema elétrico''}
+  \end{aligned}\]
+
+  O veículo somente irá parar se tiver um problema elétrico. Então é
+  necessário calcular a probabilidade de ocorrer um defeito elétrico,
+  independente de ter havido ou não um defeito mecânico.
+  \[P(E) = P(E|M)P(M)+P(E|M^c)P(M^c) =  0.57 \times 0.24+0.15\times0.76 = 0.251.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Determinado veículo pode ter problemas mecânicos ou elétricos. Se
+  tiver problemas mecânicos, não é necessário parar o veículo, mas se
+  tiver problema elétrico, é preciso parar imediatamente. A chance de
+  esse veículo ter problemas mecânicos no período de um ano é de 0.16.
+  Já a chance de ter problemas elétricos é de 0.48 se não houve problema
+  mecânico precedente, e de 0.68 se houve problema mecânico precedente.
+  Qual a probabilidade do veículo precisar parar em determinado ano?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.186\)
+  \item
+    \(0.680\)
+  \item
+    \(0.974\)
+  \item
+    \(0.512\)
+  \item
+    \(0.480\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{M} &=& \text{ ``Ter problema mecânico''}\\
+  \text{E} &=& \text{ ``Ter problema elétrico''}
+  \end{aligned}\]
+
+  O veículo somente irá parar se tiver um problema elétrico. Então é
+  necessário calcular a probabilidade de ocorrer um defeito elétrico,
+  independente de ter havido ou não um defeito mecânico.
+  \[P(E) = P(E|M)P(M)+P(E|M^c)P(M^c) =  0.68 \times 0.16+0.48\times0.84 = 0.512.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Determinado veículo pode ter problemas mecânicos ou elétricos. Se
+  tiver problemas mecânicos, não é necessário parar o veículo, mas se
+  tiver problema elétrico, é preciso parar imediatamente. A chance de
+  esse veículo ter problemas mecânicos no período de um ano é de 0.23.
+  Já a chance de ter problemas elétricos é de 0.48 se não houve problema
+  mecânico precedente, e de 0.63 se houve problema mecânico precedente.
+  Qual a probabilidade do veículo precisar parar em determinado ano?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.630\)
+  \item
+    \(0.480\)
+  \item
+    \(0.515\)
+  \item
+    \(0.255\)
+  \item
+    \(0.855\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{M} &=& \text{ ``Ter problema mecânico''}\\
+  \text{E} &=& \text{ ``Ter problema elétrico''}
+  \end{aligned}\]
+
+  O veículo somente irá parar se tiver um problema elétrico. Então é
+  necessário calcular a probabilidade de ocorrer um defeito elétrico,
+  independente de ter havido ou não um defeito mecânico.
+  \[P(E) = P(E|M)P(M)+P(E|M^c)P(M^c) =  0.63 \times 0.23+0.48\times0.77 = 0.514.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Determinado veículo pode ter problemas mecânicos ou elétricos. Se
+  tiver problemas mecânicos, não é necessário parar o veículo, mas se
+  tiver problema elétrico, é preciso parar imediatamente. A chance de
+  esse veículo ter problemas mecânicos no período de um ano é de 0.26.
+  Já a chance de ter problemas elétricos é de 0.11 se não houve problema
+  mecânico precedente, e de 0.55 se houve problema mecânico precedente.
+  Qual a probabilidade do veículo precisar parar em determinado ano?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.550\)
+  \item
+    \(0.172\)
+  \item
+    \(0.110\)
+  \item
+    \(0.488\)
+  \item
+    \(0.224\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{M} &=& \text{ ``Ter problema mecânico''}\\
+  \text{E} &=& \text{ ``Ter problema elétrico''}
+  \end{aligned}\]
+
+  O veículo somente irá parar se tiver um problema elétrico. Então é
+  necessário calcular a probabilidade de ocorrer um defeito elétrico,
+  independente de ter havido ou não um defeito mecânico.
+  \[P(E) = P(E|M)P(M)+P(E|M^c)P(M^c) =  0.55 \times 0.26+0.11\times0.74 = 0.224.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Determinado veículo pode ter problemas mecânicos ou elétricos. Se
+  tiver problemas mecânicos, não é necessário parar o veículo, mas se
+  tiver problema elétrico, é preciso parar imediatamente. A chance de
+  esse veículo ter problemas mecânicos no período de um ano é de 0.27.
+  Já a chance de ter problemas elétricos é de 0.49 se não houve problema
+  mecânico precedente, e de 0.39 se houve problema mecânico precedente.
+  Qual a probabilidade do veículo precisar parar em determinado ano?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.642\)
+  \item
+    \(0.390\)
+  \item
+    \(0.238\)
+  \item
+    \(0.463\)
+  \item
+    \(0.490\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{M} &=& \text{ ``Ter problema mecânico''}\\
+  \text{E} &=& \text{ ``Ter problema elétrico''}
+  \end{aligned}\]
+
+  O veículo somente irá parar se tiver um problema elétrico. Então é
+  necessário calcular a probabilidade de ocorrer um defeito elétrico,
+  independente de ter havido ou não um defeito mecânico.
+  \[P(E) = P(E|M)P(M)+P(E|M^c)P(M^c) =  0.39 \times 0.27+0.49\times0.73 = 0.463.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Determinado veículo pode ter problemas mecânicos ou elétricos. Se
+  tiver problemas mecânicos, não é necessário parar o veículo, mas se
+  tiver problema elétrico, é preciso parar imediatamente. A chance de
+  esse veículo ter problemas mecânicos no período de um ano é de 0.07.
+  Já a chance de ter problemas elétricos é de 0.16 se não houve problema
+  mecânico precedente, e de 0.4 se houve problema mecânico precedente.
+  Qual a probabilidade do veículo precisar parar em determinado ano?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.177\)
+  \item
+    \(0.160\)
+  \item
+    \(0.521\)
+  \item
+    \(0.039\)
+  \item
+    \(0.400\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{M} &=& \text{ ``Ter problema mecânico''}\\
+  \text{E} &=& \text{ ``Ter problema elétrico''}
+  \end{aligned}\]
+
+  O veículo somente irá parar se tiver um problema elétrico. Então é
+  necessário calcular a probabilidade de ocorrer um defeito elétrico,
+  independente de ter havido ou não um defeito mecânico.
+  \[P(E) = P(E|M)P(M)+P(E|M^c)P(M^c) =  0.4 \times 0.07+0.16\times0.93 = 0.177.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Determinado veículo pode ter problemas mecânicos ou elétricos. Se
+  tiver problemas mecânicos, não é necessário parar o veículo, mas se
+  tiver problema elétrico, é preciso parar imediatamente. A chance de
+  esse veículo ter problemas mecânicos no período de um ano é de 0.12.
+  Já a chance de ter problemas elétricos é de 0.48 se não houve problema
+  mecânico precedente, e de 0.35 se houve problema mecânico precedente.
+  Qual a probabilidade do veículo precisar parar em determinado ano?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.480\)
+  \item
+    \(0.350\)
+  \item
+    \(0.100\)
+  \item
+    \(0.464\)
+  \item
+    \(0.730\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{M} &=& \text{ ``Ter problema mecânico''}\\
+  \text{E} &=& \text{ ``Ter problema elétrico''}
+  \end{aligned}\]
+
+  O veículo somente irá parar se tiver um problema elétrico. Então é
+  necessário calcular a probabilidade de ocorrer um defeito elétrico,
+  independente de ter havido ou não um defeito mecânico.
+  \[P(E) = P(E|M)P(M)+P(E|M^c)P(M^c) =  0.35 \times 0.12+0.48\times0.88 = 0.464.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

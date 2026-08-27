@@ -1,0 +1,546 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de cigarros anuncia que o índice médio de nicotina dos
+  cigarros que fabrica é de, no máximo, \(23.4\) mg por cigarro. Sabendo
+  que a quantidade de nicotina em um cigarro tem distribuição Normal, um
+  laboratório realiza \(5\) análises desse índice, obtendo média de
+  \(24.18\) mg e variância igual a \(0.672\). Considerando um nível de
+  significância de \(10\%\), as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=23.4\; \emph{vs. } \ H_a: \bar{x} >23.4\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq23.4\; \emph{vs. }  \ H_a: \mu >23.4\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=23.4\; \emph{vs. }  \ H_a: \bar{x}>23.4\). \(H_0\)
+    não é rejeitada.
+  \item
+    \(H_0: \mu \leq23.4\; \emph{vs. }  \ H_a: \mu >23.4\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=23.4\; \emph{vs. }  \ H_a: \mu \neq 23.4\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 23.4 \ \emph{vs.} \ H_a: \mu > 23.4\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=23.4)=P\left(T_{n-1}>\frac{c-23.4}{0.82/\sqrt{5}}\right)=0.1\).
+
+  Portanto, \(\frac{c-23.4}{0.82/\sqrt{5}}=1.53 \Rightarrow c=23.96\).
+
+  Daí, como \(\bar{x} =\) \(24.18 > 23.96\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de cigarros anuncia que o índice médio de nicotina dos
+  cigarros que fabrica é de, no máximo, \(24\) mg por cigarro. Sabendo
+  que a quantidade de nicotina em um cigarro tem distribuição Normal, um
+  laboratório realiza \(5\) análises desse índice, obtendo média de
+  \(24.9\) mg e variância igual a \(0.98\). Considerando um nível de
+  significância de \(10\%\), as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq24\; \emph{vs. }  \ H_a: \mu >24\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq24\; \emph{vs. }  \ H_a: \mu >24\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=24\; \emph{vs. }  \ H_a: \bar{x}>24\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=24\; \emph{vs. } \ H_a: \bar{x} >24\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=24\; \emph{vs. }  \ H_a: \mu \neq 24\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 24 \ \emph{vs.} \ H_a: \mu > 24\). Além disso, sabe-se
+  que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=24)=P\left(T_{n-1}>\frac{c-24}{0.99/\sqrt{5}}\right)=0.1\).
+
+  Portanto, \(\frac{c-24}{0.99/\sqrt{5}}=1.53 \Rightarrow c=24.68\).
+
+  Daí, como \(\bar{x} =\) \(24.9 > 24.68\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de cigarros anuncia que o índice médio de nicotina dos
+  cigarros que fabrica é de, no máximo, \(24.86\) mg por cigarro.
+  Sabendo que a quantidade de nicotina em um cigarro tem distribuição
+  Normal, um laboratório realiza \(7\) análises desse índice, obtendo
+  média de \(25.24\) mg e variância igual a \(0.292\). Considerando um
+  nível de significância de \(10\%\), as hipóteses do teste e sua
+  conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq24.86\; \emph{vs. }  \ H_a: \mu >24.86\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=24.86\; \emph{vs. } \ H_a: \bar{x} >24.86\). \(H_0\)
+    é rejeitada.
+  \item
+    \(H_0: \mu=24.86\; \emph{vs. }  \ H_a: \mu \neq 24.86\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq24.86\; \emph{vs. }  \ H_a: \mu >24.86\). \(H_0\) não
+    é rejeitada.
+  \item
+    \(H_0: \bar{x}=24.86\; \emph{vs. }  \ H_a: \bar{x}>24.86\). \(H_0\)
+    não é rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 24.86 \ \emph{vs.} \ H_a: \mu > 24.86\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=24.86)=P\left(T_{n-1}>\frac{c-24.86}{0.54/\sqrt{7}}\right)=0.1\).
+
+  Portanto, \(\frac{c-24.86}{0.54/\sqrt{7}}=1.44 \Rightarrow c=25.15\).
+
+  Daí, como \(\bar{x} =\) \(25.24 > 25.15\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de cigarros anuncia que o índice médio de nicotina dos
+  cigarros que fabrica é de, no máximo, \(25.3\) mg por cigarro. Sabendo
+  que a quantidade de nicotina em um cigarro tem distribuição Normal, um
+  laboratório realiza \(10\) análises desse índice, obtendo média de
+  \(25.54\) mg e variância igual a \(0.185\). Considerando um nível de
+  significância de \(10\%\), as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq25.3\; \emph{vs. }  \ H_a: \mu >25.3\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=25.3\; \emph{vs. } \ H_a: \bar{x} >25.3\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=25.3\; \emph{vs. }  \ H_a: \mu \neq 25.3\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq25.3\; \emph{vs. }  \ H_a: \mu >25.3\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=25.3\; \emph{vs. }  \ H_a: \bar{x}>25.3\). \(H_0\)
+    não é rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 25.3 \ \emph{vs.} \ H_a: \mu > 25.3\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=25.3)=P\left(T_{n-1}>\frac{c-25.3}{0.43/\sqrt{10}}\right)=0.1\).
+
+  Portanto, \(\frac{c-25.3}{0.43/\sqrt{10}}=1.38 \Rightarrow c=25.49\).
+
+  Daí, como \(\bar{x} =\) \(25.54 > 25.49\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de cigarros anuncia que o índice médio de nicotina dos
+  cigarros que fabrica é de, no máximo, \(24.71\) mg por cigarro.
+  Sabendo que a quantidade de nicotina em um cigarro tem distribuição
+  Normal, um laboratório realiza \(7\) análises desse índice, obtendo
+  média de \(25.21\) mg e variância igual a \(0.518\). Considerando um
+  nível de significância de \(10\%\), as hipóteses do teste e sua
+  conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=24.71\; \emph{vs. }  \ H_a: \mu \neq 24.71\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=24.71\; \emph{vs. }  \ H_a: \bar{x}>24.71\). \(H_0\)
+    não é rejeitada.
+  \item
+    \(H_0: \bar{x}=24.71\; \emph{vs. } \ H_a: \bar{x} >24.71\). \(H_0\)
+    é rejeitada.
+  \item
+    \(H_0: \mu \leq24.71\; \emph{vs. }  \ H_a: \mu >24.71\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq24.71\; \emph{vs. }  \ H_a: \mu >24.71\). \(H_0\) não
+    é rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 24.71 \ \emph{vs.} \ H_a: \mu > 24.71\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=24.71)=P\left(T_{n-1}>\frac{c-24.71}{0.72/\sqrt{7}}\right)=0.1\).
+
+  Portanto, \(\frac{c-24.71}{0.72/\sqrt{7}}=1.44 \Rightarrow c=25.1\).
+
+  Daí, como \(\bar{x} =\) \(25.21 > 25.1\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de cigarros anuncia que o índice médio de nicotina dos
+  cigarros que fabrica é de, no máximo, \(25.67\) mg por cigarro.
+  Sabendo que a quantidade de nicotina em um cigarro tem distribuição
+  Normal, um laboratório realiza \(6\) análises desse índice, obtendo
+  média de \(25.95\) mg e variância igual a \(0.336\). Considerando um
+  nível de significância de \(10\%\), as hipóteses do teste e sua
+  conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=25.67\; \emph{vs. }  \ H_a: \bar{x}>25.67\). \(H_0\)
+    não é rejeitada.
+  \item
+    \(H_0: \mu=25.67\; \emph{vs. }  \ H_a: \mu \neq 25.67\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=25.67\; \emph{vs. } \ H_a: \bar{x} >25.67\). \(H_0\)
+    é rejeitada.
+  \item
+    \(H_0: \mu \leq25.67\; \emph{vs. }  \ H_a: \mu >25.67\). \(H_0\) não
+    é rejeitada.
+  \item
+    \(H_0: \mu \leq25.67\; \emph{vs. }  \ H_a: \mu >25.67\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 25.67 \ \emph{vs.} \ H_a: \mu > 25.67\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=25.67)=P\left(T_{n-1}>\frac{c-25.67}{0.58/\sqrt{6}}\right)=0.1\).
+
+  Portanto, \(\frac{c-25.67}{0.58/\sqrt{6}}=1.48 \Rightarrow c=26.02\).
+
+  Daí, como \(\bar{x} =\) \(25.95 < 26.02\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de cigarros anuncia que o índice médio de nicotina dos
+  cigarros que fabrica é de, no máximo, \(24\) mg por cigarro. Sabendo
+  que a quantidade de nicotina em um cigarro tem distribuição Normal, um
+  laboratório realiza \(5\) análises desse índice, obtendo média de
+  \(24.37\) mg e variância igual a \(0.152\). Considerando um nível de
+  significância de \(10\%\), as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq24\; \emph{vs. }  \ H_a: \mu >24\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=24\; \emph{vs. } \ H_a: \bar{x} >24\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=24\; \emph{vs. }  \ H_a: \bar{x}>24\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq24\; \emph{vs. }  \ H_a: \mu >24\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=24\; \emph{vs. }  \ H_a: \mu \neq 24\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 24 \ \emph{vs.} \ H_a: \mu > 24\). Além disso, sabe-se
+  que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=24)=P\left(T_{n-1}>\frac{c-24}{0.39/\sqrt{5}}\right)=0.1\).
+
+  Portanto, \(\frac{c-24}{0.39/\sqrt{5}}=1.53 \Rightarrow c=24.27\).
+
+  Daí, como \(\bar{x} =\) \(24.37 > 24.27\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de cigarros anuncia que o índice médio de nicotina dos
+  cigarros que fabrica é de, no máximo, \(25.4\) mg por cigarro. Sabendo
+  que a quantidade de nicotina em um cigarro tem distribuição Normal, um
+  laboratório realiza \(10\) análises desse índice, obtendo média de
+  \(25.69\) mg e variância igual a \(0.672\). Considerando um nível de
+  significância de \(10\%\), as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq25.4\; \emph{vs. }  \ H_a: \mu >25.4\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=25.4\; \emph{vs. }  \ H_a: \mu \neq 25.4\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=25.4\; \emph{vs. }  \ H_a: \bar{x}>25.4\). \(H_0\)
+    não é rejeitada.
+  \item
+    \(H_0: \bar{x}=25.4\; \emph{vs. } \ H_a: \bar{x} >25.4\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq25.4\; \emph{vs. }  \ H_a: \mu >25.4\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 25.4 \ \emph{vs.} \ H_a: \mu > 25.4\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=25.4)=P\left(T_{n-1}>\frac{c-25.4}{0.82/\sqrt{10}}\right)=0.1\).
+
+  Portanto, \(\frac{c-25.4}{0.82/\sqrt{10}}=1.38 \Rightarrow c=25.76\).
+
+  Daí, como \(\bar{x} =\) \(25.69 < 25.76\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de cigarros anuncia que o índice médio de nicotina dos
+  cigarros que fabrica é de, no máximo, \(25.12\) mg por cigarro.
+  Sabendo que a quantidade de nicotina em um cigarro tem distribuição
+  Normal, um laboratório realiza \(8\) análises desse índice, obtendo
+  média de \(25.52\) mg e variância igual a \(0.41\). Considerando um
+  nível de significância de \(10\%\), as hipóteses do teste e sua
+  conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \leq25.12\; \emph{vs. }  \ H_a: \mu >25.12\). \(H_0\) não
+    é rejeitada.
+  \item
+    \(H_0: \bar{x}=25.12\; \emph{vs. }  \ H_a: \bar{x}>25.12\). \(H_0\)
+    não é rejeitada.
+  \item
+    \(H_0: \mu \leq25.12\; \emph{vs. }  \ H_a: \mu >25.12\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=25.12\; \emph{vs. } \ H_a: \bar{x} >25.12\). \(H_0\)
+    é rejeitada.
+  \item
+    \(H_0: \mu=25.12\; \emph{vs. }  \ H_a: \mu \neq 25.12\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 25.12 \ \emph{vs.} \ H_a: \mu > 25.12\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=25.12)=P\left(T_{n-1}>\frac{c-25.12}{0.64/\sqrt{8}}\right)=0.1\).
+
+  Portanto, \(\frac{c-25.12}{0.64/\sqrt{8}}=1.41 \Rightarrow c=25.44\).
+
+  Daí, como \(\bar{x} =\) \(25.52 > 25.44\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma companhia de cigarros anuncia que o índice médio de nicotina dos
+  cigarros que fabrica é de, no máximo, \(24.7\) mg por cigarro. Sabendo
+  que a quantidade de nicotina em um cigarro tem distribuição Normal, um
+  laboratório realiza \(10\) análises desse índice, obtendo média de
+  \(25\) mg e variância igual a \(0.689\). Considerando um nível de
+  significância de \(10\%\), as hipóteses do teste e sua conclusão são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=24.7\; \emph{vs. } \ H_a: \bar{x} >24.7\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq24.7\; \emph{vs. }  \ H_a: \mu >24.7\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu \leq24.7\; \emph{vs. }  \ H_a: \mu >24.7\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=24.7\; \emph{vs. }  \ H_a: \bar{x}>24.7\). \(H_0\)
+    não é rejeitada.
+  \item
+    \(H_0: \mu=24.7\; \emph{vs. }  \ H_a: \mu \neq 24.7\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância desconhecida. As hipóteses do teste são
+  \(H_0: \mu \leq 24.7 \ \emph{vs.} \ H_a: \mu > 24.7\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=24.7)=P\left(T_{n-1}>\frac{c-24.7}{0.83/\sqrt{10}}\right)=0.1\).
+
+  Portanto, \(\frac{c-24.7}{0.83/\sqrt{10}}=1.38 \Rightarrow c=25.06\).
+
+  Daí, como \(\bar{x} =\) \(25 < 25.06\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

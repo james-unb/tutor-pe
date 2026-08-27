@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(14\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(10\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(2\) das \(14\) peças sejam
+  defeituosas. Se a escolha for realizada com reposição, qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.122\)
+  \item
+    \(0.791\)
+  \item
+    \(0.020\)
+  \item
+    \(0.143\)
+  \item
+    \(0.214\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de peças
+  defeituosas. Esta variável aleatória tem distribuição binomial de
+  parâmetros \(n=10\) e \(p=0.14\). Segue que a probabilidade de
+  aceitação do lote é dada por
+  \[P(X=0) = \binom{10}{0}0.14^{0}(1-0.14)^{10-0}=0.214.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(15\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(9\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(2\) das \(15\) peças sejam
+  defeituosas. Se a escolha for realizada com reposição, qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.116\)
+  \item
+    \(0.133\)
+  \item
+    \(0.018\)
+  \item
+    \(0.276\)
+  \item
+    \(0.257\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de peças
+  defeituosas. Esta variável aleatória tem distribuição binomial de
+  parâmetros \(n=9\) e \(p=0.13\). Segue que a probabilidade de
+  aceitação do lote é dada por
+  \[P(X=0) = \binom{9}{0}0.13^{0}(1-0.13)^{9-0}=0.276.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(10\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(5\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(1\) das \(10\) peças sejam
+  defeituosas. Se a escolha for realizada com reposição, qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.100\)
+  \item
+    \(0.500\)
+  \item
+    \(0.010\)
+  \item
+    \(0.590\)
+  \item
+    \(0.090\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de peças
+  defeituosas. Esta variável aleatória tem distribuição binomial de
+  parâmetros \(n=5\) e \(p=0.10\). Segue que a probabilidade de
+  aceitação do lote é dada por
+  \[P(X=0) = \binom{5}{0}0.10^{0}(1-0.10)^{5-0}=0.590.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(12\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(6\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(2\) das \(12\) peças sejam
+  defeituosas. Se a escolha for realizada com reposição, qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.335\)
+  \item
+    \(0.139\)
+  \item
+    \(0.167\)
+  \item
+    \(0.028\)
+  \item
+    \(0.273\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de peças
+  defeituosas. Esta variável aleatória tem distribuição binomial de
+  parâmetros \(n=6\) e \(p=0.17\). Segue que a probabilidade de
+  aceitação do lote é dada por
+  \[P(X=0) = \binom{6}{0}0.17^{0}(1-0.17)^{6-0}=0.335.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(14\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(7\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(3\) das \(14\) peças sejam
+  defeituosas. Se a escolha for realizada com reposição, qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.185\)
+  \item
+    \(0.214\)
+  \item
+    \(0.046\)
+  \item
+    \(0.135\)
+  \item
+    \(0.168\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de peças
+  defeituosas. Esta variável aleatória tem distribuição binomial de
+  parâmetros \(n=7\) e \(p=0.21\). Segue que a probabilidade de
+  aceitação do lote é dada por
+  \[P(X=0) = \binom{7}{0}0.21^{0}(1-0.21)^{7-0}=0.185.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(14\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(9\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(1\) das \(14\) peças sejam
+  defeituosas. Se a escolha for realizada com reposição, qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.066\)
+  \item
+    \(0.071\)
+  \item
+    \(0.513\)
+  \item
+    \(0.005\)
+  \item
+    \(0.643\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de peças
+  defeituosas. Esta variável aleatória tem distribuição binomial de
+  parâmetros \(n=9\) e \(p=0.07\). Segue que a probabilidade de
+  aceitação do lote é dada por
+  \[P(X=0) = \binom{9}{0}0.07^{0}(1-0.07)^{9-0}=0.513.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(11\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(6\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(2\) das \(11\) peças sejam
+  defeituosas. Se a escolha for realizada com reposição, qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.182\)
+  \item
+    \(0.300\)
+  \item
+    \(0.033\)
+  \item
+    \(0.273\)
+  \item
+    \(0.149\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de peças
+  defeituosas. Esta variável aleatória tem distribuição binomial de
+  parâmetros \(n=6\) e \(p=0.18\). Segue que a probabilidade de
+  aceitação do lote é dada por
+  \[P(X=0) = \binom{6}{0}0.18^{0}(1-0.18)^{6-0}=0.300.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(14\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(10\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(3\) das \(14\) peças sejam
+  defeituosas. Se a escolha for realizada com reposição, qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.046\)
+  \item
+    \(0.462\)
+  \item
+    \(0.214\)
+  \item
+    \(0.168\)
+  \item
+    \(0.090\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de peças
+  defeituosas. Esta variável aleatória tem distribuição binomial de
+  parâmetros \(n=10\) e \(p=0.21\). Segue que a probabilidade de
+  aceitação do lote é dada por
+  \[P(X=0) = \binom{10}{0}0.21^{0}(1-0.21)^{10-0}=0.090.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(12\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(7\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(1\) das \(12\) peças sejam
+  defeituosas. Se a escolha for realizada com reposição, qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.544\)
+  \item
+    \(0.083\)
+  \item
+    \(0.007\)
+  \item
+    \(0.076\)
+  \item
+    \(0.583\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de peças
+  defeituosas. Esta variável aleatória tem distribuição binomial de
+  parâmetros \(n=7\) e \(p=0.08\). Segue que a probabilidade de
+  aceitação do lote é dada por
+  \[P(X=0) = \binom{7}{0}0.08^{0}(1-0.08)^{7-0}=0.544.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Para inspecionar um lote de \(12\) peças, o funcionário de uma empresa
+  sorteia uma amostra de \(8\) peças ao acaso. Caso nenhuma peça
+  defeituosa seja encontrada na amostra o lote é aceito; caso contrário
+  é devolvido ao fornecedor. Suponha que \(2\) das \(12\) peças sejam
+  defeituosas. Se a escolha for realizada com reposição, qual a
+  probabilidade de aceitação do lote?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.509\)
+  \item
+    \(0.139\)
+  \item
+    \(0.233\)
+  \item
+    \(0.028\)
+  \item
+    \(0.167\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória referente ao número de peças
+  defeituosas. Esta variável aleatória tem distribuição binomial de
+  parâmetros \(n=8\) e \(p=0.17\). Segue que a probabilidade de
+  aceitação do lote é dada por
+  \[P(X=0) = \binom{8}{0}0.17^{0}(1-0.17)^{8-0}=0.233.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

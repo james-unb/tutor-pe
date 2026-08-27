@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante irá prestar dois exames de seleção de estagiários para as
+  empresas A e B, respectivamente. Ele estima que a probabilidade de ele
+  ser aprovado no exame de seleção da empresa A é de 2/3. Na empresa B,
+  a probabilidade de aprovação é de 4/5. Por fim, a probabilidade de ser
+  aprovado nos dois processos simultaneamente é de 53.33\%. Nessas
+  condições, qual a probabilidade de ele ser aprovado em apenas uma das
+  empresas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.667\)
+  \item
+    \(0.200\)
+  \item
+    \(0.400\)
+  \item
+    \(0.600\)
+  \item
+    \(0.800\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Ser aprovado no exame de seleção de estagiários da empresa A;\\
+  B: Ser aprovado no exame de seleção de estagiários da empresa B;\\
+  A probabilidade de ser aprovado em apenas uma das empresas é dada por
+  \[P(A \cup B) - P(A \cap B) = P(A) + P(B) - 2*P(A \cap B) = 2/3 + 4/5 - 1.06666666666667 = 0.4\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante irá prestar dois exames de seleção de estagiários para as
+  empresas A e B, respectivamente. Ele estima que a probabilidade de ele
+  ser aprovado no exame de seleção da empresa A é de 2/3. Na empresa B,
+  a probabilidade de aprovação é de 4/5. Por fim, a probabilidade de ser
+  aprovado nos dois processos simultaneamente é de 53.33\%. Nessas
+  condições, qual a probabilidade de ele ser aprovado em apenas uma das
+  empresas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.400\)
+  \item
+    \(0.667\)
+  \item
+    \(0.800\)
+  \item
+    \(0.600\)
+  \item
+    \(0.200\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Ser aprovado no exame de seleção de estagiários da empresa A;\\
+  B: Ser aprovado no exame de seleção de estagiários da empresa B;\\
+  A probabilidade de ser aprovado em apenas uma das empresas é dada por
+  \[P(A \cup B) - P(A \cap B) = P(A) + P(B) - 2*P(A \cap B) = 2/3 + 4/5 - 1.06666666666667 = 0.4\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante irá prestar dois exames de seleção de estagiários para as
+  empresas A e B, respectivamente. Ele estima que a probabilidade de ele
+  ser aprovado no exame de seleção da empresa A é de 2/3. Na empresa B,
+  a probabilidade de aprovação é de 4/5. Por fim, a probabilidade de ser
+  aprovado nos dois processos simultaneamente é de 53.33\%. Nessas
+  condições, qual a probabilidade de ele ser aprovado em apenas uma das
+  empresas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.800\)
+  \item
+    \(0.200\)
+  \item
+    \(0.667\)
+  \item
+    \(0.400\)
+  \item
+    \(0.600\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Ser aprovado no exame de seleção de estagiários da empresa A;\\
+  B: Ser aprovado no exame de seleção de estagiários da empresa B;\\
+  A probabilidade de ser aprovado em apenas uma das empresas é dada por
+  \[P(A \cup B) - P(A \cap B) = P(A) + P(B) - 2*P(A \cap B) = 2/3 + 4/5 - 1.06666666666667 = 0.4\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante irá prestar dois exames de seleção de estagiários para as
+  empresas A e B, respectivamente. Ele estima que a probabilidade de ele
+  ser aprovado no exame de seleção da empresa A é de 2/3. Na empresa B,
+  a probabilidade de aprovação é de 4/5. Por fim, a probabilidade de ser
+  aprovado nos dois processos simultaneamente é de 53.33\%. Nessas
+  condições, qual a probabilidade de ele ser aprovado em apenas uma das
+  empresas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.800\)
+  \item
+    \(0.200\)
+  \item
+    \(0.400\)
+  \item
+    \(0.667\)
+  \item
+    \(0.600\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Ser aprovado no exame de seleção de estagiários da empresa A;\\
+  B: Ser aprovado no exame de seleção de estagiários da empresa B;\\
+  A probabilidade de ser aprovado em apenas uma das empresas é dada por
+  \[P(A \cup B) - P(A \cap B) = P(A) + P(B) - 2*P(A \cap B) = 2/3 + 4/5 - 1.06666666666667 = 0.4\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante irá prestar dois exames de seleção de estagiários para as
+  empresas A e B, respectivamente. Ele estima que a probabilidade de ele
+  ser aprovado no exame de seleção da empresa A é de 2/3. Na empresa B,
+  a probabilidade de aprovação é de 3/4. Por fim, a probabilidade de ser
+  aprovado nos dois processos simultaneamente é de 50\%. Nessas
+  condições, qual a probabilidade de ele ser aprovado em apenas uma das
+  empresas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(0.667\)
+  \item
+    \(0.583\)
+  \item
+    \(0.417\)
+  \item
+    \(0.750\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Ser aprovado no exame de seleção de estagiários da empresa A;\\
+  B: Ser aprovado no exame de seleção de estagiários da empresa B;\\
+  A probabilidade de ser aprovado em apenas uma das empresas é dada por
+  \[P(A \cup B) - P(A \cap B) = P(A) + P(B) - 2*P(A \cap B) = 2/3 + 3/4 - 1 = 0.417\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante irá prestar dois exames de seleção de estagiários para as
+  empresas A e B, respectivamente. Ele estima que a probabilidade de ele
+  ser aprovado no exame de seleção da empresa A é de 2/3. Na empresa B,
+  a probabilidade de aprovação é de 3/4. Por fim, a probabilidade de ser
+  aprovado nos dois processos simultaneamente é de 50\%. Nessas
+  condições, qual a probabilidade de ele ser aprovado em apenas uma das
+  empresas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.750\)
+  \item
+    \(0.250\)
+  \item
+    \(0.583\)
+  \item
+    \(0.417\)
+  \item
+    \(0.667\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Ser aprovado no exame de seleção de estagiários da empresa A;\\
+  B: Ser aprovado no exame de seleção de estagiários da empresa B;\\
+  A probabilidade de ser aprovado em apenas uma das empresas é dada por
+  \[P(A \cup B) - P(A \cap B) = P(A) + P(B) - 2*P(A \cap B) = 2/3 + 3/4 - 1 = 0.417\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante irá prestar dois exames de seleção de estagiários para as
+  empresas A e B, respectivamente. Ele estima que a probabilidade de ele
+  ser aprovado no exame de seleção da empresa A é de 2/3. Na empresa B,
+  a probabilidade de aprovação é de 4/5. Por fim, a probabilidade de ser
+  aprovado nos dois processos simultaneamente é de 53.33\%. Nessas
+  condições, qual a probabilidade de ele ser aprovado em apenas uma das
+  empresas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.200\)
+  \item
+    \(0.667\)
+  \item
+    \(0.600\)
+  \item
+    \(0.800\)
+  \item
+    \(0.400\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Ser aprovado no exame de seleção de estagiários da empresa A;\\
+  B: Ser aprovado no exame de seleção de estagiários da empresa B;\\
+  A probabilidade de ser aprovado em apenas uma das empresas é dada por
+  \[P(A \cup B) - P(A \cap B) = P(A) + P(B) - 2*P(A \cap B) = 2/3 + 4/5 - 1.06666666666667 = 0.4\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante irá prestar dois exames de seleção de estagiários para as
+  empresas A e B, respectivamente. Ele estima que a probabilidade de ele
+  ser aprovado no exame de seleção da empresa A é de 2/3. Na empresa B,
+  a probabilidade de aprovação é de 3/4. Por fim, a probabilidade de ser
+  aprovado nos dois processos simultaneamente é de 50\%. Nessas
+  condições, qual a probabilidade de ele ser aprovado em apenas uma das
+  empresas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.583\)
+  \item
+    \(0.417\)
+  \item
+    \(0.750\)
+  \item
+    \(0.667\)
+  \item
+    \(0.250\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Ser aprovado no exame de seleção de estagiários da empresa A;\\
+  B: Ser aprovado no exame de seleção de estagiários da empresa B;\\
+  A probabilidade de ser aprovado em apenas uma das empresas é dada por
+  \[P(A \cup B) - P(A \cap B) = P(A) + P(B) - 2*P(A \cap B) = 2/3 + 3/4 - 1 = 0.417\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante irá prestar dois exames de seleção de estagiários para as
+  empresas A e B, respectivamente. Ele estima que a probabilidade de ele
+  ser aprovado no exame de seleção da empresa A é de 2/3. Na empresa B,
+  a probabilidade de aprovação é de 3/4. Por fim, a probabilidade de ser
+  aprovado nos dois processos simultaneamente é de 50\%. Nessas
+  condições, qual a probabilidade de ele ser aprovado em apenas uma das
+  empresas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.417\)
+  \item
+    \(0.583\)
+  \item
+    \(0.667\)
+  \item
+    \(0.250\)
+  \item
+    \(0.750\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Ser aprovado no exame de seleção de estagiários da empresa A;\\
+  B: Ser aprovado no exame de seleção de estagiários da empresa B;\\
+  A probabilidade de ser aprovado em apenas uma das empresas é dada por
+  \[P(A \cup B) - P(A \cap B) = P(A) + P(B) - 2*P(A \cap B) = 2/3 + 3/4 - 1 = 0.417\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante irá prestar dois exames de seleção de estagiários para as
+  empresas A e B, respectivamente. Ele estima que a probabilidade de ele
+  ser aprovado no exame de seleção da empresa A é de 2/3. Na empresa B,
+  a probabilidade de aprovação é de 4/5. Por fim, a probabilidade de ser
+  aprovado nos dois processos simultaneamente é de 53.33\%. Nessas
+  condições, qual a probabilidade de ele ser aprovado em apenas uma das
+  empresas?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.800\)
+  \item
+    \(0.200\)
+  \item
+    \(0.667\)
+  \item
+    \(0.600\)
+  \item
+    \(0.400\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os seguintes eventos:\\
+  A: Ser aprovado no exame de seleção de estagiários da empresa A;\\
+  B: Ser aprovado no exame de seleção de estagiários da empresa B;\\
+  A probabilidade de ser aprovado em apenas uma das empresas é dada por
+  \[P(A \cup B) - P(A \cap B) = P(A) + P(B) - 2*P(A \cap B) = 2/3 + 4/5 - 1.06666666666667 = 0.4\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

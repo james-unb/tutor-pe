@@ -1,0 +1,147 @@
+@use 'variables' as *;
+@import 'katex/dist/katex.min.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: $bg-primary;
+    color: $text-primary;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    overflow-y: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: inherit;
+}
+
+// Blocos de fórmula (display math): evitar sobreposição entre linhas
+.katex-display {
+    display: block;
+    margin: 1.25em 0;
+    padding: 0.35em 0;
+    overflow-x: auto;
+    overflow-y: visible;
+    line-height: normal;
+    min-height: 1em;
+
+    & + .katex-display {
+        margin-top: 0.5em;
+    }
+}
+
+// Wrapper de cada bloco $$ / \[ \] para garantir espaço e não cortar frações
+.block-math-wrapper {
+    display: block;
+    overflow: visible;
+    line-height: 10rem;
+    margin: 0.35em 0;
+}
+
+// Aumentar tamanho de frações (mantido)
+.katex .mfrac {
+    // display: flex;
+    font-size: 1.1rem;
+}
+
+// Global Table Styles
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background-color: $overlay-subtle;
+    border: 1px solid $border-color;
+    border-radius: $radius-md;
+    overflow: hidden;
+
+    th,
+    td {
+        padding: $spacing-sm $spacing-md;
+        border: 1px solid $overlay-medium;
+        text-align: center;
+        color: $text-secondary;
+    }
+
+    th {
+        background-color: $overlay-light;
+        color: $text-primary;
+        font-weight: 600;
+    }
+
+    tr:hover {
+        background-color: $overlay-subtle;
+    }
+
+    &[border="0"] {
+        border: none;
+        background-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+
+        td,
+        th {
+            border: none;
+            background-color: transparent;
+        }
+
+        tr:hover {
+            background-color: transparent;
+        }
+    }
+}
+
+.html-table-wrapper,
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: $radius-md;
+
+    // Custom scrollbar for tables
+    &::-webkit-scrollbar {
+        height: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: var(--color-primary);
+        opacity: 0.3;
+        border-radius: 10px;
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
+
+// Scrollbar
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: $bg-primary;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $bg-surface;
+    border-radius: 9999px;
+
+    &:hover {
+        background: $bg-surface-hover;
+    }
+}

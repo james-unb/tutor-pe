@@ -1,0 +1,502 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a função \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  Ce^{-8x} & \mbox{se} & x \geq 0. \\
+  \end{array}
+  \right.\] O valor da constante real \(C\) para que \(f(x)\) seja uma
+  densidade é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8\)
+  \item
+    \(64\)
+  \item
+    \(16\)
+  \item
+    \(-16\)
+  \item
+    \(-8\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 & =\int_{-\infty}^{\infty} f(x) dx \\
+   & = \int_{-\infty}^0 0 dx +  \int_0^{\infty} Ce^{-8x} dx \\
+   & = \left[  -\frac{Ce^{-8x}}{8} \right] _{0}^{\infty} \\
+   & = \lim_{x\rightarrow \infty} -\frac{Ce^{-8x}}{8} - \left( -\frac{Ce^{0}}{8} \right) \\
+   & = 0 + \frac{C}{8} \\
+   & = \frac{C}{8}
+  \end{aligned}\]
+
+  Logo, \(C=8\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a função \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  Ce^{-3x} & \mbox{se} & x \geq 0. \\
+  \end{array}
+  \right.\] O valor da constante real \(C\) para que \(f(x)\) seja uma
+  densidade é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3\)
+  \item
+    \(9\)
+  \item
+    \(-6\)
+  \item
+    \(6\)
+  \item
+    \(-3\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 & =\int_{-\infty}^{\infty} f(x) dx \\
+   & = \int_{-\infty}^0 0 dx +  \int_0^{\infty} Ce^{-3x} dx \\
+   & = \left[  -\frac{Ce^{-3x}}{3} \right] _{0}^{\infty} \\
+   & = \lim_{x\rightarrow \infty} -\frac{Ce^{-3x}}{3} - \left( -\frac{Ce^{0}}{3} \right) \\
+   & = 0 + \frac{C}{3} \\
+   & = \frac{C}{3}
+  \end{aligned}\]
+
+  Logo, \(C=3\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a função \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  Ce^{-9x} & \mbox{se} & x \geq 0. \\
+  \end{array}
+  \right.\] O valor da constante real \(C\) para que \(f(x)\) seja uma
+  densidade é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-18\)
+  \item
+    \(18\)
+  \item
+    \(-9\)
+  \item
+    \(9\)
+  \item
+    \(81\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 & =\int_{-\infty}^{\infty} f(x) dx \\
+   & = \int_{-\infty}^0 0 dx +  \int_0^{\infty} Ce^{-9x} dx \\
+   & = \left[  -\frac{Ce^{-9x}}{9} \right] _{0}^{\infty} \\
+   & = \lim_{x\rightarrow \infty} -\frac{Ce^{-9x}}{9} - \left( -\frac{Ce^{0}}{9} \right) \\
+   & = 0 + \frac{C}{9} \\
+   & = \frac{C}{9}
+  \end{aligned}\]
+
+  Logo, \(C=9\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a função \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  Ce^{-5x} & \mbox{se} & x \geq 0. \\
+  \end{array}
+  \right.\] O valor da constante real \(C\) para que \(f(x)\) seja uma
+  densidade é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-5\)
+  \item
+    \(25\)
+  \item
+    \(-10\)
+  \item
+    \(10\)
+  \item
+    \(5\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 & =\int_{-\infty}^{\infty} f(x) dx \\
+   & = \int_{-\infty}^0 0 dx +  \int_0^{\infty} Ce^{-5x} dx \\
+   & = \left[  -\frac{Ce^{-5x}}{5} \right] _{0}^{\infty} \\
+   & = \lim_{x\rightarrow \infty} -\frac{Ce^{-5x}}{5} - \left( -\frac{Ce^{0}}{5} \right) \\
+   & = 0 + \frac{C}{5} \\
+   & = \frac{C}{5}
+  \end{aligned}\]
+
+  Logo, \(C=5\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a função \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  Ce^{-9x} & \mbox{se} & x \geq 0. \\
+  \end{array}
+  \right.\] O valor da constante real \(C\) para que \(f(x)\) seja uma
+  densidade é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(81\)
+  \item
+    \(9\)
+  \item
+    \(-9\)
+  \item
+    \(18\)
+  \item
+    \(-18\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 & =\int_{-\infty}^{\infty} f(x) dx \\
+   & = \int_{-\infty}^0 0 dx +  \int_0^{\infty} Ce^{-9x} dx \\
+   & = \left[  -\frac{Ce^{-9x}}{9} \right] _{0}^{\infty} \\
+   & = \lim_{x\rightarrow \infty} -\frac{Ce^{-9x}}{9} - \left( -\frac{Ce^{0}}{9} \right) \\
+   & = 0 + \frac{C}{9} \\
+   & = \frac{C}{9}
+  \end{aligned}\]
+
+  Logo, \(C=9\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a função \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  Ce^{-8x} & \mbox{se} & x \geq 0. \\
+  \end{array}
+  \right.\] O valor da constante real \(C\) para que \(f(x)\) seja uma
+  densidade é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8\)
+  \item
+    \(16\)
+  \item
+    \(-8\)
+  \item
+    \(-16\)
+  \item
+    \(64\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 & =\int_{-\infty}^{\infty} f(x) dx \\
+   & = \int_{-\infty}^0 0 dx +  \int_0^{\infty} Ce^{-8x} dx \\
+   & = \left[  -\frac{Ce^{-8x}}{8} \right] _{0}^{\infty} \\
+   & = \lim_{x\rightarrow \infty} -\frac{Ce^{-8x}}{8} - \left( -\frac{Ce^{0}}{8} \right) \\
+   & = 0 + \frac{C}{8} \\
+   & = \frac{C}{8}
+  \end{aligned}\]
+
+  Logo, \(C=8\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a função \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  Ce^{-6x} & \mbox{se} & x \geq 0. \\
+  \end{array}
+  \right.\] O valor da constante real \(C\) para que \(f(x)\) seja uma
+  densidade é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6\)
+  \item
+    \(12\)
+  \item
+    \(-6\)
+  \item
+    \(-12\)
+  \item
+    \(36\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 & =\int_{-\infty}^{\infty} f(x) dx \\
+   & = \int_{-\infty}^0 0 dx +  \int_0^{\infty} Ce^{-6x} dx \\
+   & = \left[  -\frac{Ce^{-6x}}{6} \right] _{0}^{\infty} \\
+   & = \lim_{x\rightarrow \infty} -\frac{Ce^{-6x}}{6} - \left( -\frac{Ce^{0}}{6} \right) \\
+   & = 0 + \frac{C}{6} \\
+   & = \frac{C}{6}
+  \end{aligned}\]
+
+  Logo, \(C=6\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a função \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  Ce^{-5x} & \mbox{se} & x \geq 0. \\
+  \end{array}
+  \right.\] O valor da constante real \(C\) para que \(f(x)\) seja uma
+  densidade é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(25\)
+  \item
+    \(5\)
+  \item
+    \(10\)
+  \item
+    \(-5\)
+  \item
+    \(-10\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 & =\int_{-\infty}^{\infty} f(x) dx \\
+   & = \int_{-\infty}^0 0 dx +  \int_0^{\infty} Ce^{-5x} dx \\
+   & = \left[  -\frac{Ce^{-5x}}{5} \right] _{0}^{\infty} \\
+   & = \lim_{x\rightarrow \infty} -\frac{Ce^{-5x}}{5} - \left( -\frac{Ce^{0}}{5} \right) \\
+   & = 0 + \frac{C}{5} \\
+   & = \frac{C}{5}
+  \end{aligned}\]
+
+  Logo, \(C=5\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a função \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  Ce^{-4x} & \mbox{se} & x \geq 0. \\
+  \end{array}
+  \right.\] O valor da constante real \(C\) para que \(f(x)\) seja uma
+  densidade é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(8\)
+  \item
+    \(-8\)
+  \item
+    \(4\)
+  \item
+    \(-4\)
+  \item
+    \(16\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 & =\int_{-\infty}^{\infty} f(x) dx \\
+   & = \int_{-\infty}^0 0 dx +  \int_0^{\infty} Ce^{-4x} dx \\
+   & = \left[  -\frac{Ce^{-4x}}{4} \right] _{0}^{\infty} \\
+   & = \lim_{x\rightarrow \infty} -\frac{Ce^{-4x}}{4} - \left( -\frac{Ce^{0}}{4} \right) \\
+   & = 0 + \frac{C}{4} \\
+   & = \frac{C}{4}
+  \end{aligned}\]
+
+  Logo, \(C=4\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere a função \[f(x) = \left\{
+  \begin{array}{rcl}
+  0 & \mbox{se} & x < 0,\\
+  Ce^{-7x} & \mbox{se} & x \geq 0. \\
+  \end{array}
+  \right.\] O valor da constante real \(C\) para que \(f(x)\) seja uma
+  densidade é:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-7\)
+  \item
+    \(49\)
+  \item
+    \(7\)
+  \item
+    \(-14\)
+  \item
+    \(14\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pelas propriedades das funções de densidade, temos que
+  \[\begin{aligned}
+   1 & =\int_{-\infty}^{\infty} f(x) dx \\
+   & = \int_{-\infty}^0 0 dx +  \int_0^{\infty} Ce^{-7x} dx \\
+   & = \left[  -\frac{Ce^{-7x}}{7} \right] _{0}^{\infty} \\
+   & = \lim_{x\rightarrow \infty} -\frac{Ce^{-7x}}{7} - \left( -\frac{Ce^{0}}{7} \right) \\
+   & = 0 + \frac{C}{7} \\
+   & = \frac{C}{7}
+  \end{aligned}\]
+
+  Logo, \(C=7\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,602 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que um fornecedor de peixes encomendou do exterior um
+  carregamento de salmões selvagens. Entretanto, ao receber o produto,
+  ele suspeita que o salmão entregue foi produzido em cativeiro. Sabe-se
+  que uma porção de filé de salmão contém, em média, \(26\) e \(42\)
+  gramas de gordura, respectivamente, para salmões selvagens e de
+  cativeiro. Além disso, nos dois casos, a variância é igual a \(224\)
+  gramas ao quadrado. Para testar se existe evidência estatísticamente
+  significativa de que o produto não corresponde ao contratado, o
+  fornecedor mensurou o total de gordura em \(15\) porções selecionadas
+  ao acaso, obtendo uma média amostral de \(34.1\). Nesse contexto, ao
+  realizar um teste de hipótese a um nível de significância de \(5\%\),
+  deve se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=34.1\; \emph{vs. } H_a: \bar{x}>34.1\). Há evidência
+    de que o salmão não é selvagem.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu < 26\). Há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=42\). Não há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=42\). Há evidência de que o
+    salmão não é selvagem.
+  \item
+    \(H_0: \bar{x}=26\; \emph{vs. } H_a: \bar{x}=34.1\). Não há
+    evidência de que o salmão é de cativeiro.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=26\)
+  \emph{vs.} \(H_a: \mu > 26\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=26)=P\left(Z>\frac{c-26}{\sqrt{224/15}}\right)=0.05\).
+
+  Portanto, \(\frac{c-26}{\sqrt{224/15}}=1.64 \Rightarrow c=32.34\).
+
+  Daí, como \(\bar{x} =\) \(34.1 > 32.34\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que um fornecedor de peixes encomendou do exterior um
+  carregamento de salmões selvagens. Entretanto, ao receber o produto,
+  ele suspeita que o salmão entregue foi produzido em cativeiro. Sabe-se
+  que uma porção de filé de salmão contém, em média, \(26\) e \(40\)
+  gramas de gordura, respectivamente, para salmões selvagens e de
+  cativeiro. Além disso, nos dois casos, a variância é igual a \(215\)
+  gramas ao quadrado. Para testar se existe evidência estatísticamente
+  significativa de que o produto não corresponde ao contratado, o
+  fornecedor mensurou o total de gordura em \(10\) porções selecionadas
+  ao acaso, obtendo uma média amostral de \(35.72\). Nesse contexto, ao
+  realizar um teste de hipótese a um nível de significância de \(5\%\),
+  deve se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=26\; \emph{vs. } H_a: \bar{x}=35.72\). Não há
+    evidência de que o salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=40\). Não há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=40\). Há evidência de que o
+    salmão não é selvagem.
+  \item
+    \(H_0: \bar{x}=35.72\; \emph{vs. } H_a: \bar{x}>35.72\). Há
+    evidência de que o salmão não é selvagem.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu < 26\). Há evidência de que o
+    salmão é de cativeiro.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=26\)
+  \emph{vs.} \(H_a: \mu > 26\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=26)=P\left(Z>\frac{c-26}{\sqrt{215/10}}\right)=0.05\).
+
+  Portanto, \(\frac{c-26}{\sqrt{215/10}}=1.64 \Rightarrow c=33.6\).
+
+  Daí, como \(\bar{x} =\) \(35.72 > 33.6\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que um fornecedor de peixes encomendou do exterior um
+  carregamento de salmões selvagens. Entretanto, ao receber o produto,
+  ele suspeita que o salmão entregue foi produzido em cativeiro. Sabe-se
+  que uma porção de filé de salmão contém, em média, \(26\) e \(44\)
+  gramas de gordura, respectivamente, para salmões selvagens e de
+  cativeiro. Além disso, nos dois casos, a variância é igual a \(210\)
+  gramas ao quadrado. Para testar se existe evidência estatísticamente
+  significativa de que o produto não corresponde ao contratado, o
+  fornecedor mensurou o total de gordura em \(13\) porções selecionadas
+  ao acaso, obtendo uma média amostral de \(31.36\). Nesse contexto, ao
+  realizar um teste de hipótese a um nível de significância de \(5\%\),
+  deve se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu < 26\). Há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \bar{x}=26\; \emph{vs. } H_a: \bar{x}=31.36\). Não há
+    evidência de que o salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=44\). Não há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \bar{x}=31.36\; \emph{vs. } H_a: \bar{x}>31.36\). Há
+    evidência de que o salmão não é selvagem.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=44\). Há evidência de que o
+    salmão não é selvagem.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=26\)
+  \emph{vs.} \(H_a: \mu > 26\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=26)=P\left(Z>\frac{c-26}{\sqrt{210/13}}\right)=0.05\).
+
+  Portanto, \(\frac{c-26}{\sqrt{210/13}}=1.64 \Rightarrow c=32.59\).
+
+  Daí, como \(\bar{x} =\) \(31.36 < 32.59\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que um fornecedor de peixes encomendou do exterior um
+  carregamento de salmões selvagens. Entretanto, ao receber o produto,
+  ele suspeita que o salmão entregue foi produzido em cativeiro. Sabe-se
+  que uma porção de filé de salmão contém, em média, \(26\) e \(44\)
+  gramas de gordura, respectivamente, para salmões selvagens e de
+  cativeiro. Além disso, nos dois casos, a variância é igual a \(212\)
+  gramas ao quadrado. Para testar se existe evidência estatísticamente
+  significativa de que o produto não corresponde ao contratado, o
+  fornecedor mensurou o total de gordura em \(15\) porções selecionadas
+  ao acaso, obtendo uma média amostral de \(30.95\). Nesse contexto, ao
+  realizar um teste de hipótese a um nível de significância de \(5\%\),
+  deve se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu < 26\). Há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \bar{x}=26\; \emph{vs. } H_a: \bar{x}=30.95\). Não há
+    evidência de que o salmão é de cativeiro.
+  \item
+    \(H_0: \bar{x}=30.95\; \emph{vs. } H_a: \bar{x}>30.95\). Há
+    evidência de que o salmão não é selvagem.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=44\). Não há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=44\). Há evidência de que o
+    salmão não é selvagem.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=26\)
+  \emph{vs.} \(H_a: \mu > 26\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=26)=P\left(Z>\frac{c-26}{\sqrt{212/15}}\right)=0.05\).
+
+  Portanto, \(\frac{c-26}{\sqrt{212/15}}=1.64 \Rightarrow c=32.17\).
+
+  Daí, como \(\bar{x} =\) \(30.95 < 32.17\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que um fornecedor de peixes encomendou do exterior um
+  carregamento de salmões selvagens. Entretanto, ao receber o produto,
+  ele suspeita que o salmão entregue foi produzido em cativeiro. Sabe-se
+  que uma porção de filé de salmão contém, em média, \(26\) e \(41\)
+  gramas de gordura, respectivamente, para salmões selvagens e de
+  cativeiro. Além disso, nos dois casos, a variância é igual a \(200\)
+  gramas ao quadrado. Para testar se existe evidência estatísticamente
+  significativa de que o produto não corresponde ao contratado, o
+  fornecedor mensurou o total de gordura em \(10\) porções selecionadas
+  ao acaso, obtendo uma média amostral de \(31.76\). Nesse contexto, ao
+  realizar um teste de hipótese a um nível de significância de \(5\%\),
+  deve se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=26\; \emph{vs. } H_a: \bar{x}=31.76\). Não há
+    evidência de que o salmão é de cativeiro.
+  \item
+    \(H_0: \bar{x}=31.76\; \emph{vs. } H_a: \bar{x}>31.76\). Há
+    evidência de que o salmão não é selvagem.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=41\). Não há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=41\). Há evidência de que o
+    salmão não é selvagem.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu < 26\). Há evidência de que o
+    salmão é de cativeiro.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=26\)
+  \emph{vs.} \(H_a: \mu > 26\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=26)=P\left(Z>\frac{c-26}{\sqrt{200/10}}\right)=0.05\).
+
+  Portanto, \(\frac{c-26}{\sqrt{200/10}}=1.64 \Rightarrow c=33.33\).
+
+  Daí, como \(\bar{x} =\) \(31.76 < 33.33\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que um fornecedor de peixes encomendou do exterior um
+  carregamento de salmões selvagens. Entretanto, ao receber o produto,
+  ele suspeita que o salmão entregue foi produzido em cativeiro. Sabe-se
+  que uma porção de filé de salmão contém, em média, \(26\) e \(43\)
+  gramas de gordura, respectivamente, para salmões selvagens e de
+  cativeiro. Além disso, nos dois casos, a variância é igual a \(242\)
+  gramas ao quadrado. Para testar se existe evidência estatísticamente
+  significativa de que o produto não corresponde ao contratado, o
+  fornecedor mensurou o total de gordura em \(13\) porções selecionadas
+  ao acaso, obtendo uma média amostral de \(35.74\). Nesse contexto, ao
+  realizar um teste de hipótese a um nível de significância de \(5\%\),
+  deve se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=26\; \emph{vs. } H_a: \bar{x}=35.74\). Não há
+    evidência de que o salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=43\). Não há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \bar{x}=35.74\; \emph{vs. } H_a: \bar{x}>35.74\). Há
+    evidência de que o salmão não é selvagem.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu < 26\). Há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=43\). Há evidência de que o
+    salmão não é selvagem.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=26\)
+  \emph{vs.} \(H_a: \mu > 26\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=26)=P\left(Z>\frac{c-26}{\sqrt{242/13}}\right)=0.05\).
+
+  Portanto, \(\frac{c-26}{\sqrt{242/13}}=1.64 \Rightarrow c=33.08\).
+
+  Daí, como \(\bar{x} =\) \(35.74 > 33.08\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que um fornecedor de peixes encomendou do exterior um
+  carregamento de salmões selvagens. Entretanto, ao receber o produto,
+  ele suspeita que o salmão entregue foi produzido em cativeiro. Sabe-se
+  que uma porção de filé de salmão contém, em média, \(26\) e \(41\)
+  gramas de gordura, respectivamente, para salmões selvagens e de
+  cativeiro. Além disso, nos dois casos, a variância é igual a \(218\)
+  gramas ao quadrado. Para testar se existe evidência estatísticamente
+  significativa de que o produto não corresponde ao contratado, o
+  fornecedor mensurou o total de gordura em \(12\) porções selecionadas
+  ao acaso, obtendo uma média amostral de \(35.04\). Nesse contexto, ao
+  realizar um teste de hipótese a um nível de significância de \(5\%\),
+  deve se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=26\; \emph{vs. } H_a: \bar{x}=35.04\). Não há
+    evidência de que o salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=41\). Não há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=41\). Há evidência de que o
+    salmão não é selvagem.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu < 26\). Há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \bar{x}=35.04\; \emph{vs. } H_a: \bar{x}>35.04\). Há
+    evidência de que o salmão não é selvagem.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=26\)
+  \emph{vs.} \(H_a: \mu > 26\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=26)=P\left(Z>\frac{c-26}{\sqrt{218/12}}\right)=0.05\).
+
+  Portanto, \(\frac{c-26}{\sqrt{218/12}}=1.64 \Rightarrow c=32.99\).
+
+  Daí, como \(\bar{x} =\) \(35.04 > 32.99\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que um fornecedor de peixes encomendou do exterior um
+  carregamento de salmões selvagens. Entretanto, ao receber o produto,
+  ele suspeita que o salmão entregue foi produzido em cativeiro. Sabe-se
+  que uma porção de filé de salmão contém, em média, \(26\) e \(45\)
+  gramas de gordura, respectivamente, para salmões selvagens e de
+  cativeiro. Além disso, nos dois casos, a variância é igual a \(250\)
+  gramas ao quadrado. Para testar se existe evidência estatísticamente
+  significativa de que o produto não corresponde ao contratado, o
+  fornecedor mensurou o total de gordura em \(15\) porções selecionadas
+  ao acaso, obtendo uma média amostral de \(31.33\). Nesse contexto, ao
+  realizar um teste de hipótese a um nível de significância de \(5\%\),
+  deve se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=45\). Há evidência de que o
+    salmão não é selvagem.
+  \item
+    \(H_0: \bar{x}=26\; \emph{vs. } H_a: \bar{x}=31.33\). Não há
+    evidência de que o salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=45\). Não há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \bar{x}=31.33\; \emph{vs. } H_a: \bar{x}>31.33\). Há
+    evidência de que o salmão não é selvagem.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu < 26\). Há evidência de que o
+    salmão é de cativeiro.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=26\)
+  \emph{vs.} \(H_a: \mu > 26\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=26)=P\left(Z>\frac{c-26}{\sqrt{250/15}}\right)=0.05\).
+
+  Portanto, \(\frac{c-26}{\sqrt{250/15}}=1.64 \Rightarrow c=32.7\).
+
+  Daí, como \(\bar{x} =\) \(31.33 < 32.7\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que um fornecedor de peixes encomendou do exterior um
+  carregamento de salmões selvagens. Entretanto, ao receber o produto,
+  ele suspeita que o salmão entregue foi produzido em cativeiro. Sabe-se
+  que uma porção de filé de salmão contém, em média, \(26\) e \(40\)
+  gramas de gordura, respectivamente, para salmões selvagens e de
+  cativeiro. Além disso, nos dois casos, a variância é igual a \(213\)
+  gramas ao quadrado. Para testar se existe evidência estatísticamente
+  significativa de que o produto não corresponde ao contratado, o
+  fornecedor mensurou o total de gordura em \(10\) porções selecionadas
+  ao acaso, obtendo uma média amostral de \(35.78\). Nesse contexto, ao
+  realizar um teste de hipótese a um nível de significância de \(5\%\),
+  deve se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=40\). Há evidência de que o
+    salmão não é selvagem.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu < 26\). Há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=40\). Não há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \bar{x}=35.78\; \emph{vs. } H_a: \bar{x}>35.78\). Há
+    evidência de que o salmão não é selvagem.
+  \item
+    \(H_0: \bar{x}=26\; \emph{vs. } H_a: \bar{x}=35.78\). Não há
+    evidência de que o salmão é de cativeiro.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=26\)
+  \emph{vs.} \(H_a: \mu > 26\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=26)=P\left(Z>\frac{c-26}{\sqrt{213/10}}\right)=0.05\).
+
+  Portanto, \(\frac{c-26}{\sqrt{213/10}}=1.64 \Rightarrow c=33.57\).
+
+  Daí, como \(\bar{x} =\) \(35.78 > 33.57\), rejeita-se \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que um fornecedor de peixes encomendou do exterior um
+  carregamento de salmões selvagens. Entretanto, ao receber o produto,
+  ele suspeita que o salmão entregue foi produzido em cativeiro. Sabe-se
+  que uma porção de filé de salmão contém, em média, \(26\) e \(41\)
+  gramas de gordura, respectivamente, para salmões selvagens e de
+  cativeiro. Além disso, nos dois casos, a variância é igual a \(215\)
+  gramas ao quadrado. Para testar se existe evidência estatísticamente
+  significativa de que o produto não corresponde ao contratado, o
+  fornecedor mensurou o total de gordura em \(13\) porções selecionadas
+  ao acaso, obtendo uma média amostral de \(31.35\). Nesse contexto, ao
+  realizar um teste de hipótese a um nível de significância de \(5\%\),
+  deve se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=26\; \emph{vs. } H_a: \bar{x}=31.35\). Não há
+    evidência de que o salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=41\). Há evidência de que o
+    salmão não é selvagem.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu=41\). Não há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \mu=26\; \emph{vs. } H_a: \mu < 26\). Há evidência de que o
+    salmão é de cativeiro.
+  \item
+    \(H_0: \bar{x}=31.35\; \emph{vs. } H_a: \bar{x}>31.35\). Há
+    evidência de que o salmão não é selvagem.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são \(H_0: \mu=26\)
+  \emph{vs.} \(H_a: \mu > 26\). Além disso, sabe-se que o nível de
+  significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}>c|\mu=26)=P\left(Z>\frac{c-26}{\sqrt{215/13}}\right)=0.05\).
+
+  Portanto, \(\frac{c-26}{\sqrt{215/13}}=1.64 \Rightarrow c=32.67\).
+
+  Daí, como \(\bar{x} =\) \(31.35 < 32.67\), não se rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

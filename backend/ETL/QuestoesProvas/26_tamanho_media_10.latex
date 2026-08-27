@@ -1,0 +1,463 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Professores do Departamento de Estatística da Universidade elaboraram
+  uma nova metodologia de avaliação no curso de Probabilidade e
+  Estatística, com o objetivo de garantir uniformidade no processo
+  avaliativo e na aplicação do projeto pedagógico. Sabe-se que o desvio
+  padrão das notas obtidas anteriormente era de \(2.73\) pontos.
+  Assumindo que a variância não se alterou, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(80\%\), a média
+  amostral não difira da média populacional por mais de \(0.6\) ponto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(15\)
+  \item
+    \(34\)
+  \item
+    \(39\)
+  \item
+    \(22\)
+  \item
+    \(9\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 2.73}{0.6} \right)^2=33.919.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=34\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Professores do Departamento de Estatística da Universidade elaboraram
+  uma nova metodologia de avaliação no curso de Probabilidade e
+  Estatística, com o objetivo de garantir uniformidade no processo
+  avaliativo e na aplicação do projeto pedagógico. Sabe-se que o desvio
+  padrão das notas obtidas anteriormente era de \(2.74\) pontos.
+  Assumindo que a variância não se alterou, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(90\%\), a média
+  amostral não difira da média populacional por mais de \(1\) ponto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(14\)
+  \item
+    \(23\)
+  \item
+    \(21\)
+  \item
+    \(6\)
+  \item
+    \(13\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 2.74}{1} \right)^2=20.1924.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=21\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Professores do Departamento de Estatística da Universidade elaboraram
+  uma nova metodologia de avaliação no curso de Probabilidade e
+  Estatística, com o objetivo de garantir uniformidade no processo
+  avaliativo e na aplicação do projeto pedagógico. Sabe-se que o desvio
+  padrão das notas obtidas anteriormente era de \(3.26\) pontos.
+  Assumindo que a variância não se alterou, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(97.5\%\), a média
+  amostral não difira da média populacional por mais de \(0.7\) ponto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(68\)
+  \item
+    \(84\)
+  \item
+    \(28\)
+  \item
+    \(109\)
+  \item
+    \(136\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então,
+  \[n \geq \left( \frac{2.24 \times 3.26}{0.7} \right)^2=108.8266.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=109\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Professores do Departamento de Estatística da Universidade elaboraram
+  uma nova metodologia de avaliação no curso de Probabilidade e
+  Estatística, com o objetivo de garantir uniformidade no processo
+  avaliativo e na aplicação do projeto pedagógico. Sabe-se que o desvio
+  padrão das notas obtidas anteriormente era de \(3.59\) pontos.
+  Assumindo que a variância não se alterou, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(90\%\), a média
+  amostral não difira da média populacional por mais de \(0.5\) ponto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(139\)
+  \item
+    \(85\)
+  \item
+    \(35\)
+  \item
+    \(153\)
+  \item
+    \(87\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 3.59}{0.5} \right)^2=138.6553.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=139\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Professores do Departamento de Estatística da Universidade elaboraram
+  uma nova metodologia de avaliação no curso de Probabilidade e
+  Estatística, com o objetivo de garantir uniformidade no processo
+  avaliativo e na aplicação do projeto pedagógico. Sabe-se que o desvio
+  padrão das notas obtidas anteriormente era de \(3.57\) pontos.
+  Assumindo que a variância não se alterou, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(80\%\), a média
+  amostral não difira da média populacional por mais de \(0.5\) ponto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(84\)
+  \item
+    \(105\)
+  \item
+    \(52\)
+  \item
+    \(21\)
+  \item
+    \(36\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 3.57}{0.5} \right)^2=83.525.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=84\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Professores do Departamento de Estatística da Universidade elaboraram
+  uma nova metodologia de avaliação no curso de Probabilidade e
+  Estatística, com o objetivo de garantir uniformidade no processo
+  avaliativo e na aplicação do projeto pedagógico. Sabe-se que o desvio
+  padrão das notas obtidas anteriormente era de \(3.24\) pontos.
+  Assumindo que a variância não se alterou, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(80\%\), a média
+  amostral não difira da média populacional por mais de \(0.6\) ponto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(21\)
+  \item
+    \(48\)
+  \item
+    \(30\)
+  \item
+    \(58\)
+  \item
+    \(12\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 3.24}{0.6} \right)^2=47.7757.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=48\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Professores do Departamento de Estatística da Universidade elaboraram
+  uma nova metodologia de avaliação no curso de Probabilidade e
+  Estatística, com o objetivo de garantir uniformidade no processo
+  avaliativo e na aplicação do projeto pedagógico. Sabe-se que o desvio
+  padrão das notas obtidas anteriormente era de \(4.41\) pontos.
+  Assumindo que a variância não se alterou, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(80\%\), a média
+  amostral não difira da média populacional por mais de \(0.7\) ponto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(29\)
+  \item
+    \(79\)
+  \item
+    \(42\)
+  \item
+    \(17\)
+  \item
+    \(66\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 4.41}{0.7} \right)^2=65.0281.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=66\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Professores do Departamento de Estatística da Universidade elaboraram
+  uma nova metodologia de avaliação no curso de Probabilidade e
+  Estatística, com o objetivo de garantir uniformidade no processo
+  avaliativo e na aplicação do projeto pedagógico. Sabe-se que o desvio
+  padrão das notas obtidas anteriormente era de \(4.99\) pontos.
+  Assumindo que a variância não se alterou, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(80\%\), a média
+  amostral não difira da média populacional por mais de \(0.8\) ponto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(28\)
+  \item
+    \(16\)
+  \item
+    \(40\)
+  \item
+    \(64\)
+  \item
+    \(74\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 4.99}{0.8} \right)^2=63.7443.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=64\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Professores do Departamento de Estatística da Universidade elaboraram
+  uma nova metodologia de avaliação no curso de Probabilidade e
+  Estatística, com o objetivo de garantir uniformidade no processo
+  avaliativo e na aplicação do projeto pedagógico. Sabe-se que o desvio
+  padrão das notas obtidas anteriormente era de \(2.51\) pontos.
+  Assumindo que a variância não se alterou, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(99\%\), a média
+  amostral não difira da média populacional por mais de \(0.5\) ponto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(168\)
+  \item
+    \(185\)
+  \item
+    \(42\)
+  \item
+    \(105\)
+  \item
+    \(137\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 2.51}{0.5} \right)^2=167.7439.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=168\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Professores do Departamento de Estatística da Universidade elaboraram
+  uma nova metodologia de avaliação no curso de Probabilidade e
+  Estatística, com o objetivo de garantir uniformidade no processo
+  avaliativo e na aplicação do projeto pedagógico. Sabe-se que o desvio
+  padrão das notas obtidas anteriormente era de \(1.39\) pontos.
+  Assumindo que a variância não se alterou, qual deve ser o tamanho
+  mínimo da amostra para que, com confiança de \(90\%\), a média
+  amostral não difira da média populacional por mais de \(0.6\) ponto?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(19\)
+  \item
+    \(9\)
+  \item
+    \(15\)
+  \item
+    \(4\)
+  \item
+    \(10\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(90\%\), então \(z=1.64\). Então,
+  \[n \geq \left( \frac{1.64 \times 1.39}{0.6} \right)^2=14.4349.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=15\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

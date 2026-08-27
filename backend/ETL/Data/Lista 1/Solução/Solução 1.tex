@@ -1,0 +1,602 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsfonts,amssymb,amsbsy}
+\usepackage{amsthm} %Permite teorema sem numeração, no meu caso Demonstração
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+
+%------------------------------------------------------------------------------
+
+\setlength{\topmargin}{-1.0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{6.5in}
+\setlength{\baselineskip}{12mm}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{figure}[h]
+        \begin{minipage}[c]{1.7cm}
+        \includegraphics[width=1.7cm]{unb.pdf}
+        \end{minipage}%
+        \hspace{0pt}
+        \begin{minipage}[c]{7in}
+                  {Universidade de Brasília} \\
+                  {Departamento de Estatística}
+\end{minipage}
+\end{figure}
+\vspace{-0.35cm} \hrule
+
+\begin{center}
+{\huge\bf $\text{1}^{\text{\underline{a}}}$ Lista de PE -- Solução}
+\vspace{-0.25cm}
+\end{center}
+\hrule
+
+\vspace*{0.5cm}
+
+\begin{enumerate}
+
+\item
+\begin{itemize}
+\item[a)] Qualitativa nominal. 
+\item[b)] Quantitativa discreta. 
+\item[c)] Quantitativa discreta.
+\item[d)] Quantitativa contínua. 
+\item[e)] Quantitativa contínua. 
+\item[f)] Qualitativa ordinal.
+\item[g)] Quantitativa contínua. 
+\item[h)] Qualitativa nominal.
+\end{itemize}
+
+\item O item (c) seria a melhor opção.
+
+\item O ambiente a ser escolhido deveria ser um bar, item (b). Isto porque nos outros ambientes não deve haver fumantes em potencial para observação.
+
+\item 
+\begin{itemize}
+\item[a)] Segue abaixo a distribuição de frequências para a variável {\it Estado civil}. 
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|c|c}
+\hline
+\hline
+{\bf Estado civil} & {\bf Frequência ($n_i$)} & {\bf Frequência relativa ($f_i$)}\\
+\hline
+Solteiro & 16 & 0,4444 \\
+Casado & 20 & 0,5556 \\
+\hline
+{\bf Total} & 36 & 1,0000\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\item[b)] Segue abaixo a distribuição de frequências para a variável {\it Região de procedência}. 
+\begin{table}[h!]
+\centering
+\begin{tabular}{c|c|c}
+\hline
+\hline
+{\bf Região de procedência} & {\bf Frequência ($n_i$)} & {\bf Frequência relativa ($f_i$)}\\
+\hline
+Interior & 12 & 0,3333 \\
+Capital & 11 & 0,3056 \\
+Outra & 13 & 0,3611\\
+\hline
+{\bf Total} & 36 & 1,0000\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\item[c)] Segue abaixo a distribuição de frequências para a variável {\it Número de filhos}.
+\begin{table}[h!]
+\centering
+\begin{tabular}{c|c|c}
+\hline
+\hline
+{\bf Número de filhos} & {\bf Frequência ($n_i$)} & {\bf Frequência relativa ($f_i$)}\\
+\hline
+0 & 4 & 0,20 \\
+1 & 5 & 0,25 \\
+2 & 7 & 0,35\\
+3 & 3 & 0,15\\
+5 & 1 & 0,05\\
+\hline
+{\bf Total} & 20 & 1,00\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\newpage
+\item[d)] Segue abaixo a distribuição de frequências para a variável {\it Idade}. 
+\begin{table}[htpb]
+\centering
+\begin{tabular}{c|c|c}
+\hline
+\hline
+{\bf Idade} & {\bf Frequência ($n_i$)} & {\bf Frequência relativa ($f_i$)}\\
+\hline
+$20\vdash 25$ & 2 & 0,0556 \\
+$25\vdash 30$ & 6 & 0,1667 \\
+$30\vdash 35$ & 10 & 0,2778 \\
+$35\vdash 40$ & 8 & 0,2222 \\
+$40\vdash 45$ & 8 & 0,2222 \\
+$45\vdash 50$ & 2 & 0,0556 \\
+\hline
+{\bf Total} & 36 & 1,0000\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] 
+{\bf Seção:} Variável qualitativa nominal. \\
+{\bf Administração:} Variável quantitativa contínua.\\
+{\bf Direito:} Variável quantitativa contínua.\\
+{\bf Redação:} Variável quantitativa contínua.\\
+{\bf Estatística:} Variável quantitativa contínua.\\
+{\bf Política:} Variável quantitativa contínua.\\
+{\bf Economia:} Variável quantitativa contínua.\\
+{\bf Inglês:} Variável qualitativa ordinal. \\
+{\bf Metodologia:} Variável qualitativa ordinal. \\
+
+\item[b)] A distribuição dos dados para a variável {\it Direito} é uniforme (todos os funcionários obtiveram mesmo desempenho) enquanto a distribuição dos dados para as variáveis {\it Estatística} e {\it Política} é mais dispersa.
+\vspace*{0.5cm}
+
+\item[c)] Para construirmos o histograma com 8 classes para a variável {\it Redação} precisamos antes determinar a amplitude das classes para em seguida obtermos a frequência relativa e a altura de cada um dos blocos. Para facilitar a visualização desses resultados é sempre interessante recorrermos à distribuição de frequências dos dados em questão.
+
+Lembre-se que calculamos a altura dos blocos pela fórmula $h_i = f_i/\Delta_i$, onde $\Delta_i$ é a amplitude das classes. Em nosso caso, deveremos ter 8 classes de amplitude 0,5, ou seja, $\Delta_i$ é constante e igual a 0,5 ou $\Delta_i=\Delta=0,5$.
+
+\vspace*{0.1cm}
+\begin{table}[h!]
+\centering
+\begin{tabular}{c|c|c|c}
+\hline
+\hline
+{\bf Redação} & {\bf Frequência ($n_i$)} & {\bf Frequência relativa ($f_i$)} & {\bf Altura ($h_i$)}\\
+\hline
+$6,0\vdash 6,5$ & 1 & 0,04 & 0,08 \\
+$6,5\vdash 7,0$ & 1 & 0,04 & 0,08\\
+$7,0\vdash 7,5$ & 4 & 0,16 & 0,32 \\
+$7,5\vdash 8,0$ & 5 & 0,20 & 0,40 \\
+$8,0\vdash 8,5$ & 4 & 0,16 & 0,32 \\
+$8,5\vdash 9,0$ & 8 & 0,32 & 0,64 \\
+$9,0\vdash 9,5$ & 1 & 0,04 & 0,08 \\
+\hspace{0.2cm}$9,5\vdash 10,0$ & 1 & 0,04 & 0,08 \\
+\hline
+{\bf Total} & 25 & 1,00 &\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\noindent Segue abaixo o histograma para a variável {\it Redação}.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.5]{Q5itemC.eps}
+%\caption{}
+%\label{}
+\end{figure}
+\newpage
+
+\item[d)] O primeiro passo é obtermos a distribuição de frequências da variável em questão, ou seja, {\it Metodologia}.
+\begin{table}[h!]
+\centering
+\begin{tabular}{c|c|c}
+\hline
+\hline
+{\bf Metodologia} & {\bf Frequência ($n_i$)} & {\bf Frequência relativa ($f_i$)}\\
+\hline
+A & 7 & 0,28 \\
+B & 8 & 0,32\\
+C & 10 & 0,40 \\
+\hline
+{\bf Total} & 25 & 1,00\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+Tendo em vista que a nossa variável é qualitativa ordinal, tanto o gráfico em barras quanto o gráfico  em pizza são recomendáveis para representar a distribuição dos dados. Como exemplo, iremos construir o gráfico em pizza da variável.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{Q5itemD.eps}
+%\caption{}
+%\label{}
+\end{figure}
+\vspace{5cm}
+
+\newpage
+\item[e)] Sorteando ao acaso um dos 25 funcionários, a probabilidade de que ele tenha obtido grau A em {\it Metodologia} está explicitado na tabela de distribuição de frequências, ou seja, 28\%.
+
+\item[f)] A probabilidade é menor, pois seriam 42 possibilidades num total de 600, ou seja, a probabilidade seria de 7\%.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\item
+\begin{itemize}
+\item[a)] É fácil observar que a taxa de crescimento geométrico anual é uma variável quantitativa contínua. Como a amplitude dos intervalos já foi especificada, vamos construir um histograma com 5 classes de mesma amplitude e, novamente, precisaremos da frequência relativa e da altura. 
+
+\begin{table}[htpb]
+\centering
+\begin{tabular}{c|c|c|c}
+\hline
+\hline
+{\bf Taxa de Cresc.} & {\bf Frequência ($n_i$)} & {\bf Frequência relativa ($f_i$)} & {\bf Altura ($h_i$)}\\
+\hline
+$0\vdash 2$ & 4 & 0,1333 & 0,0667 \\
+$2\vdash 4$ & 9 & 0,3000 & 0,1500\\
+$4\vdash 6$ & 12 & 0,4000 & 0,2000 \\
+$6\vdash 8$ & 3 & 0,1000 & 0,0500 \\
+\hspace{0.2cm}$8\vdash 10$ & 2 & 0,0667 & 0,0333 \\
+\hline
+{\bf Total} & 30 & 1,0000 &\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\item[b)] À partir dos resultados obtidos no {\bf item a)} segue o histograma para a variável {\it Taxa de crescimento}. 
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.5]{Q6.eps}
+%\caption{}
+%\label{}
+\end{figure}
+\end{itemize}
+
+\item
+\begin{itemize}
+\item[a)] Como em todos os exemplos anteriores, utilizamos a distribuição de frequências para facilitar a construção do histograma:
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{c|c|c|c}
+\hline
+\hline
+{\bf Classes de Aluguéis} & {\bf Frequência ($n_i$)} & {\bf Frequência relativa ($f_i$)} & {\bf Altura ($h_i$)}\\
+\hline
+$2\vdash 3$ & 10 & 0,05 & 0,05 \\
+$3\vdash 5$ & 40 & 0,20 & 0,10\\
+$5\vdash 7$ & 80 & 0,40 & 0,20 \\
+\hspace{0.2cm}$7\vdash 10$ & 50 & 0,25 & 0,08 \\
+\hspace{0.02cm}$10\vdash 15$ & 20 & 0,10 & 0,02 \\
+\hline
+{\bf Total} & 200 & 1,00 &\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+A diferença neste caso é que as classes não possuem mesma amplitude. Desse modo teremos $h_i=f_i/\Delta_i$ onde $\Delta_1=1$, $\Delta_2=2$, $\Delta_3=2$, $\Delta_4=3$ e $\Delta_5=5$. O histograma resultante segue abaixo:
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.5]{Q7a.eps}
+%\caption{}
+%\label{}
+\end{figure}
+
+\vspace{0.3cm}
+De maneira análoga obtemos a distribuição de frequências para a Zona rural:
+
+\begin{table}[htpb]
+\centering
+\begin{tabular}{c|c|c|c}
+\hline
+\hline
+{\bf Classes de Aluguéis} & {\bf Frequência ($n_i$)} & {\bf Frequência relativa ($f_i$)} & {\bf Altura ($h_i$)}\\
+\hline
+$2\vdash 3$ & 30 & 0,30 & 0,30 \\
+$3\vdash 5$ & 50 & 0,50 & 0,25\\
+$5\vdash 7$ & 15 & 0,15 & 0,08 \\
+\hspace{0.2cm}$7\vdash 10$ & 5 & 0,05 & 0,02 \\
+\hspace{0.02cm}$10\vdash 15$ & 0 & 0,00 & 0,00 \\
+\hline
+{\bf Total} & 100 & 1,00 &\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\vspace{0.3cm}
+e o histograma resultante segue abaixo:
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.5]{Q7b.eps}
+%\caption{}
+%\label{}
+\end{figure}
+
+\newpage
+\item[b)] Pode-se observar claramente à partir dos histogramas que as classes de aluguéis para a zona urbana possuem distribuição bem mais simétrica em relação à zona rural, onde as classes de aluguéis decaem muito rapidamente à medida que aumentamos o seu valor. Outro ponto a se destacar é a frequência zero para classes maiores do que 10.
+\end{itemize}
+
+\vspace*{0.5cm}
+
+\item Para respondermos grande parte dos itens, basta construirmos a tabela de distribuição de frequências. Sendo $x_i$'s os pontos médios dos intervalos de classe, segue abaixo a tabela:
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|c|c|c|c|c}
+\hline
+\hline
+{\bf $x_i$} & {\bf $f_i$} & {\bf $f_ix_i$} & {\bf  $x_i-\overline{x}$} & {\bf $(x_i-\overline{x})^2$} & {\bf $f_i(x_i-\overline{x})^2$} \\
+\hline
+3 & 0,56 & 1,68 & -3,9 & 15,21 & 8,52 \\
+
+9 & 0,28 & 2,52 & 2,1 & 4,41 & 1,23 \\
+ 
+15 & 0,12 & 1,80 & 8,1 & 65,61 & 7,87 \\
+
+21 & 0,03 & 0,63 & 14,1 & 198,81 & 5,96 \\
+ 
+27 & 0,01 & 0,27 & 20,1 & 404,01 & 4,04 \\
+\hline
+$\sum$ & 1,00 &$\overline{x}=6,90$ &  & & $\text{Var}(X) = 27,62$\\
+
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\begin{itemize}
+\item[a)] Pela tabela acima podemos ver que a média é $\overline{x}=6,90$. Para o cálculo da mediana, note que a mesma está situada no primeiro intervalo de classe e assim aplicamos o princípio estudado sobre as alturas dos histogramas de tal forma que $$\frac{56\%}{6-0}=\frac{50\%}{\tilde{x}-0}.$$ Resolvendo a equação obtemos $\tilde{x}=5,35$.
+
+\vspace{0.3cm}
+\item[b)] Da tabela temos que $\text{Var}(X) = 27,62$, então $\mathcal{D}(X) = 5,26$.
+
+\vspace{0.3cm}
+\item[c)] Lembre-se que calculamos a altura dos blocos pela fórmula $h_i = f_i/\Delta_i$, onde $\Delta_i$ é a amplitude das classes. Em nosso caso, temos 5 classes de amplitude 6, ou seja, $\Delta_i=\Delta=6$. As respectivas alturas são $h_1=0,093$, $h_2=0,047$, $h_3=0,020$, $h_4=0,005$ e $h_5=0,002$. O histograma segue abaixo:
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.5]{Q1itemC.eps}
+%\caption{}
+%\label{}
+\end{figure}
+
+\item[d)] Note que $q_1=q(0,25)$ está situado no primeiro intervalo de classe e assim aplicamos o princípio estudado sobre as alturas dos histogramas de tal forma que $$\frac{56\%}{6-0}=\frac{25\%}{q_1-0}.$$ Resolvendo a equação obtemos $q_1=2,68$. Agora, veja que $q_3 = q(0,75)$ está situado no segundo intervalo de classe e aplicando o mesmo princípio temos que $$\frac{28\%}{12-6}=\frac{19\%}{q_3-6}.$$ Resolvendo a equação obtemos $q_3 = 10,07.$
+
+\vspace*{0.3cm}
+
+\item[e)] Ao observamos o histograma já podemos verificar que os dados são assimétricos. Se desejarmos uma medida algébrica, basta notar que $\tilde{x} - q_1=2,67$ é bem menor que $q_3-\tilde{x}=4,72$.
+\end{itemize}
+
+\vspace*{0.3cm}
+
+\item 
+\begin{itemize}
+\item[a)] Se cada observação é multiplicada por 2, as estatísticas de ordem permanecem nas mesmas posições, porém multiplicadas por 2 e, portanto, a mediana é $2\tilde{x}$.
+
+A média será dada por $$ \frac{2x_1+\cdots+2x_n}{n}=2\overline{x}.$$
+
+O desvio padrão será $$\sqrt{\frac{(2x_1-2\overline{x})^2+\cdots+(2x_n-2\overline{x})^2}{n}}=2\sqrt{\frac{(x_1-\overline{x})^2+\cdots+(x_n-\overline{x})^2}{n}}=2\mathcal{D}(X).$$
+\item[b)] Somando-se 10 unidades à mediana, a mesma apenas será transladada assim como as outras estatísticas de ordem, mantendo a posição central e, portanto, seu valor é $10+\tilde{x}$.
+
+A média, por sua vez, será $$\frac{(10+x_1)+\cdots +(10+x_n)}{n}=\frac{10n + x_1+\cdots+x_n}{n}=10+\overline{x}.$$
+
+Por fim, o desvio padrão será $$\sqrt{\frac{(10+x_1-(10+\overline{x}))^2+\cdots(10+x_n-(10+\overline{x}))^2}{n}}=\mathcal{D}(X).$$
+\item[c)] Por argumentos análogos aos itens anteriores a mediana será $\tilde{x}-\overline{x}$.
+
+A média dos dados será $$\frac{1}{n}\sum_{i=1}^n(x_i-\overline{x})=\frac{1}{n}\sum_{i=1}^n x_i-\overline{x}=0$$
+
+O desvio padrão obviamente não será alterado, visto que a média acima é zero.
+\item[d)] Após padronizarmos os dados teremos o conjunto $\left(\frac{x_1-\overline{x}}{\mathcal{D}(X)},\cdots,\frac{x_n-\overline{x}}{\mathcal{D}(X)}\right).$ A mediana será simplesmente dada por $\frac{\tilde{x}-\overline{x}}{\mathcal{D}(X)}$.
+
+A média, como no caso anterior, será zero.
+
+\newpage
+O desvio padrão, por sua vez, será $$\sqrt{\frac{\left(\frac{x_1-\overline{x}}{\mathcal{D}(X)}\right)^2+\cdots+\left(\frac{x_n-\overline{x}}{\mathcal{D}(X)}\right)^2}{n}}=\frac{1}{\mathcal{D}(X)}\sqrt{\frac{(x_1-\overline{x})^2+\cdots+(x_n-\overline{x})^2}{n}}=1$$
+\end{itemize}
+
+\vspace*{0.5cm}
+
+\item \begin{itemize}
+\item[a)] $Z$ é a nota dos funcionários com posição e escala corrigidas, ou seja, normalizada. Pelo {\bf item d)} da {\bf Questão 9} é de se esperar que a média seja zero e o desvio padrão seja 1.
+\item[b)] A nota de cada funcionário normalizada segue na tabela abaixo em ordem crescente segundo as colunas:
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+0,58 & 1,35 & 1,35 & -0,95 & -0,95\\
+0,58 & -0,18 & -0,95 & -0,18 & -0,18\\
+-0,18 & -0,18 & -0,95 & 0,58 & 1,35\\
+-0,18 & 0,58 & 0,58 & -3,26 & 0,58\\
+0,58 & -0,18 & 0,58 & -0,95 & 0,58\\
+\hline
+\end{tabular}
+\end{table}
+\item[c)] $\overline{z}=0$ e $\mathcal{D}(Z)=1$.
+\item[d)] Considerando o desvio padrão obtido, o intervalo em questão será $(-2,2)$ e, portanto, o funcionário 19 é um caso atípico, pois $z_{19}=-3,26$. Para os dados originais, sua nota foi 4,0 e está bem abaixo das demais.
+\item[e)] Para a variável {\it Direito} não temos variabilidade, então devemos observar as variáveis {\it Estatística} e {\it Política}. Para {\it Estatística} já calculamos sua nota normalizada no {\bf item b)} e esta é dada por 0,58. A média da variável {\it Política} é $\overline{p}=7,76$ e o seu desvio padrão é $\mathcal{D}(P)=1,64$. Segue que a nota normalizada do funcionário em {\it Política} é 0,76 e esta representa seu melhor desempenho relativo.
+\end{itemize}
+
+\vspace*{0.5cm}
+
+\item Primeiramente, observe que 
+
+\begin{eqnarray*}
+\text{Var}(X) &=& \frac{\sum_{i=1}^n(x_i-\overline{x})^2}{n} = \frac{\sum_{i=1}^n \left( x_i^2-2x_i\overline{x}+\overline{x}^2\right)}{n}\\
+&=& \frac{\sum_{i=1}^n x_i^2}{n} - 2\overline{x}\frac{\sum_{i=1}^n x_i}{n} + \frac{\sum_{i=1}^n \overline{x}^2}{n}\\
+&=& \frac{\sum_{i=1}^n x_i^2}{n}-2\overline{x}^2+\overline{x}^2\\
+&=& \frac{\sum_{i=1}^n x_i^2}{n}-\overline{x}^2\\
+\end{eqnarray*}
+
+Se separássemos os valores segundo suas frequências, teríamos
+$$\text{Var}(X)=\frac{\sum_{i=1}^k n_ix_i^2}{n}-\overline{x}^2 = \sum_{i=1}^k f_ix_i^2-\overline{x}^2.$$
+
+\item 
+\begin{itemize}
+\item[a)] Temos sete intervalos de classe com amplitude $\Delta=2$ e as respectivas alturas dos blocos são $h_1=0,2439$, $h_2=0,0951$, $h_3=0,0488$, $h_4=0,0269$, $h_5=0,0195$, $h_6=0,0171$ e $h_7=0,0488$. O histograma segue abaixo:
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{Q5itemA.eps}
+%\caption{}
+%\label{}
+\end{figure}
+
+\item[b)] Sendo $x_i$'s os pontos médios dos intervalos de classe, a tabela com os valores necessários segue abaixo:
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{c|c|c|c|c}
+\hline
+\hline
+{\bf $x_i$} & {\bf $f_i$} & {\bf $f_ix_i$} & {\bf $x_i^2$} & {\bf $f_ix_i^2$} \\
+\hline
+1 & 0,4878 & 0,4878 & 1 & 0,4878\\
+3 & 0,1902 & 0,5706 & 9 & 1,7118\\
+5 & 0,0976 & 0,4880 & 25 & 2,4400\\
+7 & 0,0537 & 0,3759 & 49 & 2,6313\\
+9 & 0,0390 & 0,3510 & 81 & 3,1590\\
+11 & 0,0341 & 0,3751 & 121 & 4,1261\\
+13 & 0,0976 & 1,2688 & 169 & 16,4944\\
+\hline
+$\sum$ & 1,0000 &$\overline{x}=3,9172$ &  & 31,0504\\
+
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+A média já está na tabela e seu valor é 3,9172. Pela fórmula encontrada na {\bf Questão 11}, a variância é dada por $\text{Var}(X)=31,0504-(3,9172)^2=15,7059$ e, então, o valor do desvio padrão é 3,9631.
+
+\vspace*{0.3cm}
+\item[c)] O Bairro A é mais homogêneo, pois tem desvio padrão menor.
+
+\vspace*{0.3cm}
+\item[d)] Para encontrarmos a faixa dos 10\% mais ricos basta encontrarmos o quantil $q(0,90)$. Note que este quantil está situado no sexto intervalo de classe e então $$\frac{3,41\%}{12-10}=\frac{3,17\%}{q(0,90)-10}.$$ Resolvendo a equação encontramos $q(0,90)=11,8592$ e a faixa salarial dos 10\% mais ricos é $[11,8592 \ ; \ 14,0000]$.
+
+\vspace*{0.3cm}
+\item[e)] Para encontrarmos a riqueza total basta multiplicarmos a média pelo total de observações. No nosso caso, esse valor é aproximadamente 80.302,6.
+\end{itemize}
+
+\vspace{0.3cm}
+\item 
+\begin{itemize}
+\item[a)] $\overline{x}(0,10)=10,84$ \ e \ $\overline{x}(0,25)=10,52$.
+\item[b)] A intenção do autor é eliminar a contribuição exagerada que valores atípicos proporcionam à média aritmética.
+\end{itemize}
+
+\item 
+\begin{itemize}
+\item[a)] Ordenando ambas as variáveis, as medianas encontradas são $$\tilde{x}=\frac{x_{(20)}+x_{(21)}}{2}=\frac{2+2}{2}=2$$
+e $$\tilde{y}=\frac{y_{(20)}+y_{(21)}}{2}=\frac{2+3}{2}=2,5.$$ Desse modo iremos considerar {\it baixa rotatividade} valores menores que 2 e {\it baixo salário} valores menores que 2,5. A distribuição conjunta das duas variáveis segue abaixo:
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|c|c|c}
+\hline
+\hline
+{\bf $Y\setminus X$} & {\bf Baixo} & {\bf Alto} & {\bf Total}\\
+\hline
+{\bf Baixo} & 1 & 19 & 20\\
+{\bf Alto} & 7 & 13 & 20\\
+\hline
+{\bf Total} & 8 & 32 & 40\\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\item[b)] $1/40 = 2,5\%$.
+\item[c)] $20/40 = 50\%$.
+\item[d)] $1/8 = 12,5\%$.
+\item[e)] Bastante modificada; observe que maioria das pessoas que ganham pouco tem alta rotatividade.
+\item[f)] Parece haver uma associação entre {\it alta rotatividade} e {\it baixos salários}.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\item Para avaliar essa afirmação fazemos as tabelas com a distribuição relativa. Primeiramente, segue abaixo a tabela em relação ao total de colunas:
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|c|c|c|c}
+\hline
+\hline
+ & \multicolumn{3}{c}{\bf Duração do efeito de dedetização}\\
+\hline
+{\bf Companhia} & {\bf Menos de}  & {\bf De 4 a 8} & {\bf Mais de }& {\bf Total}\\
+& {\bf 4 meses} & {\bf meses} & {\bf 8 meses}\\
+\hline
+{\bf A} & 33\% & 35\% & 38\% & 34\%\\
+{\bf B} & 53\% & 51\% & 50\% & 52\%\\
+{\bf C} & 14\% & 14\% & 12\% & 13\%\\
+\hline
+{\bf Total} & 100\% & 100\% & 100\% & 100\%\\
+\hline
+\hline
+\end{tabular}
+\end{table} 
+
+Agora, temos a tabela em relação ao total de linhas: 
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{c|c|c|c|c}
+\hline
+\hline
+ & \multicolumn{3}{c}{\bf Duração do efeito de dedetização}\\
+\hline
+{\bf Companhia} & {\bf Menos de}  & {\bf De 4 a 8} & {\bf Mais de } & {\bf Total}\\
+& {\bf 4 meses} & {\bf meses} & {\bf 8 meses}\\
+\hline
+{\bf A} & 32\% & 60\% & 8\% & 100\%\\
+{\bf B} & 35\% & 58\% & 7\% & 100\%\\
+{\bf C} & 34\% & 60\% & 6\% & 100\%\\
+\hline
+{\bf Total} & 34\% & 59\% & 7\% & 100\%\\
+\hline
+\hline
+\end{tabular}
+\end{table} 
+É fácil notar que não há diferença entre as 3 empresas.
+
+\item Lembrando, novamente, o resultado obtido na {\bf Questão 11}, ou seja 
+
+$$\text{Var}(x) = \frac{1}{n}\sum x_i^2-\overline{x}^2,$$ temos que
+
+\begin{eqnarray*}
+\displaystyle \frac{1}{n}\sum_i\left(\frac{x_i-\overline{x}}{\mathcal{D}(x)}\right)\left(\frac{y_i-\overline{y}}{\mathcal{D}(y)}\right) &=& \frac{1}{n}\frac{\sum (x_iy_i-\overline{x}y_i-\overline{y}x_i + \overline{x} \hspace{0.03cm} \overline{y})}{\sqrt{\left(\frac{1}{n}\sum x_i^2-\overline{x}^2\right)\left(\frac{1}{n}\sum y_i^2-\overline{y}^2\right)}}\\
+&=&  \frac{1}{n}\frac{\sum x_iy_i-\overline{x}\sum y_i-\overline{y}\sum x_i + \sum\overline{x} \hspace{0.03cm} \overline{y}}{\sqrt{\left(\frac{\sum x_i^2-n\overline{x}^2}{n}\right)\left(\frac{\sum y_i^2-n\overline{y}^2}{n}\right)}}\\
+&=& \frac{\sum x_iy_i-n\overline{x} \hspace{0.03cm} \overline{y}-n\overline{y} \hspace{0.03cm} \overline{x} + n\sum\overline{x} \hspace{0.03cm} \overline{y}}{\sqrt{\left(\sum x_i^2-n\overline{x}^2\right)\left(\sum y_i^2-n\overline{y}^2\right)}}\\
+&=& \frac{\sum x_iy_i-n\overline{x} \hspace{0.03cm} \overline{y}}{\sqrt{\left(\sum x_i^2-n\overline{x}^2\right)\left(\sum y_i^2-n\overline{y}^2\right)}}.
+\end{eqnarray*}
+
+\vspace{0.3cm}
+
+\item 
+\begin{itemize}
+\item[a)] Abaixo segue o diagrama de dispersão do {\it Setor primário} versus o {\it Índice de analfabetismo} para as {\it Regiões metropolitanas} em questão:
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=0.5]{Q4itemA.eps}
+%\caption{}
+%\label{}
+\end{figure}
+%\vspace{0.5cm}
+
+\item[b)] O gráfico indica uma dependência linear positiva entre as variáveis.
+\item[c)] Utilizando a equação obtida na {\bf Questão 16}, o valor do coeficiente de correlação é aproximadamente 0,87.
+\item[d)] Se observarmos a linha de tendência linear, as regiões de Porto Alegre e Fortaleza parecem fugir à curva. Calculando o coeficiente de correlação ao suprimir esses valores obtemos aproximadamente 0,99.
+\end{itemize}
+
+\end{enumerate}
+
+\end{document}

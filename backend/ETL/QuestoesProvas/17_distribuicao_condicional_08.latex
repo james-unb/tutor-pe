@@ -1,0 +1,722 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria automotiva. \(X\) e \(Y\)
+  denotam, respectivamente, a quantidade de seguros contratados e o
+  número de vendas de automóveis por semana. Determine
+  \(\mathbb{P}(X \geq 3|Y = 5)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.009 & 0.051 & 0.281 \\
+  \(3\) & 0.147 & 0.113 & 0.033 \\
+  \(4\) & 0.006 & 0.008 & 0.104 \\
+  \(5\) & 0.172 & 0.016 & 0.06 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.016\)
+  \item
+    \(0.306\)
+  \item
+    \(0.065\)
+  \item
+    \(0.076\)
+  \item
+    \(0.188\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.009 & 0.051 & 0.281 & 0.341 & & & & \\
+  \(3\) & 0.147 & 0.113 & 0.033 & 0.293 & & & & \\
+  \(4\) & 0.006 & 0.008 & 0.104 & 0.118 & & & & \\
+  \(5\) & 0.172 & 0.016 & 0.06 & 0.248 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.334 & 0.188 & 0.478 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y = 5) = 
+  \frac{\mathbb{P}(X \geq 3, Y = 5)}{P(Y = 5)}=
+  \frac{\sum_{x=3}^{4} p(x,5)}{\mathbb{P}(Y=5)} =
+  \frac{0.076}{0.248} = 0.306.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria automotiva. \(X\) e \(Y\)
+  denotam, respectivamente, a quantidade de seguros contratados e o
+  número de vendas de automóveis por semana. Determine
+  \(\mathbb{P}(X \geq 3|Y = 5)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.022 & 0.097 & 0.041 \\
+  \(3\) & 0.079 & 0.067 & 0.019 \\
+  \(4\) & 0.075 & 0.128 & 0.343 \\
+  \(5\) & 0.068 & 0.01 & 0.051 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.078\)
+  \item
+    \(0.061\)
+  \item
+    \(0.473\)
+  \item
+    \(0.010\)
+  \item
+    \(0.302\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.022 & 0.097 & 0.041 & 0.16 & & & & \\
+  \(3\) & 0.079 & 0.067 & 0.019 & 0.165 & & & & \\
+  \(4\) & 0.075 & 0.128 & 0.343 & 0.546 & & & & \\
+  \(5\) & 0.068 & 0.01 & 0.051 & 0.129 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.244 & 0.302 & 0.454 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y = 5) = 
+  \frac{\mathbb{P}(X \geq 3, Y = 5)}{P(Y = 5)}=
+  \frac{\sum_{x=3}^{4} p(x,5)}{\mathbb{P}(Y=5)} =
+  \frac{0.061}{0.129} = 0.473.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria automotiva. \(X\) e \(Y\)
+  denotam, respectivamente, a quantidade de seguros contratados e o
+  número de vendas de automóveis por semana. Determine
+  \(\mathbb{P}(X \geq 3|Y = 3)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.005 & 0.052 & 0.078 \\
+  \(3\) & 0.093 & 0.016 & 0.06 \\
+  \(4\) & 0.149 & 0.24 & 0.088 \\
+  \(5\) & 0.031 & 0.165 & 0.023 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.421\)
+  \item
+    \(0.450\)
+  \item
+    \(0.095\)
+  \item
+    \(0.224\)
+  \item
+    \(0.076\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.005 & 0.052 & 0.078 & 0.135 & & & & \\
+  \(3\) & 0.093 & 0.016 & 0.06 & 0.169 & & & & \\
+  \(4\) & 0.149 & 0.24 & 0.088 & 0.477 & & & & \\
+  \(5\) & 0.031 & 0.165 & 0.023 & 0.219 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.278 & 0.473 & 0.249 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y = 3) = 
+  \frac{\mathbb{P}(X \geq 3, Y = 3)}{P(Y = 3)}=
+  \frac{\sum_{x=3}^{4} p(x,3)}{\mathbb{P}(Y=3)} =
+  \frac{0.076}{0.169} = 0.450.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria automotiva. \(X\) e \(Y\)
+  denotam, respectivamente, a quantidade de seguros contratados e o
+  número de vendas de automóveis por semana. Determine
+  \(\mathbb{P}(X \geq 3|Y = 5)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.112 & 0.2 & 0.005 \\
+  \(3\) & 0.071 & 0.089 & 0.065 \\
+  \(4\) & 0.044 & 0.063 & 0.213 \\
+  \(5\) & 0.025 & 0.043 & 0.07 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.043\)
+  \item
+    \(0.113\)
+  \item
+    \(0.819\)
+  \item
+    \(0.395\)
+  \item
+    \(0.312\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.112 & 0.2 & 0.005 & 0.317 & & & & \\
+  \(3\) & 0.071 & 0.089 & 0.065 & 0.225 & & & & \\
+  \(4\) & 0.044 & 0.063 & 0.213 & 0.32 & & & & \\
+  \(5\) & 0.025 & 0.043 & 0.07 & 0.138 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.252 & 0.395 & 0.353 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y = 5) = 
+  \frac{\mathbb{P}(X \geq 3, Y = 5)}{P(Y = 5)}=
+  \frac{\sum_{x=3}^{4} p(x,5)}{\mathbb{P}(Y=5)} =
+  \frac{0.113}{0.138} = 0.819.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria automotiva. \(X\) e \(Y\)
+  denotam, respectivamente, a quantidade de seguros contratados e o
+  número de vendas de automóveis por semana. Determine
+  \(\mathbb{P}(X \geq 3|Y = 4)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.213 & 0.197 & 0.006 \\
+  \(3\) & 0.069 & 0.044 & 0.06 \\
+  \(4\) & 0.026 & 0.094 & 0.189 \\
+  \(5\) & 0.001 & 0.09 & 0.011 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.916\)
+  \item
+    \(0.304\)
+  \item
+    \(0.184\)
+  \item
+    \(0.283\)
+  \item
+    \(0.373\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.213 & 0.197 & 0.006 & 0.416 & & & & \\
+  \(3\) & 0.069 & 0.044 & 0.06 & 0.173 & & & & \\
+  \(4\) & 0.026 & 0.094 & 0.189 & 0.309 & & & & \\
+  \(5\) & 0.001 & 0.09 & 0.011 & 0.102 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.309 & 0.425 & 0.266 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y = 4) = 
+  \frac{\mathbb{P}(X \geq 3, Y = 4)}{P(Y = 4)}=
+  \frac{\sum_{x=3}^{4} p(x,4)}{\mathbb{P}(Y=4)} =
+  \frac{0.283}{0.309} = 0.916.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria automotiva. \(X\) e \(Y\)
+  denotam, respectivamente, a quantidade de seguros contratados e o
+  número de vendas de automóveis por semana. Determine
+  \(\mathbb{P}(X \geq 3|Y = 5)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.011 & 0.382 & 0.005 \\
+  \(3\) & 0.076 & 0.048 & 0.16 \\
+  \(4\) & 0.013 & 0.144 & 0.038 \\
+  \(5\) & 0.062 & 0.05 & 0.011 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.050\)
+  \item
+    \(0.407\)
+  \item
+    \(0.624\)
+  \item
+    \(0.061\)
+  \item
+    \(0.496\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.011 & 0.382 & 0.005 & 0.398 & & & & \\
+  \(3\) & 0.076 & 0.048 & 0.16 & 0.284 & & & & \\
+  \(4\) & 0.013 & 0.144 & 0.038 & 0.195 & & & & \\
+  \(5\) & 0.062 & 0.05 & 0.011 & 0.123 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.162 & 0.624 & 0.214 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y = 5) = 
+  \frac{\mathbb{P}(X \geq 3, Y = 5)}{P(Y = 5)}=
+  \frac{\sum_{x=3}^{4} p(x,5)}{\mathbb{P}(Y=5)} =
+  \frac{0.061}{0.123} = 0.496.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria automotiva. \(X\) e \(Y\)
+  denotam, respectivamente, a quantidade de seguros contratados e o
+  número de vendas de automóveis por semana. Determine
+  \(\mathbb{P}(X \geq 3|Y = 5)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.132 & 0.042 & 0.05 \\
+  \(3\) & 0.153 & 0.142 & 0.139 \\
+  \(4\) & 0.1 & 0.023 & 0.012 \\
+  \(5\) & 0.058 & 0.025 & 0.124 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.025\)
+  \item
+    \(0.720\)
+  \item
+    \(0.149\)
+  \item
+    \(0.232\)
+  \item
+    \(0.121\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.132 & 0.042 & 0.05 & 0.224 & & & & \\
+  \(3\) & 0.153 & 0.142 & 0.139 & 0.434 & & & & \\
+  \(4\) & 0.1 & 0.023 & 0.012 & 0.135 & & & & \\
+  \(5\) & 0.058 & 0.025 & 0.124 & 0.207 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.443 & 0.232 & 0.325 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y = 5) = 
+  \frac{\mathbb{P}(X \geq 3, Y = 5)}{P(Y = 5)}=
+  \frac{\sum_{x=3}^{4} p(x,5)}{\mathbb{P}(Y=5)} =
+  \frac{0.149}{0.207} = 0.720.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria automotiva. \(X\) e \(Y\)
+  denotam, respectivamente, a quantidade de seguros contratados e o
+  número de vendas de automóveis por semana. Determine
+  \(\mathbb{P}(X \geq 3|Y = 4)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.13 & 0.216 & 0.048 \\
+  \(3\) & 0.029 & 0.196 & 0.027 \\
+  \(4\) & 0.053 & 0.122 & 0.097 \\
+  \(5\) & 0.029 & 0.013 & 0.04 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.135\)
+  \item
+    \(0.805\)
+  \item
+    \(0.219\)
+  \item
+    \(0.449\)
+  \item
+    \(0.582\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.13 & 0.216 & 0.048 & 0.394 & & & & \\
+  \(3\) & 0.029 & 0.196 & 0.027 & 0.252 & & & & \\
+  \(4\) & 0.053 & 0.122 & 0.097 & 0.272 & & & & \\
+  \(5\) & 0.029 & 0.013 & 0.04 & 0.082 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.241 & 0.547 & 0.212 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y = 4) = 
+  \frac{\mathbb{P}(X \geq 3, Y = 4)}{P(Y = 4)}=
+  \frac{\sum_{x=3}^{4} p(x,4)}{\mathbb{P}(Y=4)} =
+  \frac{0.219}{0.272} = 0.805.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria automotiva. \(X\) e \(Y\)
+  denotam, respectivamente, a quantidade de seguros contratados e o
+  número de vendas de automóveis por semana. Determine
+  \(\mathbb{P}(X \geq 3|Y = 3)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.033 & 0.04 & 0.016 \\
+  \(3\) & 0.094 & 0.089 & 0.263 \\
+  \(4\) & 0.022 & 0.022 & 0.18 \\
+  \(5\) & 0.055 & 0.147 & 0.039 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.352\)
+  \item
+    \(0.200\)
+  \item
+    \(0.241\)
+  \item
+    \(0.258\)
+  \item
+    \(0.789\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.033 & 0.04 & 0.016 & 0.089 & & & & \\
+  \(3\) & 0.094 & 0.089 & 0.263 & 0.446 & & & & \\
+  \(4\) & 0.022 & 0.022 & 0.18 & 0.224 & & & & \\
+  \(5\) & 0.055 & 0.147 & 0.039 & 0.241 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.204 & 0.298 & 0.498 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y = 3) = 
+  \frac{\mathbb{P}(X \geq 3, Y = 3)}{P(Y = 3)}=
+  \frac{\sum_{x=3}^{4} p(x,3)}{\mathbb{P}(Y=3)} =
+  \frac{0.352}{0.446} = 0.789.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A tabela de distribuição conjunta exibida abaixo apresenta os dados
+  fornecidos por uma empresa da indústria automotiva. \(X\) e \(Y\)
+  denotam, respectivamente, a quantidade de seguros contratados e o
+  número de vendas de automóveis por semana. Determine
+  \(\mathbb{P}(X \geq 3|Y = 4)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(Y \setminus X\) & \(2\) & \(3\) & \(4\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.064 & 0.155 & 0.112 \\
+  \(3\) & 0.2 & 0.05 & 0.053 \\
+  \(4\) & 0.033 & 0.098 & 0.044 \\
+  \(5\) & 0.007 & 0.12 & 0.064 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.375\)
+  \item
+    \(0.218\)
+  \item
+    \(0.142\)
+  \item
+    \(0.560\)
+  \item
+    \(0.811\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(X\) e
+  \(Y\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(Y\setminus X\) & \(2\) & \(3\) & \(4\) & \(\mathbb{P}(Y=y)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(2\) & 0.064 & 0.155 & 0.112 & 0.331 & & & & \\
+  \(3\) & 0.2 & 0.05 & 0.053 & 0.303 & & & & \\
+  \(4\) & 0.033 & 0.098 & 0.044 & 0.175 & & & & \\
+  \(5\) & 0.007 & 0.12 & 0.064 & 0.191 & & & & \\
+  \(\mathbb{P}(X=x)\) & 0.304 & 0.423 & 0.273 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(X \geq 3|Y = 4) = 
+  \frac{\mathbb{P}(X \geq 3, Y = 4)}{P(Y = 4)}=
+  \frac{\sum_{x=3}^{4} p(x,4)}{\mathbb{P}(Y=4)} =
+  \frac{0.142}{0.175} = 0.811.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

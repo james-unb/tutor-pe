@@ -1,0 +1,462 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Estima-se que no Brasil, há cerca de 40 mil adultos interessados em
+  adoção. A idade da criança ao ser adotada é uma variável aleatória com
+  Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{\sqrt{x}}{3.792},  &  0 \leq x < 6,\\
+          0.059 x + 0.292,  &  6 \leq x \leq 12,\\
+          1, & x > 12.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade de uma
+  criança adotada, selecionada ao acaso, ter sido adotada com idade
+  entre \(2\) e \(12\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.373\)
+  \item
+    \(0.596\)
+  \item
+    \(0.250\)
+  \item
+    \(0.236\)
+  \item
+    \(0.627\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(2 \leq X \leq 12)= F(12)-F(2)=0.627.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Estima-se que no Brasil, há cerca de 40 mil adultos interessados em
+  adoção. A idade da criança ao ser adotada é uma variável aleatória com
+  Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{\sqrt{x}}{3.792},  &  0 \leq x < 6,\\
+          0.059 x + 0.292,  &  6 \leq x \leq 12,\\
+          1, & x > 12.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade de uma
+  criança adotada, selecionada ao acaso, ter sido adotada com idade
+  entre \(4\) e \(14\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.236\)
+  \item
+    \(0.449\)
+  \item
+    \(0.473\)
+  \item
+    \(0.527\)
+  \item
+    \(0.250\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(4 \leq X \leq 14)= F(14)-F(4)=0.473.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Estima-se que no Brasil, há cerca de 40 mil adultos interessados em
+  adoção. A idade da criança ao ser adotada é uma variável aleatória com
+  Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{\sqrt{x}}{3.792},  &  0 \leq x < 6,\\
+          0.059 x + 0.292,  &  6 \leq x \leq 12,\\
+          1, & x > 12.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade de uma
+  criança adotada, selecionada ao acaso, ter sido adotada com idade
+  entre \(5\) e \(14\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.389\)
+  \item
+    \(0.590\)
+  \item
+    \(0.236\)
+  \item
+    \(0.410\)
+  \item
+    \(0.250\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(5 \leq X \leq 14)= F(14)-F(5)=0.41.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Estima-se que no Brasil, há cerca de 40 mil adultos interessados em
+  adoção. A idade da criança ao ser adotada é uma variável aleatória com
+  Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{\sqrt{x}}{3.792},  &  0 \leq x < 6,\\
+          0.059 x + 0.292,  &  6 \leq x \leq 12,\\
+          1, & x > 12.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade de uma
+  criança adotada, selecionada ao acaso, ter sido adotada com idade
+  entre \(2\) e \(12\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.596\)
+  \item
+    \(0.250\)
+  \item
+    \(0.627\)
+  \item
+    \(0.236\)
+  \item
+    \(0.373\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(2 \leq X \leq 12)= F(12)-F(2)=0.627.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Estima-se que no Brasil, há cerca de 40 mil adultos interessados em
+  adoção. A idade da criança ao ser adotada é uma variável aleatória com
+  Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{\sqrt{x}}{3.792},  &  0 \leq x < 6,\\
+          0.059 x + 0.292,  &  6 \leq x \leq 12,\\
+          1, & x > 12.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade de uma
+  criança adotada, selecionada ao acaso, ter sido adotada com idade
+  entre \(4\) e \(11\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.414\)
+  \item
+    \(0.250\)
+  \item
+    \(0.393\)
+  \item
+    \(0.236\)
+  \item
+    \(0.586\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(4 \leq X \leq 11)= F(11)-F(4)=0.414.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Estima-se que no Brasil, há cerca de 40 mil adultos interessados em
+  adoção. A idade da criança ao ser adotada é uma variável aleatória com
+  Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{\sqrt{x}}{3.792},  &  0 \leq x < 6,\\
+          0.059 x + 0.292,  &  6 \leq x \leq 12,\\
+          1, & x > 12.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade de uma
+  criança adotada, selecionada ao acaso, ter sido adotada com idade
+  entre \(3\) e \(13\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.236\)
+  \item
+    \(0.457\)
+  \item
+    \(0.250\)
+  \item
+    \(0.516\)
+  \item
+    \(0.543\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(3 \leq X \leq 13)= F(13)-F(3)=0.543.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Estima-se que no Brasil, há cerca de 40 mil adultos interessados em
+  adoção. A idade da criança ao ser adotada é uma variável aleatória com
+  Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{\sqrt{x}}{3.792},  &  0 \leq x < 6,\\
+          0.059 x + 0.292,  &  6 \leq x \leq 12,\\
+          1, & x > 12.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade de uma
+  criança adotada, selecionada ao acaso, ter sido adotada com idade
+  entre \(4\) e \(12\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.527\)
+  \item
+    \(0.250\)
+  \item
+    \(0.236\)
+  \item
+    \(0.449\)
+  \item
+    \(0.473\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(4 \leq X \leq 12)= F(12)-F(4)=0.473.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Estima-se que no Brasil, há cerca de 40 mil adultos interessados em
+  adoção. A idade da criança ao ser adotada é uma variável aleatória com
+  Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{\sqrt{x}}{3.792},  &  0 \leq x < 6,\\
+          0.059 x + 0.292,  &  6 \leq x \leq 12,\\
+          1, & x > 12.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade de uma
+  criança adotada, selecionada ao acaso, ter sido adotada com idade
+  entre \(5\) e \(11\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.236\)
+  \item
+    \(0.333\)
+  \item
+    \(0.250\)
+  \item
+    \(0.351\)
+  \item
+    \(0.649\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(5 \leq X \leq 11)= F(11)-F(5)=0.351.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Estima-se que no Brasil, há cerca de 40 mil adultos interessados em
+  adoção. A idade da criança ao ser adotada é uma variável aleatória com
+  Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{\sqrt{x}}{3.792},  &  0 \leq x < 6,\\
+          0.059 x + 0.292,  &  6 \leq x \leq 12,\\
+          1, & x > 12.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade de uma
+  criança adotada, selecionada ao acaso, ter sido adotada com idade
+  entre \(5\) e \(10\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.236\)
+  \item
+    \(0.292\)
+  \item
+    \(0.250\)
+  \item
+    \(0.708\)
+  \item
+    \(0.277\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(5 \leq X \leq 10)= F(10)-F(5)=0.292.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Estima-se que no Brasil, há cerca de 40 mil adultos interessados em
+  adoção. A idade da criança ao ser adotada é uma variável aleatória com
+  Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{\sqrt{x}}{3.792},  &  0 \leq x < 6,\\
+          0.059 x + 0.292,  &  6 \leq x \leq 12,\\
+          1, & x > 12.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade de uma
+  criança adotada, selecionada ao acaso, ter sido adotada com idade
+  entre \(4\) e \(10\) anos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.236\)
+  \item
+    \(0.645\)
+  \item
+    \(0.250\)
+  \item
+    \(0.355\)
+  \item
+    \(0.337\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal proporção é dada por
+  \[P(4 \leq X \leq 10)= F(10)-F(4)=0.355.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

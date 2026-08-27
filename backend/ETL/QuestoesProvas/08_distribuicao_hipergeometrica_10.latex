@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em um pomar, as maçãs colhidas são distribuídas aleatoriamente em
+  pacotes, cada um contendo 7 frutos. O pomar teve um total de 21 maçãs
+  recolhidas, e 10 frutos foram considerados de ótima qualidade. Seja
+  \(X\) o número de maçãs ótimas alocadas ao primeiro pacote, qual das
+  distribuições de probabilidade seria adequada para descrever a
+  variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Geométrica(3/21)
+  \item
+    Binomial(7, 3/21)
+  \item
+    Poisson(3)
+  \item
+    Hipergeometrica(21,10,7)
+  \item
+    Geométrica(7/21)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como temos uma seleção de amostra aleatória (\(n=7\)) de uma população
+  (\(N=21\)) com dois grupos subdividindo a população (maçãs
+  ótimas=\(A\), maçãs normais=\(O\)) , a distribuição de probabilidade
+  adequada para descrever o comportamento da variável aleatória \(X\) é
+  Hipergeometrica(21,10,7).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um pomar, as maçãs colhidas são distribuídas aleatoriamente em
+  pacotes, cada um contendo 5 frutos. O pomar teve um total de 23 maçãs
+  recolhidas, e 5 frutos foram considerados de ótima qualidade. Seja
+  \(X\) o número de maçãs ótimas alocadas ao primeiro pacote, qual das
+  distribuições de probabilidade seria adequada para descrever a
+  variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Binomial(5, 3/23)
+  \item
+    Hipergeometrica(23,5,5)
+  \item
+    Poisson(3)
+  \item
+    Geométrica(3/23)
+  \item
+    Geométrica(5/23)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como temos uma seleção de amostra aleatória (\(n=5\)) de uma população
+  (\(N=23\)) com dois grupos subdividindo a população (maçãs
+  ótimas=\(A\), maçãs normais=\(O\)) , a distribuição de probabilidade
+  adequada para descrever o comportamento da variável aleatória \(X\) é
+  Hipergeometrica(23,5,5).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um pomar, as maçãs colhidas são distribuídas aleatoriamente em
+  pacotes, cada um contendo 7 frutos. O pomar teve um total de 22 maçãs
+  recolhidas, e 5 frutos foram considerados de ótima qualidade. Seja
+  \(X\) o número de maçãs ótimas alocadas ao primeiro pacote, qual das
+  distribuições de probabilidade seria adequada para descrever a
+  variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Hipergeometrica(22,5,7)
+  \item
+    Poisson(4)
+  \item
+    Geométrica(4/22)
+  \item
+    Geométrica(7/22)
+  \item
+    Binomial(7, 4/22)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como temos uma seleção de amostra aleatória (\(n=7\)) de uma população
+  (\(N=22\)) com dois grupos subdividindo a população (maçãs
+  ótimas=\(A\), maçãs normais=\(O\)) , a distribuição de probabilidade
+  adequada para descrever o comportamento da variável aleatória \(X\) é
+  Hipergeometrica(22,5,7).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um pomar, as maçãs colhidas são distribuídas aleatoriamente em
+  pacotes, cada um contendo 7 frutos. O pomar teve um total de 24 maçãs
+  recolhidas, e 5 frutos foram considerados de ótima qualidade. Seja
+  \(X\) o número de maçãs ótimas alocadas ao primeiro pacote, qual das
+  distribuições de probabilidade seria adequada para descrever a
+  variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Binomial(7, 3/24)
+  \item
+    Hipergeometrica(24,5,7)
+  \item
+    Geométrica(3/24)
+  \item
+    Poisson(3)
+  \item
+    Geométrica(7/24)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como temos uma seleção de amostra aleatória (\(n=7\)) de uma população
+  (\(N=24\)) com dois grupos subdividindo a população (maçãs
+  ótimas=\(A\), maçãs normais=\(O\)) , a distribuição de probabilidade
+  adequada para descrever o comportamento da variável aleatória \(X\) é
+  Hipergeometrica(24,5,7).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um pomar, as maçãs colhidas são distribuídas aleatoriamente em
+  pacotes, cada um contendo 5 frutos. O pomar teve um total de 22 maçãs
+  recolhidas, e 8 frutos foram considerados de ótima qualidade. Seja
+  \(X\) o número de maçãs ótimas alocadas ao primeiro pacote, qual das
+  distribuições de probabilidade seria adequada para descrever a
+  variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Binomial(5, 3/22)
+  \item
+    Hipergeometrica(22,8,5)
+  \item
+    Geométrica(5/22)
+  \item
+    Poisson(3)
+  \item
+    Geométrica(3/22)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como temos uma seleção de amostra aleatória (\(n=5\)) de uma população
+  (\(N=22\)) com dois grupos subdividindo a população (maçãs
+  ótimas=\(A\), maçãs normais=\(O\)) , a distribuição de probabilidade
+  adequada para descrever o comportamento da variável aleatória \(X\) é
+  Hipergeometrica(22,8,5).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um pomar, as maçãs colhidas são distribuídas aleatoriamente em
+  pacotes, cada um contendo 6 frutos. O pomar teve um total de 20 maçãs
+  recolhidas, e 6 frutos foram considerados de ótima qualidade. Seja
+  \(X\) o número de maçãs ótimas alocadas ao primeiro pacote, qual das
+  distribuições de probabilidade seria adequada para descrever a
+  variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Binomial(6, 3/20)
+  \item
+    Hipergeometrica(20,6,6)
+  \item
+    Geométrica(6/20)
+  \item
+    Poisson(3)
+  \item
+    Geométrica(3/20)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como temos uma seleção de amostra aleatória (\(n=6\)) de uma população
+  (\(N=20\)) com dois grupos subdividindo a população (maçãs
+  ótimas=\(A\), maçãs normais=\(O\)) , a distribuição de probabilidade
+  adequada para descrever o comportamento da variável aleatória \(X\) é
+  Hipergeometrica(20,6,6).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um pomar, as maçãs colhidas são distribuídas aleatoriamente em
+  pacotes, cada um contendo 7 frutos. O pomar teve um total de 22 maçãs
+  recolhidas, e 9 frutos foram considerados de ótima qualidade. Seja
+  \(X\) o número de maçãs ótimas alocadas ao primeiro pacote, qual das
+  distribuições de probabilidade seria adequada para descrever a
+  variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Geométrica(7/22)
+  \item
+    Binomial(7, 3/22)
+  \item
+    Hipergeometrica(22,9,7)
+  \item
+    Geométrica(3/22)
+  \item
+    Poisson(3)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como temos uma seleção de amostra aleatória (\(n=7\)) de uma população
+  (\(N=22\)) com dois grupos subdividindo a população (maçãs
+  ótimas=\(A\), maçãs normais=\(O\)) , a distribuição de probabilidade
+  adequada para descrever o comportamento da variável aleatória \(X\) é
+  Hipergeometrica(22,9,7).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um pomar, as maçãs colhidas são distribuídas aleatoriamente em
+  pacotes, cada um contendo 5 frutos. O pomar teve um total de 23 maçãs
+  recolhidas, e 9 frutos foram considerados de ótima qualidade. Seja
+  \(X\) o número de maçãs ótimas alocadas ao primeiro pacote, qual das
+  distribuições de probabilidade seria adequada para descrever a
+  variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Geométrica(4/23)
+  \item
+    Geométrica(5/23)
+  \item
+    Poisson(4)
+  \item
+    Hipergeometrica(23,9,5)
+  \item
+    Binomial(5, 4/23)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como temos uma seleção de amostra aleatória (\(n=5\)) de uma população
+  (\(N=23\)) com dois grupos subdividindo a população (maçãs
+  ótimas=\(A\), maçãs normais=\(O\)) , a distribuição de probabilidade
+  adequada para descrever o comportamento da variável aleatória \(X\) é
+  Hipergeometrica(23,9,5).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um pomar, as maçãs colhidas são distribuídas aleatoriamente em
+  pacotes, cada um contendo 5 frutos. O pomar teve um total de 20 maçãs
+  recolhidas, e 5 frutos foram considerados de ótima qualidade. Seja
+  \(X\) o número de maçãs ótimas alocadas ao primeiro pacote, qual das
+  distribuições de probabilidade seria adequada para descrever a
+  variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Geométrica(5/20)
+  \item
+    Geométrica(3/20)
+  \item
+    Hipergeometrica(20,5,5)
+  \item
+    Binomial(5, 3/20)
+  \item
+    Poisson(3)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como temos uma seleção de amostra aleatória (\(n=5\)) de uma população
+  (\(N=20\)) com dois grupos subdividindo a população (maçãs
+  ótimas=\(A\), maçãs normais=\(O\)) , a distribuição de probabilidade
+  adequada para descrever o comportamento da variável aleatória \(X\) é
+  Hipergeometrica(20,5,5).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um pomar, as maçãs colhidas são distribuídas aleatoriamente em
+  pacotes, cada um contendo 6 frutos. O pomar teve um total de 18 maçãs
+  recolhidas, e 5 frutos foram considerados de ótima qualidade. Seja
+  \(X\) o número de maçãs ótimas alocadas ao primeiro pacote, qual das
+  distribuições de probabilidade seria adequada para descrever a
+  variável aleatória \(X\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Geométrica(6/18)
+  \item
+    Geométrica(3/18)
+  \item
+    Hipergeometrica(18,5,6)
+  \item
+    Poisson(3)
+  \item
+    Binomial(6, 3/18)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Como temos uma seleção de amostra aleatória (\(n=6\)) de uma população
+  (\(N=18\)) com dois grupos subdividindo a população (maçãs
+  ótimas=\(A\), maçãs normais=\(O\)) , a distribuição de probabilidade
+  adequada para descrever o comportamento da variável aleatória \(X\) é
+  Hipergeometrica(18,5,6).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O CEO de uma grande empresa de energia acredita que 86\% dos seus
+  clientes estão muito satisfeitos com o serviço que recebem. Para
+  testar esta crença, sua equipe entrevistou 76 clientes por meio de uma
+  amostra aleatória simples. Dentre os clientes, 68 disseram estar muito
+  satisfeitos. Com base nas informações, e tomando a afirmação do CEO
+  como hipótese nula, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3843\)
+  \item
+    \(0.1922\)
+  \item
+    \(0.6463\)
+  \item
+    \(0.8078\)
+  \item
+    \(0.1710\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.86 \ \ versus \ \ H_a : p \neq 0.86.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.87\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq0.87)) = 0.3843.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O CEO de uma grande empresa de energia acredita que 89\% dos seus
+  clientes estão muito satisfeitos com o serviço que recebem. Para
+  testar esta crença, sua equipe entrevistou 115 clientes por meio de
+  uma amostra aleatória simples. Dentre os clientes, 92 disseram estar
+  muito satisfeitos. Com base nas informações, e tomando a afirmação do
+  CEO como hipótese nula, assinale a alternativa correspondente ao
+  p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7992\)
+  \item
+    \(0.9990\)
+  \item
+    \(0.0009\)
+  \item
+    \(0.0010\)
+  \item
+    \(0.0021\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.89 \ \ versus \ \ H_a : p \neq 0.89.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 3.08\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq3.08)) = 0.0021.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O CEO de uma grande empresa de energia acredita que 85\% dos seus
+  clientes estão muito satisfeitos com o serviço que recebem. Para
+  testar esta crença, sua equipe entrevistou 82 clientes por meio de uma
+  amostra aleatória simples. Dentre os clientes, 72 disseram estar muito
+  satisfeitos. Com base nas informações, e tomando a afirmação do CEO
+  como hipótese nula, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4777\)
+  \item
+    \(0.7611\)
+  \item
+    \(0.2389\)
+  \item
+    \(0.2126\)
+  \item
+    \(0.6089\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.85 \ \ versus \ \ H_a : p \neq 0.85.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.71\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq0.71)) = 0.4777.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O CEO de uma grande empresa de energia acredita que 88\% dos seus
+  clientes estão muito satisfeitos com o serviço que recebem. Para
+  testar esta crença, sua equipe entrevistou 79 clientes por meio de uma
+  amostra aleatória simples. Dentre os clientes, 60 disseram estar muito
+  satisfeitos. Com base nas informações, e tomando a afirmação do CEO
+  como hipótese nula, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9995\)
+  \item
+    \(0.0005\)
+  \item
+    \(0.0004\)
+  \item
+    \(0.7996\)
+  \item
+    \(0.0010\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.88 \ \ versus \ \ H_a : p \neq 0.88.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 3.3\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq3.3)) = 0.001.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O CEO de uma grande empresa de energia acredita que 89\% dos seus
+  clientes estão muito satisfeitos com o serviço que recebem. Para
+  testar esta crença, sua equipe entrevistou 106 clientes por meio de
+  uma amostra aleatória simples. Dentre os clientes, 89 disseram estar
+  muito satisfeitos. Com base nas informações, e tomando a afirmação do
+  CEO como hipótese nula, assinale a alternativa correspondente ao
+  p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7612\)
+  \item
+    \(0.0485\)
+  \item
+    \(0.0969\)
+  \item
+    \(0.9515\)
+  \item
+    \(0.0431\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.89 \ \ versus \ \ H_a : p \neq 0.89.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 1.66\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq1.66)) = 0.0969.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O CEO de uma grande empresa de energia acredita que 89\% dos seus
+  clientes estão muito satisfeitos com o serviço que recebem. Para
+  testar esta crença, sua equipe entrevistou 105 clientes por meio de
+  uma amostra aleatória simples. Dentre os clientes, 84 disseram estar
+  muito satisfeitos. Com base nas informações, e tomando a afirmação do
+  CEO como hipótese nula, assinale a alternativa correspondente ao
+  p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9984\)
+  \item
+    \(0.7987\)
+  \item
+    \(0.0016\)
+  \item
+    \(0.0014\)
+  \item
+    \(0.0032\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.89 \ \ versus \ \ H_a : p \neq 0.89.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 2.95\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq2.95)) = 0.0032.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O CEO de uma grande empresa de energia acredita que 86\% dos seus
+  clientes estão muito satisfeitos com o serviço que recebem. Para
+  testar esta crença, sua equipe entrevistou 113 clientes por meio de
+  uma amostra aleatória simples. Dentre os clientes, 89 disseram estar
+  muito satisfeitos. Com base nas informações, e tomando a afirmação do
+  CEO como hipótese nula, assinale a alternativa correspondente ao
+  p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7894\)
+  \item
+    \(0.9868\)
+  \item
+    \(0.0264\)
+  \item
+    \(0.0132\)
+  \item
+    \(0.0118\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.86 \ \ versus \ \ H_a : p \neq 0.86.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 2.22\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq2.22)) = 0.0264.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O CEO de uma grande empresa de energia acredita que 88\% dos seus
+  clientes estão muito satisfeitos com o serviço que recebem. Para
+  testar esta crença, sua equipe entrevistou 106 clientes por meio de
+  uma amostra aleatória simples. Dentre os clientes, 92 disseram estar
+  muito satisfeitos. Com base nas informações, e tomando a afirmação do
+  CEO como hipótese nula, assinale a alternativa correspondente ao
+  p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3133\)
+  \item
+    \(0.5184\)
+  \item
+    \(0.7039\)
+  \item
+    \(0.6480\)
+  \item
+    \(0.3520\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.88 \ \ versus \ \ H_a : p \neq 0.88.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 0.38\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq0.38)) = 0.7039.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O CEO de uma grande empresa de energia acredita que 88\% dos seus
+  clientes estão muito satisfeitos com o serviço que recebem. Para
+  testar esta crença, sua equipe entrevistou 96 clientes por meio de uma
+  amostra aleatória simples. Dentre os clientes, 78 disseram estar muito
+  satisfeitos. Com base nas informações, e tomando a afirmação do CEO
+  como hipótese nula, assinale a alternativa correspondente ao p-valor
+  do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0207\)
+  \item
+    \(0.0414\)
+  \item
+    \(0.7835\)
+  \item
+    \(0.0184\)
+  \item
+    \(0.9793\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.88 \ \ versus \ \ H_a : p \neq 0.88.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 2.04\] e o
+  p-valor \[\alpha^{*} = 2(1-P(Z\leq2.04)) = 0.0414.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O CEO de uma grande empresa de energia acredita que 85\% dos seus
+  clientes estão muito satisfeitos com o serviço que recebem. Para
+  testar esta crença, sua equipe entrevistou 110 clientes por meio de
+  uma amostra aleatória simples. Dentre os clientes, 86 disseram estar
+  muito satisfeitos. Com base nas informações, e tomando a afirmação do
+  CEO como hipótese nula, assinale a alternativa correspondente ao
+  p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7818\)
+  \item
+    \(0.0455\)
+  \item
+    \(0.0228\)
+  \item
+    \(0.9772\)
+  \item
+    \(0.0202\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p=0.85 \ \ versus \ \ H_a : p \neq 0.85.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\hat{p}-p_0|}{\sqrt{\frac{p_0(1-p_0)}{n}}} = 2\] e o p-valor
+  \[\alpha^{*} = 2(1-P(Z\leq2)) = 0.0455.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,502 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de lâmpadas é
+  exponencialmente distribuído com média de \(26\) meses. Uma empresa
+  espera que suas lâmpadas durem pelo menos \(27\) meses para que seu
+  lucro não seja prejudicado. Se a empresa utilizou lâmpadas desta
+  marca, qual a probabilidade de que uma lâmpada, em particular, não
+  gere prejuízo se já sobreviveu \(20\) meses?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.76\)
+  \item
+    \(0.31\)
+  \item
+    \(0.46\)
+  \item
+    \(0.89\)
+  \item
+    \(0.24\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas. Sabemos que \(E(X) = 26\), então
+  \(X\sim\text{Exp}(1/26).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.038x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>20+7 | X>20) &=& P(X>7)\\
+  &=& 1-F(7)\\
+  &=& 1-(1-e^{-0.038\times7})\\
+  &=& 0.76
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de lâmpadas é
+  exponencialmente distribuído com média de \(20\) meses. Uma empresa
+  espera que suas lâmpadas durem pelo menos \(21\) meses para que seu
+  lucro não seja prejudicado. Se a empresa utilizou lâmpadas desta
+  marca, qual a probabilidade de que uma lâmpada, em particular, não
+  gere prejuízo se já sobreviveu \(14\) meses?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.33\)
+  \item
+    \(0.50\)
+  \item
+    \(0.30\)
+  \item
+    \(0.93\)
+  \item
+    \(0.70\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas. Sabemos que \(E(X) = 20\), então
+  \(X\sim\text{Exp}(1/20).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.050x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>14+7 | X>14) &=& P(X>7)\\
+  &=& 1-F(7)\\
+  &=& 1-(1-e^{-0.050\times7})\\
+  &=& 0.70
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de lâmpadas é
+  exponencialmente distribuído com média de \(28\) meses. Uma empresa
+  espera que suas lâmpadas durem pelo menos \(26\) meses para que seu
+  lucro não seja prejudicado. Se a empresa utilizou lâmpadas desta
+  marca, qual a probabilidade de que uma lâmpada, em particular, não
+  gere prejuízo se já sobreviveu \(22\) meses?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.19\)
+  \item
+    \(0.87\)
+  \item
+    \(0.13\)
+  \item
+    \(0.46\)
+  \item
+    \(0.89\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas. Sabemos que \(E(X) = 28\), então
+  \(X\sim\text{Exp}(1/28).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.036x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>22+4 | X>22) &=& P(X>4)\\
+  &=& 1-F(4)\\
+  &=& 1-(1-e^{-0.036\times4})\\
+  &=& 0.87
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de lâmpadas é
+  exponencialmente distribuído com média de \(25\) meses. Uma empresa
+  espera que suas lâmpadas durem pelo menos \(25\) meses para que seu
+  lucro não seja prejudicado. Se a empresa utilizou lâmpadas desta
+  marca, qual a probabilidade de que uma lâmpada, em particular, não
+  gere prejuízo se já sobreviveu \(19\) meses?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.63\)
+  \item
+    \(0.79\)
+  \item
+    \(0.21\)
+  \item
+    \(0.01\)
+  \item
+    \(0.47\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas. Sabemos que \(E(X) = 25\), então
+  \(X\sim\text{Exp}(1/25).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.040x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>19+6 | X>19) &=& P(X>6)\\
+  &=& 1-F(6)\\
+  &=& 1-(1-e^{-0.040\times6})\\
+  &=& 0.79
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de lâmpadas é
+  exponencialmente distribuído com média de \(29\) meses. Uma empresa
+  espera que suas lâmpadas durem pelo menos \(28\) meses para que seu
+  lucro não seja prejudicado. Se a empresa utilizou lâmpadas desta
+  marca, qual a probabilidade de que uma lâmpada, em particular, não
+  gere prejuízo se já sobreviveu \(24\) meses?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.82\)
+  \item
+    \(0.27\)
+  \item
+    \(0.13\)
+  \item
+    \(0.87\)
+  \item
+    \(0.44\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas. Sabemos que \(E(X) = 29\), então
+  \(X\sim\text{Exp}(1/29).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.034x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>24+4 | X>24) &=& P(X>4)\\
+  &=& 1-F(4)\\
+  &=& 1-(1-e^{-0.034\times4})\\
+  &=& 0.87
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de lâmpadas é
+  exponencialmente distribuído com média de \(22\) meses. Uma empresa
+  espera que suas lâmpadas durem pelo menos \(22\) meses para que seu
+  lucro não seja prejudicado. Se a empresa utilizou lâmpadas desta
+  marca, qual a probabilidade de que uma lâmpada, em particular, não
+  gere prejuízo se já sobreviveu \(17\) meses?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.13\)
+  \item
+    \(0.80\)
+  \item
+    \(0.46\)
+  \item
+    \(0.20\)
+  \item
+    \(0.94\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas. Sabemos que \(E(X) = 22\), então
+  \(X\sim\text{Exp}(1/22).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.045x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>17+5 | X>17) &=& P(X>5)\\
+  &=& 1-F(5)\\
+  &=& 1-(1-e^{-0.045\times5})\\
+  &=& 0.80
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de lâmpadas é
+  exponencialmente distribuído com média de \(20\) meses. Uma empresa
+  espera que suas lâmpadas durem pelo menos \(17\) meses para que seu
+  lucro não seja prejudicado. Se a empresa utilizou lâmpadas desta
+  marca, qual a probabilidade de que uma lâmpada, em particular, não
+  gere prejuízo se já sobreviveu \(13\) meses?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.18\)
+  \item
+    \(0.82\)
+  \item
+    \(0.20\)
+  \item
+    \(0.52\)
+  \item
+    \(0.87\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas. Sabemos que \(E(X) = 20\), então
+  \(X\sim\text{Exp}(1/20).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.050x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>13+4 | X>13) &=& P(X>4)\\
+  &=& 1-F(4)\\
+  &=& 1-(1-e^{-0.050\times4})\\
+  &=& 0.82
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de lâmpadas é
+  exponencialmente distribuído com média de \(30\) meses. Uma empresa
+  espera que suas lâmpadas durem pelo menos \(32\) meses para que seu
+  lucro não seja prejudicado. Se a empresa utilizou lâmpadas desta
+  marca, qual a probabilidade de que uma lâmpada, em particular, não
+  gere prejuízo se já sobreviveu \(26\) meses?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.42\)
+  \item
+    \(0.07\)
+  \item
+    \(0.18\)
+  \item
+    \(0.82\)
+  \item
+    \(0.88\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas. Sabemos que \(E(X) = 30\), então
+  \(X\sim\text{Exp}(1/30).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.033x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>26+6 | X>26) &=& P(X>6)\\
+  &=& 1-F(6)\\
+  &=& 1-(1-e^{-0.033\times6})\\
+  &=& 0.82
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de lâmpadas é
+  exponencialmente distribuído com média de \(26\) meses. Uma empresa
+  espera que suas lâmpadas durem pelo menos \(28\) meses para que seu
+  lucro não seja prejudicado. Se a empresa utilizou lâmpadas desta
+  marca, qual a probabilidade de que uma lâmpada, em particular, não
+  gere prejuízo se já sobreviveu \(22\) meses?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.21\)
+  \item
+    \(0.75\)
+  \item
+    \(0.43\)
+  \item
+    \(0.79\)
+  \item
+    \(0.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas. Sabemos que \(E(X) = 26\), então
+  \(X\sim\text{Exp}(1/26).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.038x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>22+6 | X>22) &=& P(X>6)\\
+  &=& 1-F(6)\\
+  &=& 1-(1-e^{-0.038\times6})\\
+  &=& 0.79
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil de uma certa marca de lâmpadas é
+  exponencialmente distribuído com média de \(27\) meses. Uma empresa
+  espera que suas lâmpadas durem pelo menos \(24\) meses para que seu
+  lucro não seja prejudicado. Se a empresa utilizou lâmpadas desta
+  marca, qual a probabilidade de que uma lâmpada, em particular, não
+  gere prejuízo se já sobreviveu \(20\) meses?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.14\)
+  \item
+    \(0.75\)
+  \item
+    \(0.48\)
+  \item
+    \(0.86\)
+  \item
+    \(0.21\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das lâmpadas. Sabemos que \(E(X) = 27\), então
+  \(X\sim\text{Exp}(1/27).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.037x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>20+4 | X>20) &=& P(X>4)\\
+  &=& 1-F(4)\\
+  &=& 1-(1-e^{-0.037\times4})\\
+  &=& 0.86
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

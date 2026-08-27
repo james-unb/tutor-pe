@@ -1,0 +1,532 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Gabriela recebeu seu salário de \(1000\) reais em dinheiro composto
+  por \(21\) notas: \(7\) notas de \(100\) reais, \(4\) notas de \(50\)
+  reais e \(10\) notas de \(10\) reais. Pedro, seu filho, gostaria de
+  comprar uma bicicleta no valor de \(100\) reais. Então, Gabriela
+  propôs que ele retirasse aleatoriamente \(2\) notas de seu salário.
+  Qual a probabilidade de Pedro não conseguir comprar a bicicleta usando
+  apenas essa fonte de recurso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.912\)
+  \item
+    \(0.214\)
+  \item
+    \(0.190\)
+  \item
+    \(0.405\)
+  \item
+    \(0.259\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pedro não conseguirá comprar a bicicleta em apenas 2 situações:
+
+  \begin{enumerate}
+  \item
+    Evento A: Pedro retira \(2\) notas de \(10\) reais\\
+    \[P(A) = \dfrac{\binom{10}{2}}{\binom{21}{2}} = 0.214.\]
+  \item
+    Evento B: Pedro retira \(1\) notas de \(10\) reais e \(1\) nota de
+    \(50\) reais\\
+    \[P(B) = \dfrac{\binom{10}{1} \binom{4}{1}}{\binom{21}{2}} = 0.19.\]
+  \end{enumerate}
+
+  Desse modo, a probabilidade desejada é dada por
+  \[P(A)+ P(B) = 0.405.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Gabriela recebeu seu salário de \(1000\) reais em dinheiro composto
+  por \(24\) notas: \(4\) notas de \(100\) reais, \(10\) notas de \(50\)
+  reais e \(10\) notas de \(10\) reais. Pedro, seu filho, gostaria de
+  comprar uma bicicleta no valor de \(100\) reais. Então, Gabriela
+  propôs que ele retirasse aleatoriamente \(3\) notas de seu salário.
+  Qual a probabilidade de Pedro não conseguir comprar a bicicleta usando
+  apenas essa fonte de recurso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.282\)
+  \item
+    \(0.188\)
+  \item
+    \(0.501\)
+  \item
+    \(0.222\)
+  \item
+    \(0.059\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pedro não conseguirá comprar a bicicleta em apenas 2 situações:
+
+  \begin{enumerate}
+  \item
+    Evento A: Pedro retira \(3\) notas de \(10\) reais\\
+    \[P(A) = \dfrac{\binom{10}{3}}{\binom{24}{3}} = 0.059.\]
+  \item
+    Evento B: Pedro retira \(2\) notas de \(10\) reais e \(1\) nota de
+    \(50\) reais\\
+    \[P(B) = \dfrac{\binom{10}{2} \binom{10}{1}}{\binom{24}{3}} = 0.222.\]
+  \end{enumerate}
+
+  Desse modo, a probabilidade desejada é dada por
+  \[P(A)+ P(B) = 0.282.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Gabriela recebeu seu salário de \(1000\) reais em dinheiro composto
+  por \(32\) notas: \(4\) notas de \(100\) reais, \(8\) notas de \(50\)
+  reais e \(20\) notas de \(10\) reais. Pedro, seu filho, gostaria de
+  comprar uma bicicleta no valor de \(100\) reais. Então, Gabriela
+  propôs que ele retirasse aleatoriamente \(4\) notas de seu salário.
+  Qual a probabilidade de Pedro não conseguir comprar a bicicleta usando
+  apenas essa fonte de recurso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.254\)
+  \item
+    \(0.388\)
+  \item
+    \(0.135\)
+  \item
+    \(0.142\)
+  \item
+    \(0.687\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pedro não conseguirá comprar a bicicleta em apenas 2 situações:
+
+  \begin{enumerate}
+  \item
+    Evento A: Pedro retira \(4\) notas de \(10\) reais\\
+    \[P(A) = \dfrac{\binom{20}{4}}{\binom{32}{4}} = 0.135.\]
+  \item
+    Evento B: Pedro retira \(3\) notas de \(10\) reais e \(1\) nota de
+    \(50\) reais\\
+    \[P(B) = \dfrac{\binom{20}{3} \binom{8}{1}}{\binom{32}{4}} = 0.254.\]
+  \end{enumerate}
+
+  Desse modo, a probabilidade desejada é dada por
+  \[P(A)+ P(B) = 0.388.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Gabriela recebeu seu salário de \(1000\) reais em dinheiro composto
+  por \(28\) notas: \(4\) notas de \(100\) reais, \(9\) notas de \(50\)
+  reais e \(15\) notas de \(10\) reais. Pedro, seu filho, gostaria de
+  comprar uma bicicleta no valor de \(100\) reais. Então, Gabriela
+  propôs que ele retirasse aleatoriamente \(3\) notas de seu salário.
+  Qual a probabilidade de Pedro não conseguir comprar a bicicleta usando
+  apenas essa fonte de recurso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.427\)
+  \item
+    \(0.139\)
+  \item
+    \(0.288\)
+  \item
+    \(0.255\)
+  \item
+    \(0.641\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pedro não conseguirá comprar a bicicleta em apenas 2 situações:
+
+  \begin{enumerate}
+  \item
+    Evento A: Pedro retira \(3\) notas de \(10\) reais\\
+    \[P(A) = \dfrac{\binom{15}{3}}{\binom{28}{3}} = 0.139.\]
+  \item
+    Evento B: Pedro retira \(2\) notas de \(10\) reais e \(1\) nota de
+    \(50\) reais\\
+    \[P(B) = \dfrac{\binom{15}{2} \binom{9}{1}}{\binom{28}{3}} = 0.288.\]
+  \end{enumerate}
+
+  Desse modo, a probabilidade desejada é dada por
+  \[P(A)+ P(B) = 0.427.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Gabriela recebeu seu salário de \(1000\) reais em dinheiro composto
+  por \(24\) notas: \(4\) notas de \(100\) reais, \(10\) notas de \(50\)
+  reais e \(10\) notas de \(10\) reais. Pedro, seu filho, gostaria de
+  comprar uma bicicleta no valor de \(100\) reais. Então, Gabriela
+  propôs que ele retirasse aleatoriamente \(3\) notas de seu salário.
+  Qual a probabilidade de Pedro não conseguir comprar a bicicleta usando
+  apenas essa fonte de recurso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.222\)
+  \item
+    \(0.059\)
+  \item
+    \(0.134\)
+  \item
+    \(0.324\)
+  \item
+    \(0.282\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pedro não conseguirá comprar a bicicleta em apenas 2 situações:
+
+  \begin{enumerate}
+  \item
+    Evento A: Pedro retira \(3\) notas de \(10\) reais\\
+    \[P(A) = \dfrac{\binom{10}{3}}{\binom{24}{3}} = 0.059.\]
+  \item
+    Evento B: Pedro retira \(2\) notas de \(10\) reais e \(1\) nota de
+    \(50\) reais\\
+    \[P(B) = \dfrac{\binom{10}{2} \binom{10}{1}}{\binom{24}{3}} = 0.222.\]
+  \end{enumerate}
+
+  Desse modo, a probabilidade desejada é dada por
+  \[P(A)+ P(B) = 0.282.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Gabriela recebeu seu salário de \(1000\) reais em dinheiro composto
+  por \(30\) notas: \(6\) notas de \(100\) reais, \(4\) notas de \(50\)
+  reais e \(20\) notas de \(10\) reais. Pedro, seu filho, gostaria de
+  comprar uma bicicleta no valor de \(100\) reais. Então, Gabriela
+  propôs que ele retirasse aleatoriamente \(4\) notas de seu salário.
+  Qual a probabilidade de Pedro não conseguir comprar a bicicleta usando
+  apenas essa fonte de recurso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.248\)
+  \item
+    \(0.177\)
+  \item
+    \(0.816\)
+  \item
+    \(0.166\)
+  \item
+    \(0.343\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pedro não conseguirá comprar a bicicleta em apenas 2 situações:
+
+  \begin{enumerate}
+  \item
+    Evento A: Pedro retira \(4\) notas de \(10\) reais\\
+    \[P(A) = \dfrac{\binom{20}{4}}{\binom{30}{4}} = 0.177.\]
+  \item
+    Evento B: Pedro retira \(3\) notas de \(10\) reais e \(1\) nota de
+    \(50\) reais\\
+    \[P(B) = \dfrac{\binom{20}{3} \binom{4}{1}}{\binom{30}{4}} = 0.166.\]
+  \end{enumerate}
+
+  Desse modo, a probabilidade desejada é dada por
+  \[P(A)+ P(B) = 0.343.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Gabriela recebeu seu salário de \(1000\) reais em dinheiro composto
+  por \(28\) notas: \(4\) notas de \(100\) reais, \(9\) notas de \(50\)
+  reais e \(15\) notas de \(10\) reais. Pedro, seu filho, gostaria de
+  comprar uma bicicleta no valor de \(100\) reais. Então, Gabriela
+  propôs que ele retirasse aleatoriamente \(4\) notas de seu salário.
+  Qual a probabilidade de Pedro não conseguir comprar a bicicleta usando
+  apenas essa fonte de recurso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.067\)
+  \item
+    \(0.795\)
+  \item
+    \(0.170\)
+  \item
+    \(0.200\)
+  \item
+    \(0.267\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pedro não conseguirá comprar a bicicleta em apenas 2 situações:
+
+  \begin{enumerate}
+  \item
+    Evento A: Pedro retira \(4\) notas de \(10\) reais\\
+    \[P(A) = \dfrac{\binom{15}{4}}{\binom{28}{4}} = 0.067.\]
+  \item
+    Evento B: Pedro retira \(3\) notas de \(10\) reais e \(1\) nota de
+    \(50\) reais\\
+    \[P(B) = \dfrac{\binom{15}{3} \binom{9}{1}}{\binom{28}{4}} = 0.2.\]
+  \end{enumerate}
+
+  Desse modo, a probabilidade desejada é dada por
+  \[P(A)+ P(B) = 0.267.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Gabriela recebeu seu salário de \(1000\) reais em dinheiro composto
+  por \(26\) notas: \(6\) notas de \(100\) reais, \(5\) notas de \(50\)
+  reais e \(15\) notas de \(10\) reais. Pedro, seu filho, gostaria de
+  comprar uma bicicleta no valor de \(100\) reais. Então, Gabriela
+  propôs que ele retirasse aleatoriamente \(3\) notas de seu salário.
+  Qual a probabilidade de Pedro não conseguir comprar a bicicleta usando
+  apenas essa fonte de recurso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.377\)
+  \item
+    \(0.202\)
+  \item
+    \(0.175\)
+  \item
+    \(0.652\)
+  \item
+    \(0.178\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pedro não conseguirá comprar a bicicleta em apenas 2 situações:
+
+  \begin{enumerate}
+  \item
+    Evento A: Pedro retira \(3\) notas de \(10\) reais\\
+    \[P(A) = \dfrac{\binom{15}{3}}{\binom{26}{3}} = 0.175.\]
+  \item
+    Evento B: Pedro retira \(2\) notas de \(10\) reais e \(1\) nota de
+    \(50\) reais\\
+    \[P(B) = \dfrac{\binom{15}{2} \binom{5}{1}}{\binom{26}{3}} = 0.202.\]
+  \end{enumerate}
+
+  Desse modo, a probabilidade desejada é dada por
+  \[P(A)+ P(B) = 0.377.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Gabriela recebeu seu salário de \(1000\) reais em dinheiro composto
+  por \(21\) notas: \(7\) notas de \(100\) reais, \(4\) notas de \(50\)
+  reais e \(10\) notas de \(10\) reais. Pedro, seu filho, gostaria de
+  comprar uma bicicleta no valor de \(100\) reais. Então, Gabriela
+  propôs que ele retirasse aleatoriamente \(3\) notas de seu salário.
+  Qual a probabilidade de Pedro não conseguir comprar a bicicleta usando
+  apenas essa fonte de recurso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.135\)
+  \item
+    \(0.090\)
+  \item
+    \(0.378\)
+  \item
+    \(0.196\)
+  \item
+    \(0.226\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pedro não conseguirá comprar a bicicleta em apenas 2 situações:
+
+  \begin{enumerate}
+  \item
+    Evento A: Pedro retira \(3\) notas de \(10\) reais\\
+    \[P(A) = \dfrac{\binom{10}{3}}{\binom{21}{3}} = 0.09.\]
+  \item
+    Evento B: Pedro retira \(2\) notas de \(10\) reais e \(1\) nota de
+    \(50\) reais\\
+    \[P(B) = \dfrac{\binom{10}{2} \binom{4}{1}}{\binom{21}{3}} = 0.135.\]
+  \end{enumerate}
+
+  Desse modo, a probabilidade desejada é dada por
+  \[P(A)+ P(B) = 0.226.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Gabriela recebeu seu salário de \(1000\) reais em dinheiro composto
+  por \(21\) notas: \(7\) notas de \(100\) reais, \(4\) notas de \(50\)
+  reais e \(10\) notas de \(10\) reais. Pedro, seu filho, gostaria de
+  comprar uma bicicleta no valor de \(100\) reais. Então, Gabriela
+  propôs que ele retirasse aleatoriamente \(2\) notas de seu salário.
+  Qual a probabilidade de Pedro não conseguir comprar a bicicleta usando
+  apenas essa fonte de recurso?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.262\)
+  \item
+    \(0.190\)
+  \item
+    \(0.455\)
+  \item
+    \(0.405\)
+  \item
+    \(0.214\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Pedro não conseguirá comprar a bicicleta em apenas 2 situações:
+
+  \begin{enumerate}
+  \item
+    Evento A: Pedro retira \(2\) notas de \(10\) reais\\
+    \[P(A) = \dfrac{\binom{10}{2}}{\binom{21}{2}} = 0.214.\]
+  \item
+    Evento B: Pedro retira \(1\) notas de \(10\) reais e \(1\) nota de
+    \(50\) reais\\
+    \[P(B) = \dfrac{\binom{10}{1} \binom{4}{1}}{\binom{21}{2}} = 0.19.\]
+  \end{enumerate}
+
+  Desse modo, a probabilidade desejada é dada por
+  \[P(A)+ P(B) = 0.405.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

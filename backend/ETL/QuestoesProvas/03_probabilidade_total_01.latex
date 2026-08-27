@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(80\%\) dos pênaltis marcados a favor do Brasil são
+  cobrados por jogadores de clubes estrangeiros. A probabilidade de um
+  pênalti resultar em gol é de \(61\%\) se o cobrador for de um clube
+  estrangeiro e de \(94\%\) se o cobrador for de um clube nacional.
+  Suponha que um pênalti foi marcado à favor do Brasil. Qual a
+  probabilidade de que um pênalti resulte em gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.72\)
+  \item
+    \(0.19\)
+  \item
+    \(0.68\)
+  \item
+    \(0.49\)
+  \item
+    \(0.28\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{E} &=& \text{ ``O cobrador é de clube estrangeiro''}\\
+  \text{N} &=& \text{ ``O cobrador é de clube nacional''}\\
+  \text{C} &=& \text{ ``O cobrador converte o pênalti''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|E)P(E)+P(C|N)P(N) =   0.61\times0.8+0.94\times0.2 = 0.68.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(74\%\) dos pênaltis marcados a favor do Brasil são
+  cobrados por jogadores de clubes estrangeiros. A probabilidade de um
+  pênalti resultar em gol é de \(74\%\) se o cobrador for de um clube
+  estrangeiro e de \(89\%\) se o cobrador for de um clube nacional.
+  Suponha que um pênalti foi marcado à favor do Brasil. Qual a
+  probabilidade de que um pênalti resulte em gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.70\)
+  \item
+    \(0.30\)
+  \item
+    \(0.55\)
+  \item
+    \(0.23\)
+  \item
+    \(0.78\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{E} &=& \text{ ``O cobrador é de clube estrangeiro''}\\
+  \text{N} &=& \text{ ``O cobrador é de clube nacional''}\\
+  \text{C} &=& \text{ ``O cobrador converte o pênalti''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|E)P(E)+P(C|N)P(N) =   0.74\times0.74+0.89\times0.26 = 0.78.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(81\%\) dos pênaltis marcados a favor do Brasil são
+  cobrados por jogadores de clubes estrangeiros. A probabilidade de um
+  pênalti resultar em gol é de \(74\%\) se o cobrador for de um clube
+  estrangeiro e de \(90\%\) se o cobrador for de um clube nacional.
+  Suponha que um pênalti foi marcado à favor do Brasil. Qual a
+  probabilidade de que um pênalti resulte em gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.22\)
+  \item
+    \(0.77\)
+  \item
+    \(0.17\)
+  \item
+    \(0.60\)
+  \item
+    \(0.78\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{E} &=& \text{ ``O cobrador é de clube estrangeiro''}\\
+  \text{N} &=& \text{ ``O cobrador é de clube nacional''}\\
+  \text{C} &=& \text{ ``O cobrador converte o pênalti''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|E)P(E)+P(C|N)P(N) =   0.74\times0.81+0.9\times0.19 = 0.77.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(71\%\) dos pênaltis marcados a favor do Brasil são
+  cobrados por jogadores de clubes estrangeiros. A probabilidade de um
+  pênalti resultar em gol é de \(71\%\) se o cobrador for de um clube
+  estrangeiro e de \(80\%\) se o cobrador for de um clube nacional.
+  Suponha que um pênalti foi marcado à favor do Brasil. Qual a
+  probabilidade de que um pênalti resulte em gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.50\)
+  \item
+    \(0.68\)
+  \item
+    \(0.23\)
+  \item
+    \(0.74\)
+  \item
+    \(0.32\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{E} &=& \text{ ``O cobrador é de clube estrangeiro''}\\
+  \text{N} &=& \text{ ``O cobrador é de clube nacional''}\\
+  \text{C} &=& \text{ ``O cobrador converte o pênalti''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|E)P(E)+P(C|N)P(N) =   0.71\times0.71+0.8\times0.29 = 0.74.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(71\%\) dos pênaltis marcados a favor do Brasil são
+  cobrados por jogadores de clubes estrangeiros. A probabilidade de um
+  pênalti resultar em gol é de \(64\%\) se o cobrador for de um clube
+  estrangeiro e de \(85\%\) se o cobrador for de um clube nacional.
+  Suponha que um pênalti foi marcado à favor do Brasil. Qual a
+  probabilidade de que um pênalti resulte em gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.35\)
+  \item
+    \(0.65\)
+  \item
+    \(0.25\)
+  \item
+    \(0.45\)
+  \item
+    \(0.70\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{E} &=& \text{ ``O cobrador é de clube estrangeiro''}\\
+  \text{N} &=& \text{ ``O cobrador é de clube nacional''}\\
+  \text{C} &=& \text{ ``O cobrador converte o pênalti''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|E)P(E)+P(C|N)P(N) =   0.64\times0.71+0.85\times0.29 = 0.7.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(76\%\) dos pênaltis marcados a favor do Brasil são
+  cobrados por jogadores de clubes estrangeiros. A probabilidade de um
+  pênalti resultar em gol é de \(60\%\) se o cobrador for de um clube
+  estrangeiro e de \(84\%\) se o cobrador for de um clube nacional.
+  Suponha que um pênalti foi marcado à favor do Brasil. Qual a
+  probabilidade de que um pênalti resulte em gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.69\)
+  \item
+    \(0.31\)
+  \item
+    \(0.66\)
+  \item
+    \(0.20\)
+  \item
+    \(0.46\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{E} &=& \text{ ``O cobrador é de clube estrangeiro''}\\
+  \text{N} &=& \text{ ``O cobrador é de clube nacional''}\\
+  \text{C} &=& \text{ ``O cobrador converte o pênalti''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|E)P(E)+P(C|N)P(N) =   0.6\times0.76+0.84\times0.24 = 0.66.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(75\%\) dos pênaltis marcados a favor do Brasil são
+  cobrados por jogadores de clubes estrangeiros. A probabilidade de um
+  pênalti resultar em gol é de \(65\%\) se o cobrador for de um clube
+  estrangeiro e de \(81\%\) se o cobrador for de um clube nacional.
+  Suponha que um pênalti foi marcado à favor do Brasil. Qual a
+  probabilidade de que um pênalti resulte em gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.29\)
+  \item
+    \(0.69\)
+  \item
+    \(0.49\)
+  \item
+    \(0.20\)
+  \item
+    \(0.71\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{E} &=& \text{ ``O cobrador é de clube estrangeiro''}\\
+  \text{N} &=& \text{ ``O cobrador é de clube nacional''}\\
+  \text{C} &=& \text{ ``O cobrador converte o pênalti''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|E)P(E)+P(C|N)P(N) =   0.65\times0.75+0.81\times0.25 = 0.69.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(83\%\) dos pênaltis marcados a favor do Brasil são
+  cobrados por jogadores de clubes estrangeiros. A probabilidade de um
+  pênalti resultar em gol é de \(62\%\) se o cobrador for de um clube
+  estrangeiro e de \(87\%\) se o cobrador for de um clube nacional.
+  Suponha que um pênalti foi marcado à favor do Brasil. Qual a
+  probabilidade de que um pênalti resulte em gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.22\)
+  \item
+    \(0.51\)
+  \item
+    \(0.15\)
+  \item
+    \(0.78\)
+  \item
+    \(0.66\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{E} &=& \text{ ``O cobrador é de clube estrangeiro''}\\
+  \text{N} &=& \text{ ``O cobrador é de clube nacional''}\\
+  \text{C} &=& \text{ ``O cobrador converte o pênalti''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|E)P(E)+P(C|N)P(N) =   0.62\times0.83+0.87\times0.17 = 0.66.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(79\%\) dos pênaltis marcados a favor do Brasil são
+  cobrados por jogadores de clubes estrangeiros. A probabilidade de um
+  pênalti resultar em gol é de \(64\%\) se o cobrador for de um clube
+  estrangeiro e de \(89\%\) se o cobrador for de um clube nacional.
+  Suponha que um pênalti foi marcado à favor do Brasil. Qual a
+  probabilidade de que um pênalti resulte em gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.51\)
+  \item
+    \(0.27\)
+  \item
+    \(0.19\)
+  \item
+    \(0.69\)
+  \item
+    \(0.73\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{E} &=& \text{ ``O cobrador é de clube estrangeiro''}\\
+  \text{N} &=& \text{ ``O cobrador é de clube nacional''}\\
+  \text{C} &=& \text{ ``O cobrador converte o pênalti''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|E)P(E)+P(C|N)P(N) =   0.64\times0.79+0.89\times0.21 = 0.69.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(84\%\) dos pênaltis marcados a favor do Brasil são
+  cobrados por jogadores de clubes estrangeiros. A probabilidade de um
+  pênalti resultar em gol é de \(61\%\) se o cobrador for de um clube
+  estrangeiro e de \(81\%\) se o cobrador for de um clube nacional.
+  Suponha que um pênalti foi marcado à favor do Brasil. Qual a
+  probabilidade de que um pênalti resulte em gol?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.20\)
+  \item
+    \(0.64\)
+  \item
+    \(0.13\)
+  \item
+    \(0.80\)
+  \item
+    \(0.51\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{E} &=& \text{ ``O cobrador é de clube estrangeiro''}\\
+  \text{N} &=& \text{ ``O cobrador é de clube nacional''}\\
+  \text{C} &=& \text{ ``O cobrador converte o pênalti''}
+  \end{aligned}\]
+
+  Pelo teorema da probabilidade total, a probabilidade desejada é dada
+  por
+  \[P(C) = P(C|E)P(E)+P(C|N)P(N) =   0.61\times0.84+0.81\times0.16 = 0.64.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

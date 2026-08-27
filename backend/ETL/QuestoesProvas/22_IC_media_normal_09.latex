@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante medindo a temperatura de ebulição (em graus Celsius) de
+  um determinado líquido, em 4 amostras diferentes, nas mesmas
+  condições, calcula a média da amostra como sendo 106.351. Se ele sabe
+  que, com este procedimento, a temperatura de ebulição tem distribuição
+  normal com desvio padrão de 1.7 graus, qual é o intervalo de confiança
+  para a temperatura média de ebulição com 95\% de confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([104.685, 108.017]\)
+  \item
+    \([103.646, 109.056]\)
+  \item
+    \([104.998, 107.704]\)
+  \item
+    \([105.518, 107.184]\)
+  \item
+    \([105.279, 107.423]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=4, \overline{x}=106.351, \sigma= 1.7\) e
+  \(1-\alpha=0.95\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.975}=1.96\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.95\%)
+  &=
+  \left(106.351-{1.7 \over \sqrt{4}}\times 1.96; \, 106.351+{1.7 \over \sqrt{4}}\times 1.96\right)
+  \\
+  &=\left\text{$[104.685, 108.017]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante medindo a temperatura de ebulição (em graus Celsius) de
+  um determinado líquido, em 7 amostras diferentes, nas mesmas
+  condições, calcula a média da amostra como sendo 104.053. Se ele sabe
+  que, com este procedimento, a temperatura de ebulição tem distribuição
+  normal com desvio padrão de 2.8 graus, qual é o intervalo de confiança
+  para a temperatura média de ebulição com 90\% de confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([103.276, 104.830]\)
+  \item
+    \([101.997, 106.109]\)
+  \item
+    \([103.242, 104.864]\)
+  \item
+    \([103.397, 104.709]\)
+  \item
+    \([102.317, 105.789]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=7, \overline{x}=104.053, \sigma= 2.8\) e
+  \(1-\alpha=0.9\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.95}=1.64\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.9\%)
+  &=
+  \left(104.053-{2.8 \over \sqrt{7}}\times 1.64; \, 104.053+{2.8 \over \sqrt{7}}\times 1.64\right)
+  \\
+  &=\left\text{$[102.317, 105.789]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante medindo a temperatura de ebulição (em graus Celsius) de
+  um determinado líquido, em 8 amostras diferentes, nas mesmas
+  condições, calcula a média da amostra como sendo 103.168. Se ele sabe
+  que, com este procedimento, a temperatura de ebulição tem distribuição
+  normal com desvio padrão de 2.2 graus, qual é o intervalo de confiança
+  para a temperatura média de ebulição com 85\% de confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([102.625, 103.711]\)
+  \item
+    \([102.723, 103.613]\)
+  \item
+    \([102.772, 103.564]\)
+  \item
+    \([102.048, 104.288]\)
+  \item
+    \([101.911, 104.425]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=8, \overline{x}=103.168, \sigma= 2.2\) e
+  \(1-\alpha=0.85\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.925}=1.44\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.85\%)
+  &=
+  \left(103.168-{2.2 \over \sqrt{8}}\times 1.44; \, 103.168+{2.2 \over \sqrt{8}}\times 1.44\right)
+  \\
+  &=\left\text{$[102.048, 104.288]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante medindo a temperatura de ebulição (em graus Celsius) de
+  um determinado líquido, em 7 amostras diferentes, nas mesmas
+  condições, calcula a média da amostra como sendo 102.471. Se ele sabe
+  que, com este procedimento, a temperatura de ebulição tem distribuição
+  normal com desvio padrão de 2.4 graus, qual é o intervalo de confiança
+  para a temperatura média de ebulição com 95\% de confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([101.632, 103.310]\)
+  \item
+    \([101.508, 103.434]\)
+  \item
+    \([100.693, 104.249]\)
+  \item
+    \([101.799, 103.143]\)
+  \item
+    \([100.251, 104.691]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=7, \overline{x}=102.471, \sigma= 2.4\) e
+  \(1-\alpha=0.95\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.975}=1.96\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.95\%)
+  &=
+  \left(102.471-{2.4 \over \sqrt{7}}\times 1.96; \, 102.471+{2.4 \over \sqrt{7}}\times 1.96\right)
+  \\
+  &=\left\text{$[100.693, 104.249]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante medindo a temperatura de ebulição (em graus Celsius) de
+  um determinado líquido, em 4 amostras diferentes, nas mesmas
+  condições, calcula a média da amostra como sendo 96.404. Se ele sabe
+  que, com este procedimento, a temperatura de ebulição tem distribuição
+  normal com desvio padrão de 2.6 graus, qual é o intervalo de confiança
+  para a temperatura média de ebulição com 80\% de confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([95.339, 97.469]\)
+  \item
+    \([95.725, 97.083]\)
+  \item
+    \([94.275, 98.533]\)
+  \item
+    \([95.572, 97.236]\)
+  \item
+    \([94.740, 98.068]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=4, \overline{x}=96.404, \sigma= 2.6\) e
+  \(1-\alpha=0.8\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.9}=1.28\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.8\%)
+  &=
+  \left(96.404-{2.6 \over \sqrt{4}}\times 1.28; \, 96.404+{2.6 \over \sqrt{4}}\times 1.28\right)
+  \\
+  &=\left\text{$[94.740, 98.068]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante medindo a temperatura de ebulição (em graus Celsius) de
+  um determinado líquido, em 5 amostras diferentes, nas mesmas
+  condições, calcula a média da amostra como sendo 96.84. Se ele sabe
+  que, com este procedimento, a temperatura de ebulição tem distribuição
+  normal com desvio padrão de 2.7 graus, qual é o intervalo de confiança
+  para a temperatura média de ebulição com 90\% de confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([95.954, 97.726]\)
+  \item
+    \([94.266, 99.414]\)
+  \item
+    \([94.860, 98.820]\)
+  \item
+    \([95.898, 97.782]\)
+  \item
+    \([95.689, 97.991]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=5, \overline{x}=96.84, \sigma= 2.7\) e
+  \(1-\alpha=0.9\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.95}=1.64\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.9\%)
+  &=
+  \left(96.84-{2.7 \over \sqrt{5}}\times 1.64; \, 96.84+{2.7 \over \sqrt{5}}\times 1.64\right)
+  \\
+  &=\left\text{$[94.860, 98.820]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante medindo a temperatura de ebulição (em graus Celsius) de
+  um determinado líquido, em 6 amostras diferentes, nas mesmas
+  condições, calcula a média da amostra como sendo 101.319. Se ele sabe
+  que, com este procedimento, a temperatura de ebulição tem distribuição
+  normal com desvio padrão de 2.8 graus, qual é o intervalo de confiança
+  para a temperatura média de ebulição com 95\% de confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([100.119, 102.519]\)
+  \item
+    \([ 98.381, 104.257]\)
+  \item
+    \([100.404, 102.234]\)
+  \item
+    \([ 99.079, 103.559]\)
+  \item
+    \([100.195, 102.443]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=6, \overline{x}=101.319, \sigma= 2.8\) e
+  \(1-\alpha=0.95\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.975}=1.96\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.95\%)
+  &=
+  \left(101.319-{2.8 \over \sqrt{6}}\times 1.96; \, 101.319+{2.8 \over \sqrt{6}}\times 1.96\right)
+  \\
+  &=\left\text{$[ 99.079, 103.559]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante medindo a temperatura de ebulição (em graus Celsius) de
+  um determinado líquido, em 8 amostras diferentes, nas mesmas
+  condições, calcula a média da amostra como sendo 100.793. Se ele sabe
+  que, com este procedimento, a temperatura de ebulição tem distribuição
+  normal com desvio padrão de 2 graus, qual é o intervalo de confiança
+  para a temperatura média de ebulição com 95\% de confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([ 99.121, 102.465]\)
+  \item
+    \([ 99.407, 102.179]\)
+  \item
+    \([100.202, 101.384]\)
+  \item
+    \([ 99.971, 101.616]\)
+  \item
+    \([100.303, 101.283]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=8, \overline{x}=100.793, \sigma= 2\) e
+  \(1-\alpha=0.95\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.975}=1.96\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.95\%)
+  &=
+  \left(100.793-{2 \over \sqrt{8}}\times 1.96; \, 100.793+{2 \over \sqrt{8}}\times 1.96\right)
+  \\
+  &=\left\text{$[ 99.407, 102.179]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante medindo a temperatura de ebulição (em graus Celsius) de
+  um determinado líquido, em 3 amostras diferentes, nas mesmas
+  condições, calcula a média da amostra como sendo 106.179. Se ele sabe
+  que, com este procedimento, a temperatura de ebulição tem distribuição
+  normal com desvio padrão de 1.7 graus, qual é o intervalo de confiança
+  para a temperatura média de ebulição com 80\% de confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([104.328, 108.030]\)
+  \item
+    \([105.454, 106.904]\)
+  \item
+    \([104.923, 107.435]\)
+  \item
+    \([105.545, 106.813]\)
+  \item
+    \([105.110, 107.248]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=3, \overline{x}=106.179, \sigma= 1.7\) e
+  \(1-\alpha=0.8\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.9}=1.28\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.8\%)
+  &=
+  \left(106.179-{1.7 \over \sqrt{3}}\times 1.28; \, 106.179+{1.7 \over \sqrt{3}}\times 1.28\right)
+  \\
+  &=\left\text{$[104.923, 107.435]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um estudante medindo a temperatura de ebulição (em graus Celsius) de
+  um determinado líquido, em 6 amostras diferentes, nas mesmas
+  condições, calcula a média da amostra como sendo 108.527. Se ele sabe
+  que, com este procedimento, a temperatura de ebulição tem distribuição
+  normal com desvio padrão de 1.8 graus, qual é o intervalo de confiança
+  para a temperatura média de ebulição com 90\% de confiança?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([107.923, 109.132]\)
+  \item
+    \([107.322, 109.732]\)
+  \item
+    \([107.825, 109.229]\)
+  \item
+    \([108.035, 109.019]\)
+  \item
+    \([107.046, 110.008]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Note, por exemplo, que \(n=6, \overline{x}=108.527, \sigma= 1.8\) e
+  \(1-\alpha=0.9\), o que implica que
+  \(z_{1-{\alpha\over 2}}=z_{0.95}=1.64\). Portanto, \[\begin{aligned}
+  IC(\mu; 0.9\%)
+  &=
+  \left(108.527-{1.8 \over \sqrt{6}}\times 1.64; \, 108.527+{1.8 \over \sqrt{6}}\times 1.64\right)
+  \\
+  &=\left\text{$[107.322, 109.732]$}\right.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

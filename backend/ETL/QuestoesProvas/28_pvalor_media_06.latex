@@ -1,0 +1,452 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um professor está testando a hipótese de que os alunos de uma
+  disciplina de estatística consomem, em média, 1.66 copos de café por
+  dia. Uma amostra aleatória simples de 13 estudantes foi selecionada,
+  em um dia, e o professor obteve média amostral de 2.134, com desvio
+  padrão amostral de 0.56. Assumindo que a distribuição da quantidade de
+  copos de café consumida por um aluno é Normal, assinale a altervativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.990\)
+  \item
+    \(0.495\)
+  \item
+    \(0.005\)
+  \item
+    \(0.010\)
+  \item
+    \(0.020\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=1.66 \ \ versus \ \ H_a : \mu \neq 1.66.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-1.66|}{s/\sqrt{n}} = 3.0518\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{12}\leq3.0518)) = 0.01.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um professor está testando a hipótese de que os alunos de uma
+  disciplina de estatística consomem, em média, 2.21 copos de café por
+  dia. Uma amostra aleatória simples de 11 estudantes foi selecionada,
+  em um dia, e o professor obteve média amostral de 2.502, com desvio
+  padrão amostral de 0.35. Assumindo que a distribuição da quantidade de
+  copos de café consumida por um aluno é Normal, assinale a altervativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.01\)
+  \item
+    \(0.04\)
+  \item
+    \(0.02\)
+  \item
+    \(0.98\)
+  \item
+    \(0.49\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=2.21 \ \ versus \ \ H_a : \mu \neq 2.21.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-2.21|}{s/\sqrt{n}} = 2.767\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{10}\leq2.767)) = 0.02.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um professor está testando a hipótese de que os alunos de uma
+  disciplina de estatística consomem, em média, 2.3 copos de café por
+  dia. Uma amostra aleatória simples de 13 estudantes foi selecionada,
+  em um dia, e o professor obteve média amostral de 2.554, com desvio
+  padrão amostral de 0.42. Assumindo que a distribuição da quantidade de
+  copos de café consumida por um aluno é Normal, assinale a altervativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.950\)
+  \item
+    \(0.050\)
+  \item
+    \(0.475\)
+  \item
+    \(0.100\)
+  \item
+    \(0.025\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=2.3 \ \ versus \ \ H_a : \mu \neq 2.3.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{|\bar{x}-2.3|}{s/\sqrt{n}} = 2.1805\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{12}\leq2.1805)) = 0.05.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um professor está testando a hipótese de que os alunos de uma
+  disciplina de estatística consomem, em média, 1.97 copos de café por
+  dia. Uma amostra aleatória simples de 24 estudantes foi selecionada,
+  em um dia, e o professor obteve média amostral de 2.109, com desvio
+  padrão amostral de 0.33. Assumindo que a distribuição da quantidade de
+  copos de café consumida por um aluno é Normal, assinale a altervativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.050\)
+  \item
+    \(0.950\)
+  \item
+    \(0.025\)
+  \item
+    \(0.475\)
+  \item
+    \(0.100\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=1.97 \ \ versus \ \ H_a : \mu \neq 1.97.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-1.97|}{s/\sqrt{n}} = 2.0635\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{23}\leq2.0635)) = 0.05.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um professor está testando a hipótese de que os alunos de uma
+  disciplina de estatística consomem, em média, 1.88 copos de café por
+  dia. Uma amostra aleatória simples de 14 estudantes foi selecionada,
+  em um dia, e o professor obteve média amostral de 2.106, com desvio
+  padrão amostral de 0.37. Assumindo que a distribuição da quantidade de
+  copos de café consumida por um aluno é Normal, assinale a altervativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.04\)
+  \item
+    \(0.48\)
+  \item
+    \(0.02\)
+  \item
+    \(0.08\)
+  \item
+    \(0.96\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=1.88 \ \ versus \ \ H_a : \mu \neq 1.88.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-1.88|}{s/\sqrt{n}} = 2.2854\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{13}\leq2.2854)) = 0.04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um professor está testando a hipótese de que os alunos de uma
+  disciplina de estatística consomem, em média, 2.42 copos de café por
+  dia. Uma amostra aleatória simples de 18 estudantes foi selecionada,
+  em um dia, e o professor obteve média amostral de 2.649, com desvio
+  padrão amostral de 0.46. Assumindo que a distribuição da quantidade de
+  copos de café consumida por um aluno é Normal, assinale a altervativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.050\)
+  \item
+    \(0.475\)
+  \item
+    \(0.025\)
+  \item
+    \(0.950\)
+  \item
+    \(0.100\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=2.42 \ \ versus \ \ H_a : \mu \neq 2.42.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-2.42|}{s/\sqrt{n}} = 2.1121\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{17}\leq2.1121)) = 0.05.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um professor está testando a hipótese de que os alunos de uma
+  disciplina de estatística consomem, em média, 2.18 copos de café por
+  dia. Uma amostra aleatória simples de 16 estudantes foi selecionada,
+  em um dia, e o professor obteve média amostral de 2.394, com desvio
+  padrão amostral de 0.38. Assumindo que a distribuição da quantidade de
+  copos de café consumida por um aluno é Normal, assinale a altervativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.96\)
+  \item
+    \(0.04\)
+  \item
+    \(0.48\)
+  \item
+    \(0.02\)
+  \item
+    \(0.08\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=2.18 \ \ versus \ \ H_a : \mu \neq 2.18.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-2.18|}{s/\sqrt{n}} = 2.2526\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{15}\leq2.2526)) = 0.04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um professor está testando a hipótese de que os alunos de uma
+  disciplina de estatística consomem, em média, 2.29 copos de café por
+  dia. Uma amostra aleatória simples de 14 estudantes foi selecionada,
+  em um dia, e o professor obteve média amostral de 2.437, com desvio
+  padrão amostral de 0.31. Assumindo que a distribuição da quantidade de
+  copos de café consumida por um aluno é Normal, assinale a altervativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.20\)
+  \item
+    \(0.90\)
+  \item
+    \(0.05\)
+  \item
+    \(0.10\)
+  \item
+    \(0.45\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=2.29 \ \ versus \ \ H_a : \mu \neq 2.29.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-2.29|}{s/\sqrt{n}} = 1.7743\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{13}\leq1.7743)) = 0.1.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um professor está testando a hipótese de que os alunos de uma
+  disciplina de estatística consomem, em média, 2.36 copos de café por
+  dia. Uma amostra aleatória simples de 14 estudantes foi selecionada,
+  em um dia, e o professor obteve média amostral de 2.695, com desvio
+  padrão amostral de 0.55. Assumindo que a distribuição da quantidade de
+  copos de café consumida por um aluno é Normal, assinale a altervativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.96\)
+  \item
+    \(0.08\)
+  \item
+    \(0.02\)
+  \item
+    \(0.04\)
+  \item
+    \(0.48\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=2.36 \ \ versus \ \ H_a : \mu \neq 2.36.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-2.36|}{s/\sqrt{n}} = 2.279\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{13}\leq2.279)) = 0.04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um professor está testando a hipótese de que os alunos de uma
+  disciplina de estatística consomem, em média, 1.65 copos de café por
+  dia. Uma amostra aleatória simples de 13 estudantes foi selecionada,
+  em um dia, e o professor obteve média amostral de 1.904, com desvio
+  padrão amostral de 0.3. Assumindo que a distribuição da quantidade de
+  copos de café consumida por um aluno é Normal, assinale a altervativa
+  correspondente ao p-valor do teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.020\)
+  \item
+    \(0.495\)
+  \item
+    \(0.005\)
+  \item
+    \(0.010\)
+  \item
+    \(0.990\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é bilateral para a média
+  com variância desconhecida. As hipóteses de teste são
+  \[H_0 : \mu=1.65 \ \ versus \ \ H_a : \mu \neq 1.65.\] A estatística
+  de teste normalizada é dada por
+  \[\frac{|\bar{x}-1.65|}{s/\sqrt{n}} = 3.0527\] e o p-valor
+  \[\alpha^{*} = 2(1-P(T_{12}\leq3.0527)) = 0.01.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

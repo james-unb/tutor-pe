@@ -1,0 +1,477 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma médica que trabalha com crianças carentes no Sol Nascente,
+  suspeita que uma determinada bactéria está causando infecção nos
+  pequenos. O valor mínimo da concentração de leucócitos no sangue, para
+  ser considerado normal, é de \(9958\) mcL. Sabe-se, de pesquisas
+  passadas, que a variância para este tipo de medida é igual a \(2000\)
+  mcL\(^2\). Para testar se as crianças estão realmente sendo infectadas
+  pela bactéria, \(44\) delas tiveram seu sangue examinado, uma média
+  amostral de \(9948.96\). As hipóteses do teste e a conclusão a um
+  nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \geq9958\; \emph{vs. } \ H_a: \mu<9958\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=9958\; \emph{vs. } \ H_a: \bar{x}=9948.96\). \(H_0\)
+    não é rejeitada.
+  \item
+    \(H_0: \mu \geq9958\; \emph{vs. } \ H_a: \mu<9958\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=9948.96\; \emph{vs. } \ H_a: \bar{x}>9948.96\).
+    \(H_0\) é rejeitada.
+  \item
+    \(H_0: \mu=9958\; \emph{vs. } \ H_a: \mu \neq 9958\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu\geq9958 \ \emph{vs.} \ H_a: \mu < 9958\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=9958)=P\left(Z<\frac{c-9958}{\sqrt{2000/44}}\right)=0.05\).
+
+  Portanto,
+  \(\frac{c-9958}{\sqrt{2000/44}}=-1.64 \Rightarrow c=9946.94\).
+
+  Daí, como \(\bar{x} =\) \(9948.96 > 9946.94, não se rejeita\)H\_0\(.
+
+    \begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Uma médica que trabalha com crianças carentes no Sol Nascente, suspeita que uma determinada bactéria está causando infecção nos pequenos. O valor mínimo da concentração de leucócitos no sangue, para ser considerado normal, é de\)6965\(mcL. Sabe-se, de pesquisas passadas, que a variância para este tipo de medida é igual a\)2000\(mcL\)\^{}2\(. Para testar se as crianças estão realmente sendo infectadas pela bactéria,\)45\(delas tiveram seu sangue examinado, uma média amostral de\)6956.06\(. As hipóteses do teste e a conclusão a um nível de significância de\)5\%\(são:
+
+
+    \begin{enumerate}[(a)]
+      \item\)H\_0: \emph{vs.} ~H\_a:
+  \textless6965\(.\)H\_0\(é rejeitada.
+      \item\)H\_0: \emph{vs.} ~H\_a:
+  \textless6965\(.\)H\_0\(não é rejeitada.
+      \item\)H\_0: \textbar{}{x}=6956.06 \emph{vs.} ~H\_a:
+  \textbar{}{x}\textgreater6956.06\(.\)H\_0\(é rejeitada.
+      \item\)H\_0: \emph{vs.} ~H\_a: \(.\)H\_0\(é rejeitada.
+      \item\)H\_0: \textbar{}{x}=6965 \emph{vs.} ~H\_a:
+  \textbar{}{x}=6956.06\(.\)H\_0\(não é rejeitada.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que o teste é unilateral para a média com variância conhecida. 
+  As hipóteses do teste são\)H\_0: ~\emph{vs.} ~H\_a: \textless{}
+  6965\(. 
+  Além disso, sabe-se que o nível de significância é dado por\)=P(rejeitar~
+  H\_0 \textbar{} H\_0 ~é~verdadeira)=
+  P(\textbar{}{X}\textless c\textbar)=P(Z\textless)=0.05\(.
+
+  Portanto,\)=-1.64 c=6954.07\(. 
+
+  Daí, como\)\textbar{}{x} =\(\)6956.06 \textgreater{} 6954.07, não se
+  rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma médica que trabalha com crianças carentes no Sol Nascente,
+  suspeita que uma determinada bactéria está causando infecção nos
+  pequenos. O valor mínimo da concentração de leucócitos no sangue, para
+  ser considerado normal, é de \(7374\) mcL. Sabe-se, de pesquisas
+  passadas, que a variância para este tipo de medida é igual a \(1000\)
+  mcL\(^2\). Para testar se as crianças estão realmente sendo infectadas
+  pela bactéria, \(43\) delas tiveram seu sangue examinado, uma média
+  amostral de \(7367.53\). As hipóteses do teste e a conclusão a um
+  nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \bar{x}=7374\; \emph{vs. } \ H_a: \bar{x}=7367.53\). \(H_0\)
+    não é rejeitada.
+  \item
+    \(H_0: \mu \geq7374\; \emph{vs. } \ H_a: \mu<7374\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=7367.53\; \emph{vs. } \ H_a: \bar{x}>7367.53\).
+    \(H_0\) é rejeitada.
+  \item
+    \(H_0: \mu \geq7374\; \emph{vs. } \ H_a: \mu<7374\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=7374\; \emph{vs. } \ H_a: \mu \neq 7374\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu\geq7374 \ \emph{vs.} \ H_a: \mu < 7374\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=7374)=P\left(Z<\frac{c-7374}{\sqrt{1000/43}}\right)=0.05\).
+
+  Portanto,
+  \(\frac{c-7374}{\sqrt{1000/43}}=-1.64 \Rightarrow c=7366.09\).
+
+  Daí, como \(\bar{x} =\) \(7367.53 > 7366.09, não se rejeita\)H\_0\(.
+
+    \begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Uma médica que trabalha com crianças carentes no Sol Nascente, suspeita que uma determinada bactéria está causando infecção nos pequenos. O valor mínimo da concentração de leucócitos no sangue, para ser considerado normal, é de\)8222\(mcL. Sabe-se, de pesquisas passadas, que a variância para este tipo de medida é igual a\)2000\(mcL\)\^{}2\(. Para testar se as crianças estão realmente sendo infectadas pela bactéria,\)39\(delas tiveram seu sangue examinado, uma média amostral de\)8212.82\(. As hipóteses do teste e a conclusão a um nível de significância de\)5\%\(são:
+
+
+    \begin{enumerate}[(a)]
+      \item\)H\_0: \textbar{}{x}=8212.82 \emph{vs.} ~H\_a:
+  \textbar{}{x}\textgreater8212.82\(.\)H\_0\(é rejeitada.
+      \item\)H\_0: \textbar{}{x}=8222 \emph{vs.} ~H\_a:
+  \textbar{}{x}=8212.82\(.\)H\_0\(não é rejeitada.
+      \item\)H\_0: \emph{vs.} ~H\_a: \(.\)H\_0\(é rejeitada.
+      \item\)H\_0: \emph{vs.} ~H\_a:
+  \textless8222\(.\)H\_0\(é rejeitada.
+      \item\)H\_0: \emph{vs.} ~H\_a:
+  \textless8222\(.\)H\_0\(não é rejeitada.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que o teste é unilateral para a média com variância conhecida. 
+  As hipóteses do teste são\)H\_0: ~\emph{vs.} ~H\_a: \textless{}
+  8222\(. 
+  Além disso, sabe-se que o nível de significância é dado por\)=P(rejeitar~
+  H\_0 \textbar{} H\_0 ~é~verdadeira)=
+  P(\textbar{}{X}\textless c\textbar)=P(Z\textless)=0.05\(.
+
+  Portanto,\)=-1.64 c=8210.26\(. 
+
+  Daí, como\)\textbar{}{x} =\(\)8212.82 \textgreater{} 8210.26, não se
+  rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma médica que trabalha com crianças carentes no Sol Nascente,
+  suspeita que uma determinada bactéria está causando infecção nos
+  pequenos. O valor mínimo da concentração de leucócitos no sangue, para
+  ser considerado normal, é de \(7292\) mcL. Sabe-se, de pesquisas
+  passadas, que a variância para este tipo de medida é igual a \(2000\)
+  mcL\(^2\). Para testar se as crianças estão realmente sendo infectadas
+  pela bactéria, \(36\) delas tiveram seu sangue examinado, uma média
+  amostral de \(7276.69\). As hipóteses do teste e a conclusão a um
+  nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \geq7292\; \emph{vs. } \ H_a: \mu<7292\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu \geq7292\; \emph{vs. } \ H_a: \mu<7292\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \mu=7292\; \emph{vs. } \ H_a: \mu \neq 7292\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=7276.69\; \emph{vs. } \ H_a: \bar{x}>7276.69\).
+    \(H_0\) é rejeitada.
+  \item
+    \(H_0: \bar{x}=7292\; \emph{vs. } \ H_a: \bar{x}=7276.69\). \(H_0\)
+    não é rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu\geq7292 \ \emph{vs.} \ H_a: \mu < 7292\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=7292)=P\left(Z<\frac{c-7292}{\sqrt{2000/36}}\right)=0.05\).
+
+  Portanto,
+  \(\frac{c-7292}{\sqrt{2000/36}}=-1.64 \Rightarrow c=7279.78\).
+
+  Daí, como \(\bar{x} =\) \(7276.69 < 7279.78, rejeita-se\)H\_0\(.
+
+    \begin{enumerate}[(a)]
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Uma médica que trabalha com crianças carentes no Sol Nascente, suspeita que uma determinada bactéria está causando infecção nos pequenos. O valor mínimo da concentração de leucócitos no sangue, para ser considerado normal, é de\)9208\(mcL. Sabe-se, de pesquisas passadas, que a variância para este tipo de medida é igual a\)1000\(mcL\)\^{}2\(. Para testar se as crianças estão realmente sendo infectadas pela bactéria,\)36\(delas tiveram seu sangue examinado, uma média amostral de\)9200.93\(. As hipóteses do teste e a conclusão a um nível de significância de\)5\%\(são:
+
+
+    \begin{enumerate}[(a)]
+      \item\)H\_0: \textbar{}{x}=9208 \emph{vs.} ~H\_a:
+  \textbar{}{x}=9200.93\(.\)H\_0\(não é rejeitada.
+      \item\)H\_0: \emph{vs.} ~H\_a: \(.\)H\_0\(é rejeitada.
+      \item\)H\_0: \textbar{}{x}=9200.93 \emph{vs.} ~H\_a:
+  \textbar{}{x}\textgreater9200.93\(.\)H\_0\(é rejeitada.
+      \item\)H\_0: \emph{vs.} ~H\_a:
+  \textless9208\(.\)H\_0\(é rejeitada.
+      \item\)H\_0: \emph{vs.} ~H\_a:
+  \textless9208\(.\)H\_0\(não é rejeitada.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que o teste é unilateral para a média com variância conhecida. 
+  As hipóteses do teste são\)H\_0: ~\emph{vs.} ~H\_a: \textless{}
+  9208\(. 
+  Além disso, sabe-se que o nível de significância é dado por\)=P(rejeitar~
+  H\_0 \textbar{} H\_0 ~é~verdadeira)=
+  P(\textbar{}{X}\textless c\textbar)=P(Z\textless)=0.05\(.
+
+  Portanto,\)=-1.64 c=9199.36\(. 
+
+  Daí, como\)\textbar{}{x} =\(\)9200.93 \textgreater{} 9199.36, não se
+  rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma médica que trabalha com crianças carentes no Sol Nascente,
+  suspeita que uma determinada bactéria está causando infecção nos
+  pequenos. O valor mínimo da concentração de leucócitos no sangue, para
+  ser considerado normal, é de \(4998\) mcL. Sabe-se, de pesquisas
+  passadas, que a variância para este tipo de medida é igual a \(2000\)
+  mcL\(^2\). Para testar se as crianças estão realmente sendo infectadas
+  pela bactéria, \(32\) delas tiveram seu sangue examinado, uma média
+  amostral de \(4987.4\). As hipóteses do teste e a conclusão a um nível
+  de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \geq4998\; \emph{vs. } \ H_a: \mu<4998\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=4987.4\; \emph{vs. } \ H_a: \bar{x}>4987.4\). \(H_0\)
+    é rejeitada.
+  \item
+    \(H_0: \mu=4998\; \emph{vs. } \ H_a: \mu \neq 4998\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=4998\; \emph{vs. } \ H_a: \bar{x}=4987.4\). \(H_0\)
+    não é rejeitada.
+  \item
+    \(H_0: \mu \geq4998\; \emph{vs. } \ H_a: \mu<4998\). \(H_0\) é
+    rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu\geq4998 \ \emph{vs.} \ H_a: \mu < 4998\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=4998)=P\left(Z<\frac{c-4998}{\sqrt{2000/32}}\right)=0.05\).
+
+  Portanto,
+  \(\frac{c-4998}{\sqrt{2000/32}}=-1.64 \Rightarrow c=4985.03\).
+
+  Daí, como \(\bar{x} =\) \(4987.4 > 4985.03, não se rejeita\)H\_0\(.
+
+    \begin{enumerate}[(a)]
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Uma médica que trabalha com crianças carentes no Sol Nascente, suspeita que uma determinada bactéria está causando infecção nos pequenos. O valor mínimo da concentração de leucócitos no sangue, para ser considerado normal, é de\)6126\(mcL. Sabe-se, de pesquisas passadas, que a variância para este tipo de medida é igual a\)1000\(mcL\)\^{}2\(. Para testar se as crianças estão realmente sendo infectadas pela bactéria,\)43\(delas tiveram seu sangue examinado, uma média amostral de\)6119.82\(. As hipóteses do teste e a conclusão a um nível de significância de\)5\%\(são:
+
+
+    \begin{enumerate}[(a)]
+      \item\)H\_0: \textbar{}{x}=6126 \emph{vs.} ~H\_a:
+  \textbar{}{x}=6119.82\(.\)H\_0\(não é rejeitada.
+      \item\)H\_0: \emph{vs.} ~H\_a: \(.\)H\_0\(é rejeitada.
+      \item\)H\_0: \emph{vs.} ~H\_a:
+  \textless6126\(.\)H\_0\(não é rejeitada.
+      \item\)H\_0: \emph{vs.} ~H\_a:
+  \textless6126\(.\)H\_0\(é rejeitada.
+      \item\)H\_0: \textbar{}{x}=6119.82 \emph{vs.} ~H\_a:
+  \textbar{}{x}\textgreater6119.82\(.\)H\_0\(é rejeitada.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que o teste é unilateral para a média com variância conhecida. 
+  As hipóteses do teste são\)H\_0: ~\emph{vs.} ~H\_a: \textless{}
+  6126\(. 
+  Além disso, sabe-se que o nível de significância é dado por\)=P(rejeitar~
+  H\_0 \textbar{} H\_0 ~é~verdadeira)=
+  P(\textbar{}{X}\textless c\textbar)=P(Z\textless)=0.05\(.
+
+  Portanto,\)=-1.64 c=6118.09\(. 
+
+  Daí, como\)\textbar{}{x} =\(\)6119.82 \textgreater{} 6118.09, não se
+  rejeita \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma médica que trabalha com crianças carentes no Sol Nascente,
+  suspeita que uma determinada bactéria está causando infecção nos
+  pequenos. O valor mínimo da concentração de leucócitos no sangue, para
+  ser considerado normal, é de \(5861\) mcL. Sabe-se, de pesquisas
+  passadas, que a variância para este tipo de medida é igual a \(1000\)
+  mcL\(^2\). Para testar se as crianças estão realmente sendo infectadas
+  pela bactéria, \(41\) delas tiveram seu sangue examinado, uma média
+  amostral de \(5854.38\). As hipóteses do teste e a conclusão a um
+  nível de significância de \(5\%\) são:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(H_0: \mu \geq5861\; \emph{vs. } \ H_a: \mu<5861\). \(H_0\) não é
+    rejeitada.
+  \item
+    \(H_0: \mu=5861\; \emph{vs. } \ H_a: \mu \neq 5861\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=5854.38\; \emph{vs. } \ H_a: \bar{x}>5854.38\).
+    \(H_0\) é rejeitada.
+  \item
+    \(H_0: \mu \geq5861\; \emph{vs. } \ H_a: \mu<5861\). \(H_0\) é
+    rejeitada.
+  \item
+    \(H_0: \bar{x}=5861\; \emph{vs. } \ H_a: \bar{x}=5854.38\). \(H_0\)
+    não é rejeitada.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a média
+  com variância conhecida. As hipóteses do teste são
+  \(H_0: \mu\geq5861 \ \emph{vs.} \ H_a: \mu < 5861\). Além disso,
+  sabe-se que o nível de significância é dado por
+
+  \(\alpha=P(\mbox{rejeitar } H_0 | H_0 \mbox{ é verdadeira})=
+  P(\bar{X}<c|\mu=5861)=P\left(Z<\frac{c-5861}{\sqrt{1000/41}}\right)=0.05\).
+
+  Portanto,
+  \(\frac{c-5861}{\sqrt{1000/41}}=-1.64 \Rightarrow c=5852.9\).
+
+  Daí, como \(\bar{x} =\) \(5854.38 > 5852.9, não se rejeita\)H\_0\(.
+
+    \begin{enumerate}[(a)]
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Uma médica que trabalha com crianças carentes no Sol Nascente, suspeita que uma determinada bactéria está causando infecção nos pequenos. O valor mínimo da concentração de leucócitos no sangue, para ser considerado normal, é de\)9432\(mcL. Sabe-se, de pesquisas passadas, que a variância para este tipo de medida é igual a\)1000\(mcL\)\^{}2\(. Para testar se as crianças estão realmente sendo infectadas pela bactéria,\)34\(delas tiveram seu sangue examinado, uma média amostral de\)9419.38\(. As hipóteses do teste e a conclusão a um nível de significância de\)5\%\(são:
+
+
+    \begin{enumerate}[(a)]
+      \item\)H\_0: \textbar{}{x}=9432 \emph{vs.} ~H\_a:
+  \textbar{}{x}=9419.38\(.\)H\_0\(não é rejeitada.
+      \item\)H\_0: \emph{vs.} ~H\_a: \(.\)H\_0\(é rejeitada.
+      \item\)H\_0: \textbar{}{x}=9419.38 \emph{vs.} ~H\_a:
+  \textbar{}{x}\textgreater9419.38\(.\)H\_0\(é rejeitada.
+      \item\)H\_0: \emph{vs.} ~H\_a:
+  \textless9432\(.\)H\_0\(é rejeitada.
+      \item\)H\_0: \emph{vs.} ~H\_a:
+  \textless9432\(.\)H\_0\(não é rejeitada.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que o teste é unilateral para a média com variância conhecida. 
+  As hipóteses do teste são\)H\_0: ~\emph{vs.} ~H\_a: \textless{}
+  9432\(. 
+  Além disso, sabe-se que o nível de significância é dado por\)=P(rejeitar~
+  H\_0 \textbar{} H\_0 ~é~verdadeira)=
+  P(\textbar{}{X}\textless c\textbar)=P(Z\textless)=0.05\(.
+
+  Portanto,\)=-1.64 c=9423.11\(. 
+
+  Daí, como\)\textbar{}{x} =\(\)9419.38 \textless{} 9423.11, rejeita-se
+  \(H_0\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,501 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(86.3\%\) dos alunos que se empenham no curso de
+  Probabilidade e Estatística (i.e. participam das aulas ativamente e
+  resolvem as listas de exercício) são aprovados na disciplina. Entre os
+  que não se empenham, a probabilidade de aprovação é de \(24.5\%\).
+  Dados históricos apontam que \(44.2\%\) dos alunos se empenham no
+  curso. Qual a probabilidade de um aluno reprovado na disciplina ter se
+  dedicado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.126\)
+  \item
+    \(0.482\)
+  \item
+    \(0.381\)
+  \item
+    \(0.137\)
+  \item
+    \(0.061\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O aluno foi reprovado''}\\
+  \text{D} &=& \text{ ``O aluno se dedicou''}\\
+  \text{N} &=& \text{ ``O aluno não se dedicou''}
+  \end{aligned}\] Pelo teorema de bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(D|R) &=& \dfrac{P(R|D)P(D)}{P(R|D)P(D)+P(R|N)P(N)}\\
+  &=& \dfrac{0.137\times0.442}
+  {0.137\times0.442+0.755\times0.558}\\
+  &=& 0.126.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(88.5\%\) dos alunos que se empenham no curso de
+  Probabilidade e Estatística (i.e. participam das aulas ativamente e
+  resolvem as listas de exercício) são aprovados na disciplina. Entre os
+  que não se empenham, a probabilidade de aprovação é de \(27.1\%\).
+  Dados históricos apontam que \(53.4\%\) dos alunos se empenham no
+  curso. Qual a probabilidade de um aluno reprovado na disciplina ter se
+  dedicado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.115\)
+  \item
+    \(0.401\)
+  \item
+    \(0.153\)
+  \item
+    \(0.061\)
+  \item
+    \(0.473\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O aluno foi reprovado''}\\
+  \text{D} &=& \text{ ``O aluno se dedicou''}\\
+  \text{N} &=& \text{ ``O aluno não se dedicou''}
+  \end{aligned}\] Pelo teorema de bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(D|R) &=& \dfrac{P(R|D)P(D)}{P(R|D)P(D)+P(R|N)P(N)}\\
+  &=& \dfrac{0.115\times0.534}
+  {0.115\times0.534+0.729\times0.466}\\
+  &=& 0.153.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(87.8\%\) dos alunos que se empenham no curso de
+  Probabilidade e Estatística (i.e. participam das aulas ativamente e
+  resolvem as listas de exercício) são aprovados na disciplina. Entre os
+  que não se empenham, a probabilidade de aprovação é de \(26.6\%\).
+  Dados históricos apontam que \(58.9\%\) dos alunos se empenham no
+  curso. Qual a probabilidade de um aluno reprovado na disciplina ter se
+  dedicado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.374\)
+  \item
+    \(0.517\)
+  \item
+    \(0.192\)
+  \item
+    \(0.072\)
+  \item
+    \(0.122\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O aluno foi reprovado''}\\
+  \text{D} &=& \text{ ``O aluno se dedicou''}\\
+  \text{N} &=& \text{ ``O aluno não se dedicou''}
+  \end{aligned}\] Pelo teorema de bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(D|R) &=& \dfrac{P(R|D)P(D)}{P(R|D)P(D)+P(R|N)P(N)}\\
+  &=& \dfrac{0.122\times0.589}
+  {0.122\times0.589+0.734\times0.411}\\
+  &=& 0.192.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(89.9\%\) dos alunos que se empenham no curso de
+  Probabilidade e Estatística (i.e. participam das aulas ativamente e
+  resolvem as listas de exercício) são aprovados na disciplina. Entre os
+  que não se empenham, a probabilidade de aprovação é de \(31\%\). Dados
+  históricos apontam que \(40.2\%\) dos alunos se empenham no curso.
+  Qual a probabilidade de um aluno reprovado na disciplina ter se
+  dedicado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.090\)
+  \item
+    \(0.101\)
+  \item
+    \(0.453\)
+  \item
+    \(0.041\)
+  \item
+    \(0.361\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O aluno foi reprovado''}\\
+  \text{D} &=& \text{ ``O aluno se dedicou''}\\
+  \text{N} &=& \text{ ``O aluno não se dedicou''}
+  \end{aligned}\] Pelo teorema de bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(D|R) &=& \dfrac{P(R|D)P(D)}{P(R|D)P(D)+P(R|N)P(N)}\\
+  &=& \dfrac{0.101\times0.402}
+  {0.101\times0.402+0.69\times0.598}\\
+  &=& 0.09.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(86.4\%\) dos alunos que se empenham no curso de
+  Probabilidade e Estatística (i.e. participam das aulas ativamente e
+  resolvem as listas de exercício) são aprovados na disciplina. Entre os
+  que não se empenham, a probabilidade de aprovação é de \(22.2\%\).
+  Dados históricos apontam que \(52.4\%\) dos alunos se empenham no
+  curso. Qual a probabilidade de um aluno reprovado na disciplina ter se
+  dedicado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.442\)
+  \item
+    \(0.453\)
+  \item
+    \(0.136\)
+  \item
+    \(0.161\)
+  \item
+    \(0.071\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O aluno foi reprovado''}\\
+  \text{D} &=& \text{ ``O aluno se dedicou''}\\
+  \text{N} &=& \text{ ``O aluno não se dedicou''}
+  \end{aligned}\] Pelo teorema de bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(D|R) &=& \dfrac{P(R|D)P(D)}{P(R|D)P(D)+P(R|N)P(N)}\\
+  &=& \dfrac{0.136\times0.524}
+  {0.136\times0.524+0.778\times0.476}\\
+  &=& 0.161.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(89.4\%\) dos alunos que se empenham no curso de
+  Probabilidade e Estatística (i.e. participam das aulas ativamente e
+  resolvem as listas de exercício) são aprovados na disciplina. Entre os
+  que não se empenham, a probabilidade de aprovação é de \(30.3\%\).
+  Dados históricos apontam que \(59.3\%\) dos alunos se empenham no
+  curso. Qual a probabilidade de um aluno reprovado na disciplina ter se
+  dedicado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.347\)
+  \item
+    \(0.106\)
+  \item
+    \(0.063\)
+  \item
+    \(0.530\)
+  \item
+    \(0.181\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O aluno foi reprovado''}\\
+  \text{D} &=& \text{ ``O aluno se dedicou''}\\
+  \text{N} &=& \text{ ``O aluno não se dedicou''}
+  \end{aligned}\] Pelo teorema de bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(D|R) &=& \dfrac{P(R|D)P(D)}{P(R|D)P(D)+P(R|N)P(N)}\\
+  &=& \dfrac{0.106\times0.593}
+  {0.106\times0.593+0.697\times0.407}\\
+  &=& 0.181.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(87\%\) dos alunos que se empenham no curso de
+  Probabilidade e Estatística (i.e. participam das aulas ativamente e
+  resolvem as listas de exercício) são aprovados na disciplina. Entre os
+  que não se empenham, a probabilidade de aprovação é de \(25.7\%\).
+  Dados históricos apontam que \(54.8\%\) dos alunos se empenham no
+  curso. Qual a probabilidade de um aluno reprovado na disciplina ter se
+  dedicado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.407\)
+  \item
+    \(0.130\)
+  \item
+    \(0.477\)
+  \item
+    \(0.175\)
+  \item
+    \(0.071\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O aluno foi reprovado''}\\
+  \text{D} &=& \text{ ``O aluno se dedicou''}\\
+  \text{N} &=& \text{ ``O aluno não se dedicou''}
+  \end{aligned}\] Pelo teorema de bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(D|R) &=& \dfrac{P(R|D)P(D)}{P(R|D)P(D)+P(R|N)P(N)}\\
+  &=& \dfrac{0.13\times0.548}
+  {0.13\times0.548+0.743\times0.452}\\
+  &=& 0.175.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(86.7\%\) dos alunos que se empenham no curso de
+  Probabilidade e Estatística (i.e. participam das aulas ativamente e
+  resolvem as listas de exercício) são aprovados na disciplina. Entre os
+  que não se empenham, a probabilidade de aprovação é de \(24.5\%\).
+  Dados históricos apontam que \(54.3\%\) dos alunos se empenham no
+  curso. Qual a probabilidade de um aluno reprovado na disciplina ter se
+  dedicado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.133\)
+  \item
+    \(0.471\)
+  \item
+    \(0.173\)
+  \item
+    \(0.417\)
+  \item
+    \(0.072\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O aluno foi reprovado''}\\
+  \text{D} &=& \text{ ``O aluno se dedicou''}\\
+  \text{N} &=& \text{ ``O aluno não se dedicou''}
+  \end{aligned}\] Pelo teorema de bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(D|R) &=& \dfrac{P(R|D)P(D)}{P(R|D)P(D)+P(R|N)P(N)}\\
+  &=& \dfrac{0.133\times0.543}
+  {0.133\times0.543+0.755\times0.457}\\
+  &=& 0.173.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(88.7\%\) dos alunos que se empenham no curso de
+  Probabilidade e Estatística (i.e. participam das aulas ativamente e
+  resolvem as listas de exercício) são aprovados na disciplina. Entre os
+  que não se empenham, a probabilidade de aprovação é de \(28\%\). Dados
+  históricos apontam que \(43\%\) dos alunos se empenham no curso. Qual
+  a probabilidade de um aluno reprovado na disciplina ter se dedicado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.459\)
+  \item
+    \(0.381\)
+  \item
+    \(0.113\)
+  \item
+    \(0.106\)
+  \item
+    \(0.049\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O aluno foi reprovado''}\\
+  \text{D} &=& \text{ ``O aluno se dedicou''}\\
+  \text{N} &=& \text{ ``O aluno não se dedicou''}
+  \end{aligned}\] Pelo teorema de bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(D|R) &=& \dfrac{P(R|D)P(D)}{P(R|D)P(D)+P(R|N)P(N)}\\
+  &=& \dfrac{0.113\times0.43}
+  {0.113\times0.43+0.72\times0.57}\\
+  &=& 0.106.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que \(86.7\%\) dos alunos que se empenham no curso de
+  Probabilidade e Estatística (i.e. participam das aulas ativamente e
+  resolvem as listas de exercício) são aprovados na disciplina. Entre os
+  que não se empenham, a probabilidade de aprovação é de \(33.5\%\).
+  Dados históricos apontam que \(43.7\%\) dos alunos se empenham no
+  curso. Qual a probabilidade de um aluno reprovado na disciplina ter se
+  dedicado?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.133\)
+  \item
+    \(0.379\)
+  \item
+    \(0.433\)
+  \item
+    \(0.134\)
+  \item
+    \(0.058\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{R} &=& \text{ ``O aluno foi reprovado''}\\
+  \text{D} &=& \text{ ``O aluno se dedicou''}\\
+  \text{N} &=& \text{ ``O aluno não se dedicou''}
+  \end{aligned}\] Pelo teorema de bayes, a probabilidade desejada é dada
+  por \[\begin{aligned}
+  P(D|R) &=& \dfrac{P(R|D)P(D)}{P(R|D)P(D)+P(R|N)P(N)}\\
+  &=& \dfrac{0.133\times0.437}
+  {0.133\times0.437+0.665\times0.563}\\
+  &=& 0.134.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

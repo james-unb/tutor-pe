@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A função de probabilidade conjunta de duas variáveis aleatórias
+  discretas \(X\) e \(Y\) é dada por \(p(x,y)=(x+2y)/48\), onde \(x\) e
+  \(y\) podem assumir valores inteiros tal que \(0\leq x\leq 2\),
+  \(0\leq y\leq 3\), e \(p(x, y)=0\) em outro caso. Encontre
+  \(\mathbb{P}(X\geq 1|Y\leq 1).\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(0.833\)
+  \item
+    \(0.208\)
+  \item
+    \(0.125\)
+  \item
+    \(0.063\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Veja que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\) e que
+  \[\mathbb{P}(X\geq 1|Y\leq 1) = 
+  \frac{\mathbb{P}(X\geq 1, Y\leq 1)}{P(Y\leq 1)}=
+  \frac{\sum_{x=1}^{2} \sum_{y=0}^{1}p(x,y)}{\sum_{y=0}^{1}\mathbb{P}(Y=y)}
+  =\frac{0.2083}{0.25}
+  = 0.833.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A função de probabilidade conjunta de duas variáveis aleatórias
+  discretas \(X\) e \(Y\) é dada por \(p(x,y)=(x+2y)/48\), onde \(x\) e
+  \(y\) podem assumir valores inteiros tal que \(0\leq x\leq 2\),
+  \(0\leq y\leq 3\), e \(p(x, y)=0\) em outro caso. Encontre
+  \(\mathbb{P}(X\geq 1|Y\leq 2).\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.778\)
+  \item
+    \(0.104\)
+  \item
+    \(0.438\)
+  \item
+    \(0.250\)
+  \item
+    \(0.563\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Veja que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\) e que
+  \[\mathbb{P}(X\geq 1|Y\leq 2) = 
+  \frac{\mathbb{P}(X\geq 1, Y\leq 2)}{P(Y\leq 2)}=
+  \frac{\sum_{x=1}^{2} \sum_{y=0}^{2}p(x,y)}{\sum_{y=0}^{2}\mathbb{P}(Y=y)}
+  =\frac{0.4375}{0.5625}
+  = 0.778.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A função de probabilidade conjunta de duas variáveis aleatórias
+  discretas \(X\) e \(Y\) é dada por \(p(x,y)=(x+2y)/48\), onde \(x\) e
+  \(y\) podem assumir valores inteiros tal que \(0\leq x\leq 2\),
+  \(0\leq y\leq 3\), e \(p(x, y)=0\) em outro caso. Encontre
+  \(\mathbb{P}(X\geq 1|Y\leq 2).\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.104\)
+  \item
+    \(0.563\)
+  \item
+    \(0.778\)
+  \item
+    \(0.438\)
+  \item
+    \(0.250\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Veja que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\) e que
+  \[\mathbb{P}(X\geq 1|Y\leq 2) = 
+  \frac{\mathbb{P}(X\geq 1, Y\leq 2)}{P(Y\leq 2)}=
+  \frac{\sum_{x=1}^{2} \sum_{y=0}^{2}p(x,y)}{\sum_{y=0}^{2}\mathbb{P}(Y=y)}
+  =\frac{0.4375}{0.5625}
+  = 0.778.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A função de probabilidade conjunta de duas variáveis aleatórias
+  discretas \(X\) e \(Y\) é dada por \(p(x,y)=(2x+y)/42\), onde \(x\) e
+  \(y\) podem assumir valores inteiros tal que \(0\leq x\leq 2\),
+  \(0\leq y\leq 3\), e \(p(x, y)=0\) em outro caso. Encontre
+  \(\mathbb{P}(X\geq 1|Y\leq 2).\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.357\)
+  \item
+    \(0.571\)
+  \item
+    \(0.889\)
+  \item
+    \(0.095\)
+  \item
+    \(0.643\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Veja que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\) e que
+  \[\mathbb{P}(X\geq 1|Y\leq 2) = 
+  \frac{\mathbb{P}(X\geq 1, Y\leq 2)}{P(Y\leq 2)}=
+  \frac{\sum_{x=1}^{2} \sum_{y=0}^{2}p(x,y)}{\sum_{y=0}^{2}\mathbb{P}(Y=y)}
+  =\frac{0.5714}{0.6429}
+  = 0.889.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A função de probabilidade conjunta de duas variáveis aleatórias
+  discretas \(X\) e \(Y\) é dada por \(p(x,y)=(x+2y)/48\), onde \(x\) e
+  \(y\) podem assumir valores inteiros tal que \(0\leq x\leq 2\),
+  \(0\leq y\leq 3\), e \(p(x, y)=0\) em outro caso. Encontre
+  \(\mathbb{P}(X\geq 1|Y\leq 2).\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.104\)
+  \item
+    \(0.563\)
+  \item
+    \(0.250\)
+  \item
+    \(0.438\)
+  \item
+    \(0.778\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Veja que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\) e que
+  \[\mathbb{P}(X\geq 1|Y\leq 2) = 
+  \frac{\mathbb{P}(X\geq 1, Y\leq 2)}{P(Y\leq 2)}=
+  \frac{\sum_{x=1}^{2} \sum_{y=0}^{2}p(x,y)}{\sum_{y=0}^{2}\mathbb{P}(Y=y)}
+  =\frac{0.4375}{0.5625}
+  = 0.778.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A função de probabilidade conjunta de duas variáveis aleatórias
+  discretas \(X\) e \(Y\) é dada por \(p(x,y)=(x+2y)/48\), onde \(x\) e
+  \(y\) podem assumir valores inteiros tal que \(0\leq x\leq 2\),
+  \(0\leq y\leq 3\), e \(p(x, y)=0\) em outro caso. Encontre
+  \(\mathbb{P}(X\geq 1|Y\leq 2).\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(0.104\)
+  \item
+    \(0.563\)
+  \item
+    \(0.438\)
+  \item
+    \(0.778\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Veja que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\) e que
+  \[\mathbb{P}(X\geq 1|Y\leq 2) = 
+  \frac{\mathbb{P}(X\geq 1, Y\leq 2)}{P(Y\leq 2)}=
+  \frac{\sum_{x=1}^{2} \sum_{y=0}^{2}p(x,y)}{\sum_{y=0}^{2}\mathbb{P}(Y=y)}
+  =\frac{0.4375}{0.5625}
+  = 0.778.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A função de probabilidade conjunta de duas variáveis aleatórias
+  discretas \(X\) e \(Y\) é dada por \(p(x,y)=(x+2y)/48\), onde \(x\) e
+  \(y\) podem assumir valores inteiros tal que \(0\leq x\leq 2\),
+  \(0\leq y\leq 3\), e \(p(x, y)=0\) em outro caso. Encontre
+  \(\mathbb{P}(X\geq 1|Y\leq 1).\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.208\)
+  \item
+    \(0.833\)
+  \item
+    \(0.063\)
+  \item
+    \(0.125\)
+  \item
+    \(0.250\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Veja que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\) e que
+  \[\mathbb{P}(X\geq 1|Y\leq 1) = 
+  \frac{\mathbb{P}(X\geq 1, Y\leq 1)}{P(Y\leq 1)}=
+  \frac{\sum_{x=1}^{2} \sum_{y=0}^{1}p(x,y)}{\sum_{y=0}^{1}\mathbb{P}(Y=y)}
+  =\frac{0.2083}{0.25}
+  = 0.833.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A função de probabilidade conjunta de duas variáveis aleatórias
+  discretas \(X\) e \(Y\) é dada por \(p(x,y)=(x+2y)/48\), onde \(x\) e
+  \(y\) podem assumir valores inteiros tal que \(0\leq x\leq 2\),
+  \(0\leq y\leq 3\), e \(p(x, y)=0\) em outro caso. Encontre
+  \(\mathbb{P}(X\geq 1|Y\leq 1).\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.063\)
+  \item
+    \(0.208\)
+  \item
+    \(0.250\)
+  \item
+    \(0.125\)
+  \item
+    \(0.833\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Veja que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\) e que
+  \[\mathbb{P}(X\geq 1|Y\leq 1) = 
+  \frac{\mathbb{P}(X\geq 1, Y\leq 1)}{P(Y\leq 1)}=
+  \frac{\sum_{x=1}^{2} \sum_{y=0}^{1}p(x,y)}{\sum_{y=0}^{1}\mathbb{P}(Y=y)}
+  =\frac{0.2083}{0.25}
+  = 0.833.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A função de probabilidade conjunta de duas variáveis aleatórias
+  discretas \(X\) e \(Y\) é dada por \(p(x,y)=(2x+y)/42\), onde \(x\) e
+  \(y\) podem assumir valores inteiros tal que \(0\leq x\leq 2\),
+  \(0\leq y\leq 3\), e \(p(x, y)=0\) em outro caso. Encontre
+  \(\mathbb{P}(X\geq 1|Y\leq 2).\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.571\)
+  \item
+    \(0.643\)
+  \item
+    \(0.357\)
+  \item
+    \(0.889\)
+  \item
+    \(0.095\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Veja que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\) e que
+  \[\mathbb{P}(X\geq 1|Y\leq 2) = 
+  \frac{\mathbb{P}(X\geq 1, Y\leq 2)}{P(Y\leq 2)}=
+  \frac{\sum_{x=1}^{2} \sum_{y=0}^{2}p(x,y)}{\sum_{y=0}^{2}\mathbb{P}(Y=y)}
+  =\frac{0.5714}{0.6429}
+  = 0.889.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A função de probabilidade conjunta de duas variáveis aleatórias
+  discretas \(X\) e \(Y\) é dada por \(p(x,y)=(x+2y)/48\), onde \(x\) e
+  \(y\) podem assumir valores inteiros tal que \(0\leq x\leq 2\),
+  \(0\leq y\leq 3\), e \(p(x, y)=0\) em outro caso. Encontre
+  \(\mathbb{P}(X\geq 1|Y\leq 2).\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.438\)
+  \item
+    \(0.563\)
+  \item
+    \(0.778\)
+  \item
+    \(0.104\)
+  \item
+    \(0.250\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Veja que \(\mathbb{P}(Y=y)=\sum_{x} p(x,y)\) e que
+  \[\mathbb{P}(X\geq 1|Y\leq 2) = 
+  \frac{\mathbb{P}(X\geq 1, Y\leq 2)}{P(Y\leq 2)}=
+  \frac{\sum_{x=1}^{2} \sum_{y=0}^{2}p(x,y)}{\sum_{y=0}^{2}\mathbb{P}(Y=y)}
+  =\frac{0.4375}{0.5625}
+  = 0.778.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

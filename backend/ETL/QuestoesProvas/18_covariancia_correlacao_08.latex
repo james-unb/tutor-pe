@@ -1,0 +1,902 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma das maiores redes de varejo dos Estados Unidos fez um experimento
+  para descobrir se a venda de fraldas descartáveis estava associada à
+  de cervejas. Em geral, os compradores eram homens, que saíam à noite
+  para comprar fraldas e aproveitavam para levar algumas latinhas para
+  casa. Os produtos foram postos lado a lado. Seja \(X\) o número de
+  latinhas de cerveja e \(Y\) a quantidade de pacotes de fraldas
+  descartáveis comprados. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.11 & 0.08 & 0.07 \\
+  4 & 0.21 & 0.02 & 0.13 \\
+  5 & 0.09 & 0.25 & 0.04 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-8.386\)
+  \item
+    \(-0.001\)
+  \item
+    \(0.998\)
+  \item
+    \(2.770\)
+  \item
+    \(-0.002\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.11 & 0.08 & 0.07 & 0.26 \\
+  4 & 0.21 & 0.02 & 0.13 & 0.36 \\
+  5 & 0.09 & 0.25 & 0.04 & 0.38 \\
+  P(Y=y) & 0.41 & 0.35 & 0.24 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  E(X) &=& 0\times0.26+4\times0.36+5\times0.38 = 3.34\\
+  E(Y) &=& 0\times0.41+1\times0.35+2\times0.24 = 0.83
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 4 & 5 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.56 & 0.02 & 0.25 & 0.13 & 0.04 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.56+4\times0.02+5\times0.25+8\times0.13+10\times0.04 = 2.77\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.002.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma das maiores redes de varejo dos Estados Unidos fez um experimento
+  para descobrir se a venda de fraldas descartáveis estava associada à
+  de cervejas. Em geral, os compradores eram homens, que saíam à noite
+  para comprar fraldas e aproveitavam para levar algumas latinhas para
+  casa. Os produtos foram postos lado a lado. Seja \(X\) o número de
+  latinhas de cerveja e \(Y\) a quantidade de pacotes de fraldas
+  descartáveis comprados. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.22 & 0 & 0.02 \\
+  4 & 0.36 & 0.03 & 0.03 \\
+  5 & 0.07 & 0.01 & 0.26 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.221\)
+  \item
+    \(0.390\)
+  \item
+    \(-8.414\)
+  \item
+    \(0.779\)
+  \item
+    \(3.010\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.22 & 0 & 0.02 & 0.24 \\
+  4 & 0.36 & 0.03 & 0.03 & 0.42 \\
+  5 & 0.07 & 0.01 & 0.26 & 0.34 \\
+  P(Y=y) & 0.65 & 0.04 & 0.31 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  E(X) &=& 0\times0.24+4\times0.42+5\times0.34 = 3.38\\
+  E(Y) &=& 0\times0.65+1\times0.04+2\times0.31 = 0.66
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 4 & 5 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.67 & 0.03 & 0.01 & 0.03 & 0.26 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.67+4\times0.03+5\times0.01+8\times0.03+10\times0.26 = 3.01\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.779.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma das maiores redes de varejo dos Estados Unidos fez um experimento
+  para descobrir se a venda de fraldas descartáveis estava associada à
+  de cervejas. Em geral, os compradores eram homens, que saíam à noite
+  para comprar fraldas e aproveitavam para levar algumas latinhas para
+  casa. Os produtos foram postos lado a lado. Seja \(X\) o número de
+  latinhas de cerveja e \(Y\) a quantidade de pacotes de fraldas
+  descartáveis comprados. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.09 & 0.06 & 0.06 \\
+  4 & 0.06 & 0.01 & 0.05 \\
+  5 & 0.31 & 0.12 & 0.24 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-11.229\)
+  \item
+    \(0.031\)
+  \item
+    \(3.440\)
+  \item
+    \(0.969\)
+  \item
+    \(0.016\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.09 & 0.06 & 0.06 & 0.21 \\
+  4 & 0.06 & 0.01 & 0.05 & 0.12 \\
+  5 & 0.31 & 0.12 & 0.24 & 0.67 \\
+  P(Y=y) & 0.46 & 0.19 & 0.35 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  E(X) &=& 0\times0.21+4\times0.12+5\times0.67 = 3.83\\
+  E(Y) &=& 0\times0.46+1\times0.19+2\times0.35 = 0.89
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 4 & 5 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.58 & 0.01 & 0.12 & 0.05 & 0.24 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.58+4\times0.01+5\times0.12+8\times0.05+10\times0.24 = 3.44\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.031.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma das maiores redes de varejo dos Estados Unidos fez um experimento
+  para descobrir se a venda de fraldas descartáveis estava associada à
+  de cervejas. Em geral, os compradores eram homens, que saíam à noite
+  para comprar fraldas e aproveitavam para levar algumas latinhas para
+  casa. Os produtos foram postos lado a lado. Seja \(X\) o número de
+  latinhas de cerveja e \(Y\) a quantidade de pacotes de fraldas
+  descartáveis comprados. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0 & 0.03 & 0.18 \\
+  4 & 0.17 & 0 & 0.01 \\
+  5 & 0.21 & 0.25 & 0.15 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-11.383\)
+  \item
+    \(-0.395\)
+  \item
+    \(2.830\)
+  \item
+    \(-0.789\)
+  \item
+    \(0.211\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0 & 0.03 & 0.18 & 0.21 \\
+  4 & 0.17 & 0 & 0.01 & 0.18 \\
+  5 & 0.21 & 0.25 & 0.15 & 0.61 \\
+  P(Y=y) & 0.38 & 0.28 & 0.34 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  E(X) &=& 0\times0.21+4\times0.18+5\times0.61 = 3.77\\
+  E(Y) &=& 0\times0.38+1\times0.28+2\times0.34 = 0.96
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 4 & 5 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.59 & 0 & 0.25 & 0.01 & 0.15 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.59+4\times0+5\times0.25+8\times0.01+10\times0.15 = 2.83\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.789.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma das maiores redes de varejo dos Estados Unidos fez um experimento
+  para descobrir se a venda de fraldas descartáveis estava associada à
+  de cervejas. Em geral, os compradores eram homens, que saíam à noite
+  para comprar fraldas e aproveitavam para levar algumas latinhas para
+  casa. Os produtos foram postos lado a lado. Seja \(X\) o número de
+  latinhas de cerveja e \(Y\) a quantidade de pacotes de fraldas
+  descartáveis comprados. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0 & 0.13 & 0.08 \\
+  4 & 0.01 & 0.07 & 0.23 \\
+  5 & 0.05 & 0.29 & 0.14 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-8.280\)
+  \item
+    \(0.910\)
+  \item
+    \(4.970\)
+  \item
+    \(-0.045\)
+  \item
+    \(-0.090\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0 & 0.13 & 0.08 & 0.21 \\
+  4 & 0.01 & 0.07 & 0.23 & 0.31 \\
+  5 & 0.05 & 0.29 & 0.14 & 0.48 \\
+  P(Y=y) & 0.06 & 0.49 & 0.45 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  E(X) &=& 0\times0.21+4\times0.31+5\times0.48 = 3.64\\
+  E(Y) &=& 0\times0.06+1\times0.49+2\times0.45 = 1.39
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 4 & 5 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.27 & 0.07 & 0.29 & 0.23 & 0.14 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.27+4\times0.07+5\times0.29+8\times0.23+10\times0.14 = 4.97\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.09.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma das maiores redes de varejo dos Estados Unidos fez um experimento
+  para descobrir se a venda de fraldas descartáveis estava associada à
+  de cervejas. Em geral, os compradores eram homens, que saíam à noite
+  para comprar fraldas e aproveitavam para levar algumas latinhas para
+  casa. Os produtos foram postos lado a lado. Seja \(X\) o número de
+  latinhas de cerveja e \(Y\) a quantidade de pacotes de fraldas
+  descartáveis comprados. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.04 & 0.17 & 0.01 \\
+  4 & 0.13 & 0.12 & 0.05 \\
+  5 & 0.33 & 0 & 0.15 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.088\)
+  \item
+    \(-0.176\)
+  \item
+    \(0.824\)
+  \item
+    \(2.380\)
+  \item
+    \(-10.580\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.04 & 0.17 & 0.01 & 0.22 \\
+  4 & 0.13 & 0.12 & 0.05 & 0.3 \\
+  5 & 0.33 & 0 & 0.15 & 0.48 \\
+  P(Y=y) & 0.5 & 0.29 & 0.21 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  E(X) &=& 0\times0.22+4\times0.3+5\times0.48 = 3.6\\
+  E(Y) &=& 0\times0.5+1\times0.29+2\times0.21 = 0.71
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 4 & 5 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.68 & 0.12 & 0 & 0.05 & 0.15 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.68+4\times0.12+5\times0+8\times0.05+10\times0.15 = 2.38\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.176.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma das maiores redes de varejo dos Estados Unidos fez um experimento
+  para descobrir se a venda de fraldas descartáveis estava associada à
+  de cervejas. Em geral, os compradores eram homens, que saíam à noite
+  para comprar fraldas e aproveitavam para levar algumas latinhas para
+  casa. Os produtos foram postos lado a lado. Seja \(X\) o número de
+  latinhas de cerveja e \(Y\) a quantidade de pacotes de fraldas
+  descartáveis comprados. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.25 & 0.01 & 0.14 \\
+  4 & 0.01 & 0.03 & 0.41 \\
+  5 & 0.02 & 0.1 & 0.03 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.443\)
+  \item
+    \(0.885\)
+  \item
+    \(-2.303\)
+  \item
+    \(4.200\)
+  \item
+    \(0.115\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.25 & 0.01 & 0.14 & 0.4 \\
+  4 & 0.01 & 0.03 & 0.41 & 0.45 \\
+  5 & 0.02 & 0.1 & 0.03 & 0.15 \\
+  P(Y=y) & 0.28 & 0.14 & 0.58 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  E(X) &=& 0\times0.4+4\times0.45+5\times0.15 = 2.55\\
+  E(Y) &=& 0\times0.28+1\times0.14+2\times0.58 = 1.3
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 4 & 5 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.43 & 0.03 & 0.1 & 0.41 & 0.03 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.43+4\times0.03+5\times0.1+8\times0.41+10\times0.03 = 4.2\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.885.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma das maiores redes de varejo dos Estados Unidos fez um experimento
+  para descobrir se a venda de fraldas descartáveis estava associada à
+  de cervejas. Em geral, os compradores eram homens, que saíam à noite
+  para comprar fraldas e aproveitavam para levar algumas latinhas para
+  casa. Os produtos foram postos lado a lado. Seja \(X\) o número de
+  latinhas de cerveja e \(Y\) a quantidade de pacotes de fraldas
+  descartáveis comprados. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.17 & 0.01 & 0.03 \\
+  4 & 0.01 & 0.02 & 0.3 \\
+  5 & 0.04 & 0.2 & 0.22 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-7.424\)
+  \item
+    \(5.680\)
+  \item
+    \(0.135\)
+  \item
+    \(0.433\)
+  \item
+    \(0.865\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.17 & 0.01 & 0.03 & 0.21 \\
+  4 & 0.01 & 0.02 & 0.3 & 0.33 \\
+  5 & 0.04 & 0.2 & 0.22 & 0.46 \\
+  P(Y=y) & 0.22 & 0.23 & 0.55 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  E(X) &=& 0\times0.21+4\times0.33+5\times0.46 = 3.62\\
+  E(Y) &=& 0\times0.22+1\times0.23+2\times0.55 = 1.33
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 4 & 5 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.26 & 0.02 & 0.2 & 0.3 & 0.22 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.26+4\times0.02+5\times0.2+8\times0.3+10\times0.22 = 5.68\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = 0.865.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma das maiores redes de varejo dos Estados Unidos fez um experimento
+  para descobrir se a venda de fraldas descartáveis estava associada à
+  de cervejas. Em geral, os compradores eram homens, que saíam à noite
+  para comprar fraldas e aproveitavam para levar algumas latinhas para
+  casa. Os produtos foram postos lado a lado. Seja \(X\) o número de
+  latinhas de cerveja e \(Y\) a quantidade de pacotes de fraldas
+  descartáveis comprados. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.12 & 0.22 & 0.03 \\
+  4 & 0.07 & 0.07 & 0.12 \\
+  5 & 0.18 & 0.17 & 0.02 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(-0.022\)
+  \item
+    \(2.290\)
+  \item
+    \(0.978\)
+  \item
+    \(-6.062\)
+  \item
+    \(-0.011\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.12 & 0.22 & 0.03 & 0.37 \\
+  4 & 0.07 & 0.07 & 0.12 & 0.26 \\
+  5 & 0.18 & 0.17 & 0.02 & 0.37 \\
+  P(Y=y) & 0.37 & 0.46 & 0.17 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  E(X) &=& 0\times0.37+4\times0.26+5\times0.37 = 2.89\\
+  E(Y) &=& 0\times0.37+1\times0.46+2\times0.17 = 0.8
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 4 & 5 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.62 & 0.07 & 0.17 & 0.12 & 0.02 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.62+4\times0.07+5\times0.17+8\times0.12+10\times0.02 = 2.29\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.022.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma das maiores redes de varejo dos Estados Unidos fez um experimento
+  para descobrir se a venda de fraldas descartáveis estava associada à
+  de cervejas. Em geral, os compradores eram homens, que saíam à noite
+  para comprar fraldas e aproveitavam para levar algumas latinhas para
+  casa. Os produtos foram postos lado a lado. Seja \(X\) o número de
+  latinhas de cerveja e \(Y\) a quantidade de pacotes de fraldas
+  descartáveis comprados. A distribuição de probabilidades conjunta de
+  \(X\) e \(Y\) é dada por:
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.17 & 0.05 & 0.27 \\
+  4 & 0.1 & 0.19 & 0.1 \\
+  5 & 0.02 & 0.1 & 0 \\
+  \end{longtable}
+
+  Qual a covariância entre as variáveis \(X\) e \(Y\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.727\)
+  \item
+    \(-0.137\)
+  \item
+    \(2.060\)
+  \item
+    \(-2.606\)
+  \item
+    \(-0.273\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente devemos completar a tabela com as probabilidades
+  marginais de \(X\) e \(Y\):
+
+  \begin{longtable}[]{@{}ccccc@{}}
+  \toprule\noalign{}
+  X Y & 0 & 1 & 2 & P(X=x) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  0 & 0.17 & 0.05 & 0.27 & 0.49 \\
+  4 & 0.1 & 0.19 & 0.1 & 0.39 \\
+  5 & 0.02 & 0.1 & 0 & 0.12 \\
+  P(Y=y) & 0.29 & 0.34 & 0.37 & 1 \\
+  \end{longtable}
+
+  Em seguida, calculamos \[\begin{aligned}
+  E(X) &=& 0\times0.49+4\times0.39+5\times0.12 = 2.16\\
+  E(Y) &=& 0\times0.29+1\times0.34+2\times0.37 = 1.08
+  \end{aligned}\]
+
+  A distribuição do produto é dada por
+
+  \begin{longtable}[]{@{}cccccc@{}}
+  \toprule\noalign{}
+  k & 0 & 4 & 5 & 8 & 10 \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  P(XY = k) & 0.61 & 0.19 & 0.1 & 0.1 & 0 \\
+  \end{longtable}
+
+  De modo que
+  \[E(XY) = 0\times0.61+4\times0.19+5\times0.1+8\times0.1+10\times0 = 2.06\]
+  e, portanto, \[\text{Cov}(X,Y) = E(XY)-E(X)E(Y) = -0.273.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

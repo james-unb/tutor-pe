@@ -1,0 +1,412 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta na maratona é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média de
+  \(125\) minutos e desvio padrão de \(5\) minutos. Considerando que os
+  tempos são independentes entre si, se esse atleta participar de \(33\)
+  maratonas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(124\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4840\)
+  \item
+    \(0.0934\)
+  \item
+    \(0.1251\)
+  \item
+    \(0.5208\)
+  \item
+    \(0.4207\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 125\) e \(\sigma = \frac{5}{\sqrt{33}}\), temos que
+  \[P\left(\bar{X}<124\right) = P\left(\frac{\bar{X}-125}{5/\sqrt{33}}<\frac{124-125}{5/\sqrt{33}}\right) = P\left(Z<-1.15\right) = 0.1251.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta na maratona é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média de
+  \(133\) minutos e desvio padrão de \(7\) minutos. Considerando que os
+  tempos são independentes entre si, se esse atleta participar de \(27\)
+  maratonas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(132\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2296\)
+  \item
+    \(0.4432\)
+  \item
+    \(0.8810\)
+  \item
+    \(0.2908\)
+  \item
+    \(0.4919\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 133\) e \(\sigma = \frac{7}{\sqrt{27}}\), temos que
+  \[P\left(\bar{X}<132\right) = P\left(\frac{\bar{X}-133}{7/\sqrt{27}}<\frac{132-133}{7/\sqrt{27}}\right) = P\left(Z<-0.74\right) = 0.2296.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta na maratona é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média de
+  \(132\) minutos e desvio padrão de \(6\) minutos. Considerando que os
+  tempos são independentes entre si, se esse atleta participar de \(33\)
+  maratonas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(131\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4889\)
+  \item
+    \(0.4338\)
+  \item
+    \(0.1797\)
+  \item
+    \(0.1685\)
+  \item
+    \(0.9796\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 132\) e \(\sigma = \frac{6}{\sqrt{33}}\), temos que
+  \[P\left(\bar{X}<131\right) = P\left(\frac{\bar{X}-132}{6/\sqrt{33}}<\frac{131-132}{6/\sqrt{33}}\right) = P\left(Z<-0.96\right) = 0.1685.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta na maratona é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média de
+  \(126\) minutos e desvio padrão de \(6\) minutos. Considerando que os
+  tempos são independentes entre si, se esse atleta participar de \(33\)
+  maratonas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(125\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1685\)
+  \item
+    \(0.1797\)
+  \item
+    \(0.8659\)
+  \item
+    \(0.4338\)
+  \item
+    \(0.4889\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 126\) e \(\sigma = \frac{6}{\sqrt{33}}\), temos que
+  \[P\left(\bar{X}<125\right) = P\left(\frac{\bar{X}-126}{6/\sqrt{33}}<\frac{125-126}{6/\sqrt{33}}\right) = P\left(Z<-0.96\right) = 0.1685.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta na maratona é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média de
+  \(133\) minutos e desvio padrão de \(7\) minutos. Considerando que os
+  tempos são independentes entre si, se esse atleta participar de \(25\)
+  maratonas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(132\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4919\)
+  \item
+    \(0.5078\)
+  \item
+    \(0.4432\)
+  \item
+    \(0.3050\)
+  \item
+    \(0.2389\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 133\) e \(\sigma = \frac{7}{\sqrt{25}}\), temos que
+  \[P\left(\bar{X}<132\right) = P\left(\frac{\bar{X}-133}{7/\sqrt{25}}<\frac{132-133}{7/\sqrt{25}}\right) = P\left(Z<-0.71\right) = 0.2389.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta na maratona é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média de
+  \(134\) minutos e desvio padrão de \(7\) minutos. Considerando que os
+  tempos são independentes entre si, se esse atleta participar de \(30\)
+  maratonas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(133\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4432\)
+  \item
+    \(0.4919\)
+  \item
+    \(0.8944\)
+  \item
+    \(0.2177\)
+  \item
+    \(0.2702\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 134\) e \(\sigma = \frac{7}{\sqrt{30}}\), temos que
+  \[P\left(\bar{X}<133\right) = P\left(\frac{\bar{X}-134}{7/\sqrt{30}}<\frac{133-134}{7/\sqrt{30}}\right) = P\left(Z<-0.78\right) = 0.2177.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta na maratona é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média de
+  \(127\) minutos e desvio padrão de \(4\) minutos. Considerando que os
+  tempos são independentes entre si, se esse atleta participar de \(33\)
+  maratonas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(126\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0749\)
+  \item
+    \(0.4417\)
+  \item
+    \(0.4751\)
+  \item
+    \(0.4013\)
+  \item
+    \(0.0196\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 127\) e \(\sigma = \frac{4}{\sqrt{33}}\), temos que
+  \[P\left(\bar{X}<126\right) = P\left(\frac{\bar{X}-127}{4/\sqrt{33}}<\frac{126-127}{4/\sqrt{33}}\right) = P\left(Z<-1.44\right) = 0.0749.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta na maratona é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média de
+  \(130\) minutos e desvio padrão de \(4\) minutos. Considerando que os
+  tempos são independentes entre si, se esse atleta participar de \(34\)
+  maratonas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(129\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0168\)
+  \item
+    \(0.3905\)
+  \item
+    \(0.0721\)
+  \item
+    \(0.4013\)
+  \item
+    \(0.4751\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 130\) e \(\sigma = \frac{4}{\sqrt{34}}\), temos que
+  \[P\left(\bar{X}<129\right) = P\left(\frac{\bar{X}-130}{4/\sqrt{34}}<\frac{129-130}{4/\sqrt{34}}\right) = P\left(Z<-1.46\right) = 0.0721.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta na maratona é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média de
+  \(128\) minutos e desvio padrão de \(6\) minutos. Considerando que os
+  tempos são independentes entre si, se esse atleta participar de \(35\)
+  maratonas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(127\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1611\)
+  \item
+    \(0.4889\)
+  \item
+    \(0.4338\)
+  \item
+    \(0.1655\)
+  \item
+    \(0.4948\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 128\) e \(\sigma = \frac{6}{\sqrt{35}}\), temos que
+  \[P\left(\bar{X}<127\right) = P\left(\frac{\bar{X}-128}{6/\sqrt{35}}<\frac{127-128}{6/\sqrt{35}}\right) = P\left(Z<-0.99\right) = 0.1611.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Suponha que o tempo de prova de um determinado atleta na maratona é
+  uma variável aleatória (\(X\)) que segue uma distribuição com média de
+  \(127\) minutos e desvio padrão de \(5\) minutos. Considerando que os
+  tempos são independentes entre si, se esse atleta participar de \(32\)
+  maratonas, qual é a probabilidade de que a média de seus tempos nas
+  provas seja menor que \(126\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1292\)
+  \item
+    \(0.3980\)
+  \item
+    \(0.4840\)
+  \item
+    \(0.1003\)
+  \item
+    \(0.4207\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 127\) e \(\sigma = \frac{5}{\sqrt{32}}\), temos que
+  \[P\left(\bar{X}<126\right) = P\left(\frac{\bar{X}-127}{5/\sqrt{32}}<\frac{126-127}{5/\sqrt{32}}\right) = P\left(Z<-1.13\right) = 0.1292.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

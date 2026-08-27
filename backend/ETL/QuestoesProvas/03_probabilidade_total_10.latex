@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A experiência com testes psicotécnicos para habilitação de motoristas
+  indica que 87\% dos candidatos à habilitação aprovados no primeiro
+  teste tornam-se excelentes motoristas e 80\% dos candidatos reprovados
+  no primeiro teste tornam-se motoristas regulares. Admita a
+  classificação dos motoristas apenas em excelentes ou regulares. Se
+  86\% dos candidatos são aprovados neste teste, qual é a probabilidade
+  de que um indivíduo torne-se um excelente motorista?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.776\)
+  \item
+    \(0.224\)
+  \item
+    \(0.860\)
+  \item
+    \(0.130\)
+  \item
+    \(0.140\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{A} &=& \text{ ``Candidato aprovado no primeiro teste''}\\
+  \text{R} &=& \text{ ``Candidato reprovado no primeiro teste''}\\
+  \text{E} &=& \text{ ``Candidato torna-se um excelente motorista''}
+  \end{aligned}\]
+
+  Pelo Teorema da Probabilidade Total, temos
+  \[P(E) = P(E|A)P(A)+P(E|R)P(R) =  0.87 \times 0.86+0.2\times0.14 = 0.776.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A experiência com testes psicotécnicos para habilitação de motoristas
+  indica que 82\% dos candidatos à habilitação aprovados no primeiro
+  teste tornam-se excelentes motoristas e 61\% dos candidatos reprovados
+  no primeiro teste tornam-se motoristas regulares. Admita a
+  classificação dos motoristas apenas em excelentes ou regulares. Se
+  82\% dos candidatos são aprovados neste teste, qual é a probabilidade
+  de que um indivíduo torne-se um excelente motorista?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.743\)
+  \item
+    \(0.180\)
+  \item
+    \(0.257\)
+  \item
+    \(0.820\)
+  \item
+    \(0.142\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{A} &=& \text{ ``Candidato aprovado no primeiro teste''}\\
+  \text{R} &=& \text{ ``Candidato reprovado no primeiro teste''}\\
+  \text{E} &=& \text{ ``Candidato torna-se um excelente motorista''}
+  \end{aligned}\]
+
+  Pelo Teorema da Probabilidade Total, temos
+  \[P(E) = P(E|A)P(A)+P(E|R)P(R) =  0.82 \times 0.82+0.39\times0.18 = 0.743.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A experiência com testes psicotécnicos para habilitação de motoristas
+  indica que 94\% dos candidatos à habilitação aprovados no primeiro
+  teste tornam-se excelentes motoristas e 72\% dos candidatos reprovados
+  no primeiro teste tornam-se motoristas regulares. Admita a
+  classificação dos motoristas apenas em excelentes ou regulares. Se
+  77\% dos candidatos são aprovados neste teste, qual é a probabilidade
+  de que um indivíduo torne-se um excelente motorista?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.788\)
+  \item
+    \(0.212\)
+  \item
+    \(0.230\)
+  \item
+    \(0.770\)
+  \item
+    \(0.179\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{A} &=& \text{ ``Candidato aprovado no primeiro teste''}\\
+  \text{R} &=& \text{ ``Candidato reprovado no primeiro teste''}\\
+  \text{E} &=& \text{ ``Candidato torna-se um excelente motorista''}
+  \end{aligned}\]
+
+  Pelo Teorema da Probabilidade Total, temos
+  \[P(E) = P(E|A)P(A)+P(E|R)P(R) =  0.94 \times 0.77+0.28\times0.23 = 0.788.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A experiência com testes psicotécnicos para habilitação de motoristas
+  indica que 80\% dos candidatos à habilitação aprovados no primeiro
+  teste tornam-se excelentes motoristas e 70\% dos candidatos reprovados
+  no primeiro teste tornam-se motoristas regulares. Admita a
+  classificação dos motoristas apenas em excelentes ou regulares. Se
+  89\% dos candidatos são aprovados neste teste, qual é a probabilidade
+  de que um indivíduo torne-se um excelente motorista?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.099\)
+  \item
+    \(0.890\)
+  \item
+    \(0.255\)
+  \item
+    \(0.110\)
+  \item
+    \(0.745\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{A} &=& \text{ ``Candidato aprovado no primeiro teste''}\\
+  \text{R} &=& \text{ ``Candidato reprovado no primeiro teste''}\\
+  \text{E} &=& \text{ ``Candidato torna-se um excelente motorista''}
+  \end{aligned}\]
+
+  Pelo Teorema da Probabilidade Total, temos
+  \[P(E) = P(E|A)P(A)+P(E|R)P(R) =  0.8 \times 0.89+0.3\times0.11 = 0.745.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A experiência com testes psicotécnicos para habilitação de motoristas
+  indica que 79\% dos candidatos à habilitação aprovados no primeiro
+  teste tornam-se excelentes motoristas e 62\% dos candidatos reprovados
+  no primeiro teste tornam-se motoristas regulares. Admita a
+  classificação dos motoristas apenas em excelentes ou regulares. Se
+  93\% dos candidatos são aprovados neste teste, qual é a probabilidade
+  de que um indivíduo torne-se um excelente motorista?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.058\)
+  \item
+    \(0.930\)
+  \item
+    \(0.761\)
+  \item
+    \(0.239\)
+  \item
+    \(0.070\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{A} &=& \text{ ``Candidato aprovado no primeiro teste''}\\
+  \text{R} &=& \text{ ``Candidato reprovado no primeiro teste''}\\
+  \text{E} &=& \text{ ``Candidato torna-se um excelente motorista''}
+  \end{aligned}\]
+
+  Pelo Teorema da Probabilidade Total, temos
+  \[P(E) = P(E|A)P(A)+P(E|R)P(R) =  0.79 \times 0.93+0.38\times0.07 = 0.761.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A experiência com testes psicotécnicos para habilitação de motoristas
+  indica que 89\% dos candidatos à habilitação aprovados no primeiro
+  teste tornam-se excelentes motoristas e 64\% dos candidatos reprovados
+  no primeiro teste tornam-se motoristas regulares. Admita a
+  classificação dos motoristas apenas em excelentes ou regulares. Se
+  82\% dos candidatos são aprovados neste teste, qual é a probabilidade
+  de que um indivíduo torne-se um excelente motorista?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.180\)
+  \item
+    \(0.135\)
+  \item
+    \(0.795\)
+  \item
+    \(0.205\)
+  \item
+    \(0.820\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{A} &=& \text{ ``Candidato aprovado no primeiro teste''}\\
+  \text{R} &=& \text{ ``Candidato reprovado no primeiro teste''}\\
+  \text{E} &=& \text{ ``Candidato torna-se um excelente motorista''}
+  \end{aligned}\]
+
+  Pelo Teorema da Probabilidade Total, temos
+  \[P(E) = P(E|A)P(A)+P(E|R)P(R) =  0.89 \times 0.82+0.36\times0.18 = 0.795.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A experiência com testes psicotécnicos para habilitação de motoristas
+  indica que 81\% dos candidatos à habilitação aprovados no primeiro
+  teste tornam-se excelentes motoristas e 76\% dos candidatos reprovados
+  no primeiro teste tornam-se motoristas regulares. Admita a
+  classificação dos motoristas apenas em excelentes ou regulares. Se
+  81\% dos candidatos são aprovados neste teste, qual é a probabilidade
+  de que um indivíduo torne-se um excelente motorista?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.298\)
+  \item
+    \(0.181\)
+  \item
+    \(0.810\)
+  \item
+    \(0.702\)
+  \item
+    \(0.190\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{A} &=& \text{ ``Candidato aprovado no primeiro teste''}\\
+  \text{R} &=& \text{ ``Candidato reprovado no primeiro teste''}\\
+  \text{E} &=& \text{ ``Candidato torna-se um excelente motorista''}
+  \end{aligned}\]
+
+  Pelo Teorema da Probabilidade Total, temos
+  \[P(E) = P(E|A)P(A)+P(E|R)P(R) =  0.81 \times 0.81+0.24\times0.19 = 0.702.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A experiência com testes psicotécnicos para habilitação de motoristas
+  indica que 94\% dos candidatos à habilitação aprovados no primeiro
+  teste tornam-se excelentes motoristas e 65\% dos candidatos reprovados
+  no primeiro teste tornam-se motoristas regulares. Admita a
+  classificação dos motoristas apenas em excelentes ou regulares. Se
+  95\% dos candidatos são aprovados neste teste, qual é a probabilidade
+  de que um indivíduo torne-se um excelente motorista?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.090\)
+  \item
+    \(0.950\)
+  \item
+    \(0.050\)
+  \item
+    \(0.036\)
+  \item
+    \(0.911\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{A} &=& \text{ ``Candidato aprovado no primeiro teste''}\\
+  \text{R} &=& \text{ ``Candidato reprovado no primeiro teste''}\\
+  \text{E} &=& \text{ ``Candidato torna-se um excelente motorista''}
+  \end{aligned}\]
+
+  Pelo Teorema da Probabilidade Total, temos
+  \[P(E) = P(E|A)P(A)+P(E|R)P(R) =  0.94 \times 0.95+0.35\times0.05 = 0.91.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A experiência com testes psicotécnicos para habilitação de motoristas
+  indica que 79\% dos candidatos à habilitação aprovados no primeiro
+  teste tornam-se excelentes motoristas e 65\% dos candidatos reprovados
+  no primeiro teste tornam-se motoristas regulares. Admita a
+  classificação dos motoristas apenas em excelentes ou regulares. Se
+  81\% dos candidatos são aprovados neste teste, qual é a probabilidade
+  de que um indivíduo torne-se um excelente motorista?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.163\)
+  \item
+    \(0.190\)
+  \item
+    \(0.294\)
+  \item
+    \(0.810\)
+  \item
+    \(0.706\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{A} &=& \text{ ``Candidato aprovado no primeiro teste''}\\
+  \text{R} &=& \text{ ``Candidato reprovado no primeiro teste''}\\
+  \text{E} &=& \text{ ``Candidato torna-se um excelente motorista''}
+  \end{aligned}\]
+
+  Pelo Teorema da Probabilidade Total, temos
+  \[P(E) = P(E|A)P(A)+P(E|R)P(R) =  0.79 \times 0.81+0.35\times0.19 = 0.706.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A experiência com testes psicotécnicos para habilitação de motoristas
+  indica que 82\% dos candidatos à habilitação aprovados no primeiro
+  teste tornam-se excelentes motoristas e 77\% dos candidatos reprovados
+  no primeiro teste tornam-se motoristas regulares. Admita a
+  classificação dos motoristas apenas em excelentes ou regulares. Se
+  77\% dos candidatos são aprovados neste teste, qual é a probabilidade
+  de que um indivíduo torne-se um excelente motorista?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.219\)
+  \item
+    \(0.230\)
+  \item
+    \(0.316\)
+  \item
+    \(0.770\)
+  \item
+    \(0.684\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Defina os eventos \[\begin{aligned}
+  \text{A} &=& \text{ ``Candidato aprovado no primeiro teste''}\\
+  \text{R} &=& \text{ ``Candidato reprovado no primeiro teste''}\\
+  \text{E} &=& \text{ ``Candidato torna-se um excelente motorista''}
+  \end{aligned}\]
+
+  Pelo Teorema da Probabilidade Total, temos
+  \[P(E) = P(E|A)P(A)+P(E|R)P(R) =  0.82 \times 0.77+0.23\times0.23 = 0.684.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

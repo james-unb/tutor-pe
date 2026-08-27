@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória discreta com a seguinte distribuição
+  de probabilidades:
+  \[P(X=x)=\frac{1.35}{x}, \quad \text{onde} \ X \ \text{assume os valores} \ 4, \ 5, \ 6 \ \text{e} \ 8.\]
+
+  Assinale a alternativa correspondente à variância de \(X\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    621/20
+  \item
+    189/100
+  \item
+    27/20
+  \item
+    6021/100
+  \item
+    27/5
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(X)\) e \(E(X^2)\): \[\begin{aligned}
+  E(X) &=& 4\times P(X=4) + 5\times P(X=5) + 6\times P(X=6) + 8\times P(X=8) = \text{27/5}, \\
+  E(X^2) &=& 4^2\times P(X=4) + 5^2\times P(X=5) + 6^2\times P(X=6) + 8^2\times P(X=8) = \text{621/20}.
+  \end{aligned}\] De modo que
+  \(V(X) = E(X^2) - \left\{E(X)\right\}^2 =\) 189/100.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória discreta com a seguinte distribuição
+  de probabilidades:
+  \[P(X=x)=\frac{0.51}{x}, \quad \text{onde} \ X \ \text{assume os valores} \ 1, \ 2, \ 3 \ \text{e} \ 9.\]
+
+  Assinale a alternativa correspondente à variância de \(X\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    153/20
+  \item
+    8721/2500
+  \item
+    51/25
+  \item
+    29529/2500
+  \item
+    51/100
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(X)\) e \(E(X^2)\): \[\begin{aligned}
+  E(X) &=& 1\times P(X=1) + 2\times P(X=2) + 3\times P(X=3) + 9\times P(X=9) = \text{51/25}, \\
+  E(X^2) &=& 1^2\times P(X=1) + 2^2\times P(X=2) + 3^2\times P(X=3) + 9^2\times P(X=9) = \text{153/20}.
+  \end{aligned}\] De modo que
+  \(V(X) = E(X^2) - \left\{E(X)\right\}^2 =\) 8721/2500.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória discreta com a seguinte distribuição
+  de probabilidades:
+  \[P(X=x)=\frac{1.73}{x}, \quad \text{onde} \ X \ \text{assume os valores} \ 5, \ 7, \ 8 \ \text{e} \ 9.\]
+
+  Assinale a alternativa correspondente à variância de \(X\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    5017/100
+  \item
+    173/100
+  \item
+    173/25
+  \item
+    245141/2500
+  \item
+    5709/2500
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(X)\) e \(E(X^2)\): \[\begin{aligned}
+  E(X) &=& 5\times P(X=5) + 7\times P(X=7) + 8\times P(X=8) + 9\times P(X=9) = \text{173/25}, \\
+  E(X^2) &=& 5^2\times P(X=5) + 7^2\times P(X=7) + 8^2\times P(X=8) + 9^2\times P(X=9) = \text{5017/100}.
+  \end{aligned}\] De modo que
+  \(V(X) = E(X^2) - \left\{E(X)\right\}^2 =\) 5709/2500.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória discreta com a seguinte distribuição
+  de probabilidades:
+  \[P(X=x)=\frac{1.59}{x}, \quad \text{onde} \ X \ \text{assume os valores} \ 4, \ 7, \ 8 \ \text{e} \ 9.\]
+
+  Assinale a alternativa correspondente à variância de \(X\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    53106/625
+  \item
+    2544/625
+  \item
+    1113/25
+  \item
+    159/100
+  \item
+    159/25
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(X)\) e \(E(X^2)\): \[\begin{aligned}
+  E(X) &=& 4\times P(X=4) + 7\times P(X=7) + 8\times P(X=8) + 9\times P(X=9) = \text{159/25}, \\
+  E(X^2) &=& 4^2\times P(X=4) + 7^2\times P(X=7) + 8^2\times P(X=8) + 9^2\times P(X=9) = \text{1113/25}.
+  \end{aligned}\] De modo que
+  \(V(X) = E(X^2) - \left\{E(X)\right\}^2 =\) 2544/625.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória discreta com a seguinte distribuição
+  de probabilidades:
+  \[P(X=x)=\frac{0.93}{x}, \quad \text{onde} \ X \ \text{assume os valores} \ 2, \ 4, \ 5 \ \text{e} \ 8.\]
+
+  Assinale a alternativa correspondente à variância de \(X\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    93/100
+  \item
+    1767/100
+  \item
+    93/25
+  \item
+    9579/2500
+  \item
+    78771/2500
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(X)\) e \(E(X^2)\): \[\begin{aligned}
+  E(X) &=& 2\times P(X=2) + 4\times P(X=4) + 5\times P(X=5) + 8\times P(X=8) = \text{93/25}, \\
+  E(X^2) &=& 2^2\times P(X=2) + 4^2\times P(X=4) + 5^2\times P(X=5) + 8^2\times P(X=8) = \text{1767/100}.
+  \end{aligned}\] De modo que
+  \(V(X) = E(X^2) - \left\{E(X)\right\}^2 =\) 9579/2500.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória discreta com a seguinte distribuição
+  de probabilidades:
+  \[P(X=x)=\frac{0.69}{x}, \quad \text{onde} \ X \ \text{assume os valores} \ 1, \ 5, \ 7 \ \text{e} \ 9.\]
+
+  Assinale a alternativa correspondente à variância de \(X\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    69/100
+  \item
+    28497/1250
+  \item
+    69/25
+  \item
+    9453/1250
+  \item
+    759/50
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(X)\) e \(E(X^2)\): \[\begin{aligned}
+  E(X) &=& 1\times P(X=1) + 5\times P(X=5) + 7\times P(X=7) + 9\times P(X=9) = \text{69/25}, \\
+  E(X^2) &=& 1^2\times P(X=1) + 5^2\times P(X=5) + 7^2\times P(X=7) + 9^2\times P(X=9) = \text{759/50}.
+  \end{aligned}\] De modo que
+  \(V(X) = E(X^2) - \left\{E(X)\right\}^2 =\) 9453/1250.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória discreta com a seguinte distribuição
+  de probabilidades:
+  \[P(X=x)=\frac{1.01}{x}, \quad \text{onde} \ X \ \text{assume os valores} \ 2, \ 4, \ 8 \ \text{e} \ 9.\]
+
+  Assinale a alternativa correspondente à variância de \(X\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    101/25
+  \item
+    98879/2500
+  \item
+    101/100
+  \item
+    17271/2500
+  \item
+    2323/100
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(X)\) e \(E(X^2)\): \[\begin{aligned}
+  E(X) &=& 2\times P(X=2) + 4\times P(X=4) + 8\times P(X=8) + 9\times P(X=9) = \text{101/25}, \\
+  E(X^2) &=& 2^2\times P(X=2) + 4^2\times P(X=4) + 8^2\times P(X=8) + 9^2\times P(X=9) = \text{2323/100}.
+  \end{aligned}\] De modo que
+  \(V(X) = E(X^2) - \left\{E(X)\right\}^2 =\) 17271/2500.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória discreta com a seguinte distribuição
+  de probabilidades:
+  \[P(X=x)=\frac{1.61}{x}, \quad \text{onde} \ X \ \text{assume os valores} \ 5, \ 6, \ 7 \ \text{e} \ 9.\]
+
+  Assinale a alternativa correspondente à variância de \(X\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    4347/100
+  \item
+    161/100
+  \item
+    161/25
+  \item
+    4991/2500
+  \item
+    212359/2500
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(X)\) e \(E(X^2)\): \[\begin{aligned}
+  E(X) &=& 5\times P(X=5) + 6\times P(X=6) + 7\times P(X=7) + 9\times P(X=9) = \text{161/25}, \\
+  E(X^2) &=& 5^2\times P(X=5) + 6^2\times P(X=6) + 7^2\times P(X=7) + 9^2\times P(X=9) = \text{4347/100}.
+  \end{aligned}\] De modo que
+  \(V(X) = E(X^2) - \left\{E(X)\right\}^2 =\) 4991/2500.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória discreta com a seguinte distribuição
+  de probabilidades:
+  \[P(X=x)=\frac{0.64}{x}, \quad \text{onde} \ X \ \text{assume os valores} \ 1, \ 4, \ 5 \ \text{e} \ 9.\]
+
+  Assinale a alternativa correspondente à variância de \(X\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    3504/625
+  \item
+    11696/625
+  \item
+    64/25
+  \item
+    304/25
+  \item
+    16/25
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(X)\) e \(E(X^2)\): \[\begin{aligned}
+  E(X) &=& 1\times P(X=1) + 4\times P(X=4) + 5\times P(X=5) + 9\times P(X=9) = \text{64/25}, \\
+  E(X^2) &=& 1^2\times P(X=1) + 4^2\times P(X=4) + 5^2\times P(X=5) + 9^2\times P(X=9) = \text{304/25}.
+  \end{aligned}\] De modo que
+  \(V(X) = E(X^2) - \left\{E(X)\right\}^2 =\) 3504/625.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória discreta com a seguinte distribuição
+  de probabilidades:
+  \[P(X=x)=\frac{1.12}{x}, \quad \text{onde} \ X \ \text{assume os valores} \ 3, \ 4, \ 5 \ \text{e} \ 9.\]
+
+  Assinale a alternativa correspondente à variância de \(X\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    28/25
+  \item
+    27244/625
+  \item
+    588/25
+  \item
+    112/25
+  \item
+    2156/625
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular os valores de
+  \(E(X)\) e \(E(X^2)\): \[\begin{aligned}
+  E(X) &=& 3\times P(X=3) + 4\times P(X=4) + 5\times P(X=5) + 9\times P(X=9) = \text{112/25}, \\
+  E(X^2) &=& 3^2\times P(X=3) + 4^2\times P(X=4) + 5^2\times P(X=5) + 9^2\times P(X=9) = \text{588/25}.
+  \end{aligned}\] De modo que
+  \(V(X) = E(X^2) - \left\{E(X)\right\}^2 =\) 2156/625.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

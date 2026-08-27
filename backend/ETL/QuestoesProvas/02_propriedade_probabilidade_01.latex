@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Colocam-se ao acaso \(4\) botões em um tabuleiro \(4 \times 4\), não
+  sendo permitido haver dois botões em uma mesma casa. Qual a
+  probabilidade de não haver dois botões nem na mesma linha nem na mesma
+  coluna?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5000\)
+  \item
+    \(0.7500\)
+  \item
+    \(0.2500\)
+  \item
+    \(0.6667\)
+  \item
+    \(0.0132\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Há \(16\) casas no tabuleiro. O número de maneiras de selecionarmos as
+  casas para colocar o botão é \(\binom{16}{4}\). Como cada linha e cada
+  coluna conterá exatamente um botão, existem \(4\) maneiras de escolher
+  a casa que será utilizada na primeira linha, \(3\) maneiras de
+  escolher a segunda linha e assim por diante; desse modo temos \(4!\)
+  maneiras de distribuir os botões sem que hajam dois na mesma linha ou
+  na mesma coluna. Segue que a probabilidade desejada é
+  \[\dfrac{4!}{\binom{16}{4}} = 0.0132.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Colocam-se ao acaso \(6\) botões em um tabuleiro \(6 \times 6\), não
+  sendo permitido haver dois botões em uma mesma casa. Qual a
+  probabilidade de não haver dois botões nem na mesma linha nem na mesma
+  coluna?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0500\)
+  \item
+    \(0.0004\)
+  \item
+    \(0.5000\)
+  \item
+    \(0.3333\)
+  \item
+    \(0.1667\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Há \(36\) casas no tabuleiro. O número de maneiras de selecionarmos as
+  casas para colocar o botão é \(\binom{36}{6}\). Como cada linha e cada
+  coluna conterá exatamente um botão, existem \(6\) maneiras de escolher
+  a casa que será utilizada na primeira linha, \(5\) maneiras de
+  escolher a segunda linha e assim por diante; desse modo temos \(6!\)
+  maneiras de distribuir os botões sem que hajam dois na mesma linha ou
+  na mesma coluna. Segue que a probabilidade desejada é
+  \[\dfrac{6!}{\binom{36}{6}} = 4e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Colocam-se ao acaso \(6\) botões em um tabuleiro \(6 \times 6\), não
+  sendo permitido haver dois botões em uma mesma casa. Qual a
+  probabilidade de não haver dois botões nem na mesma linha nem na mesma
+  coluna?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1667\)
+  \item
+    \(0.0004\)
+  \item
+    \(0.3333\)
+  \item
+    \(0.0500\)
+  \item
+    \(0.5000\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Há \(36\) casas no tabuleiro. O número de maneiras de selecionarmos as
+  casas para colocar o botão é \(\binom{36}{6}\). Como cada linha e cada
+  coluna conterá exatamente um botão, existem \(6\) maneiras de escolher
+  a casa que será utilizada na primeira linha, \(5\) maneiras de
+  escolher a segunda linha e assim por diante; desse modo temos \(6!\)
+  maneiras de distribuir os botões sem que hajam dois na mesma linha ou
+  na mesma coluna. Segue que a probabilidade desejada é
+  \[\dfrac{6!}{\binom{36}{6}} = 4e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Colocam-se ao acaso \(7\) botões em um tabuleiro \(7 \times 7\), não
+  sendo permitido haver dois botões em uma mesma casa. Qual a
+  probabilidade de não haver dois botões nem na mesma linha nem na mesma
+  coluna?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2857\)
+  \item
+    \(0.0001\)
+  \item
+    \(0.4286\)
+  \item
+    \(0.1429\)
+  \item
+    \(0.0097\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Há \(49\) casas no tabuleiro. O número de maneiras de selecionarmos as
+  casas para colocar o botão é \(\binom{49}{7}\). Como cada linha e cada
+  coluna conterá exatamente um botão, existem \(7\) maneiras de escolher
+  a casa que será utilizada na primeira linha, \(6\) maneiras de
+  escolher a segunda linha e assim por diante; desse modo temos \(7!\)
+  maneiras de distribuir os botões sem que hajam dois na mesma linha ou
+  na mesma coluna. Segue que a probabilidade desejada é
+  \[\dfrac{7!}{\binom{49}{7}} = 1e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Colocam-se ao acaso \(6\) botões em um tabuleiro \(6 \times 6\), não
+  sendo permitido haver dois botões em uma mesma casa. Qual a
+  probabilidade de não haver dois botões nem na mesma linha nem na mesma
+  coluna?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1667\)
+  \item
+    \(0.5000\)
+  \item
+    \(0.0500\)
+  \item
+    \(0.3333\)
+  \item
+    \(0.0004\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Há \(36\) casas no tabuleiro. O número de maneiras de selecionarmos as
+  casas para colocar o botão é \(\binom{36}{6}\). Como cada linha e cada
+  coluna conterá exatamente um botão, existem \(6\) maneiras de escolher
+  a casa que será utilizada na primeira linha, \(5\) maneiras de
+  escolher a segunda linha e assim por diante; desse modo temos \(6!\)
+  maneiras de distribuir os botões sem que hajam dois na mesma linha ou
+  na mesma coluna. Segue que a probabilidade desejada é
+  \[\dfrac{6!}{\binom{36}{6}} = 4e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Colocam-se ao acaso \(6\) botões em um tabuleiro \(6 \times 6\), não
+  sendo permitido haver dois botões em uma mesma casa. Qual a
+  probabilidade de não haver dois botões nem na mesma linha nem na mesma
+  coluna?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0004\)
+  \item
+    \(0.1667\)
+  \item
+    \(0.5000\)
+  \item
+    \(0.3333\)
+  \item
+    \(0.0500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Há \(36\) casas no tabuleiro. O número de maneiras de selecionarmos as
+  casas para colocar o botão é \(\binom{36}{6}\). Como cada linha e cada
+  coluna conterá exatamente um botão, existem \(6\) maneiras de escolher
+  a casa que será utilizada na primeira linha, \(5\) maneiras de
+  escolher a segunda linha e assim por diante; desse modo temos \(6!\)
+  maneiras de distribuir os botões sem que hajam dois na mesma linha ou
+  na mesma coluna. Segue que a probabilidade desejada é
+  \[\dfrac{6!}{\binom{36}{6}} = 4e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Colocam-se ao acaso \(6\) botões em um tabuleiro \(6 \times 6\), não
+  sendo permitido haver dois botões em uma mesma casa. Qual a
+  probabilidade de não haver dois botões nem na mesma linha nem na mesma
+  coluna?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5000\)
+  \item
+    \(0.3333\)
+  \item
+    \(0.0500\)
+  \item
+    \(0.1667\)
+  \item
+    \(0.0004\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Há \(36\) casas no tabuleiro. O número de maneiras de selecionarmos as
+  casas para colocar o botão é \(\binom{36}{6}\). Como cada linha e cada
+  coluna conterá exatamente um botão, existem \(6\) maneiras de escolher
+  a casa que será utilizada na primeira linha, \(5\) maneiras de
+  escolher a segunda linha e assim por diante; desse modo temos \(6!\)
+  maneiras de distribuir os botões sem que hajam dois na mesma linha ou
+  na mesma coluna. Segue que a probabilidade desejada é
+  \[\dfrac{6!}{\binom{36}{6}} = 4e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Colocam-se ao acaso \(4\) botões em um tabuleiro \(4 \times 4\), não
+  sendo permitido haver dois botões em uma mesma casa. Qual a
+  probabilidade de não haver dois botões nem na mesma linha nem na mesma
+  coluna?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7500\)
+  \item
+    \(0.5000\)
+  \item
+    \(0.0132\)
+  \item
+    \(0.6667\)
+  \item
+    \(0.2500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Há \(16\) casas no tabuleiro. O número de maneiras de selecionarmos as
+  casas para colocar o botão é \(\binom{16}{4}\). Como cada linha e cada
+  coluna conterá exatamente um botão, existem \(4\) maneiras de escolher
+  a casa que será utilizada na primeira linha, \(3\) maneiras de
+  escolher a segunda linha e assim por diante; desse modo temos \(4!\)
+  maneiras de distribuir os botões sem que hajam dois na mesma linha ou
+  na mesma coluna. Segue que a probabilidade desejada é
+  \[\dfrac{4!}{\binom{16}{4}} = 0.0132.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Colocam-se ao acaso \(6\) botões em um tabuleiro \(6 \times 6\), não
+  sendo permitido haver dois botões em uma mesma casa. Qual a
+  probabilidade de não haver dois botões nem na mesma linha nem na mesma
+  coluna?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3333\)
+  \item
+    \(0.0004\)
+  \item
+    \(0.5000\)
+  \item
+    \(0.1667\)
+  \item
+    \(0.0500\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Há \(36\) casas no tabuleiro. O número de maneiras de selecionarmos as
+  casas para colocar o botão é \(\binom{36}{6}\). Como cada linha e cada
+  coluna conterá exatamente um botão, existem \(6\) maneiras de escolher
+  a casa que será utilizada na primeira linha, \(5\) maneiras de
+  escolher a segunda linha e assim por diante; desse modo temos \(6!\)
+  maneiras de distribuir os botões sem que hajam dois na mesma linha ou
+  na mesma coluna. Segue que a probabilidade desejada é
+  \[\dfrac{6!}{\binom{36}{6}} = 4e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Colocam-se ao acaso \(7\) botões em um tabuleiro \(7 \times 7\), não
+  sendo permitido haver dois botões em uma mesma casa. Qual a
+  probabilidade de não haver dois botões nem na mesma linha nem na mesma
+  coluna?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0001\)
+  \item
+    \(0.0097\)
+  \item
+    \(0.1429\)
+  \item
+    \(0.2857\)
+  \item
+    \(0.4286\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Há \(49\) casas no tabuleiro. O número de maneiras de selecionarmos as
+  casas para colocar o botão é \(\binom{49}{7}\). Como cada linha e cada
+  coluna conterá exatamente um botão, existem \(7\) maneiras de escolher
+  a casa que será utilizada na primeira linha, \(6\) maneiras de
+  escolher a segunda linha e assim por diante; desse modo temos \(7!\)
+  maneiras de distribuir os botões sem que hajam dois na mesma linha ou
+  na mesma coluna. Segue que a probabilidade desejada é
+  \[\dfrac{7!}{\binom{49}{7}} = 1e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

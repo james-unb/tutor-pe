@@ -1,0 +1,642 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine uma mulher chamada Luana, de 31 anos de idade, bela, solteira,
+  sincera e muito inteligente. Cursou filosofia na universidade e quando
+  estudante preocupava-se profundamente com discriminação e justiça
+  social. Luana é contra armas nucleares e a favor da descriminalização
+  do aborto. Essa descrição de Luana foi apresentada a um grupo de 88
+  pessoas que atribuíram probabilidades a uma lista de afirmações sobre
+  Luana de acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Luana participa do movimento feminista & 97\% \\
+  2 & Luana trabalha na ONU & 87\% \\
+  3 & Luana trabalha na ONU e faz crossfit & 82\% \\
+  4 & Luana é bibliotecária e faz aulas de ioga & 75\% \\
+  5 & Luana é professora e toca piano & 72\% \\
+  6 & Luana é bibliotecária & 66\% \\
+  7 & Luana é da comissão de direitos humanos & 64\% \\
+  8 & Luana é professora & 57\% \\
+  9 & Luana é personal trainner & 53\% \\
+  10 & Luana é personal trainner e toca piano & 38\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 4 e 6 são probabilisticamente contraditórias.
+  \item
+    As afirmações 3 e 7 são probabilisticamente contraditórias.
+  \item
+    As afirmações 4 e 8 são probabilisticamente contraditórias.
+  \item
+    As afirmações 7 e 10 são probabilisticamente contraditórias.
+  \item
+    Nenhuma das demais alternativas está correta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine uma mulher chamada Luana, de 31 anos de idade, bela, solteira,
+  sincera e muito inteligente. Cursou filosofia na universidade e quando
+  estudante preocupava-se profundamente com discriminação e justiça
+  social. Luana é contra armas nucleares e a favor da descriminalização
+  do aborto. Essa descrição de Luana foi apresentada a um grupo de 88
+  pessoas que atribuíram probabilidades a uma lista de afirmações sobre
+  Luana de acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Luana participa do movimento feminista & 98\% \\
+  2 & Luana trabalha na ONU & 87\% \\
+  3 & Luana trabalha na ONU e faz crossfit & 84\% \\
+  4 & Luana é bibliotecária e faz aulas de ioga & 78\% \\
+  5 & Luana é professora e toca piano & 72\% \\
+  6 & Luana é bibliotecária & 67\% \\
+  7 & Luana é da comissão de direitos humanos & 64\% \\
+  8 & Luana é professora & 58\% \\
+  9 & Luana é personal trainner & 53\% \\
+  10 & Luana é personal trainner e toca piano & 38\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 3 e 8 são probabilisticamente contraditórias.
+  \item
+    Nenhuma das demais alternativas está correta.
+  \item
+    As afirmações 3 e 6 são probabilisticamente contraditórias.
+  \item
+    As afirmações 5 e 8 são probabilisticamente contraditórias.
+  \item
+    As afirmações 2 e 6 são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine uma mulher chamada Luana, de 31 anos de idade, bela, solteira,
+  sincera e muito inteligente. Cursou filosofia na universidade e quando
+  estudante preocupava-se profundamente com discriminação e justiça
+  social. Luana é contra armas nucleares e a favor da descriminalização
+  do aborto. Essa descrição de Luana foi apresentada a um grupo de 88
+  pessoas que atribuíram probabilidades a uma lista de afirmações sobre
+  Luana de acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Luana participa do movimento feminista & 98\% \\
+  2 & Luana trabalha na ONU & 86\% \\
+  3 & Luana trabalha na ONU e faz crossfit & 83\% \\
+  4 & Luana é bibliotecária e faz aulas de ioga & 76\% \\
+  5 & Luana é professora e toca piano & 73\% \\
+  6 & Luana é bibliotecária & 67\% \\
+  7 & Luana é da comissão de direitos humanos & 61\% \\
+  8 & Luana é professora & 59\% \\
+  9 & Luana é personal trainner & 50\% \\
+  10 & Luana é personal trainner e toca piano & 36\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 8 e 9 são probabilisticamente contraditórias.
+  \item
+    As afirmações 1 e 9 são probabilisticamente contraditórias.
+  \item
+    As afirmações 4 e 6 são probabilisticamente contraditórias.
+  \item
+    As afirmações 3 e 8 são probabilisticamente contraditórias.
+  \item
+    Nenhuma das demais alternativas está correta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine uma mulher chamada Luana, de 31 anos de idade, bela, solteira,
+  sincera e muito inteligente. Cursou filosofia na universidade e quando
+  estudante preocupava-se profundamente com discriminação e justiça
+  social. Luana é contra armas nucleares e a favor da descriminalização
+  do aborto. Essa descrição de Luana foi apresentada a um grupo de 88
+  pessoas que atribuíram probabilidades a uma lista de afirmações sobre
+  Luana de acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Luana participa do movimento feminista & 90\% \\
+  2 & Luana trabalha na ONU & 85\% \\
+  3 & Luana trabalha na ONU e faz crossfit & 82\% \\
+  4 & Luana é bibliotecária e faz aulas de ioga & 77\% \\
+  5 & Luana é professora e toca piano & 73\% \\
+  6 & Luana é bibliotecária & 69\% \\
+  7 & Luana é da comissão de direitos humanos & 62\% \\
+  8 & Luana é professora & 58\% \\
+  9 & Luana é personal trainner & 50\% \\
+  10 & Luana é personal trainner e toca piano & 33\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 1 e 8 são probabilisticamente contraditórias.
+  \item
+    As afirmações 7 e 8 são probabilisticamente contraditórias.
+  \item
+    As afirmações 5 e 8 são probabilisticamente contraditórias.
+  \item
+    As afirmações 9 e 10 são probabilisticamente contraditórias.
+  \item
+    Nenhuma das demais alternativas está correta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine uma mulher chamada Luana, de 31 anos de idade, bela, solteira,
+  sincera e muito inteligente. Cursou filosofia na universidade e quando
+  estudante preocupava-se profundamente com discriminação e justiça
+  social. Luana é contra armas nucleares e a favor da descriminalização
+  do aborto. Essa descrição de Luana foi apresentada a um grupo de 88
+  pessoas que atribuíram probabilidades a uma lista de afirmações sobre
+  Luana de acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Luana participa do movimento feminista & 94\% \\
+  2 & Luana trabalha na ONU & 86\% \\
+  3 & Luana trabalha na ONU e faz crossfit & 83\% \\
+  4 & Luana é bibliotecária e faz aulas de ioga & 76\% \\
+  5 & Luana é professora e toca piano & 74\% \\
+  6 & Luana é bibliotecária & 65\% \\
+  7 & Luana é da comissão de direitos humanos & 64\% \\
+  8 & Luana é professora & 57\% \\
+  9 & Luana é personal trainner & 52\% \\
+  10 & Luana é personal trainner e toca piano & 41\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Todas as afirmações são probabilisticamente contraditórias.
+  \item
+    As afirmações 5 e 8 são probabilisticamente contraditórias.
+  \item
+    As afirmações 3 e 10 são probabilisticamente contraditórias.
+  \item
+    As afirmações 6 e 7 são probabilisticamente contraditórias.
+  \item
+    As afirmações 4 e 7 são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine uma mulher chamada Luana, de 31 anos de idade, bela, solteira,
+  sincera e muito inteligente. Cursou filosofia na universidade e quando
+  estudante preocupava-se profundamente com discriminação e justiça
+  social. Luana é contra armas nucleares e a favor da descriminalização
+  do aborto. Essa descrição de Luana foi apresentada a um grupo de 88
+  pessoas que atribuíram probabilidades a uma lista de afirmações sobre
+  Luana de acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Luana participa do movimento feminista & 98\% \\
+  2 & Luana trabalha na ONU & 88\% \\
+  3 & Luana trabalha na ONU e faz crossfit & 84\% \\
+  4 & Luana é bibliotecária e faz aulas de ioga & 77\% \\
+  5 & Luana é professora e toca piano & 71\% \\
+  6 & Luana é bibliotecária & 69\% \\
+  7 & Luana é da comissão de direitos humanos & 62\% \\
+  8 & Luana é professora & 56\% \\
+  9 & Luana é personal trainner & 53\% \\
+  10 & Luana é personal trainner e toca piano & 36\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 1 e 6 são probabilisticamente contraditórias.
+  \item
+    As afirmações 1 e 9 são probabilisticamente contraditórias.
+  \item
+    As afirmações 4 e 6 são probabilisticamente contraditórias.
+  \item
+    Todas as afirmações são probabilisticamente contraditórias.
+  \item
+    As afirmações 6 e 7 são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine uma mulher chamada Luana, de 31 anos de idade, bela, solteira,
+  sincera e muito inteligente. Cursou filosofia na universidade e quando
+  estudante preocupava-se profundamente com discriminação e justiça
+  social. Luana é contra armas nucleares e a favor da descriminalização
+  do aborto. Essa descrição de Luana foi apresentada a um grupo de 88
+  pessoas que atribuíram probabilidades a uma lista de afirmações sobre
+  Luana de acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Luana participa do movimento feminista & 97\% \\
+  2 & Luana trabalha na ONU & 86\% \\
+  3 & Luana trabalha na ONU e faz crossfit & 81\% \\
+  4 & Luana é bibliotecária e faz aulas de ioga & 76\% \\
+  5 & Luana é professora e toca piano & 74\% \\
+  6 & Luana é bibliotecária & 65\% \\
+  7 & Luana é da comissão de direitos humanos & 63\% \\
+  8 & Luana é professora & 56\% \\
+  9 & Luana é personal trainner & 51\% \\
+  10 & Luana é personal trainner e toca piano & 43\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Todas as afirmações são probabilisticamente contraditórias.
+  \item
+    As afirmações 3 e 10 são probabilisticamente contraditórias.
+  \item
+    As afirmações 4 e 10 são probabilisticamente contraditórias.
+  \item
+    As afirmações 4 e 6 são probabilisticamente contraditórias.
+  \item
+    As afirmações 2 e 10 são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine uma mulher chamada Luana, de 31 anos de idade, bela, solteira,
+  sincera e muito inteligente. Cursou filosofia na universidade e quando
+  estudante preocupava-se profundamente com discriminação e justiça
+  social. Luana é contra armas nucleares e a favor da descriminalização
+  do aborto. Essa descrição de Luana foi apresentada a um grupo de 88
+  pessoas que atribuíram probabilidades a uma lista de afirmações sobre
+  Luana de acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Luana participa do movimento feminista & 97\% \\
+  2 & Luana trabalha na ONU & 88\% \\
+  3 & Luana trabalha na ONU e faz crossfit & 82\% \\
+  4 & Luana é bibliotecária e faz aulas de ioga & 78\% \\
+  5 & Luana é professora e toca piano & 72\% \\
+  6 & Luana é bibliotecária & 69\% \\
+  7 & Luana é da comissão de direitos humanos & 63\% \\
+  8 & Luana é professora & 58\% \\
+  9 & Luana é personal trainner & 53\% \\
+  10 & Luana é personal trainner e toca piano & 47\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 5 e 8 são probabilisticamente contraditórias.
+  \item
+    As afirmações 9 e 10 são probabilisticamente contraditórias.
+  \item
+    As afirmações 3 e 5 são probabilisticamente contraditórias.
+  \item
+    As afirmações 6 e 10 são probabilisticamente contraditórias.
+  \item
+    Nenhuma das demais alternativas está correta.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine uma mulher chamada Luana, de 31 anos de idade, bela, solteira,
+  sincera e muito inteligente. Cursou filosofia na universidade e quando
+  estudante preocupava-se profundamente com discriminação e justiça
+  social. Luana é contra armas nucleares e a favor da descriminalização
+  do aborto. Essa descrição de Luana foi apresentada a um grupo de 88
+  pessoas que atribuíram probabilidades a uma lista de afirmações sobre
+  Luana de acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Luana participa do movimento feminista & 92\% \\
+  2 & Luana trabalha na ONU & 85\% \\
+  3 & Luana trabalha na ONU e faz crossfit & 81\% \\
+  4 & Luana é bibliotecária e faz aulas de ioga & 77\% \\
+  5 & Luana é professora e toca piano & 72\% \\
+  6 & Luana é bibliotecária & 66\% \\
+  7 & Luana é da comissão de direitos humanos & 61\% \\
+  8 & Luana é professora & 57\% \\
+  9 & Luana é personal trainner & 51\% \\
+  10 & Luana é personal trainner e toca piano & 31\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Nenhuma das demais alternativas está correta.
+  \item
+    As afirmações 5 e 7 são probabilisticamente contraditórias.
+  \item
+    As afirmações 2 e 4 são probabilisticamente contraditórias.
+  \item
+    As afirmações 4 e 6 são probabilisticamente contraditórias.
+  \item
+    As afirmações 3 e 7 são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Imagine uma mulher chamada Luana, de 31 anos de idade, bela, solteira,
+  sincera e muito inteligente. Cursou filosofia na universidade e quando
+  estudante preocupava-se profundamente com discriminação e justiça
+  social. Luana é contra armas nucleares e a favor da descriminalização
+  do aborto. Essa descrição de Luana foi apresentada a um grupo de 88
+  pessoas que atribuíram probabilidades a uma lista de afirmações sobre
+  Luana de acordo com suas percepções. A lista de afirmações com as
+  probabilidades atribuídas segue abaixo:
+
+  \begin{longtable}[]{@{}ccc@{}}
+  \toprule\noalign{}
+  & {\textbf{Afirmação}} & {\textbf{Classificação média}} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  1 & Luana participa do movimento feminista & 97\% \\
+  2 & Luana trabalha na ONU & 85\% \\
+  3 & Luana trabalha na ONU e faz crossfit & 81\% \\
+  4 & Luana é bibliotecária e faz aulas de ioga & 77\% \\
+  5 & Luana é professora e toca piano & 73\% \\
+  6 & Luana é bibliotecária & 67\% \\
+  7 & Luana é da comissão de direitos humanos & 62\% \\
+  8 & Luana é professora & 59\% \\
+  9 & Luana é personal trainner & 53\% \\
+  10 & Luana é personal trainner e toca piano & 43\% \\
+  \end{longtable}
+
+  Selecione a única resposta correta.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    As afirmações 5 e 7 são probabilisticamente contraditórias.
+  \item
+    As afirmações 1 e 2 são probabilisticamente contraditórias.
+  \item
+    Todas as afirmações são probabilisticamente contraditórias.
+  \item
+    As afirmações 5 e 8 são probabilisticamente contraditórias.
+  \item
+    As afirmações 9 e 10 são probabilisticamente contraditórias.
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para quaisquer eventos \(A\) e \(B\), \(P(A) \geq P(A \cap B)\).
+  Portanto as probabilidades atribuídas às duas afirmações são
+  probabilisticamente contraditórias.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

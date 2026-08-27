@@ -1,0 +1,502 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma enquete realizada pelo DataSenado sobre o Projeto de Lei no
+  263/2018, que veda a produção, importação, comercialização e
+  distribuição, ainda que gratuita, de produtos que contém plástico,
+  apontou que a proibição a canudos plásticos foi a que teve maior apoio
+  com 87\%. A pesquisa recebeu 636 respostas (considere que os
+  respondentes foram selecionados aleatoriamente da população de
+  eleitores). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores a favor da proposta de proibição de canudos com confiança de
+  90\%. (Utilize a fórmula disponível no conjunto de equações fornecidas
+  para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.848, 0.892]\)
+  \item
+    \([0.855, 0.885]\)
+  \item
+    \([0.837, 0.903]\)
+  \item
+    \([0.870, 0.870]\)
+  \item
+    \([0.859, 0.881]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.87-1.64\times\sqrt{\frac{0.1131}{636}} \ , \ 0.87+1.64\times\sqrt{\frac{0.1131}{636}}\right]\\
+  &=&\text{$[0.848, 0.892]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma enquete realizada pelo DataSenado sobre o Projeto de Lei no
+  263/2018, que veda a produção, importação, comercialização e
+  distribuição, ainda que gratuita, de produtos que contém plástico,
+  apontou que a proibição a canudos plásticos foi a que teve maior apoio
+  com 80\%. A pesquisa recebeu 645 respostas (considere que os
+  respondentes foram selecionados aleatoriamente da população de
+  eleitores). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores a favor da proposta de proibição de canudos com confiança de
+  90\%. (Utilize a fórmula disponível no conjunto de equações fornecidas
+  para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.782, 0.818]\)
+  \item
+    \([0.800, 0.800]\)
+  \item
+    \([0.787, 0.813]\)
+  \item
+    \([0.774, 0.826]\)
+  \item
+    \([0.761, 0.839]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.8-1.64\times\sqrt{\frac{0.16}{645}} \ , \ 0.8+1.64\times\sqrt{\frac{0.16}{645}}\right]\\
+  &=&\text{$[0.774, 0.826]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma enquete realizada pelo DataSenado sobre o Projeto de Lei no
+  263/2018, que veda a produção, importação, comercialização e
+  distribuição, ainda que gratuita, de produtos que contém plástico,
+  apontou que a proibição a canudos plásticos foi a que teve maior apoio
+  com 80\%. A pesquisa recebeu 649 respostas (considere que os
+  respondentes foram selecionados aleatoriamente da população de
+  eleitores). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores a favor da proposta de proibição de canudos com confiança de
+  80\%. (Utilize a fórmula disponível no conjunto de equações fornecidas
+  para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.780, 0.820]\)
+  \item
+    \([0.790, 0.810]\)
+  \item
+    \([0.770, 0.830]\)
+  \item
+    \([0.786, 0.814]\)
+  \item
+    \([0.800, 0.800]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.8-1.28\times\sqrt{\frac{0.16}{649}} \ , \ 0.8+1.28\times\sqrt{\frac{0.16}{649}}\right]\\
+  &=&\text{$[0.780, 0.820]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma enquete realizada pelo DataSenado sobre o Projeto de Lei no
+  263/2018, que veda a produção, importação, comercialização e
+  distribuição, ainda que gratuita, de produtos que contém plástico,
+  apontou que a proibição a canudos plásticos foi a que teve maior apoio
+  com 86\%. A pesquisa recebeu 641 respostas (considere que os
+  respondentes foram selecionados aleatoriamente da população de
+  eleitores). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores a favor da proposta de proibição de canudos com confiança de
+  95\%. (Utilize a fórmula disponível no conjunto de equações fornecidas
+  para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.820, 0.900]\)
+  \item
+    \([0.860, 0.860]\)
+  \item
+    \([0.847, 0.873]\)
+  \item
+    \([0.841, 0.879]\)
+  \item
+    \([0.833, 0.887]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.86-1.96\times\sqrt{\frac{0.1204}{641}} \ , \ 0.86+1.96\times\sqrt{\frac{0.1204}{641}}\right]\\
+  &=&\text{$[0.833, 0.887]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma enquete realizada pelo DataSenado sobre o Projeto de Lei no
+  263/2018, que veda a produção, importação, comercialização e
+  distribuição, ainda que gratuita, de produtos que contém plástico,
+  apontou que a proibição a canudos plásticos foi a que teve maior apoio
+  com 84\%. A pesquisa recebeu 664 respostas (considere que os
+  respondentes foram selecionados aleatoriamente da população de
+  eleitores). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores a favor da proposta de proibição de canudos com confiança de
+  80\%. (Utilize a fórmula disponível no conjunto de equações fornecidas
+  para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.827, 0.853]\)
+  \item
+    \([0.831, 0.849]\)
+  \item
+    \([0.840, 0.840]\)
+  \item
+    \([0.813, 0.867]\)
+  \item
+    \([0.822, 0.858]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.84-1.28\times\sqrt{\frac{0.1344}{664}} \ , \ 0.84+1.28\times\sqrt{\frac{0.1344}{664}}\right]\\
+  &=&\text{$[0.822, 0.858]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma enquete realizada pelo DataSenado sobre o Projeto de Lei no
+  263/2018, que veda a produção, importação, comercialização e
+  distribuição, ainda que gratuita, de produtos que contém plástico,
+  apontou que a proibição a canudos plásticos foi a que teve maior apoio
+  com 87\%. A pesquisa recebeu 639 respostas (considere que os
+  respondentes foram selecionados aleatoriamente da população de
+  eleitores). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores a favor da proposta de proibição de canudos com confiança de
+  80\%. (Utilize a fórmula disponível no conjunto de equações fornecidas
+  para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.861, 0.879]\)
+  \item
+    \([0.844, 0.896]\)
+  \item
+    \([0.853, 0.887]\)
+  \item
+    \([0.870, 0.870]\)
+  \item
+    \([0.858, 0.882]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.87-1.28\times\sqrt{\frac{0.1131}{639}} \ , \ 0.87+1.28\times\sqrt{\frac{0.1131}{639}}\right]\\
+  &=&\text{$[0.853, 0.887]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma enquete realizada pelo DataSenado sobre o Projeto de Lei no
+  263/2018, que veda a produção, importação, comercialização e
+  distribuição, ainda que gratuita, de produtos que contém plástico,
+  apontou que a proibição a canudos plásticos foi a que teve maior apoio
+  com 80\%. A pesquisa recebeu 642 respostas (considere que os
+  respondentes foram selecionados aleatoriamente da população de
+  eleitores). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores a favor da proposta de proibição de canudos com confiança de
+  95\%. (Utilize a fórmula disponível no conjunto de equações fornecidas
+  para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.800, 0.800]\)
+  \item
+    \([0.778, 0.822]\)
+  \item
+    \([0.769, 0.831]\)
+  \item
+    \([0.754, 0.846]\)
+  \item
+    \([0.785, 0.815]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.8-1.96\times\sqrt{\frac{0.16}{642}} \ , \ 0.8+1.96\times\sqrt{\frac{0.16}{642}}\right]\\
+  &=&\text{$[0.769, 0.831]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma enquete realizada pelo DataSenado sobre o Projeto de Lei no
+  263/2018, que veda a produção, importação, comercialização e
+  distribuição, ainda que gratuita, de produtos que contém plástico,
+  apontou que a proibição a canudos plásticos foi a que teve maior apoio
+  com 81\%. A pesquisa recebeu 670 respostas (considere que os
+  respondentes foram selecionados aleatoriamente da população de
+  eleitores). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores a favor da proposta de proibição de canudos com confiança de
+  99\%. (Utilize a fórmula disponível no conjunto de equações fornecidas
+  para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.809, 0.811]\)
+  \item
+    \([0.771, 0.849]\)
+  \item
+    \([0.751, 0.869]\)
+  \item
+    \([0.790, 0.830]\)
+  \item
+    \([0.783, 0.837]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.81-2.58\times\sqrt{\frac{0.1539}{670}} \ , \ 0.81+2.58\times\sqrt{\frac{0.1539}{670}}\right]\\
+  &=&\text{$[0.771, 0.849]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma enquete realizada pelo DataSenado sobre o Projeto de Lei no
+  263/2018, que veda a produção, importação, comercialização e
+  distribuição, ainda que gratuita, de produtos que contém plástico,
+  apontou que a proibição a canudos plásticos foi a que teve maior apoio
+  com 80\%. A pesquisa recebeu 637 respostas (considere que os
+  respondentes foram selecionados aleatoriamente da população de
+  eleitores). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores a favor da proposta de proibição de canudos com confiança de
+  95\%. (Utilize a fórmula disponível no conjunto de equações fornecidas
+  para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.778, 0.822]\)
+  \item
+    \([0.784, 0.816]\)
+  \item
+    \([0.800, 0.800]\)
+  \item
+    \([0.753, 0.847]\)
+  \item
+    \([0.769, 0.831]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.8-1.96\times\sqrt{\frac{0.16}{637}} \ , \ 0.8+1.96\times\sqrt{\frac{0.16}{637}}\right]\\
+  &=&\text{$[0.769, 0.831]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma enquete realizada pelo DataSenado sobre o Projeto de Lei no
+  263/2018, que veda a produção, importação, comercialização e
+  distribuição, ainda que gratuita, de produtos que contém plástico,
+  apontou que a proibição a canudos plásticos foi a que teve maior apoio
+  com 87\%. A pesquisa recebeu 649 respostas (considere que os
+  respondentes foram selecionados aleatoriamente da população de
+  eleitores). Com base nas informações, assinale a alternativa
+  correspondente ao intervalo de confiança para o percentual de
+  eleitores a favor da proposta de proibição de canudos com confiança de
+  80\%. (Utilize a fórmula disponível no conjunto de equações fornecidas
+  para a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.862, 0.878]\)
+  \item
+    \([0.853, 0.887]\)
+  \item
+    \([0.870, 0.870]\)
+  \item
+    \([0.858, 0.882]\)
+  \item
+    \([0.845, 0.895]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.87-1.28\times\sqrt{\frac{0.1131}{649}} \ , \ 0.87+1.28\times\sqrt{\frac{0.1131}{649}}\right]\\
+  &=&\text{$[0.853, 0.887]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

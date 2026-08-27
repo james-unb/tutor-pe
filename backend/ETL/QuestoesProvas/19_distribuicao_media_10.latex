@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma instituição de caridade deseja realizar uma obra em sua sede que
+  custa 3261.6 Reais. Entre os contribuintes habituais dessa
+  instituição, cada um pode contribuir com um valor (\(X\)) que segue
+  uma variável aleatória com média e desvio padrão de 121 e 42,
+  respectivamente. Se 30 dessas pessoas se quotizarem para levantar
+  fundos com essa finalidade, qual a probabilidade de que eles consigam
+  o montante necessário?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9452\)
+  \item
+    \(0.5832\)
+  \item
+    \(0.2633\)
+  \item
+    \(0.5083\)
+  \item
+    \(0.7752\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Queremos calcular \(P(X_1+X_2+...+X_n \geq 3261.6)\), ou seja,
+  \(P \left( \sum_{i} X_i \geq 3261.6\right)\). Dividindo ambas as
+  partes por \(n\), temos
+  \[P \left( \sum_{i} X_i \geq 3261.6\right) = P \left( \bar{X} \geq \frac{3261.6}{30}\right).\]
+  Sabe-se que \(E(\overline{X}) = \mu = 121\) e que
+  \(\sigma/\sqrt{n} = 42/\sqrt{30} = 7.668\). Assim, a probabilidade
+  requerida é
+  \[P\left(\overline{X} \geq \frac{3261.6}{30}\right) = 1 - P\left(Z \leq \frac{108.72 - 121}{7.668}\right) = 1 - P(Z < -1.602) \approx 0.9452.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma instituição de caridade deseja realizar uma obra em sua sede que
+  custa 4390.84 Reais. Entre os contribuintes habituais dessa
+  instituição, cada um pode contribuir com um valor (\(X\)) que segue
+  uma variável aleatória com média e desvio padrão de 121 e 42,
+  respectivamente. Se 31 dessas pessoas se quotizarem para levantar
+  fundos com essa finalidade, qual a probabilidade de que eles consigam
+  o montante necessário?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7704\)
+  \item
+    \(0.4664\)
+  \item
+    \(0.3594\)
+  \item
+    \(0.8663\)
+  \item
+    \(0.0031\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Queremos calcular \(P(X_1+X_2+...+X_n \geq 4390.84)\), ou seja,
+  \(P \left( \sum_{i} X_i \geq 4390.84\right)\). Dividindo ambas as
+  partes por \(n\), temos
+  \[P \left( \sum_{i} X_i \geq 4390.84\right) = P \left( \bar{X} \geq \frac{4390.84}{31}\right).\]
+  Sabe-se que \(E(\overline{X}) = \mu = 121\) e que
+  \(\sigma/\sqrt{n} = 42/\sqrt{31} = 7.543\). Assim, a probabilidade
+  requerida é
+  \[P\left(\overline{X} \geq \frac{4390.84}{31}\right) = 1 - P\left(Z \leq \frac{141.64 - 121}{7.543}\right) = 1 - P(Z < 2.736) \approx 0.0031.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma instituição de caridade deseja realizar uma obra em sua sede que
+  custa 4137.28 Reais. Entre os contribuintes habituais dessa
+  instituição, cada um pode contribuir com um valor (\(X\)) que segue
+  uma variável aleatória com média e desvio padrão de 129 e 41,
+  respectivamente. Se 32 dessas pessoas se quotizarem para levantar
+  fundos com essa finalidade, qual a probabilidade de que eles consigam
+  o montante necessário?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6027\)
+  \item
+    \(0.3867\)
+  \item
+    \(0.4960\)
+  \item
+    \(0.7408\)
+  \item
+    \(0.4840\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Queremos calcular \(P(X_1+X_2+...+X_n \geq 4137.28)\), ou seja,
+  \(P \left( \sum_{i} X_i \geq 4137.28\right)\). Dividindo ambas as
+  partes por \(n\), temos
+  \[P \left( \sum_{i} X_i \geq 4137.28\right) = P \left( \bar{X} \geq \frac{4137.28}{32}\right).\]
+  Sabe-se que \(E(\overline{X}) = \mu = 129\) e que
+  \(\sigma/\sqrt{n} = 41/\sqrt{32} = 7.248\). Assim, a probabilidade
+  requerida é
+  \[P\left(\overline{X} \geq \frac{4137.28}{32}\right) = 1 - P\left(Z \leq \frac{129.29 - 129}{7.248}\right) = 1 - P(Z < 0.04) \approx 0.484.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma instituição de caridade deseja realizar uma obra em sua sede que
+  custa 3634.8 Reais. Entre os contribuintes habituais dessa
+  instituição, cada um pode contribuir com um valor (\(X\)) que segue
+  uma variável aleatória com média e desvio padrão de 127 e 42,
+  respectivamente. Se 30 dessas pessoas se quotizarem para levantar
+  fundos com essa finalidade, qual a probabilidade de que eles consigam
+  o montante necessário?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9235\)
+  \item
+    \(0.5398\)
+  \item
+    \(0.7028\)
+  \item
+    \(0.7764\)
+  \item
+    \(0.2652\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Queremos calcular \(P(X_1+X_2+...+X_n \geq 3634.8)\), ou seja,
+  \(P \left( \sum_{i} X_i \geq 3634.8\right)\). Dividindo ambas as
+  partes por \(n\), temos
+  \[P \left( \sum_{i} X_i \geq 3634.8\right) = P \left( \bar{X} \geq \frac{3634.8}{30}\right).\]
+  Sabe-se que \(E(\overline{X}) = \mu = 127\) e que
+  \(\sigma/\sqrt{n} = 42/\sqrt{30} = 7.668\). Assim, a probabilidade
+  requerida é
+  \[P\left(\overline{X} \geq \frac{3634.8}{30}\right) = 1 - P\left(Z \leq \frac{121.16 - 127}{7.668}\right) = 1 - P(Z < -0.761) \approx 0.7764.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma instituição de caridade deseja realizar uma obra em sua sede que
+  custa 4329.27 Reais. Entre os contribuintes habituais dessa
+  instituição, cada um pode contribuir com um valor (\(X\)) que segue
+  uma variável aleatória com média e desvio padrão de 120 e 35,
+  respectivamente. Se 33 dessas pessoas se quotizarem para levantar
+  fundos com essa finalidade, qual a probabilidade de que eles consigam
+  o montante necessário?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0616\)
+  \item
+    \(0.6016\)
+  \item
+    \(0.4947\)
+  \item
+    \(0.0329\)
+  \item
+    \(0.3821\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Queremos calcular \(P(X_1+X_2+...+X_n \geq 4329.27)\), ou seja,
+  \(P \left( \sum_{i} X_i \geq 4329.27\right)\). Dividindo ambas as
+  partes por \(n\), temos
+  \[P \left( \sum_{i} X_i \geq 4329.27\right) = P \left( \bar{X} \geq \frac{4329.27}{33}\right).\]
+  Sabe-se que \(E(\overline{X}) = \mu = 120\) e que
+  \(\sigma/\sqrt{n} = 35/\sqrt{33} = 6.093\). Assim, a probabilidade
+  requerida é
+  \[P\left(\overline{X} \geq \frac{4329.27}{33}\right) = 1 - P\left(Z \leq \frac{131.19 - 120}{6.093}\right) = 1 - P(Z < 1.837) \approx 0.0329.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma instituição de caridade deseja realizar uma obra em sua sede que
+  custa 3116.43 Reais. Entre os contribuintes habituais dessa
+  instituição, cada um pode contribuir com um valor (\(X\)) que segue
+  uma variável aleatória com média e desvio padrão de 120 e 44,
+  respectivamente. Se 31 dessas pessoas se quotizarem para levantar
+  fundos com essa finalidade, qual a probabilidade de que eles consigam
+  o montante necessário?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4702\)
+  \item
+    \(0.7074\)
+  \item
+    \(0.6217\)
+  \item
+    \(0.8768\)
+  \item
+    \(0.9931\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Queremos calcular \(P(X_1+X_2+...+X_n \geq 3116.43)\), ou seja,
+  \(P \left( \sum_{i} X_i \geq 3116.43\right)\). Dividindo ambas as
+  partes por \(n\), temos
+  \[P \left( \sum_{i} X_i \geq 3116.43\right) = P \left( \bar{X} \geq \frac{3116.43}{31}\right).\]
+  Sabe-se que \(E(\overline{X}) = \mu = 120\) e que
+  \(\sigma/\sqrt{n} = 44/\sqrt{31} = 7.903\). Assim, a probabilidade
+  requerida é
+  \[P\left(\overline{X} \geq \frac{3116.43}{31}\right) = 1 - P\left(Z \leq \frac{100.53 - 120}{7.903}\right) = 1 - P(Z < -2.464) \approx 0.9931.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma instituição de caridade deseja realizar uma obra em sua sede que
+  custa 3710.85 Reais. Entre os contribuintes habituais dessa
+  instituição, cada um pode contribuir com um valor (\(X\)) que segue
+  uma variável aleatória com média e desvio padrão de 129 e 45,
+  respectivamente. Se 33 dessas pessoas se quotizarem para levantar
+  fundos com essa finalidade, qual a probabilidade de que eles consigam
+  o montante necessário?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8444\)
+  \item
+    \(0.6064\)
+  \item
+    \(0.9826\)
+  \item
+    \(0.6816\)
+  \item
+    \(0.2724\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Queremos calcular \(P(X_1+X_2+...+X_n \geq 3710.85)\), ou seja,
+  \(P \left( \sum_{i} X_i \geq 3710.85\right)\). Dividindo ambas as
+  partes por \(n\), temos
+  \[P \left( \sum_{i} X_i \geq 3710.85\right) = P \left( \bar{X} \geq \frac{3710.85}{33}\right).\]
+  Sabe-se que \(E(\overline{X}) = \mu = 129\) e que
+  \(\sigma/\sqrt{n} = 45/\sqrt{33} = 7.833\). Assim, a probabilidade
+  requerida é
+  \[P\left(\overline{X} \geq \frac{3710.85}{33}\right) = 1 - P\left(Z \leq \frac{112.45 - 129}{7.833}\right) = 1 - P(Z < -2.113) \approx 0.9826.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma instituição de caridade deseja realizar uma obra em sua sede que
+  custa 4215.42 Reais. Entre os contribuintes habituais dessa
+  instituição, cada um pode contribuir com um valor (\(X\)) que segue
+  uma variável aleatória com média e desvio padrão de 122 e 45,
+  respectivamente. Se 33 dessas pessoas se quotizarem para levantar
+  fundos com essa finalidade, qual a probabilidade de que eles consigam
+  o montante necessário?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5545\)
+  \item
+    \(0.2327\)
+  \item
+    \(0.7256\)
+  \item
+    \(0.4641\)
+  \item
+    \(0.5575\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Queremos calcular \(P(X_1+X_2+...+X_n \geq 4215.42)\), ou seja,
+  \(P \left( \sum_{i} X_i \geq 4215.42\right)\). Dividindo ambas as
+  partes por \(n\), temos
+  \[P \left( \sum_{i} X_i \geq 4215.42\right) = P \left( \bar{X} \geq \frac{4215.42}{33}\right).\]
+  Sabe-se que \(E(\overline{X}) = \mu = 122\) e que
+  \(\sigma/\sqrt{n} = 45/\sqrt{33} = 7.833\). Assim, a probabilidade
+  requerida é
+  \[P\left(\overline{X} \geq \frac{4215.42}{33}\right) = 1 - P\left(Z \leq \frac{127.74 - 122}{7.833}\right) = 1 - P(Z < 0.733) \approx 0.2327.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma instituição de caridade deseja realizar uma obra em sua sede que
+  custa 3815.68 Reais. Entre os contribuintes habituais dessa
+  instituição, cada um pode contribuir com um valor (\(X\)) que segue
+  uma variável aleatória com média e desvio padrão de 122 e 36,
+  respectivamente. Se 32 dessas pessoas se quotizarem para levantar
+  fundos com essa finalidade, qual a probabilidade de que eles consigam
+  o montante necessário?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5279\)
+  \item
+    \(0.6664\)
+  \item
+    \(0.6027\)
+  \item
+    \(0.5896\)
+  \item
+    \(0.2541\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Queremos calcular \(P(X_1+X_2+...+X_n \geq 3815.68)\), ou seja,
+  \(P \left( \sum_{i} X_i \geq 3815.68\right)\). Dividindo ambas as
+  partes por \(n\), temos
+  \[P \left( \sum_{i} X_i \geq 3815.68\right) = P \left( \bar{X} \geq \frac{3815.68}{32}\right).\]
+  Sabe-se que \(E(\overline{X}) = \mu = 122\) e que
+  \(\sigma/\sqrt{n} = 36/\sqrt{32} = 6.364\). Assim, a probabilidade
+  requerida é
+  \[P\left(\overline{X} \geq \frac{3815.68}{32}\right) = 1 - P\left(Z \leq \frac{119.24 - 122}{6.364}\right) = 1 - P(Z < -0.433) \approx 0.6664.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma instituição de caridade deseja realizar uma obra em sua sede que
+  custa 3909.51 Reais. Entre os contribuintes habituais dessa
+  instituição, cada um pode contribuir com um valor (\(X\)) que segue
+  uma variável aleatória com média e desvio padrão de 126 e 36,
+  respectivamente. Se 33 dessas pessoas se quotizarem para levantar
+  fundos com essa finalidade, qual a probabilidade de que eles consigam
+  o montante necessário?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1874\)
+  \item
+    \(0.5753\)
+  \item
+    \(0.2028\)
+  \item
+    \(0.8849\)
+  \item
+    \(0.4728\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Queremos calcular \(P(X_1+X_2+...+X_n \geq 3909.51)\), ou seja,
+  \(P \left( \sum_{i} X_i \geq 3909.51\right)\). Dividindo ambas as
+  partes por \(n\), temos
+  \[P \left( \sum_{i} X_i \geq 3909.51\right) = P \left( \bar{X} \geq \frac{3909.51}{33}\right).\]
+  Sabe-se que \(E(\overline{X}) = \mu = 126\) e que
+  \(\sigma/\sqrt{n} = 36/\sqrt{33} = 6.267\). Assim, a probabilidade
+  requerida é
+  \[P\left(\overline{X} \geq \frac{3909.51}{33}\right) = 1 - P\left(Z \leq \frac{118.47 - 126}{6.267}\right) = 1 - P(Z < -1.202) \approx 0.8849.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

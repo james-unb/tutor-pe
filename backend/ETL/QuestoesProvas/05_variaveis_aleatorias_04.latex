@@ -1,0 +1,612 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Considere um exame de avaliação para ingresso de alunos em uma
+  universidade pública. Seja \(A\) a variável aleatória que representa o
+  número de candidatos para o curso de Estatística. A função de
+  probabilidade de \(A\) está representada na tabela abaixo. Seja
+  \(E(A^2)=479400\), calcule o desvio padrão do número de candidatos
+  inscritos.\\
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  \(A\) & \(400\) & \(500\) & \(600\) & \(700\) & \(800\) & \(900\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(p(a)\) & \(0.05\) & \(0\) & \(0.07\) & \(0.05\) & \(0.14\) &
+  \(0.41\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(145316.00\)
+  \item
+    \(901.93\)
+  \item
+    \(691.97\)
+  \item
+    \(692.80\)
+  \item
+    \(381.20\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular o valor de
+  E(A). \[\begin{aligned}
+  E(A) &= \sum_{a=4}^9 a~P(A=a) \\
+  & = 400 \times 0.05+
+  500 \times 0+600 \times 0.07+ 700 \times 0.05+800 \times 0.14+
+  900 \times 0.41 \\
+  & = 578.
+  \end{aligned}\]
+
+  De modo que \(V(A) = E(A^2) - \left\{E(A)\right\}^2 = 145316\). Logo,
+  o desvio padrão é dado por\\
+  \(DP = \sqrt{V(A)} = 381.2\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere um exame de avaliação para ingresso de alunos em uma
+  universidade pública. Seja \(A\) a variável aleatória que representa o
+  número de candidatos para o curso de Estatística. A função de
+  probabilidade de \(A\) está representada na tabela abaixo. Seja
+  \(E(A^2)=412700\), calcule o desvio padrão do número de candidatos
+  inscritos.\\
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  \(A\) & \(400\) & \(500\) & \(600\) & \(700\) & \(800\) & \(900\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(p(a)\) & \(0.01\) & \(0.02\) & \(0.1\) & \(0.08\) & \(0.15\) &
+  \(0.29\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(820.87\)
+  \item
+    \(642.02\)
+  \item
+    \(642.81\)
+  \item
+    \(389.33\)
+  \item
+    \(151579.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular o valor de
+  E(A). \[\begin{aligned}
+  E(A) &= \sum_{a=4}^9 a~P(A=a) \\
+  & = 400 \times 0.01+
+  500 \times 0.02+600 \times 0.1+ 700 \times 0.08+800 \times 0.15+
+  900 \times 0.29 \\
+  & = 511.
+  \end{aligned}\]
+
+  De modo que \(V(A) = E(A^2) - \left\{E(A)\right\}^2 = 151579\). Logo,
+  o desvio padrão é dado por\\
+  \(DP = \sqrt{V(A)} = 389.33\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere um exame de avaliação para ingresso de alunos em uma
+  universidade pública. Seja \(A\) a variável aleatória que representa o
+  número de candidatos para o curso de Estatística. A função de
+  probabilidade de \(A\) está representada na tabela abaixo. Seja
+  \(E(A^2)=245600\), calcule o desvio padrão do número de candidatos
+  inscritos.\\
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  \(A\) & \(400\) & \(500\) & \(600\) & \(700\) & \(800\) & \(900\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(p(a)\) & \(0\) & \(0.02\) & \(0.13\) & \(0.09\) & \(0.12\) &
+  \(0.09\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(594.29\)
+  \item
+    \(371.51\)
+  \item
+    \(495.25\)
+  \item
+    \(495.91\)
+  \item
+    \(138016.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular o valor de
+  E(A). \[\begin{aligned}
+  E(A) &= \sum_{a=4}^9 a~P(A=a) \\
+  & = 400 \times 0+
+  500 \times 0.02+600 \times 0.13+ 700 \times 0.09+800 \times 0.12+
+  900 \times 0.09 \\
+  & = 328.
+  \end{aligned}\]
+
+  De modo que \(V(A) = E(A^2) - \left\{E(A)\right\}^2 = 138016\). Logo,
+  o desvio padrão é dado por\\
+  \(DP = \sqrt{V(A)} = 371.51\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere um exame de avaliação para ingresso de alunos em uma
+  universidade pública. Seja \(A\) a variável aleatória que representa o
+  número de candidatos para o curso de Estatística. A função de
+  probabilidade de \(A\) está representada na tabela abaixo. Seja
+  \(E(A^2)=450300\), calcule o desvio padrão do número de candidatos
+  inscritos.\\
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  \(A\) & \(400\) & \(500\) & \(600\) & \(700\) & \(800\) & \(900\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(p(a)\) & \(0.02\) & \(0.05\) & \(0.02\) & \(0.1\) & \(0.49\) &
+  \(0.08\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(670.61\)
+  \item
+    \(115059.00\)
+  \item
+    \(886.31\)
+  \item
+    \(339.20\)
+  \item
+    \(671.48\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular o valor de
+  E(A). \[\begin{aligned}
+  E(A) &= \sum_{a=4}^9 a~P(A=a) \\
+  & = 400 \times 0.02+
+  500 \times 0.05+600 \times 0.02+ 700 \times 0.1+800 \times 0.49+
+  900 \times 0.08 \\
+  & = 579.
+  \end{aligned}\]
+
+  De modo que \(V(A) = E(A^2) - \left\{E(A)\right\}^2 = 115059\). Logo,
+  o desvio padrão é dado por\\
+  \(DP = \sqrt{V(A)} = 339.2\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere um exame de avaliação para ingresso de alunos em uma
+  universidade pública. Seja \(A\) a variável aleatória que representa o
+  número de candidatos para o curso de Estatística. A função de
+  probabilidade de \(A\) está representada na tabela abaixo. Seja
+  \(E(A^2)=480300\), calcule o desvio padrão do número de candidatos
+  inscritos.\\
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  \(A\) & \(400\) & \(500\) & \(600\) & \(700\) & \(800\) & \(900\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(p(a)\) & \(0.03\) & \(0.17\) & \(0.04\) & \(0.15\) & \(0.4\) &
+  \(0.11\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(692.57\)
+  \item
+    \(693.50\)
+  \item
+    \(946.74\)
+  \item
+    \(253.53\)
+  \item
+    \(64275.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular o valor de
+  E(A). \[\begin{aligned}
+  E(A) &= \sum_{a=4}^9 a~P(A=a) \\
+  & = 400 \times 0.03+
+  500 \times 0.17+600 \times 0.04+ 700 \times 0.15+800 \times 0.4+
+  900 \times 0.11 \\
+  & = 645.
+  \end{aligned}\]
+
+  De modo que \(V(A) = E(A^2) - \left\{E(A)\right\}^2 = 64275\). Logo, o
+  desvio padrão é dado por\\
+  \(DP = \sqrt{V(A)} = 253.53\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere um exame de avaliação para ingresso de alunos em uma
+  universidade pública. Seja \(A\) a variável aleatória que representa o
+  número de candidatos para o curso de Estatística. A função de
+  probabilidade de \(A\) está representada na tabela abaixo. Seja
+  \(E(A^2)=279000\), calcule o desvio padrão do número de candidatos
+  inscritos.\\
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  \(A\) & \(400\) & \(500\) & \(600\) & \(700\) & \(800\) & \(900\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(p(a)\) & \(0.02\) & \(0.32\) & \(0.04\) & \(0.13\) & \(0.07\) &
+  \(0.09\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(528.60\)
+  \item
+    \(320.31\)
+  \item
+    \(674.83\)
+  \item
+    \(527.81\)
+  \item
+    \(102600.00\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular o valor de
+  E(A). \[\begin{aligned}
+  E(A) &= \sum_{a=4}^9 a~P(A=a) \\
+  & = 400 \times 0.02+
+  500 \times 0.32+600 \times 0.04+ 700 \times 0.13+800 \times 0.07+
+  900 \times 0.09 \\
+  & = 420.
+  \end{aligned}\]
+
+  De modo que \(V(A) = E(A^2) - \left\{E(A)\right\}^2 = 102600\). Logo,
+  o desvio padrão é dado por\\
+  \(DP = \sqrt{V(A)} = 320.31\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere um exame de avaliação para ingresso de alunos em uma
+  universidade pública. Seja \(A\) a variável aleatória que representa o
+  número de candidatos para o curso de Estatística. A função de
+  probabilidade de \(A\) está representada na tabela abaixo. Seja
+  \(E(A^2)=365600\), calcule o desvio padrão do número de candidatos
+  inscritos.\\
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  \(A\) & \(400\) & \(500\) & \(600\) & \(700\) & \(800\) & \(900\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(p(a)\) & \(0.06\) & \(0.16\) & \(0.26\) & \(0.07\) & \(0.18\) &
+  \(0.09\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(80444.00\)
+  \item
+    \(605.09\)
+  \item
+    \(806.69\)
+  \item
+    \(283.63\)
+  \item
+    \(604.21\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular o valor de
+  E(A). \[\begin{aligned}
+  E(A) &= \sum_{a=4}^9 a~P(A=a) \\
+  & = 400 \times 0.06+
+  500 \times 0.16+600 \times 0.26+ 700 \times 0.07+800 \times 0.18+
+  900 \times 0.09 \\
+  & = 534.
+  \end{aligned}\]
+
+  De modo que \(V(A) = E(A^2) - \left\{E(A)\right\}^2 = 80444\). Logo, o
+  desvio padrão é dado por\\
+  \(DP = \sqrt{V(A)} = 283.63\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere um exame de avaliação para ingresso de alunos em uma
+  universidade pública. Seja \(A\) a variável aleatória que representa o
+  número de candidatos para o curso de Estatística. A função de
+  probabilidade de \(A\) está representada na tabela abaixo. Seja
+  \(E(A^2)=297800\), calcule o desvio padrão do número de candidatos
+  inscritos.\\
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  \(A\) & \(400\) & \(500\) & \(600\) & \(700\) & \(800\) & \(900\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(p(a)\) & \(0.07\) & \(0.1\) & \(0.52\) & \(0.07\) & \(0.05\) &
+  \(0.01\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(59656.00\)
+  \item
+    \(546.16\)
+  \item
+    \(732.08\)
+  \item
+    \(244.25\)
+  \item
+    \(545.26\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular o valor de
+  E(A). \[\begin{aligned}
+  E(A) &= \sum_{a=4}^9 a~P(A=a) \\
+  & = 400 \times 0.07+
+  500 \times 0.1+600 \times 0.52+ 700 \times 0.07+800 \times 0.05+
+  900 \times 0.01 \\
+  & = 488.
+  \end{aligned}\]
+
+  De modo que \(V(A) = E(A^2) - \left\{E(A)\right\}^2 = 59656\). Logo, o
+  desvio padrão é dado por\\
+  \(DP = \sqrt{V(A)} = 244.25\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere um exame de avaliação para ingresso de alunos em uma
+  universidade pública. Seja \(A\) a variável aleatória que representa o
+  número de candidatos para o curso de Estatística. A função de
+  probabilidade de \(A\) está representada na tabela abaixo. Seja
+  \(E(A^2)=357800\), calcule o desvio padrão do número de candidatos
+  inscritos.\\
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  \(A\) & \(400\) & \(500\) & \(600\) & \(700\) & \(800\) & \(900\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(p(a)\) & \(0.04\) & \(0.24\) & \(0.18\) & \(0.05\) & \(0.05\) &
+  \(0.21\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(315.81\)
+  \item
+    \(784.77\)
+  \item
+    \(99736.00\)
+  \item
+    \(597.74\)
+  \item
+    \(598.59\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular o valor de
+  E(A). \[\begin{aligned}
+  E(A) &= \sum_{a=4}^9 a~P(A=a) \\
+  & = 400 \times 0.04+
+  500 \times 0.24+600 \times 0.18+ 700 \times 0.05+800 \times 0.05+
+  900 \times 0.21 \\
+  & = 508.
+  \end{aligned}\]
+
+  De modo que \(V(A) = E(A^2) - \left\{E(A)\right\}^2 = 99736\). Logo, o
+  desvio padrão é dado por\\
+  \(DP = \sqrt{V(A)} = 315.81\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Considere um exame de avaliação para ingresso de alunos em uma
+  universidade pública. Seja \(A\) a variável aleatória que representa o
+  número de candidatos para o curso de Estatística. A função de
+  probabilidade de \(A\) está representada na tabela abaixo. Seja
+  \(E(A^2)=178800\), calcule o desvio padrão do número de candidatos
+  inscritos.\\
+
+  \begin{longtable}[]{@{}ccccccc@{}}
+  \toprule\noalign{}
+  \(A\) & \(400\) & \(500\) & \(600\) & \(700\) & \(800\) & \(900\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(p(a)\) & \(0.17\) & \(0.07\) & \(0.09\) & \(0.05\) & \(0.07\) &
+  \(0.04\) \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(98144.00\)
+  \item
+    \(313.28\)
+  \item
+    \(509.37\)
+  \item
+    \(423.18\)
+  \item
+    \(422.51\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Para o cálculo da variância precisamos, antes, calcular o valor de
+  E(A). \[\begin{aligned}
+  E(A) &= \sum_{a=4}^9 a~P(A=a) \\
+  & = 400 \times 0.17+
+  500 \times 0.07+600 \times 0.09+ 700 \times 0.05+800 \times 0.07+
+  900 \times 0.04 \\
+  & = 284.
+  \end{aligned}\]
+
+  De modo que \(V(A) = E(A^2) - \left\{E(A)\right\}^2 = 98144\). Logo, o
+  desvio padrão é dado por\\
+  \(DP = \sqrt{V(A)} = 313.28\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,482 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A fim de estimar o resultado do 1° turno das eleições no Brasil, foi
+  selecionada uma amostra aleatória de eleitores e em seguida realizada
+  uma pesquisa sobre a intenção de votos. A pesquisa mostrou que
+  determinado candidato obteve 56\% das intenções de votos válidos e
+  está a frente dos demais candidatos. No total, foram 108 eleitores
+  entrevistados. Estime o intervalo de confiança para o resultado do
+  candidato que irá liderar o primeiro turno com confiança de 90\%.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.505, 0.615]\)
+  \item
+    \([0.482, 0.638]\)
+  \item
+    \([0.442, 0.678]\)
+  \item
+    \([0.557, 0.563]\)
+  \item
+    \([0.521, 0.599]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.56-1.64\times\sqrt{\frac{0.2464}{108}} \ , \ 0.56+1.64\times\sqrt{\frac{0.2464}{108}}\right]\\
+  &=&\text{$[0.482, 0.638]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A fim de estimar o resultado do 1° turno das eleições no Brasil, foi
+  selecionada uma amostra aleatória de eleitores e em seguida realizada
+  uma pesquisa sobre a intenção de votos. A pesquisa mostrou que
+  determinado candidato obteve 62\% das intenções de votos válidos e
+  está a frente dos demais candidatos. No total, foram 102 eleitores
+  entrevistados. Estime o intervalo de confiança para o resultado do
+  candidato que irá liderar o primeiro turno com confiança de 80\%.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.528, 0.712]\)
+  \item
+    \([0.577, 0.663]\)
+  \item
+    \([0.618, 0.622]\)
+  \item
+    \([0.589, 0.651]\)
+  \item
+    \([0.558, 0.682]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.62-1.28\times\sqrt{\frac{0.2356}{102}} \ , \ 0.62+1.28\times\sqrt{\frac{0.2356}{102}}\right]\\
+  &=&\text{$[0.558, 0.682]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A fim de estimar o resultado do 1° turno das eleições no Brasil, foi
+  selecionada uma amostra aleatória de eleitores e em seguida realizada
+  uma pesquisa sobre a intenção de votos. A pesquisa mostrou que
+  determinado candidato obteve 52\% das intenções de votos válidos e
+  está a frente dos demais candidatos. No total, foram 118 eleitores
+  entrevistados. Estime o intervalo de confiança para o resultado do
+  candidato que irá liderar o primeiro turno com confiança de 80\%.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.479, 0.561]\)
+  \item
+    \([0.491, 0.549]\)
+  \item
+    \([0.518, 0.522]\)
+  \item
+    \([0.432, 0.608]\)
+  \item
+    \([0.461, 0.579]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.52-1.28\times\sqrt{\frac{0.2496}{118}} \ , \ 0.52+1.28\times\sqrt{\frac{0.2496}{118}}\right]\\
+  &=&\text{$[0.461, 0.579]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A fim de estimar o resultado do 1° turno das eleições no Brasil, foi
+  selecionada uma amostra aleatória de eleitores e em seguida realizada
+  uma pesquisa sobre a intenção de votos. A pesquisa mostrou que
+  determinado candidato obteve 62\% das intenções de votos válidos e
+  está a frente dos demais candidatos. No total, foram 114 eleitores
+  entrevistados. Estime o intervalo de confiança para o resultado do
+  candidato que irá liderar o primeiro turno com confiança de 90\%.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.568, 0.672]\)
+  \item
+    \([0.508, 0.732]\)
+  \item
+    \([0.583, 0.657]\)
+  \item
+    \([0.545, 0.695]\)
+  \item
+    \([0.617, 0.623]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.62-1.64\times\sqrt{\frac{0.2356}{114}} \ , \ 0.62+1.64\times\sqrt{\frac{0.2356}{114}}\right]\\
+  &=&\text{$[0.545, 0.695]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A fim de estimar o resultado do 1° turno das eleições no Brasil, foi
+  selecionada uma amostra aleatória de eleitores e em seguida realizada
+  uma pesquisa sobre a intenção de votos. A pesquisa mostrou que
+  determinado candidato obteve 62\% das intenções de votos válidos e
+  está a frente dos demais candidatos. No total, foram 126 eleitores
+  entrevistados. Estime o intervalo de confiança para o resultado do
+  candidato que irá liderar o primeiro turno com confiança de 80\%.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.565, 0.675]\)
+  \item
+    \([0.618, 0.622]\)
+  \item
+    \([0.537, 0.703]\)
+  \item
+    \([0.581, 0.659]\)
+  \item
+    \([0.592, 0.648]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.62-1.28\times\sqrt{\frac{0.2356}{126}} \ , \ 0.62+1.28\times\sqrt{\frac{0.2356}{126}}\right]\\
+  &=&\text{$[0.565, 0.675]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A fim de estimar o resultado do 1° turno das eleições no Brasil, foi
+  selecionada uma amostra aleatória de eleitores e em seguida realizada
+  uma pesquisa sobre a intenção de votos. A pesquisa mostrou que
+  determinado candidato obteve 60\% das intenções de votos válidos e
+  está a frente dos demais candidatos. No total, foram 121 eleitores
+  entrevistados. Estime o intervalo de confiança para o resultado do
+  candidato que irá liderar o primeiro turno com confiança de 90\%.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.490, 0.710]\)
+  \item
+    \([0.549, 0.651]\)
+  \item
+    \([0.597, 0.603]\)
+  \item
+    \([0.563, 0.637]\)
+  \item
+    \([0.527, 0.673]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.6-1.64\times\sqrt{\frac{0.24}{121}} \ , \ 0.6+1.64\times\sqrt{\frac{0.24}{121}}\right]\\
+  &=&\text{$[0.527, 0.673]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A fim de estimar o resultado do 1° turno das eleições no Brasil, foi
+  selecionada uma amostra aleatória de eleitores e em seguida realizada
+  uma pesquisa sobre a intenção de votos. A pesquisa mostrou que
+  determinado candidato obteve 63\% das intenções de votos válidos e
+  está a frente dos demais candidatos. No total, foram 150 eleitores
+  entrevistados. Estime o intervalo de confiança para o resultado do
+  candidato que irá liderar o primeiro turno com confiança de 99\%.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.626, 0.634]\)
+  \item
+    \([0.559, 0.701]\)
+  \item
+    \([0.528, 0.732]\)
+  \item
+    \([0.477, 0.783]\)
+  \item
+    \([0.579, 0.681]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;99\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.63-2.58\times\sqrt{\frac{0.2331}{150}} \ , \ 0.63+2.58\times\sqrt{\frac{0.2331}{150}}\right]\\
+  &=&\text{$[0.528, 0.732]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A fim de estimar o resultado do 1° turno das eleições no Brasil, foi
+  selecionada uma amostra aleatória de eleitores e em seguida realizada
+  uma pesquisa sobre a intenção de votos. A pesquisa mostrou que
+  determinado candidato obteve 55\% das intenções de votos válidos e
+  está a frente dos demais candidatos. No total, foram 106 eleitores
+  entrevistados. Estime o intervalo de confiança para o resultado do
+  candidato que irá liderar o primeiro turno com confiança de 95\%.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.503, 0.597]\)
+  \item
+    \([0.455, 0.645]\)
+  \item
+    \([0.546, 0.554]\)
+  \item
+    \([0.408, 0.692]\)
+  \item
+    \([0.484, 0.616]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;95\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.55-1.96\times\sqrt{\frac{0.2475}{106}} \ , \ 0.55+1.96\times\sqrt{\frac{0.2475}{106}}\right]\\
+  &=&\text{$[0.455, 0.645]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A fim de estimar o resultado do 1° turno das eleições no Brasil, foi
+  selecionada uma amostra aleatória de eleitores e em seguida realizada
+  uma pesquisa sobre a intenção de votos. A pesquisa mostrou que
+  determinado candidato obteve 56\% das intenções de votos válidos e
+  está a frente dos demais candidatos. No total, foram 137 eleitores
+  entrevistados. Estime o intervalo de confiança para o resultado do
+  candidato que irá liderar o primeiro turno com confiança de 90\%.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.456, 0.664]\)
+  \item
+    \([0.558, 0.562]\)
+  \item
+    \([0.490, 0.630]\)
+  \item
+    \([0.511, 0.609]\)
+  \item
+    \([0.525, 0.595]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;90\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.56-1.64\times\sqrt{\frac{0.2464}{137}} \ , \ 0.56+1.64\times\sqrt{\frac{0.2464}{137}}\right]\\
+  &=&\text{$[0.490, 0.630]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A fim de estimar o resultado do 1° turno das eleições no Brasil, foi
+  selecionada uma amostra aleatória de eleitores e em seguida realizada
+  uma pesquisa sobre a intenção de votos. A pesquisa mostrou que
+  determinado candidato obteve 60\% das intenções de votos válidos e
+  está a frente dos demais candidatos. No total, foram 149 eleitores
+  entrevistados. Estime o intervalo de confiança para o resultado do
+  candidato que irá liderar o primeiro turno com confiança de 80\%.
+  (Utilize a fórmula disponível no conjunto de equações fornecidas para
+  a prova.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([0.574, 0.626]\)
+  \item
+    \([0.564, 0.636]\)
+  \item
+    \([0.523, 0.677]\)
+  \item
+    \([0.549, 0.651]\)
+  \item
+    \([0.599, 0.601]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(p;80\%)&=&\left[\hat{p}-z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \ , \ \hat{p}+z_{1-\alpha/2}\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]\\
+  &=&\left[0.6-1.28\times\sqrt{\frac{0.24}{149}} \ , \ 0.6+1.28\times\sqrt{\frac{0.24}{149}}\right]\\
+  &=&\text{$[0.549, 0.651]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

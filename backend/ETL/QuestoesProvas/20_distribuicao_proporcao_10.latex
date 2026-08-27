@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O Brasil é referência mundial na área de transplantes e possui o maior
+  sistema público de transplantes do mundo. Em números absolutos, o
+  Brasil é o 2º maior transplantador do mundo, atrás apenas dos EUA. Um
+  levantamento revelou que o número de doações de órgão disparou, e
+  estima-se que \(32\%\) dos pacientes recebem a doação. Sorteia-se uma
+  amostra de \(88\) pacientes que estiveram a espera de transplante.
+  Qual é a probabilidade da proporção de pacientes que receberam doações
+  na amostra ser superior a \(34\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4641\)
+  \item
+    \(0.8447\)
+  \item
+    \(0.4441\)
+  \item
+    \(0.4840\)
+  \item
+    \(0.3446\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.32\) e
+  \(\sigma = \sqrt{\frac{0.32\times0.68}{88}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.34\right) &= 1 - P\left(\frac{\hat{p}-0.32}{0.0497} < \frac{0.34-0.32}{0.0497}\right) \\
+   & = 1 - P\left(Z<0.4\right) = 0.3446.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Brasil é referência mundial na área de transplantes e possui o maior
+  sistema público de transplantes do mundo. Em números absolutos, o
+  Brasil é o 2º maior transplantador do mundo, atrás apenas dos EUA. Um
+  levantamento revelou que o número de doações de órgão disparou, e
+  estima-se que \(15\%\) dos pacientes recebem a doação. Sorteia-se uma
+  amostra de \(57\) pacientes que estiveram a espera de transplante.
+  Qual é a probabilidade da proporção de pacientes que receberam doações
+  na amostra ser superior a \(18\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2643\)
+  \item
+    \(0.1751\)
+  \item
+    \(0.4681\)
+  \item
+    \(0.3923\)
+  \item
+    \(0.4052\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.15\) e
+  \(\sigma = \sqrt{\frac{0.15\times0.85}{57}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.18\right) &= 1 - P\left(\frac{\hat{p}-0.15}{0.0473} < \frac{0.18-0.15}{0.0473}\right) \\
+   & = 1 - P\left(Z<0.63\right) = 0.2643.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Brasil é referência mundial na área de transplantes e possui o maior
+  sistema público de transplantes do mundo. Em números absolutos, o
+  Brasil é o 2º maior transplantador do mundo, atrás apenas dos EUA. Um
+  levantamento revelou que o número de doações de órgão disparou, e
+  estima-se que \(33\%\) dos pacientes recebem a doação. Sorteia-se uma
+  amostra de \(51\) pacientes que estiveram a espera de transplante.
+  Qual é a probabilidade da proporção de pacientes que receberam doações
+  na amostra ser superior a \(35\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4641\)
+  \item
+    \(0.5936\)
+  \item
+    \(0.8446\)
+  \item
+    \(0.4840\)
+  \item
+    \(0.3821\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.33\) e
+  \(\sigma = \sqrt{\frac{0.33\times0.67}{51}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.35\right) &= 1 - P\left(\frac{\hat{p}-0.33}{0.0658} < \frac{0.35-0.33}{0.0658}\right) \\
+   & = 1 - P\left(Z<0.3\right) = 0.3821.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Brasil é referência mundial na área de transplantes e possui o maior
+  sistema público de transplantes do mundo. Em números absolutos, o
+  Brasil é o 2º maior transplantador do mundo, atrás apenas dos EUA. Um
+  levantamento revelou que o número de doações de órgão disparou, e
+  estima-se que \(21\%\) dos pacientes recebem a doação. Sorteia-se uma
+  amostra de \(82\) pacientes que estiveram a espera de transplante.
+  Qual é a probabilidade da proporção de pacientes que receberam doações
+  na amostra ser superior a \(22\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4129\)
+  \item
+    \(0.4761\)
+  \item
+    \(0.4901\)
+  \item
+    \(0.4920\)
+  \item
+    \(0.4564\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.21\) e
+  \(\sigma = \sqrt{\frac{0.21\times0.79}{82}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.22\right) &= 1 - P\left(\frac{\hat{p}-0.21}{0.045} < \frac{0.22-0.21}{0.045}\right) \\
+   & = 1 - P\left(Z<0.22\right) = 0.4129.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Brasil é referência mundial na área de transplantes e possui o maior
+  sistema público de transplantes do mundo. Em números absolutos, o
+  Brasil é o 2º maior transplantador do mundo, atrás apenas dos EUA. Um
+  levantamento revelou que o número de doações de órgão disparou, e
+  estima-se que \(37\%\) dos pacientes recebem a doação. Sorteia-se uma
+  amostra de \(82\) pacientes que estiveram a espera de transplante.
+  Qual é a probabilidade da proporção de pacientes que receberam doações
+  na amostra ser superior a \(38\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4247\)
+  \item
+    \(0.4920\)
+  \item
+    \(0.1194\)
+  \item
+    \(0.4963\)
+  \item
+    \(0.4840\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.37\) e
+  \(\sigma = \sqrt{\frac{0.37\times0.63}{82}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.38\right) &= 1 - P\left(\frac{\hat{p}-0.37}{0.0533} < \frac{0.38-0.37}{0.0533}\right) \\
+   & = 1 - P\left(Z<0.19\right) = 0.4247.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Brasil é referência mundial na área de transplantes e possui o maior
+  sistema público de transplantes do mundo. Em números absolutos, o
+  Brasil é o 2º maior transplantador do mundo, atrás apenas dos EUA. Um
+  levantamento revelou que o número de doações de órgão disparou, e
+  estima-se que \(12\%\) dos pacientes recebem a doação. Sorteia-se uma
+  amostra de \(119\) pacientes que estiveram a espera de transplante.
+  Qual é a probabilidade da proporção de pacientes que receberam doações
+  na amostra ser superior a \(13\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.8776\)
+  \item
+    \(0.1492\)
+  \item
+    \(0.3669\)
+  \item
+    \(0.4641\)
+  \item
+    \(0.4880\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.12\) e
+  \(\sigma = \sqrt{\frac{0.12\times0.88}{119}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.13\right) &= 1 - P\left(\frac{\hat{p}-0.12}{0.0298} < \frac{0.13-0.12}{0.0298}\right) \\
+   & = 1 - P\left(Z<0.34\right) = 0.3669.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Brasil é referência mundial na área de transplantes e possui o maior
+  sistema público de transplantes do mundo. Em números absolutos, o
+  Brasil é o 2º maior transplantador do mundo, atrás apenas dos EUA. Um
+  levantamento revelou que o número de doações de órgão disparou, e
+  estima-se que \(27\%\) dos pacientes recebem a doação. Sorteia-se uma
+  amostra de \(70\) pacientes que estiveram a espera de transplante.
+  Qual é a probabilidade da proporção de pacientes que receberam doações
+  na amostra ser superior a \(29\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4602\)
+  \item
+    \(0.8098\)
+  \item
+    \(0.7055\)
+  \item
+    \(0.3520\)
+  \item
+    \(0.4801\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.27\) e
+  \(\sigma = \sqrt{\frac{0.27\times0.73}{70}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.29\right) &= 1 - P\left(\frac{\hat{p}-0.27}{0.0531} < \frac{0.29-0.27}{0.0531}\right) \\
+   & = 1 - P\left(Z<0.38\right) = 0.352.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Brasil é referência mundial na área de transplantes e possui o maior
+  sistema público de transplantes do mundo. Em números absolutos, o
+  Brasil é o 2º maior transplantador do mundo, atrás apenas dos EUA. Um
+  levantamento revelou que o número de doações de órgão disparou, e
+  estima-se que \(21\%\) dos pacientes recebem a doação. Sorteia-se uma
+  amostra de \(91\) pacientes que estiveram a espera de transplante.
+  Qual é a probabilidade da proporção de pacientes que receberam doações
+  na amostra ser superior a \(22\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4090\)
+  \item
+    \(0.6500\)
+  \item
+    \(0.4920\)
+  \item
+    \(0.6412\)
+  \item
+    \(0.4761\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.21\) e
+  \(\sigma = \sqrt{\frac{0.21\times0.79}{91}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.22\right) &= 1 - P\left(\frac{\hat{p}-0.21}{0.0427} < \frac{0.22-0.21}{0.0427}\right) \\
+   & = 1 - P\left(Z<0.23\right) = 0.409.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Brasil é referência mundial na área de transplantes e possui o maior
+  sistema público de transplantes do mundo. Em números absolutos, o
+  Brasil é o 2º maior transplantador do mundo, atrás apenas dos EUA. Um
+  levantamento revelou que o número de doações de órgão disparou, e
+  estima-se que \(34\%\) dos pacientes recebem a doação. Sorteia-se uma
+  amostra de \(95\) pacientes que estiveram a espera de transplante.
+  Qual é a probabilidade da proporção de pacientes que receberam doações
+  na amostra ser superior a \(37\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7702\)
+  \item
+    \(0.4761\)
+  \item
+    \(0.4483\)
+  \item
+    \(0.2676\)
+  \item
+    \(0.7982\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.34\) e
+  \(\sigma = \sqrt{\frac{0.34\times0.66}{95}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.37\right) &= 1 - P\left(\frac{\hat{p}-0.34}{0.0486} < \frac{0.37-0.34}{0.0486}\right) \\
+   & = 1 - P\left(Z<0.62\right) = 0.2676.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O Brasil é referência mundial na área de transplantes e possui o maior
+  sistema público de transplantes do mundo. Em números absolutos, o
+  Brasil é o 2º maior transplantador do mundo, atrás apenas dos EUA. Um
+  levantamento revelou que o número de doações de órgão disparou, e
+  estima-se que \(35\%\) dos pacientes recebem a doação. Sorteia-se uma
+  amostra de \(59\) pacientes que estiveram a espera de transplante.
+  Qual é a probabilidade da proporção de pacientes que receberam doações
+  na amostra ser superior a \(37\%\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.7203\)
+  \item
+    \(0.4840\)
+  \item
+    \(0.4641\)
+  \item
+    \(0.1244\)
+  \item
+    \(0.3745\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Inicialmente, observe que a distribuição da proporção amostral é
+  normal de parâmetros \(\mu = 0.35\) e
+  \(\sigma = \sqrt{\frac{0.35\times0.65}{59}}\), temos que
+  \[\begin{aligned}
+  P\left(\hat{p}>0.37\right) &= 1 - P\left(\frac{\hat{p}-0.35}{0.0621} < \frac{0.37-0.35}{0.0621}\right) \\
+   & = 1 - P\left(Z<0.32\right) = 0.3745.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

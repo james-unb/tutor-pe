@@ -1,0 +1,402 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo gasto por um técnico para realizar a manutenção preventiva de
+  um aparelho de ar condicionado tem média igual a \(90\) minutos e
+  desvio-padrão igual a \(20\) minutos. Se um cliente tem \(27\) destes
+  aparelhos, qual é a probabilidade de que o tempo médio de realização
+  da manutenção destas unidades exceda \(89\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1635\)
+  \item
+    \(0.5010\)
+  \item
+    \(0.6026\)
+  \item
+    \(0.5199\)
+  \item
+    \(0.5269\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 90\) e \(\sigma = \frac{20}{\sqrt{27}}\), temos que
+  \[P\left(\bar{X}>89\right) = P\left(\frac{\bar{X}-90}{20/\sqrt{27}}>\frac{89-90}{20/\sqrt{27}}\right) = 1-P\left(Z<-0.26\right) = 0.6026.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo gasto por um técnico para realizar a manutenção preventiva de
+  um aparelho de ar condicionado tem média igual a \(93\) minutos e
+  desvio-padrão igual a \(26\) minutos. Se um cliente tem \(32\) destes
+  aparelhos, qual é a probabilidade de que o tempo médio de realização
+  da manutenção destas unidades exceda \(92\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5153\)
+  \item
+    \(0.5871\)
+  \item
+    \(0.5189\)
+  \item
+    \(0.5006\)
+  \item
+    \(0.1121\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 93\) e \(\sigma = \frac{26}{\sqrt{32}}\), temos que
+  \[P\left(\bar{X}>92\right) = P\left(\frac{\bar{X}-93}{26/\sqrt{32}}>\frac{92-93}{26/\sqrt{32}}\right) = 1-P\left(Z<-0.22\right) = 0.5871.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo gasto por um técnico para realizar a manutenção preventiva de
+  um aparelho de ar condicionado tem média igual a \(95\) minutos e
+  desvio-padrão igual a \(25\) minutos. Se um cliente tem \(26\) destes
+  aparelhos, qual é a probabilidade de que o tempo médio de realização
+  da manutenção destas unidades exceda \(94\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5793\)
+  \item
+    \(0.5006\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.4551\)
+  \item
+    \(0.5166\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 95\) e \(\sigma = \frac{25}{\sqrt{26}}\), temos que
+  \[P\left(\bar{X}>94\right) = P\left(\frac{\bar{X}-95}{25/\sqrt{26}}>\frac{94-95}{25/\sqrt{26}}\right) = 1-P\left(Z<-0.2\right) = 0.5793.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo gasto por um técnico para realizar a manutenção preventiva de
+  um aparelho de ar condicionado tem média igual a \(93\) minutos e
+  desvio-padrão igual a \(25\) minutos. Se um cliente tem \(29\) destes
+  aparelhos, qual é a probabilidade de que o tempo médio de realização
+  da manutenção destas unidades exceda \(92\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5871\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.0754\)
+  \item
+    \(0.5006\)
+  \item
+    \(0.5185\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 93\) e \(\sigma = \frac{25}{\sqrt{29}}\), temos que
+  \[P\left(\bar{X}>92\right) = P\left(\frac{\bar{X}-93}{25/\sqrt{29}}>\frac{92-93}{25/\sqrt{29}}\right) = 1-P\left(Z<-0.22\right) = 0.5871.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo gasto por um técnico para realizar a manutenção preventiva de
+  um aparelho de ar condicionado tem média igual a \(88\) minutos e
+  desvio-padrão igual a \(30\) minutos. Se um cliente tem \(25\) destes
+  aparelhos, qual é a probabilidade de que o tempo médio de realização
+  da manutenção destas unidades exceda \(87\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5004\)
+  \item
+    \(0.3946\)
+  \item
+    \(0.5111\)
+  \item
+    \(0.5133\)
+  \item
+    \(0.5675\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 88\) e \(\sigma = \frac{30}{\sqrt{25}}\), temos que
+  \[P\left(\bar{X}>87\right) = P\left(\frac{\bar{X}-88}{30/\sqrt{25}}>\frac{87-88}{30/\sqrt{25}}\right) = 1-P\left(Z<-0.17\right) = 0.5675.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo gasto por um técnico para realizar a manutenção preventiva de
+  um aparelho de ar condicionado tem média igual a \(93\) minutos e
+  desvio-padrão igual a \(21\) minutos. Se um cliente tem \(26\) destes
+  aparelhos, qual é a probabilidade de que o tempo médio de realização
+  da manutenção destas unidades exceda \(92\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5616\)
+  \item
+    \(0.5948\)
+  \item
+    \(0.5009\)
+  \item
+    \(0.5190\)
+  \item
+    \(0.5235\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 93\) e \(\sigma = \frac{21}{\sqrt{26}}\), temos que
+  \[P\left(\bar{X}>92\right) = P\left(\frac{\bar{X}-93}{21/\sqrt{26}}>\frac{92-93}{21/\sqrt{26}}\right) = 1-P\left(Z<-0.24\right) = 0.5948.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo gasto por um técnico para realizar a manutenção preventiva de
+  um aparelho de ar condicionado tem média igual a \(88\) minutos e
+  desvio-padrão igual a \(22\) minutos. Se um cliente tem \(32\) destes
+  aparelhos, qual é a probabilidade de que o tempo médio de realização
+  da manutenção destas unidades exceda \(87\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5264\)
+  \item
+    \(0.5181\)
+  \item
+    \(0.5008\)
+  \item
+    \(0.8359\)
+  \item
+    \(0.6026\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 88\) e \(\sigma = \frac{22}{\sqrt{32}}\), temos que
+  \[P\left(\bar{X}>87\right) = P\left(\frac{\bar{X}-88}{22/\sqrt{32}}>\frac{87-88}{22/\sqrt{32}}\right) = 1-P\left(Z<-0.26\right) = 0.6026.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo gasto por um técnico para realizar a manutenção preventiva de
+  um aparelho de ar condicionado tem média igual a \(93\) minutos e
+  desvio-padrão igual a \(25\) minutos. Se um cliente tem \(27\) destes
+  aparelhos, qual é a probabilidade de que o tempo médio de realização
+  da manutenção destas unidades exceda \(92\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5172\)
+  \item
+    \(0.5832\)
+  \item
+    \(0.5006\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.2386\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 93\) e \(\sigma = \frac{25}{\sqrt{27}}\), temos que
+  \[P\left(\bar{X}>92\right) = P\left(\frac{\bar{X}-93}{25/\sqrt{27}}>\frac{92-93}{25/\sqrt{27}}\right) = 1-P\left(Z<-0.21\right) = 0.5832.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo gasto por um técnico para realizar a manutenção preventiva de
+  um aparelho de ar condicionado tem média igual a \(86\) minutos e
+  desvio-padrão igual a \(24\) minutos. Se um cliente tem \(26\) destes
+  aparelhos, qual é a probabilidade de que o tempo médio de realização
+  da manutenção destas unidades exceda \(85\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5007\)
+  \item
+    \(0.5180\)
+  \item
+    \(0.5832\)
+  \item
+    \(0.5166\)
+  \item
+    \(0.3198\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 86\) e \(\sigma = \frac{24}{\sqrt{26}}\), temos que
+  \[P\left(\bar{X}>85\right) = P\left(\frac{\bar{X}-86}{24/\sqrt{26}}>\frac{85-86}{24/\sqrt{26}}\right) = 1-P\left(Z<-0.21\right) = 0.5832.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O tempo gasto por um técnico para realizar a manutenção preventiva de
+  um aparelho de ar condicionado tem média igual a \(92\) minutos e
+  desvio-padrão igual a \(25\) minutos. Se um cliente tem \(27\) destes
+  aparelhos, qual é a probabilidade de que o tempo médio de realização
+  da manutenção destas unidades exceda \(91\) minutos?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5832\)
+  \item
+    \(0.5172\)
+  \item
+    \(0.6561\)
+  \item
+    \(0.5160\)
+  \item
+    \(0.5006\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Uma vez que a distribuição da média amostral é normal de parâmetros
+  \(\mu = 92\) e \(\sigma = \frac{25}{\sqrt{27}}\), temos que
+  \[P\left(\bar{X}>91\right) = P\left(\frac{\bar{X}-92}{25/\sqrt{27}}>\frac{91-92}{25/\sqrt{27}}\right) = 1-P\left(Z<-0.21\right) = 0.5832.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

@@ -1,0 +1,542 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Em um determinado município a prefeitura está considerando a
+  possibilidade de adotar um pacote de medidas que visam proteger o
+  ecossistema da região. Foram sorteados ao acaso 31 habitantes desse
+  município para compor uma Comissão que irá examinar esse assunto. O
+  critério de decisão é adotar o pacote se pelo menos 14 membros da
+  Comissão se manifestarem favoravelmente. Admita que 52\% dos
+  habitantes do município são favoráveis ao pacote. Calcule a
+  probabilidade de que ele seja aprovado. (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3936\)
+  \item
+    \(0.2230\)
+  \item
+    \(0.7770\)
+  \item
+    \(0.6993\)
+  \item
+    \(0.6064\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de habitantes a favor do pacote de medidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=31\) e \(p=0.52\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(16.12,2.78)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 14) & = 1 - P\left(X < \frac{14 - np}{\sqrt{np(1-p)}}}\right) \\
+  & = 1 - P\left( X < \frac{14 - 16.12}{2.782} \right) \\
+  & = 1- P(Z < -0.7621) \\
+  & = 0.777.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um determinado município a prefeitura está considerando a
+  possibilidade de adotar um pacote de medidas que visam proteger o
+  ecossistema da região. Foram sorteados ao acaso 33 habitantes desse
+  município para compor uma Comissão que irá examinar esse assunto. O
+  critério de decisão é adotar o pacote se pelo menos 14 membros da
+  Comissão se manifestarem favoravelmente. Admita que 44\% dos
+  habitantes do município são favoráveis ao pacote. Calcule a
+  probabilidade de que ele seja aprovado. (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5724\)
+  \item
+    \(0.4276\)
+  \item
+    \(0.4761\)
+  \item
+    \(0.5239\)
+  \item
+    \(0.5151\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de habitantes a favor do pacote de medidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=33\) e \(p=0.44\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(14.52,2.85)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 14) & = 1 - P\left(X < \frac{14 - np}{\sqrt{np(1-p)}}}\right) \\
+  & = 1 - P\left( X < \frac{14 - 14.52}{2.852} \right) \\
+  & = 1- P(Z < -0.1824) \\
+  & = 0.572.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um determinado município a prefeitura está considerando a
+  possibilidade de adotar um pacote de medidas que visam proteger o
+  ecossistema da região. Foram sorteados ao acaso 33 habitantes desse
+  município para compor uma Comissão que irá examinar esse assunto. O
+  critério de decisão é adotar o pacote se pelo menos 18 membros da
+  Comissão se manifestarem favoravelmente. Admita que 52\% dos
+  habitantes do município são favoráveis ao pacote. Calcule a
+  probabilidade de que ele seja aprovado. (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3464\)
+  \item
+    \(0.3849\)
+  \item
+    \(0.5398\)
+  \item
+    \(0.6151\)
+  \item
+    \(0.4602\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de habitantes a favor do pacote de medidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=33\) e \(p=0.52\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(17.16,2.87)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 18) & = 1 - P\left(X < \frac{18 - np}{\sqrt{np(1-p)}}}\right) \\
+  & = 1 - P\left( X < \frac{18 - 17.16}{2.87} \right) \\
+  & = 1- P(Z < 0.2927) \\
+  & = 0.385.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um determinado município a prefeitura está considerando a
+  possibilidade de adotar um pacote de medidas que visam proteger o
+  ecossistema da região. Foram sorteados ao acaso 31 habitantes desse
+  município para compor uma Comissão que irá examinar esse assunto. O
+  critério de decisão é adotar o pacote se pelo menos 15 membros da
+  Comissão se manifestarem favoravelmente. Admita que 52\% dos
+  habitantes do município são favoráveis ao pacote. Calcule a
+  probabilidade de que ele seja aprovado. (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5557\)
+  \item
+    \(0.5907\)
+  \item
+    \(0.3436\)
+  \item
+    \(0.6564\)
+  \item
+    \(0.4443\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de habitantes a favor do pacote de medidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=31\) e \(p=0.52\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(16.12,2.78)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 15) & = 1 - P\left(X < \frac{15 - np}{\sqrt{np(1-p)}}}\right) \\
+  & = 1 - P\left( X < \frac{15 - 16.12}{2.782} \right) \\
+  & = 1- P(Z < -0.4026) \\
+  & = 0.656.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um determinado município a prefeitura está considerando a
+  possibilidade de adotar um pacote de medidas que visam proteger o
+  ecossistema da região. Foram sorteados ao acaso 39 habitantes desse
+  município para compor uma Comissão que irá examinar esse assunto. O
+  critério de decisão é adotar o pacote se pelo menos 29 membros da
+  Comissão se manifestarem favoravelmente. Admita que 69\% dos
+  habitantes do município são favoráveis ao pacote. Calcule a
+  probabilidade de que ele seja aprovado. (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.2347\)
+  \item
+    \(0.4013\)
+  \item
+    \(0.2112\)
+  \item
+    \(0.7653\)
+  \item
+    \(0.5987\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de habitantes a favor do pacote de medidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=39\) e \(p=0.69\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(26.91,2.89)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 29) & = 1 - P\left(X < \frac{29 - np}{\sqrt{np(1-p)}}}\right) \\
+  & = 1 - P\left( X < \frac{29 - 26.91}{2.888} \right) \\
+  & = 1- P(Z < 0.7236) \\
+  & = 0.235.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um determinado município a prefeitura está considerando a
+  possibilidade de adotar um pacote de medidas que visam proteger o
+  ecossistema da região. Foram sorteados ao acaso 35 habitantes desse
+  município para compor uma Comissão que irá examinar esse assunto. O
+  critério de decisão é adotar o pacote se pelo menos 22 membros da
+  Comissão se manifestarem favoravelmente. Admita que 60\% dos
+  habitantes do município são favoráveis ao pacote. Calcule a
+  probabilidade de que ele seja aprovado. (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.6350\)
+  \item
+    \(0.3650\)
+  \item
+    \(0.4522\)
+  \item
+    \(0.5478\)
+  \item
+    \(0.3285\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de habitantes a favor do pacote de medidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=35\) e \(p=0.6\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(21,2.9)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 22) & = 1 - P\left(X < \frac{22 - np}{\sqrt{np(1-p)}}}\right) \\
+  & = 1 - P\left( X < \frac{22 - 21}{2.898} \right) \\
+  & = 1- P(Z < 0.345) \\
+  & = 0.365.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um determinado município a prefeitura está considerando a
+  possibilidade de adotar um pacote de medidas que visam proteger o
+  ecossistema da região. Foram sorteados ao acaso 33 habitantes desse
+  município para compor uma Comissão que irá examinar esse assunto. O
+  critério de decisão é adotar o pacote se pelo menos 20 membros da
+  Comissão se manifestarem favoravelmente. Admita que 65\% dos
+  habitantes do município são favoráveis ao pacote. Calcule a
+  probabilidade de que ele seja aprovado. (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.5753\)
+  \item
+    \(0.7017\)
+  \item
+    \(0.4247\)
+  \item
+    \(0.6315\)
+  \item
+    \(0.2983\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de habitantes a favor do pacote de medidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=33\) e \(p=0.65\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(21.45,2.74)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 20) & = 1 - P\left(X < \frac{20 - np}{\sqrt{np(1-p)}}}\right) \\
+  & = 1 - P\left( X < \frac{20 - 21.45}{2.74} \right) \\
+  & = 1- P(Z < -0.5292) \\
+  & = 0.702.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um determinado município a prefeitura está considerando a
+  possibilidade de adotar um pacote de medidas que visam proteger o
+  ecossistema da região. Foram sorteados ao acaso 35 habitantes desse
+  município para compor uma Comissão que irá examinar esse assunto. O
+  critério de decisão é adotar o pacote se pelo menos 26 membros da
+  Comissão se manifestarem favoravelmente. Admita que 69\% dos
+  habitantes do município são favoráveis ao pacote. Calcule a
+  probabilidade de que ele seja aprovado. (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4013\)
+  \item
+    \(0.2495\)
+  \item
+    \(0.2245\)
+  \item
+    \(0.5987\)
+  \item
+    \(0.7505\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de habitantes a favor do pacote de medidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=35\) e \(p=0.69\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(24.15,2.74)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 26) & = 1 - P\left(X < \frac{26 - np}{\sqrt{np(1-p)}}}\right) \\
+  & = 1 - P\left( X < \frac{26 - 24.15}{2.736} \right) \\
+  & = 1- P(Z < 0.6761) \\
+  & = 0.249.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um determinado município a prefeitura está considerando a
+  possibilidade de adotar um pacote de medidas que visam proteger o
+  ecossistema da região. Foram sorteados ao acaso 32 habitantes desse
+  município para compor uma Comissão que irá examinar esse assunto. O
+  critério de decisão é adotar o pacote se pelo menos 25 membros da
+  Comissão se manifestarem favoravelmente. Admita que 74\% dos
+  habitantes do município são favoráveis ao pacote. Calcule a
+  probabilidade de que ele seja aprovado. (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4168\)
+  \item
+    \(0.2974\)
+  \item
+    \(0.5832\)
+  \item
+    \(0.7026\)
+  \item
+    \(0.2676\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de habitantes a favor do pacote de medidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=32\) e \(p=0.74\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(23.68,2.48)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 25) & = 1 - P\left(X < \frac{25 - np}{\sqrt{np(1-p)}}}\right) \\
+  & = 1 - P\left( X < \frac{25 - 23.68}{2.481} \right) \\
+  & = 1- P(Z < 0.532) \\
+  & = 0.297.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Em um determinado município a prefeitura está considerando a
+  possibilidade de adotar um pacote de medidas que visam proteger o
+  ecossistema da região. Foram sorteados ao acaso 38 habitantes desse
+  município para compor uma Comissão que irá examinar esse assunto. O
+  critério de decisão é adotar o pacote se pelo menos 16 membros da
+  Comissão se manifestarem favoravelmente. Admita que 46\% dos
+  habitantes do município são favoráveis ao pacote. Calcule a
+  probabilidade de que ele seja aprovado. (Não utilizar correção de
+  continuidade na aproximação da distribuição Binomial pela distribuição
+  Normal.)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3150\)
+  \item
+    \(0.4364\)
+  \item
+    \(0.5636\)
+  \item
+    \(0.6165\)
+  \item
+    \(0.6850\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) o número de habitantes a favor do pacote de medidas, então
+  \(X \sim \text{Bin}(n,p)\), onde \(n=38\) e \(p=0.46\). Visto que
+  \(n p\) e \(n (1-p)\) são suficientemente grandes, é possivel utilizar
+  a aproximação da Binomial pela Normal
+  \[\text{Bin}(n,p) \approx N(\mu = np, \sigma = \sqrt{np(1-p)})\] Logo,
+  \(X \sim N(17.48,3.07)\). E probabilidade desejada é dada por
+  \[\begin{aligned}
+  P(X \geq 16) & = 1 - P\left(X < \frac{16 - np}{\sqrt{np(1-p)}}}\right) \\
+  & = 1 - P\left( X < \frac{16 - 17.48}{3.072} \right) \\
+  & = 1- P(Z < -0.4817) \\
+  & = 0.685.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

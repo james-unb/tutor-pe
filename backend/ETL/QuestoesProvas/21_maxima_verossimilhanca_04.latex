@@ -1,0 +1,522 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=(\gamma\beta)(x\beta)^{\gamma-1}\exp[-(x\beta)^\gamma]\),
+  \(x\geq 0\), \(\beta>0\) e \(\gamma > 0\) conhecido. Suponha
+  \(\gamma=2\) e considere \[5 \ \ \ 5 \ \ \ 6 \ \ \ 6 \ \ \ 6\] uma
+  amostra aleatória simples de \(X\). Assinale a alternativa
+  correspondente à estimativa de máxima verossimilhança para \(\beta\)
+  dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.74\)
+  \item
+    \(5.60\)
+  \item
+    \(0.18\)
+  \item
+    \(0.13\)
+  \item
+    \(0.04\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=(\gamma\beta)^n \prod_{i=1}^n(x_i\beta)^{\gamma-1}\exp\left[-\beta^\gamma\sum_{i=1}^{n}x_i^\gamma\right].
+  \end{aligned}\] Aplicando o logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\beta)= n \left[\ln(\gamma)+\ln(\beta)\right] + (\gamma-1)\left[n\ln(\beta)+\sum_{i=1}^{n}\ln(x_i)\right] - \beta^\gamma\sum_{i=1}^{n}x_i^\gamma.
+  \end{aligned}\] Ao derivarmos com respeito a \(\beta\) e igualarmos a
+  equação a zero, obtemos \[\begin{aligned}
+  \beta=\left[\frac{n}{\sum_{i=1}^{n}x_i^\gamma}\right]^\frac{1}{\gamma},
+  \end{aligned}\]
+
+  com segunda derivada com repeito a \(\beta\) menor do que zero.
+  Tomando a amostra \((5, 5, 6, 6, 6)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\beta}=0.18\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=(\gamma\beta)(x\beta)^{\gamma-1}\exp[-(x\beta)^\gamma]\),
+  \(x\geq 0\), \(\beta>0\) e \(\gamma > 0\) conhecido. Suponha
+  \(\gamma=2\) e considere \[5 \ \ \ 4 \ \ \ 3 \ \ \ 7 \ \ \ 5\] uma
+  amostra aleatória simples de \(X\). Assinale a alternativa
+  correspondente à estimativa de máxima verossimilhança para \(\beta\)
+  dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.20\)
+  \item
+    \(0.14\)
+  \item
+    \(0.04\)
+  \item
+    \(4.80\)
+  \item
+    \(0.94\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=(\gamma\beta)^n \prod_{i=1}^n(x_i\beta)^{\gamma-1}\exp\left[-\beta^\gamma\sum_{i=1}^{n}x_i^\gamma\right].
+  \end{aligned}\] Aplicando o logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\beta)= n \left[\ln(\gamma)+\ln(\beta)\right] + (\gamma-1)\left[n\ln(\beta)+\sum_{i=1}^{n}\ln(x_i)\right] - \beta^\gamma\sum_{i=1}^{n}x_i^\gamma.
+  \end{aligned}\] Ao derivarmos com respeito a \(\beta\) e igualarmos a
+  equação a zero, obtemos \[\begin{aligned}
+  \beta=\left[\frac{n}{\sum_{i=1}^{n}x_i^\gamma}\right]^\frac{1}{\gamma},
+  \end{aligned}\]
+
+  com segunda derivada com repeito a \(\beta\) menor do que zero.
+  Tomando a amostra \((5, 4, 3, 7, 5)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\beta}=0.2\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=(\gamma\beta)(x\beta)^{\gamma-1}\exp[-(x\beta)^\gamma]\),
+  \(x\geq 0\), \(\beta>0\) e \(\gamma > 0\) conhecido. Suponha
+  \(\gamma=0.5\) e considere \[5 \ \ \ 7 \ \ \ 5 \ \ \ 4 \ \ \ 5\] uma
+  amostra aleatória simples de \(X\). Assinale a alternativa
+  correspondente à estimativa de máxima verossimilhança para \(\beta\)
+  dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.19\)
+  \item
+    \(0.04\)
+  \item
+    \(0.31\)
+  \item
+    \(5.20\)
+  \item
+    \(0.78\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=(\gamma\beta)^n \prod_{i=1}^n(x_i\beta)^{\gamma-1}\exp\left[-\beta^\gamma\sum_{i=1}^{n}x_i^\gamma\right].
+  \end{aligned}\] Aplicando o logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\beta)= n \left[\ln(\gamma)+\ln(\beta)\right] + (\gamma-1)\left[n\ln(\beta)+\sum_{i=1}^{n}\ln(x_i)\right] - \beta^\gamma\sum_{i=1}^{n}x_i^\gamma.
+  \end{aligned}\] Ao derivarmos com respeito a \(\beta\) e igualarmos a
+  equação a zero, obtemos \[\begin{aligned}
+  \beta=\left[\frac{n}{\sum_{i=1}^{n}x_i^\gamma}\right]^\frac{1}{\gamma},
+  \end{aligned}\]
+
+  com segunda derivada com repeito a \(\beta\) menor do que zero.
+  Tomando a amostra \((5, 7, 5, 4, 5)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\beta}=0.19\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=(\gamma\beta)(x\beta)^{\gamma-1}\exp[-(x\beta)^\gamma]\),
+  \(x\geq 0\), \(\beta>0\) e \(\gamma > 0\) conhecido. Suponha
+  \(\gamma=2\) e considere \[7 \ \ \ 4 \ \ \ 5 \ \ \ 5 \ \ \ 4\] uma
+  amostra aleatória simples de \(X\). Assinale a alternativa
+  correspondente à estimativa de máxima verossimilhança para \(\beta\)
+  dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.20\)
+  \item
+    \(0.04\)
+  \item
+    \(0.14\)
+  \item
+    \(5.00\)
+  \item
+    \(0.50\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=(\gamma\beta)^n \prod_{i=1}^n(x_i\beta)^{\gamma-1}\exp\left[-\beta^\gamma\sum_{i=1}^{n}x_i^\gamma\right].
+  \end{aligned}\] Aplicando o logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\beta)= n \left[\ln(\gamma)+\ln(\beta)\right] + (\gamma-1)\left[n\ln(\beta)+\sum_{i=1}^{n}\ln(x_i)\right] - \beta^\gamma\sum_{i=1}^{n}x_i^\gamma.
+  \end{aligned}\] Ao derivarmos com respeito a \(\beta\) e igualarmos a
+  equação a zero, obtemos \[\begin{aligned}
+  \beta=\left[\frac{n}{\sum_{i=1}^{n}x_i^\gamma}\right]^\frac{1}{\gamma},
+  \end{aligned}\]
+
+  com segunda derivada com repeito a \(\beta\) menor do que zero.
+  Tomando a amostra \((7, 4, 5, 5, 4)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\beta}=0.2\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=(\gamma\beta)(x\beta)^{\gamma-1}\exp[-(x\beta)^\gamma]\),
+  \(x\geq 0\), \(\beta>0\) e \(\gamma > 0\) conhecido. Suponha
+  \(\gamma=2\) e considere \[6 \ \ \ 6 \ \ \ 7 \ \ \ 5 \ \ \ 4\] uma
+  amostra aleatória simples de \(X\). Assinale a alternativa
+  correspondente à estimativa de máxima verossimilhança para \(\beta\)
+  dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.89\)
+  \item
+    \(5.60\)
+  \item
+    \(0.18\)
+  \item
+    \(0.04\)
+  \item
+    \(0.12\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=(\gamma\beta)^n \prod_{i=1}^n(x_i\beta)^{\gamma-1}\exp\left[-\beta^\gamma\sum_{i=1}^{n}x_i^\gamma\right].
+  \end{aligned}\] Aplicando o logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\beta)= n \left[\ln(\gamma)+\ln(\beta)\right] + (\gamma-1)\left[n\ln(\beta)+\sum_{i=1}^{n}\ln(x_i)\right] - \beta^\gamma\sum_{i=1}^{n}x_i^\gamma.
+  \end{aligned}\] Ao derivarmos com respeito a \(\beta\) e igualarmos a
+  equação a zero, obtemos \[\begin{aligned}
+  \beta=\left[\frac{n}{\sum_{i=1}^{n}x_i^\gamma}\right]^\frac{1}{\gamma},
+  \end{aligned}\]
+
+  com segunda derivada com repeito a \(\beta\) menor do que zero.
+  Tomando a amostra \((6, 6, 7, 5, 4)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\beta}=0.18\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=(\gamma\beta)(x\beta)^{\gamma-1}\exp[-(x\beta)^\gamma]\),
+  \(x\geq 0\), \(\beta>0\) e \(\gamma > 0\) conhecido. Suponha
+  \(\gamma=0.5\) e considere \[7 \ \ \ 7 \ \ \ 4 \ \ \ 7 \ \ \ 7\] uma
+  amostra aleatória simples de \(X\). Assinale a alternativa
+  correspondente à estimativa de máxima verossimilhança para \(\beta\)
+  dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.16\)
+  \item
+    \(0.03\)
+  \item
+    \(6.40\)
+  \item
+    \(0.63\)
+  \item
+    \(0.15\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=(\gamma\beta)^n \prod_{i=1}^n(x_i\beta)^{\gamma-1}\exp\left[-\beta^\gamma\sum_{i=1}^{n}x_i^\gamma\right].
+  \end{aligned}\] Aplicando o logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\beta)= n \left[\ln(\gamma)+\ln(\beta)\right] + (\gamma-1)\left[n\ln(\beta)+\sum_{i=1}^{n}\ln(x_i)\right] - \beta^\gamma\sum_{i=1}^{n}x_i^\gamma.
+  \end{aligned}\] Ao derivarmos com respeito a \(\beta\) e igualarmos a
+  equação a zero, obtemos \[\begin{aligned}
+  \beta=\left[\frac{n}{\sum_{i=1}^{n}x_i^\gamma}\right]^\frac{1}{\gamma},
+  \end{aligned}\]
+
+  com segunda derivada com repeito a \(\beta\) menor do que zero.
+  Tomando a amostra \((7, 7, 4, 7, 7)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\beta}=0.16\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=(\gamma\beta)(x\beta)^{\gamma-1}\exp[-(x\beta)^\gamma]\),
+  \(x\geq 0\), \(\beta>0\) e \(\gamma > 0\) conhecido. Suponha
+  \(\gamma=2\) e considere \[5 \ \ \ 7 \ \ \ 5 \ \ \ 8 \ \ \ 4\] uma
+  amostra aleatória simples de \(X\). Assinale a alternativa
+  correspondente à estimativa de máxima verossimilhança para \(\beta\)
+  dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.36\)
+  \item
+    \(0.17\)
+  \item
+    \(5.80\)
+  \item
+    \(0.12\)
+  \item
+    \(0.03\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=(\gamma\beta)^n \prod_{i=1}^n(x_i\beta)^{\gamma-1}\exp\left[-\beta^\gamma\sum_{i=1}^{n}x_i^\gamma\right].
+  \end{aligned}\] Aplicando o logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\beta)= n \left[\ln(\gamma)+\ln(\beta)\right] + (\gamma-1)\left[n\ln(\beta)+\sum_{i=1}^{n}\ln(x_i)\right] - \beta^\gamma\sum_{i=1}^{n}x_i^\gamma.
+  \end{aligned}\] Ao derivarmos com respeito a \(\beta\) e igualarmos a
+  equação a zero, obtemos \[\begin{aligned}
+  \beta=\left[\frac{n}{\sum_{i=1}^{n}x_i^\gamma}\right]^\frac{1}{\gamma},
+  \end{aligned}\]
+
+  com segunda derivada com repeito a \(\beta\) menor do que zero.
+  Tomando a amostra \((5, 7, 5, 8, 4)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\beta}=0.17\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=(\gamma\beta)(x\beta)^{\gamma-1}\exp[-(x\beta)^\gamma]\),
+  \(x\geq 0\), \(\beta>0\) e \(\gamma > 0\) conhecido. Suponha
+  \(\gamma=2\) e considere \[7 \ \ \ 4 \ \ \ 4 \ \ \ 6 \ \ \ 7\] uma
+  amostra aleatória simples de \(X\). Assinale a alternativa
+  correspondente à estimativa de máxima verossimilhança para \(\beta\)
+  dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.04\)
+  \item
+    \(0.08\)
+  \item
+    \(0.12\)
+  \item
+    \(0.17\)
+  \item
+    \(5.60\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=(\gamma\beta)^n \prod_{i=1}^n(x_i\beta)^{\gamma-1}\exp\left[-\beta^\gamma\sum_{i=1}^{n}x_i^\gamma\right].
+  \end{aligned}\] Aplicando o logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\beta)= n \left[\ln(\gamma)+\ln(\beta)\right] + (\gamma-1)\left[n\ln(\beta)+\sum_{i=1}^{n}\ln(x_i)\right] - \beta^\gamma\sum_{i=1}^{n}x_i^\gamma.
+  \end{aligned}\] Ao derivarmos com respeito a \(\beta\) e igualarmos a
+  equação a zero, obtemos \[\begin{aligned}
+  \beta=\left[\frac{n}{\sum_{i=1}^{n}x_i^\gamma}\right]^\frac{1}{\gamma},
+  \end{aligned}\]
+
+  com segunda derivada com repeito a \(\beta\) menor do que zero.
+  Tomando a amostra \((7, 4, 4, 6, 7)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\beta}=0.17\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=(\gamma\beta)(x\beta)^{\gamma-1}\exp[-(x\beta)^\gamma]\),
+  \(x\geq 0\), \(\beta>0\) e \(\gamma > 0\) conhecido. Suponha
+  \(\gamma=2\) e considere \[8 \ \ \ 5 \ \ \ 7 \ \ \ 8 \ \ \ 3\] uma
+  amostra aleatória simples de \(X\). Assinale a alternativa
+  correspondente à estimativa de máxima verossimilhança para \(\beta\)
+  dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.11\)
+  \item
+    \(0.47\)
+  \item
+    \(6.20\)
+  \item
+    \(0.03\)
+  \item
+    \(0.15\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=(\gamma\beta)^n \prod_{i=1}^n(x_i\beta)^{\gamma-1}\exp\left[-\beta^\gamma\sum_{i=1}^{n}x_i^\gamma\right].
+  \end{aligned}\] Aplicando o logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\beta)= n \left[\ln(\gamma)+\ln(\beta)\right] + (\gamma-1)\left[n\ln(\beta)+\sum_{i=1}^{n}\ln(x_i)\right] - \beta^\gamma\sum_{i=1}^{n}x_i^\gamma.
+  \end{aligned}\] Ao derivarmos com respeito a \(\beta\) e igualarmos a
+  equação a zero, obtemos \[\begin{aligned}
+  \beta=\left[\frac{n}{\sum_{i=1}^{n}x_i^\gamma}\right]^\frac{1}{\gamma},
+  \end{aligned}\]
+
+  com segunda derivada com repeito a \(\beta\) menor do que zero.
+  Tomando a amostra \((8, 5, 7, 8, 3)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\beta}=0.15\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Seja \(X\) uma variável aleatória com função densidade
+  \(f(x;\beta)=(\gamma\beta)(x\beta)^{\gamma-1}\exp[-(x\beta)^\gamma]\),
+  \(x\geq 0\), \(\beta>0\) e \(\gamma > 0\) conhecido. Suponha
+  \(\gamma=2\) e considere \[8 \ \ \ 4 \ \ \ 7 \ \ \ 4 \ \ \ 6\] uma
+  amostra aleatória simples de \(X\). Assinale a alternativa
+  correspondente à estimativa de máxima verossimilhança para \(\beta\)
+  dessa amostra.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(5.80\)
+  \item
+    \(0.03\)
+  \item
+    \(0.17\)
+  \item
+    \(0.12\)
+  \item
+    \(0.27\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  A função de verossimilhança da amostra é dada por \[\begin{aligned}
+   L(\beta)=(\gamma\beta)^n \prod_{i=1}^n(x_i\beta)^{\gamma-1}\exp\left[-\beta^\gamma\sum_{i=1}^{n}x_i^\gamma\right].
+  \end{aligned}\] Aplicando o logaritmo, a função de log-verossimilhança
+  é: \[\begin{aligned}
+   \ell(\beta)= n \left[\ln(\gamma)+\ln(\beta)\right] + (\gamma-1)\left[n\ln(\beta)+\sum_{i=1}^{n}\ln(x_i)\right] - \beta^\gamma\sum_{i=1}^{n}x_i^\gamma.
+  \end{aligned}\] Ao derivarmos com respeito a \(\beta\) e igualarmos a
+  equação a zero, obtemos \[\begin{aligned}
+  \beta=\left[\frac{n}{\sum_{i=1}^{n}x_i^\gamma}\right]^\frac{1}{\gamma},
+  \end{aligned}\]
+
+  com segunda derivada com repeito a \(\beta\) menor do que zero.
+  Tomando a amostra \((8, 4, 7, 4, 6)\), temos que o estimador de máxima
+  verossimilhança desta amostra é \(\hat{\beta}=0.17\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

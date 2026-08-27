@@ -1,0 +1,502 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das válvulas de uma certa marca de
+  amplificador é exponencialmente distribuído com média de \(57\) meses.
+  O guitarrista da banda ``Probabilistas do Sucesso'' usou sua guitarra
+  por \(48\) meses seguidos e sua banda ainda tem mais \(9\) meses para
+  fechar a turnê. A probabilidade de que a banda termine sua turnê sem
+  necessidade de trocar as válvulas é aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.30\)
+  \item
+    \(0.71\)
+  \item
+    \(0.15\)
+  \item
+    \(0.85\)
+  \item
+    \(0.43\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das válvulas. Sabemos que \(E(X) = 57\), então
+  \(X\sim\text{Exp}(1/57).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.018x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>48+9 | X>48) &=& P(X>9)\\
+  &=& 1-F(9)\\
+  &=& 1-(1-e^{-0.018\times9})\\
+  &=& 0.85
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das válvulas de uma certa marca de
+  amplificador é exponencialmente distribuído com média de \(55\) meses.
+  O guitarrista da banda ``Probabilistas do Sucesso'' usou sua guitarra
+  por \(50\) meses seguidos e sua banda ainda tem mais \(5\) meses para
+  fechar a turnê. A probabilidade de que a banda termine sua turnê sem
+  necessidade de trocar as válvulas é aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.40\)
+  \item
+    \(0.91\)
+  \item
+    \(0.09\)
+  \item
+    \(0.41\)
+  \item
+    \(0.74\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das válvulas. Sabemos que \(E(X) = 55\), então
+  \(X\sim\text{Exp}(1/55).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.018x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>50+5 | X>50) &=& P(X>5)\\
+  &=& 1-F(5)\\
+  &=& 1-(1-e^{-0.018\times5})\\
+  &=& 0.91
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das válvulas de uma certa marca de
+  amplificador é exponencialmente distribuído com média de \(60\) meses.
+  O guitarrista da banda ``Probabilistas do Sucesso'' usou sua guitarra
+  por \(49\) meses seguidos e sua banda ainda tem mais \(7\) meses para
+  fechar a turnê. A probabilidade de que a banda termine sua turnê sem
+  necessidade de trocar as válvulas é aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.89\)
+  \item
+    \(0.44\)
+  \item
+    \(0.11\)
+  \item
+    \(0.62\)
+  \item
+    \(0.13\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das válvulas. Sabemos que \(E(X) = 60\), então
+  \(X\sim\text{Exp}(1/60).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.017x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>49+7 | X>49) &=& P(X>7)\\
+  &=& 1-F(7)\\
+  &=& 1-(1-e^{-0.017\times7})\\
+  &=& 0.89
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das válvulas de uma certa marca de
+  amplificador é exponencialmente distribuído com média de \(57\) meses.
+  O guitarrista da banda ``Probabilistas do Sucesso'' usou sua guitarra
+  por \(49\) meses seguidos e sua banda ainda tem mais \(9\) meses para
+  fechar a turnê. A probabilidade de que a banda termine sua turnê sem
+  necessidade de trocar as válvulas é aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.15\)
+  \item
+    \(0.90\)
+  \item
+    \(0.21\)
+  \item
+    \(0.85\)
+  \item
+    \(0.42\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das válvulas. Sabemos que \(E(X) = 57\), então
+  \(X\sim\text{Exp}(1/57).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.018x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>49+9 | X>49) &=& P(X>9)\\
+  &=& 1-F(9)\\
+  &=& 1-(1-e^{-0.018\times9})\\
+  &=& 0.85
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das válvulas de uma certa marca de
+  amplificador é exponencialmente distribuído com média de \(59\) meses.
+  O guitarrista da banda ``Probabilistas do Sucesso'' usou sua guitarra
+  por \(48\) meses seguidos e sua banda ainda tem mais \(9\) meses para
+  fechar a turnê. A probabilidade de que a banda termine sua turnê sem
+  necessidade de trocar as válvulas é aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.90\)
+  \item
+    \(0.44\)
+  \item
+    \(0.14\)
+  \item
+    \(0.86\)
+  \item
+    \(0.41\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das válvulas. Sabemos que \(E(X) = 59\), então
+  \(X\sim\text{Exp}(1/59).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.017x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>48+9 | X>48) &=& P(X>9)\\
+  &=& 1-F(9)\\
+  &=& 1-(1-e^{-0.017\times9})\\
+  &=& 0.86
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das válvulas de uma certa marca de
+  amplificador é exponencialmente distribuído com média de \(51\) meses.
+  O guitarrista da banda ``Probabilistas do Sucesso'' usou sua guitarra
+  por \(45\) meses seguidos e sua banda ainda tem mais \(8\) meses para
+  fechar a turnê. A probabilidade de que a banda termine sua turnê sem
+  necessidade de trocar as válvulas é aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.41\)
+  \item
+    \(0.85\)
+  \item
+    \(0.70\)
+  \item
+    \(0.15\)
+  \item
+    \(0.48\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das válvulas. Sabemos que \(E(X) = 51\), então
+  \(X\sim\text{Exp}(1/51).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.020x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>45+8 | X>45) &=& P(X>8)\\
+  &=& 1-F(8)\\
+  &=& 1-(1-e^{-0.020\times8})\\
+  &=& 0.85
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das válvulas de uma certa marca de
+  amplificador é exponencialmente distribuído com média de \(58\) meses.
+  O guitarrista da banda ``Probabilistas do Sucesso'' usou sua guitarra
+  por \(50\) meses seguidos e sua banda ainda tem mais \(6\) meses para
+  fechar a turnê. A probabilidade de que a banda termine sua turnê sem
+  necessidade de trocar as válvulas é aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.10\)
+  \item
+    \(0.42\)
+  \item
+    \(0.90\)
+  \item
+    \(0.19\)
+  \item
+    \(0.83\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das válvulas. Sabemos que \(E(X) = 58\), então
+  \(X\sim\text{Exp}(1/58).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.017x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>50+6 | X>50) &=& P(X>6)\\
+  &=& 1-F(6)\\
+  &=& 1-(1-e^{-0.017\times6})\\
+  &=& 0.90
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das válvulas de uma certa marca de
+  amplificador é exponencialmente distribuído com média de \(59\) meses.
+  O guitarrista da banda ``Probabilistas do Sucesso'' usou sua guitarra
+  por \(54\) meses seguidos e sua banda ainda tem mais \(8\) meses para
+  fechar a turnê. A probabilidade de que a banda termine sua turnê sem
+  necessidade de trocar as válvulas é aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.87\)
+  \item
+    \(0.14\)
+  \item
+    \(0.66\)
+  \item
+    \(0.13\)
+  \item
+    \(0.40\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das válvulas. Sabemos que \(E(X) = 59\), então
+  \(X\sim\text{Exp}(1/59).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.017x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>54+8 | X>54) &=& P(X>8)\\
+  &=& 1-F(8)\\
+  &=& 1-(1-e^{-0.017\times8})\\
+  &=& 0.87
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das válvulas de uma certa marca de
+  amplificador é exponencialmente distribuído com média de \(55\) meses.
+  O guitarrista da banda ``Probabilistas do Sucesso'' usou sua guitarra
+  por \(45\) meses seguidos e sua banda ainda tem mais \(10\) meses para
+  fechar a turnê. A probabilidade de que a banda termine sua turnê sem
+  necessidade de trocar as válvulas é aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.44\)
+  \item
+    \(0.83\)
+  \item
+    \(0.17\)
+  \item
+    \(0.47\)
+  \item
+    \(0.97\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das válvulas. Sabemos que \(E(X) = 55\), então
+  \(X\sim\text{Exp}(1/55).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.018x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>45+10 | X>45) &=& P(X>10)\\
+  &=& 1-F(10)\\
+  &=& 1-(1-e^{-0.018\times10})\\
+  &=& 0.83
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Sabe-se que o tempo de vida útil das válvulas de uma certa marca de
+  amplificador é exponencialmente distribuído com média de \(51\) meses.
+  O guitarrista da banda ``Probabilistas do Sucesso'' usou sua guitarra
+  por \(41\) meses seguidos e sua banda ainda tem mais \(5\) meses para
+  fechar a turnê. A probabilidade de que a banda termine sua turnê sem
+  necessidade de trocar as válvulas é aproximadamente:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.45\)
+  \item
+    \(0.90\)
+  \item
+    \(0.09\)
+  \item
+    \(0.02\)
+  \item
+    \(0.91\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Seja \(X\) a variável aleatória que representa o tempo de vida útil
+  das válvulas. Sabemos que \(E(X) = 51\), então
+  \(X\sim\text{Exp}(1/51).\) Como a função distribuição da variável
+  aleatória \(X\) é \(F(x) = 1-e^{-0.020x}\), segue que a probabilidade
+  desejada é dada por
+
+  \[\begin{aligned}
+  P(X>41+5 | X>41) &=& P(X>5)\\
+  &=& 1-F(5)\\
+  &=& 1-(1-e^{-0.020\times5})\\
+  &=& 0.91
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

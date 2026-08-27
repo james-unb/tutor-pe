@@ -1,0 +1,442 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de telefonia celular garante cobertura de sinal em pelo
+  menos 88\% do território do Distrito Federal. A fim de testar essa
+  hipótese, uma agência fiscalizadora selecionou uma amostra aleatória
+  simples de \(30\) coordenadas geográficas do DF e observou presença de
+  sinal telefônico em 25 delas. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.3926\)
+  \item
+    \(0.1718\)
+  \item
+    \(0.6989\)
+  \item
+    \(0.7852\)
+  \item
+    \(0.2148\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.88 \ \ versus \ \ H_a : p < 0.88.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -0.79\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-0.79) = 0.2148.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de telefonia celular garante cobertura de sinal em pelo
+  menos 80\% do território do Distrito Federal. A fim de testar essa
+  hipótese, uma agência fiscalizadora selecionou uma amostra aleatória
+  simples de \(40\) coordenadas geográficas do DF e observou presença de
+  sinal telefônico em 29 delas. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.1170\)
+  \item
+    \(0.0936\)
+  \item
+    \(0.8830\)
+  \item
+    \(0.4415\)
+  \item
+    \(0.7858\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.8 \ \ versus \ \ H_a : p < 0.8.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.19\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.19) = 0.117.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de telefonia celular garante cobertura de sinal em pelo
+  menos 82\% do território do Distrito Federal. A fim de testar essa
+  hipótese, uma agência fiscalizadora selecionou uma amostra aleatória
+  simples de \(60\) coordenadas geográficas do DF e observou presença de
+  sinal telefônico em 45 delas. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4604\)
+  \item
+    \(0.8194\)
+  \item
+    \(0.9207\)
+  \item
+    \(0.0634\)
+  \item
+    \(0.0793\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.82 \ \ versus \ \ H_a : p < 0.82.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.41\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.41) = 0.0793.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de telefonia celular garante cobertura de sinal em pelo
+  menos 84\% do território do Distrito Federal. A fim de testar essa
+  hipótese, uma agência fiscalizadora selecionou uma amostra aleatória
+  simples de \(30\) coordenadas geográficas do DF e observou presença de
+  sinal telefônico em 22 delas. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.9441\)
+  \item
+    \(0.4720\)
+  \item
+    \(0.0559\)
+  \item
+    \(0.8402\)
+  \item
+    \(0.0447\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.84 \ \ versus \ \ H_a : p < 0.84.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.59\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.59) = 0.0559.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de telefonia celular garante cobertura de sinal em pelo
+  menos 90\% do território do Distrito Federal. A fim de testar essa
+  hipótese, uma agência fiscalizadora selecionou uma amostra aleatória
+  simples de \(60\) coordenadas geográficas do DF e observou presença de
+  sinal telefônico em 46 delas. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0003\)
+  \item
+    \(0.4999\)
+  \item
+    \(0.8897\)
+  \item
+    \(0.9997\)
+  \item
+    \(0.0002\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.9 \ \ versus \ \ H_a : p < 0.9.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -3.44\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-3.44) = 3e-04.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de telefonia celular garante cobertura de sinal em pelo
+  menos 85\% do território do Distrito Federal. A fim de testar essa
+  hipótese, uma agência fiscalizadora selecionou uma amostra aleatória
+  simples de \(30\) coordenadas geográficas do DF e observou presença de
+  sinal telefônico em 22 delas. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4816\)
+  \item
+    \(0.9633\)
+  \item
+    \(0.0294\)
+  \item
+    \(0.0367\)
+  \item
+    \(0.8573\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.85 \ \ versus \ \ H_a : p < 0.85.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.79\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.79) = 0.0367.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de telefonia celular garante cobertura de sinal em pelo
+  menos 88\% do território do Distrito Federal. A fim de testar essa
+  hipótese, uma agência fiscalizadora selecionou uma amostra aleatória
+  simples de \(50\) coordenadas geográficas do DF e observou presença de
+  sinal telefônico em 40 delas. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4795\)
+  \item
+    \(0.9591\)
+  \item
+    \(0.0409\)
+  \item
+    \(0.0327\)
+  \item
+    \(0.8536\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.88 \ \ versus \ \ H_a : p < 0.88.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.74\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.74) = 0.0409.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de telefonia celular garante cobertura de sinal em pelo
+  menos 88\% do território do Distrito Federal. A fim de testar essa
+  hipótese, uma agência fiscalizadora selecionou uma amostra aleatória
+  simples de \(60\) coordenadas geográficas do DF e observou presença de
+  sinal telefônico em 48 delas. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.0225\)
+  \item
+    \(0.9719\)
+  \item
+    \(0.4860\)
+  \item
+    \(0.8650\)
+  \item
+    \(0.0281\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.88 \ \ versus \ \ H_a : p < 0.88.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.91\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.91) = 0.0281.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de telefonia celular garante cobertura de sinal em pelo
+  menos 82\% do território do Distrito Federal. A fim de testar essa
+  hipótese, uma agência fiscalizadora selecionou uma amostra aleatória
+  simples de \(40\) coordenadas geográficas do DF e observou presença de
+  sinal telefônico em 29 delas. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4703\)
+  \item
+    \(0.0594\)
+  \item
+    \(0.8372\)
+  \item
+    \(0.9406\)
+  \item
+    \(0.0475\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.82 \ \ versus \ \ H_a : p < 0.82.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.56\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.56) = 0.0594.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma empresa de telefonia celular garante cobertura de sinal em pelo
+  menos 82\% do território do Distrito Federal. A fim de testar essa
+  hipótese, uma agência fiscalizadora selecionou uma amostra aleatória
+  simples de \(60\) coordenadas geográficas do DF e observou presença de
+  sinal telefônico em 44 delas. Assinale a alternativa correspondente ao
+  p-valor do referido teste.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.4800\)
+  \item
+    \(0.0401\)
+  \item
+    \(0.0320\)
+  \item
+    \(0.9599\)
+  \item
+    \(0.8543\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que o teste é unilateral para a
+  proporção. As hipóteses de teste são
+  \[H_0 : p\geq0.82 \ \ versus \ \ H_a : p < 0.82.\] A estatística de
+  teste normalizada é dada por
+  \[\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}} = -1.75\] e o
+  p-valor \[\alpha^{*} = P(Z\leq-1.75) = 0.0401.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

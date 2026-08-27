@@ -1,0 +1,412 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma competição de futebol será disputada por 18 times divididos em 3
+  grupos. Se a escolha dos grupos é feita aleatoriamente, qual a
+  probabilidade de que dois times determinados, A e B, se encontrem no
+  mesmo grupo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.333\)
+  \item
+    \(0.294\)
+  \item
+    \(0.016\)
+  \item
+    \(0.033\)
+  \item
+    \(0.787\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O time A pode ser alocado em qualquer um dos 18 possíveis lugares
+  disponíveis. Como o time B deve estar no mesmo grupo do time A, ele
+  deverá ser alocado em um dos 5 lugares restantes daquele grupo. Como,
+  fixada a posição do time A, há 17 lugares disponíveis, a probabilidade
+  desejada é \[\dfrac{5}{17} = 0.294.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma competição de futebol será disputada por 20 times divididos em 4
+  grupos. Se a escolha dos grupos é feita aleatoriamente, qual a
+  probabilidade de que dois times determinados, A e B, se encontrem no
+  mesmo grupo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(0.675\)
+  \item
+    \(0.011\)
+  \item
+    \(0.021\)
+  \item
+    \(0.211\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O time A pode ser alocado em qualquer um dos 20 possíveis lugares
+  disponíveis. Como o time B deve estar no mesmo grupo do time A, ele
+  deverá ser alocado em um dos 4 lugares restantes daquele grupo. Como,
+  fixada a posição do time A, há 19 lugares disponíveis, a probabilidade
+  desejada é \[\dfrac{4}{19} = 0.211.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma competição de futebol será disputada por 27 times divididos em 3
+  grupos. Se a escolha dos grupos é feita aleatoriamente, qual a
+  probabilidade de que dois times determinados, A e B, se encontrem no
+  mesmo grupo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.308\)
+  \item
+    \(0.685\)
+  \item
+    \(0.333\)
+  \item
+    \(0.011\)
+  \item
+    \(0.023\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O time A pode ser alocado em qualquer um dos 27 possíveis lugares
+  disponíveis. Como o time B deve estar no mesmo grupo do time A, ele
+  deverá ser alocado em um dos 8 lugares restantes daquele grupo. Como,
+  fixada a posição do time A, há 26 lugares disponíveis, a probabilidade
+  desejada é \[\dfrac{8}{26} = 0.308.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma competição de futebol será disputada por 20 times divididos em 5
+  grupos. Se a escolha dos grupos é feita aleatoriamente, qual a
+  probabilidade de que dois times determinados, A e B, se encontrem no
+  mesmo grupo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.200\)
+  \item
+    \(0.008\)
+  \item
+    \(0.158\)
+  \item
+    \(0.016\)
+  \item
+    \(0.499\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O time A pode ser alocado em qualquer um dos 20 possíveis lugares
+  disponíveis. Como o time B deve estar no mesmo grupo do time A, ele
+  deverá ser alocado em um dos 3 lugares restantes daquele grupo. Como,
+  fixada a posição do time A, há 19 lugares disponíveis, a probabilidade
+  desejada é \[\dfrac{3}{19} = 0.158.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma competição de futebol será disputada por 20 times divididos em 4
+  grupos. Se a escolha dos grupos é feita aleatoriamente, qual a
+  probabilidade de que dois times determinados, A e B, se encontrem no
+  mesmo grupo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(0.021\)
+  \item
+    \(0.211\)
+  \item
+    \(0.011\)
+  \item
+    \(0.246\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O time A pode ser alocado em qualquer um dos 20 possíveis lugares
+  disponíveis. Como o time B deve estar no mesmo grupo do time A, ele
+  deverá ser alocado em um dos 4 lugares restantes daquele grupo. Como,
+  fixada a posição do time A, há 19 lugares disponíveis, a probabilidade
+  desejada é \[\dfrac{4}{19} = 0.211.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma competição de futebol será disputada por 24 times divididos em 3
+  grupos. Se a escolha dos grupos é feita aleatoriamente, qual a
+  probabilidade de que dois times determinados, A e B, se encontrem no
+  mesmo grupo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.308\)
+  \item
+    \(0.025\)
+  \item
+    \(0.013\)
+  \item
+    \(0.304\)
+  \item
+    \(0.333\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O time A pode ser alocado em qualquer um dos 24 possíveis lugares
+  disponíveis. Como o time B deve estar no mesmo grupo do time A, ele
+  deverá ser alocado em um dos 7 lugares restantes daquele grupo. Como,
+  fixada a posição do time A, há 23 lugares disponíveis, a probabilidade
+  desejada é \[\dfrac{7}{23} = 0.304.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma competição de futebol será disputada por 32 times divididos em 4
+  grupos. Se a escolha dos grupos é feita aleatoriamente, qual a
+  probabilidade de que dois times determinados, A e B, se encontrem no
+  mesmo grupo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.250\)
+  \item
+    \(0.532\)
+  \item
+    \(0.226\)
+  \item
+    \(0.014\)
+  \item
+    \(0.007\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O time A pode ser alocado em qualquer um dos 32 possíveis lugares
+  disponíveis. Como o time B deve estar no mesmo grupo do time A, ele
+  deverá ser alocado em um dos 7 lugares restantes daquele grupo. Como,
+  fixada a posição do time A, há 31 lugares disponíveis, a probabilidade
+  desejada é \[\dfrac{7}{31} = 0.226.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma competição de futebol será disputada por 27 times divididos em 3
+  grupos. Se a escolha dos grupos é feita aleatoriamente, qual a
+  probabilidade de que dois times determinados, A e B, se encontrem no
+  mesmo grupo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.333\)
+  \item
+    \(0.011\)
+  \item
+    \(0.903\)
+  \item
+    \(0.023\)
+  \item
+    \(0.308\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O time A pode ser alocado em qualquer um dos 27 possíveis lugares
+  disponíveis. Como o time B deve estar no mesmo grupo do time A, ele
+  deverá ser alocado em um dos 8 lugares restantes daquele grupo. Como,
+  fixada a posição do time A, há 26 lugares disponíveis, a probabilidade
+  desejada é \[\dfrac{8}{26} = 0.308.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma competição de futebol será disputada por 9 times divididos em 3
+  grupos. Se a escolha dos grupos é feita aleatoriamente, qual a
+  probabilidade de que dois times determinados, A e B, se encontrem no
+  mesmo grupo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.333\)
+  \item
+    \(0.341\)
+  \item
+    \(0.056\)
+  \item
+    \(0.250\)
+  \item
+    \(0.028\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O time A pode ser alocado em qualquer um dos 9 possíveis lugares
+  disponíveis. Como o time B deve estar no mesmo grupo do time A, ele
+  deverá ser alocado em um dos 2 lugares restantes daquele grupo. Como,
+  fixada a posição do time A, há 8 lugares disponíveis, a probabilidade
+  desejada é \[\dfrac{2}{8} = 0.250.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma competição de futebol será disputada por 15 times divididos em 3
+  grupos. Se a escolha dos grupos é feita aleatoriamente, qual a
+  probabilidade de que dois times determinados, A e B, se encontrem no
+  mesmo grupo?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.286\)
+  \item
+    \(0.019\)
+  \item
+    \(0.038\)
+  \item
+    \(0.361\)
+  \item
+    \(0.333\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O time A pode ser alocado em qualquer um dos 15 possíveis lugares
+  disponíveis. Como o time B deve estar no mesmo grupo do time A, ele
+  deverá ser alocado em um dos 4 lugares restantes daquele grupo. Como,
+  fixada a posição do time A, há 14 lugares disponíveis, a probabilidade
+  desejada é \[\dfrac{4}{14} = 0.286.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

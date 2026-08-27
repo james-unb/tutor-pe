@@ -1,0 +1,475 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  A orquídea é uma flor muito admirada pela sua beleza e é uma ótima
+  opção para complementar a decoração de um ambiente, mas a falta de
+  informação sobre o manejo da planta prejudica o seu desenvolvimento.
+  Uma pesquisa por amostragem aleatória deseja estimar a duração média
+  da floração das orquídeas. Em anos anteriores o desvio padrão
+  populacional dos valores foi de \(22\) dias. Assumindo que a duração
+  da floração de uma orquídea segue distribuição Normal, qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(97.5\%\), a
+  média amostral não difira da média populacional por mais de \(9\)
+  dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(38\)
+  \item
+    \(19\)
+  \item
+    \(23\)
+  \item
+    \(30\)
+  \item
+    \(8\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então, \[n \geq \left( \frac{2.24 \times 22}{9} \right)^2=29.9817.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=30\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A orquídea é uma flor muito admirada pela sua beleza e é uma ótima
+  opção para complementar a decoração de um ambiente, mas a falta de
+  informação sobre o manejo da planta prejudica o seu desenvolvimento.
+  Uma pesquisa por amostragem aleatória deseja estimar a duração média
+  da floração das orquídeas. Em anos anteriores o desvio padrão
+  populacional dos valores foi de \(24\) dias. Assumindo que a duração
+  da floração de uma orquídea segue distribuição Normal, qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(80\%\), a média
+  amostral não difira da média populacional por mais de \(8\) dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(15\)
+  \item
+    \(10\)
+  \item
+    \(7\)
+  \item
+    \(19\)
+  \item
+    \(4\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(80\%\), então \(z=1.28\). Então,
+  \[n \geq \left( \frac{1.28 \times 24}{8} \right)^2=14.7456.\] Portanto
+  o tamanho mínimo da amostra deve ser \(n=15\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A orquídea é uma flor muito admirada pela sua beleza e é uma ótima
+  opção para complementar a decoração de um ambiente, mas a falta de
+  informação sobre o manejo da planta prejudica o seu desenvolvimento.
+  Uma pesquisa por amostragem aleatória deseja estimar a duração média
+  da floração das orquídeas. Em anos anteriores o desvio padrão
+  populacional dos valores foi de \(17\) dias. Assumindo que a duração
+  da floração de uma orquídea segue distribuição Normal, qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(99\%\), a média
+  amostral não difira da média populacional por mais de \(13\) dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(3\)
+  \item
+    \(10\)
+  \item
+    \(8\)
+  \item
+    \(13\)
+  \item
+    \(12\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 17}{13} \right)^2=11.3828.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=12\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A orquídea é uma flor muito admirada pela sua beleza e é uma ótima
+  opção para complementar a decoração de um ambiente, mas a falta de
+  informação sobre o manejo da planta prejudica o seu desenvolvimento.
+  Uma pesquisa por amostragem aleatória deseja estimar a duração média
+  da floração das orquídeas. Em anos anteriores o desvio padrão
+  populacional dos valores foi de \(21\) dias. Assumindo que a duração
+  da floração de uma orquídea segue distribuição Normal, qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(95\%\), a média
+  amostral não difira da média populacional por mais de \(14\) dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(9\)
+  \item
+    \(3\)
+  \item
+    \(7\)
+  \item
+    \(10\)
+  \item
+    \(6\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(95\%\), então \(z=1.96\). Então,
+  \[n \geq \left( \frac{1.96 \times 21}{14} \right)^2=8.6436.\] Portanto
+  o tamanho mínimo da amostra deve ser \(n=9\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A orquídea é uma flor muito admirada pela sua beleza e é uma ótima
+  opção para complementar a decoração de um ambiente, mas a falta de
+  informação sobre o manejo da planta prejudica o seu desenvolvimento.
+  Uma pesquisa por amostragem aleatória deseja estimar a duração média
+  da floração das orquídeas. Em anos anteriores o desvio padrão
+  populacional dos valores foi de \(15\) dias. Assumindo que a duração
+  da floração de uma orquídea segue distribuição Normal, qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(97.5\%\), a
+  média amostral não difira da média populacional por mais de \(7\)
+  dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(6\)
+  \item
+    \(28\)
+  \item
+    \(24\)
+  \item
+    \(15\)
+  \item
+    \(18\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então, \[n \geq \left( \frac{2.24 \times 15}{7} \right)^2=23.04.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=24\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A orquídea é uma flor muito admirada pela sua beleza e é uma ótima
+  opção para complementar a decoração de um ambiente, mas a falta de
+  informação sobre o manejo da planta prejudica o seu desenvolvimento.
+  Uma pesquisa por amostragem aleatória deseja estimar a duração média
+  da floração das orquídeas. Em anos anteriores o desvio padrão
+  populacional dos valores foi de \(24\) dias. Assumindo que a duração
+  da floração de uma orquídea segue distribuição Normal, qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(97.5\%\), a
+  média amostral não difira da média populacional por mais de \(8\)
+  dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(35\)
+  \item
+    \(46\)
+  \item
+    \(53\)
+  \item
+    \(12\)
+  \item
+    \(29\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(97.5\%\), então \(z=2.24\).
+  Então, \[n \geq \left( \frac{2.24 \times 24}{8} \right)^2=45.1584.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=46\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A orquídea é uma flor muito admirada pela sua beleza e é uma ótima
+  opção para complementar a decoração de um ambiente, mas a falta de
+  informação sobre o manejo da planta prejudica o seu desenvolvimento.
+  Uma pesquisa por amostragem aleatória deseja estimar a duração média
+  da floração das orquídeas. Em anos anteriores o desvio padrão
+  populacional dos valores foi de \(22\) dias. Assumindo que a duração
+  da floração de uma orquídea segue distribuição Normal, qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(99\%\), a média
+  amostral não difira da média populacional por mais de \(15\) dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(19\)
+  \item
+    \(4\)
+  \item
+    \(15\)
+  \item
+    \(12\)
+  \item
+    \(10\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 22}{15} \right)^2=14.3187.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=15\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A orquídea é uma flor muito admirada pela sua beleza e é uma ótima
+  opção para complementar a decoração de um ambiente, mas a falta de
+  informação sobre o manejo da planta prejudica o seu desenvolvimento.
+  Uma pesquisa por amostragem aleatória deseja estimar a duração média
+  da floração das orquídeas. Em anos anteriores o desvio padrão
+  populacional dos valores foi de \(16\) dias. Assumindo que a duração
+  da floração de uma orquídea segue distribuição Normal, qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(99\%\), a média
+  amostral não difira da média populacional por mais de \(12\) dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(12\)
+  \item
+    \(8\)
+  \item
+    \(15\)
+  \item
+    \(10\)
+  \item
+    \(3\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 16}{12} \right)^2=11.8336.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=12\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A orquídea é uma flor muito admirada pela sua beleza e é uma ótima
+  opção para complementar a decoração de um ambiente, mas a falta de
+  informação sobre o manejo da planta prejudica o seu desenvolvimento.
+  Uma pesquisa por amostragem aleatória deseja estimar a duração média
+  da floração das orquídeas. Em anos anteriores o desvio padrão
+  populacional dos valores foi de \(26\) dias. Assumindo que a duração
+  da floração de uma orquídea segue distribuição Normal, qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(99\%\), a média
+  amostral não difira da média populacional por mais de \(9\) dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(14\)
+  \item
+    \(35\)
+  \item
+    \(62\)
+  \item
+    \(46\)
+  \item
+    \(56\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 26}{9} \right)^2=55.5522.\] Portanto
+  o tamanho mínimo da amostra deve ser \(n=56\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  A orquídea é uma flor muito admirada pela sua beleza e é uma ótima
+  opção para complementar a decoração de um ambiente, mas a falta de
+  informação sobre o manejo da planta prejudica o seu desenvolvimento.
+  Uma pesquisa por amostragem aleatória deseja estimar a duração média
+  da floração das orquídeas. Em anos anteriores o desvio padrão
+  populacional dos valores foi de \(22\) dias. Assumindo que a duração
+  da floração de uma orquídea segue distribuição Normal, qual deve ser o
+  tamanho mínimo da amostra para que, com confiança de \(99\%\), a média
+  amostral não difira da média populacional por mais de \(12\) dias?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(23\)
+  \item
+    \(28\)
+  \item
+    \(6\)
+  \item
+    \(19\)
+  \item
+    \(14\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  O tamanho mínimo da amostra é dado por
+  \[n \geq \left( \frac{z \times \sigma}{\varepsilon} \right)^2\]
+
+  Considerando nível de confiança de \(99\%\), então \(z=2.58\). Então,
+  \[n \geq \left( \frac{2.58 \times 22}{12} \right)^2=22.3729.\]
+  Portanto o tamanho mínimo da amostra deve ser \(n=23\).
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

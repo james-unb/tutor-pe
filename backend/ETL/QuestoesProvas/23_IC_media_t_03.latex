@@ -1,0 +1,502 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Computadores em alguns modelos de veículos calculam várias quantidades
+  relacionadas ao desempenho, como seu rendimento em km/l. Para uma
+  amostra de \(28\) veículos de um mesmo modelo, registrou-se o
+  rendimento cada vez que o tanque foi completamente cheio. Considerando
+  que o rendimento de um veículo possui distribuição Normal, foi
+  encontrado para a amostra considerada rendimento médio de \(9.09\)
+  km/l e desvio padrão amostral de \(0.99\) km/l. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o rendimento médio real deste modelo de veículo com
+  confiança de 90\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([9.030, 9.150]\)
+  \item
+    \([8.849, 9.331]\)
+  \item
+    \([8.771, 9.409]\)
+  \item
+    \([8.783, 9.397]\)
+  \item
+    \([9.032, 9.148]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;90\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[9.09-1.7033\times\frac{0.99}{\sqrt{28}} \ , \ 9.09+1.7033\times\frac{0.99}{\sqrt{28}}\right]\\
+  &=&\text{$[8.771, 9.409]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Computadores em alguns modelos de veículos calculam várias quantidades
+  relacionadas ao desempenho, como seu rendimento em km/l. Para uma
+  amostra de \(20\) veículos de um mesmo modelo, registrou-se o
+  rendimento cada vez que o tanque foi completamente cheio. Considerando
+  que o rendimento de um veículo possui distribuição Normal, foi
+  encontrado para a amostra considerada rendimento médio de \(15.95\)
+  km/l e desvio padrão amostral de \(1.26\) km/l. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o rendimento médio real deste modelo de veículo com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([15.818, 16.082]\)
+  \item
+    \([15.360, 16.540]\)
+  \item
+    \([15.398, 16.502]\)
+  \item
+    \([15.538, 16.362]\)
+  \item
+    \([15.827, 16.073]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[15.95-2.093\times\frac{1.26}{\sqrt{20}} \ , \ 15.95+2.093\times\frac{1.26}{\sqrt{20}}\right]\\
+  &=&\text{$[15.360, 16.540]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Computadores em alguns modelos de veículos calculam várias quantidades
+  relacionadas ao desempenho, como seu rendimento em km/l. Para uma
+  amostra de \(19\) veículos de um mesmo modelo, registrou-se o
+  rendimento cada vez que o tanque foi completamente cheio. Considerando
+  que o rendimento de um veículo possui distribuição Normal, foi
+  encontrado para a amostra considerada rendimento médio de \(17.59\)
+  km/l e desvio padrão amostral de \(0.96\) km/l. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o rendimento médio real deste modelo de veículo com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([17.127, 18.053]\)
+  \item
+    \([17.484, 17.696]\)
+  \item
+    \([17.221, 17.959]\)
+  \item
+    \([17.158, 18.022]\)
+  \item
+    \([17.491, 17.689]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[17.59-2.1009\times\frac{0.96}{\sqrt{19}} \ , \ 17.59+2.1009\times\frac{0.96}{\sqrt{19}}\right]\\
+  &=&\text{$[17.127, 18.053]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Computadores em alguns modelos de veículos calculam várias quantidades
+  relacionadas ao desempenho, como seu rendimento em km/l. Para uma
+  amostra de \(23\) veículos de um mesmo modelo, registrou-se o
+  rendimento cada vez que o tanque foi completamente cheio. Considerando
+  que o rendimento de um veículo possui distribuição Normal, foi
+  encontrado para a amostra considerada rendimento médio de \(15.25\)
+  km/l e desvio padrão amostral de \(1.09\) km/l. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o rendimento médio real deste modelo de veículo com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([14.779, 15.721]\)
+  \item
+    \([14.893, 15.607]\)
+  \item
+    \([14.805, 15.695]\)
+  \item
+    \([15.152, 15.348]\)
+  \item
+    \([15.157, 15.343]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[15.25-2.0739\times\frac{1.09}{\sqrt{23}} \ , \ 15.25+2.0739\times\frac{1.09}{\sqrt{23}}\right]\\
+  &=&\text{$[14.779, 15.721]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Computadores em alguns modelos de veículos calculam várias quantidades
+  relacionadas ao desempenho, como seu rendimento em km/l. Para uma
+  amostra de \(29\) veículos de um mesmo modelo, registrou-se o
+  rendimento cada vez que o tanque foi completamente cheio. Considerando
+  que o rendimento de um veículo possui distribuição Normal, foi
+  encontrado para a amostra considerada rendimento médio de \(9.42\)
+  km/l e desvio padrão amostral de \(1.11\) km/l. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o rendimento médio real deste modelo de veículo com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([9.342, 9.498]\)
+  \item
+    \([9.099, 9.741]\)
+  \item
+    \([9.345, 9.495]\)
+  \item
+    \([9.016, 9.824]\)
+  \item
+    \([8.998, 9.842]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[9.42-2.0484\times\frac{1.11}{\sqrt{29}} \ , \ 9.42+2.0484\times\frac{1.11}{\sqrt{29}}\right]\\
+  &=&\text{$[8.998, 9.842]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Computadores em alguns modelos de veículos calculam várias quantidades
+  relacionadas ao desempenho, como seu rendimento em km/l. Para uma
+  amostra de \(25\) veículos de um mesmo modelo, registrou-se o
+  rendimento cada vez que o tanque foi completamente cheio. Considerando
+  que o rendimento de um veículo possui distribuição Normal, foi
+  encontrado para a amostra considerada rendimento médio de \(8.88\)
+  km/l e desvio padrão amostral de \(1.03\) km/l. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o rendimento médio real deste modelo de veículo com
+  confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([8.774, 8.986]\)
+  \item
+    \([8.407, 9.353]\)
+  \item
+    \([8.765, 8.995]\)
+  \item
+    \([8.304, 9.456]\)
+  \item
+    \([8.349, 9.411]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[8.88-2.7969\times\frac{1.03}{\sqrt{25}} \ , \ 8.88+2.7969\times\frac{1.03}{\sqrt{25}}\right]\\
+  &=&\text{$[8.304, 9.456]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Computadores em alguns modelos de veículos calculam várias quantidades
+  relacionadas ao desempenho, como seu rendimento em km/l. Para uma
+  amostra de \(28\) veículos de um mesmo modelo, registrou-se o
+  rendimento cada vez que o tanque foi completamente cheio. Considerando
+  que o rendimento de um veículo possui distribuição Normal, foi
+  encontrado para a amostra considerada rendimento médio de \(15.31\)
+  km/l e desvio padrão amostral de \(1.14\) km/l. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o rendimento médio real deste modelo de veículo com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([14.979, 15.641]\)
+  \item
+    \([15.230, 15.390]\)
+  \item
+    \([15.226, 15.394]\)
+  \item
+    \([14.868, 15.752]\)
+  \item
+    \([14.888, 15.732]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[15.31-2.0518\times\frac{1.14}{\sqrt{28}} \ , \ 15.31+2.0518\times\frac{1.14}{\sqrt{28}}\right]\\
+  &=&\text{$[14.868, 15.752]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Computadores em alguns modelos de veículos calculam várias quantidades
+  relacionadas ao desempenho, como seu rendimento em km/l. Para uma
+  amostra de \(24\) veículos de um mesmo modelo, registrou-se o
+  rendimento cada vez que o tanque foi completamente cheio. Considerando
+  que o rendimento de um veículo possui distribuição Normal, foi
+  encontrado para a amostra considerada rendimento médio de \(9.42\)
+  km/l e desvio padrão amostral de \(0.99\) km/l. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o rendimento médio real deste modelo de veículo com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([9.024, 9.816]\)
+  \item
+    \([9.339, 9.501]\)
+  \item
+    \([9.002, 9.838]\)
+  \item
+    \([9.335, 9.505]\)
+  \item
+    \([9.087, 9.753]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[9.42-2.0687\times\frac{0.99}{\sqrt{24}} \ , \ 9.42+2.0687\times\frac{0.99}{\sqrt{24}}\right]\\
+  &=&\text{$[9.002, 9.838]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Computadores em alguns modelos de veículos calculam várias quantidades
+  relacionadas ao desempenho, como seu rendimento em km/l. Para uma
+  amostra de \(23\) veículos de um mesmo modelo, registrou-se o
+  rendimento cada vez que o tanque foi completamente cheio. Considerando
+  que o rendimento de um veículo possui distribuição Normal, foi
+  encontrado para a amostra considerada rendimento médio de \(14.49\)
+  km/l e desvio padrão amostral de \(1.04\) km/l. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o rendimento médio real deste modelo de veículo com
+  confiança de 99\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([13.931, 15.049]\)
+  \item
+    \([13.995, 14.985]\)
+  \item
+    \([13.879, 15.101]\)
+  \item
+    \([14.363, 14.617]\)
+  \item
+    \([14.373, 14.607]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;99\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[14.49-2.8188\times\frac{1.04}{\sqrt{23}} \ , \ 14.49+2.8188\times\frac{1.04}{\sqrt{23}}\right]\\
+  &=&\text{$[13.879, 15.101]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Computadores em alguns modelos de veículos calculam várias quantidades
+  relacionadas ao desempenho, como seu rendimento em km/l. Para uma
+  amostra de \(15\) veículos de um mesmo modelo, registrou-se o
+  rendimento cada vez que o tanque foi completamente cheio. Considerando
+  que o rendimento de um veículo possui distribuição Normal, foi
+  encontrado para a amostra considerada rendimento médio de \(10.74\)
+  km/l e desvio padrão amostral de \(1.27\) km/l. Com base nas
+  informações, assinale a alternativa correspondente ao intervalo de
+  confiança para o rendimento médio real deste modelo de veículo com
+  confiança de 95\%.
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \([10.558, 10.922]\)
+  \item
+    \([10.097, 11.383]\)
+  \item
+    \([10.574, 10.906]\)
+  \item
+    \([10.263, 11.217]\)
+  \item
+    \([10.037, 11.443]\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Do texto, nós temos que a variância é desconhecida. Deste modo, o
+  intervalo de confiança requerido é expresso como
+
+  \[\begin{aligned}
+  IC(\mu;95\%)&=&\left[\bar{x}-t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}} \ , \ \bar{x}+t_{1-\alpha/2;n-1}\frac{s}{\sqrt{n}}\right]\\
+  &=&\left[10.74-2.1448\times\frac{1.27}{\sqrt{15}} \ , \ 10.74+2.1448\times\frac{1.27}{\sqrt{15}}\right]\\
+  &=&\text{$[10.037, 11.443]$}.
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\end{enumerate}

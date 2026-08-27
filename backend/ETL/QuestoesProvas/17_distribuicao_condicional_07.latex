@@ -1,0 +1,732 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Especialistas em reprodução humana afirmam que é possível manipular o
+  pH do ambiente feminino para influenciar no sexo dos bebês que serão
+  gerados. A tabela de distribuição conjunta exibida abaixo apresenta
+  essas probabilidades após as manipulações. \(Z\) e \(W\) denotam,
+  respectivamente, meninas e meninos. Determine
+  \(\mathbb{P}(Z \geq 1|W \leq 2)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(W \textbackslash Z\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.094 & 0.074 & 0.211 \\
+  \(1\) & 0.009 & 0.09 & 0.002 \\
+  \(2\) & 0.121 & 0.053 & 0.018 \\
+  \(3\) & 0.048 & 0.158 & 0.122 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.380\)
+  \item
+    \(0.667\)
+  \item
+    \(0.276\)
+  \item
+    \(0.448\)
+  \item
+    \(0.488\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(Z\) e
+  \(W\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(W\setminus Z\) & \(0\) & \(1\) & \(2\) & \(\mathbb{P}(W=w)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.094 & 0.074 & 0.211 & 0.379 & & & & \\
+  \(1\) & 0.009 & 0.09 & 0.002 & 0.101 & & & & \\
+  \(2\) & 0.121 & 0.053 & 0.018 & 0.192 & & & & \\
+  \(3\) & 0.048 & 0.158 & 0.122 & 0.328 & & & & \\
+  \(\mathbb{P}(Z=z)\) & 0.272 & 0.375 & 0.353 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(Z \geq 1|W \leq 2) = 
+  \frac{\mathbb{P}(Z \geq 1, W \leq 2)}{P(W \leq 2)}=
+  \frac{\sum_{z=1}^{2} \sum_{w=0}^{2}p(z,w)}{\sum_{w=0}^{2}\mathbb{P}(W=w)} =
+  \frac{0.448}{0.672} = 0.667.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Especialistas em reprodução humana afirmam que é possível manipular o
+  pH do ambiente feminino para influenciar no sexo dos bebês que serão
+  gerados. A tabela de distribuição conjunta exibida abaixo apresenta
+  essas probabilidades após as manipulações. \(Z\) e \(W\) denotam,
+  respectivamente, meninas e meninos. Determine
+  \(\mathbb{P}(Z \geq 2|W \leq 2)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(W \textbackslash Z\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.029 & 0.032 & 0.01 \\
+  \(1\) & 0.008 & 0.069 & 0.086 \\
+  \(2\) & 0.242 & 0.165 & 0.019 \\
+  \(3\) & 0.171 & 0.009 & 0.16 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.178\)
+  \item
+    \(0.115\)
+  \item
+    \(0.045\)
+  \item
+    \(0.174\)
+  \item
+    \(0.766\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(Z\) e
+  \(W\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(W\setminus Z\) & \(0\) & \(1\) & \(2\) & \(\mathbb{P}(W=w)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.029 & 0.032 & 0.01 & 0.071 & & & & \\
+  \(1\) & 0.008 & 0.069 & 0.086 & 0.163 & & & & \\
+  \(2\) & 0.242 & 0.165 & 0.019 & 0.426 & & & & \\
+  \(3\) & 0.171 & 0.009 & 0.16 & 0.34 & & & & \\
+  \(\mathbb{P}(Z=z)\) & 0.45 & 0.275 & 0.275 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(Z \geq 2|W \leq 2) = 
+  \frac{\mathbb{P}(Z \geq 2, W \leq 2)}{P(W \leq 2)}=
+  \frac{\sum_{z=2}^{2} \sum_{w=0}^{2}p(z,w)}{\sum_{w=0}^{2}\mathbb{P}(W=w)} =
+  \frac{0.115}{0.660} = 0.174.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Especialistas em reprodução humana afirmam que é possível manipular o
+  pH do ambiente feminino para influenciar no sexo dos bebês que serão
+  gerados. A tabela de distribuição conjunta exibida abaixo apresenta
+  essas probabilidades após as manipulações. \(Z\) e \(W\) denotam,
+  respectivamente, meninas e meninos. Determine
+  \(\mathbb{P}(Z \geq 1|W \leq 0)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(W \textbackslash Z\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.186 & 0.042 & 0.074 \\
+  \(1\) & 0.047 & 0.04 & 0.03 \\
+  \(2\) & 0.015 & 0.14 & 0.145 \\
+  \(3\) & 0 & 0.257 & 0.024 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.116\)
+  \item
+    \(0.139\)
+  \item
+    \(0.727\)
+  \item
+    \(0.384\)
+  \item
+    \(0.196\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(Z\) e
+  \(W\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(W\setminus Z\) & \(0\) & \(1\) & \(2\) & \(\mathbb{P}(W=w)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.186 & 0.042 & 0.074 & 0.302 & & & & \\
+  \(1\) & 0.047 & 0.04 & 0.03 & 0.117 & & & & \\
+  \(2\) & 0.015 & 0.14 & 0.145 & 0.3 & & & & \\
+  \(3\) & 0 & 0.257 & 0.024 & 0.281 & & & & \\
+  \(\mathbb{P}(Z=z)\) & 0.248 & 0.479 & 0.273 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(Z \geq 1|W \leq 0) = 
+  \frac{\mathbb{P}(Z \geq 1, W \leq 0)}{P(W \leq 0)}=
+  \frac{\sum_{z=1}^{2} \sum_{w=0}^{0}p(z,w)}{\sum_{w=0}^{0}\mathbb{P}(W=w)} =
+  \frac{0.116}{0.302} = 0.384.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Especialistas em reprodução humana afirmam que é possível manipular o
+  pH do ambiente feminino para influenciar no sexo dos bebês que serão
+  gerados. A tabela de distribuição conjunta exibida abaixo apresenta
+  essas probabilidades após as manipulações. \(Z\) e \(W\) denotam,
+  respectivamente, meninas e meninos. Determine
+  \(\mathbb{P}(Z \geq 2|W \leq 2)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(W \textbackslash Z\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.032 & 0.019 & 0.024 \\
+  \(1\) & 0.052 & 0.007 & 0.192 \\
+  \(2\) & 0.272 & 0.097 & 0.024 \\
+  \(3\) & 0.149 & 0.019 & 0.113 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.061\)
+  \item
+    \(0.335\)
+  \item
+    \(0.240\)
+  \item
+    \(0.334\)
+  \item
+    \(0.674\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(Z\) e
+  \(W\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(W\setminus Z\) & \(0\) & \(1\) & \(2\) & \(\mathbb{P}(W=w)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.032 & 0.019 & 0.024 & 0.075 & & & & \\
+  \(1\) & 0.052 & 0.007 & 0.192 & 0.251 & & & & \\
+  \(2\) & 0.272 & 0.097 & 0.024 & 0.393 & & & & \\
+  \(3\) & 0.149 & 0.019 & 0.113 & 0.281 & & & & \\
+  \(\mathbb{P}(Z=z)\) & 0.505 & 0.142 & 0.353 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(Z \geq 2|W \leq 2) = 
+  \frac{\mathbb{P}(Z \geq 2, W \leq 2)}{P(W \leq 2)}=
+  \frac{\sum_{z=2}^{2} \sum_{w=0}^{2}p(z,w)}{\sum_{w=0}^{2}\mathbb{P}(W=w)} =
+  \frac{0.240}{0.719} = 0.334.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Especialistas em reprodução humana afirmam que é possível manipular o
+  pH do ambiente feminino para influenciar no sexo dos bebês que serão
+  gerados. A tabela de distribuição conjunta exibida abaixo apresenta
+  essas probabilidades após as manipulações. \(Z\) e \(W\) denotam,
+  respectivamente, meninas e meninos. Determine
+  \(\mathbb{P}(Z \geq 1|W \leq 2)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(W \textbackslash Z\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.096 & 0.112 & 0.009 \\
+  \(1\) & 0.053 & 0.005 & 0.038 \\
+  \(2\) & 0.018 & 0.163 & 0.332 \\
+  \(3\) & 0.034 & 0.042 & 0.098 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.257\)
+  \item
+    \(0.318\)
+  \item
+    \(0.659\)
+  \item
+    \(0.798\)
+  \item
+    \(0.276\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(Z\) e
+  \(W\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(W\setminus Z\) & \(0\) & \(1\) & \(2\) & \(\mathbb{P}(W=w)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.096 & 0.112 & 0.009 & 0.217 & & & & \\
+  \(1\) & 0.053 & 0.005 & 0.038 & 0.096 & & & & \\
+  \(2\) & 0.018 & 0.163 & 0.332 & 0.513 & & & & \\
+  \(3\) & 0.034 & 0.042 & 0.098 & 0.174 & & & & \\
+  \(\mathbb{P}(Z=z)\) & 0.201 & 0.322 & 0.477 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(Z \geq 1|W \leq 2) = 
+  \frac{\mathbb{P}(Z \geq 1, W \leq 2)}{P(W \leq 2)}=
+  \frac{\sum_{z=1}^{2} \sum_{w=0}^{2}p(z,w)}{\sum_{w=0}^{2}\mathbb{P}(W=w)} =
+  \frac{0.659}{0.826} = 0.798.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Especialistas em reprodução humana afirmam que é possível manipular o
+  pH do ambiente feminino para influenciar no sexo dos bebês que serão
+  gerados. A tabela de distribuição conjunta exibida abaixo apresenta
+  essas probabilidades após as manipulações. \(Z\) e \(W\) denotam,
+  respectivamente, meninas e meninos. Determine
+  \(\mathbb{P}(Z \geq 1|W \leq 0)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(W \textbackslash Z\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.069 & 0.007 & 0.068 \\
+  \(1\) & 0.105 & 0.07 & 0.008 \\
+  \(2\) & 0.046 & 0.257 & 0.032 \\
+  \(3\) & 0.068 & 0.161 & 0.109 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.075\)
+  \item
+    \(0.235\)
+  \item
+    \(0.783\)
+  \item
+    \(0.521\)
+  \item
+    \(0.049\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(Z\) e
+  \(W\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(W\setminus Z\) & \(0\) & \(1\) & \(2\) & \(\mathbb{P}(W=w)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.069 & 0.007 & 0.068 & 0.144 & & & & \\
+  \(1\) & 0.105 & 0.07 & 0.008 & 0.183 & & & & \\
+  \(2\) & 0.046 & 0.257 & 0.032 & 0.335 & & & & \\
+  \(3\) & 0.068 & 0.161 & 0.109 & 0.338 & & & & \\
+  \(\mathbb{P}(Z=z)\) & 0.288 & 0.495 & 0.217 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(Z \geq 1|W \leq 0) = 
+  \frac{\mathbb{P}(Z \geq 1, W \leq 0)}{P(W \leq 0)}=
+  \frac{\sum_{z=1}^{2} \sum_{w=0}^{0}p(z,w)}{\sum_{w=0}^{0}\mathbb{P}(W=w)} =
+  \frac{0.075}{0.144} = 0.521.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Especialistas em reprodução humana afirmam que é possível manipular o
+  pH do ambiente feminino para influenciar no sexo dos bebês que serão
+  gerados. A tabela de distribuição conjunta exibida abaixo apresenta
+  essas probabilidades após as manipulações. \(Z\) e \(W\) denotam,
+  respectivamente, meninas e meninos. Determine
+  \(\mathbb{P}(Z \geq 1|W \leq 0)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(W \textbackslash Z\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.022 & 0.036 & 0.061 \\
+  \(1\) & 0.17 & 0.012 & 0.074 \\
+  \(2\) & 0.157 & 0.07 & 0.213 \\
+  \(3\) & 0.178 & 0.002 & 0.005 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.097\)
+  \item
+    \(0.815\)
+  \item
+    \(0.303\)
+  \item
+    \(0.647\)
+  \item
+    \(0.128\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(Z\) e
+  \(W\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(W\setminus Z\) & \(0\) & \(1\) & \(2\) & \(\mathbb{P}(W=w)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.022 & 0.036 & 0.061 & 0.119 & & & & \\
+  \(1\) & 0.17 & 0.012 & 0.074 & 0.256 & & & & \\
+  \(2\) & 0.157 & 0.07 & 0.213 & 0.44 & & & & \\
+  \(3\) & 0.178 & 0.002 & 0.005 & 0.185 & & & & \\
+  \(\mathbb{P}(Z=z)\) & 0.527 & 0.12 & 0.353 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(Z \geq 1|W \leq 0) = 
+  \frac{\mathbb{P}(Z \geq 1, W \leq 0)}{P(W \leq 0)}=
+  \frac{\sum_{z=1}^{2} \sum_{w=0}^{0}p(z,w)}{\sum_{w=0}^{0}\mathbb{P}(W=w)} =
+  \frac{0.097}{0.119} = 0.815.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Especialistas em reprodução humana afirmam que é possível manipular o
+  pH do ambiente feminino para influenciar no sexo dos bebês que serão
+  gerados. A tabela de distribuição conjunta exibida abaixo apresenta
+  essas probabilidades após as manipulações. \(Z\) e \(W\) denotam,
+  respectivamente, meninas e meninos. Determine
+  \(\mathbb{P}(Z \geq 2|W \leq 2)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(W \textbackslash Z\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.039 & 0.065 & 0.034 \\
+  \(1\) & 0.062 & 0.004 & 0.101 \\
+  \(2\) & 0.039 & 0.023 & 0.014 \\
+  \(3\) & 0.168 & 0.361 & 0.09 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.695\)
+  \item
+    \(0.391\)
+  \item
+    \(0.149\)
+  \item
+    \(0.473\)
+  \item
+    \(0.184\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(Z\) e
+  \(W\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(W\setminus Z\) & \(0\) & \(1\) & \(2\) & \(\mathbb{P}(W=w)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.039 & 0.065 & 0.034 & 0.138 & & & & \\
+  \(1\) & 0.062 & 0.004 & 0.101 & 0.167 & & & & \\
+  \(2\) & 0.039 & 0.023 & 0.014 & 0.076 & & & & \\
+  \(3\) & 0.168 & 0.361 & 0.09 & 0.619 & & & & \\
+  \(\mathbb{P}(Z=z)\) & 0.308 & 0.453 & 0.239 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(Z \geq 2|W \leq 2) = 
+  \frac{\mathbb{P}(Z \geq 2, W \leq 2)}{P(W \leq 2)}=
+  \frac{\sum_{z=2}^{2} \sum_{w=0}^{2}p(z,w)}{\sum_{w=0}^{2}\mathbb{P}(W=w)} =
+  \frac{0.149}{0.381} = 0.391.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Especialistas em reprodução humana afirmam que é possível manipular o
+  pH do ambiente feminino para influenciar no sexo dos bebês que serão
+  gerados. A tabela de distribuição conjunta exibida abaixo apresenta
+  essas probabilidades após as manipulações. \(Z\) e \(W\) denotam,
+  respectivamente, meninas e meninos. Determine
+  \(\mathbb{P}(Z \geq 2|W \leq 2)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(W \textbackslash Z\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.156 & 0.007 & 0.146 \\
+  \(1\) & 0.113 & 0.096 & 0.004 \\
+  \(2\) & 0.002 & 0.173 & 0.02 \\
+  \(3\) & 0.004 & 0.167 & 0.112 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.478\)
+  \item
+    \(0.103\)
+  \item
+    \(0.059\)
+  \item
+    \(0.170\)
+  \item
+    \(0.237\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(Z\) e
+  \(W\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(W\setminus Z\) & \(0\) & \(1\) & \(2\) & \(\mathbb{P}(W=w)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.156 & 0.007 & 0.146 & 0.309 & & & & \\
+  \(1\) & 0.113 & 0.096 & 0.004 & 0.213 & & & & \\
+  \(2\) & 0.002 & 0.173 & 0.02 & 0.195 & & & & \\
+  \(3\) & 0.004 & 0.167 & 0.112 & 0.283 & & & & \\
+  \(\mathbb{P}(Z=z)\) & 0.275 & 0.443 & 0.282 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(Z \geq 2|W \leq 2) = 
+  \frac{\mathbb{P}(Z \geq 2, W \leq 2)}{P(W \leq 2)}=
+  \frac{\sum_{z=2}^{2} \sum_{w=0}^{2}p(z,w)}{\sum_{w=0}^{2}\mathbb{P}(W=w)} =
+  \frac{0.170}{0.717} = 0.237.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Especialistas em reprodução humana afirmam que é possível manipular o
+  pH do ambiente feminino para influenciar no sexo dos bebês que serão
+  gerados. A tabela de distribuição conjunta exibida abaixo apresenta
+  essas probabilidades após as manipulações. \(Z\) e \(W\) denotam,
+  respectivamente, meninas e meninos. Determine
+  \(\mathbb{P}(Z \geq 2|W \leq 2)\).
+
+  \begin{longtable}[]{@{}cccc@{}}
+  \toprule\noalign{}
+  \(W \textbackslash Z\) & \(0\) & \(1\) & \(2\) \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.024 & 0.124 & 0.107 \\
+  \(1\) & 0.072 & 0.051 & 0.001 \\
+  \(2\) & 0.086 & 0.135 & 0.027 \\
+  \(3\) & 0.141 & 0.197 & 0.035 \\
+  \end{longtable}
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.109\)
+  \item
+    \(0.075\)
+  \item
+    \(0.215\)
+  \item
+    \(0.621\)
+  \item
+    \(0.135\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiro, devemos calcular as distribuições marginais de \(Z\) e
+  \(W\).
+
+  \begin{longtable}[]{@{}ccccccccc@{}}
+  \toprule\noalign{}
+  \(W\setminus Z\) & \(0\) & \(1\) & \(2\) & \(\mathbb{P}(W=w)\) & & &
+  & \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \(0\) & 0.024 & 0.124 & 0.107 & 0.255 & & & & \\
+  \(1\) & 0.072 & 0.051 & 0.001 & 0.124 & & & & \\
+  \(2\) & 0.086 & 0.135 & 0.027 & 0.248 & & & & \\
+  \(3\) & 0.141 & 0.197 & 0.035 & 0.373 & & & & \\
+  \(\mathbb{P}(Z=z)\) & 0.323 & 0.507 & 0.17 & 1 & & & & \\
+  \end{longtable}
+
+  Daí, segue que \[\mathbb{P}(Z \geq 2|W \leq 2) = 
+  \frac{\mathbb{P}(Z \geq 2, W \leq 2)}{P(W \leq 2)}=
+  \frac{\sum_{z=2}^{2} \sum_{w=0}^{2}p(z,w)}{\sum_{w=0}^{2}\mathbb{P}(W=w)} =
+  \frac{0.135}{0.627} = 0.215.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

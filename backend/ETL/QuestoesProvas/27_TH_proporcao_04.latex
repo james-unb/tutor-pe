@@ -1,0 +1,372 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante de inseticida lançou recentemente um inseticida
+  biológico que tem como princípio ativo um vírus de grande eficácia
+  para controle da lagarta-do-cartucho, principal praga do milho e
+  também de outras culturas. O bioinseticida assegura taxa de
+  mortalidade de, pelo menos, \(75\%\) das lagartas-do-cartucho.
+  Utilizando uma amostra aleatória de culturas contaminadas, uma agência
+  fiscalizadora realizou um teste de hipótese e encontrou um p-valor
+  igual a \(0.1\). Dessa forma, ao nível de significância de \(9\%\),
+  deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a eficácia
+    do inseticida é inferior a \(75\%\).
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a eficácia do
+    inseticida é inferior a \(75\%\).
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a eficácia do
+    inseticida é superior a \(75\%\).
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a eficácia do
+    inseticida é inferior a \(75\%\).
+  \item
+    Não se rejeita a hipótese nula. A eficácia do inseticida é
+    certamente superior a \(75\%\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 75\%\) \emph{vs.} \(H_a: p < 75\%\).
+
+  Portanto, p-valor = \(0.1 > 0.09\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Um fabricante de inseticida lançou recentemente um inseticida biológico que tem como princípio ativo um vírus de grande eficácia para controle da lagarta-do-cartucho, principal praga do milho e também de outras culturas. O bioinseticida assegura taxa de mortalidade de, pelo menos,\)75\%\(das lagartas-do-cartucho. Utilizando uma amostra aleatória de culturas contaminadas, uma agência fiscalizadora realizou um teste de hipótese e encontrou um p-valor igual a\)0.01\(. Dessa forma, ao nível de significância de\)6\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Rejeita-se a hipótese nula. Há evidência de que a eficácia do inseticida é superior a\)75\%\(.
+      \item Não se rejeita a hipótese nula. Não há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+      \item Rejeita-se a hipótese nula. Há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+      \item Não se rejeita a hipótese nula. Há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+      \item Não se rejeita a hipótese nula. A eficácia do inseticida é certamente superior a\)75\%\(.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textless{} 75\%\(. 
+
+  Portanto, p-valor =\)0.01 \textless{} 0.06\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante de inseticida lançou recentemente um inseticida
+  biológico que tem como princípio ativo um vírus de grande eficácia
+  para controle da lagarta-do-cartucho, principal praga do milho e
+  também de outras culturas. O bioinseticida assegura taxa de
+  mortalidade de, pelo menos, \(75\%\) das lagartas-do-cartucho.
+  Utilizando uma amostra aleatória de culturas contaminadas, uma agência
+  fiscalizadora realizou um teste de hipótese e encontrou um p-valor
+  igual a \(0.01\). Dessa forma, ao nível de significância de \(7\%\),
+  deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a eficácia
+    do inseticida é inferior a \(75\%\).
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a eficácia do
+    inseticida é inferior a \(75\%\).
+  \item
+    Não se rejeita a hipótese nula. A eficácia do inseticida é
+    certamente superior a \(75\%\).
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a eficácia do
+    inseticida é inferior a \(75\%\).
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a eficácia do
+    inseticida é superior a \(75\%\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 75\%\) \emph{vs.} \(H_a: p < 75\%\).
+
+  Portanto, p-valor = \(0.01 < 0.07\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Um fabricante de inseticida lançou recentemente um inseticida biológico que tem como princípio ativo um vírus de grande eficácia para controle da lagarta-do-cartucho, principal praga do milho e também de outras culturas. O bioinseticida assegura taxa de mortalidade de, pelo menos,\)75\%\(das lagartas-do-cartucho. Utilizando uma amostra aleatória de culturas contaminadas, uma agência fiscalizadora realizou um teste de hipótese e encontrou um p-valor igual a\)0.01\(. Dessa forma, ao nível de significância de\)4\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. Há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+      \item Não se rejeita a hipótese nula. Não há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+      \item Não se rejeita a hipótese nula. A eficácia do inseticida é certamente superior a\)75\%\(.
+      \item Rejeita-se a hipótese nula. Há evidência de que a eficácia do inseticida é superior a\)75\%\(.
+      \item Rejeita-se a hipótese nula. Há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textless{} 75\%\(. 
+
+  Portanto, p-valor =\)0.01 \textless{} 0.04\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante de inseticida lançou recentemente um inseticida
+  biológico que tem como princípio ativo um vírus de grande eficácia
+  para controle da lagarta-do-cartucho, principal praga do milho e
+  também de outras culturas. O bioinseticida assegura taxa de
+  mortalidade de, pelo menos, \(75\%\) das lagartas-do-cartucho.
+  Utilizando uma amostra aleatória de culturas contaminadas, uma agência
+  fiscalizadora realizou um teste de hipótese e encontrou um p-valor
+  igual a \(0.02\). Dessa forma, ao nível de significância de \(10\%\),
+  deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Não se rejeita a hipótese nula. A eficácia do inseticida é
+    certamente superior a \(75\%\).
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a eficácia do
+    inseticida é inferior a \(75\%\).
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a eficácia do
+    inseticida é superior a \(75\%\).
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a eficácia
+    do inseticida é inferior a \(75\%\).
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a eficácia do
+    inseticida é inferior a \(75\%\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 75\%\) \emph{vs.} \(H_a: p < 75\%\).
+
+  Portanto, p-valor = \(0.02 < 0.1\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Um fabricante de inseticida lançou recentemente um inseticida biológico que tem como princípio ativo um vírus de grande eficácia para controle da lagarta-do-cartucho, principal praga do milho e também de outras culturas. O bioinseticida assegura taxa de mortalidade de, pelo menos,\)75\%\(das lagartas-do-cartucho. Utilizando uma amostra aleatória de culturas contaminadas, uma agência fiscalizadora realizou um teste de hipótese e encontrou um p-valor igual a\)0.06\(. Dessa forma, ao nível de significância de\)9\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. Há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+      \item Rejeita-se a hipótese nula. Há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+      \item Não se rejeita a hipótese nula. A eficácia do inseticida é certamente superior a\)75\%\(.
+      \item Não se rejeita a hipótese nula. Não há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+      \item Rejeita-se a hipótese nula. Há evidência de que a eficácia do inseticida é superior a\)75\%\(.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textless{} 75\%\(. 
+
+  Portanto, p-valor =\)0.06 \textless{} 0.09\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante de inseticida lançou recentemente um inseticida
+  biológico que tem como princípio ativo um vírus de grande eficácia
+  para controle da lagarta-do-cartucho, principal praga do milho e
+  também de outras culturas. O bioinseticida assegura taxa de
+  mortalidade de, pelo menos, \(75\%\) das lagartas-do-cartucho.
+  Utilizando uma amostra aleatória de culturas contaminadas, uma agência
+  fiscalizadora realizou um teste de hipótese e encontrou um p-valor
+  igual a \(0.01\). Dessa forma, ao nível de significância de \(9\%\),
+  deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a eficácia do
+    inseticida é inferior a \(75\%\).
+  \item
+    Não se rejeita a hipótese nula. A eficácia do inseticida é
+    certamente superior a \(75\%\).
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a eficácia
+    do inseticida é inferior a \(75\%\).
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a eficácia do
+    inseticida é inferior a \(75\%\).
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a eficácia do
+    inseticida é superior a \(75\%\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 75\%\) \emph{vs.} \(H_a: p < 75\%\).
+
+  Portanto, p-valor = \(0.01 < 0.09\) e rejeita-se
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Um fabricante de inseticida lançou recentemente um inseticida biológico que tem como princípio ativo um vírus de grande eficácia para controle da lagarta-do-cartucho, principal praga do milho e também de outras culturas. O bioinseticida assegura taxa de mortalidade de, pelo menos,\)75\%\(das lagartas-do-cartucho. Utilizando uma amostra aleatória de culturas contaminadas, uma agência fiscalizadora realizou um teste de hipótese e encontrou um p-valor igual a\)0.02\(. Dessa forma, ao nível de significância de\)6\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Não se rejeita a hipótese nula. A eficácia do inseticida é certamente superior a\)75\%\(.
+      \item Não se rejeita a hipótese nula. Há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+      \item Rejeita-se a hipótese nula. Há evidência de que a eficácia do inseticida é superior a\)75\%\(.
+      \item Rejeita-se a hipótese nula. Há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+      \item Não se rejeita a hipótese nula. Não há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textless{} 75\%\(. 
+
+  Portanto, p-valor =\)0.02 \textless{} 0.06\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Um fabricante de inseticida lançou recentemente um inseticida
+  biológico que tem como princípio ativo um vírus de grande eficácia
+  para controle da lagarta-do-cartucho, principal praga do milho e
+  também de outras culturas. O bioinseticida assegura taxa de
+  mortalidade de, pelo menos, \(75\%\) das lagartas-do-cartucho.
+  Utilizando uma amostra aleatória de culturas contaminadas, uma agência
+  fiscalizadora realizou um teste de hipótese e encontrou um p-valor
+  igual a \(0.06\). Dessa forma, ao nível de significância de \(5\%\),
+  deve-se concluir que:
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a eficácia do
+    inseticida é inferior a \(75\%\).
+  \item
+    Não se rejeita a hipótese nula. Não há evidência de que a eficácia
+    do inseticida é inferior a \(75\%\).
+  \item
+    Não se rejeita a hipótese nula. Há evidência de que a eficácia do
+    inseticida é inferior a \(75\%\).
+  \item
+    Rejeita-se a hipótese nula. Há evidência de que a eficácia do
+    inseticida é superior a \(75\%\).
+  \item
+    Não se rejeita a hipótese nula. A eficácia do inseticida é
+    certamente superior a \(75\%\).
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Primeiramente deve-se observar que as hipóteses do teste são:\\
+  \(H_0: p \geq 75\%\) \emph{vs.} \(H_a: p < 75\%\).
+
+  Portanto, p-valor = \(0.06 > 0.05\) e não se rejeita
+  \(H_0\).\(\begin{enumerate}[(a)]
+      \item Falso
+      \item Verdadeiro
+      \item Falso
+      \item Falso
+      \item Falso
+    \end{enumerate}
+    \item
+    \textbf{Question}\\
+    Um fabricante de inseticida lançou recentemente um inseticida biológico que tem como princípio ativo um vírus de grande eficácia para controle da lagarta-do-cartucho, principal praga do milho e também de outras culturas. O bioinseticida assegura taxa de mortalidade de, pelo menos,\)75\%\(das lagartas-do-cartucho. Utilizando uma amostra aleatória de culturas contaminadas, uma agência fiscalizadora realizou um teste de hipótese e encontrou um p-valor igual a\)0.04\(. Dessa forma, ao nível de significância de\)7\%\(, deve-se concluir que: 
+
+    \begin{enumerate}[(a)]
+      \item Rejeita-se a hipótese nula. Há evidência de que a eficácia do inseticida é superior a\)75\%\(.
+      \item Não se rejeita a hipótese nula. Há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+      \item Não se rejeita a hipótese nula. Não há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+      \item Rejeita-se a hipótese nula. Há evidência de que a eficácia do inseticida é inferior a\)75\%\(.
+      \item Não se rejeita a hipótese nula. A eficácia do inseticida é certamente superior a\)75\%\(.
+    \end{enumerate}
+
+    \textbf{Solution}\\
+    Primeiramente deve-se observar que as hipóteses do teste são: \\
+  \)H\_0: p \%\(\emph{vs.}\)H\_a: p \textless{} 75\%\(. 
+
+  Portanto, p-valor =\)0.04 \textless{} 0.07\(e rejeita-se\)H\_0\(.\)
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

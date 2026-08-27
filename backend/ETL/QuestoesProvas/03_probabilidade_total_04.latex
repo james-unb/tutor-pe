@@ -1,0 +1,472 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  Uma caixa contém \(6\) bolas azuis e \(4\) bolas brancas. Uma bola é
+  extraída, sua cor observada e, a seguir, a bola é reposta na caixa com
+  mais \(3\) bolas da mesma cor. Esse processo é repetido
+  consecutivamente. Qual a probabilidade de se extrair uma bola azul na
+  segunda retirada?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.355\)
+  \item
+    \(0.360\)
+  \item
+    \(0.600\)
+  \item
+    \(0.415\)
+  \item
+    \(0.780\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``extrair uma bola azul na segunda retirada'',}
+  \\
+  & B=\text{``extrair uma bola branca na primeira retirada''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)= 4/10\) e \(\mathbb{P}(B^c)=6/10\).
+  Logo, pelo Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &={6\over 13} \times { 4 \over 10} + {9 \over 13} \times {6 \over 10} \approx 0.6 .
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma caixa contém \(7\) bolas azuis e \(3\) bolas brancas. Uma bola é
+  extraída, sua cor observada e, a seguir, a bola é reposta na caixa com
+  mais \(3\) bolas da mesma cor. Esse processo é repetido
+  consecutivamente. Qual a probabilidade de se extrair uma bola azul na
+  segunda retirada?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.700\)
+  \item
+    \(0.414\)
+  \item
+    \(0.910\)
+  \item
+    \(0.490\)
+  \item
+    \(0.538\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``extrair uma bola azul na segunda retirada'',}
+  \\
+  & B=\text{``extrair uma bola branca na primeira retirada''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)= 3/10\) e \(\mathbb{P}(B^c)=7/10\).
+  Logo, pelo Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &={7\over 13} \times { 3 \over 10} + {10 \over 13} \times {7 \over 10} \approx 0.7 .
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma caixa contém \(6\) bolas azuis e \(4\) bolas brancas. Uma bola é
+  extraída, sua cor observada e, a seguir, a bola é reposta na caixa com
+  mais \(2\) bolas da mesma cor. Esse processo é repetido
+  consecutivamente. Qual a probabilidade de se extrair uma bola azul na
+  segunda retirada?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.600\)
+  \item
+    \(0.400\)
+  \item
+    \(0.417\)
+  \item
+    \(0.720\)
+  \item
+    \(0.360\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``extrair uma bola azul na segunda retirada'',}
+  \\
+  & B=\text{``extrair uma bola branca na primeira retirada''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)= 4/10\) e \(\mathbb{P}(B^c)=6/10\).
+  Logo, pelo Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &={6\over 12} \times { 4 \over 10} + {8 \over 12} \times {6 \over 10} \approx 0.6 .
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma caixa contém \(6\) bolas azuis e \(3\) bolas brancas. Uma bola é
+  extraída, sua cor observada e, a seguir, a bola é reposta na caixa com
+  mais \(4\) bolas da mesma cor. Esse processo é repetido
+  consecutivamente. Qual a probabilidade de se extrair uma bola azul na
+  segunda retirada?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.513\)
+  \item
+    \(0.320\)
+  \item
+    \(0.963\)
+  \item
+    \(0.444\)
+  \item
+    \(0.667\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``extrair uma bola azul na segunda retirada'',}
+  \\
+  & B=\text{``extrair uma bola branca na primeira retirada''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)= 3/9\) e \(\mathbb{P}(B^c)=6/9\). Logo,
+  pelo Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &={6\over 13} \times { 3 \over 9} + {10 \over 13} \times {6 \over 9} \approx 0.667 .
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma caixa contém \(8\) bolas azuis e \(4\) bolas brancas. Uma bola é
+  extraída, sua cor observada e, a seguir, a bola é reposta na caixa com
+  mais \(4\) bolas da mesma cor. Esse processo é repetido
+  consecutivamente. Qual a probabilidade de se extrair uma bola azul na
+  segunda retirada?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.667\)
+  \item
+    \(0.500\)
+  \item
+    \(0.889\)
+  \item
+    \(0.375\)
+  \item
+    \(0.444\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``extrair uma bola azul na segunda retirada'',}
+  \\
+  & B=\text{``extrair uma bola branca na primeira retirada''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)= 4/12\) e \(\mathbb{P}(B^c)=8/12\).
+  Logo, pelo Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &={8\over 16} \times { 4 \over 12} + {12 \over 16} \times {8 \over 12} \approx 0.667 .
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma caixa contém \(8\) bolas azuis e \(4\) bolas brancas. Uma bola é
+  extraída, sua cor observada e, a seguir, a bola é reposta na caixa com
+  mais \(3\) bolas da mesma cor. Esse processo é repetido
+  consecutivamente. Qual a probabilidade de se extrair uma bola azul na
+  segunda retirada?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.427\)
+  \item
+    \(0.489\)
+  \item
+    \(0.833\)
+  \item
+    \(0.444\)
+  \item
+    \(0.667\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``extrair uma bola azul na segunda retirada'',}
+  \\
+  & B=\text{``extrair uma bola branca na primeira retirada''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)= 4/12\) e \(\mathbb{P}(B^c)=8/12\).
+  Logo, pelo Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &={8\over 15} \times { 4 \over 12} + {11 \over 15} \times {8 \over 12} \approx 0.667 .
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma caixa contém \(6\) bolas azuis e \(5\) bolas brancas. Uma bola é
+  extraída, sua cor observada e, a seguir, a bola é reposta na caixa com
+  mais \(3\) bolas da mesma cor. Esse processo é repetido
+  consecutivamente. Qual a probabilidade de se extrair uma bola azul na
+  segunda retirada?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.337\)
+  \item
+    \(0.545\)
+  \item
+    \(0.298\)
+  \item
+    \(0.694\)
+  \item
+    \(0.351\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``extrair uma bola azul na segunda retirada'',}
+  \\
+  & B=\text{``extrair uma bola branca na primeira retirada''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)= 5/11\) e \(\mathbb{P}(B^c)=6/11\).
+  Logo, pelo Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &={6\over 14} \times { 5 \over 11} + {9 \over 14} \times {6 \over 11} \approx 0.545 .
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma caixa contém \(7\) bolas azuis e \(3\) bolas brancas. Uma bola é
+  extraída, sua cor observada e, a seguir, a bola é reposta na caixa com
+  mais \(4\) bolas da mesma cor. Esse processo é repetido
+  consecutivamente. Qual a probabilidade de se extrair uma bola azul na
+  segunda retirada?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.550\)
+  \item
+    \(0.357\)
+  \item
+    \(0.980\)
+  \item
+    \(0.700\)
+  \item
+    \(0.490\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``extrair uma bola azul na segunda retirada'',}
+  \\
+  & B=\text{``extrair uma bola branca na primeira retirada''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)= 3/10\) e \(\mathbb{P}(B^c)=7/10\).
+  Logo, pelo Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &={7\over 14} \times { 3 \over 10} + {11 \over 14} \times {7 \over 10} \approx 0.7 .
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma caixa contém \(7\) bolas azuis e \(5\) bolas brancas. Uma bola é
+  extraída, sua cor observada e, a seguir, a bola é reposta na caixa com
+  mais \(3\) bolas da mesma cor. Esse processo é repetido
+  consecutivamente. Qual a probabilidade de se extrair uma bola azul na
+  segunda retirada?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.729\)
+  \item
+    \(0.373\)
+  \item
+    \(0.583\)
+  \item
+    \(0.340\)
+  \item
+    \(0.389\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``extrair uma bola azul na segunda retirada'',}
+  \\
+  & B=\text{``extrair uma bola branca na primeira retirada''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)= 5/12\) e \(\mathbb{P}(B^c)=7/12\).
+  Logo, pelo Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &={7\over 15} \times { 5 \over 12} + {10 \over 15} \times {7 \over 12} \approx 0.583 .
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  Uma caixa contém \(8\) bolas azuis e \(3\) bolas brancas. Uma bola é
+  extraída, sua cor observada e, a seguir, a bola é reposta na caixa com
+  mais \(3\) bolas da mesma cor. Esse processo é repetido
+  consecutivamente. Qual a probabilidade de se extrair uma bola azul na
+  segunda retirada?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.727\)
+  \item
+    \(0.529\)
+  \item
+    \(0.449\)
+  \item
+    \(0.926\)
+  \item
+    \(0.571\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Considere os eventos \[\begin{array}{lll}
+  & A=\text{``extrair uma bola azul na segunda retirada'',}
+  \\
+  & B=\text{``extrair uma bola branca na primeira retirada''.}
+  \end{array}\] Note que \(\{B, B^c\}\) forma uma partição do espaço
+  amostral, onde \(\mathbb{P}(B)= 3/11\) e \(\mathbb{P}(B^c)=8/11\).
+  Logo, pelo Teorema da probabilidade total tem-se \[\begin{aligned}
+  \mathbb{P}(A)&=\mathbb{P}(A|B)\mathbb{P}(B)+\mathbb{P}(A|B^c)\mathbb{P}(B^c) \\
+  &={8\over 14} \times { 3 \over 11} + {11 \over 14} \times {8 \over 11} \approx 0.727 .
+  \end{aligned}\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}

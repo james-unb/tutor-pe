@@ -1,0 +1,432 @@
+\begin{enumerate}
+\item
+  \textbf{Question}\\
+  O rendimento de um determinado investimento é uma variável aleatória
+  com Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{x}{2000},  &  0 \leq x <2000,\\
+          1,  &  x \geq 2000.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade que o
+  investimento gere um rendimento entre \(1552\) e \(2469\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.224\)
+  \item
+    \(0.776\)
+  \item
+    \(0.009\)
+  \item
+    \(0.004\)
+  \item
+    \(0.179\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal probabilidade é dada por
+  \[P(1552 \leq X \leq 2469)= F(2469)-F(1552)=0.224.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O rendimento de um determinado investimento é uma variável aleatória
+  com Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{x}{2000},  &  0 \leq x <2000,\\
+          1,  &  x \geq 2000.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade que o
+  investimento gere um rendimento entre \(1848\) e \(2459\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.009\)
+  \item
+    \(0.004\)
+  \item
+    \(0.924\)
+  \item
+    \(0.076\)
+  \item
+    \(0.061\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal probabilidade é dada por
+  \[P(1848 \leq X \leq 2459)= F(2459)-F(1848)=0.076.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O rendimento de um determinado investimento é uma variável aleatória
+  com Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{x}{2000},  &  0 \leq x <2000,\\
+          1,  &  x \geq 2000.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade que o
+  investimento gere um rendimento entre \(1838\) e \(2207\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.065\)
+  \item
+    \(0.004\)
+  \item
+    \(0.919\)
+  \item
+    \(0.009\)
+  \item
+    \(0.081\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal probabilidade é dada por
+  \[P(1838 \leq X \leq 2207)= F(2207)-F(1838)=0.081.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O rendimento de um determinado investimento é uma variável aleatória
+  com Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{x}{2000},  &  0 \leq x <2000,\\
+          1,  &  x \geq 2000.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade que o
+  investimento gere um rendimento entre \(1809\) e \(2446\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.904\)
+  \item
+    \(0.096\)
+  \item
+    \(0.009\)
+  \item
+    \(0.077\)
+  \item
+    \(0.004\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal probabilidade é dada por
+  \[P(1809 \leq X \leq 2446)= F(2446)-F(1809)=0.096.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O rendimento de um determinado investimento é uma variável aleatória
+  com Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{x}{2000},  &  0 \leq x <2000,\\
+          1,  &  x \geq 2000.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade que o
+  investimento gere um rendimento entre \(1698\) e \(2216\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.151\)
+  \item
+    \(0.009\)
+  \item
+    \(0.121\)
+  \item
+    \(0.004\)
+  \item
+    \(0.849\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal probabilidade é dada por
+  \[P(1698 \leq X \leq 2216)= F(2216)-F(1698)=0.151.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O rendimento de um determinado investimento é uma variável aleatória
+  com Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{x}{2000},  &  0 \leq x <2000,\\
+          1,  &  x \geq 2000.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade que o
+  investimento gere um rendimento entre \(1643\) e \(2154\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.143\)
+  \item
+    \(0.179\)
+  \item
+    \(0.009\)
+  \item
+    \(0.004\)
+  \item
+    \(0.821\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal probabilidade é dada por
+  \[P(1643 \leq X \leq 2154)= F(2154)-F(1643)=0.179.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O rendimento de um determinado investimento é uma variável aleatória
+  com Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{x}{2000},  &  0 \leq x <2000,\\
+          1,  &  x \geq 2000.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade que o
+  investimento gere um rendimento entre \(1720\) e \(2267\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.009\)
+  \item
+    \(0.004\)
+  \item
+    \(0.112\)
+  \item
+    \(0.140\)
+  \item
+    \(0.860\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal probabilidade é dada por
+  \[P(1720 \leq X \leq 2267)= F(2267)-F(1720)=0.14.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O rendimento de um determinado investimento é uma variável aleatória
+  com Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{x}{2000},  &  0 \leq x <2000,\\
+          1,  &  x \geq 2000.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade que o
+  investimento gere um rendimento entre \(1630\) e \(2348\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.815\)
+  \item
+    \(0.148\)
+  \item
+    \(0.009\)
+  \item
+    \(0.004\)
+  \item
+    \(0.185\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal probabilidade é dada por
+  \[P(1630 \leq X \leq 2348)= F(2348)-F(1630)=0.185.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O rendimento de um determinado investimento é uma variável aleatória
+  com Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{x}{2000},  &  0 \leq x <2000,\\
+          1,  &  x \geq 2000.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade que o
+  investimento gere um rendimento entre \(1550\) e \(2418\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.180\)
+  \item
+    \(0.775\)
+  \item
+    \(0.009\)
+  \item
+    \(0.225\)
+  \item
+    \(0.004\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal probabilidade é dada por
+  \[P(1550 \leq X \leq 2418)= F(2418)-F(1550)=0.225.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \end{enumerate}
+\item
+  \textbf{Question}\\
+  O rendimento de um determinado investimento é uma variável aleatória
+  com Função de Distribuição Acumulada \[F(x)=\left\{
+        \begin{array}{ll}
+          0, &  x<0, \\
+          \frac{x}{2000},  &  0 \leq x <2000,\\
+          1,  &  x \geq 2000.
+        \end{array}
+      \right.\] Segundo esse modelo, qual é a probabilidade que o
+  investimento gere um rendimento entre \(1532\) e \(2138\)?
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    \(0.187\)
+  \item
+    \(0.234\)
+  \item
+    \(0.766\)
+  \item
+    \(0.009\)
+  \item
+    \(0.004\)
+  \end{enumerate}
+
+  \textbf{Solution}\\
+  Basta observar que tal probabilidade é dada por
+  \[P(1532 \leq X \leq 2138)= F(2138)-F(1532)=0.234.\]
+
+  \begin{enumerate}
+  \def\labelenumii{(\alph{enumii})}
+  \item
+    Falso
+  \item
+    Verdadeiro
+  \item
+    Falso
+  \item
+    Falso
+  \item
+    Falso
+  \end{enumerate}
+\end{enumerate}
