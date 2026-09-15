@@ -2,7 +2,7 @@ import { type ClassValue, clsx } from "clsx";
 import { BlockMath, InlineMath } from 'react-katex';
 // @ts-ignore
 import renderMathInElement from 'katex/dist/contrib/auto-render';
-import React, { useEffect, useRef } from 'react';
+import React, { useLayoutEffect, useRef } from 'react';
 
 export function cn(...inputs: ClassValue[]) {
     return clsx(inputs);
@@ -30,22 +30,17 @@ const KATEX_OPTIONS = {
 export const MathHtml: React.FC<MathHtmlProps> = ({ html, className, style }) => {
     const containerRef = useRef<HTMLSpanElement>(null);
 
-    useEffect(() => {
+    // useLayoutEffect (not useEffect+rAF) so this can't be skipped by a cancelled animation
+    // frame, and it runs after EVERY render (no dependency array): some parents re-render on
+    // a timer (e.g. the simulado countdown), which makes React re-apply dangerouslySetInnerHTML
+    // and reset this span back to raw, un-typeset text even when `html` itself is unchanged.
+    // Re-running KaTeX here is cheap and idempotent - it only touches text nodes that still
+    // have un-typeset delimiters - so the math stays rendered instead of reverting on the next tick.
+    useLayoutEffect(() => {
         const el = containerRef.current;
         if (!el) return;
-        let id2: number | null = null;
-        const runRender = () => renderMathInElement(el, KATEX_OPTIONS);
-        const id = requestAnimationFrame(() => {
-            runRender();
-            if (el.querySelector('table')) {
-                id2 = requestAnimationFrame(runRender);
-            }
-        });
-        return () => {
-            cancelAnimationFrame(id);
-            if (id2 !== null) cancelAnimationFrame(id2);
-        };
-    }, [html]);
+        renderMathInElement(el, KATEX_OPTIONS);
+    });
 
     return (
         <span

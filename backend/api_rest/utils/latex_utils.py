@@ -37,6 +37,12 @@ def convert_latex_tables(text):
         s = cell_text.strip()
         s = re.sub(r'\\noalign\{[^}]*\}', '', s)
         s = s.strip()
+        # Old-style font switches ({\bf X}, {\it X}) must be converted HERE, before the
+        # decorative-brace strip below removes the braces they depend on. The global
+        # \{\\bf ...\} -> <b> rule runs only after tables are already HTML, so without this
+        # a header cell would reach the page as the literal text "\bf Func.".
+        s = re.sub(r'\{\s*\\bf\s+(?P<content>[^{}]*)\}', r'<b>\g<content></b>', s)
+        s = re.sub(r'\{\s*\\(?:it|em)\s+(?P<content>[^{}]*)\}', r'<i>\g<content></i>', s)
         # Strip single-level decorative braces: {Afirmação} -> Afirmação (avoid breaking math)
         if s.startswith('{') and s.endswith('}') and '{' not in s[1:-1]:
             s = s[1:-1].strip()
@@ -106,7 +112,10 @@ def convert_latex_tables(text):
     
     text = re.sub(r'\\begin\{table\}(\[.*?\])?', '', text)
     text = re.sub(r'\\end\{table\}', '', text)
-    text = re.sub(r'\\centering|\\footnotesize|\\small|\\large|\\Huge|\\huge|\\tiny', '', text)
+    # Also consume an opening brace that only exists to scope the size command
+    # (e.g. "{\footnotesize ... }" wrapping a table): the matching "}" is already dropped
+    # below, so leaving the "{" behind would render as a stray brace above the table.
+    text = re.sub(r'\{?\s*\\(?:centering|footnotesize|small|large|Huge|huge|tiny)\b', '', text)
     text = re.sub(r'\\begin\{center\}|\\end\{center\}|\\begin\{flushleft\}|\\end\{flushleft\}|\\begin\{flushright\}|\\end\{flushright\}', '', text)
     text = re.sub(r'\\scalebox\{.*?\}\s*\{', '', text)
     # Remove trailing brace from scalebox if it follows a table
@@ -151,8 +160,10 @@ def clean_latex(text):
         math_blocks.append(match.group(0))
         return placeholder
 
-    # Remove LaTeX comments (would otherwise strip e.g. "100%; margin:..." after "width: 100")
-    text = re.sub(r'(?<!\\)%.*$', '', text, flags=re.MULTILINE)
+    # Remove LaTeX comments (would otherwise strip e.g. "100%; margin:..." after "width: 100").
+    # Stop at "<" as well as newline, so a "%" that precedes an HTML tag (e.g. a subtitle
+    # ending in "...8,76%?</h3>") doesn't eat the closing tag along with the comment.
+    text = re.sub(r'(?<!\\)%[^<\n]*', '', text)
 
     # 1. Convert tables BEFORE protecting math, so \begin{table}...\end{table} and
     # \begin{tabular} are converted to HTML and not mistaken for math blocks.

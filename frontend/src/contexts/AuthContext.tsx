@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
 
 interface AuthContextProps {
     children: React.ReactNode
@@ -16,7 +16,7 @@ export default AuthContext
 
 export function AuthContextProvider({ children }: AuthContextProps) {
 
-    const [isAuthenticated, setIsAuthenticated] = useState(false)
+    const [isAuthenticated, setIsAuthenticated] = useState(() => !!localStorage.getItem('@TUTOR-PE-AUTH'))
 
     function signIn(jwtToken: string) {
         localStorage.setItem('@TUTOR-PE-AUTH', jwtToken)
@@ -27,13 +27,6 @@ export function AuthContextProvider({ children }: AuthContextProps) {
         localStorage.removeItem('@TUTOR-PE-AUTH')
         setIsAuthenticated(false)
     }
-
-    useEffect(() => {
-        const token = localStorage.getItem('@TUTOR-PE-AUTH');
-        if (token) {
-            setIsAuthenticated(true);
-        }
-    }, []);
 
     return (
         <AuthContext.Provider

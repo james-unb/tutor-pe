@@ -165,19 +165,27 @@ def split_statement_and_alternatives(raw_enunciado: str):
 
 def normalize_gabarito_solucao(solucao_raw: str, alternativas_list: list) -> tuple:
     """
-    Ensure solution contains ")} ... Verdadeiro ..." for backend/frontend gabarito.
-    Returns (solucao_normalized, gabarito_letra)
+    Detect the gabarito (correct letter) from a ")} Falso ... Verdadeiro ..." answer-key
+    marker left over from the exam source's alternative-selector markup, wherever that
+    marker appears in the extracted text.
+    Returns (solucao_normalized, gabarito_letra) where solucao_normalized never contains
+    the raw marker - it is answer-key bookkeeping, not part of the solution explanation,
+    and was otherwise leaking verbatim into what students read and what gets sent as
+    context to the AI tutor.
     """
     if not solucao_raw or not solucao_raw.strip():
-        return ")} Falso Falso Falso Falso Falso", None
+        return "", None
 
     # Already has the pattern (check explicitly for ")} Falso" or ")} Verdadeiro" to avoid matching \labelenumii)
     if ')} Falso' in solucao_raw or ')} Verdadeiro' in solucao_raw:
-        partes_solucao = solucao_raw.split(")}")[-1].strip().split()
+        head, _, tail = solucao_raw.rpartition(')}')
+        partes_solucao = tail.strip().split()
+        gabarito = None
         for idx, word in enumerate(partes_solucao):
             if "Verdadeiro" in word:
-                return solucao_raw, chr(65 + idx)
-        return solucao_raw, None
+                gabarito = chr(65 + idx)
+                break
+        return head.strip(), gabarito
 
     # Detect last enumerate in solution with \item Falso / \item Verdadeiro (order = A..E)
     all_enums = re.findall(
@@ -193,17 +201,13 @@ def normalize_gabarito_solucao(solucao_raw: str, alternativas_list: list) -> tup
             re.DOTALL | re.IGNORECASE,
         )
         if len(items) >= 5:
-            arr = []
             gabarito = None
             for idx, t in enumerate(items[:5]):
                 if 'Verdadeiro' in t:
-                    arr.append('Verdadeiro')
                     gabarito = chr(65 + idx)
-                else:
-                    arr.append('Falso')
+                    break
             if gabarito:
-                suffix = ')} ' + ' '.join(arr)
-                return solucao_raw.strip() + ' ' + suffix, gabarito
+                return solucao_raw.strip(), gabarito
 
     # Try to detect "letra [A-E]" or "alternativa [A-E]" or "(A)" etc.
     letra_match = re.search(
@@ -213,11 +217,7 @@ def normalize_gabarito_solucao(solucao_raw: str, alternativas_list: list) -> tup
     )
     if letra_match:
         letter = letra_match.group(1).upper()
-        idx = ord(letter) - ord('A')
-        arr = ['Falso'] * 5
-        arr[idx] = 'Verdadeiro'
-        suffix = ')} ' + ' '.join(arr)
-        return solucao_raw.strip() + ' ' + suffix, letter
+        return solucao_raw.strip(), letter
 
     # Unknown format: keep original; backend may not infer gabarito
     return solucao_raw.strip(), None
